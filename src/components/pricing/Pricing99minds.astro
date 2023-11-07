@@ -20,9 +20,9 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
   <div class="pb-24 lg:pb-32">
     <!-- Here starts the mobile pricing table -->
     <div class="block lg:hidden">
-      <div class="mx-s mt-8">
+      <div class="mx-auto mt-8">
         <div
-          class="flex flex-col max-w-xl p-8 mx-auto mb-8 text-white border-0 shadow-sm">
+          class="flex flex-col max-w-s p-8 mx-auto mb-8 text-white border-0 shadow-sm">
           <div class="text-lg font-medium leading-6 text-white">
             Starter
             <span
@@ -1002,47 +1002,61 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
     <!---- Here starts the Desktop pricing table -->
     <section class="relative hidden lg:block">
       <div
-        class="max-w-6xl p-20 mx-auto overflow-hidden border border-white/5 rounded-3xl bg-vulcan-900">
+        class="max-w-6xl p-10 mx-auto overflow-hidden border border-white/5 rounded-3xl bg-vulcan-900">
         <table class="w-full mx-auto text-white bg-vulcan-900">
           <thead>
-            <tr class="text-left align-top">
+            <tr class="text-center align-top">
               <th class=""></th>
-              <th class="w-1/4 px-2">
+              <th class="w-1/6 px-2">
                 <div class="text-lg font-medium leading-6 text-white">
-                  Hobby
-                  <span
+                  Lite
+                  <!---<span
                     class="inline-flex float-right items-center px-3 py-0.5 rounded-md text-sm font-medium text-white bg-vulcan-800">
                     -20%
-                  </span>
+                  </span>--->
                 </div>
-                <div class="pr-2 mt-4 mb-2">
+                <!---<div class="pr-2 mt-4 mb-2">
                   <p class="mt-6 text-sm font-normal text-vulcan-300">
                     For individuals
                   </p>
-                </div>
+                </div>--->
               </th>
-              <th class="w-1/4 px-2">
+              <th class="w-1/6 px-2">
                 <div class="text-lg font-medium leading-6 text-indigo-400">
-                  Pro
+                  Basic
                 </div>
                 <div class="pr-2 mt-4 mb-2">
                   <p class="mt-6 text-sm font-normal text-vulcan-300">
-                    For medium businesses
+                    
                   </p>
                 </div>
               </th>
-              <th class="w-1/4 px-2">
+              <th class="w-1/6 px-2">
+                <div class="text-lg font-medium leading-6 text-white">
+                  Pro
+                </div>
+                
+              </th>
+              <th class="w-1/6 px-2">
+                <div class="text-lg font-medium leading-6 text-white">
+                  Ultra
+                </div>
+                
+              </th>
+              <th class="w-1/6 px-2">
+                <div class="text-lg font-medium leading-6 text-white">
+                  Premium
+                </div>
+                
+              </th>
+              <th class="w-1/6 px-2">
                 <div class="text-lg font-medium leading-6 text-white">
                   Enterprise
                 </div>
-                <div class="pr-2 mt-4 mb-2">
-                  <p class="mt-6 text-sm font-normal text-vulcan-300">
-                    For organizations
-                  </p>
-                </div>
+                
               </th>
             </tr>
-            <tr class="text-left align-middle">
+            <!---<tr class="text-left align-middle">
               <th class=""></th>
               <th class="w-1/4 px-2">
                 <div>
@@ -1077,45 +1091,71 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
                   <p class="leading-5">Talk to us</p>
                 </div>
               </th>
-            </tr>
+            </tr>--->
             <tr class="text-left align-top">
               <th class="px-2"></th>
-              <th class="w-1/4 px-2">
+              <th class="w-1/6 px-2">
                 <div class="w-full py-2 mb-4">
                   <a
                     class="flex items-center justify-center h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">
-                    Get started for free
+                    Get started
                   </a>
                 </div>
               </th>
-              <th class="w-1/4 px-2">
+              <th class="w-1/6 px-2">
                 <div class="w-full py-2 mb-4">
                   <a
-                    class="flex items-center justify-center h-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500">
-                    Get in touch
+                    class="flex items-center justify-center h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">
+                    Get started
                   </a>
                 </div>
               </th>
-              <th class="w-1/4 px-2">
+              <th class="w-1/6 px-2">
                 <div class="w-full py-2 mb-4">
                   <a
                     class="flex items-center justify-center h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"
                     id="billing-plan-get-in-touch-enterprise">
-                    Get in touch
+                    Get started
+                  </a>
+                </div>
+              </th>
+              <th class="w-1/6 px-2">
+                <div class="w-full py-2 mb-4">
+                  <a
+                    class="flex items-center justify-center h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"
+                    id="billing-plan-get-in-touch-enterprise">
+                    Get started
+                  </a>
+                </div>
+              </th>
+              <th class="w-1/6 px-2">
+                <div class="w-full py-2 mb-4">
+                  <a
+                    class="flex items-center justify-center h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"
+                    id="billing-plan-get-in-touch-enterprise">
+                    Get started
+                  </a>
+                </div>
+              </th>
+              <th class="w-1/6 px-2">
+                <div class="w-full py-2 mb-4">
+                  <a
+                    class="flex items-center justify-center h-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500">
+                    Contact us
                   </a>
                 </div>
               </th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-white/10">
-            <tr>
+          <tbody class="divide-y divide-white/10 ">
+            <!---<tr class="mt-10">
               <th
                 class="py-3 text-base font-medium text-left text-white"
                 colspan="4"
                 scope="colgroup">
                 Product features
               </th>
-            </tr>
+            </tr>--->
             <tr>
               <th class="py-3 text-sm font-normal text-left text-vulcan-300">
                 Analytics
