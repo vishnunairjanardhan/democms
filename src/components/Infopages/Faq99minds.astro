@@ -1,0 +1,200 @@
+---
+import Verticalgrid from "../assets/Verticalgrid.astro";
+---
+
+<section class="relative">
+  <Verticalgrid />
+  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:pt-24">
+    <div class="max-w-xl mx-auto text-center">
+      <p
+        class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
+        Frequent questions and answers
+      </p>
+      <h2 class="mt-8 text-3xl font-normal tracking-tight text-white">
+        Fully automated, fully supported
+      </h2>
+      <p class="mx-auto mt-4 text-base text-vulcan-300">
+        Self-serve or work with a representative, we're here to help with the
+        capital journey that works for you.
+      </p>
+    </div>
+    <div class="relative mt-10">
+      <div
+        class="relative mx-auto border rounded-3xl border-white/5 bg-vulcan-900"
+        x-data="{selected:null}">
+        <ul class="list-none" role="list" @click="open = !open">
+          <li class="relative border-b border-white/5">
+            <button
+              type="button"
+              class="w-full px-8 py-6 text-left"
+              @click="selected !== 1 ? selected = 1 : selected = null">
+              <div class="flex items-center justify-between text-white group">
+                <p
+                  class="text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
+                  What if I need to add someone new to my team?
+                </p>
+                <svg
+                  :class="{'rotate-180': open, 'rotate-0': !open}"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline w-5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
+                  viewBox="0 0 20 20"
+                  fill="currentColor">
+                  <path
+                    fill-rule="evenodd"
+                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="relative overflow-hidden transition-all duration-700 max-h-0"
+              style=""
+              x-ref="container1"
+              x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+              <div class="px-8 pt-4 pb-20 text-sm text-vulcan-300">
+                If you need to add new members, you can do that. The amount charged per new user will be the same for the other members included in your plan.
+              </div>
+            </div>
+          </li>
+          <li class="relative border-b border-white/5">
+            <button
+              type="button"
+              class="w-full px-8 py-6 text-left"
+              @click="selected !== 2 ? selected = 2 : selected = null">
+              <div class="flex items-center justify-between text-white group">
+                <p
+                  class="text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
+                  Can I change plans anytime I want? How long are the contracts?
+                </p>
+                <svg
+                  :class="{'rotate-180': open, 'rotate-0': !open}"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline w-5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
+                  viewBox="0 0 20 20"
+                  fill="currentColor">
+                  <path
+                    fill-rule="evenodd"
+                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="relative overflow-hidden transition-all duration-700 max-h-0"
+              style=""
+              x-ref="container2"
+              x-bind:style="selected == 2 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
+              <div class="px-8 pt-4 pb-20 text-sm text-vulcan-300">
+                The contracts can be monthly or yearly. You can start/stop or make changes to your plan any time you want – however, we won't give refunds for cancellation or plan downgrades.
+              </div>
+            </div>
+          </li>
+          <li class="relative border-b border-white/5">
+            <button
+              type="button"
+              class="w-full px-8 py-6 text-left"
+              @click="selected !== 3 ? selected = 3 : selected = null">
+              <div class="flex items-center justify-between text-white group">
+                <p
+                  class="text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
+                  Do I need any advanced technical skills or professional support services to implement 99minds?
+                </p>
+                <svg
+                  :class="{'rotate-180': open, 'rotate-0': !open}"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline w-5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
+                  viewBox="0 0 20 20"
+                  fill="currentColor">
+                  <path
+                    fill-rule="evenodd"
+                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="relative overflow-hidden transition-all duration-700 max-h-0"
+              style=""
+              x-ref="container2"
+              x-bind:style="selected == 3 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
+              <div class="px-8 pt-4 pb-20 text-sm text-vulcan-300">
+                99minds is designed to be simple and easy, allowing anyone to configure their own processes and workflows. However, in large and complex operations some companies like to have the support of our professional consultants – in this case we can recommend companies that offer those services.
+              </div>
+            </div>
+          </li>
+          <li class="relative border-b border-white/5">
+            <button
+              type="button"
+              class="w-full px-8 py-6 text-left"
+              @click="selected !== 4 ? selected = 4 : selected = null">
+              <div class="flex items-center justify-between text-white group">
+                <p
+                  class="text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
+                  Will my data be private and safe?
+                </p>
+                <svg
+                  :class="{'rotate-180': open, 'rotate-0': !open}"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline w-5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
+                  viewBox="0 0 20 20"
+                  fill="currentColor">
+                  <path
+                    fill-rule="evenodd"
+                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="relative overflow-hidden transition-all duration-700 max-h-0"
+              style=""
+              x-ref="container2"
+              x-bind:style="selected == 4 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
+              <div class="px-8 pt-4 pb-20 text-sm text-vulcan-300">
+                Keeping your data secure is a top priority at 99minds. Review our security protocols and how your business and customer data will be protected in our security whitepaper.
+              </div>
+            </div>
+          </li>
+          <li class="relative border-b border-white/5">
+            <button
+              type="button"
+              class="w-full px-8 py-6 text-left"
+              @click="selected !== 5 ? selected = 5 : selected = null">
+              <div class="flex items-center justify-between text-white group">
+                <p
+                  class="text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
+                  Does 99minds integrate with other systems and applications?
+                </p>
+                <svg
+                  :class="{'rotate-180': open, 'rotate-0': !open}"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline w-5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
+                  viewBox="0 0 20 20"
+                  fill="currentColor">
+                  <path
+                    fill-rule="evenodd"
+                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="relative overflow-hidden transition-all duration-700 max-h-0"
+              style=""
+              x-ref="container2"
+              x-bind:style="selected == 5 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
+              <div class="px-8 pt-4 pb-20 text-sm text-vulcan-300">
+                Yes. There are 4 ways to integrate 99minds with your favorite tools:</br>
+1. Custom Integrations with any software you need. Request a quote here.</br>
+2. Native Integrations with Bigcommerce, Shopify, Heartland, Vend, Hike, Retail Pro, Retail Pro Prism, SquareUp POS, Miva, Cart.com and many more.</br>
+3. Via API</br>
+4. Via Zapier
+              </div>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
