@@ -1,10 +1,11 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
-
-import Pricing99minds from "../../components/pricing/Pricing99minds.astro";
-import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
-import Faq99minds from "../../components/Infopages/Faq99minds.astro";
-import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HeroCoupons from "../components/heros/HeroCoupons.astro";
+import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro";
+import FeatureCoupons from "../components/features/FeatureCoupons.astro";
+import Testimonial99minds from "../components/testimonials/Testimonial99minds.astro";
+import CtaThree99minds from "../components/ctas/CtaThree99minds.astro";
+import Integrations99minds from "../components/integrations/Integrations99minds.astro";
 
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -13,7 +14,7 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="Pricing 02"
+  title="Landing page 3"
   description="Your site description goes here"
   canonical="https://www.lexingtonthemes.com"
   openGraph={{
@@ -47,8 +48,10 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
 <BaseLayout>
-  <Pricing99minds />
-  <Faq99minds />
+  <HeroCoupons />
   <LogoCloudOne />
+  <FeatureCoupons />
+  <Testimonial99minds />
+  <Integrations99minds />
   <CtaThree99minds />
 </BaseLayout>
