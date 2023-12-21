@@ -1,6 +1,5 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import HeroThree from "../components/heros/HeroThree.astro";
 import HeroCasestudy from "../components/heros/HeroCasestudy.astro";
 import LogoCloud from "../components/testimonials/LogoCloud.astro";
 import LogoCloudTwo from "../components/testimonials/LogoCloudTwo.astro";
@@ -9,7 +8,7 @@ import LogoCloudFour from "../components/testimonials/LogoCloudFour.astro";
 import FeatureFive_NewHome from "../components/features/FeatureFive_NewHome.astro";
 import FeatureNine from "../components/features/FeatureNine.astro";
 import FeatureCasestudy from "../components/features/FeatureCasestudy.astro";
-import FeatureTwo from "../components/features/FeatureTwo.astro";
+import FeatureCasestudy from "../components/features/FeatureCasestudy.astro";
 import FeatureSeven from "../components/features/FeatureSeven.astro";
 import FeatureTen from "../components/features/FeatureTen.astro";
 import Testimonial99minds from "../components/testimonials/Testimonial99minds.astro";
@@ -18,6 +17,7 @@ import FaqTwo from "../components/Infopages/FaqTwo.astro";
 import CtaThree99minds from "../components/ctas/CtaThree99minds.astro";
 import Integrations99minds from "../components/integrations/Integrations99minds.astro";
 import CasestudyDetail from "../components/infopages/CasestudyDetail.astro";
+
 
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -63,7 +63,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <HeroCasestudy />
   <Casestudytest />
   <CasestudyDetail />
-  <Testimonial99minds />
-  <Integrations99minds />
-  <CtaThree99minds />
+  <!---<Testimonial99minds />
+  <Integrations99minds />--->
+  <FeatureCasestudy />
 </BaseLayout>
