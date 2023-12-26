@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import CasestudyLayout from "../layouts/CasestudyLayout.astro";
 import HeroCasestudy from "../components/heros/HeroCasestudy.astro";
 import LogoCloud from "../components/testimonials/LogoCloud.astro";
 import LogoCloudTwo from "../components/testimonials/LogoCloudTwo.astro";
@@ -59,11 +59,9 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
+<CasestudyLayout>
   <HeroCasestudy />
   <Casestudytest />
   <CasestudyDetail />
-  <!---<Testimonial99minds />
-  <Integrations99minds />--->
   <FeatureCasestudy />
-</BaseLayout>
+</CasestudyLayout>

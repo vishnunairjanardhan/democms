@@ -1,0 +1,15 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import ContactWidget from "../components/forms/ContactWidget.astro";
+---
+
+<html
+  lang="en"
+  class="scroll-smooth selection:bg-indigo-500 selection:text-white">
+  <head> <BaseHead /></head>
+  <body class="bg-vulcan-900">
+    <ContactWidget />
+    <slot />
+    
+  </body>
+</html>
