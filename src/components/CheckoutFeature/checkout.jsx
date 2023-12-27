@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 const CheckoutPage = () => {
   const [denomination, setDenomination] = useState(0);
   const [quantity1, setQuantity1] = useState(1);
@@ -12,11 +11,11 @@ const CheckoutPage = () => {
   const Shipping = 3.00;
   const [isOpen, setIsOpen] = useState(false);
   const toggleDropdown = () => {
-      setIsOpen(!isOpen);
-    };
+    setIsOpen(!isOpen);
+  };
   const closeDropdown = () => {
-      setIsOpen(false);
-    };
+    setIsOpen(false);
+  };
   useEffect(() => {
     const newSubtotal = ProductValue1 * quantity1 + ProductValue2 * quantity2;
     setSubtotal(newSubtotal);
@@ -68,7 +67,7 @@ const CheckoutPage = () => {
   const handleGiftCardRedeem = (giftCardCode) => {
     if (giftCardCode === '1234567890') {
       const giftCardDiscount = 10.00;
-      if (totalAmount === 0||giftCardRedeemed==true) {
+      if (totalAmount === 0 || giftCardRedeemed == true) {
         console.error('Insufficient funds for gift card redemption');
       } else {
         setDenomination((prevDenomination) => prevDenomination + giftCardDiscount);
@@ -78,7 +77,7 @@ const CheckoutPage = () => {
     } else {
       console.error('Invalid gift card code', giftCardCode);
     }
-  };  
+  };
   const handleCodeRedeem = (couponCode) => {
     if (couponCode === '30OFF') {
       const couponDiscount = 30.00;
@@ -91,11 +90,11 @@ const CheckoutPage = () => {
     } else {
       console.error('Invalid coupon code', couponCode);
     }
-  };  
+  };
   const handleCouponApply = (couponCode, discount) => {
     if (!appliedCoupons.includes(couponCode)) {
       const newDenomination = denomination + discount;
-      if (totalAmount===0) {
+      if (totalAmount === 0) {
         console.error('Insufficient funds for coupon redemption');
       } else {
         setDenomination(newDenomination);
@@ -136,12 +135,11 @@ const CheckoutPage = () => {
       updateTotal();
     }
   };
-
   const ProductRow = ({ image, name, price, quantity, onIncrement, onDecrement }) => (
-    <tr>
+    <tr className="lg:w-full">
       <td className="py-4">
-        <div className="flex items-center">
-          <img className="h-16 w-16 mr-4 rounded-md" src={image} alt="Product image" />
+        <div className="flex flex-col lg:flex-row items-center">
+          <img className="h-16 w-16 lg:mr-4 lg:rounded-md" src={image} alt="Product image" />
           <span className="font-semibold">{name}</span>
         </div>
       </td>
@@ -158,42 +156,10 @@ const CheckoutPage = () => {
   );
   return (
     <article className="relative py-12 mx-auto max-w-7xl lg:py-24 w-full">
-    <div className="flex justify-center items-center">
-    <div className="pt-4 " onBlur={closeDropdown} tabIndex={0}>
-      <div className="relative text-white justify-center">
-        <button onClick={toggleDropdown} className="inline-flex items-center gap-2 px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50">
-          <span>Try Coupons and Giftcard</span>
-          <svg
-            className={`icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            strokeWidth="2"
-            stroke="currentColor"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M6 9l6 6l6 -6"></path>
-          </svg>
-        </button>
-        {isOpen && (
-          <div className="mt-2 origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex={-1}>
-            <div className="py-1 bg-vulcan-900 rounded-xl" role="none">
-              <p className="text-white block px-4 py-2 text-sm hover:text-indigo-400" role="menuitem" tabIndex={-1} id="menu-item-1">
-                Try Gift Card use code- 1234567890
-              </p>
-              <p className="text-white block px-4 py-2 text-sm hover:text-indigo-400" role="menuitem" tabIndex={-1} id="menu-item-2">
-                Try Coupon use code- 30OFF
-              </p>
-            </div>
-          </div>
-        )}
-      </div>
-    </div>
-    </div>
-      <div className="flex mt-8 space-x-4">
-        <div className="flex-1 border p-4 rounded-md bg-gray-100">
+      
+      <div className="lg:flex"> 
+        <div className="lg:w-1/2 lg:pr-4 flex flex-col flex-1">
+        <div className="border p-4 rounded-md bg-gray-100 h-full">
           <h2 className="text-lg font-medium">Order Details</h2>
           <br />
           <div className="md:w-full">
@@ -253,9 +219,45 @@ const CheckoutPage = () => {
                 <span className="font-semibold">${totalAmount}</span>
               </div>
             </div>
+            <div className="flex flex-col lg:flex-row items-center justify-center space-y-4 lg:space-y-0">
+        <div className="lg:pt-4" onBlur={closeDropdown} tabIndex={0}>
+          <div className="relative text-white justify-center">
+            <button onClick={toggleDropdown} className="inline-flex items-center gap-2 px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-black/50">
+              <span>Try Coupons and Giftcard</span>
+              <svg
+                className={`icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M6 9l6 6l6 -6"></path>
+              </svg>
+            </button>
+            {isOpen && (
+              <div className="absolute w-52 right-0 z-50 mt-2 w-full origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex={-1}>
+                <div className="py-1 bg-vulcan-900 rounded-xl" role="none">
+                  <p className="text-white block px-4 py-2 text-sm hover:text-indigo-400" role="menuitem" tabIndex={-1} id="menu-item-1">
+                    Try Gift Card use code- 1234567890
+                  </p>
+                  <p className="text-white block px-4 py-2 text-sm hover:text-indigo-400" role="menuitem" tabIndex={-1} id="menu-item-2">
+                    Try Coupon use code- 30OFF
+                  </p>
+                </div>
+              </div>
+            )}
           </div>
         </div>
-        <form  method="post" className="flex-1 space-y-2 border p-4 rounded-md bg-white">
+      </div>
+          </div>
+        </div>
+        </div>
+        <div className="lg:w-1/2 lg:pl-4 mt-4 lg:mt-0 flex flex-col flex-1">
+        <form method="post" className="flex-1 space-y-2 border p-4 rounded-md bg-white">
           <div>
             <button type="submit" className="bg-black text-white p-3 rounded-md w-full">
               99Wallet
@@ -379,40 +381,41 @@ const CheckoutPage = () => {
             </div>
           </div>
           <p className="text-gray-500 text-center pt-4">---Or Pay Using Card---</p>
-          <form action="/submit-order" class="flex flex-wrap gap-3 w-full p-5 ">
-            <label class="relative w-full flex flex-col">
-              <span class="mb-1.5">Card number</span>
-              <input class="rounded-md peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300" type="text" name="card_number" placeholder="4242 4242 4242 4242" />
-              <svg xmlns="http://www.w3.org/2000/svg" class="absolute bottom-0 left-0 -mb-0.5 transform translate-x-1/2 -translate-y-1/2 text-black peer-placeholder-shown:text-gray-300 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+          <form method="post" action="/submit-order" className="flex-1 space-y-2 border p-4 rounded-md bg-white mt-4 lg:mt-0">
+          <label className="relative w-full flex flex-col">
+            <span className="mb-1.5">Card number</span>
+            <input className="rounded-md peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300" type="text" name="card_number" placeholder="4242 4242 4242 4242" />
+            <svg xmlns="http://www.w3.org/2000/svg" className="absolute bottom-0 left-0 -mb-0.5 transform translate-x-1/2 -translate-y-1/2 text-black peer-placeholder-shown:text-gray-300 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+            </svg>
+          </label>
+          <div className="flex flex-col lg:flex-row gap-4 w-full">
+            <label className="relative flex-1 flex flex-col">
+              <span className="mb-1.5">Expire date</span>
+              <input className="rounded-md peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300" type="text" name="expire_date" placeholder="MM/YY" />
+              <svg xmlns="http://www.w3.org/2000/svg" className="absolute bottom-0 left-0 -mb-0.5 transform translate-x-1/2 -translate-y-1/2 text-black peer-placeholder-shown:text-gray-300 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
             </label>
-            <div class="flex gap-4 w-full">
-              <label class="relative flex-1 flex flex-col">
-                <span class="mb-1.5">Expire date</span>
-                <input class="rounded-md peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300" type="text" name="expire_date" placeholder="MM/YY" />
-                <svg xmlns="http://www.w3.org/2000/svg" class="absolute bottom-0 left-0 -mb-0.5 transform translate-x-1/2 -translate-y-1/2 text-black peer-placeholder-shown:text-gray-300 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-              </label>
-              <label class="relative flex-1 flex flex-col">
-                <span class="flex items-center gap-3 mb-1.5">
-                  CVC/CVV
-                  <span class="relative group">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </span>
+            <label className="relative flex-1 flex flex-col">
+              <span className="flex items-center gap-3 mb-1.5">
+                CVC/CVV
+                <span className="relative group">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </span>
-                <input class="rounded-md peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300" type="text" name="card_cvc" placeholder="&bull;&bull;&bull;" />
-                <svg xmlns="http://www.w3.org/2000/svg" class="absolute bottom-0 left-0 -mb-0.5 transform translate-x-1/2 -translate-y-1/2 text-black peer-placeholder-shown:text-gray-300 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                </svg>
-              </label>
-            </div>
-            <div className='w-full'>
-              <button type="submit" class="bg-black text-white p-3 rounded-md w-full">Pay</button>
-            </div>
-          </form>
+              </span>
+              <input className="rounded-md peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300" type="text" name="card_cvc" placeholder="•••" />
+              <svg xmlns="http://www.w3.org/2000/svg" className="absolute bottom-0 left-0 -mb-0.5 transform translate-x-1/2 -translate-y-1/2 text-black peer-placeholder-shown:text-gray-300 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+              </svg>
+            </label>
+          </div>
+          <div className='w-full'>
+            <button type="submit" className="bg-black text-white p-3 rounded-md w-full">Pay</button>
+          </div>
         </form>
+        </form>
+        </div>
       </div>
     </article>
   );
