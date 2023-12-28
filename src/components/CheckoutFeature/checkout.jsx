@@ -109,7 +109,7 @@ const CheckoutPage = () => {
   };
   const handleLoyaltyPointsRedeem = () => {
     const loyaltyPointsDiscount = 20.00;
-    if (total ===0) {
+    if (redeemablePoints < 20 || totalAmount===0 ) {
       console.error('Insufficient funds or points for loyalty points redemption');
     } else {
       const remainingPoints = redeemablePoints - (loyaltyPointsDiscount / 5) * 100;
