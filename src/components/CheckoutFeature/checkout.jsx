@@ -264,7 +264,14 @@ const CheckoutPage = () => {
         <div className="lg:w-1/2 lg:pl-4 mt-4 lg:mt-0 flex flex-col flex-1">
         <form method="post" className="flex-1 space-y-2 border p-4 rounded-md bg-white">
           <div>
-            <button type="submit" className="bg-black text-white p-3 rounded-md w-full">
+            <button className="bg-black text-white p-3 rounded-md w-full" onClick={() => {window.location.reload();}}
+
+
+
+
+
+
+>
               99Wallet
             </button>
           </div>
