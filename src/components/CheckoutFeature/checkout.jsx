@@ -137,25 +137,28 @@ const CheckoutPage = () => {
       updateTotal();
     }
   };
-  const ProductRow = ({ image, name, price, quantity, onIncrement, onDecrement }) => (
-    <tr className="lg:w-full">
-      <td className="py-4">
-        <div className="flex flex-col lg:flex-row items-center">
-          <img className="h-16 w-16 lg:mr-4 lg:rounded-md" src={image} alt="Product image" />
-          <span className="font-semibold">{name}</span>
-        </div>
-      </td>
-      <td className="py-4">${price}</td>
-      <td className="py-4">
-        <div className="flex items-center">
-          <button onClick={onDecrement} className="border rounded-md py-2 px-4 mr-2">-</button>
-          <span className="text-center w-8">{quantity}</span>
-          <button onClick={onIncrement} className="border rounded-md py-2 px-4 ml-2">+</button>
-        </div>
-      </td>
-      <td className="py-4">${price * quantity}</td>
-    </tr>
-  );
+  const ProductRow = ({ image, name, price, quantity, onIncrement, onDecrement }) => {
+    const formattedPrice = typeof price === 'number' ? price.toFixed(2) : price;
+    return (
+      <tr className="lg:w-full">
+        <td className="py-4">
+          <div className="flex flex-col lg:flex-row items-center">
+            <img className="h-16 w-16 lg:mr-4 lg:rounded-md" src={image} alt="Product image" />
+            <span className="font-semibold">{name}</span>
+          </div>
+        </td>
+        <td className="py-4">${formattedPrice}</td>
+        <td className="py-4">
+          <div className="flex items-center">
+            <button onClick={onDecrement} className="border rounded-md py-2 px-4 mr-2">-</button>
+            <span className="text-center w-8">{quantity}</span>
+            <button onClick={onIncrement} className="border rounded-md py-2 px-4 ml-2">+</button>
+          </div>
+        </td>
+        <td className="py-4">${(price * quantity).toFixed(2)}</td>
+      </tr>
+    );
+  };
   return (
     <article className="relative py-12 mx-auto max-w-7xl lg:py-24 w-full">
       <div className="lg:flex"> 
@@ -212,14 +215,14 @@ const CheckoutPage = () => {
                   <ProductRow
                     image="/assets/product.jpg"
                     name="Product1"
-                    price={ProductValue1}
+                    price={ProductValue1.toFixed(2)}
                     quantity={quantity1}
                     onIncrement={() => increment(1)}
                     onDecrement={() => decrement(1)} />
                   <ProductRow
                     image="/assets/product2.jpg"
                     name="Product2"
-                    price={ProductValue2}
+                    price={ProductValue2.toFixed(2)}
                     quantity={quantity2}
                     onIncrement={() => increment(2)}
                     onDecrement={() => decrement(2)} />
@@ -232,26 +235,26 @@ const CheckoutPage = () => {
               <h2 className="text-lg font-semibold mb-4">Summary</h2>
               <div className="flex justify-between mb-2">
                 <span>Subtotal</span>
-                <span>${subtotal}</span>
+                <span>${subtotal.toFixed(2)}</span>
               </div>
               <div className="flex justify-between mb-2">
                 <span>Taxes</span>
-                <span>${Taxes}</span>
+                <span>${Taxes.toFixed(2)}</span>
               </div>
               <div className="flex justify-between mb-2">
                 <span>Shipping</span>
-                <span>${Shipping}</span>
+                <span>${Shipping.toFixed(2)}</span>
               </div>
               {denomination > 0 && (
                 <div className="flex justify-between mb-2">
                   <span className="font-semibold">Redeemed Amount</span>
-                  <span className="font-semibold">${denomination}</span>
+                  <span className="font-semibold">${denomination.toFixed(2)}</span>
                 </div>
               )}
               <hr className="my-2" />
               <div className="flex justify-between mb-2">
                 <span className="font-semibold">Total</span>
-                <span className="font-semibold">${totalAmount}</span>
+                <span className="font-semibold">${totalAmount.toFixed(2)}</span>
               </div>
             </div>
             
@@ -261,7 +264,14 @@ const CheckoutPage = () => {
         <div className="lg:w-1/2 lg:pl-4 mt-4 lg:mt-0 flex flex-col flex-1">
         <form method="post" className="flex-1 space-y-2 border p-4 rounded-md bg-white">
           <div>
-            <button type="submit" className="bg-black text-white p-3 rounded-md w-full">
+            <button className="bg-black text-white p-3 rounded-md w-full" onClick={() => {window.location.reload();}}
+
+
+
+
+
+
+>
               99Wallet
             </button>
           </div>
@@ -369,7 +379,7 @@ const CheckoutPage = () => {
             <h2 className="text-lg font-medium">Store Credits</h2>
             <div className="flex space-x-2">
               <div className="flex-1 border p-2 rounded-md bg-white">
-                <h1 className="text-sm text-gray-800">You have ${storeCredits} in your store credits</h1>
+                <h1 className="text-sm text-gray-800">You have ${storeCredits.toFixed(2)} in your store credits</h1>
               </div>
               <div>
                 <button
