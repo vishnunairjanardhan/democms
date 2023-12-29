@@ -48,6 +48,7 @@ const CheckoutPage = () => {
     }
   };
   const [giftCardRedeemed, setGiftCardRedeemed] = useState(false);
+  const [couponRedeemed, setCouponRedeemed] = useState(false);
   const [giftCardCode, setGiftCardCode] = useState('');
   const [couponCode, setCouponCode] = useState('');
   const [openCoupons, setOpenCoupons] = useState(false);
@@ -81,11 +82,12 @@ const CheckoutPage = () => {
   const handleCodeRedeem = (couponCode) => {
     if (couponCode === '30OFF') {
       const couponDiscount = 30.00;
-      if (totalAmount === 0) {
+      if (totalAmount === 0|| couponRedeemed == true) {
         console.error('Insufficient funds for coupon redemption');
       } else {
         setDenomination((prevDenomination) => prevDenomination + couponDiscount);
         updateTotal();
+        setCouponRedeemed(true);
       }
     } else {
       console.error('Invalid coupon code', couponCode);
@@ -107,7 +109,7 @@ const CheckoutPage = () => {
   };
   const handleLoyaltyPointsRedeem = () => {
     const loyaltyPointsDiscount = 20.00;
-    if (redeemablePoints < 20) {
+    if (redeemablePoints < 20 || totalAmount===0 ) {
       console.error('Insufficient funds or points for loyalty points redemption');
     } else {
       const remainingPoints = redeemablePoints - (loyaltyPointsDiscount / 5) * 100;
@@ -156,11 +158,44 @@ const CheckoutPage = () => {
   );
   return (
     <article className="relative py-12 mx-auto max-w-7xl lg:py-24 w-full">
-      
       <div className="lg:flex"> 
         <div className="lg:w-1/2 lg:pr-4 flex flex-col flex-1">
         <div className="border p-4 rounded-md bg-gray-100 h-full">
-          <h2 className="text-lg font-medium">Order Details</h2>
+          <div className="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
+          <h2 className="text-lg font-medium py-4">Order Details</h2>
+          <div className="lg:pt-4 relative">
+            <div className="text-white justify-center">
+              <button onClick={toggleDropdown} className="inline-flex items-center gap-2 px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-black/50">
+                <span>Try Coupons and Giftcard</span>
+                <svg
+                  className={`icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M6 9l6 6l6 -6"></path>
+                </svg>
+              </button>
+              {isOpen && (
+                <div className="absolute right-0 mt-2 w-full lg:w-52 z-50 origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex={-1}>
+                  <div className="py-1 bg-vulcan-900 rounded-xl" role="none">
+                    <p className="text-white block px-4 py-2 text-sm hover:text-indigo-400" role="menuitem" tabIndex={-1} id="menu-item-1">
+                      Try Gift Card use code- 1234567890
+                    </p>
+                    <p className="text-white block px-4 py-2 text-sm hover:text-indigo-400" role="menuitem" tabIndex={-1} id="menu-item-2">
+                      Try Coupon use code- 30OFF
+                    </p>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
           <br />
           <div className="md:w-full">
             <div className="bg-white rounded-lg shadow-md p-6 mb-4">
@@ -219,40 +254,7 @@ const CheckoutPage = () => {
                 <span className="font-semibold">${totalAmount}</span>
               </div>
             </div>
-            <div className="flex flex-col lg:flex-row items-center justify-center space-y-4 lg:space-y-0">
-        <div className="lg:pt-4" onBlur={closeDropdown} tabIndex={0}>
-          <div className="relative text-white justify-center">
-            <button onClick={toggleDropdown} className="inline-flex items-center gap-2 px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-black/50">
-              <span>Try Coupons and Giftcard</span>
-              <svg
-                className={`icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                strokeWidth="2"
-                stroke="currentColor"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M6 9l6 6l6 -6"></path>
-              </svg>
-            </button>
-            {isOpen && (
-              <div className="absolute w-52 right-0 z-50 mt-2 w-full origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex={-1}>
-                <div className="py-1 bg-vulcan-900 rounded-xl" role="none">
-                  <p className="text-white block px-4 py-2 text-sm hover:text-indigo-400" role="menuitem" tabIndex={-1} id="menu-item-1">
-                    Try Gift Card use code- 1234567890
-                  </p>
-                  <p className="text-white block px-4 py-2 text-sm hover:text-indigo-400" role="menuitem" tabIndex={-1} id="menu-item-2">
-                    Try Coupon use code- 30OFF
-                  </p>
-                </div>
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
+            
           </div>
         </div>
         </div>
