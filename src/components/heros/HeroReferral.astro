@@ -30,14 +30,41 @@
         <div class="max-w-xl text-center lg:text-left">
           <!---<p class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text"> Navy </p>--->
           <p class="mt-8 text-4xl font-normal tracking-tighter text-white sm:text-5xl">Referral Solution that work for you </p>
-          <p class="max-w-2xl mt-4 text-vulcan-300">Boost your organic sales by adding a customer referral program to your eCommerce & in-store </p>
+          <p class="max-w-2xl text-xl mt-4 text-vulcan-300">Boost your organic sales by adding a customer referral program to your eCommerce & in-store </p>
           <div class="flex flex-wrap items-center gap-2 mt-10">
-              <a href="#_" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+              <div x-data="{ open: false }" class="flex justify-center">
+              <!-- Trigger -->
+              <span x-on:click="open = true">
+                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
                 <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white">Get Started for Free</span>
-                </span>
-              </a>
+                <span class="relative text-white">Get Strated for free</span>
+                </span></button>
+                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-10 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
+                      
+                    <iframe
+                      src="../GetStarted"
+                      width="100%"
+                      height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly"
+                    ></iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
           </div>
         </div>
       </div>
