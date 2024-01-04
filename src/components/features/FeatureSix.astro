@@ -4,7 +4,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
 
 <section class="relative">
   <Verticalgrid />
-  <div class="relative max-w-8xl px-8 md:px-12 lg:px-32 mx-auto py-12 lg:py-24  space-y-24">
+  <div class="relative max-w-7xl px-8 md:px-12 lg:px-32 mx-auto py-12 lg:py-24  space-y-24">
     <div class="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
       <div class="2xl:px-20">
         <p
@@ -18,18 +18,40 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
           Seamless offline and online gift cards solution for elevating sales across all channels including online website, mobile apps, storefront, POS, and across multiple store locations. Empower your customers to send gifts via email, social media, SMS/Text, Print-at-Home, or physical gift cards.
         </p>
           <div class="flex flex-wrap items-center gap-2 mt-10">
-              <a href="#_" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+              <div x-data="{ open: false }" class="flex justify-center">
+              <!-- Trigger -->
+              <span x-on:click="open = true">
+                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
                 <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
                 <span class="relative text-white">Sign Up Free</span>
-                </span>
-              </a>
-              <a href="#_" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
-                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
-                <span class="relative text-white">Know More About Gift Cards</span>
-                </span>
-              </a>
+                </span></button>
+                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-10 w-screen overflow-y-visible" aria-labelledby="modal-title-5" style="display: none;">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-6xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-6 text-center">
+                      
+                    <iframe
+                      src="https://calendly.com/99minds"
+                      width="100%"
+                      height="650"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly"
+                    ></iframe>
+
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+ 
           </div>
       </div>
       
@@ -55,18 +77,39 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
           Generate millions of unique coupons in a few clicks. Customize them based on promo codes, prefixes, SKU items, and many more dynamic options. Set expiry dates and link individual customer IDs to single coupon to create highly personalized coupons. Fully integrated with our Loyalty management solution to create at scale campaigns.
         </p>
         <div class="flex flex-wrap items-center gap-2 mt-10">
-              <a href="#_" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+              <div x-data="{ open: false }" class="flex justify-center">
+              <!-- Trigger -->
+              <span x-on:click="open = true">
+                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
                 <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
                 <span class="relative text-white">Sign Up Free</span>
-                </span>
-              </a>
-              <a href="#_" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
-                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
-                <span class="relative text-white">Know More About Gift Cards</span>
-                </span>
-              </a>
+                </span></button>
+                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-10 w-screen overflow-y-visible" aria-labelledby="modal-title-5" style="display: none;">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-6xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-6 text-center">
+                      
+                    <iframe
+                      src="https://calendly.com/99minds"
+                      width="100%"
+                      height="650"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly"
+                    ></iframe>
+
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
       </div>
       <div class="h-full">
@@ -91,18 +134,39 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
           Enable the effortless issuance and management of store credits, allowing your customers to engage and shop with ease and flexibility. Automate Store Credit compensations to enhance refund processes smoothly and transition from cash refunds to store credit, ensuring your revenue remains within your business
         </p>
                 <div class="flex flex-wrap items-center gap-2 mt-10">
-              <a href="#_" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+              <div x-data="{ open: false }" class="flex justify-center">
+              <!-- Trigger -->
+              <span x-on:click="open = true">
+                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
                 <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
                 <span class="relative text-white">Sign Up Free</span>
-                </span>
-              </a>
-              <a href="#_" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
-                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
-                <span class="relative text-white">Know More About Gift Cards</span>
-                </span>
-              </a>
+                </span></button>
+                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-10 w-screen overflow-y-visible" aria-labelledby="modal-title-5" style="display: none;">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-6xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-6 text-center">
+                      
+                    <iframe
+                      src="https://calendly.com/99minds"
+                      width="100%"
+                      height="650"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly"
+                    ></iframe>
+
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
       </div>
       <div class="h-full">

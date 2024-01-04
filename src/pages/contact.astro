@@ -1,20 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import HeroThree from "../components/heros/HeroThree.astro";
-import LogoCloud from "../components/testimonials/LogoCloud.astro";
-import LogoCloudTwo from "../components/testimonials/LogoCloudTwo.astro";
+
+import Contact from "../components/forms/Contact.astro";
 import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro";
-import LogoCloudFour from "../components/testimonials/LogoCloudFour.astro";
-import FeatureFive_NewHome from "../components/features/FeatureFive_NewHome.astro";
-import FeatureNine from "../components/features/FeatureNine.astro";
-import FeatureSix from "../components/features/FeatureSix.astro";
-import FeatureTwo from "../components/features/FeatureTwo.astro";
-import FeatureSeven from "../components/features/FeatureSeven.astro";
-import FeatureTen from "../components/features/FeatureTen.astro";
-import TestimonialTwo from "../components/testimonials/TestimonialTwo.astro";
-import Pricing99minds from "../components/pricing/Pricing99minds.astro";
 import Faq99minds from "../components/Infopages/Faq99minds.astro";
-import CtaThree from "../components/ctas/CtaThree.astro";
+import CtaThree99minds from "../components/ctas/CtaThree99minds.astro";
 
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -23,7 +13,7 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="Home"
+  title="ContactUs"
   description="Your site description goes here"
   canonical="https://www.lexingtonthemes.com"
   openGraph={{
@@ -57,13 +47,6 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
 <BaseLayout>
-  <HeroThree />
-  <LogoCloudOne />
-  <FeatureFive_NewHome />
-  <FeatureSix />
-  <FeatureTen />
-  <TestimonialTwo />
-  <Pricing99minds />
-  <Faq99minds />
-  <CtaThree />
+  <Contact />
+  <CtaThree99minds />
 </BaseLayout>
