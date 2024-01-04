@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const WalletPage = ({ onNextButtonClick }) => {
-  const [brandName, setBrandName] = useState('Brand Wallet');
+  const [brandName, setBrandName] = useState('');
   const [showCoupons, setShowCoupons] = useState(true);
   const [showGiftCard, setShowGiftCard] = useState(true);
   const [showLoyaltyPoints, setShowLoyaltyPoints] = useState(true);
@@ -48,12 +48,14 @@ const WalletPage = ({ onNextButtonClick }) => {
           id="brandName"
           value={brandName}
           onChange={(e) => setBrandName(e.target.value)}
+          placeholder='Enter your wallet name'
           className={`border p-2 rounded-md text-black ${formErrors.brandName ? 'border-red-500' : ''}`}
         />
         {formErrors.brandName && (
           <p className="text-red-500 text-sm">{formErrors.brandName}</p>
         )}
       </div>
+      <h1 className='p-2'>Customize Your Wallet</h1>
       <div className="flex space-x-4">
         <div className="flex items-center">
           <input
@@ -110,7 +112,7 @@ const WalletPage = ({ onNextButtonClick }) => {
           </span>
         </button>
       </div>
-      <h1 className="text-xl font-bold">Wallet Preview</h1>
+      <h1 className="text-xl font-bold pb-2">Wallet Preview</h1>
       <div className="lg:flex">
       <div className="pb-4 h-60 w-80">
         <form

@@ -10,19 +10,7 @@ const CheckoutPage = (walletData) => {
   const ProductValue2 = 30.00;
   const Taxes = 2.00;
   const Shipping = 3.00;
-  const [isOpen, setIsOpen] = useState(false);
-  console.log(walletData['walletData']['brandName'],"data is visible")
-  const {
-    brandName,
-    showCoupons,
-    showGiftCard,
-    showLoyaltyPoints,
-    showStoreCredits
-  } = walletData;
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
- 
+  console.log(walletData['walletData']['brandName'], "data is visible")
   useEffect(() => {
     const newSubtotal = ProductValue1 * quantity1 + ProductValue2 * quantity2;
     setSubtotal(newSubtotal);
@@ -179,65 +167,68 @@ const CheckoutPage = (walletData) => {
       </tr>
     );
   };
+  const [isCouponOpen, setIsCouponOpen] = useState(false);
+  const [isGiftCardOpen, setIsGiftCardOpen] = useState(false);
+
+  const handleCouponToggle = () => {
+    setIsCouponOpen(!isCouponOpen);
+    setIsGiftCardOpen(false); // Close gift card pop-up when opening coupon pop-up
+  };
+
+  const handleGiftCardToggle = () => {
+    setIsGiftCardOpen(!isGiftCardOpen);
+    setIsCouponOpen(false); // Close coupon pop-up when opening gift card pop-up
+  };
   return (
     <article className="relative py-12 mx-auto max-w-7xl lg:py-24 w-full">
       <div className="lg:flex">
-      <div className="fixed bottom-5 right-4 z-50 text-white transition-all duration-300  transform hover:scale-110 inline-flex items-center justify-between h-10 gap-2 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500">
-      <div className="text-white justify-center">
-        <button
-          onClick={toggleDropdown}
-          className="inline-flex items-center gap-2 px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
-        >
-          <span>Try Coupons and Giftcard</span>
-          <svg
-            className={`icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform ${
-              isOpen ? 'rotate-180' : 'rotate-0'
-            }`}
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            strokeWidth="2"
-            stroke="currentColor"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M6 9l6 6l6 -6"></path>
-          </svg>
-        </button>
-        {isOpen && (
-          <div
-            className="absolute right-0 mt-2 w-full lg:w-52 z-50 bottom-10 w-full origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]"
-            role="menu"
-            aria-orientation="vertical"
-            aria-labelledby="menu-button"
-            tabIndex={-1}
-          >
-            <div className="py-1 bg-vulcan-900 rounded-xl" role="none">
-              <label>Click on the code to copy</label>
-              <p
-                onClick={() => handleCopyCode('1234567890')}
-                className="text-white block px-4 py-2 text-sm hover:text-indigo-400 cursor-pointer"
-                role="menuitem"
-                tabIndex={-1}
-                id="menu-item-1"
-              >
-                Try Gift Card use code- 1234567890
-              </p>
-              <p
-                onClick={() => handleCopyCode('30OFF')}
-                className="text-white block px-4 py-2 text-sm hover:text-indigo-400 cursor-pointer"
-                role="menuitem"
-                tabIndex={-1}
-                id="menu-item-2"
-              >
-                Try Coupon use code- 30OFF
-              </p>
-            </div>
+        <div className="flex justify-between gap-8 fixed bottom-5 right-20 z-50 text-white">
+          <div className="text-white relative">
+            <button
+              onClick={handleCouponToggle}
+              className="px-4 py-2 text-sm font-semibold bg-indigo-500 rounded-lg"
+            >
+              Try Coupons
+            </button>
+            {isCouponOpen && (
+              <div className="absolute bottom-12 p-4 w-52 rounded-lg bg-vulcan-900" role="none">
+                <label className="text-white block pb-2">Click on the code to copy</label>
+                <p
+                  onClick={() => handleCopyCode('30OFF')}
+                  className="text-white block px-4 py-2 text-sm hover:text-indigo-400 cursor-pointer"
+                  role="menuitem"
+                  tabIndex={-1}
+                  id="menu-item-2"
+                >
+                  Use code- 30OFF
+                </p>
+              </div>
+            )}
           </div>
-        )}
-      </div>
-    </div>
+
+          <div className="text-white relative">
+            <button
+              onClick={handleGiftCardToggle}
+              className="px-4 py-2 text-sm font-semibold bg-indigo-500 rounded-lg"
+            >
+              Try Gift Card
+            </button>
+            {isGiftCardOpen && (
+              <div className="absolute bottom-12 p-4 w-52 rounded-lg bg-vulcan-900" role="none">
+                <label className="text-white block pb-2">Click on the code to copy</label>
+                <p
+                  onClick={() => handleCopyCode('1234567890')}
+                  className="text-white block px-4 py-2 text-sm hover:text-indigo-400 cursor-pointer"
+                  role="menuitem"
+                  tabIndex={-1}
+                  id="menu-item-1"
+                >
+                  Use code- 1234567890
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
         <div className="lg:w-1/2 lg:pr-4 flex flex-col flex-1">
           <div className="border p-4 rounded-md bg-gray-100 h-full">
             <div className="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
@@ -308,140 +299,140 @@ const CheckoutPage = (walletData) => {
         <div className="lg:w-1/2 lg:pl-4 mt-4 lg:mt-0 flex flex-col flex-1">
           <form method="post" className="flex-1 space-y-2 border p-4 rounded-md bg-white">
             <div>
-            <button type="button" class="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md w-full" onClick={() => { window.location.reload(); }}>
+              <button type="button" class="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md w-full" onClick={() => { window.location.reload(); }}>
                 <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
-                <span class="relative text-white flex items-center justify-center"><h1 className='px-2'>{walletData['walletData']['brandName']}</h1> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
-                  <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z" />
-                </svg></span>
+                  <span class="relative text-white flex items-center justify-center"><h1 className='px-2'>{walletData['walletData']['brandName']}</h1> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                    <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z" />
+                  </svg></span>
                 </span></button>
             </div>
             <div className="flex-1 border p-4 rounded-md space-y-1">
               {/* giftcard */}
               {walletData['walletData']['showGiftCard'] && <div>
-              <h2 className="text-lg font-medium">Gift Card</h2>
-              <div className="flex space-x-2">
-                <div className="flex-1">
-                  <input
-                    type="text"
-                    id="giftCardCode"
-                    name="giftCardCode"
-                    placeholder="Enter Gift Card Code"
-                    value={giftCardCode}
-                    onChange={(e) => setGiftCardCode(e.target.value)}
-                    className="p-2 w-full border rounded-md" />
+                <h2 className="text-lg font-medium">Gift Card</h2>
+                <div className="flex space-x-2">
+                  <div className="flex-1">
+                    <input
+                      type="text"
+                      id="giftCardCode"
+                      name="giftCardCode"
+                      placeholder="Enter Gift Card Code"
+                      value={giftCardCode}
+                      onChange={(e) => setGiftCardCode(e.target.value)}
+                      className="p-2 w-full border rounded-md" />
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      onClick={() => handleGiftCardRedeem(giftCardCode)}
+                      className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-24"
+                    >
+                      Redeem
+                    </button>
+                  </div>
                 </div>
-                <div>
-                  <button
-                    type="button"
-                    onClick={() => handleGiftCardRedeem(giftCardCode)}
-                    className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-24"
-                  >
-                    Redeem
-                  </button>
-                </div>
-              </div>
               </div>}
               {walletData['walletData']['showCoupons'] && <div>
-              <h2 className="text-lg font-medium">Coupon</h2>
-              <div className="flex space-x-2">
-                <div className="flex-1">
-                  <input
-                    type="text"
-                    id="couponCode"
-                    name="couponCode"
-                    placeholder="Enter Coupon Code"
-                    value={couponCode}
-                    onChange={(e) => setCouponCode(e.target.value)}
-                    className="p-2 w-full border rounded-md" />
+                <h2 className="text-lg font-medium">Coupon</h2>
+                <div className="flex space-x-2">
+                  <div className="flex-1">
+                    <input
+                      type="text"
+                      id="couponCode"
+                      name="couponCode"
+                      placeholder="Enter Coupon Code"
+                      value={couponCode}
+                      onChange={(e) => setCouponCode(e.target.value)}
+                      className="p-2 w-full border rounded-md" />
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      onClick={() => handleCodeRedeem(couponCode)}
+                      className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-24">
+                      Apply
+                    </button>
+                  </div>
                 </div>
-                <div>
+                <div className="relative">
                   <button
                     type="button"
-                    onClick={() => handleCodeRedeem(couponCode)}
-                    className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-24">
-                    Apply
+                    onClick={() => setOpenCoupons(!openCoupons)}
+                    className="p-3 rounded-md w-full">
+                    <span>Available Coupons</span>
+                    <svg
+                      className={`icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform ${openCoupons ? 'rotate-180' : 'rotate-0'
+                        }`}
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M6 9l6 6l6 -6"></path>
+                    </svg>
                   </button>
-                </div>
-              </div>
-              <div className="relative">
-                <button
-                  type="button"
-                  onClick={() => setOpenCoupons(!openCoupons)}
-                  className="p-3 rounded-md w-full">
-                  <span>Available Coupons</span>
-                  <svg
-                    className={`icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform ${openCoupons ? 'rotate-180' : 'rotate-0'
-                      }`}
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M6 9l6 6l6 -6"></path>
-                  </svg>
-                </button>
-                {openCoupons && (
-                  <div className="mt-2 w-full origin-top-right rounded-xl ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]">
-                    <div className="py-1 bg-gray-200 rounded-xl w-full">
-                      {availableCoupons.map((coupon) => (
-                        !appliedCoupons.includes(coupon.code) && (
-                          <div key={coupon.code} className="flex p-2 justify-between">
-                            <p className="block px-4 p-2 text-sm font-bold" role="menuitem" tabIndex="-1" id="menu-item-1">
-                              {coupon.code}
-                            </p>
-                            <button
-                              type="button"
-                              onClick={() => handleCouponApply(coupon.code, coupon.discount)}
-                              className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-24">
-                              Apply
-                            </button>
-                          </div>
-                        )
-                      ))}
+                  {openCoupons && (
+                    <div className="mt-2 w-full origin-top-right rounded-xl ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]">
+                      <div className="py-1 bg-gray-200 rounded-xl w-full">
+                        {availableCoupons.map((coupon) => (
+                          !appliedCoupons.includes(coupon.code) && (
+                            <div key={coupon.code} className="flex p-2 justify-between">
+                              <p className="block px-4 p-2 text-sm font-bold" role="menuitem" tabIndex="-1" id="menu-item-1">
+                                {coupon.code}
+                              </p>
+                              <button
+                                type="button"
+                                onClick={() => handleCouponApply(coupon.code, coupon.discount)}
+                                className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-24">
+                                Apply
+                              </button>
+                            </div>
+                          )
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                )}
-              </div>
+                  )}
+                </div>
               </div>}
               {/* loyalty points */}
               {walletData['walletData']['showCoupons'] && <div>
-              <h2 className="text-lg font-medium">Loyalty Points</h2>
-              <p className="text-sm font-small">$5 for 100 points</p>
-              <div className="flex space-x-2">
-                <div className="flex-1 border p-2 rounded-md bg-white">
-                  <h1 className="text-sm text-gray-800">You have {redeemablePoints} points available for redemption.</h1>
+                <h2 className="text-lg font-medium">Loyalty Points</h2>
+                <p className="text-sm font-small">$5 for 100 points</p>
+                <div className="flex space-x-2">
+                  <div className="flex-1 border p-2 rounded-md bg-white">
+                    <h1 className="text-sm text-gray-800">You have {redeemablePoints} points available for redemption.</h1>
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      onClick={handleLoyaltyPointsRedeem}
+                      className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-24">
+                      Redeem
+                    </button>
+                  </div>
                 </div>
-                <div>
-                  <button
-                    type="button"
-                    onClick={handleLoyaltyPointsRedeem}
-                    className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-24">
-                    Redeem
-                  </button>
-                </div>
-              </div>
               </div>}
               {/* Store credit */}
-              {showStoreCredits && <div>
-              <h2 className="text-lg font-medium">Store Credits</h2>
-              <div className="flex space-x-2">
-                <div className="flex-1 border p-2 rounded-md bg-white">
-                  <h1 className="text-sm text-gray-800">You have ${storeCredits.toFixed(2)} in your store credits</h1>
+              {walletData['walletData']['showStoreCredits'] && <div>
+                <h2 className="text-lg font-medium">Store Credits</h2>
+                <div className="flex space-x-2">
+                  <div className="flex-1 border p-2 rounded-md bg-white">
+                    <h1 className="text-sm text-gray-800">You have ${storeCredits.toFixed(2)} in your store credits</h1>
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      onClick={handleStoreCreditsRedeem}
+                      className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-24"
+                    >
+                      Redeem
+                    </button>
+                  </div>
                 </div>
-                <div>
-                  <button
-                    type="button"
-                    onClick={handleStoreCreditsRedeem}
-                    className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-24"
-                  >
-                    Redeem
-                  </button>
-                </div>
-              </div>
               </div>}
             </div>
             <p className="text-gray-500 text-center pt-4">---Or Pay Using Card---</p>
@@ -481,7 +472,7 @@ const CheckoutPage = (walletData) => {
           </form>
         </div>
       </div>
-      
+
     </article>
   );
 };
