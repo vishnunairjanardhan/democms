@@ -1,6 +1,5 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState} from 'react';
 import { CSVLink } from 'react-csv';
-import { Menu, Transition } from '@headlessui/react';
 import DropdownMenu from './dropdown'
 
 const CouponGenerator = () => {
@@ -113,12 +112,11 @@ const CouponGenerator = () => {
         <h5>Use free code generator to generate unique codes that can be used for coupons, gift cards. If you need an end-to-end promotion management tool, try 99minds</h5>
         <div class="bg-white py-24 sm:py-32">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <div class=" flex mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
               {logos.map((logo) => (
                 <label
                   key={logo.id}
-                  class={`relative cursor-pointer focus:outline-none ${selectedLogo === logo.id ? 'border-2 border-blue-500' : ''
-                    }`}
+                  class={`relative cursor-pointer focus:outline-none ${selectedLogo === logo.id ? 'border-2 border-blue-500' : ''}`}
                 >
                   <input
                     type="radio"
@@ -438,14 +436,14 @@ const CouponGenerator = () => {
         <h5 class="text-white">Generate</h5>
       </button>
       <h1 class="text-white">Generated Codes</h1>
-      <div>
+      <div className='w-full justify-center items-center'>
         <ul class="list-group" style={{ height: "33vh", overflow: "auto" }}>
           {codes.map((code, index) => (
             <li class="list-group-item" key={index}>
               {code.code}</li>
           ))}
         </ul>
-        <div style={{ paddingBottom: "30px" }} class='mt-4'>
+        <div class='pb-4 mt-4 flex items-center justify-center'>
           <CSVLink data={codes} headers={headers} filename="exported_code.csv">
             <button class="text-white" type="button" >Export</button>
           </CSVLink>
