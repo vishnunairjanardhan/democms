@@ -10,7 +10,6 @@ const CheckoutPage = (walletData) => {
   const ProductValue2 = 30.00;
   const Taxes = 2.00;
   const Shipping = 3.00;
-  console.log(walletData['walletData']['brandName'], "data is visible")
   useEffect(() => {
     const newSubtotal = ProductValue1 * quantity1 + ProductValue2 * quantity2;
     setSubtotal(newSubtotal);
@@ -28,11 +27,9 @@ const CheckoutPage = (walletData) => {
     if (product === 1) {
       setQuantity1(quantity1 + 1);
       updateTotal();
-      console.log(quantity1)
     } else if (product === 2) {
       setQuantity2(quantity2 + 1);
       updateTotal();
-      console.log(quantity2)
     }
   };
   const decrement = (product) => {
@@ -128,7 +125,6 @@ const CheckoutPage = (walletData) => {
 
       setDenomination((prevDenomination) => prevDenomination + redeemedAmount);
       setStoreCredits(remainingStoreCredits);
-      console.log('remaining credits', remainingStoreCredits);
       updateTotal();
     }
   };

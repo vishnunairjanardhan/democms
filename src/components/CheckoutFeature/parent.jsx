@@ -15,7 +15,7 @@ function ParentPage() {
 
   return (
     <div>
-      <div>
+      <div className='pb-4'>
         {!showCheckout && (
           <WalletPage onNextButtonClick={handleNextButtonClick} />
         )}
