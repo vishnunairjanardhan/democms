@@ -242,6 +242,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"5.md": {
+	id: "5.md";
+  slug: "5";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "6.md": {
 	id: "6.md";
   slug: "6";
@@ -255,6 +262,20 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: any
+} & { render(): Render[".md"] };
+"Buzz.md": {
+	id: "Buzz.md";
+  slug: "buzz";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"Pandemic.md": {
+	id: "Pandemic.md";
+  slug: "pandemic";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 };
 "posts-old": {
