@@ -207,6 +207,34 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"6.md": {
+	id: "6.md";
+  slug: "6";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"7.md": {
+	id: "7.md";
+  slug: "7";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"Buzz.md": {
+	id: "Buzz.md";
+  slug: "buzz";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"Pandemic.md": {
+	id: "Pandemic.md";
+  slug: "pandemic";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 };
 "posts-old": {
 "1.md": {
