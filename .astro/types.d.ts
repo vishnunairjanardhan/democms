@@ -184,154 +184,154 @@ declare module 'astro:content' {
   slug: "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "4.md": {
 	id: "4.md";
   slug: "4";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md": {
 	id: "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md";
   slug: "5-must-have-features-for-a-successful-shopify-store-gift-card-program";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "5.md": {
 	id: "5.md";
   slug: "5";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "9-ways-to-increase-gift-card-sales-using-social-media.md": {
 	id: "9-ways-to-increase-gift-card-sales-using-social-media.md";
   slug: "9-ways-to-increase-gift-card-sales-using-social-media";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "Are Omnichannel Loyalty Programs the Future of Retail.md": {
 	id: "Are Omnichannel Loyalty Programs the Future of Retail.md";
   slug: "are-omnichannel-loyalty-programs-the-future-of-retail";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "Buzz.md": {
 	id: "Buzz.md";
   slug: "buzz";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "Pandemic.md": {
 	id: "Pandemic.md";
   slug: "pandemic";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "ai-for-everyone.md": {
 	id: "ai-for-everyone.md";
   slug: "ai-for-everyone";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "ai-helps-to-make-pizza-more-delicious.md": {
 	id: "ai-helps-to-make-pizza-more-delicious.md";
   slug: "ai-helps-to-make-pizza-more-delicious";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "ai-implementation-in-e-commerce.md": {
 	id: "ai-implementation-in-e-commerce.md";
   slug: "ai-implementation-in-e-commerce";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "case-study-8-brilliant-loyalty-program-cases-in-2024.md": {
 	id: "case-study-8-brilliant-loyalty-program-cases-in-2024.md";
   slug: "case-study-8-brilliant-loyalty-program-cases-in-2024";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "customer-retention-and-acquisition-using-ai.md": {
 	id: "customer-retention-and-acquisition-using-ai.md";
   slug: "customer-retention-and-acquisition-using-ai";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md": {
 	id: "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md";
   slug: "how-to--capitalize-on-the-christmas-rush-using-gift-cards";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "how-to-engage-customers-post-holidays-with-gift-card-incentives.md": {
 	id: "how-to-engage-customers-post-holidays-with-gift-card-incentives.md";
   slug: "how-to-engage-customers-post-holidays-with-gift-card-incentives";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "how-to-market-your-shopify-gift-card-program-effectively.md": {
 	id: "how-to-market-your-shopify-gift-card-program-effectively.md";
   slug: "how-to-market-your-shopify-gift-card-program-effectively";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "how-to-set-up-a-loyalty-program-on-shopify-in-2024.md": {
 	id: "how-to-set-up-a-loyalty-program-on-shopify-in-2024.md";
   slug: "how-to-set-up-a-loyalty-program-on-shopify-in-2024";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify.md": {
 	id: "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify.md";
   slug: "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md": {
 	id: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md";
   slug: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "the-rise-of-gift-card-popularity-in-the-ecommerce-era.md": {
 	id: "the-rise-of-gift-card-popularity-in-the-ecommerce-era.md";
   slug: "the-rise-of-gift-card-popularity-in-the-ecommerce-era";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "the-roi-of-a-robust-loyalty-program-for-shopify-merchants.md": {
 	id: "the-roi-of-a-robust-loyalty-program-for-shopify-merchants.md";
   slug: "the-roi-of-a-robust-loyalty-program-for-shopify-merchants";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "top-ways-to-maximize-gift-card-sales-in-your-shopify-store.md": {
 	id: "top-ways-to-maximize-gift-card-sales-in-your-shopify-store.md";
   slug: "top-ways-to-maximize-gift-card-sales-in-your-shopify-store";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 };
 "posts-old": {
@@ -394,5 +394,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = never;
+	type ContentConfig = typeof import("../src/content/config");
 }
