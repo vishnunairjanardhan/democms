@@ -214,6 +214,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"Are Omnichannel Loyalty Programs the Future of Retail.md": {
+	id: "Are Omnichannel Loyalty Programs the Future of Retail.md";
+  slug: "are-omnichannel-loyalty-programs-the-future-of-retail";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "Buzz.md": {
 	id: "Buzz.md";
   slug: "buzz";
