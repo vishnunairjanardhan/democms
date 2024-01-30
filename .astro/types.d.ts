@@ -184,88 +184,21 @@ declare module 'astro:content' {
   slug: "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
-<<<<<<< HEAD
-} & { render(): Render[".md"] };
-"16.md": {
-	id: "16.md";
-  slug: "16";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"17.md": {
-	id: "17.md";
-  slug: "17";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"18.md": {
-	id: "18.md";
-  slug: "18";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"19.md": {
-	id: "19.md";
-  slug: "19";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"2.md": {
-	id: "2.md";
-  slug: "2";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"20.md": {
-	id: "20.md";
-  slug: "20";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"3.md": {
-	id: "3.md";
-  slug: "3";
-  body: string;
-  collection: "posts";
-  data: any
-=======
->>>>>>> 69d42db7ddfa436f6e0dbff5a4e21e9edb4ee44d
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
 } & { render(): Render[".md"] };
 "4.md": {
 	id: "4.md";
   slug: "4";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
-<<<<<<< HEAD
-=======
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
 } & { render(): Render[".md"] };
 "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md": {
 	id: "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md";
   slug: "5-must-have-features-for-a-successful-shopify-store-gift-card-program";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
->>>>>>> 69d42db7ddfa436f6e0dbff5a4e21e9edb4ee44d
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
 } & { render(): Render[".md"] };
 "5.md": {
 	id: "5.md";
@@ -300,13 +233,7 @@ declare module 'astro:content' {
   slug: "pandemic";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
-<<<<<<< HEAD
-=======
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
 } & { render(): Render[".md"] };
 "ai-for-everyone.md": {
 	id: "ai-for-everyone.md";
@@ -327,37 +254,28 @@ declare module 'astro:content' {
   slug: "ai-implementation-in-e-commerce";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
->>>>>>> 69d42db7ddfa436f6e0dbff5a4e21e9edb4ee44d
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
 } & { render(): Render[".md"] };
 "case-study-8-brilliant-loyalty-program-cases-in-2024.md": {
 	id: "case-study-8-brilliant-loyalty-program-cases-in-2024.md";
   slug: "case-study-8-brilliant-loyalty-program-cases-in-2024";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
-<<<<<<< HEAD
-=======
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
 } & { render(): Render[".md"] };
 "customer-retention-and-acquisition-using-ai.md": {
 	id: "customer-retention-and-acquisition-using-ai.md";
   slug: "customer-retention-and-acquisition-using-ai";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
->>>>>>> 69d42db7ddfa436f6e0dbff5a4e21e9edb4ee44d
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
+} & { render(): Render[".md"] };
+"halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat.md": {
+	id: "halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat.md";
+  slug: "halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md": {
 	id: "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md";
@@ -369,6 +287,13 @@ declare module 'astro:content' {
 "how-to-engage-customers-post-holidays-with-gift-card-incentives.md": {
 	id: "how-to-engage-customers-post-holidays-with-gift-card-incentives.md";
   slug: "how-to-engage-customers-post-holidays-with-gift-card-incentives";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday.md": {
+	id: "how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday.md";
+  slug: "how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -385,75 +310,56 @@ declare module 'astro:content' {
   slug: "how-to-set-up-a-loyalty-program-on-shopify-in-2024";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
-<<<<<<< HEAD
-=======
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
 } & { render(): Render[".md"] };
 "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify.md": {
 	id: "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify.md";
   slug: "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
->>>>>>> 69d42db7ddfa436f6e0dbff5a4e21e9edb4ee44d
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
 } & { render(): Render[".md"] };
 "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md": {
 	id: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md";
   slug: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
-<<<<<<< HEAD
-=======
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
 } & { render(): Render[".md"] };
 "the-rise-of-gift-card-popularity-in-the-ecommerce-era.md": {
 	id: "the-rise-of-gift-card-popularity-in-the-ecommerce-era.md";
   slug: "the-rise-of-gift-card-popularity-in-the-ecommerce-era";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
->>>>>>> 69d42db7ddfa436f6e0dbff5a4e21e9edb4ee44d
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
 } & { render(): Render[".md"] };
 "the-roi-of-a-robust-loyalty-program-for-shopify-merchants.md": {
 	id: "the-roi-of-a-robust-loyalty-program-for-shopify-merchants.md";
   slug: "the-roi-of-a-robust-loyalty-program-for-shopify-merchants";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
-<<<<<<< HEAD
-=======
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
+} & { render(): Render[".md"] };
+"tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022.md": {
+	id: "tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022.md";
+  slug: "tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "top-ways-to-maximize-gift-card-sales-in-your-shopify-store.md": {
 	id: "top-ways-to-maximize-gift-card-sales-in-your-shopify-store.md";
   slug: "top-ways-to-maximize-gift-card-sales-in-your-shopify-store";
   body: string;
   collection: "posts";
-<<<<<<< HEAD
   data: InferEntrySchema<"posts">
-=======
-  data: any
->>>>>>> 69d42db7ddfa436f6e0dbff5a4e21e9edb4ee44d
->>>>>>> 24126db694c3d98260442e44bb3e99ff75e624da
+} & { render(): Render[".md"] };
+"why-are-digital-gift-cards-essential-to-your-e-commerce-business.md": {
+	id: "why-are-digital-gift-cards-essential-to-your-e-commerce-business.md";
+  slug: "why-are-digital-gift-cards-essential-to-your-e-commerce-business";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 };
 "posts-old": {
