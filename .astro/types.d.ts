@@ -184,147 +184,154 @@ declare module 'astro:content' {
   slug: "1";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "16.md": {
 	id: "16.md";
   slug: "16";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "17.md": {
 	id: "17.md";
   slug: "17";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "18.md": {
 	id: "18.md";
   slug: "18";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "19.md": {
 	id: "19.md";
   slug: "19";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "2.md": {
 	id: "2.md";
   slug: "2";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "20.md": {
 	id: "20.md";
   slug: "20";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "3.md": {
 	id: "3.md";
   slug: "3";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "4.md": {
 	id: "4.md";
   slug: "4";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "5.md": {
 	id: "5.md";
   slug: "5";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "6.md": {
 	id: "6.md";
   slug: "6";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "7.md": {
 	id: "7.md";
   slug: "7";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
+} & { render(): Render[".md"] };
+"Are Omnichannel Loyalty Programs the Future of Retail.md": {
+	id: "Are Omnichannel Loyalty Programs the Future of Retail.md";
+  slug: "are-omnichannel-loyalty-programs-the-future-of-retail";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "Buzz.md": {
 	id: "Buzz.md";
   slug: "buzz";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "Pandemic.md": {
 	id: "Pandemic.md";
   slug: "pandemic";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "case-study-8-brilliant-loyalty-program-cases-in-2024.md": {
 	id: "case-study-8-brilliant-loyalty-program-cases-in-2024.md";
   slug: "case-study-8-brilliant-loyalty-program-cases-in-2024";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md": {
 	id: "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md";
   slug: "how-to--capitalize-on-the-christmas-rush-using-gift-cards";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "how-to-engage-customers-post-holidays-with-gift-card-incentives.md": {
 	id: "how-to-engage-customers-post-holidays-with-gift-card-incentives.md";
   slug: "how-to-engage-customers-post-holidays-with-gift-card-incentives";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "how-to-market-your-shopify-gift-card-program-effectively.md": {
 	id: "how-to-market-your-shopify-gift-card-program-effectively.md";
   slug: "how-to-market-your-shopify-gift-card-program-effectively";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "how-to-set-up-a-loyalty-program-on-shopify-in-2024.md": {
 	id: "how-to-set-up-a-loyalty-program-on-shopify-in-2024.md";
   slug: "how-to-set-up-a-loyalty-program-on-shopify-in-2024";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md": {
 	id: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md";
   slug: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "the-roi-of-a-robust-loyalty-program-for-shopify-merchants.md": {
 	id: "the-roi-of-a-robust-loyalty-program-for-shopify-merchants.md";
   slug: "the-roi-of-a-robust-loyalty-program-for-shopify-merchants";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 };
 "posts-old": {
@@ -387,5 +394,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = typeof import("../src/content/config");
+	type ContentConfig = never;
 }
