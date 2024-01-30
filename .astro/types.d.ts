@@ -179,23 +179,9 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"posts": {
-"1.md": {
-	id: "1.md";
-  slug: "1";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"2.md": {
-	id: "2.md";
-  slug: "2";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"3.md": {
-	id: "3.md";
-  slug: "3";
+"21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024.md": {
+	id: "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024.md";
+  slug: "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024";
   body: string;
   collection: "posts";
   data: any
@@ -203,6 +189,13 @@ declare module 'astro:content' {
 "4.md": {
 	id: "4.md";
   slug: "4";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"5-must-have-features-for-a-successful-shopify-store-gift-card-program.md": {
+	id: "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md";
+  slug: "5-must-have-features-for-a-successful-shopify-store-gift-card-program";
   body: string;
   collection: "posts";
   data: any
@@ -322,6 +315,13 @@ declare module 'astro:content' {
 "the-roi-of-a-robust-loyalty-program-for-shopify-merchants.md": {
 	id: "the-roi-of-a-robust-loyalty-program-for-shopify-merchants.md";
   slug: "the-roi-of-a-robust-loyalty-program-for-shopify-merchants";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"top-ways-to-maximize-gift-card-sales-in-your-shopify-store.md": {
+	id: "top-ways-to-maximize-gift-card-sales-in-your-shopify-store.md";
+  slug: "top-ways-to-maximize-gift-card-sales-in-your-shopify-store";
   body: string;
   collection: "posts";
   data: any
