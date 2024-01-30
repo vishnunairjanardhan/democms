@@ -242,6 +242,34 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"how-to--capitalize-on-the-christmas-rush-using-gift-cards.md": {
+	id: "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md";
+  slug: "how-to--capitalize-on-the-christmas-rush-using-gift-cards";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"how-to-market-your-shopify-gift-card-program-effectively.md": {
+	id: "how-to-market-your-shopify-gift-card-program-effectively.md";
+  slug: "how-to-market-your-shopify-gift-card-program-effectively";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md": {
+	id: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md";
+  slug: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"the-roi-of-a-robust-loyalty-program-for-shopify-merchants.md": {
+	id: "the-roi-of-a-robust-loyalty-program-for-shopify-merchants.md";
+  slug: "the-roi-of-a-robust-loyalty-program-for-shopify-merchants";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 };
 "posts-old": {
 "1.md": {
