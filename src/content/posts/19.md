@@ -1,7 +1,7 @@
 ---
 pubDate: 2020-03-25
 author: Pravin Kamble
-title: API helps to make Pizza more delicious
+title: AI helps to make Pizza more delicious
 description: "As a Pizza lover, you might not even remember why you ordered your Pizza on a particular day precisely. Neither did I, nor did my mom. But some of the…"
 image:
   url: "https://www.99minds.io/blog/wp-content/uploads/2020/03/1_oSROJZCosY5WD_qw_I-vXA-1920x1280.jpeg"

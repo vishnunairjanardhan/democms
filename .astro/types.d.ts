@@ -247,7 +247,7 @@ declare module 'astro:content' {
   slug: "5";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "6.md": {
 	id: "6.md";
@@ -268,14 +268,14 @@ declare module 'astro:content' {
   slug: "buzz";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "Pandemic.md": {
 	id: "Pandemic.md";
   slug: "pandemic";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 };
 "posts-old": {
