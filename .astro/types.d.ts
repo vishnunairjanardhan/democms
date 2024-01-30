@@ -184,28 +184,28 @@ declare module 'astro:content' {
   slug: "1";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "2.md": {
 	id: "2.md";
   slug: "2";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "3.md": {
 	id: "3.md";
   slug: "3";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "4.md": {
 	id: "4.md";
   slug: "4";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "5.md": {
 	id: "5.md";
@@ -219,28 +219,49 @@ declare module 'astro:content' {
   slug: "6";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "7.md": {
 	id: "7.md";
   slug: "7";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "Buzz.md": {
 	id: "Buzz.md";
   slug: "buzz";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "Pandemic.md": {
 	id: "Pandemic.md";
   slug: "pandemic";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"case-study-8-brilliant-loyalty-program-cases-in-2024.md": {
+	id: "case-study-8-brilliant-loyalty-program-cases-in-2024.md";
+  slug: "case-study-8-brilliant-loyalty-program-cases-in-2024";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"how-to-engage-customers-post-holidays-with-gift-card-incentives.md": {
+	id: "how-to-engage-customers-post-holidays-with-gift-card-incentives.md";
+  slug: "how-to-engage-customers-post-holidays-with-gift-card-incentives";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"how-to-set-up-a-loyalty-program-on-shopify-in-2024.md": {
+	id: "how-to-set-up-a-loyalty-program-on-shopify-in-2024.md";
+  slug: "how-to-set-up-a-loyalty-program-on-shopify-in-2024";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 };
 "posts-old": {
@@ -303,5 +324,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = never;
+	type ContentConfig = typeof import("../src/content/config");
 }
