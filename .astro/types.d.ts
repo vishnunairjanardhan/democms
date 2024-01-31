@@ -179,6 +179,13 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"posts": {
+"11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md": {
+	id: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md";
+  slug: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024.md": {
 	id: "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024.md";
   slug: "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024";
@@ -203,6 +210,13 @@ declare module 'astro:content' {
 "5.md": {
 	id: "5.md";
   slug: "5";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"7-reasons-why-every-shopify-store-needs-a-loyalty-program.md": {
+	id: "7-reasons-why-every-shopify-store-needs-a-loyalty-program.md";
+  slug: "7-reasons-why-every-shopify-store-needs-a-loyalty-program";
   body: string;
   collection: "posts";
   data: any
@@ -289,7 +303,7 @@ declare module 'astro:content' {
   slug: "christmas-marketing-ideas-to-boost-your-sales-this-year";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "customer-retention-and-acquisition-using-ai.md": {
 	id: "customer-retention-and-acquisition-using-ai.md";
