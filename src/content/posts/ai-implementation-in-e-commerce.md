@@ -6,7 +6,7 @@ description: "In this article, we look at how integrating gift cards with your S
 image:
   url: "https://www.99minds.io/blog/wp-content/uploads/2023/03/AI-implementation-in-e-commerce.png"
   alt: "The word community with a heart."
-tags: ["Artificial Intelligence"]
+tags: ["Artificial Intelligence","Machine Learning"]
 ---
 <img src="https://www.99minds.io/blog/wp-content/uploads/2023/03/AI-implementation-in-e-commerce.png">
 Artificial intelligence(AI) is one of the most revolutionary technologies that has changed the way we live our lives. It has changed the landscape of how we shop online too. There is aggressive competition amongst eCommerce players to integrate AI technology into their stores, and there are a gazillion reasons for doing so.
