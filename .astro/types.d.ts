@@ -256,13 +256,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"Moneyball: Game Changer for Everyone.md": {
-	id: "Moneyball: Game Changer for Everyone.md";
-  slug: "moneyball-game-changer-for-everyone";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "Pandemic.md": {
 	id: "Pandemic.md";
   slug: "pandemic";
