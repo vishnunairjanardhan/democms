@@ -361,6 +361,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"ml-techniques-to-improve-customer-engagement.md": {
+	id: "ml-techniques-to-improve-customer-engagement.md";
+  slug: "ml-techniques-to-improve-customer-engagement";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"moneyball-game-changer-for-everyone.md": {
+	id: "moneyball-game-changer-for-everyone.md";
+  slug: "moneyball-game-changer-for-everyone";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md": {
 	id: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md";
   slug: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards";
