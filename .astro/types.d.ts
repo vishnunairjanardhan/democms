@@ -289,7 +289,7 @@ declare module 'astro:content' {
   slug: "christmas-marketing-ideas-to-boost-your-sales-this-year";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "customer-retention-and-acquisition-using-ai.md": {
 	id: "customer-retention-and-acquisition-using-ai.md";
