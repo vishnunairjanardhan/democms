@@ -284,6 +284,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"christmas-marketing-ideas-to-boost-your-sales-this-year.md": {
+	id: "christmas-marketing-ideas-to-boost-your-sales-this-year.md";
+  slug: "christmas-marketing-ideas-to-boost-your-sales-this-year";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "customer-retention-and-acquisition-using-ai.md": {
 	id: "customer-retention-and-acquisition-using-ai.md";
   slug: "customer-retention-and-acquisition-using-ai";
