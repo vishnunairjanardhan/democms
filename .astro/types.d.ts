@@ -298,6 +298,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"customer-retention/how-to-turn-your-hard-earned-sales-into-repeat-customers.md": {
+	id: "customer-retention/how-to-turn-your-hard-earned-sales-into-repeat-customers.md";
+  slug: "customer-retention/how-to-turn-your-hard-earned-sales-into-repeat-customers";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "ecommerce-referral-marketing-strategies.md": {
 	id: "ecommerce-referral-marketing-strategies.md";
   slug: "ecommerce-referral-marketing-strategies";
@@ -322,6 +329,13 @@ declare module 'astro:content' {
 "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md": {
 	id: "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md";
   slug: "how-to--capitalize-on-the-christmas-rush-using-gift-cards";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"how-to-build-customer-loyalty-for-your-e-commerce-store.md": {
+	id: "how-to-build-customer-loyalty-for-your-e-commerce-store.md";
+  slug: "how-to-build-customer-loyalty-for-your-e-commerce-store";
   body: string;
   collection: "posts";
   data: any
