@@ -319,6 +319,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"customer-acquisition-tactics-you-might-be-missing-on.md": {
+	id: "customer-acquisition-tactics-you-might-be-missing-on.md";
+  slug: "customer-acquisition-tactics-you-might-be-missing-on";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "customer-retention-and-acquisition-using-ai.md": {
 	id: "customer-retention-and-acquisition-using-ai.md";
   slug: "customer-retention-and-acquisition-using-ai";
@@ -427,6 +434,13 @@ declare module 'astro:content' {
 "moneyball-game-changer-for-everyone.md": {
 	id: "moneyball-game-changer-for-everyone.md";
   slug: "moneyball-game-changer-for-everyone";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"personalized-customer-journey.md": {
+	id: "personalized-customer-journey.md";
+  slug: "personalized-customer-journey";
   body: string;
   collection: "posts";
   data: any
