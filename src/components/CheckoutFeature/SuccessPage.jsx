@@ -6,7 +6,7 @@ const PaymentSuccessPage = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen text-white">
       <h1 className="text-3xl font-bold mb-4">Payment Successful!</h1>
-      <p className="text-lg mb-8">Thank you for your purchase. Your order has been successfully processed.</p>
+      <p className="text-lg mb-8 text-center">Thank you for your purchase. Your order has been successfully processed.</p>
       <p className="text-sm text-gray-500 mb-8">Order ID: {orderId}</p>
       <form action="/components/all-features">
         <div className="flex space-x-4">
