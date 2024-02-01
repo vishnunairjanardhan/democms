@@ -200,6 +200,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"5-creative-ways-to-promote-gift-cards-and-increase-customer-engagement.md": {
+	id: "5-creative-ways-to-promote-gift-cards-and-increase-customer-engagement.md";
+  slug: "5-creative-ways-to-promote-gift-cards-and-increase-customer-engagement";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"5-key-components-to-personalize-the-loyalty-experience.md": {
+	id: "5-key-components-to-personalize-the-loyalty-experience.md";
+  slug: "5-key-components-to-personalize-the-loyalty-experience";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md": {
 	id: "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md";
   slug: "5-must-have-features-for-a-successful-shopify-store-gift-card-program";
@@ -312,6 +326,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"customer-acquisition-tactics-you-might-be-missing-on.md": {
+	id: "customer-acquisition-tactics-you-might-be-missing-on.md";
+  slug: "customer-acquisition-tactics-you-might-be-missing-on";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "customer-retention-and-acquisition-using-ai.md": {
 	id: "customer-retention-and-acquisition-using-ai.md";
   slug: "customer-retention-and-acquisition-using-ai";
@@ -347,9 +368,23 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"holiday-2020-a-retail-season-like-no-other.md": {
+	id: "holiday-2020-a-retail-season-like-no-other.md";
+  slug: "holiday-2020-a-retail-season-like-no-other";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md": {
 	id: "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md";
   slug: "how-to--capitalize-on-the-christmas-rush-using-gift-cards";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"how-to-build-customer-loyalty-for-the-beauty-industry.md": {
+	id: "how-to-build-customer-loyalty-for-the-beauty-industry.md";
+  slug: "how-to-build-customer-loyalty-for-the-beauty-industry";
   body: string;
   collection: "posts";
   data: any
@@ -406,6 +441,13 @@ declare module 'astro:content' {
 "moneyball-game-changer-for-everyone.md": {
 	id: "moneyball-game-changer-for-everyone.md";
   slug: "moneyball-game-changer-for-everyone";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"personalized-customer-journey.md": {
+	id: "personalized-customer-journey.md";
+  slug: "personalized-customer-journey";
   body: string;
   collection: "posts";
   data: any
