@@ -305,6 +305,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"benefits-of-joining-a-bigcommerce-affiliate-programs.md": {
+	id: "benefits-of-joining-a-bigcommerce-affiliate-programs.md";
+  slug: "benefits-of-joining-a-bigcommerce-affiliate-programs";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "case-study-8-brilliant-loyalty-program-cases-in-2024.md": {
 	id: "case-study-8-brilliant-loyalty-program-cases-in-2024.md";
   slug: "case-study-8-brilliant-loyalty-program-cases-in-2024";
@@ -476,6 +483,20 @@ declare module 'astro:content' {
 "tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022.md": {
 	id: "tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022.md";
   slug: "tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"top-18-best-free-bigcommerce-themes.md": {
+	id: "top-18-best-free-bigcommerce-themes.md";
+  slug: "top-18-best-free-bigcommerce-themes";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"top-5-bigcommerce-apps-to-boost-conversions.md": {
+	id: "top-5-bigcommerce-apps-to-boost-conversions.md";
+  slug: "top-5-bigcommerce-apps-to-boost-conversions";
   body: string;
   collection: "posts";
   data: any
