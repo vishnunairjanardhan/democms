@@ -33,9 +33,39 @@ Here is what you can do for every order that you get:
 You can also use this technique to get feedback about your new products. It is a win-win for everybody. Getting feedback from your customers is extremely important as they are the ones who are using your product and would be able to tell clearly how the product can be improved.
 
 If giving samples to each of your customers might not be a viable option, then only send it to customers who have become ‘Exclusive; or ‘VIP’ customers. They could be the ones who religiously complete your surveys, engage with you on your social media platforms, etc. When you offer rewards like this, it will create a sense of excitement in their minds when it comes to your brand. The phenomenon of free samples play on the rule of reciprocity, and you can learn more about why it is effective <a href="https://www.shopify.com/in/retail/product-sampling">here</a>.
+<!-- 
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Bundling.jpg"></a> -->
 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Bundling.jpg"></a>
-
+<div class="flex flex-wrap items-center gap-2 mt-10">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full" src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Bundling.jpg"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
 ### <strong>2. Exclusive VIP club:</strong>
 
 Some of the beauty brands are aspirational brands and are not necessarily something that the masses will take a liking to, because of the price. Businesses should understand this and design programs that will help customers become ‘special’ customers based on their shopping patterns and cart size.
@@ -56,7 +86,36 @@ UGC is pivotal for your brand’s growth because people trust recommendations fr
 
 Reward your customers for sharing their experiences with your brand on social media. They act as a massive validation for a brand as potential customers want to see if your product works or is it just good marketing from your side that makes your brand look appealing. <a href="https://www.nosto.com/blog/report-consumer-marketing-perspectives-on-content-in-the-digital-age/" target="_blanck">79% of customers say that UGC</a> their purchasing decisions.
 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Discount.jpg"></a>
+<div class="flex flex-wrap items-center gap-2 mt-10">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full " src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Discount.jpg"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- <a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Discount.jpg"></a> -->
 
 ### <strong>5. Create a community:</strong>
 
