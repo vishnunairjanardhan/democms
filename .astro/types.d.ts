@@ -459,6 +459,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"ways-to-incentivize-your-bigcommerce-customers-to-return.md": {
+	id: "ways-to-incentivize-your-bigcommerce-customers-to-return.md";
+  slug: "ways-to-incentivize-your-bigcommerce-customers-to-return";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"we-are-live-with-giftcard-platform-on-bigcommerce.md": {
+	id: "we-are-live-with-giftcard-platform-on-bigcommerce.md";
+  slug: "we-are-live-with-giftcard-platform-on-bigcommerce";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "why-are-digital-gift-cards-essential-to-your-e-commerce-business.md": {
 	id: "why-are-digital-gift-cards-essential-to-your-e-commerce-business.md";
   slug: "why-are-digital-gift-cards-essential-to-your-e-commerce-business";
