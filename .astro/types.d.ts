@@ -200,6 +200,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"5-key-components-to-personalize-the-loyalty-experience.md": {
+	id: "5-key-components-to-personalize-the-loyalty-experience.md";
+  slug: "5-key-components-to-personalize-the-loyalty-experience";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md": {
 	id: "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md";
   slug: "5-must-have-features-for-a-successful-shopify-store-gift-card-program";
@@ -343,6 +350,13 @@ declare module 'astro:content' {
 "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md": {
 	id: "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md";
   slug: "how-to--capitalize-on-the-christmas-rush-using-gift-cards";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"how-to-build-customer-loyalty-for-the-beauty-industry.md": {
+	id: "how-to-build-customer-loyalty-for-the-beauty-industry.md";
+  slug: "how-to-build-customer-loyalty-for-the-beauty-industry";
   body: string;
   collection: "posts";
   data: any
