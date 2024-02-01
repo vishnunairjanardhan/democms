@@ -375,6 +375,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"how-to-build-customer-loyalty-for-pet-insurance.md": {
+	id: "how-to-build-customer-loyalty-for-pet-insurance.md";
+  slug: "how-to-build-customer-loyalty-for-pet-insurance";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "how-to-build-customer-loyalty-for-the-beauty-industry.md": {
 	id: "how-to-build-customer-loyalty-for-the-beauty-industry.md";
   slug: "how-to-build-customer-loyalty-for-the-beauty-industry";
@@ -483,6 +490,13 @@ declare module 'astro:content' {
 "ultimate-guide-to-black-friday-cyber-monday-marketing.md": {
 	id: "ultimate-guide-to-black-friday-cyber-monday-marketing.md";
   slug: "ultimate-guide-to-black-friday-cyber-monday-marketing";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"unleashing-the-power-of-loyalty-promotion-programs.md": {
+	id: "unleashing-the-power-of-loyalty-promotion-programs.md";
+  slug: "unleashing-the-power-of-loyalty-promotion-programs";
   body: string;
   collection: "posts";
   data: any
