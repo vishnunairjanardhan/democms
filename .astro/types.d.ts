@@ -354,9 +354,23 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"from-discounts-to-exclusivity-designing-an-effective-customer-loyalty-program-for-your-shopify-store.md": {
+	id: "from-discounts-to-exclusivity-designing-an-effective-customer-loyalty-program-for-your-shopify-store.md";
+  slug: "from-discounts-to-exclusivity-designing-an-effective-customer-loyalty-program-for-your-shopify-store";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "getting-your-e-commerce-shop-thanksgiving-ready.md": {
 	id: "getting-your-e-commerce-shop-thanksgiving-ready.md";
   slug: "getting-your-e-commerce-shop-thanksgiving-ready";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.md": {
+	id: "gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.md";
+  slug: "gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness";
   body: string;
   collection: "posts";
   data: any
@@ -448,6 +462,13 @@ declare module 'astro:content' {
 "personalized-customer-journey.md": {
 	id: "personalized-customer-journey.md";
   slug: "personalized-customer-journey";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store.md": {
+	id: "the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store.md";
+  slug: "the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store";
   body: string;
   collection: "posts";
   data: any
