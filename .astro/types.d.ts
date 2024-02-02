@@ -380,11 +380,18 @@ declare module 'astro:content' {
   slug: "from-discounts-to-exclusivity-designing-an-effective-customer-loyalty-program-for-your-shopify-store";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "getting-your-e-commerce-shop-thanksgiving-ready.md": {
 	id: "getting-your-e-commerce-shop-thanksgiving-ready.md";
   slug: "getting-your-e-commerce-shop-thanksgiving-ready";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.md": {
+	id: "gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.md";
+  slug: "gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -395,13 +402,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.md": {
-	id: "gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.md";
-  slug: "gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness";
-  body: string;
-  collection: "posts";
-  data: any
 } & { render(): Render[".md"] };
 "halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat.md": {
 	id: "halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat.md";
@@ -536,19 +536,19 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store.md": {
+	id: "the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store.md";
+  slug: "the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "the-efficiency-and-effectiveness-of-online-shopping.md": {
 	id: "the-efficiency-and-effectiveness-of-online-shopping.md";
   slug: "the-efficiency-and-effectiveness-of-online-shopping";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store.md": {
-	id: "the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store.md";
-  slug: "the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store";
-  body: string;
-  collection: "posts";
-  data: any
 } & { render(): Render[".md"] };
 "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md": {
 	id: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md";
