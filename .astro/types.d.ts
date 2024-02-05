@@ -394,11 +394,18 @@ declare module 'astro:content' {
   slug: "from-discounts-to-exclusivity-designing-an-effective-customer-loyalty-program-for-your-shopify-store";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "getting-your-e-commerce-shop-thanksgiving-ready.md": {
 	id: "getting-your-e-commerce-shop-thanksgiving-ready.md";
   slug: "getting-your-e-commerce-shop-thanksgiving-ready";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.md": {
+	id: "gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.md";
+  slug: "gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness";
   body: string;
   collection: "posts";
   data: any
@@ -409,13 +416,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: any
-} & { render(): Render[".md"] };
-"gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.md": {
-	id: "gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.md";
-  slug: "gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "gift-card-scams-and-what-you-need-to-know-about-them.md": {
 	id: "gift-card-scams-and-what-you-need-to-know-about-them.md";
@@ -583,7 +583,7 @@ declare module 'astro:content' {
   slug: "the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "the-efficiency-and-effectiveness-of-online-shopping.md": {
 	id: "the-efficiency-and-effectiveness-of-online-shopping.md";
