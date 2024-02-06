@@ -466,6 +466,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"gift-cards-the-gift-that-keeps-giving.md": {
+	id: "gift-cards-the-gift-that-keeps-giving.md";
+  slug: "gift-cards-the-gift-that-keeps-giving";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "gift-cards-the-perfect-employee-reward-for-your-workforce.md": {
 	id: "gift-cards-the-perfect-employee-reward-for-your-workforce.md";
   slug: "gift-cards-the-perfect-employee-reward-for-your-workforce";
@@ -525,6 +532,13 @@ declare module 'astro:content' {
 "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md": {
 	id: "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md";
   slug: "how-to--capitalize-on-the-christmas-rush-using-gift-cards";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"how-to-attract-and-retain-generation-z-customers.md": {
+	id: "how-to-attract-and-retain-generation-z-customers.md";
+  slug: "how-to-attract-and-retain-generation-z-customers";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -840,6 +854,13 @@ declare module 'astro:content' {
 "why-are-digital-gift-cards-essential-to-your-e-commerce-business.md": {
 	id: "why-are-digital-gift-cards-essential-to-your-e-commerce-business.md";
   slug: "why-are-digital-gift-cards-essential-to-your-e-commerce-business";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"why-are-gift-cards-important-for-ecommerce-marketplaces.md": {
+	id: "why-are-gift-cards-important-for-ecommerce-marketplaces.md";
+  slug: "why-are-gift-cards-important-for-ecommerce-marketplaces";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
