@@ -487,6 +487,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"gift-cards-the-gift-that-keeps-giving.md": {
+	id: "gift-cards-the-gift-that-keeps-giving.md";
+  slug: "gift-cards-the-gift-that-keeps-giving";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "gift-cards-the-perfect-employee-reward-for-your-workforce.md": {
 	id: "gift-cards-the-perfect-employee-reward-for-your-workforce.md";
   slug: "gift-cards-the-perfect-employee-reward-for-your-workforce";
@@ -549,6 +556,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: any
+} & { render(): Render[".md"] };
+"how-to-attract-and-retain-generation-z-customers.md": {
+	id: "how-to-attract-and-retain-generation-z-customers.md";
+  slug: "how-to-attract-and-retain-generation-z-customers";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "how-to-build-customer-loyalty-for-pet-insurance.md": {
 	id: "how-to-build-customer-loyalty-for-pet-insurance.md";
@@ -913,6 +927,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: any
+} & { render(): Render[".md"] };
+"why-are-gift-cards-important-for-ecommerce-marketplaces.md": {
+	id: "why-are-gift-cards-important-for-ecommerce-marketplaces.md";
+  slug: "why-are-gift-cards-important-for-ecommerce-marketplaces";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day.md": {
 	id: "why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day.md";
