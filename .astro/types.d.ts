@@ -270,6 +270,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"7-valentines-day-marketing-ideas.md": {
+	id: "7-valentines-day-marketing-ideas.md";
+  slug: "7-valentines-day-marketing-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "8-ways-to-boost-sales-with-gift-cards-this-mothers-day.md": {
 	id: "8-ways-to-boost-sales-with-gift-cards-this-mothers-day.md";
   slug: "8-ways-to-boost-sales-with-gift-cards-this-mothers-day";
@@ -606,6 +613,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"how-to-make-this-your-most-successful-valentines-day-yet.md": {
+	id: "how-to-make-this-your-most-successful-valentines-day-yet.md";
+  slug: "how-to-make-this-your-most-successful-valentines-day-yet";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "how-to-market-your-shopify-gift-card-program-effectively.md": {
 	id: "how-to-market-your-shopify-gift-card-program-effectively.md";
   slug: "how-to-market-your-shopify-gift-card-program-effectively";
@@ -837,9 +851,30 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"what-are-the-benefits-of-loyalty-programs.md": {
+	id: "what-are-the-benefits-of-loyalty-programs.md";
+  slug: "what-are-the-benefits-of-loyalty-programs";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"what-constitutes-a-good-loyalty-program.md": {
+	id: "what-constitutes-a-good-loyalty-program.md";
+  slug: "what-constitutes-a-good-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "what-is-an-ecommerce-gift-card-and-how-does-it-work.md": {
 	id: "what-is-an-ecommerce-gift-card-and-how-does-it-work.md";
   slug: "what-is-an-ecommerce-gift-card-and-how-does-it-work";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"what-is-the-future-of-e-commerce-in-the-next-5-10-years.md": {
+	id: "what-is-the-future-of-e-commerce-in-the-next-5-10-years.md";
+  slug: "what-is-the-future-of-e-commerce-in-the-next-5-10-years";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -872,6 +907,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"why-should-every-business-be-a-digital-business.md": {
+	id: "why-should-every-business-be-a-digital-business.md";
+  slug: "why-should-every-business-be-a-digital-business";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "why-should-you-use-gift-cards-for-your-business.md": {
 	id: "why-should-you-use-gift-cards-for-your-business.md";
   slug: "why-should-you-use-gift-cards-for-your-business";
@@ -882,6 +924,13 @@ declare module 'astro:content' {
 "why-would-a-business-want-a-gift-card-program.md": {
 	id: "why-would-a-business-want-a-gift-card-program.md";
   slug: "why-would-a-business-want-a-gift-card-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"why-your-business-needs-gift-cards-this-valentines.md": {
+	id: "why-your-business-needs-gift-cards-this-valentines.md";
+  slug: "why-your-business-needs-gift-cards-this-valentines";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
