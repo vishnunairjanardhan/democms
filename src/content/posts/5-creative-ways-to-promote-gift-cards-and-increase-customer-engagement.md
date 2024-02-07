@@ -6,7 +6,7 @@ description: "If you don’t offer gift cards to your eCommerce store’s custom
 image:
   url: "https://www.99minds.io/blog/wp-content/uploads/2023/07/5-Creative-Ways-to-Promote-Gift-Cards-and-Increase-Customer-Engagement-800x450.jpg"
   alt: "Promotion Gift Crad."
-tags: ["Gift Crad", "Promote Gift Card"] 
+tags: ["Gift Card", "Promote Gift Card"] 
 
 ---
 <a href="https://www.99minds.io/blog/wp-content/uploads/2023/07/5-Creative-Ways-to-Promote-Gift-Cards-and-Increase-Customer-Engagement.jpg" target="_blank">
