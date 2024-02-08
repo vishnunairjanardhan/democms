@@ -200,6 +200,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses.md": {
+	id: "10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses.md";
+  slug: "10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md": {
 	id: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md";
   slug: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store";
@@ -501,6 +508,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"gift-cards-can-help-businesses-overcome-economic-challenges.md": {
+	id: "gift-cards-can-help-businesses-overcome-economic-challenges.md";
+  slug: "gift-cards-can-help-businesses-overcome-economic-challenges";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine.md": {
 	id: "gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine.md";
   slug: "gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine";
@@ -557,6 +571,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"how-do-loyalty-programs-help-the-pet-industry.md": {
+	id: "how-do-loyalty-programs-help-the-pet-industry.md";
+  slug: "how-do-loyalty-programs-help-the-pet-industry";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "how-is-online-ecommerce-evolving.md": {
 	id: "how-is-online-ecommerce-evolving.md";
   slug: "how-is-online-ecommerce-evolving";
@@ -588,6 +609,13 @@ declare module 'astro:content' {
 "how-to-attract-and-retain-generation-z-customers.md": {
 	id: "how-to-attract-and-retain-generation-z-customers.md";
   slug: "how-to-attract-and-retain-generation-z-customers";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"how-to-benefit-from-omnichannel-strategies-for-your-ecommerce.md": {
+	id: "how-to-benefit-from-omnichannel-strategies-for-your-ecommerce.md";
+  slug: "how-to-benefit-from-omnichannel-strategies-for-your-ecommerce";
   body: string;
   collection: "posts";
   data: any
@@ -767,6 +795,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"must-have-features-for-your-ecommerce-website.md": {
+	id: "must-have-features-for-your-ecommerce-website.md";
+  slug: "must-have-features-for-your-ecommerce-website";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "national-use-your-gift-card-day.md": {
 	id: "national-use-your-gift-card-day.md";
   slug: "national-use-your-gift-card-day";
@@ -942,6 +977,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"useful-gift-card-statistics-to-know-in-2022.md": {
+	id: "useful-gift-card-statistics-to-know-in-2022.md";
+  slug: "useful-gift-card-statistics-to-know-in-2022";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "ways-coupons-can-help-your-business-attract-loyal-customer.md": {
 	id: "ways-coupons-can-help-your-business-attract-loyal-customer.md";
   slug: "ways-coupons-can-help-your-business-attract-loyal-customer";
@@ -963,6 +1005,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"what-are-promotional-codes-and-how-do-they-work.md": {
+	id: "what-are-promotional-codes-and-how-do-they-work.md";
+  slug: "what-are-promotional-codes-and-how-do-they-work";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "what-are-the-benefits-of-loyalty-programs.md": {
 	id: "what-are-the-benefits-of-loyalty-programs.md";
   slug: "what-are-the-benefits-of-loyalty-programs";
@@ -980,6 +1029,13 @@ declare module 'astro:content' {
 "what-is-an-ecommerce-gift-card-and-how-does-it-work.md": {
 	id: "what-is-an-ecommerce-gift-card-and-how-does-it-work.md";
   slug: "what-is-an-ecommerce-gift-card-and-how-does-it-work";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"what-is-omnichannel-commerce.md": {
+	id: "what-is-omnichannel-commerce.md";
+  slug: "what-is-omnichannel-commerce";
   body: string;
   collection: "posts";
   data: any
