@@ -193,6 +193,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"10-best-merchant-services-for-2022.md": {
+	id: "10-best-merchant-services-for-2022.md";
+  slug: "10-best-merchant-services-for-2022";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"10-best-point-of-sale-pos-systems-for-2022.md": {
+	id: "10-best-point-of-sale-pos-systems-for-2022.md";
+  slug: "10-best-point-of-sale-pos-systems-for-2022";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "10-best-practices-for-setting-up-your-shopify-gift-card-program.md": {
 	id: "10-best-practices-for-setting-up-your-shopify-gift-card-program.md";
   slug: "10-best-practices-for-setting-up-your-shopify-gift-card-program";
@@ -228,6 +242,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"5-employee-gift-ideas-for-thanksgiving.md": {
+	id: "5-employee-gift-ideas-for-thanksgiving.md";
+  slug: "5-employee-gift-ideas-for-thanksgiving";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "5-key-components-to-personalize-the-loyalty-experience.md": {
 	id: "5-key-components-to-personalize-the-loyalty-experience.md";
   slug: "5-key-components-to-personalize-the-loyalty-experience";
@@ -245,6 +266,13 @@ declare module 'astro:content' {
 "5-reasons-why-your-business-should-offer-gift-cards-for-mothers-day.md": {
 	id: "5-reasons-why-your-business-should-offer-gift-cards-for-mothers-day.md";
   slug: "5-reasons-why-your-business-should-offer-gift-cards-for-mothers-day";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"5-wicked-halloween-marketing-ideas-to-boost-your-online-sales.md": {
+	id: "5-wicked-halloween-marketing-ideas-to-boost-your-online-sales.md";
+  slug: "5-wicked-halloween-marketing-ideas-to-boost-your-online-sales";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -368,6 +396,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"benefits-of-omnichannel-loyalty-programs.md": {
+	id: "benefits-of-omnichannel-loyalty-programs.md";
+  slug: "benefits-of-omnichannel-loyalty-programs";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "best-mothers-day-gift-cards-2021.md": {
 	id: "best-mothers-day-gift-cards-2021.md";
   slug: "best-mothers-day-gift-cards-2021";
@@ -403,6 +438,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"coupon-advertising-ways-to-make-it-work-for-your-business.md": {
+	id: "coupon-advertising-ways-to-make-it-work-for-your-business.md";
+  slug: "coupon-advertising-ways-to-make-it-work-for-your-business";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "customer-acquisition-tactics-you-might-be-missing-on.md": {
 	id: "customer-acquisition-tactics-you-might-be-missing-on.md";
   slug: "customer-acquisition-tactics-you-might-be-missing-on";
@@ -431,9 +473,37 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"easter-promotion-ideas-for-brands-in-2022.md": {
+	id: "easter-promotion-ideas-for-brands-in-2022.md";
+  slug: "easter-promotion-ideas-for-brands-in-2022";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"ecommerce-gift-cards-crucial-for-growing-retail-businesses.md": {
+	id: "ecommerce-gift-cards-crucial-for-growing-retail-businesses.md";
+  slug: "ecommerce-gift-cards-crucial-for-growing-retail-businesses";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "ecommerce-referral-marketing-strategies.md": {
 	id: "ecommerce-referral-marketing-strategies.md";
   slug: "ecommerce-referral-marketing-strategies";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"fathers-day-ecommerce-facts-you-need-to-know.md": {
+	id: "fathers-day-ecommerce-facts-you-need-to-know.md";
+  slug: "fathers-day-ecommerce-facts-you-need-to-know";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"fathers-day-retail-promotion-ideas.md": {
+	id: "fathers-day-retail-promotion-ideas.md";
+  slug: "fathers-day-retail-promotion-ideas";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -473,6 +543,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"gift-card-services-for-merchants.md": {
+	id: "gift-card-services-for-merchants.md";
+  slug: "gift-card-services-for-merchants";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "gift-cards-the-gift-that-keeps-giving.md": {
 	id: "gift-cards-the-gift-that-keeps-giving.md";
   slug: "gift-cards-the-gift-that-keeps-giving";
@@ -508,9 +585,44 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"holiday-shoppers-take-advantage-of-early-thanksgiving-deals.md": {
+	id: "holiday-shoppers-take-advantage-of-early-thanksgiving-deals.md";
+  slug: "holiday-shoppers-take-advantage-of-early-thanksgiving-deals";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "how-can-small-businesses-can-increase-sales-with-gift-cards.md": {
 	id: "how-can-small-businesses-can-increase-sales-with-gift-cards.md";
   slug: "how-can-small-businesses-can-increase-sales-with-gift-cards";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"how-do-coupons-work-for-businesses.md": {
+	id: "how-do-coupons-work-for-businesses.md";
+  slug: "how-do-coupons-work-for-businesses";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"how-do-i-set-up-an-ecommerce-referral-program.md": {
+	id: "how-do-i-set-up-an-ecommerce-referral-program.md";
+  slug: "how-do-i-set-up-an-ecommerce-referral-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"how-do-you-build-longer-lasting-brand-loyalty.md": {
+	id: "how-do-you-build-longer-lasting-brand-loyalty.md";
+  slug: "how-do-you-build-longer-lasting-brand-loyalty";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"how-halloween-inspires-e-commerce-marketing.md": {
+	id: "how-halloween-inspires-e-commerce-marketing.md";
+  slug: "how-halloween-inspires-e-commerce-marketing";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -613,6 +725,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"how-to-kick-off-your-sales-on-fathers-day.md": {
+	id: "how-to-kick-off-your-sales-on-fathers-day.md";
+  slug: "how-to-kick-off-your-sales-on-fathers-day";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween.md": {
+	id: "how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween.md";
+  slug: "how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "how-to-make-this-your-most-successful-valentines-day-yet.md": {
 	id: "how-to-make-this-your-most-successful-valentines-day-yet.md";
   slug: "how-to-make-this-your-most-successful-valentines-day-yet";
@@ -620,9 +746,23 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"how-to-market-your-loyalty-program.md": {
+	id: "how-to-market-your-loyalty-program.md";
+  slug: "how-to-market-your-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "how-to-market-your-shopify-gift-card-program-effectively.md": {
 	id: "how-to-market-your-shopify-gift-card-program-effectively.md";
   slug: "how-to-market-your-shopify-gift-card-program-effectively";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"how-to-sell-more-with-gift-cards.md": {
+	id: "how-to-sell-more-with-gift-cards.md";
+  slug: "how-to-sell-more-with-gift-cards";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -676,6 +816,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"last-minute-christmas-marketing-checklist-for-ecommerce.md": {
+	id: "last-minute-christmas-marketing-checklist-for-ecommerce.md";
+  slug: "last-minute-christmas-marketing-checklist-for-ecommerce";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "loyalty-trends-for-the-decade-to-come.md": {
 	id: "loyalty-trends-for-the-decade-to-come.md";
   slug: "loyalty-trends-for-the-decade-to-come";
@@ -700,6 +847,13 @@ declare module 'astro:content' {
 "mothers-day-gift-card-design-ideas-that-will-wow-your-customers.md": {
 	id: "mothers-day-gift-card-design-ideas-that-will-wow-your-customers.md";
   slug: "mothers-day-gift-card-design-ideas-that-will-wow-your-customers";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"mothers-day-promotions-any-small-business-can-use.md": {
+	id: "mothers-day-promotions-any-small-business-can-use.md";
+  slug: "mothers-day-promotions-any-small-business-can-use";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -830,9 +984,23 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"using-your-social-media-accounts-to-sell-more-gift-cards.md": {
+	id: "using-your-social-media-accounts-to-sell-more-gift-cards.md";
+  slug: "using-your-social-media-accounts-to-sell-more-gift-cards";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "ways-coupons-can-help-your-business-attract-loyal-customer.md": {
 	id: "ways-coupons-can-help-your-business-attract-loyal-customer.md";
   slug: "ways-coupons-can-help-your-business-attract-loyal-customer";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"ways-to-boost-sales-this-mothers-day.md": {
+	id: "ways-to-boost-sales-this-mothers-day.md";
+  slug: "ways-to-boost-sales-this-mothers-day";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -924,6 +1092,13 @@ declare module 'astro:content' {
 "why-would-a-business-want-a-gift-card-program.md": {
 	id: "why-would-a-business-want-a-gift-card-program.md";
   slug: "why-would-a-business-want-a-gift-card-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"why-you-should-use-gift-cards-as-your-halloween-treats.md": {
+	id: "why-you-should-use-gift-cards-as-your-halloween-treats.md";
+  slug: "why-you-should-use-gift-cards-as-your-halloween-treats";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

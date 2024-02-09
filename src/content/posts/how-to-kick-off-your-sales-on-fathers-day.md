@@ -1,0 +1,73 @@
+---
+pubDate: 2022-05-26
+author: Mrudul
+title: How To Kick Off Your Sales On Father’s Day  
+description: Father's Day isn't as popular as Mother's Day, but you don't want to lose out on the $20 billion spent on the celebration. Also, 77% of Americans plan to celebrate Father’s Day this year, 2% more than last year. Consumers are expected to spend an average of $171. This means that for those looking to.
+image:
+  url: "https://www.99minds.io/blog/wp-content/uploads/2022/05/How-To-Kick-Off-Your-Sales-for-Fathers-Day-800x450.jpg"
+  alt: "How to kick off your sales for fathers day."
+tags: ["Gift Card"]
+--- 
+<a href="https://www.99minds.io/blog/generic/how-to-kick-off-your-sales-on-fathers-day/">
+<img src="https://www.99minds.io/blog/wp-content/uploads/2022/05/How-To-Kick-Off-Your-Sales-for-Fathers-Day.jpg"></a>
+
+Father’s Day isn’t as popular as <a href="https://www.99minds.io/blog/generic/ways-to-boost-sales-this-mothers-day/" target="_blank">Mother’s Day</a>, but you don’t want to lose out on the $20 billion spent on the celebration. Also, 77% of Americans plan to celebrate Father’s Day this year, 2% more than last year.
+
+Consumers are expected to spend an average of $171. This means that for those looking to take advantage of seasonal sales, <a href="https://www.99minds.io/blog/generic/fathers-day-retail-promotion-ideas/" target="_blank">Father’s Day is an unavoidable retail holiday</a>.
+
+We have gathered some best Father’s Day strategies to kick off sales. Let’s see…
+
+<b>Early Promotion</b>
+
+If you want to see an increase in sales, you should start promoting as soon as possible. Waiting about a week before Father’s Day will not produce the best outcomes.
+
+It can include displaying a banner at the top of the website announcing a Father’s Day offer and replacing your featured products on the homepage with things aimed toward dads.
+
+Rather than giving people one day to enjoy a Father’s Day deal, send a special offer that lasts a week or more.
+
+
+
+<b>Offers with a time limit</b>
+
+Use limited-time offers to urge customers to purchase from you. You’ll see a spike in sales if you make your offers time-sensitive because most customers don’t want to miss out on good deals.
+
+You can also give away free <a href="https://www.99minds.io/blog/generic/easter-promotion-ideas-for-brands-in-2022/" target="_blank">branded promotional items</a> when customers spend a certain amount of money in your store. These things will not only encourage your buyers to spend more, but they will also promote your brand wherever they go. It’s a win-win situation for your company.
+
+<b>Perform SEO.</b>
+
+When Father’s Day or any holiday approaches, searches on search engines like <a href="https://www.99minds.io/blog/generic/how-to-kick-off-your-sales-on-fathers-day/google.com/" target="_blank">Google</a> seem to always rise. This means you have a strong chance to gain traffic and sales to your website.
+
+To conduct keyword research, use tools such as Google Keyword Planner. This can help your articles rank higher in the search results and drive traffic to your site.
+
+<b>Use visual branding to your advantage.</b>
+
+It’s extremely important to highlight products linked with the male universe for Father’s Day, especially near the entryway. Such as Beverages like beers and wines, as well as cheese boards and crackers; Create diverse product groupings to encourage buying.
+
+Installing themed mobiles or stands and using displays to emphasise size men’s products in the hygiene and personal care section is an amazing addition.
+
+<b>Make product bundles</b>
+
+Buyers are enticed by the selling of many products at a somewhat lower price. These are especially helpful when customers are unsure of what they want to buy.
+
+Consider trousers and shirt sets, or exotic foods in specific packaging for the event. That’s how the <a href="https://www.99minds.io/blog/ecommerce/gift-cards-can-help-businesses-overcome-economic-challenges/" target="_blank">eCommerce company suggests a more appealing present to users at a cheaper cost than it would be if purchased separately</a>.
+
+<a href="https://calendly.com/99minds" target="_blank">
+<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2022/03/CTA-IMAGES-BAD.jpg"></a>
+
+<b>Target Moms and Kids</b>
+
+Remember that your core customers will be mothers, wives, and children, so adjust your messages smartly. Apart from it, invite them to share images of or with their fathers, as well as their favourite rite “dad joke.”
+
+Dads can then be <a href="https://www.99minds.io/blog/gift-card/using-your-social-media-accounts-to-sell-more-gift-cards/" target="_blank">featured on your social media pages</a> and in your email campaigns. These types of messaging go a long way toward making clients feel like they can relate to you, establishing trust, and increasing sales.
+
+<b>Allow customers to pick their own delivery dates.</b>
+
+This allows them to plan the delivery at a time and day that is convenient for them, saving you from having to make several delivery efforts. It also guarantees that their ideal father’s gift will arrive in time for Father’s Day.
+
+<b>Social media strategies</b>
+
+For this event, use your <a href="https://www.99minds.io/blog/gift-card/how-to-use-gift-card-in-social-media-marketing/" target="_blank">social media sites to engage with your fans more</a>. One useful tool is to design a gamified lottery or contest that motivates users to participate and contribute.
+
+You’ll not only increase revenue by increasing website traffic, but you’ll also be able to collect new leads and increase consumer interaction with your brand.
+
+Keep in mind that Facebook prefers photos and videos over text. In the case of <a href="https://www.instagram.com/" target="_blank">Instagram</a>, stories can be a perfect way to show your store’s exclusive offers.
