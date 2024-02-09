@@ -6,7 +6,7 @@ description: "Your customers want to know that they are special. They might be y
 image:
   url: "https://www.99minds.io/blog/wp-content/uploads/2021/06/What-constitutes-a-good-loyalty-program.jpg"
   alt: "The word community with a heart."
-tags: ["Loyalty Program"]
+tags: ["Customer Loyalty", "Loyalty Program"]
 ---
 <img src="https://www.99minds.io/blog/wp-content/uploads/2021/06/What-constitutes-a-good-loyalty-program.jpg">
 
