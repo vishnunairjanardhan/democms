@@ -7,6 +7,7 @@ const CouponGenerator = () => {
   const [suffix, setSuffix] = useState('');
   const [codes, setCodes] = useState([]);
   const [NumberOfCode, setNumberOfCode] = useState(1);
+  const [selectedTemplate, setSelectedTemplate] = useState('');
   const [codePattern, setCodePattern] = useState('#####################');
   // eslint-disable-next-line no-unused-vars
   const [characters, setCharacters] = useState('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789');
@@ -105,7 +106,13 @@ const CouponGenerator = () => {
     { id: 5, src: '/images/coupon-generator/woocommerce-logo1-w.svg' },
   ];
   const renderCodeButton = (title, example1, example2, onClickHandler) => (
-    <button className="h-60 bg-vulcan-900 bg-gradient-to-b mb-4 from-indigo-500 via-indigo-500/5 shadow-2xl rounded-xl p-[0.060rem] snap-start ring-1 ring-vulcan-800 border border-vulcan-800 hover:border-indigo-300 duration-300 group" onClick={onClickHandler}>
+    <button
+    className={`h-60 bg-vulcan-900 bg-gradient-to-b mb-4 from-indigo-500 via-indigo-500/5 shadow-2xl rounded-xl p-[0.060rem] snap-start ring-1 ring-vulcan-800 border ${selectedTemplate === title ? 'border-white-100' : 'border-vulcan-800'} hover:border-white duration-300 group`}
+    onClick={() => {
+      onClickHandler();
+      setSelectedTemplate(title);
+    }}
+  >
       <figure class="bg-vulcan-900 rounded-xl pt-8 lg:pb-5 pb-12">
       <h5 className="px-10 text-lg font-normal tracking-tight text-center text-white mb-6">{`Generate ${title} Codes`}</h5>
       <div className='border-b border-vulcan-800'></div>
@@ -131,12 +138,12 @@ const CouponGenerator = () => {
         <div className="p-[0.060rem] rounded-3xl shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 lg:px-36 sm:py-32 sm:px-4">
           <div className="mx-auto max-w-7xl">
             <h2 className='text-center lg:text-3xl text-2xl font-normal tracking-tight text-white lg:mt-0 mt-12'>Choose your eCommerce Site</h2>
-            <div className="mx-auto lg:mt-24 mt-10 grid max-w-lg grid-cols-4 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-2 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <div className="mx-auto lg:mt-24 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
               {logos.map((logo) => (
                 <label
-                  key={logo.id}
-                  className={`relative cursor-pointer focus:outline-none rounded-lg border border-vulcan-800 hover:border-indigo-300 duration-300 group ${selectedLogo === logo.id ? 'border-indigo-500' : ''}`}
-                >
+                key={logo.id}
+                className={`relative cursor-pointer focus:outline-none rounded-lg border ${selectedLogo === logo.id ? 'border-indigo-300' : 'border-vulcan-800'} hover:border-indigo-300 duration-300 group`}
+              >
                   <input
                     type="radio"
                     name="logo"
