@@ -59,10 +59,10 @@
       <nav
         :class="{'flex': open, 'hidden': !open}"
         class="flex-col items-center flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
-        <a
+        <!--<a
           class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50 lg:ml-auto"
           href="/">Home</a
-        >
+        >-->
         
           <!---Dropdown--->
                 <div @click.away="open = false" class="relative" x-data="{ open: false }">
@@ -100,6 +100,10 @@
               class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
                 href="/integrationspage">
                 Integrations</a>
+                <a
+              class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
+                href="/case-study">
+                Case Study</a>
 
                 <!---Dropdown--->
                 <div @click.away="open = false" class="relative" x-data="{ open: false }">
