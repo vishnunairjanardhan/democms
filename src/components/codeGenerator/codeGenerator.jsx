@@ -138,7 +138,15 @@ const CouponGenerator = () => {
         <div className="p-[0.060rem] rounded-3xl shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 lg:px-36 sm:py-32 sm:px-4">
           <div className="mx-auto max-w-7xl">
             <h2 className='text-center lg:text-3xl text-2xl font-normal tracking-tight text-white lg:mt-0 mt-12'>Choose your eCommerce Site</h2>
+<<<<<<< HEAD
             <div className="mx-auto lg:mt-24 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+=======
+<<<<<<< HEAD
+            <div className="mx-auto lg:mt-24 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+=======
+            <div className="mx-auto lg:mt-24 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-2 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+>>>>>>> 8e8cc27f2cb7215e13336ccc0be56a40e0a5b4f4
+>>>>>>> aad70b40c0026f183f4f72ab134239be7fb8819c
               {logos.map((logo) => (
                 <label
                 key={logo.id}
