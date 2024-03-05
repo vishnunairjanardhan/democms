@@ -49,8 +49,15 @@
                     this.atEnd = false
                 }
             },
-        },
-    }">
+        },startAutoSlide() {
+          this.interval = setInterval(() => {
+              this.next();
+          }, 3000); // 5 seconds interval
+      },
+      stopAutoSlide() {
+          clearInterval(this.interval);
+      },
+  }" x-init="startAutoSlide" x-on:mouseenter="stopAutoSlide" x-on:mouseleave="startAutoSlide">
       <div class="flex flex-col w-full" aria-labelledby="carousel-label" role="region" tabindex="0" x-on:keydown.left="prev" x-on:keydown.right="next">
         <h2 class="sr-only" hidden="" id="carousel-label">Carousel</h2>
         <span class="sr-only" hidden="" id="carousel-content-label">Carousel</span>
@@ -107,7 +114,7 @@
                       <div class="mt-6 lg:mt-4 lg:flex h-64 lg:items-center">
                         <img class="object-cover object-center lg:w-[20rem] mt-8 rounded-lg" src="/assets/testimonial/Pinstripe1.png" alt="">
                         <div class="mt-8 lg:px-10 lg:mt-0">
-                           <!--<img class="object-cover object-center lg:w-[4rem]" src="/assets/testimonial/C-1.png" alt="">-->
+                          <img class="object-cover object-center lg:w-[4rem]" src="/assets/testimonial/C-1.png" alt="">
                           <p class="max-w-lg mt-2 text-base text-vulcan-300"> "The team at 99Minds has been great to work with. Changing to them as our gift card vendor has saved us substantial money and also made the purchase experience far more seamless for our guests. Additionally their customer service is top notch. They are incredibly responsive and help us bring guests to resolution in a timely manner." </p>
                           <h3 class="mt-6 text-md font-medium text-white">ANTHONY COLUCCI-VICE PRESIDENT</h3>
                           <p class="text-sm text-vulcan-300">MARKETING, PINSTRIPES INC.</p>
@@ -128,7 +135,7 @@
                       <div class="mt-4 lg:mt-4 h-64 lg:flex lg:items-center">
                         <img class="object-cover object-center lg:w-[20rem] mt-8 rounded-lg" src="/assets/testimonial/Cariloha1.png" alt="">
                         <div class="mt-8 lg:px-10 lg:mt-0">
-                           <img class="object-cover object-center lg:w-[4rem]" src="/assets/testimonial/C-1.png" alt="">
+                          <img class="object-cover object-center lg:w-[4rem]" src="/assets/testimonial/C-1.png" alt="">
                           <p class="max-w-lg mt-2 text-base text-vulcan-300"> "One stop solution for Marketing and Promotion.Complete automation for gift cards and Coupons based on Customer Journey." </p>
                           <h3 class="mt-6 text-md font-medium text-white">JOSH KIKKERT</h3>
                           <p class="text-sm text-vulcan-300">DIRECTOR OF E-COMMERCE, CARILOHA</p>
@@ -149,10 +156,10 @@
                       <div class="mt-4 lg:mt-4 h-64 lg:flex lg:items-center">
                         <img class="object-cover object-center lg:w-[20rem] mt-8 rounded-lg" src="/assets/testimonial/Bestop1.png" alt="">
                         <div class="mt-8 lg:px-10 lg:mt-0">
-                         <img class="object-cover object-center lg:w-[4rem]" src="/assets/testimonial/C-1.png" alt="">
+                          <img class="object-cover object-center lg:w-[4rem]" src="/assets/testimonial/C-1.png" alt="">
                           <p class="max-w-lg mt-2 text-base text-vulcan-300"> "With 99minds we are able to create one gift cards to make it work across multi-storefront for our multiple brands." </p>
                           <h3 class="mt-6 text-md font-medium text-white">LAUREN BACK </h3>
-                          <p class="text-sm text-vulcan-300">DIGITAL MARKETING MANAGER,BESTOPS</p>
+                          <p class="text-sm text-vulcan-300">DIGITAL MARKETING MANAGER, BESTOPS</p>
                         </div>
                       </div>
                     </div>
