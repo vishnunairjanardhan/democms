@@ -1,6 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Integrationpage from "../components/integrations/Integrationpage.astro";
+import HeroCasestudy from "../components/heros/HeroCasestudy.astro";
+import Casestudytest from "../components/testimonials/Casestudytest.astro";
+import FeatureCasestudy from "../components/features/FeatureCasestudy.astro";
+import CasestudyDetail from "../components/Infopages/CasestudyDetail.astro";
+
 
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -9,7 +13,7 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="Integration Page"
+  title="Case Salestudy"
   description="Your site description goes here"
   canonical="https://www.lexingtonthemes.com"
   openGraph={{
@@ -43,6 +47,8 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
 <BaseLayout>
-  <Integrationpage />
-  
+  <HeroCasestudy />
+  <Casestudytest />
+  <CasestudyDetail />
+  <FeatureCasestudy />
 </BaseLayout>
