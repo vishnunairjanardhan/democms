@@ -26,7 +26,10 @@ const CouponGenerator = () => {
     const selectedLogoObj = logos.find((logo) => logo.id === selectedLogo);
     return selectedLogoObj ? selectedLogoObj.src : '';
   };
-
+  const getSelectedLogoUrl = () => {
+    const selectedLogoObj = logos.find((logo) => logo.id === selectedLogo);
+    return selectedLogoObj ? selectedLogoObj.url : '';
+  };
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -99,11 +102,11 @@ const CouponGenerator = () => {
   const [selectedLogo, setSelectedLogo] = useState(null);
 
   const logos = [
-    { id: 1, src: '/images/coupon-generator/shopify-logo-1-w.svg' },
-    { id: 2, src: '/images/coupon-generator/bigcommerce-logo-w.svg' },
-    { id: 3, src: '/images/coupon-generator/shopifyPlus-logo-w.svg' },
-    { id: 4, src: '/images/coupon-generator/Salesforce-logo-w.svg' },
-    { id: 5, src: '/images/coupon-generator/woocommerce-logo1-w.svg' },
+    { id: 1, src: '/images/coupon-generator/shopify-logo-1-w.svg', url:'https://34bbcb-ae.myshopify.com/'},
+    { id: 2, src: '/images/coupon-generator/bigcommerce-logo-w.svg', url:'https://99kicks.mybigcommerce.com/'},
+    { id: 3, src: '/images/coupon-generator/shopifyPlus-logo-w.svg', url:'https://34bbcb-ae.myshopify.com/'},
+    { id: 4, src: '/images/coupon-generator/Salesforce-logo-w.svg', url:'https://giftcard.99minds.io/access/login'},
+    { id: 5, src: '/images/coupon-generator/woocommerce-logo1-w.svg', url:'https://giftcard.99minds.io/access/login'},
   ];
   const renderCodeButton = (title, example1, example2, onClickHandler) => (
     <button
@@ -340,7 +343,7 @@ const CouponGenerator = () => {
             </CSVLink>
             <button
               className="text-white rounded-md py-2 px-16 lg:px-12 lg:flex rounded-lg border border-vulcan-800 hover:border-indigo-300 duration-300 group"
-              onClick={() => window.open("https://giftcard.99minds.io/access/login", "_blank")}
+              onClick={() => window.open(getSelectedLogoUrl(), "https://giftcard.99minds.io/access/login")}
             >
               Import to
               <img className='pl-2 mt-1 ' src={getSelectedLogoSrc()}  width={95} />
