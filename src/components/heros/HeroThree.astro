@@ -26,7 +26,7 @@ offers and more
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
                 <span class="relative text-white">Get started for free</span>
                 </span></button>
-                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
+                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
               </span>
               <!-- Modal -->
               <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
@@ -36,7 +36,6 @@ offers and more
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
                   <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
                     <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
-                      
                     <iframe
                       src="../GetStarted"
                       width="100%"
@@ -52,16 +51,15 @@ offers and more
                 </div>
               </div>
             </div>
-              
-          
         </div>
       </div>
       <div class="relative order-first w-full lg:block">
         <img
-          class="object-cover object-center w-full mx-auto  lg:absolute lg:ml-auto shadow-black"
+          class="z-0 object-cover object-center w-full mx-auto  lg:absolute lg:ml-auto shadow-black"
           alt="hero"
-          src="/assets/homepage/h1.png"
-        />
+          src="/HomeBanner.png">
+        </img>
+        <object class='z-40' type="image/svg+xml" data="/label.svg"/>
       </div>
     </div>
   </div>
