@@ -1,7 +1,13 @@
 --- import Verticalgrid from "../assets/Verticalgrid.astro"; --- 
 <section>
+  <!-- <video class="responsive-video-file" aria-describedby="Sprocket Rocket Demo" autoplay="" loop="" muted="" playsinline="">				
+    <source src="/testimonial.mp4" type="video/mp4">
+  </video> -->
 <div>
-  <div class="pb-5 border-vulcan-800">
+  <div class="pb-5 border-vulcan-800 flex">
+    <video controls>
+      <source src="/testimonial.mp4" type="video/mp4">
+    </video>    
     <!--<h3 class="text-base font-semibold leading-6 text-white"> Animated, boxed and centered </h3>-->
   </div>
   <div x-data="{
