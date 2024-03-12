@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 ---
 
 <meta charset="utf-8" />
@@ -51,15 +52,19 @@ Alpine.js
 ></script>
 <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
 <!-- Google Analytics -->
-<script
-  type="text/partytown"
-  src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.VITE_GA_MEASUREMENT_ID}`}
-></script>
-<script type="text/partytown">
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-  gtag("config", import.meta.env.VITE_GA_MEASUREMENT_ID);
-</script>
+{ !!GA_ID &&
+  <>
+    <script
+      type="text/partytown"
+      src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+    ></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", GA_ID);
+    </script>
+  </>
+}

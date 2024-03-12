@@ -3,6 +3,8 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
+import partytown from "@astrojs/partytown";
+
 export default defineConfig({
    markdown: {
     drafts: true,
@@ -14,5 +16,10 @@ export default defineConfig({
     drafts: true,
   },
   site: 'https://lexingtonthemes.com',
-  integrations: [tailwind(), react(), sitemap(), mdx()]
+  integrations: [tailwind(), react(), sitemap(), mdx(), partytown({
+      // Adds dataLayer.push as a forwarding-event.
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    })]
 });
