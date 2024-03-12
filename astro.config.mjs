@@ -13,6 +13,6 @@ export default defineConfig({
     skipInline: false,
     drafts: true,
   },
-   site: 'https://lexingtonthemes.com',
+  site: 'https://lexingtonthemes.com',
   integrations: [tailwind(), react(), sitemap(), mdx()]
 });
