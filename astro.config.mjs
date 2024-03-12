@@ -15,7 +15,7 @@ export default defineConfig({
     skipInline: false,
     drafts: true,
   },
-  site: 'https://lexingtonthemes.com',
+  site: 'https://www.99minds.io',
   integrations: [tailwind(), react(), sitemap(), mdx(), partytown({
       // Adds dataLayer.push as a forwarding-event.
       config: {

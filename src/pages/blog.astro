@@ -2,19 +2,20 @@
 import { getCollection } from "astro:content";
 const allPosts = await getCollection("posts");
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
-import CtaFive from "../../components/ctas/CtaFive.astro";
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import EntriesOne from "../../components/entries/EntriesOne.astro";
+import CtaThree99minds from "../components/ctas/CtaThree99minds.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import EntriesOne from "../components/entries/EntriesOne.astro";
 import { AstroSeo } from "@astrolib/seo";
 ---
 
 <AstroSeo
-  description="Your site description goes here"
-  canonical="https://www.lexingtonthemes.com"
+  title='99minds - Blog'
+  description="Discover diverse perspectives and valuable insights at 99minds Blog"
+  canonical="https://www.99minds.io"
   openGraph={{
-    url: "https://www.lexingtonthemes.com",
-    title: "Open Graph Title",
-    description: "Open Graph Description",
+    url: "https://www.99minds.io",
+    title: "Get Inspired: 99minds Blog Hub",
+    description: "Discover diverse perspectives and valuable insights at 99minds Blog",
     images: [
       {
         url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg",
@@ -33,10 +34,10 @@ import { AstroSeo } from "@astrolib/seo";
       { url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg" },
       { url: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg" },
     ],
-    site_name: "YourSitesName",
+    site_name: "99minds",
   }}
   twitter={{
-    handle: "@TwitterHandle",
+    handle: "@99minds_io",
     site: "@site",
     cardType: "summary_large_image",
   }}
@@ -44,7 +45,7 @@ import { AstroSeo } from "@astrolib/seo";
 <BaseLayout>
   <section >
     <div
-      class="max-w-7xl px-8 md:px-12 lg:px-32 mx-auto py-32 lg:py-36 relative">
+      class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-32 lg:py-36 relative">
       <div class="max-w-2xl">
         <p
           class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
@@ -93,7 +94,7 @@ import { AstroSeo } from "@astrolib/seo";
               .slice()
               .map((post) => (
                 <EntriesOne
-                  url={"/posts/" + post.slug}
+                  url={"/blog/" + post.slug}
                   title={post.data.title}
                   description={post.data.description}
                   alt={post.data.title}
@@ -108,5 +109,5 @@ import { AstroSeo } from "@astrolib/seo";
     </div>
   </section>
 
-  <CtaFive />
+  <CtaThree99minds />
 </BaseLayout>
