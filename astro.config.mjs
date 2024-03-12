@@ -3,6 +3,7 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
+
 export default defineConfig({
    markdown: {
     drafts: true,
@@ -13,6 +14,6 @@ export default defineConfig({
     skipInline: false,
     drafts: true,
   },
-  site: 'https://lexingtonthemes.com',
+  site: 'https://www.99minds.io',
   integrations: [tailwind(), react(), sitemap(), mdx()]
 });
