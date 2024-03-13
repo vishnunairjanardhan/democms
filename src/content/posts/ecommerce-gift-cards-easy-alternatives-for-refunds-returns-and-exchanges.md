@@ -4,12 +4,12 @@ author: Mrudul
 title: eCommerce Gift Cards, Easy Alternatives For Refunds, Returns, And Exchanges
 description: US consumers were predicted to return $100 billion worth of unwanted products purchased between Thanksgiving and Christmas. Those are some painful numbers. As exciting as the holiday season is for retailers, returns and refund requests pose a major problem. Buyer’s remorse is a common phenomenon. Some purchases are impulse decisions, and the customer may not.
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/11/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges-800x450.jpg"
+  url: "/assets/blog/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges-800x450.jpg"
   alt: "ecommerce gift cards easy alternatives for refund return and exchanges."
 tags: ["Gift Cards"]
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/11/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges.jpg"></a>
+<img src="/assets/blog/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges.jpg"></a>
 
 US consumers were predicted to return $100 billion worth of unwanted products purchased between <a href="https://www.99minds.io/blog/ecommerce/tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022/" target="_blank">Thanksgiving</a> and <a href="https://www.99minds.io/blog/gift-card/how-to-create-a-successful-gift-card-campaign-for-christmas/" target="_blank">Christmas</a>. Those are some painful numbers. As exciting as the <a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/" target="_blank">holiday season</a> is for retailers, returns and refund requests pose a major problem.
 

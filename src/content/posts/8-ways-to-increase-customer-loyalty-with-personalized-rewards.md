@@ -4,11 +4,11 @@ author: Mrudul
 title: 8 Ways to Increase Customer Loyalty With Personalized Rewards
 description: "Businesses understand the value of customer loyalty and how it affects their bottom line. Let’s see how to use personalized rewards for it."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/11/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-5.png"
+  url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-5.png"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/11/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-5.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-5.png">
 
 In a world of too many options for customers, building a loyalty program seems like the most straightforward thing to do. If you create the right loyalty program, you will be sitting on a treasure trove of customers who keep buying from you repeatedly. Boosting customer retention is possible through data-driven loyalty programs. <a href="https://www.wunderkind.co/blog/article/smarterhq-wunderkind-audiences/">72% of customers</a> have said in a survey that they will only engage with businesses that send them personalized messaging. Personalized rewards are the magic sauce to increasing loyalty program ROI.
 
@@ -34,7 +34,7 @@ Your average customer is bombarded with messages from brands– every single day
 <li><a href="https://customerthink.com/personalized-in-app-rewards-for-customer-loyalty-2023-trends-benefits-and-infographic/">48% customers prefer</a> to have personalized discounts on products that they regularly buy</li>
 </ul>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo-800x155.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo-800x155.jpg"></a>
 
 ### <strong>How to Offer Personalized Loyalty Rewards for Loyalty Program ROI?</strong> 
 

@@ -4,12 +4,12 @@ author: Mrudul
 title: Holiday Shoppers Take Advantage of Early Thanksgiving Deals  
 description: While Black Friday isn't until the end of the month, we're already seeing early Black Friday offers from several major stores.There will be a shortage of availability of some things, and people need to be aware of that, said Robert Hooker, a University of South Florida professor of supply chain management. With deteriorating supply.
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/11/Holiday-Shoppers-Take-Advantage-of-Early-Thanksgiving-Deals-800x450.jpg"
+  url: "/assets/blog/Holiday-Shoppers-Take-Advantage-of-Early-Thanksgiving-Deals-800x450.jpg"
   alt: "Holiday shoppers take advantage of early thanksgiving deal."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/generic/holiday-shoppers-take-advantage-of-early-thanksgiving-deals/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/11/Holiday-Shoppers-Take-Advantage-of-Early-Thanksgiving-Deals.jpg"></a>
+<img src="/assets/blog/Holiday-Shoppers-Take-Advantage-of-Early-Thanksgiving-Deals.jpg"></a>
 
 While Black Friday isn’t until the end of the month, we’re already seeing early Black Friday offers from several major stores.
 

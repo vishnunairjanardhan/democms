@@ -4,12 +4,12 @@ author: Mrudul
 title: The Efficiency and Effectiveness of Online Shopping
 description: "Online shopping has gained immense popularity in recent years. With the convenience of being able to shop at any time, from any location, and with access to a plethora of products right at your fingertips, it's no wonder that more and more people are opting for online shopping. But how effective is it really? In."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/05/The-effectiveness-of-online-shopping-1-800x450.jpg"
+  url: "/assets/blog/The-effectiveness-of-online-shopping-1-800x450.jpg"
   alt: "The efficiency and effectiveness of online shopping."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/the-efficiency-and-effectiveness-of-online-shopping/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/05/The-effectiveness-of-online-shopping-1.jpg"></a>
+<img src="/assets/blog/The-effectiveness-of-online-shopping-1.jpg"></a>
 
 # Online shopping has gained immense popularity in recent years.
 
@@ -21,7 +21,7 @@ One of the biggest
 <a href="https://www.99minds.io/blog/generic/holiday-shoppers-take-advantage-of-early-thanksgiving-deals/" target="_blank">advantages of shopping online</a> is the abundance of options available. You can find products that may not be available locally or in brick-and-mortar stores. This gives you a wider range of choices to find the exact product you’re looking for. Moreover, comparison websites make it easy to compare prices from different sellers. This allows you to make an informed purchase decision and get the best possible deal.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/04/CTA-mothers-day3.jpg"></a>
+<img src="/assets/blog/CTA-mothers-day3.jpg"></a>
 
 ## More convenience
 
@@ -37,7 +37,7 @@ One of the common concerns with online shopping is the possibility of receiving 
 <a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges/" target="_blank">online retailers have made it simple to return or exchange products</a>. The return policies are clearly outlined, and you can do it all from the comfort of your own home. In some cases, the online retailer will even cover the cost of shipping the item back.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ## Security measures
 

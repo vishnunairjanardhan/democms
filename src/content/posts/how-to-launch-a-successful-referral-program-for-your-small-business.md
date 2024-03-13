@@ -4,12 +4,12 @@ author: Mrudul
 title: How to Launch a Successful Referral Program for Your Small Business 
 description: Jim Rohn said, “One customer, well taken care of, could be more valuable than $10,000 worth of advertising.” Every business person out there will attest to this statement. Having your customers tom-tomming about your offerings to their friends and family is the best marketing you can ever ask for. When you have customers who have.
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/11/How-to-Launch-a-Successful-Referral-Program-for-Your-Small-Business-800x450.jpg"
+  url: "/assets/blog/How-to-Launch-a-Successful-Referral-Program-for-Your-Small-Business-800x450.jpg"
   alt: "How to launch a successful referral program for your small business."
 tags: ["Gift Cards"]
 --- 
 <a href="https://www.99minds.io/blog/generic/how-to-launch-a-successful-referral-program-for-your-small-business/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/11/How-to-Launch-a-Successful-Referral-Program-for-Your-Small-Business.jpg"></a>
+<img src="/assets/blog/How-to-Launch-a-Successful-Referral-Program-for-Your-Small-Business.jpg"></a>
 
 Jim Rohn said, “One customer, well taken care of, could be more valuable than $10,000 worth of advertising.” Every business person out there will attest to this statement. Having your customers tom-tomming about your offerings to their friends and family is the best marketing you can ever ask for.
 
@@ -28,7 +28,7 @@ The first step in retaining your existing customers is by delighting them consis
 You don’t need software to see if they are getting a great experience. Don’t venture into a referral program unless you have the basics sorted.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/04/CTA-Referral-image-1.jpg"></a>
+<img src="/assets/blog/CTA-Referral-image-1.jpg"></a>
 
 <b>Here are a few questions you need to ask:</b>
 <ul>

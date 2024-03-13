@@ -4,11 +4,11 @@ author: Mrudul
 title: Unleashing The Power Of Loyalty & Promotion Programs
 description: "Loyalty is one of the most underrated traits in relationships as well as businesses. Here we have tried to highlight the importance of loyalty and promotions programs."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/03/Unleashing-the-power-of-Loyalty-Promotion-programs1200px.jpg"
+  url: "/assets/blog/Unleashing-the-power-of-Loyalty-Promotion-programs1200px.jpg"
   alt: "The word community with a heart."
 tags: ["Loyalty","Loyalty Program"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/03/Unleashing-the-power-of-Loyalty-Promotion-programs1200px.jpg">
+<img src="/assets/blog/Unleashing-the-power-of-Loyalty-Promotion-programs1200px.jpg">
 
 Loyalty is one of the most underrated traits in relationships as well as businesses. If a business were to concentrate on increasing the loyalty of its customers, then they would see a significant increase in the profits generated. It is not easy to gain the loyalty of your customers either, <a href="https://www.accenture.com/us-en/insights/strategy/brand-purpose?c=strat_competitiveagilnovalue_10437227&n=mrl_1118">Accenture Strategy’s global survey says</a> that 47% of customers will stop doing business with a brand if they happen to disappoint them. 
 

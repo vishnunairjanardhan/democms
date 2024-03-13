@@ -4,13 +4,13 @@ author: Mrudul
 title: 5 Creative Ways to Promote Gift Cards and Increase Customer Engagement 
 description: "If you don’t offer gift cards to your eCommerce store’s customers, you are in the wrong. Ask any experienced business owner and they will be singing paeans about the effectiveness of gift cards to their bottom line. 33% of people spend more on gift cards than any other gifts. You can safely invest in physical."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/07/5-Creative-Ways-to-Promote-Gift-Cards-and-Increase-Customer-Engagement-800x450.jpg"
+  url: "/assets/blog/5-Creative-Ways-to-Promote-Gift-Cards-and-Increase-Customer-Engagement-800x450.jpg"
   alt: "Promotion Gift Crad."
 tags: ["Gift Card", "Promote Gift Card"] 
 
 ---
-<a href="https://www.99minds.io/blog/wp-content/uploads/2023/07/5-Creative-Ways-to-Promote-Gift-Cards-and-Increase-Customer-Engagement.jpg" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/07/5-Creative-Ways-to-Promote-Gift-Cards-and-Increase-Customer-Engagement.jpg"></a>
+<a href="/assets/blog/5-Creative-Ways-to-Promote-Gift-Cards-and-Increase-Customer-Engagement.jpg" target="_blank">
+<img src="/assets/blog/5-Creative-Ways-to-Promote-Gift-Cards-and-Increase-Customer-Engagement.jpg"></a>
 
 
 If you don’t offer gift cards to your <a href="https://www.99minds.io/blog/ecommerce/must-have-features-for-your-ecommerce-website/" target="_blank">eCommerce store’s</a> customers, you are in the wrong. Ask any experienced business owner and they will be singing paeans about the effectiveness of gift cards to their bottom line. <a href="https://www.globenewswire.com/news-release/2020/07/29/2069204/0/en/United-States-Digital-Gift-Card-and-Incentive-Card-Market-to-2024-Impact-of-COVID-19-on-the-101-Billion-Projected-Industry.html" target="_blank">33% of people</a> spend more on gift cards than any other gifts. You can safely invest in physical and online gift cards for your brand since we know now that customers prefer using them as gifts.
@@ -39,7 +39,7 @@ If you could slip in a line or two about your gift cards in customer communicati
 
 
 <a href="https://giftcard.99minds.io/access/login" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/04/CTA-IMAGE-03.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE-03.jpg"></a>
 
 ### Use multiple marketing channels 
 
@@ -67,7 +67,7 @@ Here are a few ways you can create interesting designs
 The gift card strategy that works perfectly well for your closest competitor might turn out to be a damp squib for you. To get the best out of gift cards, you need to keep experimenting with different strategies.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ### Include special offers for your gift cards
 

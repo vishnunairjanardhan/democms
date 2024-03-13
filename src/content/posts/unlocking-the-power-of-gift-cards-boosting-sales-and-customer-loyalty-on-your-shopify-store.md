@@ -4,11 +4,11 @@ author: Mrudul
 title: Unlocking the Power of Gift Cards- Boosting Sales and Customer Loyalty on Your Shopify Store 
 description: "Gift cards are a boon for retailers and customers alike. Retailers who offer exclusive gift cards know about the kind of impact that they can have on your bottom line. From helping with brand awareness to acting as an extra sales channel for your organization, gift cards have innumerable benefits. Shopify stores should make it"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/07/Unlocking-the-Power-of-gift-cards-1160x653.jpg"
+  url: "/assets/blog/Unlocking-the-Power-of-gift-cards-1160x653.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card", "Shopify"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/07/Unlocking-the-Power-of-gift-cards-1160x653.jpg">
+<img src="/assets/blog/Unlocking-the-Power-of-gift-cards-1160x653.jpg">
 
 <a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-crucial-for-growing-retail-businesses/">Gift cards are a boon for retailers</a> and customers alike. Retailers who offer exclusive gift cards know about the kind of impact that they can have on your bottom line. From helping with brand awareness to acting as an extra sales channel for your organization, gift cards have innumerable benefits. <a href="https://www.shopify.com/in">Shopify stores</a> should make it a point to include gift cards in their offering.
 
@@ -36,7 +36,7 @@ One of the easiest ways to stand out with your gift cards is by customizing them
 
 You want to work with a gift card solution that aligns with your budget, offers the right features, and has good reviews. It should allow easy customization options, have secure payment processing, offers analytics, comprehensive reporting, etc. Make sure that the gift card software is compatible with your existing Shopify store. The process of integration into your store should be a seamless affair.</li>
 
-<a href="https://giftcard.99minds.io/access/login" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2020/04/CTA-IMAGE-03.jpg"></a>
+<a href="https://giftcard.99minds.io/access/login" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE-03.jpg"></a>
 
 <li><b>Incentivize customers:</b>
 
@@ -55,7 +55,7 @@ Create an incentive or <a href="https://www.99minds.io/blog/customer-loyalty/how
 
 Retailers lose a third of their revenue, thanks to returns. Most returned or exchanged products don’t go back on sale either. The average customer wants their refund in cash. Instead of that, you can give it in the form of gift cards.</li>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 Below are a few ways to make getting gift cards instead of cash, appealing to your customer
 <ul>

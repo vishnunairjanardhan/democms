@@ -4,11 +4,11 @@ author: Mrudul
 title: How To Build Customer Loyalty For Subscription As A Service
 description: "Churn is one of the biggest pain for SAAS companies. Hence having a good customer loyalty program helps SAAS companies to engange and retain their customers. Here is how you can build customer loyalty for subscription as a service"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/07/customer-loyalty-for-subsceiption-as-a-service.jpg"
+  url: "/assets/blog/customer-loyalty-for-subsceiption-as-a-service.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/07/customer-loyalty-for-subsceiption-as-a-service.jpg">
+<img src="/assets/blog/customer-loyalty-for-subsceiption-as-a-service.jpg">
 
 There are more than 15,529 SaaS companies in the world, based on data from <a href="https://cardconnect.com/launchpointe/tech-trends/rise-of-saas#:~:text=There%20are%2015%2C529%20SaaS%20companies,have%20transitioned%20to%20provide%20SaaS." target="_blanck">Crunchbase, in 2020</a>. You can surely imagine the spike in those numbers with every other business embracing the SaaS model. With so many businesses for each vertical, you can safely say that using a customer loyalty program would be on the minds of SaaS business owners to keep getting recurring revenue.
 

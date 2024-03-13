@@ -4,12 +4,12 @@ author: Mrudul
 title: How to attract and retain Generation Z customers
 description: "Gen Z is going to be a business's core audience in the future. Take a look at how businesses can attract Gen Z customers and retain them."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/09/How-to-attract-retain-gen-Z-customers-800x450.jpg"
+  url: "/assets/blog/How-to-attract-retain-gen-Z-customers-800x450.jpg"
   alt: "How to attract retain gen Z customers."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/generic/how-to-attract-and-retain-generation-z-customers/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/09/How-to-attract-retain-gen-Z-customers.jpg"></a>
+<img src="/assets/blog/How-to-attract-retain-gen-Z-customers.jpg"></a>
 
 <a href="https://www.insiderintelligence.com/insights/generation-z-facts/" target="_blank"><b>"Generation Z currently accounts"</b></a> for 20% of the population in the United States. This generation, born after 1997, is making an impact on the economy, spending an estimated $143 billion every year.”
 

@@ -4,11 +4,11 @@ author: Mrudul
 title: Ways to Incentivize your Bigcommerce Customers to Return
 description: "It takes months to find a customer, seconds to lose one”- Vince Lombardi. There couldn’t be a truer quote. The relationship between a customer and a business is as fragile…"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/11/Ways-to-Incentivize-your-Bigcommerce-Customers-to-Return.jpg"
+  url: "/assets/blog/Ways-to-Incentivize-your-Bigcommerce-Customers-to-Return.jpg"
   alt: "The word community with a heart."
 tags: ["BigCommerce",]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/11/Ways-to-Incentivize-your-Bigcommerce-Customers-to-Return.jpg">
+<img src="/assets/blog/Ways-to-Incentivize-your-Bigcommerce-Customers-to-Return.jpg">
 
 “It takes months to find a customer, seconds to lose one”- Vince Lombardi. There couldn’t be a truer quote. The relationship between a customer and a business is as fragile as that of a couple who have gone on three dates. Anything could rock the boat.
 
@@ -66,7 +66,7 @@ You do all this, and your BigCommerce store becomes a cornucopia of pleasure and
 
 Starbucks’ coffee supply chain is 99% ethically sourced. Lego, the toymaker, has committed to removing single-use plastic packaging from its materials by 2025. When someone buys a pair of Bombas socks, they donate one pair to someone in need. There are innumerable examples like this. Even though these moves have ethical concerns, they provide companies with deep financial and non-financial rewards.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 With Gen Z and Millennials becoming the economy’s driving force, purchasing perspective has shifted consumer focus to social and ethical responsibility. A Nielsen poll said that 85% of Millennials and 80% of Gen Z said that they rank the environment as a major factor in deciding which companies they engage with.
 

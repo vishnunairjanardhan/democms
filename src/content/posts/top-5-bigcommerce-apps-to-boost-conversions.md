@@ -4,11 +4,11 @@ author: Sarah Babra
 title: Top 5 BigCommerce Apps To Boost Conversions
 description: "If you are looking for free BigCommerce themes, you are in the right place. These themes will help you get good at your eCommerce game."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/09/Top-5-bigcommerce-apps-to-boost-conversions-1.jpg"
+  url: "/assets/blog/Top-5-bigcommerce-apps-to-boost-conversions-1.jpg"
   alt: "The word community with a heart."
 tags: ["BigCommerce"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/09/Top-5-bigcommerce-apps-to-boost-conversions-1.jpg">
+<img src="/assets/blog/Top-5-bigcommerce-apps-to-boost-conversions-1.jpg">
 
 
 Did you know that eCommerce sales are expected to cross <a href="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/09/image4-1.png">$740 billion by 2023</a> in the US alone? The change in online purchasing behavior can be attributed to smartphones, mobile shopping, revolutionary technology, social media, and the emergence of social commerce. BigCommerce is one of the biggest enablers in the online shopping ecosystem. With more than $25 billion in online sales since its inception in 2009, it empowers a community of merchants across the world to live a better life.

@@ -4,12 +4,12 @@ author: Mrudul
 title: 5 Wicked Halloween Marketing Ideas To Boost Your Online Sales! 
 description: "Nobody can scare us as much as we can scare ourselves. Have you seen a lot of scary street advertisements, horror movie thrillers, or goofy jokes on social media? Yes, Halloween is just around the corner. The Halloween-related search inquiries are on the rise right now, so what are you waiting for? Make the most."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/10/5-Wicked-Halloween-Marketing-Ideas-To-Boost-Your-Online-Sales3.gif"
+  url: "/assets/blog/5-Wicked-Halloween-Marketing-Ideas-To-Boost-Your-Online-Sales3.gif"
   alt: "5 wicked halloween marketing ideas to boost your online sales."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/5-wicked-halloween-marketing-ideas-to-boost-your-online-sales/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/10/5-Wicked-Halloween-Marketing-Ideas-To-Boost-Your-Online-Sales3.gif"></a>
+<img src="/assets/blog/5-Wicked-Halloween-Marketing-Ideas-To-Boost-Your-Online-Sales3.gif"></a>
 
 Nobody can scare us as much as we can scare ourselves. Have you seen a lot of scary
 street advertisements, horror movie thrillers, or goofy jokes on social media? Yes,

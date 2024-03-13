@@ -4,11 +4,11 @@ author: Mrudul
 title: Customer Acquisition Tactics You Might Be Missing On 
 description: "You'll learn the principles of consumer acquisition in this article. You'll be able to develop an acquisition plan that is so adaptable that it can endure the test of time and change trends by the end."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/03/Customer-acquisition-tactics_v1.0-1.png"
+  url: "/assets/blog/Customer-acquisition-tactics_v1.0-1.png"
   alt: "The word community with a heart."
 tags: ["Customer Acquisation"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/03/Customer-acquisition-tactics_v1.0-1.png">
+<img src="/assets/blog/Customer-acquisition-tactics_v1.0-1.png">
 
 ### <strong>“For e-commerce startups, the most difficult thing is focus. It’s easy to focus on a niche for your products, but very difficult to focus on a ‘niche audience.”</strong>
 – says Brian Zeng, CMO of <a href="http://www.ownonly.com/">OwnOnly.</a>
@@ -23,7 +23,7 @@ You’re not alone if you’re looking for ways to boost your customer acquisiti
 
 You’ll learn the principles of consumer acquisition in this article. You’ll be able to develop an acquisition plan that is so adaptable that it can endure the test of time and change trends by the end.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2021/04/CTA-mothers-day.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-mothers-day.jpg"></a>
 
 <b>Generally, marketers and business owners often split the funnel into three stages, it is explained below:</b>
 
@@ -65,7 +65,7 @@ The first stage of the customer acquisition funnel has a lot to do with improvin
 
 <li><b>Improve Website and Email Engagement</b>Although this is a technique that predates the internet, it is still one of the most successful consumer acquisition approaches. It allows you to stay in front of your target audience while also <a href="https://wordpress-aogt.onrender.com/customer-loyalty/how-to-market-your-loyalty-program/">promoting your content, discounts, and product details</a>. It’s also the quickest and most convenient way to communicate with and attract new customers.</li>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 Sending personalized emails to people based on where they are in the customer acquisition process is a perfect way to do this. As a result, anyone in the first two phases is more likely to be suitable for content that will initiate customer interaction.
 

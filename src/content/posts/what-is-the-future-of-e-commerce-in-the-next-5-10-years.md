@@ -4,11 +4,11 @@ author: Mrudul
 title: What is the future of e commerce in the next 5-10 years
 description: "New data from IBM’s US retail index states that the Covid-19 pandemic has accelerated eCommerce by five years. While the pandemic had forced many brick--mortar retail stores to close, eCommerce stores thrived because of this. There was also a more significant shift to online buying because of factors like safety. According to this report, in"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/02/What-is-the-future-of-e-commerce-in-the-next-5-10-years.jpg"
+  url: "/assets/blog/What-is-the-future-of-e-commerce-in-the-next-5-10-years.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/02/What-is-the-future-of-e-commerce-in-the-next-5-10-years.jpg">
+<img src="/assets/blog/What-is-the-future-of-e-commerce-in-the-next-5-10-years.jpg">
 
 <a href="https://www.ibm.com/industries/retail">New data from IBM’s US retail index states</a> that the Covid-19 pandemic has accelerated eCommerce by five years. While the pandemic had forced many brick–mortar retail stores to close, eCommerce stores thrived because of this. There was also a more significant shift to online buying because of factors like safety. According to this report, in the first quarter of 2020, non-essential retailers’ growth will decline by 25%, but the decline increased to 75% in the second quarter. The report states that department stores should have declined by more than 60%, while eCommerce was projected to show a 20% growth in 2020.
 

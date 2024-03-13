@@ -4,11 +4,11 @@ author: Sarah Babra
 title: Top 18 Best Free Bigcommerce Themes
 description: "If you are looking for free BigCommerce themes, you are in the right place. These themes will help you get good at your eCommerce game."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/09/Top-18-best-free-bigcommerce-themes1-1.jpg"
+  url: "/assets/blog/Top-18-best-free-bigcommerce-themes1-1.jpg"
   alt: "The word community with a heart."
 tags: ["BigCommerce"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/09/Top-18-best-free-bigcommerce-themes1-1.jpg">
+<img src="/assets/blog/Top-18-best-free-bigcommerce-themes1-1.jpg">
 
 
 
@@ -94,7 +94,7 @@ Artify doesn’t cater specifically to any genre and is one of the highest-selli
 
 If you are looking to set up a simple store with only a handful of products, Shapely has all the functionalities that will make your online store work like a charm. Most of the other themes that we have discussed here are full of highly functional features, but if your intention is to have a pixel-perfect design, Shapely is designed for store owners like you. This theme doesn’t have a heavy page builder, but it has plenty of Customizer options using which you can customize your online store.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ### 16. Dream Center:
 <img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/09/pasted-image-0-6.png">

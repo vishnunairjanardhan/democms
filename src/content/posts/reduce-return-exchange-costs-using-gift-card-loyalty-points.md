@@ -4,12 +4,12 @@ author: Mrudul
 title: Reduce Return & Exchange Costs using Gift Card & Loyalty Points
 description: "$550 billion That's how much online product returns are estimated to cost businesses this year. The return rates of products bought online stand at 25% while 8% for brick-and-mortar stores. Returns are a major headache for retailers. The costs associated with processing returns, resources spent on it, time spent on handling the returns, and the."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/11/How-Gift-Cards-Loyalty-Points-Reduce-Return-Exchange-Costs.jpg"
+  url: "/assets/blog/How-Gift-Cards-Loyalty-Points-Reduce-Return-Exchange-Costs.jpg"
   alt: "How gift cards loyalty points reduce return exchange costs."
 tags: ["Gift Card","loyalty"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/reduce-return-exchange-costs-using-gift-card-loyalty-points/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/11/How-Gift-Cards-Loyalty-Points-Reduce-Return-Exchange-Costs.jpg"></a>
+<img src="/assets/blog/How-Gift-Cards-Loyalty-Points-Reduce-Return-Exchange-Costs.jpg"></a>
 
 # $550 billion
 
@@ -75,7 +75,7 @@ The first step that businesses can do is to make the product return process as s
 Customer Lifetime Value or CLV is the amount of money that a customer spends over their lifetime. How do gift cards figure here? When a customer asks for a refund, you could offer them the choice of taking a gift card instead. To sweeten the deal, apart from the gift card, which has the same value as the product they intend to return, you can also give them loyalty points for the same value. Without spending a dime, your customer receives loyalty points. It is a desirable situation for them, and there is no reason why they would say ‘No’ for it unless they would like to have the cash immediately.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 By providing them a gift card, they are likely to come back to your store again to make a purchase. It gives you one more opportunity to delight them. You increase your customer’s CLV by making them come back to your store because you offered them <a href="https://blackhawknetwork.com/sites/default/files/2021-01/BHN-ebook-Gift-Card-Facts.pdf" target="_blank">gift cards</a> and <a href="https://blackhawknetwork.com/sites/default/files/2021-01/BHN-ebook-Gift-Card-Facts.pdf" target="_blank">loyalty points</a> to go with it.
 

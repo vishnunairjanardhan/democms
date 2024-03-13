@@ -4,11 +4,11 @@ author: Mrudul
 title: Loyalty Trends For The Decade To Come 
 description: "After a deeper research on loyalty trends from various reports. Here we have established the importance of loyalty and what we can expect from it in the next decade"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/06/Loyalty-Trends.jpg"
+  url: "/assets/blog/Loyalty-Trends.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/06/Loyalty-Trends.jpg">
+<img src="/assets/blog/Loyalty-Trends.jpg">
 
 Sephora, Starbucks, Costco Wholesale, Amazon, Barnes & Noble, and Sears.
 

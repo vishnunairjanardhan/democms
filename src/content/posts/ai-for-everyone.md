@@ -4,11 +4,11 @@ author: Pravin Kamble
 title: AI for Everyone
 description: "A probable oxymoron that talks about machines being intelligent ‘Artificially.’ But no! It is not an Alienware science tech where hardware tools make the decisions themselves, but it is about…"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/03/AI-for-Everyone.jpg"
+  url: "/assets/blog/AI-for-Everyone.jpg"
   alt: "The word community with a heart."
 tags: ["Artificial Intelligence"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/03/AI-for-Everyone.jpg">
+<img src="/assets/blog/AI-for-Everyone.jpg">
 
 
 ### What is AI?
@@ -42,7 +42,7 @@ The background star that works behind making AI make it a superhero is Machine L
 
 Let’s take an example of an inventory. You want certain products that share the same characteristic as dresses. Like long, short, and flare, while the ones with collars, buttons, polo marked as shirts. Now, you did this for a hundred items and then allowed machine learning to take over. After scrutinizing the data, the algorithm in itself starts segregating products as what it learns.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2020/04/CTA-Referral-image-1.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral-image-1.jpg"></a>
 
 And machine learning just made a job of a thousand years turned into a minute job! With machine learning, the data in itself teaches the algorithm best to train and perform similarly.
 
@@ -74,7 +74,7 @@ And a massive application was included with Gmail. Now, when you type your email
 
 Another application that is also going to take a crucial turn with 2020 is Chatbots. Chatbots understand your intent, throw you with suggestions, and get to you in minimal steps with a human touch.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 And then, we have product recommendations on an eCommerce site where you get product recommendations based on your historical behavior. Who wouldn’t like that?
 

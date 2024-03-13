@@ -4,12 +4,12 @@ author: Mrudul
 title: Father’s Day Ecommerce Facts You Need to Know 
 description: Amazon, Alibaba, ... We know all these companies have gained rapid growth and popularity in recent years. And also are aware of the global expansion of the eCommerce industry. During the holiday season, these eCommerce businesses own a larger portion of the overall industry profitability. Again for upcoming Father's Day, when asked 40% of consumers.
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/05/Fathers-Day-Ecommerce-Facts-You-Need-to-Know--800x450.jpg"
+  url: "/assets/blog/Fathers-Day-Ecommerce-Facts-You-Need-to-Know--800x450.jpg"
   alt: "Fathers day ecommerce facts you need to know."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/fathers-day-ecommerce-facts-you-need-to-know/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/05/Fathers-Day-Ecommerce-Facts-You-Need-to-Know-.jpg"></a>
+<img src="/assets/blog/Fathers-Day-Ecommerce-Facts-You-Need-to-Know-.jpg"></a>
 
 <a href="https://www.amazon.com/" target="_blank">Amazon</a>, <a href="https://www.alibaba.com/" target="_blank">Alibaba</a>, … We know all these companies have gained rapid growth and popularity in recent years. And also are aware of the global expansion of the eCommerce industry. During the holiday season, these eCommerce businesses own a larger portion of the overall industry profitability.
 

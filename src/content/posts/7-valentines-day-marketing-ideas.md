@@ -4,11 +4,11 @@ author: Mrudul
 title: 7 Valentine’s Day Marketing Ideas 
 description: "Valentine’s day is a day devoted to lovers, but ecommerce retailers are also promised a great time because of the sales that happen on this day. Devising marketing campaigns for this day cannot be an afterthought. The marketing campaigns should start much earlier and have to be as impactful as possible because there is a"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/02/7-Valentines-Day-marketing-ideas1-1-1.jpg"
+  url: "/assets/blog/7-Valentines-Day-marketing-ideas1-1-1.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/02/7-Valentines-Day-marketing-ideas1-1-1.jpg">
+<img src="/assets/blog/7-Valentines-Day-marketing-ideas1-1-1.jpg">
 
 Valentine’s day is a day devoted to lovers, but ecommerce retailers are also promised a great time because of the sales that happen on this day. Devising marketing campaigns for this day cannot be an afterthought. The marketing campaigns should start much earlier and have to be as impactful as possible because there is a lot of noise created by other brands. You need to stand out to drown all the other noise.
 

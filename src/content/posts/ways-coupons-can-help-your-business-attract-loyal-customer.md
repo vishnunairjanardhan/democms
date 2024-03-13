@@ -4,12 +4,12 @@ author: Mrudul
 title: Ways Coupons Can Help Your Business Attract Loyal Custome
 description: "The holy grail of every marketer across the world is their target market’s attention. There are a thousand ways to advertise your brand. According to several studies, one of the most effective marketing strategies is providing a one-time use of coupons. The holiday season is the perfect time for businesses to offer incentives to customers."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/04/Ways-Coupons-Can-Help-Your-Business-Attract-Loyal-Customers1-800x450.jpg"
+  url: "/assets/blog/Ways-Coupons-Can-Help-Your-Business-Attract-Loyal-Customers1-800x450.jpg"
   alt: "Ways coupons can help your business attract loyal customer."
 tags: ["Coupons",]
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/ways-coupons-can-help-your-business-attract-loyal-customer///" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/04/Ways-Coupons-Can-Help-Your-Business-Attract-Loyal-Customers1.jpg"></a>
+<img src="/assets/blog/Ways-Coupons-Can-Help-Your-Business-Attract-Loyal-Customers1.jpg"></a>
 
 The holy grail of every marketer across the world is their target market’s attention. There are a thousand ways to advertise your brand. According to several studies, one of the most <a href="https://www.99minds.io/blog/ecommerce/ecommerce-referral-marketing-strategies/" target="_blank">effective marketing strategies</a> is providing a one-time use of coupons. The <a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/" target="_blank">holiday season is the perfect time for businesses</a> to offer incentives to customers to choose them.
 
@@ -24,7 +24,7 @@ Coupons are a great tool to attract new Here’s how coupons can help your busin
 If you want to stand out from the crowd, which you must be aggressively aiming for, you need to create visually appealing packaging. Since most <a href="https://www.99minds.io/blog/generic/coupon-advertising-ways-to-make-it-work-for-your-business/" target="_blank">coupons these days are digital</a>, you cannot do much on the physical side. You can always put a lot of effort into creating special effects on the ad. Even though there is an added cost variable to implementing special effects, it results in increased sales and piques the curiosity of your target audience.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/04/CTA-mothers-day.jpg"></a>
+<img src="/assets/blog/CTA-mothers-day.jpg"></a>
 
 ## Make coupons a part of your rewards program
 
@@ -51,7 +51,7 @@ The average marketer is harried because of the plethora of things they are bound
 A customer loyalty program software will take care of everything from engaging, acquiring, and retaining customers using coupons. If you use software like <a href="https://www.99minds.io/" target="_blank">99minds</a>, it will handle gift cards, workflow automation, coupons, and store credit, including a referral and loyalty program. That takes a lot of pressure off the marketer. It also increases the efficiency of your coupon strategy and gets more done at a lower cost to your business.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 # Perks of using coupons
 

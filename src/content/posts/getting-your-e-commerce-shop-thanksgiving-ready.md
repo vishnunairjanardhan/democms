@@ -4,11 +4,11 @@ author: Mrudul
 title:  Getting Your E-Commerce Shop Thanksgiving Ready
 description: "If you are an eCommerce retailer, Thanksgiving is the time to create irresistible offers. You can easily win over your customers as they are looking to buy gifts for those they love. Thanksgiving is when people are away from the daily drudgery of work, spend more time with their friends and family, and look for."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/09/Getting-Your-E-Commerce-Shop-Thanksgiving-Ready1-800x450.jpg"
+  url: "/assets/blog/Getting-Your-E-Commerce-Shop-Thanksgiving-Ready1-800x450.jpg"
   alt: "Getting your e-commerce shop thanksgiving ready."
 tags: ["Gift Card",]
 --- 
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/09/Getting-Your-E-Commerce-Shop-Thanksgiving-Ready1.jpg">
+<img src="/assets/blog/Getting-Your-E-Commerce-Shop-Thanksgiving-Ready1.jpg">
 
 If you are an eCommerce retailer, Thanksgiving is the time to create irresistible offers. You can easily win over your customers as they are <a href="https://www.99minds.io/blog/gift-card/gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine/" target="_blank">looking to buy gifts for those they love</a>. Thanksgiving is when people are away from the daily drudgery of work, spend more time with their friends and family, and look for <a href="https://www.99minds.io/blog/ecommerce/future-of-ecommerce-in-2023/" target="_blank">the best eCommerce deals</a>.
 
@@ -30,7 +30,7 @@ No matter what you do, investing in email <a href="https://wordpress-aogt.onrend
 Come up with <a href="https://www.99minds.io/blog/ecommerce/tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022/" target="_blank">special discounts, promo codes, free shipping offers, and so on to attract the Thanksgiving crowd</a>. Ensure you send reminder emails to those who have abandoned their shopping cart. People can get cold feet while buying items due to the added pressure of having a perfect holiday. Most end up abandoning the carts to visit a different store, i.e., your competitor. Reminder emails are great to give that much-needed push to complete the buying process.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/01/CTA-Big-99minds.jpg"></a>
+<img src="/assets/blog/CTA-Big-99minds.jpg"></a>
 
 #### Use a holiday calendar
 
@@ -61,7 +61,7 @@ Your shoppers want a fast-loading website that makes it easy for them to find th
 Here’s one more thing you must do– optimize your online store for terms specific to holidays. Add popular keywords such as ‘Thanksgiving offers,’ ‘Thanksgiving promotions,’ ‘‘Thanksgiving gifts,’ and so on. Ensure these keywords are added to titles, descriptions, and product listing pages.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 #### Create a Thanksgiving gift guide
 

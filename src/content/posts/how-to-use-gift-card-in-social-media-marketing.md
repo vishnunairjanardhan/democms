@@ -4,12 +4,12 @@ author: Mrudul
 title: How to use Gift Card in Social Media Marketing?
 description: "Your gift cards can be the lifeline that you would have never expected it to be. From helping you with sales during off-season to giving you cash upfront without even selling goods, gift cards can work like magic for retailers. It is no wonder that we would advise you to make it a big part."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/03/How-to-use-Gift-Card-in-Social-Media-Marketing.jpg"
+  url: "/assets/blog/How-to-use-Gift-Card-in-Social-Media-Marketing.jpg"
   alt: "How to use gift card in social media marketing."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/how-to-use-gift-card-in-social-media-marketing/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/03/How-to-use-Gift-Card-in-Social-Media-Marketing.jpg"></a>
+<img src="/assets/blog/How-to-use-Gift-Card-in-Social-Media-Marketing.jpg"></a>
 
 Your gift cards can be the lifeline that you would have never expected it to be. From helping you with sales during off-season to giving you cash upfront without even selling goods, <a href="https://wordpress-aogt.onrender.com/gift-card/what-is-an-ecommerce-gift-card-and-how-does-it-work/" target="_blank">gift cards can work like magic</a> for retailers. It is no wonder that we would advise you to make it a big part of your social media marketing campaigns as well.
 

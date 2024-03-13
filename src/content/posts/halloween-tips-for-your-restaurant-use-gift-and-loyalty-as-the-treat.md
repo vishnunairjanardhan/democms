@@ -4,11 +4,11 @@ author: Mrudul
 title: Halloween Tips for your Restaurant. Use Gift And Loyalty As The Treat!
 description: "It is October, and Halloween is around the corner. It is the perfect time for restaurants to exceed their targets and ‘scare’ their customers. Restaurateurs can use the holiday to offer something special and different to their customers. It is the time to go all guns blazing with special promotions and offers. We look at"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/09/Halloween-Tips-for-your-Restaurant-Use-Gift-And-Loyalty-As-The-Treat2.jpg"
+  url: "/assets/blog/Halloween-Tips-for-your-Restaurant-Use-Gift-And-Loyalty-As-The-Treat2.jpg"
   alt: "The word community with a heart."
 tags: ["Loyalty","Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/09/Halloween-Tips-for-your-Restaurant-Use-Gift-And-Loyalty-As-The-Treat2.jpg">
+<img src="/assets/blog/Halloween-Tips-for-your-Restaurant-Use-Gift-And-Loyalty-As-The-Treat2.jpg">
 
 It is October, and Halloween is around the corner. It is the perfect time for restaurants to exceed their targets and ‘scare’ their customers. Restaurateurs can use the holiday to offer something special and different to their customers. It is the time to go all guns blazing with special promotions and offers. We look at different ways that restaurants can leverage Halloween to their benefit.
 
@@ -32,7 +32,7 @@ Your patrons will appreciate the effort you have put in to making their dining e
 
 Here’s another way to cash in on Halloween. It is a great time to build a community of patrons. Run a promotion at least before a month. Your customers during this period can get a free ticket to the Halloween event that you are hosting. Customers who love Halloween will surely want to be a part of it, and will spend more to be eligible to get the free event pass. The event could also be outside at a place which is known popularly as a haunted place. Ensure that the venue is filled with your restaurant’s branding elements. It will draw the right crowd, and you can also serve your restaurant’s specialty at these places.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2023/01/CTA-Big-99minds.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Big-99minds.jpg"></a>
 
 It isn’t a lot to do for your business’s growth, right? Some of the strategies that we have outlined here are simple to commit, and doesn’t require a lot of time or investment either. Ensure that you have all the necessary accessories such as carved pumpkins, Halloween-themed candles, etc., to transform your restaurant into a place that people will remember, long after Halloween is over.
 
@@ -61,7 +61,7 @@ Here’s how you can create a murder-mystery meal kit:
 <li>Make them come back to your restaurant by adding a promotion for those who win the murder mystery game.</li>
 </ul>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 You can also hire a murder mystery company that will take care of the setup. If you are doing it at your restaurant, they will also provide you with props, story line, and characters. You can host a murder mystery based on a popular movie or a 1950s setting. There is no limit to what you can plan.
 

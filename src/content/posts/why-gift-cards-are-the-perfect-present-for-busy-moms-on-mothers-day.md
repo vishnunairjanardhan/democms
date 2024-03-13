@@ -4,12 +4,12 @@ author: Mrudul
 title: Why Gift Cards Are the Perfect Present for Busy Moms on Mother’s Day
 description: "Mother's Day is just around the corner, and for those of us who are looking for the perfect present for our moms, gift cards are a great option to consider. Gift cards offer a level of flexibility that is unmatched by other gifts, making them an ideal present for busy moms who may not have."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/05/Why-Gift-Cards-Are-the-Perfect-Present-for-Busy-Moms-on-Mothers-Day-800x450.jpg"
+  url: "/assets/blog/Why-Gift-Cards-Are-the-Perfect-Present-for-Busy-Moms-on-Mothers-Day-800x450.jpg"
   alt: "Why gift cards are the prefect present for busy moms on mothers day."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/05/Why-Gift-Cards-Are-the-Perfect-Present-for-Busy-Moms-on-Mothers-Day.jpg"></a>
+<img src="/assets/blog/Why-Gift-Cards-Are-the-Perfect-Present-for-Busy-Moms-on-Mothers-Day.jpg"></a>
 
 # Mother’s Day is just around the corner, and for those of us who are looking for the perfect present for our moms, gift cards are a great option to consider.
 
@@ -21,7 +21,7 @@ One of the biggest advantages of giving gift cards to moms on Mother’s Day is 
 <a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/" target="_blank">Gift cards allow moms to choose exactly what they want</a>, whether it be a new outfit, a relaxing spa day, or a night out with friends. With a gift card, moms have the freedom to treat themselves to something special, on their own schedule, and without the added pressure of having to fit it into their busy routines. Additionally, gift cards can be used at a variety of retailers and restaurants, making them a versatile present that can be enjoyed in a number of ways.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/04/CTA-mothers-day.jpg"></a>
+<img src="/assets/blog/CTA-mothers-day.jpg"></a>
  
 ## Allowing Moms to treat themselves
 
@@ -36,7 +36,7 @@ When it comes to gifting clothing or accessories, it can be challenging to find 
 Another advantage of gift cards is that they can be budget-friendly. If you’re on a tight budget or simply want to give a gift that won’t break the bank, a gift card is a great option. With a variety of price points and options available, you can choose a <a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges/" target="_blank">gift card that fits your budget and still provides a special treat</a> for mom.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ## Easy to Purchase and Redeem
 

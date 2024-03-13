@@ -4,11 +4,11 @@ author: Mrudul
 title: "Best Ways To Elevate Your Gift Card Marketing In 2022"
 description: "Take a look at some of the best tricks to improve your Gift Card Marketing in 2022 to skyrocket your business sales!"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/12/Best-Ways-To-Elevate-Your-Gift-Card-Marketing-In-2022.jpg"
+  url: "/assets/blog/Best-Ways-To-Elevate-Your-Gift-Card-Marketing-In-2022.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/12/Best-Ways-To-Elevate-Your-Gift-Card-Marketing-In-2022.jpg">
+<img src="/assets/blog/Best-Ways-To-Elevate-Your-Gift-Card-Marketing-In-2022.jpg">
 
 Despite the Coronavirus and the lockdown, <a href="https://www.globenewswire.com/news-release/2020/07/09/2059937/0/en/Gift-Card-Industry-Worth-2-7-Trillion-by-2027-Despite-COVID-19.html">the gift card industry is expected to grow to $2.7 trillion by 2027</a>. The US accounts for more than 26.9% of the global gift card market size as of now. It is a testament to the fact that gift cards will always be in high demand. Retailers who provide <a href="https://wordpress-aogt.onrender.com/gift-card/what-is-an-ecommerce-gift-card-and-how-does-it-work/">gift cards to their customers</a> certainly have the upper hand. It increases their brand value as well as gives a fillip to the business’s credibility.
 
@@ -20,7 +20,7 @@ If you want to attract many customers to buy your gift cards, make it look extre
 
 It would help if you found innovative ways to capture the attention of your target audience. Since customers are bombarded with discounts and offers everywhere they go, they will be tuned to ignore your efforts to sell it to them. The business needs to come up with an irresistible offer that will <a href="https://wordpress-aogt.onrender.com/gift-card/useful-gift-card-statistics-to-know-in-2022/">persuade the customer to buy the gift card</a> without batting an eyelid.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/04/CTA-IMAGES-easter.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGES-easter.jpg"></a>
 
 <b>2. Add them as a part of your promotions:</b>
 
@@ -46,7 +46,7 @@ Your customers are going to be skeptical when you shove a gift card in front of 
 
 Show your customers that there are hundreds who will vouch for the <a href="https://wordpress-aogt.onrender.com/gift-card/self-use-gift-cards-impact-on-consumer-behaviour/">benefits that your gift card offers</a>. Only when they see other customers who are similar like themselves will they be able to trust you more. You will appear credible in front of them.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 <b>7. Incentivize gift card purchases:</b>
 

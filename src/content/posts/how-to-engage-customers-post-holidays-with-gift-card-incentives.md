@@ -4,11 +4,11 @@ author: Mrudul
 title: Top Ten Ways to Engage Customers Post-Holidays With Gift Cards
 description: "In this article, we look at some of the best ways you can engage customers after the holiday season, with the help of gift card incentives."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/12/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-16.png"
+  url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-16.png"
   alt: "The word community with a heart."
 tags: ["Gift Card",]
 --- 
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/12/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-16.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-16.png">
 Gift cards were seen as a thoughtless investment once. Recipients have been guilty of forgetting to use them. They used to lie untouched in the drawers of most recipients’ homes. But here’s one more kicker: Customers are happy to spend even after the holidays. You must have an effective post-holiday promotions strategy in place to get the best bang for your buck. Add gift card incentives into the mix to make your campaigns successful. 
 
 The sale of gift cards is a great opportunity for eCommerce stores to multiply their post-holiday sales. Since gift card recipients end up spending more than the value on it, making gift cards a huge part of your post-holiday marketing strategy is a wise move to make. Most gift cards in circulation will see them getting spent in January, and this inadvertently extends the holiday shopping season. To increase sales during this time, you must have an effective strategy in place. 
@@ -27,7 +27,7 @@ Include recommendations on how the recipient can best use the gift card. It coul
 
 The period after the holiday season is expected to be a lull. This is where you can incentivize the gift card recipient by having a clear call to action where they would get extra incentives if they were to use the gift card after the holiday season. With most people not using the gift card immediately, it wouldn’t be too difficult to convince them to wait for a little incentive. By persuading them to use the gift card at a later date, the season post holidays wouldn’t be a dry sales spell. It will result in a steady revenue stream for your business.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 ### <Strong>Reminders About Special Occasions:</Strong>
 

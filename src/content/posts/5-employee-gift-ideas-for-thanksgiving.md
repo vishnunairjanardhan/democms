@@ -4,12 +4,12 @@ author: Mrudul
 title: 5 Employee Gift Ideas For Thanksgiving  
 description: Giving thanksgiving presents to employees, coworkers, clients, and others is not a new tradition. In the autumn of 1621, the Wampanoag inhabitants of New England and the Plymouth Pilgrims gathered to celebrate a plentiful harvest. This was the first Thanksgiving, and it was a pivotal event in American history because it brought together two radically.
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/11/5-Employee-Gift-Ideas-For-Thanksgiving-800x450.jpg"
+  url: "/assets/blog/5-Employee-Gift-Ideas-For-Thanksgiving-800x450.jpg"
   alt: "5 employee gift ideas for thanksgiving."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/5-employee-gift-ideas-for-thanksgiving/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/11/5-Employee-Gift-Ideas-For-Thanksgiving.jpg"></a>
+<img src="/assets/blog/5-Employee-Gift-Ideas-For-Thanksgiving.jpg"></a>
 
 Giving thanksgiving presents to employees, coworkers, clients, and others is not a new tradition. In the autumn of 1621, the Wampanoag inhabitants of New England and the Plymouth Pilgrims gathered to celebrate a plentiful harvest. This was the first Thanksgiving, and it was a pivotal event in American history because it brought together two radically different cultures to work toward a shared objective.
 

@@ -4,11 +4,11 @@ author: Mrudul
 title:  Ecommerce Referral Marketing Strategies
 description: "In its initial stages, Dropbox, a file-sharing service, rewarded its customers with extra file space for each referral. Here both the referrer and referee get 500 MB of extra space. They had over 2.8 million referrals in the first 18 months. No matter which industry you are in, having an excellent referral marketing strategy can."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/04/Ecommerce-Referral-Marketing-Strategies-800x450.jpg"
+  url: "/assets/blog/Ecommerce-Referral-Marketing-Strategies-800x450.jpg"
   alt: "Ecommerce Referral Marketing Strategies."
 tags: ["Gift Card",]
 --- 
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/04/Ecommerce-Referral-Marketing-Strategies.jpg">
+<img src="/assets/blog/Ecommerce-Referral-Marketing-Strategies.jpg">
 
 In its initial stages, Dropbox, a file-sharing service, <a href="https://www.99minds.io/blog/generic/how-and-why-you-should-use-digital-rewards-for-workplace-gamification/" target="_blank">rewarded</a> its customers with extra file space for each referral. Here both the referrer and referee get 500 MB of extra space. They had over 2.8 million referrals in the first 18 months. No matter which industry you are in, having an excellent referral marketing strategy can do wonders for your brand.
 
@@ -28,7 +28,7 @@ Most eCommerce companies don’t indulge in referral marketing as much as they s
 </ul>
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/04/CTA-IMAGES-easter.jpg"></a>
+<img src="/assets/blog/CTA-IMAGES-easter.jpg"></a>
 
 ## Too eCommerce referral marketing strategies to use
 
@@ -60,7 +60,7 @@ Here’s how you can use a community to build your brand:
 <li> Use the community to ask each other for help, ideas, maintenance, and how to get the most from the products you sell.</li>
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 #### Leverage social media
 

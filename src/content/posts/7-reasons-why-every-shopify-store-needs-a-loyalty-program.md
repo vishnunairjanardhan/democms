@@ -4,13 +4,13 @@ author: Mrudul
 title: 7 Reasons Why Every Shopify Store Needs a Loyalty Program
 description: "More than 4.36 million online stores use Shopify. There are more than 8,000 apps built to serve Shopify stores. Undoubtedly, it is one of the most influential eCommerce stores in the world. It is a powerful platform adopted by businesses of all sizes globally. If you have a Shopify store, you would love to see."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/11/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-800x450.png"
+  url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-800x450.png"
   alt: "Shopify store needs a Loyalty Program."
 tags: ["Loyalty Program","Shopify","Customer Retention"] 
 
 ---
-<a href="https://www.99minds.io/blog/wp-content/uploads/2023/11/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM.png" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/11/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM.png"></a>
+<a href="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM.png" target="_blank">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM.png"></a>
 
 More than 4.36 million online stores use Shopify. There are more than 8,000 apps built to serve Shopify stores. Undoubtedly, it is one of the most influential eCommerce stores in the world. It is a powerful platform adopted by businesses of all sizes globally. If you have a Shopify store, you would love to see customers shopping from you repeatedly, wouldn’t you? Which business doesn’t, right?
 
@@ -23,7 +23,7 @@ One of the most interesting Shopify customer retention statistics is that more t
 For businesses that are looking for retaining customers on Shopify, a loyalty program puts you right ahead of your competitors. Most businesses assume that a decent website and a suite of attractive products are enough to make bank, but that’s never the case. There are tonnes of other e-commerce stores that are vying for your target audience’s attention. Why should people buy from you? You must give them a little extra– a bonus or an incentive to tilt things in your favor, and that’s where loyalty programs come in. Let’s look at why you must invest in Shopify customer loyalty strategies and how they would benefit your business.
 
 <a href="https://www.99minds.io/coupon-generator" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Coupon-code-800x155.jpg"></a>
+<img src="/assets/blog/CTA-Coupon-code-800x155.jpg"></a>
 
 ### <li> Increases Customer Engagement</li>
 
@@ -48,7 +48,7 @@ Loyalty and trust are things that cannot be purchased. Even if you offer your cu
 “Hey, I love those guys!” Statements like these from your customers on social media sites are how you must go about measuring loyalty program effectiveness.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo-800x155.jpg"></a>
+<img src="/assets/blog/CTA-Bookademo-800x155.jpg"></a>
  
  ### <li> Drives Customers to Certain Products</li>
 

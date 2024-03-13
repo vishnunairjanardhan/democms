@@ -4,11 +4,11 @@ author: Mrudul
 title: Customer Retention And Acquisition Using AI
 description: "Ever wondered how AI can us to Retain and Acquire more customers? Here we have highlighted few points on using AI to retain and acquire customers.  "
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/04/Presentation-image1.jpg"
+  url: "/assets/blog/Presentation-image1.jpg"
   alt: "The word community with a heart."
 tags: ["Artificial Intelligence"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/04/Presentation-image1.jpg">
+<img src="/assets/blog/Presentation-image1.jpg">
 
 
 ‘Efforts reap when planted at the right places’
@@ -37,7 +37,7 @@ So, in a nutshell, talk about the products and your site by knowing your custome
 
 Know your audience: I guess, the way Amazon is winning the big shots for online selling of products is because of PERSONALIZATION. Amazon hired a big team of AI experts and ruled out all other strategies to play around with AI tech. They created their team internally and started working out with the ML models. Machine Learning Algorithms reads and analyzes customer data to suggest similar products.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2020/04/CTA-Referral-image-1.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral-image-1.jpg"></a>
 
 Machine Learning helps the companies to know their customers better to retain them.
 
@@ -72,7 +72,7 @@ Personalization
 
 Because, we know, showing results for ‘Winter clothing’ when it is Summer in India, makes no sense. The customer usually frustrates out and leaves.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 So, decoding queries and attracting customers based on them makes a massive difference to your sales ratios
 

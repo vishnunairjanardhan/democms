@@ -4,11 +4,11 @@ author: Mrudul
 title: "Future of ecommerce in 2023"
 description: "eCommerce stores are rampant in every niche, and the competition is fierce. Without standing apart from your competitors, it will be difficult to keep growing exponentially. Consumer behavior keeps changing, especially in the world of eCommerce. There are too many factors that change the purchasing behavior and motivations of your customers. You must be aware"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/02/Future-of-ecommerce-in-2023-1.jpg"
+  url: "/assets/blog/Future-of-ecommerce-in-2023-1.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/02/Future-of-ecommerce-in-2023-1.jpg">
+<img src="/assets/blog/Future-of-ecommerce-in-2023-1.jpg">
 
 eCommerce stores are rampant in every niche, and the competition is fierce. Without standing apart from your competitors, it will be difficult to keep growing exponentially. Consumer behavior keeps changing, especially in the world of eCommerce. There are too many factors that change the purchasing behavior and motivations of your customers. You must be aware of the changes happening, both in terms of technology and people’s buying habits.
 
@@ -33,7 +33,7 @@ Can you wrap your head around having an end-to-end shopping experience just by u
 
 Since most eCommerce websites understand your quality and brand preferences (if you are an existing customer), your shopping experience will become even easier.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2023/01/CTA-Big-99minds.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-Big-99minds.jpg"></a>
 
 <li><b>Interactive Content:</li></b>
 
@@ -65,7 +65,7 @@ The project began in 2017 and is popular across several countries now. <a href="
 
 BOPIS became a thing during Covid-19 lockdowns and has caught the fancy of customers who used it. It allows customers to buy online and schedule the pickup at a physical location nearby. It makes fulfillment convenient for customers.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 <li><b>Data collection and analysis:</li></b>
 

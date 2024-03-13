@@ -4,11 +4,11 @@ author: Mrudul
 title: "Importance of omni-channel loyalty programs"
 description: "Customers these days want a seamless and flexible shopping experience. They want to have the same experience and maintain their preferences across all channels, be it mobile, website, or physical stores. There is no doubt that customers would want a personalized and consistent experience across all channels. You need to be able to cater to"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/07/Importance-of-Omnichannel-Loyalty-Program1.jpg"
+  url: "/assets/blog/Importance-of-Omnichannel-Loyalty-Program1.jpg"
   alt: "The word community with a heart."
 tags: ["Loyalty","Omnichannel"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/07/Importance-of-Omnichannel-Loyalty-Program1.jpg">
+<img src="/assets/blog/Importance-of-Omnichannel-Loyalty-Program1.jpg">
 
 Customers these days want a seamless and flexible shopping experience. They want to have the same experience and maintain their preferences across all channels, be it mobile, website, or physical stores. There is no doubt that customers would want a personalized and consistent experience across all channels. You need to be able to cater to such expectations in this highly competitive eCommerce sphere.
 

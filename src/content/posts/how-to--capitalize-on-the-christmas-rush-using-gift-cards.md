@@ -4,11 +4,11 @@ author: Mrudul
 title: How to Capitalize on the Christmas Rush Using Gift Crads
 description: "In this article, we look at some of the best strategies to leverage gift cards this holiday season. Read on for more about holiday marketing."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/12/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-14.png"
+  url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-14.png"
   alt: "Christmas Gift Cards."
 tags: ["Gift Card",]
 --- 
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/12/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-14.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-14.png">
 
 Shopify gift card promotions during the holidays should not be something that wasn’t planned properly. Gift cards for Christmas will be in high demand at this time, and rightly so. Your customers are readying themselves to spend more. Expect the gift card ROI during Christmas to be at an all-time high. Make sure you leverage the right Shopify gift card sales tactics to sell more of them. 
 
@@ -54,7 +54,7 @@ One of the ways to make your <a href="https://www.99minds.io/integrations/shopif
 
 First, make sure you have a loyalty program to reduce churn and appreciate your loyal customers. The next step is to make gift cards a big part of your loyalty program. This is one of the easiest ways to strengthen your loyalty program and make gift cards a big part of your marketing strategy. Send gift cards to loyalty program customers on special days.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 ### Promote Digital Gift Cards
 

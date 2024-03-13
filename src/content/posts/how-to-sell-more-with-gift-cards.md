@@ -4,12 +4,12 @@ author: Mrudul
 title: How to Sell More with Gift Cards 
 description: "You've chosen your site, hired your team, and set prices for your services and products—now it's time to open for business. The holiday season is rapidly approaching, and do you understand what it entails? It's the ideal time of year to get your business ready for a new revenue stream by selling gift cards both."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/11/How-to-Sell-More-with-Gift-Cards-800x450.jpg"
+  url: "/assets/blog/How-to-Sell-More-with-Gift-Cards-800x450.jpg"
   alt: "How to sell more with gift cards."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/how-to-sell-more-with-gift-cards/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/11/How-to-Sell-More-with-Gift-Cards.jpg"></a>
+<img src="/assets/blog/How-to-Sell-More-with-Gift-Cards.jpg"></a>
 
 You’ve chosen your site, hired your team, and set prices for your services and products—now it’s time to open for business. The holiday season is rapidly approaching, and do you understand what it entails? It’s the ideal time of year to get your business ready for a new revenue stream by selling <a href="https://www.99minds.io/giftcard" target="_blank">gift cards both online and in person</a>.
 

@@ -4,11 +4,11 @@ author: Mrudul
 title: Why should every business be a digital business
 description: "Being a digital business is no longer an option. It is a necessity for all businesses, no matter how they operate. Without digital tools, it is almost impossible to function smoothly. Digital transformations have even resulted in radical changes that have completely changed the status quo of various industries. Technology is the biggest contributor in"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/02/Why-should-every-business-be-a-digital-business1.jpg"
+  url: "/assets/blog/Why-should-every-business-be-a-digital-business1.jpg"
   alt: "The word community with a heart."
 tags: ["Loyalty"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/02/Why-should-every-business-be-a-digital-business1.jpg">
+<img src="/assets/blog/Why-should-every-business-be-a-digital-business1.jpg">
 
 Being a digital business is no longer an option. It is a necessity for all businesses, no matter how they operate. Without digital tools, it is almost impossible to function smoothly. Digital transformations have even resulted in radical changes that have completely changed the status quo of various industries. Technology is the biggest contributor in shaping businesses for its future.
 

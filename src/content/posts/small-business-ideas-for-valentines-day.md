@@ -4,11 +4,11 @@ author: Mrudul
 title: "Small Business Ideas for Valentine’s Day"
 description: "Valentine's Day generates $18.9 billion in revenue. According to the National Retail Federation, 9 out of 10 Americans expect to buy something for their significant other, each spending an average of $88. Lovers exchange gifts, couples go on romantic outings, and some want to have a lovely Valentine's Day. But Valentine's Day isn't just for"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/01/Small-Business-ideas-for-Valentines-Day.jpg"
+  url: "/assets/blog/Small-Business-ideas-for-Valentines-Day.jpg"
   alt: "The word community with a heart."
 tags: ["Marketing"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/Small-Business-ideas-for-Valentines-Day.jpg">
+<img src="/assets/blog/Small-Business-ideas-for-Valentines-Day.jpg">
 
 Valentine’s Day generates $18.9 billion in revenue. <a href="https://nrf.com/media-center/press-releases/americans-spend-239-billion-valentines-day-year">According to the National Retail Federation</a>, 9 out of 10 Americans expect to buy something for their significant other, each spending an average of $88.
 

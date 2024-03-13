@@ -4,12 +4,12 @@ author: Mrudul
 title: Celebrating women and their achievements
 description: "This is Women’s History Month and we are taking this space to highlight a few women entrepreneurs who have solved problems, uplifted communities and made a unique space for themselves in what they do. The women who are a part of this article have varying degrees of success, the only common thing about each of."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/03/Celebrating-Women-and-their-achievements.jpg"
+  url: "/assets/blog/Celebrating-Women-and-their-achievements.jpg"
   alt: "Celebrating women and their achievement."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/generic/celebrating-women-and-their-achievements/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/03/Celebrating-Women-and-their-achievements.jpg"></a>
+<img src="/assets/blog/Celebrating-Women-and-their-achievements.jpg"></a>
 
 This is Women’s History Month and we are taking this space to highlight a few women entrepreneurs who have solved problems, uplifted communities and made a unique space for themselves in what they do. The women who are a part of this article have varying degrees of success, the only common thing about each of them is that they are all champions in their own right.
 

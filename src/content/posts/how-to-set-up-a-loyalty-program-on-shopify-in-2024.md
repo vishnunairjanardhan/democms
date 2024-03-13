@@ -4,11 +4,11 @@ author: Mrudul
 title: How to Set Up a Loyalty Program for Your Shopify Store in 2024
 description: "Having a loyalty program for your Shopify store brings several benefits. In this article, you will learn how to set up a loyalty program."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/12/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-15.png"
+  url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-15.png"
   alt: "The word community with a heart."
 tags: ["Loyalty Program","Ecommerce"]
 --- 
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/12/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-15.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-15.png">
 Shopify stores are always looking to grab customers’ attention, and more importantly, their loyalty. Loyalty isn’t something that can be bought. Thankfully, there are ways to increase the chances of a customer being loyal to your brand. <a href="https://www.statista.com/statistics/1374927/loyalty-program-impact-consumer-decision-us/">79% of customers</a> have said that loyalty programs impact the chances of them doing business with a brand. The reason why most customers are happy to be a part of a loyalty program is because it offers a number of perks and incentives that make it worth their time. 
 
 ### <H3><Strong>Benefits of Effective Loyalty Programs on Shopify:</Strong></H3>
@@ -81,7 +81,7 @@ Let’s look at some of the types of rewards that can be offered:
 <li>Cashbacks</li>
 </ul>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 
 ### <h3><Strong>Choose a Loyalty Program Software:</Strong></h3>

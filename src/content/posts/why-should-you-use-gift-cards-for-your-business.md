@@ -4,11 +4,11 @@ author: Mrudul
 title: Why Should You Use Gift Cards For Your Business
 description: "From increasing customer loyalty to engaging and acquiring more customers, gift cards have always played a vital role in it. Here we have highlighted the importance of gift cards for businesses"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/08/Why-should-you-use-gift-cards-for-your-business-1.jpg"
+  url: "/assets/blog/Why-should-you-use-gift-cards-for-your-business-1.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty","Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/08/Why-should-you-use-gift-cards-for-your-business-1.jpg">
+<img src="/assets/blog/Why-should-you-use-gift-cards-for-your-business-1.jpg">
 
 The global gift card market size is <a href="https://www.rfdtv.com/story/41734715/gift-card-market-2020-global-industry-trends-share-size-demand-growth-opportunities-industry-revenue-future-and-business-analysis-by-forecast-2023" target="_blanck">estimated to grow at a CAGR of 13%</a> in the forecast period of 2020-2023. With sophisticated technologies popping up, <a href="https://www.giftsvouchers.co.uk/blog/whats-the-difference-between-gift-cards-gift-vouchers-and-ecodes" target="_blanck">offering gift cards to customers</a> is becoming easier. The features present in some of the gift card tools incorporate user psychology and automation features that promise to work wonders for your sales registry.
 
