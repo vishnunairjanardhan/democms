@@ -4,11 +4,11 @@ author: Mrudul
 title: How to Build Customer Loyalty for the Beauty Industry
 description: "The beauty industry is worth $532 billion, and it is an industry that will be evergreen no matter how poorly the economy swings. In fact, Juliet Shor, a professor in her book 'The overspent American,' writes that even when times are tight, consumers will indulge in luxuries like cosmetics as it gives them an emotional"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/07/Loyalty-for-beauty-Industry2.jpg"
+  url: "/assets/blog/Loyalty-for-beauty-Industry2.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Engagement"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/07/Loyalty-for-beauty-Industry2.jpg">
+<img src="/assets/blog/Loyalty-for-beauty-Industry2.jpg">
 
 <a href="https://www.businessinsider.in/retail/beauty-has-blown-up-to-be-a-532-billion-industry-and-analysts-say-that-these-4-trends-will-make-it-even-bigger/articleshow/70149243.cms" target="_blanck">The beauty industry is worth $532 billion</a>, and it is an industry that will be evergreen no matter how poorly the economy swings. In fact, Juliet Shor, a professor in her book <a href="https://www.intelligenteconomist.com/lipstick-effect/" target="_blanck">‘The overspent American’</a>>, writes that even when times are tight, consumers will indulge in luxuries like cosmetics as it gives them an emotional lift. She called this ‘The lipstick effect.’
 

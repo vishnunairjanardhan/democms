@@ -4,11 +4,11 @@ author: Mrudul
 title: "How do loyalty programs help the pet industry?"
 description: "Is finding new clients for your pet-related business looking like a daunting task? Because of this, are you always on the lookout for new clients? The problem here is that you might not be tapping into the network of your existing clients. Ignore existing clients at your peril. Why do you need loyalty programs"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/07/loyalty-program.jpg"
+  url: "/assets/blog/loyalty-program.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/07/loyalty-program.jpg">
+<img src="/assets/blog/loyalty-program.jpg">
 
 Is finding new clients for your pet-related business looking like a daunting task? Because of this, are you always on the lookout for new clients? The problem here is that you might not be tapping into the network of your existing clients. Ignore existing clients at your peril.
 
@@ -44,7 +44,7 @@ When it comes to taking care of their pets, pet owners will not shy away from sp
 
 Certain pets require more care and attention. When part of a loyalty program, they can expect a better deal in the form of discounts, rewards, and cashback. All that the pet owners need to do is shop frequently from you
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2021/04/CTA-mothers-day.jpg"></a> 
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-mothers-day.jpg"></a>
 
 <li><b>Increases sales and revenue:</li></b>
 

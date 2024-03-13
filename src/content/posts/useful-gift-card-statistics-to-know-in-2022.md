@@ -4,11 +4,11 @@ author: Mrudul
 title: "Useful Gift Card Statistics to Know in 2022"
 description: "The first Gift card appeared about 20 years ago, and since then the gift card industry has been developing dramatically. But do you know that Gift Certificates gave rise to Gift Cards. The problem with certificates was that issuing and redeeming them required a lengthy process, and frauds were more common. So Gift cards came"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/07/Essential-Gift-Card-Statistics-You-Should-Know-in-2022.jpg"
+  url: "/assets/blog/Essential-Gift-Card-Statistics-You-Should-Know-in-2022.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/07/Essential-Gift-Card-Statistics-You-Should-Know-in-2022.jpg">
+<img src="/assets/blog/Essential-Gift-Card-Statistics-You-Should-Know-in-2022.jpg">
 
 The first Gift card appeared about 20 years ago, and since then the gift card industry has been developing dramatically. But do you know that Gift Certificates gave rise to Gift Cards.
 
@@ -19,14 +19,14 @@ So <a href="https://wordpress-aogt.onrender.com/gift-card/what-is-an-ecommerce-g
 From the mid-1990’s to 2022, gift cards have witnessed massive growth in popularity. It is becoming more and more common in the USA, available everywhere from big shops to even Pharmacies, from MNCs like <a href="https://www.amazon.com/">Amazon</a> to even small local brands.
 This industry has grown so much that its current value in 2022 is worth billions, even surpassing the GDP of several countries.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/07/Top-reasons-to-choose-Gift-card-over-cash-800x450.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/Top-reasons-to-choose-Gift-card-over-cash-800x450.jpg"></a>
 
 <b>To seize great opportunities for your business we’ve compiled some information to help you understand this booming market and so you can see the situation properly:</b>
 
 <b>1.By 2026, the market for gift cards is expected to grow to $584 billion from its current $534 billion value</b>
 People might be surprised by how quickly gift cards are being spent, which bodes well for the future of this sector, particularly in the case of digital gift cards. The fastest-growing market, e-gifting, is anticipated to rise by more than 26% by 2025. With this, some even predict that by 2030, the <a href="https://www.globenewswire.com/news-release/2022/05/25/2450299/0/en/Global-Gift-Cards-Market-to-Reach-US-1-4-Trillion-by-the-Year-2026.html">global gift card market would reach $1.4 trillion!</a>
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/07/gift-card-market-800x600.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/gift-card-market-800x600.jpg"></a>
 
 <b>2. When rewards and incentives are given to customers, one-third of them feel motivated to purchase gift cards.</b>33% of respondents ultimately made a purchase at a particular store as a result of an incentive, even if they had no intention of doing so. That’s why many companies uplift their Sales and <a href="https://wordpress-aogt.onrender.com/customer-loyalty/what-are-the-benefits-of-loyalty-programs/">Loyalty Programs</a> using Gift Cards.
 
@@ -37,7 +37,7 @@ When asked how many gift cards they generally buy each year for occasions like b
 
 <b>5. Most individuals favor digital gift cards over traditional ones.</b>The <a href="https://wordpress-aogt.onrender.com/uncategorized/gift-cards-the-gift-that-keeps-giving/">popularity of eGift cards</a> has been constant throughout the past few years. Regarding preferred gift card types, 33% of people said they preferred digital cards to physical ones, 29% said they preferred physical cards, and 38% said they had no preference.87 % of consumers claim to have bought an eGift Card in 2018, 2019, or 2020.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/07/gift-card-type-preference-800x600.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/gift-card-type-preference-800x600.jpg"></a>
 
 <b>6. 32% of customers have either bought a gift card online for the first time or more frequently than before since the pandemic started.</b>Gift Cards make it convenient to make purchases even during COVID-19 because they are simple to use and flexible. Lockdowns were being imposed globally boosting the adoption of e-gift cards, especially among enterprises. In turn, this pandemic has emerged as the main growth driver for the e-gift card business.
 
@@ -45,7 +45,7 @@ When asked how many gift cards they generally buy each year for occasions like b
 
 <b>8. More than 35 million US citizens claimed that they would love to receive a gift card over an actual gift.</b>According to respondents, the most enticing aspect of receiving a gift card is the option to treat themselves to something they really desire (77%), followed by the ability to buy goods they genuinely need rather than being given additional “stuff” (66%) and the ability to purchase an item that they otherwise wouldn’t have been able to afford by using the gift card balance (51%).
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/07/reason-to-choose-gift-card-800x600.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/reason-to-choose-gift-card-800x600.jpg"></a>
 
 <b>9. During the holiday season, most consumers on average buy 2 gift cards, closely followed by 3 gift cards.</b>According to research, 65 % of Americans said they planned to buy clothing, 54 % said they expected to buy gift cards, 47 % said they would buy toys, and 42 % said they planned to buy consumer electronics.
 
@@ -71,8 +71,8 @@ What companies dominate the worldwide gift card market?
 
 Additionally, the United States, Europe, China, and Japan are home to the majority of the industry’s major players.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/07/why-are-consumers-purchasing-gift-cards-560x420.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/why-are-consumers-purchasing-gift-cards-560x420.jpg"></a>
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/07/gift-card-program-for-shopify-560x420.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/gift-card-program-for-shopify-560x420.jpg"></a>
 
 Giving gift cards is a popular method. They are more popular with consumers than other gift types, and they can be customized for any occasion. With over 154 million active gift cards in use, the United States is one of the world leaders in the non-cash payment sector. Gift cards are popular for several factors, but their versatility may be the main one.

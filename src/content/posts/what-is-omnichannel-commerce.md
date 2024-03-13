@@ -4,11 +4,11 @@ author: Mrudul
 title: "What is Omnichannel Commerce"
 description: "Learn why Omnichannel is better than Multichannel, its benefits, drawbacks in implementing them, and a few examples of businesses that are currently doing it"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/08/What-is-Omnichannel-Commerce.jpg"
+  url: "/assets/blog/What-is-Omnichannel-Commerce.jpg"
   alt: "The word community with a heart."
 tags: ["Omnichannel"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/08/What-is-Omnichannel-Commerce.jpg">
+<img src="/assets/blog/What-is-Omnichannel-Commerce.jpg">
 
 Harvard Business Review says that <a href="https://hbr.org/2017/01/a-study-of-46000-shoppers-shows-that-omnichannel-retailing-works">73% of online shoppers use several channels</a> when shopping online. This is why it is imperative that businesses offer a unified eCommerce experience to their customers, no matter which channel they are on. 
 

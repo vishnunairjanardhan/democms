@@ -4,11 +4,11 @@ author: Mrudul
 title: "The role of technology in enhancing eCommerce"
 description: "Without a doubt, technology is the backbone of eCommerce. From helping customers find their products easily to optimizing delivery and payments, there is technology everywhere. It is not possible to think of a single interaction touchpoint where technology doesn’t feature for the seamless operation of the eCommerce site. In this article, we will look at"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/01/The-role-of-technology-in-enhancing-eCommerce.jpg"
+  url: "/assets/blog/The-role-of-technology-in-enhancing-eCommerce.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/The-role-of-technology-in-enhancing-eCommerce.jpg">
+<img src="/assets/blog/The-role-of-technology-in-enhancing-eCommerce.jpg">
 
 Without a doubt, technology is the backbone of eCommerce. From helping customers find their products easily to optimizing delivery and payments, there is technology everywhere. It is not possible to think of a single interaction touchpoint where technology doesn’t feature for the seamless operation of the eCommerce site. In this article, we will look at how technology is changing the face of eCommerce.
 

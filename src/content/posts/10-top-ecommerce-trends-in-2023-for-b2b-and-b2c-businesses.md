@@ -4,11 +4,11 @@ author: PRAVIN KAMBLE
 title: "10 top eCommerce trends in 2023 for B2B and B2C businesses"
 description: "The rise in the number of online shoppers and the continued rise in digital payments is no cause for surprise. The fast growth has led to a rise in competition among eCommerce firms, and they are investing in tools and resources to stand out from the crowd. Otherwise, it is easy to be swept away"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/02/10-top-eCommerce-trends-in-2023-for-B2B-and-B2C-businesses1.jpg"
+  url: "/assets/blog/10-top-eCommerce-trends-in-2023-for-B2B-and-B2C-businesses1.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/02/10-top-eCommerce-trends-in-2023-for-B2B-and-B2C-businesses1.jpg">
+<img src="/assets/blog/10-top-eCommerce-trends-in-2023-for-B2B-and-B2C-businesses1.jpg">
 
 The rise in the number of online shoppers and the continued rise in digital payments is no cause for surprise. The fast growth has led to a rise in competition among eCommerce firms, and they are investing in tools and resources to stand out from the crowd. Otherwise, it is easy to be swept away in a sea of eCommerce stores.
 
@@ -29,7 +29,7 @@ Even the simplest of things create a tectonic shift in your brand in the minds o
 
 The Buy Online Pick up In-Store strategy is great for consumers who want to buy from the convenience of their homes and pick up the product at a place close to their homes. They don’t have to wait for the traditional delivery system to collect the order. In this method, the customers can check the product during pickup and return it if they think it is damaged or not what they expected. The chances of the product getting stolen after delivery become nil.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2023/02/CTA-IMAGES-shopify.jpg"></a> 
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGES-shopify.jpg"></a>
 
 BOPIS also offers eCommerce retailers the opportunity to upsell and cross-sell. The shipping costs are reduced since they don’t have to reach the houses of each customer.
 
@@ -57,7 +57,7 @@ With Covid-19 drastically reducing the purchasing power of people worldwide, it 
 
 B2B eCommerce stores offer self-service options throughout the buyer’s journey. They allow users to find answers to questions, schedule appointments, submit inquiries, etc. It provides an opportunity for the customers to check out the various options available, without having to get on a call with a sales representative. Businesses can start with simple self-service options such as tracking orders or accepting payments.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a> 
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 <li><b>Focus on existing customers:</b></li>
 

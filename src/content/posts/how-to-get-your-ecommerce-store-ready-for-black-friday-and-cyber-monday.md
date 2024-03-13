@@ -4,11 +4,11 @@ author: Mrudul
 title: How to Get Your eCommerce Store Ready for Black Friday and Cyber Monday
 description: "Black Friday and Cyber Monday are two of the best days for eCommerce retailers. Not being prepared for it is a financial disaster. The 2021 US holiday season posed the strongest retail growth bringing in more than $1.2 trillion. According to eMarketer, Cyber Monday had the highest sales, clocking more than $10.9 billion, while Black"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/09/How-to-Get-Your-eCommerce-Store-Ready-for-Black-Friday-and-Cyber-Monday2.jpg"
+  url: "/assets/blog/How-to-Get-Your-eCommerce-Store-Ready-for-Black-Friday-and-Cyber-Monday2.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce","Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/09/How-to-Get-Your-eCommerce-Store-Ready-for-Black-Friday-and-Cyber-Monday2.jpg">
+<img src="/assets/blog/How-to-Get-Your-eCommerce-Store-Ready-for-Black-Friday-and-Cyber-Monday2.jpg">
 
 Black Friday and Cyber Monday are two of the best days for eCommerce retailers. Not being prepared for it is a financial disaster. The 2021 US holiday season posed the strongest retail growth bringing in <a href="https://www.insiderintelligence.com/content/us-holiday-2021-review-holiday-2022-preview">more than $1.2 trillion</a>. According to eMarketer, Cyber Monday had the highest sales, clocking more than $10.9 billion, while Black Friday raked in more than $9 billion.
 
@@ -27,7 +27,7 @@ Have you created marketing plans for the holidays yet? Your customers will start
  
 Your shoppers will access your site through their smartphones. According to Shopify, their merchants saw mobile transactions accounting for <a href="https://www.shopify.com/in/enterprise/black-friday-ecommerce">more than 71% of their sales</a>. You want to give them a highly optimized mobile experience to smooth their shopping experience. The website crashing during peak sales time is a disaster. You will regret it unless you have invested the time and effort required.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2021/04/CTA-mothers-day.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-mothers-day.jpg"></a>
 
 Here are a few things you need to do:
 
@@ -81,7 +81,7 @@ Do get into influencer marketing during the holidays because it can increase you
 
 The structure of the collaboration should be clear. The goals could be to generate interest for the Black Friday and Cyber Monday campaigns. You have to start the collaboration well in advance for something like this. If you are only looking for sales from the association, then you might want to campaign aggressively during the holiday week.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 <ul>
 <li>Invest in social commerce:</li>

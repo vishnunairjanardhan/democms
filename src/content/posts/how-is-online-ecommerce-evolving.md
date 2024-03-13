@@ -4,12 +4,12 @@ author: Mrudul
 title: How is eCommerce evolving
 description: "“The world is clearly changing in so many ways. The way we used to watch movies, listen to music or travel to different places have completely changed in the past few years. The same is with eCommerce, it has become an important part of our lives too. If brands want to succeed in the eCommerce."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/04/how-is-eCommerce-evolving-800x450.jpg"
+  url: "/assets/blog/how-is-eCommerce-evolving-800x450.jpg"
   alt: "How is ecommerce evolving."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/how-is-online-ecommerce-evolving/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/04/how-is-eCommerce-evolving.jpg"></a>
+<img src="/assets/blog/how-is-eCommerce-evolving.jpg"></a>
 
 The world is clearly changing in so many ways. The way we used to watch movies, listen to music or travel to different places have completely changed in the past few years. The same is with eCommerce, it has become an important part of our lives too. If brands want to succeed in the eCommerce industry, then it has to concentrate on giving a superior experience for the customer.
 

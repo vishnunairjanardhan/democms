@@ -4,12 +4,12 @@ author: Mrudul
 title: Customer Loyalty Programs, Will they benefit my business?
 description: "“I have a lot of recurring customers. Is it beneficial to add loyalty programs on top of all the other marketing campaigns that I run? Will it give me more business?” The above question was posed by an eCommerce business owner who has had a great run so far in terms of sales. The number."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/04/Customer-Loyalty-Programs-Will-they-benefit-my-business-800x450.jpg"
+  url: "/assets/blog/Customer-Loyalty-Programs-Will-they-benefit-my-business-800x450.jpg"
   alt: "6 mothers day marketing ideas for ecommerce business ."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/customer-loyalty-programs-will-they-benefit-my-business/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/04/Customer-Loyalty-Programs-Will-they-benefit-my-business.jpg"></a>
+<img src="/assets/blog/Customer-Loyalty-Programs-Will-they-benefit-my-business.jpg"></a>
 
 “I have a lot of recurring customers. Is it beneficial to add loyalty programs on top of all the other marketing campaigns that I run? Will it give me more business?”
 

@@ -4,11 +4,11 @@ author: Mrudul
 title: Moneyball- Game Changer for Everyone
 description: "Who would have in their wildest dreams thought about how calculating data can lead them to predict specific impossible scenarios of life? No one. I bet. Because what seemed to be a statistical analysis of data when Billy Beane and his assistant Paul DePodesta innovated sabermetrics, achieved it in 2004, is our next revolution. Creating"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/01/Moneyball-Game-Changer-for-Everyone.jpg"
+  url: "/assets/blog/Moneyball-Game-Changer-for-Everyone.jpg"
   alt: "The word community with a heart."
 tags: ["Machine Learning"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/01/Moneyball-Game-Changer-for-Everyone.jpg">
+<img src="/assets/blog/Moneyball-Game-Changer-for-Everyone.jpg">
 
 Who would have in their wildest dreams thought about how calculating data can lead them to predict specific impossible scenarios of life?
 
@@ -24,7 +24,7 @@ Billy, a High school graduate, not a data scientist, and his assistant Paul DePo
 
 Billy overcame the power of dependence on the team’s wisdom performance and their scouts. He re-evaluated his strategy, and instead of focusing on speed and contacts, he concentrated on on-base (frequency of batter reaching the base) and slugging percentage (batting productivity of a hitter). Such metrics and a budget of $44M contributed to creating a team of undervalued players in the MLB.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2022/04/CTA-IMAGES-easter.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGES-easter.jpg"></a>
 
 The data was often measured using Sabermetrics, which is an analytical metric that measures Baseball’s in-game activity. Owing to the same, Billy made significant revelations in the gameplay and his players, which we regard in today’s world usage as ‘Moneyball.’
 
@@ -79,7 +79,7 @@ To properly implement a plan in place, you need to take your ‘Community,’ yo
 
 The leaders who take up to their data role, make sure that the team doesn’t fall apart and ultimately make themselves comfortable to become a team enough to buy the DATA and eventually plan their wins in their head.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 When the implementation part comes into the picture, the DATA model effective at the beginning may seem like a failure later. There might be an umpteen number of problems that would creep in. It could be a lousy consolidation of data, it could be a change in factory line requiring a new metric, or it could be a simple office HR problem. To keep your team on track, make sure you capture the Key Performance Metric (KPIs) to measure the DATA, and also look forward to the relevance and performance understanding. And if the KPIs show a deviation from the normal, you need to make a curve change in your process by identifying the problem and solving it by taking up corrective measures.
 

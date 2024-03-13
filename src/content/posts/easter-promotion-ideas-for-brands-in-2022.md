@@ -4,12 +4,12 @@ author: Mrudul
 title: Easter Promotion Ideas for Brands in 2022 
 description: Easter represents the triumph of life over death… There are some average brands, some successful brands, and some brands that are about to die and need a push towards a win to raise their business into a new life. It's possibly because these companies are unable to reach their audience. Promotion can help them connect.
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/04/Easter-Promotion-Ideas-for-Brands-in-2022-800x450.jpg"
+  url: "/assets/blog/Easter-Promotion-Ideas-for-Brands-in-2022-800x450.jpg"
   alt: "Easter promotion ideas for brands in 2022."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/generic/easter-promotion-ideas-for-brands-in-2022/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/04/Easter-Promotion-Ideas-for-Brands-in-2022.jpg"></a>
+<img src="/assets/blog/Easter-Promotion-Ideas-for-Brands-in-2022.jpg"></a>
 
 <b>Easter represents the triumph of life over death…</b>
 

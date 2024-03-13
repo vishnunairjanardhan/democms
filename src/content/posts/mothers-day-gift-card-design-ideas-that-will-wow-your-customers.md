@@ -4,12 +4,12 @@ author: Mrudul
 title: Mother’s Day Gift Card Design Ideas That Will Wow Your Customers
 description: "With Mother's Day around the corner, it's time to think of something special for those wonderful mothers in our lives! Luckily, gift cards are a perfect option. However, not all cards are created equal. Your gift card must stand out from the rest! To ensure that your customers are impressed, we provide you with some."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/05/Mothers-Day-Gift-Card-Design-Ideas-That-Will-Wow-Your-Customers-800x450.jpg"
+  url: "/assets/blog/Mothers-Day-Gift-Card-Design-Ideas-That-Will-Wow-Your-Customers-800x450.jpg"
   alt: "Mothers day gift card design ideas that will wow your customers."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/mothers-day-gift-card-design-ideas-that-will-wow-your-customers///" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/05/Mothers-Day-Gift-Card-Design-Ideas-That-Will-Wow-Your-Customers.jpg"></a>
+<img src="/assets/blog/Mothers-Day-Gift-Card-Design-Ideas-That-Will-Wow-Your-Customers.jpg"></a>
 
 # With Mother’s Day around the corner, it’s time to think of something special for those wonderful mothers in our lives!
 
@@ -21,7 +21,7 @@ Flowers, the quintessential
 <a href="https://www.99minds.io/giftcard" target="_blank">Mother’s Day gift, are also perfect design elements for gift cards</a>. Create a feminine, delicate look by using pastel shades and floral patterns. But don’t be shy! Add a splash of color with vibrant blooms to make your design pop. The key is to choose colors that match the Mother’s Day theme. With timeless floral designs, your gift card will bloom with creativity and charm!
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/04/CTA-mothers-day.jpg"></a>
+<img src="/assets/blog/CTA-mothers-day.jpg"></a>
 
 ## Gift of personalisation
 
@@ -39,7 +39,7 @@ Are you tired of giving gift cards that appear impersonal, lacking that special 
 
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ## Make Your Gift Cards Shine
 

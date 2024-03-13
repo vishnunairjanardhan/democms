@@ -4,13 +4,13 @@ author: Mrudul
 title: 11 proven loyalty program best practices to retain and reward customers on your Shopify store
 description: "As you enter your favorite eCommerce store, you are greeted with a section that recommends you products based on your previous browsing history and purchases. Such conveniences, rooted in understanding and valuing customers, are at the heart of every successful loyalty program. What is a customer loyalty program? A customer loyalty program is a powerful."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/08/11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-Shopify-store1.jpg"
+  url: "/assets/blog/11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-Shopify-store1.jpg"
   alt: "Loyalty Program."
 tags: ["Loyalty Program"] 
 
 ---
 <a href="https://www.99minds.io/blog/customer-loyalty/11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/08/11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-Shopify-store1.jpg"></a>
+<img src="/assets/blog/11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-Shopify-store1.jpg"></a>
 
 As you enter your favorite <a href="https://www.99minds.io/blog/gift-card/5-must-have-features-for-a-successful-shopify-store-gift-card-program/" target="_blank">eCommerce store</a>, you are greeted with a section that recommends you products based on your previous browsing history and purchases. Such conveniences, rooted in understanding and valuing customers, are at the heart of every <a href="https://www.99minds.io/blog/uncategorized/how-to-implement-an-effective-customer-loyalty-program-into-your-shopify-store/" target="_blank">successful loyalty program</a>.
 
@@ -46,7 +46,7 @@ Once you have clearly defined goals, you must ask a bunch of questions internall
 The most important part of a loyalty program is the perks that customers get. You want to choose the perks or incentives that customers get out of the loyalty program, with careful consideration. When you choose the right perks, it shows customers that you understand what they want. This will increase their loyalty towards your brand, and becomes more than just a transactional relationship.
 
 <a href="https://giftcard.99minds.io/access/login" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGES.jpg"></a>
+<img src="/assets/blog/CTA-IMAGES.jpg"></a>
 
 ### Make your rewards programs unique
 
@@ -88,7 +88,7 @@ Customers love to be associated with a loyalty program that is flexible in terms
 Your loyalty program’s benefits should keep appealing to your customers. Unfortunately, the same rewards over the years might get boring for most customers, leaving a bitter taste. They should be getting a steady dose of new offers from time to time. Offering attractive rewards results in greater trust and loyalty towards the brand. Conduct regular surveys and leverage tracking tools to find out about the effectiveness of your loyalty program.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ### Build partnerships
 

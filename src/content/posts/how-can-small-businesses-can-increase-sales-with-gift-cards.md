@@ -4,11 +4,11 @@ author: Mrudul
 title: "How can Small Businesses Increase Sales with Gift Cards"
 description: "Gift cards are an easy way to attract new customers, get money in advance, forge stronger relationships with the existing customers, and so on. You might wonder if it is even possible for small businesses to use gift cards successfully. We have answered the same in this article. Here are some ways with which small"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/12/How-can-small-Businesses-increase-sales-with-Giftcards.jpg"
+  url: "/assets/blog/How-can-small-Businesses-increase-sales-with-Giftcards.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/12/How-can-small-Businesses-increase-sales-with-Giftcards.jpg">
+<img src="/assets/blog/How-can-small-Businesses-increase-sales-with-Giftcards.jpg">
 
 Gift cards are an easy way to attract new customers, get money in advance, forge stronger relationships with the existing customers, and so on. You might wonder if it is even possible for small businesses to use gift cards successfully. We have answered the same in this article.
 
@@ -45,7 +45,7 @@ Most customers purchase gift cards during the <a href="">holiday season</a>. Why
 
 If you want to make gift cards more attractive to the average customer who walks into your store, online or otherwise, then offer more value than what is there on the card. Let’s say that the customer is looking at buying a $100 gift card; then you can offer them $110 or give them a freebie like free maintenance or repair or something that increases its intrinsic value.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a> 
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 7. Hold contests:
 

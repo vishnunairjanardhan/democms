@@ -4,12 +4,12 @@ author: Mrudul
 title: How to use gift cards in SMS marketing
 description: "When you are trying to sell something to your customers, you want to be available on all platforms that are possible, isn’t it? In today’s world, people are always busy and they are bombarded with marketing communication so much that they subconsciously try to consume as less as possible. The best way to reach your."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/03/How-to-use-gift-cards-in-SMS-marketing-800x450.jpg"
+  url: "/assets/blog/How-to-use-gift-cards-in-SMS-marketing-800x450.jpg"
   alt: "How to use gift card in SMS marketing."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/how-to-use-gift-cards-in-sms-marketing/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/03/How-to-use-gift-cards-in-SMS-marketing.jpg"></a>
+<img src="/assets/blog/How-to-use-gift-cards-in-SMS-marketing.jpg"></a>
 
 When you are trying to sell something to your customers, you want to be available on all platforms that are possible, isn’t it?
 
@@ -58,7 +58,7 @@ Your most loyal customers are the ones who will bring in all the moolah for you.
 <a href="https://www.99minds.io/loyalty" target="_blank">loyalty program software like 99minds</a>.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
  
    ## 6. Run promotions
 

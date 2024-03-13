@@ -4,11 +4,11 @@ author: Mrudul
 title: 9 ways to increase gift card sales using social media
 description: "Even though there are several ways to promote your gift cards, selling them through social media is incredibly effective. Engaging with customers on social media regularly is a great way to create loyal customers."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/11/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-8.png"
+  url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-8.png"
   alt: "The word community with a heart."
 tags: ["Gift Card","Shopify"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/11/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-8.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-8.png">
 Even though there are several ways to promote your gift cards, selling them through social media is incredibly effective. Engaging with customers on social media regularly is a great way to create loyal customers. Also, remember that people don’t necessarily need the holidays for the excuse of purchasing gift cards– Covid-19 has already shown us that. 
 
 In this article, we look at gift card marketing on social platforms and how to get the best out of it.
@@ -54,7 +54,7 @@ Social media is a great way to remind your customers about your brand. While you
 
 Create a community of your users or be so active on social media that any post or comment about your brand name gets a response. Ask follow-up questions if a customer has doubts or clarifications. When they have a positive experience with every interaction, guess who they will think of? People who feel like they are a part of your community are more likely to buy your gift cards for themselves and their loved ones.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 The social media trends in e-commerce will tell you that most of your sales come from warm customers. They are the ones who you’ve been sending emails, push-notifications, SMSes, and whatnot. The secret to be successful at social media holiday gift card promotions is to keep your customer base engaged with your brand. 
 

@@ -4,11 +4,11 @@ author: Mrudul
 title: Christmas Marketing Ideas to Boost your Sales This Year
 description: "It's starting to feel like Christmas... That means you should start planning your Christmas marketing initiatives now. Black Friday and Cyber Monday are the official start of the holiday season. Now, how are you going to engage your audience in the month building up to the December holidays? Christmas is without a doubt the most"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/11/christmas-promotion-ideas-for-eCommerce-store.jpg"
+  url: "/assets/blog/christmas-promotion-ideas-for-eCommerce-store.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/11/christmas-promotion-ideas-for-eCommerce-store.jpg">
+<img src="/assets/blog/christmas-promotion-ideas-for-eCommerce-store.jpg">
 
 
 It’s starting to feel like Christmas…

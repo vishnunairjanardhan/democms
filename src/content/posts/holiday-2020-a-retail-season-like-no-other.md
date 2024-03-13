@@ -1,15 +1,15 @@
 ---
 pubDate: 2020-12-09
 author: Mrudul
-title: Holiday 2020—A retail season like no other
+title: Holiday 2020 - A retail season like no other
 description: "The strength of consumer spending this year isn't clear. Thanks to the fear of a surge in Coronavirus infections, the uncertainty is enormous. Accenture's 14th Annual Holiday Shopping Survey has a few ideas on how the US holiday season of 2020 will shape up. Here's what Jill Standish, the Global Retail Lead at Accenture, has."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/12/Holiday-2020%E2%80%94A-retail-season-like-no-other-800x450.jpg"
+  url: "/assets/blog/Holiday-2020---A-retail-season-like-no-other-800x450.jpg"
   alt: "Holiday 2020 a retail season like no other."
 tags: ["Gift Card",]
 --- 
 <a href="https://www.99minds.io/blog/customer-engagement/holiday-2020-a-retail-season-like-no-other/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/12/Holiday-2020%E2%80%94A-retail-season-like-no-other.jpg"></a>
+<img src="/assets/blog/Holiday-2020---A-retail-season-like-no-other.jpg"></a>
 
 The strength of consumer spending this year isn’t clear. Thanks to the fear of a surge in Coronavirus infections, the uncertainty is enormous. Accenture’s 14th Annual Holiday Shopping Survey has a few ideas on how the US holiday season of 2020 will shape up.
 
@@ -57,7 +57,7 @@ Most customers might not be aware of the fact that it will take more days than u
 Most of your customers spend most of the day at their homes, and they are slowly reconnecting back to their communities. As a retailer, you should understand the local community’s equations, how it works, what matters to them, where are their favorite shopping destinations, and so on. Understanding their needs on a granular level will also put you in good stead. Use data and analytics to find out patterns and identify the hyper-localized demand to see through this time.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ## Use data wisely
 

@@ -4,11 +4,11 @@ author: Mrudul
 title:  Beginner’s Guide to E-Commerce Promotions
 description: "As the world advances towards new digital technologies, businesses are also finding new avenues to optimize their sales and promotional campaigns. E-commerce has become a powerful platform for retailers to reach their target audience and increase their revenue. If you are a business owner or a marketer looking to venture into e-commerce, then you must."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/04/Beginners-Guide-to-E-Commerce-Promotions-800x450.jpg"
+  url: "/assets/blog/Beginners-Guide-to-E-Commerce-Promotions-800x450.jpg"
   alt: "beginners guide to e-commerce promotions."
 tags: ["Gift Card",]
 --- 
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/04/Beginners-Guide-to-E-Commerce-Promotions.jpg">
+<img src="/assets/blog/Beginners-Guide-to-E-Commerce-Promotions.jpg">
 
 As the world advances towards new digital technologies, businesses are also finding new avenues to optimize their sales and <a href="https://www.99minds.io/blog/generic/fathers-day-retail-promotion-ideas/" target="_blank">promotional campaigns</a>. E-commerce has become a powerful platform for retailers to reach their target audience and increase their revenue. If you are a business owner or a marketer looking to venture into e-commerce, then you must know about e-commerce promotions. In this blog post, we will be discussing the beginner’s guide to e-commerce promotions and everything you need to know to get started.
 
@@ -17,7 +17,7 @@ As the world advances towards new digital technologies, businesses are also find
 Before starting any promotional campaign, you must define your promotion goals. It can be either to increase sales, drive traffic, or to reach a specific target audience. All your promotional strategies, messaging, and offers should be aligned to your promotion and business goals.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/04/CTA-mothers-day.jpg"></a>
+<img src="/assets/blog/CTA-mothers-day.jpg"></a>
 
 ## Offer discounts and coupons
 
@@ -41,7 +41,7 @@ Social media platforms like <a href="https://www.facebook.com/" target="_blank">
 Personalization is key to <a href="http://localhost:4322/posts/beginners-guide-to-e-commerce-promotions" target="_blank">successful promotional campaigns</a>. You can customize offers for frequent buyers, loyal customers, or shoppers who abandoned their carts. You can also use data analytics tools to analyze customer behavior and send personalized offers based on their preferences and taste.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ## Conclusion
 

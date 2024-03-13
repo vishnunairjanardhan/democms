@@ -4,11 +4,11 @@ author: Mrudul
 title:  99minds Schedule Delivery for a Gift Card on BigCommerce
 description: "All BigCommerce’s eCommerce merchants using 99minds’ Gift Card app, their customers can schedule delivery of an eGift card. Online shoppers seemed to see which merchants allow scheduled delivery because this feature is more than a convenience–it can be a lifesaver during one of the busiest times of the year. So put your eGift cards on."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/12/product_update-schedule-deliver.jpeg"
+  url: "/assets/blog/product_update-schedule-deliver.jpeg"
   alt: "99minds integration with vend is now live."
 tags: ["Gift Card",]
 --- 
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/12/product_update-schedule-deliver.jpeg">
+<img src="/assets/blog/product_update-schedule-deliver.jpeg">
 
 All <a href="https://www.bigcommerce.com/" target="_blank">BigCommerce’s</a> eCommerce merchants using <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">99minds’ Gift Card app</a>, their customers can schedule delivery of an eGift card. Online shoppers seemed to see which merchants allow scheduled delivery because this feature is more than a convenience–it can be a lifesaver during one of the busiest times of the year. So put your <a href="https://www.99minds.io/giftcard" target="_blank">eGift cards on autopilot with 99minds</a>.
 

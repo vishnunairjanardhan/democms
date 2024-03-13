@@ -4,12 +4,12 @@ author: Mrudul
 title: Using Your Social Media Accounts to Sell More Gift Cards
 description: What do you think people do most of the time using their smartphones? ... Do they play Games? Browse the Internet? Read News? Or Listen to Music? In reality, people spend the majority of their time on social media apps, it represents more than 50% of the time spent on mobile. Thus, Social Media is.
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/04/Using-Your-Social-Media-Accounts-to-Sell-More-Gift-Cards-800x450.jpg"
+  url: "/assets/blog/Using-Your-Social-Media-Accounts-to-Sell-More-Gift-Cards-800x450.jpg"
   alt: "Using your social accounts to sell more gift cards."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/using-your-social-media-accounts-to-sell-more-gift-cards/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/04/Using-Your-Social-Media-Accounts-to-Sell-More-Gift-Cards.jpg"></a>
+<img src="/assets/blog/Using-Your-Social-Media-Accounts-to-Sell-More-Gift-Cards.jpg"></a>
 
 What do you think people do most of the time using their smartphones? … Do they play Games? Browse the Internet? Read News? Or Listen to Music?
 

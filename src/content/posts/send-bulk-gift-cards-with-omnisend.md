@@ -4,12 +4,12 @@ author: Mrudul
 title: Send Bulk Gift Cards with Omnisend using 99minds 
 description: "\"I want to do business with a company that treats emailing me as a privilege, not a transaction\" - Andrea Mignolo. In a single phrase, the above quote encapsulates the essence of email marketing. E-commerce enterprises will need to use email marketing actively in 2022 to stay on top of the game and sustain consumer"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/05/Send-bulk-gift-cards-with-Omnisend-using-99minds2-800x450.jpg"
+  url: "/assets/blog/Send-bulk-gift-cards-with-Omnisend-using-99minds2-800x450.jpg"
   alt: "Send bulk gift cards with omisend using 99minds."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/send-bulk-gift-cards-with-omnisend-using-99minds/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/05/Send-bulk-gift-cards-with-Omnisend-using-99minds2.jpg"></a>
+<img src="/assets/blog/Send-bulk-gift-cards-with-Omnisend-using-99minds2.jpg"></a>
 
 <b>“I want to do business with a company that treats emailing me as a privilege, not a transaction.” – Andrea Mignolo.</b>
 

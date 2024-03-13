@@ -4,11 +4,11 @@ author: PRAVIN KAMBLE
 title: "Must-have features for your eCommerce website"
 description: "eCommerce adoption has been continually increasing over the past few years. It reached a crescendo with the global pandemic that affected us all since we were forced to buy online. If you have thought of starting an eCommerce store, you won’t find a better time to do it than now. For your eCommerce store to"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/01/Must-have-features-for-your-eCommerce-website.jpg"
+  url: "/assets/blog/Must-have-features-for-your-eCommerce-website.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/01/Must-have-features-for-your-eCommerce-website.jpg">
+<img src="/assets/blog/Must-have-features-for-your-eCommerce-website.jpg">
 
 eCommerce adoption has been continually increasing over the past few years. It reached a crescendo with the global pandemic that affected us all since we were forced to buy online. If you have thought of starting an eCommerce store, you won’t find a better time to do it than now.
 
@@ -25,7 +25,7 @@ The first thing that an eCommerce website should have is an “adjustable” sit
 
 There is nothing as annoying as not being able to find the product on the website, even though it is available. That’s a classic lose-lose situation for everybody involved. Your eCommerce site should be powered by an AI-based search engine that predicts user queries.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2023/01/CTA-Big-99minds.jpg"></a> 
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-Big-99minds.jpg"></a>
 
 <li><b>Sort and Filter option:</b></li>
 
@@ -50,7 +50,7 @@ Most of us have been part of <a href="https://www.99minds.io/blog/customer-engag
 
 Customers who are invested in your brand will find more reasons to stay with you. A <a href="https://www.99minds.io/">loyalty program</a> reduces customer churn since loyal customers continually keep getting breaks.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a> 
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 <li><b>Payment options:</b></li>
 

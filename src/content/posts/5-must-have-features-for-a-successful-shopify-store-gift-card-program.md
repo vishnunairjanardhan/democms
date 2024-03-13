@@ -4,11 +4,11 @@ author: Mrudul
 title: Successful gift card program on your Shopify Store
 description: "A successful gift card program can be a useful sales channel and more."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/08/5-must-have-features-for-a-successful-Shopify-store-gift-card-program-800x450.jpg"
+  url: "/assets/blog/5-must-have-features-for-a-successful-Shopify-store-gift-card-program-800x450.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card", "Shopify"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/08/5-must-have-features-for-a-successful-Shopify-store-gift-card-program.jpg">
+<img src="/assets/blog/5-must-have-features-for-a-successful-Shopify-store-gift-card-program.jpg">
 A successful gift card program can be a useful sales channel and more. When used rightly, it can do wonders for your <a href="https://www.shopify.com/">Shopify</a> store’s brand awareness. Starting a gift card program doesn’t require you to write lines of code, nor does it take up a lot of time. It is simple, affordable, and low-maintenance. There are several gift card software that can make it easy for businesses to set up their own gift card program, with the help of a few clicks, and nothing more.
 
 According to a study conducted by <a href="https://blackhawknetwork.com/sites/default/files/2021-01/BHN-ebook-Gift-Card-Facts.pdf">Murphy Research</a>, the percentage of consumers who use gift cards increases as generations get older, here are the numbers– Gen Z(78%), millennials (91%), Gen X (96%), boomers (97%). This is a telling statement about the acceptance of gift cards among the general populace.
@@ -29,7 +29,7 @@ In this article, we look at 5 must-have features for a successful gift card prog
 <li>69% of employees prefer getting gift cards from their employees as a reward for their work, according to a study by Blackhawk Network and Market Research</li>
 </ul>
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2020/04/CTA-Referral-image-1.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral-image-1.jpg"></a>
 
 #### 5 must-have features for a successful gift card program:
 
@@ -79,7 +79,7 @@ While gift cards by themselves are great for your brand, you would be doing your
 
 Track the performance of your gift card program so that you can use the present results as a benchmark to improve. It will help you improve your incumbent strategies and make data-driven decisions. You are advised to go through every single metric like a hawk. Look at the bigger picture, but do make it a point to have a clear idea about your gift card program’s granular-level performance. By using a gift card program like 99minds, you can easily and quickly export data to a business intelligence software like <a href="https://www.datapine.com/">Datapine</a> or <a href="https://www.qlik.com/us">QlikSense</a> to make sense of the data.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 <li>Flexible payment and redemption options:</li>
 

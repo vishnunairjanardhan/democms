@@ -4,12 +4,12 @@ author: Mrudul
 title: Types of Customer Loyalty Programs
 description: "“What is a customer loyalty program? A customer loyalty program uses incentives to make the customer keep coming back to you for more purchases. The objective is to build a strong relationship with the customer and reduce customer churn. With the right kind of customer loyalty program, you will be able to increase the retention."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/04/types-of-loyalty-programs-800x450.jpg"
+  url: "/assets/blog/types-of-loyalty-programs-800x450.jpg"
   alt: "8 ways to boost sales with goft cards this mothers day."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/types-of-customer-loyalty-programs/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/04/types-of-loyalty-programs.jpg"></a>
+<img src="/assets/blog/types-of-loyalty-programs.jpg"></a>
 
 
 <b>What is a customer loyalty program?</b>

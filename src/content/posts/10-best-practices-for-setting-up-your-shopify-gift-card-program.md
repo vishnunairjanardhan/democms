@@ -4,11 +4,11 @@ author: Mrudul
 title: "Top Best Practices for Higher Gift Card Program ROI on Shopify"
 description: "Let’s look at some of the top 10 best practices that you must follow to get the most out of your Shopify gift card program setup"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/11/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-2.png"
+  url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-2.png"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/11/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-2.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-2.png">
 
 If you run an eCommerce store, and you don’t have a Shopify gift card program setup, the pertinent question to ask is, “Why not?” You are losing revenue, goodwill, and an excellent marketing channel, without a gift card program.
 
@@ -24,7 +24,7 @@ We believe that this article will help you create gift card program success stor
 <li>They must be able to load the cards from anywhere</li>
 </ul>
 
-<a href="https://www.99minds.io/coupon-generator" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Coupon-code.jpg"></a>
+<a href="https://www.99minds.io/coupon-generator" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Coupon-code.jpg"></a>
 
 ### <strong>10 Gift Card Program Best Practices For Shopify:</strong>
 
@@ -67,7 +67,7 @@ Converting your unhappy customers into ones that will come back again to your we
 
 You can make unhappy customers shop with you again by managing returns and refunds through gift cards. All you need to do is offer extra credit on the refund or return to make sure they accept it in the form of gift cards. 
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo-800x155.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo-800x155.jpg"></a>
 
 <ul>
 <li>Establish Clear Gift Card Policies:</li>

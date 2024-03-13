@@ -4,11 +4,11 @@ author: Mrudul
 title: Top 14 Reasons Why Gift Cards Are a Pandemic-Proof Business Strategy 
 description: Most businesses collapsed under the sheer pressure of lockdowns and the lack of customers buying from you. Let’s see what gift cards did.
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2024/01/dkjfbkjads.png"
+  url: "/assets/blog/dkjfbkjads.png"
   alt: "Gift Card A Pandemic Proof Business Strategy."
 tags: ["Gift Card",]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2024/01/dkjfbkjads.png">
+<img src="/assets/blog/dkjfbkjads.png">
 
 ## Table of Content
 
@@ -57,7 +57,7 @@ Here's are some reasons why are Gift Cards Pandemic-Proof
 Gift cards have become increasingly popular as a result of the pandemic, as people look for convenient and frictionless methods to express their feelings. Personalized cards are a thoughtful and easy gift for every occasion, from holidays to birthdays, and they appeal to a population that is adjusting to a new normal.
 
 #### Adaptability and Flexibility
-<a href="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg" target="_blanck"><img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="/assets/blog/CTA-Bookademo.jpg" target="_blanck"><img class="w-full h-44" src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 Among gift cards' most important advantages is their versatility. Companies may customize their products so that clients have an option that works for a variety of situations. This allows for a wide range of preferences to be satisfied and guarantees that gift cards will always be relevant.
 

@@ -4,11 +4,11 @@ author: Mrudul
 title: "How to drive sales through promotional cards"
 description: "Suppose your sales numbers are stagnant and there are not many prospects in the pipeline. In that case, you are in an unenviable position. No matter how good your products are, they need to sell. Attracting new customers is a task that you should have your best minds occupied with. Retaining your existing customers is"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/01/How-to-drive-sales-through-promotional-cards2.jpg"
+  url: "/assets/blog/How-to-drive-sales-through-promotional-cards2.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/01/How-to-drive-sales-through-promotional-cards2.jpg">
+<img src="/assets/blog/How-to-drive-sales-through-promotional-cards2.jpg">
 
 Suppose your sales numbers are stagnant and there are not many prospects in the pipeline. In that case, you are in an unenviable position. No matter how good your products are, they need to sell. Attracting new customers is a task that you should have your best minds occupied with. Retaining your existing customers is another way for you to ensure that your sales pipeline never gets rusted.
 

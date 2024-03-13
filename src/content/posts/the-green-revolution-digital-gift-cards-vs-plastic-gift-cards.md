@@ -4,11 +4,11 @@ author: Mrudul
 title:  8 Major Differences Between Physical and Digital Gift Cards
 description: "In this article, we look at the major differences between physical and digital gift cards, including showcasing the more sustainable one."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/11/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-10.png"
+  url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-10.png"
   alt: "Digital Gift Crads vs. Plastic Gift Crads."
 tags: ["Gift Card",]
 --- 
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/11/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-10.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-10.png">
 
 Retailers love giving gift cards to their customers, and rightly so. From increasing the average order value to improving brand awareness, it does a lot. In this article, we look at e-gift cards vs. physical gift cards, their differences, benefits, and so on. Sustainable gifting choices have become one of the key ingredients in gifting, of late. Such eco-friendly gift card solutions push for the usage of organic materials and those that are ethically sourced. 
 

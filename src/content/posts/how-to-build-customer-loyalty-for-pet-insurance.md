@@ -4,11 +4,11 @@ author: Mrudul
 title: How To Build Customer Loyalty For Pet Insurance
 description: "In this blog you'll learn how to build customer loyalty for pet Insurance and how it can help you to maintain good relationships with your customers."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/03/Loyalty-for-pet-insurance2-1.jpg"
+  url: "/assets/blog/Loyalty-for-pet-insurance2-1.jpg"
   alt: "The word community with a heart."
 tags: ["Loyalty","Loyalty Program"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/03/Loyalty-for-pet-insurance2-1.jpg">
+<img src="/assets/blog/Loyalty-for-pet-insurance2-1.jpg">
 
 On social media, the most popular videos are of pets doing random things. In fact, research says that watching these videos is good for our health as it lifts our mood. Why? Because everyone loves animals and the comfort and joy of bringing up one is a great responsibility and a privilege. No wonder that there is a huge market for anything related to taking care of pets. <a href="https://www.researchandmarkets.com/reports/4431942/global-animal-healthcare-market-size-market">The global animal healthcare market is expected to reach $53,420 million by 2025.</a>
 
@@ -20,7 +20,7 @@ Did you know during the period 2019-2025, the global pet insurance market is exp
 
 One of the biggest complaints that most customers have against insurance companies is the claims process, which is not only physically taxing, but emotionally as well. When a customer comes knocking on your doors to claim their insurance, make sure that the entire gamut of process is easy, smooth, and effortless. Your customers will thank you for that, and it will be on the top of their minds next time when it comes to renewals. Why? Because most insurance companies are known to have a terrible claims process.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2022/04/CTA-IMAGES-easter.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGES-easter.jpg"></a>
 
 The average customer isn’t looking forward to filling out details that might even be totally irrelevant to the event. All they want is to see the money for their pet’s treatment deposited as soon as possible.
 
@@ -46,7 +46,7 @@ Another way for you to make sure your customers keep coming back to you is to de
 
 Publish exclusive information that talks about keeping their pets hale and hearty. The information provided should be in such a manner that they don’t have to turn elsewhere to get it. Make sure it is available only to your customers. Also, if possible, track the days where a customer’s dog needs to get checked for infections, and so on. Actions like these are a clear cut indicator of how much you care for the well being of your customer’s pets. This will surely reflect in your retention rate.
 
-<a href="https://calendly.com/99minds"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds"> <img class="w-full " src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ### <strong>Loyalty program:</strong>
 

@@ -4,11 +4,11 @@ author: Pravin Kamble
 title: AI helps to make Pizza more delicious
 description: "As a Pizza lover, you might not even remember why you ordered your Pizza on a particular day precisely. Neither did I, nor did my mom. But some of the…"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/03/1_oSROJZCosY5WD_qw_I-vXA-1920x1280.jpeg"
+  url: "/assets/blog/1_oSROJZCosY5WD_qw_I-vXA-1920x1280.jpeg"
   alt: "The word community with a heart."
 tags: ["Artificial Intelligence"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/03/1_oSROJZCosY5WD_qw_I-vXA-1920x1280.jpeg">
+<img src="/assets/blog/1_oSROJZCosY5WD_qw_I-vXA-1920x1280.jpeg">
 
 
 As a Pizza lover, you might not even remember why you ordered your Pizza on a particular day precisely. Neither did I, nor did my mom. But some of the criteria fit so well psychologically which you and I don’t even pay heed too.

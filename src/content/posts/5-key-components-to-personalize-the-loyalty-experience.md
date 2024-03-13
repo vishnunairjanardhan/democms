@@ -4,11 +4,11 @@ author: Mrudul
 title: 5 Key Components To Personalize The Loyalty Experience 
 description: "Loyalty is a strong word. There are emotions attached to it. It is earned. In business, the same logic goes. You need to earn the loyalty of your customers by giving them so much value that they trust you. How do you inspire loyalty? The assembly line manufacturing style that Henry Ford popularized is more"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/03/5-Key-Features4.jpg"
+  url: "/assets/blog/5-Key-Features4.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Engagement"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/03/5-Key-Features4.jpg">
+<img src="/assets/blog/5-Key-Features4.jpg">
 
 Loyalty is a strong word. There are emotions attached to it. It is earned. In business, the same logic goes. You need to earn the loyalty of your customers by giving them so much value that they trust you. How do you inspire loyalty? The assembly line manufacturing style that Henry Ford popularized is more of an aberration than the norm these days. Because customers want products that are unique to their likes and dislikes. With thousands of customers to cater to, only a <a href="https://www.99minds.io/?utm_source=Medium&utm_medium=Post&utm_campaign=OrganicPosting&utm_term=CP" target="_blanck">customer rewards program software</a> can make the entire process easy.
 

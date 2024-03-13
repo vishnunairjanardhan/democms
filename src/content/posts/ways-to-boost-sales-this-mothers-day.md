@@ -4,12 +4,12 @@ author: Mrudul
 title: Ways to Boost Sales this Mother’s Day
 description: There are nearly two billion mothers in the world, with 85 million in the United States. In just a few weeks, 84 percent of Americans will be giving gifts to their moms and would spend over $28 billion on Mother's Day gifts. Every year, we get the chance to honour our mothers, their motherhood, and.
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/04/Ways-to-Boost-Sales-this-Mothers-Day-800x450.jpg"
+  url: "/assets/blog/Ways-to-Boost-Sales-this-Mothers-Day-800x450.jpg"
   alt: "Ways to boost sales this mothers day."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/generic/ways-to-boost-sales-this-mothers-day/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/04/Ways-to-Boost-Sales-this-Mothers-Day.jpg"></a>
+<img src="/assets/blog/Ways-to-Boost-Sales-this-Mothers-Day.jpg"></a>
 
 There are nearly two billion mothers in the world, with 85 million in the United States. In just a few weeks, 84 percent of Americans will be giving gifts to their moms and would spend over $28 billion on Mother’s Day gifts.
 
