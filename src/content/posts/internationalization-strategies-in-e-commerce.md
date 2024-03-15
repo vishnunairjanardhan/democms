@@ -4,11 +4,11 @@ author: Mrudul
 title: "Internationalization Strategies in E-Commerce"
 description: "Internationalization has become a global buzzword in the world of e-commerce"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/02/Internationalization-Strategies-in-e-commerce.jpg"
+  url: "/assets/blog/Internationalization-Strategies-in-e-commerce.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/02/Internationalization-Strategies-in-e-commerce.jpg">
+<img src="/assets/blog/Internationalization-Strategies-in-e-commerce.jpg">
 
 Internationalization has become a global buzzword in the world of e-commerce. But what exactly does this mean? Business internationalization is the process of increasing your company’s footprint outside its home country by branching out overseas.
 

@@ -4,11 +4,11 @@ author: Mrudul
 title: What are the benefits of Loyalty Programs
 description: "Companies across the world realize that existing customers are super important too. Most businesses are bent on finding new customers that they ignore existing customers, unwittingly though. They need to realize that their existing customers are more likely to buy from them again if they are kept happy. If there is one way to ensure"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/02/benefits-of-loyalty-program1.jpg"
+  url: "/assets/blog/benefits-of-loyalty-program1.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/02/benefits-of-loyalty-program1.jpg">
+<img src="/assets/blog/benefits-of-loyalty-program1.jpg">
 
 Companies across the world realize that existing customers are super important too. Most businesses are bent on finding new customers that they ignore existing customers, unwittingly though. They need to realize that their existing customers are more likely to buy from them again if they are kept happy. If there is one way to ensure that you never lose focus on your present customers, create <a href="https://www.99minds.io/loyalty">a customer loyalty program</a> that rewards your customers who have trusted you already.
 

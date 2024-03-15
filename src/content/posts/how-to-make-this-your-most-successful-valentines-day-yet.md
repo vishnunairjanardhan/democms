@@ -4,11 +4,11 @@ author: Mrudul
 title: How to Make This Your Most Successful Valentine’s Day Yet
 description: "Spending on Valentine’s day is expected to be $21.8 billion in 2021, according to the National Retail Foundation (NRF). NRF has been conducting its annual Valentine’s Day consumer spending study since 2004 to see how Americans celebrate the day. According to this report, more than half of US adults were planning to celebrate the occasion"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/02/How-to-Make-This-your-most-successful-valentine-day-yet-1.jpg"
+  url: "/assets/blog/How-to-Make-This-your-most-successful-valentine-day-yet-1.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/02/How-to-Make-This-your-most-successful-valentine-day-yet-1.jpg">
+<img src="/assets/blog/How-to-Make-This-your-most-successful-valentine-day-yet-1.jpg">
 
 Spending on Valentine’s day is <a href="https://nrf.com/insights/holiday-and-seasonal-trends/valentines-day" target="_blanck">expected to be $21.8 billion in 2021</a>, according to the National Retail Foundation (NRF). NRF has been conducting its annual Valentine’s Day consumer spending study since 2004 to see how Americans celebrate the day.
 

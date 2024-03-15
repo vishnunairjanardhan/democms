@@ -4,12 +4,12 @@ author: Mrudul
 title: Portrait Of The Average Gift Card Shopper
 description: "During the peak of the holiday season, shoppers step out to buy clothes, gifts, and online websites for themselves or presents for their families. Gift cards are one of the most preferred options if they are giving it to their friends because of the convenience it offers. Gift cards have a win-win written all over."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/11/Portrait-of-the-average-gift-card-shopper1-800x450.jpg"
+  url: "/assets/blog/Portrait-of-the-average-gift-card-shopper1-800x450.jpg"
   alt: "Portrait of the average gift card shopper."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/portrait-of-the-average-gift-card-shopper/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/11/Portrait-of-the-average-gift-card-shopper1.jpg"></a>
+<img src="/assets/blog/Portrait-of-the-average-gift-card-shopper1.jpg"></a>
 
 During the peak of the holiday season, shoppers step out to buy clothes, gifts, and online websites for themselves or presents for their families. Gift cards are one of the most preferred options if they are giving it to their friends because of the convenience it offers.
 

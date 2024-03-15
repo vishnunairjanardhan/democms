@@ -8,8 +8,7 @@ export const TABLE_HEAD = [
   "Enterprise",
 ];
 export const TABLE_BOTTOM = [
-''
-,
+'',
   {
     Url: "/Get-Started",
     Label: "Get Started",
@@ -41,11 +40,11 @@ export const CHECK_ICON = ["Y", "N"];
 export const PRICE_LIST_AMOUNT = [
   {
     Column1: "Monthly Price ($)",
-    Lite: "$19",
-    Basic: "$49",
-    Pro: "$99",
-    Ultra: "$199",
-    Premium: "$499",
+    Lite: "19",
+    Basic: "49",
+    Pro: "99",
+    Ultra: "199",
+    Premium: "499",
     Enterprise: "Custom",
   },
 ];
@@ -144,10 +143,10 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Column1: "Stores (Including physical stores)",
     Lite: "N",
     Basic: "N",
-    Pro: "3",
-    Ultra: "5",
-    Premium: "10",
-    Enterprise: "10",
+    Pro: "3 stores",
+    Ultra: "5 stores",
+    Premium: "10 stores",
+    Enterprise: "10 stores",
   },
   {
     Column1: "Retail Pro 9, Runit, Heartland Retail, Clover POS Integration",

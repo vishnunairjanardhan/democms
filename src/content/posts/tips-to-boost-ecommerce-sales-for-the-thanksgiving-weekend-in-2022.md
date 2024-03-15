@@ -4,11 +4,11 @@ author: Mrudul
 title: Tips To Boost eCommerce Sales for The Thanks giving Weekend in 2022
 description: "The Thanksgiving weekend is one of the most significant shopping periods of the entire year. How do you capitalize on this? You need a proactive strategy to get the most out of this sales opportunity. Here are some of the best tips to boost your eCommerce sales for the Thanksgiving weekend in 2022. Plan early"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/09/Tips-To-Boost-eCommerce-Sales-for-The-Thanksgiving-Weekend1.jpg"
+  url: "/assets/blog/Tips-To-Boost-eCommerce-Sales-for-The-Thanksgiving-Weekend1.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce","Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/09/Tips-To-Boost-eCommerce-Sales-for-The-Thanksgiving-Weekend1.jpg">
+<img src="/assets/blog/Tips-To-Boost-eCommerce-Sales-for-The-Thanksgiving-Weekend1.jpg">
 
 The Thanksgiving weekend is one of the most significant shopping periods of the entire year. How do you capitalize on this? You need a proactive strategy to get the most out of this sales opportunity.
 
@@ -28,7 +28,7 @@ Thanksgiving is a stressful time for your customers. Giving them a website with 
 
 Getting new customers is great for your eCommerce brand. But you know what is even more fantastic? Making your existing customers a big part of your store’s digital marketing strategy is pivotal. It is the easiest way to increase your sales, and <a href="https://www.99minds.io/blog/customer-retention/how-to-turn-your-hard-earned-sales-into-repeat-customers/">existing customers who like your offering</a> are easy to upsell and cross-sell. They will be the ones who will lap up your promotions and discounts.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2023/01/CTA-Big-99minds.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Big-99minds.jpg"></a>
 
 <ul>
 <li>Set up a referral program:</li>
@@ -84,7 +84,7 @@ One-click buying helps customers purchase with a single click as it uses the cus
 
 More than <a href="https://baymard.com/lists/cart-abandonment-rate">69.99% of shopping carts are abandoned</a>. Yes, you read that right. Retailers employ email marketing to persuade customers who abandoned their shopping carts. They are highly persuasive in convincing their customers to complete their shopping. Set up email sequences that are targeted to shoppers who abandoned their shopping carts on your website.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 <ul>
 <li>Create Fear-Of-Missing-Out (FOMO):</li>

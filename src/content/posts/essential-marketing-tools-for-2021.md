@@ -4,11 +4,11 @@ author: Mrudul
 title: "Essential Marketing Tools for 2021"
 description: "There are a gazillion marketing tools available in the market. Choosing the ones you need will make you drown in an overload of information if you do not know where to look for them. With this article, we are trying to make it easy for you. We want to help you with some of the"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/07/Essentail-Marketing-Tools.jpg"
+  url: "/assets/blog/Essentail-Marketing-Tools.jpg"
   alt: "The word community with a heart."
 tags: ["Marketing"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/07/Essentail-Marketing-Tools.jpg">
+<img src="/assets/blog/Essentail-Marketing-Tools.jpg">
 
 ## There are a gazillion marketing tools available in the market.
 

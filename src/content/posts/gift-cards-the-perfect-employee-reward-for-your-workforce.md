@@ -4,11 +4,11 @@ author: Mrudul
 title: "Gift Cards: The Perfect Reward For Your Workforce"
 description: "One of the best ways to keep your employees satisfied and feel appreciated is by rewarding them with incentives. Every one of us wants to feel valued and acknowledged for the work that we do. It creates a sense of loyalty towards the organization. Businesses that do not have a rewards system might end up"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/01/Gift-Cards-The-Perfect-Employee-Reward-For-Your-Workforce1.jpg"
+  url: "/assets/blog/Gift-Cards-The-Perfect-Employee-Reward-For-Your-Workforce1.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/01/Gift-Cards-The-Perfect-Employee-Reward-For-Your-Workforce1.jpg">
+<img src="/assets/blog/Gift-Cards-The-Perfect-Employee-Reward-For-Your-Workforce1.jpg">
 
 One of the best ways to keep your employees satisfied and feel appreciated is by rewarding them with incentives. Every one of us wants to feel valued and acknowledged for the work that we do. It creates a sense of loyalty towards the organization. Businesses that do not have a rewards system might end up having huge turnover rates. While the employee doesn’t expect a trip to the Caribbean islands every time, even a small token of appreciation will go a long way in improving their morale.
 

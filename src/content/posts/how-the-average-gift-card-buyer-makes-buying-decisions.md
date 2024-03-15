@@ -4,19 +4,19 @@ author: Mrudul
 title: How The Average Gift Card Buyer Makes Buying Decisions
 description: "If you are into retail, now is the time for you to up your gift card game. Businesses need to change their mindset when it comes to gift cards, it is usually considered as a part of a marketing exercise. Gift cards can be much more than that, it should be part of your customer."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/10/how-the-average-gift-card-buyer-makes-buying-decisions1-1-800x450.jpg"
+  url: "/assets/blog/how-the-average-gift-card-buyer-makes-buying-decisions1-1-800x450.jpg"
   alt: "how the average gift card buyer makes buying decisions."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/how-the-average-gift-card-buyer-makes-buying-decisions//" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/10/how-the-average-gift-card-buyer-makes-buying-decisions1-1.jpg"></a>
+<img src="/assets/blog/how-the-average-gift-card-buyer-makes-buying-decisions1-1.jpg"></a>
 
 If you are into retail, now is the time for you to up your gift card game. Businesses need to change their mindset when it comes to gift cards, it is usually considered as a part of a marketing exercise. <a href="https://www.99minds.io/giftcard" target="_blank">Gift cardsv</a> can be much more than that, it should be part of your customer service function too.
 
 With Covid happening, there will be a lot of changes in the shopping habits of consumers. The number of people lining up in front of stores to buy from their favorite brands might not happen anytime soon. People are happy shopping online and <a href="https://www.99minds.io/blog/ecommerce/why-are-digital-gift-cards-essential-to-your-e-commerce-business/" target="_blank">digital gifting is inevitably the best option for businesses to spread cheer</a>, at least a bit.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/04/CTA-IMAGES-easter.jpg"></a>
+<img src="/assets/blog/CTA-IMAGES-easter.jpg"></a>
 
 Let us understand the gift card buying behaviour of customers from <a href="https://rebrandly.com/404" target="_blank">Incomm’s Consumer Pulse Gift Cards report</a>:
 
@@ -29,7 +29,7 @@ A marketer needs to understand that most of the gift cards that are bought for f
 If it is a closed loop purchase, then more than 81% of it was pre-planned. These shoppers purchased 3.4 cards per quarter based on reports from the Incomm study. For the uninitiated, closed loop gift card would be a single purpose card using which you can only buy from a single company.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 Open loop gift card buyers plan more than 90% of their purchases well in advance and are also known to buy more than 4.8 cards on an average. An open loop card can be used anywhere where that brand of card is accepted.
 

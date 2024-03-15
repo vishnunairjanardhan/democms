@@ -4,15 +4,15 @@ author: Mrudul
 title: ML Techniques to Improve Customer Engagement
 description: "Struggling to improve your customer engagement? May be ML can help you here. In this blog we have tried to highlight how ML can help you to improve customer engagement"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2020/04/what-the-heck.jpg"
+  url: "/assets/blog/what-the-heck.jpg"
   alt: "The word community with a heart."
 tags: ["Machine Learning"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/04/what-the-heck.jpg">
+<img src="/assets/blog/what-the-heck.jpg">
 
 Companies since ages have been trying to engage customers with their new marketing strategies. Here is one of the reasons they are failing.
 
-<img src="https://www.99minds.io/blog/wp-content/uploads/2020/04/1_a0TwJfjkVQAXkxk-HW3GRg-1.png">
+<img src="/assets/blog/1_a0TwJfjkVQAXkxk-HW3GRg-1.png">
 
 ### <strong>Lack of Segmentation & Personalization</strong>
 
@@ -36,7 +36,7 @@ Machine Learning Techniques are here to make a difference in ways where the cust
 
 Their online footprints need a lot of hand-garnering and nit-picking to deliver what they want. This evolution has promised a lot of ‘to the point’ results and tired of endless scrolling that is what companies should do.
 
-<a href="https://www.99minds.io/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2020/04/CTA-Referral-image-1-800x155.jpg"></a>
+<a href="https://www.99minds.io/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral-image-1-800x155.jpg"></a>
 
 <b>CATER TO THE EXACT NEEDS.</b>
 
@@ -74,7 +74,7 @@ Now, if Facebook is a leading channel that handles almost all customer needs, th
 
 With tools like <a href="https://manychat.com/">Manychat</a> and <a href="https://cloud.google.com/dialogflow/docs">DialogFlow</a>, it has increasingly become more comfortable to build an integrated chatbot. Create your flows using
 
-<a href="https://www.99minds.io/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2020/04/CTA-IMAGE-03-800x155.jpg"></a>
+<a href="https://www.99minds.io/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGE-03-800x155.jpg"></a>
 
 <ul>
 <li><b>Personalization</b></li>

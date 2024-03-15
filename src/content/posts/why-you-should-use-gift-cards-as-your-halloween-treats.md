@@ -4,12 +4,12 @@ author: Mrudul
 title: Why You Should Use Gift Cards As Your Halloween Treats 
 description: "Halloween is only a few weeks away. The Holiday period is a joyful and exciting time for many people to dress up, pretend to be someone else, and gather mountains of candy. It's an opportunity for business owners and marketers to re-engage with customers and develop a marketing strategy that produces excitement and sales. The."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/10/Why-You-Should-Use-Gift-Cards-As-Your-Halloween-Treats2-800x450.jpg"
+  url: "/assets/blog/Why-You-Should-Use-Gift-Cards-As-Your-Halloween-Treats2-800x450.jpg"
   alt: "5 wicked halloween marketing ideas to boost your online sales."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/why-you-should-use-gift-cards-as-your-halloween-treats/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/10/Why-You-Should-Use-Gift-Cards-As-Your-Halloween-Treats2.jpg"></a>
+<img src="/assets/blog/Why-You-Should-Use-Gift-Cards-As-Your-Halloween-Treats2.jpg"></a>
 
 Halloween is only a few weeks away. The Holiday period is a joyful and exciting time for many people to dress up, pretend to be someone else, and gather mountains of candy. It’s an opportunity for business owners and marketers to re-engage with customers and develop a marketing strategy that produces excitement and sales.
 

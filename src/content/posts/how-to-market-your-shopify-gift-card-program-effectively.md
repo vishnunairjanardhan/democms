@@ -4,11 +4,11 @@ author: Mrudul
 title:  9 Effective Shopify Gift Card Marketing Tactics for Your Store
 description: "If you run a Shopify eCommerce store, and are looking for effective marketing strategies, check out the 9 tips we have shared here."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/12/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-12.png"
+  url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-12.png"
   alt: "Shopify Gift Card Program."
 tags: ["Gift Card",]
 --- 
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/12/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-12.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-12.png">
 
 Businesses that are looking for Shopify gift card marketing strategies must get their basics right. From getting their website ready to their marketing stack in order, a lot of things must fall in place to have the perfect ROI out of their gift card campaign. Marketing tactics for gift cards are available aplenty, but you must choose one that makes sense for your business. 
 
@@ -28,7 +28,7 @@ If you don’t have clear goals, you will not be able to get the best out of the
 
 The right way to make sure that everyone who lands on your Shopify store gets to know about your gift card is to leave no stone unturned when it comes to its promotion. Send information about it in your email, use it as a banner ad, add it to the checkout page, include it in the FAQs section, make it pop up on your website, and so on. In digital gift card promotions, the more they hear and read about it, the likelier they will buy it. 
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 ## Promote Gift Cards With Video Content
 

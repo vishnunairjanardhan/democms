@@ -22,7 +22,12 @@ declare module 'astro:content' {
 	export { z } from 'astro/zod';
 
 	type Flatten<T> = T extends { [K: string]: infer U } ? U : never;
-	export type CollectionEntry<C extends keyof AnyEntryMap> = Flatten<AnyEntryMap[C]>;
+
+	export type CollectionKey = keyof AnyEntryMap;
+	export type CollectionEntry<C extends CollectionKey> = Flatten<AnyEntryMap[C]>;
+
+	export type ContentCollectionKey = keyof ContentEntryMap;
+	export type DataCollectionKey = keyof DataEntryMap;
 
 	// This needs to be in sync with ImageMetadata
 	export type ImageFunction = () => import('astro/zod').ZodObject<{
@@ -38,6 +43,7 @@ declare module 'astro:content' {
 				import('astro/zod').ZodLiteral<'webp'>,
 				import('astro/zod').ZodLiteral<'gif'>,
 				import('astro/zod').ZodLiteral<'svg'>,
+				import('astro/zod').ZodLiteral<'avif'>,
 			]
 		>;
 	}>;
@@ -1319,57 +1325,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-};
-"posts-old": {
-"1.md": {
-	id: "1.md";
-  slug: "1";
-  body: string;
-  collection: "posts-old";
-  data: any
-} & { render(): Render[".md"] };
-"2.md": {
-	id: "2.md";
-  slug: "2";
-  body: string;
-  collection: "posts-old";
-  data: any
-} & { render(): Render[".md"] };
-"3.md": {
-	id: "3.md";
-  slug: "3";
-  body: string;
-  collection: "posts-old";
-  data: any
-} & { render(): Render[".md"] };
-"4.md": {
-	id: "4.md";
-  slug: "4";
-  body: string;
-  collection: "posts-old";
-  data: any
-} & { render(): Render[".md"] };
-"5.md": {
-	id: "5.md";
-  slug: "5";
-  body: string;
-  collection: "posts-old";
-  data: any
-} & { render(): Render[".md"] };
-"6.md": {
-	id: "6.md";
-  slug: "6";
-  body: string;
-  collection: "posts-old";
-  data: any
-} & { render(): Render[".md"] };
-"7.md": {
-	id: "7.md";
-  slug: "7";
-  body: string;
-  collection: "posts-old";
-  data: any
 } & { render(): Render[".md"] };
 };
 

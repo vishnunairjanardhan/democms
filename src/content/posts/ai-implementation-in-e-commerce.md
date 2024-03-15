@@ -4,11 +4,11 @@ author: Mrudul
 title: AI implementation in e-commerce
 description: "In this article, we look at how integrating gift cards with your Shopify store can put your sales machinery on overdrive."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/03/AI-implementation-in-e-commerce.png"
+  url: "/assets/blog/AI-implementation-in-e-commerce.png"
   alt: "The word community with a heart."
 tags: ["Artificial Intelligence","Machine Learning"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/03/AI-implementation-in-e-commerce.png">
+<img src="/assets/blog/AI-implementation-in-e-commerce.png">
 Artificial intelligence(AI) is one of the most revolutionary technologies that has changed the way we live our lives. It has changed the landscape of how we shop online too. There is aggressive competition amongst eCommerce players to integrate AI technology into their stores, and there are a gazillion reasons for doing so.
 
 In this article, we look at 10 reasons why implementing AI in your eCommerce store is a must.
@@ -40,7 +40,7 @@ Retargeting is usually a strategy that is used to lure your existing/old custome
 
 AI identifies the behavioral pattern of customers based on their search and purchase history. It knows the items that your customers always purchase from you. AI can even give you data about the highest selling product in the month of January or which category gave you the highest returns. All these unitary pieces of data can be used to attract customers back to your store.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2020/04/CTA-Referral-image-1.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral-image-1.jpg"></a>
 
 Remarketing campaigns are usually sent in the form of push notifications. They are brief messages and don’t tend to annoy customers. For example, if a customer left the shopping cart, you can send them a reminder to complete the purchase by sweetening the deal wth a 10% discount.
 
@@ -70,7 +70,7 @@ AI-powered predictive analytics can forecast transit times, demand levels, and e
 
 In eCommerce personalization, one of the most effective strategies should be the proverbial search result. If an eCommerce store doesn’t show the right products when a customer searches for something, you can bid them goodbye. They will not waste time in wading through your site. The onus is on the store to provide the right search results. This is where AI comes like a fresh breath of air. AI understands natural language, thereby interprets human semantics to generate relevant results.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 #### Image recognition:
 

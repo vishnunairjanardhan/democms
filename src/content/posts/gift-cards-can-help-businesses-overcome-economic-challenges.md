@@ -4,11 +4,11 @@ author: PRAVIN KAMBLE
 title: "Gift Cards Can Help Businesses Overcome Economic Challenges"
 description: "Challenges aren’t new for businesses. An economic downturn is a disaster in the making as it stifles people from doing what they want to do. We’ve recently navigated the vicissitudes of a pandemic that no healthcare organization in the world was prepared for. A recession seems minuscule after Covid, but we should be prepared to"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/03/Gift-Cards-Can-Help-Businesses-Overcome-Economic-Challenges1.png"
+  url: "/assets/blog/Gift-Cards-Can-Help-Businesses-Overcome-Economic-Challenges1.png"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/03/Gift-Cards-Can-Help-Businesses-Overcome-Economic-Challenges1.png">
+<img src="/assets/blog/Gift-Cards-Can-Help-Businesses-Overcome-Economic-Challenges1.png">
 
 Challenges aren’t new for businesses. An economic downturn is a disaster in the making as it stifles people from doing what they want to do. We’ve recently navigated the vicissitudes of a pandemic that no healthcare organization in the world was prepared for. A recession seems minuscule after Covid, but we should be prepared to handle what is thrown our way.
 
@@ -25,7 +25,7 @@ It gives an opportunity for your loyal customers to support your business during
 
 The wallet-sized cards share tidbits about your organization, including your logo, tagline, and every detail you want to mention. They don’t cost a bomb, either. Even virtual gift cards are helpful in promoting your brand with online customers.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2023/02/CTA-IMAGES-shopify.jpg"></a> 
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGES-shopify.jpg"></a>
 
 <li><b>They generate useful data:</b></li>
 
@@ -51,7 +51,7 @@ Gift cards are a panacea for several businesses during the holiday season. It is
 </ol>
 </ul>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a> 
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 <b>Six steps to market your gift cards during an economic downturn:</b>
 <ul>

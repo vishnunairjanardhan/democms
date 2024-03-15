@@ -4,12 +4,12 @@ author: Mrudul
 title: 5 Reasons Why Your Business Should Offer Gift Cards for Mother’s Day
 description: "There's no surer way to show someone you love and appreciate them than with a gift. The same goes for Mother's Day: a present that celebrates the special women in your life is a sweet and meaningful gesture. But what if the special lady in question already has everything she needs? Enter: gift cards. Offering."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/05/5-Reasons-Why-Your-Business-Should-Offer-Gift-Cards-for-Mothers-Day1-800x450.jpg"
+  url: "/assets/blog/5-Reasons-Why-Your-Business-Should-Offer-Gift-Cards-for-Mothers-Day1-800x450.jpg"
   alt: "5 Reasons why your bsiness should offer gift cards for mothers day."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/5-reasons-why-your-business-should-offer-gift-cards-for-mothers-day/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/05/5-Reasons-Why-Your-Business-Should-Offer-Gift-Cards-for-Mothers-Day1.jpg"></a>
+<img src="/assets/blog/5-Reasons-Why-Your-Business-Should-Offer-Gift-Cards-for-Mothers-Day1.jpg"></a>
 
 There’s no surer way to show someone you love and appreciate them than with a gift.
 
@@ -25,7 +25,7 @@ Gift cards are highly sought after for Mother’s Day as over 44% of consumers b
 By offering your customers the chance to give unique gifts on this special day, you can open up a wealth of opportunities for increased sales and revenue in fact, more than 50% of customers are reported to spend more than the face value when they purchase a gift card! So make sure to consider offering gift cards this upcoming Mother’s Day it could be your best decision yet!
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/04/CTA-mothers-day.jpg"></a>
+<img src="/assets/blog/CTA-mothers-day.jpg"></a>
 
 ## Gift Cards Provide Convenience for Customers Shopping for Mom
 
@@ -50,7 +50,7 @@ With bulk purchases from companies, you can also drive huge sales for retailers 
 At the end of the day, its all about offering real value – in whatever form your customer prefers – so that they return again and again!
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ## Gift Cards Are a Thoughtful and Memorable Gift for Mom
 

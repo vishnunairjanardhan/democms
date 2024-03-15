@@ -4,12 +4,12 @@ author: Mrudul
 title: 10 Best Merchant Services for 2022
 description: Getting the right merchant service provider can be the difference between offering convenient options for customers and missing out on sales. Covid-19 has increased the reliance on contactless payment options, and by late 2020, 50% of Americans started using contactless payment methods. Let us look at the 10 best merchant services for 2022, Block It.
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/04/10-Best-Merchant-Services-for-2022-1-800x450.jpg"
+  url: "/assets/blog/10-Best-Merchant-Services-for-2022-1-800x450.jpg"
   alt: "10 Best merchant services for 2022."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/generic/10-best-merchant-services-for-2022/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/04/10-Best-Merchant-Services-for-2022-1.jpg"></a>
+<img src="/assets/blog/10-Best-Merchant-Services-for-2022-1.jpg"></a>
 
 Getting the right merchant service provider can be the difference between offering convenient options for customers and missing out on sales. Covid-19 has increased the reliance on contactless payment options, and by late 2020, 50% of Americans started using contactless payment methods.
 

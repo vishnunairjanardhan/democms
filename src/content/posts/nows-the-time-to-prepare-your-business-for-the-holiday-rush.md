@@ -4,11 +4,11 @@ author: Mrudul
 title: "Now’s the time to prepare your business for the holiday rush"
 description: "The secret of getting ahead is getting started.” – Mark Twain Every year, it is said that the holiday season begins sooner. This time, it's especially true. Customers are already browsing for gifts online to place their orders faster and avoid delivery delays. The greater your preparation, the quicker you can get started. We've put"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/08/Nows-the-time-to-prepare-your-business-for-the-holiday-rush.jpg"
+  url: "/assets/blog/Nows-the-time-to-prepare-your-business-for-the-holiday-rush.jpg"
   alt: "The word community with a heart."
 tags: ["Marketing"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/08/Nows-the-time-to-prepare-your-business-for-the-holiday-rush.jpg">
+<img src="/assets/blog/Nows-the-time-to-prepare-your-business-for-the-holiday-rush.jpg">
 
 “The secret of getting ahead is getting started.” – Mark Twain
 

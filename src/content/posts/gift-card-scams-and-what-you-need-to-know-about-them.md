@@ -4,12 +4,12 @@ author: Mrudul
 title: Gift card scams and what you need to know about them
 description: "The holiday season is a great time to be a scammer. Unfortunately, a lot of honest consumers are swindled by scammers who rob them of their personal information and money. We would go so far as to say that everything you buy during the holiday season, right from electronics to gift cards, make sure you."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/04/Gift-card-scams-and-what-you-need-to-know-about-them-800x450.jpg"
+  url: "/assets/blog/Gift-card-scams-and-what-you-need-to-know-about-them-800x450.jpg"
   alt: "Gift card scams and what  you need to know about them."
 tags: ["Gift Card",]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/gift-card-scams-and-what-you-need-to-know-about-them//" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/04/Gift-card-scams-and-what-you-need-to-know-about-them.jpg"></a>
+<img src="/assets/blog/Gift-card-scams-and-what-you-need-to-know-about-them.jpg"></a>
 
 # The holiday season is a great time to be a scammer
 
@@ -20,7 +20,7 @@ No one wants to be scammed, especially during the <a href="https://www.99minds.i
 An AARP survey said that <a href="https://www.aarp.org/money/scams-fraud/info-2019/gift-card.html" target="_blank">20% of the people</a> who surveyed found that it had zero value in it. That’s a huge number and no one wants to be a part of this 20%. In this article, we will discuss how exactly you can identify <a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-crucial-for-growing-retail-businesses/" target="_blank">gift card </a>scammers.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/04/CTA-mothers-day.jpg"></a>
+<img src="/assets/blog/CTA-mothers-day.jpg"></a>
 
 Despite the many security measures in place, gift cards are still a source of scams. Here are the common types of gift card scams that you should be aware of:
 
@@ -63,7 +63,7 @@ They will then use the customer support system and enter the copied gift card nu
 Sometimes, the cashier at the store might be the culprit. Let’s say you purchase a card from a department store. The cashier might activate the card, but replace it with a different card. The cashier can then use the activated card to make purchases while the customer will be left fuming because the one they purchased doesn’t work. The only way to escape from this scam is to be careful when the cashier is handing over the card to you.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ## Scam 7: Calls from a charity or a clergy
 

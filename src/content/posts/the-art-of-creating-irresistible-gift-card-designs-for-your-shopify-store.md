@@ -4,11 +4,11 @@ author: Pravin Kamble
 title: The Art of Creating Irresistible Gift Card Designs for Your Shopify Store
 description: "A gift card can be one more sales channel for you and also act as a souvenir of sorts. It can do more than two things at a time."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/09/The-Art-of-Creating-Irresistible-Gift-Card-Designs-for-Your-Shopify-Store.jpg"
+  url: "/assets/blog/The-Art-of-Creating-Irresistible-Gift-Card-Designs-for-Your-Shopify-Store.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/09/The-Art-of-Creating-Irresistible-Gift-Card-Designs-for-Your-Shopify-Store.jpg">
+<img src="/assets/blog/The-Art-of-Creating-Irresistible-Gift-Card-Designs-for-Your-Shopify-Store.jpg">
 
 
 A gift card can be one more sales channel for you and also act as a souvenir of sorts. It can do more than two things at a time. It is one of the most underused <a href="https://www.99minds.io/blog/ecommerce/ecommerce-referral-marketing-strategies/">marketing channels</a>. To get the most out of gift cards, you must primarily begin with creating attractive gift card designs.
@@ -29,7 +29,7 @@ Your gift cards can act as a statement of the value that your brand brings to th
 
 Attractive gift card designs can make the right impression on your customers. Use the opportunity to stand out as a brand. Let’s look at some of the strategies that you can use to create charming gift card designs.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Coupon-code.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Coupon-code.jpg"></a>
 
 <ul>
 <li><h3>Match Brand Identity Elements:<h3></li>
@@ -72,7 +72,7 @@ The gift card recipient should be able to go straight to the shopping page with 
     <li>Another great time to send gift card emails is when a milestone is achieved or during an anniversary for the business</li>
 </ul>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 <li><h3>Create Shareable Experiences:</h3></li>
 

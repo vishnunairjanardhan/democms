@@ -4,12 +4,12 @@ author: Mrudul
 title: Gift Cards, The Gift that keeps Giving  
 description: "What is The Gift that keeps on Giving? The Gift that keeps on Giving is intended to evoke the emotions that people experience when they receive a gift. It indicates that any gift that allows flexibility of choice, such as Gift Cards, is preferable to a monetary incentive that simply provides that constrained feeling. That"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/09/Gift-Cards-The-gift-that-keeps-giving3-800x450.jpg"
+  url: "/assets/blog/Gift-Cards-The-gift-that-keeps-giving3-800x450.jpg"
   alt: "Gift cards the gift that keeps giving."
 tags: ["Gift Card"]
 --- 
 <a href="https://www.99minds.io/blog/gift-card/gift-cards-the-gift-that-keeps-giving/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/09/Gift-Cards-The-gift-that-keeps-giving3.jpg"></a>
+<img src="/assets/blog/Gift-Cards-The-gift-that-keeps-giving3.jpg"></a>
 
 <b>What is The Gift that keeps on Giving?</b>
 

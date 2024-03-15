@@ -4,11 +4,11 @@ author: Mrudul Tarwatkar
 title: Gift card marketing strategies to drive sales and increase brand awareness
 description: "As a retailer, if you are not investing in a gift card strategy, you are doing a grave injustice to your store."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/09/Gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.jpg"
+  url: "/assets/blog/Gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/09/Gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.jpg">
+<img src="/assets/blog/Gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.jpg">
 
 
 As a <a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-crucial-for-growing-retail-businesses/">retailer</a>, if you are not investing in a gift card strategy, you are doing a grave injustice to your store. People love gift cards since they are an almost fail-safe gifting option. They can quickly guarantee a new set of customers, higher order values, reduced returns, and so on. It has win-win written all over it.
@@ -44,7 +44,7 @@ In this article, we look at why you must invest in gift cards, including various
 
 They could also be a part of your loyalty program. For example, a gift card can be the first incentive that a customer gets as soon as they join your loyalty program. Here, you are able to provide immediate value to your loyalty program members while letting them get a taste of your gift cards.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Coupon-code.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Coupon-code.jpg"></a>
 
 <li><h3>Create gift card landing pages:</h3></li>
 
@@ -75,7 +75,7 @@ While outreach campaigns with big spends on <a href="https://www.facebook.com/">
     <li>Regularly indulge in A/B testing to refine the campaign’s effectiveness</li>
 </ul>    
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 <li><h3>Invest in micro-influencers:</h3></li>
 

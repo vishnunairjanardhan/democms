@@ -3,6 +3,8 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
+import partytown from "@astrojs/partytown";
+
 export default defineConfig({
    markdown: {
     drafts: true,
@@ -13,6 +15,11 @@ export default defineConfig({
     skipInline: false,
     drafts: true,
   },
-  site: 'https://99minds.io',
-  integrations: [tailwind(), react(), sitemap(), mdx()]
+  site: 'https://www.99minds.io',
+  integrations: [tailwind(), react(), sitemap(), mdx(), partytown({
+      // Adds dataLayer.push as a forwarding-event.
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    })]
 });

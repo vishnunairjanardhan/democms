@@ -4,11 +4,11 @@ author: Mrudul
 title: Why are digital Gift cards essential to your e-commerce business?
 description: "Digital gift cards have been a great partner for eCommerce stores during the Covid-19 pandemic times. It helped several businesses stay afloat. There is no need to be surprised at the stupendous rise that it has shown in the past few years. Just like the rise in eCommerce transactions, the rise in digital gift card."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/10/Why-are-digital-gift-cards-essential-to-your-e-commerce-business-.jpg"
+  url: "/assets/blog/Why-are-digital-gift-cards-essential-to-your-e-commerce-business-.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce","Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/10/Why-are-digital-gift-cards-essential-to-your-e-commerce-business-.jpg">
+<img src="/assets/blog/Why-are-digital-gift-cards-essential-to-your-e-commerce-business-.jpg">
 
 Digital gift cards have been a great partner for <a href="https://www.99minds.io/blog/ecommerce/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday/">eCommerce stores</a> during the Covid-19 pandemic times. It helped several businesses stay afloat. There is no need to be surprised at the stupendous rise that it has shown in the past few years. Just like the rise in eCommerce transactions, the rise in digital gift card usage is a sweet byproduct. The gift card market is expected to reach <a href="https://www.mageplaza.com/blog/gift-card-statistics.html">$510 billion by 2025</a>.
 
@@ -22,7 +22,7 @@ If you are an <a href="https://www.99minds.io/blog/ecommerce/how-to-get-your-eco
 
 With the right strategy, gift cards can bring in a lot more traffic than most other sources. You don’t have to put a lot of effort either; there will be customers proactively searching for gift cards to give their loved ones. Your customers will visit your website to get the gift card, or its recipients will download them there. Ensure you provide an excellent experience for your site visitors, as it can help with increasing goodwill.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGES.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-IMAGES.jpg"></a>
 
 <ul>
 <li>Increased sales potential:</li>
@@ -69,7 +69,7 @@ It is one of the best ways to compete with major brands organically. Gift cards 
 
 The balance in the gift card is one of the best things that happened to eCommerce retailers. When a customer buys a gift card, the chances of them using the entire value of the card is negligible. So what happens? They come back again to buy from you. It is a great chance for you to provide them a fantastic experience so that they are impressed with your brand. It will help retain them as customers.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 <ul>
 <li>Increases brand awareness:</li>

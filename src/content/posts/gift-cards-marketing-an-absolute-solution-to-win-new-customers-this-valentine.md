@@ -4,11 +4,11 @@ author: Mrudul
 title: "Gift Cards Marketing: An Absolute Solution To Win New Customers This Valentine! "
 description: "February 14 is one of the most beautiful days of the year. It is a day that is outrightly dedicated to love. Is there a better time to gift something to your lover or to someone you love! If you are a retail business, gift cards are your best friend for this special occasion. By"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/01/Gift-Cards-Marketing-An-Absolute-Solution-To-Win-New-Customers-This-Valentine2.jpg-.jpg"
+  url: "/assets/blog/Gift-Cards-Marketing-An-Absolute-Solution-To-Win-New-Customers-This-Valentine2.jpg-.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/Gift-Cards-Marketing-An-Absolute-Solution-To-Win-New-Customers-This-Valentine2.jpg-.jpg">
+<img src="/assets/blog/Gift-Cards-Marketing-An-Absolute-Solution-To-Win-New-Customers-This-Valentine2.jpg-.jpg">
 
 February 14 is one of the most beautiful days of the year. It is a day that is outrightly dedicated to love. Is there a better time to gift something to your lover or to someone you love!
 

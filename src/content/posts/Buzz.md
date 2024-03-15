@@ -4,11 +4,11 @@ author: Mrudul
 title: How To Create Buzz for Your Shopify Store’s Loyalty Program
 description: "If you are thinking of launching a new loyalty program for your Shopify store, you must follow the below steps to get the most out of it."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2024/01/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-17-1160x653.png"
+  url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-17-1160x653.png"
   alt: "The word community with a heart."
 tags: ["Gift Card","Loyalty Program"]
 --- 
-<img src="https://www.99minds.io/blog/wp-content/uploads/2024/01/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-17-1160x653.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-17-1160x653.png">
 Building anticipation for loyalty program is important once you create an excellent one. “You build, people will come,” will never work in the real world. If that were the case, the most successful businesses would never invest in marketing, isn’t it? 
 
 The average American household has <a href="https://www.statista.com/statistics/618744/average-number-of-loyalty-programs-us-consumers-belong-to/#:~:text=Average%20memberships%20in%20loyalty%20programs%20in%20the%20U.S.%202015%2D2022&text=In%20a%20survey%20conducted%20among,less%20than%20half%20of%20those.">16.6 loyalty program memberships</a> to their name. Launching customer rewards on Shopify stores requires a lot of thought and inventiveness into it. Why? Since most of your customers have dealt with loyalty programs one way or the other.  Creating buzzworthy loyalty rewards on Shopify stores that pique the interest of customers, should be your goal. 
@@ -31,7 +31,7 @@ Marketers know the power of email marketing, and this is easily one of the most 
 
 Explain in your emails about what your loyalty program looks like, what are the perks and incentives available, and how they can participate to get incentives. You have full control over what you want your customers to do after each email. 
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 ### Create a Loyalty Program Landing Page:
 

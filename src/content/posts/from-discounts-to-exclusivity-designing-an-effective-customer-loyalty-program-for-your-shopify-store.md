@@ -4,11 +4,11 @@ author: Pravin Kamble
 title: From Discounts to Exclusivity - Designing an Effective Customer Loyalty Program for Your Shopify Store
 description: "A customer loyalty program can create an uptick in sales, reduce churn, and keep everyone associated with your business smiling and cheerful."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/09/From-Discounts-to-Exclusivity-Designing-an-Effective-Customer-Loyalty-Program-for-Your-Shopify-Store.jpg"
+  url: "/assets/blog/From-Discounts-to-Exclusivity-Designing-an-Effective-Customer-Loyalty-Program-for-Your-Shopify-Store.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/09/From-Discounts-to-Exclusivity-Designing-an-Effective-Customer-Loyalty-Program-for-Your-Shopify-Store.jpg">
+<img src="/assets/blog/From-Discounts-to-Exclusivity-Designing-an-Effective-Customer-Loyalty-Program-for-Your-Shopify-Store.jpg">
 
 
 
@@ -44,7 +44,7 @@ Just like any store, you would have a trove of data that is worth its weight in 
 
 You will be able to create an excellent loyalty program if you can collate data and find trends or patterns that helps you discover more about your customers. Such a data-driven approach can make you identify the right perks and incentives. When it comes to a loyalty program, the question on your customers’ mind is always going to be, “What am I going to get here?” This is why leveraging customer-related data can be immensely beneficial.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Coupon-code.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Coupon-code.jpg"></a>
 
 #### 3. Keep it simple:
 
@@ -119,7 +119,7 @@ Unless you are a business that makes loyalty program software, you are <a href="
 
 Instead of taking manual steps, you can get started within minutes. All you need to do is be prepared with the copy, designs, type of program, rewards, etc. After this, you can sit back and relax. Leave the loyalty program software to do the rest of the work for you. The entire process will be automated.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2023/09/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 #### 7. Focus on the delivery of the rewards:
 

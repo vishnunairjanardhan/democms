@@ -4,12 +4,12 @@ author: Mrudul
 title: How to drive customer loyalty during a Global Recession?
 description: "These are tough times. We are sure that there are thousands of blogs highlighting how crucial customer loyalty is. The world is on the brink of a recession. Pockets are going to be tight. Spending will be frugal. People will have their guard up, thanks to the uncertainty associated with the global recession."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/04/How-to-drive-customer-loyalty-during-a-Global-Recession-1-800x450.jpg"
+  url: "/assets/blog/How-to-drive-customer-loyalty-during-a-Global-Recession-1-800x450.jpg"
   alt: "How to drive customer loyalty during a global recession."
 tags: ["Loyalty"]
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/how-to-drive-customer-loyalty-during-a-global-recession/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/04/How-to-drive-customer-loyalty-during-a-Global-Recession-1.jpg"></a>
+<img src="/assets/blog/How-to-drive-customer-loyalty-during-a-Global-Recession-1.jpg"></a>
 
 These are tough times. We are sure that there are thousands of blogs highlighting how crucial <a href="https://www.99minds.io/blog/customer-loyalty/types-of-customer-loyalty-programs/" target="_blank">customer loyalty</a> is. The world is on the brink of a recession. Pockets are going to be tight. Spending will be frugal. People will have their guard up, thanks to the uncertainty associated with the global recession.
 
@@ -31,7 +31,7 @@ Here are a few ways you can create an emotional connection:
 Offer free returns to loyal customers during tough times.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/04/CTA-mothers-day.jpg"></a>
+<img src="/assets/blog/CTA-mothers-day.jpg"></a>
 
 ## Reduce friction
 
@@ -66,7 +66,7 @@ Again, this one is as straightforward as using social media, but there’s a twi
 Yes, you can share product updates and recommendations. Look at the bigger picture. Humanize your brand by sharing stories of your employees, customers, vendors, C-suite executives, and so on. Everyone has a story. Write it with utmost empathy. Create a wave of emotions with each word. Make it something that people will look forward to.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ## Sweeten the pot
 

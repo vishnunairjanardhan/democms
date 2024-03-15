@@ -4,11 +4,11 @@ author: Mrudul
 title: "How to Benefit from Omnichannel Strategies for Your eCommerce"
 description: "Ultimately, customers don’t care about what channel they’re shopping in or about how we deliver them a product or service. They simply know they’re shopping with Walmart."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/08/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce1.jpg"
+  url: "/assets/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce1.jpg"
   alt: "The word community with a heart."
 tags: ["Omnichannel"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/08/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce1.jpg">
+<img src="/assets/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce1.jpg">
 
 “Ultimately, customers don’t care about what channel they’re shopping in or about how we deliver them a product or service. They simply know they’re shopping with Walmart.”
 <ul>
@@ -23,7 +23,7 @@ To put it in the simplest words possible, it is all about providing a uniform sh
 
 For an effective omnichannel eCommerce strategy, you need to find out where you stand, what your competitors and industry leaders are doing, and which is the most optimal omnichannel platform for you, based on your current circumstances.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/04/CTA-IMAGES-easter.jpg"></a> 
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGES-easter.jpg"></a>
 
 <a href="https://www.shopify.in/enterprise/omni-channel-vs-multi-channel">Shopify’s definition of omnichannel</a>– “[Omnichannel marketing] is about communicating in ways that are aligned with why they use a given channel and showing awareness of their individual stage in the customer life cycle. Customers can purchase wherever they are—rather than treating channels as independent silos, omnichannel accounts for the spillover between channels and offers customer experiences within and between channels.”
 
@@ -74,7 +74,7 @@ The data about your product should be consistent across all channels- it is one 
 
 You can get customers from any channel. From live chat on your website to a promotional ad on <a href="https://www.facebook.com/">Facebook</a>, your chosen channel could be from anywhere. While no channel works uniformly well for all businesses, the onus is on you to understand what works best for you.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 If your target audience is men from the ages 20 to 30, then <a href="https://www.instagram.com/">Instagram</a> is an excellent channel for you. Instead, let’s assume you are targeting teenagers, then <a href="https://www.snapchat.com/">Snapchat</a> might be your perfect choice. Select the channel based on buyer personas and other demographic factors.
 Before you start things, ensure that you have had a 360-degree study about how your customers behave. It will help run your day-to-day business and anticipate changes in customer behavior.

@@ -4,11 +4,11 @@ author: Mrudul
 title: "5 Tips For Promoting Father’s Day In Your Online Shop"
 description: "Whether you believe it or not, Americans spent roughly $15 billion on Father's Day in 2020. Whether you believe it or not, Americans spent roughly $15 billion on Father's Day in 2020. Father's Day is around the corner, and it's the best time to step up your e-commerce game. If we look at historical data"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/06/5-Tips-For-Promoting-Fathers-Day-In-Your-Online-Shop.jpg"
+  url: "/assets/blog/5-Tips-For-Promoting-Fathers-Day-In-Your-Online-Shop.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/06/5-Tips-For-Promoting-Fathers-Day-In-Your-Online-Shop.jpg">
+<img src="/assets/blog/5-Tips-For-Promoting-Fathers-Day-In-Your-Online-Shop.jpg">
 
 ## Whether you believe it or not, Americans spent roughly $15 billion on Father’s Day in 2020
 
@@ -43,7 +43,7 @@ Pro Tip – Consider rewarding customers with <a href="https://www.99minds.io/gi
 Free delivery offers will dominate this year’s Father’s Day eCommerce sales. This is because free delivery influences more than 75% of consumers’ purchasing decisions. At least 65% indicate they would suggest the store to a friend or family member if it offered free shipping.
 Given that the lack of free delivery is directly tied to 65 % of cart abandonment rates, it’s an essential aspect of closing the deal for online buyers. Stores that do offer free delivery are appealing to the large majority of customers who believe that purchasing for a Father’s Day present online should be just as easy as buying in-store and that fast, free shipping should be included to clinch the deal. So, this year, skip the shipping fees to boost your sales funnel.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 <b>Exclusive E-Gift Card for Father’s Day:</b>
 

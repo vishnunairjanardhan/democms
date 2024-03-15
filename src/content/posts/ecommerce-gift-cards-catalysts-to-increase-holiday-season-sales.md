@@ -4,12 +4,12 @@ author: Mrudul
 title: eCommerce Gift Cards - Catalysts To Increase Holiday-Season Sales
 description: The humble and ubiquitous gift card is a paradise for retailers, even more so during the holiday season. According to Giftcards.com, 35% of the average shopper’s holiday budget is spent on gift cards. It is a telling statement on the kind of patronage that gift cards have. What makes gift cards so popular is the.
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/12/eCommerce-Gift-Cards-Catalysts-To-Increase-Holiday-Season-Sales2-800x450.jpg"
+  url: "/assets/blog/eCommerce-Gift-Cards-Catalysts-To-Increase-Holiday-Season-Sales2-800x450.jpg"
   alt: "Ecommerce gift cards catalysts to increase holiday season sales2."
 tags: ["Gift Cards"]
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/12/eCommerce-Gift-Cards-Catalysts-To-Increase-Holiday-Season-Sales2.jpg"></a>
+<img src="/assets/blog/eCommerce-Gift-Cards-Catalysts-To-Increase-Holiday-Season-Sales2.jpg"></a>
 
 The humble and ubiquitous gift card is a paradise for retailers, even more so during the holiday season. According to Giftcards.com, 35% of the average shopper’s holiday budget is spent on gift cards. It is a telling statement on the kind of patronage that gift cards have.
 
@@ -26,7 +26,7 @@ Gift cards are easy and an almost-failsafe gifting option. They can guarantee yo
 It has the ability to increase order values. Did you know that more than two-thirds of gift card recipients spend more than 38% of the value on their cards? When someone gifts you a card, you will end up liking more products and spend more than what is on the card. In this case, not only does the <a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-crucial-for-growing-retail-businesses/" target="_blank">retailer earn from the original sale of the gift card</a>, but they also spend more.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGES.jpg"></a>
+<img src="/assets/blog/CTA-IMAGES.jpg"></a>
 
 2. ##### <b>Safety and convenience for customers:</b>
 

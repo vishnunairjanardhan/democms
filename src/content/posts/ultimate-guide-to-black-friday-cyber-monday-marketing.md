@@ -4,12 +4,12 @@ author: Mrudul
 title: Ultimate Guide to Black Friday & Cyber Monday Marketing
 description: "It's that time of year again when Black Friday and Cyber Monday are rapidly approaching. There are plenty of bargains and shoppers out there, but getting more sales requires marketing magic. We'll look at what marketing strategies work. For Black Friday and Cyber Monday 2021, here's how to attract and retain new customers. Consumers are."
 image: 
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/11/Ultimate-Guide-to-Black-Friday-Cyber-Monday-Marketing.jpg"
+  url: "/assets/blog/Ultimate-Guide-to-Black-Friday-Cyber-Monday-Marketing.jpg"
   alt: "Black Friday and Cyber Monday."
 tags: ["Gift Card", Loyalty]
 --- 
-<a href="https://www.99minds.io/blog/wp-content/uploads/2021/11/Ultimate-Guide-to-Black-Friday-Cyber-Monday-Marketing-800x450.jpg" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/11/Ultimate-Guide-to-Black-Friday-Cyber-Monday-Marketing.jpg"></a>
+<a href="/assets/blog/Ultimate-Guide-to-Black-Friday-Cyber-Monday-Marketing-800x450.jpg" target="_blank">
+<img src="/assets/blog/Ultimate-Guide-to-Black-Friday-Cyber-Monday-Marketing.jpg"></a>
 
 It’s that time of year again when Black Friday and Cyber Monday are rapidly approaching. There are plenty of bargains and shoppers out there, but getting more sales requires marketing magic. We’ll look at what marketing strategies work.
 

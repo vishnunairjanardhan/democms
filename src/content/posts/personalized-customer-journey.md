@@ -4,11 +4,11 @@ author: Mrudul
 title: What’s a personalized Customer Journey and why do you need to offer it?
 description: "Take a look at why your business needs to offer a personalized customer journey and how you can do it in easy steps to boost your revenue."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/08/Whats-a-personalized-customer-journey-and-why-do-you-need-to-offer-it-4.jpg"
+  url: "/assets/blog/Whats-a-personalized-customer-journey-and-why-do-you-need-to-offer-it-4.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Acquisation"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/08/Whats-a-personalized-customer-journey-and-why-do-you-need-to-offer-it-4.jpg">
+<img src="/assets/blog/Whats-a-personalized-customer-journey-and-why-do-you-need-to-offer-it-4.jpg">
 
 All customer journeys are not the same. Each customer wants meaningful interactions. It is believed that only your local bakery or the knick-knack shop in your neighborhood can offer intimate customer experiences. People have accepted the anonymity and impersonal nature of digital interactions with <a href="https://www.99minds.io/blog/customer-engagement/how-to-build-customer-loyalty-for-your-e-commerce-store/">online eCommerce stores</a>.
 
@@ -18,7 +18,7 @@ Things have changed. Customers want personalized digital experiences. Thanks to 
 
 A personalized customer journey leverages automated technology to make your customers’ shopping journey more personal. Your recommendations will be more relevant and appealing to your customers’ specific needs in a personalized customer journey. Providing the right product with the right offer in front of each customer is a win-win for everyone involved.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2021/04/CTA-mothers-day.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-mothers-day.jpg"></a>
 
 ### <strong>What does a personalized customer journey mean?</strong>
 
@@ -72,7 +72,7 @@ The average return rate in eCommerce industry is <a href="https://apprissretail.
 
 Before you create a personalized customer journey, you need to have a system in place to collect information. The information should contain transactional, behavioral, and demographic data. Aggregate the data and analyze them to find patterns that will help with customer segmentation. Now, you will be in a place to offer a personalized customer journey that will make your customers keep coming over and over.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 <ul>
 <li><b>Personalized Homepage:</li></b>

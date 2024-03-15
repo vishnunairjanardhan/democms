@@ -4,12 +4,12 @@ author: Mrudul
 title: How to launch a Customer Loyalty Rewards Program in time for Halloween
 description: Halloween is easily one of the biggest events of the year. It is the perfect holiday for eCommerce retailers to make a killing. Launching a customer loyalty rewards program before the holidays is something that retailers should consider seriously. Loyalty plays a successful role for retailers during the holiday season. This article looks at a.
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2022/10/Heres-how-to-launch-a-customer-loyalty-rewards-program-in-time-for-Halloween--800x450.jpg"
+  url: "/assets/blog/Heres-how-to-launch-a-customer-loyalty-rewards-program-in-time-for-Halloween--800x450.jpg"
   alt: "How to launch a customer loyalty rewards program in timr for halloween."
 tags: ["Loyalty Program"]
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween/">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/10/Heres-how-to-launch-a-customer-loyalty-rewards-program-in-time-for-Halloween-.jpg"></a>
+<img src="/assets/blog/Heres-how-to-launch-a-customer-loyalty-rewards-program-in-time-for-Halloween-.jpg"></a>
 
 Halloween is easily one of the biggest events of the year. It is the perfect holiday for eCommerce retailers to make a killing. Launching a <a href="https://www.99minds.io/loyalty" target="_blank">customer loyalty rewards program</a> before the holidays is something that retailers should consider seriously. Loyalty plays a successful role for retailers during the holiday season. This article looks at a step-by-step process to launch a rewards program for Halloween.
 
@@ -47,7 +47,7 @@ Most of the information should be available from external data sources, but your
 Before you dive head-first into a customer loyalty program, it is better to assess <a href="https://www.99minds.io/blog/ecommerce/5-wicked-halloween-marketing-ideas-to-boost-your-online-sales/" target="_blank"> your current wherewithal and get a realistic idea of what is possible</a>. Ensure that you get a buy-in from the leadership team before starting.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/08/CTA-IMAGES-holiday-rush1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGES-holiday-rush1.jpg"></a>
 
 When launching a customer loyalty program, there are many things to consider, especially during the holidays, here are some of them:
 <ul>
@@ -93,7 +93,7 @@ If you can answer the above question with clarity and in a way that keeps the cu
 The first point of contact for most customers with respect to the loyalty program is your support team. Make sure they are aware of the nitty-gritty of the program. The last thing you want is a disgruntled set of customers because of a poorly trained support team. Make them understand the program’s benefits for the consumer and how it can be effectively sold to them.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 ##### <ul><li><b>Launch your pilot:</b></li></ul>
 

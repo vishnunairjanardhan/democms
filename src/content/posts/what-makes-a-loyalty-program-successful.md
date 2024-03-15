@@ -4,11 +4,11 @@ author: Mrudul
 title: "What Makes a Loyalty Program Successful"
 description: "Successful businesses know that their success lies in how their customers are treated. Naive business owners do not go out of their way to make their existing customers happy and fulfilled. They will be investing hundreds of thousands of dollars in getting new customers. There is nothing wrong with wanting a pipeline full of qualified"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/01/what-makes-loyalty-program-successful-800x450.jpg"
+  url: "/assets/blog/what-makes-loyalty-program-successful-800x450.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/01/what-makes-loyalty-program-successful-800x450.jpg">
+<img src="/assets/blog/what-makes-loyalty-program-successful-800x450.jpg">
 
 Successful businesses know that their success lies in how their customers are treated. Naive business owners do not go out of their way to make their existing customers happy and fulfilled. They will be investing hundreds of thousands of dollars in getting new customers. There is nothing wrong with wanting a pipeline full of qualified leads, but that shouldn’t come at the cost of your existing customers.
 

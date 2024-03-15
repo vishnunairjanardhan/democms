@@ -4,11 +4,11 @@ author: Mrudul
 title: "How to create a successful Gift Card Campaign for Christmas"
 description: "What do you usually offer during the holidays as a retailer? Aren't they gift cards? Starbucks, Amazon, and Walmart, for example, could never pass up the opportunity to sell thousands (if not millions) of Gift Cards during the holidays. So, if you've decided to launch a gift card campaign for the next holiday season and"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2021/12/How-to-create-a-successful-Gift-Card-Campaign-for-Christmas.png"
+  url: "/assets/blog/How-to-create-a-successful-Gift-Card-Campaign-for-Christmas.png"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2021/12/How-to-create-a-successful-Gift-Card-Campaign-for-Christmas.png">
+<img src="/assets/blog/How-to-create-a-successful-Gift-Card-Campaign-for-Christmas.png">
 
 What do you usually offer during the holidays as a retailer? Aren’t they gift cards? <a href="http://www.starbucks.com/">Starbucks</a>, <a href="http://www.amazon.in/">Amazon</a>, and <a href="http://www.walmart.com/">Walmart</a>, for example, could never pass up the opportunity to sell thousands (if not millions) of Gift Cards during the holidays. So, if you’ve decided to <a href="https://www.99minds.io/giftcard">launch a gift card campaign</a> for the next holiday season and are wondering how to get started, you’ve come to the right place.
 

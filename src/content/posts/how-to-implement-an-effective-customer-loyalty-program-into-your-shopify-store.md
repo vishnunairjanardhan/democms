@@ -4,11 +4,11 @@ author: Mrudul
 title: How to implement an effective customer loyalty program into your Shopify store
 description: "Being a part of an exclusive community is a bragging matter for everyone. People love to be a part of clubs or places which cannot be accessed by everybody. This is why customer loyalty programs are all the rage. They make you feel as if you are a part of royalty."
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/07/Building-Customer-Loyalty-How-to-Implement-Effective-Loyalty-Programs-on-Your-Shopify-Store.jpg"
+  url: "/assets/blog/Building-Customer-Loyalty-How-to-Implement-Effective-Loyalty-Programs-on-Your-Shopify-Store.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card", "Shopify"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/07/Building-Customer-Loyalty-How-to-Implement-Effective-Loyalty-Programs-on-Your-Shopify-Store.jpg">
+<img src="/assets/blog/Building-Customer-Loyalty-How-to-Implement-Effective-Loyalty-Programs-on-Your-Shopify-Store.jpg">
 
 Being a part of an exclusive community is a bragging matter for everyone. People love to be a part of clubs or places which cannot be accessed by everybody. This is why <a href="https://www.99minds.io/blog/customer-loyalty/customer-loyalty-programs-will-they-benefit-my-business/">customer loyalty programs</a> are all the rage. They make you feel as if you are a part of royalty.
 
@@ -29,7 +29,7 @@ Setting up a loyalty program that drives ROI isn’t as complex and technical as
 
 The most important aspect of creating a successful loyalty program on your Shopify store is to determine why you are doing so. Are you looking to reduce your churn rate? Do you want <a href="https://www.99minds.io/blog/ecommerce/ecommerce-referral-marketing-strategies/">referrals from your existing customers?</a> Are you trying to reach out to a newer audience? Do you want to make your customers feel appreciated? The answer could be anything. You must have clarity on what it is that you want, as it will help you choose the right steps to achieve them.
 
-<a href="https://giftcard.99minds.io/access/login" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2020/04/CTA-IMAGE-03.jpg"></a>
+<a href="https://giftcard.99minds.io/access/login" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE-03.jpg"></a>
 
 <li><b>Find your ideal customers:</b></li>
 
@@ -71,7 +71,7 @@ There are several types of customer loyalty programs, based on which the incenti
 <li><b>Gamification:</b> Loyalty programs that have <a href="https://www.99minds.io/blog/generic/how-and-why-you-should-use-digital-rewards-for-workplace-gamification/">gamification</a> options like badges, quizzes, milestones, challenges, etc., will keep the customers engaged</li>
 </ul>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 <li><b>Figure out the right incentives:</b></li>
 

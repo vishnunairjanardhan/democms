@@ -4,11 +4,11 @@ author: PRAVIN KAMBLE
 title: "What are promotional codes and how do they work?"
 description: "Every time we are about to buy something online, all of us invariably look for promo codes that reduce the value of our order. We are always looking for a discount or a free gift when making a purchase. It’s who we are as human beings, and this is why eCommerce sites should embrace the"
 image:
-  url: "https://www.99minds.io/blog/wp-content/uploads/2023/01/promo-code0-min-1160x653.jpg"
+  url: "/assets/blog/promo-code0-min-1160x653.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
 ---
-<img src="https://www.99minds.io/blog/wp-content/uploads/2023/01/promo-code0-min-1160x653.jpg">
+<img src="/assets/blog/promo-code0-min-1160x653.jpg">
 
 Every time we are about to buy something online, all of us invariably look for promo codes that reduce the value of our order. We are always looking for a discount or a free gift when making a purchase. It’s who we are as human beings, and this is why eCommerce sites should embrace the phenomenon that is promo codes.
 
@@ -28,7 +28,7 @@ Once you apply the promo code, the offer you get will be reflected on the page. 
 
 Promo codes can be used in several ways, and it is especially effective to build on customer service and increase customer loyalty. eCommerce stores can drive more traffic (and profits!) by strategically using promotional codes. They are extremely effective since customers get the product they want at a cheaper price or are promised a reward that they were not expecting in the first place. All of this makes their shopping experience more memorable.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://www.99minds.io/blog/wp-content/uploads/2022/01/CTA-IMAGES.jpg"></a> 
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGES.jpg"></a>
 
 There are several types of promotional code offers that eCommerce businesses can use. Below are a few of them.
 <ul>
