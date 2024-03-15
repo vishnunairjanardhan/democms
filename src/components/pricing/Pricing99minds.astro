@@ -5,8 +5,11 @@ import {TABLE_HEAD,TABLE_BOTTOM,CHECK_ICON,PRICE_LIST_AMOUNT,TOP_PRODUCT_PRICE_L
 ---
 
 <section class="relative  border-t border-white/5">
-  <div class="hidden lg:block"><Verticalgrid /><Blurgradientleft /></div>
-  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:py-24">
+  <div class="hidden lg:block">
+    <Verticalgrid />
+    <Blurgradientleft />
+  </div>
+  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:py-24 mt-8">
     <div class="max-w-xl lg:text-center lg:mx-auto">
       <span
         class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text"
@@ -23,55 +26,55 @@ import {TABLE_HEAD,TABLE_BOTTOM,CHECK_ICON,PRICE_LIST_AMOUNT,TOP_PRODUCT_PRICE_L
   <div class="pb-24 lg:pb-32">
     <!-- Here starts the mobile pricing table -->
     <div class="block lg:hidden">
-<div class="mx-auto mt-8">
-  {TABLE_HEAD.slice(1).map((header) => (
-    <div class="flex flex-col max-w-s p-8 mx-auto mb-8 text-white border-0 shadow-sm">
-      <div class="text-lg font-medium leading-6 text-white">
-        {header}
-      </div>
-      {PRICE_LIST_AMOUNT.map((price) => (
-        <div>
-          <div class="flex mt-4 mb-6">
-            <div class="flex-shrink-0 text-6xl font-bold text-white">{price[header]}</div>
-            <div class="mt-auto ml-2 text-sm font-normal text-white">
-              per month
+      <div class="mx-auto mt-8">
+        {TABLE_HEAD.slice(1).map((header) => (
+          <div class="flex flex-col max-w-s p-8 mx-auto mb-8 text-white border-0 shadow-sm">
+            <div class="text-lg font-medium leading-6 text-white">
+              {header}
+            </div>
+            {PRICE_LIST_AMOUNT.map((price) => (
+              <div>
+                <div class="flex mt-4 mb-6">
+                  <div class="flex-shrink-0 text-6xl font-bold text-white">{price[header]}</div>
+                  <div class="mt-auto ml-2 text-sm font-normal text-white">
+                    per month
+                  </div>
+                </div>
+              </div>
+            ))}
+            <div class="mt-4"></div>
+            {TOP_PRODUCT_PRICE_LIST.map((features) => (
+              features[header] !== "No" && (
+                <li class="flex py-2 text-sm text-vulcan-300">
+                  <svg
+                    class="flex-shrink-0 w-5 h-5 text-indigo-400"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true">
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                  {features[header] !== "Yes" && features[header] !== "No" && (
+                    <span class="ml-2 mr-2 font-normal text-white">{features[header]}</span>
+                  )}
+                  <span class="font-normal">
+                    <a href="#">{features.Column1}</a>
+                  </span>
+                </li>
+              )
+            ))}
+            <div class="w-full py-2 mb-4">
+              <a href="/Get-Started"
+                class="flex items-center justify-center h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">
+                Get started
+              </a>
             </div>
           </div>
-        </div>
-      ))}
-      <div class="mt-4"></div>
-      {TOP_PRODUCT_PRICE_LIST.map((features) => (
-        features[header] !== "No" && (
-          <li class="flex py-2 text-sm text-vulcan-300">
-            <svg
-              class="flex-shrink-0 w-5 h-5 text-indigo-400"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true">
-              <path
-                fill-rule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clip-rule="evenodd"></path>
-            </svg>
-            {features[header] !== "Yes" && features[header] !== "No" && (
-              <span class="ml-2 mr-2 font-normal text-white">{features[header]}</span>
-            )}
-            <span class="font-normal">
-              <a href="#">{features.Column1}</a>
-            </span>
-          </li>
-        )
-      ))}
-      <div class="w-full py-2 mb-4">
-        <a href="/Get-Started"
-          class="flex items-center justify-center h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">
-          Get started
-        </a>
+        ))}
       </div>
-    </div>
-  ))}
-</div>
     </div>
     <!---- Here starts the Desktop pricing table -->
     <section class="relative hidden lg:block">
@@ -88,19 +91,21 @@ import {TABLE_HEAD,TABLE_BOTTOM,CHECK_ICON,PRICE_LIST_AMOUNT,TOP_PRODUCT_PRICE_L
                 </tr>
                 <tr>
                   {TABLE_BOTTOM.map((feature) => (
-                  <th class="w-1/12 px-2">
-                    <div class="py-2 mb-4">
-                      <a href={feature.Url}
-                        class="flex items-center justify-center h-10 px-4 py-2 text-sm font-normal text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700 w-full"
-                        id="billing-plan-get-in-touch-enterprise">
-                        {feature.Label}
-                      </a>
-                    </div>
-                  </th>
-                ))}
+                    <th class="w-1/12 px-2">
+                      {feature.active && (
+                        <div class="py-2 mb-4">
+                          <a href={feature.Url}
+                            class="flex items-center justify-center h-10 px-4 py-2 text-sm font-normal text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700 w-full"
+                            id="billing-plan-get-in-touch-enterprise">
+                            {feature.Label}
+                          </a>
+                        </div>
+                      )}
+                    </th>
+                  ))}
                 </tr>  
                 {PRICE_LIST_AMOUNT.map((feature) => (
-                  <tr class="mt-6 text-sm  text-vulcan-300 border border-white/5" key={feature.Column1}>
+                  <tr class="mt-6 text-sm text-vulcan-300 border-b border-white/5" key={feature.Column1}>
                     <th class="px-2 p-4 font-normal" >{feature.Column1}</th>
                     {TABLE_HEAD.slice(1).map((col) => (
                       <th class="font-normal text-white" key={col}>{feature[col]}</th>
@@ -108,7 +113,7 @@ import {TABLE_HEAD,TABLE_BOTTOM,CHECK_ICON,PRICE_LIST_AMOUNT,TOP_PRODUCT_PRICE_L
                   </tr>
                 ))}
                  {TOP_PRODUCT_PRICE_LIST.map((feature) => (
-                  <tr class="mt-6 text-sm font-normal text-vulcan-300 border border-white/5 mx-auto" key={feature.Column1}>
+                  <tr class="mt-6 text-sm font-normal text-vulcan-300 border-b border-white/5 mx-auto" key={feature.Column1}>
                     <th class="p-4 font-normal">{feature.Column1}</th>
                     {TABLE_HEAD.slice(1).map((col) => (
                       <th class="font-normal text-white" key={col}>{feature[col]}</th>

@@ -8,30 +8,39 @@ export const TABLE_HEAD = [
   "Enterprise",
 ];
 export const TABLE_BOTTOM = [
-{Label:'Features'},
   {
-    Url: "/Get-Started",
-    Label: "Get Started",
+    Label:'Features',
+    active: false
   },
   {
     Url: "/Get-Started",
     Label: "Get Started",
+    active: true
   },
   {
     Url: "/Get-Started",
     Label: "Get Started",
+    active: true
   },
   {
     Url: "/Get-Started",
     Label: "Get Started",
+    active: true
   },
   {
     Url: "/Get-Started",
     Label: "Get Started",
+    active: true
+  },
+  {
+    Url: "/Get-Started",
+    Label: "Get Started",
+    active: true
   },
   {
     Url: "/contact",
     Label: "Contact us",
+    active: true
   },
 ];
 
