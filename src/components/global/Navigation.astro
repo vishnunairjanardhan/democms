@@ -1,3 +1,9 @@
+---
+const bookDemo = () => {
+    window?.Calendly?.initPopupWidget({ url: "https://calendly.com/99minds" });
+  };
+---
+
 <section
   aria-labelledby="navigation"
   id="navigation"
@@ -138,13 +144,21 @@
                 href="https://giftcard.99minds.io/access/login">
                 Sign In</a> 
                
-            <!--- <a href="../../component/forms/popup" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+             <!--<a href=""
+              class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
                 <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white">Book a Demo</span>
+                <span class="relative text-white">Book Demo</span>
                 </span>
-              </a>--->
-              
+              </a>-->
+              <script>
+    function openCalendly() {
+      Calendly.initPopupWidget({url: 'https://calendly.com/99minds'});
+      return false;
+    }
+  </script>
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+              <!--<button onclick="openCalendly()">Schedule Appointment</button>-->
               <div x-data="{ open: false }" class="flex justify-center">
               <!-- Trigger -->
               <span x-on:click="open = true">

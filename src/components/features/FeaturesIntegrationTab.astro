@@ -1,4 +1,8 @@
---- import Verticalgrid from "../assets/Verticalgrid.astro"; --- <section>
+--- 
+import Verticalgrid from "../assets/Verticalgrid.astro"; 
+import {All,Ecommerce,POS,Marketing,Email,Payment } from "../../config/Integration.jsx"
+--- 
+<section>
   <div class=" py-12 mx-auto max-w-7xl">
     <div class="relative w-full mt-6" x-data="{
         tabSelected: 1,
@@ -39,560 +43,107 @@
       </div>
       <div class="relative flex items-center justify-center w-full ">
         <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6">
-          <div class="relative items-center w-full" style="">
-            
-                 <ul
-                  class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24"
-                  role="list">
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/stripe.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Stripe</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A leading payment processing platform designed to handle online and in-app transactions seamlessly.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/shopify.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Shopify</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A comprehensive e-commerce platform enabling retailers to create online stores, manage products, and process orders.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/BigCommerce-icon 1.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-                        Bigcommerce
-                      </p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An e-commerce platform offering merchants a powerful way to build, innovate, and grow their online businesses.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/heartland-icon.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-                        Heartland
-                      </p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A global payment technology company offering a wide range of payment processing and financial services to businesses.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/vend 3.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Vend</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A cloud-based point-of-sale and retail management software that helps merchants manage sales, customers, and inventory.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/klaviyo-icon.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-                        Klaviyo
-                      </p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An email marketing platform that allows for personalized customer engagement through targeted email and SMS marketing campaigns.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/omnisend-icon.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-                        Omnisend
-                      </p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An easy-to-use marketing automation platform specialized in email and SMS messaging to enhance e-commerce marketing.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/hike-icon.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Hike</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A versatile point-of-sale and inventory management system designed for seamless retail operations.
-                      internet.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/SendGrid.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-                        SendGrid
-                      </p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A cloud-based email delivery service providing robust email marketing and transactional email solutions.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/woocommerce 1.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-                        WooCommerce
-                      </p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                          An open-source e-commerce plugin for WordPress, ideal for retailers looking to customize and expand their online store.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/mailgun.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-                        Mailgun
-                      </p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                          A developer-focused email sending service designed for easy integration and high deliverability for transactional and marketing emails.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/active-campaign 1.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-                        Active Campaign
-                      </p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                          A customer experience automation platform that combines email marketing, automation, sales automation, and CRM for personalized communication.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/aws 1.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-                        AWS SES
-                      </p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                          A cloud-based email sending service designed to help digital marketers and application developers send marketing, notification, and transactional emails.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-             
+          <div class="relative items-center w-full" style="">  
+            <ul class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24" role="list">
+              {All.map((item, index) => (
+                <li key={index}>
+                  <div>
+                    <img class='w-1/4' src={item.image} alt={item.title} />
+                    <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p>
+                  </div>
+                  <div class="mt-2 text-sm text-vulcan-300">
+                    {item.desc}
+                  </div>
+                </li>
+              ))}
+            </ul>   
           </div>
         </div>
         <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-5" style="display: none;">
           <div class="relative items-center w-full" style="">
-            <ul
-                  class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24"
-                  role="list">
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/shopify.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Shopify</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An e-commerce platform for online stores.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/BigCommerce-icon 1.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">BigCommerce</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An online payment system for sending and receiving money.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/woocommerce 1.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-                        WooCommerce
-                      </p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A payment gateway service for online transactions in Russia.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
+            <ul class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24" role="list">
+              {Ecommerce.map((item, index) => (
+                <li key={index}>
+                  <div>
+                    <img class='w-1/4' src={item.image} alt={item.title} />
+                    <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p>
+                  </div>
+                  <div class="mt-2 text-sm text-vulcan-300">
+                    {item.desc}
+                  </div>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
         <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6" style="display: none;">
           <div class="relative items-center w-full" style="">
-            <ul
-                  class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24"
-                  role="list">
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/vend 3.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Vend</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A payment processing platform for online businesses.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/heartland-icon.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Heartland</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An e-commerce platform for online stores.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/hike-icon.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Hike</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An online payment system for sending and receiving money.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/rp-white-logo 2.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-                        RetailPro
-                      </p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A payment gateway service for online transactions in Russia.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
+            <ul class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24" role="list">
+              {POS.map((item, index) => (
+                <li key={index}>
+                  <div>
+                    <img class='w-1/4' src={item.image} alt={item.title} />
+                    <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p>
+                  </div>
+                  <div class="mt-2 text-sm text-vulcan-300">
+                    {item.desc}
+                  </div>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
       
       <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-2-content-6" style="display: none;">
         <div class="relative items-center w-full" style="">
-          <ul
-                  class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24"
-                  role="list">
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/active-campaign 1.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Active Campaign</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A payment processing platform for online businesses.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/omnisend-icon.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Omnisend</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An e-commerce platform for online stores.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/klaviyo-icon.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Klaviyo</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An online payment system for sending and receiving money.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-            </ul>
+          <ul class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24" role="list">
+            {Marketing.map((item, index) => (
+              <li key={index}>
+                <div>
+                  <img class='w-1/4' src={item.image} alt={item.title} />
+                  <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p>
+                </div>
+                <div class="mt-2 text-sm text-vulcan-300">
+                  {item.desc}
+                </div>
+              </li>
+            ))}
+          </ul>   
         </div>
       </div>
       
       
         <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-1" style="">
           <div class="relative items-center w-full" style="">
-            <ul
-                  class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24"
-                  role="list">
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/SendGrid.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">SendGrid</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A payment processing platform for online businesses.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/mailgun.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Mailgun</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An e-commerce platform for online stores.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/aws 1.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">AWS SES</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An online payment system for sending and receiving money.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
+            <ul class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24" role="list">
+              {Email.map((item, index) => (
+                <li key={index}>
+                  <div>
+                    <img class='w-1/4' src={item.image} alt={item.title} />
+                    <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p>
+                  </div>
+                  <div class="mt-2 text-sm text-vulcan-300">
+                    {item.desc}
+                  </div>
+                </li>
+              ))}
             </ul>
           </div>
       </div>
       <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6" style="display: none;">
           <div class="relative items-center w-full" style="">
-            <ul
-                  class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24"
-                  role="list">
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/stripe.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Stripe</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A payment processing platform for online businesses.
-                      <p class="mt-4">
-                        <!-- <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        > -->
-                      </p>
-                    </div>
-                  </li>
-                  <!---<li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/shopify.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">Shopify</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An e-commerce platform for online stores.
-                      <p class="mt-4">
-                        <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        >
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/paypal.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">PayPal</p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      An online payment system for sending and receiving money.
-                      <p class="mt-4">
-                        <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        >
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <img class="w-1/4" src="/integrations/yandex_kassa.svg" alt="" />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-                        Yandex Kassa
-                      </p>
-                    </div>
-                    <div class="mt-2 text-sm text-vulcan-300">
-                      A payment gateway service for online transactions in Russia.
-                      <p class="mt-4">
-                        <a
-                          href="/integrations/integrations-details"
-                          class="text-sm leading-6 text-indigo-300 hover:text-white"
-                          >Read more <span aria-hidden="true">&rarr;</span></a
-                        >
-                      </p>
-                    </div>
-                  </li>--->
+            <ul class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24" role="list">
+              {Payment.map((item, index) => (
+                <li key={index}>
+                  <div>
+                    <img class='w-1/4' src={item.image} alt={item.title} />
+                    <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p>
+                  </div>
+                  <div class="mt-2 text-sm text-vulcan-300">
+                    {item.desc}
+                  </div>
+                </li>
+              ))}
             </ul>
         </div>
       </div>
