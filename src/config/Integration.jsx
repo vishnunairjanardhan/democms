@@ -241,6 +241,16 @@ export const All= [
       desc: 'Omnichannel gift cards with ConnectPOS and 99minds.'
     },
     {
+      image: '/integrations/square.svg',
+      title: 'Square',
+      desc: 'A payment processing platform for online businesses.'
+    },
+    {
+      image: '/integrations/lightspeed.svg',
+      title: 'Lightspeed R-Series',
+      desc: 'A payment processing platform for online businesses.'
+    },
+    {
       image: '/integrations/clover logo.svg',
       title: 'CLOVER',
       desc: ''
@@ -291,6 +301,16 @@ export const All= [
       desc: ''
     },
     {
+      image: '/integrations/givex.svg',
+      title: 'Givex',
+      desc: ''
+    },
+    {
+      image: '/integrations/clutch.svg',
+      title: 'CLUTCH',
+      desc: ''
+    },
+    {
       image: '/integrations/awber.svg',
       title: 'AWEBER',
       desc: ''
@@ -331,6 +351,16 @@ export const Ecommerce= [
   ]
 
   export const POS= [
+    {
+      image: '/integrations/square.svg',
+      title: 'Square',
+      desc: 'A payment processing platform for online businesses.'
+    },
+    {
+      image: '/integrations/lightspeed.svg',
+      title: 'Lightspeed R-Series',
+      desc: 'A payment processing platform for online businesses.'
+    },
     {
       image: '/integrations/vend 3.svg',
       title: 'Vend',
@@ -447,6 +477,16 @@ export const Ecommerce= [
       {
         image: '/integrations/shift4.svg',
         title: 'SHIFT4',
+        desc: ''
+      },
+      {
+        image: '/integrations/givex.svg',
+        title: 'Givex',
+        desc: ''
+      },
+      {
+        image: '/integrations/clutch.svg',
+        title: 'CLUTCH',
         desc: ''
       },
       {
