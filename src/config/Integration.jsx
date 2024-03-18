@@ -52,7 +52,7 @@ export  const data = [
     },
   
     {
-      label: " Payment Processing",
+      label: "Payment Processing",
       type: "Payment_Processing",
       image: "/integrations/shopify.svg",
       title: "Stripe",
@@ -219,6 +219,86 @@ export const All= [
       image: '/integrations/aws 1.svg',
       title: 'AWS SES',
       desc: 'A cloud-based email sending service designed to help digital marketers and application developers send marketing, notification, and transactional emails.'
+    },
+    {
+      image: '/integrations/runit.svg',
+      title: 'Runit',
+      desc: 'Sell and redeem gift cards from your Runit POS. Sync gift cards from Runit and different eCommerce platforms.'
+    },
+    {
+      image: '/integrations/retailpro.svg',
+      title: 'Retail Pro 9',
+      desc: 'Sell and redeem gift cards from your Retail Pro 9 POS. Sync gift cards from Retail Pro 9 and different eCommerce platforms.'
+    },
+    {
+      image: '/integrations/Btree logo.svg',
+      title: 'Braintree',
+      desc: 'A payment processing platform for online businesses.'
+    },
+    {
+      image: '/integrations/connectpos.svg',
+      title: 'ConnectPOS',
+      desc: 'Omnichannel gift cards with ConnectPOS and 99minds.'
+    },
+    {
+      image: '/integrations/clover logo.svg',
+      title: 'CLOVER',
+      desc: ''
+    },
+    {
+      image: '/integrations/salesforce.svg',
+      title: 'Salesforce Commerce Cloud',
+      desc: ''
+    },
+    {
+      image: '/integrations/miva.svg',
+      title: 'Miva',
+      desc: ''
+    },
+    {
+      image: '/integrations/nsure.svg',
+      title: 'nSure',
+      desc: ''
+    },
+    {
+      image: '/integrations/worldpay.svg',
+      title: 'Worldpay Express',
+      desc: ''
+    },
+    {
+      image: '/integrations/spreadly.svg',
+      title: 'Spreedly',
+      desc: ''
+    },
+    {
+      image: '/integrations/finserv.svg',
+      title: 'FISERVE',
+      desc: ''
+    },
+    {
+      image: '/integrations/shift4.svg',
+      title: 'SHIFT4',
+      desc: ''
+    },
+    {
+      image: '/integrations/paytronix.svg',
+      title: 'Paytronix',
+      desc: ''
+    },
+    {
+      image: '/integrations/mailchimp.svg',
+      title: 'Mailchimp',
+      desc: ''
+    },
+    {
+      image: '/integrations/awber.svg',
+      title: 'AWEBER',
+      desc: ''
+    },
+    {
+      image: '/integrations/hubspot.svg',
+      title: 'HUBSPOT',
+      desc: ''
     }
   ]
 
@@ -237,6 +317,16 @@ export const Ecommerce= [
       image: '/integrations/woocommerce 1.svg',
       title: 'WooCommerce',
       desc: 'A payment gateway service for online transactions in Russia.'
+    },
+    {
+      image: '/integrations/salesforce.svg',
+      title: 'Salesforce Commerce Cloud',
+      desc: ''
+    },
+    {
+      image: '/integrations/miva.svg',
+      title: 'Miva',
+      desc: ''
     }
   ]
 
@@ -260,6 +350,26 @@ export const Ecommerce= [
       image: '/integrations/rp-white-logo 2.svg',
       title: 'RetailPro',
       desc: 'A payment gateway service for online transactions in Russia.'
+    },
+    {
+      image: '/integrations/runit.svg',
+      title: 'Runit',
+      desc: 'Sell and redeem gift cards from your Runit POS. Sync gift cards from Runit and different eCommerce platforms.'
+    },
+    {
+      image: '/integrations/retailpro.svg',
+      title: 'Retail Pro 9',
+      desc: 'Sell and redeem gift cards from your Retail Pro 9 POS. Sync gift cards from Retail Pro 9 and different eCommerce platforms.'
+    },
+    {
+      image: '/integrations/connectpos.svg',
+      title: 'ConnectPOS',
+      desc: 'Omnichannel gift cards with ConnectPOS and 99minds.'
+    },
+    {
+      image: '/integrations/clover logo.svg',
+      title: 'CLOVER',
+      desc: ''
     }
   ]
   export const Marketing= [
@@ -278,6 +388,21 @@ export const Ecommerce= [
         image: "/integrations/klaviyo-icon.svg",
         desc: "An online payment system for sending and receiving money.",
       },
+      {
+        image: '/integrations/mailchimp.svg',
+        title: 'Mailchimp',
+        desc: ''
+      },
+      {
+        image: '/integrations/awber.svg',
+        title: 'AWEBER',
+        desc: ''
+      },
+      {
+        image: '/integrations/hubspot.svg',
+        title: 'HUBSPOT',
+        desc: ''
+      }
   ]
   export const Email= [
     {
@@ -302,4 +427,39 @@ export const Ecommerce= [
         title: 'Stripe',
         desc: 'A payment processing platform for online businesses.'
       },
+      {
+        image: '/integrations/Btree logo.svg',
+        title: 'Braintree',
+        desc: 'A payment processing platform for online businesses.'
+      },
+      {
+        image: '/integrations/worldpay.svg',
+        title: 'Worldpay Express',
+        desc: ''
+      }
   ]
+  export const Giftcard= [
+    {
+        image: '/integrations/finserv.svg',
+        title: 'FINSERV',
+        desc: 'A Giftcard processing platform for online businesses.'
+      },
+      {
+        image: '/integrations/shift4.svg',
+        title: 'SHIFT4',
+        desc: ''
+      },
+      {
+        image: '/integrations/paytronix.svg',
+        title: 'Paytronix',
+        desc: ''
+      }
+  ]
+  export const Fraud= [
+    {
+        image: '/integrations/nsure.svg',
+        title: 'nSure',
+        desc: 'Connect your Fraud Prevention apps to 99minds.'
+      },
+  ]
+  
