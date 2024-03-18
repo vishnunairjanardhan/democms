@@ -3,7 +3,6 @@ import BaseHead from "../components/BaseHead.astro";
 import Navigation from "../components/global/Navigation.astro";
 import ContactWidget from "../components/forms/ContactWidget.astro";
 import Footer from "../components/global/Footer.astro";
-import ZohoSalesIQ from "../components/ZohoSalesIQ/Zoho.jsx"
 ---
 
 <html
@@ -17,6 +16,18 @@ import ZohoSalesIQ from "../components/ZohoSalesIQ/Zoho.jsx"
     <ContactWidget />
     <slot />
     <Footer />
-    <ZohoSalesIQ/>
+    <script type="text/javascript">
+      var $zoho = $zoho || {};
+      $zoho.salesiq = $zoho.salesiq || { widgetcode: "3edf65a468af1d9ec72c31adb273c139a09c4340d0061a773c29bfd5e5b3f44a", values: {}, ready: function () { } };
+      var d = document;
+      var s = d.createElement("script");
+      s.type = "text/javascript";
+      s.id = "zsiqscript";
+      s.defer = true;
+      s.src = "https://salesiq.zoho.in/widget";
+      t = d.getElementsByTagName("script")[0];
+      t.parentNode.insertBefore(s, t);
+      d.innerHTML = "<div id='zsiqwidget'></div>";
+  </script>
   </body>
 </html>
