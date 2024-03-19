@@ -361,20 +361,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"Buzz.md": {
-	id: "Buzz.md";
-  slug: "buzz";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"Pandemic.md": {
-	id: "Pandemic.md";
-  slug: "pandemic";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "ai-for-everyone.md": {
 	id: "ai-for-everyone.md";
   slug: "ai-for-everyone";
@@ -781,6 +767,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"how-to-create-buzz-for-your-shopify-store's-loyalty-program.md": {
+	id: "how-to-create-buzz-for-your-shopify-store's-loyalty-program.md";
+  slug: "how-to-create-buzz-for-your-shopify-stores-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "how-to-drive-customer-loyalty-during-a-global-recession.md": {
 	id: "how-to-drive-customer-loyalty-during-a-global-recession.md";
   slug: "how-to-drive-customer-loyalty-during-a-global-recession";
@@ -1120,6 +1113,13 @@ declare module 'astro:content' {
 "tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022.md": {
 	id: "tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022.md";
   slug: "tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"top-14-reasons-why-gift-cards-are-a-pandemic-proof-business-strategy.md": {
+	id: "top-14-reasons-why-gift-cards-are-a-pandemic-proof-business-strategy.md";
+  slug: "top-14-reasons-why-gift-cards-are-a-pandemic-proof-business-strategy";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
