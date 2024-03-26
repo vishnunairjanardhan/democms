@@ -1,6 +1,10 @@
 ---
 import { getCollection } from "astro:content";
 const allPosts = await getCollection("posts");
+const sortedPosts = allPosts.sort((a, b) => {
+  // Assuming pubDate is a string in ISO 8601 format, you can directly compare them
+  return new Date(b.data.pubDate) - new Date(a.data.pubDate);
+});
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 import CtaThree99minds from "../components/ctas/CtaThree99minds.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
@@ -90,15 +94,14 @@ import { AstroSeo } from "@astrolib/seo";
           class="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2"
           role="list">
           {
-            allPosts
-              .slice()
+            sortedPosts
               .map((post) => (
                 <EntriesOne
                   url={"/blog/" + post.slug}
                   title={post.data.title}
                   description={post.data.description}
                   alt={post.data.title}
-                  pubDate={post.data.pubDate.toString().slice(0, 10)}
+                  pubDate={post.data.pubDate.toString().slice(0, 15)}
                   author={post.data.author}
                   image={post.data.image.url}
                 />
