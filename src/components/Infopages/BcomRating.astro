@@ -1,0 +1,89 @@
+<!--<section class="relative overflow-x-hidden">
+ <div class="mx-auto max-w-7xl py-24 lg:px-16 md:px-12 px-8 xl:px-36 items-center lg:py-24 relative w-full">
+    <div class="">
+      <div class="grid items-baseline grid-cols-1 gap-y-10 gap-x-6 lg:grid-cols-1 ring-1 ring-white/10 rounded-3xl p-2">
+        <div class="p-4">
+          <div class="items-center justify-center w-full p-6 ">
+            <div>
+              <h2 class="text-3xl font-semibold text-white">5 out 5 star reviews</h2>
+            </div>
+            <div class="flex mt-2 w-80 lg:justify-center col-span-full">
+              <img class="object-cover object-center" src="/5star.png" alt="">
+            </div>
+            <div class="lg:ml-auto flex-col text-right">
+              <p class="text-xl mt-4 font-regular text-white">Consistently Exceptional: Our BigCommerce Gift Card & Loyalty Program App is Rated 5/5 for Unmatched Quality and Customer Satisfaction.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-ebony/50  shadow-inset rounded-3xl p-4">
+          <div class="grid items-center justify-center w-full grid-cols-1 p-6 ">
+            <div>
+              <p class="mt-4 text-lg text-white">Consistently Exceptional: Our BigCommerce Gift Card & Loyalty Program App is Rated 5/5 for Unmatched Quality and Customer Satisfaction.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>-->
+
+<section class="relative scroll-mt-24 mb-12 border-t border-white/5">
+  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-12">
+    <section class="grid items-baseline grid-cols-1 gap-y-10 gap-x-6 lg:grid-cols-2 rounded-3xl p-8">
+      <div class="lg:justify-center md:pr-12">
+        <div>
+              <h2 class="text-3xl text-center font-semibold text-white">5 out 5 star reviews</h2>
+            </div>
+            <div class="flex pl-24 lg:pl-32 mt-6 w-2/3 col-span-full">
+              <img class="object-cover object-center" src="/5-Star1.png" alt="">
+            </div>
+      </div>
+      <div class="col-span-1">
+         <p class="mt-4 text-xl text-vulcan-300"><span class="font-semibold text-2xl text-white">Consistently Exceptional : </span><br /> Our BigCommerce Gift Card & Loyalty Program App is Rated 5/5 for Unmatched Quality and Customer Satisfaction.</p>
+      </div>
+    </section>
+  </div>
+
+<div class="px-8 pt-32 pb-24 mx-auto md:px-12 lg:px-18 lg:py-12 lg:pt-4  max-w-6xl relative p-[0.060rem] rounded-3xl shadow-xl shadow-vulcan-950 border border-white/5 sm:py-32 sm:px-4">
+  <div class="text-center mt-8 mx-auto">
+    <h1 class="text-3xl lg:text-4xl text-white font-semibold">Boost repeat sales.<br />Reward with 99minds today.
+    </h1>
+    <div class="flex flex-wrap justify-center gap-2 mt-10">
+              <div x-data="{ open: false }" class="flex justify-center">
+              <!-- Trigger -->
+              <span x-on:click="open = true">
+                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white">Get started for free</span>
+                </span></button>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
+                      
+                    <iframe
+                      src="../GetStarted"
+                      width="100%"
+                      height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly"
+                    ></iframe>
+
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  </div>
+</div>
+
+</section>
