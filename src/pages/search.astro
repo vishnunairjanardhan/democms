@@ -1,5 +1,22 @@
 ---
 import { getCollection } from "astro:content";
+import DOMPurify from "dompurify"
+  
+  const form = document.querySelector("form");
+  form?.addEventListener("submit",(e)=>{
+    e.preventDefault();
+    const formData = new FormData(form);
+    const allPosts = getCollection("posts");
+
+    const searchTerm = DOMPurify.sanitize(formData.get("search")?.toString());
+    const filteredPosts = allPosts.filter(post =>
+  post.data.title.toLowerCase().includes(searchTerm)
+);
+    if (!searchTerm || searchTerm.length===0) return;
+    const url = new URL("/search",window.location.origin);
+    url.searchParams.set("q",searchTerm);
+    window.location.assign(url.toString());
+    })
 const allPosts = await getCollection("posts");
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 let searchQuery = "";
@@ -8,10 +25,6 @@ function handleSearch(event) {
   console.log(event,'working')
   searchQuery = event.target.value.toLowerCase();
 }
-
-const filteredPosts = allPosts.filter(post =>
-  post.data.title.toLowerCase().includes(searchQuery)
-);
 
 import CtaThree99minds from "../components/ctas/CtaThree99minds.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
@@ -119,11 +132,17 @@ import { AstroSeo } from "@astrolib/seo";
 </BaseLayout>
 <script>
   import DOMPurify from "dompurify"
+  
   const form = document.querySelector("form");
   form?.addEventListener("submit",(e)=>{
     e.preventDefault();
     const formData = new FormData(form);
+    const allPosts = getCollection("posts");
+
     const searchTerm = DOMPurify.sanitize(formData.get("search")?.toString());
+    const filteredPosts = allPosts.filter(post =>
+  post.data.title.toLowerCase().includes(searchTerm)
+);
     if (!searchTerm || searchTerm.length===0) return;
     const url = new URL("/search",window.location.origin);
     url.searchParams.set("q",searchTerm);
