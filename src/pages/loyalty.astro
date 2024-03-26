@@ -18,39 +18,22 @@ import FaqTwo from "../components/Infopages/FaqTwo.astro";
 import CtaThree99minds from "../components/ctas/CtaThree99minds.astro";
 import Integrations99minds from "../components/integrations/Integrations99minds.astro";
 import LoyaltyTab from "../components/features/LoyaltyTab.astro";
-
 import { AstroSeo } from "@astrolib/seo";
+import { Seo } from "../config/Seo";
 ---
 
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="Build Strong Customer Loyalty With 99minds Loyalty Program | 99minds"
-  description="99minds loyalty program enables businesses to increase brand loyalty and forge endless customer relationships that boost customer engagement and retention."
+  title="Omnichannel Loyalty Program For Your Online And In-Store Business | 99minds"
+  description="Boost Repeat Business & Customer Satisfaction: Motivate repeat purchases and build customer loyalty with an engaging points program."
   canonical="https://www.99minds.io"
   openGraph={{
     url: "https://www.99minds.io",
-    title: "Build Strong Customer Loyalty With 99minds Loyalty Program | 99minds",
-    description: "99minds loyalty program enables businesses to increase brand loyalty and forge endless customer relationships that boost customer engagement and retention.",
-    images: [
-      {
-        url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Social open graph",
-        type: "image/jpeg",
-      },
-      {
-        url: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg",
-        width: 4096,
-        height: 4096,
-        alt: "Twitter open graph",
-        type: "image/jpeg",
-      },
-      { url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg" },
-      { url: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg" },
-    ],
+    title: "Omnichannel Loyalty Program For Your Online And In-Store Business | 99minds",
+    description: "Boost Repeat Business & Customer Satisfaction: Motivate repeat purchases and build customer loyalty with an engaging points program.",
+    images: Seo.openGraph.images,
     site_name: "99minds",
   }}
   twitter={{

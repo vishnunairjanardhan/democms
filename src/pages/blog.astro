@@ -1,6 +1,10 @@
 ---
 import { getCollection } from "astro:content";
 const allPosts = await getCollection("posts");
+const sortedPosts = allPosts.sort((a, b) => {
+  // Assuming pubDate is a string in ISO 8601 format, you can directly compare them
+  return new Date(b.data.pubDate) - new Date(a.data.pubDate);
+});
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 let searchQuery = "";
 
