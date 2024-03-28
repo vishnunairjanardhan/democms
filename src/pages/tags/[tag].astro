@@ -31,36 +31,35 @@ const { posts } = Astro.props;
       class="max-w-7xl px-8 md:px-12 lg:px-32 mx-auto py-32 lg:py-36 relative">
       <div>
         <p
-          class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
-          Tags categories
-        </p><p
-          class="mt-8 text-4xl font-normal tracking-tighter text-white sm:text-5xl">
-          Blog posts tagged with {tag}
+          class="mt-8 text-4xl text-center font-normal tracking-tighter text-white sm:text-5xl">
+          Blogs about {tag}
         </p>
-        <form class="mt-6 sm:flex sm:max-w-md">
-          <label for="email-address" class="sr-only">Email address</label>
-          <input
-            type="email"
-            name="email-address"
-            id="email-address"
-            autocomplete="email"
-            required
-            class="block w-full h-10 px-4 py-2 text-sm text-indigo-300 bg-transparent border rounded-lg appearance-none border-white/10 placeholder-white/50 focus:border-indigo-300 focus:bg-transparent focus:outline-none focus:ring-indigo-300 sm:text-sm"
-            placeholder="Enter your email"
-          />
-          <div class="mt-4 sm:ml-2 sm:mt-0 sm:flex-shrink-0">
-            <button
-              type="submit"
-              class="flex items-center justify-center w-auto h-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500"
-              >Subscribe</button
-            >
-          </div>
-        </form>
+        <div class="flex justify-center">
+          <form class="mt-6 sm:flex sm:max-w-md lg:w-1/2">
+            <label for="search" class="sr-only">Enter Blog</label>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              required
+              class="block w-full h-10 px-4 py-2 text-sm text-indigo-300 bg-transparent border rounded-lg appearance-none border-white/10 placeholder-white/50 focus:border-indigo-300 focus:bg-transparent focus:outline-none focus:ring-indigo-300 sm:text-sm"
+              placeholder="Enter Blog Name"
+            />
+            <div class="mt-4 sm:ml-2 sm:mt-0 sm:flex-shrink-0">
+              <button
+                type="submit"
+                class="flex items-center justify-center w-auto h-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500"
+              >
+                Search
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
 
       <div class="py-24">
         <ol
-          class="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2"
+          class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-1"
           role="list">
           {
             posts.map((post) => (
