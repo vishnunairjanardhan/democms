@@ -30,13 +30,13 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
               @click="selected !== 1 ? selected = 1 : selected = null">
               <div class="flex items-center justify-between text-white group">
                 <p
-                  class="text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
+                   class="w-4/5 text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
                   What if I need to add someone new to my team?
                 </p>
                 <svg
-                  :class="{'rotate-180': open, 'rotate-0': !open}"
+                    :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="inline w-5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
+    class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
                   viewBox="0 0 20 20"
                   fill="currentColor">
                   <path
@@ -63,13 +63,13 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
               @click="selected !== 2 ? selected = 2 : selected = null">
               <div class="flex items-center justify-between text-white group">
                 <p
-                  class="text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
+                   class="w-4/5 text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
                   Can I change plans anytime I want? How long are the contracts?
                 </p>
                 <svg
-                  :class="{'rotate-180': open, 'rotate-0': !open}"
+                    :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="inline w-5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
+    class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
                   viewBox="0 0 20 20"
                   fill="currentColor">
                   <path
@@ -96,13 +96,13 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
               @click="selected !== 3 ? selected = 3 : selected = null">
               <div class="flex items-center justify-between text-white group">
                 <p
-                  class="text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
+                   class="w-4/5 text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
                   Do I need any advanced technical skills or professional support services to implement 99minds?
                 </p>
                 <svg
-                  :class="{'rotate-180': open, 'rotate-0': !open}"
+                    :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="inline w-5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
+    class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
                   viewBox="0 0 20 20"
                   fill="currentColor">
                   <path
@@ -129,13 +129,13 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
               @click="selected !== 4 ? selected = 4 : selected = null">
               <div class="flex items-center justify-between text-white group">
                 <p
-                  class="text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
+                   class="w-4/5 text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
                   Will my data be private and safe?
                 </p>
                 <svg
-                  :class="{'rotate-180': open, 'rotate-0': !open}"
+                    :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="inline w-5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
+    class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
                   viewBox="0 0 20 20"
                   fill="currentColor">
                   <path
@@ -162,13 +162,13 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
               @click="selected !== 5 ? selected = 5 : selected = null">
               <div class="flex items-center justify-between text-white group">
                 <p
-                  class="text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
+                   class="w-4/5 text-base duration-200 text-vulcan-300 group-hover:text-indigo-400">
                   Does 99minds integrate with other systems and applications?
                 </p>
                 <svg
-                  :class="{'rotate-180': open, 'rotate-0': !open}"
+                    :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="inline w-5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
+    class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
                   viewBox="0 0 20 20"
                   fill="currentColor">
                   <path
@@ -198,3 +198,9 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
     </div>
   </div>
 </section>
+<style>
+  .custom-svg {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+  }
+</style>
