@@ -51,7 +51,7 @@ const All = [
               {All.map((item, index) => (
                 <li key={index}>
                   <div>
-                    <img class='w-1/4' src={item.image} alt={item.title} />
+                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.title} /></a>
                     <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p>
                   </div>
                   <div class="mt-2 text-sm text-vulcan-300">
@@ -90,6 +90,9 @@ const All = [
                   </div>
                   <div class="mt-2 text-sm text-vulcan-300">
                     {item.desc}
+                  </div>
+                  <div class="mt-2 text-sm text-vulcan-300">
+                    {item.read}
                   </div>
                 </li>
               ))}
