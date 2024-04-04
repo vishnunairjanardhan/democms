@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-10.png"
   alt: "Digital Gift Crads vs. Plastic Gift Crads."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/the-green-revolution-digital-gift-cards-vs-plastic-gift-cards"
+
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-10.png">
 

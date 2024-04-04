@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/how-is-eCommerce-evolving-800x450.jpg"
   alt: "How is ecommerce evolving."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-is-online-ecommerce-evolving"
+
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/how-is-online-ecommerce-evolving/">
 <img src="/assets/blog/how-is-eCommerce-evolving.jpg"></a>

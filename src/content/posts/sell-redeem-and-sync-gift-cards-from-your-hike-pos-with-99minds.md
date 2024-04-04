@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Setting-Up-Gift-Cards-Via-Hike-POS-using-99minds4.jpg"
   alt: "The word community with a heart."
 tags: ["Omnichannel"]
+url: "https://www.99minds.io/blog/sell-redeem-and-sync-gift-cards-from-your-hike-pos-with-99minds"
+
 ---
 <img src="/assets/blog/Setting-Up-Gift-Cards-Via-Hike-POS-using-99minds4.jpg">
 

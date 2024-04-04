@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Loyalty-for-pet-insurance2-1.jpg"
   alt: "The word community with a heart."
 tags: ["Loyalty","Loyalty Program"]
+url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-pet-insurance"
+
 ---
 <img src="/assets/blog/Loyalty-for-pet-insurance2-1.jpg">
 

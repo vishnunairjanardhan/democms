@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-99minds-fits-Into-Your-Martech-Stack.jpg"
   alt: "The word community with a heart."
 tags: ["Loyalty Program","Omnichannel","Gift Card"]
+url: "https://www.99minds.io/blog/how-99minds-fits-into-your-martech-stack"
+
 ---
 <img src="/assets/blog/How-99minds-fits-Into-Your-Martech-Stack.jpg">
 

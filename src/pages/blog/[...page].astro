@@ -19,9 +19,7 @@ return paginate (sortedPosts, {
     })
 }
 const {page} = Astro.props;
-console.log(page,"page data")
 function handleSearch(event) {
-  console.log(event,'working')
   searchQuery = event.target.value.toLowerCase();
 }
 
@@ -34,9 +32,9 @@ const filteredPosts = allPosts.filter(post =>
 <AstroSeo
   title='99minds - Blog'
   description="Discover diverse perspectives and valuable insights at 99minds Blog"
-  canonical="https://www.99minds.io"
+  canonical="https://www.99minds.io/blog"
   openGraph={{
-    url: "https://www.99minds.io",
+    url: "https://www.99minds.io/blog",
     title: "Get Inspired: 99minds Blog Hub",
     description: "Discover diverse perspectives and valuable insights at 99minds Blog",
     images: [
@@ -61,7 +59,7 @@ const filteredPosts = allPosts.filter(post =>
   }}
   twitter={{
     handle: "@99minds_io",
-    site: "@site",
+    site: "@99minds",
     cardType: "summary_large_image",
   }}
 />
@@ -70,12 +68,9 @@ const filteredPosts = allPosts.filter(post =>
   <section>
     <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-32 lg:py-36 relative">
       <div class="flex justify-center">
-        <!-- <p class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
-          our blog
-        </p> -->
-        <p class="mt-8 text-4xl font-normal tracking-tighter text-white sm:text-5xl">
+        <h1 class="mt-8 text-4xl font-normal tracking-tighter text-white sm:text-5xl">
           Get all of our latest updates.
-        </p>
+        </h1>
       </div>
         <div class="flex justify-center">
           <form class="mt-6 sm:flex sm:max-w-md lg:w-1/2">
@@ -126,17 +121,6 @@ const filteredPosts = allPosts.filter(post =>
               />
             ))}
         </ol>
-        <!-- <div class="max-w-md px-5 lg:w-1/4 sm:w-1/4">
-          <ul class="flex flex-wrap gap-4" role="list">
-            {tags.map((tag) => (
-              <a href={`/tags/${tag}`} key={tag}>
-                <li class="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">
-                  {tag}
-                </li>
-              </a>
-            ))}
-          </ul>
-        </div> -->
       </div>
       <form class="mt-6 sm:flex sm:max-w-md">
         <label for="email-address" class="sr-only">Email address</label>
@@ -159,7 +143,7 @@ const filteredPosts = allPosts.filter(post =>
       </form>
     </div>
   </section>
-  <div class="flex items-center justify-center">
+  <div class="flex items-center justify-center mb-8">
   <Pagination class="flex item-center" prevUrl={page.url.prev} nextUrl={page.url.next}/>
   </div>
   <CtaThree99minds />

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/10-Best-Point-of-Sale-POS-Systems-for-2022-800x450.jpg"
   alt: "10 best popint of sale POS systems for 2022."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/10-best-point-of-sale-pos-systems-for-2022"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/10-best-point-of-sale-pos-systems-for-2022/">
 <img src="/assets/blog/10-Best-Point-of-Sale-POS-Systems-for-2022.jpg"></a>

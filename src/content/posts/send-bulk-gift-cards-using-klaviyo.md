@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/send-bulk-gift-cards-using-klaviyo-800x450.jpg"
   alt: "Send bulk gift cards with omisend using 99minds."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/send-bulk-gift-cards-using-klaviyo"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/send-bulk-gift-cards-using-klaviyo-with-99minds/">
 <img src="/assets/blog/send-bulk-gift-cards-using-klaviyo.jpg"></a>

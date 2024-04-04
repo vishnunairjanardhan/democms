@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-Personalized-Experiences-Are-the-Key-to-Driving-Customer-Loyalty-800x450.jpg"
   alt: "How personalized experiences are the key to driving customer loyalty."
 tags: ["Gift Card", "Loyalty"]
+url: "https://www.99minds.io/blog/how-personalized-experiences-are-the-key-to-driving-customer-loyalty"
+
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/how-personalized-experiences-are-the-key-to-driving-customer-loyalty/" target="_blank">
 <img src="/assets/blog/How-Personalized-Experiences-Are-the-Key-to-Driving-Customer-Loyalty.jpg"></a>

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/5-Tips-For-Promoting-Fathers-Day-In-Your-Online-Shop.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/5-tips-for-promoting-fathers-day-in-your-online-shop"
+
 ---
 <img src="/assets/blog/5-Tips-For-Promoting-Fathers-Day-In-Your-Online-Shop.jpg">
 

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Innovations-in-e-commerce-800x450.jpg"
   alt: "innovation in e-commerce."
 tags: ["Loyalty"]
+url: "https://www.99minds.io/blog/innovations-in-e-commerce"
+
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/innovations-in-e-commerce//" target="_blank">
 <img src="/assets/blog/Innovations-in-e-commerce.jpg"></a>

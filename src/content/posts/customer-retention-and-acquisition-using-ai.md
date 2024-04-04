@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Presentation-image1.jpg"
   alt: "The word community with a heart."
 tags: ["Artificial Intelligence"]
+url: "https://www.99minds.io/blog/customer-retention-and-acquisition-using-ai"
+
 ---
 <img src="/assets/blog/Presentation-image1.jpg">
 

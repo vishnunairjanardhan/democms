@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Small-Business-ideas-for-Valentines-Day.jpg"
   alt: "The word community with a heart."
 tags: ["Marketing"]
+url: "https://www.99minds.io/blog/small-business-ideas-for-valentines-day"
+
 ---
 <img src="/assets/blog/Small-Business-ideas-for-Valentines-Day.jpg">
 

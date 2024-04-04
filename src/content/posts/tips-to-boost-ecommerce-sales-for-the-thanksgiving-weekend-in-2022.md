@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Tips-To-Boost-eCommerce-Sales-for-The-Thanksgiving-Weekend1.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce","Gift Card"]
+url: "https://www.99minds.io/blog/tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022"
+
 ---
 <img src="/assets/blog/Tips-To-Boost-eCommerce-Sales-for-The-Thanksgiving-Weekend1.jpg">
 

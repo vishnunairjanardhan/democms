@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-to-drive-sales-through-promotional-cards2.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-to-drive-sales-through-promotional-cards"
+
 ---
 <img src="/assets/blog/How-to-drive-sales-through-promotional-cards2.jpg">
 

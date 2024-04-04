@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Internationalization-Strategies-in-e-commerce.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/internationalization-strategies-in-e-commerce"
+
 ---
 <img src="/assets/blog/Internationalization-Strategies-in-e-commerce.jpg">
 

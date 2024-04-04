@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-Halloween-Inspires-E-Commerce-Marketing1-800x450.jpg"
   alt: "How halloween inspires e-commerce marketing."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-halloween-inspires-e-commerce-marketing"
+
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/how-halloween-inspires-e-commerce-marketing/">
 <img src="/assets/blog/How-Halloween-Inspires-E-Commerce-Marketing1.jpg"></a>

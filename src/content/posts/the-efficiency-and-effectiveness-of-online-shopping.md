@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/The-effectiveness-of-online-shopping-1-800x450.jpg"
   alt: "The efficiency and effectiveness of online shopping."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/the-efficiency-and-effectiveness-of-online-shopping"
+
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/the-efficiency-and-effectiveness-of-online-shopping/" target="_blank">
 <img src="/assets/blog/The-effectiveness-of-online-shopping-1.jpg"></a>

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/The-Art-of-Creating-Irresistible-Gift-Card-Designs-for-Your-Shopify-Store.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store"
+
 ---
 <img src="/assets/blog/The-Art-of-Creating-Irresistible-Gift-Card-Designs-for-Your-Shopify-Store.jpg">
 

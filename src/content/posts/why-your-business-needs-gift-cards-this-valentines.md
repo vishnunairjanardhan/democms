@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Why-your-business-needs-Gift-Cards-this-Valentines-1.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/why-your-business-needs-gift-cards-this-valentines"
+
 ---
 <img src="/assets/blog/Why-your-business-needs-Gift-Cards-this-Valentines-1.jpg">
 

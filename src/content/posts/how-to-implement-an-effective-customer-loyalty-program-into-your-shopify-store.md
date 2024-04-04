@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Building-Customer-Loyalty-How-to-Implement-Effective-Loyalty-Programs-on-Your-Shopify-Store.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card", "Shopify"]
+url: "https://www.99minds.io/blog/how-to-implement-an-effective-customer-loyalty-program-into-your-shopify-store"
+
 ---
 <img src="/assets/blog/Building-Customer-Loyalty-How-to-Implement-Effective-Loyalty-Programs-on-Your-Shopify-Store.jpg">
 

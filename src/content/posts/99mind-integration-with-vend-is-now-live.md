@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/vendXbigcommerce1-1-800x450.jpg"
   alt: "99minds integration with vend is now live."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/99mind-integration-with-vend-is-now-live"
+
 --- 
 <img src="/assets/blog/vendXbigcommerce1.jpg">
 

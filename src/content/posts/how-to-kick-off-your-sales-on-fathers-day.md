@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-To-Kick-Off-Your-Sales-for-Fathers-Day-800x450.jpg"
   alt: "How to kick off your sales for fathers day."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-to-kick-off-your-sales-on-fathers-day"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/how-to-kick-off-your-sales-on-fathers-day/">
 <img src="/assets/blog/How-To-Kick-Off-Your-Sales-for-Fathers-Day.jpg"></a>

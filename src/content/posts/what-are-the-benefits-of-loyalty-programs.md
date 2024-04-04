@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/benefits-of-loyalty-program1.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty"]
+url: "https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs"
+
 ---
 <img src="/assets/blog/benefits-of-loyalty-program1.jpg">
 

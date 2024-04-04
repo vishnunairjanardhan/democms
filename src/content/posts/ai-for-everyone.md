@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/AI-for-Everyone.jpg"
   alt: "The word community with a heart."
 tags: ["Artificial Intelligence"]
+url: "https://www.99minds.io/blog/ai-for-everyone"
+
 ---
 <img src="/assets/blog/AI-for-Everyone.jpg">
 

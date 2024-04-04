@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/10-Best-Merchant-Services-for-2022-1-800x450.jpg"
   alt: "10 Best merchant services for 2022."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/10-best-merchant-services-for-2022"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/10-best-merchant-services-for-2022/">
 <img src="/assets/blog/10-Best-Merchant-Services-for-2022-1.jpg"></a>

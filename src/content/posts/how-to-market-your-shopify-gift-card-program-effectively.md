@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-12.png"
   alt: "Shopify Gift Card Program."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/how-to-market-your-shopify-gift-card-program-effectively"
+
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-12.png">
 

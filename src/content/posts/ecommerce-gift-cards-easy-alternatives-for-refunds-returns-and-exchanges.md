@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges-800x450.jpg"
   alt: "ecommerce gift cards easy alternatives for refund return and exchanges."
 tags: ["Gift Cards"]
+url: "https://www.99minds.io/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges"
+
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges/">
 <img src="/assets/blog/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges.jpg"></a>

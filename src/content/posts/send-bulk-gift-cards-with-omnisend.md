@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Send-bulk-gift-cards-with-Omnisend-using-99minds2-800x450.jpg"
   alt: "Send bulk gift cards with omisend using 99minds."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/send-bulk-gift-cards-with-omnisend"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/send-bulk-gift-cards-with-omnisend-using-99minds/">
 <img src="/assets/blog/Send-bulk-gift-cards-with-Omnisend-using-99minds2.jpg"></a>

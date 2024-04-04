@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/7-Valentines-Day-marketing-ideas1-1-1.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/7-valentines-day-marketing-ideas"
+
 ---
 <img src="/assets/blog/7-Valentines-Day-marketing-ideas1-1-1.jpg">
 

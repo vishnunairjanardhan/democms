@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-to-Launch-a-Successful-Referral-Program-for-Your-Small-Business-800x450.jpg"
   alt: "How to launch a successful referral program for your small business."
 tags: ["Gift Cards"]
+url: "https://www.99minds.io/blog/how-to-launch-a-successful-referral-program-for-your-small-business"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/how-to-launch-a-successful-referral-program-for-your-small-business/">
 <img src="/assets/blog/How-to-Launch-a-Successful-Referral-Program-for-Your-Small-Business.jpg"></a>

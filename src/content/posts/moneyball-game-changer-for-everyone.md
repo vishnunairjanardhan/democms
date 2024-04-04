@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Moneyball-Game-Changer-for-Everyone.jpg"
   alt: "The word community with a heart."
 tags: ["Machine Learning"]
+url: "https://www.99minds.io/blog/moneyball-game-changer-for-everyone"
+
 ---
 <img src="/assets/blog/Moneyball-Game-Changer-for-Everyone.jpg">
 

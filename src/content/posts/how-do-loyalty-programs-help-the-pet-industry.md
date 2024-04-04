@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/loyalty-program.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-do-loyalty-programs-help-the-pet-industry"
+
 ---
 <img src="/assets/blog/loyalty-program.jpg">
 

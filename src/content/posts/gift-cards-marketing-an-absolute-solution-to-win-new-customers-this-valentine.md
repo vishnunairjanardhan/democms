@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Gift-Cards-Marketing-An-Absolute-Solution-To-Win-New-Customers-This-Valentine2.jpg-.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine"
+
 ---
 <img src="/assets/blog/Gift-Cards-Marketing-An-Absolute-Solution-To-Win-New-Customers-This-Valentine2.jpg-.jpg">
 

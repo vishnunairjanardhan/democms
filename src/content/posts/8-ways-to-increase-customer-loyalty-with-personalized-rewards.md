@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-5.png"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty"]
+url: "https://www.99minds.io/blog/8-ways-to-increase-customer-loyalty-with-personalized-rewards"
+
 ---
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-5.png">
 

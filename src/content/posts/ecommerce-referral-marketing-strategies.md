@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Ecommerce-Referral-Marketing-Strategies-800x450.jpg"
   alt: "Ecommerce Referral Marketing Strategies."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/ecommerce-referral-marketing-strategies"
+
 --- 
 <img src="/assets/blog/Ecommerce-Referral-Marketing-Strategies.jpg">
 

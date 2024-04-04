@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Top-18-best-free-bigcommerce-themes1-1.jpg"
   alt: "The word community with a heart."
 tags: ["BigCommerce"]
+url: "https://www.99minds.io/blog/top-18-best-free-bigcommerce-themes"
+
 ---
 <img src="/assets/blog/Top-18-best-free-bigcommerce-themes1-1.jpg">
 

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Gift-Cards-The-Perfect-Employee-Reward-For-Your-Workforce1.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/gift-cards-the-perfect-employee-reward-for-your-workforce"
+
 ---
 <img src="/assets/blog/Gift-Cards-The-Perfect-Employee-Reward-For-Your-Workforce1.jpg">
 

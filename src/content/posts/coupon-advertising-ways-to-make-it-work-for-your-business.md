@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Coupon-Advertising-800x450.jpg"
   alt: "How do you build longer lasting brand loyalty."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/coupon-advertising-ways-to-make-it-work-for-your-business"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/coupon-advertising-ways-to-make-it-work-for-your-business/">
 <img src="/assets/blog/Coupon-Advertising.jpg"></a>

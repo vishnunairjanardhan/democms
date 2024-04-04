@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-do-you-build-longer-lasting-brand-loyalty-800x450.jpg"
   alt: "How do you build longer lasting brand loyalty."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-do-you-build-longer-lasting-brand-loyalty"
+
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/how-do-you-build-longer-lasting-brand-loyalty/">
 <img src="/assets/blog/How-do-you-build-longer-lasting-brand-loyalty.jpg"></a>

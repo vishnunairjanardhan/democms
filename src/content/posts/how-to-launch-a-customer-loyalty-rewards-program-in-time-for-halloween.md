@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Heres-how-to-launch-a-customer-loyalty-rewards-program-in-time-for-Halloween--800x450.jpg"
   alt: "How to launch a customer loyalty rewards program in timr for halloween."
 tags: ["Loyalty Program"]
+url: "https://www.99minds.io/blog/how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween"
+
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween/">
 <img src="/assets/blog/Heres-how-to-launch-a-customer-loyalty-rewards-program-in-time-for-Halloween-.jpg"></a>

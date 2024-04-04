@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-to-Get-Your-eCommerce-Store-Ready-for-Black-Friday-and-Cyber-Monday2.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce","Gift Card"]
+url: "https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday"
+
 ---
 <img src="/assets/blog/How-to-Get-Your-eCommerce-Store-Ready-for-Black-Friday-and-Cyber-Monday2.jpg">
 

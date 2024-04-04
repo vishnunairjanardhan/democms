@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Best-Ways-To-Elevate-Your-Gift-Card-Marketing-In-2022.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/best-ways-to-elevate-your-gift-card-marketing-in-2022"
+
 ---
 <img src="/assets/blog/Best-Ways-To-Elevate-Your-Gift-Card-Marketing-In-2022.jpg">
 

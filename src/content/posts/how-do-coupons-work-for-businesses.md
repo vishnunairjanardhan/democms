@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-do-coupons-work-for-businesses-800x450.jpg"
   alt: "How to coupons work for businesses."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-do-coupons-work-for-businesses"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/how-do-coupons-work-for-businesses/">
 <img src="/assets/blog/How-do-coupons-work-for-businesses.jpg"></a>

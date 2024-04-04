@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Inspirational-Women-in-Ecommerce3-800x450.jpg"
   alt: "Inspirational women in ecommerce."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/inspirational-women-in-ecommerce"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/inspirational-women-in-ecommerce/" target="_blank">
 <img src="/assets/blog/Inspirational-Women-in-Ecommerce3.jpg"></a>

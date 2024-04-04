@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/WhatsApp-Image-2020-10-19-at-3.19.18-PM-1.jpeg"
   alt: "The word community with a heart."
 tags: ["BigCommerce",]
+url: "https://www.99minds.io/blog/we-are-live-with-giftcard-platform-on-bigcommerce"
+
 ---
 <img src="/assets/blog/WhatsApp-Image-2020-10-19-at-3.19.18-PM-1.jpeg">
 

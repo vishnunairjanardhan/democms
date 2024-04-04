@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Halloween-Tips-for-your-Restaurant-Use-Gift-And-Loyalty-As-The-Treat2.jpg"
   alt: "The word community with a heart."
 tags: ["Loyalty","Gift Card"]
+url: "https://www.99minds.io/blog/halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat"
+
 ---
 <img src="/assets/blog/Halloween-Tips-for-your-Restaurant-Use-Gift-And-Loyalty-As-The-Treat2.jpg">
 

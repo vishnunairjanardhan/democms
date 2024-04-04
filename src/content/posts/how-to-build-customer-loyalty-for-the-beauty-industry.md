@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Loyalty-for-beauty-Industry2.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Engagement"]
+url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-the-beauty-industry"
+
 ---
 <img src="/assets/blog/Loyalty-for-beauty-Industry2.jpg">
 

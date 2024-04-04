@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/what-makes-loyalty-program-successful-800x450.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty"]
+url: "https://www.99minds.io/blog/what-makes-a-loyalty-program-successful"
+
 ---
 <img src="/assets/blog/what-makes-loyalty-program-successful-800x450.jpg">
 

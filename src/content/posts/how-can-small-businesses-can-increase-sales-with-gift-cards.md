@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-can-small-Businesses-increase-sales-with-Giftcards.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-can-small-businesses-can-increase-sales-with-gift-cards"
+
 ---
 <img src="/assets/blog/How-can-small-Businesses-increase-sales-with-Giftcards.jpg">
 

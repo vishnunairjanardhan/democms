@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-16.png"
   alt: "The word community with a heart."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/how-to-engage-customers-post-holidays-with-gift-card-incentives"
+
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-16.png">
 Gift cards were seen as a thoughtless investment once. Recipients have been guilty of forgetting to use them. They used to lie untouched in the drawers of most recipients’ homes. But here’s one more kicker: Customers are happy to spend even after the holidays. You must have an effective post-holiday promotions strategy in place to get the best bang for your buck. Add gift card incentives into the mix to make your campaigns successful. 

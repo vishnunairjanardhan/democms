@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Are-gift-cards-only-for-Holidays-and-seasonal-sales1.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/are-gift-cards-only-for-holidays-and-seasonal-sales"
+
 ---
 <img src="/assets/blog/Are-gift-cards-only-for-Holidays-and-seasonal-sales1.jpg">
 

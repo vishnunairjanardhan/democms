@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-15.png"
   alt: "The word community with a heart."
 tags: ["Loyalty Program","Ecommerce"]
+url: "https://www.99minds.io/blog/how-to-turn-your-hard-earned-sales-into-repeat-customers"
+
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-15.png">
 Shopify stores are always looking to grab customers’ attention, and more importantly, their loyalty. Loyalty isn’t something that can be bought. Thankfully, there are ways to increase the chances of a customer being loyal to your brand. <a href="https://www.statista.com/statistics/1374927/loyalty-program-impact-consumer-decision-us/">79% of customers</a> have said that loyalty programs impact the chances of them doing business with a brand. The reason why most customers are happy to be a part of a loyalty program is because it offers a number of perks and incentives that make it worth their time. 

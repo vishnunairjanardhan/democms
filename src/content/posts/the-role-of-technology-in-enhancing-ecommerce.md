@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/The-role-of-technology-in-enhancing-eCommerce.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/the-role-of-technology-in-enhancing-ecommerce"
+
 ---
 <img src="/assets/blog/The-role-of-technology-in-enhancing-eCommerce.jpg">
 

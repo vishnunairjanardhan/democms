@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Why-You-Should-Use-Gift-Cards-As-Your-Halloween-Treats2-800x450.jpg"
   alt: "5 wicked halloween marketing ideas to boost your online sales."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/why-you-should-use-gift-cards-as-your-halloween-treats"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/why-you-should-use-gift-cards-as-your-halloween-treats/">
 <img src="/assets/blog/Why-You-Should-Use-Gift-Cards-As-Your-Halloween-Treats2.jpg"></a>

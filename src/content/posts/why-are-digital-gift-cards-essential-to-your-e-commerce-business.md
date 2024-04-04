@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Why-are-digital-gift-cards-essential-to-your-e-commerce-business-.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce","Gift Card"]
+url: "https://www.99minds.io/blog/why-are-digital-gift-cards-essential-to-your-e-commerce-business"
+
 ---
 <img src="/assets/blog/Why-are-digital-gift-cards-essential-to-your-e-commerce-business-.jpg">
 

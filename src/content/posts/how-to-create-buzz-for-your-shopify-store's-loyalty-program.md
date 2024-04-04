@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-17-1160x653.png"
   alt: "The word community with a heart."
 tags: ["Gift Card","Loyalty Program"]
+url: "https://www.99minds.io/blog/how-to-create-buzz-for-your-shopify-store's-loyalty-program"
+
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-17-1160x653.png">
 Building anticipation for loyalty program is important once you create an excellent one. “You build, people will come,” will never work in the real world. If that were the case, the most successful businesses would never invest in marketing, isn’t it? 

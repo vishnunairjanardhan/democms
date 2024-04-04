@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-to-create-a-successful-Gift-Card-Campaign-for-Christmas.png"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-to-create-a-successful-gift-card-campaign-for-christmas"
+
 ---
 <img src="/assets/blog/How-to-create-a-successful-Gift-Card-Campaign-for-Christmas.png">
 

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/1_oSROJZCosY5WD_qw_I-vXA-1920x1280.jpeg"
   alt: "The word community with a heart."
 tags: ["Artificial Intelligence"]
+url: "https://www.99minds.io/blog/ai-helps-to-make-pizza-more-delicious"
+
 ---
 <img src="/assets/blog/1_oSROJZCosY5WD_qw_I-vXA-1920x1280.jpeg">
 

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Why-should-you-use-gift-cards-for-your-business-1.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty","Gift Card"]
+url: "https://www.99minds.io/blog/why-should-you-use-gift-cards-for-your-business"
+
 ---
 <img src="/assets/blog/Why-should-you-use-gift-cards-for-your-business-1.jpg">
 

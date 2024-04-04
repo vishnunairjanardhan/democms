@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/best-fathers-day-giftcard-2021.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/the-best-gift-card-for-fathers-day-2021"
+
 ---
 <img src="/assets/blog/best-fathers-day-giftcard-2021.jpg">
 

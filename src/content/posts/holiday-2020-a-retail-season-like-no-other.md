@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Holiday-2020---A-retail-season-like-no-other-800x450.jpg"
   alt: "Holiday 2020 a retail season like no other."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/holiday-2020-a-retail-season-like-no-other"
+
 --- 
 <a href="https://www.99minds.io/blog/customer-engagement/holiday-2020-a-retail-season-like-no-other/" target="_blank">
 <img src="/assets/blog/Holiday-2020---A-retail-season-like-no-other.jpg"></a>

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Gift-Card-Services-for-Marchants-800x450.jpg"
   alt: "Gift card services for marchants."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/gift-card-services-for-merchants"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/gift-card-services-for-merchants/">
 <img src="/assets/blog/Gift-Card-Services-for-Marchants.jpg"></a>

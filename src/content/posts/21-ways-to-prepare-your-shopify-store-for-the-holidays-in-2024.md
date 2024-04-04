@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/21ways-to-prepare.png"
   alt: "The word community with a heart."
 tags: ["Gift Card", "Shopify"]
+url: "https://www.99minds.io/blog/21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024"
+
 ---
 <img src="/assets/blog/21ways-to-prepare.png">
 It is that time of the year when there is an expectant smile in everyone’s eyes. There is a glimmer of hope because everyone believes that the holidays will usher in prosperity and happiness. If you run an eCommerce Shopify store, you are in for a great time. Why? Because people are ready to open their purse strings without thinking too much as they want to share their joy. Store owners should invest time and effort in Shopify holiday preparation to get the best out of this wonderful season. 

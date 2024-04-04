@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Unlocking-the-Power-of-gift-cards-1160x653.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card", "Shopify"]
+url: "https://www.99minds.io/blog/unlocking-the-power-of-gift-cards-boosting-sales-and-customer-loyalty-on-your-shopify-store"
+
 ---
 <img src="/assets/blog/Unlocking-the-Power-of-gift-cards-1160x653.jpg">
 

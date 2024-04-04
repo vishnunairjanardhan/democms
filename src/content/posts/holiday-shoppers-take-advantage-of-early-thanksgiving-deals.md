@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Holiday-Shoppers-Take-Advantage-of-Early-Thanksgiving-Deals-800x450.jpg"
   alt: "Holiday shoppers take advantage of early thanksgiving deal."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/holiday-shoppers-take-advantage-of-early-thanksgiving-deals"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/holiday-shoppers-take-advantage-of-early-thanksgiving-deals/">
 <img src="/assets/blog/Holiday-Shoppers-Take-Advantage-of-Early-Thanksgiving-Deals.jpg"></a>
