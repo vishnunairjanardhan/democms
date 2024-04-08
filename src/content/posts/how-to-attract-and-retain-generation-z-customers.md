@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-to-attract-retain-gen-Z-customers-800x450.jpg"
   alt: "How to attract retain gen Z customers."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-to-attract-and-retain-generation-z-customers"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/how-to-attract-and-retain-generation-z-customers/">
 <img src="/assets/blog/How-to-attract-retain-gen-Z-customers.jpg"></a>

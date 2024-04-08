@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Why-Gift-Cards-Are-the-Perfect-Present-for-Busy-Moms-on-Mothers-Day-800x450.jpg"
   alt: "Why gift cards are the prefect present for busy moms on mothers day."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day/" target="_blank">
 <img src="/assets/blog/Why-Gift-Cards-Are-the-Perfect-Present-for-Busy-Moms-on-Mothers-Day.jpg"></a>

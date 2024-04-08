@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Portrait-of-the-average-gift-card-shopper1-800x450.jpg"
   alt: "Portrait of the average gift card shopper."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/portrait-of-the-average-gift-card-shopper"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/portrait-of-the-average-gift-card-shopper/" target="_blank">
 <img src="/assets/blog/Portrait-of-the-average-gift-card-shopper1.jpg"></a>

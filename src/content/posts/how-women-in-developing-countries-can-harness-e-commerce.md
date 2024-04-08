@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-women-in-developing-countries-can-harness-e-commerce1-800x450.jpg"
   alt: "How women in developing countries can harness e-commercel."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-women-in-developing-countries-can-harness-e-commerce"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/how-women-in-developing-countries-can-harness-e-commerce/" target="_blank">
 <img src="/assets/blog/How-women-in-developing-countries-can-harness-e-commerce1.jpg"></a>

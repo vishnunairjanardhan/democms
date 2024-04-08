@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Best-Mothers-Day-Gift-Cards-02021.png-800x450.jpg"
   alt: "Best mothers day gift card 2021."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/best-mothers-day-gift-cards-2021"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/best-mothers-day-gift-cards-2021/">
 <img src="/assets/blog/Best-Mothers-Day-Gift-Cards-02021.png.jpg"></a>

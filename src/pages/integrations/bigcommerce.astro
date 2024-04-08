@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import HeroBigcommerce from "../../components/heros/HeroBigcommerce.astro";
+import HeroBigcommerce2 from "../../components/heros/HeroBigcommerce2.astro";
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import FeatureBcom2 from "../../components/features/FeatureBcom2.astro";
 import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
@@ -8,6 +8,7 @@ import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
 import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
 import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
 import BcomRating from "../../components/Infopages/BcomRating.astro";
+import IntegrationBigC from "../../components/integrations/IntegrationBigC.astro";
 
 
 import { AstroSeo } from "@astrolib/seo";
@@ -19,9 +20,9 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <AstroSeo
   title="Convert Refunds to Sales with 99mind's Store Credit Software | 99minds"
   description="Build customer loyalty and increase sales by easily issuing store credit to process refunds and reward customers."
-  canonical="https://www.99minds.io/store-credit"
+  canonical="https://www.99minds.io/integrations/bigcommerce"
   openGraph={{
-    url: "https://www.99minds.io/store-credit",
+    url: "https://www.99minds.io/integrations/bigcommerce",
     title: "Convert Refunds to Sales with 99mind's Store Credit Software | 99minds",
     description: "Build customer loyalty and increase sales by easily issuing store credit to process refunds and reward customers.",
     images: [
@@ -46,17 +47,18 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
   twitter={{
     handle: "@99minds_io",
-    site: "@site",
+    site: "@99minds",
     cardType: "summary_large_image",
   }}
 />
 <BaseLayout>
-  <HeroBigcommerce />
+  <HeroBigcommerce2 />
   <LogoCloudOne />
   <FeatureBcom1 />
   <FeatureBcom2 />
+  <IntegrationBigC />
   <BcomRating />
   <!--<Testimonialtry />-->
   <!--<Integrations99minds />-->
-  <CtaThree99minds />
+  <!--<CtaThree99minds />-->
 </BaseLayout>

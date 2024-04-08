@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-to-turn-your-hard-earned-sales-into-repeat-customers.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Retention"]
+url: "https://www.99minds.io/blog/how-to-turn-your-hard-earned-sales-into-repeat-customers"
+
 ---
 <img src="/assets/blog/How-to-turn-your-hard-earned-sales-into-repeat-customers.jpg">
 

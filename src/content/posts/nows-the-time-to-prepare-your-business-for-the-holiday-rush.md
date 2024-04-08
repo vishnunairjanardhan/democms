@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Nows-the-time-to-prepare-your-business-for-the-holiday-rush.jpg"
   alt: "The word community with a heart."
 tags: ["Marketing"]
+url: "https://www.99minds.io/blog/nows-the-time-to-prepare-your-business-for-the-holiday-rush"
+
 ---
 <img src="/assets/blog/Nows-the-time-to-prepare-your-business-for-the-holiday-rush.jpg">
 

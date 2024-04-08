@@ -7,9 +7,9 @@ import { AstroSeo } from "@astrolib/seo";
 <AstroSeo
   title={frontmatter.title}
   description={frontmatter.description}
-  canonical="https://www.99minds.io"
+  canonical={frontmatter?.url}
   openGraph={{
-    url: "https://www.99minds.io",
+    url: frontmatter?.url,
     title: frontmatter.openGraphTitle || frontmatter.title,
     description: frontmatter.openGraphDescription || frontmatter.description,
     images: [
@@ -34,7 +34,7 @@ import { AstroSeo } from "@astrolib/seo";
   }}
   twitter={{
     handle: "@99minds_io",
-    site: "@site",
+    site: "@99minds",
     cardType: "summary_large_image",
   }}
 />

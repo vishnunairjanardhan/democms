@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Loyalty-Trends.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty"]
+url: "https://www.99minds.io/blog/loyalty-trends-for-the-decade-to-come"
+
 ---
 <img src="/assets/blog/Loyalty-Trends.jpg">
 

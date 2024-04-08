@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/What-is-the-future-of-e-commerce-in-the-next-5-10-years.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/what-is-the-future-of-e-commerce-in-the-next-5-10-years"
+
 ---
 <img src="/assets/blog/What-is-the-future-of-e-commerce-in-the-next-5-10-years.jpg">
 

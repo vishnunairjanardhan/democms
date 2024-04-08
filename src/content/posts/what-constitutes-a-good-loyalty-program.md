@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/What-constitutes-a-good-loyalty-program.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty", "Loyalty Program"]
+url: "https://www.99minds.io/blog/what-constitutes-a-good-loyalty-program"
+
 ---
 <img src="/assets/blog/What-constitutes-a-good-loyalty-program.jpg">
 

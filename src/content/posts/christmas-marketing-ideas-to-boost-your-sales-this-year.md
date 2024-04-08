@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/christmas-promotion-ideas-for-eCommerce-store.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/christmas-marketing-ideas-to-boost-your-sales-this-year"
+
 ---
 <img src="/assets/blog/christmas-promotion-ideas-for-eCommerce-store.jpg">
 

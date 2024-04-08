@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Top-5-bigcommerce-apps-to-boost-conversions-1.jpg"
   alt: "The word community with a heart."
 tags: ["BigCommerce"]
+url: "https://www.99minds.io/blog/top-5-bigcommerce-apps-to-boost-conversions"
+
 ---
 <img src="/assets/blog/Top-5-bigcommerce-apps-to-boost-conversions-1.jpg">
 

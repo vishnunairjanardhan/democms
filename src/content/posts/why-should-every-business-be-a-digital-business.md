@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Why-should-every-business-be-a-digital-business1.jpg"
   alt: "The word community with a heart."
 tags: ["Loyalty"]
+url: "https://www.99minds.io/blog/why-should-every-business-be-a-digital-business1"
+
 ---
 <img src="/assets/blog/Why-should-every-business-be-a-digital-business1.jpg">
 

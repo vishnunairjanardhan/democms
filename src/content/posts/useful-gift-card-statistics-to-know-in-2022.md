@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Essential-Gift-Card-Statistics-You-Should-Know-in-2022.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/useful-gift-card-statistics-to-know-in-2022"
+
 ---
 <img src="/assets/blog/Essential-Gift-Card-Statistics-You-Should-Know-in-2022.jpg">
 

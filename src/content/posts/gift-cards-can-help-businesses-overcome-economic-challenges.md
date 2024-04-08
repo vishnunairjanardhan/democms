@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Gift-Cards-Can-Help-Businesses-Overcome-Economic-Challenges1.png"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges"
+
 ---
 <img src="/assets/blog/Gift-Cards-Can-Help-Businesses-Overcome-Economic-Challenges1.png">
 

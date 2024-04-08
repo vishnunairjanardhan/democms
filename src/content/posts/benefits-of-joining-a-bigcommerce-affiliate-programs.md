@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Benefits-of-Joining-a-BigCommerce-Affiliate-Programs.jpg"
   alt: "The word community with a heart."
 tags: ["BigCommerce"]
+url: "https://www.99minds.io/blog/benefits-of-joining-a-bigcommerce-affiliate-programs"
+
 ---
 <img src="/assets/blog/Benefits-of-Joining-a-BigCommerce-Affiliate-Programs.jpg">
 

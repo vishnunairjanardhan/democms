@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Gift-card-scams-and-what-you-need-to-know-about-them-800x450.jpg"
   alt: "Gift card scams and what  you need to know about them."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/gift-card-scams-and-what-you-need-to-know-about-them"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/gift-card-scams-and-what-you-need-to-know-about-them//" target="_blank">
 <img src="/assets/blog/Gift-card-scams-and-what-you-need-to-know-about-them.jpg"></a>

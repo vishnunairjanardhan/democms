@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-to-use-gift-cards-in-SMS-marketing-800x450.jpg"
   alt: "How to use gift card in SMS marketing."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-to-use-gift-cards-in-sms-marketing"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/how-to-use-gift-cards-in-sms-marketing/" target="_blank">
 <img src="/assets/blog/How-to-use-gift-cards-in-SMS-marketing.jpg"></a>

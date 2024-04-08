@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-3.png"
   alt: "The word community with a heart."
 tags: ["Gift Card","Ecommerce","Loyalty Program"]
+url: "https://www.99minds.io/blog/the-rise-of-gift-card-popularity-in-the-ecommerce-era"
+
 ---
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-3.png">
 

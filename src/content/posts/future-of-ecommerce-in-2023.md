@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Future-of-ecommerce-in-2023-1.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/future-of-ecommerce-in-2023"
+
 ---
 <img src="/assets/blog/Future-of-ecommerce-in-2023-1.jpg">
 

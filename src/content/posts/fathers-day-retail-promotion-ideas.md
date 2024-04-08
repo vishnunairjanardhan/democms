@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Fathers-Day-retail-promotion-ideas-800x450.jpg"
   alt: "Fathers day retail promotion ideas."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/fathers-day-retail-promotion-ideas"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/fathers-day-retail-promotion-ideas/">
 <img src="/assets/blog/Fathers-Day-retail-promotion-ideas.jpg"></a>

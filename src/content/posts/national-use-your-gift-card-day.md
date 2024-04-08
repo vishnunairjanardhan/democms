@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/National-Gift-Card-Day.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/national-use-your-gift-card-day"
+
 ---
 <img src="/assets/blog/National-Gift-Card-Day.jpg">
 

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/customer-loyalty-for-subsceiption-as-a-service.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Loyalty"]
+url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-subscription-as-a-service"
+
 ---
 <img src="/assets/blog/customer-loyalty-for-subsceiption-as-a-service.jpg">
 

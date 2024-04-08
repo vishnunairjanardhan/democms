@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-2.png"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/10-best-practices-for-setting-up-your-shopify-gift-card-program"
+
 ---
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-2.png">
 

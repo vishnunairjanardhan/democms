@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Customer-Loyalty-Programs-Will-they-benefit-my-business-800x450.jpg"
   alt: "6 mothers day marketing ideas for ecommerce business ."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/customer-loyalty-programs-will-they-benefit-my-business"
+
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/customer-loyalty-programs-will-they-benefit-my-business/">
 <img src="/assets/blog/Customer-Loyalty-Programs-Will-they-benefit-my-business.jpg"></a>

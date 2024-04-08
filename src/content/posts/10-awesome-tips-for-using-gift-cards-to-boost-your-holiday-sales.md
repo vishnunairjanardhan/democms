@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/10-Awesome-Tips-for-Using-Gift-Cards-to-Boost-Your-Holiday-Sales.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/10-awesome-tips-for-using-gift-cards-to-boost-your-holiday-sales"
+
 ---
 <img src="/assets/blog/10-Awesome-Tips-for-Using-Gift-Cards-to-Boost-Your-Holiday-Sales.jpg">
 

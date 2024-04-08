@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Gift-card-market-trends.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/gift-card-marketing-trends"
+
 ---
 <img src="/assets/blog/Gift-card-market-trends.jpg">
 

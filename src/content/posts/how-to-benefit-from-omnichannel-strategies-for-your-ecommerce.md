@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce1.jpg"
   alt: "The word community with a heart."
 tags: ["Omnichannel"]
+url: "https://www.99minds.io/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce"
+
 ---
 <img src="/assets/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce1.jpg">
 

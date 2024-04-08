@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Importance-of-Omnichannel-Loyalty-Program1.jpg"
   alt: "The word community with a heart."
 tags: ["Loyalty","Omnichannel"]
+url: "https://www.99minds.io/blog/importance-of-omni-channel-loyalty-programs"
+
 ---
 <img src="/assets/blog/Importance-of-Omnichannel-Loyalty-Program1.jpg">
 

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Ways-to-Incentivize-your-Bigcommerce-Customers-to-Return.jpg"
   alt: "The word community with a heart."
 tags: ["BigCommerce",]
+url: "https://www.99minds.io/blog/ways-to-incentivize-your-bigcommerce-customers-to-return"
+
 ---
 <img src="/assets/blog/Ways-to-Incentivize-your-Bigcommerce-Customers-to-Return.jpg">
 

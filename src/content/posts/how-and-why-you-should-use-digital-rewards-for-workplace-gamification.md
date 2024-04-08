@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-and-Why-You-Should-Use-Digital-Rewards-for-Workplace-Gamification3-800x450.jpg"
   alt: "How and why you should use digital rewards for workplace gamification."
 tags: ["Gift Cards"]
+url: "https://www.99minds.io/blog/how-and-why-you-should-use-digital-rewards-for-workplace-gamification"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/how-and-why-you-should-use-digital-rewards-for-workplace-gamification/">
 <img src="/assets/blog/How-and-Why-You-Should-Use-Digital-Rewards-for-Workplace-Gamification3.jpg"></a>

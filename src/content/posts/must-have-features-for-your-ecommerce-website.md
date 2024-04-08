@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Must-have-features-for-your-eCommerce-website.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/must-have-features-for-your-ecommerce-website"
+
 ---
 <img src="/assets/blog/Must-have-features-for-your-eCommerce-website.jpg">
 

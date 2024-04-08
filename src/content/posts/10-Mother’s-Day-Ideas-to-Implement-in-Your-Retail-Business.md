@@ -7,6 +7,7 @@ image:
   url: "/assets/blog/retail-store-800x450.jpg"
   alt: "Best mothers day gift card 2021."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/10-mother’s-day-ideas-to-implement-in-your-retail-business"
 --- 
 <a href="99minds.io/blog/generic/http://localhost:4321/posts/grow-your-business-with-these-e-commerce-tips-for-mothers-day/">
 <img src="/assets/blog/retail-store.jpg"></a>

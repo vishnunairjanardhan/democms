@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/What-is-Omnichannel-Commerce.jpg"
   alt: "The word community with a heart."
 tags: ["Omnichannel"]
+url: "https://www.99minds.io/blog/what-is-omnichannel-commerce"
+
 ---
 <img src="/assets/blog/What-is-Omnichannel-Commerce.jpg">
 

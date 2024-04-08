@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Gift-Cards-The-gift-that-keeps-giving3-800x450.jpg"
   alt: "Gift cards the gift that keeps giving."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/gift-cards-the-gift-that-keeps-giving"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/gift-cards-the-gift-that-keeps-giving/">
 <img src="/assets/blog/Gift-Cards-The-gift-that-keeps-giving3.jpg"></a>

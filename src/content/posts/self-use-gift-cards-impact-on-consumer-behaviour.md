@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Self-Use-Gift-Cards-Impact-On-Consumer-Behavior1.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/self-use-gift-cards-impact-on-consumer-behaviour"
+
 ---
 <img src="/assets/blog/Self-Use-Gift-Cards-Impact-On-Consumer-Behavior1.jpg">
 

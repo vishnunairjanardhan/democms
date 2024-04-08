@@ -1,5 +1,5 @@
 ---
-pubDate: 2023-11-23
+pubDate: 2023-11-03
 author: Mrudul
 title: AI implementation in e-commerce
 description: "In this article, we look at how integrating gift cards with your Shopify store can put your sales machinery on overdrive."
@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/AI-implementation-in-e-commerce.png"
   alt: "The word community with a heart."
 tags: ["Artificial Intelligence","Machine Learning"]
+url: "https://www.99minds.io/blog/ai-implementation-in-e-commerce"
+
 ---
 <img src="/assets/blog/AI-implementation-in-e-commerce.png">
 Artificial intelligence(AI) is one of the most revolutionary technologies that has changed the way we live our lives. It has changed the landscape of how we shop online too. There is aggressive competition amongst eCommerce players to integrate AI technology into their stores, and there are a gazillion reasons for doing so.

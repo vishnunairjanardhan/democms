@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Easter-Promotion-Ideas-for-Brands-in-2022-800x450.jpg"
   alt: "Easter promotion ideas for brands in 2022."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/easter-promotion-ideas-for-brands-in-2022"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/easter-promotion-ideas-for-brands-in-2022/">
 <img src="/assets/blog/Easter-Promotion-Ideas-for-Brands-in-2022.jpg"></a>

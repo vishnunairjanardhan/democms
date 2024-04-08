@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-to-Sell-More-with-Gift-Cards-800x450.jpg"
   alt: "How to sell more with gift cards."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-to-sell-more-with-gift-cards"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/how-to-sell-more-with-gift-cards/">
 <img src="/assets/blog/How-to-Sell-More-with-Gift-Cards.jpg"></a>

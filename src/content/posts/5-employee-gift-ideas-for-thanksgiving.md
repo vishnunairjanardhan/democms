@@ -7,6 +7,7 @@ image:
   url: "/assets/blog/5-Employee-Gift-Ideas-For-Thanksgiving-800x450.jpg"
   alt: "5 employee gift ideas for thanksgiving."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/5-employee-gift-ideas-for-thanksgiving"
 --- 
 <a href="https://www.99minds.io/blog/gift-card/5-employee-gift-ideas-for-thanksgiving/">
 <img src="/assets/blog/5-Employee-Gift-Ideas-For-Thanksgiving.jpg"></a>

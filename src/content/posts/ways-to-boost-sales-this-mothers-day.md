@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Ways-to-Boost-Sales-this-Mothers-Day-800x450.jpg"
   alt: "Ways to boost sales this mothers day."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/ways-to-boost-sales-this-mothers-day"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/ways-to-boost-sales-this-mothers-day/">
 <img src="/assets/blog/Ways-to-Boost-Sales-this-Mothers-Day.jpg"></a>

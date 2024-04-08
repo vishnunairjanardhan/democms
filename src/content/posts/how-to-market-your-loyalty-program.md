@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-to-Market-your-Loyalty-Program-800x450.jpg"
   alt: "How to market your loyalty program."
 tags: ["Loyalty Program"]
+url: "https://www.99minds.io/blog/how-to-market-your-loyalty-program"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/10-best-point-of-sale-pos-systems-for-2022/">
 <img src="/assets/blog/How-to-Market-your-Loyalty-Program.jpg"></a>

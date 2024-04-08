@@ -7,7 +7,7 @@ image:
   url: "/assets/blog/5-Creative-Ways-to-Promote-Gift-Cards-and-Increase-Customer-Engagement-800x450.jpg"
   alt: "Promotion Gift Crad."
 tags: ["Gift Card", "Promote Gift Card"] 
-
+url: "https://www.99minds.io/blog/5-creative-ways-to-promote-gift-cards-and-increase-customer-engagement"
 ---
 <a href="/assets/blog/5-Creative-Ways-to-Promote-Gift-Cards-and-Increase-Customer-Engagement.jpg" target="_blank">
 <img src="/assets/blog/5-Creative-Ways-to-Promote-Gift-Cards-and-Increase-Customer-Engagement.jpg"></a>

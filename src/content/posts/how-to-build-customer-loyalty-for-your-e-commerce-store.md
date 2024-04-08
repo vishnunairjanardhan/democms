@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-to-build-customer-loyalty-for-your-E-commerce-store1200px.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Retention"]
+url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-your-e-commerce-store"
+
 ---
 <img src="/assets/blog/How-to-build-customer-loyalty-for-your-E-commerce-store1200px.jpg">
 

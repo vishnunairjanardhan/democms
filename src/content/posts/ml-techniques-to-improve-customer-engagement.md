@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/what-the-heck.jpg"
   alt: "The word community with a heart."
 tags: ["Machine Learning"]
+url: "https://www.99minds.io/blog/ml-techniques-to-improve-customer-engagement"
+
 ---
 <img src="/assets/blog/what-the-heck.jpg">
 

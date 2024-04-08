@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Celebrating-Women-and-their-achievements.jpg"
   alt: "Celebrating women and their achievement."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/celebrating-women-and-their-achievements"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/celebrating-women-and-their-achievements/" target="_blank">
 <img src="/assets/blog/Celebrating-Women-and-their-achievements.jpg"></a>

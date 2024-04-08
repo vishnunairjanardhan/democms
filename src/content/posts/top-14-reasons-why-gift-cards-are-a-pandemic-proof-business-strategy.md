@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/dkjfbkjads.png"
   alt: "Gift Card A Pandemic Proof Business Strategy."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/top-14-reasons-why-gift-cards-are-a-pandemic-proof-business-strategy"
+
 ---
 <img src="/assets/blog/dkjfbkjads.png">
 

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Ways-Coupons-Can-Help-Your-Business-Attract-Loyal-Customers1-800x450.jpg"
   alt: "Ways coupons can help your business attract loyal customer."
 tags: ["Coupons",]
+url: "https://www.99minds.io/blog/ways-coupons-can-help-your-business-attract-loyal-customer"
+
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/ways-coupons-can-help-your-business-attract-loyal-customer///" target="_blank">
 <img src="/assets/blog/Ways-Coupons-Can-Help-Your-Business-Attract-Loyal-Customers1.jpg"></a>

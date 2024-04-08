@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Using-Your-Social-Media-Accounts-to-Sell-More-Gift-Cards-800x450.jpg"
   alt: "Using your social accounts to sell more gift cards."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/using-your-social-media-accounts-to-sell-more-gift-cards/">
 <img src="/assets/blog/Using-Your-Social-Media-Accounts-to-Sell-More-Gift-Cards.jpg"></a>

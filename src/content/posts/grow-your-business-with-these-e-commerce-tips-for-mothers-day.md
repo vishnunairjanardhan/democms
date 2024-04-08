@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Grow-your-business-with-these-e-commerce-tips-for-Mothers-Day-800x450.jpg"
   alt: "Grow your business with these e-commerce tips for mothers day."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/grow-your-business-with-these-e-commerce-tips-for-mothers-day"
+
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/grow-your-business-with-these-e-commerce-tips-for-mothers-day/">
 <img src="/assets/blog/Grow-your-business-with-these-e-commerce-tips-for-Mothers-Day.jpg"></a>

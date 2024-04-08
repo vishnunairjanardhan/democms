@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Increasing-Repeat-Purchases-How-Gift-Cards-and-Loyalty-Programs-Can-Drive-Customer-Lifetime-Value-on-Shopify.jpg"
   alt: "The word community with a heart."
 tags: ["Loyalty Program","Shopify"]
+url: "https://www.99minds.io/blog/increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify"
+
 ---
 <img src="/assets/blog/Increasing-Repeat-Purchases-How-Gift-Cards-and-Loyalty-Programs-Can-Drive-Customer-Lifetime-Value-on-Shopify.jpg">
 Every business would prefer to have customers who purchase over and over from them. If your sales history is dotted majorly with one-time customers, you are doing something gravely wrong. You should always have several customers who regularly purchase from you. Most successful businesses would be privy to this information. This is where customer lifetime value comes into place.

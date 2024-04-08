@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/How-to-Make-This-your-most-successful-valentine-day-yet-1.jpg"
   alt: "The word community with a heart."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-to-make-this-your-most-successful-valentines-day-yet"
+
 ---
 <img src="/assets/blog/How-to-Make-This-your-most-successful-valentine-day-yet-1.jpg">
 

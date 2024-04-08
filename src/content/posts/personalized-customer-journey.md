@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Whats-a-personalized-customer-journey-and-why-do-you-need-to-offer-it-4.jpg"
   alt: "The word community with a heart."
 tags: ["Customer Acquisation"]
+url: "https://www.99minds.io/blog/personalized-customer-journey"
+
 ---
 <img src="/assets/blog/Whats-a-personalized-customer-journey-and-why-do-you-need-to-offer-it-4.jpg">
 

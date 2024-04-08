@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Essentail-Marketing-Tools.jpg"
   alt: "The word community with a heart."
 tags: ["Marketing"]
+url: "https://www.99minds.io/blog/essential-marketing-tools-for-2021"
+
 ---
 <img src="/assets/blog/Essentail-Marketing-Tools.jpg">
 

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/Beginners-Guide-to-E-Commerce-Promotions-800x450.jpg"
   alt: "beginners guide to e-commerce promotions."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/beginners-guide-to-e-commerce-promotions"
+
 --- 
 <img src="/assets/blog/Beginners-Guide-to-E-Commerce-Promotions.jpg">
 

@@ -7,6 +7,8 @@ image:
   url: "/assets/blog/10-top-eCommerce-trends-in-2023-for-B2B-and-B2C-businesses1.jpg"
   alt: "The word community with a heart."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses"
+
 ---
 <img src="/assets/blog/10-top-eCommerce-trends-in-2023-for-B2B-and-B2C-businesses1.jpg">
 
