@@ -134,17 +134,17 @@ export const Payment = [
 {
   image: '/integrations/stripe.svg',
   title: 'Stripe',
-  desc: 'A widely used payment gateway offering a smooth integration for accepting credit card payments for your gift cards.  Known for its developer-friendly tools, Stripe allows for a flexible and secure way to process gift card purchases.'
+  desc: 'Sell gift cards through the 99minds online storefront and accept payments directly into your Stripe account.'
 },
 {
   image: '/integrations/Btree logo.svg',
   title: 'Braintree',
-  desc: ' A user-friendly payment gateway owned by PayPal.  It simplifies the process for your customers to buy gift cards through features like one-click checkout and mobile wallet support.  Braintree prioritizes a secure buying experience.'
+  desc: 'Sell gift cards through the 99minds online storefront and accept payments directly into your Braintree account.'
 },
 {
   image: '/integrations/worldpay.svg',
   title: 'Worldpay Express',
-  desc: 'A global payment gateway offering a straightforward solution for accepting international credit and debit card payments for your gift cards.  Worldpay Express is a good option if you have customers abroad, particularly in Europe.'
+  desc: 'Sell gift cards through the 99minds online storefront and accept payments directly into your Worldpay Express account.'
 }
 ]
 
