@@ -51,11 +51,16 @@ const All = [
               {All.map((item, index) => (
                 <li key={index}>
                   <div>
-                    <img class='w-1/4' src={item.image} alt={item.title} />
+                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.title} /></a>
                     <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p>
                   </div>
-                  <div class="mt-2 text-sm text-vulcan-300">
+                  <div class="mt-2 text-sm justify-between text-vulcan-300">
                     {item.desc}
+                    {!!item.url &&
+                      <p class="mt-4">
+                        <a href={item.url} class="text-sm leading-6 text-indigo-300 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                      </p>
+                    }
                   </div>
                 </li>
               ))}
@@ -74,6 +79,11 @@ const All = [
                   <div class="mt-2 text-sm text-vulcan-300">
                     {item.desc}
                   </div>
+                  {!!item.url &&
+                      <p class="mt-4">
+                        <a href={item.url} class="text-sm leading-6 text-indigo-300 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                      </p>
+                    }
                 </li>
               ))}
             </ul>
@@ -90,6 +100,14 @@ const All = [
                   </div>
                   <div class="mt-2 text-sm text-vulcan-300">
                     {item.desc}
+                  </div>
+                  {!!item.url &&
+                      <p class="mt-4">
+                        <a href={item.url} class="text-sm leading-6 text-indigo-300 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                      </p>
+                    }
+                  <div class="mt-2 text-sm text-vulcan-300">
+                    {item.read}
                   </div>
                 </li>
               ))}
@@ -126,6 +144,11 @@ const All = [
                   <div class="mt-2 text-sm text-vulcan-300">
                     {item.desc}
                   </div>
+                  {!!item.url &&
+                      <p class="mt-4">
+                        <a href={item.url} class="text-sm leading-6 text-indigo-300 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                      </p>
+                    }
                 </li>
               ))}
             </ul>
@@ -143,6 +166,11 @@ const All = [
                   <div class="mt-2 text-sm text-vulcan-300">
                     {item.desc}
                   </div>
+                  {!!item.url &&
+                      <p class="mt-4">
+                        <a href={item.url} class="text-sm leading-6 text-indigo-300 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                      </p>
+                    }
                 </li>
               ))}
             </ul>
@@ -160,6 +188,11 @@ const All = [
                   <div class="mt-2 text-sm text-vulcan-300">
                     {item.desc}
                   </div>
+                  {!!item.url &&
+                      <p class="mt-4">
+                        <a href={item.url} class="text-sm leading-6 text-indigo-300 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                      </p>
+                    }
                 </li>
               ))}
             </ul>
@@ -177,6 +210,11 @@ const All = [
                   <div class="mt-2 text-sm text-vulcan-300">
                     {item.desc}
                   </div>
+                  {!!item.url &&
+                      <p class="mt-4">
+                        <a href={item.url} class="text-sm leading-6 text-indigo-300 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                      </p>
+                    }
                 </li>
               ))}
             </ul>

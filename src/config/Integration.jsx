@@ -2,12 +2,14 @@ export const Ecommerce = [
 {
   image: '/integrations/shopify.svg',
   title: 'Shopify',
-  desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers."
+  desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
+  url: "/integrations/shopify"
 },
 {
   image: '/integrations/BigCommerce-icon 1.svg',
   title: 'BigCommerce',
-  desc: " Another popular e-commerce platform that integrates with 99minds for gift card functionality.  99minds empowers you to add advanced features to your BigCommerce store, such as scheduling delivery of gift cards, rewarding gift card purchases with loyalty points, and offering promotional gift cards to drive sales."
+  desc: " Another popular e-commerce platform that integrates with 99minds for gift card functionality.  99minds empowers you to add advanced features to your BigCommerce store, such as scheduling delivery of gift cards, rewarding gift card purchases with loyalty points, and offering promotional gift cards to drive sales.",
+  url: "/integrations/bigcommerce"
 },
 {
   image: '/integrations/woocommerce 1.svg',
@@ -94,6 +96,7 @@ export const Marketing = [
   title: "Klaviyo",
   image: "/integrations/klaviyo-icon.svg",
   desc: "Klaviyo integrates with 99minds to send targeted gift card emails directly from your account.  Klaviyo leverages customer purchase history and browsing behavior to craft highly relevant emails.  Imagine sending recommendations based on past purchases or personalized birthday promotions featuring gift cards. You can even use Klaviyo to win back abandoned carts with gift card offers!",
+  url: "/integrations/klaviyo"
 },
 /*{
   image: '/integrations/hubspot.svg',

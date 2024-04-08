@@ -1,0 +1,238 @@
+---
+import Verticalgrid from "../assets/Verticalgrid.astro";
+---
+
+<section class="relative">
+  <Verticalgrid />
+  <div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-24">
+      <div class="text-center max-w-2xl lg:mt-0 mx-auto">
+      <h2 class="text-4xl font-semibold tracking-tight text-balance text-white">99minds - Klaviyo benefits</h2>
+    </div>
+          
+    <div class="grid grid-cols-1 gap-6 lg:mt-20 sm:grid-cols-2 lg:gap-24 items-center">
+      <div class=" ">
+        <!--<p
+          class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
+          Promotion Campaign
+        </p>-->
+        <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight">
+           Dynamic personalization and increased segmentation 
+        </h2>
+        <p class="mt-4 text-base text-xl text-vulcan-300 ">
+          72% of shoppers only engage with brands that deliver personalized communications. Segment your customers according to whether they are loyal, at-risk, or in need of winning back, using 99minds’ insights data.
+          Create personalized segments based on loyalty and gift cards, such as point balance or VIP tiers, to send these customers exclusive product offers via bulk email or text.
+        </p>
+          <div class="flex flex-wrap items-center gap-2 mt-10">
+              <div x-data="{ open: false }" class="flex justify-center">
+              <!-- Trigger -->
+              <span x-on:click="open = true">
+                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white">Get started for free</span>
+                </span></button>
+                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
+                      
+                    <iframe
+                      src="../GetStarted"
+                      width="100%"
+                      height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly"
+                    ></iframe>
+
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+ 
+          
+      </div>
+      
+      <div class="h-full">
+        <img
+          alt="Lexington thumbnail"
+          class="rounded-2xl shadow-vulcan-950/50 w-full"
+          src="/assets/homepage/GC-experience.png"
+        />
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+      <div class="sm:order-last  ">
+        
+        <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight">
+          Push event triggers
+        </h2>
+        <p class="mt-4 text-base text-xl text-vulcan-300 ">
+          To secure the next purchase, you need to reach the right people with the right content at the right time. Integrate 99minds with Klaviyo and send personalized emails and texts when a customer performs certain actions
+          See your loyalty program members’ individual buying behavior and create trigger-based emails and texts to power win-back and retention flows. For example, create a trigger for customers who haven’t visited your store for two months, then automatically send them rewards or gift cards available messages to give them a reason to come back.
+        </p>
+        <div class="flex flex-wrap items-center gap-2 mt-10">
+              <div x-data="{ open: false }" class="flex justify-center">
+              <!-- Trigger -->
+              <span x-on:click="open = true">
+                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white">Get started for free</span>
+                </span></button>
+                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
+                      
+                    <iframe
+                      src="../GetStarted"
+                      width="100%"
+                      height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly"
+                    ></iframe>
+
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+      <div class="h-full">
+        <img
+          alt="Lexington thumbnail"
+          class="rounded-2xl shadow-vulcan-950/50 w-full"
+          src="/assets/homepage/LP.png"
+        />
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+      <div class=" ">
+        
+        <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight">
+          Automate your referral strategy by engaging customers with loyalty data
+        </h2>
+        <p class="mt-4 text-xl text-vulcan-300">
+          Customers acquired through referrals spend 200% more than those acquired via other channels. Using 99minds and Klaviyo together, you can encourage customers to refer a friend via email and SMS with seamlessly
+        </p>
+                <div class="flex flex-wrap items-center gap-2 mt-10">
+              <div x-data="{ open: false }" class="flex justify-center">
+              <!-- Trigger -->
+              <span x-on:click="open = true">
+                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white">Get started for free</span>
+                </span></button>
+                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
+                      
+                    <iframe
+                      src="../GetStarted"
+                      width="100%"
+                      height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly"
+                    ></iframe>
+
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+      <div class="h-full">
+        <img
+          alt="Lexington thumbnail"
+          class="rounded-2xl shadow-vulcan-950/50 w-full"
+          src="/assets/homepage/SC.png"
+        />
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+      <div class="sm:order-last  ">
+        
+        <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight">
+          Send event based and promotional bulk gift cards using klaviyo 
+        </h2>
+        <p class="mt-4 text-base text-xl text-vulcan-300 ">
+          Engage customers exactly when it matters by sending customized gift card offers and loyalty rewards.  Whether it's re-engaging those who've been away for a while or celebrating milestones, our Klaviyo integration helps you deliver the right incentive at the perfect moment, boosting retention and enhancing customer loyalty.
+        </p>
+        <div class="flex flex-wrap items-center gap-2 mt-10">
+              <div x-data="{ open: false }" class="flex justify-center">
+              <!-- Trigger -->
+              <span x-on:click="open = true">
+                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white">Get started for free</span>
+                </span></button>
+                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
+                      
+                    <iframe
+                      src="../GetStarted"
+                      width="100%"
+                      height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly"
+                    ></iframe>
+
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+      <div class="h-full">
+        <img
+          alt="Lexington thumbnail"
+          class="rounded-2xl shadow-vulcan-950/50 w-full"
+          src="/assets/homepage/LP.png"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+

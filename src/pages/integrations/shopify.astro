@@ -1,15 +1,18 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import HeroThree from "../../components/integrations/Shopify.astro";
+import HeroShopify from "../../components/heros/HeroShopify.astro";
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import FeatureShopify from "../../components/features/FeatureShopify.astro";
-import FeatureSix from "../../components/features/FeatureSix.astro";
-import FeatureTen from "../../components/features/FeatureTen.astro";
+import FeatureShopify2 from "../../components/features/FeatureShopify2.astro";
+import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
 import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
-import Pricing99minds from "../../components/pricing/Pricing99minds.astro";
-import Faq99minds from "../../components/Infopages/Faq99minds.astro";
-import CtaThree from "../../components/ctas/CtaThree.astro";
-import IntegrationsHome from "../../components/integrations/IntegrationsHome.astro";
+import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
+import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
+import BcomRating from "../../components/Infopages/BcomRating.astro";
+import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
+import FeatureTen from "../../components/features/FeatureTen.astro";
+import IntegrationShopify from "../../components/integrations/IntegrationShopify.astro";
+
 
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -18,23 +21,23 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="All-In-One Promotion & Loyalty Platform For Businesses. | 99minds"
-  description="An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience."
-  canonical="https://www.99minds.io"
+  title="Convert Refunds to Sales with 99mind's Store Credit Software | 99minds"
+  description="Build customer loyalty and increase sales by easily issuing store credit to process refunds and reward customers."
+  canonical="https://www.99minds.io/store-credit"
   openGraph={{
-    url: "https://www.99minds.io",
-    title: "All-In-One Promotion & Loyalty Platform For Businesses. | 99minds",
-    description: "An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience.",
+    url: "https://www.99minds.io/store-credit",
+    title: "Convert Refunds to Sales with 99mind's Store Credit Software | 99minds",
+    description: "Build customer loyalty and increase sales by easily issuing store credit to process refunds and reward customers.",
     images: [
       {
-        src: "https://www.lexingtonthemes.com/opengraph/social-og.jpg",
+        url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg",
         width: 1200,
         height: 630,
         alt: "Social open graph",
         type: "image/jpeg",
       },
       {
-        src: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg",
+        url: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg",
         width: 4096,
         height: 4096,
         alt: "Twitter open graph",
@@ -52,7 +55,14 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
 <BaseLayout>
-  <HeroThree />
+  <HeroShopify />
   <LogoCloudOne />
+   <!--<FeatureBcom1 />-->
   <FeatureShopify />
+  <!--<FeatureShopify2 />-->
+  <FeatureTen />
+  <IntegrationShopify />
+  <Testimonialtry />
+  <!--<Integrations99minds />-->
+  <CtaThree99minds />
 </BaseLayout>
