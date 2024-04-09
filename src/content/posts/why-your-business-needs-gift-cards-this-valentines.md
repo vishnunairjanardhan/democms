@@ -3,6 +3,7 @@ pubDate: 2021-02-04
 author: Mrudul
 title: Why your business needs Gift Cards this Valentine’s 
 description: "Finding a romantic partner is one of the most fulfilling events of our lives. All of us want to wake up next to someone we love. It is the season of love- Valentine’s Day. Fine dining restaurants will be busier than usual. Businesses that sell related merch will have a wonderful time selling more than"
+heading:  Why your business needs Gift Cards this Valentine’s 
 image:
   url: "/assets/blog/Why-your-business-needs-Gift-Cards-this-Valentines-1.jpg"
   alt: "The word community with a heart."

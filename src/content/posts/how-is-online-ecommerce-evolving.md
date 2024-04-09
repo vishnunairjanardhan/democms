@@ -3,6 +3,7 @@ pubDate: 2021-04-02
 author: Mrudul
 title: How is eCommerce evolving
 description: "“The world is clearly changing in so many ways. The way we used to watch movies, listen to music or travel to different places have completely changed in the past few years. The same is with eCommerce, it has become an important part of our lives too. If brands want to succeed in the eCommerce."
+heading: How is eCommerce evolving
 image:
   url: "/assets/blog/how-is-eCommerce-evolving-800x450.jpg"
   alt: "How is ecommerce evolving."

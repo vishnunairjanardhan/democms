@@ -3,6 +3,7 @@ pubDate: 2023-11-08
 author: Mrudul
 title: "Top Best Practices for Higher Gift Card Program ROI on Shopify"
 description: "Let’s look at some of the top 10 best practices that you must follow to get the most out of your Shopify gift card program setup"
+heading: Top Best Practices for Higher Gift Card Program ROI on Shopify
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-2.png"
   alt: "The word community with a heart."

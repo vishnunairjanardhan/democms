@@ -3,6 +3,7 @@ pubDate: 2022-08-09
 author: Mrudul
 title: "What is Omnichannel Commerce"
 description: "Learn why Omnichannel is better than Multichannel, its benefits, drawbacks in implementing them, and a few examples of businesses that are currently doing it"
+heading: What is Omnichannel Commerce
 image:
   url: "/assets/blog/What-is-Omnichannel-Commerce.jpg"
   alt: "The word community with a heart."

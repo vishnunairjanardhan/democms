@@ -3,6 +3,7 @@ pubDate: 2020-07-20
 author: Mrudul
 title: How to Build Customer Loyalty for the Beauty Industry
 description: "The beauty industry is worth $532 billion, and it is an industry that will be evergreen no matter how poorly the economy swings. In fact, Juliet Shor, a professor in her book 'The overspent American,' writes that even when times are tight, consumers will indulge in luxuries like cosmetics as it gives them an emotional"
+heading: How to Build Customer Loyalty for the Beauty Industry
 image:
   url: "/assets/blog/Loyalty-for-beauty-Industry2.jpg"
   alt: "The word community with a heart."

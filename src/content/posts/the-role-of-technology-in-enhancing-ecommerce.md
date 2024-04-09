@@ -3,6 +3,7 @@ pubDate: 2022-01-08
 author: Mrudul
 title: "The role of technology in enhancing eCommerce"
 description: "Without a doubt, technology is the backbone of eCommerce. From helping customers find their products easily to optimizing delivery and payments, there is technology everywhere. It is not possible to think of a single interaction touchpoint where technology doesn’t feature for the seamless operation of the eCommerce site. In this article, we will look at"
+heading: The role of technology in enhancing eCommerce
 image:
   url: "/assets/blog/The-role-of-technology-in-enhancing-eCommerce.jpg"
   alt: "The word community with a heart."

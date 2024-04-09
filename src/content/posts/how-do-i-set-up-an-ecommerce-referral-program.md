@@ -3,6 +3,7 @@ pubDate: 2022-04-25
 author: Mrudul
 title: How do I set up an eCommerce referral program?
 description: A referral program is an incentive structure for your customers to share about your products and services for rewards. It could be any reward- store credits, cash, free trip, free consultation, additional perks, exclusive access, free products, etc. It is up to the business to decide. Ecommerce stores have managed to reduce their customer acquisition.
+heading: How do I set up an eCommerce referral program?
 image:
   url: "/assets/blog/How-do-I-set-up-an-eCommerce-referral-program2-800x450.jpg"
   alt: "Howdo i set an ecommerce referral program."

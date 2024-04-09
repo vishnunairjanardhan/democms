@@ -3,6 +3,7 @@ pubDate: 2021-03-09
 author: Mrudul
 title: How women in developing countries can harness e-commerce
 description: "For women who are in developing countries, eCommerce is a boon that they can and should take advantage of. The best thing about a digital platform is that there is no incentive for the platform to be gender-biased. The landscape of eCommerce keeps evolving, the only problem is that there is not a lot of."
+heading: How women in developing countries can harness e-commerce
 image:
   url: "/assets/blog/How-women-in-developing-countries-can-harness-e-commerce1-800x450.jpg"
   alt: "How women in developing countries can harness e-commercel."

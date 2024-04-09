@@ -3,6 +3,7 @@ pubDate: 2022-12-13
 author: Mrudul
 title: How to Launch a Successful Referral Program for Your Small Business 
 description: Jim Rohn said, “One customer, well taken care of, could be more valuable than $10,000 worth of advertising.” Every business person out there will attest to this statement. Having your customers tom-tomming about your offerings to their friends and family is the best marketing you can ever ask for. When you have customers who have.
+heading: How to Launch a Successful Referral Program for Your Small Business 
 image:
   url: "/assets/blog/How-to-Launch-a-Successful-Referral-Program-for-Your-Small-Business-800x450.jpg"
   alt: "How to launch a successful referral program for your small business."

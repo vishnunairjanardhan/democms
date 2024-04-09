@@ -3,6 +3,7 @@ pubDate: 2020-12-31
 author: Mrudul
 title: "Best Ways To Elevate Your Gift Card Marketing In 2022"
 description: "Take a look at some of the best tricks to improve your Gift Card Marketing in 2022 to skyrocket your business sales!"
+heading: Best Ways To Elevate Your Gift Card Marketing In 2022
 image:
   url: "/assets/blog/Best-Ways-To-Elevate-Your-Gift-Card-Marketing-In-2022.jpg"
   alt: "The word community with a heart."

@@ -3,6 +3,7 @@ pubDate: 2023-11-12
 author: Mrudul
 title: What Is An Ecommerce Gift Card And How Does It Work?
 description: "The holiday season is about to start, and it is at that time when people will be hunting for gifts. Choosing gifts can be a headache, and for most people, it can even add anxiety. Not getting the gift right can be stressful as choosing one that doesn't behoove of who you are can end."
+heading: What Is An Ecommerce Gift Card And How Does It Work?
 image: 
   url: "/assets/blog/What-is-a-ecommerce-Gift-card-and-how-does-it-work_-1.jpg"
   alt: "What is a ecommerce gift card and how does it work."

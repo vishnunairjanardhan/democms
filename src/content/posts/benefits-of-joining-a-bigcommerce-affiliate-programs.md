@@ -3,6 +3,7 @@ pubDate: 2020-08-12
 author: Sarah Babra
 title: Benefits of Joining a BigCommerce Affiliate Programs
 description: "By being part of an affiliate marketing program of your eCommerce store, you can drive traffic, convert more sales, and earn thousands of dollars with the right strategy."
+heading: Benefits of Joining a BigCommerce Affiliate Programs
 image:
   url: "/assets/blog/Benefits-of-Joining-a-BigCommerce-Affiliate-Programs.jpg"
   alt: "The word community with a heart."

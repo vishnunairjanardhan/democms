@@ -3,6 +3,7 @@ pubDate: 2020-12-28
 author: Mrudul
 title: "How can Small Businesses Increase Sales with Gift Cards"
 description: "Gift cards are an easy way to attract new customers, get money in advance, forge stronger relationships with the existing customers, and so on. You might wonder if it is even possible for small businesses to use gift cards successfully. We have answered the same in this article. Here are some ways with which small"
+heading: How can Small Businesses Increase Sales with Gift Cards
 image:
   url: "/assets/blog/How-can-small-Businesses-increase-sales-with-Giftcards.jpg"
   alt: "The word community with a heart."

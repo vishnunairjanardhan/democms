@@ -3,6 +3,7 @@ pubDate: 2022-03-28
 author: Mrudul
 title: How do coupons work for businesses?
 description: People love coupons. All of us actively search for coupons when we are about to buy something, isn’t it? There’s even a popular American TV show called ‘Extreme Couponing’ where they show ‘super coupouners’ who are extremely driven to get the best deals. That’s how much coupons are ingrained into our minds and our shopping.
+heading: How do coupons work for businesses?
 image:
   url: "/assets/blog/How-do-coupons-work-for-businesses-800x450.jpg"
   alt: "How to coupons work for businesses."

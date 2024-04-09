@@ -3,6 +3,7 @@ pubDate: 2022-09-14
 author: Mrudul
 title: Halloween Tips for your Restaurant. Use Gift And Loyalty As The Treat!
 description: "It is October, and Halloween is around the corner. It is the perfect time for restaurants to exceed their targets and ‘scare’ their customers. Restaurateurs can use the holiday to offer something special and different to their customers. It is the time to go all guns blazing with special promotions and offers. We look at"
+heading: Halloween Tips for your Restaurant. Use Gift And Loyalty As The Treat!
 image:
   url: "/assets/blog/Halloween-Tips-for-your-Restaurant-Use-Gift-And-Loyalty-As-The-Treat2.jpg"
   alt: "The word community with a heart."

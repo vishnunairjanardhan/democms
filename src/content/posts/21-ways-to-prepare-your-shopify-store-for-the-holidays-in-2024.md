@@ -3,6 +3,7 @@ pubDate: 2022-07-15
 author: Mrudul
 title: 21 Ways to prepare your Shopify Store for the Holidays in 2024
 description: "It is that time of the year when there is an expectant smile in everyone’s eyes. There is a glimmer of hope because everyone believes that the holidays will usher in prosperity and happiness."
+heading: 21 Ways to prepare your Shopify Store for the Holidays in 2024
 image:
   url: "/assets/blog/21ways-to-prepare.png"
   alt: "The word community with a heart."
