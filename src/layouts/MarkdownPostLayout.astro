@@ -19,22 +19,12 @@ import { AstroSeo } from "@astrolib/seo";
         height: 630,
         alt: "Social open graph",
         type: "image/jpeg",
-      },
-      {
-        url: frontmatter.openGraphTitle || frontmatter.image.url,
-        width: 4096,
-        height: 4096,
-        alt: "Twitter open graph",
-        type: "image/jpeg",
-      },
-      { url: frontmatter.openGraphTitle || frontmatter.image.url },
-      { url: frontmatter.openGraphTitle || frontmatter.image.url },
+      }
     ],
     site_name: "99minds",
   }}
   twitter={{
-    handle: "@99minds_io",
-    site: "@99minds",
+    site: "@99minds_io",
     cardType: "summary_large_image",
   }}
 />
