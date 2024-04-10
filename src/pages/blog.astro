@@ -22,24 +22,6 @@ const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
     url: "https://www.99minds.io/blog",
     title: "Get Inspired: 99minds Blog Hub",
     description: "Discover diverse perspectives and valuable insights at 99minds Blog",
-    images: [
-      {
-        url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Social open graph",
-        type: "image/jpeg",
-      },
-      {
-        url: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg",
-        width: 4096,
-        height: 4096,
-        alt: "Twitter open graph",
-        type: "image/jpeg",
-      },
-      { url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg" },
-      { url: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg" },
-    ],
     site_name: "99minds",
   }}
   twitter={{
@@ -52,7 +34,6 @@ const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
   <section>
     <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-32 lg:py-36 relative">
       <div class="flex justify-center">
-        
         <h1 class="mt-8 text-4xl font-normal tracking-tighter text-white sm:text-5xl">
           Get all of our latest updates.
         </h1>
