@@ -1,7 +1,6 @@
 export const Seo = {
   twitter: {
-    handle: "@99minds_io",
-    site: "@site",
+    site: "@99minds_io",
     cardType: "summary_large_image",
   },
   openGraph: {
@@ -11,20 +10,9 @@ export const Seo = {
     images: [
       {
         src: "https://www.99minds.io/assets/homepage/h1.png",
-        width: 1200,
-        height: 630,
         alt: "99minds Gift Card & Loyalty",
         type: "image/jpeg",
       },
-      {
-        src: "https://www.99minds.io/assets/homepage/h1.png",
-        width: 4096,
-        height: 4096,
-        alt: "99minds Gift Card & Loyalty",
-        type: "image/jpeg",
-      },
-      { url: "https://www.99minds.io/assets/homepage/h1.png" },
-      { url: "https://www.99minds.io/assets/homepage/h1.png" },
     ],
     site_name: "99minds",
   }
