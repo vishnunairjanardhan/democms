@@ -1,14 +1,14 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import HeroBigcommerce2 from "../../components/heros/HeroBigcommerce2.astro";
+import HeroWoocommerce from "../../components/heros/HeroWoocommerce.astro";
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
-import FeatureBcom2 from "../../components/features/FeatureBcom2.astro";
+import FeatureWcom2 from "../../components/features/FeatureWcom2.astro";
 import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
 import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
 import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
 import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
 import BcomRating from "../../components/Infopages/BcomRating.astro";
-import IntegrationBigC from "../../components/integrations/IntegrationBigC.astro";
+import IntegrationWcom from "../../components/integrations/IntegrationWcom.astro";
 
 
 import { AstroSeo } from "@astrolib/seo";
@@ -18,20 +18,14 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="99minds.io integrations | BigCommerce"
-  description="Learn more about 99minds.io integrations available on BigCommerce."
-  canonical="https://www.99minds.io/integrations/bigcommerce"
+  title="99minds.io integrations | WooCommerce"
+  description="Learn more about 99minds.io integrations available on WooCommerce."
+  canonical="https://www.99minds.io/integrations/woocommerce"
   openGraph={{
-    url: "https://www.99minds.io/integrations/bigcommerce",
-    title: "99minds.io integrations | BigCommerce",
-    description: "Learn more about 99minds.io integrations available on BigCommerce.",
-    images: [
-      {
-        url: "",
-        alt: "Social open graph",
-        type: "image/jpeg",
-      },
-    ],
+    url: "https://www.99minds.io/integrations/woocommerce",
+    title: "99minds.io integrations | WooCommerce",
+    description: "Learn more about 99minds.io integrations available on WooCommerce.",
+  
     site_name: "99minds",
   }}
   twitter={{
@@ -40,11 +34,11 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
 <BaseLayout>
-  <HeroBigcommerce2 />
+  <HeroWoocommerce />
   <LogoCloudOne />
   <FeatureBcom1 />
-  <FeatureBcom2 />
-  <IntegrationBigC />
+  <FeatureWcom2 />
+  <IntegrationWcom />
   <BcomRating />
   <!--<Testimonialtry />-->
   <!--<Integrations99minds />-->
