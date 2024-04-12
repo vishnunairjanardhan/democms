@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { CSVLink } from 'react-csv';
 
 const CouponGenerator = () => {
-  const [length, setLength] = useState(8);
+  const [length, setLength] = useState(16);
   const [prefix, setPrefix] = useState('');
   const [suffix, setSuffix] = useState('');
   const [codes, setCodes] = useState([]);
@@ -132,10 +132,10 @@ const CouponGenerator = () => {
         <div className='flex flex-col items-center justify-center'>
         {/* <h5 className='text-white w-1/2 text-lg font-bold text-center'>Use free code generator to generate unique codes that can be used for coupons, gift cards. If you need an end-to-end promotion management tool, try 99minds.</h5> */}
         <h2 class="mt-16 text-3xl font-normal tracking-tight text-center text-white">
-        Create Your Custom Coupons
+        Create Your Custom Gift Cards
       </h2>
        <p class="mt-6 text-base font-normal text-center text-vulcan-300">
-       Use free code generator to generate unique codes that can be used for coupons, gift cards.<br /> If you need an end-to-end promotion management tool, try 99minds.
+       Use free gift card generator to generate unique codes that can be used for coupons, gift cards.<br /> If you need an end-to-end promotion management tool, try 99minds.
       </p>
         </div>
         <div className="p-[0.060rem] rounded-3xl shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 lg:px-36 sm:py-32 sm:px-4">
@@ -317,10 +317,10 @@ const CouponGenerator = () => {
         <h1 className="text-2xl font-normal tracking-tight text-white mt-8 text-center py-10">Choose Your Templates</h1>
         <div className="mx-auto max-w-7xl text-white">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 mx-auto max-w-7xl lg:px-0 justify-between">
-    {renderCodeButton("Alphanumeric", "SUMMER24", "SALE2024", Alphanumeric)}
-    {renderCodeButton("Numeric", "95486358", "82469512",  Numeric )}
-    {renderCodeButton("Alphabet", "giftcard", "vouchers", Alphabet)}
-    {renderCodeButton("All Caps", "TAARRUKY", "FDDRFZWW", allCaps)}
+    {renderCodeButton("Alphanumeric", "SUMM ER24 SALE 5489", "SALE 2024 GIFT CARD", Alphanumeric)}
+    {renderCodeButton("Numeric", "9548 6358 8569 3452", "8246 9512 6478 1354",  Numeric )}
+    {renderCodeButton("Alphabet", "gift card sale offs", "vouc hers sale card", Alphabet)}
+    {renderCodeButton("All Caps", "TAAR RUKY OFFE RSAL", "FDDF SZWW DISC OUNT", allCaps)}
   </div>
 </div>
       </div>
