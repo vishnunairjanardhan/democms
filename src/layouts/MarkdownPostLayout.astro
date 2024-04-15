@@ -140,10 +140,15 @@ import { AstroSeo } from "@astrolib/seo";
                 </div>
                 <div>
                   <time
-                  class="flex text-vulcan-300 text-sm"
-                  datetime={frontmatter.pubDate.toString().slice(0, 10)}
-                  > Date: {frontmatter.pubDate.toString().slice(0, 10)}</time
-                >
+                     class="flex text-vulcan-300 text-sm"
+                     datetime={new Date(frontmatter.pubDate).toISOString()}
+                     >
+                     {new Date(frontmatter.pubDate).toLocaleDateString(undefined, {
+                     year: 'numeric',
+                     month: 'long',
+                     day: 'numeric',
+                    })}
+                  </time>
                 </div>
               </div>
             </div>              
