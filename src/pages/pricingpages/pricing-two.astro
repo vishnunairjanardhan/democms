@@ -1,11 +1,11 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { Seo } from "../../config/Seo";
-import PricingSix from "../../components/pricing/PricingSix.astro";
-import LogoCloudTwo from "../../components/testimonials/LogoCloudTwo.astro";
-import FaqTwo from "../../components/Infopages/FaqTwo.astro";
-import CtaThree from "../../components/ctas/CtaThree.astro";
-import { Seo } from "../../config/Seo.jsx";
+
+import Pricing99minds4 from "../../components/pricing/Pricing99minds4.astro";
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import Faq99minds from "../../components/Infopages/Faq99minds.astro";
+import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
+
 import { AstroSeo } from "@astrolib/seo";
 ---
 
@@ -13,14 +13,24 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="Pricing 02"
-  description="Your site description goes here"
-  canonical="https://www.lexingtonthemes.com"
-  {...Seo}
+  title="Plans & Pricing - 99minds"
+  description="Explore 99minds' diverse pricing plans from basic packages to premium offerings, find the perfect solution for your business growth and success."
+  canonical="https://www.99minds.io/pricing"
+  openGraph={{
+    url: "https://www.99minds.io/pricing",
+    title: "Plans & Pricing - 99minds",
+    description: "Explore 99minds' diverse pricing plans from basic packages to premium offerings, find the perfect solution for your business growth and success.",
+    
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
 />
 <BaseLayout>
-  <PricingSix />
-  <LogoCloudTwo />
-  <FaqTwo />
-  <CtaThree />
+  <Pricing99minds4/>
+  <Faq99minds />
+  <LogoCloudOne />
+  <CtaThree99minds />
 </BaseLayout>
