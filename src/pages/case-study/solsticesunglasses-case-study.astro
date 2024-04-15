@@ -1,0 +1,26 @@
+---
+import BaseLayout from "/src/layouts/BaseLayout.astro";
+import HeroCasestudySolstice from "/src/components/heros/HeroCasestudySolstice.astro";
+import CasestudytestSolstice from "/src/components/testimonials/CasestudytestSolstice.astro";
+import FeatureCasestudySolstice from "/src/components/features/FeatureCasestudySolstice.astro";
+import Solstice from "/src/components/Infopages/Solstice.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="Case Salestudy"
+  description="Your site description goes here"
+  canonical="https://www.lexingtonthemes.com"
+  {...Seo}
+/>
+<BaseLayout>
+  <HeroCasestudySolstice />
+  <CasestudytestSolstice />
+  
+<Solstice />
+<FeatureCasestudySolstice />
+</BaseLayout>
