@@ -3,6 +3,7 @@ pubDate: 2021-12-08
 author: Mrudul
 title: "How to create a successful Gift Card Campaign for Christmas"
 description: "What do you usually offer during the holidays as a retailer? Aren't they gift cards? Starbucks, Amazon, and Walmart, for example, could never pass up the opportunity to sell thousands (if not millions) of Gift Cards during the holidays. So, if you've decided to launch a gift card campaign for the next holiday season and"
+heading: "How to create a successful Gift Card Campaign for Christmas"
 image:
   url: "/assets/blog/How-to-create-a-successful-Gift-Card-Campaign-for-Christmas.png"
   alt: "The word community with a heart."

@@ -3,6 +3,7 @@ pubDate: 2021-10-18
 author: Mrudul
 title: How Halloween Inspires E-Commerce Marketing 
 description: "It's not too late to cash in on Halloween's unprecedented popularity and boost eCommerce sales. Halloween is all about disguises, from superheroes to slashers, princesses to politicians, to name a few of this year's most popular outfits. However, the popularity of this autumn holiday cannot be denied. Take a look at the online Halloween sales."
+heading: How Halloween Inspires E-Commerce Marketing
 image:
   url: "/assets/blog/How-Halloween-Inspires-E-Commerce-Marketing1-800x450.jpg"
   alt: "How halloween inspires e-commerce marketing."

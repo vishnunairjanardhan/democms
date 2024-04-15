@@ -128,12 +128,10 @@ const CouponGenerator = () => {
     <div className='relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24'>
     <div className="container mx-auto flex flex-col items-center justify-center min-h-screen">
       <div className='relative mx-auto space-y-20'>
-         {/* <h1 className='text-white text-center text-2xl font-bold'>Create Your Custom Coupons</h1> */}
         <div className='flex flex-col items-center justify-center'>
-        {/* <h5 className='text-white w-1/2 text-lg font-bold text-center'>Use free code generator to generate unique codes that can be used for coupons, gift cards. If you need an end-to-end promotion management tool, try 99minds.</h5> */}
-        <h2 class="mt-16 text-3xl font-normal tracking-tight text-center text-white">
+        <h1 class="mt-16 text-3xl font-normal tracking-tight text-center text-white">
         Create Your Custom Gift Cards
-      </h2>
+      </h1>
        <p class="mt-6 text-base font-normal text-center text-vulcan-300">
        Use free gift card generator to generate unique codes that can be used for coupons, gift cards.<br /> If you need an end-to-end promotion management tool, try 99minds.
       </p>
@@ -314,7 +312,7 @@ const CouponGenerator = () => {
             </div>
           )}
         </div>
-        <h1 className="text-2xl font-normal tracking-tight text-white mt-8 text-center py-10">Choose Your Templates</h1>
+        <h2 className="text-2xl font-normal tracking-tight text-white mt-8 text-center py-10">Choose Your Templates</h2>
         <div className="mx-auto max-w-7xl text-white">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 mx-auto max-w-7xl lg:px-0 justify-between">
     {renderCodeButton("Alphanumeric", "SUMM ER24 SALE 5489", "SALE 2024 GIFT CARD", Alphanumeric)}
@@ -329,7 +327,7 @@ const CouponGenerator = () => {
       </button>
       {generatedCodes && <div className='w-full flex justify-center items-center'>
         <div className='w-1/2 mb-2 mt-8 boreder-2 rounded-md'>
-          <h1 className="text-2xl text-white text-center pb-2 my-4">Generated Codes</h1>
+          <h2 className="text-2xl text-white text-center pb-2 my-4">Generated Codes</h2>
           <ul className="list-group flex flex-col items-center justify-center text-white pt-2 " style={{ overflow: "auto" }}>
             {codes.map((code, index) => (
               <li className="list-group-item border-2 w-full flex items-center justify-center p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 border bg-transparent border-vulcan-800 appearance-none text-indigo-300 placeholder-vulcan-400 focus:border-indigo-300 focus:bg-transparent focus:outline-none focus:ring-indigo-300 sm:text-sm" key={index}>

@@ -3,6 +3,7 @@ pubDate: 2023-09-04
 author: Mrudul Tarwatkar
 title: Gift card marketing strategies to drive sales and increase brand awareness
 description: "As a retailer, if you are not investing in a gift card strategy, you are doing a grave injustice to your store."
+heading: Gift card marketing strategies to drive sales and increase brand awareness
 image:
   url: "/assets/blog/Gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.jpg"
   alt: "The word community with a heart."

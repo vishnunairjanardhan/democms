@@ -3,6 +3,7 @@ pubDate: 2022-10-27
 author: Mrudul
 title: How to launch a Customer Loyalty Rewards Program in time for Halloween
 description: Halloween is easily one of the biggest events of the year. It is the perfect holiday for eCommerce retailers to make a killing. Launching a customer loyalty rewards program before the holidays is something that retailers should consider seriously. Loyalty plays a successful role for retailers during the holiday season. This article looks at a.
+heading: How to launch a Customer Loyalty Rewards Program in time for Halloween
 image:
   url: "/assets/blog/Heres-how-to-launch-a-customer-loyalty-rewards-program-in-time-for-Halloween--800x450.jpg"
   alt: "How to launch a customer loyalty rewards program in timr for halloween."

@@ -3,6 +3,7 @@ pubDate: 2022-11-30
 author: Mrudul
 title: eCommerce Gift Cards, Easy Alternatives For Refunds, Returns, And Exchanges
 description: US consumers were predicted to return $100 billion worth of unwanted products purchased between Thanksgiving and Christmas. Those are some painful numbers. As exciting as the holiday season is for retailers, returns and refund requests pose a major problem. Buyer’s remorse is a common phenomenon. Some purchases are impulse decisions, and the customer may not.
+heading: eCommerce Gift Cards, Easy Alternatives For Refunds, Returns, And Exchanges
 image:
   url: "/assets/blog/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges-800x450.jpg"
   alt: "ecommerce gift cards easy alternatives for refund return and exchanges."

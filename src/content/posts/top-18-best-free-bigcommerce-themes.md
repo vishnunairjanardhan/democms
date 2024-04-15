@@ -3,6 +3,7 @@ pubDate: 2020-09-15
 author: Sarah Babra
 title: Top 18 Best Free Bigcommerce Themes
 description: "If you are looking for free BigCommerce themes, you are in the right place. These themes will help you get good at your eCommerce game."
+heading: Top 18 Best Free Bigcommerce Themes
 image:
   url: "/assets/blog/Top-18-best-free-bigcommerce-themes1-1.jpg"
   alt: "The word community with a heart."

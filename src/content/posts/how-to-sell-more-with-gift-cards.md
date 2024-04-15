@@ -3,6 +3,7 @@ pubDate: 2021-11-29
 author: Mrudul
 title: How to Sell More with Gift Cards 
 description: "You've chosen your site, hired your team, and set prices for your services and products—now it's time to open for business. The holiday season is rapidly approaching, and do you understand what it entails? It's the ideal time of year to get your business ready for a new revenue stream by selling gift cards both."
+heading: How to Sell More with Gift Cards 
 image:
   url: "/assets/blog/How-to-Sell-More-with-Gift-Cards-800x450.jpg"
   alt: "How to sell more with gift cards."

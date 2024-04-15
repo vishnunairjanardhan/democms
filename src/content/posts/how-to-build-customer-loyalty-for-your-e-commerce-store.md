@@ -3,6 +3,7 @@ pubDate: 2020-06-02
 author: Mrudul
 title: How to Build Customer Loyalty for Your E-Commerce Store 
 description: "Retaining your customers is a goal that every business has, especially in the eCommerce industry. Here we have elaborated how you can build customer loyalty for e-commerce store."
+heading: How to Build Customer Loyalty for Your E-Commerce Store 
 image:
   url: "/assets/blog/How-to-build-customer-loyalty-for-your-E-commerce-store1200px.jpg"
   alt: "The word community with a heart."

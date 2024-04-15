@@ -3,6 +3,7 @@ pubDate: 2022-01-18
 author: Mrudul
 title: "Gift Cards Marketing: An Absolute Solution To Win New Customers This Valentine! "
 description: "February 14 is one of the most beautiful days of the year. It is a day that is outrightly dedicated to love. Is there a better time to gift something to your lover or to someone you love! If you are a retail business, gift cards are your best friend for this special occasion. By"
+heading: "Gift Cards Marketing: An Absolute Solution To Win New Customers This Valentine!"
 image:
   url: "/assets/blog/Gift-Cards-Marketing-An-Absolute-Solution-To-Win-New-Customers-This-Valentine2.jpg-.jpg"
   alt: "The word community with a heart."

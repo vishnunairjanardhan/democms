@@ -3,6 +3,7 @@ pubDate: 2021-04-21
 author: Mrudul
 title: 10 Mother’s Day Ideas to Implement in Your Retail Business
 description: "Mother’s day is only a few weeks away. While it doesn’t hold the same weight like Christmas or New Year, it has its own charm and is a great time for retailers. If you have an eCommerce store or a retail shop, it would not be wise to ignore the day. You should be able."
+heading: 10 Mother’s Day Ideas to Implement in Your Retail Business
 image:
   url: "/assets/blog/retail-store-800x450.jpg"
   alt: "Best mothers day gift card 2021."

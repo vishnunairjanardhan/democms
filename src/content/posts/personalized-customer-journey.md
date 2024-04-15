@@ -3,6 +3,7 @@ pubDate: 2022-08-19
 author: Mrudul
 title: What’s a personalized Customer Journey and why do you need to offer it?
 description: "Take a look at why your business needs to offer a personalized customer journey and how you can do it in easy steps to boost your revenue."
+heading: What’s a personalized Customer Journey and why do you need to offer it?
 image:
   url: "/assets/blog/Whats-a-personalized-customer-journey-and-why-do-you-need-to-offer-it-4.jpg"
   alt: "The word community with a heart."

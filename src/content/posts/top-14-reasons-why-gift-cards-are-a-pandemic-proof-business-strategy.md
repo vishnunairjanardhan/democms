@@ -3,6 +3,7 @@ pubDate: 2024-01-02
 author: Mrudul
 title: Top 14 Reasons Why Gift Cards Are a Pandemic-Proof Business Strategy 
 description: Most businesses collapsed under the sheer pressure of lockdowns and the lack of customers buying from you. Let’s see what gift cards did.
+heading: Top 14 Reasons Why Gift Cards Are a Pandemic-Proof Business Strategy 
 image:
   url: "/assets/blog/dkjfbkjads.png"
   alt: "Gift Card A Pandemic Proof Business Strategy."
