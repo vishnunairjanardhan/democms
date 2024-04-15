@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeroHeartland from "../../components/heros/HeroHeartland.astro";
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureHeartland from "../../components/features/FeatureHeartland.astro";
+import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
+import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
+import BcomRating from "../../components/Infopages/BcomRating.astro";
+import IntegrationHeartland from "../../components/integrations/IntegrationHeartland.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="99minds.io integrations | Heartland"
+  description="Omnichannel gift card, loyalty and rewards for Heartland Retail"
+  canonical="https://www.99minds.io/integrations/heartland"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/heartland",
+    title: "99minds.io integrations | Heartland",
+    description: "Omnichannel gift card, loyalty and rewards for Heartland Retail",
+    images: [
+      {
+        url: "",
+        alt: "Social open graph",
+        type: "image/jpeg",
+      },
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroHeartland />
+  <LogoCloudOne />
+  <FeatureBcom1 />
+  <FeatureHeartland />
+  <IntegrationHeartland />
+  <BcomRating />
+  <!--<Testimonialtry />-->
+  <!--<Integrations99minds />-->
+  <!--<CtaThree99minds />-->
+</BaseLayout>

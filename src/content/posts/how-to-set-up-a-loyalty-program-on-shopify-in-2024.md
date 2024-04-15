@@ -8,7 +8,7 @@ image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-15.png"
   alt: "The word community with a heart."
 tags: ["Loyalty Program","Ecommerce"]
-url: "https://www.99minds.io/blog/how-to-turn-your-hard-earned-sales-into-repeat-customers"
+url: "https://www.99minds.io/blog/how-to-set-up-a-loyalty-program-on-shopify-in-2024"
 
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-15.png">
