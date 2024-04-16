@@ -6,7 +6,7 @@ import FeatureShopify from "../../components/features/FeatureShopify.astro";
 import FeatureTen from "../../components/features/FeatureTen.astro";
 import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
 import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
-import IntegrationsHome from "../../components/integrations/IntegrationsHome.astro";
+import IntegrationWcom2 from "../../components/integrations/IntegrationWcom2.astro";
 import BcomRating from "../../components/Infopages/BcomRating.astro";
 import IntegrationWcom from "../../components/integrations/IntegrationWcom.astro";
 
@@ -25,10 +25,24 @@ Use AstroSeo in all the pages you want different Seo than the index page
     url: "https://www.99minds.io/integrations/woocommerce",
     title: "99minds.io integrations | WooCommerce",
     description: "Learn more about 99minds.io integrations available on WooCommerce.",
-  
+  images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-woo.svg",
+        alt: "99minds & WooCommerce",
+        type: "image/svg",
+      }
+    ],
     site_name: "99minds",
   }}
   twitter={{
+    url: "https://www.99minds.io/integrations/woocommerce",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-woo.svg",
+        alt: "99minds & WooCommerce",
+        type: "image/svg",
+      }
+    ],
     site: "@99minds_io",
     cardType: "summary_large_image",
   }}
@@ -40,7 +54,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <IntegrationWcom />
   <!--<FeatureShopify2 />-->
   <FeatureTen />
-  <IntegrationsHome />
+  <IntegrationWcom2 />
   <Testimonialtry />
   <CtaThree99minds />
 </BaseLayout>
