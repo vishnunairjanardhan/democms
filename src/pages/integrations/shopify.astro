@@ -11,7 +11,7 @@ import Integrations99minds from "../../components/integrations/Integrations99min
 import BcomRating from "../../components/Infopages/BcomRating.astro";
 import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
 import FeatureTen from "../../components/features/FeatureTen.astro";
-import IntegrationsHome from "../../components/integrations/IntegrationsHome.astro";
+import IntegrationShopify from "../../components/integrations/IntegrationShopify.astro";
 
 
 import { AstroSeo } from "@astrolib/seo";
@@ -28,10 +28,24 @@ Use AstroSeo in all the pages you want different Seo than the index page
     url: "https://www.99minds.io/integrations/shopify",
     title: "Seamless Shopify Integration | 99minds",
     description: "Easily integrate 99minds and Shopify for a great rewards program. Set up points, referrals, and VIP programs in minutes.",
-    
+    images: [
+      {
+        url: "/assets/shopify/Shopify-S+.svg",
+        alt: "99minds & Shopify",
+        type: "image/svg",
+      }
+    ],
     site_name: "99minds",
   }}
   twitter={{
+    url: "https://www.99minds.io/integrations/shopify",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/shopify/Shopify-S+.svg",
+        alt: "99minds & Shopify",
+        type: "image/svg",
+      }
+    ],
     site: "@99minds_io",
     cardType: "summary_large_image",
   }}
@@ -44,9 +58,8 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <FeatureShopify3 />
   <!--<FeatureShopify2 />-->
   <FeatureTen />
-  <IntegrationsHome />
+  <IntegrationShopify />
   <Testimonialtry />
   <!--<Integrations99minds />-->
-  <CtaThree99minds />
   <CtaThree99minds />
 </BaseLayout>
