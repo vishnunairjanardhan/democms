@@ -3,6 +3,7 @@ pubDate: 2023-10-28
 author: Mrudul
 title: How The Average Gift Card Buyer Makes Buying Decisions
 description: "If you are into retail, now is the time for you to up your gift card game. Businesses need to change their mindset when it comes to gift cards, it is usually considered as a part of a marketing exercise. Gift cards can be much more than that, it should be part of your customer."
+heading: How The Average Gift Card Buyer Makes Buying Decisions
 image: 
   url: "/assets/blog/how-the-average-gift-card-buyer-makes-buying-decisions1-1-800x450.jpg"
   alt: "how the average gift card buyer makes buying decisions."

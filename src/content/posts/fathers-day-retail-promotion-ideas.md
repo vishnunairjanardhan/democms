@@ -3,6 +3,7 @@ pubDate: 2022-05-24
 author: Mrudul
 title: Father’s Day retail promotion ideas  
 description: A great chance to grow your retail shop is to promote it with the ongoing trend or the festival. The upcoming trend - FATHER'S DAY - is just around the corner. As per NRF, people are expected to spend $20 billion this year. I don't know about children but dads must be eagerly waiting for.
+heading: Father’s Day retail promotion ideas 
 image:
   url: "/assets/blog/Fathers-Day-retail-promotion-ideas-800x450.jpg"
   alt: "Fathers day retail promotion ideas."

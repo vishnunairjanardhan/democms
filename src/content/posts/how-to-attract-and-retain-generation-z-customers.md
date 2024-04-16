@@ -3,6 +3,7 @@ pubDate: 2021-09-08
 author: Mrudul
 title: How to attract and retain Generation Z customers
 description: "Gen Z is going to be a business's core audience in the future. Take a look at how businesses can attract Gen Z customers and retain them."
+heading: ow to attract and retain Generation Z customers
 image:
   url: "/assets/blog/How-to-attract-retain-gen-Z-customers-800x450.jpg"
   alt: "How to attract retain gen Z customers."

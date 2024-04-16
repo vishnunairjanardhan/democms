@@ -3,6 +3,7 @@ pubDate: 2023-09-15
 author: Mrudul
 title: Increasing repeat purchases how gift cards and loyalty programs can drive customer lifetime value on shopify
 description: "Every business would prefer to have customers who purchase over and over from them. If your sales history is dotted majorly with one-time customers, you are doing something gravely wrong. "
+heading: Increasing repeat purchases how gift cards and loyalty programs can drive customer lifetime value on shopify
 image:
   url: "/assets/blog/Increasing-Repeat-Purchases-How-Gift-Cards-and-Loyalty-Programs-Can-Drive-Customer-Lifetime-Value-on-Shopify.jpg"
   alt: "The word community with a heart."

@@ -3,6 +3,7 @@ pubDate: 2023-11-12
 author: Mrudul
 title: Are Omnichannel Loyalty Programs the Future of Retail?
 description: "Increase your level of loyalty! For smooth, customized experiences, abandon cumbersome programs and embrace omnichannel rewards. Gamified, engaging interaction at every touchpoint can help you future-proof your brand."
+heading: Are Omnichannel Loyalty Programs the Future of Retail?
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-7.png"
   alt: "The word community with a heart."

@@ -53,7 +53,11 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
                 title={post.data.title}
                 description={post.data.description}
                 alt={post.data.title}
-                pubDate={post.data.pubDate.toString().slice(0, 10)}
+                pubDate={new Date(post.data.pubDate).toLocaleDateString(undefined, {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric',
+                })}                
                 author={post.data.author}
                 image={post.data.image.url}
                 key={post.slug}

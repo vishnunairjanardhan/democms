@@ -3,6 +3,7 @@ pubDate: 2023-02-21
 author: Mrudul
 title: "Future of ecommerce in 2023"
 description: "eCommerce stores are rampant in every niche, and the competition is fierce. Without standing apart from your competitors, it will be difficult to keep growing exponentially. Consumer behavior keeps changing, especially in the world of eCommerce. There are too many factors that change the purchasing behavior and motivations of your customers. You must be aware"
+heading: Future of ecommerce in 2023
 image:
   url: "/assets/blog/Future-of-ecommerce-in-2023-1.jpg"
   alt: "The word community with a heart."

@@ -3,6 +3,7 @@ pubDate: 2023-11-12
 author: Pravin Kamble
 title: The Rise of gift card popularity in the ecommerce era
 description: "Covid-19 impact on gift cards had eCommerce retailers making bank. Only the Russia-Ukraine war disrupted the expedited recovery after the pandemic."
+heading: The Rise of gift card popularity in the ecommerce era
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-3.png"
   alt: "The word community with a heart."

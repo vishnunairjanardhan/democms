@@ -3,6 +3,7 @@ pubDate: 2022-11-04
 author: Mrudul
 title: Ways to Incentivize your Bigcommerce Customers to Return
 description: "It takes months to find a customer, seconds to lose one”- Vince Lombardi. There couldn’t be a truer quote. The relationship between a customer and a business is as fragile…"
+heading: Ways to Incentivize your Bigcommerce Customers to Return
 image:
   url: "/assets/blog/Ways-to-Incentivize-your-Bigcommerce-Customers-to-Return.jpg"
   alt: "The word community with a heart."

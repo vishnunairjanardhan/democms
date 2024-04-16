@@ -3,6 +3,7 @@ pubDate: 2022-04-06
 author: Mrudul
 title: Easter Promotion Ideas for Brands in 2022 
 description: Easter represents the triumph of life over death… There are some average brands, some successful brands, and some brands that are about to die and need a push towards a win to raise their business into a new life. It's possibly because these companies are unable to reach their audience. Promotion can help them connect.
+heading: Easter Promotion Ideas for Brands in 2022 
 image:
   url: "/assets/blog/Easter-Promotion-Ideas-for-Brands-in-2022-800x450.jpg"
   alt: "Easter promotion ideas for brands in 2022."
