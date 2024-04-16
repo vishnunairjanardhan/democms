@@ -3,6 +3,7 @@ pubDate: 2020-03-02
 author: Mrudul
 title: 5 Key Components To Personalize The Loyalty Experience 
 description: "Loyalty is a strong word. There are emotions attached to it. It is earned. In business, the same logic goes. You need to earn the loyalty of your customers by giving them so much value that they trust you. How do you inspire loyalty? The assembly line manufacturing style that Henry Ford popularized is more"
+heading: 5 Key Components To Personalize The Loyalty Experience 
 image:
   url: "/assets/blog/5-Key-Features4.jpg"
   alt: "The word community with a heart."

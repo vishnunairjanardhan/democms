@@ -3,6 +3,7 @@ pubDate: 2023-05-12
 author: Mrudul
 title: 5 Reasons Why Your Business Should Offer Gift Cards for Mother’s Day
 description: "There's no surer way to show someone you love and appreciate them than with a gift. The same goes for Mother's Day: a present that celebrates the special women in your life is a sweet and meaningful gesture. But what if the special lady in question already has everything she needs? Enter: gift cards. Offering."
+heading: 5 Reasons Why Your Business Should Offer Gift Cards for Mother’s Day
 image: 
   url: "/assets/blog/5-Reasons-Why-Your-Business-Should-Offer-Gift-Cards-for-Mothers-Day1-800x450.jpg"
   alt: "5 Reasons why your bsiness should offer gift cards for mothers day."

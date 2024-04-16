@@ -3,6 +3,7 @@ pubDate: 2020-10-10
 author: Pravin Kamble
 title: We are live with GiftCard Platform on BigCommerce
 description: "We are excited to announce that our 99minds GiftCard Platform is now live on BigCommerce, one of the world’s leading ecommerce platforms. We are sure that it will help you…"
+heading: We are live with GiftCard Platform on BigCommerce
 image:
   url: "/assets/blog/WhatsApp-Image-2020-10-19-at-3.19.18-PM-1.jpeg"
   alt: "The word community with a heart."

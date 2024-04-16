@@ -3,6 +3,7 @@ pubDate: 2020-06-23
 author: Mrudul
 title: Loyalty Trends For The Decade To Come 
 description: "After a deeper research on loyalty trends from various reports. Here we have established the importance of loyalty and what we can expect from it in the next decade"
+heading: Loyalty Trends For The Decade To Come 
 image:
   url: "/assets/blog/Loyalty-Trends.jpg"
   alt: "The word community with a heart."

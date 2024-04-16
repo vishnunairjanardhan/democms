@@ -3,6 +3,7 @@ pubDate: 2023-05-15
 author: Mrudul
 title: Mother’s Day Gift Card Design Ideas That Will Wow Your Customers
 description: "With Mother's Day around the corner, it's time to think of something special for those wonderful mothers in our lives! Luckily, gift cards are a perfect option. However, not all cards are created equal. Your gift card must stand out from the rest! To ensure that your customers are impressed, we provide you with some."
+heading: Mother’s Day Gift Card Design Ideas That Will Wow Your Customers
 image: 
   url: "/assets/blog/Mothers-Day-Gift-Card-Design-Ideas-That-Will-Wow-Your-Customers-800x450.jpg"
   alt: "Mothers day gift card design ideas that will wow your customers."

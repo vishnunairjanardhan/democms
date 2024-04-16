@@ -3,6 +3,7 @@ pubDate: 2021-02-24
 author: Mrudul
 title: What are the benefits of Loyalty Programs
 description: "Companies across the world realize that existing customers are super important too. Most businesses are bent on finding new customers that they ignore existing customers, unwittingly though. They need to realize that their existing customers are more likely to buy from them again if they are kept happy. If there is one way to ensure"
+heading: What are the benefits of Loyalty Programs
 image:
   url: "/assets/blog/benefits-of-loyalty-program1.jpg"
   alt: "The word community with a heart."

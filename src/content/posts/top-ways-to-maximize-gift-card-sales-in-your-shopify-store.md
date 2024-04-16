@@ -3,6 +3,7 @@ pubDate: 2022-07-15
 author: Mrudul
 title: Maximize Gift Card Sales By Integrating Gift Cards Into Your Shopify Store
 description: "Selling gift cards is an excellent way to tap into your existing customer base and reach new audiences."
+heading:  Maximize Gift Card Sales By Integrating Gift Cards Into Your Shopify Store
 image:
   url: "/assets/blog/Mazimizing-sales.jpg"
   alt: "The word community with a heart."

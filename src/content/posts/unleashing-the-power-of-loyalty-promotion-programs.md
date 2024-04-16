@@ -3,6 +3,7 @@ pubDate: 2020-03-31
 author: Mrudul
 title: Unleashing The Power Of Loyalty & Promotion Programs
 description: "Loyalty is one of the most underrated traits in relationships as well as businesses. Here we have tried to highlight the importance of loyalty and promotions programs."
+heading: Unleashing The Power Of Loyalty & Promotion Programs
 image:
   url: "/assets/blog/Unleashing-the-power-of-Loyalty-Promotion-programs1200px.jpg"
   alt: "The word community with a heart."

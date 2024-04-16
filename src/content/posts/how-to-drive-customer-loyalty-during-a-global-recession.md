@@ -3,6 +3,7 @@ pubDate: 2023-04-17
 author: Mrudul
 title: How to drive customer loyalty during a Global Recession?
 description: "These are tough times. We are sure that there are thousands of blogs highlighting how crucial customer loyalty is. The world is on the brink of a recession. Pockets are going to be tight. Spending will be frugal. People will have their guard up, thanks to the uncertainty associated with the global recession."
+heading: How to drive customer loyalty during a Global Recession?
 image: 
   url: "/assets/blog/How-to-drive-customer-loyalty-during-a-Global-Recession-1-800x450.jpg"
   alt: "How to drive customer loyalty during a global recession."
