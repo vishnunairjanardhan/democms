@@ -5,7 +5,7 @@ title: Ways to Incorporate Gift Cards Into Your Customer Retention Strategy
 description: "Retailers love giving gift cards to their customers, and rightly so. From increasing the average order value to improving brand awareness, it does a lot."
 image:
   url: "/assets/blog/WHY EVERY SHOPIFY STORE NEEDS A LOYALTY PROGRAM.png"
-  alt: "The word community with a heart."
+  alt: "Customer Retention Strategy."
 tags: ["Loyalty",]
 url: "https://www.99minds.io/blog/ways-to-incorporate-gift-cards-into-your-customer-retention-strategy"
 ---
