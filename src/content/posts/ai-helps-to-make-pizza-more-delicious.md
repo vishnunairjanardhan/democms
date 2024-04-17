@@ -6,7 +6,7 @@ description: "As a Pizza lover, you might not even remember why you ordered your
 heading: AI helps to make Pizza more delicious
 image:
   url: "/assets/blog/1_oSROJZCosY5WD_qw_I-vXA-1920x1280.jpeg"
-  alt: "The word community with a heart."
+  alt: "AI helps in daily works."
 tags: ["Artificial Intelligence"]
 url: "https://www.99minds.io/blog/ai-helps-to-make-pizza-more-delicious"
 

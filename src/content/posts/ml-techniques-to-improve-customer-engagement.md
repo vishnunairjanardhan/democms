@@ -6,7 +6,7 @@ description: "Struggling to improve your customer engagement? May be ML can help
 heading: ML Techniques to Improve Customer Engagement
 image:
   url: "/assets/blog/what-the-heck.jpg"
-  alt: "The word community with a heart."
+  alt: "ML Techniques to Improve Customer Engagement."
 tags: ["Machine Learning"]
 url: "https://www.99minds.io/blog/ml-techniques-to-improve-customer-engagement"
 

@@ -6,7 +6,7 @@ description: "A gift card is a prepaid store-value money card issued by the reta
 heading: Trends of the Gift Card Market
 image:
   url: "/assets/blog/Gift-card-market-trends.jpg"
-  alt: "The word community with a heart."
+  alt: "Gift cards marketing trends."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-card-marketing-trends"
 

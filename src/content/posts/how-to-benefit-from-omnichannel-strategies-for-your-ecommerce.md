@@ -6,7 +6,7 @@ description: "Ultimately, customers don’t care about what channel they’re sh
 heading: How to Benefit from Omnichannel Strategies for Your eCommerce
 image:
   url: "/assets/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce1.jpg"
-  alt: "The word community with a heart."
+  alt: "Omnichannel Strategies."
 tags: ["Omnichannel"]
 url: "https://www.99minds.io/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce"
 

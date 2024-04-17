@@ -6,7 +6,7 @@ description: "What a beautiful thing it is to have a doting father! A personal h
 heading: The best gift card for Father’s day 2021
 image:
   url: "/assets/blog/best-fathers-day-giftcard-2021.jpg"
-  alt: "The word community with a heart."
+  alt: "Gift card for father's day."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/the-best-gift-card-for-fathers-day-2021"
 

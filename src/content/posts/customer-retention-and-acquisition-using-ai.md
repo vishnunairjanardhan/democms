@@ -6,7 +6,7 @@ description: "Ever wondered how AI can us to Retain and Acquire more customers? 
 heading: Customer Retention And Acquisition Using AI
 image:
   url: "/assets/blog/Presentation-image1.jpg"
-  alt: "The word community with a heart."
+  alt: "Customer Retention And Acquisition Using AI."
 tags: ["Artificial Intelligence"]
 url: "https://www.99minds.io/blog/customer-retention-and-acquisition-using-ai"
 

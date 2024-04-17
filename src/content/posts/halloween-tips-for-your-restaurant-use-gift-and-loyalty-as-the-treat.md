@@ -6,7 +6,7 @@ description: "It is October, and Halloween is around the corner. It is the perfe
 heading: Halloween Tips for your Restaurant. Use Gift And Loyalty As The Treat!
 image:
   url: "/assets/blog/Halloween-Tips-for-your-Restaurant-Use-Gift-And-Loyalty-As-The-Treat2.jpg"
-  alt: "The word community with a heart."
+  alt: "Gift and Loyalty."
 tags: ["Loyalty","Gift Card"]
 url: "https://www.99minds.io/blog/halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat"
 
