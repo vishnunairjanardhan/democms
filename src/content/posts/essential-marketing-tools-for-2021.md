@@ -6,7 +6,7 @@ description: "There are a gazillion marketing tools available in the market. Cho
 heading: Essential Marketing Tools for 2021
 image:
   url: "/assets/blog/Essentail-Marketing-Tools.jpg"
-  alt: "The word community with a heart."
+  alt: "Important marketing tools."
 tags: ["Marketing"]
 url: "https://www.99minds.io/blog/essential-marketing-tools-for-2021"
 

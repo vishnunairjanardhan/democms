@@ -6,7 +6,7 @@ description: "Having a loyalty program for your Shopify store brings several ben
 heading: How to Set Up a Loyalty Program for Your Shopify Store in 2024
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-15.png"
-  alt: "The word community with a heart."
+  alt: "Loyalty with Personalized Rewards."
 tags: ["Loyalty Program","Ecommerce"]
 url: "https://www.99minds.io/blog/how-to-set-up-a-loyalty-program-on-shopify-in-2024"
 

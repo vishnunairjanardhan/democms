@@ -6,7 +6,7 @@ description: "New data from IBM’s US retail index states that the Covid-19 pan
 heading: What is the future of e commerce in the next 5-10 years
 image:
   url: "/assets/blog/What-is-the-future-of-e-commerce-in-the-next-5-10-years.jpg"
-  alt: "The word community with a heart."
+  alt: "Future of e commerce."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/what-is-the-future-of-e-commerce-in-the-next-5-10-years"
 

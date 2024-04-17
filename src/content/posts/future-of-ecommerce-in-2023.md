@@ -6,7 +6,7 @@ description: "eCommerce stores are rampant in every niche, and the competition i
 heading: Future of ecommerce in 2023
 image:
   url: "/assets/blog/Future-of-ecommerce-in-2023-1.jpg"
-  alt: "The word community with a heart."
+  alt: "E-commerce Future in 2023."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/future-of-ecommerce-in-2023"
 

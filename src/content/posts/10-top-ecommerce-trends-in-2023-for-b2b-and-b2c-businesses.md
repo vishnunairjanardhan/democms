@@ -6,7 +6,7 @@ description: "The rise in the number of online shoppers and the continued rise i
 heading: 10 top eCommerce trends in 2023 for B2B and B2C businesses
 image:
   url: "/assets/blog/10-top-eCommerce-trends-in-2023-for-B2B-and-B2C-businesses1.jpg"
-  alt: "The word community with a heart."
+  alt: "E-Commerce trends in 2023."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses"
 

@@ -6,7 +6,7 @@ description: "Learn why Omnichannel is better than Multichannel, its benefits, d
 heading: What is Omnichannel Commerce
 image:
   url: "/assets/blog/What-is-Omnichannel-Commerce.jpg"
-  alt: "The word community with a heart."
+  alt: "Omnichannel Commerce."
 tags: ["Omnichannel"]
 url: "https://www.99minds.io/blog/what-is-omnichannel-commerce"
 

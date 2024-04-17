@@ -6,7 +6,7 @@ description: "Churn is one of the biggest pain for SAAS companies. Hence having 
 heading: How To Build Customer Loyalty For Subscription As A Service
 image:
   url: "/assets/blog/customer-loyalty-for-subsceiption-as-a-service.jpg"
-  alt: "The word community with a heart."
+  alt: "Customer loyalty for subscription as a service."
 tags: ["Customer Loyalty"]
 url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-subscription-as-a-service"
 

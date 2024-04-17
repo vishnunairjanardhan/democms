@@ -6,7 +6,7 @@ description: "Being a digital business is no longer an option. It is a necessity
 heading: Why should every business be a digital business
 image:
   url: "/assets/blog/Why-should-every-business-be-a-digital-business1.jpg"
-  alt: "The word community with a heart."
+  alt: "Every business be a digital business."
 tags: ["Loyalty"]
 url: "https://www.99minds.io/blog/why-should-every-business-be-a-digital-business"
 

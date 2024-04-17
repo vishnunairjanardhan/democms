@@ -6,7 +6,7 @@ description: "The secret of getting ahead is getting started.” – Mark Twain 
 heading: Now’s the time to prepare your business for the holiday rush
 image:
   url: "/assets/blog/Nows-the-time-to-prepare-your-business-for-the-holiday-rush.jpg"
-  alt: "The word community with a heart."
+  alt: "Your business for holiday rush."
 tags: ["Marketing"]
 url: "https://www.99minds.io/blog/nows-the-time-to-prepare-your-business-for-the-holiday-rush"
 

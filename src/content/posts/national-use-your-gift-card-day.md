@@ -6,7 +6,7 @@ description: "The third Saturday of January is dedicated to a special enabler of
 heading: National use your Gift Card Day
 image:
   url: "/assets/blog/National-Gift-Card-Day.jpg"
-  alt: "The word community with a heart."
+  alt: "National Gift Card Day."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/national-use-your-gift-card-day"
 
