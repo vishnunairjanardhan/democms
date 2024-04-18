@@ -20,7 +20,8 @@ export const Ecommerce = [
 {
   image: '/integrations/salesforce.svg',
   title: 'Salesforce Commerce Cloud',
-  desc:"An enterprise-level e-commerce platform that integrates with 99minds for robust gift card features.  99minds allows you to leverage Salesforce Commerce Cloud's powerful functionalities and add advanced gift card options like scheduling, loyalty program rewards, and promotional campaigns for a sophisticated customer experience."
+  desc:"An enterprise-level e-commerce platform that integrates with 99minds for robust gift card features.  99minds allows you to leverage Salesforce Commerce Cloud's powerful functionalities and add advanced gift card options like scheduling, loyalty program rewards, and promotional campaigns for a sophisticated customer experience.",
+  url: "/integrations/salesforce"
 },
 {
   image: '/integrations/miva.svg',
