@@ -71,7 +71,13 @@ import { AstroSeo } from "@astrolib/seo";
     <div
       class="max-w-7xl px-8 md:px-12 relative lg:px-32 mx-auto lg:pt-56">
       <div class="max-w-6xl">
-        
+        <div class="text-white flex">
+          <a href="/">Home</a>
+          <p class="font-bold px-2">></p>
+          <a href="/blog">Blog</a>
+          <p class="font-bold px-2">></p>
+          <a class="text-indigo-400">{frontmatter.heading}</a>
+        </div>
         <h1 class="text-4xl mt-4 font-normal tracking-tighter text-white">
           {frontmatter.heading}
         </h1>

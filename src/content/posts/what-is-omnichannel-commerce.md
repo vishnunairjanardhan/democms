@@ -1,17 +1,17 @@
 ---
 pubDate: 2022-08-09
 author: Mrudul
-title: "What is Omnichannel Commerce"
-description: "Learn why Omnichannel is better than Multichannel, its benefits, drawbacks in implementing them, and a few examples of businesses that are currently doing it"
-heading: What is Omnichannel Commerce
+title: "What is omnichannel commerce? Benefits & Best Practices"
+description: "Omnichannel Commerce is a multichannel approach to sales that provides a unified customer experience across online, mobile, social media, and in-store channels."
+heading: Guide to Omnichannel Commerce- Real-world Examples
 image:
-  url: "/assets/blog/What-is-Omnichannel-Commerce.jpg"
+  url: "/assets/blog/guide-to-omnichannel-commerce- real-world-examples.jpg"
   alt: "The word community with a heart."
 tags: ["Omnichannel"]
 url: "https://www.99minds.io/blog/what-is-omnichannel-commerce"
 
 ---
-<img src="/assets/blog/What-is-Omnichannel-Commerce.jpg">
+<img src="/assets/blog/guide-to-omnichannel-commerce- real-world-examples.jpg">
 
 Harvard Business Review says that <a href="https://hbr.org/2017/01/a-study-of-46000-shoppers-shows-that-omnichannel-retailing-works">73% of online shoppers use several channels</a> when shopping online. This is why it is imperative that businesses offer a unified eCommerce experience to their customers, no matter which channel they are on. 
 
@@ -88,6 +88,8 @@ Let us look at some of the real-life business examples of how eCommerce companie
 
 The retail pharmaceutical giant has a mobile app. Customers can manage their pharmacy prescriptions, find deals, make orders, and pick them up at the nearest location.
 
+<img src="/assets/blog/Starbucks.jpg">
+
 <li><a href="https://www.apple.com/iphone/">Apple:</a></li>
 
 They offer devices that seamlessly sync with each other using the customers’ iCloud accounts. Messages, photos, and connected devices display the same way no matter which Apple device the customer uses. When a customer sets up their new device and signs in using their iCloud account, all the relevant information is downloaded to the new device.
@@ -95,6 +97,8 @@ They offer devices that seamlessly sync with each other using the customers’ i
 <li><a href="https://www.starbucks.com/">Starbucks:</a></li>
 
 The coffee behemoth is also known for its omnichannel strategy. When a Starbucks customer pays with a Starbucks card, they will accumulate reward points. Their linked app allows coffee lovers to send gifts, find nearby stores, and order drinks in advance.
+
+
 
 <li><a href="https://www.bestbuy.com/">Best Buy:</a></li>
 
