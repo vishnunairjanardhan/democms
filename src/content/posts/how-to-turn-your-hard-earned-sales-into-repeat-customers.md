@@ -6,7 +6,7 @@ description: "There are two major strategies to expand your company. The first i
 heading: How to turn your hard-earned sales into repeat customers
 image:
   url: "/assets/blog/How-to-turn-your-hard-earned-sales-into-repeat-customers.jpg"
-  alt: "The word community with a heart."
+  alt: "Hard earn sales into customer."
 tags: ["Customer Retention"]
 url: "https://www.99minds.io/blog/how-to-turn-your-hard-earned-sales-into-repeat-customers"
 

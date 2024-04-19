@@ -6,7 +6,7 @@ description: "Your customers want to know that they are special. They might be y
 heading: What constitutes a good loyalty program?
 image:
   url: "/assets/blog/What-constitutes-a-good-loyalty-program.jpg"
-  alt: "The word community with a heart."
+  alt: "Good loyalty program."
 tags: ["Customer Loyalty", "Loyalty Program"]
 url: "https://www.99minds.io/blog/what-constitutes-a-good-loyalty-program"
 

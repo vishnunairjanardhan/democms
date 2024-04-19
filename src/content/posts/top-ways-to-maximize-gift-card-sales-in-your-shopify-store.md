@@ -6,7 +6,7 @@ description: "Selling gift cards is an excellent way to tap into your existing c
 heading:  Maximize Gift Card Sales By Integrating Gift Cards Into Your Shopify Store
 image:
   url: "/assets/blog/Mazimizing-sales.jpg"
-  alt: "The word community with a heart."
+  alt: "Gift Card Integrations."
 tags: ["Gift Card", "Shopify"]
 url: "https://www.99minds.io/blog/top-ways-to-maximize-gift-card-sales-in-your-shopify-store"
 

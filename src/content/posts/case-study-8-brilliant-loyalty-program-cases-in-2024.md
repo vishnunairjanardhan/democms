@@ -6,7 +6,7 @@ description: "Take inspiration from these loyalty program success stories for yo
 heading: 8 Successful Loyalty Programs Cases to Emulate for Your Store
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-11.png"
-  alt: "The word community with a heart."
+  alt: "Loyalty Program Cases in 2024."
 tags: ["Ecommerce","Loyalty Program"]
 url: "https://www.99minds.io/blog/case-study-8-brilliant-loyalty-program-cases-in-2024"
 

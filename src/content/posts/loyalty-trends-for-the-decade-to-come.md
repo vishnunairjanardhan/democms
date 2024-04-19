@@ -6,7 +6,7 @@ description: "After a deeper research on loyalty trends from various reports. He
 heading: Loyalty Trends For The Decade To Come 
 image:
   url: "/assets/blog/Loyalty-Trends.jpg"
-  alt: "The word community with a heart."
+  alt: "Loyalty trends for the decade to come."
 tags: ["Customer Loyalty"]
 url: "https://www.99minds.io/blog/loyalty-trends-for-the-decade-to-come"
 

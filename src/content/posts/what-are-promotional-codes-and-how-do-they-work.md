@@ -6,7 +6,7 @@ description: "Every time we are about to buy something online, all of us invaria
 heading: What are promotional codes and how do they work?
 image:
   url: "/assets/blog/promo-code0-min-1160x653.jpg"
-  alt: "The word community with a heart."
+  alt: "Promotional Codes."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/what-are-promotional-codes-and-how-do-they-work"
 

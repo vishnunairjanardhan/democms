@@ -6,7 +6,7 @@ description: "A successful gift card program can be a useful sales channel and m
 heading: Successful gift card program on your Shopify Store
 image:
   url: "/assets/blog/5-must-have-features-for-a-successful-Shopify-store-gift-card-program-800x450.jpg"
-  alt: "The word community with a heart."
+  alt: "Gift Card Program."
 tags: ["Gift Card", "Shopify"]
 url: "https://www.99minds.io/blog/5-must-have-features-for-a-successful-shopify-store-gift-card-program"
 

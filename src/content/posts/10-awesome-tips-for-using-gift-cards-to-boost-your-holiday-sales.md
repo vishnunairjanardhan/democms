@@ -6,7 +6,7 @@ description: "This is the season of hope. From the time the world went into a me
 heading: 10 Awesome Tips for Using Gift Cards to Boost Your Holiday Sales
 image:
   url: "/assets/blog/10-Awesome-Tips-for-Using-Gift-Cards-to-Boost-Your-Holiday-Sales.jpg"
-  alt: "The word community with a heart."
+  alt: "Boost your holiday sales with gift cards."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/10-awesome-tips-for-using-gift-cards-to-boost-your-holiday-sales"
 

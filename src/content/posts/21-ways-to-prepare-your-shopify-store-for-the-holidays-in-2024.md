@@ -6,7 +6,7 @@ description: "It is that time of the year when there is an expectant smile in ev
 heading: 21 Ways to prepare your Shopify Store for the Holidays in 2024
 image:
   url: "/assets/blog/21ways-to-prepare.png"
-  alt: "The word community with a heart."
+  alt: "Shopify Store for the Holidays in 2024."
 tags: ["Gift Card", "Shopify"]
 url: "https://www.99minds.io/blog/21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024"
 
