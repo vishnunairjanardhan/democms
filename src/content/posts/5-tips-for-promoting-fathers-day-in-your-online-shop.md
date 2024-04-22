@@ -7,7 +7,7 @@ description: "Whether you believe it or not, Americans spent roughly $15 billion
 heading: 5 Tips For Promoting Father’s Day In Your Online Shop
 image:
   url: "/assets/blog/5-Tips-For-Promoting-Fathers-Day-In-Your-Online-Shop.jpg"
-  alt: "The word community with a heart."
+  alt: "Tips for father's day."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/5-tips-for-promoting-fathers-day-in-your-online-shop"
 

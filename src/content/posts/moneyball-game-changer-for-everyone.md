@@ -7,7 +7,7 @@ description: "Who would have in their wildest dreams thought about how calculati
 heading: Moneyball- Game Changer for Everyone
 image:
   url: "/assets/blog/Moneyball-Game-Changer-for-Everyone.jpg"
-  alt: "The word community with a heart."
+  alt: "Moneyball-game changer."
 tags: ["Machine Learning"]
 url: "https://www.99minds.io/blog/moneyball-game-changer-for-everyone"
 

@@ -7,7 +7,7 @@ description: "The first Gift card appeared about 20 years ago, and since then th
 heading: Useful Gift Card Statistics to Know in 2022
 image:
   url: "/assets/blog/Essential-Gift-Card-Statistics-You-Should-Know-in-2022.jpg"
-  alt: "The word community with a heart."
+  alt: "Gift Card Statistics."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/useful-gift-card-statistics-to-know-in-2022"
 

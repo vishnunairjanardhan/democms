@@ -7,7 +7,7 @@ description: "It's starting to feel like Christmas... That means you should star
 heading: Christmas Marketing Ideas to Boost your Sales This Year
 image:
   url: "/assets/blog/christmas-promotion-ideas-for-eCommerce-store.jpg"
-  alt: "The word community with a heart."
+  alt: "Christmas promotion ideas."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/christmas-marketing-ideas-to-boost-your-sales-this-year"
 

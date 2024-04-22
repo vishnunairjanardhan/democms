@@ -7,7 +7,7 @@ description: "Spending on Valentine’s day is expected to be $21.8 billion in 2
 heading: How to Make This Your Most Successful Valentine’s Day Yet
 image:
   url: "/assets/blog/How-to-Make-This-your-most-successful-valentine-day-yet-1.jpg"
-  alt: "The word community with a heart."
+  alt: "Valentine day with gift card."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-to-make-this-your-most-successful-valentines-day-yet"
 

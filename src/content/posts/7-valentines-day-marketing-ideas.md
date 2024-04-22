@@ -7,7 +7,7 @@ description: "Valentine’s day is a day devoted to lovers, but ecommerce retail
 heading: 7 Valentine’s Day Marketing Ideas 
 image:
   url: "/assets/blog/7-Valentines-Day-marketing-ideas1-1-1.jpg"
-  alt: "The word community with a heart."
+  alt: "Valentines day marketing idea."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/7-valentines-day-marketing-ideas"
 

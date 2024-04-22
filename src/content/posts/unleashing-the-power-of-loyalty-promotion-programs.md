@@ -7,7 +7,7 @@ description: "Loyalty is one of the most underrated traits in relationships as w
 heading: Unleashing The Power Of Loyalty & Promotion Programs
 image:
   url: "/assets/blog/Unleashing-the-power-of-Loyalty-Promotion-programs1200px.jpg"
-  alt: "The word community with a heart."
+  alt: "Power of loyalty and promotion programs."
 tags: ["Loyalty","Loyalty Program"]
 url: "https://www.99minds.io/blog/unleashing-the-power-of-loyalty-promotion-programs"
 

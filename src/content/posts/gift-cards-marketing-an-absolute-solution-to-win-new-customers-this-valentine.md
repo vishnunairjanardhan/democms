@@ -7,7 +7,7 @@ description: "February 14 is one of the most beautiful days of the year. It is a
 heading: "Gift Cards Marketing: An Absolute Solution To Win New Customers This Valentine!"
 image:
   url: "/assets/blog/Gift-Cards-Marketing-An-Absolute-Solution-To-Win-New-Customers-This-Valentine2.jpg-.jpg"
-  alt: "The word community with a heart."
+  alt: "Gift Card Marketing on Valentine."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine"
 

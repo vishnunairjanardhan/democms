@@ -7,7 +7,7 @@ description: "Being a part of an exclusive community is a bragging matter for ev
 heading: How to implement an effective customer loyalty program into your Shopify store
 image:
   url: "/assets/blog/Building-Customer-Loyalty-How-to-Implement-Effective-Loyalty-Programs-on-Your-Shopify-Store.jpg"
-  alt: "The word community with a heart."
+  alt: "Effective Customer Loyalty Program on Your Shopify Store."
 tags: ["Gift Card", "Shopify"]
 url: "https://www.99minds.io/blog/how-to-implement-an-effective-customer-loyalty-program-into-your-shopify-store"
 

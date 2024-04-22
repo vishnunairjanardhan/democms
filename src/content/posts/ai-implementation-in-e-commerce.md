@@ -7,7 +7,7 @@ description: "In this article, we look at how integrating gift cards with your S
 heading: AI implementation in e-commerce
 image:
   url: "/assets/blog/AI-implementation-in-e-commerce.png"
-  alt: "The word community with a heart."
+  alt: "Ai in E-commerce."
 tags: ["Artificial Intelligence","Machine Learning"]
 url: "https://www.99minds.io/blog/ai-implementation-in-e-commerce"
 

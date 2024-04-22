@@ -7,7 +7,7 @@ description: "If you are thinking of launching a new loyalty program for your Sh
 heading: How To Create Buzz for Your Shopify Store’s Loyalty Program
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-17-1160x653.png"
-  alt: "The word community with a heart."
+  alt: "Loyalty Program on Shopify."
 tags: ["Gift Card","Loyalty Program"]
 url: "https://www.99minds.io/blog/how-to-create-buzz-for-your-shopify-store's-loyalty-program"
 

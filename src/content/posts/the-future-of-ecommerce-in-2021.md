@@ -7,7 +7,7 @@ description: "Unprecedented. That's the best word to describe the year 2020. The
 heading: The future of Ecommerce in 2021
 image:
   url: "/assets/blog/The-future-of-ecommerce-in-20212.jpg"
-  alt: "The word community with a heart."
+  alt: "Future of e-commerce in 2021."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/the-future-of-ecommerce-in-2021"
 

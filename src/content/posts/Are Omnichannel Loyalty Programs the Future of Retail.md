@@ -7,7 +7,7 @@ description: "Increase your level of loyalty! For smooth, customized experience
 heading: Are Omnichannel Loyalty Programs the Future of Retail?
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-7.png"
-  alt: "The word community with a heart."
+  alt: "Loyalty Program."
 tags: ["Omnichannel",]
 url: "https://www.99minds.io/blog/are-omnichannel-loyalty-programs-the-future-of-retail"
 

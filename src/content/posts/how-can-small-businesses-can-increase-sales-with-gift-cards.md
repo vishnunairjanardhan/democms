@@ -7,7 +7,7 @@ description: "Gift cards are an easy way to attract new customers, get money in 
 heading: How can Small Businesses Increase Sales with Gift Cards
 image:
   url: "/assets/blog/How-can-small-Businesses-increase-sales-with-Giftcards.jpg"
-  alt: "The word community with a heart."
+  alt: "Increase sales with gift cards."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-can-small-businesses-can-increase-sales-with-gift-cards"
 

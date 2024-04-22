@@ -7,7 +7,7 @@ description: "Internationalization has become a global buzzword in the world of 
 heading: Internationalization Strategies in E-Commerce
 image:
   url: "/assets/blog/Internationalization-Strategies-in-e-commerce.jpg"
-  alt: "The word community with a heart."
+  alt: "E-commerce Strategies."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/internationalization-strategies-in-e-commerce"
 

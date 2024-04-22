@@ -7,7 +7,7 @@ description: "Without a doubt, technology is the backbone of eCommerce. From hel
 heading: The role of technology in enhancing eCommerce
 image:
   url: "/assets/blog/The-role-of-technology-in-enhancing-eCommerce.jpg"
-  alt: "The word community with a heart."
+  alt: "Technology in ecommerce."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/the-role-of-technology-in-enhancing-ecommerce"
 

@@ -7,7 +7,7 @@ description: "Even though there are several ways to promote your gift cards, sel
 heading: 9 ways to increase gift card sales using social media
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-8.png"
-  alt: "The word community with a heart."
+  alt: "Gift Card Sales Using Social Media."
 tags: ["Gift Card","Shopify"]
 url: "https://www.99minds.io/blog/9-ways-to-increase-gift-card-sales-using-social-media"
 

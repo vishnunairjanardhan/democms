@@ -7,7 +7,7 @@ description: "The way marketers build and operate online campaigns has evolved t
 heading: How 99minds Fits Into Your Martech Stack
 image:
   url: "/assets/blog/How-99minds-fits-Into-Your-Martech-Stack.jpg"
-  alt: "The word community with a heart."
+  alt: "Martech Stack."
 tags: ["Loyalty Program","Omnichannel","Gift Card"]
 url: "https://www.99minds.io/blog/how-99minds-fits-into-your-martech-stack"
 

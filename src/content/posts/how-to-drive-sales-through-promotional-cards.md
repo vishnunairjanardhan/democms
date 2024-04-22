@@ -7,7 +7,7 @@ description: "Suppose your sales numbers are stagnant and there are not many pro
 heading: How to drive sales through promotional cards
 image:
   url: "/assets/blog/How-to-drive-sales-through-promotional-cards2.jpg"
-  alt: "The word community with a heart."
+  alt: "promotional cards."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-to-drive-sales-through-promotional-cards"
 

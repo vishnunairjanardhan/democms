@@ -7,7 +7,7 @@ description: "Gift cards appear to be popular with everyone, especially customer
 heading: Are gift cards only for Holidays and seasonal sales?
 image:
   url: "/assets/blog/Are-gift-cards-only-for-Holidays-and-seasonal-sales1.jpg"
-  alt: "The word community with a heart."
+  alt: "Gift card for holidays and seasonal sales."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/are-gift-cards-only-for-holidays-and-seasonal-sales"
 

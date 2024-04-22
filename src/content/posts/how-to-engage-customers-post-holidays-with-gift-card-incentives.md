@@ -7,7 +7,7 @@ description: "In this article, we look at some of the best ways you can engage c
 heading: Top Ten Ways to Engage Customers Post-Holidays With Gift Cards
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-16.png"
-  alt: "The word community with a heart."
+  alt: "Post Holidays with Gift Card Incentives."
 tags: ["Gift Card",]
 url: "https://www.99minds.io/blog/how-to-engage-customers-post-holidays-with-gift-card-incentives"
 

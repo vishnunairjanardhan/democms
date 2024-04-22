@@ -7,7 +7,7 @@ description: "Despite the world's erratic economic position, Gift Cards remain a
 heading: "Self-Use Gift Cards: Impact On Consumer Behaviour"
 image:
   url: "/assets/blog/Self-Use-Gift-Cards-Impact-On-Consumer-Behavior1.jpg"
-  alt: "The word community with a heart."
+  alt: "Self use gift card."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/self-use-gift-cards-impact-on-consumer-behaviour"
 

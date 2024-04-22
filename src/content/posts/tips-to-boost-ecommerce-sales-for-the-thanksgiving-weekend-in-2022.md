@@ -7,7 +7,7 @@ description: "The Thanksgiving weekend is one of the most significant shopping p
 heading: Tips To Boost eCommerce Sales for The Thanks giving Weekend in 2022
 image:
   url: "/assets/blog/Tips-To-Boost-eCommerce-Sales-for-The-Thanksgiving-Weekend1.jpg"
-  alt: "The word community with a heart."
+  alt: "Tips to Boost E-Commerce Sales."
 tags: ["Ecommerce","Gift Card"]
 url: "https://www.99minds.io/blog/tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022"
 

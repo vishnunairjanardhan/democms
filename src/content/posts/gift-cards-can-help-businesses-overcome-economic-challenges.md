@@ -7,7 +7,7 @@ description: "Challenges aren’t new for businesses. An economic downturn is a 
 heading: Gift Cards Can Help Businesses Overcome Economic Challenges
 image:
   url: "/assets/blog/Gift-Cards-Can-Help-Businesses-Overcome-Economic-Challenges1.png"
-  alt: "The word community with a heart."
+  alt: "Gift Card for Business."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges"
 

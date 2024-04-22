@@ -7,7 +7,7 @@ description: "If you are looking for free BigCommerce themes, you are in the rig
 heading: Top 5 BigCommerce Apps To Boost Conversions
 image:
   url: "/assets/blog/Top-5-bigcommerce-apps-to-boost-conversions-1.jpg"
-  alt: "The word community with a heart."
+  alt: "Best bigcommerce apps."
 tags: ["BigCommerce"]
 url: "https://www.99minds.io/blog/top-5-bigcommerce-apps-to-boost-conversions"
 

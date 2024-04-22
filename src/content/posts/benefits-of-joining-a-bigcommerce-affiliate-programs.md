@@ -7,7 +7,7 @@ description: "By being part of an affiliate marketing program of your eCommerce 
 heading: Benefits of Joining a BigCommerce Affiliate Programs
 image:
   url: "/assets/blog/Benefits-of-Joining-a-BigCommerce-Affiliate-Programs.jpg"
-  alt: "The word community with a heart."
+  alt: "Bigcommerce affiliate programs."
 tags: ["BigCommerce"]
 url: "https://www.99minds.io/blog/benefits-of-joining-a-bigcommerce-affiliate-programs"
 

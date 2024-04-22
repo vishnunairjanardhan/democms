@@ -7,7 +7,7 @@ description: "Retaining your customers is a goal that every business has, especi
 heading: How to Build Customer Loyalty for Your E-Commerce Store 
 image:
   url: "/assets/blog/How-to-build-customer-loyalty-for-your-E-commerce-store1200px.jpg"
-  alt: "The word community with a heart."
+  alt: "Customer loyalty for e-commerce store."
 tags: ["Customer Retention"]
 url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-your-e-commerce-store"
 

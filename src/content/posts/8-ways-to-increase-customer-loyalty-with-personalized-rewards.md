@@ -7,7 +7,7 @@ description: "Businesses understand the value of customer loyalty and how it aff
 heading: 8 Ways to Increase Customer Loyalty With Personalized Rewards
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-5.png"
-  alt: "The word community with a heart."
+  alt: "Customer Loyalty with Personalized Rewards."
 tags: ["Customer Loyalty"]
 url: "https://www.99minds.io/blog/8-ways-to-increase-customer-loyalty-with-personalized-rewards"
 

@@ -7,7 +7,7 @@ description: "It takes months to find a customer, seconds to lose one”- Vince 
 heading: Ways to Incentivize your Bigcommerce Customers to Return
 image:
   url: "/assets/blog/Ways-to-Incentivize-your-Bigcommerce-Customers-to-Return.jpg"
-  alt: "The word community with a heart."
+  alt: "Bigcommerce Customer."
 tags: ["BigCommerce",]
 url: "https://www.99minds.io/blog/ways-to-incentivize-your-bigcommerce-customers-to-return"
 

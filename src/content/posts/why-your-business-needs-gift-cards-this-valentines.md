@@ -7,7 +7,7 @@ description: "Finding a romantic partner is one of the most fulfilling events of
 heading:  Why your business needs Gift Cards this Valentine’s 
 image:
   url: "/assets/blog/Why-your-business-needs-Gift-Cards-this-Valentines-1.jpg"
-  alt: "The word community with a heart."
+  alt: "Gift cards for valentine's."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/why-your-business-needs-gift-cards-this-valentines"
 

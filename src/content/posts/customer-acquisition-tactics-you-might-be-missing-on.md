@@ -7,7 +7,7 @@ description: "You'll learn the principles of consumer acquisition in this articl
 heading: Customer Acquisition Tactics You Might Be Missing On 
 image:
   url: "/assets/blog/Customer-acquisition-tactics_v1.0-1.png"
-  alt: "The word community with a heart."
+  alt: "Customer acquisition tactics."
 tags: ["Customer Acquisation"]
 url: "https://www.99minds.io/blog/customer-acquisition-tactics-you-might-be-missing-on"
 

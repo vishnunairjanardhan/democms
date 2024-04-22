@@ -7,7 +7,7 @@ description: "Successful businesses know that their success lies in how their cu
 heading: What Makes a Loyalty Program Successful
 image:
   url: "/assets/blog/what-makes-loyalty-program-successful-800x450.jpg"
-  alt: "The word community with a heart."
+  alt: "Tips to make loyalty proram successful."
 tags: ["Customer Loyalty"]
 url: "https://www.99minds.io/blog/what-makes-a-loyalty-program-successful"
 

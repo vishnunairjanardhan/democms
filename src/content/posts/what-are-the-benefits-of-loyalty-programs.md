@@ -7,7 +7,7 @@ description: "Companies across the world realize that existing customers are sup
 heading: What are the benefits of Loyalty Programs
 image:
   url: "/assets/blog/benefits-of-loyalty-program1.jpg"
-  alt: "The word community with a heart."
+  alt: "benefits of loyalty program."
 tags: ["Customer Loyalty"]
 url: "https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs"
 

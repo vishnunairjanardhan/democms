@@ -7,7 +7,7 @@ description: "Take a look at why your business needs to offer a personalized cus
 heading: What’s a personalized Customer Journey and why do you need to offer it?
 image:
   url: "/assets/blog/Whats-a-personalized-customer-journey-and-why-do-you-need-to-offer-it-4.jpg"
-  alt: "The word community with a heart."
+  alt: "Personalized Customer Journey."
 tags: ["Customer Acquisation"]
 url: "https://www.99minds.io/blog/personalized-customer-journey"
 

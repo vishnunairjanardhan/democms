@@ -7,7 +7,7 @@ description: "Is finding new clients for your pet-related business looking like 
 heading: How do loyalty programs help the pet industry
 image:
   url: "/assets/blog/loyalty-program.jpg"
-  alt: "The word community with a heart."
+  alt: "Loyalty Program."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-do-loyalty-programs-help-the-pet-industry"
 

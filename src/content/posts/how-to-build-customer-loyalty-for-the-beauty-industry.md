@@ -7,7 +7,7 @@ description: "The beauty industry is worth $532 billion, and it is an industry t
 heading: How to Build Customer Loyalty for the Beauty Industry
 image:
   url: "/assets/blog/Loyalty-for-beauty-Industry2.jpg"
-  alt: "The word community with a heart."
+  alt: "Customer loyalty for beauty industry."
 tags: ["Customer Engagement"]
 url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-the-beauty-industry"
 

@@ -7,7 +7,7 @@ description: "In this blog you'll learn how to build customer loyalty for pet In
 heading: How To Build Customer Loyalty For Pet Insurance
 image:
   url: "/assets/blog/Loyalty-for-pet-insurance2-1.jpg"
-  alt: "The word community with a heart."
+  alt: "Customer loyalty for pet insurance."
 tags: ["Loyalty","Loyalty Program"]
 url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-pet-insurance"
 

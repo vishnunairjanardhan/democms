@@ -7,7 +7,7 @@ description: "Loyalty is a strong word. There are emotions attached to it. It is
 heading: 5 Key Components To Personalize The Loyalty Experience 
 image:
   url: "/assets/blog/5-Key-Features4.jpg"
-  alt: "The word community with a heart."
+  alt: "Components to personalize the loyalty experience."
 tags: ["Customer Engagement"]
 url: "https://www.99minds.io/blog/5-key-components-to-personalize-the-loyalty-experience"
 ---

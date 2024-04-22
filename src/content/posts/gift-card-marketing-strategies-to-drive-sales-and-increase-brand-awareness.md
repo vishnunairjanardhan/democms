@@ -7,7 +7,7 @@ description: "As a retailer, if you are not investing in a gift card strategy, y
 heading: Gift card marketing strategies to drive sales and increase brand awareness
 image:
   url: "/assets/blog/Gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.jpg"
-  alt: "The word community with a heart."
+  alt: "Gift Card Marketing Strategis."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness"
 

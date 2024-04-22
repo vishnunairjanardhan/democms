@@ -7,7 +7,7 @@ description: "Every business would prefer to have customers who purchase over an
 heading: Increasing repeat purchases how gift cards and loyalty programs can drive customer lifetime value on shopify
 image:
   url: "/assets/blog/Increasing-Repeat-Purchases-How-Gift-Cards-and-Loyalty-Programs-Can-Drive-Customer-Lifetime-Value-on-Shopify.jpg"
-  alt: "The word community with a heart."
+  alt: "Customer Lifetime Value on Shopify."
 tags: ["Loyalty Program","Shopify"]
 url: "https://www.99minds.io/blog/increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify"
 

@@ -7,7 +7,7 @@ description: "A probable oxymoron that talks about machines being intelligent â€
 heading: AI for Everyone
 image:
   url: "/assets/blog/AI-for-Everyone.jpg"
-  alt: "The word community with a heart."
+  alt: "AI for everyone."
 tags: ["Artificial Intelligence"]
 url: "https://www.99minds.io/blog/ai-for-everyone"
 

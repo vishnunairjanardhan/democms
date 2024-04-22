@@ -7,7 +7,7 @@ description: "Customers these days want a seamless and flexible shopping experie
 heading: Importance of omni-channel loyalty programs
 image:
   url: "/assets/blog/Importance-of-Omnichannel-Loyalty-Program1.jpg"
-  alt: "The word community with a heart."
+  alt: "Pmnichannel loyalty program."
 tags: ["Loyalty","Omnichannel"]
 url: "https://www.99minds.io/blog/importance-of-omni-channel-loyalty-programs"
 
