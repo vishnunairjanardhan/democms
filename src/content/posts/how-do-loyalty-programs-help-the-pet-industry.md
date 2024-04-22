@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-07-03
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "How do loyalty programs help the pet industry?"
 description: "Is finding new clients for your pet-related business looking like a daunting task? Because of this, are you always on the lookout for new clients? The problem here is that you might not be tapping into the network of your existing clients. Ignore existing clients at your peril. Why do you need loyalty programs"
 heading: How do loyalty programs help the pet industry

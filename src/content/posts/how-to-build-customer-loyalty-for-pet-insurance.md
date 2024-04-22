@@ -1,6 +1,7 @@
 ---
 pubDate: 2020-03-17
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How To Build Customer Loyalty For Pet Insurance
 description: "In this blog you'll learn how to build customer loyalty for pet Insurance and how it can help you to maintain good relationships with your customers."
 heading: How To Build Customer Loyalty For Pet Insurance

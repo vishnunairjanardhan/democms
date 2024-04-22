@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-01-05
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "National use your Gift Card Day"
 description: "The third Saturday of January is dedicated to a special enabler of ecommerce throughout the world- the ubiquitous gift cards. 15th January this year is the National Use Your Gift Card Day, and the whole objective of a day dedicated to gift cards is to encourage more of its use since $3.5 billion of gift"
 heading: National use your Gift Card Day

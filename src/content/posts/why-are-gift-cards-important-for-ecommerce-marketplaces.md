@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-09-30
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Why are Gift Cards important for eCommerce Marketplaces? 
 description: "It is undeniable that online sales are increasing, and the old brick-and-mortar approach hurts retailers who haven't gone online. On the other hand, several internet-born retailers have grown into online behemoths without ever setting foot in a physical store. These stores, such as Amazon, eBay, and Rakuten, have also evolved into online marketplaces, bringing consumers"
 heading: Why are Gift Cards important for eCommerce Marketplaces? 

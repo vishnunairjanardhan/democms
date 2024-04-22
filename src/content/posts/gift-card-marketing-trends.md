@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-01-22
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "Trends of the Gift Card Market"
 description: "A gift card is a prepaid store-value money card issued by the retailer or a bank and can be used instead of cash when purchasing from that particular store. Most gift cards are redeemable only in the specific retailer unless otherwise explicitly stated so. While customers usually buy gift cards for friends and family as"
 heading: Trends of the Gift Card Market

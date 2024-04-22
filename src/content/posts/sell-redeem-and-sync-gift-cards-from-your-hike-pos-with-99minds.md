@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-07-21
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "Sell, Redeem and Sync Gift Cards from your Hike POS with 99minds"
 description: "Setting Up Gift Cards Via Hike POS using 99minds “Make a customer, not a sale.” - Katherine Barchetti, Founder, K. Barchetti Shops Make new friends, but keep the old, as the old saying goes. The first is silver, whereas the second is gold.” A long-term customer is also more valuable than a one-time consumer, and"
 heading: Sell, Redeem and Sync Gift Cards from your Hike POS with 99minds

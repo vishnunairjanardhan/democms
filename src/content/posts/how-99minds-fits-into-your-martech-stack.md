@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-08-17
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "How 99minds Fits Into Your Martech Stack"
 description: "The way marketers build and operate online campaigns has evolved thanks to marketing technologies. Many digital marketing activities would be a gamble if they didn't have data and analytics for study and measurement. There are numerous tools available for current campaigns that provide specialty alternatives or unique features that can make practically any marketing campaign"
 heading: How 99minds Fits Into Your Martech Stack

@@ -1,6 +1,7 @@
 ---
 pubDate: 2024-01-02
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How To Create Buzz for Your Shopify Store’s Loyalty Program
 description: "If you are thinking of launching a new loyalty program for your Shopify store, you must follow the below steps to get the most out of it."
 heading: How To Create Buzz for Your Shopify Store’s Loyalty Program

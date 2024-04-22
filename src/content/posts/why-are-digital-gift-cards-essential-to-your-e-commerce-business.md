@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-09-22
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Why are digital Gift cards essential to your e-commerce business?
 description: "Digital gift cards have been a great partner for eCommerce stores during the Covid-19 pandemic times. It helped several businesses stay afloat. There is no need to be surprised at the stupendous rise that it has shown in the past few years. Just like the rise in eCommerce transactions, the rise in digital gift card."
 heading: Why are digital Gift cards essential to your e-commerce business?

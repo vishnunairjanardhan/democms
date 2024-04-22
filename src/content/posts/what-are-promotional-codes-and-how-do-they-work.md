@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-01-23
 author: PRAVIN KAMBLE
+authorImg: "Pravin.png"
 title: "What are promotional codes and how do they work?"
 description: "Every time we are about to buy something online, all of us invariably look for promo codes that reduce the value of our order. We are always looking for a discount or a free gift when making a purchase. It’s who we are as human beings, and this is why eCommerce sites should embrace the"
 heading: What are promotional codes and how do they work?

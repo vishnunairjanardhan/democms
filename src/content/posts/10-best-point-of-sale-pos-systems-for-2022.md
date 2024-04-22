@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-05-16
 author: Mrudul
+authorImg: "Mrudul.png"
 title: 10 Best Point-of-Sale (POS) Systems for 2022
 description: Without a method to manage sales or accept payments, your business will be in a disarray. You need the right set of tools for efficiently running a business. A POS system is pivotal for retailers to run their business smoothly. What is a Point of Sale (POS) system? A POS system lets businesses accepts payments.
 heading: 10 Best Point-of-Sale (POS) Systems for 2022

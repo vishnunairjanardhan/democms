@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-04-01
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Types of Customer Loyalty Programs
 description: "“What is a customer loyalty program? A customer loyalty program uses incentives to make the customer keep coming back to you for more purchases. The objective is to build a strong relationship with the customer and reduce customer churn. With the right kind of customer loyalty program, you will be able to increase the retention."
 heading: Types of Customer Loyalty Programs

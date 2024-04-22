@@ -1,6 +1,7 @@
 ---
 pubDate: 2020-04-28
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Customer Retention And Acquisition Using AI
 description: "Ever wondered how AI can us to Retain and Acquire more customers? Here we have highlighted few points on using AI to retain and acquire customers.  "
 heading: Customer Retention And Acquisition Using AI

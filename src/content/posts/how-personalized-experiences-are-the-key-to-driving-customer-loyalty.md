@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-03-02
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How Personalized Experiences Are the Key to Driving Customer Loyalty
 description: "There is no doubt that the Covid-19 pandemic has changed the way many businesses around the world operate. Most marketers found that a huge margin slashed their budgets. Many CTOs had to enable many technological changes in driving work from home successfully and reach out to customers who couldn't walk into a retail store like."
 heading: How Personalized Experiences Are the Key to Driving Customer Loyalty

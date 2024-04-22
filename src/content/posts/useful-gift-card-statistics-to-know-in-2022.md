@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-07-12
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "Useful Gift Card Statistics to Know in 2022"
 description: "The first Gift card appeared about 20 years ago, and since then the gift card industry has been developing dramatically. But do you know that Gift Certificates gave rise to Gift Cards. The problem with certificates was that issuing and redeeming them required a lengthy process, and frauds were more common. So Gift cards came"
 heading: Useful Gift Card Statistics to Know in 2022

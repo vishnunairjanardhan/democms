@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-12-19
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Top Ten Ways to Engage Customers Post-Holidays With Gift Cards
 description: "In this article, we look at some of the best ways you can engage customers after the holiday season, with the help of gift card incentives."
 heading: Top Ten Ways to Engage Customers Post-Holidays With Gift Cards

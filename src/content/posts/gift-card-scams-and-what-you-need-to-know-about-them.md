@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-04-24
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Gift card scams and what you need to know about them
 description: "The holiday season is a great time to be a scammer. Unfortunately, a lot of honest consumers are swindled by scammers who rob them of their personal information and money. We would go so far as to say that everything you buy during the holiday season, right from electronics to gift cards, make sure you."
 heading: Gift card scams and what you need to know about them

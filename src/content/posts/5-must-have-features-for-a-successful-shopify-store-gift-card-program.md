@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-07-15
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Successful gift card program on your Shopify Store
 description: "A successful gift card program can be a useful sales channel and more."
 heading: Successful gift card program on your Shopify Store

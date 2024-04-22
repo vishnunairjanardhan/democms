@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-02-08
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "Internationalization Strategies in E-Commerce"
 description: "Internationalization has become a global buzzword in the world of e-commerce"
 heading: Internationalization Strategies in E-Commerce
