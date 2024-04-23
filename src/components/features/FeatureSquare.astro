@@ -2,236 +2,145 @@
 import Verticalgrid from "../assets/Verticalgrid.astro";
 ---
 
-<section class="relative">
-  <Verticalgrid />
-  <div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-24  space-y-24">
-    <div class="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-      <div class=" ">
-        <p
-          class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
-          Gift Card
-        </p>
-        <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight">
-           Sell Gift Cards-  Physical and Digital  
-        </h2>
-        <p class="mt-4 text-base text-xl text-vulcan-300 ">
-          Allow customers to buy, send and design branded Gift Cards on every Shopify plan, and boost your Gift Card sales by 300%.​
-        </p>
-          <div class="flex flex-wrap items-center gap-2 mt-10">
-              <div x-data="{ open: false }" class="flex justify-center">
-              <!-- Trigger -->
-              <span x-on:click="open = true">
-                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
-                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white">Get started for free</span>
-                </span></button>
-                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
-                      
-                    <iframe
-                      src="../GetStarted"
-                      width="100%"
-                      height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly"
-                    ></iframe>
-
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
+<section class="">
+<Verticalgrid />
+  <div class="mx-auto max-w-7xl py-24 lg:px-16 md:px-12 px-8 xl:px-18 items-center lg:py-24 relative w-full">
+    <div class="mx-auto text-center">
+      <h2 class="mt-8 text-3xl font-normal tracking-tight text-white">The tools you need to grow repeat sales</h2>
+      <p class="max-w-2xl mx-auto mt-4 text-base text-vulcan-300">Points, VIP, referrals, gift cards, and store credit work seamlessly together to create the ultimate rewards program for your business.</p>
+    </div>
+    <div class="mx-auto grid md:grid-cols-2 lg:grid-cols-2 gap-5 mt-16">
+      <div class="flex flex-col  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
+        <div class="px-6 py-8 sm:p-10 sm:pb-6">
+          <div class="grid items-center justify-center w-full grid-cols-1 text-left">
+            <div>
+              <img alt="Shopify gift cards" class="w-44 text-center" src="/assets/shopify/Shopify-GC.svg">
+              <h2 class=" text-2xl mt-8 text-white">Sell Gift Cards - Physical and Digital<h2>
+              <p class="mt-2 text-md text-vulcan-300">Allow customers to buy, send and design branded Gift Cards on every Shopify plan, and boost your gift card sales by 300%.</p>
             </div>
- 
+          </div>
+        </div>
+        <!--<div class="flex flex-col justify-between flex-1 px-10 pb-8 space-y-6 sm:px-10">
+          <div class="flex mt-2 w-full">
+              <a href="/contact" target="_blank" class="relative p-0.5 ml-2 inline-flex items-center justify-center font-medium overflow-hidden group rounded-md">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400"> 
+                <span class="relative text-white">Get started</span> </span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400"> 
+                <span class="relative text-white">Get started</span> </span>
+              </a>
+          </div>
+        </div>-->
           
+        
       </div>
-      
-      <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/homepage/GC-experience.png"
-        />
-      </div>
-    </div>
-    <div
-      class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-      <div class="sm:order-last  ">
-        <p
-          class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
-          Loyalty Program
-        </p>
-        <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight">
-          Simple and Dynamic Loyalty Program
-        </h2>
-        <p class="mt-4 text-xl text-vulcan-300">
-          Offer an omni-channel loyalty program that boosts customer lifetime value and marketing performance</p>
-        <div class="flex flex-wrap items-center gap-2 mt-10">
-              <div x-data="{ open: false }" class="flex justify-center">
-              <!-- Trigger -->
-              <span x-on:click="open = true">
-                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
-                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white">Get started for free</span>
-                </span></button>
-                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
-                      
-                    <iframe
-                      src="../GetStarted"
-                      width="100%"
-                      height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly"
-                    ></iframe>
-
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <div class="flex flex-col  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
+        <div class="px-6 py-8 sm:p-10 sm:pb-6">
+          <div class="grid items-center justify-center w-full grid-cols-1 text-left">
+            <div>
+              <img alt=" Shopify loyalty program" class="w-44 text-center" src="/assets/shopify/Shopify-LP.svg">
+              <h2 class=" text-2xl mt-8 text-white">Simple and Dynamic Loyalty Program<h2>
+              <p class="mt-2 text-md text-vulcan-300">Offer an omni-channel loyalty program that boosts customer lifetime value and marketing performance.</p>
             </div>
-      </div>
-      <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/homepage/LP.png"
-        />
-      </div>
-    </div>
-    <div
-      class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-      <div class=" ">
-        <p
-          class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
-          Store Credit
-        </p>
-        <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight">
-          Store Credit- Turn Refunds Into Sales
-        </h2>
-        <p class="mt-4 text-xl text-vulcan-300">
-          Issue store credit to your customers that can be used to process refunds or reward customers
-        </p>
-                <div class="flex flex-wrap items-center gap-2 mt-10">
-              <div x-data="{ open: false }" class="flex justify-center">
-              <!-- Trigger -->
-              <span x-on:click="open = true">
-                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+          </div>
+        </div>
+        <!--<div class="flex flex-col justify-between flex-1 px-10 pb-8 space-y-6 sm:px-10">
+          <div class="flex mt-2 w-full">
+              <a href="/contact" target="_blank" class="relative p-0.5 ml-2 inline-flex items-center justify-center font-medium overflow-hidden group rounded-md">
                 <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white">Get started for free</span>
-                </span></button>
-                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
-                      
-                    <iframe
-                      src="../GetStarted"
-                      width="100%"
-                      height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly"
-                    ></iframe>
-
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400"> 
+                <span class="relative text-white">Get started</span> </span>
+              </a>
+          </div>
+        </div>-->
+      </div>
+      <!--<div class="flex flex-col  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
+        <div class="px-6 py-8 sm:p-10 sm:pb-6">
+          <div class="grid items-center justify-center w-full grid-cols-1 text-left">
+            <div>
+              <img alt=" Shopify store credit" class="w-44 text-center" src="/assets/shopify/Shopify-SC.svg">
+              <h2 class=" text-2xl mt-8 text-white"> Store Credit- Turn Refunds Into Sales<h2>
+              <p class="mt-2 text-md text-vulcan-300">Issue store credit to your customers that can be used to process refunds or reward customers.</p>
             </div>
-      </div>
-      <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/homepage/SC.png"
-        />
-      </div>
-    </div>
-    <div
-      class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-      <div class="sm:order-last  ">
-        <p
-          class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
-          Referral Program
-        </p>
-        <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight">
-          Customisable Referral Program
-        </h2>
-        <p class="mt-4 text-xl text-vulcan-300">
-          Build a referral program that turns customer advocacy to revenue driver through SMS, Emails, Social media and more.</p>
-        <div class="flex flex-wrap items-center gap-2 mt-10">
-              <div x-data="{ open: false }" class="flex justify-center">
-              <!-- Trigger -->
-              <span x-on:click="open = true">
-                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+          </div>
+        </div>
+        <div class="flex flex-col justify-between flex-1 px-10 pb-8 space-y-6 sm:px-10">
+          <div class="flex mt-8 w-full">
+              <a href="/contact" target="_blank" class="relative p-0.5 ml-2 inline-flex items-center justify-center font-medium overflow-hidden group rounded-md">
                 <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white">Get started for free</span>
-                </span></button>
-                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
-                      
-                    <iframe
-                      src="../GetStarted"
-                      width="100%"
-                      height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly"
-                    ></iframe>
-
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400"> 
+                <span class="relative text-white">Get started</span> </span>
+              </a>
+          </div>
+        </div>
+      </div>-->
+      <div class="flex flex-col  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
+        <div class="px-6 py-8 sm:p-10 sm:pb-6">
+          <div class="grid items-center justify-center w-full grid-cols-1 text-left">
+            <div>
+              <img alt=" Shopify referral program" class="w-44 text-center" src="/assets/shopify/Shopify-Rf.svg">
+              <h2 class=" text-2xl mt-8 text-white">Customisable Referral Program<h2>
+              <p class="mt-2 text-md text-vulcan-300">Build a referral program that turns customer advocacy to revenue driver through SMS, emails, social media and more.</p>
             </div>
+          </div>
+        </div>
+        <!--<div class="flex flex-col justify-between flex-1 px-10 pb-8 space-y-6 sm:px-10">
+          <div class="flex mt-2 w-full">
+              <a href="/contact" target="_blank" class="relative p-0.5 ml-2 inline-flex items-center justify-center font-medium overflow-hidden group rounded-md">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400"> 
+                <span class="relative text-white">Get started</span> </span>
+              </a>
+          </div>
+        </div>-->
       </div>
-      <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/homepage/LP.png"
-        />
-      </div>
+      <!--<div class="flex flex-col  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
+        <div class="px-6 py-8 sm:p-10 sm:pb-6">
+          <div class="grid items-center justify-center w-full grid-cols-1 text-left">
+            <div>
+              <img alt=" Shopify coupons" class="w-44 text-center" src="/assets/shopify/Shopify-CG.svg">
+              <h2 class=" text-2xl mt-8 text-white">Powerful Coupon Generator<h2>
+              <p class="mt-2 text-md text-vulcan-300">Bulk, dynamic & personalize coupon generation for your store.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-between flex-1 px-10 pb-8 space-y-6 sm:px-10">
+          <div class="flex mt-14 w-full">
+              <a href="/contact" target="_blank" class="relative p-0.5 ml-2 inline-flex items-center justify-center font-medium overflow-hidden group rounded-md">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400"> 
+                <span class="relative text-white">Get started</span> </span>
+              </a>         
+             </div>
+        </div>
+      </div>-->
+      <div class="flex flex-col  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
+        <div class="px-6 py-8 sm:p-10 sm:pb-6">
+          <div class="grid items-center justify-center w-full grid-cols-1 text-left">
+            <div>
+              <img alt="Shopify pos" class="w-44 text-center" src="/assets/shopify/Shopify-POS.svg">
+              <h2 class=" text-2xl mt-8 text-white">Seamless POS Integration<h2>
+              <p class="mt-2 text-md text-vulcan-300">Discover the perfect retail synergy as 99minds effortlessly integrates with your POS system, streamlining your business's retail management.</p>
+            </div>
+          </div>
+        </div>
+        <!--<div class="flex flex-col justify-between flex-1 px-10 pb-8 space-y-6 sm:px-10">
+          <div class="flex mt-2 w-full">
+            <a href="/contact" target="_blank" class="relative p-0.5 ml-2 inline-flex items-center justify-center font-medium overflow-hidden group rounded-md">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400"> 
+                <span class="relative text-white">Get started</span> </span>
+              </a>
+        </div>
+      </div>-->
     </div>
   </div>
+   <div class="flex flex-col justify-center max-w-xl gap-2 mx-auto mt-16 sm:flex-row">
+          <a href="https://apps.shopify.com/99minds-gift-card-loyalty-referral#" target="_blank" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white">Install 99minds on Square</span>
+                </span>
+          </a>
+      </div>
 </section>
