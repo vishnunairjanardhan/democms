@@ -12,10 +12,19 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="Birdsnest Case Study"
-  description="Your site description goes here"
+  title="Birdsnest Boosts Revenue with 99minds Gift Cards | 99minds"
+  description="Birdsnest, the growing women fashion brand, shares how 99minds gift cards and intelligent workflows are helping them scale their business."
   canonical="https://www.99minds.io/case-study/birdsnest-case-study"
-  {...Seo}
+  openGraph={{
+    url: "https://www.99minds.io/case-study/birdsnest-case-study",
+    title: "Birdsnest Boosts Revenue with 99minds Gift Cards | 99minds",
+    description: "Birdsnest, the growing women fashion brand, shares how 99minds gift cards and intelligent workflows are helping them scale their business.",
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
 />
 <BaseLayout>
   <HeroCasestudyBirdsnest />
