@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-05-04
 author: Mrudul
+authorImg: "Mrudul.png"
 title: The Efficiency and Effectiveness of Online Shopping
 description: "Online shopping has gained immense popularity in recent years. With the convenience of being able to shop at any time, from any location, and with access to a plethora of products right at your fingertips, it's no wonder that more and more people are opting for online shopping. But how effective is it really? In."
 heading: The Efficiency and Effectiveness of Online Shopping

@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-12-14
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How to Set Up a Loyalty Program for Your Shopify Store in 2024
 description: "Having a loyalty program for your Shopify store brings several benefits. In this article, you will learn how to set up a loyalty program."
 heading: How to Set Up a Loyalty Program for Your Shopify Store in 2024

@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-03-17
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Coupon Advertising & Ways to Make It Work for Your Business
 description: Customers love saving money. No one is arguing against that statement, isn’t it? One of the oldest tricks in the book is to offer special deals to customers to make them buy more from you. For a business that is looking to increase its bottom line or to attract newer customers, coupon advertising is a.
 heading: Coupon Advertising & Ways to Make It Work for Your Business

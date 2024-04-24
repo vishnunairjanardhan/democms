@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-04-25
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Ways to Boost Sales this Mother’s Day
 description: There are nearly two billion mothers in the world, with 85 million in the United States. In just a few weeks, 84 percent of Americans will be giving gifts to their moms and would spend over $28 billion on Mother's Day gifts. Every year, we get the chance to honour our mothers, their motherhood, and.
 heading: Ways to Boost Sales this Mother’s Day

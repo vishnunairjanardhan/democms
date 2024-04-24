@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-11-12
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Ultimate Guide to Black Friday & Cyber Monday Marketing
 description: "It's that time of year again when Black Friday and Cyber Monday are rapidly approaching. There are plenty of bargains and shoppers out there, but getting more sales requires marketing magic. We'll look at what marketing strategies work. For Black Friday and Cyber Monday 2021, here's how to attract and retain new customers. Consumers are."
 heading: Ultimate Guide to Black Friday & Cyber Monday Marketing
