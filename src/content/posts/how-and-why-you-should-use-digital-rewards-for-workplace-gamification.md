@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-12-29
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How and Why You Should Use Digital Rewards for Workplace Gamification
 description: Who doesn’t love games? What if you could motivate your employees using workplace gamification? With Millennials and Gen Z “hogging” the workforce, you shouldn’t be surprised employers are using games to keep them motivated and engaged. It seems like a natural progression. 79% of employees say gamification has improved their motivation and gives them a.
 heading: How and Why You Should Use Digital Rewards for Workplace Gamification

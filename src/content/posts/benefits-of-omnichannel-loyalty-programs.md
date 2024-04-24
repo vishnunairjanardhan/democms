@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-03-10
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Benefits of Omnichannel loyalty programs
 description: Omnichannel loyalty programs are all about providing the best shopping experience for customers across all channels. They make customers come back to your business by offering a number of incentives for those who are a part of the program. A loyalty program is made omnichannel by engaging customers across a wide array of channels. For.
 heading: Benefits of Omnichannel loyalty programs

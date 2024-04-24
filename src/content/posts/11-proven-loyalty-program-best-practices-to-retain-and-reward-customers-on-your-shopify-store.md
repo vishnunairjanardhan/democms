@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-08-09
 author: Mrudul
+authorImg: "Mrudul.png"
 title: 11 proven loyalty program best practices to retain and reward customers on your Shopify store
 description: "As you enter your favorite eCommerce store, you are greeted with a section that recommends you products based on your previous browsing history and purchases. Such conveniences, rooted in understanding and valuing customers, are at the heart of every successful loyalty program. What is a customer loyalty program? A customer loyalty program is a powerful."
 heading: 11 proven loyalty program best practices to retain and reward customers on your Shopify store

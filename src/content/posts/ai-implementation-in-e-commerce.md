@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-11-03
 author: Mrudul
+authorImg: "Pravin.png"
 title: AI implementation in e-commerce
 description: "In this article, we look at how integrating gift cards with your Shopify store can put your sales machinery on overdrive."
 heading: AI implementation in e-commerce

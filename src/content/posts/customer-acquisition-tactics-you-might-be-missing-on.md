@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-03-25
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Customer Acquisition Tactics You Might Be Missing On 
 description: "You'll learn the principles of consumer acquisition in this article. You'll be able to develop an acquisition plan that is so adaptable that it can endure the test of time and change trends by the end."
 heading: Customer Acquisition Tactics You Might Be Missing On 

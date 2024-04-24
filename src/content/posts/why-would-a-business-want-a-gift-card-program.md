@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-11-09
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Why Would A Business Want A Gift Card Program
 description: "Gift cards are like Christmas. Everyone loves it. They are happy as soon as they get one. No wonder gift cards are most popular during the holiday season.No, I do not want gift cards, said no one ever. Can you imagine your friends or family saying that when you offer them one? There are."
 heading: Why Would A Business Want A Gift Card Program

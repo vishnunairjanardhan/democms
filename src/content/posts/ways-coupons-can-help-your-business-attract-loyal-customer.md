@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-04-19
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Ways Coupons Can Help Your Business Attract Loyal Custome
 description: "The holy grail of every marketer across the world is their target market’s attention. There are a thousand ways to advertise your brand. According to several studies, one of the most effective marketing strategies is providing a one-time use of coupons. The holiday season is the perfect time for businesses to offer incentives to customers."
 heading: Ways Coupons Can Help Your Business Attract Loyal Customer

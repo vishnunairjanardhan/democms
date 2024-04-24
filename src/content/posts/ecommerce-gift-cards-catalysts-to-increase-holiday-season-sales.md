@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-12-20
 author: Mrudul
+authorImg: "Mrudul.png"
 title: eCommerce Gift Cards - Catalysts To Increase Holiday-Season Sales
 description: The humble and ubiquitous gift card is a paradise for retailers, even more so during the holiday season. According to Giftcards.com, 35% of the average shopper’s holiday budget is spent on gift cards. It is a telling statement on the kind of patronage that gift cards have. What makes gift cards so popular is the.
 heading: eCommerce Gift Cards - Catalysts To Increase Holiday-Season Sales
