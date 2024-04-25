@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-04-03
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Innovations in e-commerce 
 description: "Setting up an online store alone will not give you magical sales numbers. eCommerce stores are an essential part of our day-to-day lives. You cannot survive in the market by doing the bare minimum. Offering a seamless and delightful experience to your customers every single time should be your goal. For that, you must leverage."
 heading: Innovations in e-commerce 

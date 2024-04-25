@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-07-20 
 author: Mrudul
+authorImg: "Mrudul.png"
 title: 5 Creative Ways to Promote Gift Cards and Increase Customer Engagement 
 description: "If you don’t offer gift cards to your eCommerce store’s customers, you are in the wrong. Ask any experienced business owner and they will be singing paeans about the effectiveness of gift cards to their bottom line. 33% of people spend more on gift cards than any other gifts. You can safely invest in physical."
 heading: 5 Creative Ways to Promote Gift Cards and Increase Customer Engagement

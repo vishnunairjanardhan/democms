@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-03-18
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Celebrating women and their achievements
 description: "This is Women’s History Month and we are taking this space to highlight a few women entrepreneurs who have solved problems, uplifted communities and made a unique space for themselves in what they do. The women who are a part of this article have varying degrees of success, the only common thing about each of."
 heading: Celebrating women and their achievements

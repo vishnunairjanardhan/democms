@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-01-31
 author: PRAVIN KAMBLE
+authorImg: "Pravin.png"
 title: "Must-have features for your eCommerce website"
 description: "eCommerce adoption has been continually increasing over the past few years. It reached a crescendo with the global pandemic that affected us all since we were forced to buy online. If you have thought of starting an eCommerce store, you won’t find a better time to do it than now. For your eCommerce store to"
 heading: Must-have features for your eCommerce website

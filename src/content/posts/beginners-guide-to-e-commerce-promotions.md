@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-04-12
 author: Mrudul
+authorImg: "Mrudul.png"
 title:  Beginner’s Guide to E-Commerce Promotions
 description: "As the world advances towards new digital technologies, businesses are also finding new avenues to optimize their sales and promotional campaigns. E-commerce has become a powerful platform for retailers to reach their target audience and increase their revenue. If you are a business owner or a marketer looking to venture into e-commerce, then you must."
 heading: Beginner’s Guide to E-Commerce Promotions

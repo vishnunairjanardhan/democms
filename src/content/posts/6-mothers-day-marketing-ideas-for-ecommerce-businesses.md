@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-04-14
 author: Mrudul
+authorImg: "Mrudul.png"
 title: 6 Mother’s Day Marketing Ideas for eCommerce Businesses
 description: "Mother’s day is a special occasion, but it is also a source of stress for customers to find the right gift. People are looking for gift ideas to give their mothers or the motherly figure in their lives on this special occasion. Retailers will have a field day if they use the occasion to their."
 heading: 6 Mother’s Day Marketing Ideas for eCommerce Businesses

@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-03-24
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How do you build longer-lasting brand loyalty?
 description: Loyal customers are customers of the best kind. Brands are always on the lookout to find their ambassadors. Why? Because these are the type of customers who shout from their rooftops because they love your product, they will defend you on social media, will buy all of your products, and will even get gift cards.
 heading: How do you build longer-lasting brand loyalty?

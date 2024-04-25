@@ -1,6 +1,7 @@
 ---
 pubDate: 2022-05-26
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How To Kick Off Your Sales On Father’s Day  
 description: Father's Day isn't as popular as Mother's Day, but you don't want to lose out on the $20 billion spent on the celebration. Also, 77% of Americans plan to celebrate Father’s Day this year, 2% more than last year. Consumers are expected to spend an average of $171. This means that for those looking to.
 heading: How To Kick Off Your Sales On Father’s Day  

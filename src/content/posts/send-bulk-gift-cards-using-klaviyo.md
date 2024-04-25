@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-05-17
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Send Bulk Gift Cards Using Klaviyo With 99minds 
 description: "\"Email Acquisition is like cutting hair, must happen regularly, can be done well, but one bad experience can scar forever\" - David Baker. Gift cards have long been recognized as a boon to the eCommerce industry. When it comes to gift card distribution, eCommerce corporations face a lot of challenges. Meanwhile, emailing is critical in"
 heading: Send Bulk Gift Cards Using Klaviyo With 99minds 

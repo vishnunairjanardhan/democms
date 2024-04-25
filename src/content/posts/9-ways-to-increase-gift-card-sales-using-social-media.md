@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-11-12
 author: Mrudul
+authorImg: "Mrudul.png"
 title: 9 ways to increase gift card sales using social media
 description: "Even though there are several ways to promote your gift cards, selling them through social media is incredibly effective. Engaging with customers on social media regularly is a great way to create loyal customers."
 heading: 9 ways to increase gift card sales using social media

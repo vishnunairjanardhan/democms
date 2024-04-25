@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-04-09
 author: Mrudul
+authorImg: "Mrudul.png"
 title: 8 Ways to Boost Sales with Gift Cards this Mother’s Day
 description: "“During the pandemic, Amazon, the world’s biggest online retailer removed its “suggested products” option because of the surge in online orders and as it was too much even for them to take. That’s how unaffected online sales have been despite it pushing many other major industries to its knees. That has been the case with."
 heading: 8 Ways to Boost Sales with Gift Cards this Mother’s Day
