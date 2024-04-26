@@ -50,7 +50,7 @@ According to Harvard Business Review, <a href="https://hbr.org/2017/01/a-study-o
   </li>
 </ul>
 
-<h2 id="what-is-an-omnichannel-commerce?" tabindex="-1">What is an omnichannel commerce?</h2>
+<h2 id="what-is-an-omnichannel-commerce?">What is an omnichannel commerce?</h2>
 
 
  <img src="/assets/blog/What-is-Omnichannel-Commerce.jpg" alt="showcasing seamless shopping experience across multiple channels">
@@ -79,9 +79,40 @@ Many business owners question whether investing in omnichannel Commerce is worth
 <li><b>Boost Customer Loyalty:</b> According to Think Impact, existing customers tend to spend about  <a href="https://www.thinkimpact.com/customer-retention-statistics/#:~:text=Current%20customers%20have%20been%20measured,business%20comes%20from%20retained%20customers." target="_blank">67% more than new customers</a>. Using omnichannel sales techniques allows for personalized shopping experiences, which can increase <a href="https://www.mckinsey.com/~/media/McKinsey/Industries/Retail/Our%20Insights/retail%20speaks%20seven%20imperatives%20for%20the%20industry/retail-speaks-full-report.pdf" target="_blank">revenue and customer retention by 10-15%</a>, as noted in McKinsey's Retail Speaks report. The report also indicates that customers are 5-10% more satisfied and engaged when their shopping experiences are personalized across all interactions. When customers are satisfied, they are more likely to remain loyal, leading to increased profitability for businesses.</li>
 </ul>
 
-<a href="https://www.99minds.io/loyalty" target="_blanck"> <img src="/assets/blog/CTA-IMAGE-03.jpg"></a>
+<!-- 
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGE-03.jpg"></a> -->
 
-<h2 id="successful-omnichannel-commerce-strategies">Successful Omnichannel Commerce Strategies</h2>
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" src="/assets/blog/CTA-IMAGE-03.jpg"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<h2 class="m-0 mb-4" id="successful-omnichannel-commerce-strategies">Successful Omnichannel Commerce Strategies</h2>
 
 While developing a strong omnichannel commerce strategy requires a deep understanding of the brand, some tried-and-true methods can significantly increase the likelihood of success. These innovative actions include:
 
@@ -113,7 +144,7 @@ Omnichannel Commerce, though incredibly beneficial, also has its own set of issu
 <li><b>Adapt to changing trends:</b> In the retail industry, businesses need to stay up-to-date with the industry trends. Omnichannel Commerce is an effective way for businesses to remain flexible and adaptable to customer preferences, whether they shop in-store, online, or through applications. Through this approach, companies may stay up to date with current trends and ensure customer satisfaction. Adopting an omnichannel strategy can help businesses maintain a competitive edge and retain loyal customers who keep coming back for more.</li>
 </ul>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img src="/assets/blog/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
 <h2 id="omnichannel-commerce-solutions-include">Omnichannel Commerce Solutions Include</h2>
 
