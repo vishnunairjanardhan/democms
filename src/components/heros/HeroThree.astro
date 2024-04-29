@@ -18,8 +18,8 @@ import backgroundUrl from "../assets/images/header-startseite.webp";
           <h5 class=" text-xl max-w-2xl mt-4 text-vulcan-300 ">
           Online solution to manage and scale gift cards, store credit, digital wallets, and loyalty programs. Build better brands to acquire, engage, and retain lifelong customers.
           </h5>
-          <div class="flex flex-wrap items-center gap-2 mt-10">
-              <div x-data="{ open: false }" class="flex justify-center">
+          <div class="flex flex-wrap item-center gap-2 mt-10">
+              <div x-data="{ open: false }" class="flex">
               <!-- Trigger -->
               <span x-on:click="open = true">
                  <button type="button" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
@@ -55,12 +55,12 @@ import backgroundUrl from "../assets/images/header-startseite.webp";
             </div>
             
           <div class="grid grid-cols-2 sm:grid-cols-2 mt-8 gap-0.5 md:grid-cols-2">
-          <div class="flex col-span-2 lg:col-span-1">
+          <div class="flex col-span-2 lg:col-span-1 justify-center">
             <img class="h-5 lg:h-6" alt="hero" src="/assets/homepage/5-star-logos.png"/>
             </div>
           
-          <div class="flex mt-4 lg:mt-0 col-span-1">
-            <p class=" text-l text-white max-w-2xl text-vulcan-300">
+          <div class="flex mt-4 lg:mt-0 lg:col-span-1 col-span-2 lg:justify-left justify-center">
+            <p class="text-l text-white max-w-2xl text-vulcan-300">
                 100% 5-Star Review
             </p> 
           </div>    

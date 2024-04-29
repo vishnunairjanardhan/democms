@@ -3,12 +3,12 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import HeroHeartland from "../../components/heros/HeroHeartland.astro";
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import FeatureHeartland from "../../components/features/FeatureHeartland.astro";
-import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
+import FeatureHeartland2 from "../../components/features/FeatureHeartland2.astro";
+import FeatureTenHeartland from "../../components/features/FeatureTenHeartland.astro";
 import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
 import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
-import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
-import BcomRating from "../../components/Infopages/BcomRating.astro";
 import IntegrationHeartland from "../../components/integrations/IntegrationHeartland.astro";
+import BcomRating from "../../components/Infopages/BcomRating.astro";
 
 
 import { AstroSeo } from "@astrolib/seo";
@@ -19,23 +19,29 @@ Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
   title="99minds and Heartland integration | 99minds"
-  description="Omnichannel gift card, loyalty and rewards for Heartland Retail"
+  description="The complete rewards solution for Heartland Retail. Drive sales from your existing customer base with smart omnichannel loyalty, gift card and store credit."
   canonical="https://www.99minds.io/integrations/heartland"
   openGraph={{
     url: "https://www.99minds.io/integrations/heartland",
     title: "99minds and Heartland integration | 99minds",
-    description: "Omnichannel gift card, loyalty and rewards for Heartland Retail",
+    description: "The complete rewards solution for Heartland Retail. Drive sales from your existing customer base with smart omnichannel loyalty, gift card and store credit.",
     images: [
       {
-        url: "",
-        alt: "Social open graph",
-        type: "image/jpeg",
+        src: "https://www.99minds.io/assets/99minds-HL1.svg",
+        alt: "99minds Heartland Integration",
+        type: "image/svg",
       },
+      {
+        src: "https://www.99minds.io/assets/99minds-HL1.svg",
+        alt: "99minds Heartland Integration",
+        type: "image/svg",
+      },
+      { url: "https://www.99minds.io/assets/99minds-HL1.svg" },
     ],
     site_name: "99minds",
   }}
   twitter={{
-    
+    handle: "99minds Heartland Integration",
     site: "@99minds_io",
     cardType: "summary_large_image",
   }}
@@ -43,11 +49,10 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <BaseLayout>
   <HeroHeartland />
   <LogoCloudOne />
-  <FeatureBcom1 />
   <FeatureHeartland />
+  <FeatureHeartland2 />
+  <FeatureTenHeartland />
   <IntegrationHeartland />
-  <BcomRating />
-  <!--<Testimonialtry />-->
-  <!--<Integrations99minds />-->
-  <!--<CtaThree99minds />-->
+  <Testimonialtry />
+  <CtaThree99minds />
 </BaseLayout>
