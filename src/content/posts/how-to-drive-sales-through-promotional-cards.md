@@ -1,12 +1,16 @@
 ---
 pubDate: 2021-01-16
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "How to drive sales through promotional cards"
 description: "Suppose your sales numbers are stagnant and there are not many prospects in the pipeline. In that case, you are in an unenviable position. No matter how good your products are, they need to sell. Attracting new customers is a task that you should have your best minds occupied with. Retaining your existing customers is"
+heading: How to drive sales through promotional cards
 image:
   url: "/assets/blog/How-to-drive-sales-through-promotional-cards2.jpg"
-  alt: "The word community with a heart."
+  alt: "promotional cards."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-to-drive-sales-through-promotional-cards"
+
 ---
 <img src="/assets/blog/How-to-drive-sales-through-promotional-cards2.jpg">
 

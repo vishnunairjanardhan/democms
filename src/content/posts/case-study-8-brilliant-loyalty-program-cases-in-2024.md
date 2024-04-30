@@ -1,12 +1,16 @@
 ---
 pubDate: 2023-11-28
 author: Mrudul
+authorImg: "Mrudul.png"
 title: 8 Successful Loyalty Programs Cases to Emulate for Your Store
 description: "Take inspiration from these loyalty program success stories for your eCommerce store’s benefit. Follow these Shopify loyalty program trends."
+heading: 8 Successful Loyalty Programs Cases to Emulate for Your Store
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-11.png"
-  alt: "The word community with a heart."
+  alt: "Loyalty Program Cases in 2024."
 tags: ["Ecommerce","Loyalty Program"]
+url: "https://www.99minds.io/blog/case-study-8-brilliant-loyalty-program-cases-in-2024"
+
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-11.png">
 Running a successful loyalty program takes more than just a bunch of attractive perks. There is more to it as it involves a lot of effort, time, resources, and technical know-how. A loyalty program helps businesses make sure that their Shopify store is sustainable. Losing existing customers regularly isn’t a sign of a fledgling store. This is exactly why loyalty programs are more than a mere marketing channel. In this article, we look at some of the most effective loyalty programs on Shopify. 

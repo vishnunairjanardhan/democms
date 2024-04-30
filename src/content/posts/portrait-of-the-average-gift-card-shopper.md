@@ -1,12 +1,16 @@
 ---
 pubDate: 2023-11-06
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Portrait Of The Average Gift Card Shopper
 description: "During the peak of the holiday season, shoppers step out to buy clothes, gifts, and online websites for themselves or presents for their families. Gift cards are one of the most preferred options if they are giving it to their friends because of the convenience it offers. Gift cards have a win-win written all over."
+heading: Portrait Of The Average Gift Card Shopper
 image: 
   url: "/assets/blog/Portrait-of-the-average-gift-card-shopper1-800x450.jpg"
   alt: "Portrait of the average gift card shopper."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/portrait-of-the-average-gift-card-shopper"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/portrait-of-the-average-gift-card-shopper/" target="_blank">
 <img src="/assets/blog/Portrait-of-the-average-gift-card-shopper1.jpg"></a>

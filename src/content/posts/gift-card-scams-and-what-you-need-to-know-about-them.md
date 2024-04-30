@@ -1,12 +1,16 @@
 ---
 pubDate: 2023-04-24
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Gift card scams and what you need to know about them
 description: "The holiday season is a great time to be a scammer. Unfortunately, a lot of honest consumers are swindled by scammers who rob them of their personal information and money. We would go so far as to say that everything you buy during the holiday season, right from electronics to gift cards, make sure you."
+heading: Gift card scams and what you need to know about them
 image: 
   url: "/assets/blog/Gift-card-scams-and-what-you-need-to-know-about-them-800x450.jpg"
   alt: "Gift card scams and what  you need to know about them."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/gift-card-scams-and-what-you-need-to-know-about-them"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/gift-card-scams-and-what-you-need-to-know-about-them//" target="_blank">
 <img src="/assets/blog/Gift-card-scams-and-what-you-need-to-know-about-them.jpg"></a>

@@ -1,12 +1,16 @@
 ---
 pubDate: 2023-11-23
 author: Mrudul
+authorImg: "Mrudul.png"
 title:  8 Major Differences Between Physical and Digital Gift Cards
 description: "In this article, we look at the major differences between physical and digital gift cards, including showcasing the more sustainable one."
+heading: 8 Major Differences Between Physical and Digital Gift Cards
 image: 
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-10.png"
   alt: "Digital Gift Crads vs. Plastic Gift Crads."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/the-green-revolution-digital-gift-cards-vs-plastic-gift-cards"
+
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-10.png">
 

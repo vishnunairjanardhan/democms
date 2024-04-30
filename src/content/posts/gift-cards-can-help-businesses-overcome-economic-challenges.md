@@ -1,12 +1,16 @@
 ---
 pubDate: 2023-03-17
 author: PRAVIN KAMBLE
+authorImg: "Pravin.png"
 title: "Gift Cards Can Help Businesses Overcome Economic Challenges"
 description: "Challenges aren’t new for businesses. An economic downturn is a disaster in the making as it stifles people from doing what they want to do. We’ve recently navigated the vicissitudes of a pandemic that no healthcare organization in the world was prepared for. A recession seems minuscule after Covid, but we should be prepared to"
+heading: Gift Cards Can Help Businesses Overcome Economic Challenges
 image:
   url: "/assets/blog/Gift-Cards-Can-Help-Businesses-Overcome-Economic-Challenges1.png"
-  alt: "The word community with a heart."
+  alt: "Gift Card for Business."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges"
+
 ---
 <img src="/assets/blog/Gift-Cards-Can-Help-Businesses-Overcome-Economic-Challenges1.png">
 

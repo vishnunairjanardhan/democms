@@ -1,12 +1,16 @@
 ---
 pubDate: 2021-02-22
 author: Mrudul
+authorImg: "Mrudul.png"
 title: What is the future of e commerce in the next 5-10 years
 description: "New data from IBM’s US retail index states that the Covid-19 pandemic has accelerated eCommerce by five years. While the pandemic had forced many brick--mortar retail stores to close, eCommerce stores thrived because of this. There was also a more significant shift to online buying because of factors like safety. According to this report, in"
+heading: What is the future of e commerce in the next 5-10 years
 image:
   url: "/assets/blog/What-is-the-future-of-e-commerce-in-the-next-5-10-years.jpg"
-  alt: "The word community with a heart."
+  alt: "Future of e commerce."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/what-is-the-future-of-e-commerce-in-the-next-5-10-years"
+
 ---
 <img src="/assets/blog/What-is-the-future-of-e-commerce-in-the-next-5-10-years.jpg">
 

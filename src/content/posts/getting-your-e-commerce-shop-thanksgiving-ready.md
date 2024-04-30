@@ -1,12 +1,16 @@
 ---
 pubDate: 2022-09-14
 author: Mrudul
+authorImg: "Mrudul.png"
 title:  Getting Your E-Commerce Shop Thanksgiving Ready
 description: "If you are an eCommerce retailer, Thanksgiving is the time to create irresistible offers. You can easily win over your customers as they are looking to buy gifts for those they love. Thanksgiving is when people are away from the daily drudgery of work, spend more time with their friends and family, and look for."
+heading: Getting Your E-Commerce Shop Thanksgiving Ready
 image: 
   url: "/assets/blog/Getting-Your-E-Commerce-Shop-Thanksgiving-Ready1-800x450.jpg"
   alt: "Getting your e-commerce shop thanksgiving ready."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/getting-your-e-commerce-shop-thanksgiving-ready"
+
 --- 
 <img src="/assets/blog/Getting-Your-E-Commerce-Shop-Thanksgiving-Ready1.jpg">
 

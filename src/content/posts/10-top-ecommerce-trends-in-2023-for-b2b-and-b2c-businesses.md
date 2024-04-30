@@ -1,12 +1,16 @@
 ---
 pubDate: 2023-03-01
 author: PRAVIN KAMBLE
+authorImg: "Pravin.png"
 title: "10 top eCommerce trends in 2023 for B2B and B2C businesses"
 description: "The rise in the number of online shoppers and the continued rise in digital payments is no cause for surprise. The fast growth has led to a rise in competition among eCommerce firms, and they are investing in tools and resources to stand out from the crowd. Otherwise, it is easy to be swept away"
+heading: 10 top eCommerce trends in 2023 for B2B and B2C businesses
 image:
   url: "/assets/blog/10-top-eCommerce-trends-in-2023-for-B2B-and-B2C-businesses1.jpg"
-  alt: "The word community with a heart."
+  alt: "E-Commerce trends in 2023."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses"
+
 ---
 <img src="/assets/blog/10-top-eCommerce-trends-in-2023-for-B2B-and-B2C-businesses1.jpg">
 

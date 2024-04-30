@@ -1,12 +1,16 @@
 ---
 pubDate: 2020-07-01
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How To Build Customer Loyalty For Subscription As A Service
 description: "Churn is one of the biggest pain for SAAS companies. Hence having a good customer loyalty program helps SAAS companies to engange and retain their customers. Here is how you can build customer loyalty for subscription as a service"
+heading: How To Build Customer Loyalty For Subscription As A Service
 image:
   url: "/assets/blog/customer-loyalty-for-subsceiption-as-a-service.jpg"
-  alt: "The word community with a heart."
+  alt: "Customer loyalty for subscription as a service."
 tags: ["Customer Loyalty"]
+url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-subscription-as-a-service"
+
 ---
 <img src="/assets/blog/customer-loyalty-for-subsceiption-as-a-service.jpg">
 

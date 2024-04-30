@@ -1,12 +1,16 @@
 ---
 pubDate: 2021-06-29
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "What constitutes a good loyalty program?"
 description: "Your customers want to know that they are special. They might be your 33,475th customer, but that doesn’t mean you can take them for granted. If you do that, you are likely to see a cascade of customers leaving your business. Having a good loyalty program is a good way to tell your customers that"
+heading: What constitutes a good loyalty program?
 image:
   url: "/assets/blog/What-constitutes-a-good-loyalty-program.jpg"
-  alt: "The word community with a heart."
+  alt: "Good loyalty program."
 tags: ["Customer Loyalty", "Loyalty Program"]
+url: "https://www.99minds.io/blog/what-constitutes-a-good-loyalty-program"
+
 ---
 <img src="/assets/blog/What-constitutes-a-good-loyalty-program.jpg">
 

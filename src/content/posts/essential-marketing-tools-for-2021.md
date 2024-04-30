@@ -1,12 +1,16 @@
 ---
 pubDate: 2021-07-17
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "Essential Marketing Tools for 2021"
 description: "There are a gazillion marketing tools available in the market. Choosing the ones you need will make you drown in an overload of information if you do not know where to look for them. With this article, we are trying to make it easy for you. We want to help you with some of the"
+heading: Essential Marketing Tools for 2021
 image:
   url: "/assets/blog/Essentail-Marketing-Tools.jpg"
-  alt: "The word community with a heart."
+  alt: "Important marketing tools."
 tags: ["Marketing"]
+url: "https://www.99minds.io/blog/essential-marketing-tools-for-2021"
+
 ---
 <img src="/assets/blog/Essentail-Marketing-Tools.jpg">
 

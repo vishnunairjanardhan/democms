@@ -14,12 +14,14 @@ export const Ecommerce = [
 {
   image: '/integrations/woocommerce 1.svg',
   title: 'WooCommerce',
-  desc: "An open-source e-commerce plugin for WordPress that works with 99minds to provide gift card functionality.  99minds integrates seamlessly with WooCommerce, allowing you to offer advanced features like scheduling gift card delivery, integrating gift cards with your loyalty program, and creating promotional gift cards to attract new customers."
+  desc: "An open-source e-commerce plugin for WordPress that works with 99minds to provide gift card functionality.  99minds integrates seamlessly with WooCommerce, allowing you to offer advanced features like scheduling gift card delivery, integrating gift cards with your loyalty program, and creating promotional gift cards to attract new customers.",
+  url: "/integrations/woocommerce"
 },
 {
   image: '/integrations/salesforce.svg',
   title: 'Salesforce Commerce Cloud',
-  desc:"An enterprise-level e-commerce platform that integrates with 99minds for robust gift card features.  99minds allows you to leverage Salesforce Commerce Cloud's powerful functionalities and add advanced gift card options like scheduling, loyalty program rewards, and promotional campaigns for a sophisticated customer experience."
+  desc:"An enterprise-level e-commerce platform that integrates with 99minds for robust gift card features.  99minds allows you to leverage Salesforce Commerce Cloud's powerful functionalities and add advanced gift card options like scheduling, loyalty program rewards, and promotional campaigns for a sophisticated customer experience.",
+  url: "/integrations/salesforce"
 },
 {
   image: '/integrations/miva.svg',
@@ -32,12 +34,14 @@ export const POS = [
 {
   image: '/integrations/square.svg',
   title: 'Square POS',
-  desc: "99minds integrates seamlessly with Square POS, allowing you to manage gift cards, loyalty programs, store credits, and coupons across your online store and physical location.  This ensures a smooth experience for customers - they can redeem a gift card purchased online in-store, earn loyalty points for in-store purchases that are reflected online, and use store credits or coupons interchangeably between channels."
+  desc: "99minds integrates seamlessly with Square POS, allowing you to manage gift cards, loyalty programs, store credits, and coupons across your online store and physical location.  This ensures a smooth experience for customers - they can redeem a gift card purchased online in-store, earn loyalty points for in-store purchases that are reflected online, and use store credits or coupons interchangeably between channels.",
+  url: ""
 },
 {
   image: '/integrations/lightspeed.svg',
   title: 'Lightspeed R-Series',
-  desc: "99minds integrates with Lightspeed R-Series to provide a robust omnichannel solution for gift cards, loyalty programs, store credits, and coupons. This ensures a seamless experience for customers - they can redeem a gift card purchased online in-store, earn loyalty points for in-store purchases that are reflected online, and use store credits or coupons interchangeably between channels."
+  desc: "99minds integrates with Lightspeed R-Series to provide a robust omnichannel solution for gift cards, loyalty programs, store credits, and coupons. This ensures a seamless experience for customers - they can redeem a gift card purchased online in-store, earn loyalty points for in-store purchases that are reflected online, and use store credits or coupons interchangeably between channels.",
+  url: ""
 },
 {
   image: '/integrations/vend 3.svg',
@@ -47,7 +51,8 @@ export const POS = [
 {
   image: '/integrations/heartland-icon.svg',
   title: 'Heartland Retail',
-  desc: "99minds integrates with Heartland Retail to provide a unified platform for managing gift cards, loyalty programs, store credits, and coupons. This allows for a cohesive customer experience, regardless of whether they interact with your business online or in-store."
+  desc: "99minds integrates with Heartland Retail to provide a unified platform for managing gift cards, loyalty programs, store credits, and coupons. This allows for a cohesive customer experience, regardless of whether they interact with your business online or in-store.",
+  url: ""
 },
 {
   image: '/integrations/clover logo.svg',
@@ -91,10 +96,11 @@ export const Marketing = [
   title: "Omnisend",
   image: "/integrations/omnisend-icon.svg",
   desc: "Omnisend integrates with 99minds to automate gift card emails and promotions across various channels like email, SMS, and push notifications.  This lets you reach customers on their preferred platform,  triggering emails based on their actions (like a welcome email after purchase) or sending reminders for unused balances.",
+  url: "/integrations/omnisend"
 },
 {
   title: "Klaviyo",
-  image: "/integrations/klaviyo-icon.svg",
+  image: "/integrations/klaviyo-icon1.svg",
   desc: "Klaviyo integrates with 99minds to send targeted gift card emails directly from your account.  Klaviyo leverages customer purchase history and browsing behavior to craft highly relevant emails.  Imagine sending recommendations based on past purchases or personalized birthday promotions featuring gift cards. You can even use Klaviyo to win back abandoned carts with gift card offers!",
   url: "/integrations/klaviyo"
 },

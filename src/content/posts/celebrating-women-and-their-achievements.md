@@ -1,12 +1,16 @@
 ---
 pubDate: 2021-03-18
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Celebrating women and their achievements
 description: "This is Women’s History Month and we are taking this space to highlight a few women entrepreneurs who have solved problems, uplifted communities and made a unique space for themselves in what they do. The women who are a part of this article have varying degrees of success, the only common thing about each of."
+heading: Celebrating women and their achievements
 image:
   url: "/assets/blog/Celebrating-Women-and-their-achievements.jpg"
   alt: "Celebrating women and their achievement."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/celebrating-women-and-their-achievements"
+
 --- 
 <a href="https://www.99minds.io/blog/generic/celebrating-women-and-their-achievements/" target="_blank">
 <img src="/assets/blog/Celebrating-Women-and-their-achievements.jpg"></a>

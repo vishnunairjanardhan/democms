@@ -17,34 +17,30 @@ const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 <AstroSeo
   title='99minds - Blog'
   description="Discover diverse perspectives and valuable insights at 99minds Blog"
-  canonical="https://www.99minds.io"
+  canonical="https://www.99minds.io/blog"
   openGraph={{
-    url: "https://www.99minds.io",
+    url: "https://www.99minds.io/blog",
     title: "Get Inspired: 99minds Blog Hub",
     description: "Discover diverse perspectives and valuable insights at 99minds Blog",
     images: [
       {
-        url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Social open graph",
-        type: "image/jpeg",
-      },
-      {
-        url: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg",
-        width: 4096,
-        height: 4096,
-        alt: "Twitter open graph",
-        type: "image/jpeg",
-      },
-      { url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg" },
-      { url: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg" },
+        url: "/assets/99minds-logo1.svg",
+        alt: "99minds Blog",
+        type: "image/svg",
+      }
     ],
     site_name: "99minds",
   }}
   twitter={{
-    handle: "@99minds_io",
-    site: "@site",
+    url: "https://www.99minds.io/blog",
+    images: [
+      {
+        url: "/assets/99minds-logo1.svg",
+        alt: "99minds Blog",
+        type: "image/svg",
+      }
+    ],
+    site: "@99minds_io",
     cardType: "summary_large_image",
   }}
 />
@@ -52,9 +48,9 @@ const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
   <section>
     <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-32 lg:py-36 relative">
       <div class="flex justify-center">
-        <p class="mt-8 text-4xl font-normal tracking-tighter text-white sm:text-5xl">
+        <h1 class="mt-8 text-4xl font-normal tracking-tighter text-white sm:text-5xl">
           Get all of our latest updates.
-        </p>
+        </h1>
       </div>
       <BlogWithSearch client:only="react" sortedPosts={sortedPosts} tags={tags}/>
       <form class="mt-6 sm:flex sm:max-w-md">

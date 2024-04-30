@@ -1,12 +1,16 @@
 ---
 pubDate: 2021-03-04
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How to use gift cards in SMS marketing
 description: "When you are trying to sell something to your customers, you want to be available on all platforms that are possible, isn’t it? In today’s world, people are always busy and they are bombarded with marketing communication so much that they subconsciously try to consume as less as possible. The best way to reach your."
+heading: How to use gift cards in SMS marketing
 image:
   url: "/assets/blog/How-to-use-gift-cards-in-SMS-marketing-800x450.jpg"
   alt: "How to use gift card in SMS marketing."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-to-use-gift-cards-in-sms-marketing"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/how-to-use-gift-cards-in-sms-marketing/" target="_blank">
 <img src="/assets/blog/How-to-use-gift-cards-in-SMS-marketing.jpg"></a>

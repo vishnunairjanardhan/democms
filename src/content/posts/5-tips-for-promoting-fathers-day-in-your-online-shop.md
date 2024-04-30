@@ -1,12 +1,16 @@
 ---
 pubDate: 2021-06-11
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "5 Tips For Promoting Father’s Day In Your Online Shop"
 description: "Whether you believe it or not, Americans spent roughly $15 billion on Father's Day in 2020. Whether you believe it or not, Americans spent roughly $15 billion on Father's Day in 2020. Father's Day is around the corner, and it's the best time to step up your e-commerce game. If we look at historical data"
+heading: 5 Tips For Promoting Father’s Day In Your Online Shop
 image:
   url: "/assets/blog/5-Tips-For-Promoting-Fathers-Day-In-Your-Online-Shop.jpg"
-  alt: "The word community with a heart."
+  alt: "Tips for father's day."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/5-tips-for-promoting-fathers-day-in-your-online-shop"
+
 ---
 <img src="/assets/blog/5-Tips-For-Promoting-Fathers-Day-In-Your-Online-Shop.jpg">
 

@@ -11,23 +11,35 @@ import { Seo } from "../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
 ---
 
-<!---
-Use AstroSeo in all the pages you want different Seo than the index page
--->
 <AstroSeo
   title="Complete Gift Card Solution for All Businesses | 99minds"
   description="Discover the key features of our Gift Card Platform: 100's of beautiful themed cards, brand design uploads, customization and multi-channel delivery options."
-  canonical="https://www.99minds.io"
+  canonical="https://www.99minds.io/giftcard"
   openGraph={{
-    url: "https://www.99minds.io",
+    url: "https://www.99minds.io/giftcard",
     title: "Complete Gift Card Solution for All Businesses | 99minds",
     description: "Discover the key features of our Gift Card Platform: 100's of beautiful themed cards, brand design uploads, customization and multi-channel delivery options.",
-    images: Seo.openGraph.images,
+    images: [
+      {
+        url: "https://www.99minds.io/assets/giftcardBanner1.png",
+        alt: "99minds Gift Card",
+        type: "image/png",
+      }
+    ],
     site_name: "99minds",
   }}
   twitter={{
-    handle: "@99minds_io",
-    site: "@site",
+    url: "https://www.99minds.io/giftcard",
+    title: "Complete Gift Card Solution for All Businesses | 99minds",
+    description: "Discover the key features of our Gift Card Platform: 100's of beautiful themed cards, brand design uploads, customization and multi-channel delivery options.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/giftcardBanner1.png",
+        alt: "99minds Gift Card",
+        type: "image/png",
+      }
+    ],
+    site: "@99minds_io",
     cardType: "summary_large_image",
   }}
 />

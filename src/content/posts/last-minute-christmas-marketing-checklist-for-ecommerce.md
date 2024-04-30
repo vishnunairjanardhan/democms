@@ -1,12 +1,16 @@
 ---
 pubDate: 2021-11-26
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Last Minute Christmas Marketing Checklist For Ecommerce  
 description: "Once again, it's that time of year. The holiday season of Christmas is quickly approaching. Christmas is a fantastic time for your eCommerce firm to capitalise on the holiday season's sales potential. Any eCommerce business owner, though, understands that the holidays aren't just about shopping. Store proprietors are also highly busy. If you're in a."
+heading: Last Minute Christmas Marketing Checklist For Ecommerce 
 image:
   url: "/assets/blog/Last-Minute-Christmas-Marketing-Checklist-For-Ecommerce1-800x450.jpg"
   alt: "Last minute christmas marketing checklist for ecommercel."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/last-minute-christmas-marketing-checklist-for-ecommerce"
+
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/last-minute-christmas-marketing-checklist-for-ecommerce/">
 <img src="/assets/blog/Last-Minute-Christmas-Marketing-Checklist-For-Ecommerce1.jpg"></a>

@@ -1,12 +1,16 @@
 ---
 pubDate: 2023-05-10
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Why Gift Cards Are the Perfect Present for Busy Moms on Mother’s Day
 description: "Mother's Day is just around the corner, and for those of us who are looking for the perfect present for our moms, gift cards are a great option to consider. Gift cards offer a level of flexibility that is unmatched by other gifts, making them an ideal present for busy moms who may not have."
+heading: Why Gift Cards Are the Perfect Present for Busy Moms on Mother’s Day
 image: 
   url: "/assets/blog/Why-Gift-Cards-Are-the-Perfect-Present-for-Busy-Moms-on-Mothers-Day-800x450.jpg"
   alt: "Why gift cards are the prefect present for busy moms on mothers day."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day"
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day/" target="_blank">
 <img src="/assets/blog/Why-Gift-Cards-Are-the-Perfect-Present-for-Busy-Moms-on-Mothers-Day.jpg"></a>

@@ -1,12 +1,16 @@
 ---
 pubDate: 2021-04-26
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Grow your business with these e-commerce tips for Mother’s Day
 description: "Mother’s day is a huge opportunity for retailers to make bank. The year 2021 would be even more special as people are slowly picking the pieces from where they left off before the pandemic started. Getting something special for the motherly figures in their life would be one way to show gratitude for surviving the."
+heading: Grow your business with these e-commerce tips for Mother’s Day
 image:
   url: "/assets/blog/Grow-your-business-with-these-e-commerce-tips-for-Mothers-Day-800x450.jpg"
   alt: "Grow your business with these e-commerce tips for mothers day."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/grow-your-business-with-these-e-commerce-tips-for-mothers-day"
+
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/grow-your-business-with-these-e-commerce-tips-for-mothers-day/">
 <img src="/assets/blog/Grow-your-business-with-these-e-commerce-tips-for-Mothers-Day.jpg"></a>

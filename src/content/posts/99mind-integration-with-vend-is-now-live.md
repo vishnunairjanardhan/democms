@@ -1,12 +1,16 @@
 ---
 pubDate: 2021-01-27
 author: Mrudul
+authorImg: "Mrudul.png"
 title:  99mind Integration with Vend is now Live! 
 description: "You can now accept Vend gift cards on Bigcommerce! In the last few months, we have been tirelessly working to improve our app features, and we believe that this newest feature will help you enjoy the Gift Card experience even more. So what is this new feature all about? It wasn’t possible to redeem Vend."
+heading: 99mind Integration with Vend is now Live! 
 image: 
   url: "/assets/blog/vendXbigcommerce1-1-800x450.jpg"
   alt: "99minds integration with vend is now live."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/99mind-integration-with-vend-is-now-live"
+
 --- 
 <img src="/assets/blog/vendXbigcommerce1.jpg">
 

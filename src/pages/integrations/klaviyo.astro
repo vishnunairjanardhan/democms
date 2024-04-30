@@ -9,6 +9,7 @@ import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
 import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
 import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
 import KlaviyoDemo from "../../components/Infopages/KlaviyoDemo.astro";
+import IntegrationKlaviyo from "../../components/integrations/IntegrationKlaviyo.astro";
 
 
 import { AstroSeo } from "@astrolib/seo";
@@ -18,36 +19,32 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="Convert Refunds to Sales with 99mind's Store Credit Software | 99minds"
-  description="Build customer loyalty and increase sales by easily issuing store credit to process refunds and reward customers."
-  canonical="https://www.99minds.io/store-credit"
+  title="99minds and Klaviyo integration | 99minds"
+  description="99minds integrates with Klaviyo to boost sales and customer loyalty through dynamic & bulk loyalty and gift card email and sms campaigns"
+  canonical="https://www.99minds.io/integrations/klaviyo"
   openGraph={{
-    url: "https://www.99minds.io/store-credit",
-    title: "Convert Refunds to Sales with 99mind's Store Credit Software | 99minds",
-    description: "Build customer loyalty and increase sales by easily issuing store credit to process refunds and reward customers.",
+    url: "https://www.99minds.io/integrations/klaviyo",
+    title: "99minds and Klaviyo integration | 99minds",
+    description: "99minds integrates with Klaviyo to boost sales and customer loyalty through dynamic & bulk loyalty and gift card email and sms campaigns.",
     images: [
-      {
-        url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Social open graph",
-        type: "image/jpeg",
-      },
-      {
-        url: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg",
-        width: 4096,
-        height: 4096,
-        alt: "Twitter open graph",
-        type: "image/jpeg",
-      },
-      { url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg" },
-      { url: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg" },
-    ],
-    site_name: "99minds",
-  }}
-  twitter={{
-    handle: "@99minds_io",
-    site: "@site",
+          {
+            url: "https://www.99minds.io/assets/99minds-K.svg",
+            alt: "99minds & Klaviyo",
+            type: "image/svg",
+          }
+        ],
+        site_name: "99minds",
+      }}
+      twitter={{
+        url: "https://www.99minds.io/integrations/salesforce",
+        images: [
+          {
+            url: "https://www.99minds.io/assets/99minds-K.svg",
+            alt: "99minds & Klaviyo",
+            type: "image/svg",
+          }
+      ],
+    site: "@99minds_io",
     cardType: "summary_large_image",
   }}
 />
@@ -57,8 +54,9 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <FeatureKlaviyo1 />
   <!--<FeatureKlaviyo />-->
   <FeatureKlaviyo2 />
-  <KlaviyoDemo />
+  <IntegrationKlaviyo />
+  <!--<KlaviyoDemo />-->
   <!--<Testimonialtry />-->
   <!--<Integrations99minds />-->
-  <!--<CtaThree99minds />-->
+  <CtaThree99minds />
 </BaseLayout>

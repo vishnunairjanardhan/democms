@@ -1,39 +1,35 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import CouponGenerator from "../components/codeGenerator/codeGenerator"
+import CouponGenerator from "../components/codeGenerator/GiftCardGenerator"
 import { AstroSeo } from "@astrolib/seo";
 ---
 <AstroSeo
   title="Complete Gift Card Solution for All Businesses | 99minds"
   description="99minds enables you to create countless innovative gift cards to provide correct solutions for diverse customer groups."
-  canonical="https://www.99minds.io"
+  canonical="https://www.99minds.io/giftcard-generator"
   openGraph={{
-    url: "https://www.99minds.io",
+    url: "https://www.99minds.io/giftcard-generator",
     title: "Complete Gift Card Solution for All Businesses | 99minds",
     description: "99minds enables you to create countless innovative gift cards to provide correct solutions for diverse customer groups.",
     images: [
       {
-        url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Social open graph",
-        type: "image/jpeg",
-      },
-      {
-        url: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg",
-        width: 4096,
-        height: 4096,
-        alt: "Twitter open graph",
-        type: "image/jpeg",
-      },
-      { url: "https://www.lexingtonthemes.com/opengraph/social-og.jpg" },
-      { url: "https://www.lexingtonthemes.com/opengraph/twitter-og.jpg" },
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
+        alt: "99minds",
+        type: "image/svg",
+      }
     ],
     site_name: "99minds",
   }}
   twitter={{
-    handle: "@99minds_io",
-    site: "@site",
+    url: "https://www.99minds.io/giftcard-generator",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
+        alt: "99minds",
+        type: "image/svg",
+      }
+    ],
+    site: "@99minds_io",
     cardType: "summary_large_image",
   }}
 />

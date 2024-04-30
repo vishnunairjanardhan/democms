@@ -1,12 +1,16 @@
 ---
 pubDate: 2020-03-25
 author: Pravin Kamble
+authorImg: "Pravin.png"
 title: AI for Everyone
 description: "A probable oxymoron that talks about machines being intelligent ‘Artificially.’ But no! It is not an Alienware science tech where hardware tools make the decisions themselves, but it is about…"
+heading: AI for Everyone
 image:
   url: "/assets/blog/AI-for-Everyone.jpg"
-  alt: "The word community with a heart."
+  alt: "AI for everyone."
 tags: ["Artificial Intelligence"]
+url: "https://www.99minds.io/blog/ai-for-everyone"
+
 ---
 <img src="/assets/blog/AI-for-Everyone.jpg">
 

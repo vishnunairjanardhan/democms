@@ -1,12 +1,16 @@
 ---
 pubDate: 2023-12-01
 author: Mrudul
+authorImg: "Mrudul.png"
 title:  9 Effective Shopify Gift Card Marketing Tactics for Your Store
 description: "If you run a Shopify eCommerce store, and are looking for effective marketing strategies, check out the 9 tips we have shared here."
+heading: 9 Effective Shopify Gift Card Marketing Tactics for Your Store
 image: 
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-12.png"
   alt: "Shopify Gift Card Program."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/how-to-market-your-shopify-gift-card-program-effectively"
+
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-12.png">
 
