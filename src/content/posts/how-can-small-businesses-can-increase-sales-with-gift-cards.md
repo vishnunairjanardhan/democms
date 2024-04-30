@@ -37,7 +37,7 @@ If you’re a stakeholder for a small business and wondering if adding a gift ca
   
 <h2 id="5-major-benefits-of-gift-cards-for-small-business">5 Major Benefits of Gift Cards for Small Businesses</h2>
 
-<a href="https://calendly.com/99minds"><img class=w-full src="http://localhost:4321/assets/blog/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds"><img class=w-full src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 Gift cards offer many benefits to small businesses, including increased sales, customer acquisition, and increased brand awareness. They also improve cash flow, reduce profits and provide valuable data for marketing activities. Implementing a gift card program can be a strategic move to accelerate growth and attract new customers.Here are seven major benefits of gift cards for small businesses.
 
@@ -89,17 +89,17 @@ Here’s how small businesses can make the most of their gift card program.
 
 1. <b>Advertising campaigns:</b> Design eye-catching images and messages for your promotions.Use targeted advertising on social media platforms such as Facebook and Instagram.Offer incentives such as”Discount offer”. 
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="/assets/blog/Advertising-campaigns.jpeg" alt="Advertising campaigns" style="display: block; margin: 0 auto;">
-</div>
+</div> -->
  
 2.  <b>Participation in social networks:</b> Post regularly about your gift card offers on social media platforms. Such as:- Facebook, Instagram, Twitter, etc. It might help drive customer engagement through contests, surveys, and giveaways.Respond promptly to customer inquiries and comments. Learn more about,How to sell more gift cards by using Social Media  <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards" target="_blank">Click Here</a>.
 
 3. <b>Seasonal promotions:</b> Create themed gift card designs for holidays and special occasions such as:  <a href="https://www.99minds.io/blog/how-to--capitalize-on-the-christmas-rush-using-gift-cards" target="_blank">Gift Cards for Christmas</a>. Announce seasonal promotions via email newsletters and social media posts. Offer limited-time discounts or bonuses to encourage gift card purchases.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="/assets/blog/seasonal-promotional-gift-card.jpeg" alt="seasonal promotional gift card" style="display: block; margin: 0 auto;">
-</div>
+</div> -->
 
 4. <b>Upselling Opportunities:</b> Train your staff to sell additional products or services to customers who redeem gift cards. Offer special offers or discounts to customers who use gift cards on high-margin items. Display complementary products near gift card redemption areas.
 
@@ -127,13 +127,13 @@ Here’s how small businesses can make the most of their gift card program.
 
 12. <b>Co-Marketing:</b> Reach out to complementary local businesses to explore collaboration opportunities.Plan joint promotions or events that offer exclusive discounts to gift card holders.Promote collaborations through social media and email marketing. Getting more about how to increase sales using gift cards  <a href="https://99minds-astro.netlify.app/posts/9-ways-to-increase-gift-card-sales-using-social-media/" target="_blank">Click here</a>.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img src="/assets/blog/co-marketing.jpeg" alt="co-marketing" style="display: block; margin: 0 auto;">
-</div>
+</div> -->
 
 <h2 id="how-to-boost-customer-engagement-with-gift-cards?">How to boost customer engagement with gift cards?</h2>
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/"><img class=w-full src="http://localhost:4321/assets/blog/CTA-Referral-image-1.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/"><img class=w-full src="/assets/blog/CTA-Referral-image-1.jpg"></a>
 
 Gift cards aren't just about purchases, they're also great for driving customer loyalty. In this section, we’ll explore simple but effective strategies to get the most out of gift cards and keep customers coming back.
 

@@ -34,7 +34,7 @@ export const POS = [
 {
   image: '/integrations/square.svg',
   title: 'Square POS',
-  desc: "99minds integrates seamlessly with Square POS, allowing you to manage gift cards, loyalty programs, store credits, and coupons across your online store and physical location.  This ensures a smooth experience for customers - they can redeem a gift card purchased online in-store, earn loyalty points for in-store purchases that are reflected online, and use store credits or coupons interchangeably between channels.",
+  desc: "99minds integrates seamlessly with Square POS, allowing you to manage gift cards, loyalty programs, and store credits across your online store and physical location.  This ensures a smooth experience for customers - they can redeem a gift card purchased online in-store, earn loyalty points for in-store purchases that are reflected online, and use store credits interchangeably between channels.",
   url: ""
 },
 {
