@@ -41,7 +41,7 @@ export const POS = [
   image: '/integrations/lightspeed.svg',
   title: 'Lightspeed R-Series',
   desc: "99minds integrates with Lightspeed R-Series to provide a robust omnichannel solution for gift cards, loyalty programs, store credits, and coupons. This ensures a seamless experience for customers - they can redeem a gift card purchased online in-store, earn loyalty points for in-store purchases that are reflected online, and use store credits or coupons interchangeably between channels.",
-  url: ""
+  url: "/integrations/lightspeed"
 },
 {
   image: '/integrations/vend 3.svg',
@@ -52,7 +52,7 @@ export const POS = [
   image: '/integrations/heartland-icon.svg',
   title: 'Heartland Retail',
   desc: "99minds integrates with Heartland Retail to provide a unified platform for managing gift cards, loyalty programs, store credits, and coupons. This allows for a cohesive customer experience, regardless of whether they interact with your business online or in-store.",
-  url: ""
+  url: "/integrations/heartland"
 },
 {
   image: '/integrations/clover logo.svg',
