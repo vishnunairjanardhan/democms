@@ -1,5 +1,5 @@
 ---
-pubDate: 2023-03-01
+pubDate: 2024-04-24
 author: PRAVIN KAMBLE
 authorImg: "Pravin.png"
 title: "Top 18 B2B eCommerce Trends in 2024 For Businesses"
@@ -99,9 +99,11 @@ In the following sections, we will explore stats related to B2B eCommerce and th
 
 B2B eCommerce kept growing in 2024 as more companies depended on digital channels for their acquisition requirements. According to <a href="https://www.astuteanalytica.com/industry-report/b2b-e-commerce-market" target="_blanck">Astute Analytica</a>, the global B2B eCommerce market size will reach $18,771.4 billion by 2027, primarily due to the increased focus on digital experiences and the rising popularity of specialized online marketplaces that act as intermediaries between B2B sellers and buyers. This shift toward digitalization allows businesses to broaden their reach and serve a wider audience beyond their physical limits.
 
-<div class="text-center;">
-    <img class="w-3/4" src="/assets/blog/b2b-ecommerce-market-size-report.png" alt="screenshot of scoial commerce sales report" style="display: block; margin: 0 auto; width: 650px; height: 350px;">
-  <div style="text-align: center;">
+<div class="text-center">
+<div class="flex justify-center">
+<img class="flex justify-center m-0 w-3/4" src="/assets/blog/b2b-ecommerce-market-size-report.png" alt="screenshot of ecommerce market size">
+</div>
+  <div class="text-center;">
     <figcaption>
       <em><a href="https://www.astuteanalytica.com/industry-report/b2b-e-commerce-market" target="_blanck">(Image Source)</a></em>
     </figcaption>
@@ -154,7 +156,7 @@ Automation is becoming more common in the realm of eCommerce, transforming how f
 In order to maintain a competitive edge and attain long-term expansion in the contemporary digital marketplace, organizations must proficiently exploit automation technologies. It follows that automation must be adopted as a strategic necessity.
 
 <div class="text-center;">
-    <img class="w-3/4" src="/assets/blog/Automation-b2b-ecommerce-trends.png" alt="Screenshot of automation b2b commerce trends" style="display: block; margin: 0 auto; width: 650px; height: 350px;">
+    <img class="h-25%" src="/assets/blog/Automation-b2b-ecommerce-trends.png" alt="Screenshot of automation b2b commerce trends">
 </div>
 
 <li>
@@ -177,9 +179,11 @@ Integrating social media platforms into a business's B2B eCommerce strategy is c
 According to a report by Statista, social commerce sales worldwide are projected to exceed <a href="https://www.statista.com/statistics/1251145/social-commerce-sales-worldwide/" target="_blanck">$2.2 trillion</a> by 2025, highlighting the significant growth and potential of this trend. 
 With platforms like LinkedIn, Facebook, and Instagram providing advanced features such as shoppable posts, B2B companies can interact more easily and consistently with their audience, boosting sales and building brand loyalty.B2B companies can enhance sales and online presence by implementing social commerce into their ecommerce strategy. Social media networks provide a wide range of users and engagement opportunities.
 
-<div class="text-center;">
-    <img class="w-3/4" src="/assets/blog/Social-commerce-sale-screenshot.png" alt="screenshot of scoial commerce sales report" style="display: block; margin: 0 auto; width: 650px; height: 350px;">
-  <div style="text-align: center;">
+<div class="text-center">
+<div class="flex justify-center">
+<img class="flex justify-center m-0 w-3/4" src="/assets/blog/Social-commerce-sale-screenshot.png" alt="screenshot of scoial commerce sales report">
+</div>
+  <div class="text-center;">
     <figcaption>
       <em><a href="https://www.statista.com/statistics/1251145/social-commerce-sales-worldwide/" target="_blanck">(Image Source)</a></em>
     </figcaption>
@@ -275,9 +279,11 @@ Headless commerce architecture enables B2B brands to separate the website’s fr
 Inventory management systems utilize advanced algorithms in B2B ecommerce to analyze historical data, market trends, and external factors that impact supply and demand. These technologies can predict future inventory needs and provide valuable insights, such as optimal reorder thresholds and inventory turnover rates. 
 Thanks to machine learning algorithms, these systems continuously adjust to changing market conditions. As a result, companies can optimize their inventory, reduce cost, and enhance the efficiency of their operations.
 
-<div class="text-center;">
-    <img class="w-3/4" src="/assets/blog/zoho-inventory-management.png" alt="zoho inventory management software dashboard" style="display: block; margin: 0 auto;">
-  <div style="text-align: center;">
+<div class="text-center">
+<div class="flex justify-center">
+<img class="flex justify-center m-0 w-3/4" src="/assets/blog/zoho-inventory-management.png" alt="zoho inventory management software dashboard">
+</div>
+  <div class="text-center;">
     <figcaption>
       <em><a href="https://www.zoho.com/in/inventory/" target="_blanck">(Image Source)</a></em>
     </figcaption>
@@ -292,8 +298,8 @@ We know that retaining customers is way more cost efficient for your business th
 These programs contribute to stronger brand loyalty, increased revenue, and easier customer acquisition by providing incentives and rewards for repeat purchases, encouraging emotional connections with the brand, increasing customer engagement, and leveraging data-driven insights to tailor personalized experiences, thereby improving overall customer satisfaction and loyalty.
 On average, each American consumers holds 16.7 customer loyalty programs. It's important to design your loyalty program in a way that attracts and retains your customers. Some of the most popular loyalty programs are points, tiered loyalty, paid, and universal loyalty programs. The right rewards for your customers depend on what they're looking for. To determine this, focus on data and analysis, and use <a href="https://www.99minds.io/loyalty" target="_blanck">loyalty program software</a>.
 
-<div class="text-center;">
-    <img class="w-1/2" src="/assets/blog/loyalty-banner.png" alt="99minds loyalty reward program banner" style="display: block; margin: 0 auto;">
+<div class="flex justify-center">
+<img class="w-1/2 m-0" src="/assets/blog/loyalty-banner.png" alt="99minds loyalty reward program banner">
 </div>
 
 <li>
@@ -303,9 +309,11 @@ On average, each American consumers holds 16.7 customer loyalty programs. It's i
 Recurring customer purchases to your eCommerce store is one of the best ways to have a cash cow. Amazon Prime is an excellent example of subscription commerce. Amazon’s customers are happy paying a premium because of their extra perks– Prime Music, Prime Gaming, and One-day delivery; you name it.
 It provides predictable and recurring revenue, grants access to valuable customer data, and increases the average order value and customer lifetime value. Even customers love the subscription model since it provides a balance between price and value.
 
-<div style="text-center;">
-    <img class="w-3/4" src="/assets/blog/amazon-prime-subscription.png" alt="amazon prime login page screenshot " style="display: block; margin: 0 auto;">
-  <div style="text-align: center;">
+<div class="text-center">
+<div class="flex justify-center">
+<img class="flex justify-center m-0 w-3/4" src="/assets/blog/amazon-prime-subscription.png" alt="amazon prime login page screenshot">
+</div>
+  <div class="text-center;">
     <figcaption>
       <em><a href="https://www.amazon.in/amazonprime" target="_blanck">(Image Source)</a></em>
     </figcaption>

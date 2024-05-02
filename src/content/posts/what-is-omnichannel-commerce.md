@@ -1,5 +1,5 @@
 ---
-pubDate: 2022-08-09
+pubDate: 2024-04-22
 author: Mrudul
 authorImg: "Mrudul.png"
 title: "What is omnichannel commerce? Benefits & Best Practices"
