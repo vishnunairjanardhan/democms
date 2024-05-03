@@ -29,6 +29,7 @@ import backgroundUrl from "../assets/images/header-startseite.webp";
                 </span></button>
                                 <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
               </span>
+              <button class="text-white ml-5  hover:text-indigo-500" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds' });">Book a Demo</button>
               <!-- Modal -->
               <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
                 <!-- Overlay -->
@@ -71,7 +72,7 @@ import backgroundUrl from "../assets/images/header-startseite.webp";
 
         </div>
       </div>
-      <div class="flex relative order-first w-full lg:block">
+      <div class="flex relative w-full lg:block">
         <img
           class="object-cover object-center w-full mx-auto  lg:absolute lg:ml-auto shadow-black"
           alt="hero"
