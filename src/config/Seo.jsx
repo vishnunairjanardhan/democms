@@ -5,7 +5,7 @@ export const Seo = {
   },
   openGraph: {
     url: "https://www.99minds.io",
-    title: "All-In-One Gift Card & Loyalty Platform For Businesses | 99minds",
+    title: "Gift Cards & Loyalty Platform for Omnichannel e-Commerce & In-store | 99minds",
     description: "An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience.",
     images: [
       {
