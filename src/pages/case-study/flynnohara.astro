@@ -1,0 +1,43 @@
+---
+import BaseLayout from "/src/layouts/BaseLayout.astro";
+import HeroCasestudy from "/src/components/heros/HeroCasestudy.astro";
+import Casestudytest from "/src/components/testimonials/Casestudytest.astro";
+import FeatureCasestudy from "/src/components/features/FeatureCasestudy.astro";
+import CasestudyDetail from "/src/components/Infopages/CasestudyDetail.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="Flynnohara Case Study: Transforming School Uniforms | 99Minds"
+  description="Learn how Flynnohara partnered with See how 99Minds transformed FlynnOhara's  curriculum. Read more about the problems they encountered, the solutions they implemented, and the results you achieved."
+  canonical="https://www.99minds.io/case-study/flynnohara"
+  openGraph={{
+    url: "https://www.99minds.io/case-study/flynnohara",
+    title: "Flynnohara Case Study: Transforming School Uniforms | 99Minds",
+    description: "Learn how Flynnohara partnered with See how 99Minds transformed FlynnOhara's  curriculum. Read more about the problems they encountered, the solutions they implemented, and the results you achieved.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/case-study/Flynnohara-CS1.jpg",
+        alt: "Flynnohara uses 99minds Gift Card & Loyalty Program",
+        type: "image/jpeg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+    title: "Flynnohara Case Study: Transforming School Uniforms | 99Minds",
+    description: "Learn how Flynnohara partnered with 99Minds to transform her curriculum. Read more about the problems you encountered, the solutions you implemented, and the results you achieved."
+  }}
+/>
+<BaseLayout>
+  <HeroCasestudy />
+  <Casestudytest />
+  <CasestudyDetail />
+  <FeatureCasestudy />
+</BaseLayout>

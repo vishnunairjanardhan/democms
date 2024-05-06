@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-11-12
 author: Mrudul
+authorImg: "Mrudul.png"
 title: 8 Ways to Increase Customer Loyalty With Personalized Rewards
 description: "Businesses understand the value of customer loyalty and how it affects their bottom line. Let’s see how to use personalized rewards for it."
 heading: 8 Ways to Increase Customer Loyalty With Personalized Rewards

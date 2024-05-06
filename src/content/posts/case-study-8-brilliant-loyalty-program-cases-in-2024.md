@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-11-28
 author: Mrudul
+authorImg: "Mrudul.png"
 title: 8 Successful Loyalty Programs Cases to Emulate for Your Store
 description: "Take inspiration from these loyalty program success stories for your eCommerce store’s benefit. Follow these Shopify loyalty program trends."
 heading: 8 Successful Loyalty Programs Cases to Emulate for Your Store

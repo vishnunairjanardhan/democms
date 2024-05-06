@@ -1,6 +1,7 @@
 ---
 pubDate: 2023-04-10
 author: Mrudul
+authorImg: "Mrudul.png"
 title:  Ecommerce Referral Marketing Strategies
 description: "In its initial stages, Dropbox, a file-sharing service, rewarded its customers with extra file space for each referral. Here both the referrer and referee get 500 MB of extra space. They had over 2.8 million referrals in the first 18 months. No matter which industry you are in, having an excellent referral marketing strategy can."
 heading: Ecommerce Referral Marketing Strategies

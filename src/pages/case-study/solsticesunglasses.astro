@@ -1,0 +1,42 @@
+---
+import BaseLayout from "/src/layouts/BaseLayout.astro";
+import HeroCasestudySolstice from "/src/components/heros/HeroCasestudySolstice.astro";
+import CasestudytestSolstice from "/src/components/testimonials/CasestudytestSolstice.astro";
+import FeatureCasestudySolstice from "/src/components/features/FeatureCasestudySolstice.astro";
+import Solstice from "/src/components/Infopages/Solstice.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+--->
+<AstroSeo
+  title="Solstice Sunglasses Boosts Omnichannel Revenue with 99minds | 99minds"
+  description="Solstice Sunglasses, the designer sunglasses business, sky rockets their sales with 99minds gift cards and loyalty program. Find out how they increase their AOV and revenue."
+  canonical="https://www.99minds.io/case-study/solsticesunglasses"
+  openGraph={{
+    url: "https://www.99minds.io/case-study/solsticesunglasses",
+    title: "Solstice Sunglasses Boosts Omnichannel Revenue with 99minds | 99minds",
+    description: "Solstice Sunglasses, the designer sunglasses business, sky rockets their sales with 99minds gift cards and loyalty program. Find out how they increase their AOV and revenue.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/case-study/Solstice-CS.jpg",
+        alt: "Solstice Sunglasses uses 99minds Gift Card & Loyalty Program",
+        type: "image/jpeg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroCasestudySolstice />
+  <CasestudytestSolstice />
+  
+<Solstice />
+<FeatureCasestudySolstice />
+</BaseLayout>

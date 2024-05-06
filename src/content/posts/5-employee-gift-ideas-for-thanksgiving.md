@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-11-09
 author: Mrudul
+authorImg: "Mrudul.png"
 title: 5 Employee Gift Ideas For Thanksgiving  
 description: Giving thanksgiving presents to employees, coworkers, clients, and others is not a new tradition. In the autumn of 1621, the Wampanoag inhabitants of New England and the Plymouth Pilgrims gathered to celebrate a plentiful harvest. This was the first Thanksgiving, and it was a pivotal event in American history because it brought together two radically.
 heading: 5 Employee Gift Ideas For Thanksgiving  

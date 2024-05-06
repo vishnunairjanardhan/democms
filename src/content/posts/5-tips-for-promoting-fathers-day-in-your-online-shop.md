@@ -1,6 +1,7 @@
 ---
 pubDate: 2021-06-11
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "5 Tips For Promoting Father’s Day In Your Online Shop"
 description: "Whether you believe it or not, Americans spent roughly $15 billion on Father's Day in 2020. Whether you believe it or not, Americans spent roughly $15 billion on Father's Day in 2020. Father's Day is around the corner, and it's the best time to step up your e-commerce game. If we look at historical data"
 heading: 5 Tips For Promoting Father’s Day In Your Online Shop

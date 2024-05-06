@@ -1,9 +1,9 @@
 <section class="lg:p-8">
   <div class="mx-auto 2xl:max-w-7xl py-12 lg:px-16 md:px-12 px-8 xl:px-28 items-center w-full">
-    <div>
-      <h2 class="text-3xl tracking-tighter mt-6 font-normal lg:text-4xl text-white">Testimonials </h2>
+    <!--<div>
+      <h2 class="text-3xl tracking-tighter mt-6 font-normal lg:text-4xl text-white">Hear from our clients </h2>
       <p class="mt-4 text-base font-normal text-white max-w-md">Hear from our clients</p>
-    </div>
+    </div>-->
     <div class="flex flex-col w-full" x-data="{
       skip: 1,
       atBeginning: false,
@@ -73,7 +73,8 @@
       <div class="flex flex-col w-full" aria-labelledby="carousel-label" role="region" tabindex="0" x-on:keydown.left="prev" x-on:keydown.right="next">
         <h2 class="sr-only" hidden="" id="carousel-label">Carousel</h2>
         <span class="sr-only" hidden="" id="carousel-content-label">Carousel</span>
-        <div class="grid grid-cols-1 lg:grid-cols-4 pb-6 border-b border-white/10 overflow-hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-2 pb-6 border-b border-white/10 overflow-hidden">
+        <h2 class="text-3xl tracking-tighter mt-0 font-normal lg:text-4xl text-white">Hear from our clients </h2>
           <div class="items-center inline-flex lg:col-start-4 lg:ml-auto lg:px-2 mb-4 pt-4 order-last space-x-2">
             <button class="bg-white/5 hover:bg-white/10 focus:bg-transparent rounded-2xl inline-flex items-center text-center text-white p-4 ring-1 ring-white/10" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }" :aria-disabled="atBeginning" :tabindex="atEnd ? -1 : 0" x-on:click="prev" tabindex="0">
               <span aria-hidden="true">
@@ -93,7 +94,7 @@
             </button>
           </div>
         </div>
-        <ul class="flex gap-3 overflow-x-scroll pb-24 pt-12 scrollbar-hide snap-mandatory snap-x w-full" role="listbox" aria-labelledby="carousel-content-label" tabindex="0" x-ref="slider">
+        <ul class="flex gap-3 overflow-x-scroll pb-16 pt-12 scrollbar-hide snap-mandatory snap-x w-full" role="listbox" aria-labelledby="carousel-content-label" tabindex="0" x-ref="slider">
           <li class="items-center justify-center w-full flex flex-col shrink-0 snap-start" role="option" x-bind="disableNextAndPreviousButtons">
             <figure>
               <ul class=" h-full">

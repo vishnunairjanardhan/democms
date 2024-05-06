@@ -71,7 +71,22 @@ import { AstroSeo } from "@astrolib/seo";
     <div
       class="max-w-7xl px-8 md:px-12 relative lg:px-32 mx-auto lg:pt-56">
       <div class="max-w-6xl">
-        
+        <div class="text-white flex">
+          <div class="border h-10 w-10 inline-flex items-center rounded-lg border-vulcan-800 group hover:border-white duration-300">
+            <a href="/" class="text-sm text-vulcan-300 duration-300 group-hover:text-white mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-#-2 w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> 
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path>
+            <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path> <path d="M10 12h4v4h-4z"></path>
+            </svg>
+           </a>
+        </div>
+          <div class="pt-2 flex">
+          <p class="font-bold px-2">></p>
+          <a href="/blog">Blog</a>
+          <p class="font-bold px-2">></p>
+          <a class="text-indigo-400">{frontmatter.heading}</a>
+          </div>
+        </div>
         <h1 class="text-4xl mt-4 font-normal tracking-tighter text-white">
           {frontmatter.heading}
         </h1>
@@ -119,7 +134,7 @@ import { AstroSeo } from "@astrolib/seo";
             <div class="mt-4 max-w-6xl">
             <div class="flex gap-4">
               <div>
-                <img src="/assets/testimonial/Pravin.png" alt="Small Image" class="w-auto h-12 rounded-full">
+                <img src={`/assets/testimonial/${frontmatter.authorImg}`} alt="Small Image" class="w-auto h-12 rounded-full">
               </div>
               <div class="w-full">
                 <div> 

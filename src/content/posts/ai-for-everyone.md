@@ -1,6 +1,7 @@
 ---
 pubDate: 2020-03-25
 author: Pravin Kamble
+authorImg: "Pravin.png"
 title: AI for Everyone
 description: "A probable oxymoron that talks about machines being intelligent ‘Artificially.’ But no! It is not an Alienware science tech where hardware tools make the decisions themselves, but it is about…"
 heading: AI for Everyone
