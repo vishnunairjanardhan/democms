@@ -33,6 +33,7 @@ If you’re a stakeholder for a small business and wondering if adding a gift ca
   <li>
       <a href="#conclusion" rel="noreferrer">Conclusion</a>
   </li>
+  </ul>
   
 <h2 id="5-major-benefits-of-gift-cards-for-small-business">5 Major Benefits of Gift Cards for Small Businesses</h2>
 
