@@ -1,6 +1,7 @@
 ---
 pubDate: 2024-04-24
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "How can Small Businesses Increase Sales with Gift Cards"
 description: "Explore how small businesses use e-gift cards to dramatically increase their sales. Discover effective strategies, benefits, and tips to implement gift cards for small businesses."
 heading: Introduction to Gift Cards
