@@ -18,7 +18,7 @@ import backgroundUrl from "../assets/images/header-startseite.webp";
           <h5 class=" text-xl max-w-2xl mt-4 text-vulcan-300 ">
           Online solution to manage and scale gift cards, store credit, digital wallets, and loyalty programs. Build better brands to acquire, engage, and retain lifelong customers.
           </h5>
-          <div class="lg:flex gap-2 mt-10">
+          <div class="lg:flex gap-2 mt-10" role="button">
               <div x-data="{ open: false }" class="flex justify-center">
               <!-- Trigger -->
               <span x-on:click="open = true">
@@ -29,7 +29,7 @@ import backgroundUrl from "../assets/images/header-startseite.webp";
                 </span></button>
                                 <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
               </span>
-              <button class="text-white ml-5  hover:text-indigo-500" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds' });">Book a Demo</button>
+              <button class="text-white ml-5" role="button"  hover:text-indigo-500" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds' });">Book a Demo</button>
               <!-- Modal -->
               <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
                 <!-- Overlay -->
@@ -53,9 +53,10 @@ import backgroundUrl from "../assets/images/header-startseite.webp";
                   </div>
                 </div>
               </div>
-
-               <div class="grid grid-cols-3 sm:grid-cols-2 mt-8 gap-0.5 md:grid-cols-2">
-          <div class="flex col-span-1 lg:col-span-2 justify-center">
+            </div>
+            
+          <div class="grid grid-cols-2 sm:grid-cols-2 mt-8 gap-0.5 md:grid-cols-2">
+          <div class="flex col-span-2 lg:col-span-1 justify-center" role=generic>
             <img class="h-5 lg:h-6" alt="hero" src="/assets/homepage/5-star-logos.png"/>
             </div>
           
@@ -72,12 +73,11 @@ import backgroundUrl from "../assets/images/header-startseite.webp";
 
         </div>
       </div>
-      <div class="flex relative w-full lg:block">
+      <div class="flex relative w-full lg:block" role="generic">
         <img
           class="object-cover object-center w-full mx-auto  lg:absolute lg:ml-auto shadow-black"
-          alt="hero"
-          src="/assets/homepage/h1.png"
-        />
+          alt="99minds hero image"
+          src="/assets/homepage/h1.png"/>
       </div>
     </div>
   </div>
