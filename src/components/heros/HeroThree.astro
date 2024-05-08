@@ -29,7 +29,7 @@ import backgroundUrl from "../assets/images/header-startseite.webp";
                 </span></button>
                                 <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
               </span>
-              <button class="text-white ml-5 hover:text-indigo-500"  role="button"  onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds' });">Book a Demo</button>
+              <button class="text-white ml-5 hover:text-indigo-500"  role="button"  onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">Book a Demo</button>
               <!-- Modal -->
               <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
                 <!-- Overlay -->
@@ -56,7 +56,7 @@ import backgroundUrl from "../assets/images/header-startseite.webp";
             </div>
   <div class="grid grid-cols-2 sm:grid-cols-2 mt-8 gap-0.5 md:grid-cols-2">
     <div class="flex col-span-2 lg:col-span-1 justify-center">
-      <img class="h-5 lg:h-6" alt="hero" src="/assets/homepage/5-star-logos.png"/>
+      <img loading="lazy" class="h-5 lg:h-6" alt="hero" src="/assets/homepage/5-star-logos.png"/>
     </div>
     <div class="flex mt-4 lg:mt-0 lg:col-span-1 col-span-2 lg:justify-left justify-center">
         <p class="text-l text-white max-w-2xl text-vulcan-300">
@@ -68,6 +68,7 @@ import backgroundUrl from "../assets/images/header-startseite.webp";
       </div>
       <div class="flex relative w-full lg:block" role="generic">
         <img
+          loading="lazy"
           class="object-cover object-center w-full mx-auto  lg:absolute lg:ml-auto shadow-black"
           alt="99minds hero image"
           src="/assets/homepage/h1.png"/>
