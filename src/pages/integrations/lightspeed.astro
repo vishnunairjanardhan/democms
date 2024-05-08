@@ -3,11 +3,10 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import HeroLightspeed from "../../components/heros/HeroLightspeed.astro";
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import FeatureLightspeed from "../../components/features/FeatureLightspeed.astro";
-import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
+import FeatureLightspeed2 from "../../components/features/FeatureLightspeed2.astro";
+import FeatureTenLightspeed from "../../components/features/FeatureTenLightspeed.astro";
 import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
-import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
-import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
-import BcomRating from "../../components/Infopages/BcomRating.astro";
+import Cta99mindsPOS from "../../components/ctas/Cta99mindsPOS.astro";
 import IntegrationLightspeed from "../../components/integrations/IntegrationLightspeed.astro";
 
 
@@ -18,17 +17,17 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="99minds.io integrations | Lightspeed"
-  description="The most powerful gift card and loyalty app for Lightspeed."
+  title="99minds and Lightspeed integration | 99minds"
+  description="99minds combines data-driven automation, gift cards store credit, and loyalty programs to deliver smart, targeted marketing for Lightspeed Retail users."
   canonical="https://www.99minds.io/integrations/lightspeed"
   openGraph={{
     url: "https://www.99minds.io/integrations/lightspeed",
-    title: "99minds.io integrations | Lightspeed",
-    description: "The most powerful gift card and loyalty app for Lightspeed.",
+    title: "99minds and Lightspeed integration | 99minds",
+    description: "99minds combines data-driven automation, gift cards store credit, and loyalty programs to deliver smart, targeted marketing for Lightspeed Retail users.",
     images: [
       {
-        url: "",
-        alt: "Social open graph",
+        url: "https://www.99minds.io/assets/99minds-LS.svg",
+        alt: "99minds and Lightspeed integration",
         type: "image/jpeg",
       },
       
@@ -43,11 +42,10 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <BaseLayout>
   <HeroLightspeed />
   <LogoCloudOne />
-  <FeatureBcom1 />
   <FeatureLightspeed />
+  <FeatureLightspeed2 />
+  <FeatureTenLightspeed />
   <IntegrationLightspeed />
-  <BcomRating />
-  <!--<Testimonialtry />-->
-  <!--<Integrations99minds />-->
-  <!--<CtaThree99minds />-->
+  <Testimonialtry />
+  <Cta99mindsPOS />
 </BaseLayout>

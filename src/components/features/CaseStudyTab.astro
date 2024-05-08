@@ -20,7 +20,8 @@
             return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
         }
     }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="relative mt-10">
-    <div class="relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
+     <div class="hidden lg:max-w-6xl sm:block md:block">
+    <div class=" relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
         {buttonConfig.map((button) => (
           <button
           class="relative z-20 inline-flex p-2 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id={button.id}>
@@ -45,6 +46,7 @@
       <div class="absolute left-0 z-10 w-full h-full duration-300 ease-out" x-ref="tabMarker" style="width: 76px; height: 32px; left: 300px;">
         <div class="w-full h-full rounded-lg bg-vulcan-900 border-2 border-indigo-500"></div>
       </div>
+    </div>
     </div>
     <div class="relative w-full pt-8 content border-t mt-8 border-vulcan-800">
       <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-1">

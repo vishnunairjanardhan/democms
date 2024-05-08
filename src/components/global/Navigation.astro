@@ -5,7 +5,7 @@
   <div class="relative w-full mx-auto max-w-7xl">
     <div x-data="{ open: false }" class="relative flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16">
       <div class="flex flex-row items-center justify-between text-white lg:justify-start">
-        <a href="/" class="lg:pr-8">
+        <a role="link" href="/" class="lg:pr-8">
           <div class="inline-flex items-center gap-3">
             <img
             class="h-7"
@@ -15,6 +15,7 @@
           </div>
         </a>
         <button
+        role="button"
         @click="open = !open"
         class="inline-flex items-center justify-center p-2 text-white hover:text-indigo-400 focus:outline-none focus:text-white md:hidden">
         <svg
@@ -46,7 +47,8 @@
         >-->
         <!---Dropdown--->
         <div @click.away="open = false" class="relative" x-data="{ open: false }">
-          <button @click="open = !open" class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50">
+          <button @click="open = !open" class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
+          role="button">
             <span>Products</span>
             <svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg"
               class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200
@@ -57,21 +59,19 @@
             </svg>
           </button>
           <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 z-50 mt-2 w-full origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1" style="width:13rem;">
-            <div class="py-1 bg-vulcan-900 rounded-xl" role="none">
+            <div class="py-1 bg-vulcan-900 rounded-xl" role="generic">
               <a href="/giftcard" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-              role="menuitem" tabindex="-1" id="menu-item-1"> Gift Card </a>
+              role="link" tabindex="-1" id="menu-item-1"> Gift Card </a>
               <a href="/store-credit" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-              role="menuitem" tabindex="-1">Store Credit</a>
+              role="link" tabindex="-1">Store Credit</a>
               <a href="/loyalty" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-              role="menuitem" tabindex="-1">Loyalty Program</a>
+              role="link" tabindex="-1">Loyalty Program</a>
               <a href="/coupons" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-              role="menuitem" tabindex="-1">Coupons</a>
+              role="link" tabindex="-1">Coupons</a>
               <a href="/referral" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-              role="menuitem" tabindex="-1">Referrals</a>
+              role="link" tabindex="-1">Referrals</a>
               <a href="/automated-workflow" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-              role="menuitem" tabindex="-1">Automated Workflows</a>
-              <!--<a href="/index2" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-              role="menuitem" tabindex="-1">Home2</a>-->
+              role="link" tabindex="-1">Automated Workflows</a>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@
         </a>
         <!---Dropdown--->
         <div @click.away="open = false" class="relative" x-data="{ open: false }">
-          <button @click="open = !open" class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50">
+          <button @click="open = !open" role="button" class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50">
             <span>Resources</span>
             <svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform rotate-180" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -97,30 +97,32 @@
           <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute w-52 right-0 z-50 mt-2 w-full origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1" style="width:13rem;">
             <div class="py-1 bg-vulcan-900 rounded-xl" role="none">
               <a href="/blog" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-              role="menuitem" tabindex="-1" id="menu-item-1">Blog</a>
+              role="link" tabindex="-1" id="menu-item-1">Blog</a>
               <a href="https://support.99minds.io/portal/en/kb" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-              role="menuitem" tabindex="-1">Documentation</a>
+              role="link" tabindex="-1">Documentation</a>
               <a href="https://docs.99minds.io/" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-              role="menuitem" tabindex="-1">API Documentation</a>
+              role="link" tabindex="-1">API Documentation</a>
               <a href="/giftcard-generator" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-              role="menuitem" tabindex="-1">Gift Card Generator</a>
+              role="link" tabindex="-1">Gift Card Generator</a>
               <a href="/coupon-code-generator" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-              role="menuitem" tabindex="-1">Coupon Code Generator</a>
+              role="link" tabindex="-1">Coupon Code Generator</a>
             </div>
           </div>
         </div>
         <a
+          role="link"
           class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
           href="/pricing">
           Pricing
         </a>
         <a
-          class="px-2 py-2 mr-3 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
+          role="link"
+          class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
           href="https://giftcard.99minds.io/access/login">
-          Sign In
+          Sign Up
         </a>
         <!-- Trigger -->
-        <button type="button" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds' });">
+        <button type="button" role="button" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
           <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
           <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 font-medium">
             <span class="relative text-white">Book a Demo</span>

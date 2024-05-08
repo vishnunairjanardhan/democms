@@ -22,9 +22,24 @@ const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
     url: "https://www.99minds.io/blog",
     title: "Get Inspired: 99minds Blog Hub",
     description: "Discover diverse perspectives and valuable insights at 99minds Blog",
+    images: [
+      {
+        url: "/assets/99minds-logo1.svg",
+        alt: "99minds Blog",
+        type: "image/svg",
+      }
+    ],
     site_name: "99minds",
   }}
   twitter={{
+    url: "https://www.99minds.io/blog",
+    images: [
+      {
+        url: "/assets/99minds-logo1.svg",
+        alt: "99minds Blog",
+        type: "image/svg",
+      }
+    ],
     site: "@99minds_io",
     cardType: "summary_large_image",
   }}
@@ -51,6 +66,7 @@ const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
         />
         <div class="mt-4 sm:ml-2 sm:mt-0 sm:flex-shrink-0">
           <button
+            role="button"
             type="submit"
             class="flex items-center justify-center w-auto h-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500"
             >Subscribe</button

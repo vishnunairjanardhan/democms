@@ -29,8 +29,8 @@ const All = [
             return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
         }
     }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);">
-      <div class="hidden max-w-6xl sm:block">
-        <div class="relative flex flex-row items-center gap-10 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
+      <div class="hidden lg:max-w-6xl sm:block md:block">
+        <div class=" relative flex flex-row items-center gap-10 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
           <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-1">All</button>
           <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-2">E-commerce</button>
           <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">POS</button>
@@ -51,7 +51,7 @@ const All = [
               {All.map((item, index) => (
                 <li key={index}>
                   <div>
-                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.title} />
+                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
                     <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
                   </div>
                   <div class="mt-2 text-sm justify-between text-vulcan-300">
@@ -73,7 +73,7 @@ const All = [
               {Ecommerce.map((item, index) => (
                 <li key={index}>
                   <div>
-                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.title} />
+                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
                     <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
                   </div>
                   <div class="mt-2 text-sm text-vulcan-300">
@@ -97,7 +97,7 @@ const All = [
               {POS.map((item, index) => (
                 <li key={index}>
                   <div>
-                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.title} />
+                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
                     <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
                   </div>
                   <div class="mt-2 text-sm text-vulcan-300">
@@ -125,7 +125,7 @@ const All = [
             {Marketing.map((item, index) => (
               <li key={index}>
                 <div>
-                  <a href={item.url}><img class='w-1/4' src={item.image} alt={item.title} />
+                  <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
                   <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
                 </div>
                 <div class="mt-2 text-sm text-vulcan-300">
@@ -149,7 +149,7 @@ const All = [
               {Email.map((item, index) => (
                 <li key={index}>
                   <div>
-                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.title} />
+                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
                     <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
                   </div>
                   <div class="mt-2 text-sm text-vulcan-300">
@@ -173,7 +173,7 @@ const All = [
               {Payment.map((item, index) => (
                 <li key={index}>
                   <div>
-                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.title} /></a>
+                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} /></a>
                     <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p>
                   </div>
                   <div class="mt-2 text-sm text-vulcan-300">
@@ -197,7 +197,7 @@ const All = [
               {Giftcard.map((item, index) => (
                 <li key={index}>
                   <div>
-                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.title} />
+                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
                     <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
                   </div>
                   <div class="mt-2 text-sm text-vulcan-300">
@@ -221,7 +221,7 @@ const All = [
               {Fraud.map((item, index) => (
                 <li key={index}>
                   <div>
-                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.title} />
+                    <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
                     <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
                   </div>
                   <div class="mt-2 text-sm text-vulcan-300">
