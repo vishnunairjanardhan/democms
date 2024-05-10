@@ -220,13 +220,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses.md": {
-	id: "10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses.md";
-  slug: "10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md": {
 	id: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md";
   slug: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store";
@@ -405,6 +398,13 @@ declare module 'astro:content' {
 "are-gift-cards-only-for-holidays-and-seasonal-sales.md": {
 	id: "are-gift-cards-only-for-holidays-and-seasonal-sales.md";
   slug: "are-gift-cards-only-for-holidays-and-seasonal-sales";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"b2b-ecommerce-trends.md": {
+	id: "b2b-ecommerce-trends.md";
+  slug: "b2b-ecommerce-trends";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

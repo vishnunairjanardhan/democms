@@ -1,5 +1,5 @@
 ---
-pubDate: 2022-08-09
+pubDate: 2024-04-22
 author: Mrudul
 authorImg: "Mrudul.png"
 title: "What is omnichannel commerce? Benefits & Best Practices"
@@ -50,7 +50,7 @@ According to Harvard Business Review, <a href="https://hbr.org/2017/01/a-study-o
   </li>
 </ul>
 
-<h2 id="what-is-an-omnichannel-commerce?" tabindex="-1">What is an omnichannel commerce?</h2>
+<h2 id="what-is-an-omnichannel-commerce?">What is an omnichannel commerce?</h2>
 
 
  <img src="/assets/blog/What-is-Omnichannel-Commerce.jpg" alt="showcasing seamless shopping experience across multiple channels">
@@ -72,16 +72,47 @@ Many business owners question whether investing in omnichannel Commerce is worth
 
 <li><b>More sales and traffic:</b> Adopting an omnichannel sales strategy can be challenging, but it can significantly increase your sales and traffic. According to a study by Harvard Business Review done over 46000 shoppers, omnichannel customers spend 4% more in-store and 10% more online than single-channel customers. In addition, customers who use four or more channels to shop spend an average of 9% more in-store than those who use just one channel.</li>
 
-<li><b>Personalized experience:</b> In an <a href="https://www.99minds.io/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce/" target="_blank">omnichannel eCommerce strategy</a>, your branding and messaging should be consistent across channels and reflect where the customers are in the buying cycle. By providing a personalized experience, you increase the chances of the customers completing the order.</li>
+<li><b>Personalized experience:</b> In an omnichannel eCommerce strategy, your branding and messaging should be consistent across channels and reflect where the customers are in the buying cycle. By providing a personalized experience, you increase the chances of the customers completing the order.</li>
 
 <li><b>Understanding customer journey:</b> Omnichannel eCommerce allows your company to collect and collate customer data from several channels. When you have all of this data in a single place, you will understand the kind of customers who like what you offer. It will give you a sneak peek into their behavior and put you in a position where you can personalize their journey.</li>
 
 <li><b>Boost Customer Loyalty:</b> According to Think Impact, existing customers tend to spend about  <a href="https://www.thinkimpact.com/customer-retention-statistics/#:~:text=Current%20customers%20have%20been%20measured,business%20comes%20from%20retained%20customers." target="_blank">67% more than new customers</a>. Using omnichannel sales techniques allows for personalized shopping experiences, which can increase <a href="https://www.mckinsey.com/~/media/McKinsey/Industries/Retail/Our%20Insights/retail%20speaks%20seven%20imperatives%20for%20the%20industry/retail-speaks-full-report.pdf" target="_blank">revenue and customer retention by 10-15%</a>, as noted in McKinsey's Retail Speaks report. The report also indicates that customers are 5-10% more satisfied and engaged when their shopping experiences are personalized across all interactions. When customers are satisfied, they are more likely to remain loyal, leading to increased profitability for businesses.</li>
 </ul>
 
-<a href="https://www.99minds.io/loyalty" target="_blanck"> <img src="/assets/blog/CTA-IMAGE-03.jpg"></a>
+<!-- 
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGE-03.jpg"></a> -->
 
-<h2 id="successful-omnichannel-commerce-strategies">Successful Omnichannel Commerce Strategies</h2>
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" src="/assets/blog/CTA-Loyalty1.jpg"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<h2 class="m-0 mb-4" id="successful-omnichannel-commerce-strategies">Successful Omnichannel Commerce Strategies</h2>
 
 While developing a strong omnichannel commerce strategy requires a deep understanding of the brand, some tried-and-true methods can significantly increase the likelihood of success. These innovative actions include:
 
@@ -113,7 +144,7 @@ Omnichannel Commerce, though incredibly beneficial, also has its own set of issu
 <li><b>Adapt to changing trends:</b> In the retail industry, businesses need to stay up-to-date with the industry trends. Omnichannel Commerce is an effective way for businesses to remain flexible and adaptable to customer preferences, whether they shop in-store, online, or through applications. Through this approach, companies may stay up to date with current trends and ensure customer satisfaction. Adopting an omnichannel strategy can help businesses maintain a competitive edge and retain loyal customers who keep coming back for more.</li>
 </ul>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img src="/assets/blog/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-giftCard.jpg"></a>
 
 <h2 id="omnichannel-commerce-solutions-include">Omnichannel Commerce Solutions Include</h2>
 
@@ -135,29 +166,28 @@ Omnichannel commerce solutions encompass a diverse range of tools and platforms 
 
 Let us look at some real-life examples of how e-commerce companies implement omnichannel strategies for their customers.
 
-<img src="/assets/blog/walgreens.png" alt="walgreens providing omnichannel commerce">
+<img class="w-3/4 m-auto" src="/assets/blog/Walgreens-omnichannel-example.png" alt="walgreens providing omnichannel commerce">
 
 <ul>
 <li><b><a href="https://www.walgreens.com/" target="_blank">Walgreens</a>:</b> The retail pharmaceutical giant has a mobile app. Customers can manage their pharmacy prescriptions, find deals, make orders, and pick them up at the nearest location.</li>
 
-<img src="/assets/blog/apple.png" alt="apple providing omnichannel commerce">
-
+<img class="w-3/4 m-auto" src="/assets/blog/Apple-omnichannel-example.png" alt="apple providing omnichannel commerce">
 
 <li><b><a href="https://www.apple.com/iphone/" target="_blank">Apple</a>:</b> Apple offers devices that seamlessly sync with each other using customers' iCloud accounts. Messages, photos, and connected devices display the same way no matter which Apple device the customer uses. When a customer sets up their new device and signs in using their iCloud account, all the relevant information is downloaded to the new device.</li>
 
-<img src="/assets/blog/starbucks.png" alt="starbucks providing omnichannel commerce">
+<img class="w-3/4 m-auto" src="/assets/blog/Starbuck-omnichannel-example.png" alt="starbucks providing omnichannel commerce">
 
 <li><b><a href="https://www.starbucks.com/" target="_blank">Starbucks</a>:</b> The coffee behemoth is also known for its omnichannel strategy. When a Starbucks customer pays with a Starbucks card, they will accumulate reward points. Their linked app allows coffee lovers to send gifts, find nearby stores, and order drinks in advance.</li>
 
-<img src="/assets/blog/bestbuy.png" alt="bestbuys providing omnichannel commerce">
+<img class="w-3/4 m-auto" src="/assets/blog/Bestbuy-omnichannel-example.png" alt="bestbuys providing omnichannel commerce">
 
 <li><b><a href="https://www.bestbuy.com/" target="_blank">Best Buy</a>:</b> The leading electronics retailer app provides an omnichannel experience. It is easy to navigate and has a nice flow. You can checkout with curbside pickup or add the products to the cart. The customer can locate the product at a different store and get it shipped to the designated MyStore.</li>
 
-<img src="/assets/blog/verizon.png" alt="verizon providing omnichannel commerce">
+<img class="w-3/4 m-auto" src="/assets/blog/Verizon-omnichannel-example.png" alt="verizon providing omnichannel commerce">
 
 <li><b><a href="https://www.verizon.com/" target="_blank">Verizon</a>:</b>  You can manage and order existing and new devices in their mobile app, chat with support agents, make changes to your account, and get the best deals and offers available. When you open the app, you first see "Hi, (your name)," a classic example of good personalization.</li>
 
-<img src="/assets/blog/target.png" alt="target providing omnichannel commerce">
+<img class="w-3/4 m-auto" src="/assets/blog/Target-omnichannel-example.png" alt="target providing omnichannel commerce">
 
 <li><b><a href="" target="_blank">Target</a></b>: They integrated with Pinterest Lens, which allows people to use their smartphones to take a picture of something they like and see if the Target app has a similar product available. It offers a seamless experience for customers who see something they want and can immediately check if it is available on Target.</li>
 </ul>
