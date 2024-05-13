@@ -605,6 +605,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"gift-cards-for-small-businesses.md": {
+	id: "gift-cards-for-small-businesses.md";
+  slug: "gift-cards-for-small-businesses";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine.md": {
 	id: "gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine.md";
   slug: "gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine";
@@ -664,13 +671,6 @@ declare module 'astro:content' {
 "how-and-why-you-should-use-digital-rewards-for-workplace-gamification.md": {
 	id: "how-and-why-you-should-use-digital-rewards-for-workplace-gamification.md";
   slug: "how-and-why-you-should-use-digital-rewards-for-workplace-gamification";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"how-can-small-businesses-can-increase-sales-with-gift-cards.md": {
-	id: "how-can-small-businesses-can-increase-sales-with-gift-cards.md";
-  slug: "how-can-small-businesses-can-increase-sales-with-gift-cards";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
