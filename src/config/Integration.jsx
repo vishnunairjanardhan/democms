@@ -228,5 +228,5 @@ export const Fraud = [
 export const Integrations = [
   ...Ecommerce.slice(0, 2),
   ...Marketing,
-  ...POS.slice(0, 5),
+  ...POS.slice(0, 4),
 ]
