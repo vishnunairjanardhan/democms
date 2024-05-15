@@ -18,7 +18,7 @@ In today's digital world, eCommerce businesses are no longer limited to a single
 
 According to Harvard Business Review, <a href="https://hbr.org/2017/01/a-study-of-46000-shoppers-shows-that-omnichannel-retailing-works" target="_blank">73% of online shoppers use several channels</a> when shopping online. This is why businesses must offer a consistent, seamless customer experience across different touchpoints of a customer journey.</p>
 
-## <strong>Table of contents</strong>
+## <b>Table of Contents</b>
 
 <ul>
   <li>
@@ -89,7 +89,7 @@ Many business owners question whether investing in omnichannel Commerce is worth
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" src="/assets/blog/CTA-Loyalty1.jpg"></span>
+                <span class="relative text-white"><img class="w-full m-0" src="/assets/blog/CTA-Loyalty1.jpg" alt="Get started now CTA image for omnichannel commerce"></span>
                 </span></div>
               </span>
               <!-- Modal -->
@@ -144,7 +144,7 @@ Omnichannel Commerce, though incredibly beneficial, also has its own set of issu
 <li><b>Adapt to changing trends:</b> In the retail industry, businesses need to stay up-to-date with the industry trends. Omnichannel Commerce is an effective way for businesses to remain flexible and adaptable to customer preferences, whether they shop in-store, online, or through applications. Through this approach, companies may stay up to date with current trends and ensure customer satisfaction. Adopting an omnichannel strategy can help businesses maintain a competitive edge and retain loyal customers who keep coming back for more.</li>
 </ul>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-giftCard.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-giftCard.jpg" alt="Book a Demo CTA image for omnichannel commerce"></a>
 
 <h2 id="omnichannel-commerce-solutions-include">Omnichannel Commerce Solutions Include</h2>
 
