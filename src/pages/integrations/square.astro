@@ -3,9 +3,10 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import HeroSquarePOS from "../../components/heros/HeroSquarePOS.astro";
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import FeatureSquare from "../../components/features/FeatureSquare.astro";
+import FeatureTenSquare from "../../components/features/FeatureTenSquare.astro";
 import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
-import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
-import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
+import Cta99mindsPOS from "../../components/ctas/Cta99mindsPOS.astro";
+import IntegrationSquare2 from "../../components/integrations/IntegrationSquare2.astro";
 import BcomRating from "../../components/Infopages/BcomRating.astro";
 import IntegrationSquare from "../../components/integrations/IntegrationSquare.astro";
 
@@ -17,18 +18,18 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="C99minds and Square integration | 99minds"
-  description="Square POS has partnered with 99minds to help you a smooth gifting experience and enrich customer relationships with clever loyalty & rewards programs, both online & in-store."
+  title="99minds and Square integration | 99minds"
+  description="Square POS integrates with 99minds to help you with smooth gifting experience and enrich customer relationships with loyalty & rewards programs, both online & in-store."
   canonical="https://www.99minds.io/integrations/square"
   openGraph={{
     url: "https://www.99minds.io/integrations/square",
     title: "99minds and Square integration | 99minds",
-    description: "Square POS has partnered with 99minds to help you a smooth gifting experience and enrich customer relationships with clever loyalty & rewards programs, both online & in-store.",
+    description: "Square POS integrates with 99minds to help you with smooth gifting experience and enrich customer relationships with loyalty & rewards programs, both online & in-store.",
     images: [
       {
-        url: "",
-        alt: "Social open graph",
-        type: "image/jpeg",
+        url: "https://www.99minds.io/assets/99minds-Square-OGI.svg",
+        alt: "99minds and Square integration",
+        type: "image/svg",
       },
       
     ],
@@ -44,8 +45,8 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <LogoCloudOne />
   <FeatureSquare />
   <IntegrationSquare />
-  <BcomRating />
-  <!--<Testimonialtry />-->
-  <!--<Integrations99minds />-->
-  <!--<CtaThree99minds />-->
+  <FeatureTenSquare />
+  <IntegrationSquare2 />
+  <Testimonialtry />
+  <Cta99mindsPOS />
 </BaseLayout>

@@ -1,9 +1,6 @@
 <section class="lg:p-8">
   <div class="mx-auto 2xl:max-w-7xl py-12 lg:px-16 md:px-12 px-8 xl:px-28 items-center w-full">
-    <!--<div>
-      <h2 class="text-3xl tracking-tighter mt-6 font-normal lg:text-4xl text-white">Hear from our clients </h2>
-      <p class="mt-4 text-base font-normal text-white max-w-md">Hear from our clients</p>
-    </div>-->
+
     <div class="flex flex-col w-full" x-data="{
       skip: 1,
       atBeginning: false,
@@ -69,12 +66,12 @@
       stopAutoSlide() {
           clearInterval(this.interval);
       },
-  }" x-init="startAutoSlide" x-on:mouseenter="stopAutoSlide" x-on:mouseleave="startAutoSlide">
+  }" x-init="startAutoSlide" x-on:mouseenter="stopAutoSlide" x-on:mouseleave="startAutoSlide" role="button">
       <div class="flex flex-col w-full" aria-labelledby="carousel-label" role="region" tabindex="0" x-on:keydown.left="prev" x-on:keydown.right="next">
         <h2 class="sr-only" hidden="" id="carousel-label">Carousel</h2>
         <span class="sr-only" hidden="" id="carousel-content-label">Carousel</span>
         <div class="grid grid-cols-1 lg:grid-cols-2 pb-6 border-b border-white/10 overflow-hidden">
-        <h2 class="text-3xl tracking-tighter mt-0 font-normal lg:text-4xl text-white">Hear from our clients </h2>
+        <h2 class="text-3xl tracking-tighter mt-0 font-normal lg:text-4xl text-white">Hear from our Clients </h2>
           <div class="items-center inline-flex lg:col-start-4 lg:ml-auto lg:px-2 mb-4 pt-4 order-last space-x-2">
             <button class="bg-white/5 hover:bg-white/10 focus:bg-transparent rounded-2xl inline-flex items-center text-center text-white p-4 ring-1 ring-white/10" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }" :aria-disabled="atBeginning" :tabindex="atEnd ? -1 : 0" x-on:click="prev" tabindex="0">
               <span aria-hidden="true">
@@ -102,7 +99,7 @@
                   <figure class="bg-vulcan-900 rounded-xl p-4">
                     <div class="">
                       <div class="mt-6 lg:mt-4 lg:flex h-64 lg:items-center">
-                        <img class="object-cover object-center lg:w-[20rem] mt-8 rounded-lg" src="/assets/testimonial/Pinstripe1.png" alt="">
+                        <img class="object-cover object-center lg:w-[20rem] mt-8 rounded-lg" src="/assets/testimonial/Pinstripe1.png" alt="Pinstripe">
                         <div class="mt-8 lg:px-10 lg:mt-0">
                           <img class="object-cover object-center lg:w-[4rem]" src="/assets/testimonial/C-1.png" alt="">
                           <p class="max-w-lg mt-2 text-base text-vulcan-300"> "The team at 99Minds has been great to work with. Changing to them as our gift card vendor has saved us substantial money and also made the purchase experience far more seamless for our guests. Additionally their customer service is top notch. They are incredibly responsive and help us bring guests to resolution in a timely manner." </p>
@@ -131,7 +128,7 @@
                     <div class="">
                       <div class="mt-4 lg:mt-4 lg:flex h-64 lg:items-center">
                         <!--<img class="object-cover object-center lg:w-[20rem] rounded-lg px-4" src="/logos/FlynnOHaraUniforms_logo 1.svg" alt="">-->
-                        <img class="object-cover object-center lg:w-[20rem] mt-8 rounded-lg" src="/assets/testimonial/Flynnohara1.png" alt="">
+                        <img class="object-cover object-center lg:w-[20rem] mt-8 rounded-lg" src="/assets/testimonial/Flynnohara1.png" alt="Flynnohara">
 
                         <div class="mt-8 lg:px-10 lg:mt-0">
                            <img class="object-cover object-center lg:w-[4rem]" src="/assets/testimonial/C-1.png" alt="">
@@ -154,7 +151,7 @@
                   <figure class="bg-vulcan-900 rounded-xl p-4">
                     <div class="">
                       <div class="mt-4 lg:mt-4 h-64 lg:flex lg:items-center">
-                        <img class="object-cover object-center lg:w-[20rem] mt-8 rounded-lg" src="/assets/testimonial/Cariloha1-u.png" alt="">
+                        <img class="object-cover object-center lg:w-[20rem] mt-8 rounded-lg" src="/assets/testimonial/Cariloha1-u.png" alt="Cariloha">
                         <div class="mt-8 lg:px-10 lg:mt-0">
                           <img class="object-cover object-center lg:w-[4rem]" src="/assets/testimonial/C-1.png" alt="">
                           <p class="max-w-lg mt-2 text-base text-vulcan-300"> "One stop solution for Marketing and Promotion.Complete automation for gift cards and Coupons based on Customer Journey." </p>
@@ -175,7 +172,7 @@
                   <figure class="bg-vulcan-900 rounded-xl p-4">
                     <div class="">
                       <div class="mt-4 lg:mt-4 h-64 lg:flex lg:items-center">
-                        <img class="object-cover object-center lg:w-[20rem] mt-8 rounded-lg" src="/assets/testimonial/Bestop1.png" alt="">
+                        <img class="object-cover object-center lg:w-[20rem] mt-8 rounded-lg" src="/assets/testimonial/Bestop1.png" alt="Bestop">
                         <div class="mt-8 lg:px-10 lg:mt-0">
                           <img class="object-cover object-center lg:w-[4rem]" src="/assets/testimonial/C-1.png" alt="">
                           <p class="max-w-lg mt-2 text-base text-vulcan-300"> "With 99minds we are able to create one gift cards to make it work across multi-storefront for our multiple brands." </p>
