@@ -360,13 +360,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"Ecommerce-Strategy-A-Complete-Guide .md": {
-	id: "Ecommerce-Strategy-A-Complete-Guide .md";
-  slug: "ecommerce-strategy-a-complete-guide-";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md": {
 	id: "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md";
   slug: "ways-to-incorporate-gift-cards-into-your-customer-retention-strategy";
@@ -524,6 +517,13 @@ declare module 'astro:content' {
 "ecommerce-referral-marketing-strategies.md": {
 	id: "ecommerce-referral-marketing-strategies.md";
   slug: "ecommerce-referral-marketing-strategies";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"ecommerce-strategy-guide.md": {
+	id: "ecommerce-strategy-guide.md";
+  slug: "ecommerce-strategy-guide";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
