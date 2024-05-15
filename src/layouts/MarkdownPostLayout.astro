@@ -5,19 +5,19 @@ import { AstroSeo } from "@astrolib/seo";
 
 ---
 <AstroSeo
-  title={frontmatter.title}
-  description={frontmatter.description}
-  canonical={frontmatter?.url}
+  title={frontmatter.title || ""}
+  description={frontmatter.description || ""}
+  canonical={frontmatter?.url || ""}
   openGraph={{
-    url: frontmatter?.url,
-    title: frontmatter.openGraphTitle || frontmatter.title,
-    description: frontmatter.openGraphDescription || frontmatter.description,
+    url: frontmatter?.url || "",
+    title: frontmatter.openGraphTitle || frontmatter.title || "",
+    description: frontmatter.openGraphDescription || frontmatter.description || "",
     images: [
       {
-        url: "https://www.99minds.io"+frontmatter.image.url,
+        url: frontmatter.image ? "https://www.99minds.io" + frontmatter.image.url : "",
         width: 1200,
         height: 630,
-        alt: frontmatter.image.alt,
+        alt: frontmatter.image ? frontmatter.image.alt : "",
         type: "image/png",
       }
     ],
@@ -28,6 +28,7 @@ import { AstroSeo } from "@astrolib/seo";
     cardType: "summary_large_image",
   }}
 />
+
 <BaseLayout>
   <section class="relative overflow-x-hidden">
     <svg
@@ -134,7 +135,7 @@ import { AstroSeo } from "@astrolib/seo";
             <div class="mt-4 max-w-6xl">
             <div class="flex gap-4">
               <div>
-                <img src={`/assets/testimonial/${frontmatter.authorImg}`} alt="Small Image" class="w-auto h-12 rounded-full">
+                <img src={`/assets/testimonial/${frontmatter.authorImg}`} alt="Author Image" class="w-auto h-12 rounded-full">
               </div>
               <div class="w-full">
                 <div> 
@@ -179,8 +180,8 @@ import { AstroSeo } from "@astrolib/seo";
     <div class="max-w-7xl px-8 md:px-12 relative lg:px-32 mx-auto py-10 lg:pt-10">
       <div>
         <div>
-          <div
-            class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-indigo-500 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-vulcan-300 prose-code:text-white prose-blockquote:text-white/70">
+          <div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-indigo-500 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-vulcan-300 prose-code:text-white prose-blockquote:text-white/70">
+          <!--<div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-violet-400	 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-white/70 text-lg prose-code:text-white prose-blockquote:text-white/70">-->
             <slot />
           </div>
         </div>
