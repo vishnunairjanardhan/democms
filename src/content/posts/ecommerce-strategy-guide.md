@@ -16,13 +16,13 @@ url: "https://www.99minds.io/blog/Ecommerce-Strategy-A-Complete-Guide/"
 
 Over the years, ecommerce has continued to change and evolve. Many companies sell online to reach more customers and generate more sales. But the thing is, ecommerce success isn't just about moving things online. You need a solid ecommerce strategy for consistent growth and to stay ahead of your competitors. You need a solid ecommerce strategy for consistent growth and to stay ahead of your competitors.
 
+This article will discuss everything you need to create and carry out a successful ecommerce strategy plan. It’s got steps, tips, and examples to help you build a successful and profitable ecommerce store.</p>
 
-This article will discuss everything you need to create and carry out a successful ecommerce strategy plan. It’s got steps, tips, and examples to help you build a successful and profitable ecommerce store.
-
-## <strong>Table of contents</strong>
+<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
+<h3>Table of contents</h3>
 <ul>
   <li>
-      <a href="#What-is-Ecommerce-Strategy" rel="noreferrer">What is Ecommerce Strategy?
+      <a href="#What-is-Ecommerce-Strategy" rel="noreferrer">What is Ecommerce Strategy?</span>
 </a>
   </li>
   <li>
@@ -37,7 +37,8 @@ This article will discuss everything you need to create and carry out a successf
   <li>
       <a href="#conclusion" rel="noreferrer">Conclusion</a>
   </li>
-  
+ </div> 
+
 <h2 id="What-is-Ecommerce-Strategy">What is Ecommerce Strategy?</h2>
 
 
@@ -260,14 +261,14 @@ Additionally, you can send proactive messages to your visitors with modern live 
 
 In the ever-evolving world of ecommerce, having a well-defined strategy is critical to success. From defining your goals and understanding your target audience to implementing digital marketing strategies and optimizing your user experience, each step plays a key role in driving growth and increasing revenue. By following the comprehensive guidelines in this article, businesses can build a solid foundation for their ecommerce operations and stay ahead of their competitors in today's competitive market.
 
+
 <h2>FAQs</h2>
-<ol>
-<li><h3>What is an ecommerce strategy?</h3></li>
- Ecommerce strategy is a plan businesses use to sell stuff online. It includes how they market, sell, and serve customers on the Internet to make money.
-<li><h3>How to use an ecommerce strategy to increase sales?</h3></li>
-To boost sales online, businesses should make their website easy to use, show up on Google, use social media, offer deals, talk to customers, and make sure it works well on phones.
-<li><h3>What are the types of ecommerce strategies?</h3></li>
+
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6" ><h3>What is an ecommerce strategy?</h3>
+ Ecommerce strategy is a plan businesses use to sell stuff online. It includes how they market, sell, and serve customers on the Internet to make money.</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6" ><h3>How to use an ecommerce strategy to increase sales?</h3>
+To boost sales online, businesses should make their website easy to use, show up on Google, use social media, offer deals, talk to customers, and make sure it works well on phones.</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6" ><h3>What are the types of ecommerce strategies?</h3>
 There are a few types: selling on big websites like Amazon, selling directly to customers from your website, offering subscriptions, using both online and offline stores, selling without keeping stock (dropshipping), and selling on social media.
-</ol>
- 
+</div> 
 
