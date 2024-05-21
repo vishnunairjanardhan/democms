@@ -31,3 +31,14 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
