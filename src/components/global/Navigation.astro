@@ -1,7 +1,7 @@
 <section
   role="navigation"
   aria-label="Main Navigation"
-  class="fixed z-50 w-full border-b relative bg-vulcan-900/20 border-white/5 backdrop-blur-2xl lg:bg-vulcan-900/0">
+  class="fixed z-50 w-full border-b bg-vulcan-900/20 border-white/5 backdrop-blur-2xl lg:bg-vulcan-900/0">
   <div class="relative w-full mx-auto max-w-7xl">
     <div x-data="{ open: false }" class="relative flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16">
       <div class="flex flex-row items-center justify-between text-white lg:justify-start">
@@ -18,7 +18,7 @@
           role="button"
           aria-label="navigation"
           @click="open = !open"
-          aria-expanded="false"
+          :aria-expanded="open"
           aria-controls="primary-navigation"
           class="inline-flex items-center justify-center p-2 text-white hover:text-indigo-400 focus:outline-none focus:text-white md:hidden">
           <svg
@@ -46,11 +46,11 @@
       <nav id="primary-navigation" :class="{'flex': open, 'hidden': !open}" class="flex-col items-center flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
         <div @click.away="open = false" class="relative" x-data="{ open: false }">
           <button @click="open = !open" class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
-          role="button" aria-expanded="false" aria-controls="products-dropdown">
+          role="button" :aria-expanded="open" aria-controls="products-dropdown">
             <span>Products</span>
             <svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg"
               class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200
-              transform rotate-180" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+              transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
               stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M6 9l6 6l6 -6"></path>
@@ -101,14 +101,14 @@
           Case Study
         </a>
         <div @click.away="open = false" class="relative" x-data="{ open: false }">
-          <button @click="open = !open" role="button" class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50" aria-expanded="false" aria-controls="resources-dropdown">
+          <button @click="open = !open" role="button" class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50" :aria-expanded="open" aria-controls="resources-dropdown">
             <span>Resources</span>
-            <svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform rotate-180" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M6 9l6 6l6 -6"></path>
             </svg>
           </button>
-          <div id="resources-dropdown" x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute w-52 right-0 z-50 mt-2 w-full origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]" style="width:13rem;">
+          <div id="resources-dropdown" x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 z-50 mt-2 w-full origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]" style="width:13rem;">
             <div class="py-1 bg-vulcan-900 rounded-xl" role="none">
               <ul id="resources"
                 tabindex="-1"
