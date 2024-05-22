@@ -465,9 +465,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"customer-acquisition-tactics-you-might-be-missing-on.md": {
-	id: "customer-acquisition-tactics-you-might-be-missing-on.md";
-  slug: "customer-acquisition-tactics-you-might-be-missing-on";
+"customer-acquisition-strategy.md": {
+	id: "customer-acquisition-strategy.md";
+  slug: "customer-acquisition-strategy";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
