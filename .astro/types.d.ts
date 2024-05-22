@@ -220,13 +220,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses.md": {
-	id: "10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses.md";
-  slug: "10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md": {
 	id: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md";
   slug: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store";
@@ -402,6 +395,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"b2b-ecommerce-trends.md": {
+	id: "b2b-ecommerce-trends.md";
+  slug: "b2b-ecommerce-trends";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "beginners-guide-to-e-commerce-promotions.md": {
 	id: "beginners-guide-to-e-commerce-promotions.md";
   slug: "beginners-guide-to-e-commerce-promotions";
@@ -517,6 +517,13 @@ declare module 'astro:content' {
 "ecommerce-referral-marketing-strategies.md": {
 	id: "ecommerce-referral-marketing-strategies.md";
   slug: "ecommerce-referral-marketing-strategies";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"ecommerce-strategy-guide.md": {
+	id: "ecommerce-strategy-guide.md";
+  slug: "ecommerce-strategy-guide";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

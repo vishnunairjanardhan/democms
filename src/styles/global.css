@@ -31,3 +31,38 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  transition: 0.3s;
+  
+}
+
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
+a:link { 
+  color: white;
+  border-bottom: 1px #6366f1;
+}
+a:visited { /* Visited link */
+  color: whitesmoke;
+}
+
+a:hover { /* Link when hovered */
+  color: #6366f1;
+  border-bottom: 1px #6366f1;
+}
+
+a:active { /* Link when clicked */
+  color: orange;
+}
