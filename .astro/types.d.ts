@@ -829,6 +829,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"how-to-increase-ecommerce-sales-47-actionable-ways.md": {
+	id: "how-to-increase-ecommerce-sales-47-actionable-ways.md";
+  slug: "how-to-increase-ecommerce-sales-47-actionable-ways";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "how-to-kick-off-your-sales-on-fathers-day.md": {
 	id: "how-to-kick-off-your-sales-on-fathers-day.md";
   slug: "how-to-kick-off-your-sales-on-fathers-day";
@@ -1119,13 +1126,6 @@ declare module 'astro:content' {
 "the-role-of-technology-in-enhancing-ecommerce.md": {
 	id: "the-role-of-technology-in-enhancing-ecommerce.md";
   slug: "the-role-of-technology-in-enhancing-ecommerce";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022.md": {
-	id: "tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022.md";
-  slug: "tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
