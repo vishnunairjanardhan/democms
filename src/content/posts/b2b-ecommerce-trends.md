@@ -24,7 +24,8 @@ However the list is long, and in this blog we have listed the most hot b2b eComm
 
 In the following sections, we will explore stats related to B2B eCommerce and the top trends in b2b ecommerce. These trends are expected to shape the business landscape this year.
 
-## <b>Table of Contents</b>
+<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
+<h3><b>Table of Contents</b></h3>
 
 <ul>
   <li>  
@@ -37,6 +38,7 @@ In the following sections, we will explore stats related to B2B eCommerce and th
     <a href="#wrapping-up" ref="noreferrer">Wrapping Up</a>
   </li>
 </ul>
+</div>
 
 <h2 id="b2b-ecommerce-statistics">B2B eCommerce Statistics
 </h2>
@@ -181,7 +183,7 @@ These programs contribute to stronger brand loyalty, increased revenue, and easi
 On average, each American consumers holds 16.7 customer loyalty programs. It's important to design your loyalty program in a way that attracts and retains your customers. Some of the most popular loyalty programs are points, tiered loyalty, paid, and universal loyalty programs. The right rewards for your customers depend on what they're looking for. To determine this, focus on data and analysis, and use <a href="https://www.99minds.io/loyalty" target="_blanck">loyalty program software</a>.</li>  
 
 <div class="flex justify-center">
-<img class="w-1/2 m-0" src="/assets/blog/loyalty-banner.png" alt="99minds loyalty reward program banner">
+<img class="w-3/4 m-4" src="/assets/blog/Loyalty-blog (1).webp" alt="99minds loyalty reward program banner">
 </div>
 
 <li><b>Subscription commerce</b>: Recurring customer purchases to your eCommerce store is one of the best ways to have a cash cow. Amazon Prime is an excellent example of subscription commerce. Amazon’s customers are happy paying a premium because of their extra perks– Prime Music, Prime Gaming, and One-day delivery; you name it.
@@ -189,7 +191,7 @@ It provides predictable and recurring revenue, grants access to valuable custome
 
 <div class="text-center">
 <div class="flex justify-center">
-<img class="flex justify-center m-0 w-3/4" src="/assets/blog/amazon-prime-subscription.png" alt="amazon prime login page screenshot">
+<img class="flex justify-center m-4 w-3/4" src="/assets/blog/amazon-prime-subscription.png" alt="amazon prime login page screenshot">
 </div>
   <div class="text-center;">
     <figcaption>

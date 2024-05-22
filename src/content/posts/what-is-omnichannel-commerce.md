@@ -18,8 +18,8 @@ In today's digital world, eCommerce businesses are no longer limited to a single
 
 According to Harvard Business Review, <a href="https://hbr.org/2017/01/a-study-of-46000-shoppers-shows-that-omnichannel-retailing-works" target="_blank">73% of online shoppers use several channels</a> when shopping online. This is why businesses must offer a consistent, seamless customer experience across different touchpoints of a customer journey.</p>
 
-## <b>Table of Contents</b>
-
+<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
+<h3><b>Table of Contents</b></h3>
 <ul>
   <li>
       <a href="#what-is-an-omnichannel-commerce?" rel="noreferrer">What is an Omnichannel Commerce?</a>
@@ -49,6 +49,7 @@ According to Harvard Business Review, <a href="https://hbr.org/2017/01/a-study-o
       <a href="#wrapping-up" rel="noreferrer">Wrapping up</a>
   </li>
 </ul>
+</div>
 
 <h2 id="what-is-an-omnichannel-commerce?">What is an omnichannel commerce?</h2>
 
@@ -166,28 +167,28 @@ Omnichannel commerce solutions encompass a diverse range of tools and platforms 
 
 Let us look at some real-life examples of how e-commerce companies implement omnichannel strategies for their customers.
 
-<img class="w-3/4 m-auto" src="/assets/blog/Walgreens-omnichannel-example.png" alt="walgreens providing omnichannel commerce">
+<img class="w-3/4 m-4" src="/assets/blog/Walgreens-omnichannel-example.png" alt="walgreens providing omnichannel commerce">
 
 <ul>
 <li><b><a href="https://www.walgreens.com/" target="_blank">Walgreens</a>:</b> The retail pharmaceutical giant has a mobile app. Customers can manage their pharmacy prescriptions, find deals, make orders, and pick them up at the nearest location.</li>
 
-<img class="w-3/4 m-auto" src="/assets/blog/Apple-omnichannel-example.png" alt="apple providing omnichannel commerce">
+<img class="w-3/4 m-4" src="/assets/blog/Apple-omnichannel-example.png" alt="apple providing omnichannel commerce">
 
 <li><b><a href="https://www.apple.com/iphone/" target="_blank">Apple</a>:</b> Apple offers devices that seamlessly sync with each other using customers' iCloud accounts. Messages, photos, and connected devices display the same way no matter which Apple device the customer uses. When a customer sets up their new device and signs in using their iCloud account, all the relevant information is downloaded to the new device.</li>
 
-<img class="w-3/4 m-auto" src="/assets/blog/Starbuck-omnichannel-example.png" alt="starbucks providing omnichannel commerce">
+<img class="w-3/4 m-4" src="/assets/blog/Starbuck-omnichannel-example.png" alt="starbucks providing omnichannel commerce">
 
 <li><b><a href="https://www.starbucks.com/" target="_blank">Starbucks</a>:</b> The coffee behemoth is also known for its omnichannel strategy. When a Starbucks customer pays with a Starbucks card, they will accumulate reward points. Their linked app allows coffee lovers to send gifts, find nearby stores, and order drinks in advance.</li>
 
-<img class="w-3/4 m-auto" src="/assets/blog/Bestbuy-omnichannel-example.png" alt="bestbuys providing omnichannel commerce">
+<img class="w-3/4 m-4" src="/assets/blog/Bestbuy-omnichannel-example.png" alt="bestbuys providing omnichannel commerce">
 
 <li><b><a href="https://www.bestbuy.com/" target="_blank">Best Buy</a>:</b> The leading electronics retailer app provides an omnichannel experience. It is easy to navigate and has a nice flow. You can checkout with curbside pickup or add the products to the cart. The customer can locate the product at a different store and get it shipped to the designated MyStore.</li>
 
-<img class="w-3/4 m-auto" src="/assets/blog/Verizon-omnichannel-example.png" alt="verizon providing omnichannel commerce">
+<img class="w-3/4 m-4" src="/assets/blog/Verizon-omnichannel-example.png" alt="verizon providing omnichannel commerce">
 
 <li><b><a href="https://www.verizon.com/" target="_blank">Verizon</a>:</b>  You can manage and order existing and new devices in their mobile app, chat with support agents, make changes to your account, and get the best deals and offers available. When you open the app, you first see "Hi, (your name)," a classic example of good personalization.</li>
 
-<img class="w-3/4 m-auto" src="/assets/blog/Target-omnichannel-example.png" alt="target providing omnichannel commerce">
+<img class="w-3/4 m-4" src="/assets/blog/Target-omnichannel-example.png" alt="target providing omnichannel commerce">
 
 <li><b><a href="" target="_blank">Target</a></b>: They integrated with Pinterest Lens, which allows people to use their smartphones to take a picture of something they like and see if the Target app has a similar product available. It offers a seamless experience for customers who see something they want and can immediately check if it is available on Target.</li>
 </ul>
