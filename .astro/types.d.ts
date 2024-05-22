@@ -603,14 +603,7 @@ declare module 'astro:content' {
   slug: "gift-cards-for-small-businesses";
   body: string;
   collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"gift-cards-for-small-businesses.md": {
-	id: "gift-cards-for-small-businesses.md";
-  slug: "gift-cards-for-small-businesses";
-  body: string;
-  collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine.md": {
 	id: "gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine.md";
