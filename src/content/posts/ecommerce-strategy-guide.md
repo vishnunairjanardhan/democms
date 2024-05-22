@@ -12,30 +12,30 @@ tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/Ecommerce-Strategy-A-Complete-Guide/"
 
 ---
-<img src="/assets/blog/Ecommerce Strategy- A Complete Guide.jpg" alt="how can small businesses can increase sales with gift cards">
+<img loading="lazy" src="/assets/blog/Ecommerce Strategy- A Complete Guide.jpg" alt="how can small businesses can increase sales with gift cards">
 
 Over the years, ecommerce has continued to change and evolve. Many companies sell online to reach more customers and generate more sales. But the thing is, ecommerce success isn't just about moving things online. You need a solid ecommerce strategy for consistent growth and to stay ahead of your competitors. You need a solid ecommerce strategy for consistent growth and to stay ahead of your competitors.
 
 This article will discuss everything you need to create and carry out a successful ecommerce strategy plan. It’s got steps, tips, and examples to help you build a successful and profitable ecommerce store.</p>
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<h3>Table of contents</h3>
-<ul>
+<h2>Table of contents</h2>
+<ul role="list">
   <li>
-      <a href="#What-is-Ecommerce-Strategy" rel="noreferrer">What is Ecommerce Strategy?</span>
+      <a role="link" href="#What-is-Ecommerce-Strategy" rel="noreferrer">What is Ecommerce Strategy?</span>
 </a>
   </li>
   <li>
-      <a href="#why-Ecommerce-Strategies-are-Important" rel="noreferrer">Why Ecommerce Strategies are Important</a>
+      <a role="link" href="#why-Ecommerce-Strategies-are-Important" rel="noreferrer">Why Ecommerce Strategies are Important</a>
   </li>
   <li>
-      <a href="#how-to-Build-an-Ecommerce-Strategy" rel="noreferrer">How to Build an Ecommerce Strategy?</a>
+      <a role="link" href="#how-to-Build-an-Ecommerce-Strategy" rel="noreferrer">How to Build an Ecommerce Strategy?</a>
   </li>
   <li>
-      <a href="#types-of-Ecommerce-Strategies" rel="noreferrer">Types of Ecommerce Strategies</a>
+      <a role="link" href="#types-of-Ecommerce-Strategies" rel="noreferrer">Types of Ecommerce Strategies</a>
   </li>
   <li>
-      <a href="#conclusion" rel="noreferrer">Conclusion</a>
+      <a role="link" href="#conclusion" rel="noreferrer">Conclusion</a>
   </li>
  </div> 
 
@@ -68,7 +68,7 @@ Developing an effective ecommerce strategy is crucial for any business that want
 <ol>
 <li><h3>Understand your customers :</h3> </li>Get to know your internal and external target audience by conducting comprehensive research. Research demographics, interests, and purchasing behavior to understand what motivates your customers. Use tools like Google Analytics, customer research, and social media to listen for valuable information that will support your ecommerce strategy and help you better serve your customers.
 
-<a href="https://calendly.com/99minds" target="_blank"><img class="m-auto w-full lg:p-4" src="/assets/blog/Blog_CTA1.png"></a>
+<a href="https://calendly.com/99minds" role="link" label="book a demo" target="_blank"><img loading="lazy" role="img" class="m-auto w-full lg:p-4" src="/assets/blog/Blog_CTA1.png" alt="book a demo"></a>
 
 <!-- <div style="text-align: center;">
     <img src="/assets/blog/Advertising-campaigns.jpeg" alt="Advertising campaigns" style="display: block; margin: 0 auto;">
@@ -102,7 +102,7 @@ There is no one-size-fits-all solution when it comes to ecommerce. Instead, busi
 Here is a screenshot of <a href="https://www.amazon.com/gp/new-releases/" target="_blank">Amazon</a> showcasing new products. 
 
 <div class="m-auto w-full lg:px-36">
-    <img src="/assets/blog/Amazon-ss.png" alt="Amazon ecommerce strategy">
+    <img role="img" loading="lazy" src="/assets/blog/Amazon-ss.png" alt="Amazon ecommerce strategy">
 </div>                                                                                            
 
 <li><h3>Change payment methods :</h3></li>Make it easier for customers to complete their transactions by offering different payment methods. Consider accepting digital payment methods like PayPal and Venmo, as well as traditional methods like credit and debit cards. Explore alternative payment options such as buy now, pay later options, and cryptocurrencies to meet different customer needs.
@@ -113,7 +113,7 @@ Here is a screenshot of <a href="https://www.amazon.com/gp/new-releases/" target
 Customers with gift cards usually spend 32% more than gift card value. Gift cards are a great way to increase your store’s sales as people love gifting. You too can set up a <a href="https://www.99minds.io/giftcard" target="_blank">gift card program</a> in your store with 99minds.
 
 
-<a href="https://www.99minds.io/giftcard" target="_blank"><img class="m-auto lg:w-3/5" src="/assets/blog/giftcard_1.png" alt="gift card"></a>
+<a href="https://www.99minds.io/giftcard" target="_blank"><img role="img" loading="lazy" class="m-auto lg:w-3/5" src="/assets/blog/giftcard_1.png" alt="gift card"></a>
 
 
 <li><h3>Create a sense of urgency :</h3></li>Increase conversions and encourage customers to take immediate action by incorporating urgency into your marketing efforts. Short-term discounts, limited product announcements, and persuasive copy that emphasizes the importance of acting quickly can encourage customers to buy faster.
@@ -122,7 +122,7 @@ Customers with gift cards usually spend 32% more than gift card value. Gift card
 Store credits help ecommerce businesses build recurring users and regain their users' trust. You can also set up a <a href="https://www.99minds.io/store-credit" target="_blank">store credit</a> program on your store. 
 The store credit functionality at <a href="http://www.99minds.io" target="_blank">99minds</a> makes credit administration easier for online firms. It's flexible, automated, and works smoothly with existing systems. It’s easy to use and even provides powerful analytics to make educated decisions. Overall, it simplifies processes and enhances the customer experience.
 
-<a href="https://www.99minds.io/storecredit" target="_blank"><img class="m-auto lg:w-3/5 py-6" src="/assets/storecredit/store-credit-banner.png" alt="Store credit at 99minds"></a>
+<a href="https://www.99minds.io/storecredit" target="_blank"><img role="img" loading="lazy" class="m-auto lg:w-3/5 py-6" src="/assets/storecredit/store-credit-banner.png" alt="Store credit at 99minds"></a>
 
 
 <li><h3>Email marketing:</h3></li> Use email marketing to build relationships with your clients and boost revenue. Develop email campaigns that focus on providing useful information, announcing promotions, and increasing leads. Use custom landing pages and automation tools to simplify your email marketing and increase engagement.
@@ -130,7 +130,7 @@ The store credit functionality at <a href="http://www.99minds.io" target="_blank
 <li><h3>Offer discounts and special offers :</h3></li> Increase your sales and customer loyalty by offering discounts and special offers on your products. Optimizing your website distribution strategy and marketing channels to attract attention and increase purchases. Consider implementing loyalty programs to reward returning customers and encourage future purchases.
 
 <div class="m-auto w-full lg:px-36">
-    <img src="/assets/blog/eCom-ss.png" alt="Ecommerce sale">
+    <img loading="lazy" src="/assets/blog/eCom-ss.png" alt="Ecommerce sale">
 </div>  
 
 <li><h3>Cross-sell :</h3></li> Cross-selling is another effective ecommerce strategy to increase the order value. Suggest additional products or premium upgrades to improve customer experience and drive more sales. You can improve customer interaction and increase sales by implementing these cross-selling techniques: 
@@ -165,7 +165,7 @@ The store credit functionality at <a href="http://www.99minds.io" target="_blank
 
 <li><h3>Loyalty program</h3></li>Increase customer loyalty and retention by implementing a <a href="https://www.99minds.io/loyalty" target="_blank">loyalty program</a> that rewards repeat purchases. Offer special prices, <a href="https://www.99minds.io/coupons" target="_blank">coupon cards</a>, and perks to encourage customers to return to your store. Communicate the benefits of your loyalty program and make it easy for your customers to participate and enjoy rewards.
 
-<a href="https://www.99minds.io/loyalty" target="_blank"><img class="m-auto lg:w-3/5 pt-4" src="/assets/loyalty/loyaltyReward.png" alt="Loyalty program at 99minds"></a>
+<a href="https://www.99minds.io/loyalty" target="_blank"><img loading="lazy" class="m-auto lg:w-3/5 pt-4" src="/assets/loyalty/loyaltyReward.png" alt="Loyalty program at 99minds"></a>
 
 <li><h3>Free or discounted shipping offer </h3></li>Address one of the most common reasons for bike abandonment by offering free or discounted shipping. You can increase conversions and improve the overall customer experience by reducing customers' shipping costs. Track the impact of your referrals and, if they are successful, consider making them a permanent part of your strategy.
 
@@ -178,7 +178,7 @@ The store credit functionality at <a href="http://www.99minds.io" target="_blank
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" src="/assets/blog/CTA-Referral1.png"></span>
+                <span class="relative text-white"><img loading="lazy" class="w-full m-0" src="/assets/blog/CTA-Referral1.png" alt="CTA image"></span>
                 </span></div>
               </span>
               <!-- Modal -->
