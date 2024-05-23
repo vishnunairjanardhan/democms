@@ -25,8 +25,7 @@ However the list is long, and in this blog we have listed the most hot b2b eComm
 In the following sections, we will explore stats related to B2B eCommerce and the top trends in b2b ecommerce. These trends are expected to shape the business landscape this year.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<h3><b>Table of Contents</b></h3>
-
+<h2>Table of Contents:</h2>
 <ul>
   <li>  
     <a href="#b2b-ecommerce-statistics" rel="noreferrer">B2B eCommerce Statistics</a>

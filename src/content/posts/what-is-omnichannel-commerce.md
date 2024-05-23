@@ -19,7 +19,7 @@ In today's digital world, eCommerce businesses are no longer limited to a single
 According to Harvard Business Review, <a href="https://hbr.org/2017/01/a-study-of-46000-shoppers-shows-that-omnichannel-retailing-works" target="_blank">73% of online shoppers use several channels</a> when shopping online. This is why businesses must offer a consistent, seamless customer experience across different touchpoints of a customer journey.</p>
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<h3><b>Table of Contents</b></h3>
+<h2>Table of Contents:</h2>
 <ul>
   <li>
       <a href="#what-is-an-omnichannel-commerce?" rel="noreferrer">What is an Omnichannel Commerce?</a>
