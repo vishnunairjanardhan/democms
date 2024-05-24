@@ -465,9 +465,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"customer-acquisition-tactics-you-might-be-missing-on.md": {
-	id: "customer-acquisition-tactics-you-might-be-missing-on.md";
-  slug: "customer-acquisition-tactics-you-might-be-missing-on";
+"customer-acquisition-strategy.md": {
+	id: "customer-acquisition-strategy.md";
+  slug: "customer-acquisition-strategy";
   body: string;
   collection: "posts";
   data: any
@@ -517,20 +517,6 @@ declare module 'astro:content' {
 "ecommerce-referral-marketing-strategies.md": {
 	id: "ecommerce-referral-marketing-strategies.md";
   slug: "ecommerce-referral-marketing-strategies";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"ecommerce-strategy-guide.md": {
-	id: "ecommerce-strategy-guide.md";
-  slug: "ecommerce-strategy-guide";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"ecommerce-strategy-guide.md": {
-	id: "ecommerce-strategy-guide.md";
-  slug: "ecommerce-strategy-guide";
   body: string;
   collection: "posts";
   data: any
@@ -850,6 +836,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"how-to-increase-ecommerce-sales-47-actionable-ways.md": {
+	id: "how-to-increase-ecommerce-sales-47-actionable-ways.md";
+  slug: "how-to-increase-ecommerce-sales-47-actionable-ways";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "how-to-kick-off-your-sales-on-fathers-day.md": {
 	id: "how-to-kick-off-your-sales-on-fathers-day.md";
   slug: "how-to-kick-off-your-sales-on-fathers-day";
@@ -1140,13 +1133,6 @@ declare module 'astro:content' {
 "the-role-of-technology-in-enhancing-ecommerce.md": {
 	id: "the-role-of-technology-in-enhancing-ecommerce.md";
   slug: "the-role-of-technology-in-enhancing-ecommerce";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022.md": {
-	id: "tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022.md";
-  slug: "tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022";
   body: string;
   collection: "posts";
   data: any

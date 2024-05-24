@@ -29,6 +29,59 @@ import { AstroSeo } from "@astrolib/seo";
   }}
 />
 
+<head>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.99minds.io/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.99minds.io/blog"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": {frontmatter.heading},
+        "item": {frontmatter.url}
+      }]
+    }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": {frontmatter.url}
+        },
+        "headline": frontmatter.heading,
+        "description": frontmatter.description,
+        "image": "https://www.99minds.io/"+ frontmatter.img,  
+        "author": {
+          "@type": "Organization",
+          "name":frontmatter.author,
+          "url": "https://www.99minds.io/assets/testimonial/"+ frontmatter.authorImg
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "99minds",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.99minds.io/assets/99minds-logo1.svg"
+          }
+        },
+        "datePublished": frontmatter.pubDate,
+        "dateModified": frontmatter.pubDate
+      }
+      </script>    
+    </head>
+
 <BaseLayout>
   <section class="relative overflow-x-hidden">
     <svg
@@ -74,7 +127,7 @@ import { AstroSeo } from "@astrolib/seo";
       <div class="max-w-6xl">
         <div class="text-white flex">
           <div class="border h-10 w-10 inline-flex items-center rounded-lg border-vulcan-800 group hover:border-white duration-300">
-            <a href="/" class="text-sm text-vulcan-300 duration-300 group-hover:text-white mx-auto">
+            <a href="/" class="text-sm text-vulcan-300 duration-300 group-hover:text-white mx-auto" role="link" aria-label="home">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-#-2 w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> 
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path>
             <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path> <path d="M10 12h4v4h-4z"></path>
@@ -88,12 +141,12 @@ import { AstroSeo } from "@astrolib/seo";
           <a class="text-indigo-400">{frontmatter.heading}</a>
           </div>
         </div>
-        <h1 class="text-4xl mt-4 font-normal tracking-tighter text-white">
+        <h1 class="text-4xl mt-4 font-medium tracking-tighter text-white">
           {frontmatter.heading}
         </h1>
         <!-- <p class="mt-2 text-base text-vulcan-300">{frontmatter.description}</p>  -->
         <section class="relative overflow-x-hidden">
-          <svg
+          <!--<svg
             class="absolute blur-3xl right-0 top-0 opacity-80"
             width="50%"
             height="100%"
@@ -130,7 +183,7 @@ import { AstroSeo } from "@astrolib/seo";
                   result="effect1_foregroundBlur_17_60"></feGaussianBlur>
               </filter>
             </defs>
-          </svg>
+          </svg>-->
           <div>
             <div class="mt-4 max-w-6xl">
             <div class="flex gap-4">
@@ -163,7 +216,7 @@ import { AstroSeo } from "@astrolib/seo";
                   frontmatter.tags.map((tag) => (
                     <a href={`/tags/${tag}`}>
                       {" "}
-                      <li class=" flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">
+                      <li role="listitem" class=" flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">
                         {tag}
                       </li>
                     </a>
@@ -177,11 +230,11 @@ import { AstroSeo } from "@astrolib/seo";
     </div>
   </section>
   <section class="relative">
-    <div class="max-w-7xl px-8 md:px-12 relative lg:px-32 mx-auto py-10 lg:pt-10">
+    <div class="max-w-5xl px-8 md:px-12 relative lg:px-32 mx-auto py-10 lg:pt-10">
       <div>
         <div>
-          <div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-indigo-500 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-vulcan-300 prose-code:text-white prose-blockquote:text-white/70">
-          <!--<div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-violet-400	 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-white/70 text-lg prose-code:text-white prose-blockquote:text-white/70">-->
+          <div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-indigo-400 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-[indigo-500] text-white/70 prose-code:text-white text-[18px] prose-blockquote:text-white/70">
+          <!--<div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-violet-400	 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white   prose-li:marker:text-indigo-500 text-vulcan-300 text-lg prose-code:text-white prose-blockquote:text-white/70">-->
             <slot />
           </div>
         </div>
