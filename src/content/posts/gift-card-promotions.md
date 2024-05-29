@@ -118,7 +118,7 @@ By using gift card sales to boost your cash reserves, you can better manage fluc
 <h2 class="m-0 mb-4" id="How-to-set-up-Gift-Card-Promotions">How to set up Gift Card Promotions</h2>
 
 Setting up gift card promotions can be an effective way to increase sales, attract new customers, and retain existing ones. Here’s a step-by-step guide to help you set up a successful gift card promotions:
-<ol>
+<ol role="list">
 <li><b>Define objectives:</b> Before launching your gift card promotions, it’s crucial to clearly define your objectives. This involves identifying the goals you want to achieve with the promotion, whether it's increasing sales, attracting new customers, or rewarding loyal ones. Understanding your target audience is also essential in crafting effective promotional strategies that resonate with them.</li>
 
 <li><b>Design gift cards:</b> Designing appealing and brand-representative gift cards is key to attracting customers' attention and encouraging them to purchase. Whether you choose physical or digital formats, ensure the design reflects your brand identity with elements like your logo, brand colors, and a visually appealing layout. Customizing the design to match the theme of the promotion or the upcoming holiday season can further enhance its appeal.</li>
@@ -132,7 +132,7 @@ Setting up gift card promotions can be an effective way to increase sales, attra
 <h2 id="Gift-Card-Promotion-Ideas-you-can-use">Gift Card Promotion Ideas you can use</h2>
 
 Gift cards have evolved into an essential element of modern retail and e-commerce. They don't just simplify the gifting process; they are also powerful tools for enhancing customer engagement and encouraging repeat business. Let's explore some innovative methods to maximize the potential of gift cards and strengthen your relationship with your customers.
-<ol>
+<ol role="list">
 <li>
 <h3>Loyalty Program Integration</h3>
 
@@ -183,7 +183,7 @@ You can promote them through email marketing, in-app messages, kiosks, and on th
 Your gift cards can be an incredible marketing asset. It works like magic, especially if you offer physical gift cards. How? By creating gift card designs that stand out. The gift cards should be personalized and create an impression at first glance.
 
 Here are a few ways you can create interesting designs:
-<ul>
+<ul role="list">
 <li>Add as many brand identity elements as possible. Choose colors that reflect what your brand stands for.</li>
 <li>Customizing gift cards for each season is a strategy you must implement, as it can help attract more customers during the holidays.</li>
 <li>Luxurious packaging is another way to pique customers' curiosity.</li>
@@ -212,7 +212,7 @@ Rewarding loyal customers with exclusive benefits fosters a sense of loyalty and
 Gift cards are an attractive proposition for customers. But it would help if you upped the ante by making it irresistible for them. You can sell more gift cards and increase customer engagement by giving them the right offers.
 
 Here are a few ways to make gift cards more special than it already is:
-<ul>
+<ul role="list">
 <li>When the gift card's value crosses a particular threshold, offer extra value to it. For example, if a customer purchases a gift card for $100, add $10 to the same card or a different one that the one who buys it gets.
 Offer gift cards on discounts to increase the usage of gift cards.</li>
 <li>Instead of discounts on products, offer the discount value as gift cards.</li>
@@ -225,7 +225,7 @@ Offer gift cards on discounts to increase the usage of gift cards.</li>
 <h3>Use Multiple Marketing Channels</h3> 
 
 Extend your marketing outreach over multiple channels to get the most visibility and interaction. Here's an overview of the various channels and strategies you can use.
-<ul>
+<ul role="list">
 <li><b>Social media:</b> Promote gift cards across social media platforms like Facebook, Instagram, and Snapchat. Use Facebook for updates, testimonials, and targeted ads. On Instagram, leverage stories, influencer partnerships, and the Instagram Shop. Snapchat is great for engaging snaps, targeted ads, and live Q&A sessions. Organize giveaways to boost engagement, collaborating with other brands for wider reach.</li>
 
 <li><b>Email marketing:</b> Send newsletters featuring gift card promotions and segment email lists for tailored messages. Personalize content to increase engagement, emphasizing gift card convenience and benefits. Use clear calls to action to encourage purchases and follow-up emails to remind customers of offers. Automation can help nurture leads into buyers with well-timed messages.</li>
