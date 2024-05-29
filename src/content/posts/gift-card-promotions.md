@@ -15,7 +15,7 @@ url: "https://www.99minds.io/blog/gift-card-promotions"
 
 Gift card promotions are a beacon of potential for businesses in the rapidly changing retail industry. They offer an excellent opportunity to boost revenue, enhance customer engagement, and create brand loyalty. 
 
-According to <a href="https://www.globenewswire.com/news-release/2020/07/29/2069204/0/en/United-States-Digital-Gift-Card-and-Incentive-Card-Market-to-2024-Impact-of-COVID-19-on-the-101-Billion-Projected-Industry.html" role="img" target="_blanck">Global Newswire</a>, the US gift card market grew at a phenomenal compound annual growth rate (CAGR) of 29.1% between 2015 and 2019.
+According to <a href="https://www.globenewswire.com/news-release/2020/07/29/2069204/0/en/United-States-Digital-Gift-Card-and-Incentive-Card-Market-to-2024-Impact-of-COVID-19-on-the-101-Billion-Projected-Industry.html" role="link" target="_blanck">Global Newswire</a>, the US gift card market grew at a phenomenal compound annual growth rate (CAGR) of 29.1% between 2015 and 2019.
 
 Gift cards offer convenience for both gift givers and recipients, allowing the giver to choose the perfect gift while ensuring the recipient gets what they really want. Businesses can use gift card promotions to demonstrate their commitment to satisfying customers and create additional revenue streams. This approach can help businesses succeed in a competitive market and elevate their company to new levels of success.
 
@@ -24,26 +24,26 @@ In this article, we’ll examine the benefits and techniques of gift card promot
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
 <h2>Table of Contents:</h2>
 <ul role="list">
-  <li role="listeditem">  
-    <a role="img" href="#What-is-a-Gift-Card?" role="link" rel="noreferrer">What is a Gift Card?</a>
+  <li>  
+    <a role="link" href="#What-is-a-Gift-Card?" rel="noreferrer">What is a Gift Card?</a>
   </li> 
   <li>  
-    <a role="img" href="#What-is-a-Gift-Card-Promotions?" role="link" rel="noreferrer">What is a Gift Card Promotions?</a>
+    <a role="link" href="#What-is-a-Gift-Card-Promotions?" rel="noreferrer">What is a Gift Card Promotions?</a>
   </li> 
   <li>
-    <a role="img" href="#Benefits-of-Gift-Card-Promotions" role="link" rel="noreferrer">Benefits of Gift Card Promotions</a>
+    <a role="link" href="#Benefits-of-Gift-Card-Promotions" rel="noreferrer">Benefits of Gift Card Promotions</a>
   </li> 
   <li>
-    <a role="img" href="#How-to-set-up-Gift-Card-Promotions" role="link" rel="noreferrer">How to set up Gift Card Promotions</a>
+    <a role="link" href="#How-to-set-up-Gift-Card-Promotions" rel="noreferrer">How to set up Gift Card Promotions</a>
   </li> 
   <li>
-    <a role="img" href="#Gift-Card-Promotion-Ideas-you-can-use" role="link" rel="noreferrer">Gift Card Promotion Ideas you can use</a>
+    <a role="link" href="#Gift-Card-Promotion-Ideas-you-can-use" rel="noreferrer">Gift Card Promotion Ideas you can use</a>
   </li> 
   <li>  
-    <a role="img" href="#Wrapping-up" role="link" ref="noreferrer">Wrapping up</a>
+    <a role="link" href="#Wrapping-up" ref="noreferrer">Wrapping up</a>
   </li>
   <li>  
-    <a role="img" href="#Frequently-Ask-Questions-(FAQs)" role="link" ref="noreferrer">Frequently Ask Questions (FAQs)</a>
+    <a role="link" role="link" href="#Frequently-Ask-Questions-(FAQs)" ref="noreferrer">Frequently Ask Questions (FAQs)</a>
   </li>  
 </ul>
 </div>
@@ -128,8 +128,9 @@ Setting up gift card promotions can be an effective way to increase sales, attra
 <li><b>Set terms and conditions:</b> Clearly outlining the terms and conditions of the gift card campaign helps to manage customer expectations and avoid misunderstandings. Specify expiration dates, any usage restrictions (for example, not valid on sale items), and the redemption process. Providing transparency and clarity in these words can help to create a positive customer experience.</li>
 
 <li><b>Plan Promotion Timeline:</b> Planning the timeline of your promotion is essential for its success. Determine the launch date, duration of the promotion, and any key dates or events you want to align it with, such as holidays or special sales events. A well-thought-out timeline ensures that your promotion reaches the right audience at the right time, maximizing its impact and effectiveness.</li>
+</ol>
 
-<h2 id="Gift-Card-Promotion-Ideas-you-can-use">Gift Card Promotion Ideas you can use</h2>
+<h2 class="m-0 mb-4" id="Gift-Card-Promotion-Ideas-you-can-use">Gift Card Promotion Ideas you can use</h2>
 
 Gift cards have evolved into an essential element of modern retail and e-commerce. They don't just simplify the gifting process; they are also powerful tools for enhancing customer engagement and encouraging repeat business. Let's explore some innovative methods to maximize the potential of gift cards and strengthen your relationship with your customers.
 <ol role="list">
@@ -249,7 +250,7 @@ Another example is Starbucks' Bonus Load Promotion. Starbucks occasionally offer
 </div>
 </ol>
 
-<h2 id="Wrapping-up">Wrapping up</h2>
+<h2 class="m-0 mb-4" id="Wrapping-up">Wrapping up</h2>
 
 Gift cards are game-changers for retailers. eCommerce and brick-and-mortar retailers who get their gift card strategy right will see a lot of ROI. Give your audience a gift card with fantastic offers and a design experience that makes them proud and excited to have it for themselves or give it away as gifts to loved ones.
 If you are looking to arm your store with gift cards, the <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a> team would be thrilled to help you with us. Get in touch with us and we will help you through the process of setting up gift cards for your business. Embrace gift cards to increase consumer loyalty and, more significantly, improve your revenue line.
