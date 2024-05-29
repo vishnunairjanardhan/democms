@@ -584,6 +584,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"gift-card-promotions.md": {
+	id: "gift-card-promotions.md";
+  slug: "gift-card-promotions";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "gift-card-scams-and-what-you-need-to-know-about-them.md": {
 	id: "gift-card-scams-and-what-you-need-to-know-about-them.md";
   slug: "gift-card-scams-and-what-you-need-to-know-about-them";
