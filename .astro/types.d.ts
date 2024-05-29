@@ -241,13 +241,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"5-creative-ways-to-promote-gift-cards-and-increase-customer-engagement.md": {
-	id: "5-creative-ways-to-promote-gift-cards-and-increase-customer-engagement.md";
-  slug: "5-creative-ways-to-promote-gift-cards-and-increase-customer-engagement";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "5-employee-gift-ideas-for-thanksgiving.md": {
 	id: "5-employee-gift-ideas-for-thanksgiving.md";
   slug: "5-employee-gift-ideas-for-thanksgiving";
@@ -580,6 +573,13 @@ declare module 'astro:content' {
 "gift-card-marketing-trends.md": {
 	id: "gift-card-marketing-trends.md";
   slug: "gift-card-marketing-trends";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"gift-card-promotions.md": {
+	id: "gift-card-promotions.md";
+  slug: "gift-card-promotions";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

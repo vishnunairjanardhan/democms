@@ -6,82 +6,60 @@ title: "What is omnichannel commerce? Benefits & Best Practices"
 description: "Omnichannel Commerce is a multichannel approach to sales that provides a unified customer experience across online, mobile, social media, and in-store channels."
 heading: Guide to Omnichannel Commerce- Real-world Examples
 image:
-  url: "/assets/blog/guide-to-omnichannel-commerce-real-world-examples.jpg"
-  alt: "The word community with a heart."
+  url: "/assets/blog/Guide to Omnichannel Commerce- Real-world Examples.webp" 
+  alt: "Guide to Omnichannel Commerce Real-world Examples"
 tags: ["Omnichannel","Ecommerce"]
 url: "https://www.99minds.io/blog/what-is-omnichannel-commerce"
 
 ---
-<img src="/assets/blog/guide-to-omnichannel-commerce-real-world-examples.jpg" alt="Guide to Omnichannel Commerce- Real-world Examples">
+<img loading="lazy" role="img" src="/assets/blog/Guide to Omnichannel Commerce- Real-world Examples.webp" alt="Guide to Omnichannel Commerce: Real-world Examples">
 
 In today's digital world, eCommerce businesses are no longer limited to a single channel. Customers want to be able to shop across multiple channels, which include physical stores, websites, mobile apps, and social media platforms. This is where omnichannel Commerce comes in. 
 
-According to Harvard Business Review, <a href="https://hbr.org/2017/01/a-study-of-46000-shoppers-shows-that-omnichannel-retailing-works" target="_blank">73% of online shoppers use several channels</a> when shopping online. This is why businesses must offer a consistent, seamless customer experience across different touchpoints of a customer journey.</p>
+According to Harvard Business Review, <a href="https://hbr.org/2017/01/a-study-of-46000-shoppers-shows-that-omnichannel-retailing-works" role="link" target="_blank">73% of online shoppers use several channels</a> when shopping online. This is why businesses must offer a consistent, seamless customer experience across different touchpoints of a customer journey.</p>
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
 <h2>Table of Contents:</h2>
-<ul>
+<ul label="list">
   <li>
-      <a href="#what-is-an-omnichannel-commerce?" rel="noreferrer">What is an Omnichannel Commerce?</a>
+      <a role="link" href="#what-is-an-omnichannel-commerce?" rel="noreferrer">What is an Omnichannel Commerce?</a>
   </li>
   <li>
-      <a href="#what-is-the-difference-between-omnichannel-and-multichannel?" rel="noreferrer">What Is The Difference Between Omnichannel and Multichannel?</a>
+      <a role="link" href="#what-is-the-difference-between-omnichannel-and-multichannel?" rel="noreferrer">What Is The Difference Between Omnichannel and Multichannel?</a>
   </li>
   <li>
-      <a href="#benefits-of-omnichannel-commerce" rel="noreferrer">Benefits Of Omnichannel Commerce</a>
+      <a role="link" href="#benefits-of-omnichannel-commerce" rel="noreferrer">Benefits Of Omnichannel Commerce</a>
   </li>
   <li>
-      <a href="#successful-omnichannel-commerce-strategies" rel="noreferrer">Successful Omnichannel Commerce Strategies</a>
+      <a role="link" href="#successful-omnichannel-commerce-strategies" rel="noreferrer">Successful Omnichannel Commerce Strategies</a>
   </li>
   <li>
-      <a href="#omnichannel-commerce-challenges" rel="noreferrer">Omnichannel Commerce Challenges</a>
+      <a role="link" href="#omnichannel-commerce-challenges" rel="noreferrer">Omnichannel Commerce Challenges</a>
   </li>
   <li>
-      <a href="#omnichannel-commerce-solutions-include" rel="noreferrer">Omnichannel Commerce Solutions Include</a>
+      <a role="link" href="#omnichannel-commerce-solutions-include" rel="noreferrer">Omnichannel Commerce Solutions Include</a>
   </li>
   <li>
-      <a href="#business-examples-of-companies-providing-omnichannel-ecommerce" rel="noreferrer">Business Examples Of Companies Providing Omnichannel eCommerce</a>
+      <a role="link" href="#business-examples-of-companies-providing-omnichannel-ecommerce" rel="noreferrer">Business Examples Of Companies Providing Omnichannel eCommerce</a>
   </li>
   <li>
-      <a href="#future-of-omnichannel-commerce" rel="noreferrer">Future of Omnichannel Commerce</a>
+      <a role="link" href="#future-of-omnichannel-commerce" rel="noreferrer">Future of Omnichannel Commerce</a>
   </li>
   <li>
-      <a href="#wrapping-up" rel="noreferrer">Wrapping up</a>
+      <a role="link" href="#wrapping-up" rel="noreferrer">Wrapping up</a>
   </li>
 </ul>
 </div>
 
 <h2 id="what-is-an-omnichannel-commerce?">What is an omnichannel commerce?</h2>
 
-
- <img src="/assets/blog/What-is-Omnichannel-Commerce.jpg" alt="showcasing seamless shopping experience across multiple channels">
-
 Omnichannel Commerce is a sales strategy that utilizes multiple channels to deliver a unified customer experience across online, mobile, social media, and in-store channels. It addresses the need for businesses to offer a seamless shopping experience across multiple channels, regardless of where the customer is in the buyer funnel.
 
-<h2 id="what-is-the-difference-between-omnichannel-and-multichannel?">What Is The Difference Between Omnichannel and Multichannel?</h2>
+<h2 class="m-0 mb-4" id="what-is-the-difference-between-omnichannel-and-multichannel?">What Is The Difference Between Omnichannel and Multichannel?</h2>
 
 The significant distinction between omnichannel and multichannel is that the former provides a seamless experience across channels, while the latter offers a disconnected experience. In a multichannel approach, each channel operates independently, causing inconsistencies in the customer experience. For example, a customer may find a product on the website but can't purchase it in-store.
 
 On the other hand, an omnichannel approach integrates all channels and provides a consistent shopping experience. A customer can browse products on the website, add them to the cart on the mobile app, and purchase them in-store without any hassle.
-
-<h2 id="benefits-of-omnichannel-commerce">Benefits Of Omnichannel Commerce</h2>
-
-Many business owners question whether investing in omnichannel Commerce is worthwhile. Yes, absolutely! Here are a few reasons why:
-
-<ul>
-<li><b>Better customer experience:</b> According to CX, today <a href="https://www.cxtoday.com/contact-centre/delivering-an-excellent-omni-channel-experience/" target="_blank">9 out of 10 customers</a> want an omnichannel experience. With the number of customer touchpoints increasing, seamless integration on each of them becomes even more critical. Your consumer will feel like shopping with you is a breeze when you break down the walls between different channels.</li>
-
-<li><b>More sales and traffic:</b> Adopting an omnichannel sales strategy can be challenging, but it can significantly increase your sales and traffic. According to a study by Harvard Business Review done over 46000 shoppers, omnichannel customers spend 4% more in-store and 10% more online than single-channel customers. In addition, customers who use four or more channels to shop spend an average of 9% more in-store than those who use just one channel.</li>
-
-<li><b>Personalized experience:</b> In an omnichannel eCommerce strategy, your branding and messaging should be consistent across channels and reflect where the customers are in the buying cycle. By providing a personalized experience, you increase the chances of the customers completing the order.</li>
-
-<li><b>Understanding customer journey:</b> Omnichannel eCommerce allows your company to collect and collate customer data from several channels. When you have all of this data in a single place, you will understand the kind of customers who like what you offer. It will give you a sneak peek into their behavior and put you in a position where you can personalize their journey.</li>
-
-<li><b>Boost Customer Loyalty:</b> According to Think Impact, existing customers tend to spend about  <a href="https://www.thinkimpact.com/customer-retention-statistics/#:~:text=Current%20customers%20have%20been%20measured,business%20comes%20from%20retained%20customers." target="_blank">67% more than new customers</a>. Using omnichannel sales techniques allows for personalized shopping experiences, which can increase <a href="https://www.mckinsey.com/~/media/McKinsey/Industries/Retail/Our%20Insights/retail%20speaks%20seven%20imperatives%20for%20the%20industry/retail-speaks-full-report.pdf" target="_blank">revenue and customer retention by 10-15%</a>, as noted in McKinsey's Retail Speaks report. The report also indicates that customers are 5-10% more satisfied and engaged when their shopping experiences are personalized across all interactions. When customers are satisfied, they are more likely to remain loyal, leading to increased profitability for businesses.</li>
-</ul>
-
-<!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGE-03.jpg"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -90,11 +68,11 @@ Many business owners question whether investing in omnichannel Commerce is worth
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" src="/assets/blog/CTA-Loyalty1.jpg" alt="Get started now CTA image for omnichannel commerce"></span>
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral1.webp" alt="Get started CTA image for b2b ecoomerce trends"></span>
                 </span></div>
               </span>
               <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
                 <!-- Overlay -->
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
@@ -113,11 +91,27 @@ Many business owners question whether investing in omnichannel Commerce is worth
             </div>
           </div>
 
+<h2 class="m-0 mb-4" id="benefits-of-omnichannel-commerce">Benefits Of Omnichannel Commerce</h2>
+
+Many business owners question whether investing in omnichannel Commerce is worthwhile. Yes, absolutely! Here are a few reasons why:
+
+<ul role="list">
+<li><b>Better customer experience:</b> According to CX, today <a href="https://www.cxtoday.com/contact-centre/delivering-an-excellent-omni-channel-experience/" role="link" target="_blank">9 out of 10 customers</a> want an omnichannel experience. With the number of customer touchpoints increasing, seamless integration on each of them becomes even more critical. Your consumer will feel like shopping with you is a breeze when you break down the walls between different channels.</li>
+
+<li><b>More sales and traffic:</b> Adopting an omnichannel sales strategy can be challenging, but it can significantly increase your sales and traffic. According to a study by Harvard Business Review done over 46000 shoppers, omnichannel customers spend 4% more in-store and 10% more online than single-channel customers. In addition, customers who use four or more channels to shop spend an average of 9% more in-store than those who use just one channel.</li>
+
+<li><b>Personalized experience:</b> In an omnichannel eCommerce strategy, your branding and messaging should be consistent across channels and reflect where the customers are in the buying cycle. By providing a personalized experience, you increase the chances of the customers completing the order.</li>
+
+<li><b>Understanding customer journey:</b> Omnichannel eCommerce allows your company to collect and collate customer data from several channels. When you have all of this data in a single place, you will understand the kind of customers who like what you offer. It will give you a sneak peek into their behavior and put you in a position where you can personalize their journey.</li>
+
+<li><b>Boost Customer Loyalty:</b> According to Think Impact, existing customers tend to spend about  <a href="https://www.thinkimpact.com/customer-retention-statistics/#:~:text=Current%20customers%20have%20been%20measured,business%20comes%20from%20retained%20customers." role="link" target="_blank">67% more than new customers</a>. Using omnichannel sales techniques allows for personalized shopping experiences, which can increase <a href="https://www.mckinsey.com/~/media/McKinsey/Industries/Retail/Our%20Insights/retail%20speaks%20seven%20imperatives%20for%20the%20industry/retail-speaks-full-report.pdf" role="link" target="_blank">revenue and customer retention by 10-15%</a>, as noted in McKinsey's Retail Speaks report. The report also indicates that customers are 5-10% more satisfied and engaged when their shopping experiences are personalized across all interactions. When customers are satisfied, they are more likely to remain loyal, leading to increased profitability for businesses.</li>
+</ul>
+
 <h2 class="m-0 mb-4" id="successful-omnichannel-commerce-strategies">Successful Omnichannel Commerce Strategies</h2>
 
 While developing a strong omnichannel commerce strategy requires a deep understanding of the brand, some tried-and-true methods can significantly increase the likelihood of success. These innovative actions include:
 
-<ul>
+<ul role="list">
 <li><b>Choosing the Right Channels:</b> Selecting the proper channels is essential for an effective omnichannel strategy. By using analytics, you can determine which channels are the most profitable, efficient, and effective in acquiring new customers and which channel needs additional effort or optimization to meet performance benchmarks. It is critical to monitor touchpoints that effectively accommodate the preferences and requirements of customers while simultaneously creating strategies to enhance touchpoints that are not performing as expected.</li>
 
 <li><b>Establishing Clear Channel Purposes:</b> To avoid confusion and provide a consistent experience, it's important to designate one channel for customer engagement while keeping other channels available for updates and information dissemination. This ensures that customers know where to go for personalized interactions and where to find general updates.</li>
@@ -129,11 +123,11 @@ While developing a strong omnichannel commerce strategy requires a deep understa
 <li><b>Maintaining the Channels:</b> It's crucial to continuously test and optimize your channels to ensure they are performing at their best. This involves conducting regular testing, analyzing qualitative and quantitative data, and making measured decisions about your most important channels. You can make informed decisions and provide a seamless and satisfying customer experience by monitoring and improving channel performance.</li>
 </ul>
 
-<h2 id="omnichannel-commerce-challenges">Omnichannel Commerce Challenges</h2>
+<h2 class="m-0 mb-4" id="omnichannel-commerce-challenges">Omnichannel Commerce Challenges</h2>
 
 Omnichannel Commerce, though incredibly beneficial, also has its own set of issues businesses must be aware of and prepared to address. Let's explore these challenges in more detail.
 
-<ul>
+<ul role="list">
 <li><b>Complex Data Management:</b> Omnichannel commerce generates a vast amount of data from various channels such as online stores, mobile apps, social media, and physical stores. Each channel produces its own set of data, including customer interactions, purchase history, and preferences. Collecting, integrating, and analyzing this data to gain valuable insights can be a complex task. It requires businesses to have robust data management systems and analytics capabilities in place to effectively utilize the data for decision-making and optimizing their omnichannel strategy.</li>
 
 <li><b>Maintaining Consistent Brand Experience:</b> Another challenge is keeping a consistent brand experience across all channels. Customers expect a cohesive brand identity, regardless of the channel they interact with. This contains consistent branding features, such as logos, colors, fonts, and messaging. Any discrepancies or inconsistencies in branding can confuse customers and undermine the overall omnichannel experience. Businesses should ensure that their brand is reflected consistently across all touchpoints to reinforce brand recognition and trust.</li>
@@ -145,13 +139,13 @@ Omnichannel Commerce, though incredibly beneficial, also has its own set of issu
 <li><b>Adapt to changing trends:</b> In the retail industry, businesses need to stay up-to-date with the industry trends. Omnichannel Commerce is an effective way for businesses to remain flexible and adaptable to customer preferences, whether they shop in-store, online, or through applications. Through this approach, companies may stay up to date with current trends and ensure customer satisfaction. Adopting an omnichannel strategy can help businesses maintain a competitive edge and retain loyal customers who keep coming back for more.</li>
 </ul>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-giftCard.jpg" alt="Book a Demo CTA image for omnichannel commerce"></a>
+<a href="https://calendly.com/99minds" role="link" label="Bok a Demo" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
-<h2 id="omnichannel-commerce-solutions-include">Omnichannel Commerce Solutions Include</h2>
+<h2 class="m-0 mb-4" id="omnichannel-commerce-solutions-include">Omnichannel Commerce Solutions Include</h2>
 
 Omnichannel commerce solutions encompass a diverse range of tools and platforms that empower businesses to deliver a seamless customer experience across multiple channels. These solutions include:
 
-<ul>
+<ul role="list">
 <li><b>E-commerce platforms:</b> E-commerce platforms serve as the backbone of online sales, enabling businesses to create and manage online stores, process payments, and fulfill orders. By integrating e-commerce platforms with other channels, companies can ensure consistent product information, pricing, and promotions across all touchpoints.</li>
 
 <li><b>Mobile apps:</b> Mobile apps extend the reach of businesses beyond the confines of physical stores and desktops. With the proliferation of smartphones, companies can tap into a vast mobile audience by developing user-friendly apps that offer seamless shopping experiences. Mobile apps can provide features such as product browsing,  order tracking, loyalty programs, and personalized notifications, enhancing customer engagement and loyalty.</li>
@@ -163,39 +157,51 @@ Omnichannel commerce solutions encompass a diverse range of tools and platforms 
 <li><b>Cloud-based software:</b> Cloud-based software solutions provide the infrastructure and tools to manage and integrate various aspects of omnichannel Commerce, such as inventory management, order fulfillment, customer relationship management (CRM), and data analytics. By leveraging cloud-based software, businesses can gain real-time visibility into their operations, optimize processes, and deliver a consistent customer experience across all channels.</li>
 </ul>
 
-<h2 id="business-examples-of-companies-providing-omnichannel-ecommerce">Business Examples Of Companies Providing Omnichannel eCommerce</h2>
+<h2 class="m-0 mb-4" id="business-examples-of-companies-providing-omnichannel-ecommerce">Business Examples Of Companies Providing Omnichannel eCommerce</h2>
 
 Let us look at some real-life examples of how e-commerce companies implement omnichannel strategies for their customers.
 
-<img class="w-3/4 m-4" src="/assets/blog/Walgreens-omnichannel-example.png" alt="walgreens providing omnichannel commerce">
+<div class="m-auto w-full lg:px-34">
+    <img loading="lazy" role="img" src="/assets/blog/Walgreens-omnichannel-example.webp" alt="walgreens providing omnichannel commerce">
+</div>
 
-<ul>
-<li><b><a href="https://www.walgreens.com/" target="_blank">Walgreens</a>:</b> The retail pharmaceutical giant has a mobile app. Customers can manage their pharmacy prescriptions, find deals, make orders, and pick them up at the nearest location.</li>
+<ul role="list">
+<li><b><a href="https://www.walgreens.com/" role="link" target="_blank">Walgreens</a>:</b> The retail pharmaceutical giant has a mobile app. Customers can manage their pharmacy prescriptions, find deals, make orders, and pick them up at the nearest location.</li>
 
-<img class="w-3/4 m-4" src="/assets/blog/Apple-omnichannel-example.png" alt="apple providing omnichannel commerce">
+<div class="m-auto w-full lg:px-34">
+<img loading="lazy" role="img" src="/assets/blog/Apple-omnichannel-example (1).webp" alt="apple providing omnichannel commerce">
+</div>
 
-<li><b><a href="https://www.apple.com/iphone/" target="_blank">Apple</a>:</b> Apple offers devices that seamlessly sync with each other using customers' iCloud accounts. Messages, photos, and connected devices display the same way no matter which Apple device the customer uses. When a customer sets up their new device and signs in using their iCloud account, all the relevant information is downloaded to the new device.</li>
+<li><b><a href="https://www.apple.com/iphone/" role="link" target="_blank">Apple</a>:</b> Apple offers devices that seamlessly sync with each other using customers' iCloud accounts. Messages, photos, and connected devices display the same way no matter which Apple device the customer uses. When a customer sets up their new device and signs in using their iCloud account, all the relevant information is downloaded to the new device.</li>
 
-<img class="w-3/4 m-4" src="/assets/blog/Starbuck-omnichannel-example.png" alt="starbucks providing omnichannel commerce">
+<div class="m-auto w-full lg:px-34">
+<img loading="lazy" role="img" src="/assets/blog/Starbuck-omnichannel-example.webp" alt="starbucks providing omnichannel commerce">
+</div>
 
-<li><b><a href="https://www.starbucks.com/" target="_blank">Starbucks</a>:</b> The coffee behemoth is also known for its omnichannel strategy. When a Starbucks customer pays with a Starbucks card, they will accumulate reward points. Their linked app allows coffee lovers to send gifts, find nearby stores, and order drinks in advance.</li>
+<li><b><a href="https://www.starbucks.com/" role="link" target="_blank">Starbucks</a>:</b> The coffee behemoth is also known for its omnichannel strategy. When a Starbucks customer pays with a Starbucks card, they will accumulate reward points. Their linked app allows coffee lovers to send gifts, find nearby stores, and order drinks in advance.</li>
 
-<img class="w-3/4 m-4" src="/assets/blog/Bestbuy-omnichannel-example.png" alt="bestbuys providing omnichannel commerce">
+<div class="m-auto w-full lg:px-34">
+<img loading="lazy" role="img" src="/assets/blog/Bestbuy-omnichannel-example (1).png" alt="bestbuys providing omnichannel commerce">
+</div>
 
-<li><b><a href="https://www.bestbuy.com/" target="_blank">Best Buy</a>:</b> The leading electronics retailer app provides an omnichannel experience. It is easy to navigate and has a nice flow. You can checkout with curbside pickup or add the products to the cart. The customer can locate the product at a different store and get it shipped to the designated MyStore.</li>
+<li><b><a href="https://www.bestbuy.com/" role="link" target="_blank">Best Buy</a>:</b> The leading electronics retailer app provides an omnichannel experience. It is easy to navigate and has a nice flow. You can checkout with curbside pickup or add the products to the cart. The customer can locate the product at a different store and get it shipped to the designated MyStore.</li>
 
-<img class="w-3/4 m-4" src="/assets/blog/Verizon-omnichannel-example.png" alt="verizon providing omnichannel commerce">
+<div class="m-auto w-full lg:px-34">
+<img loading="lazy" role="img" src="/assets/blog/Verizon-store.png" alt="verizon providing omnichannel commerce">
+</div>
 
-<li><b><a href="https://www.verizon.com/" target="_blank">Verizon</a>:</b>  You can manage and order existing and new devices in their mobile app, chat with support agents, make changes to your account, and get the best deals and offers available. When you open the app, you first see "Hi, (your name)," a classic example of good personalization.</li>
+<li><b><a href="https://www.verizon.com/" role="link" target="_blank">Verizon</a>:</b>  You can manage and order existing and new devices in their mobile app, chat with support agents, make changes to your account, and get the best deals and offers available. When you open the app, you first see "Hi, (your name)," a classic example of good personalization.</li>
 
-<img class="w-3/4 m-4" src="/assets/blog/Target-omnichannel-example.png" alt="target providing omnichannel commerce">
+<div class="m-auto w-full lg:px-34">
+<img loading="lazy" role="img" src="/assets/blog/Target-omnichannel-example (1).png" alt="target providing omnichannel commerce">
+</div>
 
 <li><b><a href="" target="_blank">Target</a></b>: They integrated with Pinterest Lens, which allows people to use their smartphones to take a picture of something they like and see if the Target app has a similar product available. It offers a seamless experience for customers who see something they want and can immediately check if it is available on Target.</li>
 </ul>
 
-<h2 id="future-of-omnichannel-commerce">Future of Omnichannel Commerce</h2>
+<h2 class="m-0 mb-4" id="future-of-omnichannel-commerce">Future of Omnichannel Commerce</h2>
 The future of omnichannel retail will be all about convenience, physical experiences, personalization, and efficiency. Here are some of our predictions about omnichannel Commerce's future:
-<ul>
+<ul role="list">
   <li>Since the number of options for consumers has increased, it will all be about offering convenience. How quickly will the product arrive? How easy is it to order products? How do the products appear on the website or at the physical store?</li>
   <li>Consumers will want blended experiences. Videos, screen shares, virtual reality viewing, and so on will be some of the expectations.</li>
   <li>They want product recommendations just for themselves.</li>
@@ -206,11 +212,11 @@ The future of omnichannel retail will be all about convenience, physical experie
 
 Omnichannel eCommerce’s future is not only about providing its customers with several channels to buy from, but it is also about ensuring that their experience is uniformly consistent everywhere.
 
-<h2 id="wrapping-up">Wrapping up</h2> 
+<h2 class="m-0 mb-4" id="wrapping-up">Wrapping up</h2> 
 
-Adapting to the latest <a href="https://www.99minds.io/blog/10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses/" target="_blank">eCommerce trends</a> is not easy. There are a gazillion things to be updated about. Today, eCommerce retailers across the world are trying to implement omnichannel eCommerce. It is well worth the effort and time invested in shifting to an omnichannel experience. Do you have the necessary wherewithal and expertise to offer an omnichannel experience for your customers? If not, you should find ways to add it to your tech stack.
+Adapting to the latest <a href="https://www.99minds.io/blog/b2b-ecommerce-trends" role="link" target="_blank">eCommerce trends</a> is not easy. There are a gazillion things to be updated about. Today, eCommerce retailers across the world are trying to implement omnichannel eCommerce. It is well worth the effort and time invested in shifting to an omnichannel experience. Do you have the necessary wherewithal and expertise to offer an omnichannel experience for your customers? If not, you should find ways to add it to your tech stack.
 
-Even though implementing an omnichannel experience for your customers is a must-do these days, it can be challenging to manage it alone. <a href="http://www.99minds.io/" target="_blank">99minds</a> is here to help you create an omnichannel experience for your customers with the help of its plug-and-play software that can create loyalty programs, gift cards, discounts, referrals, etc.
+Even though implementing an omnichannel experience for your customers is a must-do these days, it can be challenging to manage it alone. <a href="http://www.99minds.io/" role="link" target="_blank">99minds</a> is here to help you create an omnichannel experience for your customers with the help of its plug-and-play software that can create loyalty programs, gift cards, discounts, referrals, etc.
 
 
 
