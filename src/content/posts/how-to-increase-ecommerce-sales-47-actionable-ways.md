@@ -6,15 +6,15 @@ title: How to Increase eCommerce Sales - 47 actionable ways
 description: "Although opening an online store can be difficult, implementing the right ecommerce sales strategy can increase sales and help create a successful online business."
 heading: How to Increase eCommerce Sales - 47 actionable ways
 image:
-  url: "/assets/blog/increase-ecommerce-sales.png"
+  url: "/assets/blog/increase-ecommerce-sales.webp"
   alt: "How to increase ecommerce sales."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/how-to-increase-ecoomerce-sales-47-actionable-ways"
 
 ---
-<img src="/assets/blog/increase-ecommerce-sales.png"  alt=" How to increase e-commerce sales">
+<img rel="preload" loading="lazy" src="/assets/blog/increase-ecommerce-sales.webp"  alt=" How to increase e-commerce sales">
 
-Ecommerce is growing, and sales are expected to reach <a href="https://www.forbes.com/advisor/business/ecommerce-statistics/">$6. 3 trillion</a> in 2024. Companies want to know how to increase ecommerce sales. Ecommerce sales can be increased through various effective tactics, including paid traffic, social media, and email marketing. However, SEO remains an important factor in driving growth, traffic, and conversions. 
+Ecommerce is growing, and sales are expected to reach <a href="https://www.forbes.com/advisor/business/ecommerce-statistics/" role="link" target="_blank">$6. 3 trillion</a> in 2024. Companies want to know how to increase ecommerce sales. Ecommerce sales can be increased through various effective tactics, including paid traffic, social media, and email marketing. However, SEO remains an important factor in driving growth, traffic, and conversions. 
 
 Conducting thorough keyword research allows you to better understand what clients are looking for and improve your website accordingly. Whether you're new to e-commerce or an established store, using keyword research tools can help you improve your exposure and increase sales e-commerce while also supporting other marketing activities.
 Consumers are increasingly turning to e-commerce for their shopping needs due to the convenience of shopping from home, the variety of products to choose from, and the ability to compare prices and read reviews. As technology continues to evolve and more people gain access to the internet, e-commerce is expected to continue to grow, redefining the business landscape and offering endless possibilities to both businesses and consumers.
@@ -22,24 +22,24 @@ Businesses can take advantage of this shift in consumer behavior and use these e
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
 <h3><b>Table of Contents</b></h3>
-<ul> 
+<ul role="list"> 
   <li>
-    <a href="#Future-of-Ecommerce-Sales" rel="noreferrer">Future of Ecommerce Sales </a>
+    <a role="link" href="#Future-of-Ecommerce-Sales" rel="noreferrer">Future of Ecommerce Sales </a>
   </li>
   <li>
-    <a href="#What-is-Ecommerce-Sales" rel="noreferrer">What is Ecommerce Sales?</a>
+    <a role="link" href="#What-is-Ecommerce-Sales" rel="noreferrer">What is Ecommerce Sales?</a>
   </li>
   <li>
-    <a href="#Importance-of-Increasing-Ecommerce-Sales" rel="noreferrer">Importance of Increasing Ecommerce Sales</a>
+    <a role="link" href="#Importance-of-Increasing-Ecommerce-Sales" rel="noreferrer">Importance of Increasing Ecommerce Sales</a>
   </li>
   <li>
-    <a href="#How-to-Increase-Ecommerce-Sales-47-Actionable-Ways" rel="noreferrer">How to Increase Ecommerce Sales: 47 Actionable Ways</a>
+    <a role="link" href="#How-to-Increase-Ecommerce-Sales-47-Actionable-Ways" rel="noreferrer">How to Increase Ecommerce Sales: 47 Actionable Ways</a>
   </li>
   <li>
-    <a href="#Conclusion" rel="noreferrer">Conclusion</a>
+    <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
   </li>
   <li>
-    <a href="#Frequently-Ask-Questions-(FAQs)" ref="noreferrer">Frequently Ask Questions (FAQs)</a>
+    <a role="link" href="#Frequently-Ask-Questions-(FAQs)" ref="noreferrer">Frequently Ask Questions (FAQs)</a>
   </li>
 </ul>
 </div>
@@ -47,10 +47,10 @@ Businesses can take advantage of this shift in consumer behavior and use these e
 
 # Future of Ecommerce Sales
 
-eCommerce in itself is a big industry. The ecommerce industry is growing. As per <a href="https://www.statista.com/outlook/emo/ecommerce/worldwide?currency=usd#revenue">Statista</a>, Global ecommerce sales are expected to reach $7 trillion by 2025. What’s interesting to notice here is that the growth has been consistent for all types of ecommerce businesses ranging from fashion, beauty, and health to sales of furniture, electronics, toys and more. 
+eCommerce in itself is a big industry. The ecommerce industry is growing. As per <a href="https://www.statista.com/outlook/emo/ecommerce/worldwide?currency=usd#revenue" role="link" target="_blank">Statista</a>, Global ecommerce sales are expected to reach $7 trillion by 2025. What’s interesting to notice here is that the growth has been consistent for all types of ecommerce businesses ranging from fashion, beauty, and health to sales of furniture, electronics, toys and more. 
 
 <div class="flex justify-center">
-<img class="w-3/4 m-4" src="/assets/blog/Statics.jpg" alt="9Statics of ecommerce">
+<img loading="lazy" class="w-3/4 m-4" src="/assets/blog/Statics.jpg" alt="9Statics of ecommerce">
 </div>
 
 ##  What is Ecommerce Sales
@@ -61,7 +61,7 @@ E-commerce sales are the purchases and sales of goods or services made over the 
 ## Importance of Increasing Ecommerce Sales 
 In the competitive world of e-commerce, product promotion is very important. This isn't about making more money; It's about building a strong business, delighting customers, and staying ahead of the competition. Using effective marketing strategies is the key to long-term success and growth.
 
-<ul>
+<ul  role="list">
 <li><b>Global Reach:</b> E-commerce eliminates geographical constraints, allowing businesses to access a global market?</li>
 <li><b>Convenience:</b> Customers may shop at any time and from any location, making it more convenient.</li>
 <li><b>Lower overheads:</b> E-commerce eliminates the costs associated with physical storefronts, increasing profit margins.</li>
@@ -81,10 +81,10 @@ Brands offer gift cards to their customers for convenient purchases both in-stor
 First, when gift cards are sold, businesses make money right away. 
 Second, gift cards draw in recurring purchases. Furthermore, consumers frequently spend more than the amount on the gift card, raising the average order value. 
 
-<a href="https://calendly.com/99minds" target="_blank"><img class="m-auto w-full lg:p-4" src="/assets/blog/Blog_CTA1.png"></a>
+<a role="link" href="https://calendly.com/99minds"><img loading="lazy" class="m-auto w-full lg:p-4" src="/_assets/blog/Blog_CTA1.png" alt="Book a demo"></a>
 
 Finally, a satisfying gift card experience can inspire buyers to come back and buy more.. All things considered, gift cards are a straightforward and powerful strategy for increasing ecommerce sales and customer engagement. 
-You can opt for <a href="https://www.99minds.io/giftcard">gift card software</a> to create, assign, and manage gift cards for both your ecommerce and retail store. 
+You can opt for <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift card software</a> to create, assign, and manage gift cards for both your ecommerce and retail store. 
 
 ### <li>Develop a Marketing Strategy for Ecommerce Sales</li>
 It all starts with your product listing on your ecommerce store. Clear and visually engaging content is crucial for ecommerce sales. People are more likely to buy from you if you have clear and interesting product descriptions, engaging photos, and good reviews. How you list products in your store builds the first impression and encourages visitors to buy. However, there are more elements to your marketing strategy. Briefly sharing some here:
@@ -102,12 +102,12 @@ A/B testing, also called split testing, compares different versions of a website
 By measuring website elements like headlines, images, and colors, you can gather information to make better decisions and improve marketing efforts. You can test different CTAs, landing pages, email subject lines, and lines of action in your emails to find out which ones lead to higher conversion.
  
 ### <li>Know your Target Audience for Increasing Ecommerce Sales</li>
-To nail ecommerce sales, the first step is to understand your audience. As a business owner, your understanding of the people you are trying to sell can make or break your business. Research their demographics, interests, behaviors, and pain points to understand your target audience. For this, you can run surveys, track your website analytics, and even interview your users. You can also go for <a href="https://www.hallaminternet.com/google-analytics-demographic-data-age-gender-interests/">demographic data</a> with tools like Google analytics.
+To nail ecommerce sales, the first step is to understand your audience. As a business owner, your understanding of the people you are trying to sell can make or break your business. Research their demographics, interests, behaviors, and pain points to understand your target audience. For this, you can run surveys, track your website analytics, and even interview your users. You can also go for <a href="https://www.hallaminternet.com/google-analytics-demographic-data-age-gender-interests/" role="link" target="_blank">demographic data</a> with tools like Google analytics.
 
 Google Analytics provides insights into demographics, user behavior, purchasing channels, and conversions, allowing you to make informed decisions to tailor your website, content, and marketing strategies to better reach and engage your target audience. Google Analytics provides statistical information based on user behavior, including age, gender, location, and interests. 
 
 <div class="flex justify-center">
-<img class="w-3/4 m-4" src="/assets/blog/Demographics data.png" alt="Google analytics demographics details">
+<img loading="lazy"  class="w-3/4 m-4" src="/assets/blog/Demographics data.png" alt="Google analytics demographics details">
 </div>
 
 Let’s say you have If you own an online accessory store for women. And the accessories you sell are elegant, modern, safe material, and reasonable. For such a business your audience can be working women between the ages of 20 and 40, who style to look fashionable and sophisticated at the same time.
@@ -115,7 +115,7 @@ Let’s say you have If you own an online accessory store for women. And the acc
 ### <li>Market to All Stages of the Funnel to Increase Ecommerce Sales</li>
 A sales funnel is like a map that shows how a person progresses from the first time they hear about a product to purchasing it. Imagine a channel where people start at the top and go through various stages before buying at the bottom.
 
-<img src="/assets/blog/Funnel.jpg"  alt="sales funnel">
+<img loading="lazy" src="/assets/blog/Funnel.jpg"  alt="sales funnel">
 
 <ul>
 <li><b>Awareness:</b> At this point, prospective buyers become aware of your product or service. This awareness can be spread through a variety of means, including social media platforms, targeted advertising efforts, and word-of-mouth marketing. 
@@ -143,7 +143,7 @@ Encouraging repeat business is critical for building client loyalty and growing 
 <li>Store credits provide clients with a flexible and handy method to save money on future purchases, while also generating recurring business for your store.</li>
 </ul>
 
-<a href="https://www.99minds.io/store-credit">Store credit software</a> enables e-commerce enterprises to issue and manage store credits for customers. These credits can be utilized as virtual currency in the store, encouraging repeat purchases and increasing customer happiness. Businesses that offer store credits rather than refunds can maintain income in the store, increase average order values, and enhance customer loyalty. Store credit software can automate this process, making it simple to operate incentives and loyalty programs, resulting in higher sales and happy consumers.
+<a href="https://www.99minds.io/store-credit" role="link" target="_blank">Store credit software</a> enables e-commerce enterprises to issue and manage store credits for customers. These credits can be utilized as virtual currency in the store, encouraging repeat purchases and increasing customer happiness. Businesses that offer store credits rather than refunds can maintain income in the store, increase average order values, and enhance customer loyalty. Store credit software can automate this process, making it simple to operate incentives and loyalty programs, resulting in higher sales and happy consumers.
 
 ### <li>Set up Loyalty Programs</li>
 Loyalty programs software are an effective instrument for growing eCommerce sales by promoting repeat business and cultivating consumer loyalty. Customers are encouraged to buy more frequently and spend more money when they enroll in these programs to accrue points or prizes. 
@@ -152,8 +152,8 @@ Companies can reduce customer turnover and boost lifetime value by promoting ret
 
 Additionally, loyalty programs give companies access to priceless customer information, allowing for targeted marketing campaigns that speak to members' interests and purchasing habits. In general, loyalty programs encourage and compensate consumers, which boosts sales and promotes sustained expansion for online retailers.
 
-<a href="https://calendly.com/99minds" target="_blank"><img class="m-auto w-full lg:p-4" 
-src="/assets/blog/Blog_CTA1.png"></a>
+<a role="link" href="https://calendly.com/99minds" target="_blank"><img loading="lazy" class="m-auto w-full lg:p-4" 
+src="/assets/blog/Blog_CTA1.png" alt= "Book a demo"></a>
 
 ### <li>Personalize Your Marketing Messages</li>
 Customizing your marketing message means tailoring your marketing communications to individual customers’ preferences, behaviors, demographics, and previous interactions with your brand. Personalized marketing involves delivering targeted content and ideas that will resonate with each customer on a personal level, rather than sending a generic message to a broad audience. You can send personalized offers to your customers based on their previous purchases.
@@ -173,17 +173,17 @@ Providing excellent customer service means doing everything you can to meet your
 ### <li>Showcase Your Top-Selling Items to Drive Ecommerce Sales</li>
 
 <div class="flex justify-center">
-<img class="w-3/4 m-4" src="/assets/blog/Amazon showcasing top selling product.png" alt="Amazon showcasing top selling product">
+<img loading="lazy" class="w-3/4 m-4" src="/assets/blog/Amazon showcasing top selling product.png" alt="Amazon showcasing top selling product">
 </div>
 
- By highlighting your best-selling products you can grab your customer’s attention and encourage them to purchase. Products in the bestsellers category already come with proof of high demand and trust. Leading ecommerce companies like <a href="https://www.amazon.in/gp/bestsellers">Amazon</a> also showcase their highest-selling items. 
+ By highlighting your best-selling products you can grab your customer’s attention and encourage them to purchase. Products in the bestsellers category already come with proof of high demand and trust. Leading ecommerce companies like <a href="https://www.amazon.in/gp/bestsellers" role="link" target="_blank">Amazon</a> also showcase their highest-selling items. 
 
  ### <li>Showcase Popular Items Using Videos</li>
 Using videos to showcase popular products gives customers a more engaging and enjoyable shopping experience. You can create product videos or customer testimonials to showcase your product's benefits. 
-<a href="https://www.amazon.in/Samsung-Galaxy-Smartphone-Titanium-Storage/dp/B0CS5Y7H6T/ref=sr_1_1?crid=2DND9DMUKEJ2Z&dib=eyJ2IjoiMSJ9.jMn3WviE2kR_fsDJ-_9zES7Rv_uTEAnKusslObxekqQzz-6qnY7xkAWvLwHspHaYtt8MVOwNQ0p2wcRpsTAKXs9r4m7YIT8rnq-Ts9j7O9q4L63c4nK_meQxhnGDo_yW2FuMoW8M_8zpf9D9aCwrw9RanqR6GhGpbWVrbwGQSL2KCXh4ZLatLbqGYNPdOmWM8Pj5Qk9WEKaAB7uP3tXWClAW3VXia4RSTen2fvw3kxE.2Fezq2GOkuS3T5LzhnpyTU1WBl9MnX2p4MTF7EnZ_Fs&dib_tag=se&keywords=samsung%2Bgalaxy%2Bs24%2Bultra%2B%2B&qid=1714114128&sprefix=samsung%2Bgalaxy%2Bs24%2Bultra%2B%2Caps%2C227&sr=8-1&th=1">Amazon showcases</a>  Samsung Galaxy S24 ultra 5G AI smartphone through video.  
+<a href="https://www.amazon.in/Samsung-Galaxy-Smartphone-Titanium-Storage/dp/B0CS5Y7H6T/ref=sr_1_1?crid=2DND9DMUKEJ2Z&dib=eyJ2IjoiMSJ9.jMn3WviE2kR_fsDJ-_9zES7Rv_uTEAnKusslObxekqQzz-6qnY7xkAWvLwHspHaYtt8MVOwNQ0p2wcRpsTAKXs9r4m7YIT8rnq-Ts9j7O9q4L63c4nK_meQxhnGDo_yW2FuMoW8M_8zpf9D9aCwrw9RanqR6GhGpbWVrbwGQSL2KCXh4ZLatLbqGYNPdOmWM8Pj5Qk9WEKaAB7uP3tXWClAW3VXia4RSTen2fvw3kxE.2Fezq2GOkuS3T5LzhnpyTU1WBl9MnX2p4MTF7EnZ_Fs&dib_tag=se&keywords=samsung%2Bgalaxy%2Bs24%2Bultra%2B%2B&qid=1714114128&sprefix=samsung%2Bgalaxy%2Bs24%2Bultra%2B%2Caps%2C227&sr=8-1&th=1" role="link" target="_blank">Amazon showcases</a>  Samsung Galaxy S24 ultra 5G AI smartphone through video.  
 
 <div class="flex justify-center">
-<img class="w-3/4 m-4" src="/assets/blog/Amazon showcase popular product.png" alt="Amazon showcase popular product">
+<img loading="lazy"  class="w-3/4 m-4" src="/assets/blog/Amazon showcase popular product.png" alt="Amazon showcase popular product">
 </div>
 
 ### <li>Add Instagram to Your Ecommerce Sales Strategy </li>
@@ -191,7 +191,7 @@ Incorporating Instagram into your marketing strategy helps you to take advantage
 
 Glossier is a well-known business that has successfully used organic reach on Instagram. Glossier has built a loyal following and generated excitement for its beauty products by providing user-generated video, behind-the-scenes glances, and authentic product images without relying significantly on paid advertising.
 
-<img src="/assets/blog/Screenshot of the glossier Instagram page.png"  alt="AScreenshot of the glossier Instagram page">
+<img loading="lazy" src="/assets/blog/Screenshot of the glossier Instagram page.png"  alt="AScreenshot of the glossier Instagram page">
 
 When using Instagram in your marketing strategy, focus on providing compelling organic content that resonates with your target audience. This might include attractive product images, interesting storytelling, and collaborations with influencers who share your brand values. By successfully utilizing Instagram's organic features, you may create genuine connections with your audience while also driving organic traffic to your website.
 
@@ -222,17 +222,17 @@ A clear call to action (CTA) can encourage visitors to subscribe to your newslet
 Gaining trust from your customers demands a reputable brand, positive evaluations, and testimonials on your website. This assures clients that they can rely on your brand and make purchases with confidence.
 To build trust, prominently show customer evaluations on product pages, as well as any prizes or certifications your organization has achieved. Additionally, after the product is delivered, send an automatic email to clients requesting a review. This not only demonstrates your appreciation for their input but also contributes to the collection of additional positive evaluations, which helps to develop trustworthiness.
 
-Here is a screenshot of a customer review of <a href="https://www.amazon.in/Apple-iPhone-Pro-Max-256/dp/B0CHWV2WYK/ref=pd_rhf_dp_s_pd_crcd_d_sccl_2_5/261-6325616-4071268?pd_rd_w=6F0rQ&content-id=amzn1.sym.785b16db-ca40-46a3-ae75-2b38bb48d1aa&pf_rd_p=785b16db-ca40-46a3-ae75-2b38bb48d1aa&pf_rd_r=QBTZ4F5X2X6SJJD44VD2&pd_rd_wg=oHxDi&pd_rd_r=e55fa284-14ae-4457-b9fd-8eb6068497d8&pd_rd_i=B0CHWV2WYK&th=1">Amazon</a>. 
+Here is a screenshot of a customer review of <a href="https://www.amazon.in/Apple-iPhone-Pro-Max-256/dp/B0CHWV2WYK/ref=pd_rhf_dp_s_pd_crcd_d_sccl_2_5/261-6325616-4071268?pd_rd_w=6F0rQ&content-id=amzn1.sym.785b16db-ca40-46a3-ae75-2b38bb48d1aa&pf_rd_p=785b16db-ca40-46a3-ae75-2b38bb48d1aa&pf_rd_r=QBTZ4F5X2X6SJJD44VD2&pd_rd_wg=oHxDi&pd_rd_r=e55fa284-14ae-4457-b9fd-8eb6068497d8&pd_rd_i=B0CHWV2WYK&th=1" role="link" target="_blank">Amazon</a>. 
 
 <div class="flex justify-center">
-<img class="w-3/4 m-4" src="/assets/blog/Customer review.png" alt="Amazon customer review page">
+<img loading="lazy" class="w-3/4 m-4" src="/assets/blog/Customer review.png" alt="Amazon customer review page">
 </div>
 
 ### <li>Give Coupons on Special Occasions</li>
 
-One of the best ways to increase online sales is to distribute <a href="https://www.99minds.io/coupons">coupons on holidays or special occasions</a>. When it comes to shopping, especially during certain periods, people love getting discounts. Customers are more likely to buy when they feel like they're receiving a good bargain thanks to coupons. Additionally, it keeps clients coming back for more and helps companies differentiate themselves from other businesses. In general, employing coupons during special events is a wise strategy to increase sales and profits from online purchases.
+One of the best ways to increase online sales is to distribute <a href="https://www.99minds.io/coupons" role="link" target="_blank">coupons on holidays or special occasions</a>. When it comes to shopping, especially during certain periods, people love getting discounts. Customers are more likely to buy when they feel like they're receiving a good bargain thanks to coupons. Additionally, it keeps clients coming back for more and helps companies differentiate themselves from other businesses. In general, employing coupons during special events is a wise strategy to increase sales and profits from online purchases.
 
-<img src="/assets/blog/Coupons-reward.png"  alt=" Coupons on special occasions ">
+<img loading="lazy" src="/assets/blog/Coupons-reward.png"  alt=" Coupons on special occasions ">
 
 ### <li>Highlight Product Use Cases</li>
 Product use cases are important because they show customers how your product can solve their problems or meet their needs. For example, if you sell phone chargers, you can show how they help during travel or emergencies.
@@ -248,9 +248,9 @@ By offering chat support on your website, your customers can quickly get help wi
 ### <li>Disable Account Registration Requirements at Checkout</li>
 Making it easier for customers to complete purchases via guest checkout can reduce friction and increase conversion. Forcing customers to create an account before paying can lead to cart abandonment. 
                                          
-Flipkart allows users to simply add items to their <a href="https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART">cart and check out</a> without having to form an account. This simplifies the checkout procedure, making purchases quick and easy, especially for first-time customers or those who would rather not have an account.
+Flipkart allows users to simply add items to their <a href="https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART" role="link" target="_blank">cart and check out</a> without having to form an account. This simplifies the checkout procedure, making purchases quick and easy, especially for first-time customers or those who would rather not have an account.
 
-<img src="/assets/blog/Flipkart checkout.png"  alt="  Flipkart checkout page ">
+<img loading="lazy" src="/assets/blog/Flipkart checkout.png"  alt="  Flipkart checkout page ">
 
 ### <li>Offer On-Demand Delivery</li>
 Offering fast and convenient delivery options, such as same-day or next-day delivery, can help meet the needs of customers who want their products quickly. This can improve customer experience and encourage repeat purchases.
@@ -271,9 +271,9 @@ Instagram ads excel in promoting e-commerce purchases due to the platform's visu
 ### <li>Provide Multiple Payment Options</li>
 By offering multiple payment options to customers, they can easily complete their shopping with their preferred payment channel. You can include these as payment options on your store - credit/debit cards, digital wallets like PayPal or Apple Pay, bank transfers, and buy now pay later (BNPL) options like Klarna or Afterpay. 
 
-Flipkart offers a <a href="https://www.flipkart.com/">variety of payment options</a> to make buying easy for its customers. It accommodates a range of preferences by offering options including credit/debit cards, net banking, and cash on delivery, which facilitates the completion of transactions and increases client confidence.
+Flipkart offers a <a href="https://www.flipkart.com/" role="link" target="_blank">variety of payment options</a> to make buying easy for its customers. It accommodates a range of preferences by offering options including credit/debit cards, net banking, and cash on delivery, which facilitates the completion of transactions and increases client confidence.
 
-<img src="/assets/blog/Flipkart payment options.png"  alt=" Flipkart payment options">
+<img loading="lazy" src="/assets/blog/Flipkart payment options.png"  alt=" Flipkart payment options">
 
 ### <li>Sell to International Markets</li>
 Expanding your e-commerce business into international markets means selling your products or services to customers in other countries outside of your market. However, when expanding internationally, it is important to consider factors such as cultural differences, language barriers, export logistics, and regulations. With proper planning and execution, selling to international markets can grow your e-commerce business faster.
@@ -283,10 +283,10 @@ You can also use platforms like Exchange or Amazon to sell your products worldwi
 ### <li>Add a Post-Purchase Survey to Your Website</li>
 Collecting customer feedback after a purchase can provide valuable feedback about their satisfaction and areas for improvement. You can ask questions about shopping experiences, product satisfaction, and whether you would recommend your store to others. 
 
-Here is a <a href="https://www.sweepstakesbible.com/giveaways/wwwtellsubwaycom">subway survey form</a>, it helps to get honest reviews from our customers about services and products. Also, it will give you insights into areas of improvement.
+Here is a <a href="https://www.sweepstakesbible.com/giveaways/wwwtellsubwaycom" role="link" target="_blank">subway survey form</a>, it helps to get honest reviews from our customers about services and products. Also, it will give you insights into areas of improvement.
 
 <div class="flex justify-center">
-<img class="w-3/4 m-4" src="/assets/blog/Subway survey form.jpg" alt="Subway survey form">
+<img loading="lazy" class="w-3/4 m-4" src="/assets/blog/Subway survey form.jpg" alt="Subway survey form">
 </div>
 
 ### <li>Launch a Paid Ad Campaign </li>
@@ -300,11 +300,11 @@ With affiliate marketing, you work with people who have a large following and in
 You can contact influencers on sites like Instagram or YouTube and offer free shipping to their followers and promote your brand.
 
 ### <li>Launch Referral Programs</li>
-A <a href="https://www.99minds.io/referral">referral program</a> is a marketing approach in which businesses reward existing consumers for referring new clients to their products or services. Customers who successfully refer others are generally rewarded with discounts or credits.
+A <a href="https://www.99minds.io/referral" role="link" target="_blank">referral program</a> is a marketing approach in which businesses reward existing consumers for referring new clients to their products or services. Customers who successfully refer others are generally rewarded with discounts or credits.
 
 Referral programs are effective at increasing e-commerce sales because they leverage the power of word-of-mouth marketing. When satisfied customers promote a brand to their friends or family members, it fosters confidence and credibility, increasing the likelihood that the referred persons will make a purchase. 
 
-<img src="/assets/blog/referral-program.png"  alt=" Referral Program ">
+<img loading="lazy" src="/assets/blog/referral-program.png"  alt=" Referral Program ">
 
 Furthermore, referral programs can result in cost-effective customer acquisition, greater customer loyalty, and targeted outreach to new customers who are already interested in the items or services on offer. Overall, referral programs benefit both businesses and customers since they promote advocacy while driving sales development.
 
@@ -337,11 +337,11 @@ Personalized emails improve engagement and foster closer relationships with read
 By implementing these various sorts of email marketing campaigns into your strategy, you can effectively communicate with your target audience, nurture leads, and increase sales for your e-commerce business. Each campaign type has a distinct function and can help your email marketing efforts succeed.
 
 ### <li>Use Coupons and Vouchers </li>
-<a href="https://www.99minds.io/coupons">Coupons and vouchers </a> are promotional tools used by e-commerce enterprises to provide discounts or special deals to clients. Coupons are usually codes that customers can input at checkout to gain a discount on their purchase, whereas vouchers are physical or digital certificates that entitle the holder to a certain offer or discount. These incentives have the potential to significantly increase e-commerce sales for a variety of reasons.
+<a href="https://www.99minds.io/coupons" role="link" target="_blank">Coupons and vouchers </a> are promotional tools used by e-commerce enterprises to provide discounts or special deals to clients. Coupons are usually codes that customers can input at checkout to gain a discount on their purchase, whereas vouchers are physical or digital certificates that entitle the holder to a certain offer or discount. These incentives have the potential to significantly increase e-commerce sales for a variety of reasons.
 
 For starters, they generate a sense of urgency and push buyers to act quickly because the deal is only available for a limited time. Coupons and vouchers might also attract new clients who are looking to save money on their first purchase.
 
-<img src="/assets/blog/Coupon-Voucher.png"  alt=" Coupons ">
+<img loading="lazy" src="/assets/blog/Coupon-Voucher.png"  alt=" Coupons ">
 
 Furthermore, they can help retain existing clients by rewarding loyalty and encouraging repeat purchases. Overall, coupons and vouchers are effective strategies for increasing traffic, conversions, and, eventually, revenue for e-commerce enterprises.
 
@@ -420,7 +420,7 @@ A well-designed CTA, such as "Shop Now," "Buy One Get One Free," or "Limited Tim
 Ecommerce sales require smart strategies and adapting to market changes. By following the tips discussed here, you can strengthen your online presence, attract more customers, and increase sales. Understanding your target audience and optimizing user experience are important steps to success.
 By using technology, data, and a customer-centric approach, ecommerce companies can deliver a better shopping experience, build trust, and grow sustainably. 
 
-Incorporating technologies like <a href="https://www.99minds.io/">99minds</a>strengthens this strategy by providing solutions for developing <a href="https://www.99minds.io/loyalty">loyalty  programs</a>, <a href="https://www.99minds.io/giftcard">gift cards</a>, discounts, <a href="https://www.99minds.io/referral">referrals</a>, and more. Whether you're a small start-up or a major corporation, keeping innovative and responsive to client needs is the key to ecommerce success.
+Incorporating technologies like <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a>strengthens this strategy by providing solutions for developing <a href="https://www.99minds.io/loyalty" role="link" target="_blank">loyalty  programs</a>, <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift cards</a>, discounts, <a href="https://www.99minds.io/referral" role="link" target="_blank">referrals</a>, and more. Whether you're a small start-up or a major corporation, keeping innovative and responsive to client needs is the key to ecommerce success.
 
 <h2 id="Frequently-Ask-Questions-(FAQs)">Frequently Ask Questions (FAQs)</h2>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is ecommerce sales?</h3>
