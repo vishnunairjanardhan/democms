@@ -12,7 +12,7 @@ tags: ["Omnichannel","Ecommerce"]
 url: "https://www.99minds.io/blog/what-is-omnichannel-commerce"
 
 ---
-<img loading="lazy" role="img" src="/assets/blog/Guide to Omnichannel Commerce- Real-world Examples.webp" alt="Guide to Omnichannel Commerce: Real-world Examples">
+<img rel="preload" role="img" src="/assets/blog/Guide to Omnichannel Commerce- Real-world Examples.webp" alt="Guide to Omnichannel Commerce: Real-world Examples">
 
 In today's digital world, eCommerce businesses are no longer limited to a single channel. Customers want to be able to shop across multiple channels, which include physical stores, websites, mobile apps, and social media platforms. This is where omnichannel Commerce comes in. 
 

@@ -11,7 +11,7 @@ image:
 tags: ["Gift Card"] 
 url: "https://www.99minds.io/blog/gift-card-promotions"
 ---
-<img role="img" src="/assets/blog/Gift Card Promotions.webp" alt="Gift card promotions- Benefits and ideas to promote gift cards">
+<img rel="preload" role="img" src="/assets/blog/Gift Card Promotions.webp" alt="Gift card promotions- Benefits and ideas to promote gift cards">
 
 Gift card promotions are a beacon of potential for businesses in the rapidly changing retail industry. They offer an excellent opportunity to boost revenue, enhance customer engagement, and create brand loyalty. 
 

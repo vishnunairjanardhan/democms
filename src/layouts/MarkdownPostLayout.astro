@@ -141,7 +141,7 @@ import { AstroSeo } from "@astrolib/seo";
           <a class="text-indigo-400">{frontmatter.heading}</a>
           </div>
         </div>
-        <h1 class="text-4xl mt-4 font-normal tracking-tighter text-white">
+        <h1 rel="preload" class="text-4xl mt-4 font-normal tracking-tighter text-white">
           {frontmatter.heading}
         </h1>
         <!-- <p class="mt-2 text-base text-vulcan-300">{frontmatter.description}</p>  -->
@@ -188,11 +188,11 @@ import { AstroSeo } from "@astrolib/seo";
             <div class="mt-4 max-w-6xl">
             <div class="flex gap-4">
               <div>
-                <img src={`/assets/testimonial/${frontmatter.authorImg}`} alt="Author Image" class="w-auto h-12 rounded-full">
+                <img rel="preload" src={`/assets/testimonial/${frontmatter.authorImg}`} alt="Author Image" class="w-auto h-12 rounded-full">
               </div>
               <div class="w-full">
                 <div> 
-                  <p class="font-medium text-white text-sm">
+                  <p rel="preload" class="font-medium text-white text-sm">
                   {frontmatter.author}
                 </p>
                 
@@ -211,7 +211,7 @@ import { AstroSeo } from "@astrolib/seo";
                 </div>
               </div>
             </div>              
-              <ul class="flex flex-wrap gap-2 mt-12" role="list">
+              <ul rel="preload" class="flex flex-wrap gap-2 mt-12" role="list">
                 {
                   frontmatter.tags.map((tag) => (
                     <a href={`/tags/${tag}`}>

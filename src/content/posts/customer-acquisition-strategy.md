@@ -12,7 +12,7 @@ tags: ["Customer Acquisation"]
 url: "https://www.99minds.io/blog/customer-acquisition-strategy"
 
 ---
-<img loading="lazy" role="img" src="/assets/blog/Top 23 Effective Customer Acquisition Strategy You Might Be Missing On.webp" alt="Top 23 Effective Customer Acquisition Strategy">
+<img rel="preload" role="img" src="/assets/blog/Top 23 Effective Customer Acquisition Strategy You Might Be Missing On.webp" alt="Top 23 Effective Customer Acquisition Strategy">
 
 “For e-commerce startups, the most difficult thing is focus. It’s easy to focus on a niche for your products, but very difficult to focus on a ‘niche audience – says Brian Zeng, CMO of <a href="http://www.ownonly.com/" role="link" target="_blanck">OwnOnly</a>.”
 
