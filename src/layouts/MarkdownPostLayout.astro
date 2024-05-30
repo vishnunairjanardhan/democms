@@ -82,13 +82,13 @@ import { AstroSeo } from "@astrolib/seo";
            </a>
         </div>
           <div class="pt-2 flex">
-          <p class="font-bold px-2">></p>
+          <h3 class="font-bold px-2">></h3>
           <a href="/blog">Blog</a>
-          <p class="font-bold px-2">></p>
-          <a class="text-indigo-400">{frontmatter.heading}</a>
+          <h3 class="font-bold px-2">></h3>
+          <a class="text-[#FBEACA]">{frontmatter.heading}</a>
           </div>
         </div>
-        <h1 class="text-4xl mt-4 font-normal tracking-tighter text-white">
+        <h1 class="text-4xl mt-4 font-medium tracking-tighter text-white">
           {frontmatter.heading}
         </h1>
         <!-- <p class="mt-2 text-base text-vulcan-300">{frontmatter.description}</p>  -->
@@ -158,18 +158,15 @@ import { AstroSeo } from "@astrolib/seo";
                 </div>
               </div>
             </div>              
-              <ul class="flex flex-wrap gap-2 mt-12" role="list">
-                {
-                  frontmatter.tags.map((tag) => (
-                    <a href={`/tags/${tag}`}>
-                      {" "}
-                      <li role="listitem" class=" flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">
-                        {tag}
-                      </li>
-                    </a>
-                  ))
-                }
-              </ul>
+              <ul class="flex flex-wrap gap-2 mt-12">
+              {frontmatter.tags.map((tag) => (
+                <li key={tag} class="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">
+                  <a href={`/tags/${tag}`}>
+                    {tag}
+                  </a>
+                </li>
+              ))}
+            </ul>
             </div>
           </div>
         </section>
@@ -180,8 +177,8 @@ import { AstroSeo } from "@astrolib/seo";
     <div class="max-w-5xl px-8 md:px-12 relative lg:px-32 mx-auto py-10 lg:pt-10">
       <div>
         <div>
-          <div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-indigo-500 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-vulcan-300 prose-code:text-white text-[17px] prose-blockquote:text-white/70">
-          <!--<div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-violet-400	 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-white/70 text-lg prose-code:text-white prose-blockquote:text-white/70">-->
+          <div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-[#F7D691] hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-white text-white/70 prose-code:text-white text-[18px] prose-blockquote:text-white/70">
+          <!--<div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-violet-400	 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white   prose-li:marker:text-indigo-500 text-vulcan-300 text-lg prose-code:text-white prose-blockquote:text-white/70">-->
             <slot />
           </div>
         </div>

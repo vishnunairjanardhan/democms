@@ -17,10 +17,10 @@ keywords: ["99minds"]
 
 Over the years, ecommerce has continued to change and evolve. Many companies sell online to reach more customers and generate more sales. But the thing is, ecommerce success isn't just about moving things online. You need a solid ecommerce strategy for consistent growth and to stay ahead of your competitors. You need a solid ecommerce strategy for consistent growth and to stay ahead of your competitors.
 
-This article will discuss everything you need to create and carry out a successful ecommerce strategy plan. It’s got steps, tips, and examples to help you build a successful and profitable ecommerce store.</p>
+This article will discuss everything you need to create and carry out a successful ecommerce strategy plan. It’s got steps, tips, and examples to help you build a successful and profitable ecommerce store.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<h2>Table of contents</h2>
+<p>Table of contents</p>
 <ul role="list">
   <li>
       <a role="link" href="#What-is-Ecommerce-Strategy" rel="noreferrer">What is Ecommerce Strategy?</span>
@@ -70,26 +70,32 @@ Developing an effective ecommerce strategy is crucial for any business that want
 <li><h3>Understand your customers :</h3> </li>Get to know your internal and external target audience by conducting comprehensive research. Research demographics, interests, and purchasing behavior to understand what motivates your customers. Use tools like Google Analytics, customer research, and social media to listen for valuable information that will support your ecommerce strategy and help you better serve your customers.
 
 <a href="https://calendly.com/99minds" role="link" label="book a demo" target="_blank"><img loading="lazy" role="img" class="m-auto w-full lg:p-4" src="/assets/blog/Blog_CTA1.png" alt="book a demo"></a>
-
-<!-- <div style="text-align: center;">
-    <img src="/assets/blog/Advertising-campaigns.jpeg" alt="Advertising campaigns" style="display: block; margin: 0 auto;">
-</div> -->
- 
-<li><h3>Conduct competitor research :</h3></li>Take a close look at your competitors to understand their strengths, weaknesses, and market positions. Analyze websites, social media, and customer reviews to identify opportunities for differentiation and growth. By learning from your competitors, you can improve your ecommerce strategy and get ahead of the competition.
-
-<li><h3>Develop your unique selling proposition :</h3></li>Stand out in the ecommerce world by defining the Unique Selling Proposition (USP) that differentiates your company. Your USP should clearly state what makes your product or service unique and valuable to customers. Whether it's exceptional quality, unbeatable prices or excellent customer service, your USP should resonate with your target audience and increase customer loyalty.
-
-<!-- <div style="text-align: center;">
-    <img src="/assets/blog/seasonal-promotional-gift-card.jpeg" alt="seasonal promotional gift card" style="display: block; margin: 0 auto;">
-</div> -->
-
-<li><h3>Define your goals and objectives :</h3> </li>Before diving into your ecommerce strategy, take the time to define clear goals and objectives for your business. This may include increasing product visibility, increasing customer loyalty, or increasing sales. By knowing your goals in advance, you can adapt your strategies to achieve specific goals and ensure alignment with your team.
-
-<li><h3>Choose the best digital marketing tactics :</h3> </li>Use digital marketing strategies to promote your ecommerce business and attract customers. Explore strategies like search engine optimization (SEO) to increase your website's visibility, content marketing to connect your audience with the right content, and social media marketing to connect with customers and build brand awareness. Consider trying paid advertising to reach your target audience and generate traffic.</p>
-
-<li><h3>Identify tools and tech you’ll need :</h3> </li>Explore the tools and tech stack you’ll need to successfully execute your ecommerce strategy. These may include ecommerce platforms, consumer applications, and analytics tools. A team of professional developers can help you get a head start here. Evaluate your budget, resources, and capabilities to determine the best way to implement your strategy and achieve business results.
+<ol>
+    <li>
+        <h3>Understand your customers :</h3>
+        Get to know your internal and external target audience by conducting comprehensive research. Research demographics, interests, and purchasing behavior to understand what motivates your customers. Use tools like Google Analytics, customer research, and social media to listen for valuable information that will support your ecommerce strategy and help you better serve your customers.
+    </li>
+    <li>
+        <h3>Conduct competitor research :</h3>
+        Take a close look at your competitors to understand their strengths, weaknesses, and market positions. Analyze websites, social media, and customer reviews to identify opportunities for differentiation and growth. By learning from your competitors, you can improve your ecommerce strategy and get ahead of the competition.
+    </li>
+    <li>
+        <h3>Develop your unique selling proposition :</h3>
+        Stand out in the ecommerce world by defining the Unique Selling Proposition (USP) that differentiates your company. Your USP should clearly state what makes your product or service unique and valuable to customers. Whether it's exceptional quality, unbeatable prices, or excellent customer service, your USP should resonate with your target audience and increase customer loyalty.
+    </li>
+    <li>
+        <h3>Define your goals and objectives :</h3>
+        Before diving into your ecommerce strategy, take the time to define clear goals and objectives for your business. This may include increasing product visibility, increasing customer loyalty, or increasing sales. By knowing your goals in advance, you can adapt your strategies to achieve specific goals and ensure alignment with your team.
+    </li>
+    <li>
+        <h3>Choose the best digital marketing tactics :</h3>
+        Use digital marketing strategies to promote your ecommerce business and attract customers. Explore strategies like search engine optimization (SEO) to increase your website's visibility, content marketing to connect your audience with the right content, and social media marketing to connect with customers and build brand awareness. Consider trying paid advertising to reach your target audience and generate traffic.
+    </li>
+    <li>
+        <h3>Identify tools and tech you’ll need :</h3>
+        Explore the tools and tech stack you’ll need to successfully execute your ecommerce strategy. These may include ecommerce platforms, consumer applications, and analytics tools. A team of professional developers can help you get a head start here. Evaluate your budget, resources, and capabilities to determine the best way to implement your strategy and achieve business results.
+    </li>
 </ol>
-
 
 <h2 id="types-of-Ecommerce-Strategies">Types of Ecommerce Strategies </h2>
 
@@ -100,11 +106,12 @@ There is no one-size-fits-all solution when it comes to ecommerce. Instead, busi
 
 <li><h3>New product showcase :</h3></li> Keep your customers happy and excited about your offerings by connecting them with more newcomers to your website. Whether it's seasonal collections or the latest additions to your product list, showcasing new products can capture the attention of new and existing customers and encourage them to browse and purchase.
 
-Here is a screenshot of <a href="https://www.amazon.com/gp/new-releases/" target="_blank">Amazon</a> showcasing new products. 
+<p>Here is a screenshot of <a href="https://www.amazon.com/gp/new-releases/" target="_blank">Amazon</a> showcasing new products. </p>
 
-<div class="m-auto w-full lg:px-36">
-    <img role="img" loading="lazy" src="/assets/blog/Amazon-ss.png" alt="Amazon ecommerce strategy">
-</div>                                                                                            
+
+<img role="img" loading="lazy" src="/assets/blog/Amazon-ss.png" alt="Amazon ecommerce strategy">
+
+                                                                                           
 
 <li><h3>Change payment methods :</h3></li>Make it easier for customers to complete their transactions by offering different payment methods. Consider accepting digital payment methods like PayPal and Venmo, as well as traditional methods like credit and debit cards. Explore alternative payment options such as buy now, pay later options, and cryptocurrencies to meet different customer needs.
 
@@ -130,7 +137,7 @@ The store credit functionality at <a href="http://www.99minds.io" target="_blank
 
 <li><h3>Offer discounts and special offers :</h3></li> Increase your sales and customer loyalty by offering discounts and special offers on your products. Optimizing your website distribution strategy and marketing channels to attract attention and increase purchases. Consider implementing loyalty programs to reward returning customers and encourage future purchases.
 
-<div class="m-auto w-full lg:px-36">
+<div class="m-auto w-full lg:px-6">
     <img loading="lazy" src="/assets/blog/eCom-ss.png" alt="Ecommerce sale">
 </div>  
 
@@ -183,7 +190,7 @@ The store credit functionality at <a href="http://www.99minds.io" target="_blank
                 </span></div>
               </span>
               <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" label="modal" x-id="['modal-title']" :aria-labelledby="Get Started" class="fixed inset-0 z-50 w-screen overflow-y-visible">
                 <!-- Overlay -->
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
@@ -263,7 +270,7 @@ Additionally, you can send proactive messages to your visitors with modern live 
 In the ever-evolving world of ecommerce, having a well-defined strategy is critical to success. From defining your goals and understanding your target audience to implementing digital marketing strategies and optimizing your user experience, each step plays a key role in driving growth and increasing revenue. By following the comprehensive guidelines in this article, businesses can build a solid foundation for their ecommerce operations and stay ahead of their competitors in today's competitive market.
 
 
-<h2>FAQs</h2>
+<h2>Frequently Asked Questions (FAQs)</h2>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6" ><h3>What is an ecommerce strategy?</h3>
  Ecommerce strategy is a plan businesses use to sell stuff online. It includes how they market, sell, and serve customers on the Internet to make money.</div>
