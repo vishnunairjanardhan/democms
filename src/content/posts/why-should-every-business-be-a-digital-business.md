@@ -10,6 +10,7 @@ image:
   alt: "Every business be a digital business."
 tags: ["Loyalty"]
 url: "https://www.99minds.io/blog/why-should-every-business-be-a-digital-business"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Why-should-every-business-be-a-digital-business1.jpg">

@@ -10,6 +10,7 @@ image:
   alt: "Effective Customer Loyalty Program on Your Shopify Store."
 tags: ["Gift Card", "Shopify"]
 url: "https://www.99minds.io/blog/how-to-implement-an-effective-customer-loyalty-program-into-your-shopify-store"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Building-Customer-Loyalty-How-to-Implement-Effective-Loyalty-Programs-on-Your-Shopify-Store.jpg">

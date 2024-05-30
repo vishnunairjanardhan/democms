@@ -10,6 +10,7 @@ image:
   alt: "Personalized Customer Journey."
 tags: ["Customer Acquisation"]
 url: "https://www.99minds.io/blog/personalized-customer-journey"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Whats-a-personalized-customer-journey-and-why-do-you-need-to-offer-it-4.jpg">

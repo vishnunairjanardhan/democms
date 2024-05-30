@@ -10,6 +10,7 @@ image:
   alt: "E-commerce Strategies."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/internationalization-strategies-in-e-commerce"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Internationalization-Strategies-in-e-commerce.jpg">

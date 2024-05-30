@@ -10,6 +10,7 @@ image:
   alt: "Your business for holiday rush."
 tags: ["Marketing"]
 url: "https://www.99minds.io/blog/nows-the-time-to-prepare-your-business-for-the-holiday-rush"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Nows-the-time-to-prepare-your-business-for-the-holiday-rush.jpg">

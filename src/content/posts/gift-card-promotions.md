@@ -10,6 +10,8 @@ image:
   alt: "Gift card promotions- Benefits and ideas to promote gift cards"
 tags: ["Gift Card"] 
 url: "https://www.99minds.io/blog/gift-card-promotions"
+keywords: ["99minds"]
+
 ---
 <img rel="preload" role="img" src="/assets/blog/Gift Card Promotions.webp" alt="Gift card promotions- Benefits and ideas to promote gift cards">
 

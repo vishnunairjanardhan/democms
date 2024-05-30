@@ -10,6 +10,7 @@ image:
   alt: "How to attract retain gen Z customers."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-to-attract-and-retain-generation-z-customers"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/generic/how-to-attract-and-retain-generation-z-customers/">

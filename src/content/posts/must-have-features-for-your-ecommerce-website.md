@@ -10,6 +10,7 @@ image:
   alt: "Features for Your E-commerce Website."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/must-have-features-for-your-ecommerce-website"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Must-have-features-for-your-eCommerce-website.jpg">

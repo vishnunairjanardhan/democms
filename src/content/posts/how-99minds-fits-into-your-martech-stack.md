@@ -10,6 +10,7 @@ image:
   alt: "Martech Stack."
 tags: ["Loyalty Program","Omnichannel","Gift Card"]
 url: "https://www.99minds.io/blog/how-99minds-fits-into-your-martech-stack"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/How-99minds-fits-Into-Your-Martech-Stack.jpg">

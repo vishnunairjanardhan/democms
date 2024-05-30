@@ -10,6 +10,7 @@ image:
   alt: "Power og Gift Cards."
 tags: ["Gift Card", "Shopify"]
 url: "https://www.99minds.io/blog/unlocking-the-power-of-gift-cards-boosting-sales-and-customer-loyalty-on-your-shopify-store"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Unlocking-the-Power-of-gift-cards-1160x653.jpg">

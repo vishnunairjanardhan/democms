@@ -10,6 +10,7 @@ image:
   alt: "Loyalty Program."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-do-loyalty-programs-help-the-pet-industry"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/loyalty-program.jpg">

@@ -10,6 +10,7 @@ image:
   alt: "Live with gift card platform on bigcommerce."
 tags: ["BigCommerce",]
 url: "https://www.99minds.io/blog/we-are-live-with-giftcard-platform-on-bigcommerce"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/WhatsApp-Image-2020-10-19-at-3.19.18-PM-1.jpeg">

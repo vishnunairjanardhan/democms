@@ -10,6 +10,7 @@ image:
   alt: "Post Holidays with Gift Card Incentives."
 tags: ["Gift Card",]
 url: "https://www.99minds.io/blog/how-to-engage-customers-post-holidays-with-gift-card-incentives"
+keywords: ["99minds"]
 
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-16.png">

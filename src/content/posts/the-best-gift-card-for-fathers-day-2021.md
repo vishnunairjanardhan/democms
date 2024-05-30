@@ -10,6 +10,7 @@ image:
   alt: "Gift card for father's day."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/the-best-gift-card-for-fathers-day-2021"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/best-fathers-day-giftcard-2021.jpg">

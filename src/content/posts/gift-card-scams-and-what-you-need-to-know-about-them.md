@@ -10,6 +10,7 @@ image:
   alt: "Gift card scams and what  you need to know about them."
 tags: ["Gift Card",]
 url: "https://www.99minds.io/blog/gift-card-scams-and-what-you-need-to-know-about-them"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/gift-card-scams-and-what-you-need-to-know-about-them//" target="_blank">

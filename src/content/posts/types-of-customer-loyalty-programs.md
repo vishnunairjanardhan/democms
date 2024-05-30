@@ -10,6 +10,7 @@ image:
   alt: "8 ways to boost sales with goft cards this mothers day."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/types-of-customer-loyalty-programs"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/types-of-customer-loyalty-programs/">

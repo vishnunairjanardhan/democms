@@ -10,6 +10,7 @@ image:
   alt: "Mothers day promotin any small business can use."
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/mothers-day-promotions-any-small-business-can-use"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/mothers-day-promotions-any-small-business-can-use/">

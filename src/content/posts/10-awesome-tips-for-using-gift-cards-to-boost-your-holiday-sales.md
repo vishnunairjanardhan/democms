@@ -10,6 +10,7 @@ image:
   alt: "Boost your holiday sales with gift cards."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/10-awesome-tips-for-using-gift-cards-to-boost-your-holiday-sales"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/10-Awesome-Tips-for-Using-Gift-Cards-to-Boost-Your-Holiday-Sales.jpg">

@@ -10,6 +10,7 @@ image:
   alt: "Black Friday and Cyber Monday."
 tags: ["Ecommerce","Gift Card"]
 url: "https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/How-to-Get-Your-eCommerce-Store-Ready-for-Black-Friday-and-Cyber-Monday2.jpg">

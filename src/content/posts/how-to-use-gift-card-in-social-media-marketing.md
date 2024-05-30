@@ -10,6 +10,7 @@ image:
   alt: "How to use gift card in social media marketing."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-to-use-gift-card-in-social-media-marketing"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/how-to-use-gift-card-in-social-media-marketing/" target="_blank">
