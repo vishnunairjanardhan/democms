@@ -29,6 +29,59 @@ import { AstroSeo } from "@astrolib/seo";
   }}
 />
 
+<head>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.99minds.io/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.99minds.io/blog"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": {frontmatter.heading},
+        "item": {frontmatter.url}
+      }]
+    }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": {frontmatter.url}
+        },
+        "headline": frontmatter.heading,
+        "description": frontmatter.description,
+        "image": "https://www.99minds.io/"+ frontmatter.img,  
+        "author": {
+          "@type": "Organization",
+          "name":frontmatter.author,
+          "url": "https://www.99minds.io/assets/testimonial/"+ frontmatter.authorImg
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "99minds",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.99minds.io/assets/99minds-logo1.svg"
+          }
+        },
+        "datePublished": frontmatter.pubDate,
+        "dateModified": frontmatter.pubDate
+      }
+      </script>    
+    </head>
+
 <BaseLayout>
   <section class="relative overflow-x-hidden">
     <svg
@@ -88,7 +141,7 @@ import { AstroSeo } from "@astrolib/seo";
           <a class="text-indigo-400">{frontmatter.heading}</a>
           </div>
         </div>
-        <h1 class="text-4xl mt-4 font-normal tracking-tighter text-white">
+        <h1 rel="preload" class="text-4xl mt-4 font-normal tracking-tighter text-white">
           {frontmatter.heading}
         </h1>
         <!-- <p class="mt-2 text-base text-vulcan-300">{frontmatter.description}</p>  -->
@@ -135,11 +188,11 @@ import { AstroSeo } from "@astrolib/seo";
             <div class="mt-4 max-w-6xl">
             <div class="flex gap-4">
               <div>
-                <img src={`/assets/testimonial/${frontmatter.authorImg}`} alt="Author Image" class="w-auto h-12 rounded-full">
+                <img rel="preload" src={`/assets/testimonial/${frontmatter.authorImg}`} alt="Author Image" class="w-auto h-12 rounded-full">
               </div>
               <div class="w-full">
                 <div> 
-                  <p class="font-medium text-white text-sm">
+                  <p rel="preload" class="font-medium text-white text-sm">
                   {frontmatter.author}
                 </p>
                 
@@ -158,7 +211,7 @@ import { AstroSeo } from "@astrolib/seo";
                 </div>
               </div>
             </div>              
-              <ul class="flex flex-wrap gap-2 mt-12" role="list">
+              <ul rel="preload" class="flex flex-wrap gap-2 mt-12" role="list">
                 {
                   frontmatter.tags.map((tag) => (
                     <a href={`/tags/${tag}`}>
@@ -180,8 +233,8 @@ import { AstroSeo } from "@astrolib/seo";
     <div class="max-w-5xl px-8 md:px-12 relative lg:px-32 mx-auto py-10 lg:pt-10">
       <div>
         <div>
-          <div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-indigo-500 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-vulcan-300 prose-code:text-white text-[17px] prose-blockquote:text-white/70">
-          <!--<div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-violet-400	 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-white/70 text-lg prose-code:text-white prose-blockquote:text-white/70">-->
+          <div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-indigo-400 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-[indigo-500] text-white/70 prose-code:text-white text-[18px] prose-blockquote:text-white/70">
+          <!--<div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-violet-400	 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white   prose-li:marker:text-indigo-500 text-vulcan-300 text-lg prose-code:text-white prose-blockquote:text-white/70">-->
             <slot />
           </div>
         </div>

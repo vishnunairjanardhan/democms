@@ -465,9 +465,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"customer-acquisition-tactics-you-might-be-missing-on.md": {
-	id: "customer-acquisition-tactics-you-might-be-missing-on.md";
-  slug: "customer-acquisition-tactics-you-might-be-missing-on";
+"customer-acquisition-strategy.md": {
+	id: "customer-acquisition-strategy.md";
+  slug: "customer-acquisition-strategy";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -580,6 +580,13 @@ declare module 'astro:content' {
 "gift-card-marketing-trends.md": {
 	id: "gift-card-marketing-trends.md";
   slug: "gift-card-marketing-trends";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"gift-card-promotions.md": {
+	id: "gift-card-promotions.md";
+  slug: "gift-card-promotions";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
