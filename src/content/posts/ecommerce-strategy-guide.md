@@ -22,7 +22,8 @@ This article will discuss everything you need to create and carry out a successf
 <h2>Table of contents</h2>
 <ul role="list">
   <li>
-      <a role="link" href="#What-is-Ecommerce-Strategy" rel="noreferrer">What is Ecommerce Strategy?</span>
+      
+      role="link" href="#What-is-Ecommerce-Strategy" rel="noreferrer">What is Ecommerce Strategy?</span>
 </a>
   </li>
   <li>
