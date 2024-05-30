@@ -10,6 +10,7 @@ image:
   alt: "Shopify store."
 tags: ["Gift Card", Loyalty]
 url: "https://www.99minds.io/blog/the-roi-of-a-robust-loyalty-program-for-shopify-merchants"
+keywords: ["99minds"]
 
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-13.png">

@@ -10,6 +10,7 @@ image:
   alt: "Customer Retention And Acquisition Using AI."
 tags: ["Artificial Intelligence"]
 url: "https://www.99minds.io/blog/customer-retention-and-acquisition-using-ai"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Presentation-image1.jpg">

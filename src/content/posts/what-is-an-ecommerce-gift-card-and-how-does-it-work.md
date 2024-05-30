@@ -10,6 +10,7 @@ image:
   alt: "What is a ecommerce gift card and how does it work."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/what-is-an-ecommerce-gift-card-and-how-does-it-work"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/what-is-an-ecommerce-gift-card-and-how-does-it-work/" target="_blank">

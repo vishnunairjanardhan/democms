@@ -10,6 +10,7 @@ image:
   alt: "How to get mothers day gift cards your business to sell a lot."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-to-get-mothers-day-gift-cards-for-your-business-to-sell-a-lot"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/how-to-get-mothers-day-gift-cards-for-your-business-to-sell-a-lot/">

@@ -10,6 +10,7 @@ image:
   alt: "ecommerce goft cards crucial for growing retail business."
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-crucial-for-growing-retail-businesses/">

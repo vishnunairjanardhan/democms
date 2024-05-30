@@ -10,6 +10,7 @@ image:
   alt: "Celebrating women and their achievement."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/celebrating-women-and-their-achievements"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/generic/celebrating-women-and-their-achievements/" target="_blank">

@@ -10,6 +10,7 @@ image:
   alt: "Howdo i set an ecommerce referral program."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-do-i-set-up-an-ecommerce-referral-program"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/how-do-i-set-up-an-ecommerce-referral-program/">

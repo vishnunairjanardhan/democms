@@ -10,6 +10,7 @@ image:
   alt: "Future of e-commerce in 2021."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/the-future-of-ecommerce-in-2021"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/The-future-of-ecommerce-in-20212.jpg">

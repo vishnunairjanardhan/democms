@@ -10,6 +10,7 @@ image:
   alt: "Mothers day gift card design ideas that will wow your customers."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/mothers-day-gift-card-design-ideas-that-will-wow-your-customers"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/mothers-day-gift-card-design-ideas-that-will-wow-your-customers///" target="_blank">

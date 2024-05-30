@@ -10,6 +10,7 @@ image:
   alt: "AI for everyone."
 tags: ["Artificial Intelligence"]
 url: "https://www.99minds.io/blog/ai-for-everyone"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/AI-for-Everyone.jpg">

@@ -10,6 +10,7 @@ image:
   alt: "How to coupons work for businesses."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-do-coupons-work-for-businesses"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/generic/how-do-coupons-work-for-businesses/">

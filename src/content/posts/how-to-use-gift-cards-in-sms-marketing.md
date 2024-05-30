@@ -10,6 +10,7 @@ image:
   alt: "How to use gift card in SMS marketing."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-to-use-gift-cards-in-sms-marketing"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/how-to-use-gift-cards-in-sms-marketing/" target="_blank">

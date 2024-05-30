@@ -10,6 +10,7 @@ image:
   alt: "How do you build longer lasting brand loyalty."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-do-you-build-longer-lasting-brand-loyalty"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/how-do-you-build-longer-lasting-brand-loyalty/">

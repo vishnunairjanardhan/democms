@@ -9,6 +9,7 @@ image:
   url: "/assets/blog/5-must-have-features-for-a-successful-Shopify-store-gift-card-program-800x450.jpg"
   alt: "Gift Card Program."
 tags: ["Gift Card", "Shopify"]
+keywords: ["99minds"]
 url: "https://www.99minds.io/blog/5-must-have-features-for-a-successful-shopify-store-gift-card-program"
 
 ---

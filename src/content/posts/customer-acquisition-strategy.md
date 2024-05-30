@@ -10,6 +10,7 @@ image:
   alt: "Top 23 Effective Customer Acquisition Strategy"
 tags: ["Customer Acquisation"]
 url: "https://www.99minds.io/blog/customer-acquisition-strategy"
+keywords: ["99minds"]
 
 ---
 <img rel="preload" role="img" src="/assets/blog/Top 23 Effective Customer Acquisition Strategy You Might Be Missing On.webp" alt="Top 23 Effective Customer Acquisition Strategy">

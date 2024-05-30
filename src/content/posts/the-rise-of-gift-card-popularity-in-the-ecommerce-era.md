@@ -10,6 +10,7 @@ image:
   alt: "Gift Card Popularity in the E-commerce Era."
 tags: ["Gift Card","Ecommerce","Loyalty Program"]
 url: "https://www.99minds.io/blog/the-rise-of-gift-card-popularity-in-the-ecommerce-era"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-3.png">
