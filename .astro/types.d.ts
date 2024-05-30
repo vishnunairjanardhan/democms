@@ -241,13 +241,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"5-creative-ways-to-promote-gift-cards-and-increase-customer-engagement.md": {
-	id: "5-creative-ways-to-promote-gift-cards-and-increase-customer-engagement.md";
-  slug: "5-creative-ways-to-promote-gift-cards-and-increase-customer-engagement";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "5-employee-gift-ideas-for-thanksgiving.md": {
 	id: "5-employee-gift-ideas-for-thanksgiving.md";
   slug: "5-employee-gift-ideas-for-thanksgiving";
@@ -589,7 +582,7 @@ declare module 'astro:content' {
   slug: "gift-card-promotions";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "gift-card-scams-and-what-you-need-to-know-about-them.md": {
 	id: "gift-card-scams-and-what-you-need-to-know-about-them.md";
