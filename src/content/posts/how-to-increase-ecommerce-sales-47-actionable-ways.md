@@ -10,6 +10,7 @@ image:
   alt: "How to increase ecommerce sales."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/how-to-increase-ecoomerce-sales-47-actionable-ways"
+keywords: ["99minds"]
 
 ---
 <img rel="preload" loading="lazy" src="/assets/blog/increase-ecommerce-sales.webp"  alt=" How to increase e-commerce sales">
