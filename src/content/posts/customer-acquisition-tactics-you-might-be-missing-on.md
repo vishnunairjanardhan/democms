@@ -10,6 +10,7 @@ image:
   alt: "Customer acquisition tactics."
 tags: ["Customer Acquisation"]
 url: "https://www.99minds.io/blog/customer-acquisition-tactics-you-might-be-missing-on"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Customer-acquisition-tactics_v1.0-1.png">

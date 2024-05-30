@@ -10,6 +10,7 @@ image:
   alt: "Fathers day ecommerce facts you need to know."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/fathers-day-ecommerce-facts-you-need-to-know"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/fathers-day-ecommerce-facts-you-need-to-know/">

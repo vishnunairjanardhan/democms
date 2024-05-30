@@ -10,6 +10,7 @@ image:
   alt: "Best themes for bigcommerce."
 tags: ["BigCommerce"]
 url: "https://www.99minds.io/blog/top-18-best-free-bigcommerce-themes"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Top-18-best-free-bigcommerce-themes1-1.jpg">

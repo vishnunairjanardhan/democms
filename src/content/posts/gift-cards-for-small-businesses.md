@@ -10,6 +10,7 @@ image:
   alt: "Increase sales with gift cards."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-cards-for-small-businesses/"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Gift-Cards-for-Small-Businesses.jpg" alt="how can small businesses can increase sales with gift cards">

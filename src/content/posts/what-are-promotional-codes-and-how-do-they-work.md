@@ -10,6 +10,7 @@ image:
   alt: "Promotional Codes."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/what-are-promotional-codes-and-how-do-they-work"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/promo-code0-min-1160x653.jpg">

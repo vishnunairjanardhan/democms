@@ -10,6 +10,7 @@ image:
   alt: "Christmas promotion ideas."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/christmas-marketing-ideas-to-boost-your-sales-this-year"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/christmas-promotion-ideas-for-eCommerce-store.jpg">

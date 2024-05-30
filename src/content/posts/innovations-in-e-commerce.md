@@ -10,6 +10,7 @@ image:
   alt: "innovation in e-commerce."
 tags: ["Loyalty"]
 url: "https://www.99minds.io/blog/innovations-in-e-commerce"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/innovations-in-e-commerce//" target="_blank">

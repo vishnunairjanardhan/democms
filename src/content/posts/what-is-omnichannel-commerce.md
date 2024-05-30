@@ -10,6 +10,7 @@ image:
   alt: "The word community with a heart."
 tags: ["Omnichannel","Ecommerce"]
 url: "https://www.99minds.io/blog/what-is-omnichannel-commerce"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/guide-to-omnichannel-commerce-real-world-examples.jpg" alt="Guide to Omnichannel Commerce- Real-world Examples">

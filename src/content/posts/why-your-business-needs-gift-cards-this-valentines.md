@@ -10,6 +10,7 @@ image:
   alt: "Gift cards for valentine's."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/why-your-business-needs-gift-cards-this-valentines"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Why-your-business-needs-Gift-Cards-this-Valentines-1.jpg">

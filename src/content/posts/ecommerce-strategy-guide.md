@@ -10,6 +10,7 @@ image:
   alt: "Increase sales with gift cards."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/Ecommerce-Strategy-A-Complete-Guide/"
+keywords: ["99minds"]
 
 ---
 <img loading="lazy" src="/assets/blog/Ecommerce Strategy- A Complete Guide.jpg" alt="how can small businesses can increase sales with gift cards">
@@ -47,7 +48,7 @@ An ecommerce strategy is like a game plan for online sales. It helps companies f
 <h2 id="why-Ecommerce-Strategies-are-Important">Why Ecommerce Strategies are Important </h2>
 
 In this rapidly evolving world, having a clear ecommerce strategy is not only a good thing. It is essential to survive and grow in online business. Let's take a closer look at why an ecommerce strategy is so important in today's market.
-<ol>
+<ol role="list">
 <li><h3>Market expansion :</h3> </li>Strategies enable companies to reach people all over the world. Unlike traditional brick-and-mortar stores that are limited by geographical areas, an online presence provides a global reach, opening up new markets and growth opportunities.
 
 <li><h3>Stable long-term growth :</h3></li>This signifies that a company intends to grow smoothly throughout time, with no unexpected ups and downs. Rather than experiencing quick but unpredictable growth, stable long-term growth emphasizes consistent improvement and expansion. It's like constructing a sturdy house on a solid foundation, guaranteeing that expansion is sustainable and manageable.
@@ -65,7 +66,7 @@ In this rapidly evolving world, having a clear ecommerce strategy is not only a 
 
 Developing an effective ecommerce strategy is crucial for any business that wants to succeed in the competitive Internet market. Here's a step-by-step guide to help you develop a comprehensive ecommerce strategy that suits your business goals and target audience:
 
-<ol>
+<ol role="list">
 <li><h3>Understand your customers :</h3> </li>Get to know your internal and external target audience by conducting comprehensive research. Research demographics, interests, and purchasing behavior to understand what motivates your customers. Use tools like Google Analytics, customer research, and social media to listen for valuable information that will support your ecommerce strategy and help you better serve your customers.
 
 <a href="https://calendly.com/99minds" role="link" label="book a demo" target="_blank"><img loading="lazy" role="img" class="m-auto w-full lg:p-4" src="/assets/blog/Blog_CTA1.png" alt="book a demo"></a>
@@ -94,7 +95,7 @@ Developing an effective ecommerce strategy is crucial for any business that want
 
 
 There is no one-size-fits-all solution when it comes to ecommerce. Instead, businesses can choose from a variety of ecommerce platforms that fit their unique goals, demographics, and industry. Here are some types of ecommerce strategies:
-<ol>
+<ol role="list">
 <li><h3>Enable smart filters :</h3></li>In this fast-paced world, customers value convenience and functionality when shopping online. Consider applying advanced filters to your ecommerce site to improve their experience. Filters save time and effort by allowing customers to quickly refine their searches based on specific criteria, such as size, color, and design.
 
 <li><h3>New product showcase :</h3></li> Keep your customers happy and excited about your offerings by connecting them with more newcomers to your website. Whether it's seasonal collections or the latest additions to your product list, showcasing new products can capture the attention of new and existing customers and encourage them to browse and purchase.
@@ -113,7 +114,7 @@ Here is a screenshot of <a href="https://www.amazon.com/gp/new-releases/" target
 Customers with gift cards usually spend 32% more than gift card value. Gift cards are a great way to increase your store’s sales as people love gifting. You too can set up a <a href="https://www.99minds.io/giftcard" target="_blank">gift card program</a> in your store with 99minds.
 
 
-<a href="https://www.99minds.io/giftcard" target="_blank"><img role="img" loading="lazy" class="m-auto lg:w-3/5" src="/assets/blog/giftcard_1.png" alt="gift card"></a>
+<a role="link" href="https://www.99minds.io/giftcard" target="_blank"><img role="img" loading="lazy" class="m-auto lg:w-3/5" src="/assets/blog/giftcard_1.png" alt="gift card"></a>
 
 
 <li><h3>Create a sense of urgency :</h3></li>Increase conversions and encourage customers to take immediate action by incorporating urgency into your marketing efforts. Short-term discounts, limited product announcements, and persuasive copy that emphasizes the importance of acting quickly can encourage customers to buy faster.
@@ -122,7 +123,7 @@ Customers with gift cards usually spend 32% more than gift card value. Gift card
 Store credits help ecommerce businesses build recurring users and regain their users' trust. You can also set up a <a href="https://www.99minds.io/store-credit" target="_blank">store credit</a> program on your store. 
 The store credit functionality at <a href="http://www.99minds.io" target="_blank">99minds</a> makes credit administration easier for online firms. It's flexible, automated, and works smoothly with existing systems. It’s easy to use and even provides powerful analytics to make educated decisions. Overall, it simplifies processes and enhances the customer experience.
 
-<a href="https://www.99minds.io/storecredit" target="_blank"><img role="img" loading="lazy" class="m-auto lg:w-3/5 py-6" src="/assets/storecredit/store-credit-banner.png" alt="Store credit at 99minds"></a>
+<a role="link" href="https://www.99minds.io/storecredit" target="_blank"><img role="img" loading="lazy" class="m-auto lg:w-3/5 py-6" src="/assets/storecredit/store-credit-banner.png" alt="Store credit at 99minds"></a>
 
 
 <li><h3>Email marketing:</h3></li> Use email marketing to build relationships with your clients and boost revenue. Develop email campaigns that focus on providing useful information, announcing promotions, and increasing leads. Use custom landing pages and automation tools to simplify your email marketing and increase engagement.

@@ -10,6 +10,7 @@ image:
   alt: "Top 18 B2B eCommerce Trends in 2024"
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/b2b-ecommerce-trends"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Top-18-B2B-eCommerce-Trends-in-2024-to-Enhance-Your-Business.jpg" alt="Top 18 B2B eCommerce Trends in 2024">

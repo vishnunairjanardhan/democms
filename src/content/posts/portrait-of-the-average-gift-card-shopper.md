@@ -10,6 +10,7 @@ image:
   alt: "Portrait of the average gift card shopper."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/portrait-of-the-average-gift-card-shopper"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/portrait-of-the-average-gift-card-shopper/" target="_blank">

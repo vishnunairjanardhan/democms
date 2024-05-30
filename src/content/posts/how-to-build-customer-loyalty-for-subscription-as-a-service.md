@@ -10,6 +10,7 @@ image:
   alt: "Customer loyalty for subscription as a service."
 tags: ["Customer Loyalty"]
 url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-subscription-as-a-service"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/customer-loyalty-for-subsceiption-as-a-service.jpg">

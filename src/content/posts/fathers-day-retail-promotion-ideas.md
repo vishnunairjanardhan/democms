@@ -10,6 +10,7 @@ image:
   alt: "Fathers day retail promotion ideas."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/fathers-day-retail-promotion-ideas"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/generic/fathers-day-retail-promotion-ideas/">

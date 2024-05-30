@@ -10,6 +10,7 @@ image:
   alt: "Omnichannel Strategies."
 tags: ["Omnichannel"]
 url: "https://www.99minds.io/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce1.jpg">

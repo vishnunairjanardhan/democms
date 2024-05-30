@@ -10,6 +10,7 @@ image:
   alt: "Gift Card Marketing on Valentine."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Gift-Cards-Marketing-An-Absolute-Solution-To-Win-New-Customers-This-Valentine2.jpg-.jpg">
