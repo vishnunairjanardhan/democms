@@ -236,6 +236,10 @@ Example of a successful referral program:
 
 By using 99minds for your <a href="https://www.99minds.io/referral" role="link" target="_blanck">referral program software</a>, you can ensure that your efforts are not only more efficient but also more effective in attracting new customers and retaining existing ones. This strategic approach to referral marketing is an excellent way to build and sustain brand loyalty.
 
+<div class="m-auto w-full lg:px-34">
+<img loading="lazy" role="img" src="/assets/blog/Dropbox-space.png" alt="dropbox referral program">
+</div>
+
 <li>
 <h3>Utilize Brand Ambassadors</h3>
 
@@ -252,6 +256,10 @@ Brand ambassadors play a crucial role in enhancing brand loyalty by personifying
 Example of successful brand ambassador use:
 
 <b>Lululemon’s ambassador program:</b> <a href="https://shop.lululemon.com/" role="link" target="_blanck">Lululemon</a>, the athletic apparel company, utilizes local athletes and fitness professionals as brand ambassadors. These ambassadors hold classes and events that not only promote Lululemon products but also embody the company's lifestyle and values. This strategy has helped Lululemon maintain a strong community connection, enhancing brand loyalty among its customer base.
+
+<div class="m-auto w-full lg:px-34">
+<img loading="lazy" role="img" src="/assets/blog/Lululemon’s-ambassador-program.png" alt="lululemon’s ambassador progran">
+</div>
 
 <li>
 <h3>Exceptional Customer Service to Build Brand Loyalty</h3>
@@ -278,6 +286,10 @@ In today's competitive market, establishing strong brand loyalty is essential fo
 99minds enables businesses to design and implement custom loyalty programs that reward customers for their continued patronage. Businesses have seen an increase in <a href="https://www.99minds.io/loyalty" role="link" target="_blanck">repeat purchases and loyal customers</a> by using 99minds’ loyalty program.These programs are tailored to fit the specific needs of your business and your customers, ensuring that every interaction enhances their loyalty to your brand. Whether it’s through earning points for purchases, achieving different loyalty tiers, or redeeming rewards, 99minds makes it easy to keep your customers engaged and committed.
 </li>
 
+<div class="m-auto w-full lg:px-34">
+<img loading="lazy" role="img" src="/assets/blog/99minds-loyalty-program.png" alt="99minds loyalty program">
+</div>
+
 <li>
 <h3>Referral Programs to Expand Your Reach</h3>
 
@@ -290,6 +302,10 @@ Utilize 99minds to create referral programs that motivate your current customers
 Offering <a href="https://www.99minds.io/giftcard" role="link" target="_blanck">gift cards</a> and <a href="https://www.99minds.io/store-credit" role="link" target="_blanck">store credit</a> can significantly enhance customer satisfaction and retention. 99minds provides businesses with the tools to issue, manage, and track gift cards and store credits that customers can seamlessly use across various purchasing channels. This flexibility not only improves the shopping experience but also strengthens brand loyalty by providing convenient and flexible buying options.
 </li>
 
+<div class="m-auto w-full lg:px-34">
+<img loading="lazy" role="img" src="/assets/blog/99minds-gift-card.png" alt="99minds gift card">
+</div>
+
 <li>
 <h3>Omnichannel Integration</h3>
 
@@ -301,6 +317,7 @@ Offering <a href="https://www.99minds.io/giftcard" role="link" target="_blanck">
 
 With 99minds, you gain access to valuable analytics and insights about your loyalty programs and customer behaviors. These insights allow you to optimize your strategies and ensure that your efforts to build brand loyalty are as effective as possible.
 </li>
+</ol>
 
 <h2 id="How to Measure and Track Brand Loyalty?">How to Measure and Track Brand Loyalty</h2>
 
@@ -340,7 +357,17 @@ Regularly collecting and analyzing customer feedback can provide direct insights
 
 The churn rate, or the rate at which customers stop doing business with a brand, is a critical metric for measuring brand loyalty. A low churn rate indicates high customer retention, a direct result of successful brand loyalty-building efforts. Monitoring this rate can help you identify and address issues before they lead to increased customer turnover.
 </li>
+</ol>
 
 <h2 id="Wrapping-Up: Strengthening-Your-Brand-Loyalty">Wrapping Up: Strengthening Your Brand Loyalty</h2>
 
 In summary, fostering brand loyalty is essential for any business aiming for longevity and success. Tools like <a href="http://www.99minds.io" role="link" target="_blanck">99minds</a> can greatly enhance these efforts by streamlining the creation and management of loyalty and referral programs. We hope this guide inspires you to strengthen your strategies for brand loyalty, ensuring your brand remains a top choice for consumers.
+
+<h2 id="Frequently-Ask-Questions-(FAQs)">Frequently Ask Questions (FAQs)</h2>
+
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What does brand loyalty mean?</h3>
+Brand loyalty is when consumers consistently choose your brand over competitors, often due to satisfaction with your products or services, trust in your brand, and positive past experiences.</div>
+
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can companies cultivate brand loyalty?</h3>Companies can cultivate brand loyalty by consistently delivering high-quality products and services, providing outstanding customer service, engaging with customers through personalized marketing, and rewarding loyal customers through effective loyalty programs.</div>
+
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why is brand loyalty beneficial to a company?</h3>Brand loyalty is beneficial because it fosters repeat purchases, lowers the cost of sales by reducing the need for new customer acquisition, and enhances brand reputation through positive customer advocacy.</div>
