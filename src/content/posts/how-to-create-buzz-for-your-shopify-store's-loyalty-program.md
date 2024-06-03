@@ -10,6 +10,7 @@ image:
   alt: "Loyalty Program on Shopify."
 tags: ["Gift Card","Loyalty Program"]
 url: "https://www.99minds.io/blog/how-to-create-buzz-for-your-shopify-store's-loyalty-program"
+keywords: ["99minds"]
 
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-17-1160x653.png">

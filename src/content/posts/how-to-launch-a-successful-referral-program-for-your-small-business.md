@@ -10,6 +10,7 @@ image:
   alt: "How to launch a successful referral program for your small business."
 tags: ["Gift Cards"]
 url: "https://www.99minds.io/blog/how-to-launch-a-successful-referral-program-for-your-small-business"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/generic/how-to-launch-a-successful-referral-program-for-your-small-business/">

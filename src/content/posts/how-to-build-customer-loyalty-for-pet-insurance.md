@@ -10,6 +10,7 @@ image:
   alt: "Customer loyalty for pet insurance."
 tags: ["Loyalty","Loyalty Program"]
 url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-pet-insurance"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Loyalty-for-pet-insurance2-1.jpg">

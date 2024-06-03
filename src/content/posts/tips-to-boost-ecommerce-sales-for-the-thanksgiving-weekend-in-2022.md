@@ -10,6 +10,7 @@ image:
   alt: "Tips to Boost E-Commerce Sales."
 tags: ["Ecommerce","Gift Card"]
 url: "https://www.99minds.io/blog/tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Tips-To-Boost-eCommerce-Sales-for-The-Thanksgiving-Weekend1.jpg">

@@ -10,6 +10,7 @@ image:
   alt: "Moneyball-game changer."
 tags: ["Machine Learning"]
 url: "https://www.99minds.io/blog/moneyball-game-changer-for-everyone"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Moneyball-Game-Changer-for-Everyone.jpg">

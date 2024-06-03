@@ -10,6 +10,7 @@ image:
   alt: "10 Best merchant services for 2022."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/10-best-merchant-services-for-2022"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/generic/10-best-merchant-services-for-2022/">

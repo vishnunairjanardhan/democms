@@ -10,6 +10,7 @@ image:
   alt: "The efficiency and effectiveness of online shopping."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/the-efficiency-and-effectiveness-of-online-shopping"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/the-efficiency-and-effectiveness-of-online-shopping/" target="_blank">

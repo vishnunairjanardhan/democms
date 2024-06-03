@@ -10,6 +10,7 @@ image:
   alt: "Holiday shoppers take advantage of early thanksgiving deal."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/holiday-shoppers-take-advantage-of-early-thanksgiving-deals"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/generic/holiday-shoppers-take-advantage-of-early-thanksgiving-deals/">

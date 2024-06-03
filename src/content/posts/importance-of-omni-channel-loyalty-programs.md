@@ -10,6 +10,7 @@ image:
   alt: "Pmnichannel loyalty program."
 tags: ["Loyalty","Omnichannel"]
 url: "https://www.99minds.io/blog/importance-of-omni-channel-loyalty-programs"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Importance-of-Omnichannel-Loyalty-Program1.jpg">

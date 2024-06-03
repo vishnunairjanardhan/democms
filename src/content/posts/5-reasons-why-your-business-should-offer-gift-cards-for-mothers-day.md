@@ -9,6 +9,7 @@ image:
   url: "/assets/blog/5-Reasons-Why-Your-Business-Should-Offer-Gift-Cards-for-Mothers-Day1-800x450.jpg"
   alt: "5 Reasons why your bsiness should offer gift cards for mothers day."
 tags: ["Gift Card"]
+keywords: ["99minds"]
 url: "https://www.99minds.io/blog/5-reasons-why-your-business-should-offer-gift-cards-for-mothers-day"
 
 --- 

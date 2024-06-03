@@ -10,6 +10,7 @@ image:
   alt: "Ways coupons can help your business attract loyal customer."
 tags: ["Coupons",]
 url: "https://www.99minds.io/blog/ways-coupons-can-help-your-business-attract-loyal-customer"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/ways-coupons-can-help-your-business-attract-loyal-customer///" target="_blank">

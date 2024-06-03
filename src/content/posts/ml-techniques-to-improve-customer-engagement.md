@@ -10,6 +10,7 @@ image:
   alt: "ML Techniques to Improve Customer Engagement."
 tags: ["Machine Learning"]
 url: "https://www.99minds.io/blog/ml-techniques-to-improve-customer-engagement"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/what-the-heck.jpg">

@@ -10,6 +10,7 @@ image:
   alt: "Gift Card for Business."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Gift-Cards-Can-Help-Businesses-Overcome-Economic-Challenges1.png">

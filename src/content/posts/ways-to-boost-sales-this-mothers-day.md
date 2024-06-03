@@ -10,6 +10,7 @@ image:
   alt: "Ways to boost sales this mothers day."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/ways-to-boost-sales-this-mothers-day"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/generic/ways-to-boost-sales-this-mothers-day/">

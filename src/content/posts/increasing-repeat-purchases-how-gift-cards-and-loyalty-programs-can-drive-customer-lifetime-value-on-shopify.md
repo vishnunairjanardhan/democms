@@ -10,6 +10,7 @@ image:
   alt: "Customer Lifetime Value on Shopify."
 tags: ["Loyalty Program","Shopify"]
 url: "https://www.99minds.io/blog/increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Increasing-Repeat-Purchases-How-Gift-Cards-and-Loyalty-Programs-Can-Drive-Customer-Lifetime-Value-on-Shopify.jpg">

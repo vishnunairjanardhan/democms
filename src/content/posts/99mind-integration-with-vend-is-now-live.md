@@ -10,6 +10,7 @@ image:
   alt: "99minds integration with vend is now live."
 tags: ["Gift Card",]
 url: "https://www.99minds.io/blog/99mind-integration-with-vend-is-now-live"
+keywords: ["99minds"]
 
 --- 
 <img src="/assets/blog/vendXbigcommerce1.jpg">

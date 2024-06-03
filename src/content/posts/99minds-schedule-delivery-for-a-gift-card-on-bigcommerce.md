@@ -10,6 +10,7 @@ image:
   alt: "99minds integration with vend is now live."
 tags: ["Gift Card",]
 url: "https://www.99minds.io/blog/99minds-schedule-delivery-for-a-gift-card-on-bigcommerce"
+keywords: ["99minds"]
 
 --- 
 <img src="/assets/blog/product_update-schedule-deliver.jpeg">
