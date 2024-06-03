@@ -10,7 +10,7 @@ image:
   alt: "Guide to Omnichannel Commerce Real-world Examples"
 tags: ["Omnichannel","Ecommerce"]
 url: "https://www.99minds.io/blog/what-is-omnichannel-commerce"
-keywords: ["99minds"]
+keywords: ["Omnichannel Commerce","omnichannel in ecommerce","omnichannel e commerce","omni channel ecommerce","what is omni channel commerce","Benefits Of Omnichannel Commerce","omnichannel commerce solutions"]
 
 ---
 <img rel="preload" role="img" src="/assets/blog/Guide to Omnichannel Commerce- Real-world Examples.webp" alt="Guide to Omnichannel Commerce: Real-world Examples">
