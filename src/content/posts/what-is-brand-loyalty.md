@@ -6,13 +6,13 @@ title: How to build brand loyalty | 99minds
 description: "Brand loyalty helps brands build stronger customer relationships, increase customer retention, and drive growth. Learn ways to increase brand loyalty in 2024"
 heading: What is Brand Loyalty? Importance And 7 Ways To Build It
 image:
-  url: "/assets/blog/what-is-brand-loyalty.webp"
+  url: "/assets/blog/What is Brand Loyalty- Importance And 7 Ways To Build It.webp"
   alt: "What is brand loyalty"
-tags: ["Gift Card"] 
+tags: ["Loyalty Program"] 
 url: "https://www.99minds.io/blog/what-is-brand-loyalty"
 keywords: ["brand loyalty","how to build brand loyalt","ways to increase brand loyalty","how to create brand loyalty","build brand loyalty"]
 ---
-<img rel="preload" role="img" src="/assets/blog/what-is-brand-loyalty.webp" alt="What is brand loyalty">
+<img rel="preload" role="img" src="/assets/blog/What is Brand Loyalty- Importance And 7 Ways To Build It.webp" alt="What is brand loyalty">
 
 When you think about your preferred grocery store, phone service provider, or airline, it's likely you have a clear favorite. This preference isn't just about convenience; it's about a deeper connection. Customers often form a strong loyalty to brands that consistently deliver exceptional service, innovative designs, or outstanding products.
 
@@ -80,7 +80,7 @@ This distinction highlights that while customer loyalty can be encouraged throug
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral1.webp" alt="Get started CTA image for b2b ecoomerce trends"></span>
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral1.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
                 </span></div>
               </span>
               <!-- Modal -->
@@ -274,7 +274,7 @@ Exceptional customer service is critical in building and sustaining brand loyalt
 </ul>
 </ul>
 
-<a href="https://calendly.com/99minds" role="link" label="Bok a Demo" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <h2 class="m-0 mb-4" id="Build-Brand-Loyalty-with-99minds">Build Brand Loyalty with 99minds</h2>
 
