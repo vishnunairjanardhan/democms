@@ -22,8 +22,7 @@ This article will discuss everything you need to create and carry out a successf
 <h2>Table of contents</h2>
 <ul role="list">
   <li>
-      
-      role="link" href="#What-is-Ecommerce-Strategy" rel="noreferrer">What is Ecommerce Strategy?</span>
+      <a role="link" href="#What-is-Ecommerce-Strategy" rel="noreferrer">What is Ecommerce Strategy?</span>
 </a>
   </li>
   <li>
@@ -69,7 +68,7 @@ Developing an effective ecommerce strategy is crucial for any business that want
 <ol>
 <li><h3>Understand your customers :</h3> </li>Get to know your internal and external target audience by conducting comprehensive research. Research demographics, interests, and purchasing behavior to understand what motivates your customers. Use tools like Google Analytics, customer research, and social media to listen for valuable information that will support your ecommerce strategy and help you better serve your customers.
 
-<a href="https://calendly.com/99minds" role="link" label="book a demo"  target="_blank"><img loading="lazy" role="img" class="m-auto w-full lg:p-4" src="/assets/blog/Blog_CTA1.png" alt="book a demo"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <!-- <div style="text-align: center;">
     <img src="/assets/blog/Advertising-campaigns.jpeg" alt="Advertising campaigns" style="display: block; margin: 0 auto;">

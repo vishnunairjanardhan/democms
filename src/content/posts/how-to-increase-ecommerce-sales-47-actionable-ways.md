@@ -81,7 +81,7 @@ Brands offer gift cards to their customers for convenient purchases both in-stor
 First, when gift cards are sold, businesses make money right away. 
 Second, gift cards draw in recurring purchases. Furthermore, consumers frequently spend more than the amount on the gift card, raising the average order value. 
 
-<a role="link" href="https://calendly.com/99minds"><img loading="lazy" class="m-auto w-full lg:p-4" src="/_assets/blog/Blog_CTA1.png" alt="Book a demo"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 Finally, a satisfying gift card experience can inspire buyers to come back and buy more.. All things considered, gift cards are a straightforward and powerful strategy for increasing ecommerce sales and customer engagement. 
 You can opt for <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift card software</a> to create, assign, and manage gift cards for both your ecommerce and retail store. 
@@ -152,8 +152,7 @@ Companies can reduce customer turnover and boost lifetime value by promoting ret
 
 Additionally, loyalty programs give companies access to priceless customer information, allowing for targeted marketing campaigns that speak to members' interests and purchasing habits. In general, loyalty programs encourage and compensate consumers, which boosts sales and promotes sustained expansion for online retailers.
 
-<a role="link" href="https://calendly.com/99minds" target="_blank"><img loading="lazy" class="m-auto w-full lg:p-4" 
-src="/assets/blog/Blog_CTA1.png" alt= "Book a demo"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 ### <li>Personalize Your Marketing Messages</li>
 Customizing your marketing message means tailoring your marketing communications to individual customers’ preferences, behaviors, demographics, and previous interactions with your brand. Personalized marketing involves delivering targeted content and ideas that will resonate with each customer on a personal level, rather than sending a generic message to a broad audience. You can send personalized offers to your customers based on their previous purchases.

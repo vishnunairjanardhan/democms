@@ -38,7 +38,7 @@ If you’re a stakeholder for a small business and wondering if adding a gift ca
   
 <h2 id="5-major-benefits-of-gift-cards-for-small-business">5 Major Benefits of Gift Cards for Small Businesses</h2>
 
-<a role="link" href="https://calendly.com/99minds"><img loading="lazy" class=w-full src="/assets/blog/CTA-Bookademo.webp" alt="Book a demo"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 Gift cards offer many benefits to small businesses, including increased sales, customer acquisition, and increased brand awareness. They also improve cash flow, reduce profits and provide valuable data for marketing activities. Implementing a gift card program can be a strategic move to accelerate growth and attract new customers. Here are seven major benefits of gift cards for small businesses.
 
