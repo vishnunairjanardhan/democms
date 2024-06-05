@@ -10,6 +10,7 @@ image:
   alt: "Gift cards the gift that keeps giving."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-cards-the-gift-that-keeps-giving"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/gift-cards-the-gift-that-keeps-giving/">

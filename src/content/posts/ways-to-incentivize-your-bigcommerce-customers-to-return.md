@@ -10,6 +10,7 @@ image:
   alt: "Bigcommerce Customer."
 tags: ["BigCommerce",]
 url: "https://www.99minds.io/blog/ways-to-incentivize-your-bigcommerce-customers-to-return"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Ways-to-Incentivize-your-Bigcommerce-Customers-to-Return.jpg">

@@ -10,6 +10,7 @@ image:
   alt: "6 mothers day marketing ideas for ecommerce business ."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/6-mothers-day-marketing-ideas-for-ecommerce-businesses"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/6-mothers-day-marketing-ideas-for-ecommerce-businesses/">

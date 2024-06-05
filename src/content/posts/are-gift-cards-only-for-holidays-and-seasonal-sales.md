@@ -10,6 +10,7 @@ image:
   alt: "Gift card for holidays and seasonal sales."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/are-gift-cards-only-for-holidays-and-seasonal-sales"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Are-gift-cards-only-for-Holidays-and-seasonal-sales1.jpg">

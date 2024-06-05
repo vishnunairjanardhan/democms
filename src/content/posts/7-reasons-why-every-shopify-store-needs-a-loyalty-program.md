@@ -10,6 +10,7 @@ image:
   alt: "Shopify store needs a Loyalty Program."
 tags: ["Loyalty Program","Shopify","Customer Retention"] 
 url: "https://www.99minds.io/blog/7-reasons-why-every-shopify-store-needs-a-loyalty-program"
+keywords: ["99minds"]
 
 ---
 <a href="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM.png" target="_blank">

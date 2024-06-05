@@ -10,6 +10,7 @@ image:
   alt: "How to kick off your sales for fathers day."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-to-kick-off-your-sales-on-fathers-day"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/generic/how-to-kick-off-your-sales-on-fathers-day/">

@@ -10,6 +10,7 @@ image:
   alt: "Tips to make loyalty proram successful."
 tags: ["Customer Loyalty"]
 url: "https://www.99minds.io/blog/what-makes-a-loyalty-program-successful"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/what-makes-loyalty-program-successful-800x450.jpg">

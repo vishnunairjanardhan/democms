@@ -10,6 +10,7 @@ image:
   alt: "Self use gift card."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/self-use-gift-cards-impact-on-consumer-behaviour"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Self-Use-Gift-Cards-Impact-On-Consumer-Behavior1.jpg">

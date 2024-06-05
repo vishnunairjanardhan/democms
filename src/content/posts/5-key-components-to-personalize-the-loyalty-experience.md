@@ -9,6 +9,7 @@ image:
   url: "/assets/blog/5-Key-Features4.jpg"
   alt: "Components to personalize the loyalty experience."
 tags: ["Customer Engagement"]
+keywords: ["99minds"]
 url: "https://www.99minds.io/blog/5-key-components-to-personalize-the-loyalty-experience"
 ---
 <img src="/assets/blog/5-Key-Features4.jpg">

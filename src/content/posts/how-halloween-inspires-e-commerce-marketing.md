@@ -10,6 +10,7 @@ image:
   alt: "How halloween inspires e-commerce marketing."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-halloween-inspires-e-commerce-marketing"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/how-halloween-inspires-e-commerce-marketing/">

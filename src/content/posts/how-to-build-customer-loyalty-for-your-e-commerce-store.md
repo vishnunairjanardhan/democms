@@ -10,6 +10,7 @@ image:
   alt: "Customer loyalty for e-commerce store."
 tags: ["Customer Retention"]
 url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-your-e-commerce-store"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/How-to-build-customer-loyalty-for-your-E-commerce-store1200px.jpg">

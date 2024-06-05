@@ -10,6 +10,7 @@ image:
   alt: "How to sell more with gift cards."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-to-sell-more-with-gift-cards"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/how-to-sell-more-with-gift-cards/">

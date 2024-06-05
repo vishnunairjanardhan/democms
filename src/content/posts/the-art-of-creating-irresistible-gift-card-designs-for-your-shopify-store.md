@@ -10,6 +10,7 @@ image:
   alt: "Gift Card Design for Your Shopify Store."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/The-Art-of-Creating-Irresistible-Gift-Card-Designs-for-Your-Shopify-Store.jpg">

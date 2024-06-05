@@ -10,6 +10,7 @@ image:
   alt: "Gift card services for marchants."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-card-services-for-merchants"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/gift-card-services-for-merchants/">

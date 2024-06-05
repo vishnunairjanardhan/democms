@@ -9,6 +9,7 @@ image:
   url: "/assets/blog/5-Tips-For-Promoting-Fathers-Day-In-Your-Online-Shop.jpg"
   alt: "Tips for father's day."
 tags: ["Ecommerce"]
+keywords: ["99minds"]
 url: "https://www.99minds.io/blog/5-tips-for-promoting-fathers-day-in-your-online-shop"
 
 ---

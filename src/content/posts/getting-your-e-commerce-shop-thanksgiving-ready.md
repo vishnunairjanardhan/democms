@@ -10,6 +10,7 @@ image:
   alt: "Getting your e-commerce shop thanksgiving ready."
 tags: ["Gift Card",]
 url: "https://www.99minds.io/blog/getting-your-e-commerce-shop-thanksgiving-ready"
+keywords: ["99minds"]
 
 --- 
 <img src="/assets/blog/Getting-Your-E-Commerce-Shop-Thanksgiving-Ready1.jpg">

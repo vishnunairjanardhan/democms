@@ -10,6 +10,7 @@ image:
   alt: "Gift and Loyalty."
 tags: ["Loyalty","Gift Card"]
 url: "https://www.99minds.io/blog/halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Halloween-Tips-for-your-Restaurant-Use-Gift-And-Loyalty-As-The-Treat2.jpg">

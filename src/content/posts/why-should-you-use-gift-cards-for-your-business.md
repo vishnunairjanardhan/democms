@@ -10,6 +10,7 @@ image:
   alt: "why gift card use for business."
 tags: ["Customer Loyalty","Gift Card"]
 url: "https://www.99minds.io/blog/why-should-you-use-gift-cards-for-your-business"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Why-should-you-use-gift-cards-for-your-business-1.jpg">

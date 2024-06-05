@@ -10,6 +10,7 @@ image:
   alt: "Customer loyalty for beauty industry."
 tags: ["Customer Engagement"]
 url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-the-beauty-industry"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Loyalty-for-beauty-Industry2.jpg">
