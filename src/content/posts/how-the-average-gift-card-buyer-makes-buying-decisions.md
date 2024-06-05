@@ -10,6 +10,7 @@ image:
   alt: "how the average gift card buyer makes buying decisions."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-the-average-gift-card-buyer-makes-buying-decisions"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/how-the-average-gift-card-buyer-makes-buying-decisions//" target="_blank">

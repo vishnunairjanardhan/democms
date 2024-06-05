@@ -10,6 +10,7 @@ image:
   alt: "Gift Card Integrations."
 tags: ["Gift Card", "Shopify"]
 url: "https://www.99minds.io/blog/top-ways-to-maximize-gift-card-sales-in-your-shopify-store"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Mazimizing-sales.jpg">

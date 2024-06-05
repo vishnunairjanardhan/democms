@@ -10,6 +10,7 @@ image:
   alt: "beginners guide to e-commerce promotions."
 tags: ["Gift Card",]
 url: "https://www.99minds.io/blog/beginners-guide-to-e-commerce-promotions"
+keywords: ["99minds"]
 
 --- 
 <img src="/assets/blog/Beginners-Guide-to-E-Commerce-Promotions.jpg">

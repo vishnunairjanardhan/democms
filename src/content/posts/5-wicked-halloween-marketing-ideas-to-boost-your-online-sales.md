@@ -9,6 +9,7 @@ image:
   url: "/assets/blog/5-Wicked-Halloween-Marketing-Ideas-To-Boost-Your-Online-Sales3.gif"
   alt: "5 wicked halloween marketing ideas to boost your online sales."
 tags: ["Gift Card"]
+keywords: ["99minds"]
 url: "https://www.99minds.io/blog/5-wicked-halloween-marketing-ideas-to-boost-your-online-sales"
 
 --- 

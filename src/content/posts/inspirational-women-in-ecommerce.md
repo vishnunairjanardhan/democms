@@ -10,6 +10,7 @@ image:
   alt: "Inspirational women in ecommerce."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/inspirational-women-in-ecommerce"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/generic/inspirational-women-in-ecommerce/" target="_blank">

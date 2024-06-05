@@ -10,6 +10,7 @@ image:
   alt: "Loyalty Program."
 tags: ["Omnichannel",]
 url: "https://www.99minds.io/blog/are-omnichannel-loyalty-programs-the-future-of-retail"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-7.png">

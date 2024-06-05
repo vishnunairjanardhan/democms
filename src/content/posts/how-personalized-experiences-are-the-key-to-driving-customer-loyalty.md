@@ -10,6 +10,7 @@ image:
   alt: "How personalized experiences are the key to driving customer loyalty."
 tags: ["Gift Card", "Loyalty"]
 url: "https://www.99minds.io/blog/how-personalized-experiences-are-the-key-to-driving-customer-loyalty"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/how-personalized-experiences-are-the-key-to-driving-customer-loyalty/" target="_blank">

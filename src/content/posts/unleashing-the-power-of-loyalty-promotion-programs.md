@@ -10,6 +10,7 @@ image:
   alt: "Power of loyalty and promotion programs."
 tags: ["Loyalty","Loyalty Program"]
 url: "https://www.99minds.io/blog/unleashing-the-power-of-loyalty-promotion-programs"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Unleashing-the-power-of-Loyalty-Promotion-programs1200px.jpg">

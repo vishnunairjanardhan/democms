@@ -10,6 +10,7 @@ image:
   alt: "Gift card marketing in 2022."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/best-ways-to-elevate-your-gift-card-marketing-in-2022"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Best-Ways-To-Elevate-Your-Gift-Card-Marketing-In-2022.jpg">

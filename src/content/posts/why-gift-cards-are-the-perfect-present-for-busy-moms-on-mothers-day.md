@@ -10,6 +10,7 @@ image:
   alt: "Why gift cards are the prefect present for busy moms on mothers day."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day/" target="_blank">

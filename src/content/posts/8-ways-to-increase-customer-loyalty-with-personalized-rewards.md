@@ -10,6 +10,7 @@ image:
   alt: "Customer Loyalty with Personalized Rewards."
 tags: ["Customer Loyalty"]
 url: "https://www.99minds.io/blog/8-ways-to-increase-customer-loyalty-with-personalized-rewards"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-5.png">

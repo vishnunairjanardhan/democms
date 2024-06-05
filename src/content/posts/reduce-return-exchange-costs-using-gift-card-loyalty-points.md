@@ -10,6 +10,7 @@ image:
   alt: "How gift cards loyalty points reduce return exchange costs."
 tags: ["Gift Card","loyalty"]
 url: "https://www.99minds.io/blog/reduce-return-exchange-costs-using-gift-card-loyalty-points"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/reduce-return-exchange-costs-using-gift-card-loyalty-points/" target="_blank">

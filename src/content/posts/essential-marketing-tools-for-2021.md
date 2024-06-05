@@ -10,6 +10,7 @@ image:
   alt: "Important marketing tools."
 tags: ["Marketing"]
 url: "https://www.99minds.io/blog/essential-marketing-tools-for-2021"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Essentail-Marketing-Tools.jpg">

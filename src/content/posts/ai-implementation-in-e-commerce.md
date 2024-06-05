@@ -10,6 +10,7 @@ image:
   alt: "Ai in E-commerce."
 tags: ["Artificial Intelligence","Machine Learning"]
 url: "https://www.99minds.io/blog/ai-implementation-in-e-commerce"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/AI-implementation-in-e-commerce.png">

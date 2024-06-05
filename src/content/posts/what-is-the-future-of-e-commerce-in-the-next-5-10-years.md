@@ -10,6 +10,7 @@ image:
   alt: "Future of e commerce."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/what-is-the-future-of-e-commerce-in-the-next-5-10-years"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/What-is-the-future-of-e-commerce-in-the-next-5-10-years.jpg">

@@ -10,6 +10,7 @@ image:
   alt: "Ecommerce gift cards catalysts to increase holiday season sales2."
 tags: ["Gift Cards"]
 url: "https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/">
