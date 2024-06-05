@@ -10,6 +10,7 @@ image:
   alt: "Best bigcommerce apps."
 tags: ["BigCommerce"]
 url: "https://www.99minds.io/blog/top-5-bigcommerce-apps-to-boost-conversions"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Top-5-bigcommerce-apps-to-boost-conversions-1.jpg">

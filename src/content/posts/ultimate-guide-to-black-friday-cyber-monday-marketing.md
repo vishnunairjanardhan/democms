@@ -10,6 +10,7 @@ image:
   alt: "Black Friday and Cyber Monday."
 tags: ["Gift Card", Loyalty]
 url: "https://www.99minds.io/blog/ultimate-guide-to-black-friday-cyber-monday-marketing"
+keywords: ["99minds"]
 
 --- 
 <a href="/assets/blog/Ultimate-Guide-to-Black-Friday-Cyber-Monday-Marketing-800x450.jpg" target="_blank">

@@ -10,6 +10,7 @@ image:
   alt: "promotional cards."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-to-drive-sales-through-promotional-cards"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/How-to-drive-sales-through-promotional-cards2.jpg">

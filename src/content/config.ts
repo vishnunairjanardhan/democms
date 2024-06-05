@@ -13,6 +13,7 @@ const postsCollection = defineCollection({
         alt: z.string()
       }),
       tags: z.array(z.string()),
+      keywords: z.array(z.string()),
       url: z.string()
     })
  });

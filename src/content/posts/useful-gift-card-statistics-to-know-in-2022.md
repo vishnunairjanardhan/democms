@@ -10,6 +10,7 @@ image:
   alt: "Gift Card Statistics."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/useful-gift-card-statistics-to-know-in-2022"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Essential-Gift-Card-Statistics-You-Should-Know-in-2022.jpg">

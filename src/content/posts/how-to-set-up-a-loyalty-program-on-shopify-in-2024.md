@@ -10,6 +10,7 @@ image:
   alt: "Loyalty with Personalized Rewards."
 tags: ["Loyalty Program","Ecommerce"]
 url: "https://www.99minds.io/blog/how-to-set-up-a-loyalty-program-on-shopify-in-2024"
+keywords: ["99minds"]
 
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-15.png">

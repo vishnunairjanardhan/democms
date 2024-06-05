@@ -10,6 +10,7 @@ image:
   alt: "Gift cards marketing trends."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-card-marketing-trends"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Gift-card-market-trends.jpg">

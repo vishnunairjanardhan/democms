@@ -10,6 +10,7 @@ image:
   alt: "Valentines day marketing idea."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/7-valentines-day-marketing-ideas"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/7-Valentines-Day-marketing-ideas1-1-1.jpg">

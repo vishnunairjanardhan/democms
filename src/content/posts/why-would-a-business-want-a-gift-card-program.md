@@ -10,6 +10,7 @@ image:
   alt: "What is a ecommerce gift card and how does it work."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/why-would-a-business-want-a-gift-card-program"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/why-would-a-business-want-a-gift-card-program/" target="_blank">

@@ -10,6 +10,7 @@ image:
   alt: "benefits of loyalty program."
 tags: ["Customer Loyalty"]
 url: "https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/benefits-of-loyalty-program1.jpg">

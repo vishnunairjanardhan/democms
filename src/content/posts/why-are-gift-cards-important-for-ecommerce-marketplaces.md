@@ -10,6 +10,7 @@ image:
   alt: "Send bulk gift cards with omisend using 99minds."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/why-are-gift-cards-important-for-ecommerce-marketplaces"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/why-are-gift-cards-important-for-ecommerce-marketplaces/">

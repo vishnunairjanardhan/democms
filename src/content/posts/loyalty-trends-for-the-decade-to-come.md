@@ -10,6 +10,7 @@ image:
   alt: "Loyalty trends for the decade to come."
 tags: ["Customer Loyalty"]
 url: "https://www.99minds.io/blog/loyalty-trends-for-the-decade-to-come"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Loyalty-Trends.jpg">

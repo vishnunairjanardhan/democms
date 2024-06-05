@@ -10,6 +10,7 @@ image:
   alt: "How women in developing countries can harness e-commercel."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-women-in-developing-countries-can-harness-e-commerce"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/generic/how-women-in-developing-countries-can-harness-e-commerce/" target="_blank">

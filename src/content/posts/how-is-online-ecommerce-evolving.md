@@ -10,6 +10,7 @@ image:
   alt: "How is ecommerce evolving."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-is-online-ecommerce-evolving"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/how-is-online-ecommerce-evolving/">

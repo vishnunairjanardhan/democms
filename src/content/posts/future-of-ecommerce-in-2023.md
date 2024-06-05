@@ -10,6 +10,7 @@ image:
   alt: "E-commerce Future in 2023."
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/future-of-ecommerce-in-2023"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Future-of-ecommerce-in-2023-1.jpg">

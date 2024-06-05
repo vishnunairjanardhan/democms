@@ -10,6 +10,7 @@ image:
   alt: "Importance of Gift Card to Your e-commerce business."
 tags: ["Ecommerce","Gift Card"]
 url: "https://www.99minds.io/blog/why-are-digital-gift-cards-essential-to-your-e-commerce-business"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Why-are-digital-gift-cards-essential-to-your-e-commerce-business-.jpg">

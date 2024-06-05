@@ -10,6 +10,7 @@ image:
   alt: "Last minute christmas marketing checklist for ecommercel."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/last-minute-christmas-marketing-checklist-for-ecommerce"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/last-minute-christmas-marketing-checklist-for-ecommerce/">

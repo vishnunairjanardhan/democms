@@ -10,6 +10,7 @@ image:
   alt: "Gift Card Sales Using Social Media."
 tags: ["Gift Card","Shopify"]
 url: "https://www.99minds.io/blog/9-ways-to-increase-gift-card-sales-using-social-media"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-8.png">
