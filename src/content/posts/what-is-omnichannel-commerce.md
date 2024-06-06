@@ -10,7 +10,7 @@ image:
   alt: "Guide to Omnichannel Commerce Real-world Examples"
 tags: ["Omnichannel","Ecommerce"]
 url: "https://www.99minds.io/blog/what-is-omnichannel-commerce"
-keywords: ["99minds"]
+keywords: ["Omnichannel Commerce","omnichannel in ecommerce","omnichannel e commerce","omni channel ecommerce","what is omni channel commerce","Benefits Of Omnichannel Commerce","omnichannel commerce solutions"]
 
 ---
 <img rel="preload" role="img" src="/assets/blog/Guide to Omnichannel Commerce- Real-world Examples.webp" alt="Guide to Omnichannel Commerce: Real-world Examples">
@@ -69,7 +69,7 @@ On the other hand, an omnichannel approach integrates all channels and provides 
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral1.webp" alt="Get started CTA image for b2b ecoomerce trends"></span>
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral1.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
                 </span></div>
               </span>
               <!-- Modal -->
@@ -140,7 +140,7 @@ Omnichannel Commerce, though incredibly beneficial, also has its own set of issu
 <li><b>Adapt to changing trends:</b> In the retail industry, businesses need to stay up-to-date with the industry trends. Omnichannel Commerce is an effective way for businesses to remain flexible and adaptable to customer preferences, whether they shop in-store, online, or through applications. Through this approach, companies may stay up to date with current trends and ensure customer satisfaction. Adopting an omnichannel strategy can help businesses maintain a competitive edge and retain loyal customers who keep coming back for more.</li>
 </ul>
 
-<a href="https://calendly.com/99minds" role="link" label="Bok a Demo" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <h2 class="m-0 mb-4" id="omnichannel-commerce-solutions-include">Omnichannel Commerce Solutions Include</h2>
 

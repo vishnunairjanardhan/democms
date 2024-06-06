@@ -10,7 +10,7 @@ image:
   alt: "Top 18 B2B eCommerce Trends in 2024"
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/b2b-ecommerce-trends"
-keywords: ["99minds"]
+keywords: ["b2b ecommerce trends","trends in b2b ecommerce","trends in b2b e commerce","b2b commerce trend","b2b ecommerce trends 2024","ecommerce b2b trends"]
 
 ---
 <img rel="preload" role="img" src="/assets/blog/Top 18 B2B eCommerce Trends in 2024 to Enhance Your Business.webp" alt="Top 18 B2B eCommerce Trends in 2024">
@@ -56,7 +56,7 @@ B2B ecommerce businesses must now focus beyond having an essential website or an
 
 Therefore, B2B companies need to prioritize their digital transformation efforts in 2024 to provide their customers with the eCommerce experiences they expect.
 
-<a href="https://calendly.com/99minds" role="link" target="_blanck"> <img class="w-full" loading="lazy" role="img" src="/assets/blog/Blog_CTA1.png" alt="Book a Demo CTA image for b2b ecoomerce trends"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <h2 class="m-0 mb-4" id="top-18-b2b-ecommerce-trends-in-2024">Top 18 B2B eCommerce Trends in 2024</h2>
 
@@ -111,7 +111,7 @@ For example, utilizing <a href="https://www.99minds.io/loyalty" target="_blanck"
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral1.webp" alt="Get started CTA image for b2b ecoomerce trends"></span>
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral1.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
                 </span></div>
               </span>
               <!-- Modal -->
