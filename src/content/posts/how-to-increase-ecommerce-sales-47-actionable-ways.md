@@ -46,20 +46,20 @@ Businesses can take advantage of this shift in consumer behavior and use these e
 </div>
 
 
-# Future of Ecommerce Sales
+<h2 id="Future-of-Ecommerce-Sales"> Future of Ecommerce Sales </h2>
 
 eCommerce in itself is a big industry. The ecommerce industry is growing. As per <a href="https://www.statista.com/outlook/emo/ecommerce/worldwide?currency=usd#revenue" role="link" target="_blank">Statista</a>, Global ecommerce sales are expected to reach $7 trillion by 2025. What’s interesting to notice here is that the growth has been consistent for all types of ecommerce businesses ranging from fashion, beauty, and health to sales of furniture, electronics, toys and more. 
 
 <div class="flex justify-center">
-<img loading="lazy" class="w-3/4 m-4" src="/assets/blog/Statics.jpg" alt="9Statics of ecommerce">
+<img loading="lazy" class="w-3/4 m-4" src="/assets/blog/Statics.jpg" alt="9 Statics of ecommerce">
 </div>
 
-##  What is Ecommerce Sales
+<h2 id="What-is-Ecommerce-Sales">  What is Ecommerce Sales </h2>
 E-commerce sales are the purchases and sales of goods or services made over the internet. This includes online retail websites, auction sites, digital marketplaces, and online platforms for services such as travel booking and food delivery. E-commerce sales refer to any electronic transaction.
 
 <b>Example:</b> Imagine you want to buy a new pair of shoes. You browse the selections on a website like Amazon, choose the pair you want, add it to the cart, and then pay with your credit card. This entire process, from browsing to purchasing, is an example of e-commerce sales.
 
-## Importance of Increasing Ecommerce Sales 
+<h2 id="Importance-of-Increasing-Ecommerce-Sales"> Importance of Increasing Ecommerce Sales </h2>
 In the competitive world of e-commerce, product promotion is very important. This isn't about making more money; It's about building a strong business, delighting customers, and staying ahead of the competition. Using effective marketing strategies is the key to long-term success and growth.
 
 <ul  role="list">
@@ -73,7 +73,7 @@ In the competitive world of e-commerce, product promotion is very important. Thi
 <li><b>Reduced Transaction Costs:</b> E-commerce simplifies transactions, lowering costs while increasing conversion rates.</li>
 </ul>
 
-## How to Increase Ecommerce Sales: 47 Actionable Ways
+<h2 id="How-to-Increase-Ecommerce-Sales-47-Actionable-Ways"> How to Increase Ecommerce Sales: 47 Actionable Ways </h2>
 Ecommerce promotion is crucial for any online business. Fortunately, there are many tricks and tips to help you with this. If you're well on your way to smart sales, we've got 47 simple ways to help you with it. Let's dive right in.
 <ol>
 
@@ -82,7 +82,8 @@ Brands offer gift cards to their customers for convenient purchases both in-stor
 First, when gift cards are sold, businesses make money right away. 
 Second, gift cards draw in recurring purchases. Furthermore, consumers frequently spend more than the amount on the gift card, raising the average order value. 
 
-<a role="link" href="https://calendly.com/99minds"><img loading="lazy" class="m-auto w-full lg:p-4" src="/_assets/blog/Blog_CTA1.png" alt="Book a demo"></a>
+<a role="link" href="https://calendly.com/99minds">
+<img loading="lazy" class="m-auto w-full lg:p-4" src="/assets/blog/Blog_CTA1.png" alt="Book a demo"></a>
 
 Finally, a satisfying gift card experience can inspire buyers to come back and buy more.. All things considered, gift cards are a straightforward and powerful strategy for increasing ecommerce sales and customer engagement. 
 You can opt for <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift card software</a> to create, assign, and manage gift cards for both your ecommerce and retail store. 
@@ -417,7 +418,7 @@ Creating attractive CTAs (Call to Action) is critical for increasing e-commerce 
 A well-designed CTA, such as "Shop Now," "Buy One Get One Free," or "Limited Time Offer," can instill a sense of urgency and excitement in visitors, motivating them to act immediately. You may improve conversion rates by carefully positioning CTAs on your website, product pages, and marketing materials. 
 </ol>
 
-## Conclusion 
+<h2 id="Conclusion"> Conclusion </h2>
 Ecommerce sales require smart strategies and adapting to market changes. By following the tips discussed here, you can strengthen your online presence, attract more customers, and increase sales. Understanding your target audience and optimizing user experience are important steps to success.
 By using technology, data, and a customer-centric approach, ecommerce companies can deliver a better shopping experience, build trust, and grow sustainably. 
 
