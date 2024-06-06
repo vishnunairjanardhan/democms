@@ -135,7 +135,7 @@ Here’s how small businesses can make the most of their gift card program.
 
 <h2 id="how-to-boost-customer-engagement-with-gift-cards?">How to Boost Customer Engagement with Gift Cards?</h2>
 
-<a role="link" href="https://www.bigcommerce.com/apps/99minds-gift-card/"><img loading="lazy" class=w-full src="\assets\CTA-referral.png" alt="Book a></a>
+<a role="link" href="https://www.bigcommerce.com/apps/99minds-gift-card/"><img loading="lazy" class=w-full src="\assets\CTA-referral.png" alt="Book a demo"></a>
 
 Gift cards aren't just about purchases, they're also great for driving customer loyalty. In this section, we’ll explore simple but effective strategies to get the most out of gift cards and keep customers coming back.
 
