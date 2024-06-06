@@ -10,6 +10,7 @@ image:
   alt: "Ecommerce Referral Marketing Strategies."
 tags: ["Gift Card",]
 url: "https://www.99minds.io/blog/ecommerce-referral-marketing-strategies"
+keywords: ["99minds"]
 
 --- 
 <img src="/assets/blog/Ecommerce-Referral-Marketing-Strategies.jpg">

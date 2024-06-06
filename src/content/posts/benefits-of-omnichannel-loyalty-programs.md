@@ -10,6 +10,7 @@ image:
   alt: "How do you build longer lasting brand loyalty."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/benefits-of-omnichannel-loyalty-programs"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/benefits-of-omnichannel-loyalty-programs/">

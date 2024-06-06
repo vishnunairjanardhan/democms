@@ -10,6 +10,7 @@ image:
   alt: "Gift Card Marketing Strategis."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/Gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness.jpg">

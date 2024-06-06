@@ -10,6 +10,7 @@ image:
   alt: "Loyalty Program Cases in 2024."
 tags: ["Ecommerce","Loyalty Program"]
 url: "https://www.99minds.io/blog/case-study-8-brilliant-loyalty-program-cases-in-2024"
+keywords: ["99minds"]
 
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-11.png">

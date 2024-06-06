@@ -10,6 +10,7 @@ image:
   alt: "Shopify Store for the Holidays in 2024."
 tags: ["Gift Card", "Shopify"]
 url: "https://www.99minds.io/blog/21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/21ways-to-prepare.png">

@@ -10,6 +10,7 @@ image:
   alt: "Loyalty Program."
 tags: ["Loyalty Program"] 
 url: "https://www.99minds.io/blog/11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store"
+keywords: ["99minds"]
 
 ---
 <a href="https://www.99minds.io/blog/customer-loyalty/11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store/" target="_blank">

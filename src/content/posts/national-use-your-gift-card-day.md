@@ -10,6 +10,7 @@ image:
   alt: "National Gift Card Day."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/national-use-your-gift-card-day"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/National-Gift-Card-Day.jpg">

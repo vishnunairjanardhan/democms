@@ -10,6 +10,7 @@ image:
   alt: "8 ways to boost sales with goft cards this mothers day."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/8-ways-to-boost-sales-with-gift-cards-this-mothers-day"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/gift-card/8-ways-to-boost-sales-with-gift-cards-this-mothers-day/">

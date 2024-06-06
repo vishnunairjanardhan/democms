@@ -10,6 +10,7 @@ image:
   alt: "Technology in ecommerce."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/the-role-of-technology-in-enhancing-ecommerce"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/The-role-of-technology-in-enhancing-eCommerce.jpg">

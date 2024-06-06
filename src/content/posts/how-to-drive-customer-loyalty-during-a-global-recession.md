@@ -10,6 +10,7 @@ image:
   alt: "How to drive customer loyalty during a global recession."
 tags: ["Loyalty"]
 url: "https://www.99minds.io/blog/how-to-drive-customer-loyalty-during-a-global-recession"
+keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/how-to-drive-customer-loyalty-during-a-global-recession/" target="_blank">

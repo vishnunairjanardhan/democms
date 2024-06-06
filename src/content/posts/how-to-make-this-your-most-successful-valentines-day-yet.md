@@ -10,6 +10,7 @@ image:
   alt: "Valentine day with gift card."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-to-make-this-your-most-successful-valentines-day-yet"
+keywords: ["99minds"]
 
 ---
 <img src="/assets/blog/How-to-Make-This-your-most-successful-valentine-day-yet-1.jpg">
