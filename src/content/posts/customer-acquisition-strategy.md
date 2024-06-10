@@ -10,8 +10,7 @@ image:
   alt: "Top 23 Effective Customer Acquisition Strategy"
 tags: ["Customer Acquisation"]
 url: "https://www.99minds.io/blog/customer-acquisition-strategy"
-keywords: ["99minds"]
-
+keywords: ["customer acquisition strategy","strategy for customer acquisition","strategies for customer acquisition","customer acquisition techniques","customer acquisition tactics","customer acquisition strategies","client acquisition strategy","strategies to acquire new customers"]
 ---
 <img rel="preload" role="img" src="/assets/blog/Top 23 Effective Customer Acquisition Strategy You Might Be Missing On.webp" alt="Top 23 Effective Customer Acquisition Strategy">
 
@@ -75,7 +74,7 @@ Generally, marketers and business owners often split the funnel into three stage
 </ul>
 There are numerous methods for a business to find and convert these new customers, especially online. It’s easier to monitor how your company acquires new customers with digital marketing, discover and test new marketing strategies, and scale the ones that work.
 
-<a href="https://calendly.com/99minds" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecoomerce trends"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <h2 class="m-0 mb-4" class="m-0 mb-4" id="Why-do-you-Need-a-Customer-Acquisition-Strategy?">Why do you Need a Customer Acquisition Strategy?</h2>
 
@@ -108,7 +107,7 @@ The promise of sustainable growth can be achieved by focusing on customer relati
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral1.webp" alt="Get started CTA image for b2b ecoomerce trends"></span>
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral1.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
                 </span></div>
               </span>
               <!-- Modal -->
