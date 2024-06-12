@@ -6,13 +6,13 @@ title: Customer Acquisition Strategy | 99minds
 description: "A customer acquisition strategy is a plan or set of methods used to attract and acquire new customers for a company through various marketing and sales tactics."
 heading: Top 23 Effective Customer Acquisition Strategy You Might Be Missing On 
 image:
-  url: "/assets/blog/Top 23 Effective Customer Acquisition Strategy You Might Be Missing On.webp"
+  url: "/assets/blog/Effective Customer Acquisition Strategy You Might Be Missing On.webp"
   alt: "Top 23 Effective Customer Acquisition Strategy"
 tags: ["Customer Acquisation"]
 url: "https://www.99minds.io/blog/customer-acquisition-strategy"
 keywords: ["customer acquisition strategy","strategy for customer acquisition","strategies for customer acquisition","customer acquisition techniques","customer acquisition tactics","customer acquisition strategies","client acquisition strategy","strategies to acquire new customers"]
 ---
-<img rel="preload" role="img" src="/assets/blog/Top 23 Effective Customer Acquisition Strategy You Might Be Missing On.webp" alt="Top 23 Effective Customer Acquisition Strategy">
+<img rel="preload" role="img" src="/assets/blog/Effective Customer Acquisition Strategy You Might Be Missing On.webp" alt="Top 23 Effective Customer Acquisition Strategy">
 
 “For e-commerce startups, the most difficult thing is focus. It’s easy to focus on a niche for your products, but very difficult to focus on a ‘niche audience – says Brian Zeng, CMO of <a href="http://www.ownonly.com/" role="link" target="_blanck">OwnOnly</a>.”
 
