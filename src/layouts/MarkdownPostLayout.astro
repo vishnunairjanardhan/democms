@@ -30,7 +30,10 @@ import { AstroSeo } from "@astrolib/seo";
 />
 
 <head>
-  <script type="application/ld+json">
+
+  <meta name="keywords" content={frontmatter.keywords}>
+  
+  <!-- <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
       "@type": "BreadcrumbList",
@@ -79,7 +82,7 @@ import { AstroSeo } from "@astrolib/seo";
         "datePublished": frontmatter.pubDate,
         "dateModified": frontmatter.pubDate
       }
-      </script>    
+      </script>     -->
     </head>
 
 <BaseLayout>
@@ -135,9 +138,9 @@ import { AstroSeo } from "@astrolib/seo";
            </a>
         </div>
           <div class="pt-2 flex">
-          <h3 class="font-bold px-2">></h3>
+          <p class=" px-2">></p>
           <a href="/blog">Blog</a>
-          <h3 class="font-bold px-2">></h3>
+          <p class="px-2">></p>
           <a class="text-[#FBEACA]">{frontmatter.heading}</a>
           </div>
         </div>
