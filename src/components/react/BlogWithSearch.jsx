@@ -17,21 +17,17 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
     );
 
     setFilteredPosts(filtered);
-    setCurrentPage(1); // Reset to first page on search
+    setCurrentPage(1); 
   };
 
-  // Calculate the current posts to display based on pagination
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
 
-  // Calculate the total number of pages
   const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
 
-  // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
-  // Pagination UI helpers
   const getPageNumbers = () => {
     const pageNumbers = [];
     const maxPagesToShow = 6;
