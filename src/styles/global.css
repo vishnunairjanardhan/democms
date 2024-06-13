@@ -7,8 +7,6 @@
 }
 
 
-
-
 :root {
   --astro-code-color-text: #a1affc;
   --astro-code-color-background: #191a29;
@@ -30,4 +28,42 @@
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.6em 0.6em -0.4em rgb(255,33,179,.6);
+  transform: translateY(-0.25em);
+  transition: 0.3s;
+  
+}
+
+
+h1{
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.05em;
+  font-weight: 500;
+  color: white;
+}
+
+h2{
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.025em;
+  font-weight: 400;
+  color: white;
+}
+
+h3{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: white;
+  font-weight: 400;
+}
+
+p{
+  font-size: 18px;
+  color:rgb(185,186,189);
+  font-weight: 400;
 }

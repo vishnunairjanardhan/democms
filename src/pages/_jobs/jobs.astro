@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import JobsHome from "../../components/jobs/JobsHome.astro";
+import { AstroSeo } from "@astrolib/seo";
+import { Seo } from "../../config/Seo";
+---
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="Jobs"
+  description="Your site description goes here"
+  canonical="https://www.lexingtonthemes.com"
+  {...Seo}
+/>
+<BaseLayout>
+  <JobsHome />
+</BaseLayout>

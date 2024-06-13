@@ -1,0 +1,42 @@
+---
+import BaseLayout from "/src/layouts/BaseLayout.astro";
+import HeroCasestudyBirdsnest from "/src/components/heros/HeroCasestudyBirdsnest.astro";
+import CasestudytestBirdsnest from "/src/components/testimonials/CasestudytestBirdsnest.astro";
+import FeatureCasestudyBirdsnest from "/src/components/features/FeatureCasestudyBirdsnest.astro";
+import Birdsnest from "/src/components/Infopages/Birdsnest.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="Birdsnest Boosts Revenue with 99minds Gift Cards | 99minds"
+  description="Birdsnest, the growing women fashion brand, shares how 99minds gift cards and intelligent workflows are helping them scale their business."
+  canonical="https://www.99minds.io/case-study/birdsnest"
+  openGraph={{
+    url: "https://www.99minds.io/case-study/birdsnest",
+    title: "Birdsnest Boosts Revenue with 99minds Gift Cards | 99minds",
+    description: "Birdsnest, the growing women fashion brand, shares how 99minds gift cards and intelligent workflows are helping them scale their business.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/case-study/Birdnest-case-study.jpg",
+        alt: "Birdsnest uses 99minds Gift Card",
+        type: "image/jpeg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroCasestudyBirdsnest />
+  <CasestudytestBirdsnest />
+  
+<Birdsnest />
+<FeatureCasestudyBirdsnest />
+</BaseLayout>

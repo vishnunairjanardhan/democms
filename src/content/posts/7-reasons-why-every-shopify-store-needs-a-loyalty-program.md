@@ -1,12 +1,16 @@
 ---
 pubDate: 2023-11-06
 author: Mrudul
+authorImg: "Mrudul.png"
 title: 7 Reasons Why Every Shopify Store Needs a Loyalty Program
 description: "More than 4.36 million online stores use Shopify. There are more than 8,000 apps built to serve Shopify stores. Undoubtedly, it is one of the most influential eCommerce stores in the world. It is a powerful platform adopted by businesses of all sizes globally. If you have a Shopify store, you would love to see."
+heading: 7 Reasons Why Every Shopify Store Needs a Loyalty Program
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-800x450.png"
   alt: "Shopify store needs a Loyalty Program."
 tags: ["Loyalty Program","Shopify","Customer Retention"] 
+url: "https://www.99minds.io/blog/7-reasons-why-every-shopify-store-needs-a-loyalty-program"
+keywords: ["99minds"]
 
 ---
 <a href="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM.png" target="_blank">

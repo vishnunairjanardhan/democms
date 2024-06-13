@@ -1,12 +1,17 @@
 ---
 pubDate: 2022-09-22
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Tips To Boost eCommerce Sales for The Thanks giving Weekend in 2022
 description: "The Thanksgiving weekend is one of the most significant shopping periods of the entire year. How do you capitalize on this? You need a proactive strategy to get the most out of this sales opportunity. Here are some of the best tips to boost your eCommerce sales for the Thanksgiving weekend in 2022. Plan early"
+heading: Tips To Boost eCommerce Sales for The Thanks giving Weekend in 2022
 image:
   url: "/assets/blog/Tips-To-Boost-eCommerce-Sales-for-The-Thanksgiving-Weekend1.jpg"
-  alt: "The word community with a heart."
+  alt: "Tips to Boost E-Commerce Sales."
 tags: ["Ecommerce","Gift Card"]
+url: "https://www.99minds.io/blog/tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/Tips-To-Boost-eCommerce-Sales-for-The-Thanksgiving-Weekend1.jpg">
 

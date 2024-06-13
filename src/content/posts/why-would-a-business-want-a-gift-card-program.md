@@ -1,12 +1,17 @@
 ---
 pubDate: 2023-11-09
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Why Would A Business Want A Gift Card Program
 description: "Gift cards are like Christmas. Everyone loves it. They are happy as soon as they get one. No wonder gift cards are most popular during the holiday season.No, I do not want gift cards, said no one ever. Can you imagine your friends or family saying that when you offer them one? There are."
+heading: Why Would A Business Want A Gift Card Program
 image: 
   url: "/assets/blog/Why-would-a-business-want-a-gift-card-program-1.jpg"
   alt: "What is a ecommerce gift card and how does it work."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/why-would-a-business-want-a-gift-card-program"
+keywords: ["99minds"]
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/why-would-a-business-want-a-gift-card-program/" target="_blank">
 <img src="/assets/blog/Why-would-a-business-want-a-gift-card-program-1.jpg"></a>

@@ -1,12 +1,17 @@
 ---
 pubDate: 2023-12-07
 author: Mrudul
+authorImg: "Mrudul.png"
 title: The ROI of a Robust Loyalty Program for Shopify Merchants
 description: "With more than 200 million subscribers, Prime, Amazon’s loyalty program, is the world’s biggest. It is successful because of the exclusive benefits that it offers. From personalized recommendations to expedited shipping, the perks are aplenty. Prime members spend 4x as much as other Amazon customers. That’s how powerful loyalty programs are. It is the perfect."
+heading:  The ROI of a Robust Loyalty Program for Shopify Merchants
 image: 
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-13-800x450.png"
   alt: "Shopify store."
 tags: ["Gift Card", Loyalty]
+url: "https://www.99minds.io/blog/the-roi-of-a-robust-loyalty-program-for-shopify-merchants"
+keywords: ["99minds"]
+
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-13.png">
 

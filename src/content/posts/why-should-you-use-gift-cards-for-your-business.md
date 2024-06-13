@@ -1,12 +1,17 @@
 ---
 pubDate: 2020-08-07
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Why Should You Use Gift Cards For Your Business
 description: "From increasing customer loyalty to engaging and acquiring more customers, gift cards have always played a vital role in it. Here we have highlighted the importance of gift cards for businesses"
+heading: Why Should You Use Gift Cards For Your Business
 image:
   url: "/assets/blog/Why-should-you-use-gift-cards-for-your-business-1.jpg"
-  alt: "The word community with a heart."
+  alt: "why gift card use for business."
 tags: ["Customer Loyalty","Gift Card"]
+url: "https://www.99minds.io/blog/why-should-you-use-gift-cards-for-your-business"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/Why-should-you-use-gift-cards-for-your-business-1.jpg">
 

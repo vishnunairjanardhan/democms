@@ -1,0 +1,62 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeroKlaviyo2 from "../../components/heros/HeroKlaviyo2.astro";
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureKlaviyo from "../../components/features/FeatureKlaviyo.astro";
+import FeatureKlaviyo1 from "../../components/features/FeatureKlaviyo1.astro";
+import FeatureKlaviyo2 from "../../components/features/FeatureKlaviyo2.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
+import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
+import KlaviyoDemo from "../../components/Infopages/KlaviyoDemo.astro";
+import IntegrationKlaviyo from "../../components/integrations/IntegrationKlaviyo.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="99minds and Klaviyo integration | 99minds"
+  description="99minds integrates with Klaviyo to boost sales and customer loyalty through dynamic & bulk loyalty and gift card email and sms campaigns"
+  canonical="https://www.99minds.io/integrations/klaviyo"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/klaviyo",
+    title: "99minds and Klaviyo integration | 99minds",
+    description: "99minds integrates with Klaviyo to boost sales and customer loyalty through dynamic & bulk loyalty and gift card email and sms campaigns.",
+    images: [
+          {
+            url: "https://www.99minds.io/assets/99minds-Klaviyo-OGI.svg",
+            alt: "99minds & Klaviyo",
+            type: "image/svg",
+          }
+        ],
+        site_name: "99minds",
+      }}
+      twitter={{
+        url: "https://www.99minds.io/integrations/klaviyo",
+        images: [
+          {
+            url: "https://www.99minds.io/assets/99minds-Klaviyo-OGI.svg",
+            alt: "99minds & Klaviyo",
+            type: "image/svg",
+          }
+      ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroKlaviyo2 />
+  <LogoCloudOne />
+  <FeatureKlaviyo1 />
+  <!--<FeatureKlaviyo />-->
+  <FeatureKlaviyo2 />
+  <IntegrationKlaviyo />
+  <!--<KlaviyoDemo />-->
+  <!--<Testimonialtry />-->
+  <!--<Integrations99minds />-->
+  <CtaThree99minds />
+</BaseLayout>

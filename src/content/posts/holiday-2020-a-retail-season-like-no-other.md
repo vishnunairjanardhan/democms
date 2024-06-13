@@ -1,12 +1,17 @@
 ---
 pubDate: 2020-12-09
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Holiday 2020 - A retail season like no other
 description: "The strength of consumer spending this year isn't clear. Thanks to the fear of a surge in Coronavirus infections, the uncertainty is enormous. Accenture's 14th Annual Holiday Shopping Survey has a few ideas on how the US holiday season of 2020 will shape up. Here's what Jill Standish, the Global Retail Lead at Accenture, has."
+heading: Holiday 2020 - A retail season like no other
 image: 
   url: "/assets/blog/Holiday-2020---A-retail-season-like-no-other-800x450.jpg"
   alt: "Holiday 2020 a retail season like no other."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/holiday-2020-a-retail-season-like-no-other"
+keywords: ["99minds"]
+
 --- 
 <a href="https://www.99minds.io/blog/customer-engagement/holiday-2020-a-retail-season-like-no-other/" target="_blank">
 <img src="/assets/blog/Holiday-2020---A-retail-season-like-no-other.jpg"></a>

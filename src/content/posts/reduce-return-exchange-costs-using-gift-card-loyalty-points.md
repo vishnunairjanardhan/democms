@@ -1,12 +1,17 @@
 ---
 pubDate: 2023-11-26
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Reduce Return & Exchange Costs using Gift Card & Loyalty Points
 description: "$550 billion That's how much online product returns are estimated to cost businesses this year. The return rates of products bought online stand at 25% while 8% for brick-and-mortar stores. Returns are a major headache for retailers. The costs associated with processing returns, resources spent on it, time spent on handling the returns, and the."
+heading: Reduce Return & Exchange Costs using Gift Card & Loyalty Points
 image: 
   url: "/assets/blog/How-Gift-Cards-Loyalty-Points-Reduce-Return-Exchange-Costs.jpg"
   alt: "How gift cards loyalty points reduce return exchange costs."
 tags: ["Gift Card","loyalty"]
+url: "https://www.99minds.io/blog/reduce-return-exchange-costs-using-gift-card-loyalty-points"
+keywords: ["99minds"]
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/reduce-return-exchange-costs-using-gift-card-loyalty-points/" target="_blank">
 <img src="/assets/blog/How-Gift-Cards-Loyalty-Points-Reduce-Return-Exchange-Costs.jpg"></a>

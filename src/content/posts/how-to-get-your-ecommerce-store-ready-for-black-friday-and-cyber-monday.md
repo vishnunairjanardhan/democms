@@ -1,12 +1,17 @@
 ---
 pubDate: 2022-09-26
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How to Get Your eCommerce Store Ready for Black Friday and Cyber Monday
 description: "Black Friday and Cyber Monday are two of the best days for eCommerce retailers. Not being prepared for it is a financial disaster. The 2021 US holiday season posed the strongest retail growth bringing in more than $1.2 trillion. According to eMarketer, Cyber Monday had the highest sales, clocking more than $10.9 billion, while Black"
+heading: How to Get Your eCommerce Store Ready for Black Friday and Cyber Monday
 image:
   url: "/assets/blog/How-to-Get-Your-eCommerce-Store-Ready-for-Black-Friday-and-Cyber-Monday2.jpg"
-  alt: "The word community with a heart."
+  alt: "Black Friday and Cyber Monday."
 tags: ["Ecommerce","Gift Card"]
+url: "https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/How-to-Get-Your-eCommerce-Store-Ready-for-Black-Friday-and-Cyber-Monday2.jpg">
 

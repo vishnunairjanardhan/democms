@@ -1,12 +1,17 @@
 ---
 pubDate: 2021-09-08
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How to attract and retain Generation Z customers
 description: "Gen Z is going to be a business's core audience in the future. Take a look at how businesses can attract Gen Z customers and retain them."
+heading: ow to attract and retain Generation Z customers
 image:
   url: "/assets/blog/How-to-attract-retain-gen-Z-customers-800x450.jpg"
   alt: "How to attract retain gen Z customers."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/how-to-attract-and-retain-generation-z-customers"
+keywords: ["99minds"]
+
 --- 
 <a href="https://www.99minds.io/blog/generic/how-to-attract-and-retain-generation-z-customers/">
 <img src="/assets/blog/How-to-attract-retain-gen-Z-customers.jpg"></a>

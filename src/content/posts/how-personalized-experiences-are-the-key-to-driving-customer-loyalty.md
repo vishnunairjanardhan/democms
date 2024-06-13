@@ -1,12 +1,17 @@
 ---
 pubDate: 2021-03-02
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How Personalized Experiences Are the Key to Driving Customer Loyalty
 description: "There is no doubt that the Covid-19 pandemic has changed the way many businesses around the world operate. Most marketers found that a huge margin slashed their budgets. Many CTOs had to enable many technological changes in driving work from home successfully and reach out to customers who couldn't walk into a retail store like."
+heading: How Personalized Experiences Are the Key to Driving Customer Loyalty
 image:
   url: "/assets/blog/How-Personalized-Experiences-Are-the-Key-to-Driving-Customer-Loyalty-800x450.jpg"
   alt: "How personalized experiences are the key to driving customer loyalty."
 tags: ["Gift Card", "Loyalty"]
+url: "https://www.99minds.io/blog/how-personalized-experiences-are-the-key-to-driving-customer-loyalty"
+keywords: ["99minds"]
+
 --- 
 <a href="https://www.99minds.io/blog/customer-loyalty/how-personalized-experiences-are-the-key-to-driving-customer-loyalty/" target="_blank">
 <img src="/assets/blog/How-Personalized-Experiences-Are-the-Key-to-Driving-Customer-Loyalty.jpg"></a>

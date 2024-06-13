@@ -1,12 +1,17 @@
 ---
 pubDate: 2023-12-19
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Top Ten Ways to Engage Customers Post-Holidays With Gift Cards
 description: "In this article, we look at some of the best ways you can engage customers after the holiday season, with the help of gift card incentives."
+heading: Top Ten Ways to Engage Customers Post-Holidays With Gift Cards
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-16.png"
-  alt: "The word community with a heart."
+  alt: "Post Holidays with Gift Card Incentives."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/how-to-engage-customers-post-holidays-with-gift-card-incentives"
+keywords: ["99minds"]
+
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-16.png">
 Gift cards were seen as a thoughtless investment once. Recipients have been guilty of forgetting to use them. They used to lie untouched in the drawers of most recipients’ homes. But here’s one more kicker: Customers are happy to spend even after the holidays. You must have an effective post-holiday promotions strategy in place to get the best bang for your buck. Add gift card incentives into the mix to make your campaigns successful. 

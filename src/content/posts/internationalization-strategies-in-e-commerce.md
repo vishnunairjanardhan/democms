@@ -1,12 +1,17 @@
 ---
 pubDate: 2023-02-08
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "Internationalization Strategies in E-Commerce"
 description: "Internationalization has become a global buzzword in the world of e-commerce"
+heading: Internationalization Strategies in E-Commerce
 image:
   url: "/assets/blog/Internationalization-Strategies-in-e-commerce.jpg"
-  alt: "The word community with a heart."
+  alt: "E-commerce Strategies."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/internationalization-strategies-in-e-commerce"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/Internationalization-Strategies-in-e-commerce.jpg">
 

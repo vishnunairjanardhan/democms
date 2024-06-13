@@ -1,12 +1,17 @@
 ---
 pubDate: 2021-03-08
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Inspirational Women in Ecommerce
 description: "Join 99minds in celebrating women in eCommerce who are driving the industry forward with their incomparable contributions. Let us look at a few of them who have made a name for themselves, either as entrepreneurs or employees. Lillian Tung: She's the co-founder and CMO of Fur, a body-care line that promotes natural beauty. The haircare."
+heading: Inspirational Women in Ecommerce
 image:
   url: "/assets/blog/Inspirational-Women-in-Ecommerce3-800x450.jpg"
   alt: "Inspirational women in ecommerce."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/inspirational-women-in-ecommerce"
+keywords: ["99minds"]
+
 --- 
 <a href="https://www.99minds.io/blog/generic/inspirational-women-in-ecommerce/" target="_blank">
 <img src="/assets/blog/Inspirational-Women-in-Ecommerce3.jpg"></a>

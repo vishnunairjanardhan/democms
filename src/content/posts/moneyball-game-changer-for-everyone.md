@@ -1,12 +1,17 @@
 ---
 pubDate: 2020-01-28
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Moneyball- Game Changer for Everyone
 description: "Who would have in their wildest dreams thought about how calculating data can lead them to predict specific impossible scenarios of life? No one. I bet. Because what seemed to be a statistical analysis of data when Billy Beane and his assistant Paul DePodesta innovated sabermetrics, achieved it in 2004, is our next revolution. Creating"
+heading: Moneyball- Game Changer for Everyone
 image:
   url: "/assets/blog/Moneyball-Game-Changer-for-Everyone.jpg"
-  alt: "The word community with a heart."
+  alt: "Moneyball-game changer."
 tags: ["Machine Learning"]
+url: "https://www.99minds.io/blog/moneyball-game-changer-for-everyone"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/Moneyball-Game-Changer-for-Everyone.jpg">
 

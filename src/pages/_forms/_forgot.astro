@@ -1,0 +1,19 @@
+---
+import SplashScreenLayout from "../../layouts/SplashScreenLayout.astro";
+import ForgotPassword from "../../components/forms/ForgotPassword.astro";
+import { AstroSeo } from "@astrolib/seo";
+import { Seo } from "../../config/Seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="Forgot password"
+  description="Your site description goes here"
+  canonical="https://www.lexingtonthemes.com"
+  {...Seo}
+/>
+<SplashScreenLayout>
+  <ForgotPassword />
+</SplashScreenLayout>

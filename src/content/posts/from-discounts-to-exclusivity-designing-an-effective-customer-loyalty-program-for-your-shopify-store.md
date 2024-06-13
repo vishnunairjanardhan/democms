@@ -1,12 +1,17 @@
 ---
 pubDate: 2023-09-13
 author: Pravin Kamble
+authorImg: "Pravin.png"
 title: From Discounts to Exclusivity - Designing an Effective Customer Loyalty Program for Your Shopify Store
 description: "A customer loyalty program can create an uptick in sales, reduce churn, and keep everyone associated with your business smiling and cheerful."
+heading: From Discounts to Exclusivity - Designing an Effective Customer Loyalty Program for Your Shopify Store
 image:
   url: "/assets/blog/From-Discounts-to-Exclusivity-Designing-an-Effective-Customer-Loyalty-Program-for-Your-Shopify-Store.jpg"
-  alt: "The word community with a heart."
+  alt: "Effective Customer Loyalty Program."
 tags: ["Customer Loyalty"]
+url: "https://www.99minds.io/blog/from-discounts-to-exclusivity-designing-an-effective-customer-loyalty-program-for-your-shopify-store"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/From-Discounts-to-Exclusivity-Designing-an-Effective-Customer-Loyalty-Program-for-Your-Shopify-Store.jpg">
 

@@ -1,12 +1,17 @@
 ---
 pubDate: 2022-01-27
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "Small Business Ideas for Valentine’s Day"
 description: "Valentine's Day generates $18.9 billion in revenue. According to the National Retail Federation, 9 out of 10 Americans expect to buy something for their significant other, each spending an average of $88. Lovers exchange gifts, couples go on romantic outings, and some want to have a lovely Valentine's Day. But Valentine's Day isn't just for"
+heading: Small Business Ideas for Valentine’s Day
 image:
   url: "/assets/blog/Small-Business-ideas-for-Valentines-Day.jpg"
   alt: "The word community with a heart."
 tags: ["Marketing"]
+url: "https://www.99minds.io/blog/small-business-ideas-for-valentines-day"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/Small-Business-ideas-for-Valentines-Day.jpg">
 

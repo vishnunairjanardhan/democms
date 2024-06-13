@@ -1,12 +1,17 @@
 ---
 pubDate: 2021-09-14
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How to turn your hard-earned sales into repeat customers
 description: "There are two major strategies to expand your company. The first is to keep acquiring new customers. The second step is to concentrate on maintaining current customers and enhancing their lifetime value. Although the first method may work for a short time, it is not long-term or cost-effective. Customer loyalty programs are still one of"
+heading: How to turn your hard-earned sales into repeat customers
 image:
   url: "/assets/blog/How-to-turn-your-hard-earned-sales-into-repeat-customers.jpg"
-  alt: "The word community with a heart."
+  alt: "Hard earn sales into customer."
 tags: ["Customer Retention"]
+url: "https://www.99minds.io/blog/how-to-turn-your-hard-earned-sales-into-repeat-customers"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/How-to-turn-your-hard-earned-sales-into-repeat-customers.jpg">
 

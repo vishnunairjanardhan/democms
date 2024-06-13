@@ -1,12 +1,17 @@
 ---
 pubDate: 2023-02-21
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "Future of ecommerce in 2023"
 description: "eCommerce stores are rampant in every niche, and the competition is fierce. Without standing apart from your competitors, it will be difficult to keep growing exponentially. Consumer behavior keeps changing, especially in the world of eCommerce. There are too many factors that change the purchasing behavior and motivations of your customers. You must be aware"
+heading: Future of ecommerce in 2023
 image:
   url: "/assets/blog/Future-of-ecommerce-in-2023-1.jpg"
-  alt: "The word community with a heart."
+  alt: "E-commerce Future in 2023."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/future-of-ecommerce-in-2023"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/Future-of-ecommerce-in-2023-1.jpg">
 

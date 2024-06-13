@@ -1,198 +1,34 @@
 ---
 import Verticalgrid from "../assets/Verticalgrid.astro";
-import {integrations } from "../../config/Integration.jsx"
+import { Integrations } from "../../config/Integration.jsx"
 ---
 
 <section class="relative">
   <Verticalgrid />
   <div class="relative px-8 py-32 mx-auto space-y-24 max-w-7xl md:px-12 lg:px-16 lg:py-24">
-    <div class="max-w-2xl">
+    <div class="max-w-4xl">
       <div>
-        <p class="mt-8 text-4xl font-normal tracking-tighter text-white sm:text-5xl">Integrations</p>
-        <p class="max-w-xl mt-4 text-base text-vulcan-300">Empower Your Brick & Click Store With Powerful Integrations</p>
+        <h2 class="mt-8">Integrations</h2>
+        <p class="max-w-4xl mt-4 text-xl">Empower Your Brick & Mortar Store With Powerful Integrations</p>
       </div>
     </div>
     <ul class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24" role="list">
-      {integrations.map((item, index) => (
+      {Integrations.map((item, index) => (
         <li key={index}>
           <div>
-            <img class='w-1/4' src={item.image} alt={item.title} />
+            <a href={item.url}><img class='w-1/4' src={item.image} alt={item.title} /></a>
             <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p>
           </div>
-          <div class="mt-2 text-sm text-vulcan-300">
-            {item.desc}
+          <div class="mt-2 ">
+            <p class="text-base">{item.desc}</p>
           </div>
         </li>
       ))}
     </ul>
     <div class="flex flex-col gap-12 pt-12 mt-12 border-t not-prose border-white/10 md:flex-row">
       <p>
-        <a class="text-indigo-400 duration-200 hover:text-white" href="/integrationspage">View all integrations &nbsp; &rarr;</a>
+        <a class="text-white/70 duration-200 hover:text-white" href="/integrations">View all integrations &nbsp; &rarr;</a>
       </p>
     </div>
   </div>
-
-  <!-- <div
-    class="relative px-8 py-32 mx-auto space-y-24 max-w-7xl md:px-12 lg:px-16 lg:py-24">
-    <div class="max-w-2xl">
-      <div>
-        <p
-          class="mt-8 text-4xl font-normal tracking-tighter text-white sm:text-5xl">
-          Integrations
-        </p>
-        <p class="max-w-xl mt-4 text-base text-vulcan-300">
-          Empower Your Brick & Click Store With Powerful Integrations
-        </p>
-      </div>
-    </div>
-    <ul
-      class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24"
-      role="list">
-      <li>
-        <div>
-          <img class="w-1/4" src="/integrations/klaviyo-icon.svg" alt="" />
-          <p class="mt-4 text-lg font-medium text-white lg:text-xl">Klaviyo</p>
-        </div>
-        <div class="mt-2 text-sm text-vulcan-300">
-          An email marketing platform that allows for personalized customer engagement through targeted email and SMS marketing campaigns.
-          <p class="mt-4">
-            <a
-              href="/integrations/integrations-details"
-              class="text-sm leading-6 text-indigo-300 hover:text-white"
-              >Read more <span aria-hidden="true">&rarr;</span></a
-            >
-          </p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img class="w-1/4" src="/integrations/omnisend-icon.svg" alt="" />
-          <p class="mt-4 text-lg font-medium text-white lg:text-xl">Omnisend</p>
-        </div>
-        <div class="mt-2 text-sm text-vulcan-300">
-          An easy-to-use marketing automation platform specialized in email and SMS messaging to enhance e-commerce marketing.
-          <p class="mt-4">
-            <a
-              href="/integrations/integrations-details"
-              class="text-sm leading-6 text-indigo-300 hover:text-white"
-              >Read more <span aria-hidden="true">&rarr;</span></a
-            >
-          </p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img class="w-1/4" src="/integrations/vend 3.svg" alt="" />
-          <p class="mt-4 text-lg font-medium text-white lg:text-xl">Vend</p>
-        </div>
-        <div class="mt-2 text-sm text-vulcan-300">
-          An online payment system for sending and receiving money.
-          <p class="mt-4">
-            <a
-              href="/integrations/integrations-details"
-              class="text-sm leading-6 text-indigo-300 hover:text-white"
-              >Read more <span aria-hidden="true">&rarr;</span></a
-            >
-          </p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img class="w-1/4" src="/integrations/heartland-icon.svg" alt="" />
-          <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-            Heartland
-          </p>
-        </div>
-        <div class="mt-2 text-sm text-vulcan-300">
-          A global payment technology company offering a wide range of payment processing and financial services to businesses.
-          <p class="mt-4">
-            <a
-              href="/integrations/integrations-details"
-              class="text-sm leading-6 text-indigo-300 hover:text-white"
-              >Read more <span aria-hidden="true">&rarr;</span></a
-            >
-          </p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img class="w-1/4" src="/integrations/hike-icon.svg" alt="" />
-          <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-            Hike
-          </p>
-        </div>
-        <div class="mt-2 text-sm text-vulcan-300">
-          A versatile point-of-sale and inventory management system designed for seamless retail operations.
-          <p class="mt-4">
-            <a
-              href="/integrations/integrations-details"
-              class="text-sm leading-6 text-indigo-300 hover:text-white"
-              >Read more <span aria-hidden="true">&rarr;</span></a
-            >
-          </p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img class="w-1/4" src="/integrations/SendGrid.svg" alt="" />
-          <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-            SendGrid
-          </p>
-        </div>
-        <div class="mt-2 text-sm text-vulcan-300">
-          A cloud-based email delivery service providing robust email marketing and transactional email solutions.
-          <p class="mt-4">
-            <a
-              href="/integrations/integrations-details"
-              class="text-sm leading-6 text-indigo-300 hover:text-white"
-              >Read more <span aria-hidden="true">&rarr;</span></a
-            >
-          </p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img class="w-1/4" src="/integrations/stripe.svg" alt="" />
-          <p class="mt-4 text-lg font-medium text-white lg:text-xl">Stripe</p>
-        </div>
-        <div class="mt-2 text-sm text-vulcan-300">
-          A leading payment processing platform designed to handle online and in-app transactions seamlessly.
-          <p class="mt-4">
-            <a
-              href="/integrations/integrations-details"
-              class="text-sm leading-6 text-indigo-300 hover:text-white"
-              >Read more <span aria-hidden="true">&rarr;</span></a
-            >
-          </p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img class="w-1/4" src="/integrations/rp-white-logo 2.svg" alt="" />
-          <p class="mt-4 text-lg font-medium text-white lg:text-xl">
-            RetailPro
-          </p>
-        </div>
-        <div class="mt-2 text-sm text-vulcan-300">
-          A payment processing company for businesses of all sizes, they matter.
-          <p class="mt-4">
-            <a
-              href="/integrations/integrations-details"
-              class="text-sm leading-6 text-indigo-300 hover:text-white"
-              >Read more <span aria-hidden="true">&rarr;</span></a
-            >
-          </p>
-        </div>
-      </li>
-    </ul>
-    <div
-            class="flex flex-col gap-12 pt-12 mt-12 border-t not-prose border-white/10 md:flex-row">
-            <p>
-              <a
-                class="text-indigo-400 duration-200 hover:text-white"
-                href="/integrations">View all integrations &nbsp; &rarr;</a
-              >
-            </p>
-          </div>
-  </div> -->
 </section>

@@ -1,12 +1,17 @@
 ---
 pubDate: 2021-01-13
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "The future of Ecommerce in 2021"
 description: "Unprecedented. That's the best word to describe the year 2020. The effects of 2020 will surely trickle down to the next year, but we will also see a massive resurgence in the way customers behave and how eCommerce fares. What do you think? ECommerce's future has changed drastically in the last few years, with artificial"
+heading: The future of Ecommerce in 2021
 image:
   url: "/assets/blog/The-future-of-ecommerce-in-20212.jpg"
-  alt: "The word community with a heart."
+  alt: "Future of e-commerce in 2021."
 tags: ["Ecommerce"]
+url: "https://www.99minds.io/blog/the-future-of-ecommerce-in-2021"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/The-future-of-ecommerce-in-20212.jpg">
 

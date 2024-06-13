@@ -1,12 +1,17 @@
 ---
 pubDate: 2023-07-25
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How to implement an effective customer loyalty program into your Shopify store
 description: "Being a part of an exclusive community is a bragging matter for everyone. People love to be a part of clubs or places which cannot be accessed by everybody. This is why customer loyalty programs are all the rage. They make you feel as if you are a part of royalty."
+heading: How to implement an effective customer loyalty program into your Shopify store
 image:
   url: "/assets/blog/Building-Customer-Loyalty-How-to-Implement-Effective-Loyalty-Programs-on-Your-Shopify-Store.jpg"
-  alt: "The word community with a heart."
+  alt: "Effective Customer Loyalty Program on Your Shopify Store."
 tags: ["Gift Card", "Shopify"]
+url: "https://www.99minds.io/blog/how-to-implement-an-effective-customer-loyalty-program-into-your-shopify-store"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/Building-Customer-Loyalty-How-to-Implement-Effective-Loyalty-Programs-on-Your-Shopify-Store.jpg">
 

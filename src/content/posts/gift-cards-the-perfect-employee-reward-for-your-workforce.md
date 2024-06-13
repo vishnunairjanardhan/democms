@@ -1,12 +1,17 @@
 ---
 pubDate: 2021-01-08
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "Gift Cards: The Perfect Reward For Your Workforce"
 description: "One of the best ways to keep your employees satisfied and feel appreciated is by rewarding them with incentives. Every one of us wants to feel valued and acknowledged for the work that we do. It creates a sense of loyalty towards the organization. Businesses that do not have a rewards system might end up"
+heading: "Gift Cards: The Perfect Reward For Your Workforce"
 image:
   url: "/assets/blog/Gift-Cards-The-Perfect-Employee-Reward-For-Your-Workforce1.jpg"
-  alt: "The word community with a heart."
+  alt: "Rewards for your workforce."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/gift-cards-the-perfect-employee-reward-for-your-workforce"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/Gift-Cards-The-Perfect-Employee-Reward-For-Your-Workforce1.jpg">
 

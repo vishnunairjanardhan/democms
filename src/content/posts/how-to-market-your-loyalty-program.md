@@ -1,12 +1,17 @@
 ---
 pubDate: 2022-05-02
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How to Market your Loyalty Program? 
 description: What is the best way to market your loyalty program? Before we begin, let's take a glance at why a loyalty program is so crucial. When the pandemic hit, 20% of consumers changed brands right away but 73% of loyalty members spent more money on their favorite brands. In a survey, 90% of respondents said.
+heading: How to Market your Loyalty Program? 
 image:
   url: "/assets/blog/How-to-Market-your-Loyalty-Program-800x450.jpg"
   alt: "How to market your loyalty program."
 tags: ["Loyalty Program"]
+url: "https://www.99minds.io/blog/how-to-market-your-loyalty-program"
+keywords: ["99minds"]
+
 --- 
 <a href="https://www.99minds.io/blog/generic/10-best-point-of-sale-pos-systems-for-2022/">
 <img src="/assets/blog/How-to-Market-your-Loyalty-Program.jpg"></a>

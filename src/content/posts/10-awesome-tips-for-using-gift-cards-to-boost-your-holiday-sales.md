@@ -1,12 +1,17 @@
 ---
 pubDate: 2020-12-14
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "10 Awesome Tips for Using Gift Cards to Boost Your Holiday Sales"
 description: "This is the season of hope. From the time the world went into a metaphorical shell, all of us have been praying for December to come sooner, the season of Christmas, and the dawn of a new year that all of us are waiting for. If you are a retailer, this is the season when"
+heading: 10 Awesome Tips for Using Gift Cards to Boost Your Holiday Sales
 image:
   url: "/assets/blog/10-Awesome-Tips-for-Using-Gift-Cards-to-Boost-Your-Holiday-Sales.jpg"
-  alt: "The word community with a heart."
+  alt: "Boost your holiday sales with gift cards."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/10-awesome-tips-for-using-gift-cards-to-boost-your-holiday-sales"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/10-Awesome-Tips-for-Using-Gift-Cards-to-Boost-Your-Holiday-Sales.jpg">
 

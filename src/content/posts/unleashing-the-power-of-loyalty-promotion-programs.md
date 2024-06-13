@@ -1,12 +1,17 @@
 ---
 pubDate: 2020-03-31
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Unleashing The Power Of Loyalty & Promotion Programs
 description: "Loyalty is one of the most underrated traits in relationships as well as businesses. Here we have tried to highlight the importance of loyalty and promotions programs."
+heading: Unleashing The Power Of Loyalty & Promotion Programs
 image:
   url: "/assets/blog/Unleashing-the-power-of-Loyalty-Promotion-programs1200px.jpg"
-  alt: "The word community with a heart."
+  alt: "Power of loyalty and promotion programs."
 tags: ["Loyalty","Loyalty Program"]
+url: "https://www.99minds.io/blog/unleashing-the-power-of-loyalty-promotion-programs"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/Unleashing-the-power-of-Loyalty-Promotion-programs1200px.jpg">
 

@@ -1,12 +1,17 @@
 ---
 pubDate: 2023-09-06
 author: Pravin Kamble
+authorImg: "Pravin.png"
 title: The Art of Creating Irresistible Gift Card Designs for Your Shopify Store
 description: "A gift card can be one more sales channel for you and also act as a souvenir of sorts. It can do more than two things at a time."
+heading: The Art of Creating Irresistible Gift Card Designs for Your Shopify Store
 image:
   url: "/assets/blog/The-Art-of-Creating-Irresistible-Gift-Card-Designs-for-Your-Shopify-Store.jpg"
-  alt: "The word community with a heart."
+  alt: "Gift Card Design for Your Shopify Store."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/The-Art-of-Creating-Irresistible-Gift-Card-Designs-for-Your-Shopify-Store.jpg">
 

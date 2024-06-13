@@ -1,12 +1,17 @@
 ---
 pubDate: 2022-08-05
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "How to Benefit from Omnichannel Strategies for Your eCommerce"
 description: "Ultimately, customers don’t care about what channel they’re shopping in or about how we deliver them a product or service. They simply know they’re shopping with Walmart."
+heading: How to Benefit from Omnichannel Strategies for Your eCommerce
 image:
   url: "/assets/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce1.jpg"
-  alt: "The word community with a heart."
+  alt: "Omnichannel Strategies."
 tags: ["Omnichannel"]
+url: "https://www.99minds.io/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce1.jpg">
 

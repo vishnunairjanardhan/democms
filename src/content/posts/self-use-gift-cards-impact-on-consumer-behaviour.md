@@ -1,12 +1,17 @@
 ---
 pubDate: 2021-12-30
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "Self-Use Gift Cards: Impact On Consumer Behaviour"
 description: "Despite the world's erratic economic position, Gift Cards remain a staple of gift-giving worldwide, joined by the emergence of new trends such as the boom in self-use. Now that several world regions are resuming their transition from crisis management to recovery and economic revitalization, new consumer behaviors are emerging: shifting purchasing patterns, shifting preferences, digital"
+heading: "Self-Use Gift Cards: Impact On Consumer Behaviour"
 image:
   url: "/assets/blog/Self-Use-Gift-Cards-Impact-On-Consumer-Behavior1.jpg"
-  alt: "The word community with a heart."
+  alt: "Self use gift card."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/self-use-gift-cards-impact-on-consumer-behaviour"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/Self-Use-Gift-Cards-Impact-On-Consumer-Behavior1.jpg">
 

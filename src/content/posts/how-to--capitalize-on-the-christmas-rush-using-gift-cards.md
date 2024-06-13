@@ -1,12 +1,17 @@
 ---
 pubDate: 2023-12-14
 author: Mrudul
+authorImg: "Mrudul.png"
 title: How to Capitalize on the Christmas Rush Using Gift Crads
 description: "In this article, we look at some of the best strategies to leverage gift cards this holiday season. Read on for more about holiday marketing."
+heading: How to Capitalize on the Christmas Rush Using Gift Crads
 image: 
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-14.png"
   alt: "Christmas Gift Cards."
 tags: ["Gift Card",]
+url: "https://www.99minds.io/blog/how-to--capitalize-on-the-christmas-rush-using-gift-cards"
+keywords: ["99minds"]
+
 --- 
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-14.png">
 

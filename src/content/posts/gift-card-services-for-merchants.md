@@ -1,12 +1,17 @@
 ---
 pubDate: 2022-05-13
 author: Mrudul
+authorImg: "Mrudul.png"
 title: GIFT CARD SERVICES FOR MERCHANTS  
 description: Gift card, this little thing... is the most popular present among Americans - it is used by everyone from children to elders, from multinationals to small startups, from coffee shops to hair salons and so on and its popularity is still growing. It isn't just about Americans. The global gift card market is currently $307.
+heading: GIFT CARD SERVICES FOR MERCHANTS  
 image:
   url: "/assets/blog/Gift-Card-Services-for-Marchants-800x450.jpg"
   alt: "Gift card services for marchants."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/gift-card-services-for-merchants"
+keywords: ["99minds"]
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/gift-card-services-for-merchants/">
 <img src="/assets/blog/Gift-Card-Services-for-Marchants.jpg"></a>

@@ -4,33 +4,36 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
 import backgroundUrl from "../assets/images/header-startseite.webp";
 ---
 
-<section class="relative">
-  <Verticalgrid />
-  <!--<Blurgradientleft />-->
+<section class="relative" aria-label="Main Content">
+  <Verticalgrid aria-hidden="true" />
+  <!--<Blurgradientleft aria-hidden="true" />-->
  <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-0 lg:px-0 max-w-7xl lg:pt-36">
     <div class="grid grid-cols-1 gap-6 p-6 pb-0 overflow-hidden lg:grid-cols-2 lg:gap-24 lg:p-16 lg:pb-0">
       <div class="relative items-center gap-12 pb-12 m-auto lg:inline-flex md:order-first lg:pb-32 xl:pt-0">
         <div class="max-w-2xl text-center lg:text-left">
-          <h1 class="mt-8 text-4xl font-normal tracking-tighter text-white sm:text-5xl">
+          <h1 class="mt-8 sm:text-5xl">
             <span class="text-indigo-800"></span>A more engaging way to offer loyalty programs, gift cards,
                 offers and more
           </h1>
-          <p class=" text-xl max-w-2xl mt-4 text-vulcan-300 ">
+          <p class="max-w-2xl mt-4" aria-label="Sub Heading">
           Online solution to manage and scale gift cards, store credit, digital wallets, and loyalty programs. Build better brands to acquire, engage, and retain lifelong customers.
           </p>
-          <div class="flex flex-wrap items-center gap-2 mt-10">
+          <div class="lg:flex gap-2 mt-10" role="group">
               <div x-data="{ open: false }" class="flex justify-center">
               <!-- Trigger -->
               <span x-on:click="open = true">
-                 <button type="button" class="relative  p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+                 <button type="button" class="raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
                 <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
                 <span class="relative text-white">Get started for free</span>
                 </span></button>
                                 <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
               </span>
+              <button class="text-vulcan-300 ml-5 flex items-center hover:text-indigo-500"  role="button" aria-label="Book a Demo" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });"><svg role="img" alt="customer support logo" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+              </svg> <p class="mx-2">Book a Demo </p> </button>
               <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="Book a demo">
                 <!-- Overlay -->
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
@@ -53,28 +56,25 @@ import backgroundUrl from "../assets/images/header-startseite.webp";
                 </div>
               </div>
             </div>
-            
-          <div class="grid grid-cols-2 sm:grid-cols-2 mt-8 gap-0.5 md:grid-cols-2">
-          <div class="flex col-span-2 lg:col-span-1">
-            <img class="h-5 lg:h-6" alt="hero" src="/assets/homepage/5-star-logos.png"/>
-            </div>
-          
-          <div class="flex mt-4 lg:mt-0 col-span-1">
-            <p class=" text-l text-white max-w-2xl text-vulcan-300">
-                100% 5-Star Review
-            </p> 
-          </div>    
-          </div>
-
-
-        </div>
+  <div class="grid grid-cols-2 sm:grid-cols-2 mt-8 gap-0.5 md:grid-cols-2" aria-label="5 Star Rating">
+    <div class="flex col-span-2 lg:col-span-1 justify-center">
+      <img role="img" loading="lazy" class="h-5 lg:h-6" alt="5 Star Rating" src="/assets/homepage/5-star-logos.png"/>
+    </div>
+    <div class="flex mt-4 lg:mt-0 lg:col-span-1 col-span-2 lg:justify-left justify-center">
+        <p class="text-l text-white max-w-2xl text-vulcan-300">
+          100% 5-Star Review
+        </p> 
+    </div>    
+  </div>
+    </div>
       </div>
-      <div class="flex relative order-first w-full lg:block">
+      <div class="flex relative w-full lg:block">
         <img
+          role="img"
+          loading="lazy"
           class="object-cover object-center w-full mx-auto  lg:absolute lg:ml-auto shadow-black"
-          alt="hero"
-          src="/assets/homepage/h1.png"
-        />
+          alt="99minds hero image"
+          src="/assets/homepage/h1.png"/>
       </div>
     </div>
   </div>

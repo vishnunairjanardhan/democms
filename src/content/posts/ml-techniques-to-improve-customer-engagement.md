@@ -1,12 +1,17 @@
 ---
 pubDate: 2020-04-16
 author: Mrudul
+authorImg: "Mrudul.png"
 title: ML Techniques to Improve Customer Engagement
 description: "Struggling to improve your customer engagement? May be ML can help you here. In this blog we have tried to highlight how ML can help you to improve customer engagement"
+heading: ML Techniques to Improve Customer Engagement
 image:
   url: "/assets/blog/what-the-heck.jpg"
-  alt: "The word community with a heart."
+  alt: "ML Techniques to Improve Customer Engagement."
 tags: ["Machine Learning"]
+url: "https://www.99minds.io/blog/ml-techniques-to-improve-customer-engagement"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/what-the-heck.jpg">
 

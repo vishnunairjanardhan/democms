@@ -1,0 +1,19 @@
+---
+import SplashScreenLayout from "../../layouts/SplashScreenLayout.astro";
+import Error404 from "../../components/Infopages/Error404.astro";
+import { AstroSeo } from "@astrolib/seo";
+import { Seo } from "../../config/Seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="404"
+  description="Your site description goes here"
+  canonical="https://www.lexingtonthemes.com"
+  {...Seo}
+/>
+<SplashScreenLayout>
+  <Error404 />
+</SplashScreenLayout>

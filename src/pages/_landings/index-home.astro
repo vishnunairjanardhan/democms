@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeroThree from "../../components/heros/HeroThree.astro";
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeaturesTab from "../../components/features/FeaturesTab.astro";
+import FeaturesTab2 from "../../components/features/FeaturesTab2.astro";
+import TestimonialTwo99minds from "../../components/testimonials/TestimonialTwo99minds.astro";
+import FeaturesTab2 from "../../components/features/FeaturesTab2.astro";
+import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
+import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
+import { AstroSeo } from "@astrolib/seo";
+import { Seo } from "../../config/Seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="Landing page 3"
+  description="Your site description goes here"
+  canonical="https://www.lexingtonthemes.com"
+  {...Seo}
+/>
+<BaseLayout>
+  <HeroThree />
+  <LogoCloudOne />
+  <FeaturesTab />
+  <FeaturesTab2 />
+  <TestimonialTwo99minds />
+  <Integrations99minds />
+  <CtaThree99minds />
+</BaseLayout>

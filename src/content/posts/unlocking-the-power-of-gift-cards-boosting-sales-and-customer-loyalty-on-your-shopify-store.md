@@ -1,12 +1,17 @@
 ---
 pubDate: 2023-07-17
 author: Mrudul
+authorImg: "Mrudul.png"
 title: Unlocking the Power of Gift Cards- Boosting Sales and Customer Loyalty on Your Shopify Store 
 description: "Gift cards are a boon for retailers and customers alike. Retailers who offer exclusive gift cards know about the kind of impact that they can have on your bottom line. From helping with brand awareness to acting as an extra sales channel for your organization, gift cards have innumerable benefits. Shopify stores should make it"
+heading: Unlocking the Power of Gift Cards- Boosting Sales and Customer Loyalty on Your Shopify Store 
 image:
   url: "/assets/blog/Unlocking-the-Power-of-gift-cards-1160x653.jpg"
-  alt: "The word community with a heart."
+  alt: "Power og Gift Cards."
 tags: ["Gift Card", "Shopify"]
+url: "https://www.99minds.io/blog/unlocking-the-power-of-gift-cards-boosting-sales-and-customer-loyalty-on-your-shopify-store"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/Unlocking-the-Power-of-gift-cards-1160x653.jpg">
 

@@ -1,12 +1,17 @@
 ---
 pubDate: 2021-08-04
 author: Mrudul
+authorImg: "Mrudul.png"
 title: "Are gift cards only for Holidays and seasonal sales?"
 description: "Gift cards appear to be popular with everyone, especially customers. Givers will appreciate how easy and convenient it is to give a gift card. Gift card holders have a lot of options and a simple to use payment method. Gift cards have even more benefits for businesses like yours. Gift cards are used by merchants"
+heading: Are gift cards only for Holidays and seasonal sales?
 image:
   url: "/assets/blog/Are-gift-cards-only-for-Holidays-and-seasonal-sales1.jpg"
-  alt: "The word community with a heart."
+  alt: "Gift card for holidays and seasonal sales."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/are-gift-cards-only-for-holidays-and-seasonal-sales"
+keywords: ["99minds"]
+
 ---
 <img src="/assets/blog/Are-gift-cards-only-for-Holidays-and-seasonal-sales1.jpg">
 

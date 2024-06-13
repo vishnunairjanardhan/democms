@@ -1,9 +1,11 @@
---- import Verticalgrid from "../assets/Verticalgrid.astro"; --- <section>
+--- import Verticalgrid from "../assets/Verticalgrid.astro"; --- 
+<section>
   <div class="px-8 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
     <div class="mx-auto lg:text-center lg:py-12">
       <h2 class="mt-8 text-white text-2xl xl:text-3xl 2xl:text-5xl font-normal tracking-tight text-white"> Additional key features. </h2>
     </div>
-    <div class="relative w-full mt-6" x-data="{
+<div>
+  <div x-data="{
         tabSelected: 1,
         tabId: $id('tabs'),
         tabButtonClicked(tabButton){
@@ -18,332 +20,119 @@
         tabContentActive(tabContent){
             return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
         }
-    }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);">
-      <div class="hidden max-w-6xl sm:block">
-        <div class=" relative inline-grid items-center justify-center w-full h-8 grid-cols-6 
-      mx-auto mt-6 text-white border-b border-gray-300 select-none" x-ref="tabButtons">
-          <button class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all 
-        cursor-pointer items-centerml-2 whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-1">Bulk Gift Card </button>
-          <button class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all cursor-pointer 
-        items-centerml-2 whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-2">Import & Migration</button>
-          <button class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all cursor-pointer items-centerml-2 
-        whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Multi-Currency</button>
-          <button class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all cursor-pointer items-centerml-2 
-        whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Multi-Store</button>
-          <button class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all cursor-pointer items-centerml-2 
-        whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Refund & Reward</button>
-          <button class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all cursor-pointer items-centerml-2 
-        whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Schedule Delivery</button>
-          <div class="absolute left-0 z-10 w-1/4 h-full duration-300 ease-out" x-ref="tabMarker" style="width: 224px; height: 32px; 
-      left: 0px;">
-            <div class="w-12 h-full border-b-2 border-purple-500"></div>
-          </div>
-        </div>
+    }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="relative mt-10">
+    <div class="relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
+      <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm py-1 px-3 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-3-1">Bulk Gift Card </button>
+      <button class="relative z-20 inline-flex py-1 px-10 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-3-2">Import & Migration</button>
+      <button class="relative z-20 inline-flex py-1 px-10 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-3-3">Multi-Currency</button>
+      <button class="relative z-20 inline-flex py-1 px-10 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-3-4">Multi-Store</button>
+      <button class="relative z-20 inline-flex py-1 px-10 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-3-4">Refund & Reward</button>
+      <button class="relative z-20 inline-flex py-1 px-10 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-3-4">Schedule Delivery</button>
+      <div class="absolute left-0 z-10 w-full h-full duration-300 ease-out" x-ref="tabMarker" style="width: 135px; height: 32px; left: 491px;">
+        <div class="w-full h-full bg-vulcan-900 border-b-2 border-violet-500"></div>
       </div>
-      <div class="relative flex items-center justify-center w-full mt-12">
-        <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6">
+    </div>
+    <div class="relative w-full pt-8 content border-t border-vulcan-800">
+      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-1" style="display: none;">
+        <!-- Tab Content 1 - Replace with your content -->
+        <section>
           <div class="relative items-center w-full" style="">
             <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-              <div class=" ">
-                <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-0 font-normal text-white tracking-tight"> Bulk Gift Card </h2>
-                        <ul class="mt-6">
-                    <li> 
-                    <div class="relative flex items-center py-2">
-                     <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-4 text-indigo-400 icon icon-tabler icon-tabler-circle-check"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                  <path d="M9 12l2 2l4 -4"></path>
-                </svg>
-                                   <p class="ml-2 text-base leading-6 text-vulcan-300"> 
-                Gift card life-cycle management, tracking, and visibility from issuance to order level redemption</p>
-                </div>
-                  </li>
-                 <li> 
-                 <div class="relative flex items-center py-2">
-                     <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-4 h-4 text-indigo-400 icon icon-tabler icon-tabler-circle-check"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                  <path d="M9 12l2 2l4 -4"></path>
-                </svg>
-                                   <p class="ml-2 text-base leading-6 text-vulcan-300"> 
-                  Customer data reporting and analytics based on gift card usage.</p>
-                  </div>
-                   </li>
-                
-            </li>
-            </ul>
-            
-                <!---<div class="flex flex-wrap items-center gap-2 mt-10">
-                  <a href="#_" class="relative p-0.5 inline-flex items-center justify-center font-bold
-                            overflow-hidden group rounded-md">
-                    <span class="w-full h-full bg-gradient-to-br
-                              from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] 
-                              group-hover:to-[#ff8a05] absolute"></span>
-                    <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md
-                                  group-hover:bg-opacity-100 duration-400">
-                      <span class="relative text-white">Sign Up Free</span>
-                    </span>
-                  </a>
-                </div>--->
+              <div>
+                <h2 class="2xl:text-5xl"> Bulk Gift Card </h2>
+                <p class="mt-6 ">Gift card life-cycle management, tracking, and visibility from issuance to order level redemption</p>
+                <p class="mt-4 ">Customer data reporting and analytics based on gift card usage.</p>
               </div>
               <div class="h-full">
                 <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/bulk-giftcard.png">
               </div>
             </div>
           </div>
-        </div>
-        <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-5" style="display: none;">
+        </section>
+        <!-- End Tab Content 1 -->
+      </div>
+      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-2" style="display: none;">
+        <section>
           <div class="relative items-center w-full" style="">
             <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-              <div class=" ">
-                <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight"> Import & Migration </h2>
-                <ul class="mt-6">
-                    <li>                
-                     <div class="relative flex items-center py-2">
-                     <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="w-6 h-4 text-indigo-400 icon icon-tabler icon-tabler-circle-check"
-                        viewBox="0 0 24 24"
-                        stroke-width="2"
-                        stroke="currentColor"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                        <path d="M9 12l2 2l4 -4"></path>
-                      </svg>
-                      <p class="ml-2 text-base leading-6 text-vulcan-300">  
-                            Import existing gift cards | voucher | Certificates balance into 99minds.
-                      </p>
-                      </div>
-                    </li>
-                    <li>
-                     <div class="relative flex items-center py-2">
-                     <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="w-4 h-4 text-indigo-400 icon icon-tabler icon-tabler-circle-check"
-                        viewBox="0 0 24 24"
-                        stroke-width="2"
-                        stroke="currentColor"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                        <path d="M9 12l2 2l4 -4"></path>
-                      </svg>
-                      <p class="ml-2 text-base leading-6 text-vulcan-300"> Seamless migration from existing gift card processor to 99minds.</p> 
-                    </li>
-                </ul>
-                <!---<div class="flex flex-wrap items-center gap-2 mt-10">
-                  <a href="#_" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
-                    <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                    <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                      <span class="relative text-white">Sign Up Free</span>
-                    </span>
-                  </a>
-                </div>--->
+              <div>
+                <h2 class="2xl:text-5xl">Import & Migration</h2>
+                <p class="mt-6 ">Import existing gift cards | voucher | Certificates balance into 99minds.</p>
+                <p class="mt-4 ">Seamless migration from existing gift card processor to 99minds.</p>
               </div>
               <div class="h-full">
                 <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/import-migration.png">
               </div>
             </div>
           </div>
-        </div>
-        <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6" style="display: none;">
+        </section>
+      </div>
+      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-3" style="">
+        <section>
           <div class="relative items-center w-full" style="">
             <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-              <div class=" ">
-                <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight"> Multi-Currency </h2>
-                <ul class="mt-6">
-                    <li>                
-                      <div class="relative flex items-center py-2">
-                     <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="w-6 h-4 text-indigo-400 icon icon-tabler icon-tabler-circle-check"
-                        viewBox="0 0 24 24"
-                        stroke-width="2"
-                        stroke="currentColor"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                        <path d="M9 12l2 2l4 -4"></path>
-                      </svg>
-                      <p class="ml-2 text-base leading-6 text-vulcan-300"> 
-                            Supports 100+ currencies, including USD, CAD, EUR, GBP, KRW, JPY, CNY & many more!
-                      </p>
-                    </li>
-                </ul>                
+              <div>
+                <h2 class="2xl:text-5xl">Multi-Currency</h2>
+                <p class="mt-6">Supports 100+ currencies, including USD, CAD, EUR, GBP, KRW, JPY, CNY & many more!</p>
+                <!--<p class="mt-4">Customer data reporting and analytics based on gift card usage.</p>-->
               </div>
               <div class="h-full">
                 <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/multi-currency.png">
               </div>
             </div>
           </div>
-        </div>
-      
-      <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-2-content-6" style="display: none;">
-        <div class="relative items-center w-full" style="">
-          <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-            <div class=" ">
-              <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight"> Multi-Stor </h2>
-                <ul class="mt-6">
-                    <li>                
-                      <div class="relative flex items-center py-2">
-                     <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="w-6 h-4 text-indigo-400 icon icon-tabler icon-tabler-circle-check"
-                        viewBox="0 0 24 24"
-                        stroke-width="2"
-                        stroke="currentColor"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                        <path d="M9 12l2 2l4 -4"></path>
-                      </svg>
-                      <p class="ml-2 text-base leading-6 text-vulcan-300">
-                            Gift card can be redeemed at multiple locations
-                      </p>
-                      </div>
-                    </li>
-                </ul>              
-            </div>
-            <div class="h-full">
-              <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/multi-store.png" />
-            </div>
-          </div>
-        </div>
+        </section>
       </div>
-      
-      
-        <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-1" style="">
+      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-4" style="display: none;">
+        <section>
           <div class="relative items-center w-full" style="">
             <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-              <div class=" ">
-                <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight">Return & Refund</h2>
-                  <ul class="mt-6">
-                    <li>                
-                      <div class="relative flex items-center py-2">
-                     <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="w-4 h-4 text-indigo-400 icon icon-tabler icon-tabler-circle-check"
-                        viewBox="0 0 24 24"
-                        stroke-width="2"
-                        stroke="currentColor"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                        <path d="M9 12l2 2l4 -4"></path>
-                      </svg>
-                      <p class="ml-2 text-base leading-6 text-vulcan-300"> 
-                            Gift card can be issue for merchandise return.
-                      </p>
-                      </div>
-                    </li>
-                    <li>
-                    <div class="relative flex items-center py-2">
-                     <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="w-6 h-4 text-indigo-400 icon icon-tabler icon-tabler-circle-check"
-                        viewBox="0 0 24 24"
-                        stroke-width="2"
-                        stroke="currentColor"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                        <path d="M9 12l2 2l4 -4"></path>
-                      </svg>
-                      <p class="ml-2 text-base leading-6 text-vulcan-300">
-                      Gift card amount can be updated on merchandise return bought on gift card.</p> 
-                      </div>
-                    </li>
-                  </ul>                
+              <div>
+                <h2 class="2xl:text-5xl">Multi-Stor</h2>
+                <p class="mt-6 ">Gift card can be redeemed at multiple locations</p>
+                <!--<p class="mt-4 text-vulcan-300 text-base">Customer data reporting and analytics based on gift card usage.</p>-->
+              </div>
+              <div class="h-full">
+                <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/multi-store.png">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-4" style="display: none;">
+        <section>
+          <div class="relative items-center w-full" style="">
+            <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+              <div>
+                <h2 class="2xl:text-5xl">Return & Refund</h2>
+                <p class="mt-6 ">Gift card can be issue for merchandise return.</p>
+                <p class="mt-4 ">Gift card amount can be updated on merchandise return bought on gift card.</p>
               </div>
               <div class="h-full">
                 <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/refund-giftcard.png">
               </div>
             </div>
           </div>
+        </section>
       </div>
-      <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6" style="display: none;">
+      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-4" style="display: none;">
+        <section>
           <div class="relative items-center w-full" style="">
             <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-              <div class=" ">
-                <h2 class="text-2xl xl:text-3xl 2xl:text-5xl mt-8 font-normal text-white tracking-tight">Schedule Delivery</h2>
-                  <ul class="mt-6">
-                    <li>                
-                      <div class="relative flex items-center py-2">
-                     <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="w-8 h-4 text-indigo-400 icon icon-tabler icon-tabler-circle-check"
-                        viewBox="0 0 24 24"
-                        stroke-width="2"
-                        stroke="currentColor"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                        <path d="M9 12l2 2l4 -4"></path>
-                      </svg>
-                      <p class="ml-2 text-base leading-6 text-vulcan-300">
-                            Schedule Gift card delivery on special occasion like Birthday, Anniversary, Christmas, Hanukkah etc.
-                      </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="relative flex items-center py-2">
-                     <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="w-4 h-4 text-indigo-400 icon icon-tabler icon-tabler-circle-check"
-                        viewBox="0 0 24 24"
-                        stroke-width="2"
-                        stroke="currentColor"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                        <path d="M9 12l2 2l4 -4"></path>
-                      </svg>
-                      <p class="ml-2 text-base leading-6 text-vulcan-300"> Schedule Gift card delivery up to 180 days</p> 
-                      </div>
-                    </li>
-                  </ul>
+              <div>
+                <h2 class=" xl:text-3xl 2xl:text-5xl">Schedule Delivery</h2>
+                <p class="mt-6 ">Schedule Gift card delivery on special occasion like Birthday, Anniversary, Christmas, Hanukkah etc.</p>
+                <p class="mt-4 ">Schedule Gift card delivery up to 180 days</p>
               </div>
               <div class="h-full">
                 <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/schedule-delivery.png">
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
-      
+    </div>
+
     </div>
   </div>
   </div>

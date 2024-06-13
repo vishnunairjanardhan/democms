@@ -1,12 +1,17 @@
 ---
 pubDate: 2021-04-09
 author: Mrudul
+authorImg: "Mrudul.png"
 title: 8 Ways to Boost Sales with Gift Cards this Mother’s Day
 description: "“During the pandemic, Amazon, the world’s biggest online retailer removed its “suggested products” option because of the surge in online orders and as it was too much even for them to take. That’s how unaffected online sales have been despite it pushing many other major industries to its knees. That has been the case with."
+heading: 8 Ways to Boost Sales with Gift Cards this Mother’s Day
 image:
   url: "/assets/blog/8-Ways-to-Boost-Sales-with-Gift-Cards-this-Mothers-Day-800x450.jpg"
   alt: "8 ways to boost sales with goft cards this mothers day."
 tags: ["Gift Card"]
+url: "https://www.99minds.io/blog/8-ways-to-boost-sales-with-gift-cards-this-mothers-day"
+keywords: ["99minds"]
+
 --- 
 <a href="https://www.99minds.io/blog/gift-card/8-ways-to-boost-sales-with-gift-cards-this-mothers-day/">
 <img src="/assets/blog/8-Ways-to-Boost-Sales-with-Gift-Cards-this-Mothers-Day.jpg"></a>
