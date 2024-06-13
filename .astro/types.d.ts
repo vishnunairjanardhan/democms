@@ -430,6 +430,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"build-customer-loyalty.md": {
+	id: "build-customer-loyalty.md";
+  slug: "build-customer-loyalty";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "case-study-8-brilliant-loyalty-program-cases-in-2024.md": {
 	id: "case-study-8-brilliant-loyalty-program-cases-in-2024.md";
   slug: "case-study-8-brilliant-loyalty-program-cases-in-2024";
