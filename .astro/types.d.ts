@@ -430,6 +430,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"build-customer-loyalty.md": {
+	id: "build-customer-loyalty.md";
+  slug: "build-customer-loyalty";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "case-study-8-brilliant-loyalty-program-cases-in-2024.md": {
 	id: "case-study-8-brilliant-loyalty-program-cases-in-2024.md";
   slug: "case-study-8-brilliant-loyalty-program-cases-in-2024";
@@ -584,9 +591,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"gift-card-scams-and-what-you-need-to-know-about-them.md": {
-	id: "gift-card-scams-and-what-you-need-to-know-about-them.md";
-  slug: "gift-card-scams-and-what-you-need-to-know-about-them";
+"gift-card-scams.md": {
+	id: "gift-card-scams.md";
+  slug: "gift-card-scams";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
