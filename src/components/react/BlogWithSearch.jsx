@@ -13,7 +13,8 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
 
     const filtered = sortedPosts.filter((post) =>
       post.data.title.toLowerCase().includes(searchValue) ||
-      post.data.description.toLowerCase().includes(searchValue)
+      post.data.description.toLowerCase().includes(searchValue) ||
+      post.data.heading.toLowerCase().includes(searchValue)
     );
 
     setFilteredPosts(filtered);
@@ -91,9 +92,9 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
             {currentPosts.map((post) => (
               <BlogEntry
                 url={`/blog/${post.slug}`}
-                title={post.data.title}
+                title={post.data.heading}
                 description={post.data.description}
-                alt={post.data.title}
+                alt={post.data.heading}
                 pubDate={new Date(post.data.pubDate).toLocaleDateString(undefined, {
                   year: 'numeric',
                   month: 'long',
