@@ -135,7 +135,36 @@ Here’s how small businesses can make the most of their gift card program.
 
 <h2 id="how-to-boost-customer-engagement-with-gift-cards?">How to Boost Customer Engagement with Gift Cards?</h2>
 
-<a role="link" href="https://www.bigcommerce.com/apps/99minds-gift-card/"><img loading="lazy" class=w-full src="\assets\CTA-referral.png" alt="Book a demo"></a>
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
 Gift cards aren't just about purchases, they're also great for driving customer loyalty. In this section, we’ll explore simple but effective strategies to get the most out of gift cards and keep customers coming back.
 
