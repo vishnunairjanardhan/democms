@@ -1,7 +1,7 @@
 ---
 pubDate: 2024-06-19
-author: Mrudul
-authorImg: "Mrudul.png"
+author: Piyush
+authorImg: "Piyush.webp"
 title: What is a Referral Program? 
 description: Referral programs are a powerful marketing strategy used by businesses to leverage their existing customer base to attract new customers. 
 heading: Guide to Referral Program- Benefits and How to Build One in 2024
@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/Guide to Referral Program- Benefits and How to Build One in 2024.webp"
   alt: "Howdo i set an ecommerce referral program."
 tags: ["Gift Card"]
-url: "http://www.99minds.io/blog/what-is-referral-program/"
+url: "http://www.99minds.io/blog/what-is-referral-program"
 keywords: ["referral program","referral programs","what is a referral program","client referral program",
 "successful referral programs","how to build a referral program"]
 
@@ -192,6 +192,8 @@ Successful referral programs enhance word-of-mouth marketing and overall custome
 </li>
 </ol>
 Implementing a referral program in an eCommerce business can thus be a powerful tool for driving growth, increasing customer loyalty, and enhancing overall business performance. By tapping into the natural social networks of existing customers, businesses can achieve sustainable growth and a competitive edge in the market.
+
+<a href="https://www.99minds.io/referral" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-R1 (2).webp" alt="grow your business with referrals"></a>
 
 <h2 id="Why-Do-You-Need-a-Referral-Program?">Why Do You Need a Referral Program?</h2>
 
@@ -420,6 +422,8 @@ To continuously improve your referral program, utilize the data and feedback you
 Providing excellent customer service is essential for the success of your referral program. Ensure that customers have a positive experience with your brand, as satisfied customers are more likely to refer others. Address any issues or concerns promptly and make the referral process as smooth as possible.
 </li>
 </ol>
+
+<a href="https://www.99minds.io/loyalty" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP1.webp" alt="boost customer retention with our loyalty platform"></a>
 
 <h2 class="m-0 mb-4" id="How-to-Reward-Customers-for-Referrals">How to Reward Customers for Referrals?</h2>
 
