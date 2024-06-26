@@ -360,6 +360,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"a-comprehensive-guide-to-digital-gift-cards.md": {
+	id: "a-comprehensive-guide-to-digital-gift-cards.md";
+  slug: "a-comprehensive-guide-to-digital-gift-cards";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "ai-for-everyone.md": {
 	id: "ai-for-everyone.md";
   slug: "ai-for-everyone";
