@@ -696,13 +696,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"how-do-i-set-up-an-ecommerce-referral-program.md": {
-	id: "how-do-i-set-up-an-ecommerce-referral-program.md";
-  slug: "how-do-i-set-up-an-ecommerce-referral-program";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "how-do-loyalty-programs-help-the-pet-industry.md": {
 	id: "how-do-loyalty-programs-help-the-pet-industry.md";
   slug: "how-do-loyalty-programs-help-the-pet-industry";
@@ -1123,6 +1116,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md": {
+	id: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md";
+  slug: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "the-rise-of-gift-card-popularity-in-the-ecommerce-era.md": {
 	id: "the-rise-of-gift-card-popularity-in-the-ecommerce-era.md";
   slug: "the-rise-of-gift-card-popularity-in-the-ecommerce-era";
@@ -1287,6 +1287,13 @@ declare module 'astro:content' {
 "what-is-omnichannel-commerce.md": {
 	id: "what-is-omnichannel-commerce.md";
   slug: "what-is-omnichannel-commerce";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"what-is-referral-program.md": {
+	id: "what-is-referral-program.md";
+  slug: "what-is-referral-program";
   body: string;
   collection: "posts";
   data: any
