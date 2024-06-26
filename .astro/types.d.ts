@@ -514,6 +514,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"ecommerce-referral-marketing-strategies.md": {
+	id: "ecommerce-referral-marketing-strategies.md";
+  slug: "ecommerce-referral-marketing-strategies";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "ecommerce-strategy-guide.md": {
 	id: "ecommerce-strategy-guide.md";
   slug: "ecommerce-strategy-guide";
@@ -1273,13 +1280,6 @@ declare module 'astro:content' {
 "what-is-omnichannel-commerce.md": {
 	id: "what-is-omnichannel-commerce.md";
   slug: "what-is-omnichannel-commerce";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"what-is-referral-marketing.md": {
-	id: "what-is-referral-marketing.md";
-  slug: "what-is-referral-marketing";
   body: string;
   collection: "posts";
   data: any

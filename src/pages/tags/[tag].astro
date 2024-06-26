@@ -42,7 +42,7 @@ const { posts } = Astro.props;
           {posts.map((post) => (
             <EntriesOne
               url={"/blog/" + post.slug}
-              title={post.data.title}
+              title={post.data.heading}
               description={post.data.description}
               alt={post.data.title}
               pubDate={post.data.pubDate.toString().slice(0, 10)}
