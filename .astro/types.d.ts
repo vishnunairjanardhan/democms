@@ -899,13 +899,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"how-to-set-up-a-loyalty-program-on-shopify-in-2024.md": {
-	id: "how-to-set-up-a-loyalty-program-on-shopify-in-2024.md";
-  slug: "how-to-set-up-a-loyalty-program-on-shopify-in-2024";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "how-to-turn-your-hard-earned-sales-into-repeat-customers.md": {
 	id: "how-to-turn-your-hard-earned-sales-into-repeat-customers.md";
   slug: "how-to-turn-your-hard-earned-sales-into-repeat-customers";
@@ -1081,6 +1074,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"shopify-loyalty-program.md": {
+	id: "shopify-loyalty-program.md";
+  slug: "shopify-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "small-business-ideas-for-valentines-day.md": {
 	id: "small-business-ideas-for-valentines-day.md";
   slug: "small-business-ideas-for-valentines-day";
@@ -1112,13 +1112,6 @@ declare module 'astro:content' {
 "the-future-of-ecommerce-in-2021.md": {
 	id: "the-future-of-ecommerce-in-2021.md";
   slug: "the-future-of-ecommerce-in-2021";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md": {
-	id: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards.md";
-  slug: "the-green-revolution-digital-gift-cards-vs-plastic-gift-cards";
   body: string;
   collection: "posts";
   data: any
