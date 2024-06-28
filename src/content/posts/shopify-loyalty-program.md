@@ -109,7 +109,7 @@ Personalized experiences promote stronger customer relationships. Loyalty progra
 <ol role= "list">
 Loyalty programs come in a variety of formats to accommodate different business models and client preferences, such as earning points, accessing exclusive deals, or receiving tailored rewards. Let's look at the various sorts of loyalty programs that can help businesses increase consumer engagement and achieve long-term success.
 <li><h3>Point-Based Programs</h3>
-One of the most well-liked categories of loyalty programs is point-based. Every transaction—whether it's a product purchase or an interaction with the business on social media—earns customers points. You can exchange these points for savings, freebies, or other advantages.</li> 
+One of the most well-liked categories of loyalty programs is point-based. Every transaction whether it's a product purchase or an interaction with the business on social media earns customers points. You can exchange these points for savings, freebies, or other advantages.</li> 
 
 <a href="https://www.99minds.io/loyalty/" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP2.webp" alt="Set Up a Loyalty Program"></a>
 
@@ -206,7 +206,7 @@ Loyalty programs offer significant insights into customer behavior and preferenc
 For instance, the loyalty program of a retail establishment may disclose that a significant portion of its members regularly buys skincare goods. By appealing to the preferences of their customers and generating additional sales, the business can use this data to develop focused marketing efforts that highlight new skincare lines or special discounts on certain products.</li>
 
 <a href="https://www.99minds.io/loyalty/" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP1.webp" alt="Set Up a Loyalty Program"></a>
-<li>,h3>Increasing Sales And Revenue</h3>
+<li><h3>Increasing Sales And Revenue</h3>
 Loyalty programs encourage customers to spend more to get rewards, which immediately boosts sales and income. Research by <a href="https://newsroom.accenture.com/news/2016/members-of-customer-loyalty-programs-generate-significantly-more-revenue-for-retailers-than-do-non-members-accenture-research-finds/" role="link" target="_blank">Accenture</a> found that customers who participate in loyalty programs spend up to 18% more than non-members.
 
 These initiatives raise average order value and purchase frequency by taking advantage of psychological commitment and the demand for rewards. Loyalty programs generate a memorable customer experience that encourages repeat business and increased spending by providing personalized offers, tiers of incentives, and special benefits.</li>
@@ -332,8 +332,8 @@ You can build a thorough loyalty plan with 99minds that includes gift cards, gam
 <li><b>Referral programs:</b> Amplify your customer base by rewarding existing customers for referring new ones. This not only increases your reach but also strengthens existing customer relationships as they benefit from bringing in new shoppers. Including a <a href="https://www.99minds.io/referral/" role="link" target="_blank">referral program</a> can encourage your clients to become involved and tell others about your company, which can improve your marketing efforts even more.</li>
 <li><b>Spend-based programs:</b> Reward customers based on the amount they spend in your store. This straightforward approach encourages higher-order values and repeated patronage.</li>
 <li><b>Value-based programs:</b> Align your rewards with the values of your brand and your customers. For example, you could donate a portion of a purchase to a charity, appealing to customers who value social responsibility.</li>
-<li><b?>Gamified programs:</b> Incorporate elements of gamification in your loyalty program to make the shopping experience more engaging. This could include challenges, badges, or leaderboards to keep customers interested and active.</li>
-<li><b?>Cash back programs:</b> Offer cash back in the form of coupons or direct discounts on future purchases, providing immediate value that customers can appreciate on their next visit.</li>
+<li><b>Gamified programs:</b> Incorporate elements of gamification in your loyalty program to make the shopping experience more engaging. This could include challenges, badges, or leaderboards to keep customers interested and active.</li>
+<li><b>Cash back programs:</b> Offer cash back in the form of coupons or direct discounts on future purchases, providing immediate value that customers can appreciate on their next visit.</li>
 <li><b>Coalition programs:</b> Partner with other businesses to offer a multi-brand loyalty program, expanding the variety and appeal of rewards available to your customers.</li>
 <li><b>Hybrid programs:</b> Combine different elements of the above programs to create a unique and compelling loyalty scheme that stands out in the marketplace.</li>
 </ul>
