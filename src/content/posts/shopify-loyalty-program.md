@@ -2,9 +2,9 @@
 pubDate: 2024-06-27
 author: Soniya
 authorImg: "Soniya.webp"
-title: Shopify Loyalty Program Guide l 99Minds
+title: Shopify Loyalty Program Guide | 99minds
 description: "With our complete guide, discover how to set up a successful loyalty program for your Shopify store, boost customer engagement, and increase retention. "
-heading: Shopify Loyalty Program Guide l 99Minds
+heading: Shopify Loyalty Program Guide | 99minds
 image:
   url: "/assets/blog/Shopify Loyalty Programs- A Complete Guide.jpg"
   alt: "Shopify Loyalty Program."
@@ -341,7 +341,7 @@ You can build a thorough loyalty plan with 99minds that includes gift cards, gam
 <li><h3>Other Features Of 99minds Loyalty Programs</h3></li>
 
 <a href="https://www.99minds.io/loyalty/" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP1.webp" alt="Set Up a Loyalty Program"></a>
-
+<ul>
 <li><b>Customization and integration:</b> Customize your loyalty program to fit your brand’s unique identity and seamlessly integrate it with your existing Shopify setup. For more details on how to achieve this, explore <a href="https://www.99minds.io/integrations/shopify/" role="link" target="_blank">Shopify integration</a> options.</li>
 <li><b>Gift cards:</b> Include gift cards in your loyalty program to make it better. Giving out <a href="https://www.99minds.io/giftcard/" role="link" target="_blank">gift card</a> is a great way to attract new customers and keep existing ones. They work especially well for small businesses since they give clients a simple and adaptable way to tell their friends and family about their wonderful experiences.
 
@@ -349,7 +349,7 @@ Offering a <a href="https://www.99minds.io/blog/gift-cards-for-small-businesses/
 <li><b>Analytics and reporting:</b> Gain valuable insights into your program’s performance with detailed analytics and reporting features, allowing you to make data-driven decisions to improve your strategies.</li>
 <li><b>Omnichannel capability:</b>
 Manage your loyalty program across all your sales channels, providing a consistent and unified customer experience whether online or in-store.</li>
-
+</ul>
 By implementing a loyalty program through <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a>, you can significantly enhance customer engagement, increase retention, and drive more sales, effectively transforming casual buyers into loyal customers. 
 
 
