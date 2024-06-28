@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeroIpaas from "../../components/heros/HeroIpaas.astro";
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureIpaas from "../../components/features/FeatureIpaas.astro";
+import FeatureIpaas2 from "../../components/features/FeatureIpaas2.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+import Cta99mindsPOS from "../../components/ctas/Cta99mindsPOS.astro";
+import IntegrationIpaas from "../../components/integrations/IntegrationIpaas.astro";
+import BcomRating from "../../components/Infopages/BcomRating.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="99minds and Heartland integration | 99minds"
+  description="The complete rewards solution for Heartland Retail. Drive sales from your existing customer base with smart omnichannel loyalty, gift card and store credit."
+  canonical="https://www.99minds.io/integrations/heartland"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/heartland",
+    title: "99minds and Heartland integration | 99minds",
+    description: "The complete rewards solution for Heartland Retail. Drive sales from your existing customer base with smart omnichannel loyalty, gift card and store credit.",
+    images: [
+      {
+        src: "https://www.99minds.io/assets/99minds-HL-OGI.svg",
+        alt: "99minds Heartland Integration",
+        type: "image/svg",
+      },
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroIpaas />
+  <LogoCloudOne />
+  <FeatureIpaas />
+  <FeatureIpaas2 />
+  <IntegrationIpaas />
+  <Testimonialtry />
+  <Cta99mindsPOS />
+</BaseLayout>
