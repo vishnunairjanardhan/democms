@@ -101,6 +101,13 @@ export const POS = [
   desc: "99minds integrates with ConnectPOS to provide an omnichannel experience for gift cards, loyalty programs, store credits, and coupons.  Customers can manage their programs and redeem rewards seamlessly across your online store and your ConnectPOS system.",
   alt:"99minds-ConnectPOS Integration"
 },
+{
+  image: '/integrations/ipaas-icon.svg',
+  title: 'iPaaS',
+  desc: "99minds integrates with iPaaS.com to enhance commerce experiences by seamlessly syncing loyalty data across CRM, ERP, eCommerce, FSM, Marketing, POS, and Review Management systems, enabling unified, real-time management of loyalty programs from a single platform.",
+  url: "/integrations/ipaas",
+  alt:"99minds-IPaaS Integration"
+}
 ]
 
 export const Marketing = [
