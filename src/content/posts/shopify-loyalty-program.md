@@ -109,7 +109,7 @@ Personalized experiences promote stronger customer relationships. Loyalty progra
 <ol role= "list">
 Loyalty programs come in a variety of formats to accommodate different business models and client preferences, such as earning points, accessing exclusive deals, or receiving tailored rewards. Let's look at the various sorts of loyalty programs that can help businesses increase consumer engagement and achieve long-term success.
 <li><h3>Point-Based Programs</h3>
-One of the most well-liked categories of loyalty programs is point-based. Every transaction—whether it's a product purchase or an interaction with the business on social media—earns customers points. You can exchange these points for savings, freebies, or other advantages.</li> 
+One of the most well-liked categories of loyalty programs is point-based. Every transaction whether it's a product purchase or an interaction with the business on social media earns customers points. You can exchange these points for savings, freebies, or other advantages.</li> 
 
 <a href="https://www.99minds.io/loyalty/" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP2.webp" alt="Set Up a Loyalty Program"></a>
 
@@ -206,7 +206,7 @@ Loyalty programs offer significant insights into customer behavior and preferenc
 For instance, the loyalty program of a retail establishment may disclose that a significant portion of its members regularly buys skincare goods. By appealing to the preferences of their customers and generating additional sales, the business can use this data to develop focused marketing efforts that highlight new skincare lines or special discounts on certain products.</li>
 
 <a href="https://www.99minds.io/loyalty/" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP1.webp" alt="Set Up a Loyalty Program"></a>
-<li>,h3>Increasing Sales And Revenue</h3>
+<li><h3>Increasing Sales And Revenue</h3>
 Loyalty programs encourage customers to spend more to get rewards, which immediately boosts sales and income. Research by <a href="https://newsroom.accenture.com/news/2016/members-of-customer-loyalty-programs-generate-significantly-more-revenue-for-retailers-than-do-non-members-accenture-research-finds/" role="link" target="_blank">Accenture</a> found that customers who participate in loyalty programs spend up to 18% more than non-members.
 
 These initiatives raise average order value and purchase frequency by taking advantage of psychological commitment and the demand for rewards. Loyalty programs generate a memorable customer experience that encourages repeat business and increased spending by providing personalized offers, tiers of incentives, and special benefits.</li>
