@@ -6,14 +6,14 @@ title: Shopify Loyalty Program Guide l 99Minds
 description: "With our complete guide, discover how to set up a successful loyalty program for your Shopify store, boost customer engagement, and increase retention. "
 heading: Shopify Loyalty Program Guide l 99Minds
 image:
-  url: "/assets/blog/Shopify Loyalty Programs- A Complete Guide.jpg"
+  url: "/assets/blog/Shopify Loyalty Programs- A Complete Guide.webp"
   alt: "Shopify Loyalty Program."
 tags: ["Loyalty Program","Shopify Loyalty Program"]
 url: "https://www.99minds.io/blog/shopify-loyalty-program"
 keywords: ["Shopify loyalty program ,shopify rewards program,how to create a loyalty program on shopify,how to set up a loyalty program on shopify,loyalty program on shopify,shopify customer loyalty program,rewards program for shopify,shopify loyalty points,loyalty program for shopify,shopify reward points,customer loyalty program shopify,shopify loyalty rewards program,loyalty rewards and referrals shopify,loyalty rewards and referrals shopify,benefits of a loyalty program"]
 
 --- 
-<img rel= "preload" role= "img" src="/assets/blog/Shopify Loyalty Programs- A Complete Guide.jpg" alt= "Shopify Loyalty Program">
+<img rel= "preload" role= "img" src="/assets/blog/Shopify Loyalty Programs- A Complete Guide.webp" alt= "Shopify Loyalty Program">
 
 In the fast-paced world of online retailing, Shopify store owners are constantly looking for methods to differentiate themselves from the competition. One wonderful idea is to launch a Shopify loyalty program. These programs reward customers with points, discounts, or special incentives, keeping them interested and wanting to return.
 
