@@ -6,14 +6,14 @@ title: "How can Small Businesses Increase Sales with Gift Cards"
 description: "Explore how small businesses use e-gift cards to dramatically increase their sales. Discover effective strategies, benefits, and tips to implement gift cards for small businesses."
 heading: Introduction to Gift Cards
 image:
-  url: "/assets/blog/Gift-Cards-for-Small-Businesses.webp"
+  url: "/assets/blog/gift-cards-for-small-businesses.webp"
   alt: "Increase sales with gift cards."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-cards-for-small-businesses/"
 keywords: ["Gift Cards for small businesses, small business gift cards, small business gift certificates, small business gift card program, small business gift card ideas"]
 
 ---
-<img rel="preload" role="img" src="/assets/blog/Gift-Cards-for-Small-Businesses.webp" alt="how can small businesses can increase sales with gift cards">
+<img rel="preload" role="img" src="/assets/blog/gift-cards-for-small-businesses.webp" alt="how can small businesses can increase sales with gift cards">
 
 Gift cards can increase revenues for your small businesses. You got that right! According to the <a href="https://nrf.com/research/national-retail-security-survey-2020"  role="link" target="_blank"> National Retail Federation</a>
 (NRF), in 2020, 65% of consumers spent more than the value of their gift card when redeeming it, resulting in increased revenue for businesses. Gift cards for small businesses are a great way to boost sales, retain existing customers while attracting new ones. They provide an easy way to attract new customers, secure upfront revenue, and foster stronger relationships with existing customers.
