@@ -519,7 +519,7 @@ declare module 'astro:content' {
   slug: "ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "ecommerce-strategy-guide.md": {
 	id: "ecommerce-strategy-guide.md";
@@ -892,9 +892,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"how-to-turn-your-hard-earned-sales-into-repeat-customers.md": {
-	id: "how-to-turn-your-hard-earned-sales-into-repeat-customers.md";
-  slug: "how-to-turn-your-hard-earned-sales-into-repeat-customers";
+"how-to-set-up-a-loyalty-program-on-shopify-in-2024.md": {
+	id: "how-to-set-up-a-loyalty-program-on-shopify-in-2024.md";
+  slug: "how-to-set-up-a-loyalty-program-on-shopify-in-2024";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1018,6 +1018,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"online-store-credit.md": {
+	id: "online-store-credit.md";
+  slug: "online-store-credit";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "personalized-customer-journey.md": {
 	id: "personalized-customer-journey.md";
   slug: "personalized-customer-journey";
@@ -1035,6 +1042,13 @@ declare module 'astro:content' {
 "reduce-return-exchange-costs-using-gift-card-loyalty-points.md": {
 	id: "reduce-return-exchange-costs-using-gift-card-loyalty-points.md";
   slug: "reduce-return-exchange-costs-using-gift-card-loyalty-points";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"repeat-customer.md": {
+	id: "repeat-customer.md";
+  slug: "repeat-customer";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1063,13 +1077,6 @@ declare module 'astro:content' {
 "send-bulk-gift-cards-with-omnisend.md": {
 	id: "send-bulk-gift-cards-with-omnisend.md";
   slug: "send-bulk-gift-cards-with-omnisend";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"shopify-loyalty-program.md": {
-	id: "shopify-loyalty-program.md";
-  slug: "shopify-loyalty-program";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1283,20 +1290,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"what-is-referral-marketing.md": {
-	id: "what-is-referral-marketing.md";
-  slug: "what-is-referral-marketing";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"what-is-referral-marketing.md": {
-	id: "what-is-referral-marketing.md";
-  slug: "what-is-referral-marketing";
-  body: string;
-  collection: "posts";
-  data: any
 } & { render(): Render[".md"] };
 "what-is-referral-program.md": {
 	id: "what-is-referral-program.md";

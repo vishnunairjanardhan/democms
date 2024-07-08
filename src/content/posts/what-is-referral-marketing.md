@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/What is referral marketing.webp"
   alt: "What is Referral marketing? Best Practices & Strategies"
 tags: ["Referral Program","Customer Acquisation"]
-url: "http://www.99minds.io/blog/what-is-referral-marketing"
+url: "https://www.99minds.io/blog/what-is-referral-marketing"
 keywords: ["referral marketing","referral marketing strategy","what is referral marketing","referral advertising","referral based marketing","referral marketing campaigns","referrals marketing"]
 
 --- 
