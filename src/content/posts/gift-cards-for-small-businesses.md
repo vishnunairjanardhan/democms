@@ -4,12 +4,12 @@ author: Mrudul
 authorImg: "Mrudul.png"
 title: "How can Small Businesses Increase Sales with Gift Cards"
 description: "Explore how small businesses use e-gift cards to dramatically increase their sales. Discover effective strategies, benefits, and tips to implement gift cards for small businesses."
-heading: Introduction to Gift Cards
+heading: Gift Cards for Small Businesses
 image:
   url: "/assets/blog/Gift-Cards-for-Small-Businesses.jpg"
   alt: "Increase sales with gift cards."
 tags: ["Gift Card"]
-url: "https://www.99minds.io/blog/gift-cards-for-small-businesses/"
+url: "https://www.99minds.io/blog/gift-cards-for-small-businesses"
 keywords: ["Gift Cards for small businesses, small business gift cards, small business gift certificates, small business gift card program, small business gift card ideas"]
 
 ---

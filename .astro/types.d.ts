@@ -360,8 +360,8 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"a-comprehensive-guide-to-digital-gift-cards.md": {
-	id: "a-comprehensive-guide-to-digital-gift-cards.md";
+"a-comprehensive-guide-to-Digital-Gift-Cards.md": {
+	id: "a-comprehensive-guide-to-Digital-Gift-Cards.md";
   slug: "a-comprehensive-guide-to-digital-gift-cards";
   body: string;
   collection: "posts";
@@ -528,9 +528,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"ecommerce-strategy-guide.md": {
-	id: "ecommerce-strategy-guide.md";
-  slug: "ecommerce-strategy-guide";
+"ecommerce-strategy-a-complete-guide.md": {
+	id: "ecommerce-strategy-a-complete-guide.md";
+  slug: "ecommerce-strategy-a-complete-guide";
   body: string;
   collection: "posts";
   data: any
