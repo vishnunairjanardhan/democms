@@ -519,7 +519,7 @@ declare module 'astro:content' {
   slug: "ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "ecommerce-strategy-guide.md": {
 	id: "ecommerce-strategy-guide.md";
@@ -1283,20 +1283,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"what-is-referral-marketing.md": {
-	id: "what-is-referral-marketing.md";
-  slug: "what-is-referral-marketing";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"what-is-referral-marketing.md": {
-	id: "what-is-referral-marketing.md";
-  slug: "what-is-referral-marketing";
-  body: string;
-  collection: "posts";
-  data: any
 } & { render(): Render[".md"] };
 "what-is-referral-program.md": {
 	id: "what-is-referral-program.md";
