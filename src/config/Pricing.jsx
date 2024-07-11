@@ -59,7 +59,7 @@ export const PRICE_LIST_AMOUNT = [
 ];
 export const TOP_PRODUCT_PRICE_LIST = [
   {
-    Column1: "Monthly Transactions",
+    Column1: "Free Monthly Transactions",
     Lite: 200,
     Basic: 800,
     Pro: 1500,
@@ -68,7 +68,7 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Enterprise: "Custom",
   },
   {
-    Column1: "Additional Orders",
+    Column1: "Additional Transactions",
     Lite: "$0.2",
     Basic: "$0.15",
     Pro: "$0.15",
@@ -407,16 +407,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
     Ultra: "No",
     Premium: "Yes",
     Enterprise: "Yes",
-  },
-  {
-    Column1: "Multi-Store Gift Cards",
-    Free: "No",
-    Lite: "No",
-    Basic: "No",
-    Pro: "No",
-    Ultra: "No",
-    Premium: "No",
-    Enterprise: "Custom\n($10 per additional store)",
   },
   {
     Column1: "Two Factor Authentication",
