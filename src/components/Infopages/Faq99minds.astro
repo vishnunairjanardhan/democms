@@ -173,7 +173,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                 <svg
                     :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
                   xmlns="http://www.w3.org/2000/svg"
-    class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
+                  class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
                   viewBox="0 0 20 20"
                   fill="currentColor">
                   <path
@@ -260,13 +260,60 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
               style=""
               x-ref="container2"
               x-bind:style="selected == 7 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
-              <p class="px-8 pt-4 pb-20">
-                Gift card: Creation, Activation, Deactivation, Block, Redemption, Reload, Extend Expiry, Imported, Issued, Amount Loaded, Refund, Vaid <br>
-                Loyalty: Credit, Debit, Expired <br>
-                Store Credit: Credit, Debit, Expired <br>
-                Referrals: Redeem <br>
-                VIP Tiers: Upgrade, Downgrade <br>
-                Coupons: 0,1 x Creation, Redemption
+              <p>
+                <div class="mt-10 flow-root w-full"> 
+                  <div class="overflow-x-auto"> 
+                    <div class="inline-block w-full align-middle border border-vulcan-800 rounded-xl overflow-hidden"> 
+                      <table class="min-w-full divide-y divide-vulcan-700 w-full"> 
+                        <thead> 
+                          <tr class="bg-vulcan-800/30"> 
+                            <th scope="col" class="p-5 text-left uppercase text-s font-medium text-white">
+                              <span class="hidden md:inline">Module</span></th> 
+                              <th scope="col" class="p-5 text-left text-s uppercase font-medium text-white">Transaction <span class="hidden md:inline">Types</span></th> 
+                          </tr>
+                        </thead> 
+                        <tbody class="divide-y divide-vulcan-800 bg-vulcan-900"> 
+                          <tr> 
+                            <td class="whitespace-nowrap p-5 text-s uppercase text-vulcan-300"> 
+                              <span class="block text-white">Gift Card</span>
+                            </td> 
+                            <td class="whitespace-nowrap p-5 text-s text-vulcan-300">Creation, Activation, Deactivation, Block, Redemption, Reload, Extend Expiry, <br> Imported, Issued, Amount Loaded, Refund, Vaid</td>
+                          </tr> 
+                          <tr class="bg-vulcan-800/30"> 
+                            <td class="whitespace-nowrap p-5 text-s uppercase text-vulcan-300"> 
+                              <span class="block text-white">Loyalty</span>
+                            </td> 
+                            <td class="whitespace-nowrap p-5 text-s text-vulcan-300">Credit, Debit, Expired</td>
+                          </tr> 
+                          <tr> 
+                            <td class="whitespace-nowrap p-5 text-s uppercase text-vulcan-300"> 
+                              <span class="block text-white">Store Credit</span>
+                            </td> 
+                            <td class="whitespace-nowrap p-5 text-s text-vulcan-300">Credit, Debit, Expired</td> 
+                          </tr> 
+                          <tr class="bg-vulcan-800/30"> 
+                            <td class="whitespace-nowrap p-5 text-s uppercase text-vulcan-300"> 
+                              <span class="block text-white">Referrals</span>
+                            </td> 
+                            <td class="whitespace-nowrap p-5 text-s text-vulcan-300">Redeem</td>
+                          </tr>
+                          <tr> 
+                            <td class="whitespace-nowrap p-5 text-s uppercase text-vulcan-300"> 
+                              <span class="block text-white">VIP Tiers</span>
+                            </td> 
+                            <td class="whitespace-nowrap p-5 text-s text-vulcan-300">Upgrade, Downgrade</td>
+                          </tr>
+                          <tr class="bg-vulcan-800/30"> 
+                            <td class="whitespace-nowrap p-5 text-s uppercase text-vulcan-300"> 
+                              <span class="block text-white">Coupons</span>
+                            </td> 
+                            <td class="whitespace-nowrap p-5 text-s text-vulcan-300">0,1 x Creation, Redemption</td>
+                          </tr>
+                        </tbody> 
+                      </table> 
+                    </div> 
+                  </div> 
+                </div>
               </p>
             </div>
           </li>
