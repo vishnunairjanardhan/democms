@@ -906,13 +906,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"how-to-turn-your-hard-earned-sales-into-repeat-customers.md": {
-	id: "how-to-turn-your-hard-earned-sales-into-repeat-customers.md";
-  slug: "how-to-turn-your-hard-earned-sales-into-repeat-customers";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "how-to-use-gift-card-in-social-media-marketing.md": {
 	id: "how-to-use-gift-card-in-social-media-marketing.md";
   slug: "how-to-use-gift-card-in-social-media-marketing";
@@ -1032,6 +1025,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"online-store-credit.md": {
+	id: "online-store-credit.md";
+  slug: "online-store-credit";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "personalized-customer-journey.md": {
 	id: "personalized-customer-journey.md";
   slug: "personalized-customer-journey";
@@ -1049,6 +1049,13 @@ declare module 'astro:content' {
 "reduce-return-exchange-costs-using-gift-card-loyalty-points.md": {
 	id: "reduce-return-exchange-costs-using-gift-card-loyalty-points.md";
   slug: "reduce-return-exchange-costs-using-gift-card-loyalty-points";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"repeat-customer.md": {
+	id: "repeat-customer.md";
+  slug: "repeat-customer";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

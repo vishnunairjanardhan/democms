@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/Guide to Referral Program- Benefits and How to Build One in 2024.webp"
   alt: "Howdo i set an ecommerce referral program."
 tags: ["Gift Card"]
-url: "http://www.99minds.io/blog/what-is-referral-program"
+url: "https://www.99minds.io/blog/what-is-referral-program"
 keywords: ["referral program","referral programs","what is a referral program","client referral program",
 "successful referral programs","how to build a referral program"]
 
@@ -23,8 +23,8 @@ Ecommerce stores have managed to reduce their customer acquisition costs by empl
 Referrals are extremely powerful because people believe other people like themselves when they suggest something. According to <a href="https://www.nielsen.com/insights/2012/consumer-trust-in-online-social-and-mobile-advertising-grows/#:~:text=According%20to%20Nielsen's%20latest%20Global,an%20increase%20of%2018%20percent" role="link" target="_blanck">Neilsen's</a> study, more than 92% of people trust the recommendations of friends and families. That’s precisely why social proof, positive comments on forums, customer testimonials, and reviews play a huge role in people buying from you.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<h2>Table of Contents:</h2>
-<ul role="list">
+<p>Table of Contents</p>
+<ul>
   <li>  
     <a role="link" href="#What-is-a-Referral-Program?" rel="noreferrer">What is a Referral Program?</a>
   </li> 
