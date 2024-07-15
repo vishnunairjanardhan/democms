@@ -213,13 +213,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"10-best-practices-for-setting-up-your-shopify-gift-card-program.md": {
-	id: "10-best-practices-for-setting-up-your-shopify-gift-card-program.md";
-  slug: "10-best-practices-for-setting-up-your-shopify-gift-card-program";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md": {
 	id: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md";
   slug: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store";
@@ -1070,6 +1063,13 @@ declare module 'astro:content' {
 "send-bulk-gift-cards-with-omnisend.md": {
 	id: "send-bulk-gift-cards-with-omnisend.md";
   slug: "send-bulk-gift-cards-with-omnisend";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"shopify-gift-card.md": {
+	id: "shopify-gift-card.md";
+  slug: "shopify-gift-card";
   body: string;
   collection: "posts";
   data: any
