@@ -1,7 +1,7 @@
 ---
 pubDate: 2024-06-19
-author: Mrudul
-authorImg: "Mrudul.png"
+author: Piyush
+authorImg: "Piyush.webp"
 title: What is a Referral Program? 
 description: Referral programs are a powerful marketing strategy used by businesses to leverage their existing customer base to attract new customers. 
 heading: Guide to Referral Program- Benefits and How to Build One in 2024
@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/Guide to Referral Program- Benefits and How to Build One in 2024.webp"
   alt: "Howdo i set an ecommerce referral program."
 tags: ["Gift Card"]
-url: "http://www.99minds.io/blog/what-is-referral-program/"
+url: "https://www.99minds.io/blog/what-is-referral-program"
 keywords: ["referral program","referral programs","what is a referral program","client referral program",
 "successful referral programs","how to build a referral program"]
 
@@ -23,8 +23,8 @@ Ecommerce stores have managed to reduce their customer acquisition costs by empl
 Referrals are extremely powerful because people believe other people like themselves when they suggest something. According to <a href="https://www.nielsen.com/insights/2012/consumer-trust-in-online-social-and-mobile-advertising-grows/#:~:text=According%20to%20Nielsen's%20latest%20Global,an%20increase%20of%2018%20percent" role="link" target="_blanck">Neilsen's</a> study, more than 92% of people trust the recommendations of friends and families. That’s precisely why social proof, positive comments on forums, customer testimonials, and reviews play a huge role in people buying from you.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<h2>Table of Contents:</h2>
-<ul role="list">
+<p>Table of Contents</p>
+<ul>
   <li>  
     <a role="link" href="#What-is-a-Referral-Program?" rel="noreferrer">What is a Referral Program?</a>
   </li> 
@@ -192,6 +192,8 @@ Successful referral programs enhance word-of-mouth marketing and overall custome
 </li>
 </ol>
 Implementing a referral program in an eCommerce business can thus be a powerful tool for driving growth, increasing customer loyalty, and enhancing overall business performance. By tapping into the natural social networks of existing customers, businesses can achieve sustainable growth and a competitive edge in the market.
+
+<a href="https://www.99minds.io/referral" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-R1 (2).webp" alt="grow your business with referrals"></a>
 
 <h2 id="Why-Do-You-Need-a-Referral-Program?">Why Do You Need a Referral Program?</h2>
 
@@ -420,6 +422,8 @@ To continuously improve your referral program, utilize the data and feedback you
 Providing excellent customer service is essential for the success of your referral program. Ensure that customers have a positive experience with your brand, as satisfied customers are more likely to refer others. Address any issues or concerns promptly and make the referral process as smooth as possible.
 </li>
 </ol>
+
+<a href="https://www.99minds.io/loyalty" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP1.webp" alt="boost customer retention with our loyalty platform"></a>
 
 <h2 class="m-0 mb-4" id="How-to-Reward-Customers-for-Referrals">How to Reward Customers for Referrals?</h2>
 

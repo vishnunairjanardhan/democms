@@ -127,7 +127,10 @@ import {TABLE_HEAD,TABLE_BOTTOM,CHECK_ICON,PRICE_LIST_AMOUNT,TOP_PRODUCT_PRICE_L
                 class="py-3 text-base font-medium text-left text-white"
                 colspan="4"
                 scope="colgroup">
-                <div @click.away="open = false" class="relative" x-data="{ open: false }">
+
+                
+
+                <!--<div @click.away="open = false" class="relative" x-data="{ open: false }">
                   <button @click="open = !open" class="inline-flex items-center gap-2 justify-between px-2 py-2 
                    text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50">
                     <span>Compare Price list</span>
@@ -141,43 +144,100 @@ import {TABLE_HEAD,TABLE_BOTTOM,CHECK_ICON,PRICE_LIST_AMOUNT,TOP_PRODUCT_PRICE_L
                   </button>
                   <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute left-0 z-50 mt-2 w-full origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1" style="width:68rem;">
                     <div class="max-w-6xl p-8 mx-auto  border border-white/5 rounded-xl bg-vulcan-900">
-                      <table class="w-full mx-auto text-white bg-vulcan-900"><thead>
+                      <table class="w-full mx-auto text-white bg-vulcan-900">
+                      <thead>
                         <tr>
                           {TABLE_HEAD.map((header) => (
                             <th class="w-1/6 px-2 p-4 font-normal  text-white" key={header}>{header}</th>
                           ))}
                         </tr>
-                 {REMAINING_PRODUCT_PRICE_LIST.map((feature) => (
-                    <tr class="mt-6 text-sm font-normal text-vulcan-300 border border-white/5 mx-auto" key={feature.Column1}>
-                      <th class="w-1/12 p-4 text-center font-normal">{feature.Column1}</th>
-                        {TABLE_HEAD.slice(1).map((col) => (
-                      <th class="w-1/12 font-normal text-white" key={col}>
-                      {feature[col] === 'Yes' ? (
-          <svg xmlns="http://www.w3.org/2000/svg" className="mx-auto text-indigo-400 icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M5 12l5 5l10 -10"></path>
-          </svg>
-        ) : feature[col] === 'No' ? (
-          <svg className="mx-auto icon icon-tabler icon-tabler-minus text-vulcan-300" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" height="20" width="20">
-            <path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
-            <path d="M5 12l14 0"></path>
-          </svg>
-        ) : (
-          feature[col]
-        )}</th>
+                          {REMAINING_PRODUCT_PRICE_LIST.map((feature) => (
+                              <tr class="mt-6 text-sm font-normal text-vulcan-300 border border-white/5 mx-auto" key={feature.Column1}>
+                                <th class="w-1/12 p-4 text-center font-normal">{feature.Column1}</th>
+                                  {TABLE_HEAD.slice(1).map((col) => (
+                                <th class="w-1/12 font-normal text-white" key={col}>
+                                {feature[col] === 'Yes' ? (
+                                <svg xmlns="http://www.w3.org/2000/svg" className="mx-auto text-indigo-400 icon icon-tabler icon-tabler-check" width="20" height="20" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                  <path d="M5 12l5 5l10 -10"></path>
+                                </svg>
+                              ) : feature[col] === 'No' ? (
+                                <svg className="mx-auto icon icon-tabler icon-tabler-minus text-vulcan-300" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" height="20" width="20">
+                                  <path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+                                  <path d="M5 12l14 0"></path>
+                                </svg>
+                              ) : (
+                                feature[col]
+                              )}</th>
                       ))}
                     </tr>
                   ))}
               </thead>
             </table>
             </div>
-            </div>
+            </div>-->
             </div>
               </th>
             </tr>
           </thead>
           <tbody>
           </tbody>  
-        </table>  
+        </table> 
+        <div class="relative mx-auto rounded-3xl border-white/5 bg-vulcan-900"
+                  x-data="{selected:null}">
+                  <ul class="list-none" role="list" @click="open = !open">
+                    <li class="relative">
+                      <button
+                      role="button"
+                        type="button"
+                        class="w-full px-8 py-6 text-left"
+                        @click="selected !== 1 ? selected = 1 : selected = null">
+                        <div class="flex text-white group">
+                          <p
+                            class="text-base text-center font-bold w-full duration-200 group-hover:text-white">
+                            Compare Price List
+                            <svg :class="{'rotate-180': open, 'rotate-180': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-5 transition-transform duration-200 transform rotate-180" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M6 9l6 6l6 -6"></path>
+                            </svg>
+                          </p>
+                          <!--<svg
+                              :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="w-1/5 h-5 ml-0 transition-transform inline duration-200 transform rotate-180 group-hover:white"
+                            viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path
+                              fill-rule="evenodd"
+                              d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                              clip-rule="evenodd"></path>
+                          </svg>-->
+                        </div>
+                      </button>
+                      <div
+                        class="relative overflow-hidden transition-all duration-700 max-h-0"
+                        style=""
+                        x-ref="container1"
+                        x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+                        <div class="max-w-6xl mx-auto rounded-xl bg-vulcan-900">
+                      <table class="w-full mx-auto text-white bg-vulcan-900 mt-5">
+                      <thead>
+                          {REMAINING_PRODUCT_PRICE_LIST.map((feature) => (
+                              <tr class="mt-6 text-sm font-normal text-vulcan-300 border-b border-white/5 mx-auto" key={feature.Column1}>
+                                <th class="w-1/12 p-4 text-center font-normal">{feature.Column1}</th>
+                                {TABLE_HEAD.slice(1).map((col) => (
+                                  <th class="w-1/12 font-semibold text-white text-center" key={col}>
+                                    {feature[col]}
+                                  </th>
+                                ))}
+                    </tr>
+                  ))}
+              </thead>
+            </table>
+            </div>
+                      </div>
+                    </li>
+                    </ul>
+                  </div> 
       </div>
     </section>

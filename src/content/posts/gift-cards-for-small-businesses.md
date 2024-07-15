@@ -6,14 +6,14 @@ title: "How can Small Businesses Increase Sales with Gift Cards"
 description: "Explore how small businesses use e-gift cards to dramatically increase their sales. Discover effective strategies, benefits, and tips to implement gift cards for small businesses."
 heading: Gift Cards for Small Businesses
 image:
-  url: "/assets/blog/Gift-Cards-for-Small-Businesses.jpg"
+  url: "/assets/blog/gift-cards-for-small-businesses.webp"
   alt: "Increase sales with gift cards."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/gift-cards-for-small-businesses"
 keywords: ["Gift Cards for small businesses, small business gift cards, small business gift certificates, small business gift card program, small business gift card ideas"]
 
 ---
-<img rel="preload" role="img" src="/assets/blog/Gift-Cards-for-Small-Businesses.jpg" alt="how can small businesses can increase sales with gift cards">
+<img rel="preload" role="img" src="/assets/blog/gift-cards-for-small-businesses.webp" alt="how can small businesses can increase sales with gift cards">
 
 Gift cards can increase revenues for your small businesses. You got that right! According to the <a href="https://nrf.com/research/national-retail-security-survey-2020"  role="link" target="_blank"> National Retail Federation</a>
 (NRF), in 2020, 65% of consumers spent more than the value of their <a href="https://www.99minds.io/giftcard"  role="link" target="_blank">gift card</a> when redeeming it, resulting in increased revenue for businesses. Gift cards for small businesses are a great way to boost sales, retain existing customers while attracting new ones. They provide an easy way to attract new customers, secure upfront revenue, and foster stronger relationships with existing customers.
@@ -144,36 +144,7 @@ Imagine you own a Shopify store that sells customizable gifts, including gift ca
 
 <h2 id="how-to-boost-customer-engagement-with-gift-cards?">How to Boost Customer Engagement with Gift Cards?</h2>
 
-<div class="flex flex-wrap items-center gap-2">
-              <div x-data="{ open: false }" class="w-full">
-              <!-- Trigger -->
-              <span x-on:click="open = true" class="w-full">
-                 <div class="w-full ">
-                <span class="w-full "></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
-                </span></div>
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly">
-                      </iframe>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
+<a role="link" href="https://www.bigcommerce.com/apps/99minds-gift-card/"><img loading="lazy" class=w-full src="\assets\CTA-referral.png" alt="Book a demo"></a>
 
 Gift cards aren't just about purchases, they're also great for driving customer loyalty. In this section, we’ll explore simple but effective strategies to get the most out of gift cards and keep customers coming back.
 <ol role= "list">

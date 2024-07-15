@@ -1,7 +1,7 @@
 ---
 pubDate: 2024-06-12
-author: Mrudul
-authorImg: "Mrudul.png"
+author: Piyush
+authorImg: "Piyush.webp"
 title: Gift card scams and what you need to know about them
 description: "Gift card scams involve fraudsters tricking individuals or businesses into purchasing gift cards and then providing them with the card details or the codes on the cards."
 heading: The Holiday Season is an Ideal Time for Gift Card Scam to Bloom
@@ -19,7 +19,7 @@ Unfortunately, many honest customers get conned by scammers who steal their pers
 
 No one wants to be scammed, especially during the holiday season, as it is a different kind of a bummer. More often than not, fraudsters are a step ahead of the law enforcement agencies. The onus is on you as a customer to make sure that you get what you buy.
 
-An <a href="https://www.aarp.org/money/scams-fraud/info-2019/gift-card.html" target="_blank">AARP survey</a> 20% of participants found the gift cards they purchased had no value. That's a significant number, and no one wants to be part of this 20%. In this article, we will discuss how to identify and avoid gift card scams.
+An <a href="https://www.aarp.org/money/scams-fraud/info-2019/gift-card.html" role="link" target="_blank">AARP survey</a> 20% of participants found the gift cards they purchased had no value. That's a significant number, and no one wants to be part of this 20%. In this article, we will discuss how to identify and avoid gift card scams.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
 <P>Table of Contents:</P>
