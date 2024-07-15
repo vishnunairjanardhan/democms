@@ -883,7 +883,7 @@ declare module 'astro:content' {
   slug: "how-to-sell-more-with-gift-cards";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "how-to-use-gift-card-in-social-media-marketing.md": {
 	id: "how-to-use-gift-card-in-social-media-marketing.md";
@@ -1080,6 +1080,20 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: any
+} & { render(): Render[".md"] };
+"shopify-loyalty-program.md": {
+	id: "shopify-loyalty-program.md";
+  slug: "shopify-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"shopify-loyalty-program.md": {
+	id: "shopify-loyalty-program.md";
+  slug: "shopify-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "small-business-ideas-for-valentines-day.md": {
 	id: "small-business-ideas-for-valentines-day.md";
