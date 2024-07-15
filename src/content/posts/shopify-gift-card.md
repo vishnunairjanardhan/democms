@@ -1,5 +1,5 @@
 ---
-pubDate: 2024-07-08
+pubDate: 2024-07-17
 author: Soniya
 authorImg: "Soniya.webp"
 title: "Set Up Gift Card on Shopify | 99minds"
@@ -83,10 +83,12 @@ These digital gift cards improve the purchasing experience for both purchasers a
 Shopify's built-in gift card capability or sophisticated gift card networks like <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> can be used by Shopify online retailers. The following are the salient features of Shopify gift cards:
 </li>
 </ol>
+<ul role= "list">
 <li><b>Digital Format:</b> Gift cards are purchased and sent digitally by customers.</li>
 <li><b>Redemption:</b> You can use these gift cards to make purchases from the store.</li>
 <li><b>Integration:</b> They function flawlessly within the Shopify network.</li>
 <li><b>Convenience:</b> They give the buyer and the recipient a useful and flexible payment alternative.</li>
+</ul>
 
 <a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
@@ -117,7 +119,7 @@ Example: Let's say a customer buys a gift certificate from your store for his bi
 <li><h3>Flexibility</h3></li>
 <ul role= "list">
 <li><b>Personalized shopping experience:</b> Customers can choose exactly what they want, ensuring they get something they'll love. A unique shopping experience can lead to more satisfied customers and better reviews.</li>
-<li><b>Easy gift giving: Gift cards are beneficial for both the giver and the recipient. They take the stress out of choosing the perfect gift for gift-givers while giving the recipient the pleasure of choosing what they want or need.</li>
+<li><b>Easy gift giving:</b> Gift cards are beneficial for both the giver and the recipient. They take the stress out of choosing the perfect gift for gift-givers while giving the recipient the pleasure of choosing what they want or need.</li>
 
 Example: Imagine a customer who wants to buy a gift for a friend who loves fashion but is unsure of her taste. They can give a gift of their choice with a gift card at your store, ensuring their friend gets something they'll love.
 </ul>
@@ -159,6 +161,7 @@ Example: Imagine a customer who wants to buy a gift for a friend who loves fashi
 
 You must have a live Shopify account to sell gift cards on the platform. This is how to begin:
 <ul role= "list">
+
 <li><b>Register:</b> Visit Shopify's website to create an account. Inputting your store name, setting up a password, and supplying an email address are required.</li>
 <li><b>Select a Plan:</b> Choose a pricing plan based on your requirements. Shopify provides a variety of plans, each with unique features.</li>
 <li><b>Setup Your Store:</b> Enter your store details, including your address, currency, and time zone, by following the setup instructions. Tailor the theme and style of your store to reflect your brand.</li>
@@ -167,7 +170,7 @@ You must have a live Shopify account to sell gift cards on the platform. This is
 2. <h3>Add vs. Create - Share Their Difference</h3>
 To manage your store effectively, you must know the difference between adding and creating gift cards in Shopify.
 <ul role= "list">
-<li><b>Add Gift Cards:</b> Adding gift cards usually means turning on your Shopify store's gift card feature. This entails setting up things that people can buy with gift cards. How to add gift cards is as follows:
+<li><b>Add Gift Cards:</b> Adding gift cards usually means turning on your Shopify store's gift card feature. This entails setting up things that people can buy with gift cards. How to add gift cards is as follows:</li>
 <ol role= "list">
 <li><b>Go to Products:</b> Select Gift Cards under Products in your Shopify admin.</li>
 <li><b>Activate Gift Cards:</b> To sell gift cards, click the link. You might need to update your Shopify plan to one that accepts gift cards if you can't see this option.</li>
@@ -207,6 +210,7 @@ To enable gift cards on Shopify, follow these steps:
 Adding your store's logo, colors, and a customized message to your gift cards will make them look more appealing. Shopify provides gift card layouts, so you can make gifts that look great.
 
 <h2 id= "Add-Gift-Card-on-Shopify"> Add Gift Card on Shopify</h2>
+
 Adding gift cards to your cart is a simple process that can be completed in just a few steps. In this section, we'll walk you through the detailed process of adding gift items to your store.
 
 1. Go to Shopify Admin > Products.
@@ -282,30 +286,7 @@ Adding gift cards to your cart is a simple process that can be completed in just
 <img role="img" loading="lazy" src="/assets/blog/Status.png" alt="Status">
 
 8. Choose where you want to publish this gift card from the publishing section.
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Center Aligned Image</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        .center-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%; /* Adjust the width as needed */
-        }
-    </style>
-</head>
-<body>
-   <img role= "img" loading= "lazy" src="/assets/blog/Publish.png" alt="Publish" class="center-image">
-</body>
-</html>
+<img role="img" loading="lazy" src="/assets/blog/PUBLISHING.png" alt="PUBLISHING">
 
 9. Fill out the product organization fields
 <img role="img" loading="lazy" src="/assets/blog/Product Organization.png" alt="Product Organization">
@@ -394,30 +375,7 @@ Shopify selects the no expiration date option by default, but you can change it 
 6. If you want to issue this Gift Card for specific customers, You can do it too, From Here.
 <img role="img" loading="lazy" src="/assets/blog/Customer detailed.png" alt="Customer detailed">
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Center Aligned Image</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        .center-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%; /* Adjust the width as needed */
-        }
-    </style>
-</head>
-<body>
-   <img role="img" loading="lazy" src="/assets/blog/Create a new customer.png" alt="Create a new customer"class="center-image">
-</body>
-</html>
+<img role="img" loading="lazy" src="/assets/blog/CREATE A NEW CUSTOMER.png" alt= "CREATE A NEW CUSTOMER">
 
 7. After Filling In All The Fields, Select The Activate Button And Activate The Gift Card.
 
@@ -443,7 +401,7 @@ Step 2: Clicks on Gift Cards
 <img role="img" loading="lazy" src="/assets/blog/GIFT CARD.png" alt="GIFT CARD">
 
 Step 3: Click the gift card code you want to delete
-<img role="img" loading="lazy" src="/assets/blog/GIFT CARD.png" alt="GIFT CARD">
+<img role="img" loading="lazy" src="/assets/blog/GIFT CARD CODE.png" alt="GIFT CARD CODE">
 
 Step 4: Click on view gift card products
 <img role="img" loading="lazy" src="/assets/blog/View gift card product.png" alt="View gift card product">
@@ -452,31 +410,7 @@ Step 5: Click on the 3 dots option.
 <img role="img" loading="lazy" src="/assets/blog/Click on 3 dots.png" alt="Click on 3 dots">
 
 Step 6: A dropdown will appear from which you select the Delete Products option.
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Center Aligned Image</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        .center-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%; /* Adjust the width as needed */
-        }
-    </style>
-</head>
-<body>
-   <img role="img" loading="lazy" src="/assets/blog/Delete Products option.png" alt="Delete Products option"class="center-image">
-</body>
-</html>
+<img role="img" loading="lazy" src="/assets/blog/DELETE PRODOUCT.png" alt="DELETE PRODOUCT">
 
 And done. The gift card products are deleted.
 
@@ -489,114 +423,17 @@ Step 2: Clicks on Gift Cards
 <img role="img" loading="lazy" src="/assets/blog/GIFT CARD.png" alt="GIFT CARD">
 
 Step 3: Click the gift card code you want to disable
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Center Aligned Image</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        .center-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%; /* Adjust the width as needed */
-        }
-    </style>
-</head>
-<body>
-   <img role="img" loading="lazy" src="/assets/blog/Disable.png" alt="Disable"class="center-image">
-</body>
-</html>
+<img role="img" loading="lazy" src="/assets/blog/GIFT CARD CODE.png" alt="GIFT CARD CODE">
 
 Step 4: Click on disable selected gift card
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Center Aligned Image</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        .center-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%; /* Adjust the width as needed */
-        }
-    </style>
-</head>
-<body>
-   <img role="img" loading="lazy" src="/assets/blog/Click on disable.png" alt="Click on disable"class="center-image">
-</body>
-</html>
+   <img role="img" loading="lazy" src="/assets/blog/DEACTIVE GIFT CARD.png" alt="DEACTIVE GIFT CARD">
 
 Step 5: Click on disable gift card
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Center Aligned Image</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        .center-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%; /* Adjust the width as needed */
-        }
-    </style>
-</head>
-<body>
-   <img role="img" loading="lazy" src="/assets/blog/deactivation screen.png" alt="deactivation screen"class="center-image">
-</body>
-</html>
+   <img role="img" loading="lazy" src="/assets/blog/CLICK ON DEACTIVE .png" alt="CLICK ON DEACTIVE">
 
 Step 6: Click on disabled
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Center Aligned Image</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        .center-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%; /* Adjust the width as needed */
-        }
-    </style>
-</head>
-<body>
-   <img role="img" loading="lazy" src="/assets/blog/Click on disable.png" alt="Click on disable"class="center-image">
-</body>
-</html>
 </ul>
-
 <h2 id= "What-is-Shopify-Gift-Card-Balance?">What is Shopify Gift Card Balance?</h2>
 
 Understanding the concept of gift card fees is important for both merchants and customers. The remaining balance on a gift card is the remaining amount that a customer can use with their gift card. It's like a wallet that's attached to a gift card that holds the money until it's used up or until the gift card expires.
@@ -625,6 +462,7 @@ When your gift cards are prepared, advertise them via email newsletters, social 
 <li>Offer Gift Card Discounts:</li>
 <ul role= "list">
 <li>Reduce the cost of gift cards to boost sales. For instance, provide a 20% discount on a $50 gift card or sell a $10 gift card for $5. These sales incentives persuade clients to purchase additional gift cards, increasing your earnings.</li>
+
 <li>Monitor the usage of your gift cards by keeping track of your transactions. Determine whether collections or products are well-liked by gift card holders. Make changes to your pricing and inventory strategy based on this data.</li>
 </ul>
 <li>Use Gift Cards for Marketing:</li>
