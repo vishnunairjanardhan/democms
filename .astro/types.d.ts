@@ -1102,6 +1102,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"shopify-loyalty-program.md": {
+	id: "shopify-loyalty-program.md";
+  slug: "shopify-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "small-business-ideas-for-valentines-day.md": {
 	id: "small-business-ideas-for-valentines-day.md";
   slug: "small-business-ideas-for-valentines-day";
@@ -1193,9 +1200,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"types-of-customer-loyalty-programs.md": {
-	id: "types-of-customer-loyalty-programs.md";
-  slug: "types-of-customer-loyalty-programs";
+"types-of-loyalty-program.md": {
+	id: "types-of-loyalty-program.md";
+  slug: "types-of-loyalty-program";
   body: string;
   collection: "posts";
   data: any
