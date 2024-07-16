@@ -2,7 +2,10 @@
     <div class="px-8 mx-auto md:px-12 lg:px-16 max-w-7xl lg: py-1 my-22">
         <div class="flex items-start mt-10 -mb-px" x-data="{ openTab: 1 }">
             <div class="border-l border-vulcan-700">
-                <div :class="{ 'border-l-2 border-indigo-500': openTab === 1 }"  class="relative flex flex-col w-full select-none lg:flex-col lg:inline-grid md:flex-row">
+                <div 
+                    :class="{ 'border-l-2 border-indigo-500 transition: border-color 1s ease-in-out': openTab === 1 }" 
+                    class="relative flex flex-col w-full select-none lg:flex-col lg:inline-grid md:flex-row transition: all 1s ease-in-out"
+                >
                 <button 
                     @click="openTab === 1 ? openTab = null : openTab = 1" 
                     type="button" 
@@ -16,10 +19,19 @@
                         <path d="M9 6l3 3l3 -3l-3 -3z"></path>
                         <path d="M9 18l3 3l3 -3l-3 -3z"></path>
                     </svg>
-                    <h3>Bulk Gift Card</h3>
+                    <h3 class="ml-1">Bulk Gift Card</h3>
                 </button>
              
-                <div x-show="openTab === 1" x-transition>
+                <div 
+                x-show="openTab === 1" 
+                x-transition:enter="transition ease-out duration-1000" 
+                x-transition:enter-start="opacity-0 transform -translate-y-2" 
+                x-transition:enter-end="opacity-100 transform translate-y-0" 
+                x-transition:leave="transition ease-in duration-1000" 
+                x-transition:leave-start="opacity-100 transform translate-y-0" 
+                x-transition:leave-end="opacity-0 transform -translate-y-2"
+                
+            >
                     <div class="relative items-center w-full">
                         <div>
                             <div class="sm:order-1">
@@ -45,10 +57,19 @@
        <path d="M9 6l3 3l3 -3l-3 -3z"></path> 
        <path d="M9 18l3 3l3 -3l-3 -3z"></path> 
        </svg>
-       <h3>Import & Migration</h3>
+       <h3 class="ml-1">Import & Migration</h3>
     </button>
 
-       <div x-show="openTab === 2" x-transition>
+            <div 
+            x-show="openTab === 2" 
+            x-transition:enter="transition ease-out duration-1000" 
+            x-transition:enter-start="opacity-0 transform -translate-y-2" 
+            x-transition:enter-end="opacity-100 transform translate-y-0" 
+            x-transition:leave="transition ease-in duration-1000" 
+            x-transition:leave-start="opacity-100 transform translate-y-0" 
+            x-transition:leave-end="opacity-0 transform -translate-y-2"
+    
+             >
                            <div class="relative items-center w-full">
                            <div>
                             <div class="sm:order-1">
@@ -74,10 +95,19 @@
        <path d="M9 6l3 3l3 -3l-3 -3z"></path> 
        <path d="M9 18l3 3l3 -3l-3 -3z"></path> 
        </svg>
-      <h3> Multi-Currency</h3>
+      <h3 class="ml-1"> Multi-Currency</h3>
     </button>
  
-         <div x-show="openTab === 3" x-transition>
+              <div 
+              x-show="openTab === 3" 
+              x-transition:enter="transition ease-out duration-1000" 
+              x-transition:enter-start="opacity-0 transform -translate-y-2" 
+              x-transition:enter-end="opacity-100 transform translate-y-0" 
+              x-transition:leave="transition ease-in duration-1000" 
+              x-transition:leave-start="opacity-100 transform translate-y-0" 
+              x-transition:leave-end="opacity-0 transform -translate-y-2"
+    
+              >
                     <div class="relative items-center w-full">
                         <div>
                             <div class="sm:order-1">
@@ -104,10 +134,19 @@
        <path d="M9 6l3 3l3 -3l-3 -3z"></path> 
        <path d="M9 18l3 3l3 -3l-3 -3z"></path> 
        </svg>
-       <h3> Multi-Store</h3>
+       <h3 class="ml-1">Multi-Store</h3>
     </button>
 
-        <div x-show="openTab === 4" x-transition>
+               <div 
+               x-show="openTab === 4" 
+               x-transition:enter="transition ease-out duration-1000" 
+               x-transition:enter-start="opacity-0 transform -translate-y-2" 
+               x-transition:enter-end="opacity-100 transform translate-y-0" 
+               x-transition:leave="transition ease-in duration-1000" 
+               x-transition:leave-start="opacity-100 transform translate-y-0" 
+               x-transition:leave-end="opacity-0 transform -translate-y-2"
+    
+                >
                     <div class="relative items-center w-full">
                         <div>
                             <div class="sm:order-1">
@@ -133,10 +172,19 @@
        <path d="M9 6l3 3l3 -3l-3 -3z"></path> 
        <path d="M9 18l3 3l3 -3l-3 -3z"></path> 
        </svg>
-       <h3>Refund & Reward</h3>
+       <h3 class="ml-1">Refund & Reward</h3>
     </button>
 
-       <div x-show="openTab === 5" x-transition>
+               <div 
+               x-show="openTab === 5" 
+               x-transition:enter="transition ease-out duration-1000" 
+               x-transition:enter-start="opacity-0 transform -translate-y-2" 
+               x-transition:enter-end="opacity-100 transform translate-y-0" 
+               x-transition:leave="transition ease-in duration-1000" 
+               x-transition:leave-start="opacity-100 transform translate-y-0" 
+               x-transition:leave-end="opacity-0 transform -translate-y-2"
+    
+               >
                     <div class="relative items-center w-full">
                         <div>
                             <div class="sm:order-1">
@@ -162,10 +210,19 @@
        <path d="M9 6l3 3l3 -3l-3 -3z"></path> 
        <path d="M9 18l3 3l3 -3l-3 -3z"></path> 
        </svg>
-       <h3>Schedule Delivery</h3>
+       <h3 class="ml-1">Schedule Delivery</h3>
     </button>
 
-        <div x-show="openTab === 6" x-transition>
+              <div 
+              x-show="openTab === 6" 
+              x-transition:enter="transition ease-out duration-1000" 
+              x-transition:enter-start="opacity-0 transform -translate-y-2" 
+              x-transition:enter-end="opacity-100 transform translate-y-0" 
+              x-transition:leave="transition ease-in duration-1000" 
+              x-transition:leave-start="opacity-100 transform translate-y-0" 
+              x-transition:leave-end="opacity-0 transform -translate-y-2"
+    
+               >
                     <div class="relative items-center w-full">
                         <div>
                             <div class="sm:order-1">   
@@ -179,7 +236,16 @@
         </div>
              
             <div> 
-            <div x-show="openTab === 1" x-transition>
+                <div 
+                x-show="openTab === 1" 
+                x-transition:enter="transition ease-out duration-1000" 
+                x-transition:enter-start="opacity-0 transform -translate-y-2" 
+                x-transition:enter-end="opacity-100 transform translate-y-0" 
+                x-transition:leave="transition ease-in duration-1000" 
+                x-transition:leave-start="opacity-100 transform translate-y-0" 
+                x-transition:leave-end="opacity-0 transform -translate-y-2"
+      
+                 >
                 <div class="relative items-center w-full">
                     <div>
                         <div class="sm:order-2">
@@ -189,7 +255,16 @@
                 </div>
             </div>
 
-            <div x-show="openTab === 2" x-transition>
+            <div 
+            x-show="openTab === 2" 
+            x-transition:enter="transition ease-out duration-1000" 
+            x-transition:enter-start="opacity-0 transform -translate-y-2" 
+            x-transition:enter-end="opacity-100 transform translate-y-0" 
+            x-transition:leave="transition ease-in duration-1000" 
+            x-transition:leave-start="opacity-100 transform translate-y-0" 
+            x-transition:leave-end="opacity-0 transform -translate-y-2"
+  
+             >
                 <div class="relative items-center w-full">
                 <div>
                  <div class="sm:order-2">
@@ -199,7 +274,16 @@
              </div>
          </div>
      
-     <div x-show="openTab === 3" x-transition>
+         <div 
+         x-show="openTab === 3" 
+         x-transition:enter="transition ease-out duration-1000" 
+         x-transition:enter-start="opacity-0 transform -translate-y-2" 
+         x-transition:enter-end="opacity-100 transform translate-y-0" 
+         x-transition:leave="transition ease-in duration-1000" 
+         x-transition:leave-start="opacity-100 transform translate-y-0" 
+         x-transition:leave-end="opacity-0 transform -translate-y-2"
+
+          >
         <div class="relative items-center w-full">
             <div>
                 <div class="sm:order-2">
@@ -209,7 +293,16 @@
         </div>
     </div>
 
-           <div x-show="openTab === 4" x-transition>
+    <div 
+    x-show="openTab === 4" 
+    x-transition:enter="transition ease-out duration-1000" 
+    x-transition:enter-start="opacity-0 transform -translate-y-2" 
+    x-transition:enter-end="opacity-100 transform translate-y-0" 
+    x-transition:leave="transition ease-in duration-1000" 
+    x-transition:leave-start="opacity-100 transform translate-y-0" 
+    x-transition:leave-end="opacity-0 transform -translate-y-2"
+
+     >
             <div class="relative items-center w-full">
                 <div>
                     <div class="sm:order-2">
@@ -219,7 +312,16 @@
             </div>
         </div>
            
-        <div x-show="openTab === 5" x-transition>
+        <div 
+        x-show="openTab === 5" 
+        x-transition:enter="transition ease-out duration-1000" 
+        x-transition:enter-start="opacity-0 transform -translate-y-2" 
+        x-transition:enter-end="opacity-100 transform translate-y-0" 
+        x-transition:leave="transition ease-in duration-1000" 
+        x-transition:leave-start="opacity-100 transform translate-y-0" 
+        x-transition:leave-end="opacity-0 transform -translate-y-2"
+
+         >
             <div class="relative items-center w-full">
                 <div>
                     <div class="sm:order-2">
@@ -229,7 +331,14 @@
             </div>
         </div>
 
-        <div x-show="openTab === 6" x-transition>
+        <div 
+        x-show="openTab === 6" 
+        x-transition:enter="transition ease-out duration-1000" 
+        x-transition:enter-start="opacity-0 transform -translate-y-2" 
+        x-transition:enter-end="opacity-100 transform translate-y-0" 
+      
+
+         >
             <div class="relative items-center w-full">
                 <div>
                     <div class="sm:order-2">
@@ -244,6 +353,5 @@
 </section>
 
   
-
 
    
