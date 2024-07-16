@@ -409,16 +409,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
     Enterprise: "Yes",
   },
   {
-    Column1: "Multi-Store Gift Cards",
-    Free: "No",
-    Lite: "No",
-    Basic: "No",
-    Pro: "No",
-    Ultra: "No",
-    Premium: "No",
-    Enterprise: "Custom\n($10 per additional store)",
-  },
-  {
     Column1: "Two Factor Authentication",
     Free: "No",
     Lite: "No",
