@@ -892,13 +892,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"how-to-set-up-a-loyalty-program-on-shopify-in-2024.md": {
-	id: "how-to-set-up-a-loyalty-program-on-shopify-in-2024.md";
-  slug: "how-to-set-up-a-loyalty-program-on-shopify-in-2024";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "how-to-use-gift-card-in-social-media-marketing.md": {
 	id: "how-to-use-gift-card-in-social-media-marketing.md";
   slug: "how-to-use-gift-card-in-social-media-marketing";
@@ -1077,6 +1070,13 @@ declare module 'astro:content' {
 "send-bulk-gift-cards-with-omnisend.md": {
 	id: "send-bulk-gift-cards-with-omnisend.md";
   slug: "send-bulk-gift-cards-with-omnisend";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"shopify-loyalty-program.md": {
+	id: "shopify-loyalty-program.md";
+  slug: "shopify-loyalty-program";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
