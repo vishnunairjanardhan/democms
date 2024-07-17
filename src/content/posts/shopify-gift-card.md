@@ -161,7 +161,6 @@ Example: Imagine a customer who wants to buy a gift for a friend who loves fashi
 
 You must have a live Shopify account to sell gift cards on the platform. This is how to begin:
 <ul role= "list">
-
 <li><b>Register:</b> Visit Shopify's website to create an account. Inputting your store name, setting up a password, and supplying an email address are required.</li>
 <li><b>Select a Plan:</b> Choose a pricing plan based on your requirements. Shopify provides a variety of plans, each with unique features.</li>
 <li><b>Setup Your Store:</b> Enter your store details, including your address, currency, and time zone, by following the setup instructions. Tailor the theme and style of your store to reflect your brand.</li>
@@ -375,7 +374,7 @@ Shopify selects the no expiration date option by default, but you can change it 
 6. If you want to issue this Gift Card for specific customers, You can do it too, From Here.
 <img role="img" loading="lazy" src="/assets/blog/Customer detailed.png" alt="Customer detailed">
 
-<img role="img" loading="lazy" src="/assets/blog/CREATE A NEW CUSTOMER.png" alt= "CREATE A NEW CUSTOMER">
+<img role="img" loading="lazy" src="/assets/blog/CREATE A NEW CUSTOMER.png" alt="CREATE A NEW CUSTOMER">
 
 7. After Filling In All The Fields, Select The Activate Button And Activate The Gift Card.
 
@@ -426,10 +425,10 @@ Step 3: Click the gift card code you want to disable
 <img role="img" loading="lazy" src="/assets/blog/GIFT CARD CODE.png" alt="GIFT CARD CODE">
 
 Step 4: Click on disable selected gift card
-   <img role="img" loading="lazy" src="/assets/blog/DEACTIVE GIFT CARD.png" alt="DEACTIVE GIFT CARD">
+<img role="img" loading="lazy" src="/assets/blog/DEACTIVE GIFT CARD.png" alt="DEACTIVE GIFT CARD">
 
 Step 5: Click on disable gift card
-   <img role="img" loading="lazy" src="/assets/blog/CLICK ON DEACTIVE .png" alt="CLICK ON DEACTIVE">
+<img role="img" loading="lazy" src="/assets/blog/CLICK ON DEACTIVE .png" alt="CLICK ON DEACTIVE">
 
 Step 6: Click on disabled
 
