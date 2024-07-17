@@ -166,7 +166,7 @@ You must have a live Shopify account to sell gift cards on the platform. This is
 <li><b>Setup Your Store:</b> Enter your store details, including your address, currency, and time zone, by following the setup instructions. Tailor the theme and style of your store to reflect your brand.</li>
 </ul>
 
-2. <h3>Add vs. Create - Share Their Difference</h3>
+2. <h3>Add vs. Create Share Their Difference</h3>
 To manage your store effectively, you must know the difference between adding and creating gift cards in Shopify.
 <ul role= "list">
 <li><b>Add Gift Cards:</b> Adding gift cards usually means turning on your Shopify store's gift card feature. This entails setting up things that people can buy with gift cards. How to add gift cards is as follows:</li>
@@ -184,7 +184,7 @@ In order to create gift cards, gift cards must be manually issued for customer s
 <li><b>Go to Products:</b> Go to Gift Cards under Products.</li>
 <li><b>Give out gift cards:</b> Select "Gift card issue" by clicking.</li>
 <li><b>Add Information:</b> Enter the gift card's information, such as the starting value, the recipient's details, and any personalized notes. If necessary, you can also define an expiration date.</li>
-<li><b>Save and Send:</b> After entering all the information, save the gift card. You can email the gift card's unique code—which Shopify will generate—to the recipient.</li>
+<li><b>Save and Send:</b> After entering all the information, save the gift card. You can email the gift card's unique code which Shopify will generate to the recipient.</li>
 </ul>
 
 <a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
@@ -285,7 +285,7 @@ Adding gift cards to your cart is a simple process that can be completed in just
 <img role="img" loading="lazy" src="/assets/blog/Status.png" alt="Status">
 
 8. Choose where you want to publish this gift card from the publishing section.
-<img role="img" loading="lazy" src="/assets/blog/PUBLISHING.png" alt="PUBLISHING">
+<img role="img" loading="lazy" src="/assets/blog/Publish.png" alt="Publish">
 
 9. Fill out the product organization fields
 <img role="img" loading="lazy" src="/assets/blog/Product Organization.png" alt="Product Organization">
@@ -372,9 +372,9 @@ Creating a gift card is a simple process that involves generating a unique code,
 Shopify selects the no expiration date option by default, but you can change it if needed.
 
 6. If you want to issue this Gift Card for specific customers, You can do it too, From Here.
-<img role="img" loading="lazy" src="/assets/blog/Customer detailed.png" alt="Customer detailed">
+<img role="img" loading="lazy" src="/assets/blog/Customer-detailed.png" alt="Customer detailed">
 
-<img role="img" loading="lazy" src="/assets/blog/CREATE A NEW CUSTOMER.png" alt="CREATE A NEW CUSTOMER">
+<img role="img" loading="lazy" src="/assets/blog/create-a-new-customer.png" alt="create-a-new-customer">
 
 7. After Filling In All The Fields, Select The Activate Button And Activate The Gift Card.
 
@@ -428,7 +428,7 @@ Step 4: Click on disable selected gift card
 <img role="img" loading="lazy" src="/assets/blog/DEACTIVE GIFT CARD.png" alt="DEACTIVE GIFT CARD">
 
 Step 5: Click on disable gift card
-<img role="img" loading="lazy" src="/assets/blog/CLICK ON DEACTIVE .png" alt="CLICK ON DEACTIVE">
+<img role="img" loading="lazy" src="/assets/blog/Click-on-deactive.png" alt="Click on deactive">
 
 Step 6: Click on disabled
 
@@ -493,7 +493,7 @@ While Shopify offers a robust platform for managing gift cards, which can effect
 | Integration and Flexibility   | Limited flexibility, basic integration within Shopify's platform | High flexibility, seamless integration with other marketing tools such as Bigcommerce, Woocommerce, SquarePOS, etc. |
 | Refund Options                | Allows gift cards as refunds but with limited management flexibility | More straightforward and flexible refund management      |
 
-For businesses aiming to provide a more tailored, engaging, and integrated store credit or gift card experience, 99minds offers significant advantages over Shopify's default capabilities. To explore how 99minds can enhance your store credit program, visit 99minds.
+For businesses aiming to provide a more tailored, engaging, and integrated store credit or gift card experience, <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> offers significant advantages over Shopify's default capabilities. To explore how 99minds can enhance your store credit program, visit 99minds.
 
 <h2 id= "Conclusion"> Conclusion</h2> 
 Integrating gift cards into your Shopify store can revolutionize your <a href="hhttps://www.99minds.io/blog/ecommerce-strategy-guide" role="link" target="_blank">eCommerce strategy</a>. Its benefits range from increasing sales and <a href= "https://www.99minds.io/blog/build-customer-loyalty" role= "liml" target="_blank">customer loyalty</a> to providing personalized shopping opportunities and promoting brand flexibility. It's the right tools and platforms like <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a>. 
@@ -511,7 +511,7 @@ Yes, you can set an expiration date for Shopify gift cards to encourage customer
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can Customers Check Their Gift Card Balance?
 </h3>
 Absolutely! Customers can easily check their gift card balance by visiting your store's gift card page or during the checkout process. The remaining balance is displayed, allowing customers to know how much they have left to spend.</div>
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> How Do I Promote my Shopify Gift Cards?</h3>Promoting your Shopify gift cards is essential to maximize sales. You can promote them through email marketing campaigns, social media posts, and on your website. Offering special promotions or discounts on gift cards during holidays or special occasions can also help boost sales.</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> How do I Promote my Shopify Gift Cards?</h3>Promoting your Shopify gift cards is essential to maximize sales. You can promote them through email marketing campaigns, social media posts, and on your website. Offering special promotions or discounts on gift cards during holidays or special occasions can also help boost sales.</div>
 
 
 
