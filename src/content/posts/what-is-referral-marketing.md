@@ -22,7 +22,7 @@ What works for one company might not suit another, highlighting the importance o
 An increasing number of business owners are recognizing the advantages of referral marketing strategies. Historically, word-of-mouth was a cost-free and often effective method of promotion. Today, referral marketing leverages this concept through a structured program designed to yield significant results. By incentivizing existing customers to recommend your business, referral marketing can transform regular customers into brand advocates and open doors to new customer bases.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents</p>
+<p>Table of Contents:</p>
 <ul>
   <li>  
     <a role="link" href="#What-is-Referral-Program?" rel="noreferrer">What is Referral Marketing?</a>
@@ -49,7 +49,7 @@ An increasing number of business owners are recognizing the advantages of referr
     <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
   </li> 
   <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)" ref="noreferrer">Frequently Asked Questions (FAQs)</a>
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Referral-Marketing" ref="noreferrer">Frequently Asked Questions (FAQs) for Referral Marketing</a>
   </li>                       
 </ul>   
 </div>  
@@ -397,7 +397,7 @@ There are immense advantages to adding <a href="https://www.99minds.io/referral"
 
 If you are looking for referral marketing software that will fulfill all your campaign needs, here’s <a href="https://www.99minds.io" role="link" target="_blanck">99minds</a> for you. Get in touch with us to understand how you can create a referral marketing strategy that keeps on giving.
 
-<h2 id="Frequently-Asked-Questions-(FAQs)">Frequently Asked Questions (FAQs)</h2>
+<h2 id="Frequently-Asked-Questions-(FAQs)-for-Referral-Marketing">Frequently Asked Questions (FAQs) for Referral Marketing</h2>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do I Measure the Success of my Referral Program?</h3>To measure the success of your referral program, track key performance indicators (KPIs). These include the number of referrals made, the conversion rate of those referrals, and the customer acquisition cost. Additionally, assess the lifetime value of referred customers and the program's engagement rates. Finally, evaluate the overall sales growth attributed to the referral program.
 </div>
