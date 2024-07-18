@@ -22,7 +22,7 @@ According to a <a href="https://www.bain.com/insights/retaining-customers-is-the
 This blog will explore the importance of repeat customers, their contribution to business growth, and effective strategies to attract and retain them.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents</p>
+<p>Table of Contents:</p>
 <ul>
   <li>  
     <a role="link" href="#What-is-a-Repeat-Customer?" rel="noreferrer">What is a Repeat Customer?</a>
@@ -46,7 +46,7 @@ This blog will explore the importance of repeat customers, their contribution to
     <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
   </li>
   <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)" ref="noreferrer">Frequently Asked Questions (FAQs)</a>
+    <a role="link" href="#Frequently-Ask-Questions-(FAQs)-for-Repeat-Customer" ref="noreferrer">Frequently Ask Questions (FAQs) for Repeat Customer</a>
   </li>                    
 </ul>
 </div>   
@@ -348,6 +348,7 @@ Providing seamless omnichannel experiences is increasingly important. Customers 
 <a href="https://www.99minds.io/blog/what-is-omnichannel-commerce" role="link" target="_blanck">Omnichannel commerce</a> integrates these platforms, allowing customers to switch between them seamlessly. This approach synchronizes data for personalized recommendations, consistent pricing, and real-time inventory updates, enhancing customer satisfaction and loyalty. Embracing omnichannel commerce also provides insights into consumer behavior, helping brands refine their strategies.
 </li>
 
+<li>
 <h3>Sustainability and Ethical Practices</h3>
 
 Modern customers are more conscious of sustainability and ethical practices. Brands that demonstrate a commitment to these values are more likely to cultivate loyal repeat customers. Transparent practices, sustainable products, and ethical business operations can significantly impact customer retention.
@@ -425,10 +426,10 @@ Whether through loyalty programs, personalized experiences, or exceptional custo
 
 Interested in learning more about how to boost your customer retention and grow your business? Visit <a href="https://www.99minds.io" role="link" target="_blanck">99minds</a> to explore our personalized marketing solutions and start building your loyal customer base today!
 
-<h2 id="Frequently-Asked-Questions-(FAQs)">Frequently Asked Questions (FAQs)</h2>
+<h2 id="Frequently-Ask-Questions-(FAQs)-for-Repeat-Customer">Frequently Asked Questions (FAQs) for Repeat Customer</h2>
 
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h2>What is a Repeat Customer?</h2>A repeat customer is someone who returns to purchase from the same business multiple times, demonstrating loyalty, satisfaction, and trust in the products or services offered. Their repeat business indicates a positive customer experience and a strong relationship with the brand.</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is a Repeat Customer?</h3>A repeat customer is someone who returns to purchase from the same business multiple times, demonstrating loyalty, satisfaction, and trust in the products or services offered. Their repeat business indicates a positive customer experience and a strong relationship with the brand.</div>
 
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h2>How to Attract Repeat Customers?</h2>To attract repeat customers, provide excellent service, offer loyalty programs, maintain consistent quality, engage through personalized marketing, and seek customer feedback to continuously improve products and experiences.</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How to Attract Repeat Customers?</h3>To attract repeat customers, provide excellent service, offer loyalty programs, maintain consistent quality, engage through personalized marketing, and seek customer feedback to continuously improve products and experiences.</div>
 
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h2>Why are Repeat Customers More Profitable?</h2>Repeat customers are more profitable because they tend to buy more frequently, require less marketing effort, and often refer others, reducing acquisition costs and increasing revenue.</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why are Repeat Customers More Profitable?</h3>Repeat customers are more profitable because they tend to buy more frequently, require less marketing effort, and often refer others, reducing acquisition costs and increasing revenue.</div>

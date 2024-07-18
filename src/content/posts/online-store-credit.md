@@ -24,7 +24,7 @@ Online store credit offers a value that customers can use exclusively in your st
 This guide will explore strategies to use and promote online store credit as a preferred refund option in your retail environment.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents</p>
+<p>Table of Contents:</p>
 <ul>
   <li>  
     <a role="link" href="#What-is-Store-Credit?" rel="noreferrer">What is Store Credit?</a>
@@ -48,7 +48,7 @@ This guide will explore strategies to use and promote online store credit as a p
     <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
   </li>
   <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)" ref="noreferrer">Frequently Asked Questions (FAQs)</a>
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Online-Store-Credit" ref="noreferrer">Frequently Asked Questions (FAQs) for Online Store Credit</a>
   </li>                     
 </ul>   
 </div>
@@ -71,6 +71,8 @@ What is store credit exactly? It's not just a simple refund; it represents a mor
 Store credit can come in various forms, such as gift cards, loyalty rewards, or store-specific credit cards. These forms are typically exclusive to the issuing store, and in many cases, they do not expire, offering long-term value to customers. This system is particularly effective in fostering customer loyalty and encouraging repeat business, as it simplifies the exchange process for returns and transforms potential losses from returns into future sales opportunities.
 
 By using store credit and online <a href="https://www.99minds.io/store-credit" role="link" target="_blanck">store credit</a> systems, businesses can enhance their customer service experience, offering a tangible incentive that encourages customers to continue shopping with them, thereby solidifying customer loyalty and improving overall satisfaction.
+
+<a href="https://www.99minds.io/referral" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-R1 (2).webp" alt="grow your business with referrals"></a>
 
 <h2 id="What-are-the-Benefits-of-Issuing-Online-Store-Credit?">What are the Benefits of Issuing Online Store Credit?</h2>
 
@@ -108,39 +110,6 @@ Store credit helps to keep the cash in business. By offering store credit or gif
 </div>
 </ol>
 
-<!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
-
-<div class="flex flex-wrap items-center gap-2">
-              <div x-data="{ open: false }" class="w-full">
-              <!-- Trigger -->
-              <span x-on:click="open = true" class="w-full">
-                 <div class="w-full ">
-                <span class="w-full "></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA button"></span>
-                </span></div>
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly">
-                      </iframe>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
 <h2 class="m-0 mb-4" id="Types-of-Store-Credit">Types of Store Credit</h2>
 
 Retailers have several strategies for issuing store credit, enhancing flexibility and customer retention. Here's a breakdown of the four main methods used to offer online store credit and the benefits associated with each:
@@ -177,8 +146,6 @@ A customer loyalty program rewards returning customers for their continued busin
 <img loading="lazy" role="img" src="/assets/blog/Screenshot 2024-07-05 182611.webp" alt="starbucks loyalty program">
 </div>
 </ol>
-
-<a href="https://www.99minds.io/referral" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-R1 (2).webp" alt="grow your business with referrals"></a>
 
 <h2 id="How-to-use-Store-Credit-to-Increase-Customer-Retention">How to use Store Credit to Increase Customer Retention</h2>
 
@@ -243,9 +210,40 @@ Acknowledge customer loyalty by offering store credit on special milestones, suc
 </li>
 </ol>
 
-<a href="https://www.99minds.io/giftcard" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-GC1.webp" alt="Purchases made with gift card get 30% lease returns"></a>
+<!-- 
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
 
-<h2 id="Build-Store-Credit-Program-with-99minds">Build Store Credit Program with 99minds</h2>
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA button"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<h2 class="m-0 mb-4" id="Build-Store-Credit-Program-with-99minds">Build Store Credit Program with 99minds</h2>
 
 In the current retail landscape, understanding what is store credit and how to effectively implement an online <a href="https://www.99minds.io/store-credit" role="link" target="_blanck">store credit</a> program are crucial for enhancing <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">customer loyalty</a> and retention. <a href="https://www.99minds.io" role="link" target="_blanck">99minds</a> provides a versatile omnichannel application that empowers businesses to offer store credit both in-store and online, seamlessly integrating with your existing operations. 
 <ol>
@@ -286,12 +284,12 @@ Encourage greater engagement and repeat purchases by integrating store credit in
 
 In conclusion, understanding what is store credit and implementing an effective online <a href="https://www.99minds.io/store-credit" role="link" target="_blanck">store credit</a> program are essential strategies for enhancing customer retention and loyalty. By adopting a comprehensive store credit system like the one offered by <a href="https://www.99minds.io" role="link" target="_blanck">99minds</a>, businesses can provide flexible and appealing options that encourage customers to continue engaging with their brand. Whether you're looking to streamline refunds, boost customer engagement, or enhance the overall shopping experience, online store credit is a powerful tool that can drive growth and customer satisfaction. Embrace these strategies to transform one-time buyers into loyal customers and strengthen your business's future.
 
-<h2 id="Frequently-Asked-Questions-(FAQs)">Frequently Asked Questions (FAQs)</h2>
+<h2 id="Frequently-Asked-Questions-(FAQs)-for-Online-Store-Credit">Frequently Asked Questions (FAQs) for Online Store Credit</h2>
 
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h2>What is Store Credit?</h2>Brand loyalty is when consumers consistently choose your brand over competitors, often due to satisfaction with your products or services, trust in your brand, and positive past experiences.</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is Store Credit?</h3>Brand loyalty is when consumers consistently choose your brand over competitors, often due to satisfaction with your products or services, trust in your brand, and positive past experiences.</div>
 
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h2>How does Store Credit Work?</h2>Online store credit is a refund or compensation offered to customers in digital form instead of cash when they return an item. It is typically issued via a code or digital card that the customer can use for future purchases on the retailer's website. 
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How does Store Credit Work?</h3>Online store credit is a refund or compensation offered to customers in digital form instead of cash when they return an item. It is typically issued via a code or digital card that the customer can use for future purchases on the retailer's website. 
 This type of credit ensures that the funds are retained within the retailer's ecosystem, promoting customer retention by encouraging them to continue shopping at the same online store. Unlike cash refunds, online store credit can only be used at the issuing store and not transferred elsewhere.</div>
 
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h2>What is a Store Credit Refund?</h2>A store credit refund is when a retailer gives you a credit instead of returning your money after you've returned an item. This credit is typically issued as "online store credit," which you can use for future purchases on the retailer's website. 
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is a Store Credit Refund?</h3>A store credit refund is when a retailer gives you a credit instead of returning your money after you've returned an item. This credit is typically issued as "online store credit," which you can use for future purchases on the retailer's website. 
 It ensures that the funds remain within the retailer's financial ecosystem, encouraging customers to spend their credit back at the store, thereby fostering customer loyalty and retention. Unlike cash refunds, online store credit usually cannot be redeemed for cash or used at other stores, keeping the spending tied to the original retailer.</div>
