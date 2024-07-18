@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/ecommerce-strategy-a-complete-guide.webp"
   alt: "Increase sales with gift cards."
 tags: ["Gift Card"]
-url: "https://www.99minds.io/blog/Ecommerce-Strategy-A-Complete-Guide/"
+url: "https://www.99minds.io/blog/ecommerce-strategy-a-complete-guide"
 keywords: ["ecommerce strategy, ecommerce strategies, strategies of ecommerce, ecommerce business strategy, strategies of ecommerce"]
 
 ---
