@@ -1,7 +1,7 @@
 <section>
     <div class="px-8 mx-auto md:px-12 lg:px-16 max-w-7xl lg: py-1 my-22">
         <div class="flex items-start mt-10 -mb-px" x-data="{ openTab: 1 }">
-            <div class="border-l border-vulcan-700">
+            <div class="border-l border-vulcan-700 w-full">
                 <div 
                     :class="{ 'border-l-2 border-indigo-500 transition: border-color 1s ease-in-out': openTab === 1 }" 
                     class="relative flex flex-col w-full select-none lg:flex-col lg:inline-grid md:flex-row transition: all 1s ease-in-out"
@@ -24,10 +24,10 @@
              
                 <div 
                 x-show="openTab === 1" 
-                x-transition:enter="transition ease-out duration-1000" 
                 x-transition:enter-start="opacity-0 transform -translate-y-2" 
                 x-transition:enter-end="opacity-100 transform translate-y-0" 
-                x-transition:leave="transition ease-in duration-1000" 
+                x-transition:enter="transition duration-500" 
+                x-transition:leave="transition duration-500" 
                 x-transition:leave-start="opacity-100 transform translate-y-0" 
                 x-transition:leave-end="opacity-0 transform -translate-y-2"
                 
@@ -62,10 +62,11 @@
 
             <div 
             x-show="openTab === 2" 
-            x-transition:enter="transition ease-out duration-1000" 
+ 
             x-transition:enter-start="opacity-0 transform -translate-y-2" 
             x-transition:enter-end="opacity-100 transform translate-y-0" 
-            x-transition:leave="transition ease-in duration-1000" 
+            x-transition:enter="transition duration-500" 
+            x-transition:leave="transition duration-500" 
             x-transition:leave-start="opacity-100 transform translate-y-0" 
             x-transition:leave-end="opacity-0 transform -translate-y-2"
     
@@ -100,10 +101,11 @@
  
               <div 
               x-show="openTab === 3" 
-              x-transition:enter="transition ease-out duration-1000" 
+   
               x-transition:enter-start="opacity-0 transform -translate-y-2" 
               x-transition:enter-end="opacity-100 transform translate-y-0" 
-              x-transition:leave="transition ease-in duration-1000" 
+              x-transition:enter="transition duration-500" 
+              x-transition:leave="transition duration-500" 
               x-transition:leave-start="opacity-100 transform translate-y-0" 
               x-transition:leave-end="opacity-0 transform -translate-y-2"
     
@@ -139,13 +141,12 @@
 
                <div 
                x-show="openTab === 4" 
-               x-transition:enter="transition ease-out duration-1000" 
                x-transition:enter-start="opacity-0 transform -translate-y-2" 
                x-transition:enter-end="opacity-100 transform translate-y-0" 
-               x-transition:leave="transition ease-in duration-1000" 
+               x-transition:enter="transition duration-500" 
+               x-transition:leave="transition duration-500" 
                x-transition:leave-start="opacity-100 transform translate-y-0" 
                x-transition:leave-end="opacity-0 transform -translate-y-2"
-    
                 >
                     <div class="relative items-center w-full">
                         <div>
@@ -177,13 +178,12 @@
 
                <div 
                x-show="openTab === 5" 
-               x-transition:enter="transition ease-out duration-1000" 
                x-transition:enter-start="opacity-0 transform -translate-y-2" 
                x-transition:enter-end="opacity-100 transform translate-y-0" 
-               x-transition:leave="transition ease-in duration-1000" 
+               x-transition:enter="transition duration-500" 
+               x-transition:leave="transition duration-500" 
                x-transition:leave-start="opacity-100 transform translate-y-0" 
                x-transition:leave-end="opacity-0 transform -translate-y-2"
-    
                >
                     <div class="relative items-center w-full">
                         <div>
@@ -215,13 +215,10 @@
 
               <div 
               x-show="openTab === 6" 
-              x-transition:enter="transition ease-out duration-1000" 
               x-transition:enter-start="opacity-0 transform -translate-y-2" 
               x-transition:enter-end="opacity-100 transform translate-y-0" 
-              x-transition:leave="transition ease-in duration-1000" 
-              x-transition:leave-start="opacity-100 transform translate-y-0" 
+               x-transition:leave-start="opacity-100 transform translate-y-0" 
               x-transition:leave-end="opacity-0 transform -translate-y-2"
-    
                >
                     <div class="relative items-center w-full">
                         <div>
@@ -234,14 +231,13 @@
                 </div>
             </div> 
         </div>
-             
-            <div> 
+             <!-- Image starts here -->
+            <div class='w-3/4 hidden md:inline'> 
                 <div 
                 x-show="openTab === 1" 
-                x-transition:enter="transition ease-out duration-1000" 
+     
                 x-transition:enter-start="opacity-0 transform -translate-y-2" 
                 x-transition:enter-end="opacity-100 transform translate-y-0" 
-                x-transition:leave="transition ease-in duration-1000" 
                 x-transition:leave-start="opacity-100 transform translate-y-0" 
                 x-transition:leave-end="opacity-0 transform -translate-y-2"
       
@@ -257,10 +253,9 @@
 
             <div 
             x-show="openTab === 2" 
-            x-transition:enter="transition ease-out duration-1000" 
+ 
             x-transition:enter-start="opacity-0 transform -translate-y-2" 
             x-transition:enter-end="opacity-100 transform translate-y-0" 
-            x-transition:leave="transition ease-in duration-1000" 
             x-transition:leave-start="opacity-100 transform translate-y-0" 
             x-transition:leave-end="opacity-0 transform -translate-y-2"
   
@@ -276,10 +271,8 @@
      
          <div 
          x-show="openTab === 3" 
-         x-transition:enter="transition ease-out duration-1000" 
          x-transition:enter-start="opacity-0 transform -translate-y-2" 
          x-transition:enter-end="opacity-100 transform translate-y-0" 
-         x-transition:leave="transition ease-in duration-1000" 
          x-transition:leave-start="opacity-100 transform translate-y-0" 
          x-transition:leave-end="opacity-0 transform -translate-y-2"
 
@@ -295,10 +288,8 @@
 
     <div 
     x-show="openTab === 4" 
-    x-transition:enter="transition ease-out duration-1000" 
     x-transition:enter-start="opacity-0 transform -translate-y-2" 
     x-transition:enter-end="opacity-100 transform translate-y-0" 
-    x-transition:leave="transition ease-in duration-1000" 
     x-transition:leave-start="opacity-100 transform translate-y-0" 
     x-transition:leave-end="opacity-0 transform -translate-y-2"
 
@@ -314,10 +305,8 @@
            
         <div 
         x-show="openTab === 5" 
-        x-transition:enter="transition ease-out duration-1000" 
         x-transition:enter-start="opacity-0 transform -translate-y-2" 
         x-transition:enter-end="opacity-100 transform translate-y-0" 
-        x-transition:leave="transition ease-in duration-1000" 
         x-transition:leave-start="opacity-100 transform translate-y-0" 
         x-transition:leave-end="opacity-0 transform -translate-y-2"
 
@@ -333,11 +322,10 @@
 
         <div 
         x-show="openTab === 6" 
-        x-transition:enter="transition ease-out duration-1000" 
         x-transition:enter-start="opacity-0 transform -translate-y-2" 
         x-transition:enter-end="opacity-100 transform translate-y-0" 
-      
-
+        x-transition:leave-start="opacity-100 transform translate-y-0" 
+        x-transition:leave-end="opacity-0 transform -translate-y-2"
          >
             <div class="relative items-center w-full">
                 <div>
