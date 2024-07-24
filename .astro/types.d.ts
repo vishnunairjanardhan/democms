@@ -402,6 +402,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"benefits-of-a-loyalty-program.md": {
+	id: "benefits-of-a-loyalty-program.md";
+  slug: "benefits-of-a-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "benefits-of-joining-a-bigcommerce-affiliate-programs.md": {
 	id: "benefits-of-joining-a-bigcommerce-affiliate-programs.md";
   slug: "benefits-of-joining-a-bigcommerce-affiliate-programs";
@@ -1172,9 +1179,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"types-of-customer-loyalty-programs.md": {
-	id: "types-of-customer-loyalty-programs.md";
-  slug: "types-of-customer-loyalty-programs";
+"types-of-loyalty-program.md": {
+	id: "types-of-loyalty-program.md";
+  slug: "types-of-loyalty-program";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
