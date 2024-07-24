@@ -1,16 +1,16 @@
 import { defineConfig } from 'astro/config';
-import tailwind from "@astrojs/tailwind";
-import sitemap from "@astrojs/sitemap";
-import mdx from "@astrojs/mdx";
-import react from "@astrojs/react";
+import tailwind from '@astrojs/tailwind';
+import sitemap from '@astrojs/sitemap';
+import mdx from '@astrojs/mdx';
+import react from '@astrojs/react';
 import compression from 'vite-plugin-compression';
 import visualizer from 'rollup-plugin-visualizer';
-import partytown from "@astrojs/partytown";
+import partytown from '@astrojs/partytown';
 
 export default defineConfig({
   markdown: {
     drafts: true,
-    shikiConfig: { theme: "css-variables" }
+    shikiConfig: { theme: 'css-variables' },
   },
   shikiConfig: {
     wrap: true,
@@ -18,14 +18,30 @@ export default defineConfig({
     drafts: true,
   },
   site: 'https://www.99minds.io',
-  integrations: [tailwind(), react(), sitemap(), mdx(), partytown({
-    // Adds dataLayer.push as a forwarding-event.
-    config: {
-      forward: ["dataLayer.push"],
-    },
-  })],
+  integrations: [
+    tailwind(),
+    react(),
+    sitemap(),
+    mdx(),
+    partytown({
+      config: {
+        forward: ['dataLayer.push'],
+      },
+    }),
+  ],
   vite: {
-    plugins: [compression(), visualizer()]
+    plugins: [compression(), visualizer()],
+    build: {
+      minify: 'esbuild',
+      terserOptions: {
+        compress: {
+          drop_console: true,
+        },
+      },
+    },
+    optimizeDeps: {
+      include: ['@astrojs/partytown'],
+    },
   },
   redirects: {
     "/blog/gift-card/what-is-the-future-of-e-commerce-in-the-next-5-10-years/": "/blog/what-is-the-future-of-e-commerce-in-the-next-5-10-years/",
@@ -52,5 +68,5 @@ export default defineConfig({
     "/blog/gift-card/gift-cards-the-perfect-employee-reward-for-your-workforce/": "/blog/gift-cards-the-perfect-employee-reward-for-your-workforce/",
     "/blog/bigcommerce/benefits-of-joining-a-bigcommerce-affiliate-programs/": "/blog/benefits-of-joining-a-bigcommerce-affiliate-programs/",
     "/blog/ecommerce/how-do-i-set-up-an-ecommerce-referral-program/": "/blog/how-do-i-set-up-an-ecommerce-referral-program/",
-  }
+  },
 });
