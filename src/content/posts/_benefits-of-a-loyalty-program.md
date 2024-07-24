@@ -1,5 +1,5 @@
 ---
-pubDate: 2024-07-24
+pubDate: 2024-07-17
 author: Soniya
 authorImg: "Soniya.webp"
 title: Benefits of Loyalty Program in 2024 | 99Minds
