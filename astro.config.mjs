@@ -32,7 +32,7 @@ export default defineConfig({
   vite: {
     plugins: [compression(), visualizer()],
     build: {
-      minify: 'esbuild',
+      minify: 'terser', 
       terserOptions: {
         compress: {
           drop_console: true,
