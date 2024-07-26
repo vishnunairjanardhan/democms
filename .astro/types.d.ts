@@ -213,6 +213,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"10-best-practices-for-setting-up-your-shopify-gift-card-program.md": {
+	id: "10-best-practices-for-setting-up-your-shopify-gift-card-program.md";
+  slug: "10-best-practices-for-setting-up-your-shopify-gift-card-program";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md": {
 	id: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md";
   slug: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store";
@@ -398,6 +405,13 @@ declare module 'astro:content' {
 "beginners-guide-to-e-commerce-promotions.md": {
 	id: "beginners-guide-to-e-commerce-promotions.md";
   slug: "beginners-guide-to-e-commerce-promotions";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"benefits-of-a-loyalty-program.md": {
+	id: "benefits-of-a-loyalty-program.md";
+  slug: "benefits-of-a-loyalty-program";
   body: string;
   collection: "posts";
   data: any
@@ -1133,6 +1147,13 @@ declare module 'astro:content' {
 "the-role-of-technology-in-enhancing-ecommerce.md": {
 	id: "the-role-of-technology-in-enhancing-ecommerce.md";
   slug: "the-role-of-technology-in-enhancing-ecommerce";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"tiered-loyalty-program.md": {
+	id: "tiered-loyalty-program.md";
+  slug: "tiered-loyalty-program";
   body: string;
   collection: "posts";
   data: any
