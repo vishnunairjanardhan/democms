@@ -1,7 +1,12 @@
-<section>
-    <div class="px-8 mx-auto md:px-12 lg:px-16 max-w-7xl lg: py-1 my-22">
-        <div class="flex items-start mt-10 -mb-px" x-data="{ openTab: 1 }">
-            <div class="border-l border-vulcan-700">
+<section class="flex items-end justify-center bg-vulcan-900 border-y border-white/5">
+    <div class="px-8 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24 ">
+        <div class="text-center">
+        <h2>The Ultimate Gift Card Software</h2>
+        <p class="mt-5">The devil is in the details. Create gift card programs that consider all the nitty-gritty of your business.
+        </p>
+        </div>
+        <div class="flex items-start mt-20 -mb-px" x-data="{ openTab: 1 }">
+            <div class="border-l border-vulcan-700 w-full">
                 <div 
                     :class="{ 'border-l-2 border-indigo-500 transition: border-color 1s ease-in-out': openTab === 1 }" 
                     class="relative flex flex-col w-full select-none lg:flex-col lg:inline-grid md:flex-row transition: all 1s ease-in-out"
@@ -9,25 +14,18 @@
                 <button 
                     @click="openTab === 1 ? openTab = null : openTab = 1" 
                     type="button" 
-                    class="relative z-20  py-1 my-2 inline-flex items-center w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white" 
+                    class="relative z-20  py-1 my-2 inline-flex items-center w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white text-left" 
                     id="tabs-7-1"
                 >
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 icon icon-tabler icon-tabler-components" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" :class="{ 'stroke-indigo-500': openTab === 1 }">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M3 12l3 3l3 -3l-3 -3z"></path>
-                        <path d="M15 12l3 3l3 -3l-3 -3z"></path>
-                        <path d="M9 6l3 3l3 -3l-3 -3z"></path>
-                        <path d="M9 18l3 3l3 -3l-3 -3z"></path>
-                    </svg>
-                    <h3 class="ml-1">Bulk Gift Card</h3>
+                    <h3 class="ml-1">Create Gift Cards In Bulk</h3>
                 </button>
              
                 <div 
                 x-show="openTab === 1" 
-                x-transition:enter="transition ease-out duration-1000" 
                 x-transition:enter-start="opacity-0 transform -translate-y-2" 
                 x-transition:enter-end="opacity-100 transform translate-y-0" 
-                x-transition:leave="transition ease-in duration-1000" 
+                x-transition:enter="transition duration-500" 
+                x-transition:leave="transition duration-500" 
                 x-transition:leave-start="opacity-100 transform translate-y-0" 
                 x-transition:leave-end="opacity-0 transform -translate-y-2"
                 
@@ -35,8 +33,7 @@
                     <div class="relative items-center w-full">
                         <div>
                             <div class="sm:order-1">
-                                <p class="px-4 mt-2">Gift card life-cycle management, tracking, and visibility from issuance to order level redemption.</p>
-                                <p class="px-4 my-2">Customer data reporting and analytics based on gift card usage.</p>
+                                <p class="px-4">Need thousands of gift cards? Create 1000 gift cards at once with 99minds.</p>
                             </div>
                         </div>
                     </div>
@@ -47,25 +44,19 @@
         <button 
          @click="openTab === 2 ? openTab = null : openTab = 2" 
          type="button" 
-         class="relative z-20  py-1 my-2 inline-flex items-center   w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white" 
+         class="relative z-20  py-1 my-2 inline-flex items-center text-left w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white" 
          id="tabs-7-2"
         >
-       <svg xmlns="http://www.w3.org/2000/svg" class="w-4 icon icon-tabler icon-tabler-components" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" :class="{ 'stroke-indigo-500': openTab === 2 }"> 
-       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> 
-       <path d="M3 12l3 3l3 -3l-3 -3z"></path> 
-       <path d="M15 12l3 3l3 -3l-3 -3z"></path> 
-       <path d="M9 6l3 3l3 -3l-3 -3z"></path> 
-       <path d="M9 18l3 3l3 -3l-3 -3z"></path> 
-       </svg>
-       <h3 class="ml-1">Import & Migration</h3>
+       <h3 class="ml-1">Seamlessly Migration and Import</h3>
     </button>
 
             <div 
             x-show="openTab === 2" 
-            x-transition:enter="transition ease-out duration-1000" 
+ 
             x-transition:enter-start="opacity-0 transform -translate-y-2" 
             x-transition:enter-end="opacity-100 transform translate-y-0" 
-            x-transition:leave="transition ease-in duration-1000" 
+            x-transition:enter="transition duration-500" 
+            x-transition:leave="transition duration-500" 
             x-transition:leave-start="opacity-100 transform translate-y-0" 
             x-transition:leave-end="opacity-0 transform -translate-y-2"
     
@@ -73,8 +64,7 @@
                            <div class="relative items-center w-full">
                            <div>
                             <div class="sm:order-1">
-                               <p class="px-4 mt-2">Import existing gift cards | voucher | Certificates balance into 99minds.</p>
-                               <p class="px-4 mt-2">Seamless migration from existing gift card processor to 99minds.</p>
+                               <p class="px-4">We help you migrate from any existing gift card software to <br /> 99minds and even import existing gift card balances.</p>
                             </div>
                         </div>
                     </div>
@@ -85,25 +75,19 @@
         <button 
         @click="openTab === 3 ? openTab = null : openTab = 3" 
         type="button" 
-        class="relative z-20  py-1 my-2 inline-flex items-center   w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white"
+        class="relative z-20  py-1 my-2 inline-flex items-center text-left w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white"
         id="tabs-7-3"
        >
-       <svg xmlns="http://www.w3.org/2000/svg" class="w-4 icon icon-tabler icon-tabler-components" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" :class="{ 'stroke-indigo-500': openTab === 3 }"> 
-       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> 
-       <path d="M3 12l3 3l3 -3l-3 -3z"></path> 
-       <path d="M15 12l3 3l3 -3l-3 -3z"></path> 
-       <path d="M9 6l3 3l3 -3l-3 -3z"></path> 
-       <path d="M9 18l3 3l3 -3l-3 -3z"></path> 
-       </svg>
-      <h3 class="ml-1"> Multi-Currency</h3>
+      <h3 class="ml-1"> Multiple Currency Support</h3>
     </button>
  
               <div 
               x-show="openTab === 3" 
-              x-transition:enter="transition ease-out duration-1000" 
+   
               x-transition:enter-start="opacity-0 transform -translate-y-2" 
               x-transition:enter-end="opacity-100 transform translate-y-0" 
-              x-transition:leave="transition ease-in duration-1000" 
+              x-transition:enter="transition duration-500" 
+              x-transition:leave="transition duration-500" 
               x-transition:leave-start="opacity-100 transform translate-y-0" 
               x-transition:leave-end="opacity-0 transform -translate-y-2"
     
@@ -111,8 +95,7 @@
                     <div class="relative items-center w-full">
                         <div>
                             <div class="sm:order-1">
-                               <p class="px-4 mt-2">Supports 100+ currencies, including USD, CAD, EUR, GBP, KRW, JPY, CNY & many more!</p>
-                               <p class="px-4 mt-2">Customer data reporting and analytics based on gift card usage.</p>
+                               <p class="px-4">Get support for 100+ currencies, including USD, CAD, EUR, GBP, KRW, JPY, CNY and more.</p>
                             </div>
                         </div>
                     </div>
@@ -124,34 +107,25 @@
         <button 
         @click="openTab === 4 ? openTab = null : openTab = 4" 
         type="button" 
-        class="relative z-20  py-1 my-2 inline-flex items-center   w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white" 
+        class="relative z-20  py-1 my-2 inline-flex items-center text-left w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white" 
         id="tabs-7-4"
         >
-       <svg xmlns="http://www.w3.org/2000/svg" class="w-4 icon icon-tabler icon-tabler-components" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" :class="{ 'stroke-indigo-500': openTab === 4 }"> 
-       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> 
-       <path d="M3 12l3 3l3 -3l-3 -3z"></path> 
-       <path d="M15 12l3 3l3 -3l-3 -3z"></path> 
-       <path d="M9 6l3 3l3 -3l-3 -3z"></path> 
-       <path d="M9 18l3 3l3 -3l-3 -3z"></path> 
-       </svg>
-       <h3 class="ml-1">Multi-Store</h3>
+       <h3 class="ml-1">Multi-store</h3>
     </button>
 
                <div 
                x-show="openTab === 4" 
-               x-transition:enter="transition ease-out duration-1000" 
                x-transition:enter-start="opacity-0 transform -translate-y-2" 
                x-transition:enter-end="opacity-100 transform translate-y-0" 
-               x-transition:leave="transition ease-in duration-1000" 
+               x-transition:enter="transition duration-500" 
+               x-transition:leave="transition duration-500" 
                x-transition:leave-start="opacity-100 transform translate-y-0" 
                x-transition:leave-end="opacity-0 transform -translate-y-2"
-    
                 >
                     <div class="relative items-center w-full">
                         <div>
                             <div class="sm:order-1">
-                               <p class="px-4 mt-2">Gift card can be redeemed at multiple locations</p>
-                               <p class="px-4 mt-2">Customer data reporting and analytics based on gift card usage.</p>
+                               <p class="px-4">Gift card can be used at multiple stores and provide valuable customer spending insights through analytics.</p>
                             </div>
                         </div>
                     </div>
@@ -162,86 +136,65 @@
         <button 
          @click="openTab === 5 ? openTab = null : openTab = 5" 
          type="button" 
-         class="relative z-20  py-1 my-2 inline-flex items-center   w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white" 
+         class="relative z-20  py-1 my-2 inline-flex items-center text-left w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white" 
          id="tabs-7-5"
        >
-       <svg xmlns="http://www.w3.org/2000/svg" class="w-4 icon icon-tabler icon-tabler-components" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" :class="{ 'stroke-indigo-500': openTab === 5 }"> 
-       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> 
-       <path d="M3 12l3 3l3 -3l-3 -3z"></path> 
-       <path d="M15 12l3 3l3 -3l-3 -3z"></path> 
-       <path d="M9 6l3 3l3 -3l-3 -3z"></path> 
-       <path d="M9 18l3 3l3 -3l-3 -3z"></path> 
-       </svg>
-       <h3 class="ml-1">Refund & Reward</h3>
+       <h3 class="ml-1">Manage Returns with Gift Cards</h3>
     </button>
 
                <div 
                x-show="openTab === 5" 
-               x-transition:enter="transition ease-out duration-1000" 
                x-transition:enter-start="opacity-0 transform -translate-y-2" 
                x-transition:enter-end="opacity-100 transform translate-y-0" 
-               x-transition:leave="transition ease-in duration-1000" 
+               x-transition:enter="transition duration-500" 
+               x-transition:leave="transition duration-500" 
                x-transition:leave-start="opacity-100 transform translate-y-0" 
                x-transition:leave-end="opacity-0 transform -translate-y-2"
-    
                >
                     <div class="relative items-center w-full">
                         <div>
                             <div class="sm:order-1">
-                               <p class="px-4 mt-2">Gift card can be issue for merchandise return.</p>
-                               <p class="px-4 mt-2">Gift card amount can be updated on merchandise return bought on gift card.</p>
+                               <p class="px-4">Issue gift cards on merchandise returns or update the balance in an existing gift card.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-     <div :class="{ 'border-l-2 border-indigo-500': openTab === 6 }" class="relative flex flex-col w-full   select-none lg:flex-col lg:inline-grid md:flex-row">
+     <div :class="{ 'border-l-2 border-indigo-500': openTab === 6 }" class="relative flex flex-col w-full  select-none lg:flex-col lg:inline-grid md:flex-row">
      <button 
      @click="openTab === 6 ? openTab = null : openTab = 6" 
      type="button" 
-     class="relative z-20  py-1 my-2 inline-flex items-center   w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white"
+     class="relative z-20  py-1 my-2 inline-flex items-center w-auto text-left text-sm font-medium transition-all cursor-pointer px-3 text-white"
      id="tabs-7-6"
     >
-       <svg xmlns="http://www.w3.org/2000/svg" class="w-4 icon icon-tabler icon-tabler-components" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" :class="{ 'stroke-indigo-500': openTab === 6 }"> 
-       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> 
-       <path d="M3 12l3 3l3 -3l-3 -3z"></path> 
-       <path d="M15 12l3 3l3 -3l-3 -3z"></path> 
-       <path d="M9 6l3 3l3 -3l-3 -3z"></path> 
-       <path d="M9 18l3 3l3 -3l-3 -3z"></path> 
-       </svg>
-       <h3 class="ml-1">Schedule Delivery</h3>
+       <h3 class="ml-1">Gift Cards Delivery For Special Occasions</h3>
     </button>
 
               <div 
               x-show="openTab === 6" 
-              x-transition:enter="transition ease-out duration-1000" 
               x-transition:enter-start="opacity-0 transform -translate-y-2" 
               x-transition:enter-end="opacity-100 transform translate-y-0" 
-              x-transition:leave="transition ease-in duration-1000" 
-              x-transition:leave-start="opacity-100 transform translate-y-0" 
+               x-transition:leave-start="opacity-100 transform translate-y-0" 
               x-transition:leave-end="opacity-0 transform -translate-y-2"
-    
                >
                     <div class="relative items-center w-full">
                         <div>
                             <div class="sm:order-1">   
-                               <p class="px-4 mt-2">Schedule Gift card delivery on special occasion like Birthday, Anniversary, Christmas, Hanukkah etc.</p>
-                               <p class="px-4 mt-2">Schedule Gift card delivery up to 180 days</p>
+                               <p class="px-4">Schedule gift card delivery on special occasions like birthdays, anniversaries, Christmas, Hanukkah or any other.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div> 
         </div>
-             
-            <div> 
+             <!-- Image starts here -->
+            <div class='w-3/4 hidden md:inline'> 
                 <div 
                 x-show="openTab === 1" 
-                x-transition:enter="transition ease-out duration-1000" 
+     
                 x-transition:enter-start="opacity-0 transform -translate-y-2" 
                 x-transition:enter-end="opacity-100 transform translate-y-0" 
-                x-transition:leave="transition ease-in duration-1000" 
                 x-transition:leave-start="opacity-100 transform translate-y-0" 
                 x-transition:leave-end="opacity-0 transform -translate-y-2"
       
@@ -249,7 +202,7 @@
                 <div class="relative items-center w-full">
                     <div>
                         <div class="sm:order-2">
-                            <img alt="Bulk Gift Card" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/bulk-giftcard.png">
+                            <img alt="Bulk Gift Card" loading="lazy" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/bulk-giftcard.png">
                         </div>
                     </div>
                 </div>
@@ -257,10 +210,9 @@
 
             <div 
             x-show="openTab === 2" 
-            x-transition:enter="transition ease-out duration-1000" 
+ 
             x-transition:enter-start="opacity-0 transform -translate-y-2" 
             x-transition:enter-end="opacity-100 transform translate-y-0" 
-            x-transition:leave="transition ease-in duration-1000" 
             x-transition:leave-start="opacity-100 transform translate-y-0" 
             x-transition:leave-end="opacity-0 transform -translate-y-2"
   
@@ -268,7 +220,7 @@
                 <div class="relative items-center w-full">
                 <div>
                  <div class="sm:order-2">
-                   <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/import-migration.png">
+                   <img alt="Lexington thumbnail" loading="lazy" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/import-migration.png">
                  </div>
                 </div>
              </div>
@@ -276,10 +228,8 @@
      
          <div 
          x-show="openTab === 3" 
-         x-transition:enter="transition ease-out duration-1000" 
          x-transition:enter-start="opacity-0 transform -translate-y-2" 
          x-transition:enter-end="opacity-100 transform translate-y-0" 
-         x-transition:leave="transition ease-in duration-1000" 
          x-transition:leave-start="opacity-100 transform translate-y-0" 
          x-transition:leave-end="opacity-0 transform -translate-y-2"
 
@@ -287,7 +237,7 @@
         <div class="relative items-center w-full">
             <div>
                 <div class="sm:order-2">
-                 <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/multi-currency.png">
+                 <img alt="Lexington thumbnail" loading="lazy" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/multi-currency.png">
                 </div>
             </div>
         </div>
@@ -295,10 +245,8 @@
 
     <div 
     x-show="openTab === 4" 
-    x-transition:enter="transition ease-out duration-1000" 
     x-transition:enter-start="opacity-0 transform -translate-y-2" 
     x-transition:enter-end="opacity-100 transform translate-y-0" 
-    x-transition:leave="transition ease-in duration-1000" 
     x-transition:leave-start="opacity-100 transform translate-y-0" 
     x-transition:leave-end="opacity-0 transform -translate-y-2"
 
@@ -306,7 +254,7 @@
             <div class="relative items-center w-full">
                 <div>
                     <div class="sm:order-2">
-                     <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/multi-store.png">
+                     <img alt="Lexington thumbnail" loading="lazy" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/multi-store.png">
                     </div>
                 </div>
             </div>
@@ -314,10 +262,8 @@
            
         <div 
         x-show="openTab === 5" 
-        x-transition:enter="transition ease-out duration-1000" 
         x-transition:enter-start="opacity-0 transform -translate-y-2" 
         x-transition:enter-end="opacity-100 transform translate-y-0" 
-        x-transition:leave="transition ease-in duration-1000" 
         x-transition:leave-start="opacity-100 transform translate-y-0" 
         x-transition:leave-end="opacity-0 transform -translate-y-2"
 
@@ -325,7 +271,7 @@
             <div class="relative items-center w-full">
                 <div>
                     <div class="sm:order-2">
-                     <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/refund-giftcard.png">
+                     <img alt="Lexington thumbnail" loading="lazy" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/refund-giftcard.png">
                     </div>
                 </div>
             </div>
@@ -333,16 +279,15 @@
 
         <div 
         x-show="openTab === 6" 
-        x-transition:enter="transition ease-out duration-1000" 
         x-transition:enter-start="opacity-0 transform -translate-y-2" 
         x-transition:enter-end="opacity-100 transform translate-y-0" 
-      
-
+        x-transition:leave-start="opacity-100 transform translate-y-0" 
+        x-transition:leave-end="opacity-0 transform -translate-y-2"
          >
             <div class="relative items-center w-full">
                 <div>
                     <div class="sm:order-2">
-                     <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/schedule-delivery.png">
+                     <img alt="Lexington thumbnail" loading="lazy" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/schedule-delivery.png">
                     </div>
                 </div>
             </div>
