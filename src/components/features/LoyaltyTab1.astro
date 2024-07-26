@@ -1,0 +1,419 @@
+<section class="flex items-end justify-center bg-vulcan-900 border-y border-white/5">
+    <div class="px-8 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24 ">
+        <div class="text-center">
+        <h2>How to Customize, Promote and Manage your brand's loyalty program</h2>
+        <p class="mt-5">The devil is in the details. Create Loyalty programs that consider all the nitty-gritty of your business.
+        </p>
+        </div>
+        <div class="flex items-start mt-20 -mb-px" x-data="{ openTab: 1 }">
+            <div class="border-l border-vulcan-700 w-full">
+                <div 
+                    :class="{ 'border-l-2 border-indigo-500 transition: border-color 1s ease-in-out': openTab === 1 }" 
+                    class="relative flex flex-col w-full select-none lg:flex-col lg:inline-grid md:flex-row transition: all 1s ease-in-out"
+                >
+                <button 
+                    @click="openTab === 1 ? openTab = null : openTab = 1" 
+                    type="button" 
+                    class="relative z-20  py-1 my-2 inline-flex items-center w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white text-left" 
+                    id="tabs-7-1"
+                >
+                    <h3 class="ml-1">Control Panel</h3>
+                </button>
+             
+                <div 
+                x-show="openTab === 1" 
+                x-transition:enter-start="opacity-0 transform -translate-y-2" 
+                x-transition:enter-end="opacity-100 transform translate-y-0" 
+                x-transition:enter="transition duration-500" 
+                x-transition:leave="transition duration-500" 
+                x-transition:leave-start="opacity-100 transform translate-y-0" 
+                x-transition:leave-end="opacity-0 transform -translate-y-2"
+                
+            >
+                    <div class="relative items-center w-full">
+                        <div>
+                            <div class="sm:order-1">
+                                <div class=" ">
+                                <p class="mt-4 text-xl ml-4">Manage a loyalty program that your customers love</p>
+                  <ul class="mt-6">
+                    <li><div class="relative flex items-center py-2">
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-8 h-8 text-white/70 icon icon-tabler icon-tabler-circle-check"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                        <path d="M9 12l2 2l4 -4"></path>
+                      </svg>
+                      <p class="ml-2 leading-6"> 
+                <span class="text-white">Points expiration :</span> Remind customers about any points about to expire with built-in reminder emails.</p>
+                  </li>
+                 <li><div class="relative flex items-center py-2">
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-10 h-10 mt-0 text-white/70 icon icon-tabler icon-tabler-circle-check"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                        <path d="M9 12l2 2l4 -4"></path>
+                      </svg>
+                      <p class="ml-2 leading-6"> 
+                <span class="text-white">Custom branding :</span> Give your points a name like “stars” or “glam bucks” to create a loyalty experience that matches your brand.</p>
+                </div>
+            </li>
+            <li><div class="relative flex items-center py-2">
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-6 h-4 mt-0 text-white/70 icon icon-tabler icon-tabler-circle-check"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                        <path d="M9 12l2 2l4 -4"></path>
+                      </svg>
+                      <p class="ml-2 leading-6 "> 
+                <span class="text-white">Limit settings :</span> Decide how often your customers can earn points for any given action.</p> </li>
+            </li>
+            <li><div class="relative flex items-center py-2">
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-14 h-4 mt-0 text-white/70 icon icon-tabler icon-tabler-circle-check"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                        <path d="M9 12l2 2l4 -4"></path>
+                      </svg>
+                      <p class="ml-2 leading-6"> 
+                <span class="text-white">Integration :</span> Integrate with different tools and vendors you already use to run your business, including all of the major ecommerce platforms, email/SMS marketing solutions, productivity apps, and more.</p> </li>
+            </li>
+            </ul>
+        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     
+        <div :class="{ 'border-l-2 border-indigo-500': openTab === 2 }" class="relative flex flex-col w-full select-none lg:flex-col lg:inline-grid md:flex-row">
+        <button 
+         @click="openTab === 2 ? openTab = null : openTab = 2" 
+         type="button" 
+         class="relative z-20  py-1 my-2 inline-flex items-center text-left w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white" 
+         id="tabs-7-2"
+        >
+       <h3 class="ml-1">Rewards</h3>
+    </button>
+
+            <div 
+            x-show="openTab === 2" 
+ 
+            x-transition:enter-start="opacity-0 transform -translate-y-2" 
+            x-transition:enter-end="opacity-100 transform translate-y-0" 
+            x-transition:enter="transition duration-500" 
+            x-transition:leave="transition duration-500" 
+            x-transition:leave-start="opacity-100 transform translate-y-0" 
+            x-transition:leave-end="opacity-0 transform -translate-y-2"
+    
+             >
+                           <div class="relative items-center w-full">
+                           <div>
+                            <div class="sm:order-1">
+                                <div class=" ">
+                                <p class="mt-4 text-xl ml-4">Build a rewards experience that your customers love</p> 
+                                <ul class="mt-6">
+                                    <li>                
+                                      <div class="relative flex items-center py-2">
+                                     <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 mt-0 text-white/70 icon icon-tabler icon-tabler-circle-check"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="2"
+                                        stroke="currentColor"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                        <path d="M9 12l2 2l4 -4"></path>
+                                      </svg>
+                                      <p class="ml-2 leading-6"> 
+                                <span class="text-white"> 
+                                            Customization :</span> Make an on-brand launcher with a full range of customizable settings including changing the background and button colors, labels, and more.
+                                      </p></div>
+                                    </li>
+                                    <li>
+                                      <div class="relative flex items-center py-2">
+                                     <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="w-4 h-4 mt-0 text-white/70 icon icon-tabler icon-tabler-circle-check"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="2"
+                                        stroke="currentColor"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                        <path d="M9 12l2 2l4 -4"></path>
+                                      </svg>
+                                      <p class="ml-4 leading-6"> 
+                                <span class="text-white">Points Branding :</span> Create the perfect on-brand point names.</p> 
+                                </div>
+                                    </li>
+                                </ul>
+                                
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+      <div :class="{ 'border-l-2 border-indigo-500': openTab === 3 }" class="relative flex flex-col w-full   select-none lg:flex-col lg:inline-grid md:flex-row">
+        <button 
+        @click="openTab === 3 ? openTab = null : openTab = 3" 
+        type="button" 
+        class="relative z-20  py-1 my-2 inline-flex items-center text-left w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white"
+        id="tabs-7-3"
+       >
+      <h3 class="ml-1"> Promote</h3>
+    </button>
+ 
+              <div 
+              x-show="openTab === 3" 
+   
+              x-transition:enter-start="opacity-0 transform -translate-y-2" 
+              x-transition:enter-end="opacity-100 transform translate-y-0" 
+              x-transition:enter="transition duration-500" 
+              x-transition:leave="transition duration-500" 
+              x-transition:leave-start="opacity-100 transform translate-y-0" 
+              x-transition:leave-end="opacity-0 transform -translate-y-2"
+    
+              >
+                    <div class="relative items-center w-full">
+                        <div>
+                            <div class="sm:order-1">
+                                <div class=" ">
+                                <ul class="mt-6">
+                                    <li>                
+                                      <div class="relative flex items-center py-2">
+                                     <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="w-8 h-4 mt-0 text-white/70 icon icon-tabler icon-tabler-circle-check"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="2"
+                                        stroke="currentColor"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                        <path d="M9 12l2 2l4 -4"></path>
+                                      </svg>
+                                      <p class="ml-2  leading-6"> 
+                                            Automate email and texts to customers to confirm enrollment and keep them updated on their rewards.
+                                      </p>
+                                      </div>
+                                    </li>
+                                    <li>                
+                                      <div class="relative flex items-center py-2">
+                                     <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="w-8 h-4 mt-0 text-white/70 icon icon-tabler icon-tabler-circle-check"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="2"
+                                        stroke="currentColor"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                        <path d="M9 12l2 2l4 -4"></path>
+                                      </svg>
+                                      <p class="ml-2 leading-6"> 
+                                            Market loyalty enrollees with automated text message campaigns and email campaigns via 99minds automation Marketing.
+                                      </p>
+                                      </div>
+                                    </li>
+                                </ul>               
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        <div :class="{ 'border-l-2 border-indigo-500': openTab === 4 }" class="relative flex flex-col w-full   select-none lg:flex-col lg:inline-grid md:flex-row">
+        <button 
+        @click="openTab === 4 ? openTab = null : openTab = 4" 
+        type="button" 
+        class="relative z-20  py-1 my-2 inline-flex items-center text-left w-auto text-sm font-medium transition-all cursor-pointer px-3 text-white" 
+        id="tabs-7-4"
+        >
+       <h3 class="ml-1">Reports & Analytics</h3>
+    </button>
+
+               <div 
+               x-show="openTab === 4" 
+               x-transition:enter-start="opacity-0 transform -translate-y-2" 
+               x-transition:enter-end="opacity-100 transform translate-y-0" 
+               x-transition:enter="transition duration-500" 
+               x-transition:leave="transition duration-500" 
+               x-transition:leave-start="opacity-100 transform translate-y-0" 
+               x-transition:leave-end="opacity-0 transform -translate-y-2"
+                >
+                    <div class="relative items-center w-full">
+                        <div>
+                            <div class="sm:order-1">
+                                <div class=" ">
+                                <p class="mt-4 text-xl ml-4">Track sales and see the impact of your Loyalty program in one place</p>
+                                <ul class="mt-6">
+                                    <li>                
+                                      <div class="relative flex items-center py-2">
+                                     <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="w-8 h-4 mt-0 text-white/70 icon icon-tabler icon-tabler-circle-check"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="2"
+                                        stroke="currentColor"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                        <path d="M9 12l2 2l4 -4"></path>
+                                      </svg>
+                                      <p class="ml-2 leading-6"> 
+                                            Your 99minds Dashboard tracks data like total loyalty customers, loyalty rewards, and top loyalty customers.
+                                      </p>
+                                      </div>
+                                    </li>
+                                    <li>                
+                                      <div class="relative flex items-center py-2">
+                                     <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="w-8 h-4 mt-0 text-white/70 icon icon-tabler icon-tabler-circle-check"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="2"
+                                        stroke="currentColor"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                        <path d="M9 12l2 2l4 -4"></path>
+                                      </svg>
+                                      <p class="ml-2 leading-6 "> 
+                                            You can even compare average spending and visits from loyalty versus non-loyalty customers.
+                                      </p>
+                                      </div>
+                                    </li>
+                                </ul>              
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+             <!-- Image starts here -->
+            <div class='w-3/4 hidden md:inline'> 
+                <div 
+                x-show="openTab === 1" 
+     
+                x-transition:enter-start="opacity-0 transform -translate-y-2" 
+                x-transition:enter-end="opacity-100 transform translate-y-0" 
+                x-transition:leave-start="opacity-100 transform translate-y-0" 
+                x-transition:leave-end="opacity-0 transform -translate-y-2"
+      
+                 >
+                <div class="relative items-center w-full">
+                    <div>
+                        <div class="sm:order-2">
+                            <img alt="Control Panel" class="rounded-2xl shadow-vulcan-950/50" width="528" height="388" src="/assets/loyalty/control_pannel.webp">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div 
+            x-show="openTab === 2" 
+ 
+            x-transition:enter-start="opacity-0 transform -translate-y-2" 
+            x-transition:enter-end="opacity-100 transform translate-y-0" 
+            x-transition:leave-start="opacity-100 transform translate-y-0" 
+            x-transition:leave-end="opacity-0 transform -translate-y-2"
+  
+             >
+                <div class="relative items-center w-full">
+                <div>
+                 <div class="sm:order-2">
+                    <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50" width="528" height="388" src="/assets/loyalty/rewards-loyalty.webp">
+                 </div>
+                </div>
+             </div>
+         </div>
+     
+         <div 
+         x-show="openTab === 3" 
+         x-transition:enter-start="opacity-0 transform -translate-y-2" 
+         x-transition:enter-end="opacity-100 transform translate-y-0" 
+         x-transition:leave-start="opacity-100 transform translate-y-0" 
+         x-transition:leave-end="opacity-0 transform -translate-y-2"
+
+          >
+        <div class="relative items-center w-full">
+            <div>
+                <div class="sm:order-2">
+                    <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50" width="528" height="388" src="/assets/loyalty/promote-loyalty.webp">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div 
+    x-show="openTab === 4" 
+    x-transition:enter-start="opacity-0 transform -translate-y-2" 
+    x-transition:enter-end="opacity-100 transform translate-y-0" 
+    x-transition:leave-start="opacity-100 transform translate-y-0" 
+    x-transition:leave-end="opacity-0 transform -translate-y-2"
+
+     >
+            <div class="relative items-center w-full">
+                <div>
+                    <div class="sm:order-2">
+                        <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50" width="528" height="388" src="/assets/loyalty/report_analytic.webp" />
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+    </div>
+  </div>
+</div>
+</section>
+
+  
+
+   
