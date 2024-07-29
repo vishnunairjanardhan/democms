@@ -32,6 +32,10 @@ import { AstroSeo } from "@astrolib/seo";
 <head>
 
   <meta name="keywords" content={frontmatter.keywords}>
+
+  <meta name="twitter:image" content={`https://www.99minds.io/assets/blog/${frontmatter.img}`} />
+  <meta name="twitter:title" content={`${frontmatter.heading}`} />
+  <meta name="twitter:description" content={`${frontmatter.description}`} />
   
   <!-- <script type="application/ld+json">
     {
