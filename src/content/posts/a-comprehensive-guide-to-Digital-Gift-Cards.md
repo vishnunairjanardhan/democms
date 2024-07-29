@@ -8,7 +8,7 @@ heading: A Comprehensive Guide to Digital Gift Cards
 image: 
   url: "/assets/blog/A-comprehensive-guide-to-Digital-Gift-Cards.webp"
   alt: "Digital Gift Crads."
-tags: ["Gift Card",]
+tags: ["Gift Card", "digital gift card", "e-guft card" ]
 url: "https://www.99minds.io/blog/a-comprehensive-guide-to-digital-gift-cards"
 keywords: ["Digital gift cards, what is a digital gift cards, E-gift card, egift card"]
 
@@ -142,7 +142,7 @@ One brand offers third-party gift cards, which can be used to purchase products 
 </ol>
 
 <div class="flex justify-center">
-<img class="w-3/4 m-4" src="/assets/blog/starbucks gift card.webp" alt="Starbucks gift cards">
+<img class="w-3/4 m-4" src="/assets/blog/starbucks-gift-card.webp" alt="Starbucks gift cards">
 </div>
 
 <h2 id= "How-do-Digital-Gift-Cards-Work?"> How do Digital Gift Cards Work?</h2>
@@ -472,7 +472,7 @@ Digital gift cards are convenient and flexible, but their security is critical f
 <h2 id="Sell-Gift-Cards-with-99minds">Sell Gift Cards with 99minds</h2>
 Boost your business's sales and customer experience by incorporating the versatile gift card solutions offered by 99minds. Introducing gift cards in your business strategy isn’t just about boosting sales - it’s about enhancing customer engagement and providing seamless shopping experiences. 99minds supports a comprehensive gift card program that adapts to your specific business needs, whether you operate online, in-store, or both.
 
-<img rel= "preload" rple= "img" src="/assets/blog/GIFT CARD Banner.webp" alt= "Digital Gift card">
+<img rel= "preload" rple= "img" src="/assets/blog/gift-card-banner.webp" alt= "Digital Gift card">
 
 Prominent features of 99minds gift card solution:
 <ul role= "list">
