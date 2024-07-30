@@ -213,16 +213,16 @@ Adding your store's logo, colors, and a customized message to your gift cards wi
 Adding gift cards to your cart is a simple process that can be completed in just a few steps. In this section, we'll walk you through the detailed process of adding gift items to your store.
 
 1. Go to Shopify Admin > Products.
-<img role="img" loading="lazy" src="/assets/blog/Admin to Product.png" alt="Admin to Product">
+<img role="img" loading="lazy" src="/assets/blog/Admin-to-Product.png" alt="Admin to Product">
 
 2. Go to Products, then select Gift Cards.
-<img role="img" loading="lazy" src="/assets/blog/Select the gift card.png" alt="ASelect the gift card">
+<img role="img" loading="lazy" src="/assets/blog/Select-the-gift-card.png" alt="ASelect the gift card">
 
 3. Select the Add Gift Card Product Option.
-<img role="img" loading="lazy" src="/assets/blog/Add gift card product.png" alt="Add gift card product">
+<img role="img" loading="lazy" src="/assets/blog/Add-gift-card-product.png" alt="Add gift card product">
 
 4. Fill in the Gift Card Product details such as: 
-<img role="img" loading="lazy" src="/assets/blog/Gift card product details.png" alt="Gift card product details">
+<img role="img" loading="lazy" src="/assets/blog/Gift-card-product-details.png" alt="Gift card product details">
 
 <ol role= "list">
 <b>Gift Card Product Title</b>
@@ -279,7 +279,7 @@ Adding gift cards to your cart is a simple process that can be completed in just
 <img role="img" loading="lazy" src="/assets/blog/Denomination.png" alt="Denomination">
 
 6. You can even update the SEO (Search Engine Optimization) parameters for your gift card.
-<img role="img" loading="lazy" src="/assets/blog/SEO changes.png" alt="SEO changes">
+<img role="img" loading="lazy" src="/assets/blog/SEO-changes.png" alt="SEO changes">
 
 7. Once you have shared all the needed information. You can update the card’s status as active or draft.
 <img role="img" loading="lazy" src="/assets/blog/Status.png" alt="Status">
@@ -288,7 +288,7 @@ Adding gift cards to your cart is a simple process that can be completed in just
 <img role="img" loading="lazy" src="/assets/blog/Publish.png" alt="Publish">
 
 9. Fill out the product organization fields
-<img role="img" loading="lazy" src="/assets/blog/Product Organization.png" alt="Product Organization">
+<img role="img" loading="lazy" src="/assets/blog/Product-Organization.png" alt="Product Organization">
 
 In this, you need to enter -  
 <ol role= "list">
@@ -350,25 +350,25 @@ In this, you need to enter -
 </ol>
 
 10. After filling up all the fields, select the button save the gift card product. Shopify will make your gift card live on your store.
-<img role="img" loading="lazy" src="/assets/blog/Save gift card product.png" alt="Save gift card product">
+<img role="img" loading="lazy" src="/assets/blog/Save-gift-card-product.png" alt="Save gift card product">
 
 <h2 id= "Create-Gift-Card-on-Shopify"> Create Gift Card on Shopify</h2>
 Creating a gift card is a simple process that involves generating a unique code, customizing the design, and creating a shopping cart. In this section, we'll walk you through each step to ensure you can seamlessly create and manage gift cards on your Shopify store.
 
 1. Go to Shopify Admin, then go to "Products.”
-<img role="img" loading="lazy" src="/assets/blog/Admin to Product.png" alt="Admin to Product">
+<img role="img" loading="lazy" src="/assets/blog/Admin-to-Product.png" alt="Admin to Product">
 
 2. Select “Gift cards”.
-<img role="img" loading="lazy" src="/assets/blog/Select the gift card.png" alt="Select the gift card">
+<img role="img" loading="lazy" src="/assets/blog/Select-the-gift-card.png" alt="Select the gift card">
 
 3. A page will appear on your screen where you have to select the create Gift Card button.
-<img role="img" loading="lazy" src="/assets/blog/Create gift card.png" alt="Create gift card">
+<img role="img" loading="lazy" src="/assets/blog/Create-gift-card.png" alt="Create gift card">
 
 4. After selecting the option, you will be redirected to a page. Where the gift card code field will already have an automatically generated code and the gift card’s initial value. You can edit both these fields if you want to.
-<img role="img" loading="lazy" src="/assets/blog/Create gift card detailes.png" alt="Create gift card detailes">
+<img role="img" loading="lazy" src="/assets/blog/Create-gift-card-detailes.png" alt="Create gift card detailes">
 
 5. If you want to set an expiry date for the Gift Card, You can select either of the options.
-<img role="img" loading="lazy" src="/assets/blog/Expiration date.png" alt="Expiration date">
+<img role="img" loading="lazy" src="/assets/blog/Expiration-date.png" alt="Expiration date">
 Shopify selects the no expiration date option by default, but you can change it if needed.
 
 6. If you want to issue this Gift Card for specific customers, You can do it too, From Here.
@@ -394,38 +394,38 @@ Shopify offers an easy way to temporarily or permanently block gift cards. Below
 <li><h3>Delete the Added Gift Card Products</h3></li>
 
 Step 1: Click on Products
-<img role="img" loading="lazy" src="/assets/blog/Admin to Product.png" alt="Admin to Product">
+<img role="img" loading="lazy" src="/assets/blog/Admin-to-Product.png" alt="Admin to Product">
 
 Step 2: Clicks on Gift Cards
-<img role="img" loading="lazy" src="/assets/blog/GIFT CARD.png" alt="GIFT CARD">
+<img role="img" loading="lazy" src="/assets/blog/gift-card.png" alt="GIFT CARD">
 
 Step 3: Click the gift card code you want to delete
-<img role="img" loading="lazy" src="/assets/blog/GIFT CARD CODE.png" alt="GIFT CARD CODE">
+<img role="img" loading="lazy" src="/assets/blog/gift-card-code.png" alt="GIFT CARD CODE">
 
 Step 4: Click on view gift card products
-<img role="img" loading="lazy" src="/assets/blog/View gift card product.png" alt="View gift card product">
+<img role="img" loading="lazy" src="/assets/blog/View-gift-card-product.png" alt="View gift card product">
 
 Step 5: Click on the 3 dots option.
-<img role="img" loading="lazy" src="/assets/blog/Click on 3 dots.png" alt="Click on 3 dots">
+<img role="img" loading="lazy" src="/assets/blog/Click-on-three-dots.png" alt="Click on 3 dots">
 
 Step 6: A dropdown will appear from which you select the Delete Products option.
-<img role="img" loading="lazy" src="/assets/blog/DELETE PRODOUCT.png" alt="DELETE PRODOUCT">
+<img role="img" loading="lazy" src="/assets/blog/delete-product.png" alt="DELETE PRODOUCT">
 
 And done. The gift card products are deleted.
 
 <li><h3>Disable the Gift Cards</h3></li>
 
 Step 1: Click on Products
-<img role="img" loading="lazy" src="/assets/blog/Admin to Product.png" alt="Admin to Product">
+<img role="img" loading="lazy" src="/assets/blog/Admin-to-Product.png" alt="Admin to Product">
 
 Step 2: Clicks on Gift Cards
-<img role="img" loading="lazy" src="/assets/blog/GIFT CARD.png" alt="GIFT CARD">
+<img role="img" loading="lazy" src="/assets/blog/gift-card.png" alt="GIFT CARD">
 
 Step 3: Click the gift card code you want to disable
-<img role="img" loading="lazy" src="/assets/blog/GIFT CARD CODE.png" alt="GIFT CARD CODE">
+<img role="img" loading="lazy" src="/assets/blog/gift-card-code.png" alt="GIFT CARD CODE">
 
 Step 4: Click on disable selected gift card
-<img role="img" loading="lazy" src="/assets/blog/DEACTIVE GIFT CARD.png" alt="DEACTIVE GIFT CARD">
+<img role="img" loading="lazy" src="/assets/blog/deactive-gift-card.png" alt="DEACTIVE GIFT CARD">
 
 Step 5: Click on disable gift card
 <img role="img" loading="lazy" src="/assets/blog/Click-on-deactive.png" alt="Click on deactive">
