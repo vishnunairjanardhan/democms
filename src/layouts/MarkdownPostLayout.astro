@@ -27,15 +27,18 @@ import { AstroSeo } from "@astrolib/seo";
     site: "@99minds_io",
     cardType: "summary_large_image",
   }}
+  linkedin={{
+      title: frontmatter.openGraphTitle || frontmatter.title || "",
+      description: frontmatter.openGraphDescription || frontmatter.description || "",
+      image: frontmatter.image ? "https://www.99minds.io" + frontmatter.image.url : "",
+      url: frontmatter?.url || "",
+  }}
 />
 
 <head>
 
   <meta name="keywords" content={frontmatter.keywords}>
 
-  <meta name="twitter:image" content={`https://www.99minds.io/assets/blog/${frontmatter.img}`} />
-  <meta name="twitter:title" content={`${frontmatter.heading}`} />
-  <meta name="twitter:description" content={`${frontmatter.description}`} />
   
   <!-- <script type="application/ld+json">
     {
