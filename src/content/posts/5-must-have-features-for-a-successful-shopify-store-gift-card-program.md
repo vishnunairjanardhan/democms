@@ -7,20 +7,20 @@ description: "A successful gift card program can be a useful sales channel and m
 heading: Successful gift card program on your Shopify Store
 image:
   url: "/assets/blog/5-must-have-features-for-a-successful-Shopify-store-gift-card-program-800x450.jpg"
-  alt: "Gift Card Program."
+  alt: "5 must have features for a successful shopify store gift card program"
 tags: ["Gift Card", "Shopify"]
 keywords: ["99minds"]
 url: "https://www.99minds.io/blog/5-must-have-features-for-a-successful-shopify-store-gift-card-program"
 
 ---
-<img src="/assets/blog/5-must-have-features-for-a-successful-Shopify-store-gift-card-program.jpg">
+<img src="/assets/blog/5-must-have-features-for-a-successful-Shopify-store-gift-card-program.jpg" alt="5 must have features for a successful shopify store gift card program">
 A successful gift card program can be a useful sales channel and more. When used rightly, it can do wonders for your <a href="https://www.shopify.com/">Shopify</a> store’s brand awareness. Starting a gift card program doesn’t require you to write lines of code, nor does it take up a lot of time. It is simple, affordable, and low-maintenance. There are several gift card software that can make it easy for businesses to set up their own gift card program, with the help of a few clicks, and nothing more.
 
 According to a study conducted by <a href="https://blackhawknetwork.com/sites/default/files/2021-01/BHN-ebook-Gift-Card-Facts.pdf">Murphy Research</a>, the percentage of consumers who use gift cards increases as generations get older, here are the numbers– Gen Z(78%), millennials (91%), Gen X (96%), boomers (97%). This is a telling statement about the acceptance of gift cards among the general populace.
 
 In this article, we look at 5 must-have features for a successful gift card program on your Shopify store, including why you must start one right now.
 
-#### Why do you need an eCommerce gift card program?
+## Why do you need an eCommerce gift card program?
 <ul>
 <li>A gift card program can do the following for your business</li>
 <li>Generate cash flow, no matter whether the cards are redeemed or not</li>
@@ -34,9 +34,9 @@ In this article, we look at 5 must-have features for a successful gift card prog
 <li>69% of employees prefer getting gift cards from their employees as a reward for their work, according to a study by Blackhawk Network and Market Research</li>
 </ul>
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral-image-1.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral-image-1.jpg" alt="create your own referral campaign"></a>
 
-#### 5 must-have features for a successful gift card program:
+## 5 must-have features for a successful gift card program:
 
 <ol>
 <li>Personalization abilities:</li>
@@ -53,8 +53,6 @@ Your objective should be to make it as memorable as possible for the recipient. 
     <li>Ability to set an expiry date</li>
     <li>Offer the ability to write personal messages</li>
 </ul>
-
-
 
 <li>API integration:</li>
 
@@ -84,13 +82,11 @@ While gift cards by themselves are great for your brand, you would be doing your
 
 Track the performance of your gift card program so that you can use the present results as a benchmark to improve. It will help you improve your incumbent strategies and make data-driven decisions. You are advised to go through every single metric like a hawk. Look at the bigger picture, but do make it a point to have a clear idea about your gift card program’s granular-level performance. By using a gift card program like 99minds, you can easily and quickly export data to a business intelligence software like <a href="https://www.datapine.com/">Datapine</a> or <a href="https://www.qlik.com/us">QlikSense</a> to make sense of the data.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg" alt="create your own gift card campaign"></a>
 
 <li>Flexible payment and redemption options:</li>
 
 Make sure that your customers get a variety of choices when it comes to payment methods. Mobile payments, debit cards, credit cards, wire transfer, PayPal, etc., are some of the most popular payment options available. When the payment options are aplenty, you make it easier for a wide spectrum of customers to access them.
-
-Bonus:
 
 <li>Check balance feature:</li>
 
@@ -98,8 +94,8 @@ Customers want to know how much money they have in their gift cards. Most retail
 
 </ol>     
 
-### Wrapping up:
+## Wrapping up:
 
 To have a successful gift card program, you must find one that fits your needs, and is easy to work with. The lesser the learning curve, the better it is. Write down the list of features that are important for your business. Make sure that the software you choose makes the life of your customers easy and gives them what is promised. The last thing that you must keep in mind for your gift card campaigning is to finalize one that fits your budget, once you go through the above steps.
 
-If you are looking for a gift card program that has a powerful suite of features and functionalities to take your eCommerce store to the next level, 99minds is here for you. With a suite of products that include a loyalty and referral program, coupon creation, automated workflow creation, and a gift card program, it has everything that your store needs for higher growth and better customer experience. 
+If you are looking for a gift card program that has a powerful suite of features and functionalities to take your eCommerce store to the next level, <a href="https://www.99minds.io/" target="_blanck">99minds</a> is here for you. With a suite of products that include a loyalty and <a href="https://www.99minds.io/blog/what-is-referral-program" target="_blanck">referral program</a>, coupon creation, automated workflow creation, and a gift card program, it has everything that your store needs for higher growth and better customer experience. 
