@@ -10,7 +10,7 @@ image:
   alt: "best tiered loyalty program examples"
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/tiered-loyalty-program"
-keywords: ["types of loyalty programs","types of loyalty program","different types of loyalty programs","loyalty program types"]
+keywords: ["tiered loyalty program","tiered loyalty programs","tiered rewards program","loyalty program tiers"]
 --- 
 <img rel="preload" role="img" src="/assets/blog/tiered-loyalty-program-examples.webp" alt="best tiered loyalty program examples">
 
@@ -358,7 +358,7 @@ This tiered loyalty program not only rewards frequent shoppers but also enhances
 <li>
 <h3>REI Co-op Membership</h3> 
 
-<a href="https://www.rei.com/membership/co-op-member-reward" role="link" target="_blanck">REI Co-op Membershipx</a> offers a unique tiered rewards program where members pay a one-time fee to join and receive annual dividends based on their purchases, aligning with REI’s ethos of community and sustainability. 
+<a href="https://www.rei.com/membership/co-op-member-reward" role="link" target="_blanck">REI Co-op Membership</a> offers a unique tiered rewards program where members pay a one-time fee to join and receive annual dividends based on their purchases, aligning with REI’s ethos of community and sustainability. 
 </li>
 
 <div class="m-auto w-full lg:px-34">
