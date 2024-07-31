@@ -315,14 +315,14 @@ title: Benefits of Loyalty Program in 2024 | 99Minds
 description: "Discover how the benefits of a loyalty program can transform your business by boosting customer retention, increasing sales, and enhancing customer satisfaction."
 heading: 10 Benefits of a Loyalty Program for Your Business
 image:
-  url: "/assets/blog/10 Benefits of a Loyalty Program for Your Business.webp"
+  url: "/assets/blog/10-Benefits-of-a-Loyalty-Program-for-Your-Business.webp"
   alt: "10 benefits of loyalty program."
 tags: ["Customer Loyalty, Loyalty Program"]
 url: "https://www.99minds.io/blog/benefits-of-a-loyalty-program"
 keywords: ["benefits of a loyalty program, loyalty program benefits, loyalty program benefits for customers, customer loyalty program benefits, benefits of a loyalty program, benefits of loyalty schemes, benefits of customer loyalty programs, reward program benefits, benefits of rewards programs, benefits of reward programs, benefits of loyalty card, benefits of loyalty cards for customers, benefits of loyalty cards to customers, loyalty programs benefits"]
 
 ---
-<img src="/assets/blog/10 Benefits of a Loyalty Program for Your Business.webp">
+<img src="/assets/blog/10-Benefits-of-a-Loyalty-Program-for-Your-Business.webp">
 
 When you're a few points away from receiving a free cup of coffee, have you ever noticed yourself returning to the same coffee shop? Or may your loyalty to a specific airline stem from the miles you've accrued? 
 
