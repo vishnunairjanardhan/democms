@@ -107,13 +107,6 @@ export const POS = [
   desc: "99minds integrates with iPaaS.com to enhance commerce experiences by seamlessly syncing loyalty data across CRM, ERP, eCommerce, FSM, Marketing, POS, and Review Management systems, enabling unified, real-time management of loyalty programs from a single platform.",
   url: "/integrations/ipaas",
   alt:"99minds-IPaaS Integration"
-}, 
-{
-  image: '/integrations/hike-icon.svg',
-  title: 'Paytronix',
-  desc: "99minds integrates with Paytronix POS to create an omnichannel experience for gift cards, loyalty programs, store credits, and coupons.  Customers can manage their programs and redeem rewards seamlessly across your online store and your Hike POS system.",
-  url: "/integrations/paytronix",
-  alt:"99minds-Paytronix Integration"
 }
 ]
 
@@ -239,6 +232,7 @@ export const Giftcard = [
   image: '/integrations/paytronix.svg',
   title: 'Paytronix',
   desc: 'A specialized gift card and loyalty solution that integrates with 99minds, particularly designed for restaurants.  Paytronix allows you to leverage 99minds for issuing gift cards with features specifically tailored to the restaurant industry, such as point-of-sale integration and loyalty program rewards.',
+  url: "/integrations/paytronix",
   alt:"99minds-Paytronix Integration"
 }
 
