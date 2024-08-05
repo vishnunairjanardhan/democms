@@ -1088,6 +1088,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"shopify-store-credit-guide.md": {
+	id: "shopify-store-credit-guide.md";
+  slug: "shopify-store-credit-guide";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "small-business-ideas-for-valentines-day.md": {
 	id: "small-business-ideas-for-valentines-day.md";
   slug: "small-business-ideas-for-valentines-day";
@@ -1140,6 +1147,13 @@ declare module 'astro:content' {
 "the-role-of-technology-in-enhancing-ecommerce.md": {
 	id: "the-role-of-technology-in-enhancing-ecommerce.md";
   slug: "the-role-of-technology-in-enhancing-ecommerce";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"tiered-loyalty-program.md": {
+	id: "tiered-loyalty-program.md";
+  slug: "tiered-loyalty-program";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
