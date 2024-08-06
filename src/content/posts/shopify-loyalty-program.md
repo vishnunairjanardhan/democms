@@ -6,14 +6,14 @@ title: Shopify Loyalty Program Guide | 99minds
 description: "With our complete guide, discover how to set up a successful loyalty program for your Shopify store, boost customer engagement, and increase retention. "
 heading: Shopify Loyalty Program:A Complete Guide
 image:
-  url: "/assets/blog/Shopify Loyalty Programs- A Complete Guide.webp"
+  url: "/assets/blog/shopify-loyalty-programs-a-complete-guide.webp"
   alt: "Shopify Loyalty Program."
 tags: ["Loyalty Program","Shopify Loyalty Program"]
 url: "https://www.99minds.io/blog/shopify-loyalty-program"
 keywords: ["Shopify loyalty program ,shopify rewards program,how to create a loyalty program on shopify,how to set up a loyalty program on shopify,loyalty program on shopify,shopify customer loyalty program,rewards program for shopify,shopify loyalty points,loyalty program for shopify,shopify reward points,customer loyalty program shopify,shopify loyalty rewards program,loyalty rewards and referrals shopify,loyalty rewards and referrals shopify,benefits of a loyalty program"]
 
 --- 
-<img rel= "preload" role= "img" src="/assets/blog/Shopify Loyalty Programs- A Complete Guide.webp" alt= "Shopify Loyalty Program">
+<img rel= "preload" role= "img" src="/assets/blog/shopify-loyalty-programs-a-complete-guide.webp" alt= "Shopify Loyalty Program">
 
 In the fast-paced world of online retailing, Shopify store owners are constantly looking for methods to differentiate themselves from the competition. One wonderful idea is to launch a Shopify loyalty program. These programs reward customers with points, discounts, or special incentives, keeping them interested and wanting to return.
 
@@ -73,7 +73,7 @@ Loyalty programs have become a crucial approach for Shopify store owners looking
 <li><h3>Customer Retention</h3>
 Attracting new consumers can cost up to five times more than retaining existing ones. Loyalty programs reward clients for recurrent purchases and interactions. This decreases turnover while increasing the lifetime value (LTV) of each customer.</li>
 
-<img role="img" loading="lazy" src="/assets/blog/Starbucks loyalty programs.png" alt="Starbuck loyalty programs">
+<img role="img" loading="lazy" src="/assets/blog/starbucks-loyalty-programs.png" alt="Starbuck loyalty programs">
 
 For example, Starbucks rewards is a loyalty program designed to keep customers coming back for more coffee and treats.
 <li><h3>Increased Customer Engagement</h3>
@@ -81,20 +81,20 @@ Engaged customers are more inclined to make repeat purchases and promote your bu
 <li><h3>Brand Advocacy</h3>
 Satisfied customers promote the brand through word-of-mouth marketing. Loyalty programs frequently contain referral prizes, which encourage existing customers to refer new ones, increasing your organic reach and fostering  <a href="https://www.99minds.io/blog/what-is-brand-loyalty/" role="link" target="_blank">brand loyalty</a>.</li>
 
-<img role="img" loading="lazy" src="/assets/blog/Brand Advocasy.jpg" alt="Sephora's Beauty Insider program">
+<img role="img" loading="lazy" src="/assets/blog/brand-advocasy.jpg" alt="Sephora's Beauty Insider program">
 
 For example, Sephora's Beauty Insider program encourages members to refer friends, resulting in valuable points for both the referrer and the new consumer.
 <li><h3>Data Collection And Insights</h3>
 Detailed customer behavior data can help marketers tweak their strategy and improve their product offers. Loyalty programs monitor purchase history, preferences, and engagement patterns, offering valuable insights that can be utilized to tailor marketing campaigns and improve customer experience.</li>
 
-<img role="img" loading="lazy" src="/assets/blog/Data collection .jpg" alt="Data collection from Sephora's loyalty program">
+<img role="img" loading="lazy" src="/assets/blog/data-collection .jpg" alt="Data collection from Sephora's loyalty program">
 
 For example, Sephora's loyalty program collects data on client preferences, allowing it to successfully modify product recommendations and marketing campaigns.
 
 <li><h3>Competitive Advantage</h3>
 A compelling loyalty program can help your store stand out in a crowded market. A well-designed loyalty program can attract customers to choose between identical items or stores by providing them with additional value in the form of incentives and special privileges.</li>
 
-<img role="img" loading="lazy" src="/assets/blog/Aamzon prome membership benefits.jpg" alt="Amazon Prime Membership Benefits ">
+<img role="img" loading="lazy" src="/assets/blog/Aamzon-prome-membership-benefits.jpg" alt="Amazon Prime Membership Benefits ">
 
 For example, Amazon Prime is a paid membership program that offers major benefits such as free shipping and access to exclusive content, distinguishing Amazon from other retailers.
 <li><h3>Increased Revenue And Profits</h3>
