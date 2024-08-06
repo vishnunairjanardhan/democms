@@ -25,7 +25,18 @@ export default defineConfig({
     },
   })],
   vite: {
-    plugins: [compression(), visualizer()]
+    plugins: [compression(), visualizer()],
+    build: {
+      minify: 'terser',
+      terserOptions: {
+        compress: {
+          drop_console: true,
+        },
+      },
+    },
+    optimizeDeps: {
+      include: ['@astrojs/partytown'],
+    },
   },
   redirects: {
     "/blog/gift-card/what-is-the-future-of-e-commerce-in-the-next-5-10-years/": "/blog/what-is-the-future-of-e-commerce-in-the-next-5-10-years/",
