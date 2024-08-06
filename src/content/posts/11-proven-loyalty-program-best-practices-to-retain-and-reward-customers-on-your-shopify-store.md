@@ -7,22 +7,21 @@ description: "As you enter your favorite eCommerce store, you are greeted with a
 heading: 11 proven loyalty program best practices to retain and reward customers on your Shopify store
 image:
   url: "/assets/blog/11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-Shopify-store1.jpg"
-  alt: "Loyalty Program."
+  alt: "loyalty program best practices to retain and reward customers on your shopify store"
 tags: ["Loyalty Program"] 
 url: "https://www.99minds.io/blog/11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store"
 keywords: ["99minds"]
 
 ---
-<a href="https://www.99minds.io/blog/customer-loyalty/11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store/" target="_blank">
-<img src="/assets/blog/11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-Shopify-store1.jpg"></a>
+<img src="/assets/blog/11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-Shopify-store1.jpg" alt="loyalty program best practices to retain and reward customers on your shopify store">
 
-As you enter your favorite <a href="https://www.99minds.io/blog/gift-card/5-must-have-features-for-a-successful-shopify-store-gift-card-program/" target="_blank">eCommerce store</a>, you are greeted with a section that recommends you products based on your previous browsing history and purchases. Such conveniences, rooted in understanding and valuing customers, are at the heart of every <a href="https://www.99minds.io/blog/uncategorized/how-to-implement-an-effective-customer-loyalty-program-into-your-shopify-store/" target="_blank">successful loyalty program</a>.
+As you enter your favorite <a href="https://www.99minds.io/blog/5-must-have-features-for-a-successful-shopify-store-gift-card-program/" target="_blank">eCommerce store</a>, you are greeted with a section that recommends you products based on your previous browsing history and purchases. Such conveniences, rooted in understanding and valuing customers, are at the heart of every <a href="https://www.99minds.io/blog/how-to-implement-an-effective-customer-loyalty-program-into-your-shopify-store/" target="_blank">successful loyalty program</a>.
 
 ## What is a customer loyalty program?
 
-A <a href="https://www.99minds.io/blog/customer-loyalty/how-to-drive-customer-loyalty-during-a-global-recession/" target="_blank">customer loyalty program</a> is a powerful tool businesses use to acquire and retain customers. It offers rewards, incentives, and a variety of perks to do so. The program recognizes and rewards customers who purchase repeatedly from the business. The more the customer buys, the higher the rewards.
+A <a href="https://www.99minds.io/blog/how-to-drive-customer-loyalty-during-a-global-recession/" target="_blank">customer loyalty program</a> is a powerful tool businesses use to acquire and retain customers. It offers rewards, incentives, and a variety of perks to do so. The program recognizes and rewards customers who purchase repeatedly from the business. The more the customer buys, the higher the rewards.
 
-This article looks at some of the most proven best practices while building a customer loyalty program.
+This article looks at some of the most proven best practices while <a href="https://www.99minds.io/blog/build-customer-loyalty" target="_blanck">building customer loyalty</a> program.
 
 ## Proven best practices for your loyalty program
 
@@ -50,7 +49,7 @@ Once you have clearly defined goals, you must ask a bunch of questions internall
 The most important part of a loyalty program is the perks that customers get. You want to choose the perks or incentives that customers get out of the loyalty program, with careful consideration. When you choose the right perks, it shows customers that you understand what they want. This will increase their loyalty towards your brand, and becomes more than just a transactional relationship.
 
 <a href="https://giftcard.99minds.io/access/login" target="_blank">
-<img src="/assets/blog/CTA-IMAGES.jpg"></a>
+<img src="/assets/blog/CTA-IMAGES.jpg" alt="connect to store"></a>
 
 ### Make your rewards programs unique
 
@@ -59,7 +58,7 @@ Customers would love to extend their patronage to businesses that offer them per
 ### Take baby steps
 
 Going all in with a grand plan is best done by enterprises that have millions for marketing campaigns. The average company would do itself a disservice by doing that. 
-<a href="https://www.99minds.io/blog/customer-loyalty/how-to-market-your-loyalty-program/" target="_blank">A loyalty program is an integral part of your marketing campaign</a>, therefore it is best to scale slowly. Withdrawing your loyalty program because of operational or functional issues will look bad and result in distrust.
+<a href="https://www.99minds.io/blog/how-to-market-your-loyalty-program/" target="_blank">A loyalty program is an integral part of your marketing campaign</a>, therefore it is best to scale slowly. Withdrawing your loyalty program because of operational or functional issues will look bad and result in distrust.
 
 Put together a close group of customers or choose a team internally to participate in the program. The pilot will give you how the loyalty program functions and determine whether the value propositon is attractive for those who are a part of it. Take constant feedback during the process and streamline your loyalty program accordingly. Use the feedback to refine the program and close the loop.
 
@@ -80,19 +79,19 @@ One mistake most businesses end up doing is that they add a variety of fluff to 
 ### Leverage customer data
 
 Loyalty programs offer highly useful customer data that customers should leverage. It even tells you about how engaged your customers are with your brand. The data must be thoroughly analyzed to find patterns and trends. It will help you offer the right offers for the loyalty program customers. Based on customer data, you can create 
-<a href="https://www.99minds.io/blog/customer-acquisation/personalized-customer-journey/" target="_blank">personalized loyalty programs</a> and other marketing offers. The ability to leverage customer data efficiently will eventually make your loyalty program even more powerful.
+<a href="https://www.99minds.io/blog/personalized-customer-journey/" target="_blank">personalized loyalty programs</a> and other marketing offers. The ability to leverage customer data efficiently will eventually make your loyalty program even more powerful.
 
 ### Make a flexible program
 
 Customers love to be associated with a loyalty program that is flexible in terms of 
-<a href="https://www.99minds.io/blog/generic/how-and-why-you-should-use-digital-rewards-for-workplace-gamification/" target="_blank">how you can earn rewards</a>. Offering only a single channel can be disadvantageous as not everyone is going to prefer it. Being flexible allows you to gain members to the program without discouraging them from it.
+<a href="https://www.99minds.io/blog/how-and-why-you-should-use-digital-rewards-for-workplace-gamification/" target="_blank">how you can earn rewards</a>. Offering only a single channel can be disadvantageous as not everyone is going to prefer it. Being flexible allows you to gain members to the program without discouraging them from it.
 
 ### Keep refining the value proposition
 
 Your loyalty program’s benefits should keep appealing to your customers. Unfortunately, the same rewards over the years might get boring for most customers, leaving a bitter taste. They should be getting a steady dose of new offers from time to time. Offering attractive rewards results in greater trust and loyalty towards the brand. Conduct regular surveys and leverage tracking tools to find out about the effectiveness of your loyalty program.
 
 <a href="https://calendly.com/99minds" target="_blank">
-<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
+<img src="/assets/blog/CTA-IMAGE1.jpg" alt="create your own gift card campaign"></a>
 
 ### Build partnerships
 
