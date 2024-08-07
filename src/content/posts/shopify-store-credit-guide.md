@@ -3,14 +3,14 @@ pubDate: 2024-07-31
 author: Piyush 
 authorImg: "Piyush.webp"
 title: "What is Shopify Store Credit:Complete Guide (2024)"
-description: "Whether you believe it or not, Americans spent roughly $15 billion on Father's Day in 2020. Whether you believe it or not, Americans spent roughly $15 billion on Father's Day in 2020. Father's Day is around the corner, and it's the best time to step up your e-commerce game. If we look at historical data"
+description: "Shopify Store credit represents a value that retailers provide to customers as an alternative to traditional cash refunds."
 heading: How to use Shopify Store Credit to sell more:Complete Guide (2024)
 image:
   url: "/assets/blog/How-to-use-Shopify-Store-Credit-to-sell-more.webp"
   alt: "How to use Shopify Store Credit to sell more"
 tags: ["Store Credit"]
 keywords: ["shopify store credit", "shopify store credits", "store credit shopify", "how to issue store credit on shopify"]
-url: "https://www.99minds.io/shopify-store-credit-guide"
+url: "https://www.99minds.io/blog/shopify-store-credit-guide"
 
 ---
 
