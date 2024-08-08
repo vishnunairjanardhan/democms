@@ -3,7 +3,7 @@ pubDate: 2020-12-18
 author: Mrudul
 authorImg: "Mrudul.png"
 title:  99minds Schedule Delivery for a Gift Card on BigCommerce
-description: "All BigCommerce’s eCommerce merchants using 99minds’ Gift Card app, their customers can schedule delivery of an eGift card. Online shoppers seemed to see which merchants allow scheduled delivery because this feature is more than a convenience–it can be a lifesaver during one of the busiest times of the year. So put your eGift cards on."
+description: "All BigCommerce’s eCommerce merchants using 99minds’ Gift Card app, their customers can schedule delivery of an eGift card. Online shoppers seemed to see which merchants allow scheduled delivery because this feature is more than a convenience–it can be a lifesaver during one of the busiest times of the year."
 heading: 99minds Schedule Delivery for a Gift Card on BigCommerce
 image: 
   url: "/assets/blog/product_update-schedule-deliver.jpeg"
@@ -13,11 +13,11 @@ url: "https://www.99minds.io/blog/99minds-schedule-delivery-for-a-gift-card-on-b
 keywords: ["99minds"]
 
 --- 
-<img src="/assets/blog/product_update-schedule-deliver.jpeg">
+<img src="/assets/blog/product_update-schedule-deliver.jpeg" alt="99minds integration with vend is now live.">
 
 All <a href="https://www.bigcommerce.com/" target="_blank">BigCommerce’s</a> eCommerce merchants using <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">99minds’ Gift Card app</a>, their customers can schedule delivery of an eGift card. Online shoppers seemed to see which merchants allow scheduled delivery because this feature is more than a convenience–it can be a lifesaver during one of the busiest times of the year. So put your <a href="https://www.99minds.io/giftcard" target="_blank">eGift cards on autopilot with 99minds</a>.
 
-<a href="https://www.99minds.io/giftcard" target="_blanck"> <img class="w-full h-44" src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/12/CTA-Giftcard4.jpg"></a>
+<a href="https://www.99minds.io/giftcard" target="_blanck"> <img src="/assets/blog/Blog_CTA1.webp" alt="create your own gift card campaign"></a>
 
 ## Benefits of Scheduling
 

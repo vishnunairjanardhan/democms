@@ -131,11 +131,11 @@ const CouponGenerator = () => {
          {/* <h1 className='text-white text-center text-2xl font-bold'>Create Your Custom Coupons</h1> */}
         <div className='flex flex-col items-center justify-center'>
         {/* <h5 className='text-white w-1/2 text-lg font-bold text-center'>Use free code generator to generate unique codes that can be used for coupons, gift cards. If you need an end-to-end promotion management tool, try 99minds.</h5> */}
-        <h1 class="mt-16 text-3xl font-normal tracking-tight text-center text-white">
-        Create Your Custom Coupons
+        <h1 class="mt-16 tracking-tight text-center text-white">
+        Free Coupon Code Generator
       </h1>
-       <p class="mt-6 text-base font-normal text-center text-vulcan-300">
-       Use free code generator to generate unique codes that can be used for coupons, gift cards.<br /> If you need an end-to-end promotion management tool, try 99minds.
+       <p class="mt-6 text-center text-vulcan-300">
+       Generate a free coupon code and give your business a boost with quick and easy discount solutions.
       </p>
         </div>
         <div className="p-[0.060rem] rounded-3xl shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 lg:px-36 sm:py-32 sm:px-4">
