@@ -133,7 +133,7 @@ Referral programs can significantly benefit eCommerce businesses by leveraging w
 
 Referral programs are a highly cost-effective <a href="https://www.99minds.io/blog/customer-acquisition-strategy" role="link" target="_blanck">strategy for acquiring new customers</a> by leveraging the networks of existing customers. Personal recommendations from friends and family significantly enhance trust and increase the likelihood of purchase, as people tend to value the opinions of those they know over traditional advertising. 
 
-By automating the referral process, <a herf="https://www.99minds.io/referral" role="link" target="_blanck">referral program software</a> further optimizes this approach. It simplifies the process for satisfied customers to refer their friends and family, broadening the program's reach and boosting the chances that new prospects will trust the recommendation and make a purchase. This method capitalizes on the inherent trust in personal relationships, making it a powerful tool for customer acquisition.
+By automating the referral process, <a href="https://www.99minds.io/referral" role="link" target="_blanck">referral program software</a> further optimizes this approach. It simplifies the process for satisfied customers to refer their friends and family, broadening the program's reach and boosting the chances that new prospects will trust the recommendation and make a purchase. This method capitalizes on the inherent trust in personal relationships, making it a powerful tool for customer acquisition.
 </li>
 
 <li>
@@ -412,7 +412,7 @@ Closely monitoring these KPIs allows you to assess the performance of your refer
 <li>
 <h3 class="m-0 mb-4">Optimize and Iterate</h3>
 
-To continuously improve your referral program, utilize the data and feedback you receive to identify areas for enhancement. Experiment with different rewards, messaging, and promotional strategies to determine what resonates most with your target audience. Regularly update and refine the program to keep it relevant and engaging. By staying responsive to customer preferences and market trends, you can ensure your referral program remains effective and appealing, driving sustained growth and <a href="https://docs.google.com/document/u/0/d/1GWfR5zR18CLzWFLxL-8-XsnWrT1yqOieOOorzHYr6rU/edit" role="link" target="_blanck">customer loyalty</a>.
+To continuously improve your referral program, utilize the data and feedback you receive to identify areas for enhancement. Experiment with different rewards, messaging, and promotional strategies to determine what resonates most with your target audience. Regularly update and refine the program to keep it relevant and engaging. By staying responsive to customer preferences and market trends, you can ensure your referral program remains effective and appealing, driving sustained growth and customer loyalty.
 </li>
 
 <li>

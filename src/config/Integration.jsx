@@ -130,11 +130,11 @@ export const Marketing = [
   url: "/integrations/klaviyo",
   alt:"99minds-Klaviyo Integration"
 },
-{
-  image: '/integrations/hubspot.svg',
-  title: 'Hubspot',
-  desc: 'Fully integrate your direct mail and e-gifting campaigns with Salesforce: Send, measure and scale everything using our 1-click integration.'
-}
+// {
+//   image: '/integrations/hubspot.svg',
+//   title: 'Hubspot',
+//   desc: 'Fully integrate your direct mail and e-gifting campaigns with Salesforce: Send, measure and scale everything using our 1-click integration.'
+// }
 ]
 
 export const Email = [
@@ -232,6 +232,7 @@ export const Giftcard = [
   image: '/integrations/paytronix.svg',
   title: 'Paytronix',
   desc: 'A specialized gift card and loyalty solution that integrates with 99minds, particularly designed for restaurants.  Paytronix allows you to leverage 99minds for issuing gift cards with features specifically tailored to the restaurant industry, such as point-of-sale integration and loyalty program rewards.',
+  url: "/integrations/paytronix",
   alt:"99minds-Paytronix Integration"
 }
 
