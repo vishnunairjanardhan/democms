@@ -211,7 +211,7 @@ declare module 'astro:content' {
   slug: "10-best-point-of-sale-pos-systems-for-2022";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md": {
 	id: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md";
@@ -339,13 +339,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"Are Omnichannel Loyalty Programs the Future of Retail.md": {
-	id: "Are Omnichannel Loyalty Programs the Future of Retail.md";
-  slug: "are-omnichannel-loyalty-programs-the-future-of-retail";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md": {
 	id: "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md";
   slug: "ways-to-incorporate-gift-cards-into-your-customer-retention-strategy";
@@ -412,13 +405,6 @@ declare module 'astro:content' {
 "benefits-of-joining-a-bigcommerce-affiliate-programs.md": {
 	id: "benefits-of-joining-a-bigcommerce-affiliate-programs.md";
   slug: "benefits-of-joining-a-bigcommerce-affiliate-programs";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"benefits-of-omnichannel-loyalty-programs.md": {
-	id: "benefits-of-omnichannel-loyalty-programs.md";
-  slug: "benefits-of-omnichannel-loyalty-programs";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -920,13 +906,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"importance-of-omni-channel-loyalty-programs.md": {
-	id: "importance-of-omni-channel-loyalty-programs.md";
-  slug: "importance-of-omni-channel-loyalty-programs";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify.md": {
 	id: "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify.md";
   slug: "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify";
@@ -1018,6 +997,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"omnichannel-loyalty-programs.md": {
+	id: "omnichannel-loyalty-programs.md";
+  slug: "omnichannel-loyalty-programs";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"omnichannel-loyalty-programs.md": {
+	id: "omnichannel-loyalty-programs.md";
+  slug: "omnichannel-loyalty-programs";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "online-store-credit.md": {
 	id: "online-store-credit.md";
   slug: "online-store-credit";
@@ -1101,6 +1094,20 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"shopify-store-credit-guide.md": {
+	id: "shopify-store-credit-guide.md";
+  slug: "shopify-store-credit-guide";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"shopify-store-credit-guide.md": {
+	id: "shopify-store-credit-guide.md";
+  slug: "shopify-store-credit-guide";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "small-business-ideas-for-valentines-day.md": {
 	id: "small-business-ideas-for-valentines-day.md";
