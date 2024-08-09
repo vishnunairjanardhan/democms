@@ -130,11 +130,13 @@ export const Marketing = [
   url: "/integrations/klaviyo",
   alt:"99minds-Klaviyo Integration"
 },
-// {
-//   image: '/integrations/hubspot.svg',
-//   title: 'Hubspot',
-//   desc: 'Fully integrate your direct mail and e-gifting campaigns with Salesforce: Send, measure and scale everything using our 1-click integration.'
-// }
+{
+  image: '/integrations/hubspot.svg',
+  title: 'Hubspot',
+  desc: 'Fully integrate your direct mail and e-gifting campaigns with Salesforce: Send, measure and scale everything using our 1-click integration.',
+  url: "/integrations/hubspot",
+  alt:"99minds-Hubspot Integration"
+}
 ]
 
 export const Email = [

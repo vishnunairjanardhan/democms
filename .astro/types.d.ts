@@ -211,7 +211,7 @@ declare module 'astro:content' {
   slug: "10-best-point-of-sale-pos-systems-for-2022";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md": {
 	id: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md";
@@ -995,7 +995,7 @@ declare module 'astro:content' {
   slug: "omnichannel-loyalty-programs";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "omnichannel-loyalty-programs.md": {
 	id: "omnichannel-loyalty-programs.md";
@@ -1093,7 +1093,7 @@ declare module 'astro:content' {
   slug: "shopify-store-credit-guide";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "shopify-store-credit-guide.md": {
 	id: "shopify-store-credit-guide.md";
