@@ -227,13 +227,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"4.md": {
-	id: "4.md";
-  slug: "4";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "5-employee-gift-ideas-for-thanksgiving.md": {
 	id: "5-employee-gift-ideas-for-thanksgiving.md";
   slug: "5-employee-gift-ideas-for-thanksgiving";
@@ -272,13 +265,6 @@ declare module 'astro:content' {
 "5-wicked-halloween-marketing-ideas-to-boost-your-online-sales.md": {
 	id: "5-wicked-halloween-marketing-ideas-to-boost-your-online-sales.md";
   slug: "5-wicked-halloween-marketing-ideas-to-boost-your-online-sales";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"5.md": {
-	id: "5.md";
-  slug: "5";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
