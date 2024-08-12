@@ -1,23 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import HeroThree from "../components/heros/HeroThree.astro";
 import HeroLoyalty from "../components/heros/HeroLoyalty.astro";
-import LogoCloud from "../components/testimonials/LogoCloud.astro";
-import LogoCloudTwo from "../components/testimonials/LogoCloudTwo.astro";
 import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro";
-import LogoCloudFour from "../components/testimonials/LogoCloudFour.astro";
-import FeatureFive_NewHome from "../components/features/FeatureFive_NewHome.astro";
-import FeatureNine from "../components/features/FeatureNine.astro";
+import FeatureLoyalty1 from "../components/features/FeatureLoyalty1.astro";
 import FeatureLoyalty from "../components/features/FeatureLoyalty.astro";
-import FeatureTwo from "../components/features/FeatureTwo.astro";
-import FeatureSeven from "../components/features/FeatureSeven.astro";
-import FeatureTen from "../components/features/FeatureTen.astro";
 import Testimonialtry from "../components/testimonials/Testimonialtry.astro";
-import PricingFive from "../components/pricing/PricingFive.astro";
-import FaqTwo from "../components/Infopages/FaqTwo.astro";
-import CtaThree99minds from "../components/ctas/CtaThree99minds.astro";
-import Integrations99minds from "../components/integrations/Integrations99minds.astro";
+import CtaThreeU from "../components/ctas/CtaThreeU.astro";
+import Integrations99minds2 from "../components/integrations/Integrations99minds2.astro";
 import LoyaltyTab from "../components/features/LoyaltyTab.astro";
+import LoyaltyTab1 from "../components/features/LoyaltyTab1.astro";
 import { AstroSeo } from "@astrolib/seo";
 import { Seo } from "../config/Seo";
 ---
@@ -58,9 +49,11 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <BaseLayout>
   <HeroLoyalty />
   <LogoCloudOne />
+  <FeatureLoyalty1 />
   <FeatureLoyalty />
   <LoyaltyTab />
+  <!-- <LoyaltyTab1 /> -->
   <Testimonialtry />
-  <Integrations99minds />
-  <CtaThree99minds />
+  <Integrations99minds2 />
+  <CtaThreeU />
 </BaseLayout>

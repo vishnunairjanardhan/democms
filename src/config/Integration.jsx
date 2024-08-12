@@ -130,11 +130,11 @@ export const Marketing = [
   url: "/integrations/klaviyo",
   alt:"99minds-Klaviyo Integration"
 },
-/*{
-  image: '/integrations/hubspot.svg',
-  title: 'HUBSPOT',
-  desc: ''
-}*/
+// {
+//   image: '/integrations/hubspot.svg',
+//   title: 'Hubspot',
+//   desc: 'Fully integrate your direct mail and e-gifting campaigns with Salesforce: Send, measure and scale everything using our 1-click integration.'
+// }
 ]
 
 export const Email = [
@@ -188,12 +188,24 @@ export const Payment = [
   title: 'Worldpay Express',
   desc: 'Sell gift cards through the 99minds online storefront and accept payments directly into your Worldpay Express account.',
   alt:"99minds-Worldpay Express Integration"
+},
+{
+  image: '/integrations/authorize-icon.svg',
+  title: 'Authorize.net',
+  desc: '',
+  alt:"99minds-Authorize.net Integration"
+},
+{
+  image: '/integrations/spreedly.svg',
+  title: 'Spreedly',
+  desc: '',
+  alt:"99minds-Spreedly Integration"
 }
 ]
 
 export const Giftcard = [
 {
-  image: '/integrations/finserv.svg',
+  image: '/integrations/fiserve.svg',
   title: 'Fiserve',
   desc: 'A comprehensive gift card solution that seamlessly integrates with 99minds. Fiserv handles all aspects of gift card issuance, from initial creation to fulfillment, allowing you to manage your program efficiently within the 99minds platform.',
   alt:"99minds-Finserve Integration"
@@ -220,8 +232,10 @@ export const Giftcard = [
   image: '/integrations/paytronix.svg',
   title: 'Paytronix',
   desc: 'A specialized gift card and loyalty solution that integrates with 99minds, particularly designed for restaurants.  Paytronix allows you to leverage 99minds for issuing gift cards with features specifically tailored to the restaurant industry, such as point-of-sale integration and loyalty program rewards.',
+  url: "/integrations/paytronix",
   alt:"99minds-Paytronix Integration"
 }
+
 ]
 export const Fraud = [
 {

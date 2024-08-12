@@ -7,11 +7,10 @@ description: Referral programs are a powerful marketing strategy used by busines
 heading: Guide to Referral Program- Benefits and How to Build One in 2024
 image:
   url: "/assets/blog/Guide to Referral Program- Benefits and How to Build One in 2024.webp"
-  alt: "Howdo i set an ecommerce referral program."
+  alt: "How do i set an ecommerce referral program."
 tags: ["Gift Card"]
-url: "http://www.99minds.io/blog/what-is-referral-program"
-keywords: ["referral program","referral programs","what is a referral program","client referral program",
-"successful referral programs","how to build a referral program"]
+url: "https://www.99minds.io/blog/what-is-referral-program"
+keywords: ["referral program","referral programs","what is a referral program","successful referral programs","how to build a referral program"]
 
 --- 
 <img rel="preload" role="img" src="/assets/blog/Guide to Referral Program- Benefits and How to Build One in 2024.webp" alt="Guide to referral program">
@@ -23,8 +22,8 @@ Ecommerce stores have managed to reduce their customer acquisition costs by empl
 Referrals are extremely powerful because people believe other people like themselves when they suggest something. According to <a href="https://www.nielsen.com/insights/2012/consumer-trust-in-online-social-and-mobile-advertising-grows/#:~:text=According%20to%20Nielsen's%20latest%20Global,an%20increase%20of%2018%20percent" role="link" target="_blanck">Neilsen's</a> study, more than 92% of people trust the recommendations of friends and families. That’s precisely why social proof, positive comments on forums, customer testimonials, and reviews play a huge role in people buying from you.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<h2>Table of Contents:</h2>
-<ul role="list">
+<p>Table of Contents:</p>
+<ul>
   <li>  
     <a role="link" href="#What-is-a-Referral-Program?" rel="noreferrer">What is a Referral Program?</a>
   </li> 
@@ -59,7 +58,7 @@ Referrals are extremely powerful because people believe other people like themse
     <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
   </li> 
   <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)" ref="noreferrer">Frequently Asked Questions (FAQs)</a>
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Referral-Program" ref="noreferrer">Frequently Asked Questions (FAQs) for Referral Program</a>
   </li>                      
 </ul>
 </div>  
@@ -134,7 +133,7 @@ Referral programs can significantly benefit eCommerce businesses by leveraging w
 
 Referral programs are a highly cost-effective <a href="https://www.99minds.io/blog/customer-acquisition-strategy" role="link" target="_blanck">strategy for acquiring new customers</a> by leveraging the networks of existing customers. Personal recommendations from friends and family significantly enhance trust and increase the likelihood of purchase, as people tend to value the opinions of those they know over traditional advertising. 
 
-By automating the referral process, <a herf="https://www.99minds.io/referral" role="link" target="_blanck">referral program software</a> further optimizes this approach. It simplifies the process for satisfied customers to refer their friends and family, broadening the program's reach and boosting the chances that new prospects will trust the recommendation and make a purchase. This method capitalizes on the inherent trust in personal relationships, making it a powerful tool for customer acquisition.
+By automating the referral process, <a href="https://www.99minds.io/referral" role="link" target="_blanck">referral program software</a> further optimizes this approach. It simplifies the process for satisfied customers to refer their friends and family, broadening the program's reach and boosting the chances that new prospects will trust the recommendation and make a purchase. This method capitalizes on the inherent trust in personal relationships, making it a powerful tool for customer acquisition.
 </li>
 
 <li>
@@ -413,7 +412,7 @@ Closely monitoring these KPIs allows you to assess the performance of your refer
 <li>
 <h3 class="m-0 mb-4">Optimize and Iterate</h3>
 
-To continuously improve your referral program, utilize the data and feedback you receive to identify areas for enhancement. Experiment with different rewards, messaging, and promotional strategies to determine what resonates most with your target audience. Regularly update and refine the program to keep it relevant and engaging. By staying responsive to customer preferences and market trends, you can ensure your referral program remains effective and appealing, driving sustained growth and <a href="https://docs.google.com/document/u/0/d/1GWfR5zR18CLzWFLxL-8-XsnWrT1yqOieOOorzHYr6rU/edit" role="link" target="_blanck">customer loyalty</a>.
+To continuously improve your referral program, utilize the data and feedback you receive to identify areas for enhancement. Experiment with different rewards, messaging, and promotional strategies to determine what resonates most with your target audience. Regularly update and refine the program to keep it relevant and engaging. By staying responsive to customer preferences and market trends, you can ensure your referral program remains effective and appealing, driving sustained growth and customer loyalty.
 </li>
 
 <li>
@@ -546,7 +545,7 @@ To create a successful referral program, it's essential to define your goals, un
 
 In 2024, Referral programs remain pivotal for marketing success, offering a competitive edge through word-of-mouth marketing. Enhance your efforts with the <a href="https://www.99minds.io/referral" role="link" target="_blanck">99minds referral program</a>, optimizing performance and driving growth seamlessly.
 
-<h2 id="Frequently-Asked-Questions-(FAQs)">Frequently Asked Questions (FAQs)</h2>
+<h2 id="Frequently-Asked-Questions-(FAQs)-for-Referral-Program">Frequently Asked Questions (FAQs) for Referral Program</h2>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is a Customer Referral Program?</h3>A customer referral program incentivizes existing customers to refer new ones to a business. Typically, rewards or benefits are offered for successful referrals, such as discounts, credits, or free products/services. This strategy leverages word-of-mouth marketing to attract new customers while rewarding loyal ones for their advocacy.</div>
 

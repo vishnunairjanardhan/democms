@@ -3,17 +3,18 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HeroGiftcard from "../components/heros/HeroGiftcard.astro";
 import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro";
 import FeatureSixGiftcard from "../components/features/FeatureSixGiftcard.astro";
+import FeatureGiftcard from "../components/features/FeatureGiftcard.astro";
 import Testimonialtry from "../components/testimonials/Testimonialtry.astro";
-import CtaThree99minds from "../components/ctas/CtaThree99minds.astro";
-import Integrations99minds from "../components/integrations/Integrations99minds.astro";
-import GiftCardTab from "../components/features/GiftCardTab.astro";
+import CtaThreeU from "../components/ctas/CtaThreeU.astro";
+import Integrations99minds2 from "../components/integrations/Integrations99minds2.astro";
+import GiftCardTab1 from "../components/features/GiftCardTab1.astro";
 import { Seo } from "../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
 ---
 
 <AstroSeo
-  title="Complete Gift Card Solution for All Businesses | 99minds"
-  description="Discover the key features of our Gift Card Platform: 100's of beautiful themed cards, brand design uploads, customization and multi-channel delivery options."
+  title="Best Gift Card Software - Easily Create Gift Card Programs"
+  description="99minds is a powerful, customizable gifting solution to help ecommerce, SMBs, & retailer merchants deliver a seamless omnichannel gift card experience. Try now; sign up for free!"
   canonical="https://www.99minds.io/giftcard"
   openGraph={{
     url: "https://www.99minds.io/giftcard",
@@ -46,9 +47,11 @@ import { AstroSeo } from "@astrolib/seo";
 <BaseLayout>
   <HeroGiftcard />
   <LogoCloudOne />
+  <FeatureGiftcard />
   <FeatureSixGiftcard />
-  <GiftCardTab />
+  <!-- <GiftCardTab /> -->
+  <GiftCardTab1 />
   <Testimonialtry />
-  <Integrations99minds />
-  <CtaThree99minds />
+  <Integrations99minds2 />
+  <CtaThreeU />
 </BaseLayout>
