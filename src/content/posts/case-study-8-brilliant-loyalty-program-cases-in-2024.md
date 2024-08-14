@@ -16,7 +16,7 @@ keywords: ["99minds"]
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-11.png">
 Running a successful loyalty program takes more than just a bunch of attractive perks. There is more to it as it involves a lot of effort, time, resources, and technical know-how. A loyalty program helps businesses make sure that their Shopify store is sustainable. Losing existing customers regularly isn’t a sign of a fledgling store. This is exactly why loyalty programs are more than a mere marketing channel. In this article, we look at some of the most effective loyalty programs on Shopify. 
 
-### <H3><strong>Must-Haves for Loyalty Program Success Stories:</strong></H3>
+<h2>Must-Haves for Loyalty Program Success Stories:</h2>
 
 Let’s look at some of the pointers for your customers to get loyalty program benefits on Shopify.
 
@@ -29,15 +29,16 @@ Let’s look at some of the pointers for your customers to get loyalty program b
 7. The store must be able to allow customers to create personalized gifts. 
 8. Your loyalty program growth on Shopify store can be increased by engaging with customers at regular intervals.  
 
-### <H3>Successful Shopify eCommerce Case Studies for Loyalty Program:</H3>
-
-<b>Sephora:</b>
+<h2>Successful Shopify eCommerce Case Studies for Loyalty Program:</h2>
+<ul>
+<ol>
+<h3><li>Sephora:</li></h3>
 
 In <a href="https://www.sephora.com/beauty/loyalty-program">Sephora’s Beauty Insider Program</a>, customers get points for each purchase, which can be redeemed in the form of samples or exclusive merchandise. Apart from getting to choose their own rewards, customers also get exclusive access to the Beauty Insider Community. In this community, the customers get to interact with other beauty lovers who share tips and strategies about skincare. 
 
 Its loyalty program offers different levels of tiers. You get access to exclusive events as your tiers go up. The biggest discounts are usually available to customers who are in the highest tier.
 
-<b>MAC Cosmetics:</b>
+<h3><li>MAC Cosmetics:</li></h3>
 
 The loyalty program of the cosmetics giant, titled, <a href="https://www.maccosmetics.com/products/15445/mac-select">M.A.C. Select</a>, features three tiers– Seduced, Devoted, and Obsessed.
 
@@ -50,7 +51,7 @@ The loyalty program of the cosmetics giant, titled, <a href="https://www.maccosm
 The loyalty program tiers are designed in such a way that customers get to move higher up as they spend more on MAC products. 
 
 
-<b>American Express</b>
+<h3><li>American Express</li></h3>
 
 Amex’s loyalty program is named the <a href="https://www.americanexpress.com/en-in/benefits/rewards/membership-rewards/?intlink=memview_guest_exp">Membership Rewards Program</a>, and you can earn reward points for each purchase. The points can be used to cover your travel expenses, gift cards, card charges, purchase from specific retailers, and book travel via Expedia or the AmEx portal.  
 
@@ -63,15 +64,15 @@ With Amex, loyalty program customers can redeem their reward points at any of th
 <li>There are multiple channels using which customers can earn or redeem their points</li>
 </ul>
 
-<b>Walgreens:</b>
+<h3><li>Walgreens:</li></h3>
 
 <a href="https://www.walgreens.com/topic/promotion/mywalgreens.jsp">Balance Rewards, Walgreen’s loyalty program</a>, boasts more than 150 million registered members. Its “Thank You” program is an example of how the brand leverages personalization effectively. They segment the customers based on the likelihood of their purchasing. Customers who respond to targeted campaigns have a much higher chance of buying from them than those who do not. 
 
-<b>Urban Outfitters:</b>
+<h3><li>Urban Outfitters:</h3></li>
 
 The retail corporation’s tier-based loyalty program allows customers to earn loyalty points by doing the following– enabling push notifications, browsing their website or app ten times a month, entering giveaways, and so on. They attract their audience to the loyalty program using anniversary rewards, giveaways, and surprise gifts.
 
-<b>Nike Membership:</b>
+<h3><li>Nike Membership:</h3></li>
 
 By being a part of <a href="https://www.nike.com/in/">Nike’s loyalty program</a>, you get immediate access to a number of benefits, products, and services. All of this without earning or upgrading points. Let’s look at some of the interesting perks of being a part of the Nike Membership program.
 
@@ -85,13 +86,13 @@ By being a part of <a href="https://www.nike.com/in/">Nike’s loyalty program</
 
 The above perks and more make Nike an excellent example of a successful loyalty program. 
 
-<b>Tarte Cosmetics:</b>
+<h3><li>Tarte Cosmetics:</li></h3>
 
 Tartlettes, that’s what Tarte’s loyal customers are called. They get perks and earn points on each purchase. You get 20% off on your purchase which can be redeemed for 3,000 points. You can earn points by signing up for the Tarte perks program, following them on Instagram and TikTok, taking their best sellers quiz, and so on. 
 
 <a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Bookademo.jpg"></a>
 
-<b>Starbucks:</b>
+<h3><li>Starbucks:</li></h3>
 
 Their rewards program is considered one of the best Shopify merchant case study. The world’s largest coffeehouse chain’s rewards program has over 21 million members, as of 2021. Starbucks customers earn more points for every dollar that they spend using a digital Starbucks card or gift card. 
 
@@ -105,8 +106,10 @@ Let’s look at some of the reasons why <a href="https://www.starbucks.com/rewar
 <li>The rewards program extends to lower-margin grocery items too, and helps them drive traffic to their store locations</li>
 <li>They offer exclusive games where the rewards range from a $500 gift card to free Starbucks for life</li>
 </ul>
+</ul>
+</ol>
 
-<b>How to Increase Loyalty Program ROI on Shopify?</b>
+<h2>How to Increase Loyalty Program ROI on Shopify?</h2>
 
 Let’s look at some of the loyalty program engagement strategies that Shopify stores must use, to get the best returns from it. 
 
@@ -122,7 +125,7 @@ Let’s look at some of the loyalty program engagement strategies that Shopify s
     <li>Customer testimonials on Shopify store increases your customers’ confidence about their chances of getting rewarded</li>
     </ul>
 
-### Wrapping Up: 
+<h2>Wrapping Up:</h2>
 
 Shopify store success with loyalty programs is possible when you have the right strategy in place. Customer loyalty is all about providing a delightful experience for your customers. It should make them less hesitant about returning to your business. The right customer retention strategies should leverage technology and be humane at the same time. 
 

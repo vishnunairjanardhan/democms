@@ -612,13 +612,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"gift-cards-for-small-businesses.md": {
-	id: "gift-cards-for-small-businesses.md";
-  slug: "gift-cards-for-small-businesses";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine.md": {
 	id: "gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine.md";
   slug: "gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine";
@@ -682,6 +675,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"how-can-small-businesses-can-increase-sales-with-gift-cards.md": {
+	id: "how-can-small-businesses-can-increase-sales-with-gift-cards.md";
+  slug: "how-can-small-businesses-can-increase-sales-with-gift-cards";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "how-do-coupons-work-for-businesses.md": {
 	id: "how-do-coupons-work-for-businesses.md";
   slug: "how-do-coupons-work-for-businesses";
@@ -731,13 +731,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"how-to--capitalize-on-the-christmas-rush-using-gift-cards.md": {
-	id: "how-to--capitalize-on-the-christmas-rush-using-gift-cards.md";
-  slug: "how-to--capitalize-on-the-christmas-rush-using-gift-cards";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "how-to-attract-and-retain-generation-z-customers.md": {
 	id: "how-to-attract-and-retain-generation-z-customers.md";
   slug: "how-to-attract-and-retain-generation-z-customers";
@@ -776,6 +769,13 @@ declare module 'astro:content' {
 "how-to-build-customer-loyalty-for-your-e-commerce-store.md": {
 	id: "how-to-build-customer-loyalty-for-your-e-commerce-store.md";
   slug: "how-to-build-customer-loyalty-for-your-e-commerce-store";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"how-to-capitalize-on-the-christmas-rush-using-gift-cards.md": {
+	id: "how-to-capitalize-on-the-christmas-rush-using-gift-cards.md";
+  slug: "how-to-capitalize-on-the-christmas-rush-using-gift-cards";
   body: string;
   collection: "posts";
   data: any

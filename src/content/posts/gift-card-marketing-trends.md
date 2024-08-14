@@ -19,7 +19,7 @@ A gift card is a prepaid store-value money card issued by the retailer or a bank
 
 The rise in the global gift cards market is also influenced by several factors that include the demand for prepaid cards, people preferring advanced payment solutions, increase in the number of smartphone users, its application in diverse stores.
 
-### <strong>Here are some of the most popular players in the gift card market:</strong>
+<h2>Here are some of the most popular players in the gift card market:</h2>
 <ul>
 <li><a href="https://www.amazon.com/">Amazon</a></li>
 <li><a href="https://play.google.com/store/games?hl=en&gl=US">Google Play</a></li>
@@ -38,15 +38,13 @@ The rise in the global gift cards market is also influenced by several factors t
 <li><a href="https://www.sainsburys.co.uk/">Sainsbury’s</a></li>
 </ul>
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/12/CTA-Giftcard4.jpg"></a>
-
 Gift cards are an effective way to show to your loved ones that you care about them. Earlier, gift cards used to be popular in North America and Europe. But you will find that it is not the case anymore as consumer behavior has changed drastically in other parts of the world, thanks to disposable income. They are now getting popular in the Asia Pacific and Latin America. Countries like China and India especially have witnessed a boom in the gift card market.
 
-There has been a massive shift from physical gift cards to <a href="https://wordpress-aogt.onrender.com/gift-card/gift-card-services-for-merchants/">digital gift vouchers</a>. With more and more customers purchasing online, digital gift vouchers seem like the most viable option. When it is a digital voucher, you can immediately gift them to your loved ones. There is no waiting, just a simple email, and you are done.
+There has been a massive shift from physical gift cards to digital gift vouchers. With more and more customers purchasing online, digital gift vouchers seem like the most viable option. When it is a digital voucher, you can immediately gift them to your loved ones. There is no waiting, just a simple email, and you are done.
 
 The gift card industry is expected to be worth $2.7 trillion by 2027, based on a report titled <a href="https://www.researchandmarkets.com/reports/5029879/gift-card-global-market-trajectory-and-analytics?utm_source=dynamic&utm_medium=GNOM&utm_code=wg597f&utm_campaign=1410985+-+Gift+Card+Industry+Worth+%242.7+Trillion+by+2027%2c+Despite+COVID-19&utm_exec=joca220gnomd">‘Gift Card- Global Market Trajectory & Analytics’ by ResearchandMarkets.com</a>. This prediction is despite Covid-19 and its repercussions. This is a telling statement on the kind of impact gift cards have had on consumer behavior.
 
-### <strong>Here are some interesting statistics from the ReserachandMarkets.com report</strong>
+<h2>Here are some interesting statistics from the ReserachandMarkets.com report</h2>
 <ol>
 <li><a href="https://www.globenewswire.com/news-release/2020/07/09/2059937/0/en/Gift-Card-Industry-Worth-2-7-Trillion-by-2027-Despite-COVID-19.html">The US gift cards market is currently estimated at $278.8 billion.</a></li>
 <li><a href="https://www.globenewswire.com/news-release/2020/07/09/2059937/0/en/Gift-Card-Industry-Worth-2-7-Trillion-by-2027-Despite-COVID-19.html">China is forecasted to reach a projected market size of $608.1 billion by 2027</a></li>

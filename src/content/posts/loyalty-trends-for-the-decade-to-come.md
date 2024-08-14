@@ -42,43 +42,42 @@ Here are more pointers from the report:
 <li>Sales and support teams should partner to connect early customer interaction with the ones in the final stage.</li>
 </ul>
 
-<a href="https://www.99minds.io/" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/04/CTA-Referral-image.jpg"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
 As if validating Zendesk’s report, Gartner’s recent report predicts that “by 2023, organizations at advanced stages of digital transformation will find that poor customer experience is the biggest barrier to further success.”
 
 Now that we have established the importance of loyalty, let us see what we can expect from it in the next decade:
+<ul>
+<ol>
+<h2><li>Artifical Intelligence:</li></h2>
 
-### <strong>1. Artifical Intelligence:</strong> 
+<a href="https://www.99minds.io/blog/customer-retention-and-acquisition-using-ai/" target="_blanck">Customer Loyalty programs reward</a> them based on their user behavior earlier. There is a lot of guesswork involved as well when you do it without the help of technology. Machine Learning, coupled with Artificial Intelligence, eliminates any guesswork by using data and analytics to provide predictions. When your rewards are closest to what they expect, it will only increase their loyalty. The best thing about using AI for company reward programs is that there is zero human interference.
 
-<a href="https://wordpress-aogt.onrender.com/artificial-intelligence/customer-retention-and-acquisition-using-ai/" target="_blanck">Customer Loyalty programs reward</a> them based on their user behavior earlier. There is a lot of guesswork involved as well when you do it without the help of technology. Machine Learning, coupled with Artificial Intelligence, eliminates any guesswork by using data and analytics to provide predictions. When your rewards are closest to what they expect, it will only increase their loyalty. The best thing about using <a herf="https://wordpress-aogt.onrender.com/uncategorized/ai-for-everyone/" target="_blanck">AI for company reward programs</a> is that there is zero human interference.
-
-### <strong>2. Corporate Social Responsibility:</strong>
+<h2><li>rporate Social Responsibility:</li></h2>
 
 Traditional customer loyalty programs are driven by points, rewards, cashback, discounts, etc. With brands bombing customers with one offer or the other every day, a section of the customers is put off by any type of monetary offer. You can stand out as a brand with your company reward program where your customers and prospects will sit up and take notice. Some people are driven by the charity and social causes that they keep close to their hearts. You can reward your customers in the form of charity where you will donate to causes that your customer wishes, for every purchase they make. Here’s a stat that will surprise you- <a href="https://www.thestreet.com/lifestyle/why-millennials-are-more-charitable-14445741" target="_blanck">84% of millennials actively donate to charity.</a>
 
-### <strong>3. Shared environmental goals:</strong>
+<h2><li>Shared environmental goals:</li></h2>
 
 The best way to increase loyalty is by aligning with the customer’s values. The world is in such a shape where there is a lot of talk about climate change, greenhouse gas emissions, and so on. A lot of people are passionate about such causes. You would have customers (those who care about these causes) for life if you were to spend a good portion of the loyalty rewards on such causes.
 
-### <strong>4. Gamification:</strong>
+<h2><li>Gamification:</li></h2>
 
-Playing is something that comes naturally to us. Everyone engages in it, and people immerse themselves in games because it lets us forget our surroundings. Businesses are<a href="https://wordpress-aogt.onrender.com/uncategorized/moneyball-game-changer-for-everyone/" target="_blanck">using Gamification</a> to capture the attention of users and retain them in customer loyalty programs. Here’s what Gamification is-” “The process of taking something that already exists – a website, an enterprise application, an online community – and integrating game mechanics into it to motivate participation, engagement, and loyalty.”
+Playing is something that comes naturally to us. Everyone engages in it, and people immerse themselves in games because it lets us forget our surroundings. Businesses are<a href="https://www.99minds.io/blog/moneyball-game-changer-for-everyone/" target="_blanck">using Gamification</a> to capture the attention of users and retain them in customer loyalty programs. Here’s what Gamification is-” “The process of taking something that already exists – a website, an enterprise application, an online community – and integrating game mechanics into it to motivate participation, engagement, and loyalty.”
 
-### <strong>5. Bring more touchpoints:</strong>
+<h2><li>Bring more touchpoints:</li></h2>
 
 Before making the purchase, a customer will have to go through at least 20-30 non-purchase touchpoints. So that’s so many steps before you convert the user for good. Isn’t that a lot of time, and what if the prospect loses interest by that time? This is why it gets crucial that you incentivize the prospect to pass through all the channels. The value that you give for your customers at such touchpoints should be rational and not anything that would evoke any emotion for them.
 
-### <strong>6. Experiential rewards:</strong>
+<h2><li>Experiential rewards:</li></h2>
 
 It can be considered as rewards that go beyond mere transactions, and its use is to enhance the customer’s experience. It can help with increasing loyalty as the goal for the same is to exceed your customer’s experience by providing them with experiences that cannot be replicated or gotten anywhere else. It could be celebrity meet and greet, personalized products, a special visit to the office, adventure trial with a select list of customers, an invitation to office parties, etc.
 
-<a href="https://www.99minds.io/" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/04/CTA-IMAGE-01.jpg"></a>
-
 A brand that uses experiential rewards has a higher chance of forming a close relationship with its customers. Experiential rewards are much more effective because <a href="https://thinkinkpr.com/3-reasons-why-experiential-rewards-are-key-to-the-future-of-loyalty/" target="_blanck">44% of shoppers admit that they are unhappy with rewards</a> because most of them are irrelevant.
+</ul>
+</ol>
 
-### Conclusion:
+<h2>Conclusion:</h2>
 
 99minds is extremely passionate about being a part in forging stronger relationships between brands and their customers. The six loyalty trends that we have mentioned here are only a drop in the ocean, and there would be many more that will spring up as the loyalty niche gathers more interest.
 

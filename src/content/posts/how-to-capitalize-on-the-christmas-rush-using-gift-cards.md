@@ -19,7 +19,7 @@ Shopify gift card promotions during the holidays should not be something that wa
 
 In this article, we look at Christmas eCommerce tips to sell more gift cards during the holiday season.     
 
-## Who Do Customers Buy Gift Cards for?
+<h2>Who Do Customers Buy Gift Cards for?</h2>
 
 According to a <a href="https://blackhawknetwork.com/sites/default/files/2021-01/BHN-ebook-Gift-Card-Facts.pdf" target="_blank">Study by Blackhawk Netword</a>, here are some of the results.
 <ul>
@@ -30,7 +30,7 @@ According to a <a href="https://blackhawknetwork.com/sites/default/files/2021-01
 <li> My Child (42%)</li>
 </ul>
  
-## Where Do Customers Spend on Gift Cards?
+<h2>Where Do Customers Spend on Gift Cards?</h2>
 
 Christmas shopping behavior of your customers on the type of establishment that they buy gift cards of, looks like the one below. 
 
@@ -40,7 +40,7 @@ Christmas shopping behavior of your customers on the type of establishment that 
 <li> Quick-Serving Restaurants (42%)</li>    
 </ul>
 
-## Why are Gift Cards Great for the Holidays?
+<h2>Why are Gift Cards Great for the Holidays?</h2>
 
 Let’s look at some of the interesting statistics that make gift cards an attractive option for retailers, especially during the holidays. 
 
@@ -49,23 +49,25 @@ Let’s look at some of the interesting statistics that make gift cards an attra
 <li> <a href="https://abcnews.go.com/Business/unused-gift-cards-shrinking/story?id=15249093" target="_blank">85% of gift cards</a> are redeemed in the first 60 days after they are received, and this helps you with a good injection of cash flow during the holidays</li>
 <li> <a href="https://www.statista.com/statistics/1186198/in-store-vs-online-holiday-shopping-in-the-united-states/" target="_blank">57% of Customer</a> are planning to make their purchases online. Make sure you have a gift card landing page</li>
 
-## 10 Ways to Capitalize on the Christmas Rush Using Gift Cards
+<h2>10 Ways to Capitalize on the Christmas Rush Using Gift Cards</h2>
+<ul>
+<ol>
 
-### Offers on Gift Vouchers
+<h3><li>Offers on Gift Vouchers</li></h3>
 
 One of the ways to make your <a href="https://www.99minds.io/integrations/shopify" target="_blank">Shopify gift card campaign</a> successful during the holidays is to provide great offers on them. From discounting gift card purchases to offering free gift cards when the purchase value crosses a particular threshold, you can make it as alluring as possible. 
 
-### Integrate It With a Loyalty Program
+<h3><li>Integrate It With a Loyalty Program</li></h3>
 
 First, make sure you have a loyalty program to reduce churn and appreciate your loyal customers. The next step is to make gift cards a big part of your loyalty program. This is one of the easiest ways to strengthen your loyalty program and make gift cards a big part of your marketing strategy. Send gift cards to loyalty program customers on special days.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
-### Promote Digital Gift Cards
+<h3><li>Promote Digital Gift Cards</li></h3>
 
 With the incredible rise in online payments becoming common, you wouldn’t find it difficult to sell more digital gift cards. It also has the advantage of being easy to carry, secure, and environment-friendly. Christmas sales strategies work well when you invest in promoting the right offer for maximizing Christmas sales.
 
-Below are a few things you can do to increase gift card sales:
+<b>Below are a few things you can do to increase gift card sales:</b>
 
 <ul> 
 <li> Create a content strategy for digital gift cards</li>
@@ -76,19 +78,19 @@ Below are a few things you can do to increase gift card sales:
 <li> Run targeted ad campaigns to sell more gift cards</li>
 </ul>
 
-### Offer Gift Cards in Bundles
+<h3><li>Offer Gift Cards in Bundles</li></h3>
 
 Bundling is an excellent way to sell slow-moving products or to increase the order value. It is one of the best Christmas discount strategies. If you intend to sell more gift cards or make more customers use them, you can offer a gift card on top of the bundled items. This will increase the likelihood of customers buying your bundled products too since they are getting a good deal because of the gift card. 
 
-### Personalized Gift Cards
+<h3><li>Personalized Gift Cards</li></h3>
 
 There is a lot of emotion and love invested when you buy something for someone. Gift cards are more than just a random purchase. If you can offer the option to customize gift cards based on their liking, people will buy them in droves. In fact,<a href="https://blackhawknetwork.com/sites/default/files/2021-01/BHN-ebook-Gift-Card-Facts.pdf" target="_blank">63% of customers</a> are extremely interested in the retailer’s ability to customize gift cards. The ability to at least add a personalized greeting message can make a world of difference. Gift Card personalization for Christmas should not be an afterthought as it makes boosting revenue with gift cards possible.
 
-### Create Holiday-Themed Gift Card Features Designs
+<h3><li>Create Holiday-Themed Gift Card Features Designs</li></h3>
 
 Gift cards can be a great marketing asset for your brand, if only you were to use them wisely. For the gift cards to be construed as special by the recipients, you must make the design memorable and stand apart from everything that they have seen earlier. 
 
-Below are a few things to do to your gift card design:
+<b>Below are a few things to do to your gift card design:</b>
 
 <ul>
 <li> Keep your colors and fonts consistent to match your brand palette</li>
@@ -97,11 +99,11 @@ Below are a few things to do to your gift card design:
 <li> Ensure that the design used in the physical gift card can be used as a souvenir</li>
 </ul>
 
-### Integrate A Loyalty Program
+<h3><li>Integrate A Loyalty Program</li></h3>
 
 If your eCommerce store doesn’t have a loyalty program, do you even realize what you are losing out on? To increase gift card usage, you can offer gift cards instead of adding loyalty points. The gift card recipients get to buy from you again, and you are in a position to delight them with a wonderful experience. This increases loyalty among your customers too. 
 
-Here are a few ways in which you can reward your loyal customers
+<b>Here are a few ways in which you can reward your loyal customers</b>
 
 <ul>
 <li> Send gift cards to loyal customers on their special days</li>
@@ -110,23 +112,25 @@ Here are a few ways in which you can reward your loyal customers
 <li> Encourage customers to make purchases on gift cards by offering them incentives on it</li>
 </ul>
 
-### Create a Gift Card Co-Op
+<h3><li>Create a Gift Card Co-Op</li></h3>
 
 Find out other businesses that have the same set of customers, but have complementary services or products to offer. Create packages of gift cards for complementary services. Sell each other’s gift cards at the store or on your website or landing page. This is one of the easiest ways to get access to a new set of customers without doing extra work and is a win-win for everyone involved. 
 
-### Promote It As the Perfect Holiday Gift
+<h3><li>Promote It As the Perfect Holiday Gift</li></h3>
 
 Remember that the gift-buying process adds undue stress to people since buying the perfect gift is replete with high expectations. If you don’t get it right, people will keep talking about it, and not in a nice way. Make it stress-free for your customers by buying gift cards for them and letting them choose the best present for themselves. Unless communicated explicitly, your customers might not think of gift cards as the perfect stress antidote during the holidays. 
 
-### The BOGO Offer
+<h3><li>The BOGO Offer</li></h3>
 
 Reward customers who buy gift cards with another one. Yes, the “buy one get one” stands testament to the fact that customers love a good deal. By offering your customers a complimentary gift card, you ensure that they come back to your store. The BOGO offer is also a great way to make customers buy gift cards. Even the reluctant ones will buy them, thinking “There’s nothing to lose.” Here’s a statistic- <a href="https://www.giftcardgranny.com/blog/gift-card-survey-holidays-2020/" target="_blank">55% of customers</a> have bought a gift card if there was a cashback or a BOGO offer. 
+</ul>
+</ol>
 
-## 6 Reasons to Choose 99minds’ Gift Card Software
+<h2>6 Reasons to Choose 99minds’ Gift Card Software</h2>
 
 99minds makes it incredibly easy for businesses to set up a gift card program. With the holiday season around, it would be unwise to work with a gift card partner who doesn’t have a lot of experience. Let’s look at what makes 99minds an excellent choice. 
-
 <ul>
+<ol>
 <li>Customers can create digital or physical gift cards with ease. The setup process doesn’t take more than a few minutes</li>
 
 <li> You can easily handle returns and refund requests</li>
@@ -139,7 +143,7 @@ Reward customers who buy gift cards with another one. Yes, the “buy one get on
 
 <li> 99minds can take your customer journey to the next level with its referral and loyalty program, coupon codes, etc</li>
 
-## Wrapping Up
+<h2>Wrapping Up</h2>
 
 Christmas marketing on Shopify should be something that has been clearly thought out, especially when you intend to leverage gift cards along with it. If you are looking to get a boost in sales this holiday season, you must not be lax about the promotional techniques you are going to use. We believe that some of the strategies mentioned above makes it easy to get things rolling for your Shopify store. 
 

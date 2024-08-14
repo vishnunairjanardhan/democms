@@ -16,7 +16,7 @@ keywords: ["99minds"]
 <a href="https://www.99minds.io/blog/generic/10-best-point-of-sale-pos-systems-for-2022/">
 <img src="/assets/blog/How-to-Market-your-Loyalty-Program.jpg"></a>
 
-# What is the best way to market your loyalty program?
+<h2>What is the best way to market your loyalty program?</h2>
 
 Before we begin, let’s take a glance at why a 
 <a href="https://www.99minds.io/loyalty" target="_blank">loyalty program is so crucial</a>. When the pandemic hit, 20% of consumers changed brands right away but 73% of loyalty members spent more money on their favorite brands.
@@ -24,9 +24,10 @@ Before we begin, let’s take a glance at why a
 In a survey, 90% of respondents said that they will prefer the same brand over a less expensive option if they’re a member of a loyalty program.
 When it comes to the company’s overall strategy, 66.4 % consider customer loyalty and loyalty marketing to be important.
 
-More than half of US adults now belong to at least one loyalty program So how do you market your <a href="https://www.99minds.io/blog/customer-loyalty/how-do-loyalty-programs-help-the-pet-industry/" target="_blank">loyalty program</a> and enjoy all of these payoffs? Let’s see…
-
-### <ul><li><b>EMAILS:</b></li></ul>
+More than half of US adults now belong to at least one loyalty program So how do you market your <a href="https://www.99minds.io/blog/how-do-loyalty-programs-help-the-pet-industry/" target="_blank">loyalty program</a> and enjoy all of these payoffs? Let’s see…
+<ul>
+<ol>
+<h3><li>EMAILS:</li></h3>
 
 <b>Email has power that many channels don’t: delivering meaningful, personalized touches — on a grand scale.</b>
 
@@ -52,12 +53,9 @@ Involve Loyalty Program Members in Case Studies by nurturing them through email 
 
 Email isn’t simply for keeping in touch with customers who have got a $20 discount on their first order. It can be used to strengthen bonds between you and your loyal members of your loyalty program.
 
-It will be helpful to approach their involvement in case studies if you have built a stronger relationship with them. When a customer says something good about us, it’s always more trustworthy than when we declare it ourselves. If customers agree to have their stories published you can leverage their thoughts on your website, in <a href="https://www.99minds.io/blog/ecommerce/5-wicked-halloween-marketing-ideas-to-boost-your-online-sales/" target="_blank">marketing</a>, and on <a href="https://www.99minds.io/blog/gift-card/how-to-use-gift-card-in-social-media-marketing/" target="_blank">social sites</a>.
+It will be helpful to approach their involvement in case studies if you have built a stronger relationship with them. When a customer says something good about us, it’s always more trustworthy than when we declare it ourselves. If customers agree to have their stories published you can leverage their thoughts on your website, in <a href="https://www.99minds.io/blog/5-wicked-halloween-marketing-ideas-to-boost-your-online-sales/" target="_blank">marketing</a>, and on <a href="https://www.99minds.io/blog/how-to-use-gift-card-in-social-media-marketing/" target="_blank">social sites</a>.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2022/01/CTA-IMAGES.jpg%22"></a>
-
-### <ul><li><b>SOCIAL MEDIA</b></li></ul>
+<h3><li>SOCIAL MEDIA</li></h3>
 
 <b>Throw some promotions in here because many among you use it in toilets as well.</b>
 
@@ -81,7 +79,7 @@ Respond to Customer Concerns Regarding Your Program If you get the same queries 
 
 You can also have live Q&A sessions on YouTube, utilize the question box on Instagram Stories and spotlight comments in TikTok videos.
 
-### <ul><li><b>REWARDS</b></li></ul>
+<h3><li>REWARDS</li></h3>
 
 <b>People work for money but they’ll go far beyond recognition and rewards.</b>
 
@@ -102,7 +100,7 @@ Sharing content about you on social media
 
 Recommending friends
 
-### <ul><li><b>USE POPUPS AND MODIFY WEBSITE</b></li></ul>
+<h3><li>USE POPUPS AND MODIFY WEBSITE</li></h3>
 
 <b>Get the most of your own valuable internet property.</b>
 
@@ -125,10 +123,9 @@ Personalized popup experiences are perfect, for example, based on…
 Display Loyalty Program on Your Main Menu
 Popups are useful for advertisements but don’t use them repeatedly. Your reward program should be proudly displayed on your homepage, and customers should be capable of finding it on their own.
 
-<a href="https://calendly.com/99minds" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2022/03/CTA-IMAGES-BAD.jpg"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
-### <ul><li><b>REFERRALS</b></li></ul>
+<h3><li>REFERRALS</li></h3>
 
 <b>When your customers recommend you, you know you’re doing something good. And you know that the new leads they generate for you will come trusting, ready to buy.</b>
 
