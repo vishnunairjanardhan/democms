@@ -1,0 +1,54 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeroHubspot from "../../components/heros/HeroHubspot.astro";
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureHubspot1 from "../../components/features/FeatureHubspot1.astro";
+import FeatureHubspot2 from "../../components/features/FeatureHubspot2.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+import IntegrationHubspot from "../../components/integrations/IntegrationHubspot.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="99minds Integration with Hubspot"
+  description="Send dynamic & bulk loyalty and egift card email campaigns with Hubspot to boost customer loyalty and sales."
+  canonical="https://www.99minds.io/integrations/hubspot"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/hubspot",
+    title: "99minds Integration with Hubspot",
+    description: "Send dynamic & bulk loyalty and egift card email campaigns with Hubspot to boost customer loyalty and sales.",
+    images: [
+          {
+            url: "https://www.99minds.io/assets/99minds-hubspot-OGI.svg",
+            alt: "99minds & Hubspot",
+            type: "image/svg",
+          }
+        ],
+        site_name: "99minds",
+      }}
+      twitter={{
+        url: "https://www.99minds.io/integrations/hubspot",
+        images: [
+          {
+            url: "https://www.99minds.io/assets/99minds-hubspot-OGI.svg",
+            alt: "99minds & Hubspot",
+            type: "image/svg",
+          }
+      ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroHubspot />
+  <LogoCloudOne />
+  <FeatureHubspot1 />
+  <FeatureHubspot2 />
+  <IntegrationHubspot />
+  <CtaThreeU />
+</BaseLayout>

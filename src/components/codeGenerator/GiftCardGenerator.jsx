@@ -129,12 +129,12 @@ const CouponGenerator = () => {
     <div className="container mx-auto flex flex-col items-center justify-center min-h-screen">
       <div className='relative mx-auto space-y-20'>
         <div className='flex flex-col items-center justify-center'>
-        <h1 class="mt-16 text-3xl font-normal tracking-tight text-center text-white">
-        Create Your Custom Gift Cards
+        <h1 class="mt-16 tracking-tight text-center text-white">
+        Free Gift Card Code Generator
       </h1>
-       <p class="mt-6 text-base font-normal text-center text-vulcan-300">
-       Use free gift card generator to generate unique codes that can be used for coupons, gift cards.<br /> If you need an end-to-end promotion management tool, try 99minds.
-      </p>
+       <p class="mt-6 text-center text-vulcan-300">
+       Generate free unique codes for gift cards and kick start your successful marketing campaign.
+       </p>
         </div>
         <div className="p-[0.060rem] rounded-3xl shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 lg:px-36 sm:py-32 sm:px-4">
           <div className="mx-auto max-w-7xl">

@@ -226,9 +226,7 @@ The future of omnichannel retail will be all about convenience, physical experie
   <li>Since the number of options for consumers has increased, it will all be about offering convenience. How quickly will the product arrive? How easy is it to order products? How do the products appear on the website or at the physical store?</li>
   <li>Consumers will want blended experiences. Videos, screen shares, virtual reality viewing, and so on will be some of the expectations.</li>
   <li>They want product recommendations just for themselves.</li>
-  <li>The younger generation these days is particular about what the business they buy from represents. 
-  
-  They care about society and how the products they buy impact the environment, diversity, culture, and future generations. E-commerce companies might have to put some thought into this when creating products.</li>
+  <li>The younger generation these days is particular about what the business they buy from represents. They care about society and how the products they buy impact the environment, diversity, culture, and future generations. E-commerce companies might have to put some thought into this when creating products.</li>
   <li>Immersive 3D digital stores might be something that the future has in store for us.</li>
   <li>Transformative technologies such as smart sensors, artificial intelligence, cloud computing, green technology, sustainable energy, and nanotechnology will shape omnichannel e-commerce.</li>
 </ul>
