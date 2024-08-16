@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeroGivex from "../../components/heros/HeroGivex.astro";
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureGivex1 from "../../components/features/FeatureGivex1.astro";
+import FeatureGivex2 from "../../components/features/FeatureGivex2.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="99minds integration with Givex"
+  description="99minds integrates with Klaviyo to boost sales and customer loyalty through dynamic & bulk loyalty and gift card email and sms campaigns"
+  canonical="https://www.99minds.io/integrations/givex"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/givex",
+    title: "99minds integration with Givex",
+    description: "99minds integrates with Klaviyo to boost sales and customer loyalty through dynamic & bulk loyalty and gift card email and sms campaigns.",
+    images: [
+          {
+            url: "https://www.99minds.io/assets/99minds-givex-OGI.svg",
+            alt: "99minds & Givex",
+            type: "image/svg",
+          }
+        ],
+        site_name: "99minds",
+      }}
+      twitter={{
+        url: "https://www.99minds.io/integrations/givex",
+        images: [
+          {
+            url: "https://www.99minds.io/assets/99minds-givex-OGI.svg",
+            alt: "99minds & Givex",
+            type: "image/svg",
+          }
+      ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroGivex />
+  <LogoCloudOne />
+  <FeatureGivex1 />
+  <FeatureGivex2 />
+  <CtaThreeU />
+</BaseLayout>

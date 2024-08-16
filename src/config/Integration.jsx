@@ -223,6 +223,7 @@ export const Giftcard = [
   image: '/integrations/givex.svg',
   title: 'Givex',
   desc: 'A specialized gift card provider that integrates with 99minds. Givex offers advanced features for gift card issuance, management, and reporting directly within the 99minds platform, giving you granular control over your gift card program.',
+  url: "/integrations/givex",
   alt:"99minds-Givex Integration"
 },
 {
