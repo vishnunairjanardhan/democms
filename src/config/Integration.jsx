@@ -235,7 +235,6 @@ export const Giftcard = [
   title: 'Paytronix',
   desc: 'A specialized gift card and loyalty solution that integrates with 99minds, particularly designed for restaurants.  Paytronix allows you to leverage 99minds for issuing gift cards with features specifically tailored to the restaurant industry, such as point-of-sale integration and loyalty program rewards.',
   url: "/integrations/paytronix",
-  url: "/integrations/paytronix",
   alt:"99minds-Paytronix Integration"
 }
 

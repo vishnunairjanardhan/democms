@@ -211,7 +211,7 @@ declare module 'astro:content' {
   slug: "10-best-point-of-sale-pos-systems-for-2022";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md": {
 	id: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md";
@@ -223,13 +223,6 @@ declare module 'astro:content' {
 "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024.md": {
 	id: "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024.md";
   slug: "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"4.md": {
-	id: "4.md";
-  slug: "4";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -272,13 +265,6 @@ declare module 'astro:content' {
 "5-wicked-halloween-marketing-ideas-to-boost-your-online-sales.md": {
 	id: "5-wicked-halloween-marketing-ideas-to-boost-your-online-sales.md";
   slug: "5-wicked-halloween-marketing-ideas-to-boost-your-online-sales";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"5.md": {
-	id: "5.md";
-  slug: "5";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1080,20 +1066,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"shopify-store-credit-guide.md": {
-	id: "shopify-store-credit-guide.md";
-  slug: "shopify-store-credit-guide";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"shopify-store-credit-guide.md": {
-	id: "shopify-store-credit-guide.md";
-  slug: "shopify-store-credit-guide";
-  body: string;
-  collection: "posts";
-  data: any
 } & { render(): Render[".md"] };
 "small-business-ideas-for-valentines-day.md": {
 	id: "small-business-ideas-for-valentines-day.md";
