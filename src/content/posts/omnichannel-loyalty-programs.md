@@ -24,7 +24,7 @@ Omnichannel loyalty goes beyond simply linking different touchpoints; it involve
 <p>Table of Contents:</p>
 <ul>
     <li>  
-        <a role="link" href="#What-is-Omnichannel-Loyalty?" rel="noreferrer">What is Omnichannel Loyalty?</a>
+        <a role="link" href="#What-is-Omnichannel-Loyalty-Program?" rel="noreferrer">What is Omnichannel Loyalty Program?</a>
     </li> 
     <li>  
         <a role="link" href="#Traditional-vs.-Omnichannel-Loyalty-Program" rel="noreferrer">Traditional vs. Omnichannel Loyalty Program</a>
@@ -42,7 +42,7 @@ Omnichannel loyalty goes beyond simply linking different touchpoints; it involve
         <a role="link" href="#Steps-to-Implement-an-Omnichannel-Loyalty-Program" rel="noreferrer">Steps to Implement an Omnichannel Loyalty Program</a>    
     </li>                
     <li>   
-        <a role="link" href="#Examples-of-omnichannel-loyalty-programs" rel="noreferrer">Examples of omnichannel loyalty programs</a>    
+        <a role="link" href="#Examples-of-omnichannel-loyalty-programs" rel="noreferrer">Examples of Omnichannel Loyalty Programs</a>    
     </li> 
     <li>   
         <a role="link" href="#Why-are-Omnichannel-Loyalty-Programs-the-Future-of-Retail" rel="noreferrer">Why are Omnichannel Loyalty Programs the Future of Retail</a>    
@@ -56,7 +56,7 @@ Omnichannel loyalty goes beyond simply linking different touchpoints; it involve
 </ul>
 </div>
 
-<h2 id="What-is-Omnichannel-Loyalty?">What is Omnichannel Loyalty?</h2>
+<h2 id="What-is-Omnichannel-Loyalty-Program?">What is Omnichannel Loyalty Program?</h2>
 
 An omnichannel loyalty engages customers through various marketing channels of interaction, both online and offline, utilizing technology.  By offering a seamless shopping experience, omnichannel loyalty strategies can <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">build customer loyalty</a>. According to <a href="https://www.mckinsey.com/~/media/McKinsey/Industries/Retail/Our%20Insights/retail%20speaks%20seven%20imperatives%20for%20the%20industry/retail-speaks-full-report.pdf" role="link" target="_blanck">McKinsey</a>, consumers prefer to buy from retailers that provide comprehensive and satisfying experiences. Implementing predictive analytics in omnichannel loyalty programs can illustrate the potential results it can deliver.
 
@@ -303,7 +303,7 @@ After the launch, continuously monitor the performance of your loyalty program. 
 </li>
 </ol>
 
-<h2 id="Examples of omnichannel loyalty programs">Examples of omnichannel loyalty programs</h2>
+<h2 id="Examples-of-omnichannel-loyalty-programs">Examples of Omnichannel Loyalty Programs</H2>
 <ol>
 <li>
 <h3>Bed Bath and Beyond</h3>
@@ -328,7 +328,7 @@ The outdoor recreation products company is a great example when we talk about om
 <li>
 <h3>Aldo Shoes</h3>
 
-Their omnichannel loyalty program for Singapore is called <a href="https://www.aldoshoes.in/" role="list" target="_blanck">Aldo A-List</a>. Their fully customized loyalty program is available on web, mobile and in-store. It is a free program and you become a part of the program as soon as you buy something from them.
+Their omnichannel loyalty program for Singapore is called <a href="https://www.aldoshoes.in/" role="link" target="_blanck">Aldo A-List</a>. Their fully customized loyalty program is available on web, mobile and in-store. It is a free program and you become a part of the program as soon as you buy something from them.
 
 The program offers extra discounts on your birthday, there are welcome gifts, free store to door shipping, points for every $1 spent, and an exclusive member-only access to events and private sales. There are three tiers in the plan called A-list, A-list Black, and A-list Gold.
 </li>

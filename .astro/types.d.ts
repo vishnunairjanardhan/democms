@@ -682,13 +682,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"how-do-you-build-longer-lasting-brand-loyalty.md": {
-	id: "how-do-you-build-longer-lasting-brand-loyalty.md";
-  slug: "how-do-you-build-longer-lasting-brand-loyalty";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "how-halloween-inspires-e-commerce-marketing.md": {
 	id: "how-halloween-inspires-e-commerce-marketing.md";
   slug: "how-halloween-inspires-e-commerce-marketing";

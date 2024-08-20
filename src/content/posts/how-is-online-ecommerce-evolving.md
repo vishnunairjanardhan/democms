@@ -13,12 +13,12 @@ url: "https://www.99minds.io/blog/how-is-online-ecommerce-evolving"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/ecommerce/how-is-online-ecommerce-evolving/">
-<img src="/assets/blog/how-is-eCommerce-evolving.jpg"></a>
+
+<img src="/assets/blog/how-is-eCommerce-evolving.jpg" alt="How is ecommerce evolving.">
 
 The world is clearly changing in so many ways. The way we used to watch movies, listen to music or travel to different places have completely changed in the past few years. The same is with eCommerce, it has become an important part of our lives too. If brands want to succeed in the eCommerce industry, then it has to concentrate on giving a superior experience for the customer.
 
-<b>Let us look at how online eCommerce has evolved over the years.</b>
+<h2>Let us look at how online eCommerce has evolved over the years.</h2>
 
 eBay can be considered as the pioneer in making people use the internet to buy stuff, somewhere around 1995.
 
@@ -58,7 +58,7 @@ The leverage to automate so many functions of a business has made eCommerce an e
 
 Now that the eCommerce industry has matured significantly, most of the work lies on the particular online store. It is important that they refine their service, starting from the user experience on the website, making it easy to browse through their products, smooth buying process, seamless refunds, and so on. In this heavily competitive niche, eCommerce stores cannot afford to slack. Every conversation that a customer has with your brand has to end on a positive note for the former.
 
-# Conclusion
+<h2>Conclusion</h2> 
 
 eCommerce is here to stay. It is impossible to imagine a world where we won’t get to buy products that we want by sitting at home. The evolution of eCommerce has mainly been because of technology and many of these technologies like Augmented Reality or Artificial Intelligence have not even been fully realized yet. Imagine the kind of revolutionary changes we would be able to see once these technologies perform at their maximum capacity.
 

@@ -2,7 +2,7 @@
 pubDate: 2024-05-22
 author: Mrudul
 authorImg: "Mrudul.png"
-title: Customer Acquisition Strategy | 99minds
+title: Top 23 Best Customer Acquisition Strategies
 description: "A customer acquisition strategy is a plan or set of methods used to attract and acquire new customers for a company through various marketing and sales tactics."
 heading: Top 23 Effective Customer Acquisition Strategy You Might Be Missing On 
 image:
