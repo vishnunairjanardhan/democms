@@ -208,9 +208,10 @@ export const Payment = [
 export const Giftcard = [
 {
   image: '/integrations/fiserve.svg',
-  title: 'Fiserve',
+  title: 'Fiserv',
   desc: 'A comprehensive gift card solution that seamlessly integrates with 99minds. Fiserv handles all aspects of gift card issuance, from initial creation to fulfillment, allowing you to manage your program efficiently within the 99minds platform.',
-  alt:"99minds-Finserve Integration"
+  url: "/integrations/fiserv",
+  alt:"99minds-Fiserv Integration"
 },
 {
   image: '/integrations/shift4.svg',
