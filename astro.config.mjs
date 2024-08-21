@@ -18,7 +18,19 @@ export default defineConfig({
     drafts: true,
   },
   site: 'https://www.99minds.io',
-  integrations: [tailwind(), react(), sitemap(), mdx(), partytown({
+  integrations: [
+    tailwind(),
+    react(),
+    sitemap({
+      serialize(item) {
+        if (item.url.endsWith('/')) {
+          item.url = item.url.slice(0, -1);
+        }
+        return item;
+      },
+    }),
+    mdx(),
+    partytown({
     // Adds dataLayer.push as a forwarding-event.
     config: {
       forward: ["dataLayer.push"],
