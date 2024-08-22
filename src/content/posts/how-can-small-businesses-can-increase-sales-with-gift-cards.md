@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/gift-cards-for-small-businesses.webp"
   alt: "Increase sales with gift cards."
 tags: ["Gift Card"]
-url: "https://www.99minds.io/blog/gift-cards-for-small-businesses"
+url: "https://www.99minds.io/blog/how-can-small-businesses-can-increase-sales-with-gift-cards"
 keywords: ["Gift Cards for small businesses, small business gift cards, small business gift certificates, small business gift card program, small business gift card ideas"]
 
 ---

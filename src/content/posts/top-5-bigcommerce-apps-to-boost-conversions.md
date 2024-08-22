@@ -24,11 +24,9 @@ If you are looking to be at the top of your game, we understand that you need a 
 
 Here are 5 of the biggest BigCommerce apps that help to boost conversions:
 
-### 1. Constant Contact:
+<h2>Constant Contact:</h2>
 
 Email marketing is powerful and will stay that way because there is no other channel that <a href="https://www.barilliance.com/email-marketing-statistics/#tab-con-4">offers a $38 ROI on each dollar spent</a>. If you are running an eCommerce store, the first piece of advice that we would give you is to collect email IDs of potential customers who are on your site. With Constant Contact, you can use its built-in email templates using the drag-and-drop feature to collect emails.
-
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/09/image3-1.png">
 
 With emails, you can keep your customers in the loop for any kind of information that you would like to pass. Let it be promoting your latest products, offering them a chance to be a part of your loyalty program, or sending confirmation emails.
 
@@ -41,13 +39,11 @@ Here are some of the features that make Constant Contact one of the best apps to
     <li>Has powerful trigger automation based on the visitor’s actions</li>
 </ul>
 
-### 2. LiveChat:
+<h2>LiveChat:</h2>
 
 Visitors on your website are more likely to buy when their queries are solved immediately. Having a tool that allows customers to engage with your business on your website in real-time will boost conversion rates. Remember, your customers are looking to have a smooth experience without having to take a lot of effort; they would rather go somewhere where there will be immediate resolutions for their query.
 
 For your potential customers, if they think that they are being made to wait for a long time, they will go to your competitor. As an eCommerce website owner, you do not even want to lose a single customer. With a tool like LiveChat, you can instantly respond to your customers and guide them to choose a product that they like.
-
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/09/live-chat-1.png">
 
 Here are some of the key features of LiveChat:
 <ul>
@@ -59,13 +55,11 @@ Here are some of the key features of LiveChat:
     <li>Add instant credibility by being available for your potential customers.</li>
 </ul>    
 
-### 3. QuickBooks Online:
+ <h2>QuickBooks Online:</h2>
 
 Considered as one of the most efficient accounting software in the market, QuickBooks saves you hundreds of hours of time and effort. Trying to do accounting on your own can result in errors that might be difficult to revoke. Use QuickBooks Online with QuickBooks Payment; you can connect your business bank accounts and credit cards to sync up with the software.
 
 With QuickBooks, all you need to do is integrate the app with your BigCommerce store. It will do its job in the background without any interaction whatsoever by accurately recording sales income, discounts, shipping, tax, refunds, etc.
-
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/09/quickbooks-1.png">
 
 Here are some of the key features of QuickBooks:
 <ul>
@@ -76,11 +70,9 @@ Here are some of the key features of QuickBooks:
     <li>Automatic tracking and updating of delivery for each transaction</li>
 </ul>
 
-### 4. 99minds:
+<h2>99minds:</h2>
 
 A successful business is one that has loyal customers, and that’s where lies the moolah. Earning the loyalty of customers takes a lot of effort in the real-world. But in the online world, apart from having a good strategy, you also need a kick-ass tool that helps drive more customers while increasing retention rates. With 99minds.io, you can run campaigns that are customized to the interests of each user.
-
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/09/Screenshot_2.png">
 
 By adopting a customer loyalty program like 99minds, you will not only let the existing customer stay for a longer period; you will also be getting new customers. You can use a variety of loyalty boosting-features like coupon codes, discount codes, referrals, gift cards, gamification, etc. to capture the attention of potential customers.
 
@@ -94,11 +86,9 @@ Here are the benefits of using 99minds.io:
     <li>Increase conversions with dynamic bundling and automatic bundling</li>
 </ul>    
 
-### 5. Yotpo reviews:
+<h2>Yotpo reviews:</h2>
 
 There is nothing that has more currency than the recommendation of a good friend. On the Internet, when a potential customer of yours sees hundreds of positive comments about your product, his/her interest to buy from you is validated. This is exactly why customer reviews are so important in this time and age. Social proof is not a luxury anymore; it is your most powerful type of content during the ‘Decision’ stage of the customer journey.
-
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/09/image4-1.png">
 
 Have you noticed that any well-designed website has a testimonial section from its clients on the Home page itself? That’s how crucial reviews are to drive sales and increase conversions. Unless you are a well-known name in the industry, people are not sure about the authenticity of your company or the utility of your product. Reading reviews of people like themselves offers them hope and establishes trust.
 
@@ -111,7 +101,7 @@ Here are some of the benefits of Yotpo Reviews:
     <li>Reply to comments easily.</li>
 </ul>    
 
-### Conclusion
+<h2>Conclusion</h2>
 
 The five apps that we have spoken about in detail are some of the best applications that you can use to increase your conversion rate. There are many other BigCommerce apps that make your life easier by bringing in more sales. Jumpstart your business using the right tools based on the kind of audience you have, the product you sell, and other factors that make business sense to you.
 
