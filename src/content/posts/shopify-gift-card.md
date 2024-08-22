@@ -8,7 +8,7 @@ heading: Shopify Gift Card Guide
 image:
   url: "/assets/blog/how-to-set-up-a-gift-card-on-shopify.webp"
   alt: "How to set-up a gift card on shopify"
-tags: ["Shopify gift card,gift card"]
+tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/shopify-gift-card"
 keywords: ["shopify gift card, gift cards for shopify,shopify gift certificate, how to set up a gift card, shopify e gift cards, shopify digital gift cards"]
 

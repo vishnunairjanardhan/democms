@@ -24,12 +24,9 @@ After Christmas, Mother’s Day is the second biggest gift-giving occasion. Thes
 
 Every holiday brings a fresh action plan that could help you reach a larger audience. Here are some ways for boosting Mother’s Day sales:
 
-<b>Design Interesting Mother’s Day Content</b>
+<h2>Design Interesting Mother’s Day Content</h2> 
 
 Marketers understand that adding extra value to customers is essential for brand awareness. You can accomplish it by providing useful content around Mother’s Day, but it shouldn’t be interpreted as a sales strategy.
-
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/04/CTA-mothers-day.jpg%22"></a>
 
 Brands should be more expressive by sharing more pictures and videos on social media to raise the interaction rate. Share simple recipes for youths to surprise their mothers, make videos about how to make DIY gifts or write a poem, or design a unique Mother’s Day card, etc., and the rest is up to your creativity.
 
@@ -37,7 +34,7 @@ Create a gift guide for people who are unsure what to get for Mother’s Day thi
 
 Make products that are most relatable to mothers more visible on your website or app it’ll be an easy way to boost earnings.
 
-<b>Encourage User-Generated Content on Social Media</b>
+<h2>Encourage User-Generated Content on Social Media</h2>
 
 While everyone loves to share their pics with their moms, why don’t you take the benefit of the celebration and let your audience share their mom-centric memories via your Facebook or Instagram page?
 
@@ -47,7 +44,7 @@ This would help in increasing brand recognition and promoting your Mother’s Da
 
 For Example – If you sell clothing items, ask for photos of your customer’s moms wearing your brand’s stuff to use as product models. This type of content not only shows how your product may be used in real life for Mother’s Day, but it also encourages customers to be creative with their own style.
 
-<b>Mother’s Day Specials</b>
+<h2>Mother’s Day Specials</h2>
 
 Almost all websites and online retailers will provide unique discounts and deals; make your store stand out by including extra freebies in addition to the main product.
 
@@ -57,7 +54,7 @@ Free shipping can also influence a customer’s choice to make a purchase. Infor
 
 Make your offers more reasonable by using discount coupons. Include an extra incentive in whatever you do to help highlight essential things you want people to acquire.
 
-<b>Team up with mother’s day trendy businesses</b>
+<h2>Team up with mother’s day trendy businesses</h2>
 
 During Mother’s Day, the most popular things sold to people are jewelry, perfumes, flowers, gift cards, and so on. So, connect with brands that specialize in these areas of the business to increase your profitability.
 
@@ -65,12 +62,11 @@ Jewelry, special outings, and flowers generate $5.27 billion, $4.07 billion, and
 
 Partner with local or any type of businesses that generate a lot of business on Mother’s Day like Jewelry stores, flower shops, cafes, salons, etc. And send them free GiftCards to distribute to their customers, which will ideally generate traffic to your site. For both sides, this will result in a win-win situation.
 
-<a href="https://calendly.com/sarahbabraj" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2022/03/CTA-IMAGES-BAD.jpg"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
 For example, if a consumer brings in a receipt from a florist, you can give them a discount on your products or services. In exchange, the florist also gives discounts or $10, $20, or $50 gift cards to their customers for your business.
 
-<b>Mother’s Day GiftCard</b>
+<h2>Mother’s Day GiftCard</h2>
 
 After greeting cards and flowers, gift cards are the most sold items on mother’s day. This Mother’s Day, 45 % of American consumers want to buy Gift Cards for their mothers. It is possible that a total of $2.5 billion will be spent this year!
 
@@ -78,7 +74,7 @@ A heartfelt and personalized gift card theme or message that conveys what’s on
 
 So launching an online mother’s day gift card store can assist these people and buyers who are confused about what to gift their mothers and as well as provide great relief for last-minute buyers.
 
-<b>Good luck with your sales!</b>
+<h2>Good luck with your sales!</h2>
 
 Whether online or in-person, people want to pay tribute to their mothers, aunts, and other maternal personalities in some way.
 

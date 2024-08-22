@@ -22,20 +22,17 @@ Gift cards are a one-of-a-kind present for any occasion, not just the holidays. 
 
 Choosing the appropriate gifts for family and friends can be difficult from a customer’s viewpoint, especially with so many options accessible these days. For a last-minute gift, a Gift Card appears to be the best option. In a study of 2000 US consumers conducted by Gift Card Granny in 2020, approximately 87%of respondents said they had purchased a Digital Gift Card. This demonstrates how popular Gift Cards are with customers.
 
-<b>What is a Gift Card, exactly?</b>
+<h2>What is a Gift Card, exactly?</h2>
 
 A Gift Card is a prepaid card that is frequently used as a marketing tool by eCommerce businesses. Customers usually buy these to give as gifts to others, and the recipient can use the GiftCard to make a purchase at the eCommerce store.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/08/CTA-IMAGES-holiday-rush1.jpg%22"></a>
-
-<b>What are the advantages of Gift Cards in the eCommerce industry?</b>
+<h2>What are the advantages of Gift Cards in the eCommerce industry?</h2>
 
 When it comes to building or expanding an internet business, visibility is critical. Then there’s consumer retention. You’ve probably heard that acquiring a new customer takes four times as much effort as keeping an existing one. Gift cards can help you gain consumer loyalty as well as increased awareness. A gift card holder is almost sure to return to your store at least once. This is your only chance to make a good first impression. The person will return to check out your stuff till he or she has taken advantage of the perks. This way, you’re more likely to get more than one chance to make a lasting impression.
 
 Allowing your regular customers extra perks over these gift cards can help you acquire their trust and urge them to gift more, which will help you achieve more attention.
 
-<b>What is the role of Gift Cards in marketing?</b>
+<h2>What is the role of Gift Cards in marketing?</h2>
 
 You’re almost certainly squandering a lot of cash on marketing your online business. Why not take advantage of the potential of Gift Cards to attract clients and convert them to sales? Especially now that Gift Cards have proven to be a customer favorite.
 
@@ -45,30 +42,32 @@ Gift cards could be the ideal gift for your clients. However, people’s desire 
 
 Personalized Gift Cards offer a double benefit. On the one hand, they allow recipients to choose what they want as a gift, while on the other side, they don’t appear generic. This is where retailer-specific Gift Cards come into play. Gift Cards with a certain level of personalization increase the gifting feeling associated with them, resulting in more customers opting for one.
 
-<b>How may gift cards be used to increase sales in an eCommerce store?</b>
-
-<ul><li><b>Assists online businesses in generating more revenue.</b></li></ul>
+<h2>How may gift cards be used to increase sales in an eCommerce store?</h2>
+<ul>
+<ol>
+<h3><li>Assists online businesses in generating more revenue.</li></h3>
 Gift cards increase sales by doubling the amount of money spent. The first is when the gift card is purchased, and the second is when the recipient makes a transaction. People who have gift cards wind up buying more than the value of the card if your website makes a good first impression.
 
-<ul><li><b>Assists in increasing website traffic.</b></li></ul>
+<h3><li>Assists in increasing website traffic.</li></h3>
 When combined with the correct marketing approach, gift cards can bring far more visitors than any other source. With gift cards growing more popular, all you have to do is make a few extra steps to get the word out that you’re offering them. You’ll notice an increase in traffic within a short period of time. Your online marketplace will be visited by both the buyer and the recipient of the Gift Card.
 
 To get the word out about Gift Cards on your eCommerce business, use social media channels like Facebook, Twitter, and Instagram, as well as email marketing and targeted advertising. Above all, make sure your website and consumer experience strike the correct chords.
 
-<ul><li><b>They make new clients a priority.</b></li></ul>
+<h3><li>They make new clients a priority.</li></h3>
 Gift cards might help your company reach out to consumers who might not have visited your store otherwise. Customers who already know and love your company will buy Gift Cards for their friends, thereby expanding your customer base.
 
 When requested to donate to a local fundraising event, you can send Gift Cards as well. When you give a Gift Card instead of a product or service, you allow the receiver to use their prize and maybe spend more money. Giving gift cards to fundraisers increases brand awareness and establishes a reputation as a community-minded business owner.
 
-<a href="https://calendly.com/sarahbabraj" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/08/CTA-BOOK-A-DEMO.jpg"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
-<ul><li><b>They provide customization.</b></li></ul>
+<h3><li>They provide customization.</li></h3>
 Almost all eCommerce marketplaces are now providing Gift Cards to their clients. What can you do to avoid becoming simply another one? You need to go above and above for your customers.
 
 Personalization may be able to help you. Whether it’s for an upcoming Holiday Season or a Hot Sale Season, Gift cards should be used to give a unique experience. There are numerous choices available, ranging from allowing your clients to leave personal messages to allowing them to upload photos.
+</ul>
+</ol>
 
-<b>The Benefits Of Gift Cards In An Ecommerce Business</b>
+<h2>The Benefits Of Gift Cards In An Ecommerce Business</h2>
 Whatever the case may be, Gift Card continues to be popular and influential among users. As a result, this gifting trend causes frequent adjustments in eCommerce businesses. Companies can do the following with a possible gift card marketing strategy:
 
 <ul>
@@ -78,7 +77,7 @@ Whatever the case may be, Gift Card continues to be popular and influential amon
 <li>Increase customer retention. Gift cards can be used as part of a brand’s loyalty program to encourage customers to return and make multiple purchases.</li>
 </ul>
 
-<b>Taking Gift Cards to the Next Level!</b>
+<h2>Taking Gift Cards to the Next Level!</h2>
 
 99minds is always here to help you manage your Gift Card program and make it function effectively. 99minds is a Cost-Effective marketing platform that allows a marketing team to develop customized promotions and create an omnichannel consumer experience.
 
