@@ -2,18 +2,27 @@
 import "../styles/global.css";
 const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 ---
+
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-WWJJGX6');</script>
-<!--Concent-->
+<script>
+  (function(w,d,s,l,i){
+    w[l]=w[l]||[];
+    w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+    var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
+    j.async=true;
+    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+    f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WWJJGX6');
+</script>
+
+<!-- Consent Script -->
 <script
   type="text/javascript"
   src="https://app.termly.io/resource-blocker/d9663863-bfd6-4088-bd75-e9f13af491e1?autoBlock=on"
+  defer
 ></script>
 <!-- <a href="#" class="termly-display-preferences">Consent Preferences</a> -->
+
 <!-- Google Analytics -->
 { !!GA_ID &&
   <>
@@ -25,101 +34,64 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
     ></script>
     <script type="text/partytown">
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
+      function gtag() { dataLayer.push(arguments); }
       gtag("js", new Date());
       gtag("config", GA_ID);
     </script>
   </>
 }
+
+<!-- Meta Tags -->
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width" />
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta
-  name="your keywords"
-  content="wallpaper,black wallpaper, gradient wallpaper,aesthetic wallpaper,iphone wallpaper,wallpaper iphone,white wallpaper,pink wallpaper"
-/>
-<!-- Favicon guidelines generated with https://realfavicongenerator.net/ -->
-<link
-  rel="apple-touch-icon"
-  sizes="180x180"
-  href="/favicons/99minds-icon.svg"
-/>
-<link
-  rel="icon"
-  type="image/png"
-  sizes="32x32"
-  href="/favicons/99minds-icon.svg"
-/>
-<link
-  rel="icon"
-  type="image/png"
-  sizes="16x16"
-  href="/favicons/99minds-icon.svg"
-/>
-<link rel="manifest" href="/favicons/99minds-icon.svg" />
-<link rel="apple-touch-icon" href="/favicons/99minds-icon.svg">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="keywords" content="wallpaper, black wallpaper, gradient wallpaper, aesthetic wallpaper, iphone wallpaper, wallpaper iphone, white wallpaper, pink wallpaper" />
+
+<!-- Favicon and Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/99minds-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/99minds-icon.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/99minds-icon.png" />
+<link rel="manifest" href="/favicons/site.webmanifest" />
 <link rel="mask-icon" href="/favicons/99minds-icon.svg" color="#141521" />
 <meta name="msapplication-TileColor" content="#141521" />
 <meta name="theme-color" content="#141521" />
+
+<!-- Sitemap -->
 <link rel="sitemap" href="/sitemap-index.xml" />
-<!---
-All Fonts
---->
+
+<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link  href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-<!---
-Alpine.js
---->
-<!---- Alpine integrations -->
-<script defer src="https://unpkg.com/@alpinejs/ui@3.10.3-beta.3/dist/cdn.min.js"></script>
-<script defer src="https://unpkg.com/@alpinejs/ui@3.10.3-beta.3/dist/cdn.min.js"></script>
-<script defer src="https://unpkg.com/@alpinejs/focus@3.10.3/dist/cdn.min.js"></script>
-<script defer src="https://unpkg.com/@alpinejs/focus@3.10.3/dist/cdn.min.js"></script>
+<!-- Alpine.js -->
 <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
-<script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
-<link
-  href="https://assets.calendly.com/assets/external/widget.css"
-  rel="stylesheet"
-/>
-<script
-  src="https://assets.calendly.com/assets/external/widget.js"
-  type="text/javascript"
-  async
-></script>
+<script defer src="https://unpkg.com/@alpinejs/focus@3.10.3/dist/cdn.min.js"></script>
+<script defer src="https://unpkg.com/@alpinejs/ui@3.10.3-beta.3/dist/cdn.min.js"></script>
+
+<!-- Calendly Widget -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+<!-- Facebook Pixel Code -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '224706030671856');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=224706030671856&ev=PageView&noscript=1"
-/></noscript>
-<!-- Meta Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
+  !function(f,b,e,v,n,t,s) {
+    if(f.fbq) return;
+    n=f.fbq=function() { n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments) };
+    if(!f._fbq) f._fbq=n;
+    n.push=n;
+    n.loaded=!0;
+    n.version='2.0';
+    n.queue=[];
+    t=b.createElement(e);
+    t.async=!0;
+    t.src=v;
+    s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)
+  }(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '224706030671856');
   fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=224706030671856&ev=PageView&noscript=1"
-  /></noscript>
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=224706030671856&ev=PageView&noscript=1"/>
+</noscript>
