@@ -8,7 +8,7 @@ heading: Guide to Referral Program- Benefits and How to Build One in 2024
 image:
   url: "/assets/blog/Guide to Referral Program- Benefits and How to Build One in 2024.webp"
   alt: "How do i set an ecommerce referral program."
-tags: ["Gift Card"]
+tags: ["Referral Program"]
 url: "https://www.99minds.io/blog/what-is-referral-program"
 keywords: ["referral program","referral programs","what is a referral program","successful referral programs","how to build a referral program"]
 

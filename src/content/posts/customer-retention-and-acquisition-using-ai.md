@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/customer-retention-and-acquisition-using-ai"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Presentation-image1.jpg">
+<img src="/assets/blog/Presentation-image1.jpg" alt="Customer Retention And Acquisition Using AI.">
 
 
 ‘Efforts reap when planted at the right places’
@@ -38,17 +38,19 @@ If really, then it is better to take priority in your shoppers and not your prod
 
 So, in a nutshell, talk about the products and your site by knowing your customers.
 
-#### Some ground rules to use AI tech to your advantage:
+## Some ground rules to use AI tech to your advantage:
 
 Know your audience: I guess, the way Amazon is winning the big shots for online selling of products is because of PERSONALIZATION. Amazon hired a big team of AI experts and ruled out all other strategies to play around with AI tech. They created their team internally and started working out with the ML models. Machine Learning Algorithms reads and analyzes customer data to suggest similar products.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral-image-1.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral-image-1.jpg" alt="create your own referral program"></a>
 
 Machine Learning helps the companies to know their customers better to retain them.
 
 Therefore, knowing your customer base and working toward them is the best hack not just to acquire new customers but to retain the existing ones.
 
-Manage your services: By recent stats, it is clear that 85% of the customers will be reaching out for problems to bots than actual humans. Right! Because of the way we see it, AI is making to every nook and corner, and increased demand for everything makes it harder for humans to tackle. And where we are in a constant progression to automate everything, making humans do the cost and reply work is so not-worth-it. Therefore, AI tools like chatbots have come to rescue to manage customer-related issues and provide variable services.
+### Manage your services
+
+By recent stats, it is clear that 85% of the customers will be reaching out for problems to bots than actual humans. Right! Because of the way we see it, AI is making to every nook and corner, and increased demand for everything makes it harder for humans to tackle. And where we are in a constant progression to automate everything, making humans do the cost and reply work is so not-worth-it. Therefore, AI tools like chatbots have come to rescue to manage customer-related issues and provide variable services.
 
 But when we talk about automated replies, we don’t talk about ‘Sorry for the inconvenience caused, we will get back to you shortly!’ NOOOOO
 
@@ -59,11 +61,15 @@ Not only are you making your shoppers happy but also giving them a chance to ret
 
 Remember the old days, when our parents would take us to only the shop that they liked, saying, ‘They know all about you from size to choices.’ Well, indeed, a great way to gain trust
 
-Predict customer behavior: ‘Oh, we see. You like black shades, the Nike brand, and glittering dresses. Let us show you something in the same category.’ Imagine sites talking to us like that. Some of them have even reached an inch closer to it by displaying products that have been similar to a shoppers’ previous search journey or likings. In this way, people welcome themselves to your site with a broader smile and buy their intended products.
+### Predict customer behavior
+
+‘Oh, we see. You like black shades, the Nike brand, and glittering dresses. Let us show you something in the same category.’ Imagine sites talking to us like that. Some of them have even reached an inch closer to it by displaying products that have been similar to a shoppers’ previous search journey or likings. In this way, people welcome themselves to your site with a broader smile and buy their intended products.
 
 With ML algorithms, you read the data, with the neural network system, you understand it, and with AI tech, you implement it at the fore-front.
 
-Stay at the top: Staying at the top of tech means to define the pattern of shoppers’ search queries. Large eCommerce businesses know that, at an average, they get around 15% new queries every day. IMAGINE! Staying at the top of such data is an impeccable effort. Without AI, imagine people tracking every question, managing a database for the same, and then updating the sheet with new queries. Whoof!
+### Stay at the top
+
+Staying at the top of tech means to define the pattern of shoppers’ search queries. Large eCommerce businesses know that, at an average, they get around 15% new queries every day. IMAGINE! Staying at the top of such data is an impeccable effort. Without AI, imagine people tracking every question, managing a database for the same, and then updating the sheet with new queries. Whoof!
 
 Divide the queries into parts:
 <ul>
@@ -73,11 +79,11 @@ Divide the queries into parts:
 
 When you talk about implicit signals, you deliver results according to the data that you infer. Analyze customer data and, by tracking them, pin down their geographical location to show results relevant only to their region
 
-Personalization
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg" alt="create your own gift card campaign"></a>
+
+### Personalization
 
 Because, we know, showing results for ‘Winter clothing’ when it is Summer in India, makes no sense. The customer usually frustrates out and leaves.
-
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg"></a>
 
 So, decoding queries and attracting customers based on them makes a massive difference to your sales ratios
 
