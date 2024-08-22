@@ -6,7 +6,7 @@ title: Top Customer Loyalty Trends to Watch in 2024 | 99minds
 description: "Discover the key customer loyalty trends shaping customer loyalty in 2024. Learn how to stay ahead with innovative strategies to enhance customer engagement and retention."
 heading: Top Customer Loyalty Trends to Watch in 2024 | 99minds 
 image:
-  url: "/assets/blog/Loyalty-Trends.jpg"
+  url: "/assets/blog/Top-Customer-Loyalty-Trends-to-Watch-in-2024.webp"
   alt: "Top Customer Loyalty Trends to Watch in 2024"
 tags: ["Customer Loyalty"]
 url: "https://www.99minds.io/blog/customer-loyalty-trends"
