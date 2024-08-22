@@ -325,6 +325,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"Are Omnichannel Loyalty Programs the Future of Retail.md": {
+	id: "Are Omnichannel Loyalty Programs the Future of Retail.md";
+  slug: "are-omnichannel-loyalty-programs-the-future-of-retail";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md": {
 	id: "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md";
   slug: "ways-to-incorporate-gift-cards-into-your-customer-retention-strategy";
