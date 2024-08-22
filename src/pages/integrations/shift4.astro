@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeroShift4 from "../../components/heros/HeroShift4.astro"
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureShift4 from "../../components/features/FeatureShift4.astro";
+import FeatureTenShift4 from "../../components/features/FeatureTenShift4.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="99minds integration with Shift4"
+  description="The complete rewards solution for restaurants with Shift4 . Boost sales with smart omnichannel loyalty, gift card and coupons."
+  canonical="https://www.99minds.io/integrations/shift4"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/shift4",
+    title: "99minds integration with Shift4",
+    description: "The complete rewards solution for restaurants with Shift4 . Boost sales with smart omnichannel loyalty, gift card and coupons.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-shifyt4-OGI.svg",
+        alt: "99minds and Shift4 integration",
+        type: "image/svg",
+      },
+      
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroShift4 />
+  <LogoCloudOne />
+  <FeatureShift4 />
+  <FeatureTenShift4 />
+  <Testimonialtry />
+  <CtaThreeU />
+</BaseLayout>

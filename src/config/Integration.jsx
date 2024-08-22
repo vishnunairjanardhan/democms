@@ -216,6 +216,7 @@ export const Giftcard = [
   image: '/integrations/shift4.svg',
   title: 'Shfit4',
   desc: 'A payment processor offering a streamlined integration with 99minds for gift card issuance.  Shift4 focuses on creating a unified experience, allowing you to manage gift cards alongside your existing payment processing through 99minds.',
+  url: "/integrations/shift4",
   alt:"99minds-Shift4 Integration"
 },
 {
