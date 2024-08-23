@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/how-to-make-this-your-most-successful-valentin
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/How-to-Make-This-your-most-successful-valentine-day-yet-1.jpg">
+<img src="/assets/blog/How-to-Make-This-your-most-successful-valentine-day-yet-1.jpg" alt="Valentine day with gift card">
 
 Spending on Valentine’s day is <a href="https://nrf.com/insights/holiday-and-seasonal-trends/valentines-day" target="_blanck">expected to be $21.8 billion in 2021</a>, according to the National Retail Foundation (NRF). NRF has been conducting its annual Valentine’s Day consumer spending study since 2004 to see how Americans celebrate the day.
 
@@ -32,7 +32,7 @@ According to this report, more than half of US adults were planning to celebrate
 
 Customers are planning to spend an average of $164.76 on their loved ones this Valentine’s day. You certainly don’t want your store to be left behind, do you?
 
-<b>Let us tell you how you can make Valentine’s day of 2021 your bet yet:</b>
+<h2>Let us tell you how you can make Valentine’s day of 2021 your bet yet:</h2>
 
 ### 1. Create daily deals:
 
@@ -80,8 +80,8 @@ Come up with different types of promotions which will attract your customers. Fr
 
 It is a time-sensitive ‘festival’, a customer getting the product before 14th or on the date might not mind, but if the product arrives after the 14th, it will make your customer look bad in the eyes of their partner/intended recipient. It will make them look bad. So, you need to not only offer fast shipping, but also make sure that it is free. No one likes to pay extra for shipping. It is a behaviour of customers that will not change anytime soon, so it is better to include the shipping costs into the product.
 
-### Conclusion:
+## Conclusion:
 
 There are many marketing ideas that you can use to get the most sales for Valentine’s day. Some of the ideas that we have mentioned above are practical, costs you almost nothing and brings you the desired results. Even if your store is out of the purview of the usual sales that happen on Valentine’s day, you can still make it work for you by using the right kind of messaging and offer. Turn Valentine’s day into a money spinner for you by using the above marketing strategies and you can also come up with your own to set the ball rolling.
 
-If you are looking to use gift cards as a way to get more sales for your ecommerce store, 99minds will be more than happy to help you with setting up one.
+If you are looking to use gift cards as a way to get more sales for your ecommerce store, <a href="https://www.99minds.io/" target="_blank">99minds</a> will be more than happy to help you with setting up one.
