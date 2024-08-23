@@ -230,6 +230,7 @@ export const Giftcard = [
   image: '/integrations/clutch.svg',
   title: 'Clutch',
   desc: 'While not directly an issuer, Clutch integrates with 99minds to provide high-quality physical gift card fulfillment. They can handle printing, packaging, and mailing your gift cards, ensuring a professional presentation for your customers.',
+  url: "/integrations/clutch",
   alt:"99minds-Clutch Integration"
 },
 {
