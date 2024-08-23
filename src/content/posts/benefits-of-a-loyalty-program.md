@@ -8,7 +8,7 @@ heading: 10 Benefits of a Loyalty Program for Your Business
 image:
   url: "/assets/blog/10-Benefits-of-a-Loyalty-Program-for-Your-Business.webp"
   alt: "10 benefits of loyalty program."
-tags: ["Customer Loyalty, Loyalty Program"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/benefits-of-a-loyalty-program"
 keywords: ["benefits of a loyalty program, loyalty program benefits, loyalty program benefits for customers, customer loyalty program benefits, benefits of a loyalty program, benefits of loyalty schemes, benefits of customer loyalty programs, reward program benefits, benefits of rewards programs, benefits of reward programs, benefits of loyalty card, benefits of loyalty cards for customers, benefits of loyalty cards to customers, loyalty programs benefits"]
 
