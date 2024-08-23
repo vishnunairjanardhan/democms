@@ -28,11 +28,11 @@ Christmas is without a doubt the most wonderful time of the year. Given the nume
 
 Goals are what propel us forward; they keep us learning, growing, and improving. Your brand will not see higher sales throughout the holiday season if you don’t set clear goals. Your ecommerce marketing strategies will be ineffective.
 
-Set S.M.A.R.T. objectives.
+<h2>Set S.M.A.R.T. objectives.</h2>
 
 The term S.M.A.R.T. stands for specific, measurable, achievable, relevant, and timely. An illustration of how the notion works is as follows:
 
-Your objective is to increase sales.
+<h2>Your objective is to increase sales.</h2>
 
 Your S.M.A.R.T aim is to enhance overall gross profits from October to December 2021 over the same period in 2020.
 
@@ -42,11 +42,9 @@ There are a variety of options.
 
 Increasing your conversion rate could be one strategy to accomplish so. Another option is to become more active on social media. It could be collaborating with an influencer. Whatever method you choose to achieve your objectives, be sure it is compatible with your S.M.A.R.T objectives.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/08/CTA-IMAGES-holiday-rush1.jpg%22"></a>
-
 <ul>
-<li><b>Begin on Halloween.</b></li>
-</ul>
+<ol>
+<h2><li>Begin on Halloween.</li></h2>
 
 The holiday shopping floodgates appear to open just after Halloween.
 
@@ -56,17 +54,13 @@ Encourage consumers who bought from you during Halloween to come back to you for
 
 If you use Halloween imagery a week after the holiday has passed, you’ll be able to stand out from your competitors who have moved on to Christmas-themed promotions!
 
-<ul>
-<li><b>Make a profit by selling Christmas gift cards.</b></li>
-</ul>
+<h2><li>Make a profit by selling Christmas gift cards.</li></h2>
 
 Gift cards might be a good option for people who aren’t sure what to get as a gift. Make sure <a href="https://www.99minds.io/giftcard">you offer gift cards</a> for sale at your store to assist these customers.
 
 Gift cards are the simplest way to increase sales. When you provide gift cards at your e-store, you encourage customers to spend more, which leads to greater sales and revenue. Through their gift card programmes, third-party services <a href="https://www.99minds.io/giftcard">such as 99minds</a> ensure that your clients are satisfied.
 
-<ul>
-<li><b>Hold a contest with a Christmas theme.</b></li> 
-</ul>
+<h2><li>Hold a contest with a Christmas theme.</li></h2>
 
 Hosting a Christmas-themed contest is a great Christmas marketing idea that will never go to waste. Your brand awareness will spread like wildfire if properly implemented.
 
@@ -74,9 +68,7 @@ You may hold a contest and invite your customers to submit images of themselves 
 
 Customers will be enticed to join enthusiastically as a result of this. You should try to submit such entries on your social media platforms with care and consideration for the season’s tone. Not only will this increase Christmas sales, but it will also create free publicity.
 
-<ul>
-<li><b>Make Christmas-themed packaging.</b></li>
-</ul>
+<h2><li>Make Christmas-themed packaging.</li></h2>
 
 <a href="https://www.toblerone.co.uk/en">Toblerone</a> increased sales in 2016 simply by substituting the brand name on its box with the words “Ho Ho Ho.” Given Toblerone’s life-changing experience, small firms should embrace this Christmas marketing plan.
 
@@ -84,9 +76,7 @@ Any goods may be transformed into a present by using Christmas-themed packaging.
 
 Everyone enjoys taking advantage of free services. All of your items will have a festive feel thanks to the Christmas packaging. It will also increase the likelihood of revenue and sales growth.
 
-<ul>
-<li><b>Form a partnership with another small firm.</b></li>
-</ul>
+<h2><li>Form a partnership with another small firm.</li></h2>
 
 What is your level of familiarity with your user? Do you know of any other issues that all of your clients face?
 
@@ -94,17 +84,13 @@ If you sell high-end tea, for example, it’s evident that your consumers will a
 
 This festive business idea can help your company reach a new audience in the New Year!
 
-<ul>
-<li><b>Set a deadline for last-minute purchases.</b></li>
-</ul>
+<h2><li>Set a deadline for last-minute purchases.</li></h2>
 
 With so many postage deadlines this time of year, efficiency is key in the run-up to Christmas. If they haven’t purchased from you by December 20th, your slower buyers will feel the pinch. If you’re based in Los Angeles, your package will reach a customer in San Francisco in no time. However, if you have a consumer in Bucharest, Romania, and you’re shipping to them from Los Angeles, it will take longer.
 
 It’s critical to make the cutoff dates for delivery in specific locations clear for this purpose.
 
-<ul>
-<li><b>Email marketing.</b></li>
-</ul>
+<h2><li>Email marketing.</li></h2>
 
 Any e-commerce firm, as well as brick and mortar retail stores, must use email marketing.
 
@@ -112,9 +98,7 @@ Consider employing email marketing to push your email list to already existing p
 
 Remember to change any images used in your holiday email marketing to indicate you’re fully immersed in the holiday spirit!
 
-<ul>
-<li><b>Stocking stuffers and impulse purchases should be thoughtfully placed.</b></li>
-</ul>
+<h2><li>Stocking stuffers and impulse purchases should be thoughtfully placed.</li></h2>
 
 During the holiday season, the majority of your sales will almost certainly be from people purchasing gifts for others. And there’s a good possibility that person has more than one person to shop for. When you consider that the majority of consumers conduct their Christmas shopping online because it’s “convenient,” your “stocking filler” items become even more crucial!
 
@@ -124,11 +108,7 @@ Consider putting some of your less expensive items in sections of your website w
 
 After someone has added a product to their cart, for example, add a ‘people also bought’ or ‘you may also like’ element to the page’s bottom. If you’re selling shoes, consider including a basic pair of socks or a shoe cleaner in the package to boost average cart spend.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/08/CTA-BOOK-A-DEMO.jpg"></a>
-
-<ul>
-<li><b>Your Christmas marketing friends are Black Friday and Cyber Monday.</b></li>
-</ul>
+<h2><li>Your Christmas marketing friends are Black Friday and Cyber Monday.</li></h2>
 
 The importance of these two days in the worlds of retail and e-commerce is self-evident. These are two days, among many others, that you might use to your advantage.
 
@@ -146,7 +126,9 @@ Do the following to entice Black Friday and Cyber Monday shoppers back for Chris
 </ul>
 
 You may boost your sales by participating in Black Friday and Cyber Monday. You can also use these opportunities to build an email list in the run-up to the holiday season.
+</ul>
+</ol>
 
-### Final Thoughts
+<h2>Final Thoughts</h2>
 
 This is the season to experience and spread the Christmas enchantment in everyone’s life. Be cheerful and endeavour to brighten others’ lives through your employment. However, you must keep in mind that you are a marketer, and you must focus on techniques that will put you ahead of your competition. As a result, we’ve shared some Christmas eCommerce ideas that will aid eCommerce businesses in increasing sales. These pointers will also assist you in strategizing your New Year’s sales strategy.

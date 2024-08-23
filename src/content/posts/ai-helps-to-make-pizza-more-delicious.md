@@ -56,7 +56,7 @@ The sales grow exponentially further because people enjoy the cold weather with 
 
 Owing to such significant sales changes, pizza outlet owners have kept a stern eye on the weather forecasts, and we all know who is behind all this?
 
-### EXTREME AI PLANNING!
+<h2>EXTREME AI PLANNING!</h2>
 
 AI plays such an incredible role in this whole scenario, from determining weather forecasts to leveraging its stats for pizza sales. AI makes it easier to read down the data and predict the next big sale season, which in turn acts as a gold mine for the pizza outlet owners!
 
@@ -66,7 +66,9 @@ According to research, pizza outlet owners make sure they are up a little earlie
 
 Some other ways in which Pizzeria Owners can leverage AI techniques for their business are:
 
-#### <li>Customize your toppings:</li> 
+<ul>
+<ol>
+<h2><li>Customize your toppings:</li></h2> 
  It is indeed a dream for all the pizza lovers to customize their toppings without going back and forth with the shop owner. But how will a shop owner do that?
 
 A Seattle based food-tech company Picnic has set up a significant example in the same area. Picnic uses an automated assembly line with a conveyor belt and a metal base. They prepare the necessary mold of the Pizza and place it onto the metal base. The following lines squirt small circular rolls of sauce on the Pizza while the other tube lavishes the support with grated cheese.
@@ -79,29 +81,32 @@ Not only the toppings are customized by the pizza lovers, but the amount of time
 
 You unburden yourself from evenly trained workers to create high-quality pizzas consistently. AI makes all the difference for you!
 
-#### <li>Create your loyal customer base:</li>
- For major pizza outlets, they can increase their sales if they know how to cater to their existing customers. You can always have more and more new customers, but analyzing your current customers and preparing their specific pizzas on their taste buds, retains them.
+<h2><li>Create your loyal customer base:</li></h2>
+For major pizza outlets, they can increase their sales if they know how to cater to their existing customers. You can always have more and more new customers, but analyzing your current customers and preparing their specific pizzas on their taste buds, retains them.
 
 Using Deep Learning Algorithms, study the customer data and segregate the kind of customers who order a particular pizza the maximum number of times, some who order only gluten-free pizzas, some who have the same topping choices, and so on. Grant them specific offers on their favorite pizzas to garner more sales. Such personalization methods bring them to you often.
-<ul>
-<li><b>Optimizing Pizza quality with Quality Control Cameras:</b> Making your customers ooze with ‘WOW’ with every bite that they take is the ultimate goal of any pizza chain. Therefore, Dominos promised to install AI-based quality control cameras to ensure that every bit of that Pizza is relished by the customer and, thus, retains their long relationship.</li>
-<li><b>Save time on deliveries:</b> Now, when AI can help you with reducing the pizza preparation time, how about reducing the time of its delivery too?</li>
-</ul>
+
+<h2><li>Optimizing Pizza quality with Quality Control Cameras:</li></h2>
+Making your customers ooze with ‘WOW’ with every bite that they take is the ultimate goal of any pizza chain. Therefore, Dominos promised to install AI-based quality control cameras to ensure that every bit of that Pizza is relished by the customer and, thus, retains their long relationship.
+
+<h2><li>Save time on deliveries:</li></h2>
+Now, when AI can help you with reducing the pizza preparation time, how about reducing the time of its delivery too?
 
 With AI techniques, gather more user information and track the order location. The AI system can suggest some optimal routes that the delivery person can take to cut down on their delivery time. A win-win for all the pizza lovers and pizza makers!
-<ul>
-    <li><b>Schedule your demands: </b>As stated above as well, certain events garner more user flow. Be it incredibly romantic weather or a critical game night, you see more traction from the people in their orders, and the number of such requests automatically increases. Use AI technology to predict weather conditions or game schedules to schedule your timeline.</li>
-</ul>    
+
+<h2><li>Schedule your demands:</li></h2>
+As stated above as well, certain events garner more user flow. Be it incredibly romantic weather or a critical game night, you see more traction from the people in their orders, and the number of such requests automatically increases. Use AI technology to predict weather conditions or game schedules to schedule your timeline.
 
 Gather data from past order value on special occasions and schedule the demand with an increased number of employees, more resources, and more raw materials.
 
 You clear roadblocks, if any, and also make an employee-friendly environment that is ultimately liked by everyone.
 
 So, with such technologies at work, not only did you retain your trustable employees but also shortened the time to your customer’s location.
-<ul>
-    <li><b>AI-based feedback:</b> You will never know when you performed better and when you were not up to the mark. It is the feedback that plays a crucial role in managing that all for you. So, create automated feedback services where you receive feedback from the customers via phone numbers or automated links for receiving their data. In such ways, you know the customer’s feelings, if the quality was right, if the delivery was exceptional, or you need improvements.</li>
-</ul>    
 
+<h2><li>AI-based feedback:</li></h2> 
+You will never know when you performed better and when you were not up to the mark. It is the feedback that plays a crucial role in managing that all for you. So, create automated feedback services where you receive feedback from the customers via phone numbers or automated links for receiving their data. In such ways, you know the customer’s feelings, if the quality was right, if the delivery was exceptional, or you need improvements.
+</ul>
+</ol>
 Did you ever think your favorite thing in this world can also fall into the AI trap?
 
 And if not bad, it is defying all the myths that making Pizza is not a robotic task. While various pizza companies have tried this technology, they have only received positive responses from their customers in means of taste, timely delivery, and an equal amount of toppings spread on the surface!

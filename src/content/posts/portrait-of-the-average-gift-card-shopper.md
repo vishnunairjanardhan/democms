@@ -35,9 +35,6 @@ The study reports on the following attitudes, demographics, behavior, etc.:
 <li> The education levels of the gift card shopper</li>
 </ul>
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Giftcard1.jpg"></a>
-
 According to this report, the typical gift card shopper is a ‘married female without children at home.’
 
 The gift card spenders are divided in the following ways:
@@ -53,7 +50,7 @@ The process of choosing gifts for loved ones is a mentally tiring one. Tiring be
 
 The convenience that a gift card offers for people of all age groups is another reason for its popularity. If you don’t want to carry a physical gift card, you can house it in your mobile phones, and all you need to do is show your code to redeem your gift card.
 
-## Income levels
+<h2>Income levels</h2>
 
 There is an almost equitable distribution amongst shoppers of all income levels when it comes to using gift cards. Here are the numbers for you:
 <ul>
@@ -66,8 +63,7 @@ If you look at it, there is hardly any difference among the three. The average g
 
 The gift card shoppers are more likely to be from suburban areas (50%). 20% of them are from rural areas, and the remaining 30% are from urban areas. It is a matter of surprise that among gift card shoppers, only 3 in 10 people are from urban areas while many of us would have assumed a completely different number. 63% of the gift card shoppers are homeowners.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Giftcard1.jpg"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
 The education levels of the gift card shoppers also have a bearing on how gift cards are purchased. People with a higher level of education hold a 14% of the gift card market according to the report, while those with a middle level and lower level constitute 64% and 23%, respectively.
 

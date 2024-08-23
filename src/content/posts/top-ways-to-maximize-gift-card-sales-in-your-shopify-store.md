@@ -18,7 +18,7 @@ Selling gift cards is an excellent way to tap into your existing customer base a
 
 In this article, we look at how integrating gift cards with your Shopify store can put your sales machinery on overdrive. By following the strategies outlined below, you’ll be able to increase your gift card conversion rate and increase goodwill among your customers. 
 
-Why is Shopify Gift Card Integration a Must for Your Store?
+<h2>Why is Shopify Gift Card Integration a Must for Your Store?</h2>
 
 Before we delve into strategies for maximizing gift card sales with Shopify integrations, let’s look at why you must have gift cards in the first place. 
 
@@ -31,7 +31,7 @@ Want customers to keep coming back to you? Gift cards as store credits is your a
 With the right promotional strategy, gift cards can act as your marketing ally
 You can make gift cards even more special than it already is, by personalizing them for the recipients
 
-What Shopify Gift Card Best Practices Must you Use for Increasing Sales With Gift Cards?
+<h2>What Shopify Gift Card Best Practices Must you Use for Increasing Sales With Gift Cards?</h2>
 
 Integrating gift cards into your Shopify store is an incredibly easy process. The holy grail is about using the right strategies to improve your sales. 
 
@@ -46,11 +46,11 @@ Creating designs for different holiday seasons is another way to capture a piece
 You can arouse the curiosity of your target audience by allowing them to personalize the gift card design
 Design gift cards so good that its recipients want to keep them as souvenirs
 
-Create Special Landing Pages for Gift Card Promotions on Shopify:
+<h2>Create Special Landing Pages for Gift Card Promotions on Shopify:</h2>
 
 A marketing maven would know that landing pages increase conversions. It applies to gift cards as well. With separate landing pages for each occasion, you can be on top of the gift card performance metrics. The number of people who visited the landing page, the channels that gave you the most hits, and the offers that elicited the most responses, are metrics that can be used to improve your landing pages. The right offer and the right copy and design can make a world of difference to your gift card promotions on Shopify store. 
 
-SEO SEO SEO All the Way:
+<h2>SEO SEO SEO All the Way:</h2>
 
 Shopify online stores have built-in features that help with optimizing your content. Unless you have the funds to invest regularly in Facebook or Google ads, investing in SEO is a no-brainer. Make sure that the gift card landing pages are perfectly optimized for search engines and offer a great experience for customers. 
 
@@ -72,13 +72,13 @@ If you are looking to upsell or cross-sell, incentivize the move with a free gif
 
 The best part is that you are boosting revenue with gift cards by giving them away for free at a small value added to it. Such gift card sales tactics aren’t predatory in nature and help the customers too. 
 
-Use Gift Cards in Email Marketing: 
+<h2>Use Gift Cards in Email Marketing:</h2>
 
 Sending information about gift cards in your email newsletters is the closest you can get to a customer in the real world. Emails are personal, focused, and specific. It has the ability to forge a connection that no other marketing channel can dream of. That’s precisely why an ROI of 4400% for email marketing doesn’t sound incredulous. Gift card ROI on Shopify can be easily increased with an effective email marketing strategy. 
 
 You can “nurture” your newsletter subscribers by sending a series of follow-up emails to get them closer to buying your gift cards. The best part is that it is achievable without being loud and pushy. If you are looking for gift card growth on Shopify, email marketing should be a strategy that you must focus on. 
 
-Wrapping up:
+<h2>Wrapping up:</h2>
 
 Using gift cards for your Shopify store is one of the best marketing tools to have in your arsenal. Even hardened marketers will admit that even though gift cards aren’t considered a marketing channel, it does make a huge dent in your sales and marketing efforts.  Shopify gift card benefits are a dime-a-dozen. Utilizing the right gift card sales strategy, you can make your Shopify store a resounding success. 
 
