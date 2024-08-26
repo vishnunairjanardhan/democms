@@ -22,11 +22,10 @@ The average customer acquisition cost in eCommerce is somewhere around $45. The 
 
 The average eCommerce brand should invest in retaining customers as much as acquiring them. According to a decade-long survey of loyalty programs, it was found that memberships grew from <a href="https://www.statista.com/statistics/724013/number-loyalty-program-memberships-usa/">3.3 million to 3.8 billion from 2014 to 2016 alone</a>. Those are staggering numbers. In case you didn’t notice properly, the numbers change from millions to billions.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Giftcard1.jpg"></a>
-
 <h2>Here are a few strategies on how you can incentivize your Bigcommerce customers to return:</h2> 
 <ul>
-<li>Provide excellent incentives:</li> 
+<ol>
+<h3><li>Provide excellent incentives:</li></h3>
 
 Do you want your customers to keep coming back? Incentivize them. Oh, wait. An incentive would only work when you have all the other business aspects in place. Sending an order ten days later than promised or not having a support team to reach out to are things that will have them running for the door.
 
@@ -34,7 +33,7 @@ Ensure that the rewards program is created so that your customers experience the
 
 Make your customers understand the reward components and how they can attain them. The higher the purchase, the bigger the reward. A good thing about having rewards based on different purchasing tiers is that your customers will experience the rewards even for a smaller purchase.
 
-<li>Keep them coming to your site:</li> 
+<h3><li>Keep them coming to your site:</li></h3>
 
 Do you want more customers? Then give them reasons to keep coming back to your eCommerce store. Find different ways you can pique your customers’ curiosity.
 
@@ -49,7 +48,7 @@ Here are a few ways you can use to make customers visit your site often:
 
 The above strategies are great for making your customers keep coming back to your site. Even though they might not visit with the intention of buying, it is a perfect opportunity for you to enthrall them. Each time they visit, they will check out more of your products and might eventually end up buying one.
 
-<li>Make your store “a hangout spout”:</li> 
+<h3><li>Make your store “a hangout spout”:</li></h3>
 
 How would you react if a store in your town kept giving you freebies and an opportunity to win prizes? That too, with zero pressure to buy. Would you and your friends frequent the place? Of course.
 
@@ -67,17 +66,17 @@ Here are some of the things you should do on your BigCommerce store:
 
 You do all this, and your BigCommerce store becomes a cornucopia of pleasure and happiness!
 
-<li> Appeal to your customers’ values: </li>
+<h3><li> Appeal to your customers’ values:</li></h3>
 
 Starbucks’ coffee supply chain is 99% ethically sourced. Lego, the toymaker, has committed to removing single-use plastic packaging from its materials by 2025. When someone buys a pair of Bombas socks, they donate one pair to someone in need. There are innumerable examples like this. Even though these moves have ethical concerns, they provide companies with deep financial and non-financial rewards.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
 With Gen Z and Millennials becoming the economy’s driving force, purchasing perspective has shifted consumer focus to social and ethical responsibility. A Nielsen poll said that 85% of Millennials and 80% of Gen Z said that they rank the environment as a major factor in deciding which companies they engage with.
 
 If your BigCommerce store can show social and ethical responsibility, it can be a crowd-puller. Share what you intend to do and the impact it will create in your society. You don’t have to move mountains; even a small bit of effort will go a long way in getting your customers’ patronage. When they keep hearing about your commitment to causes, they will likely return again and again.
 
-<li>Consistent communication:</li> 
+<h3><li>Consistent communication:</li></h3> 
 
 Regular communication is the foundation of every relationship, including the one between a business and its customers. Also, there is a huge difference between being pesky and communicating properly. Bombarding your customers will push notifications, calls, SMSes, and emails are not a good example of it.
 
@@ -85,14 +84,16 @@ Get in touch with your customers and ask them if you could be of assistance, esp
 
 Ask your customers what they think about your latest product line. Make sure that the request for feedback is genuine. Close the feedback loop by responding to them. If you make any changes based on their responses, effectively communicate that as well. It will earn you brownie points.
 
-<li>Use rewards software:</li>
+<h3><li>Use rewards software:</li></h3>
 
 <a href="https://www.99minds.io/loyalty">Loyalty programs</a> are an effective tool in the hands of an experienced marketer. Instead of attracting new customers alone, a loyalty or rewards program is great at bringing your existing customers back to your BigCommerce store. It not only reduces your marketing costs, but it can also offer a huge fillip to eCommerce stores during slow seasons.
 
 Rewards software helps you track your customers’ order history and spending behaviors. It can be used effectively to push the right content in front of them.
 </ul>
+</ul>
+</ol>
 
-### Wrapping up:
+<h3>Wrapping up:</h3>
 
 Getting your customers to return is an intense and time-worthy exercise. The above strategies will surely help you get returning customers, but do not limit yourself to these alone. There are so many more strategies that can be used. You need to find the ones that will perfectly align with your goals and the resources at your disposal. The best way to amp up your retention strategy’s effectiveness is by using referral program software.
 

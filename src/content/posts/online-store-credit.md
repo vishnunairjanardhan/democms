@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/What-is-a-store-credit.webp"
   alt: "What Is a Store Credit_ Meaning, Benefits, & Guide"
 tags: ["Store Credit"]
-url: "https://www.99minds.io/online-store-credit"
+url: "https://www.99minds.io/blog/online-store-credit"
 keywords: ["online store credit","what is store credit"]
 
 ---

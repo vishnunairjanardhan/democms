@@ -13,20 +13,21 @@ url: "https://www.99minds.io/blog/future-of-ecommerce-in-2023"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Future-of-ecommerce-in-2023-1.jpg">
+<img src="/assets/blog/Future-of-ecommerce-in-2023-1.jpg" alt="E-commerce Future in 2023">
 
 eCommerce stores are rampant in every niche, and the competition is fierce. Without standing apart from your competitors, it will be difficult to keep growing exponentially. Consumer behavior keeps changing, especially in the world of eCommerce. There are too many factors that change the purchasing behavior and motivations of your customers. You must be aware of the changes happening, both in terms of technology and people’s buying habits.
 
 In this article, we will discuss the changes that you will see in eCommerce in 2023.
-<ul>
+
+## Future of eCommerce in 2023
 <ol>
 <li><b>Reliance on automation:</li></b>
 
-Automation makes everyone’s lives easier. For <a href="https://www.99minds.io/blog/generic/10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses/">eCommerce businesses</a>, automation extends beyond <a href="https://www.99minds.io/blog/generic/essential-marketing-tools-for-2021/">marketing</a> automation. It includes eCommerce tasks and processes like order fulfillment, inventory management, customer communication, etc. It frees up your employees’ time. eCommerce automation use cases are endless.
+Automation makes everyone’s lives easier. For eCommerce businesses, automation extends beyond <a href="https://www.99minds.io/blog/essential-marketing-tools-for-2021">marketing</a> automation. It includes eCommerce tasks and processes like order fulfillment, inventory management, customer communication, etc. It frees up your employees’ time. eCommerce automation use cases are endless.
 
 <li><b>Live Shopping:</li></b>
 
-In a live shopping scenario, retailers showcase their products via a popular <a href="https://www.99minds.io/blog/gift-card/using-your-social-media-accounts-to-sell-more-gift-cards/">social media channel</a>. The onus is on the retailer to make it as interesting as possible. Customers can ask questions, receive responses from retailers, and buy products in real time. Increased <a href="https://www.99minds.io/blog/customer-loyalty/how-do-you-build-longer-lasting-brand-loyalty/">brand awareness</a>, novelty factors, greater engagement, and more sales make live shopping attractive.
+In a live shopping scenario, retailers showcase their products via a popular <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards">social media channel</a>. The onus is on the retailer to make it as interesting as possible. Customers can ask questions, receive responses from retailers, and buy products in real time. Increased brand awareness, novelty factors, greater engagement, and more sales make live shopping attractive.
 
 <li><b>More sustainable eCommerce brands:</li></b>
 
@@ -38,7 +39,7 @@ Can you wrap your head around having an end-to-end shopping experience just by u
 
 Since most eCommerce websites understand your quality and brand preferences (if you are an existing customer), your shopping experience will become even easier.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-Big-99minds.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-Big-99minds.jpg" alt="connect your store"></a>
 
 <li><b>Interactive Content:</li></b>
 
@@ -50,7 +51,7 @@ The only complaint about online shopping is that it doesn’t let you touch, fee
 
 <li><b>Subscription Commerce:</li></b>
 
-Having customers who pay you monthly is a segment that every eCommerce company would love to crack. Being constantly on the lookout for new customers is difficult. Subscription models have become popular with customers, especially in the beauty and wellness niche. When you have the right product, making customers buy subscriptions from your store isn’t all too difficult. <a href="https://www.99minds.io/blog/generic/10-top-ecommerce-trends-in-2023-for-b2b-and-b2c-businesses/">eCommerce businesses</a> need to make the process of payment, product discovery, and delivery easy.
+Having customers who pay you monthly is a segment that every eCommerce company would love to crack. Being constantly on the lookout for new customers is difficult. Subscription models have become popular with customers, especially in the beauty and wellness niche. When you have the right product, making customers buy subscriptions from your store isn’t all too difficult. eCommerce businesses need to make the process of payment, product discovery, and delivery easy.
 
 <li><b>Metaverse:</li></b>
 
@@ -70,7 +71,7 @@ The project began in 2017 and is popular across several countries now. <a href="
 
 BOPIS became a thing during Covid-19 lockdowns and has caught the fancy of customers who used it. It allows customers to buy online and schedule the pickup at a physical location nearby. It makes fulfillment convenient for customers.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg" alt="create your own gift card campaign"></a>
 
 <li><b>Data collection and analysis:</li></b>
 
@@ -95,10 +96,9 @@ The major growth of eCommerce can be attributed to how easy it is to discover pr
 
 One-click ordering makes all the difference here. It enables mCommerce apps to store customer data without them having to input the details manually every time. Most eCommerce giants offer one-click ordering. It is expected to be more popular among small businesses too, since it provides a much better shopping experience.
 </ol>
-</ul>
 
-<b>Wrapping up:</b>
+## Wrapping up
 
-The future of eCommerce looks bright. With Covid-19 not a threat anymore, sales have increased, and people have started living their everyday lives. <a href="https://www.99minds.io/blog/ecommerce/must-have-features-for-your-ecommerce-website/">eCommerce stores</a> must keep themselves updated on the latest trends in their industry. Embrace technologies that would help their operations and service delivery. If there are social changes that will help their brand, it would be wise to see if your target audience will like something new.
+The future of eCommerce looks bright. With Covid-19 not a threat anymore, sales have increased, and people have started living their everyday lives. <a href="https://www.99minds.io/blog/must-have-features-for-your-ecommerce-website">eCommerce stores</a> must keep themselves updated on the latest trends in their industry. Embrace technologies that would help their operations and service delivery. If there are social changes that will help their brand, it would be wise to see if your target audience will like something new.
 
 If you want to incorporate gift cards or loyalty programs for your customers, get in touch with the 99minds team. We will happily show you how our plug-and-play software can supercharge your business.
