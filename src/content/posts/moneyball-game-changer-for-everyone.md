@@ -13,15 +13,15 @@ url: "https://www.99minds.io/blog/moneyball-game-changer-for-everyone"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Moneyball-Game-Changer-for-Everyone.jpg">
+<img src="/assets/blog/Moneyball-Game-Changer-for-Everyone.jpg" alt="Moneyball-game changer">
 
 Who would have in their wildest dreams thought about how calculating data can lead them to predict specific impossible scenarios of life?
 
 <b>No one. I bet.</b>
 
-<a href="https://onlinemba.montclair.edu/">Because what seemed to be a statistical analysis of data when Billy Beane and his assistant Paul DePodesta innovated sabermetrics</a>, achieved it in 2004, is our next revolution. Creating enough data to solve the toughest problems is in itself all about how we are using Data Science and <a href="https://www.99minds.io/blog/artificial-intelligence/ai-for-everyone/">implementing AI with our systems</a> and day to day situations.
+<a href="https://onlinemba.montclair.edu/">Because what seemed to be a statistical analysis of data when Billy Beane and his assistant Paul DePodesta innovated sabermetrics</a>, achieved it in 2004, is our next revolution. Creating enough data to solve the toughest problems is in itself all about how we are using Data Science and <a href="https://www.99minds.io/blog/ai-for-everyone">implementing AI with our systems</a> and day to day situations.
 
-### <strong>Let’s first understand what Moneyball is and why industries are after this strategy!</strong>
+## Let’s first understand what Moneyball is and why industries are after this strategy!
 
 Transforming traditional sectors and non-tech fields with data science techniques, started in the year 2004, almost 15 years back, by its application in a Baseball game. Billy Beane, a former professional Baseball player and General Manager of the Oakland Aesthetics Baseball team, changed the course of his team’s win even with a smaller budget and mediocre players. And he did this by applying some Data mining techniques to overturn the course of the game.
 
@@ -29,7 +29,7 @@ Billy, a High school graduate, not a data scientist, and his assistant Paul DePo
 
 Billy overcame the power of dependence on the team’s wisdom performance and their scouts. He re-evaluated his strategy, and instead of focusing on speed and contacts, he concentrated on on-base (frequency of batter reaching the base) and slugging percentage (batting productivity of a hitter). Such metrics and a budget of $44M contributed to creating a team of undervalued players in the MLB.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGES-easter.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGES-easter.jpg" alt="connect your store"></a>
 
 The data was often measured using Sabermetrics, which is an analytical metric that measures Baseball’s in-game activity. Owing to the same, Billy made significant revelations in the gameplay and his players, which we regard in today’s world usage as ‘Moneyball.’
 
@@ -84,25 +84,24 @@ To properly implement a plan in place, you need to take your ‘Community,’ yo
 
 The leaders who take up to their data role, make sure that the team doesn’t fall apart and ultimately make themselves comfortable to become a team enough to buy the DATA and eventually plan their wins in their head.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-IMAGE1.jpg" alt="create your own gift card campaign"></a>
 
 When the implementation part comes into the picture, the DATA model effective at the beginning may seem like a failure later. There might be an umpteen number of problems that would creep in. It could be a lousy consolidation of data, it could be a change in factory line requiring a new metric, or it could be a simple office HR problem. To keep your team on track, make sure you capture the Key Performance Metric (KPIs) to measure the DATA, and also look forward to the relevance and performance understanding. And if the KPIs show a deviation from the normal, you need to make a curve change in your process by identifying the problem and solving it by taking up corrective measures.
 
-### <strong>Let’s look at some of the use cases where Moneyball is the one changing the fate of situations!</strong>
+## Let’s look at some of the use cases where Moneyball is the one changing the fate of situations!
 
-<ul>
-<li>ECOMMERCE CUSTOMER JOURNEY SHOWING LOYALTY & PROMOTION POPUPS:</li>
-</ul>
-
- Moneyball for Retailers and Ecommerce
+ECOMMERCE CUSTOMER JOURNEY SHOWING LOYALTY & PROMOTION POPUPS:
+<ol>
+<li>
+<h3>Moneyball for Retailers and Ecommerce</h3>
 
 eCommerce business is taken over by the giants in the market like <a href="https://www.amazon.com/">Amazon</a> and <a href="https://www.walmart.com/">Walmart</a>. The answers in statistical analysis perform well to increase the conversion rates overall of the eCommerce site. Make sure you improve your UI design, carry out statistical analysis of the products, perform A/B testing, and perform in a ‘Moneyball’ way. Keep the pages minimal and create enough data out of the user flow on eCommerce site interaction.
 
 Make sure one thing for anything and everything in the business; the answer lies somewhere around the DATA. Data is the bible to all our problems and implementations. Especially, retail stores and eCommerce sites have to deal with data and segregate it enough according to their relevance. Users might have visited your website owing to the promotions, but they might also be brand loyal. Data needs to be tweaked and worked upon in various ways to decide on that finally. Transform actionable insight to drive <a href="https://www.99minds.io/">strategic promotions & customer experience.</a>
+</li>
 
-<ul>
-<li>Moneyball at Baseball:</li>
-</ul>
+<li>
+<h3>Moneyball at Baseball:</h3>
 
 Now, when you take in the data, even as Oper in the team, things don’t go as predicted. The data fell short of the individual personality ratios. So, when the team didn’t work as the DATA predicted, the leaders looked into the metrics and found out the loophole to be a guy who isn’t well-tempered and hampers the entire team’s performance. With the help of Sabermetrics, the data changed the entire meaning of Baseball games forever.
 
@@ -113,10 +112,10 @@ Sabermetrics is the search for objective knowledge about Baseball. You may also 
 You are playing around with data only to ensure a win that is otherwise unpredictable, unbiased, and extremely offensive.
 
 In this case, they make a winning streak and perform their best based on data, and nothing stopped them.
+</li>
 
-<ul>
-<li>Moneyball at Elections:</li>
-</ul>
+<li>
+<h3>Moneyball at Elections:</h3>
 
 If we talk about similar terminologies as a baseball game, we can also predict election results.
 
@@ -125,3 +124,5 @@ When Barack Obama stood for his term, data was gathered from all sources, calcul
 And sincerely, such statistics should have been applied sooner than later to create political campaigns.
 
 Everything is about understanding the data in a way everyone can, and we can make a difference.
+</li>
+</ol>

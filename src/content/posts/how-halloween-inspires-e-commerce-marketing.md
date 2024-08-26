@@ -8,13 +8,13 @@ heading: How Halloween Inspires E-Commerce Marketing
 image:
   url: "/assets/blog/How-Halloween-Inspires-E-Commerce-Marketing1-800x450.jpg"
   alt: "How halloween inspires e-commerce marketing."
-tags: ["Gift Card"]
+tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/how-halloween-inspires-e-commerce-marketing"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/ecommerce/how-halloween-inspires-e-commerce-marketing/">
-<img src="/assets/blog/How-Halloween-Inspires-E-Commerce-Marketing1.jpg"></a>
+
+<img src="/assets/blog/How-Halloween-Inspires-E-Commerce-Marketing1.jpg" alt="How halloween inspires e-commerce marketing">
 
 It’s not too late to cash in on Halloween’s unprecedented popularity and boost
 eCommerce sales.
@@ -45,10 +45,9 @@ October. So, what should a store do? It’s frighteningly easy to interact with
 customers, provide a personalized experience, and increase sales when you have a
 versatile eCommerce platform in place.
 
-<a href="https://www.99minds.io/giftcard" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/10/CTA-IMAGE-Halloween.jpg%22"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Coupon-code.jpg" alt="create your customer coupon with 99minds"></a>
 
-<b>Halloween’s Influence on E-Commerce Marketing.</b>
+<h2>Halloween’s Influence on E-Commerce Marketing</h2>
 
 From the gaming sector to social media and, of course, e-commerce enterprises,
 everyone is looking forward to Halloween. The mood, unique discounts, and effective
@@ -62,8 +61,8 @@ commerce, as customers boost their activity and begin their Halloween shopping o
 the night of the holiday. Given that it is October, now is the best time to begin
 planning for the Halloween buying season.
 
-<b>Nextopia has a fascinating infographic highlighting how Halloween affects
-eCommerce retailers. Some of the infographic’s highlights include:</b>
+Nextopia has a fascinating infographic highlighting how Halloween affects
+eCommerce retailers. Some of the infographic’s highlights include:
 
 <ul>
 <li>In 2020, 158 million Americans celebrated Halloween.</li>
@@ -78,10 +77,11 @@ followed by 43.6 % at the start of October, and 23.6 % by the end of October.</l
 <li>Before Halloween, 49% of internet retailers initiated a holiday campaign.</li>
 </ul>
 
-<b>99minds has compiled a list of Halloween marketing ideas that can scare your
-competitors’ sales.</b>
+99minds has compiled a list of Halloween marketing ideas that can scare your
+competitors’ sales.
 
-<ul><li><b>The release of a limited-edition Halloween collection.</b></li></ul>
+<ol>
+<li><h3>The release of a limited-edition Halloween collection.</h3></li>
 
 Halloween allows you to introduce a product line only once a year, one that can also
 be used in the busier Christmas season that follows. It may be too late for you to
@@ -90,7 +90,7 @@ the concept in the future to receive your own limited edition Halloween products
 doesn’t have to be a brand-new product for your firm, but it should be something you
 can tailor to the season.
 
-<ul><li><b>Heat the iron to the right spot.</b></li></ul>
+<li><h3>Heat the iron to the right spot.</h3></li>
 
 According to Google Trends, individuals search for the word “Halloween” for a week
 before the holiday, although it can begin as early as August. This means you have till
@@ -99,7 +99,7 @@ offers. You might have a better idea of what you’re doing two weeks before
 Halloween. Early in October, you can start sending Halloween blog entries,
 promoting on social media, and sending emails.
 
-<ul><li><b>Promotions tailored to a certain location.</b></li></ul>
+<li><h3>Promotions tailored to a certain location.</h3></li>
 
 Notification alerts linked to mobile apps are a great method to remind customers of
 promotional deals, discounts, and celebrations at any time. Although not all
@@ -110,18 +110,21 @@ That being said, you can always rely on third-party services like 99minds for th
 You may generate <a href="https://www.99minds.io/coupons" target="_blank">coupons</a>, <a href="https://www.99minds.io/giftcard" target="_blank">gift cards</a>, discounts, <a href="https://www.99minds.io/referral" target="_blank">referrals</a>, <a href="https://www.99minds.io/loyalty" target="_blank">loyalty programmes</a>, and
 location-based promotions for your customers using the 99minds platform.
 
-<div class="flex flex-wrap items-center gap-2 mt-10">
+<!-- 
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+
+<div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
               <!-- Trigger -->
               <span x-on:click="open = true" class="w-full">
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full " src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/08/CTA-BOOK-A-DEMO.jpg"></span>
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA button"></span>
                 </span></div>
               </span>
               <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
                 <!-- Overlay -->
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
@@ -139,11 +142,8 @@ location-based promotions for your customers using the 99minds platform.
               </div>
             </div>
           </div>
-<!-- 
-<a href="https://calendly.com/sarahbabraj" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/08/CTA-BOOK-A-DEMO.jpg"></a> -->
 
-<ul><li><b>Design your own unique gift cards.</b></li></ul>
+<li><h3>Design your own unique gift cards.</h3></li>
 
 Just because the holidays are over doesn’t mean the bargains have to be as well.
 We’re all having a good time here, so why not give your most loyal customers a
@@ -154,7 +154,7 @@ thank your consumers for picking your store for Halloween shopping. If kids use
 these candies in a nice-looking reusable bag during the next year’s holiday, it will
 serve as a remembrance of your business.
 
-<ul><li><b>Create a mobile version of your Halloween website.</b></li></ul>
+<li><h3>Create a mobile version of your Halloween website.</h3></li>
 
 Are you prepared to generate a sale to your store with more than 54% of online
 shopping? Shoppers’ choices for mobile devices continue to expand, according to
@@ -168,8 +168,8 @@ trapped in this spider’s web. This will make your customer’s purchasing expe
 more pleasant. With just one touch, your consumer may finish the transaction as if
 by magic.
 
-<ul><li><b>Leverage from the fact that your consumers are looking for Halloween ideas
-online.</b></li></ul>
+<li><h3>Leverage from the fact that your consumers are looking for Halloween ideas
+online.</h3></li>
 
 According to the National Retail Federation, 35% of buyers hunt for Halloween ideas
 on the internet (compared to 28% who looked for inspiration in stores). This means
@@ -177,8 +177,9 @@ that shoppers are now using search engines not only to find a specific product, 
 also to browse for ideas and inspiration before deciding what to buy. In other words,
 your clients use search engines when they know they want something (for example,
 a Halloween costume) but aren’t sure what it is or where to search for it.
+</ol>
 
-<b>Final Words</b>
+<h2>Final Words</h2>
 
 As millennials become some of the greatest Halloween spenders, their increased
 use of online businesses and E-commerce platforms is driving up online spending

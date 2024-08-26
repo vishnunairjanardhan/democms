@@ -26,9 +26,6 @@ With deteriorating supply chain concerns, consumer experts have been warning abo
 
 “Consumers have embraced an earlier start to the holiday shopping season, as expected, but many were also prepared to embrace a long-standing custom of buying gifts for family and friends online and in stores throughout Thanksgiving weekend. Retailers have been preparing for the season by ensuring their stores are secure, their employees are well-trained, their inventory is well-stocked, and their online experience is smooth. Many things have changed since the outbreak, but retailers’ dedication to meeting customers where, when, and how they want to buy at the rates they want to pay has remained constant “Matthew Shay, President, and CEO of the National Retail Federation, stated this.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/08/CTA-IMAGES-holiday-rush1.jpg%22"></a>
-
 While the total number of shoppers from Thanksgiving to Cyber Monday fell slightly from 189.6 million in an extraordinarily strong 2019, it is much higher than the 165.8 million shoppers in 2018.
 
 <ul>
@@ -52,8 +49,7 @@ Throughout the year, consumers have emphasized the importance of holidays. In co
 
 Clothing (52%) was the most popular gift purchased over the weekend, followed by toys (32%), books/music/movies/video games (29%), gift cards/certificates (29%), and electronics (29%). (27 percent).
 
-<a href="https://calendly.com/sarahbabraj" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/08/CTA-BOOK-A-DEMO.jpg"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
 Department stores (40% of those polled), supermarket stores (39%), apparel stores (33 %), and electronics stores were among the most popular shopping destinations (31 percent).
 
@@ -65,7 +61,7 @@ The survey of 6,615 adult consumers took place between November 25 and 30, with 
 
 <a href="https://www.99minds.io/giftcard" target="_blank">Gift cards</a> were the second most popular type of gift, accounting for a staggering 29 percent market share. Gift cards are here to stay for the foreseeable future because they are extremely convenient for consumers. To ensure optimal client contentment, <a href="https://www.99minds.io/giftcard" target="_blank">a variety of gift card programmes</a> are in place. You can absolutely ace the game of client contentment with 99minds gift cards.
 
-<b>About 99minds:</b> <a href="https://www.99minds.io/" target="_blank">99minds</a> is a holistic engagement, acquisition, and retention solution. Customers can use the 99minds platform to generate coupons, gift cards, discounts, referrals, loyalty programmes, and location-based promotions. The best thing about 99minds is that it’s a simple, plug-and-play marketing platform that allows a marketing team to design targeted promotions campaigns and create an omnichannel consumer experience.
+<h2>About 99minds:</h2> <a href="https://www.99minds.io/" target="_blank">99minds</a> is a holistic engagement, acquisition, and retention solution. Customers can use the 99minds platform to generate coupons, gift cards, discounts, referrals, loyalty programmes, and location-based promotions. The best thing about 99minds is that it’s a simple, plug-and-play marketing platform that allows a marketing team to design targeted promotions campaigns and create an omnichannel consumer experience.
 
 
 

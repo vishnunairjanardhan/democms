@@ -24,23 +24,17 @@ If we talk about merchants, they deal with companies as well as directly with co
 
 Physical gift cards cannot be provided in a short period of time and will cost more money and time. It would require a significant investment – the investment of time and money, and with it the risk of the cards being defective.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2022/01/CTA-IMAGES.jpg%22"></a>
+So the solution is – to go for a digital option, which means <a href="https://www.99minds.io/blog/gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine" target="_blank">e-gift cards</a>. This can be a pretty convenient choice and the best part is that it saves you a lot of time. Also, they cannot be lost or stolen, and they’re less expensive to buy than physical cards.
 
-So the solution is – to go for a digital option, which means <a href="https://wordpress-aogt.onrender.com/gift-card/gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine/" target="_blank">e-Gift Cards</a>. This can be a pretty convenient choice and the best part is that it saves you a lot of time. Also, they cannot be lost or stolen, and they’re less expensive to buy than physical cards.
+Merchants can use a customizable, <a href="https://www.99minds.io/blog//why-are-gift-cards-important-for-ecommerce-marketplaces/" target="_blank">eCommerce platform to sell gift cards</a> to both consumers and businesses, both of which can be designed with a range of customizable features.
 
-Merchants can use a customizable, <a href="https://wordpress-aogt.onrender.com/ecommerce/why-are-gift-cards-important-for-ecommerce-marketplaces/" target="_blank">eCommerce platform to sell gift cards</a> to both consumers and businesses, both of which can be designed with a range of customizable features.
-
-There are platforms that offer <a href="https://wordpress-aogt.onrender.com/gift-card/self-use-gift-cards-impact-on-consumer-behaviour/" target="_blank">e-gift cards for your customers</a> with a lot more benefits. This software allows merchant’s customers to buy gift cards instantly for personal use, for business purposes, or even to send them to a loved one as a quick gifting option.
+There are platforms that offer <a href="https://www.99minds.io/blog/self-use-gift-cards-impact-on-consumer-behaviour" target="_blank">e-gift cards for your customers</a> with a lot more benefits. This software allows merchant’s customers to buy gift cards instantly for personal use, for business purposes, or even to send them to a loved one as a quick gifting option.
 
 Merchants can personalize gift cards, as they deal with multiple companies as well as customers. They would need some customization as per their diverse clients. They can add pictures, even videos, or any custom design they’d like. This can be sufficient to convey that the giver invested thought and consideration into the gift.
 
 Merchants can give gift cards to customers to try out their products or services. Which can attract customers to make them visit your store or website. It’s the best way to introduce your business to your new customers.
 
-<a href="https://wordpress-aogt.onrender.com/gift-card/how-to-sell-more-with-gift-cards/" target="_blank">E-gift cards also have the potential of getting delivered in seconds</a>. You may distribute as many gift cards as you want in just a few clicks. It has one of the fastest delivery speeds on record since shipping is quick.
-
-<a href="https://calendly.com/sarahbabraj" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2022/03/CTA-IMAGES-BAD.jpg"></a>
+<a href="https://www.99minds.io/blog/how-to-sell-more-with-gift-cards/" target="_blank">E-gift cards also have the potential of getting delivered in seconds</a>. You may distribute as many gift cards as you want in just a few clicks. It has one of the fastest delivery speeds on record since shipping is quick.
 
 It will enhance customer recognition with gift cards that are fully customized with your business’s own logo and design.
 

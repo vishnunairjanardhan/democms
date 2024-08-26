@@ -19,8 +19,6 @@ We are excited to announce that our 99minds GiftCard Platform is now live on Big
 
 BigCommerce is fantastic for your ecommerce business, no matter its size. The standard of customer support and transparency that BigCommerce offers is unparalleled. No matter which side of the fence you are- merchant or customer, it is a win-win for everybody.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Giftcard1.jpg"></a>
-
 Add the sophistication of BigCommerce with 99minds’ loyalty program, we have a winner. Market and sell gift cards to your customers with ease while BigCommerce takes care of everything that is commerce.
 
 With BigCommerce as an ecommerce partner, we have added more firepower to our arsenal.
