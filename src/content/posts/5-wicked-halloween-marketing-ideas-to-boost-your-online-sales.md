@@ -26,7 +26,7 @@ offers.
 Do you have no idea where to begin? Let’s take a closer look at how to profit from
 Halloween, taking into account the most recent e-commerce trends and statistics.
 
-<b>Spending patterns for Halloween – </b>
+<h2>Spending patterns for Halloween – </h2>
 
 Let’s take a look at spending habits during this
 spooky time of year before we get into our top Halloween marketing ideas. While our
@@ -38,12 +38,11 @@ demographics driving this increasing expenditure are millennials (77%) and paren
 under-five children (85%). These are impressive figures, and they are excellent news for
 marketers.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/10/CTA-IMAGE-Halloween.jpg%22"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
  
 Let’s take a look at the ideas now!
-
-1. <b>Give your website a spooky makeover.</b>
+<ol role= "list">
+<h3><li>Give your website a spooky makeover.</h3></li>
 
 Make your online store a Halloween hotspot this month. This will assist in drawing your
 clients’ attention to the particular seasonal landing pages you want them to visit. The
@@ -58,7 +57,7 @@ website to commemorate Halloween and pique people’s interest. Make your logo i
 small witch’s cap. Alternatively, have some ghosts float about the screen from time to
 time.
 
-2. <b>Get some ghastly flyers to get the word out.</b>
+<h3><li>Get some ghastly flyers to get the word out.</h3></li>
 
 Make contact with the people in your area. Tell them you’re excited for Halloween and
 that they should be as well. People like a local business that hosts seasonal events
@@ -70,7 +69,7 @@ their family. You should knock on people’s doors and leave flyers in their mai
 Door-to-door flyer distribution is 78 % more effective than other flyer distribution
 methods. Distribute them in parks, as well as outside grocery stores and movie theatres.
 
-3. <b>At your store, sell Halloween gift cards.</b>
+<h3><li>At your store, sell Halloween gift cards.</h3></li>
 
 Stack Halloween gift cards at your checkout line and hand them out to customers as
 they come up. These gift cards will make excellent Halloween gifts and will raise
@@ -85,10 +84,9 @@ Fortunately, services like 99minds have plenty of concepts for a successful Hall
 strategy. 99minds runs campaigns that give customised and targeted gift cards based
 on the interests of each customer.
 
-<a href="https://calendly.com/sarahbabraj" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/08/CTA-BOOK-A-DEMO.jpg"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
-4. <b>Some wicked emails can do wonders too.</b>
+<h3><li>Some wicked emails can do wonders too.</h3></li>
 
 When it comes to customer acquisition, email marketing is 40 times more effective than
 Facebook and Instagram, according to one study. This is because you’re speaking
@@ -104,7 +102,7 @@ exclusive deals and discounts on your website to grow your email list. Furthermo
 keep a sign-up sheet with you when distributing your flyers and invite individuals to enter
 their email addresses in exchange for additional enticing offers.
 
-5. <b>Own your Halloween campaign like a BOSS!</b>
+<h3><li>Own your Halloween campaign like a BOSS!</h3></li>
 
 Many businesses opt to concentrate their marketing efforts around specific holidays,
 such as Christmas, New Year’s Eve, school vacations, and the end of the fiscal year.
@@ -118,7 +116,7 @@ Halloween might be your time to have some fun with your marketing and, if you pl
 your cards correctly. Attract new audiences and drive sales, whether you’re a new
 business or an established one seeking for new tricks.
 
-<b>Halloween Is For Everyone, Not Just Kids!</b>
+<h2>Halloween Is For Everyone, Not Just Kids!</h2>
 
 Yes, the days of just decorating our homes with lighted pumpkins, candles, and other
 items are long gone. Children of various ages come to collect candies and toffees from

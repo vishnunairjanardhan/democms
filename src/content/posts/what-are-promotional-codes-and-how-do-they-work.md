@@ -19,15 +19,15 @@ Every time we are about to buy something online, all of us invariably look for p
 
 This article looks at promotional codes, how they work, the types of promotional codes, and why they should be used.
 
-<b>What is a promotional code?</b>
+<h2>What is a promotional code?</h2>
 
-A series of numbers or letters that gets you a discount on a product you are purchasing is an example of a promotional code. <a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-crucial-for-growing-retail-businesses/">Retailers</a> love sending promotional codes to make their customers.
+A series of numbers or letters that gets you a discount on a product you are purchasing is an example of a promotional code. <a href="https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses/">Retailers</a> love sending promotional codes to make their customers.
 
 When an online retailer says that you can save 15% on your order by typing “15OFF” on the textual form near the “discount code” tab, it is a promotional code.
 
-<b>How do promotional codes work?</b>
+<h2>How do promotional codes work?</h2>
 
-If you are reading this, we can surely say with confidence that you would have received promo codes at least once in your shopping experience. It could have been sent via email, <a href="https://www.99minds.io/blog/gift-card/how-to-use-gift-cards-in-sms-marketing/">SMS or as a push notification</a>. When a customer has chosen the products they want, they are directed to the checkout page. Here, customers will see a tab that says “Promo code,” followed by a text box and “Apply.”
+If you are reading this, we can surely say with confidence that you would have received promo codes at least once in your shopping experience. It could have been sent via email, <a href="https://www.99minds.io/blog/how-to-use-gift-cards-in-sms-marketing/">SMS or as a push notification</a>. When a customer has chosen the products they want, they are directed to the checkout page. Here, customers will see a tab that says “Promo code,” followed by a text box and “Apply.”
 
 Once you apply the promo code, the offer you get will be reflected on the page. You can simply make the payment after this.
 
@@ -48,70 +48,76 @@ There are several types of promotional code offers that eCommerce businesses can
 <li>Non-financial discounts like exclusive access to events and products.</li>
 </ul>
 
-<b>Types of promotional codes:</b>
+<h2>Types of promotional codes:</h2>
 <ul>
-<li><b>Public code:</b></li>
+<ol>
+<h3><li>Public code:</li></h3>
 
 These are codes that are displayed on the website or any other touchpoint. They are great for attracting new customers or luring previous customers into buying from you again.
 
-<li><b>Secret code:</b></li>
+<h3><li>Secret code:</li></h3>
 
 It is restricted to a single customer. These secret codes are often given as compensation for sloppy service or a faulty product.
 
-<li><b>Private codes:</b></li>
+<h3><li>Private codes:</li></h3>
 
-These codes are sent to different sets of customers based on a specific attribute. It could be sent to a set of customers who haven’t purchased from you in the past 12 months but have added your products to the cart or could have been a part of your <a href="https://www.99minds.io/blog/customer-loyalty/what-constitutes-a-good-loyalty-program/">loyalty program</a> earlier, and are not a part of it anymore.
+These codes are sent to different sets of customers based on a specific attribute. It could be sent to a set of customers who haven’t purchased from you in the past 12 months but have added your products to the cart or could have been a part of your <a href="https://www.99minds.io/blog/what-constitutes-a-good-loyalty-program/">loyalty program</a> earlier, and are not a part of it anymore.
 </ul>
+</ol>
 
-<b>Why eCommerce stores should use promo codes?</b>
+<h2>Why eCommerce stores should use promo codes?</h2>
 
 Promo codes have become ubiquitous, but not all eCommerce stores have embraced them in the way they should have. If you still are one of them, here are a few reasons why you should use promo codes.
 <ul>
-<li><b>Increases sales:</b></li>
+<ol>
+<h3><li>Increases sales:</li></h3>
 
-Getting the attention of your prospective customer base is a hard task. Most <a href="https://www.99minds.io/blog/customer-engagement/how-to-build-customer-loyalty-for-your-e-commerce-store/">eCommerce stores</a> struggle to do that, but a simple promo code strategy can tilt things your way. Promo codes are also great additions during peak shopping periods, as they can be the difference between a customer choosing your store and that of your competitor.
+Getting the attention of your prospective customer base is a hard task. Most <a href="https://www.99minds.io/blog/how-to-build-customer-loyalty-for-your-e-commerce-store/">eCommerce stores</a> struggle to do that, but a simple promo code strategy can tilt things your way. Promo codes are also great additions during peak shopping periods, as they can be the difference between a customer choosing your store and that of your competitor.
 
-<li><b>Rewards loyal customers:</b></li>
+<h3><li>Rewards loyal customers:</li></h3>
 
 Imagine waking up to an email from your favorite eCommerce store with a special discount just for you since you have been a loyal customer for years. That’s how you make your customers feel special. Promotional codes are a powerful tool to personalize your customer engagement.
 
-<li><b>Helps with branding:</b></li>
+<h3><li>Helps with branding:</li></h3>
 
 Coupons help customers get discounts or offers on top of the deal that they are already getting. It makes their shopping experience even more special. Your customers will associate your brand with quality products at an affordable price. It will go a long way in getting word-of-mouth customers.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="https://wordpress-aogt.onrender.com/wp-content/uploads/2022/03/CTA-IMAGES-BAD.jpg"></a> 
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
-<li><b>Grow your list:</b></li>
+<h3><li>Grow your list:</li></h3>
 
 One of the easiest ways to encourage your customers to sign up for your marketing newsletter is to lure them with coupon codes. You can easily offer this by making a few promo codes that are only available to subscribers.
 
-<li><b>Move obsolete products with ease:</b></li>
+<h3><li>Move obsolete products with ease:</li></h3>
 
 There are times when certain products just don’t work anymore. You want to get rid of them from your inventory list without throwing them away for nary a penny. Promo codes to the rescue. You can safely move the product from your warehouse to the customer’s address by offering promo codes with deep discounts on such products.
 </ul>
+</ol>
 
-<b>How to use promotional codes for your eCommerce store?</b>
+<h2>How to use promotional codes for your eCommerce store?</h2>
 
-Doing a promo code campaign the right way is more important than having one for the sake of vanity. Here’s how you should approach to get the most out of <a href="https://www.99minds.io/blog/generic/easter-promotion-ideas-for-brands-in-2022/">promotional codes.</a>
+Doing a promo code campaign the right way is more important than having one for the sake of vanity. Here’s how you should approach to get the most out of <a href="https://www.99minds.io/blog/easter-promotion-ideas-for-brands-in-2022/">promotional codes.</a>
 <ul>
-<li><b>Provide multiple codes:</b></li>
+<ol>
+<h3><li>Provide multiple codes:</li></h3>
 
 You may either allow customers to enter multiple promotional codes or use only one. While the latter is popular, you can also allow multiple codes as long as the purchase is profitable for you. The last thing you want is a hit on your bottom line by offering promo codes.
 
-<li><b>Make it fun:</b></li>
+<h3><li>Make it fun:</li></h3>
 
-One way to make your <a href="https://www.99minds.io/blog/generic/how-do-coupons-work-for-businesses/">coupons</a> something to look forward to is by making the entire process fun. You can <a href="https://www.99minds.io/blog/gift-card/gift-cards-the-perfect-employee-reward-for-your-workforce/">gamify the experience</a> to make it appealing to your customers. Encourage your customers to purchase more from you by assigning <a href="https://www.99minds.io/blog/customer-loyalty/how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween/">reward</a> points for each purchase. Once the customer accumulates a certain number of points, you can allow them to use the points.
+One way to make your <a href="https://www.99minds.io/blog/how-do-coupons-work-for-businesses/">coupons</a> something to look forward to is by making the entire process fun. You can <a href="https://www.99minds.io/blog/gift-cards-the-perfect-employee-reward-for-your-workforce/">gamify the experience</a> to make it appealing to your customers. Encourage your customers to purchase more from you by assigning <a href="https://www.99minds.io/blog/how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween/">reward</a> points for each purchase. Once the customer accumulates a certain number of points, you can allow them to use the points.
 
-<li><b>First-time customer codes:</b></li>
+<h3><li>First-time customer codes:</li></h3>
 
 Most first-time visitors don’t convert into a customer. You can change this by offering attractive promotional offers for your first-time visitors. Do this by offering coupons for new signups.
 
-<li><b>Leverage past behavior:</b></li>
+<h3><li>Leverage past behavior:</li></h3>
 
-Do you want your customers to add more products to their cart? Or do you want them to increase their order size by pushing products that you want to sell? The answer is simple. You can check out their <a href="https://www.99minds.io/blog/customer-retention/how-to-turn-your-hard-earned-sales-into-repeat-customers/">previous purchases and use the saved products</a> on the cart to identify their preferences. When you know what they want, you can create promo codes with special offers for those products.
+Do you want your customers to add more products to their cart? Or do you want them to increase their order size by pushing products that you want to sell? The answer is simple. You can check out their <a href="https://www.99minds.io/blog/how-to-turn-your-hard-earned-sales-into-repeat-customers/">previous purchases and use the saved products</a> on the cart to identify their preferences. When you know what they want, you can create promo codes with special offers for those products.
 </ul>
+</ol>
 
-<b>Wrapping up:</b>
+<h2>Wrapping up:</h2>
 
 Promotional codes are incredibly efficient in increasing customer loyalty, fattening your bottom line, reducing marketing costs, and increasing the store’s ROI. You can use them during any shopping season and still see their appeal to customers from all demographics. Using an efficient promo code strategy can completely alter how your customers perceive your brand.
 
