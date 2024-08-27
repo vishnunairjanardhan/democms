@@ -208,20 +208,23 @@ export const Payment = [
 export const Giftcard = [
 {
   image: '/integrations/fiserve.svg',
-  title: 'Fiserve',
+  title: 'Fiserv',
   desc: 'A comprehensive gift card solution that seamlessly integrates with 99minds. Fiserv handles all aspects of gift card issuance, from initial creation to fulfillment, allowing you to manage your program efficiently within the 99minds platform.',
-  alt:"99minds-Finserve Integration"
+  url: "/integrations/fiserv",
+  alt:"99minds-Fiserv Integration"
 },
 {
   image: '/integrations/shift4.svg',
   title: 'Shfit4',
   desc: 'A payment processor offering a streamlined integration with 99minds for gift card issuance.  Shift4 focuses on creating a unified experience, allowing you to manage gift cards alongside your existing payment processing through 99minds.',
+  url: "/integrations/shift4",
   alt:"99minds-Shift4 Integration"
 },
 {
   image: '/integrations/givex.svg',
   title: 'Givex',
   desc: 'A specialized gift card provider that integrates with 99minds. Givex offers advanced features for gift card issuance, management, and reporting directly within the 99minds platform, giving you granular control over your gift card program.',
+  url: "/integrations/givex",
   alt:"99minds-Givex Integration"
 },
 {
