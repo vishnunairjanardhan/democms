@@ -45,7 +45,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
       <div>
         <p class="text-5xl mt-6 font-medium text-white lg:text-5xl" x-text="formattedCount()">60%</p>
       </div>
-      <div class="mt-2 text-white text-base text-vulcan-300"> Value Generated </div>
+      <div class="mt-2 text-white text-base text-vulcan-300">Increase in Repeat Purchase Rate</div>
     </li>
     <li x-data="{ count: 0, target: 5, formattedCount() { return '$'+ this.count.toFixed(1) + 'M'; }, counter() { 
   let interval = setInterval(() => { 
@@ -60,9 +60,9 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
       <div>
         <p class="text-5xl mt-6 font-medium text-white lg:text-5xl" x-text="formattedCount()">$5.0M</p>
       </div>
-      <div class="mt-2 text-white text-base text-vulcan-300"> Value Generated </div>
+      <div class="mt-2 text-white text-base text-vulcan-300">Store Credit Redemption for Members</div>
     </li>
-    <li x-data="{ count: 0, target: 5, formattedCount() { return '$'+ this.count.toFixed(1) + 'M'; }, counter() { 
+    <li x-data="{ count: 0, target: 30, formattedCount() { return '$'+ this.count.toFixed(1) + '%'; }, counter() { 
   let interval = setInterval(() => { 
       if (this.count < this.target) { 
           this.count += 0.5; 
@@ -73,69 +73,69 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
   }, 50); 
 } }" x-init="counter()">
       <div>
-        <p class="text-5xl mt-6 font-medium text-white lg:text-5xl" x-text="formattedCount()">$5.0M</p>
+        <p class="text-5xl mt-6 font-medium text-white lg:text-5xl" x-text="formattedCount()">30%</p>
       </div>
-      <div class="mt-2 text-white text-base text-vulcan-300"> Value Generated </div>
+      <div class="mt-2 text-white text-base text-vulcan-300">Increase in AOV</div>
     </li>
   </ul>
 </div>
 
     <div class="py-12 text-center">
     <div>
-        <p class="mt-8 text-3xl font-normal tracking-tight text-white">Your Membership Rewards Program</p>
+        <p class="mt-8 text-3xl font-medium tracking-tight text-white">Your Membership Rewards Program</p>
       </div>
-      <div class="mt-12">
+      <div class="mt-14">
       <ol class="grid grid-cols-1 gap-12 lg:grid-cols-3 sm:grid-cols-2" role="list">
-         <li class="raise1 group ring-1 ring-inset ring-white/5 text-white bg-gradient-to-b from-indigo-500 via-indigo-500/5 rounded-xl p-[0.060rem] overflow-hidden shadow-vulcan-950 shadow-lg">
+         <li class="raise1 relative cursor-pointer focus:outline-none rounded-xl border border-vulcan-700 hover:border-indigo-500  duration-300 group">
             <a href="/posts/1" title="The benefits of learning a new language" aria-label="/posts/1">
               <div class="bg-vulcan-900 rounded-xl">
-                <div class="p-8">
-                  <p class="mt-2 text-lg font-bold justify-center font-medium leading-6 text-white">Tiered Rewards</p>
+                <div class="p-10">
+                  <p class="mt-2 text-xl font-bold justify-center font-medium leading-6 text-white">Tiered Rewards</p>
                 </div>
               </div>
             </a>
           </li>
-           <li class="raise1 group ring-1 ring-inset ring-white/5 text-white bg-gradient-to-b from-indigo-500 via-indigo-500/5 rounded-xl p-[0.060rem] overflow-hidden shadow-vulcan-950 shadow-2xl">
+           <li class="raise1 relative cursor-pointer focus:outline-none rounded-xl border border-vulcan-700 hover:border-indigo-500 duration-300 group">
             <a href="/posts/1" title="The benefits of learning a new language" aria-label="/posts/1">
               <div class="bg-vulcan-900 rounded-xl">
-                <div class="p-8">
-                  <p class="mt-2 text-lg font-bold justify-center font-medium leading-6 text-white">Tiered Rewards</p>
+                <div class="p-10">
+                  <p class="mt-2 text-xl font-bold justify-center font-medium leading-6 text-white">Cashback</p>
                 </div>
               </div>
             </a>
           </li>
-           <li class="raise1 group ring-1 ring-inset ring-white/5 text-white bg-gradient-to-b from-indigo-500 via-indigo-500/5 rounded-xl p-[0.060rem] overflow-hidden shadow-vulcan-950 shadow-2xl">
+           <li class="raise1 relative cursor-pointer focus:outline-none rounded-xl border border-vulcan-700 hover:border-indigo-500 duration-300 group">
             <a href="/posts/1" title="The benefits of learning a new language" aria-label="/posts/1">
               <div class="bg-vulcan-900 rounded-xl">
-                <div class="p-8">
-                  <p class="mt-2 text-lg font-bold justify-center font-medium leading-6 text-white">Tiered Rewards</p>
+                <div class="p-10">
+                  <p class="mt-2 text-xl font-bold justify-center font-medium leading-6 text-white">Brand Perks</p>
                 </div>
               </div>
             </a>
           </li>
-          <li class="raise1 mt-4 group ring-1 ring-inset ring-white/5 text-white bg-gradient-to-b from-indigo-500 via-indigo-500/5 rounded-xl p-[0.060rem] overflow-hidden shadow-vulcan-950 shadow-2xl">
+           <li class="raise1 relative cursor-pointer focus:outline-none rounded-xl border border-vulcan-700 hover:border-indigo-500 duration-300 group">
             <a href="/posts/1" title="The benefits of learning a new language" aria-label="/posts/1">
               <div class="bg-vulcan-900 rounded-xl">
-                <div class="p-8">
-                  <p class="mt-2 text-lg font-bold justify-center font-medium leading-6 text-white">Tiered Rewards</p>
+                <div class="p-10">
+                  <p class="mt-2 text-xl font-bold justify-center font-medium leading-6 text-white">Suscriber Growth</p>
                 </div>
               </div>
             </a>
           </li>
-           <li class="raise1 mt-4 group ring-1 ring-inset ring-white/5 text-white bg-gradient-to-b from-indigo-500 via-indigo-500/5 rounded-xl p-[0.060rem] overflow-hidden shadow-vulcan-950 shadow-2xl">
+           <li class="raise1 relative cursor-pointer focus:outline-none rounded-xl border border-vulcan-700 hover:border-indigo-500 duration-300 group">
             <a href="/posts/1" title="The benefits of learning a new language" aria-label="/posts/1">
               <div class="bg-vulcan-900 rounded-xl">
-                <div class="p-8">
-                  <p class="mt-2 text-lg font-bold justify-center font-medium leading-6 text-white">Tiered Rewards</p>
+                <div class="py-10">
+                  <p class="mt-2 text-xl font-bold justify-center font-medium leading-6 text-white">Shipping & Returns</p>
                 </div>
               </div>
             </a>
           </li>
-           <li class="raise1 mt-4 group ring-1 ring-inset ring-white/5 text-white bg-gradient-to-b from-indigo-500 via-indigo-500/5 rounded-xl p-[0.060rem] overflow-hidden shadow-vulcan-950 shadow-2xl">
+           <li class="raise1 relative cursor-pointer focus:outline-none rounded-xl border border-vulcan-700 hover:border-indigo-500 duration-300 group">
             <a href="/posts/1" title="The benefits of learning a new language" aria-label="/posts/1">
               <div class="bg-vulcan-900 rounded-xl">
-                <div class="p-8">
-                  <p class="mt-2 text-lg font-bold justify-center font-medium leading-6 text-white">Tiered Rewards</p>
+                <div class="py-10">
+                  <p class="mt-2 text-xl font-bold justify-center font-medium leading-6 text-white">The Member's Wallet</p>
                 </div>
               </div>
             </a>
