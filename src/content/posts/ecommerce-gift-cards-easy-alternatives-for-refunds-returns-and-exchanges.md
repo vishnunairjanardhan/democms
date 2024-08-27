@@ -101,6 +101,37 @@ Digital gift cards offer a secure and hassle-free alternative to traditional ret
 <li><h3>Reduced Fraud Risks</h3></li>
 eCommerce gift cards reduce the likelihood of fraud associated with returns. They allow for partial redemption, where the remaining balance stays on the card, thus minimizing cash back scams. Moreover, when returns are converted into gift card refunds instead of cash, it discourages fraudulent activities related to expired or illegitimate product returns.
 
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/gc_benefits.png" alt="Get started CTA image for b2b ecommerce trends"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
 <h2 id= "How-do-Digital-Gift-Cards-Work?"> 5 Strategies to use eCommerce Gift Cards for Refunds</h2>
 <ol role= "list">
 There is no doubt that the average customer is going to want refunds in cash. It means they will either shop somewhere else, or, if you are lucky, at your store. You cannot depend on the latter turning out to be true.
@@ -117,16 +148,46 @@ Align your staff’s interests with your gift card strategy by providing incenti
 <li><h3>Diverse Perks for Customer Retention</h3></li>
 Develop a range of enticing perks that can be offered in conjunction with gift cards to make them more attractive than cash refunds. This could include exclusive discounts, access to special product lines, or additional loyalty points. For example, a home goods store might offer a 20% discount on future purchases made with a gift card received from a return, encouraging further spending.
 </ol>
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/gc_campaign.png" alt="Get started CTA image for b2b ecommerce trends"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
 <h2 id= "Example-of-Brand-Using-Gift-Cards-for-Refunds"> Example of Brand Using Gift Cards for Refunds</h2>
 <h3 id="Free-Fly-Apparel's-Gift-Card-Strategy">Free Fly Apparel's Gift Card Strategy</h3>
 <h3 id="Background">Background</h3>
 Boost your business's sales and customer experience by incorporating the versatile gift card solutions offered by 99minds. Introducing gift cards in your business strategy isn’t just about boosting sales - it’s about enhancing customer engagement and providing seamless shopping experiences. 99minds supports a comprehensive gift card program that adapts to your specific business needs, whether you operate online, in-store, or both.
 
-<img rel= "preload" rple= "img" src="/assets/blog/gift-card-banner.webp" alt= "Digital Gift card">
+<img rel= "preload" rple= "img" src="/assets/blog/free-fly-apparel.jpg" alt= "Digital Gift card">
 <h3 id="Strategy">Strategy</h3>
 Free Fly decided to incorporate gift cards as a refund alternative during returns and exchanges, particularly during promotional periods and as part of their loyalty programs. This decision was influenced by the need to enhance customer retention and satisfaction without the typical expenditure involved in processing cash refunds.
 
-<img rel= "preload" rple= "img" src="/assets/blog/gift-card-banner.webp" alt= "Digital Gift card">
+<img rel= "preload" rple= "img" src="/assets/blog/gift-card_copy.jpeg" alt= "Digital Gift card">
 
 <h3 id="Implementation">Implementation</h3>
 Through Shopify’s enhanced capabilities, Free Fly issued digital gift cards that customers could use immediately for online purchases or save for later use. The flexibility of the Shopify platform allowed the company to manage these gift cards efficiently, ensuring that customers could receive and redeem them without hassle.
@@ -135,7 +196,35 @@ Through Shopify’s enhanced capabilities, Free Fly issued digital gift cards th
 The introduction of gift cards as refunds contributed significantly to customer retention rates. According to internal data, Free Fly observed a noticeable <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blank">increase in repeat customer</a> transactions involving gift card redemptions. The strategy also reduced the logistical and financial burden associated with handling physical returns and refunds. By minimizing the need for cash refunds, Free Fly saved on transaction fees and reduced the financial impact of returns. By partnering with <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a>, you can also effectively implement a gift card program that not only drives sales but also enhances customer loyalty and satisfaction. 
 
 
-<img class="w-full mt-6" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends">
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/gc_result.png" alt="Get started CTA image for b2b ecommerce trends"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 <h2 id="Wrapping Up">Wrapping Up</h2>
 In conclusion, integrating a gift card program into your business strategy offers numerous benefits, including increased brand awareness, enhanced customer engagement, and improved sales and revenue. eCommerce gift cards serve as a versatile tool for encouraging customer loyalty and can effectively transform how businesses manage refunds and returns, making transactions more customer-friendly and economically efficient. 
