@@ -15,7 +15,7 @@ keywords: ["shopify gift card, gift cards for shopify,shopify gift certificate, 
 ---
 <img rel= "preload" role= "img" src="/assets/blog/how-to-set-up-a-gift-card-on-shopify.webp" alt= "How to set-up a gift card on shopify">
 
-Adding a gift card to your Shopify business is a great way to expand its products and give customers more choices regarding shopping. Including a Shopify gift card can revolutionize your business, whether your goals are to increase revenue, draw in new clients, or enhance cash flow. In this blog, we'll walk you through setting up gift cards on Shopify with <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> so you can easily manage and personalize your <a href="https://www.99minds.io/giftcard/" role="link" target="_blank">gift card program</a>. Let's get started by delving into the matter.
+Adding a gift card to your Shopify business is a great way to expand its products and give customers more choices regarding shopping. Including a Shopify gift card can revolutionize your business, whether your goals are to increase revenue, draw in new clients, or enhance cash flow. In this blog, we'll walk you through setting up gift cards on Shopify with <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> so you can easily manage and personalize your <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift card program</a>. Let's get started by delving into the matter.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
 <p>Table of Contents:</p>
@@ -496,7 +496,7 @@ While Shopify offers a robust platform for managing gift cards, which can effect
 For businesses aiming to provide a more tailored, engaging, and integrated store credit or gift card experience, <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> offers significant advantages over Shopify's default capabilities. To explore how 99minds can enhance your store credit program, visit 99minds.
 
 <h2 id= "Conclusion"> Conclusion</h2> 
-Integrating gift cards into your Shopify store can revolutionize your <a href="hhttps://www.99minds.io/blog/ecommerce-strategy-guide" role="link" target="_blank">eCommerce strategy</a>. Its benefits range from increasing sales and <a href= "https://www.99minds.io/blog/build-customer-loyalty" role= "liml" target="_blank">customer loyalty</a> to providing personalized shopping opportunities and promoting brand flexibility. It's the right tools and platforms like <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a>. 
+Integrating gift cards into your Shopify store can revolutionize your <a href="https://www.99minds.io/blog/ecommerce-strategy-a-complete-guide" role="link" target="_blank">eCommerce strategy</a>. Its benefits range from increasing sales and <a href= "https://www.99minds.io/blog/build-customer-loyalty" role= "liml" target="_blank">customer loyalty</a> to providing personalized shopping opportunities and promoting brand flexibility. It's the right tools and platforms like <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a>. 
 
 Whether you're just starting or looking to expand your reach, gift cards are a versatile and effective way to connect with customers and generate revenue. So take the plunge and set up your gift cards on Shopify today to see how it can take your business to the next level.
 

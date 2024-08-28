@@ -2,7 +2,7 @@
 pubDate: 2024-07-05
 author: Piyush
 authorImg: "Piyush.webp"
-title: What is a repeat customer | 99minds
+title: What is a Repeat Customer and how can you increase them?
 description: "A repeat customer is an individual or entity that returns to purchase a product or service from the same business on multiple occasions."
 heading: What is a Repeat Customer and How can you increase them?
 image:
