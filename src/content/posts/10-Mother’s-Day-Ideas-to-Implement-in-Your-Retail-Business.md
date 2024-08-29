@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/retail-store-800x450.jpg"
   alt: "Best mothers day gift card 2021."
 tags: ["Gift Card"]
-url: "https://www.99minds.io/blog/10-mother’s-day-ideas-to-implement-in-your-retail-business"
+url: "https://www.99minds.io/blog/10-mothers-day-ideas-to-implement-in-your-retail-business"
 keywords: ["99minds"]
 
 --- 
