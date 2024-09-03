@@ -1,12 +1,12 @@
 ---
-pubDate: 2024-08-30
+pubDate: 2024-09-04
 author: Mrudul
 authorImg: "Mrudul.png"
 title: eCommerce Gift Cards, Easy Alternative for Refunds and Exchanges
 description: Explore the benefits of using eCommerce gift cards as a hassle-free alternative for refunds, returns, and exchange and boost customer retention and save costs.
 heading: eCommerce Gift Cards, Easy Alternatives For Refunds, Returns, And Exchanges
 image:
-  url: "/assets/blog/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges-800x450.jpg"
+  url: "/assets/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.webp"
   alt: "ecommerce gift cards easy alternatives for refund return and exchanges."
 tags: ["Gift Cards"]
 url: "https://www.99minds.io/blog/ecommerce-gift-cards-for-refunds"
@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 <a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-for-refunds/">
-<img src="/assets/blog/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges.jpg"></a>
+<img src="/assets/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.webp"></a>
 
 US consumers return billions of dollars worth of unwanted products every year. These returns, while beneficial for customers, pose significant challenges for retailers. The phenomenon of buyer's remorse often leads to returns; impulse buys or well-intentioned gifts may not meet the buyer’s expectations once they arrive home.
 
