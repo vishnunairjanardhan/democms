@@ -409,13 +409,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"best-ways-to-elevate-your-gift-card-marketing-in-2022.md": {
-	id: "best-ways-to-elevate-your-gift-card-marketing-in-2022.md";
-  slug: "best-ways-to-elevate-your-gift-card-marketing-in-2022";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "build-customer-loyalty.md": {
 	id: "build-customer-loyalty.md";
   slug: "build-customer-loyalty";
@@ -573,6 +566,13 @@ declare module 'astro:content' {
 "gift-card-marketing-trends.md": {
 	id: "gift-card-marketing-trends.md";
   slug: "gift-card-marketing-trends";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"gift-card-marketing.md": {
+	id: "gift-card-marketing.md";
+  slug: "gift-card-marketing";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
