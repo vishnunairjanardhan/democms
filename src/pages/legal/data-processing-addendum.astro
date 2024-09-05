@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import DPA from "../../components/legal/DPA.astro";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+
+<AstroSeo
+  title="Omnichannel Loyalty Program software | 99minds"
+  description="Build everlasting customer loyalty and lifetime value with our powerful and easy to use loyalty program software built for growing businesses."
+  canonical="https://www.99minds.io/loyalty"
+  openGraph={{
+    url: "https://www.99minds.io/loyalty",
+    title: "Omnichannel Loyalty Program software | 99minds",
+    description: "Build everlasting customer loyalty and lifetime value with our powerful and easy to use loyalty program software built for growing businesses.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/loyalty/Loyalty-banner-2.png ",
+        alt: "99minds Loyalty Program",
+        type: "image/png",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/loyalty",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/assets/loyalty/Loyalty-banner-2.png",
+        alt: "99minds Loyalty Program",
+        type: "image/png",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+
+<BaseLayout>
+<DPA/>
+</BaseLayout>
