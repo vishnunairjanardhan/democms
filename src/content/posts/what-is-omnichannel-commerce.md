@@ -101,7 +101,7 @@ Many business owners question whether investing in omnichannel Commerce is worth
 
 <li><b>More sales and traffic:</b> Adopting an omnichannel sales strategy can be challenging, but it can significantly increase your sales and traffic. According to a study by Harvard Business Review done over 46000 shoppers, omnichannel customers spend 4% more in-store and 10% more online than single-channel customers. In addition, customers who use four or more channels to shop spend an average of 9% more in-store than those who use just one channel.</li>
 
-<li><b>Personalized experience:</b> In an omnichannel <a href="https://www.99minds.io/blog/ecommerce-strategy-guide/" role="link" target="_blank">eCommerce strategy</a>, your branding and messaging should be consistent across channels and reflect where the customers are in the buying cycle. By providing a personalized experience, you increase the chances of the customers completing the order.</li>
+<li><b>Personalized experience:</b> In an omnichannel <a href="https://www.99minds.io/blog/ecommerce-strategy-a-complete-guide" role="link" target="_blank">eCommerce strategy</a>, your branding and messaging should be consistent across channels and reflect where the customers are in the buying cycle. By providing a personalized experience, you increase the chances of the customers completing the order.</li>
 
 <li><b>Understanding customer journey:</b> Omnichannel eCommerce allows your company to collect and collate customer data from several channels. When you have all of this data in a single place, you will understand the kind of customers who like what you offer. It will give you a sneak peek into their behavior and put you in a position where you can personalize their journey.</li>
 
