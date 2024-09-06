@@ -1,20 +1,20 @@
 ---
-pubDate: 2024-08-30
+pubDate: 2024-09-04
 author: Mrudul
 authorImg: "Mrudul.png"
 title: eCommerce Gift Cards, Easy Alternative for Refunds and Exchanges
 description: Explore the benefits of using eCommerce gift cards as a hassle-free alternative for refunds, returns, and exchange and boost customer retention and save costs.
 heading: eCommerce Gift Cards, Easy Alternatives For Refunds, Returns, And Exchanges
 image:
-  url: "/assets/blog/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges-800x450.jpg"
+  url: "/assets/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.webp"
   alt: "ecommerce gift cards easy alternatives for refund return and exchanges."
 tags: ["Gift Cards"]
-url: "https://www.99minds.io/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges"
+url: "https://www.99minds.io/blog/ecommerce-gift-cards-for-refunds"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges/">
-<img src="/assets/blog/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges.jpg"></a>
+<a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-for-refunds/">
+<img src="/assets/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.webp"></a>
 
 US consumers return billions of dollars worth of unwanted products every year. These returns, while beneficial for customers, pose significant challenges for retailers. The phenomenon of buyer's remorse often leads to returns; impulse buys or well-intentioned gifts may not meet the buyer’s expectations once they arrive home.
 
@@ -180,21 +180,22 @@ Develop a range of enticing perks that can be offered in conjunction with gift c
 
 <h2 id= "Example-of-Brand-Using-Gift-Cards-for-Refunds"> Example of Brand Using Gift Cards for Refunds</h2>
 <h3 id="Free-Fly-Apparel's-Gift-Card-Strategy">Free Fly Apparel's Gift Card Strategy</h3>
-<h3 id="Background">Background</h3>
+<ul role="list">
+<li><h4 style="font-weight: bold;" id="Background">Background</h4></li>
 Boost your business's sales and customer experience by incorporating the versatile gift card solutions offered by 99minds. Introducing gift cards in your business strategy isn’t just about boosting sales - it’s about enhancing customer engagement and providing seamless shopping experiences. 99minds supports a comprehensive gift card program that adapts to your specific business needs, whether you operate online, in-store, or both.
 
 <img rel= "preload" rple= "img" src="/assets/blog/free-fly-apparel.jpg" alt= "Digital Gift card">
-<h3 id="Strategy">Strategy</h3>
+<li><h4 style="font-weight: bold;" id="Strategy">Strategy</h4></li>
 Free Fly decided to incorporate gift cards as a refund alternative during returns and exchanges, particularly during promotional periods and as part of their loyalty programs. This decision was influenced by the need to enhance customer retention and satisfaction without the typical expenditure involved in processing cash refunds.
 
 <img rel= "preload" rple= "img" src="/assets/blog/gift-card_copy.jpeg" alt= "Digital Gift card">
 
-<h3 id="Implementation">Implementation</h3>
+<li><h4 style="font-weight: bold;" id="Implementation">Implementation</h4></li>
 Through Shopify’s enhanced capabilities, Free Fly issued digital gift cards that customers could use immediately for online purchases or save for later use. The flexibility of the Shopify platform allowed the company to manage these gift cards efficiently, ensuring that customers could receive and redeem them without hassle.
 
-<h3 id="Results">Results</h3>
+<li><h4 style="font-weight: bold;" id="Results">Results</h4></li>
 The introduction of gift cards as refunds contributed significantly to customer retention rates. According to internal data, Free Fly observed a noticeable <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blank">increase in repeat customer</a> transactions involving gift card redemptions. The strategy also reduced the logistical and financial burden associated with handling physical returns and refunds. By minimizing the need for cash refunds, Free Fly saved on transaction fees and reduced the financial impact of returns. By partnering with <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a>, you can also effectively implement a gift card program that not only drives sales but also enhances customer loyalty and satisfaction. 
-
+</ul>
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

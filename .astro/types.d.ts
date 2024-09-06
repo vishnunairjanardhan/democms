@@ -507,9 +507,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.md": {
-	id: "ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.md";
-  slug: "ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges";
+"ecommerce-gift-cards-for-refunds.md": {
+	id: "ecommerce-gift-cards-for-refunds.md";
+  slug: "ecommerce-gift-cards-for-refunds";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -552,6 +552,13 @@ declare module 'astro:content' {
 "future-ecommerce-trends.md": {
 	id: "future-ecommerce-trends.md";
   slug: "future-ecommerce-trends";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"gamification-in-retail-industry.md": {
+	id: "gamification-in-retail-industry.md";
+  slug: "gamification-in-retail-industry";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
