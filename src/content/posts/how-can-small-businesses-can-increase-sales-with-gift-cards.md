@@ -104,7 +104,7 @@ Here’s how small businesses can make the most of their gift card program.
  
 <li><h3>Participation in Social Networks</h3> Post regularly about your gift card offers on social media platforms. Such as:- Facebook, Instagram, Twitter, etc. It might help drive customer engagement through contests, surveys, and giveaways.Respond promptly to customer inquiries and comments. Learn more about,How to sell more gift cards by using Social Media  <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards"  role="link" target="_blank">Click Here</a>.</li>
 
-<li><h3>Seasonal Promotions</h3> Create themed gift card designs for holidays and special occasions such as:  <a href="https://www.99minds.io/blog/how-to--capitalize-on-the-christmas-rush-using-gift-cards"  role="link" target="_blank">Gift Cards for Christmas</a>. Announce seasonal promotions via email newsletters and social media posts. Offer limited-time discounts or bonuses to encourage gift card purchases.</li>
+<li><h3>Seasonal Promotions</h3> Create themed gift card designs for holidays and special occasions such as:  <a href="https://www.99minds.io/blog/how-to-capitalize-on-the-christmas-rush-using-gift-cards"  role="link" target="_blank">Gift Cards for Christmas</a>. Announce seasonal promotions via email newsletters and social media posts. Offer limited-time discounts or bonuses to encourage gift card purchases.</li>
 
 <!-- <div style="text-align: center;">
     <img src="/assets/blog/seasonal-promotional-gift-card.jpeg" alt="seasonal promotional gift card" style="display: block; margin: 0 auto;">
@@ -155,8 +155,6 @@ Gift cards aren't just about purchases, they're also great for driving customer 
 
 <li><h3>Referral Programs</h3> Encourage existing customers to refer their friends and family by offering rewards or bonuses for successful referrals with gift cards.</li>
 
-   [Read more:  <a href="https://www.99minds.io/blog/how-do-i-set-up-an-ecommerce-referral-program"  role="link" target="_blank">How do I set up an eCommerce referral program?</a> ]
-
 <li><h3>Tiered Reward Systems</h3> Implement tiered reward systems that provide increasing benefits or privileges depending on the amount of money spent or frequency of gift card use, encouraging customers to reach higher tiers and remain loyal.</li>
 
 <li><h3>Surprise and Delight Initiatives</h3> Surprise loyal customers with unexpected rewards or gifts as an expression of gratitude for their continued support and patronage, strengthening emotional bonds and loyalty.</li>
@@ -170,7 +168,7 @@ Gift cards aren't just about purchases, they're also great for driving customer 
 
 <h2 id="conclusion">Conclusion</h2>
 
-Incorporating a well-planned <a href="https://www.99minds.io/giftcards"  role="link" target="_blank">gift card program</a>reasing customer loyalty. By leveraging the benefits of gift cards and implementing strategic initiatives, small businesses can unlock new doors to success and growth.
+Incorporating a well-planned <a href="https://www.99minds.io/giftcard"  role="link" target="_blank">gift card program</a>reasing customer loyalty. By leveraging the benefits of gift cards and implementing strategic initiatives, small businesses can unlock new doors to success and growth.
 
  <a href="https://www.99minds.io/"  role="link" target="_blank">99 minds</a> offers companies an easy-to-use platform to create personalized loyalty and advertising campaigns. With customizable gift cards, multi-channel delivery options, and comprehensive lifecycle management, businesses can easily manage and grow their gift card programs. The platform supports multiple currencies and locations, streamlining operations and driving customer loyalty. Whether you're looking to attract new customers or retain existing ones, <a href="https://www.99minds.io/"  role="link" target="_blank">99 minds</a> offers the tools to help build better brands and maintain lasting customer relationships.  <a href="https://www.99minds.io/giftcard"  role="link" target="_blank">Book a Demo</a> for more information. 
 
