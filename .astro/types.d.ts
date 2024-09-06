@@ -556,6 +556,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"gamification-in-retail-industry.md": {
+	id: "gamification-in-retail-industry.md";
+  slug: "gamification-in-retail-industry";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "getting-your-e-commerce-shop-thanksgiving-ready.md": {
 	id: "getting-your-e-commerce-shop-thanksgiving-ready.md";
   slug: "getting-your-e-commerce-shop-thanksgiving-ready";
