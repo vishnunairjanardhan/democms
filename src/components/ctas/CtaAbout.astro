@@ -1,69 +1,46 @@
 ---
 import RoundedGrid from "../assets/RoundedGrid.astro";
 ---
-
 <section class="relative overflow-hidden border-t border-white/5">
   <RoundedGrid />
 
   <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24">
     <div class="relative items-center">
-      <div
-        class="flex flex-col justify-between w-full lg:flex-row lg:items-end">
-        <div data-aos="fade-right" data-aos-duration="3000" class="max-w-xl">
-          <p
-            class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
-            Get on board
-          </p>
-          <h3 class="mt-8 text-3xl font-normal tracking-tight text-white">
-            Elevate Customer Experience. Enhance Brand Rapport.<br /> Boost Revenue
-          </h3>
+      <div class="flex flex-col justify-between w-full lg:flex-row lg:items-center text-center"> 
+        <div data-aos="fade-right" data-aos-duration="3000" class="flex flex-col items-center text-center max-w-xl mx-auto lg:mr-10"">
+          <h3 class="mt-8 text-3xl font-normal tracking-tight text-white">Let’s Talk</h3>
           <p class="mt-4 text-base">
-            Make the most of 99minds and boost sales, retain customers, and increase your brand exponentially. Sign up for free!
+            Tell us more and we’ll offer quick solutions.
+            Or
+            Get in touch through 99minds assistant. We’re eager to offer you a quick solution.
           </p>
-        </div>
-        <div data-aos="fade-left" data-aos-duration="3000" class="lg:ml-auto">
-          <div class="flex flex-wrap items-center gap-2 mt-10">
-              <div x-data="{ open: false }" class="flex justify-center"
-              role="button">
-              <!-- Trigger -->
-              <span x-on:click="open = true">
-                 <button type="button" class="raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
-                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
-                <span class="relative text-white">Sign Up for Free</span>
-                </span></button>
-                
-              </span>
-              <button type="button" class="raise relative p-0.5 ml-2 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
+          <div data-aos="fade-left" data-aos-duration="3000" class="mt-8"> 
+            <div class="flex justify-center items-center gap-2 mt-6"> 
+              <a href="/contact" class="raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
                 <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-10 duration-400">
-                <span class="relative text-white">Book a Demo</span>
+                  <span class="relative text-white">Contact Us</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="3000" class="flex flex-col items-center text-center max-w-xl mx-auto lg:ml-10 mt-10 lg:mt-0">
+          <h3 class="mt-8 text-3xl font-normal tracking-tight text-white">Explore 99minds</h3>
+          <p class="mt-4 text-base">
+            Take your customer engagement to the next level with a personalized Gift Card and loyalty program.
+          </p>
+          <div data-aos="fade-left" data-aos-duration="3000" class="mt-8"> 
+            <div class="flex justify-center items-center gap-2 mt-6"> 
+              <button type="button" class="raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-10 duration-400 inline-flex items-center gap-2">
+                  <svg role="img" alt="customer support logo" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset text-gray-500" viewBox="0 0 16 16">
+                    <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+                  </svg>
+                  <span class="relative text-white">Book a Demo</span>
                 </span>
               </button>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5" style="display: none;">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-6 text-center">
-                      
-                    <iframe
-                    role= "generic"
-                      src="/GetStarted"
-                      width="100%"
-                      height="650"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly"
-                    ></iframe>
-
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

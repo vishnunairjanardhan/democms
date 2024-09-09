@@ -136,8 +136,7 @@ Implementing an omnichannel loyalty program can transform how retailers engage w
 <h3>Data-driven insights</h3>
 
 One of the biggest advantages of omnichannel loyalty programs is that it gives you a 360-degree view of customer activity. It gives you a sneak peek into their buying frequency, shopping channels, purchasing habits, and so on. It gives you unified customer profiles that have information from your point of sale, CRM, app, or even from your loyalty program. 
-
-Loyalty programs incentivize customers to share their data by offering them loyalty points for doing so. When they use their card, the customer profile gets updated with information about their recent activity. 
+Loyalty programs incentivize customers when they do certain tasks by offering them loyalty points for their actions. When they use their card, the customer profile gets updated with information about their recent activity. 
 
 If brands don’t use personalization in their marketing, they risk losing 38% of customers, according to <a href="https://www.gartner.com/en/newsroom/press-releases/2019-03-11-gartner-survey-shows-brands-risk-losing-38-percent-of" role="link" target="_blanck">Gartner</a>. Businesses need to invest in data-driven marketing, and omnichannel loyalty programs collate data from multiple sources for marketers to leverage.
 </li>
@@ -157,21 +156,15 @@ Having an omnichannel loyalty program has numerous benefits. According to <a hre
 <li>
 <h3>Increases customer loyalty</h3>
 
-One of the main goals of a loyalty program is to increase customer loyalty, and an omnichannel loyalty program helps achieve that objective. Omnichannel customers tend to be high-value customers who are willing to spend a significant amount and are more likely to recommend your business to others. 52.3% of customers who are loyal to a brand will join its loyalty program. Loyal customers are certainly worth the effort, don't you think?a brand will join their loyalty program. Loyal customers are worth the effort, isn’t it?
+One of the main goals of a loyalty program is to increase customer loyalty, and an omnichannel loyalty program helps achieve that objective. Omnichannel customers tend to be high-value customers who are willing to spend a significant amount and are more likely to recommend your business to others. 52.3% of customers who are loyal to a brand will join its loyalty program. Loyal customers are certainly worth the effort, don't you think? a brand will join their loyalty program.
 </li>
 
 <li>
 <h3>Smooth customer journeys</h3>
 
-The fact that customers can make purchases from anywhere is what makes an omnichannel loyalty program extremely attractive. With an omnichannel loyalty program in place, you can offer seamless customer experiences. For example, <a href="https://www.starbucks.in/card/rewards" role="link" target="_blanck">Starbucks</a> omnichannel loyalty program is built in such a way that customers can add credits to their phone and use them efficiently at any Starbucks store by using NFC technology. 
+The fact that customers can make purchases from anywhere is what makes an omnichannel loyalty program extremely attractive. With an omnichannel loyalty program in place, you can offer seamless customer experiences. For example, Starbucks omnichannel loyalty program is built in such a way that customers can add credits to their phone and use them efficiently at any Starbucks store by using NFC technology. 
 
 Customers will be able to assign coupons to their card and activate them at the counter. Using NFC technology, customers can use phones inside the store to enroll in the loyalty program or participate in any gamified form of loyalty program.
-</li>
-
-<li>
-<h3>Greater brand awareness</h3>
-
-By using gamification and experiential rewards, customers will already feel close to the brand. But if you can manage to add omnichannel loyalty to the mix, you will be able to reach an even wider audience. Create more brand awareness by using an omnichannel marketing strategy. You can have Instagram posts where the participants can win huge sums of money. The same contest could also be happening simultaneously in-house. That’s what an omnichannel loyalty program can do!
 </li>
 
 <li>
