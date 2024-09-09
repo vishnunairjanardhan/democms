@@ -6,7 +6,7 @@ title: 7 Ways to Use Gamification in Retail Industry [With Examples]
 description: Learn how to use gamification in the retail industry to captivate and retain customers and seven effective ways to gamify your website and increase sales.
 heading: 7 Ways to Use Gamification in Retail Industry [With Examples]
 image:
-  url: "/assets/blog/Gamification in retail.webp"
+  url: "/assets/blog/7 Ways to Use Gamification in Retail Industry.webp"
   alt: "Ways to Use Gamification in Retail Industry [With Examples]."
 tags: ["Gift Cards"]
 url: "https://www.99minds.io/gamification-in-retail-industry"
@@ -15,7 +15,7 @@ keywords: ["99minds"]
 --- 
 
 <a href="https://www.99minds.io/gamification-in-retail-industry">
-<img src="/assets/blog/Gamification in retail.webp"></a>
+<img src="/assets/blog/7 Ways to Use Gamification in Retail Industry.webp"></a>
 
 The fascination with gamification has surged remarkably in recent years. As more businesses transition online, fresh avenues for enhancing customer experiences have emerged. This has positioned gamification as a focal point for numerous brands. <a href="https://www.mordorintelligence.com/industry-reports/gamification-market">According to Mordor Intelligence</a>, the gamification market could be worth $30.7 billion by 2026.
 
