@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeroClutch from "../../components/heros/HeroClutch.astro"
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureClutch from "../../components/features/FeatureClutch.astro";
+import FeatureTenClutch from "../../components/features/FeatureTenClutch.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="99minds integration with Clutch"
+  description="The complete rewards solution for restaurants with Clutch . Boost sales with smart omnichannel loyalty, gift card and coupons."
+  canonical="https://www.99minds.io/integrations/clutch"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/clutch",
+    title: "99minds integration with Clutch",
+    description: "The complete rewards solution for restaurants with Clutch . Boost sales with smart omnichannel loyalty, gift card and coupons.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-clutch-OGI.svg",
+        alt: "99minds and Clutch integration",
+        type: "image/svg",
+      },
+      
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroClutch />
+  <LogoCloudOne />
+  <FeatureClutch />
+  <FeatureTenClutch />
+  <Testimonialtry />
+  <CtaThreeU />
+</BaseLayout>

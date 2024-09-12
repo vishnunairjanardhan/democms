@@ -409,13 +409,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"best-ways-to-elevate-your-gift-card-marketing-in-2022.md": {
-	id: "best-ways-to-elevate-your-gift-card-marketing-in-2022.md";
-  slug: "best-ways-to-elevate-your-gift-card-marketing-in-2022";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "build-customer-loyalty.md": {
 	id: "build-customer-loyalty.md";
   slug: "build-customer-loyalty";
@@ -521,9 +514,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.md": {
-	id: "ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.md";
-  slug: "ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges";
+"ecommerce-gift-cards-for-refunds.md": {
+	id: "ecommerce-gift-cards-for-refunds.md";
+  slug: "ecommerce-gift-cards-for-refunds";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -563,9 +556,16 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"future-of-ecommerce-in-2023.md": {
-	id: "future-of-ecommerce-in-2023.md";
-  slug: "future-of-ecommerce-in-2023";
+"future-ecommerce-trends.md": {
+	id: "future-ecommerce-trends.md";
+  slug: "future-ecommerce-trends";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"gamification-in-retail-industry.md": {
+	id: "gamification-in-retail-industry.md";
+  slug: "gamification-in-retail-industry";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -587,6 +587,13 @@ declare module 'astro:content' {
 "gift-card-marketing-trends.md": {
 	id: "gift-card-marketing-trends.md";
   slug: "gift-card-marketing-trends";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"gift-card-marketing.md": {
+	id: "gift-card-marketing.md";
+  slug: "gift-card-marketing";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
