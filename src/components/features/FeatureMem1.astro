@@ -45,7 +45,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
       <div>
         <p class="text-5xl mt-6 font-medium text-white lg:text-5xl" x-text="formattedCount()">60%</p>
       </div>
-      <div class="mt-2 text-white text-base text-vulcan-300">Increase in Repeat Purchase Rate</div>
+      <div class="mt-2 text-white text-base text-vulcan-300">Increase in RepeatPurchase Rate</div>
     </li>
     <li x-data="{ count: 0, target: 5, formattedCount() { return '$'+ this.count.toFixed(1) + 'M'; }, counter() { 
   let interval = setInterval(() => { 
@@ -60,7 +60,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
       <div>
         <p class="text-5xl mt-6 font-medium text-white lg:text-5xl" x-text="formattedCount()">$5.0M</p>
       </div>
-      <div class="mt-2 text-white text-base text-vulcan-300">Store Credit Redemption for Members</div>
+      <div class="mt-2 text-white text-base text-vulcan-300">Store Credit Redemptionfor Members</div>
     </li>
     <li x-data="{ count: 0, target: 30, formattedCount() { return '$'+ this.count.toFixed(1) + '%'; }, counter() { 
   let interval = setInterval(() => { 
@@ -85,7 +85,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
         <p class="mt-8 text-3xl font-medium tracking-tight text-white">Your Membership Rewards Program</p>
       </div>
         <div class="mt-14">
-          <!--<ol class="grid grid-cols-1 gap-12 lg:grid-cols-3 sm:grid-cols-2" role="list">
+          <ol class="grid grid-cols-1 gap-12 lg:grid-cols-3 sm:grid-cols-2" role="list">
             <li class="raise1 relative cursor-pointer focus:outline-none rounded-xl border border-vulcan-700 hover:border-indigo-500  duration-300 group">
               <a href="/posts/1" title="The benefits of learning a new language" aria-label="/posts/1">
                 <div class="bg-vulcan-900 rounded-xl">
@@ -140,9 +140,9 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                 </div>
               </a>
             </li>
-          </ol>-->
+          </ol>
         </div>
-        <ul class="flex flex-wrap mx-auto md:flex-nowrap gap-2 lg:gap-0 p-8 lg:-ml-20">
+        <!--<ul class="flex flex-wrap mx-auto md:flex-nowrap gap-2 lg:gap-0 p-8 lg:-ml-20">
           <li>
             <div class="bg-vulcan-900 border border-vulcan-700 p-8 rounded-3xl shadow-lg shadow-blue-500/5 h-48 justify-between relative flex flex-col items-start transition duration-300 ease-in-out delay-150 transform lg:w-64 lg:-ml-20 hover:border-indigo-500 lg:hover:-translate-x-20 lg:hover:-translate-y-8">
               <div>
@@ -209,7 +209,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
               </div>
             </div>
           </li>
-        <!--<li>
+        <li>
           <div class="bg-blue-50 p-8 rounded-3xl shadow shadow-blue-500/20 h-64 justify-between relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform lg:w-64 lg:-ml-20 lg:hover:-translate-x-16 lg:hover:-translate-y-8">
             <div>
               <div class="flex flex-col items-center gap-4 w-full">

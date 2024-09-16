@@ -3,7 +3,7 @@
  --- 
 <section>
   <div class="px-8 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
-    <div class="mx-auto lg:text-center lg:py-12">
+    <div data-aos="fade-down" data-aos-duration="3000" class="mx-auto lg:text-center lg:py-12">
       <h2 class="mt-8 text-white text-2xl xl:text-3xl 2xl:text-5xl font-normal tracking-tight text-white">How to Customize, Promote and Manage your brand's loyalty program</h2>
     </div>
     <div class="relative w-full mt-6" x-data="{
@@ -25,13 +25,13 @@
       <div class="hidden max-w-6xl sm:block">
         <div class="relative inline-grid items-center justify-center w-full h-8 grid-cols-4 
       mx-auto mt-6 text-white border-b border-gray-300 select-none" x-ref="tabButtons">
-          <button class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all 
+          <button data-aos="fade-down" data-aos-duration="1500" class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all 
         cursor-pointer items-centerml-2 whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-1">Control Panel</button>
-          <button class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all cursor-pointer 
+          <button data-aos="fade-down" data-aos-duration="2000" class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all cursor-pointer 
         items-centerml-2 whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-2">Rewards</button>
-          <button class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all cursor-pointer items-centerml-2 
+          <button data-aos="fade-down" data-aos-duration="2500" class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all cursor-pointer items-centerml-2 
         whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Promote</button>
-          <button class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all cursor-pointer items-centerml-2 
+          <button data-aos="fade-down" data-aos-duration="3000" class="relative z-20 inline-flex w-full h-8 text-sm font-medium transition-all cursor-pointer items-centerml-2 
         whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Reports & Analytics</button>
                     <div class="absolute left-0 z-10 w-full h-full duration-300 ease-out" x-ref="tabMarker" style="width: 135px; height: 32px; left: 491px;">
         <div class="w-1/2 h-full bg-vulcan-900 border-b-2 border-violet-500"></div>
@@ -42,8 +42,8 @@
         <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6">
           <div class="relative items-center w-full" style="">
             <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-              <div class=" ">
-                <h2 class="2xl:text-5xl mt-8">Control Panel</h2>
+              <div data-aos="fade-right" data-aos-duration="3000" class=" ">
+                <h3 class="2xl:text-5xl mt-8">Control Panel</h3>
                 <p class="mt-4 text-xl">Manage a loyalty program that your customers love</p>
                   <ul class="mt-6">
                     <li><div class="relative flex items-center py-2">
@@ -119,7 +119,7 @@
             
                 
               </div>
-              <div>
+              <div data-aos="zoom-in" data-aos-duration="3000">
                 <img alt="Control Panel" class="rounded-2xl shadow-vulcan-950/50" width="528" height="388" loading="lazy" src="/assets/loyalty/control_pannel.webp">
               </div>
             </div>
@@ -129,7 +129,7 @@
           <div class="relative items-center w-full" style="">
             <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
               <div class=" ">
-                <h2 class="2xl:text-5xl mt-8">Rewards</h2>
+                <h3 class="2xl:text-5xl mt-8">Rewards</h3>
                  <p class="mt-4 text-xl">Build a rewards experience that your customers love</p> 
                 <ul class="mt-6">
                     <li>                
@@ -184,7 +184,7 @@
           <div class="relative items-center w-full" style="">
             <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
               <div class=" ">
-                <h2 class="2xl:text-5xl mt-8">Promote</h2>
+                <h3 class="2xl:text-5xl mt-8">Promote</h3>
                 <ul class="mt-6">
                     <li>                
                       <div class="relative flex items-center py-2">
@@ -239,7 +239,7 @@
         <div class="relative items-center w-full" style="">
           <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
             <div class=" ">
-              <h2 class="2xl:text-5xl mt-8">Reports & Analytics</h2>
+              <h3 class="2xl:text-5xl mt-8">Reports & Analytics</h3>
               <p class="mt-4 text-xl">Track sales and see the impact of your Loyalty program in one place</p>
                 <ul class="mt-6">
                     <li>                

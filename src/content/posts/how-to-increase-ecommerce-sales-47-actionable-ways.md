@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/how-to-increase-eCommerce-sales.webp"
   alt: "How to increase ecommerce sales."
 tags: ["Ecommerce"]
-url: "https://www.99minds.io/blog/how-to-increase-ecomerce-sales-47-actionable-ways"
+url: "https://www.99minds.io/blog/how-to-increase-ecommerce-sales-47-actionable-ways"
 keywords: ["how to increase ecommerce sales, ecommerce sales strategy, increase sales ecommerce,increasing ecommerce sales "]
 
 ---
