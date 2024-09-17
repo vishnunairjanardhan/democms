@@ -4,12 +4,17 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
 ---
 
 <section class="relative">
-  <div class="w-screen h-20 object-cover bg-opacity-50"></div>
+  <div class="w-full h-20 object-cover bg-opacity-50"></div> <!-- Fixed width with w-full -->
 </section>
+
 <section class="relative px-6 pt-2">
-  <img src="/assets/case-study/mud-Aus-banner.svg" alt="Background Image" class="w-screen h-[40rem] object-cover rounded-2xl">
-  <div class="absolute inset-0 bg-black bg-opacity-20"></div> <!-- Overlay for better text visibility -->
-  <div class="absolute inset-0 flex flex-col items-center justify-center text-center">
-    <h1 class="relative px-8 py-12 mt-0 mx-auto max-w-7xl md:px-12 lg:px-16">MudAustralia's Omnichannel & Multi-Currency Gift card Transformation leads to growth</h1>
+  <div class="relative">
+    <img src="/assets/case-study/mud-Aus-banner.svg" alt="Background Image" class="w-full h-[40rem] object-cover rounded-2xl"> <!-- Use w-full instead of w-screen -->
+    <div class="absolute inset-0 bg-black bg-opacity-20 rounded-2xl"></div> <!-- Added rounded-2xl to match image and prevent overflow -->
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+      <h1 class="relative px-8 py-12 mt-0 mx-auto max-w-7xl md:px-12 lg:px-16 text-white">
+        MudAustralia's Omnichannel & Multi-Currency Gift card Transformation leads to growth
+      </h1>
+    </div>
   </div>
 </section>
