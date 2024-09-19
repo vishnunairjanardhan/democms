@@ -1,0 +1,358 @@
+<section class="lg:p-8 border-t border-y border-white/5">
+  <div class="mx-auto 2xl:max-w-7xl py-12 lg:px-16 md:px-12 px-6 sm:px-4 items-center w-full">
+    <div class="mx-auto text-center lg:py-8">
+      <h2 class="mt-4 text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-white">
+        Don’t just take our word for it.<br /> Meet our brands.
+      </h2>
+    </div>
+
+    <div class="flex flex-col w-full" 
+      x-data="{
+        activeTab: 1,
+        interval: null,
+        autoSlideEnabled: false,
+        startAutoSlide() {
+          this.interval = setInterval(() => {
+            this.activeTab = this.activeTab === 6 ? 1 : this.activeTab + 1;
+          }, 3000); 
+        },
+        stopAutoSlide() {
+          clearInterval(this.interval);
+          this.interval = null; 
+        },
+        checkScreenSize() {
+          const isMobileView = window.innerWidth < 640;
+
+          if (isMobileView && !this.autoSlideEnabled) {
+            this.autoSlideEnabled = true;
+            this.startAutoSlide();
+          } else if (!isMobileView && this.autoSlideEnabled) {
+            this.autoSlideEnabled = false;
+            this.stopAutoSlide(); 
+          }
+        },
+        init() {
+          this.checkScreenSize(); 
+          window.addEventListener('resize', this.checkScreenSize.bind(this)); 
+        }
+      }"
+      x-init="init()"
+    >
+      
+      <div class="relative inline-grid items-center justify-center w-full h-8 grid-cols-3 md:grid-cols-6 mx-auto mt-6 text-white select-none hidden sm:grid">
+        <button @click="activeTab = 1; stopAutoSlide()" :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 1, 'text-gray-400': activeTab !== 1 }" class="px-2 py-1 md:px-4 md:py-2">BUBBLE</button>
+        <button @click="activeTab = 2; stopAutoSlide()" :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 2, 'text-gray-400': activeTab !== 2 }" class="px-2 py-1 md:px-4 md:py-2">brooklinen</button>
+        <button @click="activeTab = 3; stopAutoSlide()" :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 3, 'text-gray-400': activeTab !== 3 }" class="px-2 py-1 md:px-4 md:py-2">BAREFACED</button>
+        <button @click="activeTab = 4; stopAutoSlide()" :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 4, 'text-gray-400': activeTab !== 4 }" class="px-2 py-1 md:px-4 md:py-2">REVOLUTION</button>
+        <button @click="activeTab = 5; stopAutoSlide()" :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 5, 'text-gray-400': activeTab !== 5 }" class="px-2 py-1 md:px-4 md:py-2">BAREFACED</button>
+        <button @click="activeTab = 6; stopAutoSlide()" :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 6, 'text-gray-400': activeTab !== 6 }" class="px-2 py-1 md:px-4 md:py-2">REVOLUTION</button>
+      </div>
+
+      <div class="relative overflow-hidden mt-8">
+        <div class="flex transition-transform duration-500" :style="{ transform: `translateX(-${(activeTab - 1) * 100}%)` }">
+          <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+            <div class="w-full flex flex-col shrink-0 snap-start h-full">
+              <figure class="h-full">
+                <ul class="h-full">
+                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(217,205,255)_0%,rgb(196.86,178.5,255)_100%)] opacity-95">
+                      <div class="lg:py-8 py-4 h-full">
+                        <div class="lg:flex lg:h-full lg:items-center">
+                          <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
+                            <div class="ml-4">
+                              <img class="" alt="Group" src="/assets/testimonial/Group.svg" />
+                            </div>
+                            <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                              <div class="flex flex-col w-full">
+                                <div class="p-4 rounded-3xl">
+                                    <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$300K</h3>
+                                    <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">In Gift Card Sales.</p>
+                                </div>
+                              </div>
+                              <div class="flex flex-col w-full">
+                                <div class="p-4 rounded-3xl">
+                                    <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30 Days</h3>
+                                    <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Time Period.</p>
+                                </div>
+                              </div>
+                              <div class="flex flex-col w-full">
+                                <div class="p-4 rounded-3xl">
+                                    <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
+                                    <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                </div>
+                              </div>
+                              <div class="flex flex-col w-full">
+                                <div class="p-4 rounded-3xl">
+                                    <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
+                                    <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="mt-4 lg:mt-0 p-4 lg:px-10">
+                            <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[350px]" loading="lazy" src="/assets/testimonial/Testimonial1.jpg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </figure>
+                  </li>
+                </ul>
+              </figure>
+            </div>
+          </div>
+                  <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+                      <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                          <figure class="h-full">
+                              <ul class="h-full">
+                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(184,191,255)_0%,rgb(132.6,144.67,255)_100%)] opacity-95">
+                                          <div class="lg:py-8 py-4 h-full">
+                                              <div class="lg:flex lg:h-full lg:items-center">
+                                                  <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
+                                                      <div class="ml-4">
+                                                          <img class="" alt="Group" src="/assets/testimonial/Group.svg" />
+                                                      </div>
+                                                      <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$300K</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">In Gift Card Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30 Days</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Time Period.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="mt-4 lg:mt-0 p-4 lg:px-10">
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[350px]" loading="lazy" src="/assets/testimonial/Testimonial2.jpg" alt="" />
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </figure>
+                                  </li>
+                              </ul>
+                          </figure>
+                      </div>
+                  </div>
+                  <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+                      <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                          <figure class="h-full">
+                              <ul class="h-full">
+                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] opacity-95">
+                                          <div class="lg:py-8 py-4 h-full">
+                                              <div class="lg:flex lg:h-full lg:items-center">
+                                                  <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
+                                                      <div class="ml-4">
+                                                          <img class="" alt="Group" src="/assets/testimonial/Group.svg" />
+                                                      </div>
+                                                      <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$300K</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">In Gift Card Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30 Days</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Time Period.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="mt-4 lg:mt-0 p-4 lg:px-10">
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[350px]" loading="lazy" src="/assets/testimonial/Testimonial3.jpg" alt="" />
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </figure>
+                                  </li>
+                              </ul>
+                          </figure>
+                      </div>
+                  </div>
+                  <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+                      <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                          <figure class="h-full">
+                              <ul class="h-full">
+                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(147,213,225)_0%,rgb(107.32,197.57,213.98)_100%)] opacity-95">
+                                          <div class="lg:py-8 py-4 h-full">
+                                              <div class="lg:flex lg:h-full lg:items-center">
+                                                  <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
+                                                      <div class="ml-4">
+                                                          <img class="" alt="Group" src="/assets/testimonial/Group.svg" />
+                                                      </div>
+                                                      <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$300K</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">In Gift Card Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30 Days</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Time Period.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="mt-4 lg:mt-0 p-4 lg:px-10">
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[350px]" loading="lazy" src="/assets/testimonial/Testimonial4.jpg" alt="" />
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </figure>
+                                  </li>
+                              </ul>
+                          </figure>
+                      </div>
+                  </div>
+                  <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+                      <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                          <figure class="h-full">
+                              <ul class="h-full">
+                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(218,189,169)_0%,rgb(202.84,161.96,133.76)_100%)] opacity-95">
+                                          <div class="lg:py-8 py-4 h-full">
+                                              <div class="lg:flex lg:h-full lg:items-center">
+                                                  <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
+                                                      <div class="ml-4">
+                                                          <img class="" alt="Group" src="/assets/testimonial/Group.svg" />
+                                                      </div>
+                                                      <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$300K</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">In Gift Card Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30 Days</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Time Period.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="mt-4 lg:mt-0 p-4 lg:px-10">
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[350px]" loading="lazy" src="/assets/testimonial/Testimonial4.jpg" alt="" />
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </figure>
+                                  </li>
+                              </ul>
+                          </figure>
+                      </div>
+                  </div>
+                  <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+                      <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                          <figure class="h-full">
+                              <ul class="h-full">
+                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                      <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(217,205,255)_0%,rgb(196.86,178.5,255)_100%)] opacity-95">
+                                          <div class="lg:py-8 py-4 h-full">
+                                              <div class="lg:flex lg:h-full lg:items-center">
+                                                  <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
+                                                      <div class="ml-4">
+                                                          <img class="" alt="Group" src="/assets/testimonial/Group.svg" />
+                                                      </div>
+                                                      <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$300K</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">In Gift Card Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30 Days</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Time Period.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="mt-4 lg:mt-0 p-4 lg:px-10">
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[350px]" loading="lazy" src="/assets/testimonial/Testimonial5.jpg" alt="" />
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </figure>
+                                  </li>
+                              </ul>
+                          </figure>
+                      </div>
+                  </div>
+                
+           </div>
+       </div>
+    </div>
+ </div>
+</section>
