@@ -177,6 +177,7 @@ export const Payment = [
   image: '/integrations/stripe.svg',
   title: 'Stripe',
   desc: 'Sell gift cards through the 99minds online storefront and accept payments directly into your Stripe account.',
+  url: "/integrations/stripe",
   alt:"99minds-Stripe Integration"
 },
 {
