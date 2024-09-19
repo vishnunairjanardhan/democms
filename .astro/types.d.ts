@@ -514,6 +514,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"ecommerce-technology.md": {
+	id: "ecommerce-technology.md";
+  slug: "ecommerce-technology";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "essential-marketing-tools-for-2021.md": {
 	id: "essential-marketing-tools-for-2021.md";
   slug: "essential-marketing-tools-for-2021";
@@ -1119,13 +1126,6 @@ declare module 'astro:content' {
 "the-roi-of-a-robust-loyalty-program-for-shopify-merchants.md": {
 	id: "the-roi-of-a-robust-loyalty-program-for-shopify-merchants.md";
   slug: "the-roi-of-a-robust-loyalty-program-for-shopify-merchants";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"the-role-of-technology-in-enhancing-ecommerce.md": {
-	id: "the-role-of-technology-in-enhancing-ecommerce.md";
-  slug: "the-role-of-technology-in-enhancing-ecommerce";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
