@@ -1,5 +1,5 @@
 ---
-pubDate: 2024-09-18
+pubDate: 2024-09-19
 author: Soniya
 authorImg: "Soniya.webp"
 title: "25 Emerging Trends in Technology in eCommerce for 2024"
