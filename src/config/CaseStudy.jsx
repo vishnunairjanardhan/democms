@@ -9,10 +9,10 @@ export const buttonConfig = [
   ];
 
 export const cardData =[
-    // {date:'April 2024', title:'Flynnohara', description:'99minds joins forces with FlynnOhara to Outfit 1,500 Schools and 500,000 Students with Quality Uniforms!', href:"/case-study/flynnohara", img:"/assets/case-study/Flynnohara-CS1.jpg", alt:"Flynnohara Case Study"},
-    // {date:'April 2024', title:'Birdsnest', description:'Birdsnest Migrates to ConnectPOS with 99minds to Enhance Omnichannel Experience', href:"/case-study/birdsnest", img:"/assets/case-study/Birdnest-case-study.jpg", alt:"Birdsnest Case Study"},
-    {date:'April 2024', heading: 'SOLSTICE', title:'Solstice Sun Glasses', description:'99minds Joins Forces with Solstice Sunglasses to Generate Over $300K in Revenue through Omnichannel Gift Card Sales!', href:'/case-study/solsticesunglasses', img:"/assets/case-study/Solstice-CS.jpg", alt:"Solstice Sun Glasses Case Study"},
-    {date: 'April 2024', heading:'HEXCLAD', title:'$450k within first 90 days', description:'Hexclad partnered with 99minds to launch their tiered loyalty program', href:'/case-study/hexclad', img:"/assets/case-study/hexclad-1.webp", alt:"Hexclad"},
+    {date:'April 2024', title:'Flynnohara', description:'99minds joins forces with FlynnOhara to Outfit 1,500 Schools and 500,000 Students with Quality Uniforms!', href:"/case-study/flynnohara", img:"/assets/case-study/Flynnohara-CS1.jpg", alt:"Flynnohara Case Study"},
+    {date:'April 2024', title:'Birdsnest', description:'Birdsnest Migrates to ConnectPOS with 99minds to Enhance Omnichannel Experience', href:"/case-study/birdsnest", img:"/assets/case-study/birdsnest.png", alt:"Birdsnest Case Study"},
+    {date:'April 2024', title:'Solstice Sun Glasses', description:'99minds Joins Forces with Solstice Sunglasses to Generate Over $300K in Revenue through Omnichannel Gift Card Sales!', href:'/case-study/solsticesunglasses', img:"/assets/case-study/Solstice-CS.jpg", alt:"Solstice Sun Glasses Case Study"},
+    //{date: 'April 2024', heading:'HEXCLAD', title:'$450k within first 90 days', description:'Hexclad partnered with 99minds to launch their tiered loyalty program', href:'/case-study/hexclad', img:"/assets/case-study/hexclad-1.webp", alt:"Hexclad"},
 ]
 
 export const Fashion =[
