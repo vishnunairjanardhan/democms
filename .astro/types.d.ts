@@ -1137,6 +1137,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"the-role-of-technology-in-enhancing-ecommerce.md": {
+	id: "the-role-of-technology-in-enhancing-ecommerce.md";
+  slug: "the-role-of-technology-in-enhancing-ecommerce";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "tiered-loyalty-program.md": {
 	id: "tiered-loyalty-program.md";
   slug: "tiered-loyalty-program";
