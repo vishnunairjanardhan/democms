@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeroStripe from "../../components/heros/HeroStripe.astro"
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureStripe from "../../components/features/FeatureStripe.astro";
+import FeatureTenStripe from "../../components/features/FeatureTenStripe.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="99minds integration with Stripe"
+  description="Explore the seamless integration of 99minds and Stripe to enhance your ecommerce experience with secure payment processing, real-time analytics, and customizable payment flows."
+  canonical="https://www.99minds.io/integrations/stripe"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/stripe",
+    title: "99minds integration with Stripe",
+    description: "Explore the seamless integration of 99minds and Stripe to enhance your ecommerce experience with secure payment processing, real-time analytics, and customizable payment flows.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-stripe-OGI.svg",
+        alt: "99minds and Stripe integration",
+        type: "image/svg",
+      },
+      
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroStripe />
+  <LogoCloudOne />
+  <FeatureStripe />
+  <FeatureTenStripe />
+  <Testimonialtry />
+  <CtaThreeU />
+</BaseLayout>
