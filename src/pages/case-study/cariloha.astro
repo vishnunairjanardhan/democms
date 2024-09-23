@@ -1,0 +1,41 @@
+---
+import BaseLayout from "/src/layouts/BaseLayout.astro";
+import HeroCaseStudyCariloha from "/src/components/heros/HeroCaseStudyCariloha.astro";
+import CasestudytestCariloha from "././src/components/testimonials/CasestudytestCariloha.astro";
+import FeatureCasestudyCariloha from "/src/components/features/FeatureCasestudyCariloha.astro";
+import Cariloha from "/src/components/Infopages/Cariloha.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+--->
+<AstroSeo
+  title="Solsctice Sunglasses Case Study: Over $300k Gift Card Sales | 99minds"
+  description="Check out how Solstice Sunglasses used 99minds Gift Card management tools to generate over $300k in sales in store and offline on Shopify Plus."
+  canonical="https://www.99minds.io/case-study/solsticesunglasses"
+  openGraph={{
+    url: "https://www.99minds.io/case-study/solsticesunglasses",
+    title: "Solsctice Sunglasses Case Study: Over $300k Gift Card Sales | 99minds",
+    description: "Check out how Solstice Sunglasses used 99minds Gift Card management tools to generate over $300k in sales in store and offline on Shopify Plus.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/case-study/Solstice-CS.jpg",
+        alt: "Solstice Sunglasses uses 99minds Gift Card & Loyalty Program",
+        type: "image/jpeg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroCaseStudyCariloha />
+  <CasestudytestCariloha />
+  <Cariloha />
+  <FeatureCasestudyCariloha />
+</BaseLayout>
