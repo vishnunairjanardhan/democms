@@ -1,9 +1,9 @@
 ---
 import BaseLayout from "/src/layouts/BaseLayout.astro";
-import HeroCasestudyNatori from "/src/components/heros/HeroCasestudyNatori.astro";
-import CasestudytestNatori from "/src/components/testimonials/CasestudytestNatori.astro";
-import FeatureCasestudySolstice from "/src/components/features/FeatureCasestudySolstice.astro";
-import Solstice from "/src/components/Infopages/Solstice.astro";
+import HeroCasestudyCariloha from "/src/components/heros/HeroCasestudyCariloha.astro";
+import Casestudytestcariloha from "/src/components/testimonials/Casestudytestcariloha.astro";
+import FeatureCasestudycariloha from "/src/components/features/FeatureCasestudycariloha.astro";
+import Infocariloha from "/src/components/Infopages/Infocariloha.astro";
 import { Seo } from "../../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -21,7 +21,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     description: "Check out how Solstice Sunglasses used 99minds Gift Card management tools to generate over $300k in sales in store and offline on Shopify Plus.",
     images: [
       {
-        url: "https://www.99minds.io/assets/case-study/natori1.png",
+        url: "https://www.99minds.io/assets/case-study/Solstice-CS.jpg",
         alt: "Solstice Sunglasses uses 99minds Gift Card & Loyalty Program",
         type: "image/jpeg",
       }
@@ -34,9 +34,8 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
 <BaseLayout>
-  <HeroCasestudyNatori/>
-  <CasestudytestNatori />
-  
-<Solstice />
-<FeatureCasestudySolstice />
+  <HeroCasestudyCariloha />
+  <Casestudytestcariloha />
+  <Infocariloha />
+  <FeatureCasestudycariloha />
 </BaseLayout>
