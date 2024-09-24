@@ -2,7 +2,7 @@
 pubDate: 2024-06-24
 author: Piyush
 authorImg: "Piyush.webp"
-title:  What is Referral Marketing? | 99minds
+title:  "Referral Marketing: Benefits, Strategies & Types with Examples"
 description: "Referral marketing is all about increasing your sales with the help of your existing customers. Learn how to create a winning referral marketing program with this guide."
 heading: What is Referral marketing? Best Practices & Strategies
 image: 
