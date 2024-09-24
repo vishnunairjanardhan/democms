@@ -13,8 +13,7 @@ url: "https://www.99minds.io/blog/ecommerce-gift-cards-for-refunds"
 keywords: ["ecommerce gift cards", "ecommerce gift cards for refunds"]
 
 --- 
-<a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-for-refunds/">
-<img rel="preload" role="img" src="/assets/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.webp" alt="eCommerce Gift Cards, Easy Alternative for Refunds and Exchanges"></a>
+<img rel="preload" role="img" src="/assets/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.webp" alt="eCommerce Gift Cards, Easy Alternative for Refunds and Exchanges">
 
 US consumers return billions of dollars worth of unwanted products every year. These returns, while beneficial for customers, pose significant challenges for retailers. The phenomenon of buyer's remorse often leads to returns; impulse buys or well-intentioned gifts may not meet the buyer’s expectations once they arrive home.
 
@@ -114,7 +113,7 @@ eCommerce gift cards reduce the likelihood of fraud associated with returns. The
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/gc_benefits.png" alt="Get started CTA image for b2b ecommerce trends"></span>
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-R1 (2).webp" alt="Get started CTA image for b2b ecommerce trends"></span>
                 </span></div>
               </span>
               <!-- Modal -->
@@ -160,36 +159,8 @@ Align your staff’s interests with your gift card strategy by providing incenti
 Develop a range of enticing perks that can be offered in conjunction with gift cards to make them more attractive than cash refunds. This could include exclusive discounts, access to special product lines, or additional loyalty points. For example, a home goods store might offer a 20% discount on future purchases made with a gift card received from a return, encouraging further spending.
 </li>
 
-<div class="flex flex-wrap items-center gap-2">
-              <div x-data="{ open: false }" class="w-full">
-              <!-- Trigger -->
-              <span x-on:click="open = true" class="w-full">
-                 <div class="w-full ">
-                <span class="w-full "></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/gc_campaign.png" alt="Get started CTA image for b2b ecommerce trends"></span>
-                </span></div>
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly">
-                      </iframe>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          </ol>
+ <a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
+</ol>
 
 <h2 id= "Example-of-Brand-Using-Gift-Cards-for-Refunds"> Example of Brand Using Gift Cards for Refunds</h2>
 <h3 id="Free-Fly-Apparel's-Gift-Card-Strategy">Free Fly Apparel's Gift Card Strategy</h3>
