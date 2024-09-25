@@ -6,6 +6,7 @@ import react from "@astrojs/react";
 import compression from 'vite-plugin-compression';
 import visualizer from 'rollup-plugin-visualizer';
 import partytown from "@astrojs/partytown";
+import icon from "astro-icon";
 
 export default defineConfig({
   markdown: {
@@ -21,6 +22,7 @@ export default defineConfig({
   integrations: [
     tailwind(),
     react(),
+    icon(),
     sitemap({
       serialize(item) {
         if (item.url.endsWith('/')) {
