@@ -1,0 +1,41 @@
+---
+import BaseLayout from "/src/layouts/BaseLayout.astro";
+import HeroCasestudyBestop from "/src/components/heros/HeroCasestudyBestop.astro";
+import Casestudytestbestop from "/src/components/testimonials/Casestudytestbestop.astro";
+import Featurecasestudybestop from "/src/components/features/Featurecasestudybestop.astro";
+import Infobestop from "/src/components/Infopages/Infobestop.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+--->
+<AstroSeo
+  title="Solsctice Sunglasses Case Study: Over $300k Gift Card Sales | 99minds"
+  description="Check out how Solstice Sunglasses used 99minds Gift Card management tools to generate over $300k in sales in store and offline on Shopify Plus."
+  canonical="https://www.99minds.io/case-study/bestop"
+  openGraph={{
+    url: "https://www.99minds.io/case-study/bestop",
+    title: "Bestop Case Study: Over $300k Gift Card Sales | 99minds",
+    description: "Check out how Bestop used 99minds Gift Card management tools to generate over $300k in sales in store and offline on Shopify Plus.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/case-study/cariloha-banner1.webp",
+        alt: "Bestop uses 99minds Gift Card & Loyalty Program",
+        type: "image/jpeg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroCasestudyBestop />
+  <Casestudytestbestop />
+  <Infobestop />
+  <Featurecasestudybestop />
+</BaseLayout>
