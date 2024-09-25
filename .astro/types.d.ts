@@ -857,6 +857,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"how-to-launch-a-successful-referral-program-for-your-small-business.md": {
+	id: "how-to-launch-a-successful-referral-program-for-your-small-business.md";
+  slug: "how-to-launch-a-successful-referral-program-for-your-small-business";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "how-to-make-this-your-most-successful-valentines-day-yet.md": {
 	id: "how-to-make-this-your-most-successful-valentines-day-yet.md";
   slug: "how-to-make-this-your-most-successful-valentines-day-yet";
@@ -1021,13 +1028,6 @@ declare module 'astro:content' {
 "reduce-return-exchange-costs-using-gift-card-loyalty-points.md": {
 	id: "reduce-return-exchange-costs-using-gift-card-loyalty-points.md";
   slug: "reduce-return-exchange-costs-using-gift-card-loyalty-points";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"referral-program-for-small-businesses.md": {
-	id: "referral-program-for-small-businesses.md";
-  slug: "referral-program-for-small-businesses";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
