@@ -1,5 +1,5 @@
 ---
-pubDate: 2023-09-25
+pubDate: 2024-09-25
 author: PRAVIN KAMBLE
 authorImg: "Pravin.png"
 title: "How to use promotional codes to drive sales (2024)"
