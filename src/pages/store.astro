@@ -1,0 +1,62 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HeroStore1 from "../components/heros/HeroStore1.astro";
+import Storetest from "../components/testimonials/Storetest.astro";
+import FeatureStore2 from "../components/features/FeatureStore2.astro";
+import FeatureStore3 from "../components/features/FeatureStore3.astro";
+import FeatureStore4 from "../components/features/FeatureStore4.astro";
+import FeatureStore5 from "../components/features/FeatureStore5.astro";
+import FeatureStore6 from "../components/features/FeatureStore6.astro";
+import CtaThreeU from "../components/ctas/CtaThreeU.astro";
+import Integrations99minds2 from "../components/integrations/Integrations99minds2.astro";
+import { AstroSeo } from "@astrolib/seo";
+import { Seo } from "../config/Seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="Convert Refunds to Sales with 99mind's Store Credit Software | 99minds"
+  description="Build customer loyalty and increase sales by easily issuing store credit to process refunds and reward customers."
+  canonical="https://www.99minds.io/store-credit"
+  openGraph={{
+    url: "https://www.99minds.io/store-credit",
+    title: "Convert Refunds to Sales with 99mind's Store Credit Software | 99minds",
+    description: "Build customer loyalty and increase sales by easily issuing store credit to process refunds and reward customers.",
+   images: [
+      {
+        url: "https://www.99minds.io/assets/storecredit/Storecredit-b2.png ",
+        alt: "99minds Store Credit",
+        type: "image/png",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/referral",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/storecredit/Storecredit-b2.png ",
+        alt: "99minds Store Credit",
+        type: "image/png",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+
+  <HeroStore1 />
+  <Storetest />
+  <FeatureStore2 />
+  <FeatureStore3 />
+  <FeatureStore4 />
+  <FeatureStore5 />
+  <FeatureStore6 />
+  <!-- <Testimonialtry1 />
+  <Integrations99minds2 />
+  <CtaThreeU />
+  <Integrations99minds2 />
+  <CtaThreeU /> -->
+
