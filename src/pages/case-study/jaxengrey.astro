@@ -1,0 +1,42 @@
+---
+import BaseLayout from "/src/layouts/BaseLayout.astro";
+import HeroCasestudyJaxen from "/src/components/heros/HeroCasestudyJaxen.astro";
+import CasestudytestJaxen from "/src/components/testimonials/CasestudytestJaxen.astro";
+import FeatureCasestudyJaxen from "/src/components/features/FeatureCasestudyJaxen.astro";
+import Jaxen from "/src/components/Infopages/Jaxen.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+--->
+<AstroSeo
+  title="Solsctice Sunglasses Case Study: Over $300k Gift Card Sales | 99minds"
+  description="Check out how Jaxen Sunglasses used 99minds Gift Card management tools to generate over $300k in sales in store and offline on Shopify Plus."
+  canonical="https://www.99minds.io/case-study/Jaxensunglasses"
+  openGraph={{
+    url: "https://www.99minds.io/case-study/Jaxensunglasses",
+    title: "Solsctice Sunglasses Case Study: Over $300k Gift Card Sales | 99minds",
+    description: "Check out how Jaxen Sunglasses used 99minds Gift Card management tools to generate over $300k in sales in store and offline on Shopify Plus.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/case-study/Jaxen-CS.jpg",
+        alt: "Jaxen Sunglasses uses 99minds Gift Card & Loyalty Program",
+        type: "image/jpeg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroCasestudyJaxen />
+  <CasestudytestJaxen />
+  
+<Jaxen />
+<FeatureCasestudyJaxen />
+</BaseLayout>
