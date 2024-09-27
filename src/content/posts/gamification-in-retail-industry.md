@@ -15,8 +15,7 @@ keywords: ["gamification in retail industry", "gamification in retail",
 ]
 
 --- 
-<a href="https://www.99minds.io/blog/gamification-in-retail-industry">
-<img rel="preload" role="img" src="/assets/blog/7 Ways to Use Gamification in Retail Industry.webp" alt="7 Ways to Use Gamification in Retail Industry"></a>
+<img rel="preload" role="img" src="/assets/blog/7 Ways to Use Gamification in Retail Industry.webp" alt="7 Ways to Use Gamification in Retail Industry">
 
 The fascination with gamification has surged remarkably in recent years. As more businesses transition online, fresh avenues for enhancing customer experiences have emerged. This has positioned gamification as a focal point for numerous brands. <a href="https://www.mordorintelligence.com/industry-reports/gamification-market">According to Mordor Intelligence</a>, the gamification market could be worth $30.7 billion by 2026.
 
@@ -55,6 +54,8 @@ In this blog post, we will explore 7 outstanding ways to use gamification in the
  In the context of retail, many stores opt to implement gamification on their websites, adding an unexpected delight for customers—the proverbial icing on the cake.
 
  Through gamification, retailers can increase customer engagement points and gain insights into the driving forces behind their customers' purchasing decisions. This approach is increasingly popular in both gamification in retail industry and gamification in retail stores, where it serves as a powerful strategy to enhance the shopping experience.
+
+ <a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
  <h2 id="Why-is-Gamification-in-Retail-Important?">Why is Gamification in Retail Important?</h2>
  One key factor driving the popularity of gamification is its ability to engage with fundamental human instincts like competition and curiosity.
@@ -123,6 +124,35 @@ The campaign effectively utilized gamification to boost brand awareness and cust
 
 By employing sophisticated gamification strategies, Subway was able to ensure customers returned both to the restaurants and the game multiple times, demonstrating the profound impact of gamification in the retail industry.
 </li>
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 </ol>
 
 <h2 id="Wrapping-Up">Wrapping Up</h2>

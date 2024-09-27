@@ -2,7 +2,7 @@
 pubDate: 2024-07-24
 author: Piyush
 authorImg: "Piyush.webp"
-title: Tiered Loyalty Program:Definition & 10 Best Examples 
+title: "Tiered Loyalty Program: Definition & 10 Best Examples" 
 description: In this blog, we will delve into ten stellar examples of tiered loyalty programs that have mastered the art of customer acquisition and retention.
 heading: 10 Best Tiered Loyalty Programs Examples to Acquire New Customers
 image:

@@ -2,8 +2,8 @@
 pubDate: 2024-06-19
 author: Piyush
 authorImg: "Piyush.webp"
-title: What is a Referral Program? 
-description: Referral programs are a powerful marketing strategy used by businesses to leverage their existing customer base to attract new customers. 
+title: How to Build Referral Program in 2024 (Benefits & Examples) 
+description: Referral programs are marketing strategy in which businesses use their existing customers to acquire new ones. Learn how to create one in 2024 and successful examples.   
 heading: Guide to Referral Program- Benefits and How to Build One in 2024
 image:
   url: "/assets/blog/Guide to Referral Program- Benefits and How to Build One in 2024.webp"
