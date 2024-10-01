@@ -8,7 +8,7 @@ heading: Shopify Loyalty Program:A Complete Guide
 image:
   url: "/assets/blog/shopify-loyalty-programs-a-complete-guide.webp"
   alt: "Shopify Loyalty Program."
-tags: ["Loyalty Program","Shopify Loyalty Program"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/shopify-loyalty-program"
 keywords: ["Shopify loyalty program ,shopify rewards program,how to create a loyalty program on shopify,how to set up a loyalty program on shopify,loyalty program on shopify,shopify customer loyalty program,rewards program for shopify,shopify loyalty points,loyalty program for shopify,shopify reward points,customer loyalty program shopify,shopify loyalty rewards program,loyalty rewards and referrals shopify,loyalty rewards and referrals shopify,benefits of a loyalty program"]
 

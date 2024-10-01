@@ -8,7 +8,7 @@ heading:  The ROI of a Robust Loyalty Program for Shopify Merchants
 image: 
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-13-800x450.png"
   alt: "Shopify store."
-tags: ["Gift Card", Loyalty]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/the-roi-of-a-robust-loyalty-program-for-shopify-merchants"
 keywords: ["99minds"]
 

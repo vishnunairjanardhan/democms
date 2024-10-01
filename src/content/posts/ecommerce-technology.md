@@ -8,7 +8,7 @@ heading: 25 Emerging Trends in Technology in eCommerce for 2024
 image:
   url: "/assets/blog/25-Emerging-Trends-in-Technology-in-eCommerce-for-2024.webp"
   alt: "Technology in ecommerce."
-tags: ["technology in ecommerce"]
+tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/ecommerce-technology"
 keywords: ["technology in ecommerce", "technology of e commerce", "technology for ecommerce", "technology for e commerce","ecommerce technologies"]
 
@@ -100,15 +100,13 @@ Virtual events and experiences, in addition to these elements, are completely ch
 
 <b>Example:</b> IKEA's AR app allows customers to visualize how furniture would look in their home by overlaying a 3D image of the product in their living space through their smartphone camera, helping them make informed purchase decisions.
 
-<img src="/assets/blog/IKEA-AR-shopping-app.webp" alt="IKEA AR shopping app">
-
 <h3><li>Mobile Commerce & Progressive Web Apps (PWAs)</li></h3>
 
 As mobile shopping becomes more prevalent, PWAs provide the ideal combination of online and mobile app experiences. PWAs feature fast loading times, offline access, and seamless navigation, giving consumers an app-like experience without the need to download anything. This is critical for reaching the growing number of mobile-first buyers, who expect speed and ease while browsing and purchasing on their smartphones.
 
 <b>Example:</b> Starbucks’ PWA lets users order coffee, view the menu, and earn rewards without downloading a separate app. The PWA functions offline, ensuring a smooth user experience even with poor internet connectivity.
 
-<img src="/assets/blog/Mobile-Commerce-&-Progressive-Web-Apps.jpg" alt="Mobile Commerce & Progressive Web Apps">
+<img src="/assets/blog/Starbucks-Mobile-Commerce-&-Progressive-Web-Apps.webp" alt="Starbucks Mobile Commerce & Progressive Web Apps">
 
 <h3><li>Voice Commerce</li></h3>
 
