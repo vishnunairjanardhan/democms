@@ -514,6 +514,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"ecommerce-technology.md": {
+	id: "ecommerce-technology.md";
+  slug: "ecommerce-technology";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "essential-marketing-tools-for-2021.md": {
 	id: "essential-marketing-tools-for-2021.md";
   slug: "essential-marketing-tools-for-2021";
