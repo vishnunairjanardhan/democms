@@ -46,10 +46,11 @@ const All = [
       </div>
       <div class="relative border-t mt-4 border-vulcan-800 flex items-center justify-center w-full " data-aos="zoom-in" data-aos-duration="3000">
         <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6">
-          <div class="relative items-center w-full" style="">
+          <div class="relative items-center w-full">
             <ul class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24" role="list">
               {All.map((item, index) => (
                 <li key={index}>
+                <div data-tilt class="border rounded-lg border-indigo-900 p-2" >
                   <div>
                     <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
                     <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
@@ -62,6 +63,7 @@ const All = [
                       </p>
                     }
                   </div>
+                </div>
                 </li>
               ))}
             </ul>
