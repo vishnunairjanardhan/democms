@@ -195,13 +195,13 @@ export const Payment = [
 {
   image: '/integrations/authorize-icon.svg',
   title: 'Authorize.net',
-  desc: '',
+  desc: 'Sell gift cards through the 99minds online storefront and accept payments directly into your Authorize.net account.',
   alt:"99minds-Authorize.net Integration"
 },
 {
   image: '/integrations/spreedly.svg',
   title: 'Spreedly',
-  desc: '',
+  desc: "Sell gift cards through the 99minds online storefront and accept payments through multiple gateways using Spreedly's payment platform.",
   alt:"99minds-Spreedly Integration"
 }
 ]
