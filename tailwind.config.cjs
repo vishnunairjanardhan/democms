@@ -7,7 +7,7 @@ module.exports = {
     animation: {
       marquee: 'marquee 25s linear infinite',
       marquee2: 'marquee2 25s linear infinite',
-      'fade-in': 'fade-in 0.5s linear forwards',
+      'fade-in': 'fade-in 0.2s linear forwards',
     },
     keyframes: {
       marquee: {
@@ -121,6 +121,9 @@ module.exports = {
       ],
     },
     extend: {
+      maxWidth: {
+        '7xl': '90rem', // Overwrite max-w-7xl to 90rem (1440px)
+      },
       keyframes: {
         disco: {
           '0%': {
@@ -137,16 +140,16 @@ module.exports = {
       colors: {
         vulcan: {
           50: "#EFF0F5",
-      100: "#DFE1EC",
-      200: "#BFC3D9",
-      300: "#9FA5C6",
-      400: "#8087B3",
-      500: "#636CA1",
-      600: "#4E5683",
-      700: "#3B4163",
-      800: "#282C43",
-      900: "#151723",
-      950: "#0B0D13"
+          100: "#DFE1EC",
+          200: "#BFC3D9",
+          300: "#9FA5C6",
+          400: "#8087B3",
+          500: "#636CA1",
+          600: "#4E5683",
+          700: "#3B4163",
+          800: "#282C43",
+          900: "#151723",
+          950: "#0B0D13"
         },
       },
       borderRadius: {
