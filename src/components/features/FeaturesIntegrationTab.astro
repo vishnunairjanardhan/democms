@@ -30,7 +30,7 @@ const All = [
         }
     }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);">
       <div class="hidden lg:max-w-6xl sm:block md:block">
-        <div data-aos="fade-down" data-aos-duration="3000" class=" relative flex flex-row items-center gap-10 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
+        <div data-aos="fade-down" data-aos-duration="2000" class=" relative flex flex-row items-center gap-10 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
           <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-1">All</button>
           <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-2">E-commerce</button>
           <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">POS</button>
@@ -44,7 +44,7 @@ const All = [
           </div>
         </div>
       </div>
-      <div class="relative border-t mt-4 border-vulcan-800 flex items-center justify-center w-full " data-aos="zoom-in" data-aos-duration="3000">
+      <div class="relative border-t mt-4 border-vulcan-800 flex items-center justify-center w-full " data-aos="zoom-in" data-aos-duration="2000">
         <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6">
           <div class="relative items-center w-full">
             <ul class="grid grid-cols-2 gap-6 mt-12 list-none lg:grid-cols-4 lg:gap-x-12 lg:gap-y-32 lg:mt-24" role="list">
@@ -59,7 +59,7 @@ const All = [
                     {item.desc}
                     {!!item.url &&
                       <p class="mt-4">
-                        <a href={item.url} class="text-base leading-6 text-[#FBEACA] hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
                       </p>
                     }
                   </div>
@@ -80,14 +80,12 @@ const All = [
                   </div>
                   <div class="mt-2 text-sm text-white/70">
                     {item.desc}
-                    <p class="mt-4 "> 
-                    <!--<a href={item.url} title="Stripe" aria-label="/integrations/1" class="text-sm leading-6 text-indigo-300 hover:text-white block">Read more <span aria-hidden="true">→</span></a> </p>-->
                   </div>
                   {!!item.url &&
-                      <p class="mt-4">
-                        <a href={item.url} class="text-sm leading-6 text-[#FBEACA] hover:text-white block">Read more <span aria-hidden="true">→</span></a>
-                      </p>
-                    }
+                    <p class="mt-4">
+                      <a href={item.url} class="text-sm leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                    </p>
+                  }
                 </li>
               ))}
             </ul>
@@ -104,12 +102,10 @@ const All = [
                   </div>
                   <div class="mt-2 text-sm text-white/70">
                     {item.desc}
-                    <!--<p class="mt-4"> 
-                    <a href={item.url} title="Stripe" aria-label="/integrations/1" class="text-sm leading-6 text-indigo-300 hover:text-white block">Read more <span aria-hidden="true">→</span></a> </p>-->
                   </div>
                   {!!item.url &&
                       <p class="mt-4">
-                        <a href={item.url} class="text-sm leading-6 text-[#FBEACA] hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        <a href={item.url} class="text-sm leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
                       </p>
                     }
                   <div class="mt-2 text-sm text-vulcan-300">
@@ -132,12 +128,10 @@ const All = [
                 </div>
                 <div class="mt-2 text-sm text-white/70">
                   {item.desc}
-                  <!--<p class="mt-4"> 
-                    <a href={item.url} title="Stripe" aria-label="/integrations/1" class="text-sm leading-6 text-indigo-300 hover:text-white block">Read more <span aria-hidden="true">→</span></a> </p>-->
                 </div>
                 {!!item.url &&
                       <p class="mt-4">
-                        <a href={item.url} class="text-sm leading-6 text-[#FBEACA] hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        <a href={item.url} class="text-sm leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
                       </p>
                     }
               </li>
@@ -161,7 +155,7 @@ const All = [
                   </div>
                   {!!item.url &&
                       <p class="mt-4">
-                        <a href={item.url} class="text-sm leading-6 text-[#FBEACA] hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        <a href={item.url} class="text-sm leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
                       </p>
                     }
                 </li>
@@ -185,7 +179,7 @@ const All = [
                   </div>
                   {!!item.url &&
                       <p class="mt-4">
-                        <a href={item.url} class="text-sm leading-6 text-[#FBEACA] hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        <a href={item.url} class="text-sm leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
                       </p>
                     }
                 </li>
@@ -209,7 +203,7 @@ const All = [
                   </div>
                   {!!item.url &&
                       <p class="mt-4">
-                        <a href={item.url} class="text-sm leading-6 text-[#FBEACA] hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        <a href={item.url} class="text-sm leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
                       </p>
                     }
                 </li>
@@ -233,7 +227,7 @@ const All = [
                   </div>
                   {!!item.url &&
                       <p class="mt-4">
-                        <a href={item.url} class="text-sm leading-6 text-[#FBEACA] hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        <a href={item.url} class="text-sm leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
                       </p>
                     }
                 </li>
