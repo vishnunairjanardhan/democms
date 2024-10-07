@@ -1,12 +1,12 @@
 <section class="lg:p-8 border-t border-y border-white/5">
-  <div class="mx-auto 2xl:max-w-7xl py-12 lg:px-16 md:px-12 px-6 sm:px-4 items-center w-full">
+  <div class="mx-auto 2xl:max-w-7xl py-12 lg:px-24 md:px-12 px-6 sm:px-4 items-center w-full">
     <div class="mx-auto text-center lg:py-8">
       <h2 class="mt-4 text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-white">
         Don’t just take our word for it.<br /> Meet our brands.
       </h2>
     </div>
 
-    <div class="flex flex-col w-full" 
+    <div class="flex flex-col w-full lg:px-2" 
       x-data="{
         activeTab: 1,
         interval: null,
@@ -40,18 +40,41 @@
     >
       
       <div class="relative inline-grid items-center justify-center w-full h-8 grid-cols-3 md:grid-cols-4 mx-auto mt-6 text-white select-none hidden sm:grid">
-        <button @click="activeTab = 1; stopAutoSlide()" :class="{ 'text-white bg-white border font-bold rounded-3xl': activeTab === 1, 'text-white': activeTab !== 1 }" class="px-2 py-2 md:px-4 md:py-2"><img class="h-7 justify-center mx-auto" alt="Group" src="/assets/testimonial/pinstripes-logo-vector1.svg" />
-        </button>
-        <button @click="activeTab = 2; stopAutoSlide()" :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 2, 'text-gray-400': activeTab !== 2 }" class="px-2 py-1 md:px-4 md:py-2"><img class="h-7 justify-center mx-auto" alt="Group" src="/assets/testimonial/Flynnohara-logo.svg" />
-        </button>
-        <button @click="activeTab = 3; stopAutoSlide()" :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 3, 'text-gray-400': activeTab !== 3 }" class="px-2 py-1 md:px-4 md:py-2"><img class="h-6 justify-center mx-auto" alt="Group" src="/assets/testimonial/Cariloha-logo-b.svg" />
-        </button>
-        <button @click="activeTab = 4; stopAutoSlide()" :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 4, 'text-gray-400': activeTab !== 4 }" class="px-2 py-1 md:px-4 md:py-2"><img class="h-7 justify-center mx-auto" alt="Group" src="/assets/testimonial/bestop-logo-c1.svg" /></button>
-        <!--<button @click="activeTab = 5; stopAutoSlide()" :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 5, 'text-gray-400': activeTab !== 5 }" class="px-2 py-1 md:px-4 md:py-2">BAREFACED</button>
-        <button @click="activeTab = 6; stopAutoSlide()" :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 6, 'text-gray-400': activeTab !== 6 }" class="px-2 py-1 md:px-4 md:py-2">REVOLUTION</button>-->
-      </div>
+  <button @click="activeTab = 1; stopAutoSlide()" 
+          :class="{ 'text-white bg-white border font-bold rounded-3xl': activeTab === 1, 'text-white': activeTab !== 1 }" 
+          class="px-2 py-2 md:px-4 md:py-4">
+    <img :src="activeTab === 1 ? '/assets/testimonial/Pinstripe-logo.svg' : '/assets/testimonial/Pinstripe-logo-w.svg'"
+         class="h-6 justify-center mx-auto" 
+         alt="Group" />
+  </button>
 
-      <div class="relative overflow-hidden mt-4">
+  <button @click="activeTab = 2; stopAutoSlide()" 
+          :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 2, 'text-gray-400': activeTab !== 2 }" 
+          class="px-2 py-1 md:px-4 md:py-4">
+    <img :src="activeTab === 2 ? '/assets/testimonial/Flynnohara-logo-b.svg' : 'https://nine9minds-staging.onrender.com/static/flynn_1-96f8c0617114abdf5e7a652c6aad4a0d.png'" 
+         class="h-7 justify-center mx-auto" 
+         alt="Group" />
+  </button>
+
+  <button @click="activeTab = 3; stopAutoSlide()" 
+          :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 3, 'text-gray-400': activeTab !== 3 }" 
+          class="px-2 py-1 md:px-4 md:py-4">
+    <img :src="activeTab === 3 ? '/assets/testimonial/C-logo-b.svg' : 'https://nine9minds-staging.onrender.com/static/cariloha_1-6da63f5b7574672e05b4e4616f41ff2b.png'" 
+         class="h-6 justify-center mx-auto" 
+         alt="Group" />
+  </button>
+
+  <button @click="activeTab = 4; stopAutoSlide()" 
+          :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 4, 'text-gray-400': activeTab !== 4 }" 
+          class="px-2 py-1 md:px-4 md:py-4">
+    <img :src="activeTab === 4 ? '/assets/testimonial/Bestop-logo.svg' : '/assets/testimonial/Bestop-logo-w.svg'" 
+         class="h-7 justify-center mx-auto" 
+         alt="Group" />
+  </button>
+</div>
+
+
+      <div class="relative overflow-hidden mt-6">
         <div class="flex transition-transform duration-500" :style="{ transform: `translateX(-${(activeTab - 1) * 100}%)` }">
           <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
             <div class="w-full flex flex-col shrink-0 snap-start h-full">
@@ -93,7 +116,7 @@
                             </div>
                           </div>
                           <div class="mt-4 lg:mt-0 p-4 lg:px-10">
-                            <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[350px]" loading="lazy" src="/assets/testimonial/Pinstripe-t.svg" alt="" />
+                            <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[370px]" loading="lazy" src="/assets/testimonial/Pinstripes-t.webp" alt="" />
                           </div>
                         </div>
                       </div>
@@ -113,7 +136,7 @@
                                               <div class="lg:flex lg:h-full lg:items-center">
                                                   <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
                                                       <div class="ml-4 h-9">
-                                                          <img class="" alt="Group" src="/assets/testimonial/Flynnohara-logo.svg" />
+                                                          <img class="" alt="Group" src="/assets/testimonial/Flynnohara-logo-b.svg" />
                                                       </div>
                                                       <div class="grid grid-cols-2 w-full mt-10 gap-4">
                                                           <div class="flex flex-col w-full">
@@ -143,7 +166,7 @@
                                                       </div>
                                                   </div>
                                                   <div class="mt-4 lg:mt-0 p-4 lg:px-10">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[350px]" loading="lazy" src="/assets/testimonial/Flynnohara-t2.svg" alt="" />
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[370px]" loading="lazy" src="/assets/testimonial/Flynnohara-t.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
@@ -193,7 +216,7 @@
                                                       </div>
                                                   </div>
                                                   <div class="mt-4 lg:mt-0 p-4 lg:px-10">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[350px]" loading="lazy" src="/assets/testimonial/Cariloha-t2.svg" alt="" />
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[370px]" loading="lazy" src="/assets/testimonial/Cariloha-t.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
@@ -243,7 +266,7 @@
                                                       </div>
                                                   </div>
                                                   <div class="mt-4 lg:mt-0 p-4 lg:px-10">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[350px]" loading="lazy" src="/assets/testimonial/Bestop-t2.svg" alt="" />
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[370px]" loading="lazy" src="/assets/testimonial/Bestop-t.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
@@ -253,7 +276,7 @@
                           </figure>
                       </div>
                   </div>
-                  <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+                  <!--<div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
                       <div class="w-full flex flex-col shrink-0 snap-start h-full">
                           <figure class="h-full">
                               <ul class="h-full">
@@ -293,7 +316,7 @@
                                                       </div>
                                                   </div>
                                                   <div class="mt-4 lg:mt-0 p-4 lg:px-10">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[350px]" loading="lazy" src="/assets/testimonial/Testimonial4.jpg" alt="" />
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[370px]" loading="lazy" src="/assets/testimonial/Testimonial4.jpg" alt="" />
                                                   </div>
                                               </div>
                                           </div>
@@ -343,7 +366,7 @@
                                                       </div>
                                                   </div>
                                                   <div class="mt-4 lg:mt-0 p-4 lg:px-10">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[350px]" loading="lazy" src="/assets/testimonial/Testimonial5.jpg" alt="" />
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[370px]" loading="lazy" src="/assets/testimonial/Testimonial5.jpg" alt="" />
                                                   </div>
                                               </div>
                                           </div>
@@ -352,7 +375,7 @@
                               </ul>
                           </figure>
                       </div>
-                  </div>
+                  </div>-->
                 
            </div>
        </div>
