@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Slide from "../components/features/Slide.astro";
+import ProgramWidget from "../components/features/ProgramWidget.astro";
+import SocialWidget from "../components/features/SocialWidget.astro";
 
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -11,9 +13,9 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <AstroSeo
   title="99minds | Case Studies"
   description="Discover the power of strategic collaborations with 99minds through illuminating case studies"
-  canonical="https://www.99minds.io/case-study1"
+  canonical="https://www.99minds.io/product"
   openGraph={{
-    url: "https://www.99minds.io/case-study1",
+    url: "https://www.99minds.io/product",
     title: "99minds | Case Studies",
     description: "Discover the power of strategic collaborations with 99minds through illuminating case studies",
     images: [
@@ -39,5 +41,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
 <BaseLayout>
-  <Slide>
+<Slide/>
+<ProgramWidget/>
+<SocialWidget/>
 </BaseLayout>
