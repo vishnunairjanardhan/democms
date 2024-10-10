@@ -21,7 +21,7 @@
         }
     }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="relative mt-10">
      <div class="hidden lg:max-w-6xl sm:block md:block">
-    <div class=" relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons" data-aos="fade-down" data-aos-duration="3000">
+    <div class=" relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
         {buttonConfig.map((button) => (
           <button
           class="relative z-20 inline-flex p-2 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id={button.id}>

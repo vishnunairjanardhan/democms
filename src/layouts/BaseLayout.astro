@@ -13,8 +13,7 @@ import Footer from "../components/global/Footer.astro";
   </head>
   <body class="bg-vulcan-900">
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWJJGX6"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWJJGX6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <Navigation />
     <ContactWidget />
     <slot />
@@ -31,11 +30,11 @@ import Footer from "../components/global/Footer.astro";
       t = d.getElementsByTagName("script")[0];
       t.parentNode.insertBefore(s, t);
       d.innerHTML = "<div id='zsiqwidget'></div>";
-  </script>
-   <script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script type="text/javascript">
-    AOS.init();
-  </script>
+    </script>
+    <script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init();
+    </script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"
       crossorigin="anonymous"
