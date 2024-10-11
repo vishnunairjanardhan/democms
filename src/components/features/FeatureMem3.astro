@@ -11,135 +11,121 @@
         
         <ul class="grid grid-cols-1 gap-2 mt-4 sm:grid-cols-2 lg:grid-cols-3 lg:mt-24">
             <li class="p-[0.060rem] rounded-3xl shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-indigo-500 via-indigo-500/5 lg:col-span-2">
-                <div class="flex flex-col justify-between h-[36rem] p-8 border shadow-2xl lg:p-10 border-white/5 rounded-3xl bg-vulcan-900">
+                <div class="flex flex-col justify-between h-[36rem] p-8 border shadow-2xl lg:p-10 border-white/5 rounded-3xl bg-vulcan-900" x-data="{ count: 1 }">
                     <div>
-                       <p class="font-semibold lg:text-xl text-white">Reward management</p>
+                        <p class="font-semibold lg:text-xl text-white">Reward management</p>
                         <p class="mt-4 text-base">
-                            Offer your customers flat rate or percentage-based commission structure on all their referrals. Set rules for qualifying purchases like minimum cart value, net new customers only and more!
+                            Offer your customers flat rate or percentage-based commission structure on all their referrals. Set rules for qualifying purchases like minimum cart value, net new customers only, and more!
                         </p>
                         <ul class="grid grid-cols-1 gap-2 mt-4 sm:grid-cols-2 lg:grid-cols-3 lg:mt-10">
-                        <li class="p-[0.060rem] rounded-t-3xl  shadow-vulcan-950 bg-gradient-to-b from-indigo-500 via-indigo-500/5 lg:col-span-2">
-                            <div class="flex flex-col justify-between pt-8 border shadow-2xl lg:px-10 border-white/5 rounded-t-3xl bg-vulcan-900">
-                                <div class="flex">
-                                  <div class="flex-auto"><p class="font-semibold lg:text-xl text-white">Your Cart</p></div>
-                                  <div class="flex-auto"><button type="button" class="flex items-center float-right w-auto mt-0 h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">Continue Shopping</button></div>
-                                 </div>
-                                 <div class="mt-6">
-                                    <div class="flex space-x-6 bg-gray-50 border pt-4 lg:p-4 rounded-xl">
-                                    <img src="https://images.unsplash.com/photo-1510878933023-e2e2e3942fb0?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=2072&amp;q=80" alt="#_" class="h-20 w-20 flex-none rounded-lg bg-gray-200 object-cover object-center">
-                                        <div class="flex flex-col justify-between space-y-4 w-full">
-                                            <div class="space-y-1 text-sm font-medium">
-                                                <p class="text-base font-semibold text-black">iPhone</p>
-                                                    <div class="flex">
+                            <li class="p-[0.060rem] rounded-t-3xl shadow-vulcan-950 bg-gradient-to-b from-indigo-500 via-indigo-500/5 lg:col-span-2">
+                                <div class="flex flex-col justify-between pt-8 border shadow-2xl lg:px-10 border-white/5 rounded-t-3xl bg-vulcan-900">
+                                    <div class="flex">
+                                        <div class="flex-auto">
+                                            <p class="font-semibold lg:text-xl text-white">Your Cart</p>
+                                        </div>
+                                        <div class="flex-auto">
+                                            <button type="button" class="flex items-center float-right w-auto mt-0 h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">Continue Shopping</button>
+                                        </div>
+                                    </div>
+                                    <div class="mt-6">
+                                        <div class="flex space-x-6 bg-gray-50 border pt-4 lg:p-4 rounded-xl">
+                                            <img src="https://images.unsplash.com/photo-1510878933023-e2e2e3942fb0?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=2072&amp;q=80" alt="Product image" class="h-20 w-20 flex-none rounded-lg bg-gray-200 object-cover object-center">
+                                            <div class="flex flex-col justify-between space-y-4 w-full">
+                                                <div class="space-y-1 text-sm font-medium">
+                                                    <p class="text-base font-semibold text-black">iPhone</p>
+                                                    <div class="flex items-center">
                                                         <p class="text-gray-500 text-sm mt-2 flex-auto">$799.00</p> 
-                                                      
-                                                <form class="max-w-xs flex-auto">
-                                                    <div class="relative lg:ml-20 flex items-center">
-                                                        <button type="button" id="decrement-button" data-input-counter-decrement="counter-input" class="flex-shrink-0 bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:border-gray-600 hover:bg-gray-200 inline-flex items-center justify-center border border-gray-300 rounded-md h-5 w-5 focus:ring-gray-100 dark:focus:ring-gray-700 focus:ring-2 focus:outline-none">
-                                                            <svg class="w-2.5 h-2.5 text-gray-900 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 2">
-                                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h16"/>
-                                                            </svg>
-                                                        </button>
-                                                        <input type="text" id="counter-input" data-input-counter class="flex-shrink-0 text-gray-900 dark:text-white border-0 bg-transparent text-sm font-normal focus:outline-none focus:ring-0 max-w-[2.5rem] text-center" placeholder="" value="12" required />
-                                                        <button type="button" id="increment-button" data-input-counter-increment="counter-input" class="flex-shrink-0 bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:border-gray-600 hover:bg-gray-200 inline-flex items-center justify-center border border-gray-300 rounded-md h-5 w-5 focus:ring-gray-100 dark:focus:ring-gray-700 focus:ring-2 focus:outline-none">
-                                                            <svg class="w-2.5 h-2.5 text-gray-900 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-                                                            </svg>
-                                                        </button>
+                                                        <form class="max-w-xs flex-auto">
+                                                            <div class="relative lg:ml-20 flex items-center">
+                                                                <button type="button" @click="count > 1 ? count-- : count" class="flex-shrink-0 bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:border-gray-600 hover:bg-gray-200 inline-flex items-center justify-center border border-gray-300 rounded-md h-5 w-5 focus:ring-gray-100 dark:focus:ring-gray-700 focus:ring-2 focus:outline-none">
+                                                                    <svg class="w-2.5 h-2.5 text-gray-900 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 2">
+                                                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h16"/>
+                                                                    </svg>
+                                                                </button>
+                                                                <input type="text" x-model="count" class="flex-shrink-0 text-gray-900 border-0 bg-transparent text-sm font-normal focus:outline-none focus:ring-0 max-w-[2.5rem] text-center" readonly />
+                                                                <button type="button" @click="count++" class="flex-shrink-0 bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:border-gray-600 hover:bg-gray-200 inline-flex items-center justify-center border border-gray-300 rounded-md h-5 w-5 focus:ring-gray-100 dark:focus:ring-gray-700 focus:ring-2 focus:outline-none">
+                                                                    <svg class="w-2.5 h-2.5 text-gray-900 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                                                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                        </form>
                                                     </div>
-                                                </form>
-                                                
                                                 </div>
                                             </div>
-                                            <!--<div class="flex ml-auto">
-                                            <button type="button" class="text-sm font-medium text-gray-600 hover:text-gray-500">Remove</button>
-                                            </div>-->
+                                        </div>
+                                    </div>
+                                    <div class="col-span-full mt-5">
+                                        <p class="text-white text-base">Discount code</p>
+                                    </div>
+                                    <div class="col-span-full mt-2 sm:col-span-4">
+                                        <div class="mt-1 mb-10 flex w-full space-x-2">
+                                            <input id="discount-code" type="text" name="discount-code" placeholder="50OFF" aria-label="Discount code" class="flex-auto w-full rounded-lg border-0 bg-white px-3.5 py-3 text-black focus:ring-inset focus:ring-black focus:ring-2 sm:text-sm sm:leading-6 placeholder:text-gray-600">
+                                            <button type="submit" aria-label="Apply discount code" class="items-center text-sm group active:bg-gray-100 active:text-gray-500/60 active:transition-none border font-medium gap-2 inline-flex justify-center outline-offset-2 px-6 py-3 transition w-40 bg-white hover:bg-gray-300 text-black rounded-lg">Apply</button>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-span-full mt-5">
-                                    <p class="text-white text-base">Discount code</p>
-                                </div>
-                                <div class="col-span-full mt-2 sm:col-span-4">
-                                    <p class="sr-only">Discount code</p>
-                                    <div class="mt-1 mb-10 flex w-full space-x-2">
-                                        <input id="discount-code" type="text" name="discount-code" placeholder="50OFF" aria-label="Discount code" class="flex-auto w-full rounded-lg border-0 bg-white px-3.5 py-3 text-black focus:ring-inset focus:ring-black focus:ring-2 sm:text-sm sm:leading-6 placeholder:text-gray-600">
-                                        <button type="submit" aria-label="Apply discount code" class="items-center text-sm group active:bg-gray-100 active:text-gray-500/60 active:transition-none border font-medium gap-2 inline-flex justify-center outline-offset-2 px-6 py-3 transition w-40 bg-white hover:bg-gray-300 text-black rounded-lg">Apply</button>
-                                    </div>
-                                </div>
-                                <!--<footer class="mt-8">
-                                    <p class="text-indigo-300 font-display lg:text-sm">John D</p>   
-                                </footer>-->
-                            </div>
-                        </li>
-                        <li class="p-[0.060rem] rounded-t-3xl  shadow-vulcan-950 bg-gradient-to-b from-indigo-500 via-indigo-500/5">
-                            <div class="flex flex-col justify-between h-full p-8 border shadow-2xl lg:p-5 border-white/5 rounded-t-3xl bg-vulcan-900">
-                                <div>
-                                    <div class="flex gap-x-1">
-                                       
-                                    </div>
-                                    <p class="mt-2 text-base text-white">
-                                        Reward value per referred subscriptions
-                                    </p>
-                                    <div class="mt-4 text-white">
-                                        <fieldset>
-                                        <input id="draft" class="peer/draft" type="radio" name="status" checked />
-                                        <label for="draft" class="peer-checked/draft:text-sky-500 text-xl font-semibold ml-2">$</label>
-
-                                        <input id="published" class="peer/published ml-6" type="radio" name="status" />
-                                        <label for="published" class="peer-checked/published:text-sky-500 text-xl font-semibold ml-2">%</label>
-
-                                        <div class="hidden peer-checked/draft:block py-4 bg-white text-black rounded-lg mt-4 justify-center text-center font-semibold">$ 10.00</div>
-                                        <div class="hidden peer-checked/published:block py-4 bg-white text-black rounded-lg mt-4 justify-center text-center font-semibold">% 10.00</div>
-                                        </fieldset>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
                     </div>
-                    <!--<footer class="mt-8">
-                        <p class="text-indigo-300 font-display lg:text-sm">John D</p>
-                    </footer>-->
                 </div>
             </li>
-            <li class="p-[0.060rem]  rounded-3xl shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-indigo-500 via-indigo-500/5">
-                <div class="flex flex-col justify-between h-[36rem] p-8 border shadow-2xl lg:p-10 border-white/5 rounded-3xl bg-vulcan-900">
-                    <div>
-                        <div class="flex gap-x-1">
-                            
+            <li class="p-[0.060rem] rounded-3xl shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-indigo-500 via-indigo-500/5">
+            <div class="flex flex-col justify-between h-[36rem] p-8 border shadow-2xl lg:p-10 border-white/5 rounded-3xl bg-vulcan-900" 
+                x-data="{ isChecked: false, count: 0, target: 79, counter() { 
+                    this.count = 0; // Reset count
+                    let interval = setInterval(() => { 
+                        if (this.count < this.target) { 
+                            this.count += 1; 
+                        } else { 
+                            clearInterval(interval); 
+                        } 
+                    }, 50); 
+                } }">
+                
+                <div>
+                    <div class="flex gap-x-1"></div>
+                    <p class="font-semibold lg:text-xl text-white">Cashback</p>
+                    <p class="mt-4 text-base">
+                        Customers can earn store credit on all their orders to increase repeat purchases.
+                    </p>
+                    <div class="flex space-x-6 bg-gray-50 border lg:mt-10 lg:p-4 rounded-xl">
+                        <div class="flex flex-col justify-between space-y-4 w-full">
+                            <div class="space-y-1 text-sm font-medium">
+                                <label class="inline-flex items-center cursor-pointer">
+                                    <input type="checkbox" x-model="isChecked" @change="isChecked && counter()" class="sr-only peer">
+                                    <span class="ms-3 text-base font-semibold text-vulcan-400 ">Cashback</span>
+                                    <div class="relative w-11 h-6 ml-28 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                                </label>
+                            </div>
                         </div>
-                       <p class="font-semibold lg:text-xl text-white">Cashback</p>
-                        <p class="mt-4 text-base">
-                            Customers can earn store credit on all their orders to increase repeat purchases.
-                        </p>
-                        <div class="flex space-x-6 bg-gray-50 border lg:mt-10 lg:p-4 rounded-xl">
-                                <div class="flex flex-col justify-between space-y-4 w-full">
-                                    <div class="space-y-1 text-sm font-medium">
-                                        <label class="inline-flex items-center cursor-pointer">
-                                        <input type="checkbox" value="" class="sr-only peer">
-                                        <span class="ms-3 text-base font-semibold text-gray-900 dark:text-gray-300">Cashback</span>
-                                        <div class="relative w-11 h-6 ml-28 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                                        </label>
+                    </div> 
+                    <div class="p-[0.060rem] mt-7 rounded-3xl shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-indigo-500 via-indigo-500/5"> 
+                        <div class="h-[17rem] flex flex-col justify-between pt-4 border shadow-2xl lg:px-6 border-white/5 rounded-t-3xl bg-vulcan-900">
+                            <div class="flex pt-4">
+                                <div class="flex-auto"><p class="text-base font-semibold">Adom</p></div>
+                                <div class="flex-auto"><p class="text-base font-semibold float-right">VIP Program</p></div>
+                            </div>
+                            <div class="mt-0 mb-16">
+                                <!-- Show animated counter if checkbox is checked, otherwise show $0.00 -->
+                                <template x-if="isChecked">
+                                    <div x-init="counter()">
+                                        <p class="text-3xl font-regular text-white" x-text="'$' + count +'.90'"></p>
+                                        <p class="text-base text-white">My reward</p>
                                     </div>
-                                </div>
+                                </template>
+                                <template x-if="!isChecked">
+                                    <div>
+                                        <p class="text-3xl font-regular text-white">$0.00</p>
+                                        <p class="text-base text-white">My reward</p>
+                                    </div>
+                                </template>
+                            </div>
                         </div> 
-                        <div class="p-[0.060rem] mt-7 rounded-3xl shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-indigo-500 via-indigo-500/5"> 
-                         <div class=" h-[17rem] flex flex-col justify-between pt-4 border shadow-2xl lg:px-6 border-white/5 rounded-t-3xl bg-vulcan-900">
-                                <div class="flex pt-4">
-                                  <div class="flex-auto"><p class="text-base font-semibold ">Adom</p></div>
-                                  <div class="flex-auto"><p class="text-base font-semibold float-right">VIP Program</p></div>
-                                 </div>
-                                <div class="mt-0 mb-16">
-                                  <div class=""><p class="text-3xl font-regular text-white">$0.00</p></div>
-                                  <div class=""><p class="text-base text-white">My reward</p></div>
-                                 </div>
-                            </div> 
-                        </div>             
-                    </div>
-
+                    </div>             
                 </div>
+            </div>
             </li>
         </ul>
     </div>
