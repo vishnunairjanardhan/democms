@@ -168,12 +168,12 @@ Develop a range of enticing perks that can be offered in conjunction with gift c
 <li><h4 style="font-weight: bold;" id="Background">Background</h4>
 Boost your business's sales and customer experience by incorporating the versatile gift card solutions offered by 99minds. Introducing gift cards in your business strategy isn’t just about boosting sales - it’s about enhancing customer engagement and providing seamless shopping experiences. 99minds supports a comprehensive gift card program that adapts to your specific business needs, whether you operate online, in-store, or both.
 
-<img rel= "preload" rple= "img" src="/assets/blog/free-fly-apparel.jpg" alt= "Digital Gift card">
+<img rel= "preload" rple= "img" src="/assets/blog/free-fly-apparel.jpg" alt= "Free Fly Apparel's example of using gift cards for refunds">
 </li>
 <li><h4 style="font-weight: bold;" id="Strategy">Strategy</h4>
 Free Fly decided to incorporate gift cards as a refund alternative during returns and exchanges, particularly during promotional periods and as part of their loyalty programs. This decision was influenced by the need to enhance customer retention and satisfaction without the typical expenditure involved in processing cash refunds.
 
-<img rel= "preload" rple= "img" src="/assets/blog/gift-card_copy.jpeg" alt= "Digital Gift card">
+<img rel= "preload" rple= "img" src="/assets/blog/gift-card_copy.jpeg" alt= "Free Fly Apparel's Gift card">
 </li>
 <li><h4 style="font-weight: bold;" id="Implementation">Implementation</h4>
 Through Shopify’s enhanced capabilities, Free Fly issued digital gift cards that customers could use immediately for online purchases or save for later use. The flexibility of the Shopify platform allowed the company to manage these gift cards efficiently, ensuring that customers could receive and redeem them without hassle.

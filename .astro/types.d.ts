@@ -241,6 +241,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"5-loyalty-marketing-strategies-for-loyal-and-happy-customers.md": {
+	id: "5-loyalty-marketing-strategies-for-loyal-and-happy-customers.md";
+  slug: "5-loyalty-marketing-strategies-for-loyal-and-happy-customers";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md": {
 	id: "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md";
   slug: "5-must-have-features-for-a-successful-shopify-store-gift-card-program";
