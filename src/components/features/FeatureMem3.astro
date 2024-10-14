@@ -19,7 +19,7 @@
                         </p>
                         <ul class="grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 lg:grid-cols-3 lg:mt-10">
                             <li class="p-[0.010rem] rounded-t-3xl shadow-vulcan-950 lg:col-span-2">
-                                <div class="flex flex-col h-[24.35rem] justify-between pt-8 border shadow-2xl lg:px-10 border-vulcan-700 rounded-t-3xl bg-vulcan-900 group-hover:bg-white group-hover:bg-opacity-50">
+                                <div class="flex flex-col h-[24.35rem] justify-between pt-8 border shadow-2xl lg:px-10 border-vulcan-700 rounded-t-3xl bg-vulcan-900 group-hover:bg-white">
                                     <div class="flex">
                                         <div class="flex-auto">
                                             <p class="font-semibold lg:text-xl text-white group-hover:text-black">Your Cart</p>
@@ -61,7 +61,7 @@
                                     </div>
                                     <div class="col-span-full mt-2 sm:col-span-4 ">
                                         <div class="mt-1 mb-10 flex w-full space-x-2">
-                                            <input id="discount-code" type="text" name="discount-code" placeholder="50OFF" aria-label="Discount code" class="flex-auto w-full rounded-lg border border-vulcan-700 bg-vulcan-900 group-hover:bg-white px-3.5 py-3 text-white focus:ring-inset focus:ring-vulcun-900 focus:ring-1 sm:text-sm sm:leading-6 placeholder:text-white/9">
+                                            <input id="discount-code" type="text" name="discount-code" placeholder="50OFF" aria-label="Discount code" class="flex-auto w-full rounded-lg border border-vulcan-700 bg-vulcan-900 group-hover:bg-white px-3.5 py-3 text-white focus:ring-inset focus:ring-vulcun-900 focus:ring-1 sm:text-sm sm:leading-6 placeholder:text-white/9 group-hover:text-black">
                                             <button type="submit" aria-label="Apply discount code" class="items-center text-sm group active:bg-gray-100 active:text-gray-500/60 active:transition-none border border-vulcan-700 font-medium gap-2 inline-flex justify-center outline-offset-2 px-6 py-3 transition w-40 bg-vulcan-900 hover:text-indigo-400 text-white rounded-lg">Apply</button>
                                         </div>
                                     </div>
@@ -115,7 +115,7 @@
                                 <div class="space-y-1 text-sm font-medium">
                                     <label class="inline-flex items-center cursor-pointer">
                                         <input type="checkbox" x-model="isChecked" @change="isChecked && counter()" class="sr-only peer">
-                                        <span class="ms-3 text-base font-semibold text-white">Cashback</span>
+                                        <span class="ms-3 text-base font-semibold text-white group-hover:text-black">Cashback</span>
                                         <div class="relative w-11 h-6 ml-40 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
                                     </label>
                                 </div>
@@ -123,24 +123,24 @@
                         </div> 
                         
                         <!-- This div changes background color when parent div is hovered -->
-                        <div class="p-[0.060rem] mt-7 rounded-3xl shadow-2xl shadow-vulcan-950 group-hover:bg-white transition-colors duration-200"> 
+                        <div class=" mt-7 rounded-3xl shadow-2xl shadow-vulcan-950 group-hover:bg-white transition-colors duration-200"> 
                             <div class="h-56 flex flex-col justify-between pt-4 border lg:px-6 border-vulcan-700 rounded-3xl bg-vulcan-900 group-hover:bg-white transition-colors duration-200">
-                                <div class="flex pt-4">
-                                    <div class="flex-auto"><p class="text-base font-semibold">Adom</p></div>
-                                    <div class="flex-auto"><p class="text-base font-semibold float-right">VIP Program</p></div>
+                                <div class="flex pt-4 ">
+                                    <div class="flex-auto "><p class="text-base font-semibold group-hover:text-black">Adom</p></div>
+                                    <div class="flex-auto "><p class="text-base font-semibold float-right group-hover:text-black">VIP Program</p></div>
                                 </div>
                                 <div class="mt-10 mb-10">
                                     <!-- Show animated counter if checkbox is checked, otherwise show $0.00 -->
                                     <template x-if="isChecked">
                                         <div x-init="counter()">
-                                            <p class="text-3xl font-regular text-white" x-text="'$' + count +'.90'"></p>
-                                            <p class="text-base text-white">My reward</p>
+                                            <p class="text-3xl font-regular text-white group-hover:text-black" x-text="'$' + count +'.90'"></p>
+                                            <p class="text-base text-white group-hover:text-black">My reward</p>
                                         </div>
                                     </template>
                                     <template x-if="!isChecked">
                                         <div>
                                             <p class="text-3xl font-regular text-white group-hover:text-black">$0.00</p>
-                                            <p class="text-base text-white">My reward</p>
+                                            <p class="text-base text-white group-hover:text-black">My reward</p>
                                         </div>
                                     </template>
                                 </div>
