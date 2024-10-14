@@ -11,31 +11,31 @@
         
         <ul class="grid grid-cols-1 gap-2 mt-4 sm:grid-cols-2 lg:grid-cols-3 lg:mt-24">
             <li class="p-[0.060rem] rounded-3xl shadow-2xl shadow-vulcan-950  lg:col-span-2">
-                <div class="flex flex-col justify-between h-[36rem] p-8 border shadow-2xl lg:p-10 border-vulcan-700 rounded-3xl bg-vulcan-900" x-data="{ count: 1 }">
+                <div class="flex flex-col justify-between h-[36rem] p-8 border shadow-2xl lg:p-10 border-vulcan-700 rounded-3xl bg-vulcan-900 group " x-data="{ count: 1 }">
                     <div>
                         <p class="font-semibold lg:text-xl text-white">Reward management</p>
-                        <p class="mt-4 text-base">
+                        <p class="mt-4 text-base text-gray-300">
                             Offer your customers flat rate or percentage-based commission structure on all their referrals. Set rules for qualifying purchases like minimum cart value, net new customers only, and more!
                         </p>
                         <ul class="grid grid-cols-1 gap-2 mt-4 sm:grid-cols-2 lg:grid-cols-3 lg:mt-10">
-                            <li class="p-[0.010rem] rounded-t-3xl shadow-vulcan-950 bg-vulcan-900 lg:col-span-2">
-                                <div class="flex flex-col h-[24.35rem] justify-between pt-8 border shadow-2xl lg:px-10 border-vulcan-700 rounded-t-3xl ">
+                            <li class="p-[0.010rem] rounded-t-3xl shadow-vulcan-950 lg:col-span-2">
+                                <div class="flex flex-col h-[24.35rem] justify-between pt-8 border shadow-2xl lg:px-10 border-vulcan-700 rounded-t-3xl bg-vulcan-900 group-hover:bg-white group-hover:bg-opacity-50">
                                     <div class="flex">
-                                        <div class="flex-auto ">
-                                            <p class="font-semibold lg:text-xl text-white">Your Cart</p>
+                                        <div class="flex-auto">
+                                            <p class="font-semibold lg:text-xl text-white group-hover:text-black">Your Cart</p>
                                         </div>
                                         <div class="flex-auto">
                                             <button type="button" class="flex items-center float-right w-auto mt-0 h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">Continue Shopping</button>
                                         </div>
                                     </div>
                                     <div class="mt-6">
-                                        <div class=" flex space-x-6 bg-vulcan-900   border border-vulcan-700 pt-4 lg:p-4 rounded-xl">
-                                            <img src="/assets/bag.png" alt="Product image" class="h-20 w-20 flex-none rounded-lg  object-cover object-center">
+                                        <div class="flex space-x-6 bg-vulcan-900 border border-vulcan-700 pt-4 lg:p-4 rounded-xl group-hover:bg-white group-hover:bg-opacity-50 ">
+                                            <img src="/assets/bag.png" alt="Product image" class="h-20 w-20 flex-none rounded-lg object-cover object-center">
                                             <div class="flex flex-col justify-between space-y-4 w-full">
                                                 <div class="space-y-1 text-sm font-medium">
-                                                    <p class="text-base font-semibold text-white ">Bag</p>
+                                                    <p class="text-base font-semibold text-white group-hover:text-black">Bag</p>
                                                     <div class="flex items-center">
-                                                        <p class="text-gray-500 text-sm mt-0 flex-auto">$100.00</p> 
+                                                        <p class="text-gray-500 text-sm mt-0 flex-auto">$100.00</p>
                                                         <form class="max-w-xs flex-auto">
                                                             <div class="relative lg:ml-24 flex items-center">
                                                                 <button type="button" @click="count > 1 ? count-- : count" class="flex-shrink-0 bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:border-gray-600 hover:bg-gray-200 inline-flex items-center justify-center border border-gray-300 rounded-md h-5 w-5 focus:ring-gray-100 dark:focus:ring-gray-700 focus:ring-2 focus:outline-none">
@@ -67,30 +67,25 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="p-[0.060rem] h-64 rounded-t-3xl  shadow-vulcan-950">
-                            <div class="flex flex-col justify-between p-8 border shadow-2xl lg:p-5 border-vulcan-700 rounded-3xl bg-vulcan-900">
-                                <div>
-                                    <div class="flex gap-x-1">
-                                       
+                            <li class="p-[0.060rem] h-64 rounded-t-3xl shadow-vulcan-950">
+                                <div class="flex flex-col justify-between p-8 border shadow-2xl lg:p-5 border-vulcan-700 rounded-3xl bg-vulcan-900 group-hover:bg-white group-hover:bg-opacity-50 ">
+                                    <div>
+                                        <p class="mt-2 text-base text-white group-hover:text-black">
+                                            Reward value per referred subscriptions
+                                        </p>
+                                        <div class="mt-4 text-white group-hover:text-black">
+                                            <fieldset>
+                                                <input id="draft" class="peer/draft" type="radio" name="status" checked />
+                                                <label for="draft" class="peer-checked/draft:text-indigo-500 text-xl font-semibold ml-2">$</label>
+                                                <input id="published" class="peer/published ml-6" type="radio" name="status" />
+                                                <label for="published" class="peer-checked/published:text-indigo-500 text-xl font-semibold ml-2">%</label>
+                                                <div class="hidden peer-checked/draft:block py-4 bg-white text-black rounded-lg mt-4 justify-center text-center font-semibold">$ 10.00</div>
+                                                <div class="hidden peer-checked/published:block py-4 bg-white text-black rounded-lg mt-4 justify-center text-center font-semibold">% 10.00</div>
+                                            </fieldset>
+                                        </div>
                                     </div>
-                                    <p class="mt-2 text-base text-white">
-                                        Reward value per referred subscriptions
-                                    </p>
-                                    <div class="mt-4 text-white">
-                                        <fieldset>
-                                        <input id="draft" class="peer/draft" type="radio" name="status" checked />
-                                        <label for="draft" class="peer-checked/draft:text-sky-500 text-xl font-semibold ml-2">$</label>
-
-                                        <input id="published" class="peer/published ml-6" type="radio" name="status" />
-                                        <label for="published" class="peer-checked/published:text-sky-500 text-xl font-semibold ml-2">%</label>
-
-                                        <div class="hidden peer-checked/draft:block py-4 bg-white text-black rounded-lg mt-4 justify-center text-center font-semibold">$ 10.00</div>
-                                        <div class="hidden peer-checked/published:block py-4 bg-white text-black rounded-lg mt-4 justify-center text-center font-semibold">% 10.00</div>
-                                        </fieldset>
-                                    </div>
-                                </div>   
-                            </div>
-                        </li>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
