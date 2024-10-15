@@ -11,7 +11,7 @@
         
         <ul class="grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 lg:grid-cols-3 lg:mt-24">
             <li class="p-[0.060rem] rounded-3xl shadow-2xl shadow-vulcan-950  lg:col-span-2">
-                <div class="flex flex-col justify-between h-[36rem] p-8 border shadow-2xl lg:p-10 border-vulcan-700 rounded-3xl bg-vulcan-900 group " x-data="{ count: 1 }">
+                <div class="flex flex-col justify-between lg:h-[36rem] p-8 border shadow-2xl lg:p-10 border-vulcan-700 rounded-3xl bg-vulcan-900 group " x-data="{ count: 1 }">
                     <div>
                         <p class="font-semibold lg:text-xl text-white">Reward management</p>
                         <p class="mt-4 text-base text-gray-300">
@@ -19,7 +19,7 @@
                         </p>
                         <ul class="grid grid-cols-1 gap-4 mt-4 sm:grid-cols-2 lg:grid-cols-3 lg:mt-10">
                             <li class="p-[0.010rem] rounded-t-3xl shadow-vulcan-950 lg:col-span-2">
-                                <div class="flex flex-col h-[24.35rem] justify-between pt-8 border shadow-2xl lg:px-10 border-vulcan-700 rounded-t-3xl bg-vulcan-900 group-hover:bg-white">
+                                <div class="flex flex-col lg:h-[24.35rem] justify-between pt-8 border shadow-2xl px-3 lg:px-10 border-vulcan-700 rounded-t-3xl  bg-vulcan-900 group-hover:bg-white">
                                     <div class="flex">
                                         <div class="flex-auto">
                                             <p class="font-semibold lg:text-xl text-white group-hover:text-black">Your Cart</p>
@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="mt-6">
                                         <div class="flex space-x-6 bg-vulcan-900/5 border border-vulcan-700 pt-4 lg:p-4 rounded-xl group-hover:bg-white">
-                                            <img src="/assets/bag.png" alt="Product image" class="h-20 w-20 flex-none rounded-lg object-cover object-center">
+                                            <img src="/assets/bag.png" alt="Product image" class="h-20 w-20 p-2 lg:p-0 flex-none rounded-lg object-cover object-center">
                                             <div class="flex flex-col justify-between space-y-4 w-full">
                                                 <div class="space-y-1 text-sm font-medium">
                                                     <p class="text-base font-semibold text-white group-hover:text-black">Bag</p>
@@ -67,7 +67,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="p-[0.060rem] h-64 rounded-t-3xl shadow-vulcan-950">
+                            <li class="p-[0.060rem] lg:h-64 rounded-t-3xl shadow-vulcan-950">
                                 <div class="flex flex-col justify-between p-8 border shadow-2xl lg:p-5 border-vulcan-700 rounded-3xl bg-vulcan-900 group-hover:bg-white">
                                     <div>
                                         <p class="mt-2 text-base text-white group-hover:text-black">
@@ -91,7 +91,7 @@
                 </div>
             </li>
             <li class="p-[0.060rem] rounded-3xl shadow-2xl shadow-vulcan-950 ">
-                <div class="flex flex-col justify-between h-[36rem] p-8 border shadow-2xl lg:p-10 border-vulcan-700 rounded-3xl bg-vulcan-900 group hover:bg-opacity-50" 
+                <div class="flex flex-col justify-between lg:h-[36rem] p-8 border shadow-2xl lg:p-10 border-vulcan-700 rounded-3xl bg-vulcan-900 group hover:bg-opacity-50" 
                     x-data="{ isChecked: false, count: 0, target: 10, counter() { 
                         this.count = 0; // Reset count
                         let interval = setInterval(() => { 
@@ -110,13 +110,13 @@
                         </p>
                         
                         <!-- This div changes background color when parent div is hovered -->
-                        <div class="flex space-x-6 border lg:mt-10 lg:p-4 rounded-xl border-vulcan-700 bg-vulcan-900 group-hover:bg-white transition-colors duration-200">
+                        <div class="flex space-x-6 border mt-2 lg:mt-10 lg:p-4 rounded-xl border-vulcan-700 bg-vulcan-900 group-hover:bg-white transition-colors duration-200">
                             <div class="flex flex-col justify-between space-y-4 w-full">
-                                <div class="space-y-1 text-sm font-medium">
+                                <div class="space-y-1 text-sm font-medium p-2 lg:p-0">
                                     <label class="inline-flex items-center cursor-pointer">
                                         <input type="checkbox" x-model="isChecked" @change="isChecked && counter()" class="sr-only peer">
                                         <span class="ms-3 text-base font-semibold text-white group-hover:text-black">Cashback</span>
-                                        <div class="relative w-11 h-6 ml-40 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                                        <div class="relative w-11 h-6 ml-32 lg:ml-40 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
                                     </label>
                                 </div>
                             </div>
@@ -125,11 +125,11 @@
                         <!-- This div changes background color when parent div is hovered -->
                         <div class=" mt-7 rounded-3xl shadow-2xl shadow-vulcan-950 group-hover:bg-white transition-colors duration-200"> 
                             <div class="h-56 flex flex-col justify-between pt-4 border lg:px-6 border-vulcan-700 rounded-3xl bg-vulcan-900 group-hover:bg-white transition-colors duration-200">
-                                <div class="flex pt-4 ">
+                                <div class="flex pt-4 px-4 lg:px-0">
                                     <div class="flex-auto "><p class="text-base font-semibold group-hover:text-black">Adom</p></div>
                                     <div class="flex-auto "><p class="text-base font-semibold float-right group-hover:text-black">VIP Program</p></div>
                                 </div>
-                                <div class="mt-10 mb-10">
+                                <div class="mt-10 mb-10 px-4 lg:px-0">
                                     <!-- Show animated counter if checkbox is checked, otherwise show $0.00 -->
                                     <template x-if="isChecked">
                                         <div x-init="counter()">
