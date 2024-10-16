@@ -43,184 +43,100 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
       x-init="init()"
     >
       
-      <div class="relative inline-grid items-center justify-center w-full h-8 grid-cols-3 md:grid-cols-4 mx-auto mt-6 text-white select-none hidden sm:grid">
+      <div class="relative inline-grid items-center justify-center w-full h-8 grid-cols-3 md:grid-cols-6 mx-auto mt-6 text-white select-none hidden sm:grid">
   <button @click="activeTab = 1; stopAutoSlide()" 
           :class="{ 'text-white bg-white border font-bold rounded-3xl': activeTab === 1, 'text-white': activeTab !== 1 }" 
           class="px-2 py-2 md:px-4 md:py-4">
-    <img :src="activeTab === 1 ? '/assets/testimonial/Pinstripe-logo.svg' : '/assets/testimonial/Pinstripe-logo-w.svg'"
-         class="h-6 justify-center mx-auto" 
-         alt="Group" />
+    <img :src="activeTab === 1 ? '/assets/testimonial/MudAustralia-B-logo.svg' : '/assets/testimonial/MudAustralia-logo.svg'"
+         class="h-7 justify-center mx-auto" 
+         alt="MudAustralia" />
   </button>
 
   <button @click="activeTab = 2; stopAutoSlide()" 
           :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 2, 'text-gray-400': activeTab !== 2 }" 
           class="px-2 py-1 md:px-4 md:py-4">
-    <img :src="activeTab === 2 ? '/assets/testimonial/Flynnohara-logo-b.svg' : 'https://nine9minds-staging.onrender.com/static/flynn_1-96f8c0617114abdf5e7a652c6aad4a0d.png'" 
-         class="h-7 justify-center mx-auto" 
-         alt="Group" />
+    <img :src="activeTab === 2 ? '/assets/testimonial/Solistice-logo.svg' : '/assets/testimonial/Solistice-logo-w.svg'" 
+         class="h-8 justify-center mx-auto" 
+         alt="Solistice" />
   </button>
 
   <button @click="activeTab = 3; stopAutoSlide()" 
           :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 3, 'text-gray-400': activeTab !== 3 }" 
-          class="px-2 py-1 md:px-4 md:py-4">
-    <img :src="activeTab === 3 ? '/assets/testimonial/C-logo-b.svg' : 'https://nine9minds-staging.onrender.com/static/cariloha_1-6da63f5b7574672e05b4e4616f41ff2b.png'" 
-         class="h-6 justify-center mx-auto" 
-         alt="Group" />
+          class="px-2 py-1 md:px-4 md:py-5">
+    <img :src="activeTab === 3 ? '/assets/testimonial/Natori-logo.svg' : '/assets/testimonial/Natori-logo-w.svg'" 
+         class="h-4 justify-center mx-auto" 
+         alt="Natori" />
   </button>
 
   <button @click="activeTab = 4; stopAutoSlide()" 
           :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 4, 'text-gray-400': activeTab !== 4 }" 
           class="px-2 py-1 md:px-4 md:py-4">
     <img :src="activeTab === 4 ? '/assets/testimonial/Bestop-logo.svg' : '/assets/testimonial/Bestop-logo-w.svg'" 
+         class="h-6 justify-center mx-auto" 
+         alt="Bestop" />
+  </button>
+  <button @click="activeTab = 5; stopAutoSlide()" 
+          :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 5, 'text-gray-400': activeTab !== 5 }" 
+          class="px-2 py-1 md:px-4 md:py-4">
+    <img :src="activeTab === 5 ? '/assets/testimonial/calico-logo.svg' : '/assets/testimonial/calico-logo-w.svg'" 
          class="h-7 justify-center mx-auto" 
-         alt="Group" />
+         alt="Calico" />
+  </button>
+  <button @click="activeTab = 6; stopAutoSlide()" 
+          :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 6, 'text-gray-400': activeTab !== 6 }" 
+          class="px-2 py-1 md:px-4 md:py-4">
+    <img :src="activeTab === 6 ? '/assets/testimonial/Tassels-logo.svg' : '/assets/testimonial/Tassels-logo-w.svg'" 
+         class="h-6 justify-center mx-auto" 
+         alt="Tassels" />
   </button>
 </div>
 
 
       <div class="relative overflow-hidden mt-6">
         <div class="flex transition-transform duration-500" :style="{ transform: `translateX(-${(activeTab - 1) * 100}%)` }">
-          <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
-            <div class="w-full flex flex-col shrink-0 snap-start h-full">
-              <figure class="h-full">
-                <ul class="h-full">
-                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
-                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(217,205,255)_0%,rgb(196.86,178.5,255)_100%)] opacity-95">
-                      <div class="lg:py-8 py-4 h-full">
-                        <div class="lg:flex lg:h-full lg:items-center">
-                          <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
-                            <div class="ml-4">
-                              <img class="h-9" alt="Group" src="/assets/testimonial/Pinstripe-logo.svg" />
-                            </div>
-                            <div class="grid grid-cols-2 w-full mt-10 gap-4">
-                              <div class="flex flex-col w-full">
-                                <div class="p-4 rounded-3xl">
-                                    <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$300K</h3>
-                                    <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">In Gift Card Sales.</p>
-                                </div>
-                              </div>
-                              <div class="flex flex-col w-full">
-                                <div class="p-4 rounded-3xl">
-                                    <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30 Days</h3>
-                                    <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Time Period.</p>
-                                </div>
-                              </div>
-                              <div class="flex flex-col w-full">
-                                <div class="p-4 rounded-3xl">
-                                    <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
-                                    <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
-                                </div>
-                              </div>
-                              <div class="flex flex-col w-full">
-                                <div class="p-4 rounded-3xl">
-                                    <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
-                                    <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="mt-4 lg:mt-0 p-3 lg:px-10">
-                            <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[370px]" loading="lazy" src="/assets/testimonial/Pinstripes-t.webp" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </figure>
-                  </li>
-                </ul>
-              </figure>
-            </div>
-          </div>
-                  <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
-                      <div class="w-full flex flex-col shrink-0 snap-start h-full">
-                          <figure class="h-full">
-                              <ul class="h-full">
-                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
-                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(184,191,255)_0%,rgb(132.6,144.67,255)_100%)] opacity-95">
-                                          <div class="lg:py-8 py-4 h-full">
-                                              <div class="lg:flex lg:h-full lg:items-center">
-                                                  <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
-                                                      <div class="ml-4 h-9">
-                                                          <img class="" alt="Group" src="/assets/testimonial/Flynnohara-logo-b.svg" />
-                                                      </div>
-                                                      <div class="grid grid-cols-2 w-full mt-10 gap-4">
-                                                          <div class="flex flex-col w-full">
-                                                              <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$300K</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">In Gift Card Sales.</p>
-                                                              </div>
-                                                          </div>
-                                                          <div class="flex flex-col w-full">
-                                                              <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30 Days</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Time Period.</p>
-                                                              </div>
-                                                          </div>
-                                                          <div class="flex flex-col w-full">
-                                                              <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
-                                                              </div>
-                                                          </div>
-                                                          <div class="flex flex-col w-full">
-                                                              <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
-                                                              </div>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                                  <div class="mt-4 lg:mt-0 p-3 lg:px-10">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[370px]" loading="lazy" src="/assets/testimonial/Flynnohara-t.webp" alt="" />
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </figure>
-                                  </li>
-                              </ul>
-                          </figure>
-                      </div>
-                  </div>
-                  <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+          
+
+             <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
                       <div class="w-full flex flex-col shrink-0 snap-start h-full">
                           <figure class="h-full">
                               <ul class="h-full">
                                   <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                     <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] opacity-95">
-                                          <div class="lg:py-8 py-4 h-full">
+                                          <div class="lg:py-6 py-4 h-full">
                                               <div class="lg:flex lg:h-full lg:items-center">
-                                                  <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
+                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
                                                       <div class="ml-4 h-9">
-                                                          <img class="" alt="Group" src="/assets/testimonial/C-logo-b.svg" />
+                                                          <img class="h-12" alt="Group" src="/assets/testimonial/MudAustralia-logo.svg" />
                                                       </div>
                                                       <div class="grid grid-cols-2 w-full mt-10 gap-4">
                                                           <div class="flex flex-col w-full">
-                                                              <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$300K</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">In Gift Card Sales.</p>
+                                                              <div class="p-4 rounded-3xl text-white">
+                                                                  <h3 class="font-semibold  text-2xl md:text-3xl lg:text-4xl">$1.5M</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-white">In Sales due to Gift Card Promotion</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30 Days</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Time Period.</p>
+                                                                  <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">60 Days</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-white">Solcial Media promotion with Heather Storm</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                                  <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">20%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-white">Increase in AOV</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                                  <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">15%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-white">Increase in Conversion Rate</p>
                                                               </div>
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="mt-4 lg:mt-0 p-3 lg:px-10">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[370px]" loading="lazy" src="/assets/testimonial/Cariloha-t.webp" alt="" />
+                                                  <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/mud-aus-t.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
@@ -230,47 +146,150 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                           </figure>
                       </div>
                   </div>
-                  <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+
+                  <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[450px]">
+                      <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                          <figure class="h-full">
+                              <ul class="h-full">
+                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(184,191,255)_0%,rgb(132.6,144.67,255)_100%)] opacity-95">
+                                          <div class="lg:py-5 py-4 h-full">
+                                              <div class="lg:flex lg:h-full lg:items-center">
+                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                                      <div class="ml-4 ">
+                                                          <img class="h-12" alt="Group" src="/assets/testimonial/Solistice-logo.svg" />
+                                                      </div>
+                                                      <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$640K</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">In Sales due to Promotional Gift Cards</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">45 Days</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Summer Promotion</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">28%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in AOV</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">Gift Card</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">As new promotion channel</p>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="mt-4 lg:mt-0 p-3 lg:px-10">
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Solstice-t.webp" alt="" />
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </figure>
+                                  </li>
+                              </ul>
+                          </figure>
+                      </div>
+                  </div>
+
+                   <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
                       <div class="w-full flex flex-col shrink-0 snap-start h-full">
                           <figure class="h-full">
                               <ul class="h-full">
                                   <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                     <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(147,213,225)_0%,rgb(107.32,197.57,213.98)_100%)] opacity-95">
-                                          <div class="lg:py-8 py-4 h-full">
+                                          <div class="lg:py-6 py-4 h-full">
                                               <div class="lg:flex lg:h-full lg:items-center">
-                                                  <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
+                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                                      <div class="ml-4 mt-2">
+                                                          <img class="h-6" alt="Group" src="/assets/testimonial/Natori-logo.svg" />
+                                                      </div>
+                                                       <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">25%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in </br> Customer LTV</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-xl text-2xl md:text-3xl lg:text-4xl">Omnichannel</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Online and Instore</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">40%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Higher Spending on Redemption</p>
+                                                              </div>
+                                                          </div>
+                                                          <div class="flex flex-col w-full">
+                                                              <div class="p-4 rounded-3xl">
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">Gift Cards</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] ">As new marketing channel</p>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="mt-4 lg:mt-0 p-3 lg:px-10">
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Natori-t.webp" alt="" />
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </figure>
+                                  </li>
+                              </ul>
+                          </figure>
+                      </div>
+                  </div>
+                
+                  <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+                      <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                          <figure class="h-full">
+                              <ul class="h-full">
+                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(217,205,255)_0%,rgb(196.86,178.5,255)_100%)] opacity-95">
+                                          <div class="lg:py-6 py-4 h-full">
+                                              <div class="lg:flex lg:h-full lg:items-center">
+                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
                                                       <div class="ml-4 h-9">
                                                           <img class="" alt="Group" src="/assets/testimonial/Bestop-logo.svg" />
                                                       </div>
                                                       <div class="grid grid-cols-2 w-full mt-10 gap-4">
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$300K</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">In Gift Card Sales.</p>
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$1.5M</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">In Sales due to Gift Card Promotion</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30 Days</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Time Period.</p>
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">60 Days</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] ">Solcial Media promotion with Heather Storm</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">20%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in AOV</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">15%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in Conversion Rate</p>
                                                               </div>
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="mt-4 lg:mt-0 p-3 lg:px-10">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[370px]" loading="lazy" src="/assets/testimonial/Bestop-t.webp" alt="" />
+                                                  <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Bestop-T1.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
@@ -280,47 +299,47 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                           </figure>
                       </div>
                   </div>
-                  <!--<div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+                 <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
                       <div class="w-full flex flex-col shrink-0 snap-start h-full">
                           <figure class="h-full">
                               <ul class="h-full">
                                   <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
-                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(218,189,169)_0%,rgb(202.84,161.96,133.76)_100%)] opacity-95">
-                                          <div class="lg:py-8 py-4 h-full">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,#DABDA9_0%,#CBA286_100%)] opacity-95">
+                                          <div class="lg:py-5 py-4 h-full">
                                               <div class="lg:flex lg:h-full lg:items-center">
-                                                  <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
+                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
                                                       <div class="ml-4">
-                                                          <img class="" alt="Group" src="/assets/testimonial/Group.svg" />
+                                                          <img class="h-10" alt="Group" src="/assets/testimonial/calico-logo.svg" />
                                                       </div>
                                                       <div class="grid grid-cols-2 w-full mt-10 gap-4">
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$300K</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">In Gift Card Sales.</p>
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">25%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in </br> Customer LTV </p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30 Days</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Time Period.</p>
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in ARR</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">10%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in AOV</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                                  <h3 class="font-semibold text-black text-xl md:text-3xl lg:text-2xl">Omnichannel Loyalty & Referral</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]"> New Customer Acquisition & Retention channel</p>
                                                               </div>
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="mt-4 lg:mt-0 p-4 lg:px-10">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[370px]" loading="lazy" src="/assets/testimonial/Testimonial4.jpg" alt="" />
+                                                  <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Calico-t.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
@@ -335,42 +354,42 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                           <figure class="h-full">
                               <ul class="h-full">
                                   <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
-                                      <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(217,205,255)_0%,rgb(196.86,178.5,255)_100%)] opacity-95">
-                                          <div class="lg:py-8 py-4 h-full">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(184,191,255)_0%,rgb(132.6,144.67,255)_100%)] opacity-95">
+                                          <div class="lg:py-6 py-4 h-full">
                                               <div class="lg:flex lg:h-full lg:items-center">
-                                                  <div class="w-full lg:max-w-2xl mb-6 lg:mb-0 px-4">
+                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
                                                       <div class="ml-4">
-                                                          <img class="" alt="Group" src="/assets/testimonial/Group.svg" />
+                                                          <img class="h-10" alt="Group" src="/assets/testimonial/Tassels-logo.svg" />
                                                       </div>
-                                                      <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                      <div class="grid grid-cols-2 w-full mt-10 gap-2">
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$300K</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">In Gift Card Sales.</p>
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">15%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-black">Increase in </br> Customer LTV</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30 Days</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Time Period.</p>
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">20%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-black">Increase in ARR</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">15%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-black">Increase in AOV</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">23%</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030] mt-2">Percentage of Gift Cards In Total Sales.</p>
+                                                                  <h3 class="font-semibold text-black text-xl md:text-3xl lg:text-2xl">Omnichannel Loyalty & Referral</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-black">New Customer Acquisition & Retention channel</p>
                                                               </div>
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="mt-4 lg:mt-0 p-4 lg:px-10">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full sm:h-[300px] lg:h-[370px]" loading="lazy" src="/assets/testimonial/Testimonial5.jpg" alt="" />
+                                                  <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/tassels-t.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
@@ -379,7 +398,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                               </ul>
                           </figure>
                       </div>
-                  </div>-->
+                  </div>
                 
            </div>
        </div>
