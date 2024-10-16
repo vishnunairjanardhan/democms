@@ -745,13 +745,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"how-to-benefit-from-omnichannel-strategies-for-your-ecommerce.md": {
-	id: "how-to-benefit-from-omnichannel-strategies-for-your-ecommerce.md";
-  slug: "how-to-benefit-from-omnichannel-strategies-for-your-ecommerce";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "how-to-build-customer-loyalty-for-pet-insurance.md": {
 	id: "how-to-build-customer-loyalty-for-pet-insurance.md";
   slug: "how-to-build-customer-loyalty-for-pet-insurance";
@@ -1007,6 +1000,13 @@ declare module 'astro:content' {
 "omnichannel-loyalty-programs.md": {
 	id: "omnichannel-loyalty-programs.md";
   slug: "omnichannel-loyalty-programs";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"omnichannel-marketing.md": {
+	id: "omnichannel-marketing.md";
+  slug: "omnichannel-marketing";
   body: string;
   collection: "posts";
   data: any
