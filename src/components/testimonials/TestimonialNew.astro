@@ -11,7 +11,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
     </div>
 
     <div class="flex flex-col w-full lg:px-2" 
-      x-data="{
+    x-data="{
         activeTab: 1,
         interval: null,
         autoSlideEnabled: false,
@@ -25,26 +25,22 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
           this.interval = null; 
         },
         checkScreenSize() {
-          const isMobileView = window.innerWidth < 640;
-
-          if (isMobileView && !this.autoSlideEnabled) {
+          // Start auto sliding for all screen sizes
+          if (!this.autoSlideEnabled) {
             this.autoSlideEnabled = true;
             this.startAutoSlide();
-          } else if (!isMobileView && this.autoSlideEnabled) {
-            this.autoSlideEnabled = false;
-            this.stopAutoSlide(); 
           }
         },
         init() {
           this.checkScreenSize(); 
           window.addEventListener('resize', this.checkScreenSize.bind(this)); 
         }
-      }"
-      x-init="init()"
+    }"
+    x-init="init()"
     >
       
       <div class="relative inline-grid items-center justify-center w-full h-8 grid-cols-3 md:grid-cols-6 mx-auto mt-6 text-white select-none hidden sm:grid">
-  <button @click="activeTab = 1; stopAutoSlide()" 
+  <button @click="activeTab = 1;" 
           :class="{ 'text-white bg-white border font-bold rounded-3xl': activeTab === 1, 'text-white': activeTab !== 1 }" 
           class="px-2 py-2 md:px-4 md:py-4">
     <img :src="activeTab === 1 ? '/assets/testimonial/MudAustralia-B-logo.svg' : '/assets/testimonial/MudAustralia-logo.svg'"
@@ -52,7 +48,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
          alt="MudAustralia" />
   </button>
 
-  <button @click="activeTab = 2; stopAutoSlide()" 
+  <button @click="activeTab = 2;" 
           :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 2, 'text-gray-400': activeTab !== 2 }" 
           class="px-2 py-1 md:px-4 md:py-4">
     <img :src="activeTab === 2 ? '/assets/testimonial/Solistice-logo.svg' : '/assets/testimonial/Solistice-logo-w.svg'" 
@@ -60,7 +56,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
          alt="Solistice" />
   </button>
 
-  <button @click="activeTab = 3; stopAutoSlide()" 
+  <button @click="activeTab = 3;" 
           :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 3, 'text-gray-400': activeTab !== 3 }" 
           class="px-2 py-1 md:px-4 md:py-5">
     <img :src="activeTab === 3 ? '/assets/testimonial/Natori-logo.svg' : '/assets/testimonial/Natori-logo-w.svg'" 
@@ -68,21 +64,21 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
          alt="Natori" />
   </button>
 
-  <button @click="activeTab = 4; stopAutoSlide()" 
+  <button @click="activeTab = 4;" 
           :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 4, 'text-gray-400': activeTab !== 4 }" 
           class="px-2 py-1 md:px-4 md:py-4">
     <img :src="activeTab === 4 ? '/assets/testimonial/Bestop-logo.svg' : '/assets/testimonial/Bestop-logo-w.svg'" 
          class="h-6 justify-center mx-auto" 
          alt="Bestop" />
   </button>
-  <button @click="activeTab = 5; stopAutoSlide()" 
+  <button @click="activeTab = 5;" 
           :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 5, 'text-gray-400': activeTab !== 5 }" 
           class="px-2 py-1 md:px-4 md:py-4">
     <img :src="activeTab === 5 ? '/assets/testimonial/calico-logo.svg' : '/assets/testimonial/calico-logo-w.svg'" 
          class="h-7 justify-center mx-auto" 
          alt="Calico" />
   </button>
-  <button @click="activeTab = 6; stopAutoSlide()" 
+  <button @click="activeTab = 6;" 
           :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 6, 'text-gray-400': activeTab !== 6 }" 
           class="px-2 py-1 md:px-4 md:py-4">
     <img :src="activeTab === 6 ? '/assets/testimonial/Tassels-logo.svg' : '/assets/testimonial/Tassels-logo-w.svg'" 

@@ -3,7 +3,7 @@ pubDate: 2024-09-11
 author: Piyush
 authorImg: "Piyush.webp"
 title: How to Build a Referral Program for Small Businesses (Benefits & Examples) 
-description: ILearn how to build a referral program for small businesses. Explore benefits, and real-world examples to boost growth, loyalty, and cost-effective marketing.
+description: Learn how to build a referral program for small businesses. Explore benefits, and real-world examples to boost growth, loyalty, and cost-effective marketing.
 heading: How to Build a Referral Program for Small Businesses (Benefits & Examples) 
 image:
   url: "/assets/blog/referral-program-for-small-businesses.webp"
