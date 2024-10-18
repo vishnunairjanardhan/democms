@@ -25,7 +25,9 @@ export async function getStaticPaths() {
 const { tag } = Astro.params;
 const { posts } = Astro.props;
 ---
-
+<head>
+  <meta name="robots" content="noindex, nofollow">
+</head>
 <BaseLayout pageTitle={tag}>
   <section>
     <div

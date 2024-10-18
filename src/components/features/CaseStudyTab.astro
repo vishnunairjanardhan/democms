@@ -20,8 +20,8 @@
             return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
         }
     }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="relative mt-10">
-     <div class="hidden lg:max-w-6xl sm:block md:block">
-    <div class=" relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons" data-aos="fade-down" data-aos-duration="2000">
+     <div class="hidden lg:max-w-7xl sm:block md:block">
+    <div class=" relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
         {buttonConfig.map((button) => (
           <button
           class="relative z-20 inline-flex p-2 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id={button.id}>
@@ -59,7 +59,7 @@
                 <a href={data.href}>
                   <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
                     <div class="flex">
-                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="560">
+                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="630">
                     </div>
                   </div>
                   <div class="p-8">
@@ -88,7 +88,7 @@
                 <a href={data.href}>
                   <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
                     <div class="flex">
-                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="560">
+                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="630">
                     </div>
                   </div>
                   <div class="p-8">
@@ -150,7 +150,7 @@
                 <a href={data.href}>
                   <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
                     <div class="flex">
-                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="560">
+                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="630">
                     </div>
                   </div>
                   <div class="p-8">

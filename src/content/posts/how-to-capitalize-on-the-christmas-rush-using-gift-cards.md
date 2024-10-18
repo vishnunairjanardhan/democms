@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-14.png"
   alt: "Christmas Gift Cards."
 tags: ["Gift Card",]
-url: "https://www.99minds.io/blog/how-to--capitalize-on-the-christmas-rush-using-gift-cards"
+url: "https://www.99minds.io/blog/how-to-capitalize-on-the-christmas-rush-using-gift-cards"
 keywords: ["99minds"]
 
 --- 
