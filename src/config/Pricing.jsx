@@ -245,7 +245,7 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Basic: "No",
     Pro: "No",
     Ultra: "No",
-    Premium: "Yes",
+    Premium: "No",
     Enterprise: "Yes",
   },
   {
@@ -254,7 +254,7 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Basic: "No",
     Pro: "No",
     Ultra: "No",
-    Premium: "Yes",
+    Premium: "No",
     Enterprise: "Yes",
   },
   {
