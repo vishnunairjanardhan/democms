@@ -12,7 +12,7 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
             loading="lazy"
             src={image}
             alt={title}
-            width="560"
+            width="640"
           />
         </div>
       </div>

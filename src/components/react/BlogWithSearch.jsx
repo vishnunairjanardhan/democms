@@ -75,8 +75,8 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
           />
         </form>
       </div>
-      <div className="mt-12">
-        <ul className="flex flex-wrap gap-2" role="list">
+      <div className="mt-12 ">
+        <ul className="flex flex-wrap gap-2 mx-auto justify-center" role="list">
           {tags.map((tag) => (
             <a href={`/tags/${tag}`} key={tag}>
               <li className="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">

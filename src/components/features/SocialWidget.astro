@@ -1,0 +1,47 @@
+<section class="lg:p-8 border-t border-y border-white/5">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto 2xl:max-w-7xl py-12 lg:px-16 md:px-12 px-6 sm:px-4 items-center w-full">
+      <!-- First Column -->
+      <div class="py-14 border border-white/20 rounded-3xl" id="video-section">
+        <h2 class="ml-4 lg:ml-10 text-lg lg:text-xl">Social Listening</h2>
+        <p class="ml-4 lg:ml-10 mt-4 text-sm lg:text-base">Collect all social media posts your customers are tagging you in and recruit new customers to your program via Instagram DMs.</p>
+  
+        <div class="grid grid-cols-3 gap-2 px-2 lg:px-5 mt-8 lg:mt-12 ml-2 lg:ml-4">
+          <div class="flex justify-center border border-white/20 rounded-3xl bg-gray-200 p-2 lg:p-5 relative w-[90px] h-[150px] lg:w-[120px] lg:h-[220px] video-container">
+            <img src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/6660d6b8ba8dd08fd182f50f_aubrey-cover.webp" alt="Background Image" class="absolute inset-0 z-30 pointer-events-none object-contain object-top w-full h-full block">
+            <video id="video1" class="absolute top-0 left-0 w-full h-full object-cover rounded-3xl pointer-events-none" loop autoplay muted playsinline>
+              <source src="https://cdn.prod.website-files.com/633dd95841f93492e857d508%2F6660d2d90ca263559c7009e6_10000000_2155901911446265_4349869128292935042_n-transcode.mp4" type="video/mp4">
+              <source src="https://cdn.prod.website-files.com/633dd95841f93492e857d508%2F6660d2d90ca263559c7009e6_10000000_2155901911446265_4349869128292935042_n-transcode.webm" type="video/webm">
+            </video>
+          </div>
+          <div class="flex justify-center border border-white/20 rounded-3xl bg-gray-200 p-2 lg:p-5 relative w-[90px] h-[150px] lg:w-[120px] lg:h-[220px] video-container">
+            <img src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/6660d6b87f7cd1dfe4940da0_abigail-cover.webp" alt="Background Image" class="absolute inset-0 z-30 pointer-events-none object-contain object-top w-full h-full block">
+            <video id="video2" class="absolute top-0 left-0 w-full h-full object-cover rounded-3xl pointer-events-none" loop autoplay muted playsinline>
+              <source src="https://cdn.prod.website-files.com/633dd95841f93492e857d508%2F6660d4448587d4f6a1ac0db0_434383344_985858459565006_1875685549011892131_n-transcode.mp4" type="video/mp4">
+              <source src="https://cdn.prod.website-files.com/633dd95841f93492e857d508%2F6660d4448587d4f6a1ac0db0_434383344_985858459565006_1875685549011892131_n-transcode.webm" type="video/webm">
+            </video>
+          </div>
+          <div class="flex justify-center border border-white/20 rounded-3xl bg-gray-200 p-2 lg:p-5 relative w-[90px] h-[150px] lg:w-[120px] lg:h-[220px] video-container">
+            <img src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/6660d6b80b872e8d9f3e8be7_brittany-cover.webp" alt="Background Image" class="absolute inset-0 z-30 pointer-events-none object-contain object-top w-full h-full block">
+            <video id="video3" class="absolute top-0 left-0 w-full h-full object-cover rounded-3xl pointer-events-none" loop autoplay muted playsinline>
+              <source src="https://cdn.prod.website-files.com/633dd95841f93492e857d508%2F6660d474c651ec5ee22ebbe4_10000000_397170146368622_4344608805083524977_n-transcode.mp4" type="video/mp4">
+              <source src="https://cdn.prod.website-files.com/633dd95841f93492e857d508%2F6660d474c651ec5ee22ebbe4_10000000_397170146368622_4344608805083524977_n-transcode.webm" type="video/webm">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    const videoSection = document.getElementById('video-section');
+    const videos = videoSection.querySelectorAll('video');
+  
+    videoSection.addEventListener('mouseenter', () => {
+      videos.forEach(video => video.play());
+    });
+  
+    videoSection.addEventListener('mouseleave', () => {
+      videos.forEach(video => video.pause());
+    });
+  </script>
+  
