@@ -245,7 +245,7 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Basic: "No",
     Pro: "No",
     Ultra: "No",
-    Premium: "Yes",
+    Premium: "No",
     Enterprise: "Yes",
   },
   {
@@ -254,7 +254,7 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Basic: "No",
     Pro: "No",
     Ultra: "No",
-    Premium: "Yes",
+    Premium: "No",
     Enterprise: "Yes",
   },
   {
@@ -312,6 +312,16 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Premium: "Yes",
     Enterprise: "Yes",
   },
+  {
+    Column1: "Loyalty Page & Dashboard",
+    Free: "No",
+    Lite: "No",
+    Basic: "No",
+    Pro: "No",
+    Ultra: "Yes",
+    Premium: "Yes",
+    Enterprise: "Yes",
+  },
 ];
 
 export const REMAINING_PRODUCT_PRICE_LIST = [
@@ -334,7 +344,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
     Enterprise: "Yes",
   },
   {
-    Column1: "Widget Customization",
+    Column1: "Gift Card Widget Customization",
     Lite: "Yes",
     Basic: "Yes",
     Pro: "Yes",
@@ -360,7 +370,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
     Premium: "Yes",
     Enterprise: "Yes",
   },
-
   {
     Column1: "Expiring Store Credits",
     Lite: "No",
@@ -445,8 +454,8 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Reports",
-    Lite: "Yes",
-    Basic: "Yes",
+    Lite: "No",
+    Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
     Premium: "Yes",
@@ -539,7 +548,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
     Basic: "No",
     Pro: "No",
     Ultra: "No",
-    Premium: "Yes",
+    Premium: "No",
     Enterprise: "Yes",
   },
   {
@@ -549,7 +558,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
     Basic: "No",
     Pro: "No",
     Ultra: "No",
-    Premium: "Yes",
+    Premium: "No",
     Enterprise: "Yes",
   },
   {
@@ -559,7 +568,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
     Basic: "No",
     Pro: "No",
     Ultra: "No",
-    Premium: "Yes",
+    Premium: "No",
     Enterprise: "Yes",
   },
   {

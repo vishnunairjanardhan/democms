@@ -185,13 +185,6 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"posts": {
-"10-Mother’s-Day-Ideas-to-Implement-in-Your-Retail-Business.md": {
-	id: "10-Mother’s-Day-Ideas-to-Implement-in-Your-Retail-Business.md";
-  slug: "10-mothers-day-ideas-to-implement-in-your-retail-business";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "10-awesome-tips-for-using-gift-cards-to-boost-your-holiday-sales.md": {
 	id: "10-awesome-tips-for-using-gift-cards-to-boost-your-holiday-sales.md";
   slug: "10-awesome-tips-for-using-gift-cards-to-boost-your-holiday-sales";
@@ -209,6 +202,13 @@ declare module 'astro:content' {
 "10-best-point-of-sale-pos-systems-for-2022.md": {
 	id: "10-best-point-of-sale-pos-systems-for-2022.md";
   slug: "10-best-point-of-sale-pos-systems-for-2022";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"10-mothers-day-ideas-to-implement-in-your-retail-business.md": {
+	id: "10-mothers-day-ideas-to-implement-in-your-retail-business.md";
+  slug: "10-mothers-day-ideas-to-implement-in-your-retail-business";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -745,13 +745,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"how-to-benefit-from-omnichannel-strategies-for-your-ecommerce.md": {
-	id: "how-to-benefit-from-omnichannel-strategies-for-your-ecommerce.md";
-  slug: "how-to-benefit-from-omnichannel-strategies-for-your-ecommerce";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "how-to-build-customer-loyalty-for-pet-insurance.md": {
 	id: "how-to-build-customer-loyalty-for-pet-insurance.md";
   slug: "how-to-build-customer-loyalty-for-pet-insurance";
@@ -948,6 +941,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"loyalty-program-examples.md": {
+	id: "loyalty-program-examples.md";
+  slug: "loyalty-program-examples";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "ml-techniques-to-improve-customer-engagement.md": {
 	id: "ml-techniques-to-improve-customer-engagement.md";
   slug: "ml-techniques-to-improve-customer-engagement";
@@ -1000,6 +1000,13 @@ declare module 'astro:content' {
 "omnichannel-loyalty-programs.md": {
 	id: "omnichannel-loyalty-programs.md";
   slug: "omnichannel-loyalty-programs";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"omnichannel-marketing.md": {
+	id: "omnichannel-marketing.md";
+  slug: "omnichannel-marketing";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
