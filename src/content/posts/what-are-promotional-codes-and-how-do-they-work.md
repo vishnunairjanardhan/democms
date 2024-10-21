@@ -6,14 +6,14 @@ title: "How to use promotional codes to drive sales (2024)"
 description: "Discover how to leverage promotional codes to motivate customers to complete their purchases, boost sales and revenue, and strengthen brand loyalty."
 heading: How to use a promotional code to drive sales (2024)
 image:
-  url: "/assets/blog/Promo-code.png"
+  url: "/assets/blog/how_to_use_a_promotional_code_to_drive_sales.webp"
   alt: "Promotional Codes."
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-to-use-promotional-code"
 keywords: ["promotional code", "promotion code", "what is promotional code", "what is the promotional code"]
 
 ---
-<img src="/assets/blog/Promo-code.png">
+<img src="/assets/blog/how_to_use_a_promotional_code_to_drive_sales.webp">
 
 Before making an online purchase, most of us instinctively search for a promotional code to lower the total cost or score a freebie. This behavior is universal, and it’s why eCommerce sites should capitalize on the power of promotional codes. Research shows that 92% of shoppers use promo codes at least once a year, influencing over 50% of purchases. In this article, we'll dive into how promotional code works, the various types available, and the benefits they offer to both businesses and customers.
 
