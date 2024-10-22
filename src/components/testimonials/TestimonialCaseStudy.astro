@@ -3,16 +3,19 @@ import RoundedGrid from "../assets/RoundedGrid.astro";
 ---
 
 <section>
-<div class="relative overflow-hidden border-t border-white/5">
+<div class="relative overflow-hidden border-t border-white/5 pt-5">
   <!--<RoundedGrid />-->
-  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:py-14">
+  <div class="hidden lg:block relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:py-14 z-10">
+    <img alt="Lexington thumbnail" class="rounded-2xl shadow-2xl shadow-vulcan-950/50 h-64 absolute top-4 left-4 mb-4 ml-6" src="/assets/testimonial/Cariloha-t2.svg">
+  </div>
+  <div class="relative px-8 py-12 mx-auto max-w-5xl md:px-12 lg:px-32 lg:py-14 rounded-2xl z-0" style="background-image: linear-gradient(to top, #CBA286 , #DABDA9);">
     <div class="relative items-center">
-      <div class="flex flex-col justify-center w-full lg:flex-row lg:items-start">
+      <div class="flex flex-col items-center justify-center w-full lg:flex-row lg:items-start">
         <div class="max-w-2xl px-6 ">
-            <p class="text-white mt-12 text-xl text-vulcan-300">
+            <p class="text-black mt-12 text-xl">
                 "One stop solution for Marketing and Promotion.Complete automation for gift cards and Coupons based on Customer Journey."
-            </p>
-            <p class="text-white mt-4 text-xl text-vulcan-300">
+            </p> 
+            <p class="text-black mt-4 text-xl">
                 - JOSH KIKKERT, DIRECTOR OF E-COMMERCE, CARILOHA
             </p>
         </div>
@@ -20,8 +23,6 @@ import RoundedGrid from "../assets/RoundedGrid.astro";
     </div>    
   </div>
 </div>
-<div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:py-14">
-    <img alt="Lexington thumbnail" class="rounded-2xl shadow-2xl shadow-vulcan-950/50 h-64 absolute bottom-0 left-4 mb-4 mr-4" src="/assets/testimonial/Cariloha-t2.svg">
-</div>
+
 </section>
 
