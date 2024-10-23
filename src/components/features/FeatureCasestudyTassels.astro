@@ -66,8 +66,37 @@ import RoundedGrid from "../assets/RoundedGrid.astro";
 </section>
 <section class="relative border-t border-white/10">
   <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16">
-  <div
-      class="prose prose-blockquote:border-l-white prose-a:text-indigo-400 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-vulcan-300 prose-code:text-white prose-blockquote:text-white/70 max-w-none">
+  <div class="flex items-center justify-center pb-8">
+    <video class="rounded-lg shadow-2xl items-center" playsinline>
+      <source src="/videos/Tassels.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <script>
+    // Select the video element
+    const video = document.querySelector('video');
+
+    // Function to play the video when it becomes visible
+    const playVideoWhenVisible = (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      });
+    };
+
+    // Create an Intersection Observer
+    const observer = new IntersectionObserver(playVideoWhenVisible, {
+      threshold: 0.5  // Play when 50% of the video is visible
+    });
+
+    // Observe the video element
+    observer.observe(video);
+  </script>
+
+  <div class="prose prose-blockquote:border-l-white prose-a:text-indigo-400 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-vulcan-300 prose-code:text-white prose-blockquote:text-white/70 max-w-none">
 <h2>
   CONCLUSION 
 </h2>
