@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/how_to_use_a_promotional_code_to_drive_sales.webp"
   alt: "Promotional Codes."
 tags: ["Gift Card"]
-url: "https://www.99minds.io/blog/how-to-use-promotional-code"
+url: "https://www.99minds.io/blog/promotional-codes"
 keywords: ["promotional code", "promotion code", "what is promotional code", "what is the promotional code"]
 
 ---

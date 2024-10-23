@@ -1032,6 +1032,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"promotional-codes.md": {
+	id: "promotional-codes.md";
+  slug: "promotional-codes";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "reduce-return-exchange-costs-using-gift-card-loyalty-points.md": {
 	id: "reduce-return-exchange-costs-using-gift-card-loyalty-points.md";
   slug: "reduce-return-exchange-costs-using-gift-card-loyalty-points";
@@ -1266,13 +1273,6 @@ declare module 'astro:content' {
 "we-are-live-with-giftcard-platform-on-bigcommerce.md": {
 	id: "we-are-live-with-giftcard-platform-on-bigcommerce.md";
   slug: "we-are-live-with-giftcard-platform-on-bigcommerce";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"what-are-promotional-codes-and-how-do-they-work.md": {
-	id: "what-are-promotional-codes-and-how-do-they-work.md";
-  slug: "what-are-promotional-codes-and-how-do-they-work";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
