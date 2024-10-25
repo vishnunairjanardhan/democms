@@ -269,13 +269,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"5-wicked-halloween-marketing-ideas-to-boost-your-online-sales.md": {
-	id: "5-wicked-halloween-marketing-ideas-to-boost-your-online-sales.md";
-  slug: "5-wicked-halloween-marketing-ideas-to-boost-your-online-sales";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "6-mothers-day-marketing-ideas-for-ecommerce-businesses.md": {
 	id: "6-mothers-day-marketing-ideas-for-ecommerce-businesses.md";
   slug: "6-mothers-day-marketing-ideas-for-ecommerce-businesses";
@@ -650,6 +643,13 @@ declare module 'astro:content' {
 "grow-your-business-with-these-e-commerce-tips-for-mothers-day.md": {
 	id: "grow-your-business-with-these-e-commerce-tips-for-mothers-day.md";
   slug: "grow-your-business-with-these-e-commerce-tips-for-mothers-day";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"halloween-marketing-ideas.md": {
+	id: "halloween-marketing-ideas.md";
+  slug: "halloween-marketing-ideas";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
