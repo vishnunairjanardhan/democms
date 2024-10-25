@@ -5,6 +5,9 @@ User-agent: *
 Allow: /
 Disallow: /tags/*
 
+User-agent: Pinterestbot
+Disallow: /
+
 Sitemap: ${new URL('sitemap-index.xml', import.meta.env.SITE).href}
 `.trim();
 

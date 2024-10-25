@@ -1,95 +1,37 @@
+---
+import {rewards} from "../../config/component.jsx"
+---
 <section class="lg:p-16 border-t border-y border-white/5">
-  <div class="flex lg:flex-row flex-col items-stretch grid grid-cols-1 lg:grid-cols-3 gap-4 mx-auto 2xl:max-w-7xl py-12 lg:px-0 md:px-12 px-6 sm:px-4 w-full">
+  <div class="flex items-stretch gap-4 mx-auto 2xl:max-w-7xl py-12 lg:px-0 md:px-12 px-6 sm:px-4 w-full">
     <div class="py-6 items-center border border-indigo-400 hover:border-white rounded-3xl mx-0 hover:border hover:border-white/70 transition-shadow duration-300 flex flex-col justify-between group">
-      <h2 class="px-10 lg:text-left">Milestone based gifting</h2>
-      <p class="px-5 mt-2 ml-5 text-center  lg:text-left">Gamify incentives by setting gifts your customers can unlock through referral or order-based milestones.</p>
+      <h3 class="px-10 lg:text-left">Gustomer will earn points through the actions below</h2>
       <div class="flex flex-col items-center justify-center lg:justify-start mt-2 lg:mx-18">
-        <button class="mt-4 px-4 w-full relative flex flex-col items-center border border-white/20 rounded-2xl bg-vulcan-200 group-hover:bg-white transition-colors duration-300">
-          <!-- <img src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/665ff8abf7f0e73f758f3325_milestone-light-1.webp" class="object-cover w-full rounded-3xl"/> -->
-          <!--<img src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66607795f2b1e5dc9f0795da_locked.svg" class="absolute top-8"/> -->
-          <div class="relative rounded-3xl flex items-center">
-            <img src="/assets/bag.png" alt="Product image" class="h-20 w-20 flex-none rounded-lg object-cover object-center">
-            <div class="text-left p-5">
-              <label class="inline-flex items-center my-2 cursor-pointer" x-data="{ isChecked: false }">
-                <input type="checkbox" x-model="isChecked" class="sr-only peer">
-                <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                <span class="ms-3 text-sm font-medium text-black dark:text-black" x-text="isChecked ? 'Unlocked' : 'Locked'"></span>
-              </label>
-              <p class="text-black text-lg font-bold"> Claim now! </h3>
-              <p class="text-black text-xs"> Double masking gift set </p>
-            </div>
-          </div>
-        </button>
-        <button class="mt-4 px-4 w-full relative flex flex-col items-center border border-white/20 rounded-2xl bg-vulcan-200 group-hover:bg-white transition-colors duration-300">
-          <!-- <img src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/665ff8abf7f0e73f758f3325_milestone-light-1.webp" class="object-cover w-full rounded-3xl"/> -->
-          <!--<img src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66607795f2b1e5dc9f0795da_locked.svg" class="absolute top-8"/> -->
-          <div class="relative rounded-3xl flex items-center">
-            <img src="/assets/bag.png" alt="Product image" class="h-20 w-20 flex-none rounded-lg object-cover object-center">
-            <div class="text-left p-5">
-              <label class="inline-flex items-center my-2 cursor-pointer" x-data="{ isChecked: false }">
-                <input type="checkbox" x-model="isChecked" class="sr-only peer">
-                <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                <span class="ms-3 text-sm font-medium text-black dark:text-black" x-text="isChecked ? 'Unlocked' : 'Locked'"></span>
-              </label>
-              <p class="text-black text-lg font-bold"> Claim now! </h3>
-              <p class="text-black text-xs"> Double masking gift set </p>
-            </div>
-          </div>
-        </button>
-        <button class="mt-4 px-4 w-full relative flex flex-col items-center border border-white/20 rounded-2xl bg-vulcan-200 group-hover:bg-white transition-colors duration-300">
-          <!-- <img src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/665ff8abf7f0e73f758f3325_milestone-light-1.webp" class="object-cover w-full rounded-3xl"/> -->
-          <!--<img src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66607795f2b1e5dc9f0795da_locked.svg" class="absolute top-8"/> -->
-          <div class="relative rounded-3xl flex items-center">
-            <img src="/assets/bag.png" alt="Product image" class="h-20 w-20 flex-none rounded-lg object-cover object-center">
-            <div class="text-left p-5">
-              <label class="inline-flex items-center my-2 cursor-pointer" x-data="{ isChecked: false }">
-                <input type="checkbox" x-model="isChecked" class="sr-only peer">
-                <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                <span class="ms-3 text-sm font-medium text-black dark:text-black" x-text="isChecked ? 'Unlocked' : 'Locked'"></span>
-              </label>
-              <p class="text-black text-lg font-bold"> Claim now! </h3>
-              <p class="text-black text-xs"> Double masking gift set </p>
-            </div>
-          </div>
-        </button>
-      </div>
-    </div>
-    <!-- Link and code management section -->
-    <div class="py-12 col-span-1 lg:col-span-2 border border-indigo-400 hover:border-white rounded-3xl mx-4 hover:shadow-lg hover:shadow-white/40 transition-shadow duration-300 group flex flex-col justify-between">
-      <h2 class="p-5 text-center lg:text-left">Link and code management</h2>
-      <p class="px-5 text-center lg:text-left">Every customer is given their own vanity URL and code that is easy to remember and share. Our "one-time use codes" make sure there's no code leakage across any discount site.</p>
-      <div class="relative p-5 w-full flex">
-        <!-- Layer two images to toggle visibility on hover -->
-        <div class="mt-4 p-5 relative flex flex-col border border-white/20 rounded-3xl bg-vulcan-200 group-hover:bg-white transition-colors duration-300">
-          <div class="relative rounded-3xl flex items-center">
-            <div class="text-left p-5">
-              <p class="text-black"> One-time use </p>
-              <p class="text-black"> discount code </p>
-            </div>
-            <div>
-              <label class="inline-flex items-center my-2 cursor-pointer" x-data="{ isChecked: false }">
-                <input type="checkbox" x-model="isChecked" class="sr-only peer">
-                <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-              </label>
-            </div>
+        <div class="">
+          <div class="grid gap-4">
+            {rewards.map(reward => (
+              <div class="relative flex justify-between items-center" key={reward.line1}>
+                <div class="flex">
+                  <img src={reward.logo} alt="Reward logo" class="h-12 pt-2 rounded-lg object-cover object-center flex-none">
+                  <div class="text-left pl-5">
+                    <h3 class="text-lg font-bold">{reward.line1}</h3>
+                    <h3 class="text-base">{reward.line2}</h3>
+                  </div>
+                </div>
+              <div class="flex">
+                  <div class="px-4"> 
+                    <button class="ml-auto px-4 py-1 border border-indigo-400 rounded-xl hover:border-white transition-shadow duration-300">
+                      <h3 class="text-sm">Edit</h3>
+                    </button>
+                  </div>
+                  <label class="inline-flex items-center cursor-pointer px-1">
+                    <input type="checkbox" value="" class="sr-only peer">
+                    <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                  </label>
+              </div>
+              </div>
+            ))}
           </div>
         </div>
-        <div class="mt-4 p-5 flex items-center border border-white/20 rounded-3xl bg-vulcan-200 group-hover:bg-white transition-colors duration-300">
-          <div class="relative rounded-3xl flex items-center">
-            <div class="text-left p-5">
-              <p class="text-black"> One-time use </p>
-              <p class="text-black"> discount code </p>
-            </div>
-            <div>
-              <label class="inline-flex items-center my-2 cursor-pointer" x-data="{ isChecked: false }">
-                <input type="checkbox" x-model="isChecked" class="sr-only peer">
-                <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-              </label>
-            </div>
-          </div>
-        </div>
-        <!-- <img class="w-full h-auto group-hover:hidden" src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/667ac4fbfa5f9e0cae8623eb_link-management-dark-new.webp"/>
-        <img class="w-full h-auto hidden group-hover:block " src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/6660adb84523c112f9c49fba_link-code-light.webp"/> -->
       </div>
     </div>
   </div>

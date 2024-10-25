@@ -507,9 +507,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"ecommerce-gift-cards-for-refunds.md": {
-	id: "ecommerce-gift-cards-for-refunds.md";
-  slug: "ecommerce-gift-cards-for-refunds";
+"ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.md": {
+	id: "ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.md";
+  slug: "ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1252,13 +1252,6 @@ declare module 'astro:content' {
 "useful-gift-card-statistics-to-know-in-2022.md": {
 	id: "useful-gift-card-statistics-to-know-in-2022.md";
   slug: "useful-gift-card-statistics-to-know-in-2022";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"using-your-social-media-accounts-to-sell-more-gift-cards.md": {
-	id: "using-your-social-media-accounts-to-sell-more-gift-cards.md";
-  slug: "using-your-social-media-accounts-to-sell-more-gift-cards";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
