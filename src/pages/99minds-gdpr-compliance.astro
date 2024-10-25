@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import GDPR from "../components/gdpr/gdpr.astro";
+import { AstroSeo } from "@astrolib/seo";
+import { Seo } from "../config/Seo";
+
+---
+
+<AstroSeo
+  title="Gift Cards & Loyalty Platform for Omnichannel e-Commerce & In-store | 99minds"
+  description="An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience."
+  canonical="https://www.99minds.io/99minds-gdpr-compliance"
+  {...Seo}
+/>
+
+<BaseLayout>
+<GDPR/>
+</BaseLayout>

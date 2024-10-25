@@ -20,7 +20,7 @@
             return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
         }
     }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="relative mt-10">
-     <div class="hidden lg:max-w-6xl sm:block md:block">
+     <div class="hidden lg:max-w-7xl sm:block md:block">
     <div class=" relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
         {buttonConfig.map((button) => (
           <button
@@ -59,15 +59,17 @@
                 <a href={data.href}>
                   <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
                     <div class="flex">
-                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="560">
+                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="630">
                     </div>
                   </div>
                   <div class="p-8">
                     <p>
                       <time class="text-xs text-indigo-300" datetime="Wed Apr 21">{data.date}</time>
                     </p>
+                    <h2 class="text-xl font-semibold text-indigo-400">{data.heading}</h2> 
                     <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
                     <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
+                    <a href={data.href} class="text-indigo-400 mt-5 hover:underline">Read More</a>
                   </div>
                 </a>
               </li>
@@ -86,7 +88,7 @@
                 <a href={data.href}>
                   <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
                     <div class="flex">
-                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="560">
+                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="630">
                     </div>
                   </div>
                   <div class="p-8">
@@ -148,7 +150,7 @@
                 <a href={data.href}>
                   <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
                     <div class="flex">
-                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="560">
+                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="630">
                     </div>
                   </div>
                   <div class="p-8">

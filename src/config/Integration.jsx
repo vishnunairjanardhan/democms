@@ -177,6 +177,7 @@ export const Payment = [
   image: '/integrations/stripe.svg',
   title: 'Stripe',
   desc: 'Sell gift cards through the 99minds online storefront and accept payments directly into your Stripe account.',
+  url: "/integrations/stripe",
   alt:"99minds-Stripe Integration"
 },
 {
@@ -194,13 +195,13 @@ export const Payment = [
 {
   image: '/integrations/authorize-icon.svg',
   title: 'Authorize.net',
-  desc: '',
+  desc: 'Sell gift cards through the 99minds online storefront and accept payments directly into your Authorize.net account.',
   alt:"99minds-Authorize.net Integration"
 },
 {
   image: '/integrations/spreedly.svg',
   title: 'Spreedly',
-  desc: '',
+  desc: "Sell gift cards through the 99minds online storefront and accept payments through multiple gateways using Spreedly's payment platform.",
   alt:"99minds-Spreedly Integration"
 }
 ]
@@ -217,6 +218,7 @@ export const Giftcard = [
   image: '/integrations/shift4.svg',
   title: 'Shfit4',
   desc: 'A payment processor offering a streamlined integration with 99minds for gift card issuance.  Shift4 focuses on creating a unified experience, allowing you to manage gift cards alongside your existing payment processing through 99minds.',
+  url: "/integrations/shift4",
   alt:"99minds-Shift4 Integration"
 },
 {
@@ -230,6 +232,7 @@ export const Giftcard = [
   image: '/integrations/clutch.svg',
   title: 'Clutch',
   desc: 'While not directly an issuer, Clutch integrates with 99minds to provide high-quality physical gift card fulfillment. They can handle printing, packaging, and mailing your gift cards, ensuring a professional presentation for your customers.',
+  url: "/integrations/clutch",
   alt:"99minds-Clutch Integration"
 },
 {

@@ -1,0 +1,303 @@
+---
+import Verticalgrid from "../assets/Verticalgrid.astro";
+---
+<section class="relative">
+  <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 relative">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12">
+      <div class="lg:col-span-1 lg:mt-6 rounded-2xl">
+        <div class="top-0 hidden lg:block sticky bg-gray rounded-xl border shadow-lg">
+            <div class="flex items-end justify-center overflow-hidden rounded-t-xl border-vulcan-800">
+              <div class="flex pt-4">
+                <img class="group-hover:scale-110 duration-300 object-cover" loading="lazy" src="/assets/customer-product/99minds-con.svg" alt="" width="100">
+              </div>
+            </div>
+            <div class="">
+              <h5 class="text-lg italic mb-0.5 font-md text-black text-center capitalize">Discover Great Deals</h5>
+            </div>
+          <div class="border-t h-full px-4 mt-6 pb-4 overflow-y-auto bg-gray dark:bg-gray-500">
+            <h4 class="mt-6 mb-4 flex gap-2 items-center">Search
+              <span class="font-bold">152</span>offers
+            </h4>
+            <div class="flex flex-col gap-4">
+              <div class="space-y-2 w-full">
+                <label class="text-[13px] font-bold">ZIP Code</label>
+                  <div class="rounded-lg flex w-full border shadow-md">
+                    <span class="border-r-2 inline-flex items-center bg-slate-50 rounded-bl-md rounded-tl-md pl-3.5 pr-3 px-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin h-6 w-6 stroke-[1]">
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                    </span>
+                    <input class="rounded-r-lg border-0 w-full px-3 py-3 text-base font-normal text-black h-12 "  name="zipCode" placeholder="ZIP code" value="10065">
+                  </div>
+              </div>
+              <div class="space-y-2">
+                <label class=" text-[13px] font-bold leading-tight" ">Search Radius</label>
+                <div role="radiogroup" aria-required="false" dir="ltr" class="flex gap-1" id="" aria-describedby="" aria-invalid="false" tabindex="0" style="outline:none">
+                  <div class="flex items-center">
+                    <button type="button" role="radio" aria-checked="false" data-state="unchecked" value="2" id="2" class="cursor-pointer border border-slate-300 rounded-full data-[state=checked]:bg-slate-100 px-2 py-1" tabindex="-1" data-radix-collection-item="">
+                      <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer p-2" for="2">2</label>
+                    </button>
+                  </div>
+                  <div class="flex items-center">
+                    <button type="button" role="radio" aria-checked="false" data-state="unchecked" value="4" id="4" class="cursor-pointer border border-slate-300 rounded-full data-[state=checked]:bg-slate-100 px-2 py-1" tabindex="-1" data-radix-collection-item="">
+                      <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer p-2" for="4">4</label>
+                    </button>
+                  </div>
+                  <div class="flex items-center">
+                    <button type="button" role="radio" aria-checked="true" data-state="checked" value="8" id="8" class="cursor-pointer border border-slate-300 rounded-full data-[state=checked]:bg-slate-100 px-2 py-1" tabindex="0" data-radix-collection-item="">
+                      <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer p-2" for="8">8</label>
+                    </button>
+                  </div>
+                  <div class="flex items-center">
+                    <button type="button" role="radio" aria-checked="false" data-state="unchecked" value="16" id="16" class="cursor-pointer border border-slate-300 rounded-full data-[state=checked]:bg-slate-100 px-2 py-1" tabindex="-1" data-radix-collection-item="">
+                      <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer p-2" for="16">16</label>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <label class= text-[13px] font-bold leading-tight flex justify-between items-center">
+                <span>Deals by Retailer (3)</span>
+                <button class="focus:ring-4 focus:ring-blue-950 inline-flex items-center justify-center font-medium transition-colors disabled:pointer-events-none disabled:bg-gray-300 text-primary underline-offset-4 hover:underline h-8 px-3 text-xs rounded-full">Clear</button>
+                </label>
+              </div>
+              <div class="px-4 justify-center text-center">
+                    <button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-indigo-500 transition-all border border-indigo-500 rounded-3xl hover:bg-indigo-500 hover:text-white">
+                      Selected Retailers<svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="ml-2 inline h-4 transition-transform duration-200 transform icon icon-tabler icon-tabler-chevron-down rotate-0" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M6 9l6 6l6 -6"></path>
+                    </svg> </button>
+                  </div>
+              
+              <!--<button class="focus:ring-4 focus:ring-blue-950 inline-flex items-center justify-center text-sm font-medium transition-colors disabled:pointer-events-none disabled:bg-gray-300 bg-brand-500 text-primary-foreground hover:bg-brand-900/90 h-9 px-4 py-2 rounded-full mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search stroke-[1.5px] w-4 mr-2 h-4">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <path d="m21 21-4.3-4.3"></path>
+                </svg>Browse Offers </button>-->
+                 <div class="px-4 py-2 justify-center text-center">
+                    <button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all bg-indigo-600 rounded-3xl hover:bg-indigo-500"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search stroke-[1.5px] w-4 mr-2 h-4">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <path d="m21 21-4.3-4.3"></path>
+                </svg>
+                      Browse Offers </button>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:mt-6 lg:col-span-3">
+        <div class="">
+          <ol class="grid grid-cols-1 gap-6 lg:grid-cols-3 sm:grid-cols-2" role="list">
+            <li class="group text-white rounded-xl p-[0.060rem] overflow-hidden border shadow-xl">
+              <a href="https://www.zevia.com/collections/soda" title="Zevia" aria-label="" target="_blank">
+                <div class="rounded-xl ">
+                  <div class="flex items-end justify-center overflow-hidden rounded-t-xl">
+                    <div class="flex">
+                      <img class="px-6 group-hover:scale-110 duration-300 object-cover" loading="lazy" src="/assets/customer-product/zevia.webp" alt="" width="560">
+                    </div>
+                  </div>
+                  <div class="relative z-10">
+                  <div class="px-6 pt-5">
+                    <div class="flex items-center">
+                      <div class="font-bold text-lg text-black capitalize ">$1 Off</div>
+                      <div hidden="" class="text-base  ml-2 line-through">$1</div>
+                    </div>
+                    <h5 class="text-s mb-0.5 font-md text-black text-left capitalize">Zevia 8pk</h5>
+                    <div class="text-xs text-black mt-2 mb-2 flex gap-2 items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-store h-6 stroke-[1.5px] min-w-[16px] w-4 font-bold">
+                        <path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"></path>
+                        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                        <path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"></path>
+                        <path d="M2 7h20"></path>
+                        <path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7"></path>
+                      </svg>
+                      <span>Only eligible at Walmart</span>
+                    </div>
+                  </div>
+                </div>
+                  <div class="p-4 justify-center text-center">
+                    <button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all bg-indigo-600 rounded-3xl hover:bg-indigo-500">
+                      View Details</button>
+                  </div>
+                </div>
+              </a>
+            </li>
+             <li class="group text-white rounded-xl p-[0.060rem] overflow-hidden border shadow-xl">
+              <a href="https://rspnutrition.com/pages/aminoleanenergy" title="AminoLean Energy Drink" aria-label="" target="_blank">
+                <div class="rounded-xl ">
+                  <div class="flex items-end justify-center overflow-hidden rounded-t-xl">
+                    <div class="flex">
+                      <img class="px-6 group-hover:scale-110 duration-300 object-cover" loading="lazy" src="/assets/customer-product/Amino.webp" alt="" width="560">
+                    </div>
+                  </div>
+                  <div class="relative z-10">
+                  <div class="px-5 pt-5">
+                    <div class="flex items-center">
+                      <div class="font-bold text-lg text-black capitalize ">One Free</div>
+                      <div hidden="" class="text-base  ml-2 line-through">$1</div>
+                    </div>
+                    <h5 class="text-s mb-0.5 font-md text-black text-left capitalize">AminoLean Energy Drink</h5>
+                    <div class="text-xs text-black mt-2 mb-2 flex gap-2 items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-store h-6 stroke-[1.5px] min-w-[16px] w-4 font-bold">
+                        <path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"></path>
+                        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                        <path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"></path>
+                        <path d="M2 7h20"></path>
+                        <path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7"></path>
+                      </svg>
+                      <span>Only eligible at Walmart</span>
+                    </div>
+                  </div>
+                </div>
+                  <div class="p-4 justify-center text-center">
+                    <button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all bg-indigo-600 rounded-3xl hover:bg-indigo-500">
+                      View Details</button>
+                  </div>
+                </div>
+              </a>
+            </li>
+             <li class="group text-white rounded-xl p-[0.060rem] overflow-hidden border shadow-xl">
+              <a href="https://outstandingfoods.com/" title="Outstanding" aria-label="" target="_blank">
+                <div class="rounded-xl ">
+                  <div class="flex items-end justify-center overflow-hidden rounded-t-xl">
+                    <div class="flex">
+                      <img class="px-6 group-hover:scale-110 duration-300 object-cover" loading="lazy" src="/assets/customer-product/outstanding.webp" alt="" width="560">
+                    </div>
+                  </div>
+                  <div class="relative z-10">
+                  <div class="px-6 pt-5">
+                    <div class="flex items-center">
+                      <div class="font-bold text-lg text-black capitalize ">Buy One Get One Free</div>
+                      <div hidden="" class="text-base  ml-2 line-through">$1</div>
+                    </div>
+                    <h5 class="text-s mb-0.5 font-md text-black text-left capitalize">Outstanding Cheese Balls</h5>
+                    <div class="text-xs text-black mt-2 mb-2 flex gap-2 items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-store h-6 stroke-[1.5px] min-w-[16px] w-4 font-bold">
+                        <path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"></path>
+                        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                        <path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"></path>
+                        <path d="M2 7h20"></path>
+                        <path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7"></path>
+                      </svg>
+                      <span>No retailer restrictions</span>
+                    </div>
+                  </div>
+                </div>
+                  <div class="p-4 justify-center text-center">
+                    <button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all bg-indigo-600 rounded-3xl hover:bg-indigo-500">
+                      View Details</button>
+                  </div>
+                </div>
+              </a>
+            </li>
+             <li class="group text-white rounded-xl p-[0.060rem] overflow-hidden border shadow-xl">
+              <a href="https://chifleschips.com/" title="Chifles Chips" aria-label="" target="_blank">
+                <div class="rounded-xl ">
+                  <div class="flex items-end justify-center overflow-hidden rounded-t-xl">
+                    <div class="flex">
+                      <img class="px-6 py-2 group-hover:scale-110 duration-300 object-cover" loading="lazy" src="/assets/customer-product/planteil.webp" alt="" width="560">
+                    </div>
+                  </div>
+                  <div class="relative z-10">
+                  <div class="px-5 pt-5">
+                    <div class="flex items-center">
+                      <div class="font-bold text-lg text-black capitalize ">One Free</div>
+                      <div hidden="" class="text-base  ml-2 line-through">$1</div>
+                    </div>
+                    <h5 class="text-s mb-0.5 font-md text-black text-left capitalize">Chifles Chips</h5>
+                    <div class="text-xs text-black mt-2 mb-2 flex gap-2 items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-store h-6 stroke-[1.5px] min-w-[16px] w-4 font-bold">
+                        <path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"></path>
+                        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                        <path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"></path>
+                        <path d="M2 7h20"></path>
+                        <path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7"></path>
+                      </svg>
+                      <span>Only eligible at Walmart</span>
+                    </div>
+                  </div>
+                </div>
+                  <div class="p-4 justify-center text-center">
+                    <button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all bg-indigo-600 rounded-3xl hover:bg-indigo-500">
+                      View Details</button>
+                  </div>
+                </div>
+              </a>
+            </li>
+             <li class="group text-white rounded-xl p-[0.060rem] overflow-hidden border shadow-xl">
+              <a href="https://shop.lesserevil.com/" title="LesserEvil Organic Popcorn" aria-label="" target="_blank">
+                <div class="rounded-xl ">
+                  <div class="flex items-end justify-center overflow-hidden rounded-t-xl">
+                    <div class="flex">
+                      <img class="px-4 group-hover:scale-110 duration-300 object-cover" loading="lazy" src="/assets/customer-product/popcorn.webp" alt="" width="560">
+                    </div>
+                  </div>
+                  <div class="relative z-10">
+                  <div class="px-6 pt-5">
+                    <div class="flex items-center">
+                      <div class="font-bold text-lg text-black capitalize ">But One Get One Free</div>
+                      <div hidden="" class="text-base  ml-2 line-through">$1</div>
+                    </div>
+                    <h5 class="text-s mb-0.5 font-md text-black text-left capitalize">LesserEvil Organic Popcorn</h5>
+                    <div class="text-xs text-black mt-2 mb-2 flex gap-2 items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-store h-6 stroke-[1.5px] min-w-[16px] w-4 font-bold">
+                        <path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"></path>
+                        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                        <path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"></path>
+                        <path d="M2 7h20"></path>
+                        <path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7"></path>
+                      </svg>
+                      <span>Only eligible at Walmart</span>
+                    </div>
+                  </div>
+                </div>
+                  <div class="p-4 justify-center text-center">
+                    <button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all bg-indigo-600 rounded-3xl hover:bg-indigo-500">
+                      View Details</button>
+                  </div>
+                </div>
+              </a>
+            </li>
+             <li class="group text-white rounded-xl p-[0.060rem] overflow-hidden border shadow-xl">
+              <a href="https://resbiotic.com/" title="resbiotic resB" aria-label="" target="_blank">
+                <div class="rounded-xl ">
+                  <div class="flex items-end justify-center overflow-hidden rounded-t-xl">
+                    <div class="flex">
+                      <img class="px-6 py-2 group-hover:scale-110 duration-300 object-cover" loading="lazy" src="/assets/customer-product/resbiotic.webp" alt="" width="560">
+                    </div>
+                  </div>
+                  <div class="relative z-10">
+                  <div class="px-5 pt-5">
+                    <div class="flex items-center">
+                      <div class="font-bold text-lg text-black capitalize ">Get 50% Off </div>
+                      <div hidden="" class="text-base  ml-2 line-through">$1</div>
+                    </div>
+                    <h5 class="text-s mb-0.5 font-md text-black text-left capitalize">resbiotic resB®</h5>
+                    <div class="text-xs text-black mt-2 mb-2 flex gap-2 items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-store h-6 stroke-[1.5px] min-w-[16px] w-4 font-bold">
+                        <path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"></path>
+                        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                        <path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"></path>
+                        <path d="M2 7h20"></path>
+                        <path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7"></path>
+                      </svg>
+                      <span>Only eligible at Walmart</span>
+                    </div>
+                  </div>
+                </div>
+                  <div class="p-4 justify-center text-center">
+                    <button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all bg-indigo-600 rounded-3xl hover:bg-indigo-500">
+                      View Details</button>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ol>      
+        </div>
+    </div>
+  </div>
+</section>
+
+
+

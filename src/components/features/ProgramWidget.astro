@@ -1,0 +1,269 @@
+<section class="lg:p-8 border-t border-y border-white/5">
+  <div class="py-12 items-center border border-indigo-400 hover:border-white rounded-3xl mx-4 hover:shadow-lg hover:shadow-white/40 transition-shadow duration-300 h-full flex flex-col justify-between group">
+    <div class="mx-auto text-center lg:py-8">
+      <h3 class="mt-4 text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-white">
+        Program experiences
+      </h3>
+      <p class="mt-6 text-white">A hub for your customers to seamlessly get their referral link, redeem their store credit, claim gifts and more!</p>
+    </div>
+
+    <div class="flex flex-col w-full"
+    x-data="{
+      activeTab: 1,    
+      activeSlide: 1,   
+      totalSlides: 3,
+      totalTabs: 5,   
+      interval: null,
+      autoSlideEnabled: false,
+      nextTab() {
+        this.activeTab++;
+        if (this.activeTab > this.totalTabs) {
+          this.activeTab = 1; 
+        }
+        this.slideIndex = 1; 
+        this.stopAutoSlide(); 
+      },
+      prevTab() {
+        this.activeTab--;
+        if (this.activeTab < 1) {
+          this.activeTab = this.totalTabs; 
+        }
+        this.slideIndex = 1; 
+        this.stopAutoSlide(); 
+      },
+      nextSlide() {
+        this.slideIndex++;
+        if (this.slideIndex > this.totalSlides) {
+          this.slideIndex = 1; 
+        }
+      },
+      prevSlide() {
+        this.slideIndex--;
+        if (this.slideIndex < 1) {
+          this.slideIndex = this.totalSlides; 
+        }
+      },
+      startAutoSlide() {
+        this.interval = setInterval(() => {
+          this.nextSlide();
+        }, 3000); 
+      },
+      stopAutoSlide() {
+        clearInterval(this.interval);
+        this.interval = null; 
+      },
+      checkScreenSize() {
+        const isMobileView = window.innerWidth < 640;
+        if (isMobileView && !this.autoSlideEnabled) {
+          this.autoSlideEnabled = true;
+          this.startAutoSlide();
+        } else if (!isMobileView && this.autoSlideEnabled) {
+          this.autoSlideEnabled = false;
+          this.stopAutoSlide(); 
+        }
+      },
+      init() {
+        this.checkScreenSize(); 
+        window.addEventListener('resize', this.checkScreenSize.bind(this)); 
+      }
+    }"
+    x-init="init()"
+  >
+    
+  <div class="relative flex justify-center items-center w-full h-8 mx-auto mt-6 text-white select-none">
+    <div class="shadow-[0_4px_10px_rgba(255,255,255,0.2)] flex w-5/6 max-w-3xl p-2 rounded-3xl space-x-1 md:space-x-1 md:w-1/2 mx-auto">
+      <button @click="activeSlide = 1;" :class="{ 'text-white [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] border font-bold rounded-3xl': activeSlide === 1, 'text-white font-bold': activeSlide !== 1 }" class="flex-1 text-xs md:text-sm px-2 py-1 md:px-2 md:py-2" id="portal">Giftcard</button>
+      <button @click="activeSlide = 2;" :class="{ 'text-white [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] border font-bold rounded-3xl': activeSlide === 2, 'text-white font-bold': activeSlide !== 2 }" class="flex-1 text-xs md:text-sm px-2 py-1 md:px-2 md:py-2" id="program">Loyalty Widget</button>
+      <button @click="activeSlide = 3;" :class="{ 'text-white [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] border font-bold rounded-3xl': activeSlide === 3, 'text-white font-bold': activeSlide !== 3 }" class="flex-1 text-xs md:text-sm px-2 py-1 md:px-2 md:py-2" id="cobranded">Cobranded Page</button>
+      <button @click="activeSlide = 4;" :class="{ 'text-white [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] border font-bold rounded-3xl': activeSlide === 4, 'text-white font-bold': activeSlide !== 4 }" class="flex-1 text-xs md:text-sm px-2 py-1 md:px-2 md:py-2" id="cobranded-2">Referral Page</button>
+    </div>
+  </div>
+  
+    <div class="transition-transform duration-500 ease-in-out relative">
+      <div class="absolute left-4 top-1/2 transform -translate-y-1/2 flex items-center justify-start z-20">
+        <button @click="activeTab = activeTab === 1 ? totalTabs : activeTab - 1; stopAutoSlide()" class="flex items-center justify-center w-12 h-12 lg:ml-96 md:ml-36 rounded-full bg-gray-700 hover:bg-gray-600 text-white">
+          <svg width="14" height="10" fill="none" viewBox="0 0 14 10" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M14 5C14 5.27614 13.7761 5.5 13.5 5.5L1.70711 5.5L4.85355 8.64645C5.04882 8.84171 5.04882 9.15829 4.85355 9.35355C4.65829 9.54882 4.34171 9.54882 4.14645 9.35355L0.146447 5.35355C-0.0488157 5.15829 -0.0488157 4.84171 0.146447 4.64645L4.14645 0.646447C4.34171 0.451183 4.65829 0.451183 4.85355 0.646447C5.04882 0.841707 5.04882 1.15829 4.85355 1.35355L1.70711 4.5L13.5 4.5C13.7761 4.5 14 4.72386 14 5Z" fill="#FFFFFF"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center justify-end z-20">
+        <button @click="activeTab = activeTab === totalTabs ? 1 : activeTab + 1; stopAutoSlide()" class="flex items-center justify-center w-12 h-12 lg:mr-96 md:mr-36 rounded-full bg-gray-700 hover:bg-gray-600 text-white">
+          <svg width="14" height="10" fill="none" viewBox="0 0 14 10" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5C0 5.27614 0.223858 5.5 0.5 5.5L12.2929 5.5L9.14645 8.64645C8.95118 8.84171 8.95118 9.15829 9.14645 9.35355C9.34171 9.54882 9.65829 9.54882 9.85355 9.35355L13.8536 5.35355C14.0488 5.15829 14.0488 4.84171 13.8536 4.64645L9.85355 0.646446C9.65829 0.451183 9.34171 0.451183 9.14645 0.646446C8.95118 0.841707 8.95118 1.15829 9.14645 1.35355L12.2929 4.5L0.5 4.5C0.223858 4.5 0 4.72386 0 5Z" fill="#FFFFFF"></path>
+          </svg>
+        </button>
+      </div>
+          <div class="relative overflow-hidden mt-14">
+            <div class="flex transition-transform duration-500" :style="{ transform: `translateX(-${(activeTab - 1) * 100}%)` }">
+          <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+            <div class="flex flex-col items-center h-full">
+              <figure class="h-full w-full flex justify-center"> 
+                <ul class="h-full flex justify-center">
+                  <li class="shadow-3xl rounded-3xl p-[0.060rem] h-auto lg:w-[360px] w-[300px]"> 
+                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(217,205,255)_0%,rgb(196.86,178.5,255)_100%)] opacity-95">
+                      <div class="py-4 flex flex-col items-center h-full">
+                        <div class="mb-6">
+                          <p class="text-3xl text-black text-center">GLAMNETIC</p>
+                        </div>
+                        <div class="relative h-[400px] w-full flex justify-center items-center">
+                          <!-- Real Mobile Image -->
+                          <img class="absolute h-96" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/6667777e0401df8a85725cf2_phone-mockup-black.svg" alt="Real Mobile Image" />
+                          
+                          <!-- Front Images -->
+                          <img x-show="activeSlide === 1" class="absolute h-[85%] top-[11%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66679244d89e1b378c4e7185_glamnetic-phone-front.webp" alt="Front Phone Image" />
+                          <img x-show="activeSlide === 2" class="absolute top-[11%] h-[85%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/666795eeb7189545769f47b4_phone-fatty-back.webp" alt="Back Phone Image" />
+                          <img x-show="activeSlide === 3" class="absolute top-[11%] h-[85%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/667acb608040f2377587ea87_cozyearth-exp-2.webp" alt="Cozy Earth Image" />
+                               <img x-show="activeSlide === 4" class="absolute h-[85%] top-[11%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66679244d89e1b378c4e7185_glamnetic-phone-front.webp" alt="Front Phone Image" />
+                        </div>
+                        
+                      </div>
+                    </figure>
+                  </li>
+                </ul>
+              </figure>
+            </div>
+          </div>
+          
+          <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+            <div class="flex flex-col items-center h-full">
+              <figure class="h-full w-full flex justify-center"> 
+                <ul class="h-full flex justify-center">
+                  <li class="shadow-3xl rounded-3xl p-[0.060rem] h-auto lg:w-[360px] w-[300px]"> 
+                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)]  opacity-95">
+                      <div class="py-4 flex flex-col items-center h-full">
+                        <div class="mb-6">
+                          <p class="text-3xl text-black text-center">FATTY</p>
+                        </div>
+                        <div class="relative h-[400px] w-full flex justify-center items-center">
+                          <!-- Real Mobile Image -->
+                          <img class="absolute h-96" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/6667777e0401df8a85725cf2_phone-mockup-black.svg" alt="Real Mobile Image" />
+                          
+                          <!-- Front image -->
+                          <img x-show="activeSlide === 1" class="absolute h-[85%] top-[11%] w-auto object-contain" loading="lazy" 
+                          src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66679244d89e1b378c4e7185_glamnetic-phone-front.webp" alt="Front Phone Image" />
+                     <img x-show="activeSlide === 2" class="absolute top-[11%] h-[85%] w-auto object-contain" loading="lazy" 
+                          src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/666795eeb7189545769f47b4_phone-fatty-back.webp" alt="Back Phone Image" />
+                     <img x-show="activeSlide === 3" class="absolute top-[11%] h-[85%] w-auto object-contain" loading="lazy" 
+                          src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/667acb608040f2377587ea87_cozyearth-exp-2.webp" alt="Cozy Earth Image" />
+                          <img x-show="activeSlide === 4" class="absolute h-[85%] top-[11%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66679244d89e1b378c4e7185_glamnetic-phone-front.webp" alt="Front Phone Image" />
+                      </div>
+                      </div>
+                    </figure>
+                  </li>
+                </ul>
+              </figure>
+            </div>
+          </div>
+         
+          <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+            <div class="flex flex-col items-center h-full">
+              <figure class="h-full w-full flex justify-center"> <!-- Centering the figure -->
+                <ul class="h-full flex justify-center">
+                  <li class="shadow-3xl rounded-3xl p-[0.060rem] h-auto lg:w-[360px] w-[300px]"> <!-- Set width to match real mobile image -->
+                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(147,213,225)_0%,rgb(107.32,197.57,213.98)_100%)] opacity-95">
+                      <div class="py-4 flex flex-col items-center h-full">
+                        <div class="mb-6">
+                          <p class="text-3xl text-black text-center">HIYA</p>
+                        </div>
+                        <div class="relative h-[400px] w-full flex justify-center items-center">
+                          <!-- Real Mobile Image -->
+                          <img class="absolute h-96" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/6667777e0401df8a85725cf2_phone-mockup-black.svg" alt="Real Mobile Image" />
+                          
+                          <!-- Front image -->
+                          <img x-show="activeSlide === 1" class="absolute h-[85%] top-[11%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66679244d89e1b378c4e7185_glamnetic-phone-front.webp" alt="Front Phone Image" />
+                          <img x-show="activeSlide === 2" class="absolute top-[11%] h-[85%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/666795eeb7189545769f47b4_phone-fatty-back.webp" alt="Back Phone Image" />
+                          <img x-show="activeSlide === 3" class="absolute top-[11%] h-[85%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/667acb608040f2377587ea87_cozyearth-exp-2.webp" alt="Cozy Earth Image" />
+                               <img x-show="activeSlide === 4" class="absolute h-[85%] top-[11%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66679244d89e1b378c4e7185_glamnetic-phone-front.webp" alt="Front Phone Image" />
+                      </div>
+                      </div>
+                    </figure>
+                  </li>
+                </ul>
+              </figure>
+            </div>
+          </div>
+          <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+            <div class="flex flex-col items-center h-full">
+              <figure class="h-full w-full flex justify-center"> <!-- Centering the figure -->
+                <ul class="h-full flex justify-center">
+                  <li class="shadow-3xl rounded-3xl p-[0.060rem] h-auto lg:w-[360px] w-[300px]"> <!-- Set width to match real mobile image -->
+                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(218,189,169)_0%,rgb(202.84,161.96,133.76)_100%)] opacity-95">
+                      <div class="py-4 flex flex-col items-center h-full">
+                        <div class="mb-6">
+                          <p class="text-3xl text-black text-center">SQUATCH</p>
+                        </div>
+                        <div class="relative h-[400px] w-full flex justify-center items-center">
+                          <!-- Real Mobile Image -->
+                          <img class="absolute h-96" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/6667777e0401df8a85725cf2_phone-mockup-black.svg" alt="Real Mobile Image" />
+                          
+                          <!-- Front image -->
+                          <img x-show="activeSlide === 1" class="absolute h-[85%] top-[11%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66679244d89e1b378c4e7185_glamnetic-phone-front.webp" alt="Front Phone Image" />
+                          <img x-show="activeSlide === 2" class="absolute top-[11%] h-[85%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/666795eeb7189545769f47b4_phone-fatty-back.webp" alt="Back Phone Image" />
+                          <img x-show="activeSlide === 3" class="absolute top-[11%] h-[85%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/667acb608040f2377587ea87_cozyearth-exp-2.webp" alt="Cozy Earth Image" />
+                               <img x-show="activeSlide === 4" class="absolute h-[85%] top-[11%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66679244d89e1b378c4e7185_glamnetic-phone-front.webp" alt="Front Phone Image" />
+                      </div>
+                      </div>
+                    </figure>
+                  </li>
+                </ul>
+              </figure>
+            </div>
+          </div>
+          <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
+            <div class="flex flex-col items-center h-full">
+              <figure class="h-full w-full flex justify-center"> <!-- Centering the figure -->
+                <ul class="h-full flex justify-center">
+                  <li class="shadow-3xl rounded-3xl p-[0.060rem] h-auto lg:w-[360px] w-[300px]"> <!-- Set width to match real mobile image -->
+                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(217,205,255)_0%,rgb(196.86,178.5,255)_100%)] opacity-95">
+                      <div class="py-4 flex flex-col items-center h-full">
+                        <div class="mb-6">
+                          <p class="text-3xl text-black text-center">COZYEARTH</p>
+                        </div>
+                        <div class="relative h-[400px] w-full flex justify-center items-center">
+                          <!-- Real Mobile Image -->
+                          <img class="absolute h-96" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/6667777e0401df8a85725cf2_phone-mockup-black.svg" alt="Real Mobile Image" />
+                          
+                          <!-- Front image -->
+                          <img x-show="activeSlide === 1" class="absolute h-[85%] top-[11%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66679244d89e1b378c4e7185_glamnetic-phone-front.webp" alt="Front Phone Image" />
+                          <img x-show="activeSlide === 2" class="absolute top-[11%] h-[85%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/666795eeb7189545769f47b4_phone-fatty-back.webp" alt="Back Phone Image" />
+                          <img x-show="activeSlide === 3" class="absolute top-[11%] h-[85%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/667acb608040f2377587ea87_cozyearth-exp-2.webp" alt="Cozy Earth Image" />
+                               <img x-show="activeSlide === 4" class="absolute h-[85%] top-[11%] w-auto object-contain" loading="lazy" 
+                               src="https://cdn.prod.website-files.com/633dd95841f93492e857d508/66679244d89e1b378c4e7185_glamnetic-phone-front.webp" alt="Front Phone Image" />
+                      </div>
+                    </figure>
+                  </li>
+                </ul>
+              </figure>
+            </div>
+          </div>
+          
+      
+        
+           </div>
+       </div>
+    </div>
+ </div>
+</section>
+

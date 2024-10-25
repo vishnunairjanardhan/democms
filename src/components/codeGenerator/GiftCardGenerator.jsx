@@ -117,7 +117,7 @@ const CouponGenerator = () => {
     }}
   >
       <figure class="bg-vulcan-900 rounded-xl pt-8 lg:pb-5 pb-12">
-      <h5 className="px-10 text-lg font-normal tracking-tight text-center text-white mb-6">{`Generate ${title} Codes`}</h5>
+      <h5 className="px-10 text-lg font-normal tracking-tight text-center text-white h-16 mb-6">{`Generate ${title} Codes`}</h5>
       <div className='border-b border-vulcan-800'></div>
       <h6 className="mt-6 mb-2 pt-2">{example1}</h6>
       <h6 className='mb-2'>{example2}</h6>
@@ -129,14 +129,14 @@ const CouponGenerator = () => {
     <div className="container mx-auto flex flex-col items-center justify-center min-h-screen">
       <div className='relative mx-auto space-y-20'>
         <div className='flex flex-col items-center justify-center'>
-        <h1 class="mt-16 tracking-tight text-center text-white">
+        <h1 data-aos="fade-down" data-aos-duration="1200" class="mt-16 tracking-tight text-center text-white">
         Free Gift Card Code Generator
       </h1>
-       <p class="mt-6 text-center text-vulcan-300">
+       <p data-aos="fade-down" data-aos-duration="2000" class="mt-6 text-center text-vulcan-300">
        Generate free unique codes for gift cards and kick start your successful marketing campaign.
        </p>
         </div>
-        <div className="p-[0.060rem] rounded-3xl shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 lg:px-36 sm:py-32 sm:px-4">
+        <div className="p-[0.060rem] rounded-3xl shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 lg:px-36 sm:py-32 sm:px-4" data-aos="zoom-in" data-aos-duration="2000">
           <div className="mx-auto max-w-7xl">
             <h2 className='text-center lg:text-3xl text-2xl font-normal tracking-tight text-white lg:mt-0 mt-12'>Choose your eCommerce Site</h2>
             <div className="mx-auto lg:mt-24 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
@@ -162,11 +162,11 @@ const CouponGenerator = () => {
           </div>
         </div>
       </div>
-      <h2 className="text-2xl font-normal tracking-tight text-white mt-24 mb-4 text-center py-4">Code Generation Form</h2>
+      <h2 data-aos="fade-down" data-aos-duration="2000" className="text-2xl font-normal tracking-tight text-white mt-24 mb-4 text-center py-4">Code Generation Form</h2>
 
       <div className='mx-auto max-w-7xl px-0 lg:px-0 mt-8 w-full'>
         <div className="flex space-x-4">
-          <div className="mb-4 flex-1">
+          <div className="mb-4 flex-1" data-aos="fade-right" data-aos-duration="2000">
             <label htmlFor="lengthOfCode" className="block text-base font-normal text-white">
               Length of Code:
             </label>
@@ -180,7 +180,7 @@ const CouponGenerator = () => {
           </div>
           <div class="flex-none">
           </div>
-          <div className="mb-4 flex-1 justify-center">
+          <div className="mb-4 flex-1 justify-center" data-aos="fade-left" data-aos-duration="2000">
             <label htmlFor="numberOfCodes" className="block text-base font-normal text-white">
               Number of Codes:
             </label>
@@ -225,6 +225,7 @@ const CouponGenerator = () => {
           <button
             className="h-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500"
             onClick={toggleDropdown}
+            data-aos="fade-up" data-aos-duration="2000"
           >
             More Actions
           </button>
@@ -312,8 +313,8 @@ const CouponGenerator = () => {
             </div>
           )}
         </div>
-        <h2 className="text-2xl font-normal tracking-tight text-white mt-8 text-center py-10">Choose Your Templates</h2>
-        <div className="mx-auto max-w-7xl text-white">
+        <h2 className="text-2xl font-normal tracking-tight text-white mt-8 text-center py-10" data-aos="fade-down" data-aos-duration="2000">Choose Your Templates</h2>
+        <div className="mx-auto max-w-7xl text-white" data-aos="zoom-in" data-aos-duration="2000">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 mx-auto max-w-7xl lg:px-0 justify-between">
     {renderCodeButton("Alphanumeric", "SUMM ER24 SALE 5489", "SALE 2024 GIFT CARD", Alphanumeric)}
     {renderCodeButton("Numeric", "9548 6358 8569 3452", "8246 9512 6478 1354",  Numeric )}
@@ -322,7 +323,7 @@ const CouponGenerator = () => {
   </div>
 </div>
       </div>
-      <button className="flex items-center justify-center h-10 mt-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500" onClick={Generate}>
+      <button className="flex items-center justify-center h-10 mt-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500" data-aos="fade-up" data-aos-duration="2000" onClick={Generate}>
         <h5 className="text-white p-3">Generate</h5>
       </button>
       {generatedCodes && <div className='w-full flex justify-center items-center'>

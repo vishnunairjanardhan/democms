@@ -1,0 +1,45 @@
+---
+import BaseLayout from "/src/layouts/BaseLayout.astro";
+import HeroCasestudyCariloha from "/src/components/heros/HeroCasestudyCariloha.astro";
+import CasestudytestCariloha from "/src/components/testimonials/CasestudytestCariloha.astro";
+import CaseStudyCariloha from "/src/components/testimonials/CaseStudyCariloha.astro";
+import FeatureCasestudyCariloha from "/src/components/features/FeatureCasestudyCariloha.astro";
+import Infocariloha from "/src/components/Infopages/Infocariloha.astro";
+import Cariloha from "/src/components/techStack/Cariloha.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+--->
+<AstroSeo
+  title="Cariloha's Gift Card Promotion Boosts Customer Acquisition by 30% | 99minds"
+  description="Learn how Cariloha's social media gift card promotions drove a 30% increase in customer acquisition and boosted engagement and AOV."
+  canonical="https://www.99minds.io/case-study/cariloha"
+  openGraph={{
+    url: "https://www.99minds.io/case-study/cariloha",
+    title: "Cariloha's Gift Card Promotion Boosts Customer Acquisition by 30% | 99minds",
+    description: "Learn how Cariloha's social media gift card promotions drove a 30% increase in customer acquisition and boosted engagement and AOV.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/case-study/cariloha-banner1.webp",
+        alt: "Cariloha uses 99minds Gift Card & Loyalty Program",
+        type: "image/jpeg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <HeroCasestudyCariloha />
+  <Cariloha/>
+  <CasestudytestCariloha />
+  <Infocariloha />
+  <FeatureCasestudyCariloha />
+  <CaseStudyCariloha/>
+</BaseLayout>
