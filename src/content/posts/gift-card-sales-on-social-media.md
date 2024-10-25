@@ -1,5 +1,5 @@
 ---
-pubDate: 2024-09-26
+pubDate: 2024-10-25
 author: Soniya
 authorImg: "Soniya.webp"
 title: "15 Ways to Maximize Gift Card Sales on Social Media"
