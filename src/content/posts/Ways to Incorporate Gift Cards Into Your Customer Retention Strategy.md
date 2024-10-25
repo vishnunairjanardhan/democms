@@ -8,7 +8,7 @@ heading: Ways to Incorporate Gift Cards Into Your Customer Retention Strategy
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM1.png"
   alt: "Customer Retention Strategy."
-tags: ["Loyalty",]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/ways-to-incorporate-gift-cards-into-your-customer-retention-strategy"
 keywords: ["99minds"]
 
