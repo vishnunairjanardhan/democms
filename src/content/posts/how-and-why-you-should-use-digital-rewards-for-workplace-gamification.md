@@ -8,7 +8,7 @@ heading: How and Why You Should Use Digital Rewards for Workplace Gamification
 image:
   url: "/assets/blog/How-and-Why-You-Should-Use-Digital-Rewards-for-Workplace-Gamification3-800x450.jpg"
   alt: "How and why you should use digital rewards for workplace gamification."
-tags: ["Gift Cards"]
+tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-and-why-you-should-use-digital-rewards-for-workplace-gamification"
 keywords: ["99minds"]
 

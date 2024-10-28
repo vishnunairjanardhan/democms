@@ -8,7 +8,7 @@ heading: What is Customer Loyalty and How To Build It In 2024
 image: 
   url: "/assets/blog/What-is-Cutomer-Loyalty.webp"
   alt: "What is customer loyalty? How to build it"
-tags: ["Customer Loyalty","Loyalty Program"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/build-customer-loyalty"
 keywords: ["build customer loyalty", "how to build customer loyalty", "how to build loyalty with customers", "ways to build customer loyalty"]
 

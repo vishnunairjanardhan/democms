@@ -8,7 +8,7 @@ heading: Why should every business be a digital business
 image:
   url: "/assets/blog/Why-should-every-business-be-a-digital-business1.jpg"
   alt: "Every business be a digital business."
-tags: ["Loyalty"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/why-should-every-business-be-a-digital-business"
 keywords: ["99minds"]
 

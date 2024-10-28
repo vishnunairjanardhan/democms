@@ -8,7 +8,7 @@ heading: Halloween Tips for your Restaurant. Use Gift And Loyalty As The Treat!
 image:
   url: "/assets/blog/Halloween-Tips-for-your-Restaurant-Use-Gift-And-Loyalty-As-The-Treat2.jpg"
   alt: "Halloween Tips for your Restaurant"
-tags: ["Loyalty","Gift Card"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat"
 keywords: ["99minds"]
 
