@@ -53,62 +53,62 @@ export const rewards = [
 
 export const workflows = [
     {
-        "logo": "assets/homepage/GC.svg",
+        "logo": "assets/icons/icn_Referrals-flow.png",
         "title": "Referrals Flow",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
     {
-        "logo": "assets/homepage/GC.svg",
+        "logo": "assets/icons/icn_Referrals-flow.png",
         "title": "Average order value booster",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
     {
-        "logo": "assets/homepage/GC.svg",
+        "logo": "assets/icons/icn_Referrals-flow.png",
         "title": "Punch Card",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
     {
-        "logo": "assets/homepage/GC.svg",
+        "logo": "assets/icons/icn_Referrals-flow.png",
         "title": "VIP Loyalty Program",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
     {
-        "logo": "assets/homepage/GC.svg",
+        "logo": "assets/icons/icn_Referrals-flow.png",
         "title": "Create account get a reward",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
     {
-        "logo": "assets/homepage/GC.svg",
+        "logo": "assets/icons/icn_Referrals-flow.png",
         "title": "First Purchase Reward",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
     {
-        "logo": "assets/homepage/GC.svg",
+        "logo": "assets/icons/icn_Referrals-flow.png",
         "title": "Reward for every purchase",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
     {
-        "logo": "assets/homepage/GC.svg",
+        "logo": "assets/icons/icn_Referrals-flow.png",
         "title": "Gift Card BOGO",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
     {
-        "logo": "assets/homepage/GC.svg",
+        "logo": "assets/icons/icn_Referrals-flow.png",
         "title": "Delayed rewards",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
     {
-        "logo": "assets/homepage/GC.svg",
+        "logo": "assets/icons/icn_Referrals-flow.png",
         "title": "Birthday",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
     {
-        "logo": "assets/homepage/GC.svg",
+        "logo": "assets/icons/icn_Referrals-flow.png",
         "title": "Collection Promoter",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
     {
-        "logo": "assets/homepage/GC.svg",
+        "logo": "assets/icons/icn_Referrals-flow.png",
         "title": "Create your own",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     }
