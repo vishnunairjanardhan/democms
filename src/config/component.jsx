@@ -98,7 +98,7 @@ export const workflows = [
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
     {
-        "logo": "assets/icons/icn_Referrals-flow.png",
+        "logo": "assets/icons/Birthday_v3.png",
         "title": "Birthday",
         "description": "Encourage your customers to promote your brand and send new customers to your store"
     },
