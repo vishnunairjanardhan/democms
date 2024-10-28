@@ -50,3 +50,66 @@ export const rewards = [
         "line2": "100 Points"
     }
 ]
+
+export const workflows = [
+    {
+        "logo": "assets/homepage/GC.svg",
+        "title": "Referrals Flow",
+        "description": "Encourage your customers to promote your brand and send new customers to your store"
+    },
+    {
+        "logo": "assets/homepage/GC.svg",
+        "title": "Average order value booster",
+        "description": "Encourage your customers to promote your brand and send new customers to your store"
+    },
+    {
+        "logo": "assets/homepage/GC.svg",
+        "title": "Punch Card",
+        "description": "Encourage your customers to promote your brand and send new customers to your store"
+    },
+    {
+        "logo": "assets/homepage/GC.svg",
+        "title": "VIP Loyalty Program",
+        "description": "Encourage your customers to promote your brand and send new customers to your store"
+    },
+    {
+        "logo": "assets/homepage/GC.svg",
+        "title": "Create account get a reward",
+        "description": "Encourage your customers to promote your brand and send new customers to your store"
+    },
+    {
+        "logo": "assets/homepage/GC.svg",
+        "title": "First Purchase Reward",
+        "description": "Encourage your customers to promote your brand and send new customers to your store"
+    },
+    {
+        "logo": "assets/homepage/GC.svg",
+        "title": "Reward for every purchase",
+        "description": "Encourage your customers to promote your brand and send new customers to your store"
+    },
+    {
+        "logo": "assets/homepage/GC.svg",
+        "title": "Gift Card BOGO",
+        "description": "Encourage your customers to promote your brand and send new customers to your store"
+    },
+    {
+        "logo": "assets/homepage/GC.svg",
+        "title": "Delayed rewards",
+        "description": "Encourage your customers to promote your brand and send new customers to your store"
+    },
+    {
+        "logo": "assets/homepage/GC.svg",
+        "title": "Birthday",
+        "description": "Encourage your customers to promote your brand and send new customers to your store"
+    },
+    {
+        "logo": "assets/homepage/GC.svg",
+        "title": "Collection Promoter",
+        "description": "Encourage your customers to promote your brand and send new customers to your store"
+    },
+    {
+        "logo": "assets/homepage/GC.svg",
+        "title": "Create your own",
+        "description": "Encourage your customers to promote your brand and send new customers to your store"
+    }
+];
