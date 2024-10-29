@@ -206,6 +206,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"10-mothers-day-ideas-to-implement-in-your-retail-business.md": {
+	id: "10-mothers-day-ideas-to-implement-in-your-retail-business.md";
+  slug: "10-mothers-day-ideas-to-implement-in-your-retail-business";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md": {
 	id: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md";
   slug: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store";
@@ -251,13 +258,6 @@ declare module 'astro:content' {
 "5-tips-for-promoting-fathers-day-in-your-online-shop.md": {
 	id: "5-tips-for-promoting-fathers-day-in-your-online-shop.md";
   slug: "5-tips-for-promoting-fathers-day-in-your-online-shop";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"5-wicked-halloween-marketing-ideas-to-boost-your-online-sales.md": {
-	id: "5-wicked-halloween-marketing-ideas-to-boost-your-online-sales.md";
-  slug: "5-wicked-halloween-marketing-ideas-to-boost-your-online-sales";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -500,13 +500,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.md": {
-	id: "ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.md";
-  slug: "ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "ecommerce-gift-cards-for-refunds.md": {
 	id: "ecommerce-gift-cards-for-refunds.md";
   slug: "ecommerce-gift-cards-for-refunds";
@@ -612,13 +605,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"gift-card-sales-on-social-media.md": {
-	id: "gift-card-sales-on-social-media.md";
-  slug: "gift-card-sales-on-social-media";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "gift-card-scams.md": {
 	id: "gift-card-scams.md";
   slug: "gift-card-scams";
@@ -673,7 +659,7 @@ declare module 'astro:content' {
   slug: "halloween-marketing-ideas";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat.md": {
 	id: "halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat.md";
@@ -974,7 +960,7 @@ declare module 'astro:content' {
   slug: "loyalty-program-examples";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "ml-techniques-to-improve-customer-engagement.md": {
 	id: "ml-techniques-to-improve-customer-engagement.md";
@@ -1032,6 +1018,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"omnichannel-marketing.md": {
+	id: "omnichannel-marketing.md";
+  slug: "omnichannel-marketing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "online-store-credit.md": {
 	id: "online-store-credit.md";
   slug: "online-store-credit";
@@ -1059,13 +1052,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"promotional-codes.md": {
-	id: "promotional-codes.md";
-  slug: "promotional-codes";
-  body: string;
-  collection: "posts";
-  data: any
 } & { render(): Render[".md"] };
 "reduce-return-exchange-costs-using-gift-card-loyalty-points.md": {
 	id: "reduce-return-exchange-costs-using-gift-card-loyalty-points.md";
