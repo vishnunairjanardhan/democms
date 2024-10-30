@@ -70,20 +70,27 @@ function onYouTubeIframeAPIReady() {
   });
 }
 
-function onPlayerReady() {
+function onPlayerReady(event) {
+  const videoElement = document.getElementById('youtube-video');
+
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        player.playVideo();  
+      if (entry.intersectionRatio >= 0.5) {
+        player.playVideo();
       } else {
         player.pauseVideo();
       }
     });
-  }, { threshold: 0.5 }); 
+  }, { threshold: [0.5] });
 
-  // Observe the video element
-  observer.observe(document.getElementById('youtube-video'));
+  observer.observe(videoElement);
 }
+
+// Fallback in case YouTube API takes time to load
+if (!window.YT) {
+  window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+}
+
 </script>
     
       <h2
