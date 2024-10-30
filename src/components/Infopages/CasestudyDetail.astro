@@ -44,10 +44,47 @@ import RoundedGrid from "../assets/RoundedGrid.astro";
   <div class="relative px-8 py-12 mt-12 mx-auto max-w-7xl md:px-12 lg:px-16">
     <div
       class="prose prose-blockquote:border-l-white prose-a:text-indigo-400 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-vulcan-300 prose-code:text-white prose-blockquote:text-white/70 max-w-none">
-      <div class="flex items-center justify-center">
-        <iframe class="w-full aspect-video rounded-md" src="https://www.youtube.com/embed/3EAM2GJJ7-s?si=9N-uocH3bF7qPSo9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>     
-      
+     
+<div class="flex items-center justify-center">
+  <iframe class="w-full aspect-video rounded-md" 
+          src="https://www.youtube.com/embed/3EAM2GJJ7-s?enablejsapi=1&autoplay=1" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen 
+          id="youtube-video">
+  </iframe>
+</div>  
+<script>
+const tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+document.head.appendChild(tag);
+
+let player;
+
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('youtube-video', {
+    events: {
+      'onReady': onPlayerReady
+    }
+  });
+}
+
+function onPlayerReady() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        player.playVideo();  
+      } else {
+        player.pauseVideo();
+      }
+    });
+  }, { threshold: 0.5 }); 
+
+  // Observe the video element
+  observer.observe(document.getElementById('youtube-video'));
+}
+</script>
     
       <h2
         id="description-all-the-terms-that-you-agree-to-when-you-sign-up-for-a-Lexington-product-">

@@ -1,12 +1,13 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseLayout2 from "../layouts/BaseLayout2.astro";
 import Slide from "../components/features/Slide.astro";
 import Slide1 from "../components/features/Slide1.astro";
 import ProgramWidget from "../components/features/ProgramWidget.astro";
+import WorkFlow from "../components/features/WorkFlow.astro";
 import SocialWidget from "../components/features/SocialWidget.astro";
 import FeatureMem3 from "../components/features/FeatureMem3.astro";
 import FeatureTabComp from "../components/features/FeatureTabComp.astro";
-
+import ShopifyCheckout from "../components/features/ShopifyCheckout.astro";
 import { AstroSeo } from "@astrolib/seo";
 ---
 
@@ -43,11 +44,13 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
+<BaseLayout2>
 <Slide/>
 <ProgramWidget/>
 <SocialWidget/>
 <Slide1/>
 <FeatureMem3 />
 <FeatureTabComp />
+<ShopifyCheckout/>
+<WorkFlow/>
 </BaseLayout>
