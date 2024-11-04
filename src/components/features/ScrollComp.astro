@@ -1,0 +1,327 @@
+---
+import Verticalgrid from "../assets/Verticalgrid.astro";
+---
+
+<section class="lg:p-8 border-t border-y border-white/5">
+    <div class="mx-auto 2xl:max-w-7xl py-12 lg:px-24 md:px-12 px-6 sm:px-4 items-center w-full">
+      <div class="mx-auto text-center lg:py-8">
+        <h2 class="mt-4 text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-white">
+          <span class="text-2xl">Real stories</span><br /> 
+          See it to believe it.
+        </h2>
+      </div>
+      <div class="flex flex-row w-full lg:px-2" x-data="{ 
+        activeTab: 1, 
+        scrollToTab() { 
+            this.$nextTick(() => {
+                const content = this.$refs[`tab${this.activeTab}`];
+                if (content) content.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        } 
+  }">
+      <!-- Buttons on the left -->
+      <div class="flex flex-col items-start mr-4 mt-6">
+        <button @click="activeTab = 1; scrollToTab();" 
+        :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 1, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 1 }" 
+        class="px-2 py-6 md:px-4 md:py-6 w-full">
+        <span class="text-2xl">Dr. Squatch</span>
+    </button>
+    <button @click="activeTab = 2; scrollToTab();" 
+        :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 2, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 2 }" 
+        class="px-2 py-6 md:px-4 md:py-6 w-full">
+        <span class="text-2xl">Cozy Earth</span>
+    </button>
+    <button @click="activeTab = 3; scrollToTab();" 
+        :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 3, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 3 }" 
+        class="px-2 py-6 md:px-4 md:py-6 w-full">
+        <span class="text-2xl">Chamberlain</br>Coffee</span>
+    </button>
+    <button @click="activeTab = 4; scrollToTab();" 
+        :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 4, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 4 }" 
+        class="px-2 py-6 md:px-4 md:py-6 w-full">
+        <span class="text-2xl">Hiya</span>
+    </button>
+    <button @click="activeTab = 5; scrollToTab();" 
+        :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 5, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 5 }" 
+        class="px-2 py-6 md:px-4 md:py-6 w-full">
+        <span class="text-2xl">Viva Raw</span>
+    </button>
+      </div>
+  
+        
+        <!-- Tab contents on the right -->
+        <div class="relative w-full lg:h-full overflow-y-hidden" x-ref="tabsContainer">
+            <div class="flex flex-col space-y-6 pl-4 transition-transform duration-500">
+                <!-- Tab content for Dr. Squatch -->
+                <div x-ref="tab1" class="tab-content w-full">
+                    <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                        <figure class="h-full">
+                            <ul class="h-full">
+                                <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] opacity-95">
+                                        <div class="lg:py-20 py-20 h-full">
+                                            <div class="lg:flex lg:h-full lg:items-center">
+                                                <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                                    <div class="ml-4 h-9">
+                                                        <img class="h-12" alt="Group" src="/assets/testimonial/MudAustralia-logo.svg" />
+                                                    </div>
+                                                    <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl text-white">
+                                                                <h3 class="font-semibold text-2xl md:text-3xl lg:text-4xl">$1</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">In Sales due to Gift Card Promotion</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">60 Days</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Social Media promotion with Heather Storm</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">20%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Increase in AOV</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">15%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Increase in Conversion Rate</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                    <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/mud-aus-t.webp" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+    
+                <!-- tab content for Cozy Earth -->
+                <div x-ref="tab2" class="tab-content w-full pt-4">
+                    <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                        <figure class="h-full">
+                            <ul class="h-full">
+                                <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(184,191,255)_0%,rgb(132.6,144.67,255)_100%)] opacity-95">
+                                        <div class="lg:py-20 py-20 h-full">
+                                            <div class="lg:flex lg:h-full lg:items-center">
+                                                <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                                    <div class="ml-4 h-9">
+                                                        <img class="h-12" alt="Group" src="/assets/testimonial/MudAustralia-logo.svg" />
+                                                    </div>
+                                                    <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl text-white">
+                                                                <h3 class="font-semibold text-2xl md:text-3xl lg:text-4xl">Cozy</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">In Sales due to Gift Card Promotion</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">60 Days</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Social Media promotion with Heather Storm</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">20%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Increase in AOV</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">15%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Increase in Conversion Rate</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                    <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/mud-aus-t.webp" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+    
+                <!-- tab content for Chamberlain -->
+                <div x-ref="tab3" class="tab-content w-full pt-4">
+                    <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                        <figure class="h-full">
+                            <ul class="h-full">
+                                <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] opacity-95">
+                                        <div class="lg:py-20 py-20 h-full">
+                                            <div class="lg:flex lg:h-full lg:items-center">
+                                                <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                                    <div class="ml-4 h-9">
+                                                        <img class="h-12" alt="Group" src="/assets/testimonial/MudAustralia-logo.svg" />
+                                                    </div>
+                                                    <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl text-white">
+                                                                <h3 class="font-semibold text-2xl md:text-3xl lg:text-4xl">Chamber</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">In Sales due to Gift Card Promotion</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">60 Days</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Social Media promotion with Heather Storm</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">20%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Increase in AOV</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">15%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Increase in Conversion Rate</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                    <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/mud-aus-t.webp" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+    
+                <!-- tab content for Hiya -->
+                <div x-ref="tab4" class="tab-content w-full pt-4">
+                    <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                        <figure class="h-full">
+                            <ul class="h-full">
+                                <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] opacity-95">
+                                        <div class="lg:py-20 py-20 h-full">
+                                            <div class="lg:flex lg:h-full lg:items-center">
+                                                <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                                    <div class="ml-4 h-9">
+                                                        <img class="h-12" alt="Group" src="/assets/testimonial/MudAustralia-logo.svg" />
+                                                    </div>
+                                                    <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl text-white">
+                                                                <h3 class="font-semibold text-2xl md:text-3xl lg:text-4xl">Hiya</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">In Sales due to Gift Card Promotion</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">60 Days</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Social Media promotion with Heather Storm</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">20%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Increase in AOV</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">15%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Increase in Conversion Rate</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                    <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/mud-aus-t.webp" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+    
+                <!-- tab content for Viva Raw -->
+                <div x-ref="tab5" class="tab-content w-full pt-4">
+                    <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                        <figure class="h-full">
+                            <ul class="h-full">
+                                <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] opacity-95">
+                                        <div class="lg:py-20 py-20 h-full">
+                                            <div class="lg:flex lg:h-full lg:items-center">
+                                                <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                                    <div class="ml-4 h-9">
+                                                        <img class="h-12" alt="Group" src="/assets/testimonial/MudAustralia-logo.svg" />
+                                                    </div>
+                                                    <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl text-white">
+                                                                <h3 class="font-semibold text-2xl md:text-3xl lg:text-4xl">Viva</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">In Sales due to Gift Card Promotion</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">60 Days</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Social Media promotion with Heather Storm</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">20%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Increase in AOV</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">15%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Increase in Conversion Rate</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                    <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/mud-aus-t.webp" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+    
+               
+                   
+           
+
+       
+       
+
+        <!-- Repeat the structure for each tab from 3 to 6 -->
+      </div>
+    </div>
+  </div>
+</section>
+
