@@ -91,7 +91,7 @@ import TESTIMONIAL from "../../config/Testimonial.json";
               stopAutoSlide() {
                   clearInterval(this.interval);
               },
-          }" x-init="startAutoSlide" x-on:mouseleave="startAutoSlide" role="button">
+          }" x-init="startAutoSlide" role="button">
               <div class="flex flex-col w-full" aria-labelledby="carousel-label" role="region" tabindex="0" x-on:keydown.left="prev" x-on:keydown.right="next">
                 <h2 class="sr-only" hidden="" id="carousel-label">Carousel</h2>
                 <span class="sr-only" hidden="" id="carousel-content-label">Carousel</span>
