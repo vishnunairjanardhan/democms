@@ -29,43 +29,117 @@ import TESTIMONIAL from "../../config/Testimonial.json";
         </div>
       </div>
       <div class="rounded-3xl relative h-[430px] video-container overflow-hidden" style="background-color: #c2ddff;">
-        <div class="flex flex-col w-full" x-data="{
-            images: [], // Array for holding images
-            interval: null,
-            currentIndex: 0,
-            imageCount: TESTIMONIAL.length, // Total number of images
-            next() {
-                this.currentIndex = (this.currentIndex + 1) % this.imageCount; // Loop to first image
-                this.scrollToCurrent();
-            },
-            scrollToCurrent() {
-                const slider = this.$refs.slider;
-                const offset = slider.firstElementChild.getBoundingClientRect().width;
-                slider.scrollTo({ left: offset * this.currentIndex, behavior: 'smooth' });
-            },
-            startAutoScroll() {
-                this.interval = setInterval(() => {
-                    this.next();
-                }, 3000); // Adjust scroll interval as needed
-            },
-            stopAutoScroll() {
-                clearInterval(this.interval);
-            },
-            init() {
-                this.images = TESTIMONIAL; // Load the testimonials into the images array
-                this.images = this.images.concat(this.images); // Duplicate images for infinite effect
-                this.startAutoScroll(); // Start auto scrolling
-            }
-          }" x-init="init" x-on:mouseenter="stopAutoScroll" x-on:mouseleave="startAutoScroll">
-          
-          <ul class="flex gap-3 overflow-x-scroll pb-24 pt-12 scrollbar-hide snap-mandatory snap-x w-full" x-ref="slider" aria-labelledby="carousel-content-label" role="listbox">
-            <template x-for="data in images">
-              <li class="flex-shrink-0 w-80 h-80 snap-start">
-                <img class="w-full h-full object-cover rounded-xl" :src="data.hero_image" alt="Client image">
-              </li>
-            </template>
-          </ul>
-        </div>
+        <section>
+          <div class="mx-auto lg:px-16 md:px-12 xl:px-28 items-center w-full">
+            <div class="flex flex-col w-full" x-data="{
+              skip: 1,
+              atBeginning: false,
+              atEnd: false,
+              next() {
+                  this.to((current, offset) => current + (offset * this.skip))
+              },
+              prev() {
+                  this.to((current, offset) => current - (offset * this.skip))
+              },
+              to(strategy) {
+                  let slider = this.$refs.slider;
+                  let current = slider.scrollLeft;
+                  let offset = slider.firstElementChild.getBoundingClientRect().width;
+                  let maxScroll = slider.scrollWidth - slider.clientWidth;
+
+                  let newScrollLeft = strategy(current, offset);
+
+                  if (newScrollLeft < 0) {
+                      newScrollLeft = maxScroll;
+                  } else if (newScrollLeft > maxScroll) {
+                      newScrollLeft = 0;
+                  }
+
+                  slider.scrollTo({ left: newScrollLeft, behavior: 'smooth' });
+              },
+              focusableWhenVisible: {
+                  'x-intersect:enter'() {
+                      this.$el.removeAttribute('tabindex');
+                  },
+                  'x-intersect:leave'() {
+                      this.$el.setAttribute('tabindex', '-1');
+                  },
+              },
+              disableNextAndPreviousButtons: {
+                  'x-intersect:enter.threshold.05'() {
+                      let slideEls = this.$el.parentElement.children;
+                      if (slideEls[0] === this.$el) {
+                          this.atBeginning = true;
+                      } else if (slideEls[slideEls.length - 1] === this.$el) {
+                          this.atEnd = true;
+                      }
+                  },
+                  'x-intersect:leave.threshold.05'() {
+                      let slideEls = this.$el.parentElement.children;
+                      if (slideEls[0] === this.$el) {
+                          this.atBeginning = false;
+                      } else if (slideEls[slideEls.length - 1] === this.$el) {
+                          this.atEnd = false;
+                      }
+                  },
+              },
+              startAutoSlide() {
+                  this.interval = setInterval(() => {
+                      this.next();
+                  }, 2000);
+              },
+              stopAutoSlide() {
+                  clearInterval(this.interval);
+              },
+          }" x-init="startAutoSlide" x-on:mouseleave="startAutoSlide" role="button">
+              <div class="flex flex-col w-full" aria-labelledby="carousel-label" role="region" tabindex="0" x-on:keydown.left="prev" x-on:keydown.right="next">
+                <h2 class="sr-only" hidden="" id="carousel-label">Carousel</h2>
+                <span class="sr-only" hidden="" id="carousel-content-label">Carousel</span>
+                <ul class="flex gap-3 overflow-x-scroll pb-16 pt-4 scrollbar-hide snap-mandatory snap-x w-full" role="listbox" aria-labelledby="carousel-content-label" tabindex="0" x-ref="slider">
+                  <li class="w-full flex flex-col shrink-0 snap-start" role="option" x-bind="disableNextAndPreviousButtons">
+                    <figure>
+                      <ul class=" h-full">
+                        <li class="lg:mt-10 mb-4 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-96 h-3/5">
+                            <div  >
+                              <div class="mt-0 lg:mt-0 lg:flex lg:h-80  lg:items-center">
+                                <img class="object-cover object-center"  loading="lazy" src="/assets/homepage/h1.webp" alt="">
+                              </div>
+                            </div>
+                        </li>
+                      </ul>
+                    </figure>
+                  </li>
+                  <li class=" w-full flex flex-col shrink-0 snap-start" role="option" x-bind="disableNextAndPreviousButtons">
+                      <ul class=" h-full">
+                        <li class="lg:mt-10 mb-4 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-96 h-3/5">
+                            <div  >
+                              <div class="mt-0 lg:mt-0 lg:flex lg:h-80  lg:items-center">
+                                <img class="object-cover object-center"  loading="lazy" src="/assets/homepage/WP.webp" alt="">
+                              </div>
+                            </div>
+                        </li>
+                      </ul>
+                  </li>
+                  <li class=" w-full flex flex-col shrink-0 snap-start" role="option" x-bind="disableNextAndPreviousButtons">
+                    <figure>
+                      <ul class=" h-full">
+                        <li class="lg:mt-10 mb-4 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-96 h-3/5">
+                            <div  >
+                              <div class="mt-0 lg:mt-0 lg:flex lg:h-80  lg:items-center">
+                                  <div class="mt-0 lg:px-10 lg:mt-0 p-4">
+                                  <img class="object-cover object-center"  loading="lazy" src="/assets/homepage/GC-experience.webp" alt="">
+                                </div>
+                              </div>
+                            </div>
+                        </li>
+                      </ul>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>    
     </div>
   </div>
