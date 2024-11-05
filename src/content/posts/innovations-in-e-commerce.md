@@ -8,7 +8,7 @@ heading: Innovations in e-commerce
 image: 
   url: "/assets/blog/Innovations-in-e-commerce-800x450.jpg"
   alt: "innovation in e-commerce."
-tags: ["Loyalty"]
+tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/innovations-in-e-commerce"
 keywords: ["99minds"]
 

@@ -8,7 +8,7 @@ heading: 8 Ways to Increase Customer Loyalty With Personalized Rewards
 image:
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-5.png"
   alt: "8 Ways to Increase Customer Loyalty With Personalized Rewards"
-tags: ["Customer Loyalty"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/8-ways-to-increase-customer-loyalty-with-personalized-rewards"
 keywords: ["99minds"]
 

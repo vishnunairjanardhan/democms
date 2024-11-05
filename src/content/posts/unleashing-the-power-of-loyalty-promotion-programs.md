@@ -8,7 +8,7 @@ heading: Unleashing The Power Of Loyalty & Promotion Programs
 image:
   url: "/assets/blog/Unleashing-the-power-of-Loyalty-Promotion-programs1200px.jpg"
   alt: "Power of loyalty and promotion programs."
-tags: ["Loyalty","Loyalty Program"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/unleashing-the-power-of-loyalty-promotion-programs"
 keywords: ["99minds"]
 

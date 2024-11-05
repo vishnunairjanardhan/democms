@@ -8,7 +8,7 @@ heading: How To Build Customer Loyalty For Subscription As A Service
 image:
   url: "/assets/blog/customer-loyalty-for-subsceiption-as-a-service.jpg"
   alt: "Customer loyalty for subscription as a service"
-tags: ["Customer Loyalty"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/how-to-build-customer-loyalty-for-subscription-as-a-service"
 keywords: ["99minds"]
 

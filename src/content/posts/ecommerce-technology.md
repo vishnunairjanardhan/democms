@@ -8,7 +8,7 @@ heading: 25 Emerging Trends in Technology in eCommerce for 2024
 image:
   url: "/assets/blog/25-Emerging-Trends-in-Technology-in-eCommerce-for-2024.webp"
   alt: "Technology in ecommerce."
-tags: ["technology in ecommerce"]
+tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/ecommerce-technology"
 keywords: ["technology in ecommerce", "technology of e commerce", "technology for ecommerce", "technology for e commerce","ecommerce technologies"]
 
@@ -85,7 +85,7 @@ For instance, <a href="https://www.99minds.io/" role="link" target="_blank">99mi
 
 <h3><li>Artificial Intelligence (AI) & Machine Learning (ML)</li></h3>
 
-AI and machine learning are altering the ecommerce industry by providing a more in-depth insight into client preferences and behavior. This technology in eCommerce helps in analyzing massive volumes of data and discovering patterns to provide personalized shopping experiences, while ML constantly improves these predictions. From product recommendations to dynamic pricing, AI and ML improve operations and customer pleasure. They also improve demand forecasting, inventory management, and tailored marketing, helping organizations to satisfy customer demands more efficiently.
+AI and machine learning are altering the ecommerce industry by providing a more in-depth insight into client preferences and behavior. This technology in eCommerce helps in analyzing massive volumes of data and discovering patterns to provide personalized shopping experiences, while ML constantly improves these predictions. <a href="https://www.veed.io/tools/ai-video" role="link" target="_blank">AI-generated videos</a> and <a href="https://www.veed.io/tools/text-to-speech-video/ai-voice-generator" role="link" target="_blank">AI voiceovers</a> can further enhance this content by creating customized, engaging presentations quickly, offering brands a scalable way to <a href="https://www.veed.io/tools/video-editor" role="link" target="_blank">produce polished videos</a> tailored to their audience. From product recommendations to dynamic pricing, AI and ML improve operations and customer pleasure. They also improve demand forecasting, inventory management, and tailored marketing, helping organizations to satisfy customer demands more efficiently.
 
 <b>Example:</b> Amazon uses AI and ML not only to recommend products to users based on their past purchases and browsing behavior but also in several other key areas. When you shop on Amazon, the "You might also like" or "Recommended for you" sections are powered by AI algorithms that predict what you're likely to buy next.
 Additionally, Amazon utilizes AI for fraud detection and prevention, ensuring secure transactions by identifying suspicious activity in real time. AI also plays a crucial role in supply chain optimization, helping Amazon manage inventory, forecast demand, and improve delivery efficiency.
@@ -100,15 +100,13 @@ Virtual events and experiences, in addition to these elements, are completely ch
 
 <b>Example:</b> IKEA's AR app allows customers to visualize how furniture would look in their home by overlaying a 3D image of the product in their living space through their smartphone camera, helping them make informed purchase decisions.
 
-<img src="/assets/blog/IKEA-AR-shopping-app.webp" alt="IKEA AR shopping app">
-
 <h3><li>Mobile Commerce & Progressive Web Apps (PWAs)</li></h3>
 
 As mobile shopping becomes more prevalent, PWAs provide the ideal combination of online and mobile app experiences. PWAs feature fast loading times, offline access, and seamless navigation, giving consumers an app-like experience without the need to download anything. This is critical for reaching the growing number of mobile-first buyers, who expect speed and ease while browsing and purchasing on their smartphones.
 
 <b>Example:</b> Starbucks’ PWA lets users order coffee, view the menu, and earn rewards without downloading a separate app. The PWA functions offline, ensuring a smooth user experience even with poor internet connectivity.
 
-<img src="/assets/blog/Mobile-Commerce-&-Progressive-Web-Apps.jpg" alt="Mobile Commerce & Progressive Web Apps">
+<img src="/assets/blog/Starbucks-Mobile-Commerce-&-Progressive-Web-Apps.webp" alt="Starbucks Mobile Commerce & Progressive Web Apps">
 
 <h3><li>Voice Commerce</li></h3>
 
