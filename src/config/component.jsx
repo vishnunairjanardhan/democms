@@ -59,36 +59,6 @@ export const rewards1 = [
         "line1": "Like page on Facebook",
         "line2": "50 Points"
     },
-    {
-        "logo": "assets/icons/Icn_Reward for every purchase.png",
-        "title": "Reward for every purchase",
-        "description": "Encourage your customers to promote your brand and send new customers to your store"
-    },
-    {
-        "logo": "assets/icons/icn_Gift Card BOGO.png",
-        "title": "Gift Card BOGO",
-        "description": "Encourage your customers to promote your brand and send new customers to your store"
-    },
-    {
-        "logo": "assets/icons/icn_Delayed Rewards.png",
-        "title": "Delayed rewards",
-        "description": "Encourage your customers to promote your brand and send new customers to your store"
-    },
-    {
-        "logo": "assets/icons/Birthday_v3.png",
-        "title": "Birthday",
-        "description": "Encourage your customers to promote your brand and send new customers to your store"
-    },
-    {
-        "logo": "assets/icons/Collection Promoter_Option 1.png",
-        "title": "Collection Promoter",
-        "description": "Encourage your customers to promote your brand and send new customers to your store"
-    },
-    {
-        "logo": "assets/icons/icn_Create your own.png",
-        "title": "Create your own",
-        "description": "Encourage your customers to promote your brand and send new customers to your store"
-    }
 ];
 
 
