@@ -2,8 +2,10 @@
 import BaseLayout from "/src/layouts/BaseLayout.astro";
 import HeroCasestudyCariloha from "/src/components/heros/HeroCasestudyCariloha.astro";
 import CasestudytestCariloha from "/src/components/testimonials/CasestudytestCariloha.astro";
+import CaseStudyCariloha from "/src/components/testimonials/CaseStudyCariloha.astro";
 import FeatureCasestudyCariloha from "/src/components/features/FeatureCasestudyCariloha.astro";
 import Infocariloha from "/src/components/Infopages/Infocariloha.astro";
+import Cariloha from "/src/components/techStack/Cariloha.astro";
 import { Seo } from "../../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -35,7 +37,9 @@ Use AstroSeo in all the pages you want different Seo than the index page
 />
 <BaseLayout>
   <HeroCasestudyCariloha />
+  <Cariloha/>
   <CasestudytestCariloha />
   <Infocariloha />
   <FeatureCasestudyCariloha />
+  <CaseStudyCariloha/>
 </BaseLayout>

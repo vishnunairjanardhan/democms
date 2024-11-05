@@ -117,7 +117,7 @@ const CouponGenerator = () => {
     }}
   >
       <figure class="bg-vulcan-900 rounded-xl pt-8 lg:pb-5 pb-12">
-      <h5 className="px-10 text-lg font-normal tracking-tight text-center text-white mb-6">{`Generate ${title} Codes`}</h5>
+      <h5 className="px-10 text-lg font-normal tracking-tight text-center text-white h-16 mb-6">{`Generate ${title} Codes`}</h5>
       <div className='border-b border-vulcan-800'></div>
       <h6 className="mt-6 mb-2 pt-2">{example1}</h6>
       <h6 className='mb-2'>{example2}</h6>

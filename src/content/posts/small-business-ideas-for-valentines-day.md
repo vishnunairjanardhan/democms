@@ -8,7 +8,7 @@ heading: Small Business Ideas for Valentine’s Day
 image:
   url: "/assets/blog/Small-Business-ideas-for-Valentines-Day.jpg"
   alt: "The word community with a heart."
-tags: ["Marketing"]
+tags: ["Promotion"]
 url: "https://www.99minds.io/blog/small-business-ideas-for-valentines-day"
 keywords: ["99minds"]
 

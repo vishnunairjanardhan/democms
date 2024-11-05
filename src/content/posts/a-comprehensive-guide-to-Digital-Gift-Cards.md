@@ -8,7 +8,7 @@ heading: A Comprehensive Guide to Digital Gift Cards
 image: 
   url: "/assets/blog/A-comprehensive-guide-to-Digital-Gift-Cards.webp"
   alt: "Digital Gift Crads."
-tags: ["Gift Card", "digital gift card", "e-gift card" ]
+tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/a-comprehensive-guide-to-digital-gift-cards"
 keywords: ["Digital gift cards, what is a digital gift cards, E-gift card, egift card"]
 
