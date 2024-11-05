@@ -451,6 +451,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"customer-lifetime-value.md": {
+	id: "customer-lifetime-value.md";
+  slug: "customer-lifetime-value";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "customer-loyalty-programs-will-they-benefit-my-business.md": {
 	id: "customer-loyalty-programs-will-they-benefit-my-business.md";
   slug: "customer-loyalty-programs-will-they-benefit-my-business";
@@ -1406,6 +1413,13 @@ declare module 'astro:content' {
 "why-your-business-needs-gift-cards-this-valentines.md": {
 	id: "why-your-business-needs-gift-cards-this-valentines.md";
   slug: "why-your-business-needs-gift-cards-this-valentines";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"word-of-mouth-marketing.md": {
+	id: "word-of-mouth-marketing.md";
+  slug: "word-of-mouth-marketing";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
