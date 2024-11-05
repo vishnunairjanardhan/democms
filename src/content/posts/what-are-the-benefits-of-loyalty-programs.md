@@ -8,7 +8,7 @@ heading: What are the benefits of Loyalty Programs
 image:
   url: "/assets/blog/benefits-of-loyalty-program1.jpg"
   alt: "benefits of loyalty program."
-tags: ["Customer Loyalty"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs"
 keywords: ["99minds"]
 

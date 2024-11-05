@@ -8,7 +8,7 @@ heading: Now’s the time to prepare your business for the holiday rush
 image:
   url: "/assets/blog/Nows-the-time-to-prepare-your-business-for-the-holiday-rush.jpg"
   alt: "Your business for holiday rush."
-tags: ["Marketing"]
+tags: ["Promotion"]
 url: "https://www.99minds.io/blog/nows-the-time-to-prepare-your-business-for-the-holiday-rush"
 keywords: ["99minds"]
 
