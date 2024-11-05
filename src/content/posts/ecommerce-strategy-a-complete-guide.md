@@ -185,7 +185,7 @@ Another interesting fact from <a href="https://www.customerengagementinsider.com
 
 <li><h3>PPC Advertising</h3> With pay-per-click (PPC) ads, you compensate Google or Facebook for driving visitors to your website. You will be charged a particular amount each time a user clicks on your advertisement, as the name suggests.</li>
 
-You can set a bid for several kinds of traffic while operating a PPC campaign; for instance, you could divide your bids according to the user's device or location. To retarget customers based on particular activities, like visiting your website or leaving a shopping basket empty, you can also execute PPC campaigns.
+You can set a bid for several kinds of traffic while operating a PPC campaign; for instance, you could divide your bids according <a href="https://velocityppc.com/industries/google-ads-for-plumbers/" role="link" target="_blank">to the user's device or location</a>. To retarget customers based on particular activities, like visiting your website or leaving a shopping basket empty, you can also execute PPC campaigns.
 
 <li><h3>Search Engine Optimization (SEO)</h3> The technique of increasing a website, blog, or online store's visibility in Google and other major search engine results is known as Search Engine Optimization or SEO.</li>
 
