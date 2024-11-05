@@ -17,7 +17,7 @@ export const rewards = [
     },
     {
         "logo": " assets/shopifycheckout/product-review.svg",
-        "line1": "Post a product review",
+        "line1": "Buy this product and receive 5x loyalty points",
         "line2": "500 Points"
     },
     {
