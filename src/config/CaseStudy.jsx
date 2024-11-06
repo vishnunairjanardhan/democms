@@ -20,6 +20,7 @@ export const cardData =[
     {date:'October 2024', title:"How Jaxen Grey's Social Media Gift Card Promotions Drive Engagement and Sales by 20%", description:"", href:'/case-study/jaxengrey', img:"/assets/case-study/jaxengrey.png", alt:"Jaxengrey Case Study"},
     {date:'October 2024', title:"How Cariloha's Gift Card Promotion Boosts Customer Acquisition by 30%", description:"", href:'/case-study/cariloha', img:"/assets/case-study/cariloha.png", alt:"Cariloha Case Study"},
     {date:'April 2024', title:'FlynnOhara Outfit 1,500 Schools and 500,000 Students with Quality Uniforms!', description:"", href:"/case-study/flynnohara", img:"/assets/case-study/flynnohara_1.webp", alt:"Flynnohara Case Study"},
+    {date:'October 2024', title:'Bfearless At-Home Loyalty Program', description:"", href:"/case-study/bfearless", img:"/assets/case-study/tassels1.png", alt:"Bfearless Case Study"},
 ]
 
 export const Fashion =[
