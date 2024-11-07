@@ -381,6 +381,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"beauty-loyalty-program.md": {
+	id: "beauty-loyalty-program.md";
+  slug: "beauty-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "beginners-guide-to-e-commerce-promotions.md": {
 	id: "beginners-guide-to-e-commerce-promotions.md";
   slug: "beginners-guide-to-e-commerce-promotions";
@@ -762,13 +769,6 @@ declare module 'astro:content' {
 "how-to-attract-and-retain-generation-z-customers.md": {
 	id: "how-to-attract-and-retain-generation-z-customers.md";
   slug: "how-to-attract-and-retain-generation-z-customers";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"how-to-build-customer-loyalty-for-beauty-industry.md": {
-	id: "how-to-build-customer-loyalty-for-beauty-industry.md";
-  slug: "how-to-build-customer-loyalty-for-beauty-industry";
   body: string;
   collection: "posts";
   data: any
