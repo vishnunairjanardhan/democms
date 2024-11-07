@@ -3,172 +3,206 @@
  import { buttonConfig, cardData, Fashion, Others } from '../../config/CaseStudy.jsx';
 --- 
 <section>
-<div>
-  <div x-data="{
-        tabSelected: 1,
-        tabId: $id('tabs'),
-        tabButtonClicked(tabButton){
-            this.tabSelected = tabButton.id.replace(this.tabId + '-', '');
-            this.tabRepositionMarker(tabButton);
-        },
-        tabRepositionMarker(tabButton){
-            this.$refs.tabMarker.style.width=tabButton.offsetWidth + 'px';
-            this.$refs.tabMarker.style.height=tabButton.offsetHeight + 'px';
-            this.$refs.tabMarker.style.left=tabButton.offsetLeft + 'px';
-        },
-        tabContentActive(tabContent){
-            return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
-        }
-    }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="relative mt-10">
-     <div class="hidden lg:max-w-7xl sm:block md:block">
-    <div class=" relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
-        {buttonConfig.map((button) => (
-          <button
-          class="relative z-20 inline-flex p-2 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id={button.id}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class={`w-4 icon icon-tabler ${button.icon}`}
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M3 12l3 3l3 -3l-3 -3z"></path>
-              <path d="M15 12l3 3l3 -3l-3 -3z"></path>
-              <path d="M9 6l3 3l3 -3l-3 -3z"></path>
-              <path d="M9 18l3 3l3 -3l-3 -3z"></path>
-            </svg>{button.label}
-          </button>
-        ))}
-      <div class="absolute left-0 z-10 w-full h-full duration-300 ease-out" x-ref="tabMarker" style="width: 76px; height: 32px; left: 300px;">
-        <div class="w-full h-full rounded-lg bg-vulcan-900 border-2 border-indigo-500"></div>
+  <div>
+    <div x-data="{
+          tabSelected: 1,
+          tabId: $id('tabs'),
+          tabButtonClicked(tabButton){
+              this.tabSelected = tabButton.id.replace(this.tabId + '-', '');
+              this.tabRepositionMarker(tabButton);
+          },
+          tabRepositionMarker(tabButton){
+              this.$refs.tabMarker.style.width=tabButton.offsetWidth + 'px';
+              this.$refs.tabMarker.style.height=tabButton.offsetHeight + 'px';
+              this.$refs.tabMarker.style.left=tabButton.offsetLeft + 'px';
+          },
+          tabContentActive(tabContent){
+              return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
+          }
+      }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="relative mt-10">
+      <div class="hidden lg:max-w-7xl sm:block md:block">
+      <div class=" relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
+          {buttonConfig.map((button) => (
+            <button
+            class="relative z-20 inline-flex p-2 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id={button.id}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class={`w-4 icon icon-tabler ${button.icon}`}
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M3 12l3 3l3 -3l-3 -3z"></path>
+                <path d="M15 12l3 3l3 -3l-3 -3z"></path>
+                <path d="M9 6l3 3l3 -3l-3 -3z"></path>
+                <path d="M9 18l3 3l3 -3l-3 -3z"></path>
+              </svg>{button.label}
+            </button>
+          ))}
+        <div class="absolute left-0 z-10 w-full h-full duration-300 ease-out" x-ref="tabMarker" style="width: 76px; height: 32px; left: 300px;">
+          <div class="w-full h-full rounded-lg bg-vulcan-900 border-2 border-indigo-500"></div>
+        </div>
+      </div>
+      </div>
+      <div class="relative w-full pt-8 content border-t mt-8 border-vulcan-800">
+        <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-1">
+          <!-- Tab Content 1 - Replace with your content -->
+          <section>
+            <div class="py-10">
+              <ol class="grid grid-cols-1 gap-16 lg:grid-cols-2 sm:grid-cols-2" role="list">
+              {cardData.map((data) => (
+                <li class="group border bg-vulcan-800 border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
+                  <a href={data.href}>
+                    <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
+                      <div class="flex relative overflow-hidden rounded-lg group">
+                        <!-- YouTube Video (conditionally displayed) -->
+                        <iframe 
+                          x-show="data.videoUrl" 
+                          :src="data.videoUrl + '?autoplay=1&mute=1&loop=1&playlist=' + data.videoId" 
+                          class="absolute top-0 left-0 w-full h-full"
+                          frameborder="0" 
+                          allow="autoplay; encrypted-media" 
+                          width="630">
+                        </iframe>
+                        
+                        <!-- Static Image (conditionally displayed) -->
+                        <img 
+                          x-show="!data.videoUrl" 
+                          :src="data.img" 
+                          :alt="data.alt" 
+                          class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover w-full h-full" 
+                          loading="lazy" 
+                          width="630">
+                      </div>
+                    </div>
+                    <div class="p-8">
+                      <p>
+                        <time class="text-xs text-indigo-300" datetime="Wed Apr 21">{data.date}</time>
+                      </p>
+                      <h2 class="text-xl font-semibold text-indigo-400">{data.heading}</h2> 
+                      <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
+                      <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
+                      <a href={data.href} class="text-indigo-400 mt-5 hover:underline">Read More</a>
+                    </div>
+                  </a>
+                </li>
+              ))}
+              </ol>
+            </div>
+          </section>
+          <!-- End Tab Content 1 -->
+        </div>
+        <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-2" style="display: none;">
+          <section>
+            <div class="py-12">
+              <ol class="grid grid-cols-1 gap-16 lg:grid-cols-2 sm:grid-cols-2" role="list">
+                {Fashion.map((data) => (
+                <li class="group border bg-vulcan-800 border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
+                  <a href={data.href}>
+                    <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
+                      <div class="flex">
+                        <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="630">
+                      </div>
+                    </div>
+                    <div class="p-8">
+                      <p>
+                        <time class="text-xs text-indigo-300" datetime="Wed Apr 21">{data.date}</time>
+                      </p>
+                      <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
+                      <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
+                    </div>
+                  </a>
+                </li>
+              ))}
+              </ol>
+            </div>
+          </section>
+        </div>
+        <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-3" style="display: none;">
+          <section>
+            <div class="py-12">
+              <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-2" role="list">
+                
+              </ol>
+            </div>
+          </section>
+        </div>
+        <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-4" style="display: none;">
+          <section>
+            <div class="py-12">
+              <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-2" role="list">
+                
+              </ol>
+            </div>
+          </section>
+        </div>
+        <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-5" style="display: none;">
+          <section>
+            <div class="py-12">
+              <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-2" role="list">
+                
+              </ol>
+            </div>
+          </section>
+        </div>
+        <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-6" style="display: none;">
+          <section>
+            <div class="py-12">
+              <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-2" role="list">
+                
+              </ol>
+            </div>
+          </section>
+        </div>
+        <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-7" style="display: none;">
+          <section>
+            <div class="py-12">
+              <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-2" role="list">
+                {Others.map((data) => (
+                <li class="group border bg-vulcan-800 border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
+                  <a href={data.href}>
+                    <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
+                      <div class="flex relative overflow-hidden rounded-lg group">
+                        <!-- YouTube Video (conditionally displayed) -->
+                        <iframe 
+                          x-show="data.videoUrl" 
+                          :src="data.videoUrl + '?autoplay=1&mute=1&loop=1&playlist=' + data.videoId" 
+                          class="absolute top-0 left-0 w-full h-full"
+                          frameborder="0" 
+                          allow="autoplay; encrypted-media" 
+                          width="630">
+                        </iframe>
+                        
+                        <!-- Static Image (conditionally displayed) -->
+                        <img 
+                          x-show="!data.videoUrl" 
+                          :src="data.img" 
+                          :alt="data.alt" 
+                          class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover w-full h-full" 
+                          loading="lazy" 
+                          width="630">
+                      </div>
+                    </div>
+                    <div class="p-8">
+                      <p>
+                        <time class="text-xs text-indigo-300" datetime="Wed Apr 21">{data.date}</time>
+                      </p>
+                      <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
+                      <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
+                    </div>
+                  </a>
+                </li>
+              ))}
+              </ol>
+            </div>
+          </section>
+        </div>
       </div>
     </div>
-    </div>
-    <div class="relative w-full pt-8 content border-t mt-8 border-vulcan-800">
-      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-1">
-        <!-- Tab Content 1 - Replace with your content -->
-        <section>
-          <div class="py-10">
-            <ol class="grid grid-cols-1 gap-16 lg:grid-cols-2 sm:grid-cols-2" role="list">
-            {cardData.map((data) => (
-              <li class="group border bg-vulcan-800 border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
-                <a href={data.href}>
-                  <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
-                    <div class="flex">
-                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="630">
-                    </div>
-                  </div>
-                  <div class="p-8">
-                    <p>
-                      <time class="text-xs text-indigo-300" datetime="Wed Apr 21">{data.date}</time>
-                    </p>
-                    <h2 class="text-xl font-semibold text-indigo-400">{data.heading}</h2> 
-                    <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
-                    <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
-                    <a href={data.href} class="text-indigo-400 mt-5 hover:underline">Read More</a>
-                  </div>
-                </a>
-              </li>
-            ))}
-            </ol>
-          </div>
-        </section>
-        <!-- End Tab Content 1 -->
-      </div>
-      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-2" style="display: none;">
-        <section>
-          <div class="py-12">
-            <ol class="grid grid-cols-1 gap-16 lg:grid-cols-2 sm:grid-cols-2" role="list">
-              {Fashion.map((data) => (
-              <li class="group border bg-vulcan-800 border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
-                <a href={data.href}>
-                  <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
-                    <div class="flex">
-                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="630">
-                    </div>
-                  </div>
-                  <div class="p-8">
-                    <p>
-                      <time class="text-xs text-indigo-300" datetime="Wed Apr 21">{data.date}</time>
-                    </p>
-                    <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
-                    <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
-                  </div>
-                </a>
-              </li>
-            ))}
-            </ol>
-          </div>
-        </section>
-      </div>
-      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-3" style="display: none;">
-        <section>
-          <div class="py-12">
-            <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-2" role="list">
-              
-            </ol>
-          </div>
-        </section>
-      </div>
-      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-4" style="display: none;">
-        <section>
-          <div class="py-12">
-            <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-2" role="list">
-              
-            </ol>
-          </div>
-        </section>
-      </div>
-      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-5" style="display: none;">
-        <section>
-          <div class="py-12">
-            <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-2" role="list">
-              
-            </ol>
-          </div>
-        </section>
-      </div>
-      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-6" style="display: none;">
-        <section>
-          <div class="py-12">
-            <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-2" role="list">
-              
-            </ol>
-          </div>
-        </section>
-      </div>
-      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-7" style="display: none;">
-        <section>
-          <div class="py-12">
-            <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-2" role="list">
-              {Others.map((data) => (
-              <li class="group border bg-vulcan-800 border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
-                <a href={data.href}>
-                  <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
-                    <div class="flex">
-                      <img class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" loading="lazy" src={data.img} alt={data.alt} width="630">
-                    </div>
-                  </div>
-                  <div class="p-8">
-                    <p>
-                      <time class="text-xs text-indigo-300" datetime="Wed Apr 21">{data.date}</time>
-                    </p>
-                    <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
-                    <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
-                  </div>
-                </a>
-              </li>
-            ))}
-            </ol>
-          </div>
-        </section>
-      </div>
     </div>
   </div>
-  </div>
-</div>
 </section>
