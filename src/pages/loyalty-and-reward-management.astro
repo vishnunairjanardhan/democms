@@ -6,9 +6,13 @@ import ProgramWidget from "../components/features/ProgramWidget.astro";
 import WorkFlow from "../components/features/WorkFlow.astro";
 import SocialWidget from "../components/features/SocialWidget.astro";
 import FeatureMem3 from "../components/features/FeatureMem3.astro";
+import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
 import FeatureTabComp from "../components/features/FeatureTabComp.astro";
 import ShopifyCheckout from "../components/features/ShopifyCheckout.astro";
+import ScrollComp from "../components/features/ScrollComp.astro";
 import { AstroSeo } from "@astrolib/seo";
+import GlobeWithHexes from "../components/customers/ThreeScene.jsx"
+import Counter from "../components/customers/Counter.astro"
 ---
 
 <!---
@@ -49,8 +53,11 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <ProgramWidget/>
 <SocialWidget/>
 <Slide1/>
+<ScrollComp />
 <FeatureMem3 />
 <FeatureTabComp />
 <ShopifyCheckout/>
 <WorkFlow/>
+<Counter/>
+<GlobeWithHexes client:load />
 </BaseLayout2>
