@@ -49,7 +49,7 @@ But beyond these giants, what are other successful beauty loyalty initiatives? W
 
 It is projected to surpass $784.6 billion by 2027. In the U.S., retail sales of beauty products hit $15.55 billion in 2021, forecasted to grow to over $30 billion by 2026, <a href="https://www.emarketer.com/content/us-beauty-ecommerce-2022">according to eMarketer</a>. Effective beauty loyalty programs, like Sephora’s and Ulta’s, play a key role in driving this growth.
 
-<!-- image here -->
+<img src="/assets/blog/beauty-statistics.png" alt="statistics for beauty ecommerce sales">
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -96,7 +96,7 @@ When designed effectively, these programs enhance customer retention and offer v
 
 This success is further validated <a href="https://www.bain.com/insights/retaining-customers-is-the-real-challenge/">by a Bain & Company report</a>, which revealed that increasing loyal customers by just 5% can lead to a sales boost of 25% to 95%. The program effectively drives customer retention and engagement, making it a cornerstone of Sephora's marketing strategy.
 
-<!-- image here -->
+<img src="/assets/blog/sephora-beauty.png" alt="sephora’s beauty insider program">
 
 What makes Sephora's Beauty Insider stand out?
 <ul>
@@ -123,7 +123,7 @@ One of the most popular beauty loyalty programs in the industry is <a href="http
 
 Ulta’s program is known for its flexibility and value. Members can redeem points not only for products but also for salon services, a unique feature among beauty loyalty programs. This ability to earn and spend points in a variety of ways keeps customers engaged and returning. 
 
-<!-- image here -->
+<img src="/assets/blog/ultamate-rewards-program.png" alt="ultamate rewards program">
 
 Here’s what makes Ulta’s Ultamate Rewards program one of the best beauty loyalty programs:
 <ul>
@@ -150,7 +150,8 @@ Debenhams’ Beauty Club is a beauty loyalty program that not only aligns with t
 
 One standout aspect of the Beauty Club is its evolving nature. Debenhams regularly updates the program, adding new benefits and rewards to keep it exciting and relevant for loyal customers. Members often receive access to exclusive samples, beauty events, and extra perks that add value and keep them engaged with the brand. This ongoing enhancement keeps the Beauty Club fresh and enticing, setting it apart from other beauty loyalty programs by focusing on continual customer satisfaction.
 
-<!-- image here -->
+<img src="/assets/blog/DT-Beauty-Club-Landing-scaled.jpg" alt="Debenhams Beauty Club">
+
 
 Here’s what sets Debenhams' Beauty Club apart as one of the standout beauty rewards programs:
 <ul>
@@ -210,7 +211,7 @@ By combining tangible rewards with personalized experiences, Charlotte Tilbury's
 
 Charlotte Tilbury’s Beauty Universe loyalty program stands out for its creative engagement features, rewarding customers with unique experiences and incentives.
 
-<!-- image here -->
+<img src="/assets/blog/charlottes-loyalty-program.jpeg" alt="charlotte’s loyalty program">
 
 Here’s what makes it a noteworthy example among the best beauty loyalty programs:
 <ul>
@@ -264,7 +265,7 @@ Charlotte Tilbury’s Beauty Universe stands out as a loyalty program that blend
 
 Glow Recipe’s Glow Rewards program is designed to be one of the most enjoyable and engaging loyalty programs in the beauty industry. The brand's focus is on creating a simple yet rewarding experience for skincare enthusiasts, with the mission to make achieving radiant skin more accessible. Glow Recipe emphasizes that Glow Rewards is their way of saying thank you to customers for choosing them as a partner in their skincare journey. This customer-centric approach not only enhances loyalty but also strengthens the bond between the brand and its community.
 
-<!-- image here -->
+<img src="/assets/blog/glow-rewards-program.jpeg" alt="glow rewards program">
 
 What Makes Glow Rewards Stand Out?
 <ul>
@@ -286,7 +287,7 @@ Lancôme, the renowned international beauty brand, offers an impressive loyalty 
 
 Customers earn 10 points for every $1 spent, which quickly adds up, allowing them to unlock benefits at each tier. By emphasizing exclusivity and rewarding loyal customers, Lancôme’s Elite Rewards program enhances customer engagement and reinforces brand loyalty. This well-crafted approach keeps customers excited to interact with the brand while enjoying a rewarding experience tailored to their loyalty level.
 
-<!-- image here -->
+<img src="/assets/blog/Elite-rewards-program.jpg" alt="Elite rewards program">
 
 Lancôme’s Elite Rewards program stands out as a thoughtfully designed loyalty system that offers more than just points for purchases. Here’s what makes it unique:
 <ul>
