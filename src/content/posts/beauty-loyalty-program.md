@@ -228,6 +228,8 @@ Charlotte Tilbury adds a unique twist by rewarding members with points for compl
 Embracing the brand’s “magic” theme, Beauty Universe includes an exclusive perk called the Magic Vault. Customers who place three orders of £49 or more get access to this mysterious vault, filled with special rewards that aren’t fully disclosed. This element of surprise maintains excitement and mystique, reinforcing the brand's identity and building anticipation for repeat purchases.
 
 Charlotte Tilbury’s Beauty Universe stands out as a loyalty program that blends brand personality, engaging rewards, and strategic customer milestones to keep members intrigued and connected to the brand. These thoughtful perks make it a standout in beauty loyalty programs for fostering customer loyalty in a highly competitive market.
+</ul>
+</li>
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -258,8 +260,7 @@ Charlotte Tilbury’s Beauty Universe stands out as a loyalty program that blend
               </div>
             </div>
           </div>
-</ul>
-</li>
+
 
 <li><h3>Glow – Glow Rewards</h3>
 
