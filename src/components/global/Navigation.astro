@@ -232,7 +232,7 @@
            class="absolute left-1/2 transform -translate-x-1/2 ml-12 z-50 mt-2 ring-1 ring-inset ring-white/5 focus:outline-none">
 
         <div class="bg-vulcan-900 rounded-xl grid grid-cols-1 md:grid-cols-4 mt-4 gap-4 max-w-none mx-auto w-[98rem] h-[28rem]">
-        <ul id="products" class="space-y-2 ml-32 mt-4 flex flex-col items-start border-r border-gray-600">
+        <ul id="products" class="space-y-2 ml-36 mt-4 flex flex-col items-start border-r border-gray-600">
         <li><h3 class="text-white block mt-4">The Platform</h3></li>
         <li>
           <a href="/store-credit" class="text-white mt-4 block text-sm hover:text-indigo-400">
@@ -373,32 +373,93 @@
       </a>
     </li>
     </ul>
-    <!-- <ul id="products" class="space-y-4 ml-16 flex flex-col items-start">
-      <li><a href="/giftcard" class="text-white block mt-4 text-sm hover:text-indigo-400">Gift Card</a></li>
-      <li><a href="/store-credit" class="text-white mt-4  mt-4block text-sm hover:text-indigo-400">Store Credit</a></li>
-      <li><a href="/loyalty" class="text-white block mt-4 text-sm hover:text-indigo-400">Loyalty Program</a></li>
-      <li><a href="/coupons" class="text-white block mt-4 text-sm hover:text-indigo-400">Coupons</a></li>
-      <li><a href="/referral" class="text-white block mt-4 text-sm hover:text-indigo-400">Referrals</a></li>
-      <li><a href="/automated-workflow" class="text-white block mt-4 text-sm hover:text-indigo-400">Automated Workflows</a></li>
+   <ul id="products" class="space-x-8 mt-10 ml-0">
+      <li>
+        <div class="relative inline-block">
+         
+          <img src="https://www.yotpo.com/wp-content/uploads/2024/02/RAD-1.svg" class="pr-32 w-full h-auto"/>
+    
+         
+          <div class="absolute inset-0 flex flex-col items-center justify-center text-center space-y-4 pr-32">
+            <p class="text-white text-lg font-semibold mt-4">Ready to see how it<br> all works?</p>
+            
+            <button type="button" role="button" label="book a demo" class="raise mt-4 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
+              onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
+              <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+              <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
+                <span class="relative text-white">Book a Demo</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </li>
     </ul>
-    <ul id="products" class="space-y-4 ml-16 flex flex-col items-start">
-      <li><a href="/giftcard" class="text-white block mt-4 text-sm hover:text-indigo-400">Gift Card</a></li>
-      <li><a href="/store-credit" class="text-white mt-4  mt-4block text-sm hover:text-indigo-400">Store Credit</a></li>
-      <li><a href="/loyalty" class="text-white block mt-4 text-sm hover:text-indigo-400">Loyalty Program</a></li>
-      <li><a href="/coupons" class="text-white block mt-4 text-sm hover:text-indigo-400">Coupons</a></li>
-      <li><a href="/referral" class="text-white block mt-4 text-sm hover:text-indigo-400">Referrals</a></li>
-      <li><a href="/automated-workflow" class="text-white block mt-4 text-sm hover:text-indigo-400">Automated Workflows</a></li>
-    </ul> -->
   </div>
 </div>
 
         </div>
         
-        <a
-          class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
-          href="/integrations">
-          Integrations
-        </a>
+        <div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
+          <button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50" role="button" :aria-expanded="open" aria-controls="products-dropdown">
+            <span>Customers</span>
+            <svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M6 9l6 6l6 -6"></path>
+            </svg>
+          </button>
+          <div id="products-dropdown" 
+           x-show="open" 
+           x-transition:enter="transition ease-out duration-100" 
+           x-transition:enter-start="transform opacity-0 scale-95" 
+           x-transition:enter-end="transform opacity-100 scale-100" 
+           x-transition:leave="transition ease-in duration-75" 
+           x-transition:leave-start="transform opacity-100 scale-100" 
+           x-transition:leave-end="transform opacity-0 scale-95" 
+           class="absolute left-1/2 transform -translate-x-1/2 ml-12 z-50 mt-2 ring-1 ring-inset ring-white/5 focus:outline-none">
+
+        <div class="bg-vulcan-900 rounded-xl grid grid-cols-1 md:grid-cols-4 mt-4 gap-4 max-w-none mx-auto w-[98rem] h-[28rem]">
+       
+    <ul id="case-studies" class="space-y-2 mt-4 ml-10 flex flex-col items-start border-r border-gray-600">
+      <li><h3 class="text-white block mt-4">Our Customers</h3></li>
+      <li>
+        <a href="/case-study" class="text-white mt-4 block text-sm hover:text-indigo-400">
+            <div class="flex items-center">
+            
+            <h4 class="font-semibold">Case Studies</h4>
+            </div>
+        
+        <p class="text-sm mt-2">Find out what our customers love<br> about our platform.</p>
+      </a>
+    </li>
+      <li>
+        <a href="/case-study" class="text-white mt-4 block text-sm hover:text-indigo-400">
+            <div class="flex items-center">
+              <h4 class="font-semibold">Customer Success</h4>
+            </div>
+        
+        <p class="text-sm mt-2">Meet the team that ensures you get<br> the most out of 99minds.</p>
+      </a>
+    </li>
+    
+  </ul>
+
+  <ul id="case-studies" class="space-y-2 mt-4 ml-12 flex flex-col items-start">
+    <li><h3 class="text-white block mt-4">Winning with 99minds</h3></li>
+    <li>
+      <a href="/case-study/natori" class="text-white mt-4 block text-sm hover:text-indigo-400">
+          <div class="h-72 rounded-2xl" style="width: 510px;">
+          
+          <img src="/assets/case-study/natori4.png" class="rounded-2xl h-72"/>
+          </div>
+      
+    </a>
+  </li>
+  
+</ul>
+    
+  </div>
+  </div>
+  </div>
         <a
           class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
           href="/case-study">
