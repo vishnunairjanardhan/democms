@@ -8,7 +8,7 @@ heading: Why Should You Use Gift Cards For Your Business
 image:
   url: "/assets/blog/Why-should-you-use-gift-cards-for-your-business-1.jpg"
   alt: "why gift card use for business."
-tags: ["Customer Loyalty","Gift Card"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/why-should-you-use-gift-cards-for-your-business"
 keywords: ["99minds"]
 

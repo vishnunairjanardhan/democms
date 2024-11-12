@@ -8,7 +8,7 @@ heading: What constitutes a good loyalty program?
 image:
   url: "/assets/blog/What-constitutes-a-good-loyalty-program.jpg"
   alt: "Good loyalty program."
-tags: ["Customer Loyalty", "Loyalty Program"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/what-constitutes-a-good-loyalty-program"
 keywords: ["99minds"]
 

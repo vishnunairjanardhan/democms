@@ -8,7 +8,7 @@ heading: How to drive customer loyalty during a Global Recession?
 image: 
   url: "/assets/blog/How-to-drive-customer-loyalty-during-a-Global-Recession-1-800x450.jpg"
   alt: "How to drive customer loyalty during a global recession."
-tags: ["Loyalty"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/how-to-drive-customer-loyalty-during-a-global-recession"
 keywords: ["99minds"]
 

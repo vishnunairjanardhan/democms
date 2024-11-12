@@ -1,87 +1,90 @@
 <section class="relative overflow-x-hidden border-y border-white/5">
-    <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:pt-24">
+    <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:pt-24 border shadow-2xl border-vulcan-700 rounded-3xl">
 	
 	<div x-data="{
         tabSelected: 1,
         tabId: $id('tabs'),
-        tabButtonClicked(tabButton){
+        totalTabs: 4, 
+        intervalId: null,
+        
+        tabButtonClicked(tabButton) {
+            clearInterval(this.intervalId); 
             this.tabSelected = tabButton.id.replace(this.tabId + '-', '');
             this.tabRepositionMarker(tabButton);
+            this.startAutoScroll();
         },
-        tabRepositionMarker(tabButton){
-            this.$refs.tabMarker.style.width=tabButton.offsetWidth + 'px';
-            this.$refs.tabMarker.style.height=tabButton.offsetHeight + 'px';
-            this.$refs.tabMarker.style.left=tabButton.offsetLeft + 'px';
+        
+        tabRepositionMarker(tabButton) {
+            this.$refs.tabMarker.style.width = tabButton.offsetWidth + 'px';
+            this.$refs.tabMarker.style.height = tabButton.offsetHeight + 'px';
+            this.$refs.tabMarker.style.left = tabButton.offsetLeft + 'px';
         },
-        tabContentActive(tabContent){
+
+        tabContentActive(tabContent) {
             return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
+        },
+        
+        startAutoScroll() {
+            this.intervalId = setInterval(() => {
+                this.tabSelected = (this.tabSelected % this.totalTabs) + 1; // Loop back to the first tab
+                let tabButton = document.getElementById(this.tabId + '-' + this.tabSelected);
+                this.tabRepositionMarker(tabButton);
+            }, 3000);
+        },
+
+        // Method to stop the scrolling
+        stopAutoScroll() {
+            clearInterval(this.intervalId);
         }
-    }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="relative mt-10">
-		<div class="relative flex flex-row border rounded-xl items-center justify-center gap-5 w-7/12 h-16 mx-auto text-white select-none" x-ref="tabButtons">
-	<button class="relative z-20 inline-flex items-center gap-2 w-auto h-10 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-1">
-		<svg xmlns="http://www.w3.org/2000/svg" class="w-4 icon icon-tabler icon-tabler-components" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-			<path d="M3 12l3 3l3 -3l-3 -3z"></path>
-			<path d="M15 12l3 3l3 -3l-3 -3z"></path>
-			<path d="M9 6l3 3l3 -3l-3 -3z"></path>
-			<path d="M9 18l3 3l3 -3l-3 -3z"></path>
-		</svg>Reward Management</button>
-	<button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-2">
-		<svg xmlns="http://www.w3.org/2000/svg" class="w-4 icon icon-tabler icon-tabler-components" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-			<path d="M3 12l3 3l3 -3l-3 -3z"></path>
-			<path d="M15 12l3 3l3 -3l-3 -3z"></path>
-			<path d="M9 6l3 3l3 -3l-3 -3z"></path>
-			<path d="M9 18l3 3l3 -3l-3 -3z"></path>
-		</svg>Integrations</button>
-	<button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">
-		<svg xmlns="http://www.w3.org/2000/svg" class="w-4 icon icon-tabler icon-tabler-components" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-			<path d="M3 12l3 3l3 -3l-3 -3z"></path>
-			<path d="M15 12l3 3l3 -3l-3 -3z"></path>
-			<path d="M9 6l3 3l3 -3l-3 -3z"></path>
-			<path d="M9 18l3 3l3 -3l-3 -3z"></path>
-		</svg>Creator Management</button>
-        <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">
-		<svg xmlns="http://www.w3.org/2000/svg" class="w-4 icon icon-tabler icon-tabler-components" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-			<path d="M3 12l3 3l3 -3l-3 -3z"></path>
-			<path d="M15 12l3 3l3 -3l-3 -3z"></path>
-			<path d="M9 6l3 3l3 -3l-3 -3z"></path>
-			<path d="M9 18l3 3l3 -3l-3 -3z"></path>
-		</svg>Analytics</button>
-	<div class="absolute left-0 z-10 w-full h-full duration-300 ease-out" x-ref="tabMarker" style="width: 76px; height: 32px; left: 0px;">
-		<div class="w-full h-full rounded-lg bg-vulcan-900 border-2 border-indigo-500"></div>
-	</div>
-</div>
-		<div class="relative w-full pt-8 content">
-			<div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-1" style="display: none;">
-				<!-- Tab Content 1 - Replace with your content -->
-				<section class="item center justify-center mt-2  w-full">
-					<p class="text-xl text-center text-white">Manage gifting and payments on a commission or flat rate basis for any scale of affiliates.</p>
-					 <img src="/assets/program.svg" alt="Background Image" class="h-[32rem] mt-12 object-cover mx-auto rounded-t-2xl"> 
-				</section>
-				<!-- End Tab Content 1 -->
-			</div>
-			<div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-2" style="display: none;">
-				<section class="item center justify-center mt-2  w-full">
-					<p class="text-xl text-center text-white">Built for the modern ecommerce stack across every sms, email and subscription app.</p>
-					 <img src="/assets/program.svg" alt="Background Image" class="h-[32rem] mt-12 object-cover mx-auto rounded-t-2xl"> 
-				</section>
-			</div>
-			<div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-3" style="display: none;">
-				<section class="item center justify-center mt-2  w-full">
-					<p class="text-xl text-center text-white">Manage each creator’s balance, track their performance and equip your customer success team with all the tools they need to scale the program.</p>
-					 <img src="/assets/program.svg" alt="Background Image" class="h-[32rem] mt-12 object-cover mx-auto rounded-t-2xl"> 
-				</section>
-			</div>
-			<div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-4" style="">
-				<section class="item center justify-center mt-2  w-full">
-					<p class="text-xl text-center text-white">Track and double down on top performing creators based on their ability to generate traffic, revenue and new customers.</p>
-					 <img src="/assets/program.svg" alt="Background Image" class="h-[32rem] mt-12 object-cover mx-auto rounded-t-2xl"> 
-				</section>
-			</div>
-		</div>
+    }" 
+    x-init="tabRepositionMarker($refs.tabButtons.firstElementChild); startAutoScroll();" 
+    @mouseenter="stopAutoScroll" @mouseleave="startAutoScroll" 
+    class="relative mt-10">
+		
+		<div class="relative lg:flex lg:flex-row lg:border rounded-xl items-center justify-center lg:gap-5 lg:w-[38rem] w-16 h-16 mx-auto text-white select-none hidden" x-ref="tabButtons">
+            <button class="relative z-20 inline-flex items-center gap-2 w-auto lg:h-10 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500': tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-1">
+                Reward Management
+            </button>
+            <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500': tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-2">
+                Integrations
+            </button>
+            <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500': tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">
+                Creator Management
+            </button>
+            <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500': tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-4">
+                Analytics
+            </button>
+            <div class="absolute left-0 z-10 w-full h-full duration-300 ease-out" x-ref="tabMarker" style="width: 76px; height: 32px; left: 0px;">
+                <div class="w-full h-full rounded-lg bg-vulcan-900 border-2 border-indigo-500"></div>
+            </div>
+        </div>
+
+		<div class="relative w-full pt-8 content overflow-x-auto lg:overflow-visible">
+            <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative flex-shrink-0 lg:flex-shrink" id="tabs-3-content-1" style="display: none;">
+                <section class="item center justify-center mt-2 w-full">
+                    <p class="text-xl max-w-4xl mx-auto text-center text-white">Manage gifting and payments on a commission or flat rate basis for any scale of affiliates.</p>
+                    <img src="/assets/tab-component/program.svg" alt="Background Image" class="lg:w-[72rem] mt-12 object-cover mx-auto rounded-t-2xl"> 
+                </section>
+            </div>
+            <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative flex-shrink-0 lg:flex-shrink" id="tabs-3-content-2" style="display: none;">
+                <section class="item center justify-center mt-2 w-full">
+                    <p class="text-xl max-w-4xl mx-auto text-center text-white">Built for the modern ecommerce stack across every SMS, email, and subscription app.</p>
+                    <img src="/assets/tab-component/Integration-section.svg" alt="Background Image" class="lg:h-[28rem] mt-4 object-cover mx-auto rounded-t-2xl"> 
+                </section>
+            </div>
+            <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative flex-shrink-0 lg:flex-shrink" id="tabs-3-content-3" style="display: none;">
+                <section class="item center justify-center mt-2 w-full">
+                    <p class="text-xl text-center max-w-4xl mx-auto text-white">Manage each creator’s balance, track their performance and equip your customer success team with all the tools they need to scale the program.</p>
+                    <img src="/assets/tab-component/Creator.svg" alt="Background Image" class="lg:h-[32rem] mt-12 object-cover mx-auto rounded-t-2xl"> 
+                </section>
+            </div>
+            <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative flex-shrink-0 lg:flex-shrink" id="tabs-3-content-4">
+                <section class="item center justify-center mt-2 w-full">
+                    <p class="text-xl text-center max-w-4xl mx-auto text-white">Track and double down on top-performing creators based on their ability to generate traffic, revenue, and new customers.</p>
+                    <img src="/assets/tab-component/Analytics-tabcomp.svg" alt="Background Image" class="lg:h-[32rem] mt-2 object-cover mx-auto rounded-t-2xl"> 
+                </section>
+            </div>
+        </div>
 	</div>
 </div>
 </section>

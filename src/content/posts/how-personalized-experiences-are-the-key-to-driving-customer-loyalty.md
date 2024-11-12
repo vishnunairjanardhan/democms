@@ -8,7 +8,7 @@ heading: How Personalized Experiences Are the Key to Driving Customer Loyalty
 image:
   url: "/assets/blog/How-Personalized-Experiences-Are-the-Key-to-Driving-Customer-Loyalty-800x450.jpg"
   alt: "How personalized experiences are the key to driving customer loyalty."
-tags: ["Gift Card", "Loyalty"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/how-personalized-experiences-are-the-key-to-driving-customer-loyalty"
 keywords: ["99minds"]
 

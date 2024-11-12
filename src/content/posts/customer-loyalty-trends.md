@@ -8,7 +8,7 @@ heading: Top Customer Loyalty Trends to Watch in 2024 | 99minds
 image:
   url: "/assets/blog/Top-Customer-Loyalty-Trends-to-Watch-in-2024.webp"
   alt: "Top Customer Loyalty Trends to Watch in 2024"
-tags: ["Customer Loyalty"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/customer-loyalty-trends"
 keywords: ["customer loyalty trends","loyalty programs trends","loyalty trends", "trends in loyalty programs","loyalty program trends","future of loyalty programs"]
 

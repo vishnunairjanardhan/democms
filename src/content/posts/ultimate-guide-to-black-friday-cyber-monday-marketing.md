@@ -8,7 +8,7 @@ heading: Ultimate Guide to Black Friday & Cyber Monday Marketing
 image: 
   url: "/assets/blog/Ultimate-Guide-to-Black-Friday-Cyber-Monday-Marketing.jpg"
   alt: "Black Friday and Cyber Monday."
-tags: ["Gift Card", Loyalty]
+tags: ["Promotion"]
 url: "https://www.99minds.io/blog/ultimate-guide-to-black-friday-cyber-monday-marketing"
 keywords: ["99minds"]
 
