@@ -19,7 +19,7 @@ const GlobeWithHexCountries = () => {
     // Renderer
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(width, height);
-    renderer.setClearColor(0x0d1117); // Vulcan-800 color background
+    renderer.setClearColor(0x0d1117); // Background color
     mountRef.current.appendChild(renderer.domElement);
 
     // Create Sphere (Globe)
@@ -43,6 +43,10 @@ const GlobeWithHexCountries = () => {
     const hexGroup = new THREE.Group();
     scene.add(hexGroup);
 
+    // Set initial tilt for the globe
+    const tiltAngle = 0.41; // Approx 23.5 degrees in radians
+    hexGroup.rotation.x = tiltAngle;
+
     // D3 Projection and Path for GeoJSON
     const projection = geoEquirectangular().translate([0, 0]).scale(radius * 100);
     const path = geoPath().projection(projection);
@@ -60,46 +64,52 @@ const GlobeWithHexCountries = () => {
         countries.forEach(country => {
           const countryCoordinates = country.geometry.coordinates;
 
-          countryCoordinates.forEach(polygon => {
-            polygon.forEach(([lon, lat]) => {
-              const latRad = lat * (Math.PI / 180);
-              const lonRad = -lon * (Math.PI / 180); // Invert the longitude for the mirror effect
-
-              // Convert latitude and longitude to 3D position on the sphere
-              const xPos = radius * Math.cos(latRad) * Math.cos(lonRad);
-              const yPos = radius * Math.sin(latRad);
-              const zPos = radius * Math.cos(latRad) * Math.sin(lonRad);
-
-              // Clone hex geometry and material for each position
-              const hexMaterial = new THREE.MeshBasicMaterial({
-                color: 0xAA8FFF,
-                side: THREE.DoubleSide,
+          countryCoordinates.forEach(region => {
+            if (Array.isArray(region[0][0])) {
+              // Multi-polygon (nested arrays)
+              region.forEach(polygon => {
+                addHexesToPolygon(polygon);
               });
-              const hexMesh = new THREE.Mesh(hexGeometry, hexMaterial);
-
-              // Position the hex on the sphere and make it face outward
-              hexMesh.position.set(xPos, yPos, zPos);
-              hexMesh.lookAt(0, 0, 0);
-
-              // Add hex to the hexGroup
-              hexGroup.add(hexMesh);
-            });
+            } else {
+              // Single polygon
+              addHexesToPolygon(region);
+            }
           });
         });
       });
 
+    // Function to add hexes to each polygon region
+    const addHexesToPolygon = (polygon) => {
+      polygon.forEach(([lon, lat]) => {
+        const latRad = lat * (Math.PI / 180);
+        const lonRad = -lon * (Math.PI / 180);
+
+        const xPos = radius * Math.cos(latRad) * Math.cos(lonRad);
+        const yPos = radius * Math.sin(latRad);
+        const zPos = radius * Math.cos(latRad) * Math.sin(lonRad);
+
+        const hexMaterial = new THREE.MeshBasicMaterial({
+          color: 0xAA8FFF,
+          side: THREE.DoubleSide,
+        });
+        const hexMesh = new THREE.Mesh(hexGeometry, hexMaterial);
+
+        // Position hex and make it face outward
+        hexMesh.position.set(xPos, yPos, zPos);
+        hexMesh.lookAt(0, 0, 0);
+
+        hexGroup.add(hexMesh);
+      });
+    };
+
     // Animation Loop
     const animate = () => {
       requestAnimationFrame(animate);
-
-      // Rotate the hex group to simulate globe rotation
       hexGroup.rotation.y += 0.01;
-
       renderer.render(scene, camera);
     };
     animate();
 
-    // Cleanup
     return () => {
       renderer.dispose();
       mountRef.current.removeChild(renderer.domElement);
