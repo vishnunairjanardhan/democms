@@ -33,3 +33,145 @@ export const TESTIMONIAL = [
         designation: "DIGITAL MARKETING MANAGER, BESTOPS",
     }
 ]
+
+export const tabsData = [
+    {
+      "logo": "/assets/testimonial/MudAustralia-logo.svg",
+      "backgroundGradient": "linear-gradient(180deg, rgb(170,143,255) 0%, rgb(150.5,117.3,255) 100%)",
+      "statistics": [
+        {
+          "value": "$1.5M",
+          "description": "In Sales due to Gift Card Promotion"
+        },
+        {
+          "value": "60 Days",
+          "description": "Social Media promotion with Heather Storm"
+        },
+        {
+          "value": "20%",
+          "description": "Increase in AOV"
+        },
+        {
+          "value": "15%",
+          "description": "Increase in Conversion Rate"
+        }
+      ],
+      "image": "/assets/testimonial/mud-aus-t.webp"
+    },
+    {
+        "logo": "/assets/testimonial/MudAustralia-logo.svg",
+        "backgroundGradient": "linear-gradient(180deg, rgb(170,143,255) 0%, rgb(150.5,117.3,255) 100%)",
+        "statistics": [
+          {
+            "value": "$1.5M",
+            "description": "In Sales due to Gift Card Promotion"
+          },
+          {
+            "value": "60 Days",
+            "description": "Social Media promotion with Heather Storm"
+          },
+          {
+            "value": "20%",
+            "description": "Increase in AOV"
+          },
+          {
+            "value": "15%",
+            "description": "Increase in Conversion Rate"
+          }
+        ],
+        "image": "/assets/testimonial/mud-aus-t.webp"
+      },
+      {
+        "logo": "/assets/testimonial/MudAustralia-logo.svg",
+        "backgroundGradient": "linear-gradient(180deg, rgb(170,143,255) 0%, rgb(150.5,117.3,255) 100%)",
+        "statistics": [
+          {
+            "value": "$1.5M",
+            "description": "In Sales due to Gift Card Promotion"
+          },
+          {
+            "value": "60 Days",
+            "description": "Social Media promotion with Heather Storm"
+          },
+          {
+            "value": "20%",
+            "description": "Increase in AOV"
+          },
+          {
+            "value": "15%",
+            "description": "Increase in Conversion Rate"
+          }
+        ],
+        "image": "/assets/testimonial/mud-aus-t.webp"
+      },
+      {
+        "logo": "/assets/testimonial/MudAustralia-logo.svg",
+        "backgroundGradient": "linear-gradient(180deg, rgb(170,143,255) 0%, rgb(150.5,117.3,255) 100%)",
+        "statistics": [
+          {
+            "value": "$1.5M",
+            "description": "In Sales due to Gift Card Promotion"
+          },
+          {
+            "value": "60 Days",
+            "description": "Social Media promotion with Heather Storm"
+          },
+          {
+            "value": "20%",
+            "description": "Increase in AOV"
+          },
+          {
+            "value": "15%",
+            "description": "Increase in Conversion Rate"
+          }
+        ],
+        "image": "/assets/testimonial/mud-aus-t.webp"
+      },
+      {
+        "logo": "/assets/testimonial/MudAustralia-logo.svg",
+        "backgroundGradient": "linear-gradient(180deg, rgb(170,143,255) 0%, rgb(150.5,117.3,255) 100%)",
+        "statistics": [
+          {
+            "value": "$1.5M",
+            "description": "In Sales due to Gift Card Promotion"
+          },
+          {
+            "value": "60 Days",
+            "description": "Social Media promotion with Heather Storm"
+          },
+          {
+            "value": "20%",
+            "description": "Increase in AOV"
+          },
+          {
+            "value": "15%",
+            "description": "Increase in Conversion Rate"
+          }
+        ],
+        "image": "/assets/testimonial/mud-aus-t.webp"
+      },
+      {
+        "logo": "/assets/testimonial/MudAustralia-logo.svg",
+        "backgroundGradient": "linear-gradient(180deg, rgb(170,143,255) 0%, rgb(150.5,117.3,255) 100%)",
+        "statistics": [
+          {
+            "value": "$1.5M",
+            "description": "In Sales due to Gift Card Promotion"
+          },
+          {
+            "value": "60 Days",
+            "description": "Social Media promotion with Heather Storm"
+          },
+          {
+            "value": "20%",
+            "description": "Increase in AOV"
+          },
+          {
+            "value": "15%",
+            "description": "Increase in Conversion Rate"
+          }
+        ],
+        "image": "/assets/testimonial/mud-aus-t.webp"
+      },
+
+  ]
