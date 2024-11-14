@@ -19,7 +19,7 @@ const GlobeWithHexCountries = () => {
     // Renderer
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(width, height);
-    renderer.setClearColor(0x0d1117); // Background color
+    renderer.setClearColor(0x151723); // Background color
     mountRef.current.appendChild(renderer.domElement);
 
     // Create Sphere (Globe)
@@ -116,7 +116,7 @@ const GlobeWithHexCountries = () => {
     };
   }, []);
 
-  return <div className="relative w-full h-full" ref={mountRef} />;
+  return <div className="relative w-full h-full flex justify-center item-center" ref={mountRef} />;
 };
 
 export default GlobeWithHexCountries;
