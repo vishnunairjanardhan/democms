@@ -160,7 +160,7 @@ const GlobeWithHexCountries = () => {
     };
   }, []);
 
-  return <div className="relative w-full h-full bg-vulcan-900" ref={mountRef} />;
+  return <div className="relative w-full h-full flex justify-center item-center" ref={mountRef} />;
 };
 
 export default GlobeWithHexCountries;
