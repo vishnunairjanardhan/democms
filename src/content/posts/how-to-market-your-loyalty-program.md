@@ -53,7 +53,7 @@ Involve Loyalty Program Members in Case Studies by nurturing them through email 
 
 Email isn’t simply for keeping in touch with customers who have got a $20 discount on their first order. It can be used to strengthen bonds between you and your loyal members of your loyalty program.
 
-It will be helpful to approach their involvement in case studies if you have built a stronger relationship with them. When a customer says something good about us, it’s always more trustworthy than when we declare it ourselves. If customers agree to have their stories published you can leverage their thoughts on your website, in <a href="https://www.99minds.io/blog/5-wicked-halloween-marketing-ideas-to-boost-your-online-sales/" target="_blank">marketing</a>, and on <a href="https://www.99minds.io/blog/how-to-use-gift-card-in-social-media-marketing/" target="_blank">social sites</a>.
+It will be helpful to approach their involvement in case studies if you have built a stronger relationship with them. When a customer says something good about us, it’s always more trustworthy than when we declare it ourselves. If customers agree to have their stories published you can leverage their thoughts on your website, in marketing, and on <a href="https://www.99minds.io/blog/how-to-use-gift-card-in-social-media-marketing/" target="_blank">social sites</a>.
 
 <h3><li>SOCIAL MEDIA</li></h3>
 
