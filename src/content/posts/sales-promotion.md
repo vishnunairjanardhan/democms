@@ -299,7 +299,7 @@ Personalized promotions leverage customer data to create discounts or product re
 
 <a href="https://www.99minds.io/referral" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-R1 (2).webp" alt="grow your business with referrals"></a>
 
-<h2 id="Sales Promotion Examples">Sales Promotion Examples</h2>
+<h2 id="Sales-Promotion-Examples">Sales Promotion Examples</h2>
 
 Examining real-world examples of effective sales promotions gives deeper insight into strategies that yield impressive results. Let’s delve into three successful cases with ideas for visual representation.
 <ol>
