@@ -1,54 +1,48 @@
+// src/components/GlobeWithHexCountries.jsx
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
-import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer';
-import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass';
-import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass';
 import { feature } from 'topojson-client';
 import { geoEquirectangular, geoPath } from 'd3-geo';
 
 const GlobeWithHexCountries = () => {
   const mountRef = useRef(null);
-  
+
   useEffect(() => {
     const width = 800;
-    const height = 800;
+    const height = 600;
 
     // Initialize Scene and Camera
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
-    camera.position.z = 6;
+    camera.position.z = 5;
 
     // Renderer
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(width, height);
-    renderer.setPixelRatio(window.devicePixelRatio); // Optimize for high DPI screens
-    renderer.setClearColor(0x1a1c2c);
+    renderer.setClearColor(0x151723); // Background color
+    renderer.shadowMap.enabled = true;
     mountRef.current.appendChild(renderer.domElement);
 
-    // Bloom Effect for Atmosphere Glow
-    const composer = new EffectComposer(renderer);
-    composer.addPass(new RenderPass(scene, camera));
-    const bloomPass = new UnrealBloomPass(new THREE.Vector2(width, height), 0.6, 0.3, 0.2); // Further optimized bloom settings
-    composer.addPass(bloomPass);
-
-    // Create Sphere (Globe) with Teal Color and lower geometry detail
+    // Create Sphere (Globe)
     const radius = 3;
-    const sphereGeometry = new THREE.SphereGeometry(radius, 50, 50); // Lowered segment count to 50x50
-    const sphereMaterial = new THREE.MeshStandardMaterial({
-      color: 0x008080, // Teal color for the globe
-      roughness: 0.8,
-      metalness: 0.2,
+    const sphereGeometry = new THREE.SphereGeometry(radius, 100, 100);
+    const sphereMaterial = new THREE.MeshPhongMaterial({
+      color: 0x1f263a, // Vulcan 200 color (dark navy/charcoal) 0x001759 0x002d59
+      emissive: 0x0D1117,
+      shininess: 10,
     });
     const globe = new THREE.Mesh(sphereGeometry, sphereMaterial);
+    globe.castShadow = true;
+    globe.receiveShadow = true;
     scene.add(globe);
 
-    // Atmosphere Glow
+    // Atmosphere Glow (Teal Light Effect)
     const atmosphereGeometry = new THREE.SphereGeometry(radius * 1.05, 50, 50);
     const atmosphereMaterial = new THREE.ShaderMaterial({
       uniforms: {
         "c": { type: "f", value: 0.1 },
         "p": { type: "f", value: 2.5 },
-        glowColor: { type: "c", value: new THREE.Color(0x4a90e2) },
+        glowColor: { type: "c", value: new THREE.Color(0x00FFFF) }, // Teal glow
         viewVector: { type: "v3", value: camera.position }
       },
       vertexShader: `
@@ -72,29 +66,39 @@ const GlobeWithHexCountries = () => {
       `,
       side: THREE.BackSide,
       blending: THREE.AdditiveBlending,
-      transparent: true
+      transparent: true,
     });
     const atmosphere = new THREE.Mesh(atmosphereGeometry, atmosphereMaterial);
     scene.add(atmosphere);
 
     // Lighting
-    const ambientLight = new THREE.AmbientLight(0x0d1117, 0.5);
-    const pointLight = new THREE.PointLight(0xffffff, 1.0);
-    pointLight.position.set(10, 10, 10);
-    scene.add(ambientLight, pointLight);
+    const ambientLight = new THREE.AmbientLight(0x404040, 1.2);
+    scene.add(ambientLight);
 
-    // Hex Group and Tilt
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+    directionalLight.position.set(5, 5, 5);
+    directionalLight.castShadow = true;
+    scene.add(directionalLight);
+
+    // Light Source Behind the Sphere
+    const backLight = new THREE.PointLight(0x00ffff, 1, 15); // Teal light with adjusted intensity and range
+    backLight.position.set(0, 0, -10); // Position it behind the globe along the z-axis
+    scene.add(backLight);
+
+    // Create a Group for Hexes
     const hexGroup = new THREE.Group();
     scene.add(hexGroup);
-    const tiltAngle = 0.41; 
+
+    // Set initial tilt for the globe
+    const tiltAngle = 0.65; 
     hexGroup.rotation.x = tiltAngle;
 
     // D3 Projection and Path for GeoJSON
     const projection = geoEquirectangular().translate([0, 0]).scale(radius * 100);
     const path = geoPath().projection(projection);
 
-    // Hexagon Radius and Geometry (Reduced hex radius)
-    const hexRadius = 0.025;
+    // Hexagon Radius and Geometry
+    const hexRadius = 0.01;
     const hexGeometry = new THREE.CircleGeometry(hexRadius, 6);
 
     // Load GeoJSON Data for Countries
@@ -102,55 +106,55 @@ const GlobeWithHexCountries = () => {
       .then(response => response.json())
       .then(worldData => {
         const countries = feature(worldData, worldData.objects.countries).features;
+
         countries.forEach(country => {
           const countryCoordinates = country.geometry.coordinates;
+
           countryCoordinates.forEach(region => {
             if (Array.isArray(region[0][0])) {
-              region.forEach(polygon => addHexesToPolygon(polygon));
+              // Multi-polygon (nested arrays)
+              region.forEach(polygon => {
+                addHexesToPolygon(polygon);
+              });
             } else {
+              // Single polygon
               addHexesToPolygon(region);
             }
           });
         });
       });
 
-    // Function to add hexes to each polygon region with reduced frequency
+    // Function to add hexes to each polygon region
     const addHexesToPolygon = (polygon) => {
-      polygon.forEach(([lon, lat], index) => {
-        // Skip some hexes to reduce hex count
-        if (index % 2 === 0) {
-          const latRad = lat * (Math.PI / 180);
-          const lonRad = -lon * (Math.PI / 180);
-          const xPos = radius * Math.cos(latRad) * Math.cos(lonRad);
-          const yPos = radius * Math.sin(latRad);
-          const zPos = radius * Math.cos(latRad) * Math.sin(lonRad);
-          const hexMaterial = new THREE.MeshBasicMaterial({
-            color: 0xAA8FFF,
-            side: THREE.DoubleSide,
-            opacity: 0.8,
-            transparent: true,
-          });
-          const hexMesh = new THREE.Mesh(hexGeometry, hexMaterial);
+      polygon.forEach(([lon, lat]) => {
+        const latRad = lat * (Math.PI / 180);
+        const lonRad = -lon * (Math.PI / 180);
 
-          hexMesh.position.set(xPos, yPos, zPos);
-          hexMesh.lookAt(0, 0, 0);
-          hexGroup.add(hexMesh);
-        }
+        const xPos = radius * Math.cos(latRad) * Math.cos(lonRad);
+        const yPos = radius * Math.sin(latRad);
+        const zPos = radius * Math.cos(latRad) * Math.sin(lonRad);
+
+        const hexMaterial = new THREE.MeshBasicMaterial({
+          color: 0xAA8FFF,
+          side: THREE.DoubleSide,
+        });
+        const hexMesh = new THREE.Mesh(hexGeometry, hexMaterial);
+
+        // Position hex and make it face outward
+        hexMesh.position.set(xPos, yPos, zPos);
+        hexMesh.lookAt(0, 0, 0);
+
+        hexGroup.add(hexMesh);
       });
     };
 
-    // Animation Loop with Throttling
-    let lastTime = 0;
-    const animate = (time) => {
-      if (time - lastTime > 30) { // Render every ~30ms
-        hexGroup.rotation.y += 0.02;
-        atmosphere.material.uniforms.viewVector.value = camera.position;
-        composer.render();
-        lastTime = time;
-      }
+    // Animation Loop
+    const animate = () => {
       requestAnimationFrame(animate);
+      hexGroup.rotation.y += 0.05;
+      renderer.render(scene, camera);
     };
-    requestAnimationFrame(animate);
+    animate();
 
     return () => {
       renderer.dispose();
@@ -158,7 +162,7 @@ const GlobeWithHexCountries = () => {
     };
   }, []);
 
-  return <div className="relative w-full h-full flex justify-center items-center" ref={mountRef} />;
+  return <div className="relative w-full h-full flex justify-center item-center" ref={mountRef} />;
 };
 
 export default GlobeWithHexCountries;
