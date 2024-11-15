@@ -89,7 +89,7 @@ Some of the most popular eCommerce platforms have begun to offer visual search c
 
 In the world of eCommerce, there is nothing constant. What is new today and considered innovative might become obsolete. A case in point is <a href="https://www.bbc.com/news/technology-37224691" target="_blank">Amazon’s Dash Button</a>, an electronic device that was designed to make product ordering easy. Innovative? Yes. Did people love it? Not really. At the end of the day, that’s what matters. Your innovativeness should be lapped up by your target audience.
 
-If you are looking for a platform that helps in setting up <a href="https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs/" target="_blank">loyalty programs for your eCommerce store</a>, get in touch with us. We will be more than happy to create a <a href="https://www.99minds.io/blog/what-are-promotional-codes-and-how-do-they-work/" target="_blank">promotional</a> program for you.
+If you are looking for a platform that helps in setting up <a href="https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs/" target="_blank">loyalty programs for your eCommerce store</a>, get in touch with us. We will be more than happy to create a <a href="https://www.99minds.io/blog/promotional-codes" target="_blank">promotional</a> program for you.
 
 
 

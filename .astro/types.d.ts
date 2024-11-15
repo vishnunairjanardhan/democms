@@ -1102,6 +1102,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"sales-promotion.md": {
+	id: "sales-promotion.md";
+  slug: "sales-promotion";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "self-use-gift-cards-impact-on-consumer-behaviour.md": {
 	id: "self-use-gift-cards-impact-on-consumer-behaviour.md";
   slug: "self-use-gift-cards-impact-on-consumer-behaviour";
