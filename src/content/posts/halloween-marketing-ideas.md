@@ -8,7 +8,7 @@ heading: 15 Wicked Halloween Promotions & Marketing Ideas for 2024
 image:
   url: "/assets/blog/halloween-marketing-ideas.webp"
   alt: "15 Halloween Promotions & Marketing Ideas"
-tags: ["Marketing"]
+tags: ["Promotion"]
 keywords: ["halloween promotion ideas", "marketing ideas for halloween", "halloween campaign ideas", "halloween promotional ideas", "halloween promotions", "halloween promotion"]
 url: "https://www.99minds.io/blog/halloween-marketing-ideas"
 

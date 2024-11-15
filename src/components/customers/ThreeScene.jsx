@@ -1,56 +1,48 @@
+// src/components/GlobeWithHexCountries.jsx
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
-import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer';
-import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass';
-import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass';
 import { feature } from 'topojson-client';
 import { geoEquirectangular, geoPath } from 'd3-geo';
 
 const GlobeWithHexCountries = () => {
   const mountRef = useRef(null);
-  
+
   useEffect(() => {
-    const width = 1000;
-    const height = 1000;
+    const width = 800;
+    const height = 600;
 
     // Initialize Scene and Camera
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
-    camera.position.z = 6;
+    camera.position.z = 5;
 
     // Renderer
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(width, height);
-    renderer.setClearColor(0x0d1117); // Vulcan 900 background color
+    renderer.setClearColor(0x151723); // Background color
+    renderer.shadowMap.enabled = true;
     mountRef.current.appendChild(renderer.domElement);
 
-    // Add Bloom Effect for Atmosphere Glow
-    const composer = new EffectComposer(renderer);
-    composer.addPass(new RenderPass(scene, camera));
-    const bloomPass = new UnrealBloomPass(new THREE.Vector2(width, height), 1.5, 0.4, 0.85);
-    bloomPass.threshold = 0;
-    bloomPass.strength = 1.5;
-    bloomPass.radius = 1;
-    composer.addPass(bloomPass);
-
-    // Create Sphere (Globe) with Teal Color
+    // Create Sphere (Globe)
     const radius = 3;
     const sphereGeometry = new THREE.SphereGeometry(radius, 100, 100);
-    const sphereMaterial = new THREE.MeshStandardMaterial({
-      color: 0x008080, // Teal color for the globe
-      roughness: 0.8,
-      metalness: 0.2,
+    const sphereMaterial = new THREE.MeshPhongMaterial({
+      color: 0x1f263a, // Vulcan 200 color (dark navy/charcoal) 0x001759 0x002d59
+      emissive: 0x0D1117,
+      shininess: 10,
     });
     const globe = new THREE.Mesh(sphereGeometry, sphereMaterial);
+    globe.castShadow = true;
+    globe.receiveShadow = true;
     scene.add(globe);
 
-    // Add Fresnel Effect for Atmosphere Glow
-    const atmosphereGeometry = new THREE.SphereGeometry(radius * 1.05, 100, 100);
+    // Atmosphere Glow (Teal Light Effect)
+    const atmosphereGeometry = new THREE.SphereGeometry(radius * 1.05, 50, 50);
     const atmosphereMaterial = new THREE.ShaderMaterial({
       uniforms: {
         "c": { type: "f", value: 0.1 },
         "p": { type: "f", value: 2.5 },
-        glowColor: { type: "c", value: new THREE.Color(0x4a90e2) },
+        glowColor: { type: "c", value: new THREE.Color(0x00FFFF) }, // Teal glow
         viewVector: { type: "v3", value: camera.position }
       },
       vertexShader: `
@@ -74,23 +66,31 @@ const GlobeWithHexCountries = () => {
       `,
       side: THREE.BackSide,
       blending: THREE.AdditiveBlending,
-      transparent: true
+      transparent: true,
     });
     const atmosphere = new THREE.Mesh(atmosphereGeometry, atmosphereMaterial);
     scene.add(atmosphere);
 
     // Lighting
-    const ambientLight = new THREE.AmbientLight(0x282C34, 0.6);
-    const pointLight = new THREE.PointLight(0xffffff, 1.0);
-    pointLight.position.set(10, 10, 10);
-    scene.add(ambientLight, pointLight);
+    const ambientLight = new THREE.AmbientLight(0x404040, 1.2);
+    scene.add(ambientLight);
+
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+    directionalLight.position.set(5, 5, 5);
+    directionalLight.castShadow = true;
+    scene.add(directionalLight);
+
+    // Light Source Behind the Sphere
+    const backLight = new THREE.PointLight(0x00ffff, 1, 15); // Teal light with adjusted intensity and range
+    backLight.position.set(0, 0, -10); // Position it behind the globe along the z-axis
+    scene.add(backLight);
 
     // Create a Group for Hexes
     const hexGroup = new THREE.Group();
     scene.add(hexGroup);
 
     // Set initial tilt for the globe
-    const tiltAngle = 0.41; 
+    const tiltAngle = 0.65; 
     hexGroup.rotation.x = tiltAngle;
 
     // D3 Projection and Path for GeoJSON
@@ -98,7 +98,7 @@ const GlobeWithHexCountries = () => {
     const path = geoPath().projection(projection);
 
     // Hexagon Radius and Geometry
-    const hexRadius = 0.015;
+    const hexRadius = 0.01;
     const hexGeometry = new THREE.CircleGeometry(hexRadius, 6);
 
     // Load GeoJSON Data for Countries
@@ -106,8 +106,10 @@ const GlobeWithHexCountries = () => {
       .then(response => response.json())
       .then(worldData => {
         const countries = feature(worldData, worldData.objects.countries).features;
+
         countries.forEach(country => {
           const countryCoordinates = country.geometry.coordinates;
+
           countryCoordinates.forEach(region => {
             if (Array.isArray(region[0][0])) {
               // Multi-polygon (nested arrays)
@@ -127,20 +129,21 @@ const GlobeWithHexCountries = () => {
       polygon.forEach(([lon, lat]) => {
         const latRad = lat * (Math.PI / 180);
         const lonRad = -lon * (Math.PI / 180);
+
         const xPos = radius * Math.cos(latRad) * Math.cos(lonRad);
         const yPos = radius * Math.sin(latRad);
         const zPos = radius * Math.cos(latRad) * Math.sin(lonRad);
+
         const hexMaterial = new THREE.MeshBasicMaterial({
           color: 0xAA8FFF,
           side: THREE.DoubleSide,
-          opacity: 0.8,
-          transparent: true,
         });
         const hexMesh = new THREE.Mesh(hexGeometry, hexMaterial);
 
         // Position hex and make it face outward
         hexMesh.position.set(xPos, yPos, zPos);
         hexMesh.lookAt(0, 0, 0);
+
         hexGroup.add(hexMesh);
       });
     };
@@ -148,9 +151,8 @@ const GlobeWithHexCountries = () => {
     // Animation Loop
     const animate = () => {
       requestAnimationFrame(animate);
-      hexGroup.rotation.y += 0.1;
-      atmosphere.material.uniforms.viewVector.value = camera.position;
-      composer.render();
+      hexGroup.rotation.y += 0.05;
+      renderer.render(scene, camera);
     };
     animate();
 
@@ -160,8 +162,7 @@ const GlobeWithHexCountries = () => {
     };
   }, []);
 
-  return <div className="relative w-full h-full bg-vulcan-900" ref={mountRef} />;
+  return <div className="relative w-full h-full flex justify-center item-center" ref={mountRef} />;
 };
 
 export default GlobeWithHexCountries;
- 

@@ -49,7 +49,13 @@ But beyond these giants, what are other successful beauty loyalty initiatives? W
 
 It is projected to surpass $784.6 billion by 2027. In the U.S., retail sales of beauty products hit $15.55 billion in 2021, forecasted to grow to over $30 billion by 2026, <a href="https://www.emarketer.com/content/us-beauty-ecommerce-2022">according to eMarketer</a>. Effective beauty loyalty programs, like Sephora’s and Ulta’s, play a key role in driving this growth.
 
-<img src="/assets/blog/beauty-statistics.png" alt="statistics for beauty ecommerce sales">
+<img src="/assets/blog/beauty-statistics.png" alt="statistics for beauty ecommerce sales" class="ml-32">
+
+ <h2 id="Why-are-Loyalty-Programs-Important?">Why are Loyalty Programs Important?</h2>
+
+ <a href="https://www.99minds.io/blog/build-customer-loyalty">Loyalty marketing</a> has evolved significantly since the early days of brands like Betty Crocker offering simple discounts. Now, loyalty programs are a key strategy across various industries, including restaurants, toy stores, and beauty brands. The best loyalty programs not only incentivize customers to make a purchase but also foster long-term relationships, turning casual shoppers into loyal customers. 
+
+When designed effectively, these programs enhance customer retention and offer valuable incentives that encourage repeat business. This makes loyalty programs essential for boosting retention and <a href="https://www.99minds.io/blog/customer-lifetime-value">customer lifetime value.</a>
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -81,12 +87,6 @@ It is projected to surpass $784.6 billion by 2027. In the U.S., retail sales of 
             </div>
           </div>
 
- <h2 id="Why-are-Loyalty-Programs-Important?">Why are Loyalty Programs Important?</h2>
-
- <a href="https://www.99minds.io/blog/build-customer-loyalty">Loyalty marketing</a> has evolved significantly since the early days of brands like Betty Crocker offering simple discounts. Now, loyalty programs are a key strategy across various industries, including restaurants, toy stores, and beauty brands. The best loyalty programs not only incentivize customers to make a purchase but also foster long-term relationships, turning casual shoppers into loyal customers. 
-
-When designed effectively, these programs enhance customer retention and offer valuable incentives that encourage repeat business. This makes loyalty programs essential for boosting retention and <a href="https://www.99minds.io/blog/customer-lifetime-value">customer lifetime value.</a>
-
  <h2 id="What-are-the-Best-Beauty-Loyalty-Programs?">What are the Best Beauty Loyalty Programs?</h2>
 
  <ol role="list">
@@ -96,7 +96,7 @@ When designed effectively, these programs enhance customer retention and offer v
 
 This success is further validated <a href="https://www.bain.com/insights/retaining-customers-is-the-real-challenge/">by a Bain & Company report</a>, which revealed that increasing loyal customers by just 5% can lead to a sales boost of 25% to 95%. The program effectively drives customer retention and engagement, making it a cornerstone of Sephora's marketing strategy.
 
-<img src="/assets/blog/sephora-beauty.png" alt="sephora’s beauty insider program">
+<img src="/assets/blog/sephora-beauty.png" alt="sephora’s beauty insider program" class="ml-24">
 
 What makes Sephora's Beauty Insider stand out?
 <ul>
@@ -150,7 +150,7 @@ Debenhams’ Beauty Club is a beauty loyalty program that not only aligns with t
 
 One standout aspect of the Beauty Club is its evolving nature. Debenhams regularly updates the program, adding new benefits and rewards to keep it exciting and relevant for loyal customers. Members often receive access to exclusive samples, beauty events, and extra perks that add value and keep them engaged with the brand. This ongoing enhancement keeps the Beauty Club fresh and enticing, setting it apart from other beauty loyalty programs by focusing on continual customer satisfaction.
 
-<img src="/assets/blog/DT-Beauty-Club-Landing-scaled.jpg" alt="Debenhams Beauty Club">
+<img src="/assets/blog/DT-Beauty-Club-Landing-scaled.jpg" alt="Debenhams Beauty Club" style="width: 700px; height: 600px;">
 
 
 Here’s what sets Debenhams' Beauty Club apart as one of the standout beauty rewards programs:
