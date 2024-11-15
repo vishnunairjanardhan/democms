@@ -1,4 +1,4 @@
-<section
+<!-- <section
   role="navigation"
   aria-label="Main Navigation"
   class="fixed z-50 w-full border-b bg-vulcan-900/20 border-white/5 backdrop-blur-2xl lg:bg-vulcan-900/0">
@@ -150,7 +150,485 @@
           href="https://giftcard.99minds.io/access/register">
           Sign Up
         </a>
-        <!-- Trigger -->
+        
+        <button type="button" role="button" label="book a demo" class="mx-3 raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
+          <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+          <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
+            <span class="relative text-white">Book a Demo</span>
+          </span>
+        </button>
+      </nav>
+    </div>
+  </div>
+</section> -->
+
+
+
+
+
+
+<section
+  role="navigation"
+  aria-label="Main Navigation"
+  class="fixed z-50 w-full border-b bg-vulcan-900/20 border-white/5 backdrop-blur-2xl lg:bg-vulcan-900/0">
+  <div class="relative w-full mx-auto max-w-7xl">
+    <div x-data="{ open: false }" class="relative flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16">
+      <div class="flex flex-row items-center justify-between text-white lg:justify-start">
+        <a role="link" href="/" class="lg:pr-8">
+          <div class="inline-flex items-center gap-3">
+            <img
+              class="" width="125" height="28"
+              alt="99minds logo"
+              src="/assets/99minds-logo1.svg"
+            />
+          </div>
+        </a>
+        <button
+          role="button"
+          aria-label="navigation"
+          @click="open = !open"
+          :aria-expanded="open"
+          aria-controls="primary-navigation"
+          class="inline-flex items-center justify-center p-2 text-white hover:text-indigo-400 focus:outline-none focus:text-white md:hidden">
+          <svg
+            class="w-6 h-6"
+            stroke="currentColor"
+            fill="none"
+            viewBox="0 0 24 24">
+            <path
+              :class="{'hidden': open, 'inline-flex': !open }"
+              class="inline-flex"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"></path>
+            <path
+              :class="{'hidden': !open, 'inline-flex': open }"
+              class="hidden"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <nav id="primary-navigation" :class="{'flex': open, 'hidden': !open}" class="flex-col items-start flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
+        <div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
+          <button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50" role="button" :aria-expanded="open" aria-controls="products-dropdown">
+            <span>Platform</span>
+            <svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M6 9l6 6l6 -6"></path>
+            </svg>
+          </button>
+          <div id="products-dropdown" 
+               x-show="open" 
+               x-transition:enter="transition ease-out duration-100" 
+               x-transition:enter-start="transform opacity-0 scale-95" 
+               x-transition:enter-end="transform opacity-100 scale-100" 
+               x-transition:leave="transition ease-in duration-75" 
+               x-transition:leave-start="transform opacity-100 scale-100" 
+               x-transition:leave-end="transform opacity-0 scale-95" 
+               class="absolute left-1/2 transform -translate-x-1/2 ml-12 z-50 mt-2 ring-1 ring-inset ring-white/5 focus:outline-none">
+            <div class="bg-vulcan-900 rounded-xl grid grid-cols-1 md:grid-cols-4 mt-4 gap-4 max-w-none mx-auto w-[98rem] def sm:h-[48rem] md:h-[28rem]">
+              <div class="border-r border-gray-600 pr-16 mt-6 mb-14">
+              <ul id="products" class="space-y-2 ml-36 mt-4 flex flex-col items-start">
+                <li><h3 class="text-white">The Platform</h3></li>
+                <li>
+                  <a href="/" class="text-white mt-4 block text-sm hover:text-indigo-400">
+                    <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="21" viewBox="0 0 18 21" fill="none" class="mr-2">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.917725 0.224854H5.8128L9.00193 9.01725L12.3429 0.224854H17.0861L8.97538 20.5848H4.28436L6.68332 14.2763L0.917725 0.224854Z" fill="white"></path>
+                      </svg>
+                      <h4 class="ml-">Retention Marketing Platform</h4>
+                    </div>
+                  </a>
+                  <p class="text-sm">Access shared data, connected experience & retention tracking</p>
+                </li>
+                <li><a href="/integrations" class="text-white block mt-4 text-sm hover:text-indigo-400">Our Integrations</a></li>
+                <li><a href="/" class="text-white block mt-4 text-sm hover:text-indigo-400">Platform in Action</a></li>
+                <li><a href="/" class="text-white block mt-4 text-sm hover:text-indigo-400">Product Release Hub</a></li>
+              </ul>
+            </div>
+
+              <ul id="products" class="lg:space-y-2 mt-4 ml-10 flex flex-col items-start">
+                <li><h3 class="text-white block mt-4">Our Products</h3></li>
+                <li>
+                  <a href="/giftcard" class="text-white mt-4 block text-sm hover:text-indigo-400">
+                    <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 17 17" fill="none">
+                        <g clip-path="url(#clip0_50_152)">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0949 12.0474L13.3741 9.80725L2.0779 9.80746C1.43014 9.80746 0.905029 9.28235 0.905029 8.63459V1.74489C0.905029 1.09713 1.43014 0.572021 2.0779 0.572021H14.9221C15.5698 0.572021 16.0949 1.09713 16.0949 1.74489V12.0474Z" fill="white"></path>
+                          <path d="M3.54787 16.4279C5.00747 16.4279 6.19071 15.2446 6.19071 13.785C6.19071 12.3255 5.00747 11.1422 3.54787 11.1422C2.08827 11.1422 0.905029 12.3255 0.905029 13.785C0.905029 15.2446 2.08827 16.4279 3.54787 16.4279Z" fill="white"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_50_152">
+                            <rect width="17" height="17" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <h4 class="ml-3">Gift Card</h4>
+                    </div>
+                    <p class="text-sm mt-2">All-in-One Gift Card Software<br> for E-commerce and Retail Stores.</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="/store-credit" class="text-white mt-4 block text-sm hover:text-indigo-400">
+                    <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 17 17" fill="none">
+                        <g clip-path="url(#clip0_50_152)">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0949 12.0474L13.3741 9.80725L2.0779 9.80746C1.43014 9.80746 0.905029 9.28235 0.905029 8.63459V1.74489C0.905029 1.09713 1.43014 0.572021 2.0779 0.572021H14.9221C15.5698 0.572021 16.0949 1.09713 16.0949 1.74489V12.0474Z" fill="white"></path>
+                          <path d="M3.54787 16.4279C5.00747 16.4279 6.19071 15.2446 6.19071 13.785C6.19071 12.3255 5.00747 11.1422 3.54787 11.1422C2.08827 11.1422 0.905029 12.3255 0.905029 13.785C0.905029 15.2446 2.08827 16.4279 3.54787 16.4279Z" fill="white"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_50_152">
+                            <rect width="17" height="17" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <h4 class="ml-3">Store Credit</h4>
+                    </div>
+                    <p class="text-sm mt-2">Retain Customer with<br> Store Credit.</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="/loyalty-program" class="text-white mt-4 block text-sm hover:text-indigo-400">
+                    <div class="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 17 17" fill="none">
+                        <g clip-path="url(#clip0_50_152)">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0949 12.0474L13.3741 9.80725L2.0779 9.80746C1.43014 9.80746 0.905029 9.28235 0.905029 8.63459V1.74489C0.905029 1.09713 1.43014 0.572021 2.0779 0.572021H14.9221C15.5698 0.572021 16.0949 1.09713 16.0949 1.74489V12.0474Z" fill="white"></path>
+                          <path d="M3.54787 16.4279C5.00747 16.4279 6.19071 15.2446 6.19071 13.785C6.19071 12.3255 5.00747 11.1422 3.54787 11.1422C2.08827 11.1422 0.905029 12.3255 0.905029 13.785C0.905029 15.2446 2.08827 16.4279 3.54787 16.4279Z" fill="white"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_50_152">
+                            <rect width="17" height="17" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <h4 class="ml-3">Loyalty Program</h4>
+                    </div>
+                    <p class="text-sm mt-2">Boost Customer Loyalty<br> with our Program.</p>
+                  </a>
+                </li>
+      
+  </ul>
+    <ul id="coupon" class="lg:mt-16 mt-0">
+      <li>
+        <a href="/coupons" class="text-white lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
+            <div class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 17 17" fill="none">
+                <g clip-path="url(#clip0_50_152)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0949 12.0474L13.3741 9.80725L2.0779 9.80746C1.43014 9.80746 0.905029 9.28235 0.905029 8.63459V1.74489C0.905029 1.09713 1.43014 0.572021 2.0779 0.572021H14.9221C15.5698 0.572021 16.0949 1.09713 16.0949 1.74489V12.0474Z" fill="white"></path>
+                  <path d="M3.54787 16.4279C5.00747 16.4279 6.19071 15.2446 6.19071 13.785C6.19071 12.3255 5.00747 11.1422 3.54787 11.1422C2.08827 11.1422 0.905029 12.3255 0.905029 13.785C0.905029 15.2446 2.08827 16.4279 3.54787 16.4279Z" fill="white"></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_50_152">
+                    <rect width="17" height="17" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <h4 class="ml-3">Coupons</h4>
+            </div>
+        <p class="text-sm mt-2">Bulk, Dynamic & Personalize<br> coupons generation for your Store.</p>
+      </a>
+    </li>
+      <li>
+        <a href="/referrals" class="text-white mt-6 block text-sm hover:text-indigo-400">
+            <div class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 17 17" fill="none">
+                <g clip-path="url(#clip0_50_152)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0949 12.0474L13.3741 9.80725L2.0779 9.80746C1.43014 9.80746 0.905029 9.28235 0.905029 8.63459V1.74489C0.905029 1.09713 1.43014 0.572021 2.0779 0.572021H14.9221C15.5698 0.572021 16.0949 1.09713 16.0949 1.74489V12.0474Z" fill="white"></path>
+                  <path d="M3.54787 16.4279C5.00747 16.4279 6.19071 15.2446 6.19071 13.785C6.19071 12.3255 5.00747 11.1422 3.54787 11.1422C2.08827 11.1422 0.905029 12.3255 0.905029 13.785C0.905029 15.2446 2.08827 16.4279 3.54787 16.4279Z" fill="white"></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_50_152">
+                    <rect width="17" height="17" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <h4 class="ml-3">Referrals</h4>
+            </div>
+        <p class="text-sm mt-2">Boost your organic sales<br> by adding a customer referral program.</p>
+      </a>
+    </li>
+      <li>
+        <a href="/automated-workflow" class="text-white mt-6 block text-sm hover:text-indigo-400">
+            <div class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 17 17" fill="none">
+                <g clip-path="url(#clip0_50_152)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0949 12.0474L13.3741 9.80725L2.0779 9.80746C1.43014 9.80746 0.905029 9.28235 0.905029 8.63459V1.74489C0.905029 1.09713 1.43014 0.572021 2.0779 0.572021H14.9221C15.5698 0.572021 16.0949 1.09713 16.0949 1.74489V12.0474Z" fill="white"></path>
+                  <path d="M3.54787 16.4279C5.00747 16.4279 6.19071 15.2446 6.19071 13.785C6.19071 12.3255 5.00747 11.1422 3.54787 11.1422C2.08827 11.1422 0.905029 12.3255 0.905029 13.785C0.905029 15.2446 2.08827 16.4279 3.54787 16.4279Z" fill="white"></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_50_152">
+                    <rect width="17" height="17" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <h4 class="ml-3">Automated WorkFlows</h4>
+            </div>
+        <p class="text-sm mt-2">Create and customize gift cards<br>  store credit, and coupon marketing automation.</p>
+      </a>
+    </li>
+    </ul>
+   <ul id="demo-button" class="space-x-8 mt-10 ml-0">
+      <li>
+        
+        <div class="h-80 border rounded-3xl" style="width: 250px; background-color: #c2ddff;">
+           <div>
+          <p class="text-black text-lg font-semibold mt-24 ml-8">Ready to see how it<br> <span class="ml-10">all works?</span></p>
+           </div>
+
+          <button type="button" role="button" label="book a demo" class="raise mt-8 ml-12 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
+          onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
+          <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+          <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
+            <span class="relative text-white">Book a Demo</span>
+          </span>
+        </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+        </div>
+        
+        <div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
+          <button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50" role="button" :aria-expanded="open" aria-controls="products-dropdown">
+            <span>Customers</span>
+            <svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M6 9l6 6l6 -6"></path>
+            </svg>
+          </button>
+          <div id="customers-dropdown" 
+           x-show="open" 
+           x-transition:enter="transition ease-out duration-100" 
+           x-transition:enter-start="transform opacity-0 scale-95" 
+           x-transition:enter-end="transform opacity-100 scale-100" 
+           x-transition:leave="transition ease-in duration-75" 
+           x-transition:leave-start="transform opacity-100 scale-100" 
+           x-transition:leave-end="transform opacity-0 scale-95" 
+           class="absolute left-1/2 transform -translate-x-1/2 ml-12 z-50 mt-2 ring-1 ring-inset ring-white/5 focus:outline-none">
+
+        <div class="bg-vulcan-900 rounded-xl grid grid-cols-1 md:grid-cols-4 mt-4 gap-4 max-w-none mx-auto w-[110rem] def sm:h-[48rem] md:h-[28rem]">
+          <div class="border-r border-gray-600 pr-16 mt-10 mb-14">
+    <ul id="case-studies" class="space-y-2 ml-32 flex flex-col items-start">
+     
+      <li><h3 class="text-white">Our Customers</h3></li>
+      <li>
+        <a href="/case-study" class="text-white mt-4 block text-sm hover:text-indigo-400">
+            <div class="flex items-center">
+            
+            <h4 class="font-semibold">Case Studies</h4>
+            </div>
+        
+        <p id="customer" class="text-sm mt-2">Find out what our customers love about our platform.</p>
+      </a>
+    </li>
+      <li>
+        <a href="/case-study" class="text-white mt-4 block text-sm hover:text-indigo-400">
+            <div class="flex items-center">
+              <h4 class="font-semibold">Customer Success</h4>
+            </div>
+        
+        <p id="customer" class="text-sm mt-2">Meet the team that ensures you get the most out of 99minds.</p>
+      </a>
+    </li>
+  </div>
+  </ul>
+
+  <ul id="winning" class="space-y-2 mt-4 ml-12 flex flex-col items-start">
+    <li><h3 class="text-white block mt-4">Winning with 99minds</h3></li>
+    <li>
+      <a href="/case-study/natori" class="text-white mt-4 block text-sm hover:text-indigo-400">
+          <div class="h-72 rounded-2xl" style="width: 510px;">
+          
+          <img src="/assets/case-study/natori4.png" class="rounded-2xl h-72"/>
+          </div>
+      
+    </a>
+  </li>
+  
+</ul>
+    
+  </div>
+  </div>
+  </div>
+        <a
+          class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
+          href="/case-study">
+          Case Study
+        </a>
+        <div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
+          <button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50" role="button" :aria-expanded="open" aria-controls="products-dropdown">
+            <span>Resources</span>
+            <svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M6 9l6 6l6 -6"></path>
+            </svg>
+          </button>
+          <div id="resources-dropdown" 
+               x-show="open" 
+               x-transition:enter="transition ease-out duration-100" 
+               x-transition:enter-start="transform opacity-0 scale-95" 
+               x-transition:enter-end="transform opacity-100 scale-100" 
+               x-transition:leave="transition ease-in duration-75" 
+               x-transition:leave-start="transform opacity-100 scale-100" 
+               x-transition:leave-end="transform opacity-0 scale-95" 
+               class="absolute left-1/2 transform -translate-x-1/2 ml-12 z-50 mt-2 ring-1 ring-inset ring-white/5 focus:outline-none">
+               <div class="bg-vulcan-900 rounded-xl flex flex-cols-1 md:flex-cols-4 lg:flex-cols-4 gap-6 mt-4 w-[150rem] h-[28rem]">
+              
+              <ul id="products" class="lg:space-y-2 mt-4 ml-56 flex flex-col items-start">
+                <li><h3 class="text-white block mt-4">Learn</h3></li>
+                <li>
+                  <a href="/coupons" class="text-white lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
+                      <div class="flex items-center">
+                        <h4>Resources</h4>
+                      </div>
+                  <p class="text-sm mt-2">Learn how to drive retention<br> rates through the roof.</p>
+                </a>
+              </li>
+              <li>
+                <a href="/coupons" class="text-white lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
+                    <div class="flex items-center">
+                      <h4>99minds Blog</h4>
+                    </div>
+                <p class="text-sm mt-2">Get the latest news & insights<br> from the team at 99minds.</p>
+              </a>
+            </li>
+            <li>
+              <a href="/coupons" class="text-white lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
+                  <div class="flex items-center">
+                    <h4>Free Tools</h4>
+                  </div>
+              <p class="text-sm mt-2">Analyze, calculate & generate<br>with our free retention tools.</p>
+            </a>
+          </li>
+      
+  </ul>
+  <div class="border-r border-gray-600 pr-16 ml-16 mt-12 mb-14">
+    <ul id="coupon" class="lg:mt-12 mt-0">
+      
+      <li>
+        <a href="/coupons" class="text-white lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
+            <div class="flex items-center">
+              <h4>Is Typing</h4>
+            </div>
+        <p class="text-sm mt-2">Email & SMS inspiration. By<br> marketers, for marketers.</p>
+      </a>
+    </li>
+    <li>
+      <a href="/coupons" class="text-white lg:mt-8 mt-0 block text-sm hover:text-indigo-400">
+          <div class="flex items-center">
+            <h4>Ebooks & Guides</h4>
+          </div>
+      <p class="text-sm mt-2">Deep dive into all the essential<br> topics about retention.</p>
+    </a>
+  </li>
+  <li>
+    <a href="/coupons" class="text-white lg:mt-8 mt-0 block text-sm hover:text-indigo-400">
+        <div class="flex items-center">
+          <h4>Videos & Webinars</h4>
+        </div>
+    <p class="text-sm mt-2">Watch video tutorials from<br> eCommerce retention experts.</p>
+  </a>
+</li>
+  </div>
+    </ul>
+
+    <div class="border-r border-gray-600 pr-16 mt-12 mb-14">
+    <ul id="case-studies" class="space-y-2 ml-6 flex flex-col items-start">
+      <li><h3 class="text-white">Connect</h3></li>
+      <li>
+        <a href="/case-study" class="text-white mt-4 block text-sm hover:text-indigo-400">
+            <h4 class="font-semibold">Contact Us</h4>
+      </a>
+    </li>
+      <li>
+        <a href="/case-study" class="text-white mt-6 block text-sm hover:text-indigo-400">
+            <div class="flex items-center">
+              <h4 class="font-semibold">Help Center</h4>
+            </div>
+      </a>
+    </li>
+      <li>
+        <a href="/case-study" class="text-white mt-6 block text-sm hover:text-indigo-400">
+            <div class="flex items-center">
+              <h4 class="font-semibold">99minds Community</h4>
+            </div>
+      </a>
+    </li>
+      <li>
+        <a href="/case-study" class="text-white mt-6 block text-sm hover:text-indigo-400">
+            <div class="flex items-center">
+              <h4 class="font-semibold">Become a Partner</h4>
+            </div>
+      </a>
+    </li>
+      <li>
+        <a href="/case-study" class="text-white mt-6 block text-sm hover:text-indigo-400">
+            <div class="flex items-center">
+              <h4 class="font-semibold">Careers</h4>
+            </div>
+      </a>
+    </li>
+  </div>
+  </ul>
+  <ul id="demo-button" class="space-x-8 mt-10 ml-0">
+    <li>
+      <h3 class="text-white ml-8">Highlights</h3>
+    </li>
+    <a href="/bfcm">
+    <li class="flex items-center ml-8">
+      <div class="h-22" style="width: 200px;">
+        <img src="https://www.yotpo.com/wp-content/uploads/2024/08/Menu-1.svg" alt="Menu Image" />
+      </div>
+      <div class="ml-6 text-white text-sm">Everything you need to do<br> for Black friday, and when.</div>
+  
+    </li>
+  </a>
+    <li>
+    </li>
+    <a href="/bfcm">
+    <li class="flex items-center ml-8">
+      <div class="h-22" style="width: 200px;">
+        <img src="https://www.yotpo.com/wp-content/uploads/2023/05/AWIE@1x-1.svg" alt="Menu Image" />
+      </div>
+      <div class="ml-6 text-white text-sm">Highlighting the amazing<br> women pushing our industry<br> forward.</div>
+    </li>
+  </a>
+    <li>
+    </li>
+    <a href="/bfcm">
+    <li class="flex items-center ml-8">
+      <div class="h-22" style="width: 200px;">
+        <img src="https://www.yotpo.com/wp-content/uploads/2023/08/Menu-1.svg" alt="Menu Image" />
+      </div>
+      <div class="ml-6 text-white text-sm">Accelerating incredible<br> Black and indigenous-<br>owned brands.</div>
+    </li>
+  </a>
+  </ul>
+  
+  
+  </div>
+</div>
+
+        </div>
+        <a
+          role="link"
+          class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
+          href="/pricing">
+          Pricing
+        </a>
+        <a
+          role="link" target="_blank"
+          class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
+          href="https://giftcard.99minds.io/access/register">
+          Sign Up
+        </a>
+      
         <button type="button" role="button" label="book a demo" class="mx-3 raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
           <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
           <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
@@ -161,3 +639,45 @@
     </div>
   </div>
 </section>
+
+<!-- Mobile Responsive CSS -->
+<style>
+  @media (max-width: 768px) {
+    .absolute {
+      left: 0; 
+      top: 0;  
+      transform: translateX(0); 
+    }
+   
+    #products-dropdown {
+      margin-left: 0;  
+    }
+    #customers-dropdown{
+      margin-left: 0;
+    }
+    #demo-button {
+      display: none;
+    }
+    #winning{
+      display: none;
+    }
+    .def{
+      height: 48rem;
+    }
+    .grid-cols-1 {
+      grid-template-columns: 1fr;
+    }
+    .ml-36, .ml-32, .ml-10 {
+      margin-left: 0 !important;  
+    }
+    .text-sm {
+      font-size: 14px;
+    }
+    p {
+      display: none;
+    }
+    #customer{
+      display: block;
+    }
+  }
+</style>
