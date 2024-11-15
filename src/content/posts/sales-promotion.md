@@ -354,7 +354,7 @@ This strategy successfully fostered loyalty, increased app downloads, and improv
 <li>
 <h3>Sephora’s Beauty Insider Program</h3>
 
-Sephora’s Beauty Insider program is a tiered loyalty system that rewards customers based on their annual spending. The three levels—Insider, VIB (Very Important Beauty Insider), and Rouge—offer increasing perks, such as birthday gifts, exclusive product previews, and access to special events. Sephora’s program also integrates a points system that allows customers to redeem points for products or experiences. The company promotes the program heavily via social media, in-store displays, and email campaigns.
+<a href="https://www.sephora.com/beauty/profile-beautyinsider" role="link" target="_blanck">Sephora’s Beauty Insider program</a> is a <a href="https://www.99minds.io/blog/tiered-loyalty-program" role="link" target="_blanck">tiered loyalty system</a> that rewards customers based on their annual spending. The three levels—Insider, VIB (Very Important Beauty Insider), and Rouge—offer increasing perks, such as birthday gifts, exclusive product previews, and access to special events. Sephora’s program also integrates a points system that allows customers to redeem points for products or experiences. The company promotes the program heavily via social media, in-store displays, and email campaigns.
 
 The Beauty Insider program has created a community of loyal Sephora shoppers who feel valued and appreciated. This program drives significant revenue through repeat purchases, as customers are motivated to spend more to unlock higher-tier benefits.
 </li>
