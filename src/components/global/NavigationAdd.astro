@@ -4,7 +4,7 @@
   <!-- Announcement Start -->
      <div class="items-center w-full mx-auto relative" x-show="showAlert" x-data="{ showAlert: true }">
     <div class="w-full flex flex-col lg:px-32  max-w-8xl   2xl:max-w-screen-2xl   mx-auto px-8 lg:bg-white bg-white md:flex-row md:items-center md:justify-between md:py-1 py-3" x-data="{ open: false }">
-      <div class="items-center flex justify-between flex-row lg:justify-start">
+      <!--<div class="items-center flex justify-between flex-row lg:justify-start">
         <a class="text-lg text-black focus:outline-none focus:ring lg:text-2xl tracking-tight uppercase" href="/">
           <span class="focus:ring-0 font-extrabold lg:text-lg uppecase">
             <span class="items-center inline-flex gap-2 group">
@@ -17,11 +17,11 @@
             <path d="M6 18L18 6M6 6l12 12" :class="{'hidden': !open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
           </svg>
         </button>
-      </div>
+      </div>-->
       <nav :class="{'flex': open, 'hidden': !open}" class="items-center flex-col flex-grow hidden justify-center lg:px-0 md:flex text-sm md:flex-row md:pb-0 px-5 lg:text-sm lg:gap-8 xl:text-sm 2xl:text-lg text-black">
-        <a class="focus:outline-none duration-200 hover:text-accent-400  mb-4 md:my-0 px-2 py-2 transform transition" href="/pricing#features" title="resources">What's included </a>
-        <a class="focus:outline-none duration-200 hover:text-accent-400  mb-4 md:my-0 px-2 py-2 transform transition" href="/documentation/quick-start" title="resources">Documentation </a>
-        <a class="focus:outline-none duration-200 hover:text-accent-400  mb-4 md:my-0 px-2 py-2 transform transition" href="/legal/faq" title="faq">Faq </a>
+        <a class="focus:outline-none duration-200 hover:text-accent-400  mb-4 md:my-0 px-2 py-2 transform transition" href="/bfcm" title="resources">Black Friday and Cyber Monday</a>
+        <!--<a class="focus:outline-none duration-200 hover:text-accent-400  mb-4 md:my-0 px-2 py-2 transform transition" href="/documentation/quick-start" title="resources">Documentation </a>
+        <a class="focus:outline-none duration-200 hover:text-accent-400  mb-4 md:my-0 px-2 py-2 transform transition" href="/legal/faq" title="faq">Faq </a>-->
         
       </nav>
       <div class="justify-end"><button @click="showAlert = false" class="bg-black border-transparent focus:ring-white hover:bg-black/10 hover:text-black rounded-full p-0.5 ring-1 ring-transparent text-white mt-4 md:mt-0">
