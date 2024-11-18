@@ -7,7 +7,8 @@
       <div class="flex flex-row items-center justify-between text-white lg:justify-start">
         <a role="link" href="/" class="lg:pr-8">
           <div class="inline-flex items-center gap-3">
-            <img class="" width="125" height="28"
+            <img
+              class="" width="125" height="28"
               alt="99minds logo"
               src="/assets/99minds-logo1.svg"
             />
@@ -45,56 +46,50 @@
       <nav id="primary-navigation" :class="{'flex': open, 'hidden': !open}" class="flex-col items-start flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
         <div @click.away="open = false" class="relative" x-data="{ open: false }">
           <button @click="open = !open" class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
-            role="button" :aria-expanded="open" aria-controls="products-dropdown">
+          role="button" :aria-expanded="open" aria-controls="products-dropdown">
             <span>Products</span>
             <svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+              class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200
+              transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
               stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M6 9l6 6l6 -6"></path>
             </svg>
           </button>
-          
-          <!-- Dropdown -->
-          <div id="products-dropdown" x-show="open" x-transition:enter="transition ease-out duration-100"
-            x-transition:enter-start="transform opacity-0 scale-95"
-            x-transition:enter-end="transform opacity-100 scale-100"
-            x-transition:leave="transition ease-in duration-75"
-            x-transition:leave-start="transform opacity-100 scale-100"
-            x-transition:leave-end="transform opacity-0 scale-95"
-            class="absolute top-full left-0 z-50 mt-2 w-screen origin-top bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none"
-            style="padding: 0.5rem;">
-            <div class="py-1 bg-vulcan-900 rounded-lg max-w-7xl mx-auto">
-              <ul id="products" tabindex="-1" role="listbox" label="dropdown" class="flex flex-col sm:flex-row justify-around">
+          <div id="products-dropdown" x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute left-0 z-50 mt-2 w-full origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]" style="width:13rem;">
+            <div class="py-1 bg-vulcan-900 rounded-xl">
+              <ul id="products"
+                tabindex="-1"
+                role="listbox"
+               label="dropdown">
                 <li>
                   <a href="/giftcard" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                    role="link" id="menu-item-1" aria-label="Gift Card">Gift Card</a>
+                  role="link" id="menu-item-1" aria-label="Gift Card"> Gift Card </a>
                 </li>
                 <li>
                   <a href="/store-credit" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                    role="link" aria-label="Store Credit">Store Credit</a>
+                  role="link" aria-label="Store Credit">Store Credit</a>
                 </li>
                 <li>
                   <a href="/loyalty" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                    role="link" aria-label="Loyalty Program">Loyalty Program</a>
+                  role="link" aria-label="Loyalty Program">Loyalty Program</a>
                 </li>
                 <li>
                   <a href="/coupons" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                    role="link" aria-label="Coupons">Coupons</a>
+                  role="link" aria-label="Coupons">Coupons</a>
                 </li>
                 <li>
                   <a href="/referral" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                    role="link" aria-label="Referrals">Referrals</a>
+                  role="link" aria-label="Referrals">Referrals</a>
                 </li>
                 <li>
                   <a href="/automated-workflow" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                    role="link" aria-label="Automated Workflows">Automated Workflows</a>
+                  role="link" aria-label="Automated Workflows">Automated Workflows</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-
         <a
           class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
           href="/integrations">
@@ -162,8 +157,6 @@
             <span class="relative text-white">Book a Demo</span>
           </span>
         </button>
-        
-
       </nav>
     </div>
   </div>
