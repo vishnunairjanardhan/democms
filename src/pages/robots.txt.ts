@@ -4,6 +4,9 @@ const robotsTxt = `
 User-agent: *
 Allow: /
 Disallow: /tags/*
+Disallow: /about-us
+Disallow: /case-study1
+Disallow: /loyalty-and-reward-management
 
 User-agent: Pinterestbot
 Disallow: /

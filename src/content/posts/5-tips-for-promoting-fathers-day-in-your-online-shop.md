@@ -32,7 +32,7 @@ This goal will be easier to attain if you can rely on the guidance of e-gift car
 
 <h3><li>Define, Target, and Enhance Conversions with Detailed Segments:</h3></li>
 
-Consider making targeted <a href="https://www.99minds.io/blog/what-are-promotional-codes-and-how-do-they-work/">Promotional Offers to your clients</a> to improve your Father’s Day sales.
+Consider making targeted <a href="https://www.99minds.io/blog/promotional-codes">Promotional Offers to your clients</a> to improve your Father’s Day sales.
 Take, for example, gift guides. When it comes to choosing the right present for dad, everyone appreciates a little personal assistance. This is where expert eCommerce marketers may utilize Segmentation and Marketing Automation to develop a well-designed profile-based gift guide that highlights the finest gifts based on consumers’ likes and behaviors as defined by the individual consumer profile.
 
 <h3><li>Provide a “Dad-Special” Package:</h3></li>
