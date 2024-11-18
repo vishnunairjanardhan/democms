@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/20_irresistible_black_friday_promotion_ideas_to_stand_out_in_2024.webp"
   alt: "20 Irresistible Black Friday Promotion Ideas to Stand Out in 2024."
 tags: ["Promotion"]
-url: "https://www.99minds.io/blog/Black-friday-promotion-ideas"
+url: "https://www.99minds.io/blog/black-friday-promotion-ideas"
 keywords: ["black friday promotion ideas", "black friday marketing ideas", "black friday sale ideas", "black friday advertising ideas"]
 
 ---

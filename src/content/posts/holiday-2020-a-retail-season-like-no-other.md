@@ -71,7 +71,7 @@ If you can build a strong business with all these technological capabilities and
 
 ## Conclusion
 
-Customers have promised that they will shop only with brands that took care of its employees and partners. Also, providing them a <a href="https://www.99minds.io/blog/5-wicked-halloween-marketing-ideas-to-boost-your-online-sales" target="_blank">frictionless experience while shopping online should be part of your agenda</a>. Remember that your customers are staring at uncertainty, too, because of the nature of the pandemic, so you should be prepared for different consumer habits and spending patterns that might go completely against the grain.
+Customers have promised that they will shop only with brands that took care of its employees and partners. Also, providing them a frictionless experience while shopping online should be part of your agenda. Remember that your customers are staring at uncertainty, too, because of the nature of the pandemic, so you should be prepared for different consumer habits and spending patterns that might go completely against the grain.
  
 
  

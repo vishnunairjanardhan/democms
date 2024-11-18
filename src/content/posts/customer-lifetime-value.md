@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/why-you-can't-ignore-customer-lifetime-value-insights-for-growth.webp"
   alt: "Customer Lifetime Value: A Comprehensive Guide for Sustainable Growth"
 tags: ["Customer Lifetime Value"]
-url: "https://www.99minds.io/blog/gift-card-sales-on-social-media"
+url: "https://www.99minds.io/blog/customer-lifetime-value"
 keywords: ["Customer lifetime value", "client lifetime value", "lifetime value of a customer","lifetime customer value formula","how to calculate customer lifetime value"]
 
 --- 

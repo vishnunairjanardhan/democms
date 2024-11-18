@@ -1,0 +1,377 @@
+---
+import Verticalgrid from "../assets/Verticalgrid.astro";
+---
+
+<section class="lg:p-8 border-t border-y border-white/5">
+    <div class="mx-auto 2xl:max-w-7xl py-12 lg:px-24 md:px-12 px-6 sm:px-4 items-center w-full">
+      <div class="mx-auto text-center lg:py-8">
+        <h2 class="mt-4 text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-white">
+          <span class="text-2xl">Real stories</span><br /> 
+          See it to believe it.
+        </h2>
+      </div>
+      <div x-data="{ 
+        activeTab: 1, 
+        observeTabs() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const tabNumber = parseInt(entry.target.dataset.tab, 10);
+                        this.activeTab = tabNumber;
+                    }
+                });
+            }, { threshold: 0.5 });
+    
+            document.querySelectorAll('.tab-content').forEach(tab => observer.observe(tab));
+        },
+        scrollToTab(tabNumber) {
+            this.activeTab = tabNumber;
+            const selectedContent = this.$refs[`tab${tabNumber}`];
+            const container = this.$refs.tabsContainer;
+    
+            if (selectedContent && container) {
+                // Calculate the top position of the selected tab content relative to the container
+                const containerScrollTop = container.scrollTop;
+                const containerTop = container.getBoundingClientRect().top;
+                const contentTop = selectedContent.getBoundingClientRect().top;
+    
+                // Calculate the new scroll position to align selected content to the top of the container
+                const scrollPosition = containerScrollTop + contentTop - containerTop;
+    
+                // Scroll container smoothly to the calculated position
+                container.scrollTo({ top: scrollPosition, behavior: 'smooth' });
+    
+                // Optional: Ensure that the selected content is fully visible by adding the height of the container
+                const containerHeight = container.clientHeight;
+                const selectedContentHeight = selectedContent.clientHeight;
+                
+                // Ensure the previous tab is completely scrolled into view
+                const ensureFullyVisiblePosition = scrollPosition + selectedContentHeight > containerScrollTop + containerHeight
+                    ? scrollPosition - (selectedContentHeight - containerHeight)
+                    : scrollPosition;
+    
+                container.scrollTo({ top: ensureFullyVisiblePosition, behavior: 'smooth' });
+            } else {
+                console.error('Selected content or container not found for tab:', tabNumber);
+            }
+        }
+    }" 
+    class="flex flex-row w-full lg:px-2"
+    x-init="observeTabs()"
+    >
+      <!-- Buttons on the left -->
+      <div class="sticky top-0 flex flex-col items-start mr-4 mt-6">
+        <button @click="scrollToTab(1);" 
+        :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 1, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 1 }" 
+        class="px-2 py-6 md:px-4 md:py-7 w-full">
+        <span class="text-2xl">Dr. Squatch</span>
+    </button>
+    <button @click="scrollToTab(2);" 
+        :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 2, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 2 }" 
+        class="px-2 py-6 md:px-4 md:py-7 w-full">
+        <span class="text-2xl">Cozy Earth</span>
+    </button>
+    <button @click="scrollToTab(3);" 
+        :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 3, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 3 }" 
+        class="px-2 py-6 md:px-4 md:py-7 w-full">
+        <span class="text-2xl">Chamberlain</br>Coffee</span>
+    </button>
+    <button @click="scrollToTab(4);" 
+        :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 4, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 4 }" 
+        class="px-2 py-6 md:px-4 md:py-7 w-full">
+        <span class="text-2xl">Hiya</span>
+    </button>
+    <button @click="scrollToTab(5);" 
+        :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 5, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 5 }" 
+        class="px-2 py-6 md:px-4 md:py-7 w-full">
+        <span class="text-2xl">Viva Raw</span>
+    </button>
+      </div>
+  
+        
+        <!-- Tab contents on the right -->
+        <div class="relative w-full lg:h-full overflow-y-auto no-scrollbar" x-ref="tabsContainer" style="max-height: 88vh;">
+            <div class="flex flex-col pl-4 transition-transform duration-500">
+                <!-- Tab content for Dr. Squatch -->
+                <div x-ref="tab1" data-tab="1" class="tab-content w-full">
+                    <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                        <figure class="h-full">
+                            <ul class="h-full">
+                                <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] opacity-95">
+                                        <div class="lg:py-20 py-20 h-full">
+                                            <div class="lg:flex lg:h-full lg:items-center">
+                                                <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                                    <div class="ml-4 h-9">
+                                                        <img class="h-12" alt="Group" src="/assets/testimonial/MudAustralia-logo.svg" />
+                                                    </div>
+                                                    <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl text-white">
+                                                                <h3 class="font-semibold  text-2xl md:text-3xl lg:text-4xl">$1.5M</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">In Sales due to Gift Card Promotion</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">60 Days</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Solcial Media promotion with Heather Storm</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">20%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Increase in AOV</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl">15%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-white">Increase in Conversion Rate</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                    <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/mud-aus-t.webp" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+    
+                <!-- tab content for Cozy Earth -->
+                <div x-ref="tab2" data-tab="2" class="tab-content w-full pt-16">
+                    <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                        <figure class="h-full">
+                            <ul class="h-full">
+                                <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(184,191,255)_0%,rgb(132.6,144.67,255)_100%)] opacity-95">
+                                        <div class="lg:py-20 py-20 h-full">
+                                            <div class="lg:flex lg:h-full lg:items-center">
+                                                <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                                    <div class="ml-4 ">
+                                                        <img class="h-12" alt="Group" src="/assets/testimonial/Solistice-logo.svg" />
+                                                    </div>
+                                                    <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$640K</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">In Sales due to Promotional Gift Cards</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">45 Days</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">Summer Promotion</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">28%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in AOV</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">Gift Card</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">As new promotion channel</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-4 lg:mt-0 p-3 lg:px-10">
+                                                    <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Solstice-t.webp" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+    
+                <!-- tab content for Chamberlain -->
+                <div x-ref="tab3" data-tab="3" class="tab-content w-full h-full pt-20">
+                    <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                        <figure class="h-full">
+                            <ul class="h-full">
+                                <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(147,213,225)_0%,rgb(107.32,197.57,213.98)_100%)] opacity-95">
+                                        <div class="lg:py-20 py-20 h-full">
+                                            <div class="lg:flex lg:h-full lg:items-center">
+                                                <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                                    <div class="ml-4 mt-2">
+                                                        <img class="h-6" alt="Group" src="/assets/testimonial/Natori-logo.svg" />
+                                                    </div>
+                                                     <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">25%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in </br> Customer LTV</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-xl text-2xl md:text-3xl lg:text-4xl">Omnichannel</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">Online and Instore</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">40%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">Higher Spending on Redemption</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">Gift Cards</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030] ">As new marketing channel</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-4 lg:mt-0 p-3 lg:px-10">
+                                                    <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Natori-t.webp" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+    
+                <!-- tab content for Hiya -->
+                <div x-ref="tab4" data-tab="4" class="tab-content w-full pt-20">
+                    <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                        <figure class="h-full">
+                            <ul class="h-full">
+                                <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(217,205,255)_0%,rgb(196.86,178.5,255)_100%)] opacity-95">
+                                        <div class="lg:py-20 py-20 h-full">
+                                            <div class="lg:flex lg:h-full lg:items-center">
+                                                <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                                    <div class="ml-4 h-9">
+                                                        <img class="" alt="Group" src="/assets/testimonial/Bestop-logo.svg" />
+                                                    </div>
+                                                    <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">$1.5M</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">In Sales due to Gift Card Promotion</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">60 Days</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030] ">Solcial Media promotion with Heather Storm</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">20%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in AOV</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">15%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in Conversion Rate</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                    <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Bestop-T1.webp" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+    
+                <!-- tab content for Viva Raw -->
+                <div x-ref="tab5" data-tab="5" class="tab-content w-full pt-16">
+                    <div class="w-full flex flex-col shrink-0 snap-start h-full">
+                        <figure class="h-full">
+                            <ul class="h-full">
+                                <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,#DABDA9_0%,#CBA286_100%)] opacity-95">
+                                        <div class="lg:py-20 py-20 h-full">
+                                            <div class="lg:flex lg:h-full lg:items-center">
+                                                <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                                    <div class="ml-4">
+                                                        <img class="h-10" alt="Group" src="/assets/testimonial/calico-logo.svg" />
+                                                    </div>
+                                                    <div class="grid grid-cols-2 w-full mt-10 gap-4">
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">25%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in </br> Customer LTV </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">30%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in ARR</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-2xl md:text-3xl lg:text-4xl">10%</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in AOV</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col w-full">
+                                                            <div class="p-4 rounded-3xl">
+                                                                <h3 class="font-semibold text-black text-xl md:text-3xl lg:text-2xl">Omnichannel Loyalty & Referral</h3>
+                                                                <p class="text-sm md:text-base lg:text-lg text-[#303030]"> New Customer Acquisition & Retention channel</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                    <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Calico-t.webp" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+    
+               
+                   
+           
+
+       
+       
+
+        <!-- Repeat the structure for each tab from 3 to 6 -->
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .no-scrollbar::-webkit-scrollbar {
+        display: none; /* Hides scrollbar in Chrome, Safari, Opera */
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* Hides scrollbar in IE and Edge */
+        scrollbar-width: none;     /* Hides scrollbar in Firefox */
+    }
+  </style>
+</section>
+
