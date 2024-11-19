@@ -52,7 +52,7 @@ It helps you understand your customers in a better way. Using gift cards, you ca
 
 One of the best parts about gift cards is that people pay you in advance to buy the gift card. Without even having sold a single inventory, you would have made sales. They are a great way to increase traction on your sales without doing anything extra.
 
-All you need to do is to <a href="https://www.99minds.io/blog/what-are-promotional-codes-and-how-do-they-work/">promote your gift cards during the Valentine’s season</a> so that all your regular customers and prospective ones know that you are offering them and that there are special offers on it.
+All you need to do is to <a href="https://www.99minds.io/blog/promotional-codes">promote your gift cards during the Valentine’s season</a> so that all your regular customers and prospective ones know that you are offering them and that there are special offers on it.
 </ol>
 </ul>
 

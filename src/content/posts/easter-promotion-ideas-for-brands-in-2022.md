@@ -35,7 +35,7 @@ And do not forget to optimize the websites for the chosen keywords. And make use
 <li>
 <b>Personalized emails with special festive sales</b>
 
-Offering exciting Easter sales, and other incentives can help your company reach a wider audience. Send offers with personalized emails since a personalized approach has a stronger impact. In your Easter email <a href="https://www.99minds.io/blog/5-wicked-halloween-marketing-ideas-to-boost-your-online-sales" target="_blank">marketing activities</a>, increase the frequency of your emails.
+Offering exciting Easter sales, and other incentives can help your company reach a wider audience. Send offers with personalized emails since a personalized approach has a stronger impact. In your Easter email marketing activities, increase the frequency of your emails.
 </li>
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">

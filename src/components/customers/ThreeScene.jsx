@@ -20,31 +20,77 @@ const GlobeWithHexCountries = () => {
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(width, height);
     renderer.setClearColor(0x151723); // Background color
+    renderer.shadowMap.enabled = true;
     mountRef.current.appendChild(renderer.domElement);
 
     // Create Sphere (Globe)
     const radius = 3;
     const sphereGeometry = new THREE.SphereGeometry(radius, 100, 100);
     const sphereMaterial = new THREE.MeshPhongMaterial({
-      color: 0x0D1117,
-      emissive: 0x24292F,
+      color: 0x1f263a, // Vulcan 200 color (dark navy/charcoal) 0x001759 0x002d59
+      emissive: 0x0D1117,
       shininess: 10,
     });
     const globe = new THREE.Mesh(sphereGeometry, sphereMaterial);
+    globe.castShadow = true;
+    globe.receiveShadow = true;
     scene.add(globe);
 
+    // Atmosphere Glow (Teal Light Effect)
+    const atmosphereGeometry = new THREE.SphereGeometry(radius * 1.05, 50, 50);
+    const atmosphereMaterial = new THREE.ShaderMaterial({
+      uniforms: {
+        "c": { type: "f", value: 0.1 },
+        "p": { type: "f", value: 2.5 },
+        glowColor: { type: "c", value: new THREE.Color(0x00FFFF) }, // Teal glow
+        viewVector: { type: "v3", value: camera.position }
+      },
+      vertexShader: `
+        uniform vec3 viewVector;
+        uniform float c;
+        uniform float p;
+        varying float intensity;
+        void main() {
+          vec3 vNormal = normalize( normalMatrix * normal );
+          vec3 vNormView = normalize( viewVector - modelViewMatrix * vec4( position, 1.0 ) ).xyz;
+          intensity = pow( c - dot(vNormal, vNormView), p );
+          gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+        }
+      `,
+      fragmentShader: `
+        uniform vec3 glowColor;
+        varying float intensity;
+        void main() {
+          gl_FragColor = vec4( glowColor * intensity, 1.0 );
+        }
+      `,
+      side: THREE.BackSide,
+      blending: THREE.AdditiveBlending,
+      transparent: true,
+    });
+    const atmosphere = new THREE.Mesh(atmosphereGeometry, atmosphereMaterial);
+    scene.add(atmosphere);
+
     // Lighting
-    const ambientLight = new THREE.AmbientLight(0x282C34, 1.5);
-    const pointLight = new THREE.PointLight(0x333333, 1.5);
-    pointLight.position.set(5, 5, 5);
-    scene.add(ambientLight, pointLight);
+    const ambientLight = new THREE.AmbientLight(0x404040, 1.2);
+    scene.add(ambientLight);
+
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+    directionalLight.position.set(5, 5, 5);
+    directionalLight.castShadow = true;
+    scene.add(directionalLight);
+
+    // Light Source Behind the Sphere
+    const backLight = new THREE.PointLight(0x00ffff, 1, 15); // Teal light with adjusted intensity and range
+    backLight.position.set(0, 0, -10); // Position it behind the globe along the z-axis
+    scene.add(backLight);
 
     // Create a Group for Hexes
     const hexGroup = new THREE.Group();
     scene.add(hexGroup);
 
     // Set initial tilt for the globe
-    const tiltAngle = 0.41; // Approx 23.5 degrees in radians
+    const tiltAngle = 0.65; 
     hexGroup.rotation.x = tiltAngle;
 
     // D3 Projection and Path for GeoJSON
@@ -105,7 +151,7 @@ const GlobeWithHexCountries = () => {
     // Animation Loop
     const animate = () => {
       requestAnimationFrame(animate);
-      hexGroup.rotation.y += 0.01;
+      hexGroup.rotation.y += 0.05;
       renderer.render(scene, camera);
     };
     animate();
