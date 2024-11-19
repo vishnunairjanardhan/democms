@@ -1,13 +1,14 @@
 ---
 import GlobeWithHexCountries from "../../components/customers/ThreeScene.jsx";
+import Marquee from "../../components/config/Marquee.jsx";
 ---
 
 <section class="bg-blac">
 	
 	
 	
-	<div class="mx-auto max-w-7xl py-24 lg:px-16 md:px-12 px-8 xl:px-18 items-center lg:py-24 relative w-full bg-[length:700px] bg-auto bg-no-repeat bg-center  bg-[url('/assets/shopifycheckout/eart.gif')]">
-		<div class="w-full mt-10 h-full -z-50 absolute left-0 lg:h-full lg:max-w-7xl lg:px-0 mx-auto px-6 lg:py-2">
+	<div class="mx-auto max-w-7xl py-24 lg:px-16 md:px-12 px-8 xl:px-18 items-center lg:py-24 relative w-full bg-[url('https://vasturiano.github.io/react-globe.gl/example/world-cities/')]" >
+		<div class="w-full mt-10 h-full -z-50 absolute left-0 lg:h-80 lg:max-w-7xl lg:px-0 mx-auto px-6 lg:py-2">
 		<GlobeWithHexCountries client:load />
 	</div>
 		<div class="mx-auto">
@@ -112,20 +113,20 @@ import GlobeWithHexCountries from "../../components/customers/ThreeScene.jsx";
 				</div>
 			</div>
 		</div>   
-		<div class="mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-5 mt-8">
-			<div class="flex flex-col  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
+		<div class="mx-auto grid lg:grid-cols-8 gap-5 mt-8">
+			<div class="col-start-2 col-end-4 p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
 				<div class="px-6 py-4">
-					<div class="grid items-center justify-center w-full grid-cols-1 text-center">
+					<div class="grid items-center justify-center w-full lg:grid-cols-1 text-center">
 						<div>
-                            <p class="mt-0 text-normal text-white">Loyalty Sign up</p>
-							<h3 class=" text-3xl mt-3 text-white">$3,23,789</h3>
+                            <p class="mt-0 text-normal text-white">New Loyalty Sign up</p>
+							<h3 class=" text-3xl mt-3 text-white">3,23,789</h3>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="flex flex-col  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
+			<div class="col-start-4  col-end-6  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
 				<div class="px-6 py-4">
-					<div class="grid items-center justify-center w-full grid-cols-1 text-center">
+					<div class="grid items-center justify-center w-full lg:grid-cols-1 text-center">
 						<div>
                             <p class="mt-0 text-normal text-white">Loyalty Point Earn</p>
 							<h3 class=" text-3xl mt-3 text-white">3,23,789</h3>
@@ -133,9 +134,9 @@ import GlobeWithHexCountries from "../../components/customers/ThreeScene.jsx";
 					</div>
 				</div>
 			</div>
-			<div class="flex flex-col  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
+			<div class="col-start-6  col-end-8  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
 				<div class="px-6 py-4">
-					<div class="grid items-center justify-center w-full grid-cols-1 text-center">
+					<div class="grid items-center justify-center w-full lg:grid-cols-1 text-center">
 						<div>
                             <p class="mt-0 text-normal text-white">Loyalty Point Redeem</p>
 							<h3 class=" text-3xl mt-3 text-white">3,23,789</h3>
@@ -143,6 +144,9 @@ import GlobeWithHexCountries from "../../components/customers/ThreeScene.jsx";
 					</div>
 				</div>
 			</div>
+            
+		</div>
+		<div class="mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
             <div class="flex flex-col  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
 				<div class="px-6 py-4">
 					<div class="grid items-center justify-center w-full grid-cols-1 text-center">
@@ -173,9 +177,8 @@ import GlobeWithHexCountries from "../../components/customers/ThreeScene.jsx";
 					</div>
 				</div>
 			</div>
-			
 		</div>
-       <div class="mt-8 justify-center px-8 py-12 mx-auto bg-vulcan-900 max-w-7xl md:px-12 lg:px-6 lg:py-2 rounded-xl">
+       <!--<div class="mt-8 justify-center px-8 py-12 mx-auto bg-vulcan-900 max-w-7xl md:px-12 lg:px-6 lg:py-2 rounded-xl">
 		<div class="items-center">
 			<div class="mt-">
 				<div class="grid grid-cols-2 gap-0.5 sm:grid-cols-3 lg:grid-cols-6">
@@ -188,7 +191,24 @@ import GlobeWithHexCountries from "../../components/customers/ThreeScene.jsx";
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
+		<div class="overflow-hidden shadow-sm p-4 mt-4">
+		<div class="marquee-content flex gap-4 items-center animate-marquee">
+			<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Fashion<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Sports<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Shoes<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Beauty<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Jewellery<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Other<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Sports<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Shoes<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Beauty<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Jewellery<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Other<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Sports<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Shoes<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+			</div>
+		</div>
 	</div>
 </section>
 
