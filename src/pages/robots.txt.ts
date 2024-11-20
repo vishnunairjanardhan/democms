@@ -11,9 +11,6 @@ Disallow: /loyalty-and-reward-management
 User-agent: Pinterestbot
 Disallow: /
 
-User-agent: Pinterestbot
-Disallow: /
-
 Sitemap: ${new URL('sitemap-index.xml', import.meta.env.SITE).href}
 `.trim();
 

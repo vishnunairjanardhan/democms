@@ -151,7 +151,7 @@ const GlobeWithHexCountries = () => {
     // Animation Loop
     const animate = () => {
       requestAnimationFrame(animate);
-      hexGroup.rotation.y += 0.01;
+      hexGroup.rotation.y += 0.05;
       renderer.render(scene, camera);
     };
     animate();
