@@ -332,6 +332,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"Christmas-marketing-ideas.md": {
+	id: "Christmas-marketing-ideas.md";
+  slug: "christmas-marketing-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md": {
 	id: "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md";
   slug: "ways-to-incorporate-gift-cards-into-your-customer-retention-strategy";
@@ -416,6 +423,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"black-friday-promotion-ideas.md": {
+	id: "black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "build-customer-loyalty.md": {
 	id: "build-customer-loyalty.md";
   slug: "build-customer-loyalty";
@@ -433,13 +447,6 @@ declare module 'astro:content' {
 "celebrating-women-and-their-achievements.md": {
 	id: "celebrating-women-and-their-achievements.md";
   slug: "celebrating-women-and-their-achievements";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"christmas-marketing-ideas-to-boost-your-sales-this-year.md": {
-	id: "christmas-marketing-ideas-to-boost-your-sales-this-year.md";
-  slug: "christmas-marketing-ideas-to-boost-your-sales-this-year";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
