@@ -15,7 +15,7 @@ const RealTimeStatsSection = () => {
   });
 
   useEffect(() => {
-    const ws = new WebSocket('ws://demoserver-9lbh.onrender.com'); // Replace with your WebSocket server URL
+    const ws = new WebSocket('https://websocket-server-wcfw.onrender.com'); // Replace with your WebSocket server URL
 
     ws.onmessage = (message) => {
       const updatedData = JSON.parse(message.data);
