@@ -493,6 +493,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"dtc-marketing.md": {
+	id: "dtc-marketing.md";
+  slug: "dtc-marketing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "easter-promotion-ideas-for-brands-in-2022.md": {
 	id: "easter-promotion-ideas-for-brands-in-2022.md";
   slug: "easter-promotion-ideas-for-brands-in-2022";
