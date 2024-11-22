@@ -323,7 +323,21 @@ declare module 'astro:content' {
   slug: "are-omnichannel-loyalty-programs-the-future-of-retail";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"Black-friday-promotion-ideas.md": {
+	id: "Black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"Christmas-marketing-ideas.md": {
+	id: "Christmas-marketing-ideas.md";
+  slug: "christmas-marketing-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md": {
 	id: "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md";
@@ -409,13 +423,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"black-friday-promotion-ideas.md": {
-	id: "black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "build-customer-loyalty.md": {
 	id: "build-customer-loyalty.md";
   slug: "build-customer-loyalty";
@@ -485,6 +492,20 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: any
+} & { render(): Render[".md"] };
+"dtc-marketing.md": {
+	id: "dtc-marketing.md";
+  slug: "dtc-marketing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"dtc-marketing.md": {
+	id: "dtc-marketing.md";
+  slug: "dtc-marketing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "easter-promotion-ideas-for-brands-in-2022.md": {
 	id: "easter-promotion-ideas-for-brands-in-2022.md";

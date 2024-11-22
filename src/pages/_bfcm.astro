@@ -1,0 +1,44 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import RealTimeStatsSection from "../components/features/Bfcm.jsx";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+<AstroSeo
+  title="99minds | Black Friday Cyber Monday"
+  description="Discover the power of strategic collaborations with 99minds through illuminating case studies"
+  canonical="https://www.99minds.io/bfcm"
+  openGraph={{
+    url: "https://www.99minds.io/bfcm",
+    title: "99minds | Black Friday Cyber Monday",
+    description: "Discover the power of strategic collaborations with 99minds through illuminating case studies",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
+        alt: "Case Study",
+        type: "image/svg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/bfcm",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
+        alt: "Case Study",
+        type: "image/svg",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+
+<BaseLayout>
+<RealTimeStatsSection client:load />
+</BaseLayout>
