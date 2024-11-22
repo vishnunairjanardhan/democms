@@ -37,11 +37,12 @@ const RealTimeStatsSection = () => {
         <div className="w-full mt-10 h-full -z-50 absolute left-0 lg:h-full lg:max-w-7xl lg:px-0 mx-auto px-6 lg:py-2">
           <GlobeWithHexCountries/>
         </div>
-        <div className="mx-auto">
+        
+        <div className="">
           <img
             role="img"
             loading="lazy"
-            className=""
+            className="mx-auto justify-center items-center"
             width="200"
             alt="5 Star Rating"
             src="/assets/shopifycheckout/ecom-logo.png"

@@ -82,10 +82,15 @@
                           ) : null}
                         </div>
                       </div>
-                      <div class="p-8">
-                        <p>
-                          <time class="text-xs text-indigo-300" dateTime="Wed Apr 21">{data.date}</time>
-                        </p>
+                        <div class="p-8">
+                         <div class="flex">
+                             <div class="basis-1/2"><img class="h-9" alt="" src={data.logo}></div>
+                              <!--<div class="basis-1/2"> 
+                                <p class="text-right">
+                                <time class=" text-xs text-indigo-300" dateTime="Wed Apr 21">{data.date}</time>
+                                </p>
+                              </div>-->  
+                        </div>
                         <h2 class="text-xl font-semibold text-indigo-400">{data.heading}</h2> 
                         <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
                         <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
@@ -132,9 +137,10 @@
                         </div>
                       </div>
                       <div class="p-8">
-                        <p>
-                          <time class="text-xs text-indigo-300" dateTime="Wed Apr 21">{data.date}</time>
-                        </p>
+                        <div class="flex">
+                             <div class="basis-1/2"><img class="h-9" alt="" src={data.logo}></div>
+ 
+                        </div>
                         <h2 class="text-xl font-semibold text-indigo-400">{data.heading}</h2> 
                         <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
                         <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
@@ -216,10 +222,15 @@
                         </div>
                       </div>
                       <div class="p-8">
-                        <p>
-                          <time class="text-xs text-indigo-300" dateTime="Wed Apr 21">{data.date}</time>
-                        </p>
-                        <h2 class="text-xl font-semibold text-indigo-400">{data.heading}</h2> 
+                         <div class="flex">
+                             <div class="basis-1/2"><img class="h-9" alt="" src={data.logo}></div>
+                              <!--<div class="basis-1/2"> 
+                                <p class="text-right">
+                                <time class=" text-xs text-indigo-300" dateTime="Wed Apr 21">{data.date}</time>
+                                </p>
+                              </div>-->  
+                        </div>
+                        <h2 class="text-xl mt-2 font-normal text-indigo-400">{data.heading}</h2> 
                         <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
                         <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
                         <a href={data.href} class="text-indigo-400 mt-5 hover:underline">Read More</a>
