@@ -4,12 +4,12 @@ import Marquee from "../../components/config/Marquee.jsx";
 ---
 
 <section class="bg-blac">
-	<div class="mx-auto max-w-7xl py-24 lg:px-16 md:px-12 px-8 xl:px-18 items-center lg:py-24 relative w-full bg-[url('https://vasturiano.github.io/react-globe.gl/example/world-cities/')]" >
+	<div class="mx-auto max-w-7xl py-24 lg:px-16 md:px-12 px-8 xl:px-18 items-center lg:py-24 relative w-full bg-no-repeat bg-center bg-[length:750px] bg-[url('/public/BFCM-3.gi')]" >
 		<div class="w-full mt-20 h-full -z-50 absolute left-0 lg:h-80 lg:max-w-7xl lg:px-0 mx-auto px-6 lg:py-2">
 		<GlobeWithHexCountries client:load />
 	</div>
 		<div class="">
-			<p class="text-2xl text-white mt-4 mx-auto justify-center text-center">Omnichannel BFCM Online & Instore</p>
+			<p class="text-2xl text-white mt-4 mx-auto justify-center text-center">Omnichannel Black Friday Cyber Monday Online & Instore Sale</p>
 		</div>
 	<!-- Announcement Start -->
      	<div class="items-center w-full mx-auto relative" x-show="showAlert" x-data="{ showAlert: true }">
@@ -17,7 +17,7 @@ import Marquee from "../../components/config/Marquee.jsx";
 			<!--<div class="items-center mx-auto flex justify-between flex-row lg:justify-start">
 				<a class="text-lg text-black focus:outline-none focus:ring lg:text-2xl tracking-tight" href="/">
 				<span class="focus:ring-0 font-normal lg:text-lg">
-					<span class="items-center justify-center  inline-flex gap-2 group">
+					<span class="items-center justify-center inline-flex gap-2 group">
 					Black Friday and Cyber Monday</span>
 				</span>
 				</a>
@@ -139,7 +139,11 @@ import Marquee from "../../components/config/Marquee.jsx";
 					<div class="grid items-center justify-center w-full grid-cols-1 text-center">
 						<div class="gap-3 mt-2">
                         <p class="text-xl font-semibold text-white text-left">Total Sales</p>
-                        <p class=" text-3xl mt-3 text-white text-left">$0.00</p>    
+                        <p class=" text-3xl mt-1 text-white text-left">$0.00</p>    
+                        </div>
+						<div class="gap-3 mt-4">
+                        <p class="text-xl font-normal text-white text-left">Total orders per minute</p>
+                        <p class=" text-3xl mt-1 text-white text-left">$0.00</p>    
                         </div>
 					</div>
 				</div>
@@ -193,7 +197,7 @@ import Marquee from "../../components/config/Marquee.jsx";
 				<div class="px-6 py-4">
 					<div class="grid items-center justify-center w-full grid-cols-1 text-center">
 						<div>
-                            <p class="mt-0 text-white text-normal">No of Gift Card Sold</p>
+                            <p class="mt-0 text-white text-normal">No. of Gift Cards Sold</p>
 							<p class=" text-3xl mt-3 text-white">0</p>
 						</div>
 					</div>
@@ -203,7 +207,7 @@ import Marquee from "../../components/config/Marquee.jsx";
 				<div class="px-6 py-4">
 					<div class="grid items-center justify-center w-full grid-cols-1 text-center">
 						<div>
-                            <p class="mt-0 text-white text-normal">Gift Card Sold</p>
+                            <p class="mt-0 text-white text-normal">Gift Cards Sold</p>
 							<h3 class=" text-3xl mt-3 text-white">$0.00</h3>
 						</div>
 					</div>
@@ -213,7 +217,7 @@ import Marquee from "../../components/config/Marquee.jsx";
 				<div class="px-6 py-4">
 					<div class="grid items-center justify-center w-full grid-cols-1 text-center">
 						<div>
-                            <p class="mt-0 text-white text-normal">Gift Card Redeem</p>
+                            <p class="mt-0 text-white text-normal">Gift Cards Redeem</p>
 							<h3 class=" text-3xl mt-3 text-white">$0.00</h3>
 						</div>
 					</div>
@@ -224,29 +228,20 @@ import Marquee from "../../components/config/Marquee.jsx";
 				<div class="px-6 py-4">
 					<div class="grid items-center justify-center w-full grid-cols-1 text-center">
 						<div>
-                            <p class="mt-0 text-normal text-white">Total Order Lift</p>
+                            <p class="mt-0 text-normal text-white">Total Order Value Lift</p>
 							<h3 class=" text-3xl mt-3 text-white">$0.00</h3>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>   
-		<div class="mx-auto grid lg:max-w-5xl lg:grid-cols-3 gap-5 mt-8">
-			<div class="flex flex-col w-full mx-auto float-right p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
-				<div class="px-6 py-4 float-right">
-					<div class="grid items-center justify-center w-full lg:grid-cols-1 text-center">
-						<div>
-                            <p class="mt-0 text-normal text-white">Order per minute</p>
-							<h3 class=" text-3xl mt-3 text-white">0</h3>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="mx-auto grid lg:max-w-6xl lg:grid-cols-3 gap-5 mt-8">
+			
 			<div class="flex flex-col w-full  mx-auto justify-center p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
 				<div class="px-6 py-4">
 					<div class="grid items-center justify-center w-full lg:grid-cols-1 text-center">
 						<div>
-                            <p class="mt-0 text-normal text-white">Loyalty Point Earn</p>
+                            <p class="mt-0 text-normal text-white">Loyalty Points Earn</p>
 							<h3 class=" text-3xl mt-3 text-white">0</h3>
 						</div>
 					</div>
@@ -256,19 +251,29 @@ import Marquee from "../../components/config/Marquee.jsx";
 				<div class="px-6 py-4">
 					<div class="grid items-center justify-center w-full lg:grid-cols-1 text-center">
 						<div>
-                            <p class="mt-0 text-normal text-white">Loyalty Point Redeem</p>
+                            <p class="mt-0 text-normal text-white">Loyalty Points Redeem</p>
+							<h3 class=" text-3xl mt-3 text-white">0</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex-col w-full mx-auto float-right p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
+				<div class="px-6 py-4 float-right">
+					<div class="grid items-center justify-center w-full lg:grid-cols-1 text-center">
+						<div>
+                            <p class="mt-0 text-normal text-white">Order placed using Loyalty Points</p>
 							<h3 class=" text-3xl mt-3 text-white">0</h3>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8 justify-center item-center">
+		<!--<div class="mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8 justify-center item-center">
             <div class="flex flex-col  p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
 				<div class="px-6 py-4">
 					<div class="grid items-center justify-center w-full grid-cols-1 text-center">
 						<div>
-                            <p class="mt-0 text-normal text-white">Order placed using Loyalty Point</p>
+                            <p class="mt-0 text-normal text-white">Order placed using Loyalty Points</p>
 							<h3 class=" text-3xl mt-3 text-white">$0.00</h3>
 						</div>
 					</div>
@@ -294,23 +299,29 @@ import Marquee from "../../components/config/Marquee.jsx";
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>-->
        
-	<div class="overflow-hidden shadow-sm p-4 mt-4">
+	<div class="overflow-hidden shadow-sm p-4 mt-8">
 		<div class="marquee-content flex gap-4 items-center animate-marquee">
-			<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Fashion<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
-				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Sports<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
-				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Shoes<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
-				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Beauty<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
-				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Jewellery<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
-				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Other<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
-				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Sports<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
-				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Shoes<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
-				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Beauty<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
-				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Jewellery<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
-				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Other<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
-				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Sports<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
-				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Shoes<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span></div>
+			<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Fashion<span class="items-center inline-flex font-medium text-indigo-400 text-base"><!-- <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Sports<span class="items-center inline-flex font-medium text-indigo-400 text-base"><!-- <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Shoes<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Beauty<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Jewellery<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Other<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Sports<span class="items-center inline-flex font-medium text-indigo-400 text-base"><!-- <svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Shoes<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Beauty<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Jewellery<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Other<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Sports<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Shoes<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Shoes<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Beauty<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Jewellery<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Other<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Sports<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
+				<div class="flex px-8"> <p class="items-center inline-flex text-white text-base font-normal">Shoes<span class="items-center inline-flex font-medium text-indigo-400 text-base"> <!--<svg class="h-8 w-8 text-indigo-400"  width="24" height="24" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M18 15l-6-6l-6 6h12" /></svg>50%</span>--></div>
 			</div>
 		</div>
 	</div>
