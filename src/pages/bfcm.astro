@@ -1,6 +1,6 @@
 ---
 import CasestudyLayout from "../layouts/CasestudyLayout.astro";
-import Bfcm from "../components/features/Bfcm.astro";
+import RealTimeStatsSection from "../components/features/Bfcm.jsx";
 import { AstroSeo } from "@astrolib/seo";
 ---
 
@@ -40,5 +40,5 @@ Use AstroSeo in all the pages you want different Seo than the index page
 />
 
 <CasestudyLayout>
-<Bfcm />
+<RealTimeStatsSection client:load />
 </CasestudyLayout>
