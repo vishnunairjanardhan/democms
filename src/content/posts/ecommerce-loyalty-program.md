@@ -2,8 +2,8 @@
 pubDate: 2024-11-22
 author: PRAVIN KAMBLE
 authorImg: "Pravin.png"
-title: "8 Industry Winning eCommerce Loyalty Program Ideas"
-description: "Learn what makes an industry winning ecommerce loyalty program successful and its unique features that increases loyal customers."
+title: "8 Thanksgiving Marketing Ideas to Boost Your Sales This Holiday Season [2024]"
+description: "Boost holiday sales with these 8 creative Thanksgiving marketing ideas. From promotions to giveaways, attract and engage customers this season!"
 heading: 8 Thanksgiving Marketing Ideas to Boost Your Sales This Holiday Season [2024]
 image:
   url: "/assets/blog/8_thanksgiving_marketing_ideas_to_boost_your_sales_this_holiday_season.webp"
