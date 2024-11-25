@@ -8,8 +8,8 @@ heading: 8 Thanksgiving Marketing Ideas to Boost Your Sales This Holiday Season 
 image:
   url: "/assets/blog/8_thanksgiving_marketing_ideas_to_boost_your_sales_this_holiday_season.webp"
   alt: "Thanksgiving marketing ideas."
-tags: ["Loyalty Program"]
-url: "https://www.99minds.io/blog/ecommerce-loyalty-program"
+tags: ["Promotion"]
+url: "https://www.99minds.io/blog/thanksgiving-marketing-ideas"
 keywords:
   [
     "thanksgiving marketing ideas",
@@ -29,7 +29,7 @@ Ready to dive in? Let’s explore some actionable strategies to elevate your Tha
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
 <p>Table of Contents:</p>
-<ul role="list">
+<ul>
   <li>
   <a role="link" href="#Top-8-Thanksgiving-Marketing-Ideas-for-2024" rel="noreferrer">Top 8 Thanksgiving Marketing Ideas for 2024</a>
   </li>
@@ -46,7 +46,7 @@ Ready to dive in? Let’s explore some actionable strategies to elevate your Tha
  If you want to make the most of this festive weekend, you’ll need the right Thanksgiving marketing ideas to stand out in a sea of offers and effectively convert your audience.
  To help you get started, we’ve compiled the top seven Thanksgiving promotions for 2024. These strategies are designed to not only increase your sales during Black Friday and Cyber Monday but also strengthen customer loyalty for the long term. Let’s dive in!
 
- <ol role=list>
+ <ol>
 <li><h3>Send Personalized Deals to Customers via Email</h3>
 It’s Thanksgiving, and what better way to celebrate than by giving thanks to the people who keep your business thriving—your customers! Take this opportunity to send personalized messages expressing your gratitude. It’s also a perfect time to notify them about your current catalog, upcoming launches, and exciting Thanksgiving marketing promotions.
 
@@ -141,7 +141,7 @@ Digital gift cards are a lifesaver for last-minute shoppers. Highlight their ins
 Pair gift cards with discounted products or exclusive perks. For instance, offer a $20 gift card for every $100 spent during the Thanksgiving weekend. This not only increases immediate sales but also guarantees future purchases.
 </ul>
 </li>
-
+</ol>
  <h2 id="Final-Thoughts-on-Thanksgiving-Marketing-Ideas">Final Thoughts on Thanksgiving Marketing Ideas</h2>
 
  Thanksgiving offers a golden opportunity for businesses to connect with customers, drive sales, and build lasting relationships. By leveraging creative Thanksgiving marketing ideas—from themed promotions to giveaways and partnerships—you can create memorable campaigns that resonate with your audience. 
