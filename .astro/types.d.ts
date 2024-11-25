@@ -323,21 +323,14 @@ declare module 'astro:content' {
   slug: "are-omnichannel-loyalty-programs-the-future-of-retail";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "Black-friday-promotion-ideas.md": {
 	id: "Black-friday-promotion-ideas.md";
   slug: "black-friday-promotion-ideas";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"Christmas-marketing-ideas.md": {
-	id: "Christmas-marketing-ideas.md";
-  slug: "christmas-marketing-ideas";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md": {
 	id: "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md";
@@ -498,14 +491,7 @@ declare module 'astro:content' {
   slug: "dtc-marketing";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"dtc-marketing.md": {
-	id: "dtc-marketing.md";
-  slug: "dtc-marketing";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "easter-promotion-ideas-for-brands-in-2022.md": {
 	id: "easter-promotion-ideas-for-brands-in-2022.md";
@@ -538,13 +524,6 @@ declare module 'astro:content' {
 "ecommerce-gift-cards-for-refunds.md": {
 	id: "ecommerce-gift-cards-for-refunds.md";
   slug: "ecommerce-gift-cards-for-refunds";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"ecommerce-loyalty-program.md": {
-	id: "ecommerce-loyalty-program.md";
-  slug: "ecommerce-loyalty-program";
   body: string;
   collection: "posts";
   data: any
@@ -1175,6 +1154,13 @@ declare module 'astro:content' {
 "small-business-ideas-for-valentines-day.md": {
 	id: "small-business-ideas-for-valentines-day.md";
   slug: "small-business-ideas-for-valentines-day";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"thanksgiving-marketing-ideas.md": {
+	id: "thanksgiving-marketing-ideas.md";
+  slug: "thanksgiving-marketing-ideas";
   body: string;
   collection: "posts";
   data: any
