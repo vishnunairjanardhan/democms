@@ -1,19 +1,40 @@
+
 <section
   aria-labelledby="logocloud"
-  id="logocloud "
-  class="flex items-end justify-center bg-vulcan-900 border-t border-white/60 border-y border-white/5 px-8 mx-auto max-w-7xl md:px-12 lg:px-16 rounded-b-2xl" style="background-image: linear-gradient(to top, #DABCA8 , #CBA286);">
-  <div
-    class="justify-center px-8 mx-auto max-w-7xl md:px-12 lg:px-0">
+  id="logocloud"
+  class="flex items-end justify-center bg-vulcan-900 border-t border-white/60 border-y border-white/5 px-8 mx-auto max-w-7xl md:px-12 lg:px-16 rounded-b-2xl"
+  style="background-image: linear-gradient(to top, #DABCA8, #CBA286);">
+  <div class="justify-center px-8 mx-auto max-w-7xl md:px-12 lg:px-0">
     <ul class="grid grid-cols-1 gap-6 list-none sm:grid-cols-2 md:grid-cols-4 lg:gap-8 lg:mt-0 py-4 text-center" role="list">
-      <li>
+      
+      <li x-data="{ count: 0, target: 25, formattedCount() { return '$' + this.count.toFixed(0) + 'K'; }, counter() { 
+          let interval = setInterval(() => { 
+              if (this.count < this.target) { 
+                  this.count += 0.5; 
+              } else { 
+                  this.count = this.target; 
+                  clearInterval(interval); 
+              } 
+          }, 50); 
+      } }" x-init="counter()">
         <div>
-          <h2 class="text-2xl md:text-2xl mt-3 font-bold text-black">25%</h2>
+          <h2 class="text-2xl md:text-2xl mt-3 font-bold text-black" x-text="formattedCount()"></h2>
         </div>
         <div class="mt-2 text-black font-bold text-sm md:text-base">Increase in Customer LTV</div>
       </li>
-      <li>
+
+      <li x-data="{ count: 0, target: 40, counter() { 
+          let interval = setInterval(() => { 
+              if (this.count < this.target) { 
+                  this.count += 0.5; 
+              } else { 
+                  this.count = this.target; 
+                  clearInterval(interval); 
+              } 
+          }, 30); 
+      } }" x-init="counter()">
         <div>
-          <h2 class="text-2xl md:text-2xl mt-3 font-bold text-black">40%</h2>
+          <h2 class="text-2xl md:text-2xl mt-3 font-bold text-black" x-text="count + '%'"></h2>
         </div>
         <div class="mt-2 text-black font-bold text-sm md:text-base">Higher Spending on Redemption</div>
       </li>
@@ -29,6 +50,7 @@
         </div>
         <div class="mt-2 text-black font-bold text-sm md:text-base">Online and Instore</div>
       </li>
+
     </ul>
   </div>
 </section>

@@ -1,7 +1,8 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import ContactWidget from "../components/forms/ContactWidget.astro";
-import Navigation from "../components/global/Navigation.astro";
+import OldNavbar from "../components/global/OldNavbar.astro";
+import Footer2 from "../components/global/Footer2.astro";
 ---
 
 <html
@@ -12,9 +13,9 @@ import Navigation from "../components/global/Navigation.astro";
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWJJGX6"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <Navigation />
+    <OldNavbar />
     <ContactWidget />
     <slot />
-    
+    <Footer2/>
   </body>
 </html>
