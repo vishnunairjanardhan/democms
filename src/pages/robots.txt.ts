@@ -7,6 +7,7 @@ Disallow: /tags/*
 Disallow: /about-us
 Disallow: /case-study1
 Disallow: /loyalty-and-reward-management
+Disallow: /GetStarted
 
 User-agent: Pinterestbot
 Disallow: /
