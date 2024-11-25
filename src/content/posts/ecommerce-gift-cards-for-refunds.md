@@ -8,7 +8,7 @@ heading: eCommerce Gift Cards, Easy Alternatives For Refunds, Returns, And Excha
 image:
   url: "/assets/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.webp"
   alt: "ecommerce gift cards easy alternatives for refund return and exchanges."
-tags: ["Gift Cards", "Ecommerce"]
+tags: ["Gift Card", "Ecommerce"]
 url: "https://www.99minds.io/blog/ecommerce-gift-cards-for-refunds"
 keywords: ["ecommerce gift cards", "ecommerce gift cards for refunds"]
 

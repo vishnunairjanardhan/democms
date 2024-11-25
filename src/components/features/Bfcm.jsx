@@ -4,14 +4,16 @@ import GlobeWithHexCountries from "../../components/customers/ThreeScene.jsx";
 const RealTimeStatsSection = () => {
   const [data, setData] = useState({
     totalSales: 0,
+    totalNoOfGiftCardSold: 0,
     giftCardSold: 0,
     giftCardRedeem: 0,
-    giftCardLift: 0,
     totalOrderLift: 0,
     loyaltySignup: 0,
     loyaltyPointEarn: 0,
     loyaltyPointRedeem: 0,
     orderPlacedUsingLoyaltyPoint: 0,
+    orderPlacedUsingCashback: 0,
+    orderPlacedUsingStoreCredit: 0,
   });
 
   useEffect(() => {
@@ -83,6 +85,7 @@ const RealTimeStatsSection = () => {
 
         <div className="mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-5 mt-8">
           {[
+            { label: 'Total No Of Gift Card Sold', value: data.totalNoOfGiftCardSold },
             { label: 'Gift Card Sold', value: data.giftCardSold },
             { label: 'Gift Card Redeem', value: data.giftCardRedeem },
             { label: 'Total Order Lift', value: data.totalOrderLift },
@@ -90,6 +93,8 @@ const RealTimeStatsSection = () => {
             { label: 'Loyalty Point Earn', value: data.loyaltyPointEarn },
             { label: 'Loyalty Point Redeem', value: data.loyaltyPointRedeem },
             { label: 'Order Placed Using Loyalty Point', value: data.orderPlacedUsingLoyaltyPoint },
+            { label: 'Order Placed Using Cashback', value: data.orderPlacedUsingCashback },
+            { label: 'Order Placed Using Store Credit', value: data.orderPlacedUsingStoreCredit },
           ].map((item, index) => (
             <div
               key={index}

@@ -8,7 +8,7 @@ heading: 5 Loyalty Marketing Strategies For Loyal and Happy Customers
 image:
   url: "/assets/blog/5_loyalty_marketing_strategies_for_loyal_and_happy_customers.webp"
   alt: "Loyalty Marketing."
-tags: ["Loyalty"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/loyalty-marketing-strategies"
 keywords: ["loyalty marketing", "loyalty program marketing", "what is loyalty marketing", "loyalty marketing strategy"]
 
