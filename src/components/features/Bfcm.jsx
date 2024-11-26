@@ -51,53 +51,85 @@ const CategoryStats = () => {
   ];
 
   return (
-    <div className="overflow-hidden shadow-sm p-2 mt-20">
-      <div className="grid lg:grid-cols-4 gap-4 items-center">
-        {categories.map((category, index) => (
-          <div key={index} className="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold text-white border rounded-2xl bg-vulcan-900 border-vulcan-700">
-            <p className="inline-flex text-white text-base text-center font-normal">{category.name}</p>
-            <div className="flex items-center gap-2">
-              {/* <p className="inline-flex text-white text-base font-normal">{category.percentage}</p>
-              <svg className="w-6 h-6" style={{ fill: 'green', transform: 'scaleY(-1)' }} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10">
-                <path d="M15.434 1.235A2 2 0 0 0 13.586 0H2.414A2 2 0 0 0 1 3.414L6.586 9a2 2 0 0 0 2.828 0L15 3.414a2 2 0 0 0 .434-2.179Z"></path>
-              </svg> */}
-            </div>
-          </div>
-        ))}
-      </div>
+    <div className="overflow-hidden shadow-sm p-2 mt-8 lg:pt-12 md:pt-8 pt-5">
+    <h2 className="text-center">Categories</h2>
+    <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 items-center lg:pt-8 pt-5">
+      {categories.map((category, index) => (
+        <div
+          key={index}
+          className="flex items-center justify-center h-12 text-xs px-4 py-2 font-semibold text-white border rounded-2xl bg-vulcan-900 border-vulcan-700"
+        >
+          <p className="text-white text-base font-normal">{category.name}</p>
+        </div>
+      ))}
     </div>
+  </div>
   );
 };
 
 const RealTimeStatsSection = () => {
   const [data, setData] = useState({
     totalSales: 0,
-    totalNoOfGiftCardSold: 0,
-    giftCardSold: 0,
-    giftCardRedeem: 0,
-    totalOrderLift: 0,
-    loyaltySignup: 0,
-    loyaltyPointEarn: 0,
-    loyaltyPointRedeem: 0,
-    orderPlacedUsingLoyaltyPoint: 0,
-    orderPlacedUsingCashback: 0,
-    orderPlacedUsingStoreCredit: 0,
+    totalOrdersPerMinute: 0,
+    totalNoOfGiftCardsSold: 0,
+    giftCardsSold: 0,
+    giftCardsRedeem: 0,
+    totalOrderValueLift: 0,
+    loyaltyPointsEarn: 0,
+    loyaltyPointsRedeem: 0,
+    orderPlacedUsingLoyaltyPoints: 0,
   });
 
+  // useEffect(() => {
+  //   const ws = new WebSocket('https://websocket-server-wcfw.onrender.com'); // Replace with your WebSocket server URL
+
+  //   ws.onmessage = (message) => {
+  //     const updatedData = JSON.parse(message.data);
+  //     setData(updatedData);
+  //   };
+
+  //   ws.onclose = () => {
+  //     console.log('WebSocket connection closed');
+  //   };
+
+  //   return () => {
+  //     ws.close();
+  //   };
+  // }, []);
+
   useEffect(() => {
-    const ws = new WebSocket('https://websocket-server-wcfw.onrender.com'); // Replace with your WebSocket server URL
+    let ws; 
+    const reconnectDelay = 1000; 
 
-    ws.onmessage = (message) => {
-      const updatedData = JSON.parse(message.data);
-      setData(updatedData);
+    const connectWebSocket = () => {
+      ws = new WebSocket('https://websocket-server-wcfw.onrender.com');
+
+      ws.onopen = () => {
+        console.log('WebSocket connection established');
+      };
+
+      ws.onmessage = (event) => {
+        const receivedData = JSON.parse(event.data);
+        setData(receivedData);
+      };
+
+      ws.onclose = () => {
+        console.warn('WebSocket connection closed. Reconnecting...');
+        setTimeout(connectWebSocket, reconnectDelay); 
+      };
+
+      ws.onerror = (error) => {
+        console.error('WebSocket error:', error);
+        ws.close(); 
+      };
     };
 
-    ws.onclose = () => {
-      console.log('WebSocket connection closed');
-    };
+    connectWebSocket(); 
 
     return () => {
-      ws.close();
+      if (ws) {
+        ws.close();
+      }
     };
   }, []);
 
@@ -119,9 +151,9 @@ const RealTimeStatsSection = () => {
           <div className="flex flex-col p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
             <div className="px-6 py-3">
               <p className="text-xl font-semibold text-white text-left">Total Sales</p>
-              <p className="text-3xl mt-1 text-white text-left">${data.totalSales.toLocaleString()}</p>
-              <p className="text-xl mt-4 font-normal text-white text-left">Total orders per minute</p>
-              <p className=" text-3xl mt-1 text-white text-left">0</p> 
+              <p className="text-3xl mt-1 text-white text-left">${data.totalSales}</p>
+              <p className="text-xl mt-4 font-normal text-white text-left">Total orders</p>
+              <p className=" text-3xl mt-1 text-white text-left">{data.totalOrdersPerMinute}</p> 
             </div>
           </div>
           <div class="col-start-3"></div>
@@ -166,10 +198,10 @@ const RealTimeStatsSection = () => {
 
         <div className="mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-5 mt-8">
           {[
-            { label: 'Number of Gift Card Sold', value: data.giftCardSold },
-            { label: 'Gift Card Sold', value: data.giftCardRedeem },
-            { label: 'Gift Card Redeem', value: data.totalOrderLift },
-            { label: 'Total Order Value Lift', value: data.loyaltySignup },
+            { label: 'Number of Gift Cards Sold', value: data.totalNoOfGiftCardsSold },
+            { label: 'Gift Cards Sold', value: `$${data.giftCardsSold}` },
+            { label: 'Gift Cards Redeem', value: `$${data.giftCardsRedeem}` },
+            { label: 'Total Order Value Lift', value: `$${data.totalOrderValueLift}` },
            
           ].map((item, index) => (
             <div
@@ -177,7 +209,7 @@ const RealTimeStatsSection = () => {
               className="flex flex-col p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
               <div className="px-6 py-4">
                 <p className="mt-0 text-white text-center text-normal">{item.label}</p>
-                <p className="text-3xl mt-3 text-center text-white">{item.value.toLocaleString()}</p>
+                <p className="text-3xl mt-3 text-center text-white">{item.value}</p>
               </div>
             </div>
             
@@ -186,18 +218,18 @@ const RealTimeStatsSection = () => {
         <div className="mx-auto  grid lg:max-w-6xl lg:grid-cols-3 gap-5 mt-8">
           {[
             
-            { label: 'Loyalty Point Earn', value: data.loyaltyPointEarn },
-            { label: 'Loyalty Point Redeem', value: data.loyaltyPointRedeem },
-            { label: 'Order Placed Using Loyalty Point', value: data.orderPlacedUsingLoyaltyPoint },
-            { label: 'Order Placed Using Cashback', value: data.orderPlacedUsingCashback },
-            { label: 'Order Placed Using Store Credit', value: data.orderPlacedUsingStoreCredit },
+            { label: 'Loyalty Points Earn', value: data.loyaltyPointsEarn },
+            { label: 'Loyalty Points Redeem', value: data.loyaltyPointsRedeem },
+            { label: 'Order Placed Using Loyalty Points', value: data.orderPlacedUsingLoyaltyPoints },
+            // { label: 'Order Placed Using Cashback', value: data.orderPlacedUsingCashback },
+            // { label: 'Order Placed Using Store Credit', value: data.orderPlacedUsingStoreCredit },
           ].map((item, index) => (
             <div
               key={index}
               className="flex flex-col p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5 rounded-3xl">
               <div className="px-6 py-4">
                 <p className="mt-0 text-white text-center text-normal">{item.label}</p>
-                <p className="text-3xl mt-3 text-center text-white">{item.value.toLocaleString()}</p>
+                <p className="text-3xl mt-3 text-center text-white">{item.value}</p>
               </div>
             </div>
             
