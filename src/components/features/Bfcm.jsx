@@ -70,7 +70,7 @@ const CategoryStats = () => {
 const RealTimeStatsSection = () => {
   const [data, setData] = useState({
     totalSales: 0,
-    totalOrdersPerMinute: 0,
+    totalOrders: 0,
     totalNoOfGiftCardsSold: 0,
     giftCardsSold: 0,
     giftCardsRedeem: 0,
@@ -152,8 +152,8 @@ const RealTimeStatsSection = () => {
             <div className="px-6 py-3">
               <p className="text-xl font-semibold text-white text-left">Total Sales</p>
               <p className="text-3xl mt-1 text-white text-left">${data.totalSales}</p>
-              <p className="text-xl mt-4 font-normal text-white text-left">Total orders</p>
-              <p className=" text-3xl mt-1 text-white text-left">{data.totalOrdersPerMinute}</p> 
+              <p className="text-xl mt-4 font-normal text-white text-left">Total Number of Orders</p>
+              <p className=" text-3xl mt-1 text-white text-left">{data.totalOrders}</p> 
             </div>
           </div>
           <div class="col-start-3"></div>
