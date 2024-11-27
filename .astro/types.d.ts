@@ -325,6 +325,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"Black-friday-promotion-ideas.md": {
+	id: "Black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md": {
 	id: "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md";
   slug: "ways-to-incorporate-gift-cards-into-your-customer-retention-strategy";
@@ -405,13 +412,6 @@ declare module 'astro:content' {
 "best-mothers-day-gift-cards-2021.md": {
 	id: "best-mothers-day-gift-cards-2021.md";
   slug: "best-mothers-day-gift-cards-2021";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"black-friday-promotion-ideas.md": {
-	id: "black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
