@@ -126,7 +126,8 @@ const RealTimeStatsSection = () => {
         </div>
         {loading ? (
           <DotLottieReact
-            src="https://lottie.host/ec8c6e24-382c-48f7-a62c-257d6ba54e51/iFl3Vqgsc2.lottie"
+            className="h-[200px]"
+            src="https://lottie.host/6ed95052-d3f3-46b4-9659-ffc7e08449cd/wwZcBFAmDs.lottie"
             loop
             autoplay
           />
