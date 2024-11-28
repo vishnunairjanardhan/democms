@@ -79,7 +79,7 @@ Yes, you can share product updates and recommendations. Look at the bigger pictu
 <h2>Sweeten the pot</h2>
 
 When a customer buys something from you, sweeten the deal by offering something more. It doesn’t have to be a monetary benefit; it could also be an experience. For example, Walmart’s 
-<a href="https://www.99minds.io/blog/how-to-market-your-loyalty-program/" target="_blank">loyalty program</a> added access to the streaming platform Paramount+ for its 16 million members. The objective is to provide enough value to your customers to make shopping with your brand a worthy affair.
+loyalty program added access to the streaming platform Paramount+ for its 16 million members. The objective is to provide enough value to your customers to make shopping with your brand a worthy affair.
 
 If you are unsure about the kind of rewards your customers want, you can solve this problem by asking them directly. All you need to do is prepare a set of questions to understand the type of rewards that will motivate them. Send them in the form of a survey, collect the responses, and analyze them using an online survey tool. The survey tool’s dashboard will generate reports, using which you will be able to zero in on the best rewards possible.
 
