@@ -416,6 +416,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"bfcm-sale.md": {
+	id: "bfcm-sale.md";
+  slug: "bfcm-sale";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "build-customer-loyalty.md": {
 	id: "build-customer-loyalty.md";
   slug: "build-customer-loyalty";

@@ -19,11 +19,11 @@ keywords:
   ]
 ---
 
-<img src="/assets/blog/8_thanksgiving_marketing_ideas_to_boost_your_sales_this_holiday_season.webp">
+<img rel="preload" role="img" src="/assets/blog/8_thanksgiving_marketing_ideas_to_boost_your_sales_this_holiday_season.webp" alt="Thanksgiving Marketing Ideas">
 
 Thanksgiving isn’t just about family gatherings and delicious meals; it’s also a golden opportunity for businesses to connect with customers and boost sales. With holiday shopping kicking into high gear around this time, effective Thanksgiving marketing ideas can help you stand out and capture the attention of eager shoppers. Did you know that in 2022, retail sales during the holiday season topped $936 billion in the U.S. alone? A well-planned Thanksgiving marketing campaign can position your brand to grab a share of this spending frenzy.
 
-This is also the season of <a href="https://www.99minds.io/blog/black-friday-promotion-ideas">Black Friday and Cyber Monday</a>, which means customers are actively looking for deals and savings. By creating unique and memorable Thanksgiving promotions, your business can attract new customers and keep existing ones coming back. Whether it’s through seasonal discounts, themed email campaigns, or creative giveaways, there are plenty of marketing ideas for Thanksgiving to make your brand the talk of the season.
+This is also the season of <a href="https://www.99minds.io/blog/black-friday-promotion-ideas" role="link" target="_blanck">Black Friday and Cyber Monday</a>, which means customers are actively looking for deals and savings. By creating unique and memorable Thanksgiving promotions, your business can attract new customers and keep existing ones coming back. Whether it’s through seasonal discounts, themed email campaigns, or creative giveaways, there are plenty of marketing ideas for Thanksgiving to make your brand the talk of the season.
 
 Ready to dive in? Let’s explore some actionable strategies to elevate your Thanksgiving marketing efforts and make this holiday one to remember!
 
@@ -31,13 +31,13 @@ Ready to dive in? Let’s explore some actionable strategies to elevate your Tha
 <p>Table of Contents:</p>
 <ul>
   <li>
-  <a role="link" href="#Top-8-Thanksgiving-Marketing-Ideas-for-2024" rel="noreferrer">Top 8 Thanksgiving Marketing Ideas for 2024</a>
+  <a href="#Top-8-Thanksgiving-Marketing-Ideas-for-2024" rel="noreferrer">Top 8 Thanksgiving Marketing Ideas for 2024</a>
   </li>
   <li>
-  <a role="link" href="#Final-Thoughts-on-Thanksgiving-Marketing-Ideas" rel="noreferrer">Final Thoughts on Thanksgiving Marketing Ideas</a>
+  <a href="#Final-Thoughts-on-Thanksgiving-Marketing-Ideas" rel="noreferrer">Final Thoughts on Thanksgiving Marketing Ideas</a>
   </li>
   <li>
-  <a role="link" href="#FAQ-on-the-Thanksgiving-Marketing-Ideas" rel="noreferrer">FAQ on the Thanksgiving Marketing Ideas</a>
+  <a href="#FAQ-on-the-Thanksgiving-Marketing-Ideas" rel="noreferrer">FAQ on the Thanksgiving Marketing Ideas</a>
   </li>
   </ul>
  </div>
@@ -54,7 +54,7 @@ For businesses with a broader customer base, tools like Mailchimp can simplify t
 </li>
 
 <li><h3>Crafting the Perfect Thanksgiving Marketing Plan</h3>
-Keep it straightforward — a well-executed Thanksgiving promotion can be your most effective marketing strategy to boost customer engagement and sales during the holiday season. This might include <a href="https://www.99minds.io/giftcard-code-generator">promo codes</a>, special discounts, or sales with Thanksgiving-inspired themes. Enhance your campaign with seasonal messages, festive visual branding, engaging social media posts, and maybe even a few playful cartoon turkeys. 
+Keep it straightforward — a well-executed Thanksgiving promotion can be your most effective marketing strategy to boost customer engagement and sales during the holiday season. This might include <a href="https://www.99minds.io/giftcard-code-generator" role="link" target="_blanck">promo codes</a>, special discounts, or sales with Thanksgiving-inspired themes. Enhance your campaign with seasonal messages, festive visual branding, engaging social media posts, and maybe even a few playful cartoon turkeys. 
 </li>
 
 <li><h3>Gear Up Your Audience for Black Friday and Cyber Monday Success!</h3>
@@ -124,7 +124,7 @@ You could also collaborate with influencers or industry bloggers to highlight yo
 </li>
 
 <li><h3>Offer Gift Cards for Thanksgiving Shoppers</h3>
-<a href="https://www.99minds.io/blog/gift-card-sales-on-social-media">Gift cards</a> are a versatile and impactful addition to your Thanksgiving marketing ideas. They serve as a perfect solution for shoppers who may be unsure about what to purchase or are looking for a last-minute gift. Offering gift cards during this season allows you to attract both new customers and loyal shoppers while creating opportunities for repeat business.
+<a href="https://www.99minds.io/blog/gift-card-sales-on-social-media" role="link" target="_blanck">Gift cards</a> are a versatile and impactful addition to your Thanksgiving marketing ideas. They serve as a perfect solution for shoppers who may be unsure about what to purchase or are looking for a last-minute gift. Offering gift cards during this season allows you to attract both new customers and loyal shoppers while creating opportunities for repeat business.
 
 Here’s how to make the most of gift cards as part of your Thanksgiving promotions:
 <ul>
@@ -146,7 +146,7 @@ Pair gift cards with discounted products or exclusive perks. For instance, offer
 
  Thanksgiving offers a golden opportunity for businesses to connect with customers, drive sales, and build lasting relationships. By leveraging creative Thanksgiving marketing ideas—from themed promotions to giveaways and partnerships—you can create memorable campaigns that resonate with your audience. 
 
-By integrating <a href="http://www.99minds.io">99minds</a> into your marketing efforts, you can create tailored campaigns that resonate with your audience, fostering stronger customer relationships and driving increased sales during the holiday season.
+By integrating <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a> into your marketing efforts, you can create tailored campaigns that resonate with your audience, fostering stronger customer relationships and driving increased sales during the holiday season.
 
 <h2 id="FAQ-on-the-Thanksgiving-Marketing-Ideas">FAQ on Thanksgiving Marketing Ideas</h2>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why is Thanksgiving a good time for marketing campaigns?</h3>
