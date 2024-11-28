@@ -24,7 +24,7 @@ Let’s look at some of the innovations in eCommerce that will bolster the indus
 
 <a href="https://blackhawknetwork.com/sites/default/files/2021-01/BHN-ebook-Gift-Card-Facts.pdf" target="_blank">Google</a>, <a href="https://blackhawknetwork.com/sites/default/files/2021-01/BHN-ebook-Gift-Card-Facts.pdf" target="_blank">Firefox</a>, and other internet giants promise to ban third-party cookies, thanks to legislations such as GDPR and CCPA. For the uninitiated, cookieless tracking means the business will not know what users do on their site, where they came from, or what their previous behavior on the site was. eCommerce companies will get little insights on attribution, demographics, or purchase funnels. Unfortunately, we are looking at a cookieless future.
 
-In the absence of data from 3rd party cookies, eCommerce stores will depend on first-party data. Such data can be collected from customers with exclusive incentives. For example, promotional offers, early access to new products, in-store and online discounts, and <a href="https://www.99minds.io/blog/how-to-market-your-loyalty-program/" target="_blank">loyalty program</a>, to name a few.
+In the absence of data from 3rd party cookies, eCommerce stores will depend on first-party data. Such data can be collected from customers with exclusive incentives. For example, promotional offers, early access to new products, in-store and online discounts, and loyalty program, to name a few.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
 <img src="/assets/blog/CTA-IMAGES-easter.jpg"></a>

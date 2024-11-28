@@ -58,7 +58,7 @@ Customers would love to extend their patronage to businesses that offer them per
 ### Take baby steps
 
 Going all in with a grand plan is best done by enterprises that have millions for marketing campaigns. The average company would do itself a disservice by doing that. 
-<a href="https://www.99minds.io/blog/how-to-market-your-loyalty-program/" target="_blank">A loyalty program is an integral part of your marketing campaign</a>, therefore it is best to scale slowly. Withdrawing your loyalty program because of operational or functional issues will look bad and result in distrust.
+A loyalty program is an integral part of your marketing campaign, therefore it is best to scale slowly. Withdrawing your loyalty program because of operational or functional issues will look bad and result in distrust.
 
 Put together a close group of customers or choose a team internally to participate in the program. The pilot will give you how the loyalty program functions and determine whether the value propositon is attractive for those who are a part of it. Take constant feedback during the process and streamline your loyalty program accordingly. Use the feedback to refine the program and close the loop.
 

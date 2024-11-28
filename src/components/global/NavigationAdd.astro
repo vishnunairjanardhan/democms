@@ -1,34 +1,45 @@
-
-
 <section
   role="navigation"
   aria-label="Main Navigation"
-  class="fixed z-50 w-full border-b bg-vulcan-900/20 border-white/5 backdrop-blur-2xl lg:bg-vulcan-900/0">
+  class="fixed z-50 w-full border-b bg-vulcan-900/20 border-white/5 backdrop-blur-2xl lg:bg-vulcan-900/0"
+  x-data="{ showAlert: true, prevScroll: 0 }"
+  x-init="
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      showAlert = currentScroll <= prevScroll;
+      prevScroll = currentScroll;
+    });
+  "
+>
   <div class="relative w-full mx-auto max-w-7xl">
-  <!-- Announcement Start -->
-     <div class="items-center w-full mx-auto relative relative flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16" x-show="showAlert" x-data="{ showAlert: true }">
-    <div class="w-full flex flex-col lg:px-32 rounded-b-xl max-w-8xl 2xl:max-w-screen-2xl mx-auto px-2 lg:bg-white bg-white md:flex-row md:items-center md:justify-between md:py-1 py-3" x-data="{ open: false }">
-      <div class="items-center mx-auto flex justify-between flex-row lg:justify-start bg-[#AA8FFF] rounded-xl p-2 text-center">
-        <a class="text-lg text-black focus:outline-none focus:ring lg:text-2xl tracking-tight" href="/bfcm-coming-soon">
-          <span class="focus:ring-0 font-normal lg:text-lg">
-            <span class="items-center justify-center  inline-flex gap-2 group">
-              <p class="text-black font-semibold"> World's First <a class="text-lg focus:outline-none focus:ring text-white lg:text-2xl tracking-tight" href="/bfcm-coming-soon">BFCM </a><a href="/bfcm-coming-soon"> Omnichannel Globe </a></p></span>
-          </span>
-        </a>
-        <!--<button aria-label="open" @click="open = !open" class="items-center inline-flex focus:outline-none text-black focus:text-accent-400 hover:text-accent-400 justify-center md:hidden p-2">
-          <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor">
-            <path d="M4 6h16M4 12h16M4 18h16" :class="{'hidden': open, 'inline-flex': !open }" class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-            <path d="M6 18L18 6M6 6l12 12" :class="{'hidden': !open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-          </svg>
-        </button>-->
-      </div>
-
-    
+    <!-- Announcement Start -->
     <div
-      class="w-full mx-auto 2xl:max-w-7xl lg:max-w-3xl flex flex-col justify-center  py-2 relative p-2">
-      
-      <div class="mt-0 border-neutral-200  pt-0 max-w-2xl mx-auto w-full">
-        <!-- Starts compoent -->
+      x-show="showAlert"
+      class="items-center w-full mx-auto relative flex flex-col px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16"
+      style="transition: opacity 0.3s ease-in-out;"
+    >
+      <div class="w-full flex flex-col lg:px-32 rounded-b-xl max-w-8xl 2xl:max-w-screen-2xl mx-auto px-2 lg:bg-white bg-white md:flex-row md:items-center md:justify-between md:py-1 py-3">
+        <div class="items-center mx-auto flex justify-between flex-row lg:justify-start bg-[#AA8FFF] rounded-xl p-2 m-2 text-center">
+          <a
+            class="text-lg text-black focus:outline-none focus:ring lg:text-2xl tracking-tight"
+            href="/bfcm-coming-soon"
+          >
+            <span class="focus:ring-0 font-normal lg:text-lg">
+              <span class="items-center justify-center inline-flex gap-2 group">
+                <p class="text-black font-semibold">
+                  World's First
+                  <a
+                    class="text-lg focus:outline-none focus:ring text-white lg:text-2xl tracking-tight"
+                    href="/bfcm-coming-soon"
+                  >
+                    BFCM
+                  </a>
+                  <a href="/bfcm-coming-soon"> Omnichannel Globe </a>
+                </p>
+              </span>
+            </span>
+          </a>
+        </div>
         <div
           class="w-full justify-center border bg-vulcan-900 p-2 lg:px-12 rounded-xl"
           x-data="{
@@ -87,30 +98,31 @@
             </div>
           </template>-->
         </div>
-        <!-- Ends compoent -->
-        
+        <div class="justify-end">
+          <button
+            @click="showAlert = false"
+            class="bg-black border-transparent focus:ring-white hover:bg-black/10 hover:text-black rounded-full p-0.5 ring-1 ring-transparent text-white mt-4 md:mt-0"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-x w-4 h-4"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M18 6l-12 12"></path>
+              <path d="M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
- 
+    <!-- Announcement End -->
 
-
-
-      <!--<nav :class="{'flex': open, 'hidden': !open}" class="items-center flex-col flex-grow hidden justify-center lg:px-0 md:flex text-sm md:flex-row md:pb-0 px-5 lg:text-sm lg:gap-8 xl:text-sm 2xl:text-lg text-black">
-        <a class="focus:outline-none duration-200 hover:text-accent-400  mb-4 md:my-0 px-2 py-2 transform transition" href="/bfcm" title="resources">Black Friday and Cyber Monday</a>
-        <a class="focus:outline-none duration-200 hover:text-accent-400  mb-4 md:my-0 px-2 py-2 transform transition" href="/documentation/quick-start" title="resources">Documentation </a>
-        <a class="focus:outline-none duration-200 hover:text-accent-400  mb-4 md:my-0 px-2 py-2 transform transition" href="/legal/faq" title="faq">Faq </a>-->
-        
-      </nav>
-      <div class="justify-end"><button @click="showAlert = false" class="bg-black border-transparent focus:ring-white hover:bg-black/10 hover:text-black rounded-full p-0.5 ring-1 ring-transparent text-white mt-4 md:mt-0">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x w-4 h-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M18 6l-12 12"></path>
-            <path d="M6 6l12 12"></path>
-          </svg>
-        </button></div>
-    </div>
-  </div>
-  <!-- Announcement End -->
     <div x-data="{ open: false }" class="relative flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16">
       <div class="flex flex-row items-center justify-between text-white lg:justify-start">
         <a role="link" href="/" class="lg:pr-8">
