@@ -77,7 +77,7 @@ const RealTimeStatsSection = () => {
     const reconnectDelay = 1000;
 
     const connectWebSocket = () => {
-      ws = new WebSocket("https://websocket-server-wcfw.onrender.com");
+      ws = new WebSocket("https://server-websocket-24we.onrender.com/");
 
       ws.onopen = () => {
         console.log("WebSocket connection established");
