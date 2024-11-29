@@ -1,7 +1,15 @@
 ---
 import CasestudyLayout from "../layouts/CasestudyLayout.astro";
-import RealTimeStatsSection from "../components/features/Bfcm.jsx";
+import Bfcm from "../components/features/Bfcm.astro";
 import { AstroSeo } from "@astrolib/seo";
+
+export async function get({ redirect }) {
+  return {
+    redirect: '/bfcm',
+    status: 301 // Use 302 for temporary redirect or 301 for permanent redirect
+  };
+}
+
 ---
 
 <!---
@@ -11,9 +19,9 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <AstroSeo
   title="Black Friday Cyber Monday Omnichannel Slaes"
   description="Discover Real-time Sales of Our Customers on Black Friday & Cyber Monday"
-  canonical="https://www.99minds.io/bfcm"
+  canonical="https://www.99minds.io/bfcm-coming-soon"
   openGraph={{
-    url: "https://www.99minds.io/bfcm",
+    url: "https://www.99minds.io/bfcm-coming-soon",
     title: "Black Friday Cyber Monday Omnichannel Slaes",
     description: "Discover Real-time Sales of Our Customers on Black Friday & Cyber Monday",
     images: [
@@ -26,7 +34,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     site_name: "99minds",
   }}
   twitter={{
-    url: "https://www.99minds.io/bfcm",
+    url: "https://www.99minds.io/bfcm-coming-soon",
     images: [
       {
         url: "https://www.99minds.io/assets/BFCM_sales_tracker.gif",
@@ -38,7 +46,12 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-
+ <head>
+    <meta http-equiv="refresh" content="0; url=/bfcm" />
+    <script>
+      window.location.href = '/bfcm';
+    </script>
+  </head>
 <CasestudyLayout>
-<RealTimeStatsSection client:load />
+<Bfcm />
 </CasestudyLayout>

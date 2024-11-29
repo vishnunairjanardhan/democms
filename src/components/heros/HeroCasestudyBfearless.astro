@@ -12,7 +12,7 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
     <!-- <img src="/assets/case-study/tassels1.png" alt="Background Image" class="h-[40rem] object-cover rounded-t-2xl">  Use w-full instead of w-screen -->
     <div class="flex items-center justify-center">
         <iframe class="rounded-md" 
-                src="https://www.youtube.com/embed/nkrTLqf3_VA?enablejsapi=1" 
+                src="https://www.youtube.com/embed/nkrTLqf3_VA?enablejsapi=1&autoplay=1?rel=0" 
                 title="YouTube video player" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -39,7 +39,6 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
         }
       
         function onPlayerReady(event) {
-          player.mute(); // Mute initially to allow autoplay
       
           const videoElement = document.getElementById('youtube-video');
       
