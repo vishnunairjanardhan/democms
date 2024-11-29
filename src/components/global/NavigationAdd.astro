@@ -106,7 +106,6 @@
               d="M6 18L18 6M6 6l12 12"></path>
           </svg>
         </button>
-      </div>
       <nav id="primary-navigation" :class="{'flex': open, 'hidden': !open}" class="flex-col items-start flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
         <div @click.away="open = false" class="relative" x-data="{ open: false }">
           <button @click="open = !open" class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
