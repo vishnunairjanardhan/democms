@@ -2,9 +2,9 @@
 pubDate: 2024-05-29
 author: Mrudul
 authorImg: "Mrudul.png"
-title: Gift Card Promotions:Ways to Increase Customer Engagement 
+title: "Gift Card Promotions: Benefits & Ideas to Promote Gift Cards" 
 description: "Gift card promotions are marketing strategies that provide customers with special deals or incentives when they purchase gift cards."
-heading: Gift Card Promotions- Benefits & Ideas to Promote Gift Cards
+heading: "Gift Card Promotions: Benefits & Ideas to Promote Gift Cards"
 image:
   url: "/assets/blog/Gift-Card-Promotion.webp"
   alt: "Gift card promotions- Benefits and ideas to promote gift cards"
@@ -94,7 +94,7 @@ By using gift card sales to boost your cash reserves, you can better manage fluc
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral1.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
                 </span></div>
               </span>
               <!-- Modal -->
