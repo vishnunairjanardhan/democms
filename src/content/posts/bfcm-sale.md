@@ -138,7 +138,7 @@ When customers see that their interactions are acknowledged and rewarded, they�
 
 With the 99minds Omnichannel Globe, you can take control of your BFCM sale like never before. Real-time insights into sales, loyalty programs, gift card performance, and customer behavior across regions and channels allow you to make immediate adjustments and maximize results. Don’t let this BFCM pass by without fully optimizing your strategy—start monitoring and acting on your success today with the power of live data.
 
-Ready to make this BFCM your most successful yet? Click the button below to explore the <a href="https://www.99minds.io/bfcm" role="list" target="_blanck">99minds Omnichannel Globe</a> and unlock the power of real-time insights.
+Ready to make this BFCM your most successful yet? Click the button below to explore the <a href="https://www.99minds.io/bfcm" role="link" target="_blanck">99minds Omnichannel Globe</a> and unlock the power of real-time insights.
 
 
 
