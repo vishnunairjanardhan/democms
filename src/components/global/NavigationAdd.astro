@@ -1,5 +1,3 @@
-
-
 <section
   role="navigation"
   aria-label="Main Navigation"
@@ -8,63 +6,27 @@
   x-init="
     window.addEventListener('scroll', () => {
       const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-      showAlert = currentScroll <= prevScroll;
+
+      // Show alert when at the top
+      showAlert = currentScroll === 0;
+
+      // Update prevScroll to current position
       prevScroll = currentScroll;
     });
   "
 >
   <div class="relative w-full mx-auto max-w-7xl">
     <!-- Announcement Start -->
-    <div
+    <a
+      href="/bfcm-coming-soon"
       x-show="showAlert"
-      class="items-center w-full mx-auto relative flex flex-col px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16"
+      class="justify-center w-full mx-auto relative flex px-8 py-1 mx-auto items-center text-center md:px-12 lg:px-16 bg-[#AA8FFF] rounded-b-xl"
       style="transition: opacity 0.3s ease-in-out;"
     >
-      <div class="w-full flex flex-col lg:px-32 rounded-b-xl max-w-8xl 2xl:max-w-screen-2xl mx-auto px-2 lg:bg-white bg-white md:flex-row md:items-center md:justify-between md:py-1 py-3">
-        <div class="items-center mx-auto flex justify-between flex-row lg:justify-start bg-[#AA8FFF] rounded-xl p-2 text-center">
-          <a
-            class="text-lg text-black focus:outline-none focus:ring lg:text-2xl tracking-tight"
-            href="/bfcm-coming-soon"
-          >
-            <span class="focus:ring-0 font-normal lg:text-lg">
-              <span class="items-center justify-center inline-flex gap-2 group">
-                <p class="text-black font-semibold">
-                  World's First
-                  <a
-                    class="text-lg focus:outline-none focus:ring text-white lg:text-2xl tracking-tight"
-                    href="/bfcm-coming-soon"
-                  >
-                    BFCM
-                  </a>
-                  <a href="/bfcm-coming-soon"> Omnichannel Globe </a>
-                </p>
-              </span>
-            </span>
-          </a>
-        </div>
-        <div class="justify-end">
-          <button
-            @click="showAlert = false"
-            class="bg-black border-transparent focus:ring-white hover:bg-black/10 hover:text-black rounded-full p-0.5 ring-1 ring-transparent text-white mt-4 md:mt-0"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-x w-4 h-4"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M18 6l-12 12"></path>
-              <path d="M6 6l12 12"></path>
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
+    <span class="text-lg font-semibold text-black ">
+    World's First <span class="text-white"> BFCM </span> Omnichannel Globe
+    </span>
+    </a>
     <!-- Announcement End -->
 
     <div x-data="{ open: false }" class="relative relative w-full mx-auto max-w-7xlflex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16">
