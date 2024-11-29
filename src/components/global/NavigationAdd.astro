@@ -40,7 +40,7 @@
             </span>
           </a>
         </div>
-        <div
+        <!--<div
           class="w-full justify-center border bg-vulcan-900 p-2 lg:px-12 rounded-xl"
           x-data="{
               endDate: new Date('2024-11-29T23:59:59').getTime(),
@@ -97,33 +97,12 @@
               <div class="text-xl font-normal text-gray-500">Countdown has ended</div>
             </div>
           </template>-->
-        </div>
-        <div class="justify-end">
-          <button
-            @click="showAlert = false"
-            class="bg-black border-transparent focus:ring-white hover:bg-black/10 hover:text-black rounded-full p-0.5 ring-1 ring-transparent text-white mt-4 md:mt-0"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-x w-4 h-4"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M18 6l-12 12"></path>
-              <path d="M6 6l12 12"></path>
-            </svg>
-          </button>
-        </div>
+        </div>-->
       </div>
     </div>
     <!-- Announcement End -->
 
-    <div x-data="{ open: false }" class="relative flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16">
+    <div x-data="{ open: false }" class="relative w-full mx-auto max-w-7xl flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16">
       <div class="flex flex-row items-center justify-between text-white lg:justify-start">
         <a role="link" href="/" class="lg:pr-8">
           <div class="inline-flex items-center gap-3">
