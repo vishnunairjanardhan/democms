@@ -11,6 +11,16 @@
     });
   "
 >
+  class="fixed z-50 w-full border-b bg-vulcan-900/20 border-white/5 backdrop-blur-2xl lg:bg-vulcan-900/0"
+  x-data="{ showAlert: true, prevScroll: 0 }"
+  x-init="
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      showAlert = currentScroll <= prevScroll;
+      prevScroll = currentScroll;
+    });
+  "
+>
   <div class="relative w-full mx-auto max-w-7xl">
     <!-- Announcement Start -->
     <div
