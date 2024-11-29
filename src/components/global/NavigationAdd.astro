@@ -17,24 +17,32 @@
 >
   <div class="relative w-full mx-auto max-w-7xl">
     <!-- Announcement Start -->
-    <a
-      href="/bfcm-coming-soon"
-      x-show="showAlert"
-      class="justify-center w-full mx-auto relative flex px-8 py-2 mx-auto items-center text-center md:px-12 lg:px-16 bg-[#AA8FFF] rounded-b-xl"
-      style="transition: opacity 0.3s ease-in-out;"
-    >
+<a
+  href="/bfcm-coming-soon"
+  x-show="showAlert"
+  class="flex flex-col items-center justify-center w-full px-4 py-4 bg-[#AA8FFF] rounded-b-xl md:flex-row md:gap-6 md:px-8 lg:px-12"
+  style="transition: opacity 0.3s ease-in-out;"
+>
+  <div class="flex items-center gap-2 md:gap-3">
     <img
-              class="mx-2" width="25" height="auto"
-              alt="99minds logo"
-              src="/logos/globe.svg"
-            />
-    <span class="text-lg font-semibold text-black ">
-    World's First <span class="text-white"> BFCM </span> Omnichannel Globe
+      class="w-6 h-6"
+      alt="99minds logo"
+      src="/logos/globe.svg"
+    />
+    <span class="text-sm font-semibold text-black md:text-lg">
+      World's First <span class="text-white">BFCM</span> Omnichannel Globe
     </span>
-    <button type="button" role="button" aria-label="Visit BFCM Globe" class="flex items-center justify-center h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700 mx-8">
-      <span class="relative text-white"> Explore Live Globe </span>
-    </button>
-    </a>
+  </div>
+  <button
+    type="button"
+    aria-label="Visit BFCM Globe"
+    class="flex items-center justify-center h-10 px-4 py-2 mt-3 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700 md:mt-0"
+  >
+    <span class="relative text-white">Explore Live Globe</span>
+  </button>
+</a>
+
+
     <!-- Announcement End -->
 
     <div x-data="{ open: false }" class="relative relative w-full mx-auto max-w-7xlflex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16">
