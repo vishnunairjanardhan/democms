@@ -423,12 +423,26 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"black-friday-cyber-monday-record-success .md": {
+	id: "black-friday-cyber-monday-record-success .md";
+  slug: "black-friday-cyber-monday-record-success-";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "build-customer-loyalty.md": {
 	id: "build-customer-loyalty.md";
   slug: "build-customer-loyalty";
   body: string;
   collection: "posts";
   data: any
+} & { render(): Render[".md"] };
+"build-customer-loyalty.md": {
+	id: "build-customer-loyalty.md";
+  slug: "build-customer-loyalty";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "build-customer-loyalty.md": {
 	id: "build-customer-loyalty.md";
@@ -1098,6 +1112,13 @@ declare module 'astro:content' {
 "reduce-return-exchange-costs-using-gift-card-loyalty-points.md": {
 	id: "reduce-return-exchange-costs-using-gift-card-loyalty-points.md";
   slug: "reduce-return-exchange-costs-using-gift-card-loyalty-points";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"referral-marketing-vs-affiliate-marketing.md": {
+	id: "referral-marketing-vs-affiliate-marketing.md";
+  slug: "referral-marketing-vs-affiliate-marketing";
   body: string;
   collection: "posts";
   data: any
