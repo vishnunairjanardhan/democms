@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import CompareYotpo from "../components/features/CompareYotpo.astro";
+import CompareSmile from "../components/features/CompareSmile.astro";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
 import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
 
@@ -11,12 +11,12 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="The Yotpo Alternative - 99minds"
+  title="The Smile.io Alternative - 99minds"
   description="Explore how strategic collaborations with 99minds drive success through impactful case studies and real business results."
-  canonical="https://www.99minds.io/yotpo"
+  canonical="https://www.99minds.io/smile"
   openGraph={{
-    url: "https://www.99minds.io/yotpo",
-    title: "The #1 Yotpo alternative - 99minds",
+    url: "https://www.99minds.io/smile",
+    title: "The #1 Smile.io alternative - 99minds",
     description: "Explore how strategic collaborations with 99minds drive success through impactful case studies and real business results.",
     images: [
       {
@@ -28,7 +28,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     site_name: "99minds",
   }}
   twitter={{
-    url: "https://www.99minds.io/yotpo",
+    url: "https://www.99minds.io/smile",
     images: [
       {
         url: "https://www.99minds.io/assets/99minds-logo1.svg",
@@ -41,7 +41,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
 <BaseLayout>
-  <CompareYotpo />
+  <CompareSmile />
   <TestimonialNew/>
   <CtaThreeU/>
 </BaseLayout>
