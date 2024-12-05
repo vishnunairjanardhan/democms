@@ -1088,6 +1088,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"referral-code.md": {
+	id: "referral-code.md";
+  slug: "referral-code";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "referral-program-for-small-businesses.md": {
 	id: "referral-program-for-small-businesses.md";
   slug: "referral-program-for-small-businesses";
