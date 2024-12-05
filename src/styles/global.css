@@ -73,3 +73,14 @@ p{
   color:rgb(185,186,189);
   font-weight: 400;
 }
+
+/* Change cursor for the entire website */
+body {
+  cursor: url('/cursor/Christmas--cursor--SweezyCursors.cur'), auto;
+}
+
+/* Specific cursor for links and buttons */
+a, button {
+  cursor: url('/cursor/Christmas--pointer--SweezyCursors.cur'), auto;
+}
+
