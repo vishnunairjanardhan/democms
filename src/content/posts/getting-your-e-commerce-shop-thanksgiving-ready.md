@@ -58,7 +58,7 @@ Ensure that the ‘’Make your own Gift” program is as seamless and easy for 
 
 ### Set up a referral program
 
-Make the holiday season attractive for your existing customers by rewarding them for recommending your business to others. A good 30-45 days before the holidays, start creating campaigns with information about the <a href="https://www.99minds.io/blog/what-is-referral-program" target="_blank">referral program</a> and its benefits and incentives. Once you launch the referral program, increase your campaign frequency for more signups to boost your sales.
+Make the holiday season attractive for your existing customers by rewarding them for recommending your business to others. A good 30-45 days before the holidays, start creating campaigns with information about the <a href="https://www.99minds.io/blog/referral-program" target="_blank">referral program</a> and its benefits and incentives. Once you launch the referral program, increase your campaign frequency for more signups to boost your sales.
 
 ### Optimize your online store
 

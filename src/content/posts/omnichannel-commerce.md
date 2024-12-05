@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/omnichannel-commerce"
 keywords: ["Omnichannel Commerce","omnichannel in ecommerce","omnichannel e commerce","omni channel ecommerce","what is omni channel commerce","Benefits Of Omnichannel Commerce","omnichannel commerce solutions"]
 
 ---
-<img rel="preload" src="/assets/blog/omnichannel_commerce.webp" alt="Guide to Omnichannel Commerce: Real-world Examples">
+<img rel="preload" src="/assets/blog/omnichannel_commerce.webp" alt="Omnichannel Commerce and its benefits and strategies">
 
 In today's digital world, eCommerce businesses are no longer limited to a single channel. Customers want to be able to shop across multiple channels, which include physical stores, websites, mobile apps, and social media platforms. This is where omnichannel Commerce comes in. 
 

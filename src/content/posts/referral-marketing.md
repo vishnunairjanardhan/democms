@@ -2,18 +2,18 @@
 pubDate: 2024-06-24
 author: Piyush
 authorImg: "Piyush.webp"
-title:  "Referral Marketing: Benefits, Strategies & Types with Examples"
+title:  "Referral Marketing: Benefits, Strategies & Types"
 description: "Referral marketing is all about increasing your sales with the help of your existing customers. Learn how to create a winning referral marketing program with this guide."
-heading: What is Referral marketing? Best Practices & Strategies
+heading: "Referral Marketing: Benefits, Strategies & Types"
 image: 
-  url: "/assets/blog/What is referral marketing.webp"
+  url: "/assets/blog/referral_marketing.webp"
   alt: "What is Referral marketing? Best Practices & Strategies"
 tags: ["Referral Program","Customer Acquisation"]
 url: "https://www.99minds.io/blog/referral-marketing"
 keywords: ["referral marketing","referral marketing strategy","what is referral marketing","referral advertising","referral based marketing","referral marketing campaigns","referrals marketing"]
 
 --- 
-<img rel="preload" role="img" src="/assets/blog/What is referral marketing.webp" alt="What is Referral marketing? Best Practices & Strategies">
+<img rel="preload" role="img" src="/assets/blog/referral_marketing.webp" alt="What is Referral marketing? Best Practices & Strategies">
 
 Selecting an effective marketing approach for your company may be one of the most difficult aspects of promoting your products or services. With so many marketing approaches available, it can be difficult to identify which one will be most beneficial for your particular business needs.  
 
@@ -123,7 +123,7 @@ Referral marketing increases trust and credibility because people trust recommen
 <li>
 <h3>Easy Tracking and Analytics</h3>
 
-With advanced <a href="https://www.99minds.io/referral" role="link" target="_blanck">referral software</a> like 99minds, you can effortlessly track various aspects of your <a href="https://www.99minds.io/blog/what-is-referral-program" role="link" target="_blanck">referral program</a>. This includes the number of orders placed, customers referred, and revenue generated from referred customers, allowing for detailed performance analysis and optimization.
+With advanced <a href="https://www.99minds.io/referral" role="link" target="_blanck">referral software</a> like 99minds, you can effortlessly track various aspects of your <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">referral program</a>. This includes the number of orders placed, customers referred, and revenue generated from referred customers, allowing for detailed performance analysis and optimization.
 </li>
 </ol>
 
@@ -193,7 +193,7 @@ Make it easy for customers to share about your referral program and its benefits
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral1.webp" alt="Get started CTA button"></span>
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
                 </span></div>
               </span>
               <!-- Modal -->
@@ -374,7 +374,7 @@ Use 99minds' tools to design your referral program. This includes setting up ref
 <li>
 <h3>Promote the Program</h3>
 
-Leverage 99minds' marketing tools to promote your <a href="https://www.99minds.io/blog/what-is-referral-program" role="link" target="_blanck">referral program</a>. Utilize email campaigns, social media, website banners, and in-app notifications to spread the word. Craft compelling messages that highlight the benefits of the referral program and encourage customers to participate. Consider creating a dedicated landing page on your website that explains the referral program in detail and provides easy access to referral links or codes.
+Leverage 99minds' marketing tools to promote your <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">referral program</a>. Utilize email campaigns, social media, website banners, and in-app notifications to spread the word. Craft compelling messages that highlight the benefits of the referral program and encourage customers to participate. Consider creating a dedicated landing page on your website that explains the referral program in detail and provides easy access to referral links or codes.
 </li>
 
 <li>
@@ -389,7 +389,7 @@ Use 99minds' analytics tools to track referrals, analyze performance, and make d
 Continuously engage with participants, provide updates, and reward successful referrals to maintain program momentum. Keep participants informed about their referral progress and remind them of the rewards they can earn. Send personalized thank-you messages and recognition to referrers who bring in new customers. Regularly update the program with new incentives or challenges to keep it fresh and exciting.
 </li>
 </ol>
-By following these steps, you can create a referral marketing program with 99minds that drives customer engagement, boosts sales, and enhances brand loyalty. The platform's user-friendly interface and robust features make it easy to set up and manage a <a href="https://www.99minds.io/blog/what-is-referral-program" role="link" target="_blanck">successful referral program</a>.
+By following these steps, you can create a referral marketing program with 99minds that drives customer engagement, boosts sales, and enhances brand loyalty. The platform's user-friendly interface and robust features make it easy to set up and manage a <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">successful referral program</a>.
 
 <h2 id="Wrapping-Up">Wrapping Up</h2>
 
