@@ -8,7 +8,7 @@ heading: "Word of Mouth Marketing: Meaning, Benefits, Examples, and Statistics"
 image:
   url: "/assets/blog/word-of-mouth-marketing-meaning-benefits-examples-and-statistics.webp"
   alt: "word-of-mouth-marketing-meaning-benefits-examples-and-statistics"
-tags: ["Word of Marketing Marketing"]
+tags: ["Referral Program"]
 url: "https://www.99minds.io/blog/word-of-mouth-marketing"
 keywords: ["Word of mouth marketing", "Word of mouth advertising examples", "word of mouth advertising statistics", "statistics on word of mouth marketing", "word of mouth marketing benefits", "word of mouth statistics", "word of mouth marketing meaning"]
 

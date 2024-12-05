@@ -10,7 +10,7 @@ image:
   alt: "Bfcm sale with omnichannel globe"
 tags: ["Promotion"]
 url: "https://www.99minds.io/blog/bfcm-sale"
-keywords: ["bfcm salr"]
+keywords: ["bfcm sale"]
 ---
 
 <img rel="preload" role="img" src="/assets/blog/transform_your_bfcm_sale_with_real_time_omnichannel_insights.webp" alt="Bfcm sale with omnichannel globe">
@@ -138,7 +138,13 @@ When customers see that their interactions are acknowledged and rewarded, they�
 
 With the 99minds Omnichannel Globe, you can take control of your BFCM sale like never before. Real-time insights into sales, loyalty programs, gift card performance, and customer behavior across regions and channels allow you to make immediate adjustments and maximize results. Don’t let this BFCM pass by without fully optimizing your strategy—start monitoring and acting on your success today with the power of live data.
 
-Ready to make this BFCM your most successful yet? Click the button below to explore the <a href="https://www.99minds.io/loyalty" role="list" target="_blanck">99minds Omnichannel Globe</a> and unlock the power of real-time insights.
+Ready to make this BFCM your most successful yet? Click the button below to explore the 99minds Omnichannel Globe and unlock the power of real-time insights.
 
-
+<div class="flex justify-center items-center">
+<a href="/bfcm" role="link" target="_blanck">
+<button type="button" role="button" aria-label="Visit BFCM Globe" class="flex items-center justify-center h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700 mx-8">
+      <span class="relative text-white"> Explore Live Globe </span>
+    </button>
+</a>
+</div>
 

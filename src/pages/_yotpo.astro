@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CompareYotpo from "../components/features/CompareYotpo.astro";
+import CtaThreeU from "../components/ctas/CtaThreeU.astro";
+import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="The Yotpo Alternative - 99minds"
+  description="Explore how strategic collaborations with 99minds drive success through impactful case studies and real business results."
+  canonical="https://www.99minds.io/yotpo"
+  openGraph={{
+    url: "https://www.99minds.io/yotpo",
+    title: "The #1 Yotpo alternative - 99minds",
+    description: "Explore how strategic collaborations with 99minds drive success through impactful case studies and real business results.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
+        alt: "Case Study",
+        type: "image/svg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/yotpo",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
+        alt: "Case Study",
+        type: "image/svg",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <CompareYotpo />
+  <TestimonialNew/>
+  <CtaThreeU/>
+</BaseLayout>
