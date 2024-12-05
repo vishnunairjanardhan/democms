@@ -75,12 +75,12 @@ p{
 }
 
 /* Change cursor for the entire website */
-body {
+/* body {
   cursor: url('/cursor/Christmas--cursor--SweezyCursors.cur'), auto;
 }
 
 /* Specific cursor for links and buttons */
-a, button {
+/*a, button {
   cursor: url('/cursor/Christmas--pointer--SweezyCursors.cur'), auto;
-}
+} */
 
