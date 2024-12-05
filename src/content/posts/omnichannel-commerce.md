@@ -4,12 +4,12 @@ author: Mrudul
 authorImg: "Mrudul.png"
 title: "What is Omnichannel Commerce? Benefits & Best Practices"
 description: "Omnichannel Commerce is a multichannel approach to sales that provides a unified customer experience across online, mobile, social media, and in-store channels."
-heading: "Guide to Omnichannel Commerce: Real-world Examples"
+heading: "What is Omnichannel Commerce? Benefits & Best Practices"
 image:
   url: "/assets/blog/omnichannel_commerce.webp" 
   alt: "What is Omnichannel Commerce? Benefits & Best Practices"
 tags: ["Omnichannel","Ecommerce"]
-url: "https://www.99minds.io/blog/what-is-omnichannel-commerce"
+url: "https://www.99minds.io/blog/omnichannel-commerce"
 keywords: ["Omnichannel Commerce","omnichannel in ecommerce","omnichannel e commerce","omni channel ecommerce","what is omni channel commerce","Benefits Of Omnichannel Commerce","omnichannel commerce solutions"]
 
 ---
