@@ -423,6 +423,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"black-friday-cyber-monday-record-success .md": {
+	id: "black-friday-cyber-monday-record-success .md";
+  slug: "black-friday-cyber-monday-record-success-";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "build-customer-loyalty.md": {
 	id: "build-customer-loyalty.md";
   slug: "build-customer-loyalty";
@@ -1108,6 +1115,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"referral-marketing-vs-affiliate-marketing.md": {
+	id: "referral-marketing-vs-affiliate-marketing.md";
+  slug: "referral-marketing-vs-affiliate-marketing";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "referral-program-for-small-businesses.md": {
 	id: "referral-program-for-small-businesses.md";

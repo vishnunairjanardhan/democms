@@ -125,7 +125,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                             <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                                             <span className="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
                                                 <span className="relative text-white flex items-center justify-center">
-                                                    <h1 className="px-2">Next</h1>
+                                                    <h4 className="px-2">Next</h4>
                                                 </span>
                                             </span>
                                         </button>
@@ -134,10 +134,10 @@ const WalletPage = ({ onNextButtonClick }) => {
                             </div>
                         </div>
                         <div className="lg:flex flex-col pb-4 pt-3">
-                            <h1 className="text-lg font-bold pb-2">Wallet Preview</h1>
+                            <h3 className="text-lg font-bold pb-2">Wallet Preview</h3>
                             <div className="bg-white rounded shadow-md p-3 w-full px-12">
                                 <div className="w-full flex h-8 bg-gray-200 pl-2 rounded-lg my-3">
-                                    <h1 className="text-center w-full justify-center items-center pt-1.5 text-black pr-8 text-xs">www.99kicks.com</h1>
+                                    <p className="text-center w-full justify-center items-center pt-1.5 text-black pr-8 text-xs">www.99kicks.com</p>
                                 </div>
                                 <div className="grid grid-cols-1 gap-2 md:grid-cols-2 text-black">
                                     <img className="mr-4 rounded border-1 border-black shadow-md" src={"/assets/Yourcart2.png"} alt="Product image" />
@@ -148,7 +148,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                                     <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                                                     <span className="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
                                                         <span className="relative text-white flex items-center justify-center">
-                                                            <h1 className="px-2">{brandName}</h1>
+                                                            <h4 className="px-2">{brandName}</h4>
                                                             <svg
                                                                 xmlns="http://www.w3.org/2000/svg"
                                                                 width="16"
