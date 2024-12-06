@@ -24,59 +24,26 @@ import Footer from "../components/global/Footer.astro";
     <Footer />
 
     <!-- tsParticles Snow Effect -->
-    <div id="tsparticles" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
+    <div id="tsparticles" style="position: fixed; z-index: -1; width: 100%; height: 100%;"></div>
 
     <!-- Import and Initialize tsParticles -->
     <script type="module">
-      import { tsParticles } from "https://cdn.jsdelivr.net/npm/tsparticles-engine/+esm";
-      import { loadSnowPreset } from "https://cdn.jsdelivr.net/npm/tsparticles-preset-snow/+esm";
-    
+      import { tsParticles } from "tsparticles-engine";
+      import { loadSnowPreset } from "tsparticles-preset-snow";
+
       window.addEventListener("DOMContentLoaded", async () => {
-        try {
-          // Load the snow preset
-          await loadSnowPreset(tsParticles);
-    
-          // Initialize tsParticles with the snow effect
-          tsParticles.load("tsparticles", {
-            preset: "snow",
-            particles: {
-              color: { value: "#ffffff" }, // White snowflakes
-              move: {
-                direction: "bottom",
-                enable: true,
-                speed: 2, // Adjust snowflake speed
-              },
-              number: {
-                value: 150, // Number of snowflakes
-              },
-              opacity: {
-                value: 0.7, // Transparency of snowflakes
-              },
-              size: {
-                value: 3, // Size of snowflakes
-              },
-            },
-            interactivity: {
-              events: {
-                onHover: {
-                  enable: false, // Disable interactivity
-                },
-              },
-            },
-            fullScreen: {
-              enable: true,
-              zIndex: -1, // Keeps snowflakes in the background layer
-            },
-            background: {
-              color: "transparent", // Ensure no background color is applied
-            },
-          });
-        } catch (err) {
-          console.error("Failed to initialize tsParticles with snow effect:", err);
-        }
+        // Load the snow preset
+        await loadSnowPreset(tsParticles);
+
+        // Initialize tsParticles with the snow effect
+        tsParticles.load("tsparticles", {
+          preset: "snow",
+          fullScreen: {
+            zIndex: -1, // Keeps snowflakes in the background
+          },
+        });
       });
     </script>
-    
 
     <!-- Zoho SalesIQ Widget -->
     <script type="text/javascript">
