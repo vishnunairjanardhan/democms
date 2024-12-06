@@ -7,14 +7,13 @@ description: "Halloween is only a few weeks away. The Holiday period is a joyful
 heading: Why You Should Use Gift Cards As Your Halloween Treats 
 image:
   url: "/assets/blog/Why-You-Should-Use-Gift-Cards-As-Your-Halloween-Treats2-800x450.jpg"
-  alt: "5 wicked halloween marketing ideas to boost your online sales."
+  alt: "gift card in halloween marketing ideas"
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/why-you-should-use-gift-cards-as-your-halloween-treats"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/gift-card/why-you-should-use-gift-cards-as-your-halloween-treats/">
-<img src="/assets/blog/Why-You-Should-Use-Gift-Cards-As-Your-Halloween-Treats2.jpg"></a>
+<img rel="preload" role="img" src="/assets/blog/Why-You-Should-Use-Gift-Cards-As-Your-Halloween-Treats2.jpg" alt="gift card in halloween marketing ideas">
 
 Halloween is only a few weeks away. The Holiday period is a joyful and exciting time for many people to dress up, pretend to be someone else, and gather mountains of candy. It’s an opportunity for business owners and marketers to re-engage with customers and develop a marketing strategy that produces excitement and sales.
 
@@ -26,8 +25,38 @@ Consumers are willing to spend more money on gifts, parties, and celebrations, m
 
 Consumers are using gift cards more this year for a variety of reasons. First, COVID-19 has caused many families to cut back on travel and forego in-person Halloween celebrations. Gift cards are a convenient method to purchase a gift for someone who is unable to see you.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/10/CTA-IMAGE-Halloween.jpg%22"></a>
+<!-- 
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 People are more thoughtful about choosing practical gifts and gifts that allow the recipient to pamper themselves during times of economic duress, such as the current economic climate. People like the flexibility, personalization, and practicality that gift cards provide.
 
@@ -35,7 +64,7 @@ Gift cards are also among the most popular holiday gifts among employees, with 8
 
 Another notable development this Holiday season is that gift cards are being used more than ever before. More than half of those surveyed (52%) indicated they are more likely to buy gift cards this holiday season than in prior years. Furthermore, surveyed consumers plan to spend an average of $313 on gift cards this year, up 19 percent from last year’s average of $262.
 
-<b>In this article, we’ll go over why treating gift cards this Halloween will improve your e-commerce business in the long run.</b>
+In this article, we’ll go over why treating gift cards this Halloween will improve your e-commerce business in the long run.
 
 1. <b>For Last-Minute Shoppers, Gift Cards Are The Perfect Choice.</b>
 
@@ -54,8 +83,7 @@ Another advantage of gift cards is that they raise brand awareness. It’s likel
 
 With a gift card, they may check out your products and have a deeper understanding of your company. If the receiver enjoys what you have to offer, there’s a good possibility he or she will buy a similar gift card for a friend or family member, increasing your brand recognition. The gift card with your branding on it draws attention to your company. Gift cards can also be sent from anywhere in the world, giving your company a global reach.
 
-<a href="https://calendly.com/sarahbabraj"target="_blank">
-<img src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/08/CTA-BOOK-A-DEMO.jpg">
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 4. <b>Customer loyalty can be increased through the use of gift cards.</b>
 

@@ -76,11 +76,13 @@ p{
 
 /* Change cursor for the entire website */
 body {
-  cursor: url('/cursor/glubs.png'), auto;
+  cursor: url('/assets/cursor/santa.png'), auto;
 }
 
-/* Specific cursor for links and buttons */
-a, button {
-  cursor: url('/cursor/Christmas--pointer--SweezyCursors.cur'), auto; 
+a, button, span {
+  cursor: url('/assets/cursor/glubs.png'), auto;
 }
 
+.cursor-pointer {
+  cursor: url('/assets/cursor/glubs.png'), auto;
+}
