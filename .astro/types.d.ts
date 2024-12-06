@@ -1176,6 +1176,13 @@ declare module 'astro:content' {
   data: InferEntrySchema<"posts">
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"omnichannel-commerce.md": {
+	id: "omnichannel-commerce.md";
+  slug: "omnichannel-commerce";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "omnichannel-loyalty-programs.md": {
 	id: "omnichannel-loyalty-programs.md";
   slug: "omnichannel-loyalty-programs";
@@ -1239,6 +1246,13 @@ declare module 'astro:content' {
   data: InferEntrySchema<"posts">
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"referral-code.md": {
+	id: "referral-code.md";
+  slug: "referral-code";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "referral-marketing-vs-affiliate-marketing.md": {
 	id: "referral-marketing-vs-affiliate-marketing.md";
   slug: "referral-marketing-vs-affiliate-marketing";
@@ -1254,6 +1268,13 @@ declare module 'astro:content' {
   data: InferEntrySchema<"posts">
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"referral-marketing.md": {
+	id: "referral-marketing.md";
+  slug: "referral-marketing";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "referral-program-for-small-businesses.md": {
 	id: "referral-program-for-small-businesses.md";
   slug: "referral-program-for-small-businesses";
@@ -1268,6 +1289,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"referral-program.md": {
+	id: "referral-program.md";
+  slug: "referral-program";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "repeat-customer.md": {
 	id: "repeat-customer.md";

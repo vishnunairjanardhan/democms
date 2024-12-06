@@ -19,18 +19,19 @@
     <!-- Announcement Start -->
 <div
   x-show="showAlert"
-  class="flex flex-col items-center justify-center w-full px-4 py-1 bg-white rounded-b-xl md:flex-row md:gap-6 md:px-8 lg:px-12 overflow-hidden whitespace-nowrap"
-  style="transition: opacity 0.3s ease-in-out;">
+  class="flex flex-col items-center justify-center w-full px-0 py-1 bg-[url('/assets/c-bg2.jpg')] rounded-b-xl md:flex-row md:gap-6  overflow-hidden whitespace-nowrap"
+  style="transition: opacity 0.3s ease-in-out;"
+>
   <div class="flex items-center gap-2 md:gap-3 w-full">
     <!-- Marquee container -->
     <div class="marquee w-full">
       <!-- Repeated content for smooth marquee -->
       <div class="marquee-content">
-        <img class="h-10" src="/assets/Santa.svg" />
-          <img class="h-10" src="/assets/christmas-tree.svg" />
-            <h3 class="text-[#c30010] font-semibold">Happy Holidays</h3>
-          <img class="h-10" src="/assets/christmas-tree.svg" />
-        <img class="h-10" src="/assets/Santa.svg" />
+        <!--<img class="h-10" src="/assets/Santa-Claus-riding.svg" />
+          <img class="h-10" src="/assets/christmas-tree.svg" />-->
+            <h3 class="text-[#c30010] font-semibold text-lg">Happy Holidays</h3>
+          <!--<img class="h-10" src="/assets/christmas-tree.svg" />-->
+        <img class="h-10" src="/assets/Santa Claus riding.gif" />
       </div>
     </div>
   </div>
@@ -55,6 +56,7 @@
   /* Marquee animation in reverse direction */
   @keyframes scroll-reverse {
     from {
+      transform: translateX(-50%);
       transform: translateX(-50%);
     }
     to {
@@ -84,7 +86,7 @@
             <img
               class="" width="125" height="28"
               alt="99minds logo"
-              src="/assets/99minds-logo1.svg"
+              src="/assets/99minds-santa.svg"
             />
           </div>
         </a>
