@@ -27,13 +27,13 @@ export const buttonConfig = [
 export const Fashion =[
     {date:'October 2024', title:"How Natori increased  25% Customer Retention & LTV with Bonus  Store Credit refund on Returns", description:'', href:"/case-study/natori", img:"/assets/case-study/natori4.png", alt:"Natori Case Study"},
     {date:'October 2024', title:"How Calico boost 35% in repeat purchases with the Omnichannel Loyalty & Referral program", description:"", href:'/case-study/calico', img:"/assets/case-study/Calico.png", alt:"Calico Case Study"},
-    {date: 'October 2024', title: 'How Tassel gains 15% Conversion Rate & 40% Customer retention with Omnichannel loyalty & Cashback', description: "", href: '/case-study/tasselsshoes',  videoId: 'anWLVGcytUw', img: null, alt: "Tassel Shoes Case Study" },
+    {date:'October 2024', title: 'How Tassel gains 15% Conversion Rate & 40% Customer retention with Omnichannel loyalty & Cashback', description: "", href: '/case-study/tasselsshoes',  videoId: 'anWLVGcytUw', img: null, alt: "Tassel Shoes Case Study" },
     {date:'October 2024', title:"How Gwynn achieved a 30% increase in AOV & 6x ROI on their Omnichannel Loyalty & Rewards", description:"", href:'/case-study/gwynn', img:"/assets/case-study/gwynn1.png", alt:"Gwynn Case Study"},
-    { date: 'October 2024', title: 'Bfearless At-Home Loyalty Program', description: "", href: "/case-study/bfearless", videoId: 'nkrTLqf3_VA', img: null, alt: "Bfearless Case Study" },
+    {date:'October 2024', title: 'Bfearless At-Home Loyalty Program', description: "", href: "/case-study/bfearless", videoId: 'nkrTLqf3_VA', img: null, alt: "Bfearless Case Study" },
     {date:'October 2024', title:'How Solistice Achieved  30% Conversion Lift with Omnichannel Gift Cards Promotion', description:'', href:'/case-study/solsticesunglasses', img:"/assets/case-study/solstice-banner.png", alt:"Solstice Sun Glasses Case Study"},
     {date:'October 2024', title:'How Birdsnest enhanced Consumer experience with Online & In-store Gift Cards offering', description:'', href:'/case-study/birdsnest', img:"/assets/case-study/birdsnest.png", alt:"Birdsnest Case Study"},
     {date:'October 2024', title:"How Jaxen Grey's Social Media Gift Card Promotions Drive Engagement and Sales by 20%", description:"", href:'/case-study/jaxengrey', img:"/assets/case-study/jaxengrey.png", alt:"Jaxengrey Case Study"},
-    { date: 'April 2024', title: 'FlynnOhara Outfit 1,500 Schools and 500,000 Students with Quality Uniforms!', description: "", href: "/case-study/flynnohara", videoId: '3EAM2GJJ7-s', alt: "Flynnohara Case Study" },
+    {date:'April 2024', title: 'FlynnOhara Outfit 1,500 Schools and 500,000 Students with Quality Uniforms!', description: "", href: "/case-study/flynnohara", videoId: '3EAM2GJJ7-s', alt: "Flynnohara Case Study" },
 ]
 
 export const Others =[
