@@ -108,7 +108,7 @@ This move into digital fashion and gamification has opened new avenues for Gucci
 </li>
 
 <li><h3>Lazada</h3>
-Lazada, a leading Singaporean ecommerce platform, exemplifies advanced gamification in the retail industry by transforming its shopping experience into an interactive game-like environment. The app integrates various gamified elements such as <a href="https://www.99minds.io/blog/what-is-referral-marketing">referral rewards</a>, collectible vouchers, coins, daily bonuses, countdown timers, and even prize giveaways to engage users more deeply.
+Lazada, a leading Singaporean ecommerce platform, exemplifies advanced gamification in the retail industry by transforming its shopping experience into an interactive game-like environment. The app integrates various gamified elements such as <a href="https://www.99minds.io/blog/referral-marketing">referral rewards</a>, collectible vouchers, coins, daily bonuses, countdown timers, and even prize giveaways to engage users more deeply.
 
 A key strategy used by Lazada involves leveraging scarcity tactics for coupon redemption, which restricts the number of coupons available and motivates customers to act quickly to snatch up time-limited offers. This approach not only heightens the sense of urgency but also boosts regular interaction with the app.
 

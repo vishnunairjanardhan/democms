@@ -13,11 +13,11 @@ url: "https://www.99minds.io/blog/what-is-the-future-of-e-commerce-in-the-next-5
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/What-is-the-future-of-e-commerce-in-the-next-5-10-years.jpg">
+<img rel="preload" role="img" src="/assets/blog/What-is-the-future-of-e-commerce-in-the-next-5-10-years.jpg" alt="future of ecommerce in 5 to 10 years">
 
 <a href="https://www.ibm.com/industries/retail">New data from IBM’s US retail index states</a> that the Covid-19 pandemic has accelerated eCommerce by five years. While the pandemic had forced many brick–mortar retail stores to close, eCommerce stores thrived because of this. There was also a more significant shift to online buying because of factors like safety. According to this report, in the first quarter of 2020, non-essential retailers’ growth will decline by 25%, but the decline increased to 75% in the second quarter. The report states that department stores should have declined by more than 60%, while eCommerce was projected to show a 20% growth in 2020.
 
-### Here is how the future of eCommerce is expected to shape up:
+## Here is how the future of eCommerce is expected to shape up:
 <ol>
 <li><b>Emerging markets will gain strength:</b></li>
 
@@ -37,7 +37,7 @@ Here is a scary thing that many people have been noticing of late. Amazon uses s
 
 When your products are on Amazon, you are at the mercy of the commission rates that they charge. If they want you out of the platform, they can easily do many things that a smaller brand will not be able to take.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/12/CTA-Giftcard4.jpg"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <li><b>Real-time marketing:</b></li>
 
@@ -61,7 +61,35 @@ With Bluetooth Low Energy (BLE) beacons, hyperlocal commerce will be even more c
 
 Ecommerce brands will have the ability to determine consumers’ actions in the future by leveraging multiple data points that are available. It will reduce the risk that most of these businesses carry by predicting demand. Predictive analytics, which uses AI, will also be able to come up with product recommendations that will provide a fully curated shopping experience.
 
-<a href="https://www.99minds.io/giftcard" target="_blanck"> <img class="w-full" src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Giftcard1.jpg"></a>
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/cta-gift-cards.webp" alt="Create your own referral campaign"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 <li><b>Rise of digital assistants:</b></li>
 
@@ -76,7 +104,7 @@ Digital assistants like Siri and Cortana are only the beginning of what it can b
 Instead of thinking and executing in terms of channels, the next few years in eCommerce will be about viewing consumer touchpoints that work together to create an integrated Omni-brand experience. The eCommerce retailers that will be successful will be the ones that provide options for their customers to shop when, how, and where they want to.
 </ol>
 
-### Conclusion:
+## Conclusion:
 
 We live in exciting and interesting times; it is only going to increase in the immediate future, especially when it comes to eCommerce. The kind of changes that we will be witnessing are going to be immense; we have listed some of them. Due to the paucity of space, we are not able to include some of the other marked changes that we expect to see in the eCommerce space in the next five to ten years.
 
