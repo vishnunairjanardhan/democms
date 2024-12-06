@@ -84,7 +84,7 @@ Not leveraging influencers when using social media is a grave mistake. It is eas
 
 Getting referrals from customers is so much more easier with a <a href="https://www.99minds.io/referral" target="_blanck">referral program software</a>, especially on social media. Referrals have a high ROI because you end up attracting high-intent customers, reduce churn, increase profits, etc. Using the services of a referral marketing software like the one offered by 99minds can be a great addition to your marketing stack.
 
-Here’s how <a href="https://www.99minds.io/blog/what-is-referral-marketing" target="_blanck">referral marketing</a> can help:
+Here’s how <a href="https://www.99minds.io/blog/referral-marketing" target="_blanck">referral marketing</a> can help:
 <ul>
     <li>People are more likely to trust a brand that is recommended by a close friend or family</li>
     <li>Customers who come from referrals are more likely to end up becoming loyal customers</li>

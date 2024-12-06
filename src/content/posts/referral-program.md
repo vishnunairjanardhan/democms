@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/Guide to Referral Program- Benefits and How to Build One in 2024.webp"
   alt: "Guide to referral program"
 tags: ["Referral Program"]
-url: "https://www.99minds.io/blog/what-is-referral-program"
+url: "https://www.99minds.io/blog/referral-program"
 keywords: ["referral program","referral programs","what is a referral program","successful referral programs","how to build a referral program"]
 
 --- 

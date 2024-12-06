@@ -67,17 +67,17 @@
                               alt={data.alt} 
                               width="630"
                             />
-                          ) : data.videoUrl ? (
-                            <iframe 
-                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" 
-                              src={data.videoUrl} 
-                              title={data.title} 
-                              width="630" 
-                              height="315" 
-                              frameBorder="0" 
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                          ) : data.videoId ? (
+                            <iframe
+                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover"
+                              src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=1&mute=1&rel=0`}
+                              title={data.title}
+                              width="630"
+                              height="315"
+                              frameBorder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                               allowFullScreen
-                               id="youtube-video"
+                              id="youtube-video"
                             ></iframe>
                           ) : null}
                         </div>
@@ -121,16 +121,16 @@
                               alt={data.alt} 
                               width="630"
                             />
-                          ) : data.videoUrl ? (
-                            <iframe 
-                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" 
-                              src={`${data.videoUrl}`} 
-                              title={data.title} 
-                              width="630" 
-                              height="315" 
-                              frameBorder="0" 
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                              allowFullScreen 
+                          ) : data.videoId ? (
+                            <iframe
+                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover"
+                              src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=1&mute=1&rel=0`}
+                              title={data.title}
+                              width="630"
+                              height="315"
+                              frameBorder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              allowFullScreen
                               id="youtube-video"
                             ></iframe>
                           ) : null}
@@ -138,8 +138,7 @@
                       </div>
                       <div class="p-8">
                         <div class="flex">
-                             <div class="basis-1/2"><img class="h-9" alt="" src={data.logo}></div>
- 
+                          <div class="basis-1/2"><img class="h-9" alt="" src={data.logo}></div>
                         </div>
                         <h2 class="text-xl font-semibold text-indigo-400">{data.heading}</h2> 
                         <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
@@ -206,17 +205,17 @@
                               alt={data.alt} 
                               width="630"
                             />
-                          ) : data.videoUrl ? (
-                            <iframe 
-                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" 
-                              src={data.videoUrl} 
-                              title={data.title} 
-                              width="630" 
-                              height="315" 
-                              frameBorder="0" 
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                          ) : data.videoId ? (
+                            <iframe
+                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover"
+                              src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=1&mute=1&rel=0`}
+                              title={data.title}
+                              width="630"
+                              height="315"
+                              frameBorder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                               allowFullScreen
-                               id="youtube-video"
+                              id="youtube-video"
                             ></iframe>
                           ) : null}
                         </div>
