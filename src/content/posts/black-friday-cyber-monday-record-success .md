@@ -34,7 +34,7 @@ It's more than a milestone; it's a statement about how businesses leverage the c
 <li><b>Loyalty points redeemed:</b> “30,705,551”, contributing to “303,820 orders”.</li>
 </ul>
 
-The outcomes are clear: Omnichannel Commerce is generating unparalleled success! BFCM was a huge success because our merchants were able to unlock a new level of engagement and higher-order values through techniques like gift cards and loyalty rewards.
+<b>The outcomes are clear:</b> Omnichannel Commerce is generating unparalleled success! BFCM was a huge success because our merchants were able to unlock a new level of engagement and higher-order values through techniques like gift cards and loyalty rewards.
 
 <h2>Unstoppable Performance with 99minds</h2>
 

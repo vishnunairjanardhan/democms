@@ -73,3 +73,16 @@ p{
   color:rgb(185,186,189);
   font-weight: 400;
 }
+
+/* Change cursor for the entire website */
+body {
+  cursor: url('/assets/cursor/santa.png'), auto;
+}
+
+a, button, span {
+  cursor: url('/assets/cursor/glubs.png'), auto;
+}
+
+.cursor-pointer {
+  cursor: url('/assets/cursor/glubs.png'), auto;
+}
