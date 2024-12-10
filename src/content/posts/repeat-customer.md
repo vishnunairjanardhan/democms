@@ -241,7 +241,7 @@ An effective customer loyalty program can help you keep your current clients and
 The primary reason for this is that loyalty programs can make your customers feel more valued, powerful, and connected to your company. This kind of relationship gives the correct kind of motivation for your customers, encouraging them to buy more from you.
 
 
-To build such an impactful loyalty program, consider using <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a>. This platform provides a versatile set of tools to create different types of loyalty programs, including point-based rewards, tiered loyalty levels, <a href="https://www.99minds.io/blog/what-is-referral-program" role="link" target="_blanck">referral programs</a>, and exclusive member benefits. By leveraging these features, you can foster a stronger connection with your customers, making them feel appreciated and more inclined to engage with your brand repeatedly.
+To build such an impactful loyalty program, consider using <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a>. This platform provides a versatile set of tools to create different types of loyalty programs, including point-based rewards, tiered loyalty levels, <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">referral programs</a>, and exclusive member benefits. By leveraging these features, you can foster a stronger connection with your customers, making them feel appreciated and more inclined to engage with your brand repeatedly.
 
 <li>
 <h3>Customer Retention should be Accelerated</h3>
@@ -345,7 +345,7 @@ Leveraging technology to analyze customer data, automate processes, and deliver 
 
 Providing seamless omnichannel experiences is increasingly important. Customers expect consistent interactions across multiple platforms. Ensuring a positive experience in-store, online, or through mobile apps is essential for retaining customers.
 
-<a href="https://www.99minds.io/blog/what-is-omnichannel-commerce" role="link" target="_blanck">Omnichannel commerce</a> integrates these platforms, allowing customers to switch between them seamlessly. This approach synchronizes data for personalized recommendations, consistent pricing, and real-time inventory updates, enhancing customer satisfaction and loyalty. Embracing omnichannel commerce also provides insights into consumer behavior, helping brands refine their strategies.
+<a href="https://www.99minds.io/blog/omnichannel-commerce" role="link" target="_blanck">Omnichannel commerce</a> integrates these platforms, allowing customers to switch between them seamlessly. This approach synchronizes data for personalized recommendations, consistent pricing, and real-time inventory updates, enhancing customer satisfaction and loyalty. Embracing omnichannel commerce also provides insights into consumer behavior, helping brands refine their strategies.
 </li>
 
 <li>
@@ -372,7 +372,7 @@ In addition, consider implementing tiered rewards to encourage increased expendi
 
 Encouraging your customers to refer friends and family can be a powerful way to attract new and repeat customers. Offer incentives, such as discounts, free products, or store credit for both the referrer and the referred customer. Use <a href="https://www.99minds.io" role="link" target="_blanck">99minds</a> tools to track referrals and ensure that rewards are accurately distributed. 
 
-A seamless referral process enhances customer satisfaction and promotes word-of-mouth marketing. Make it easy for customers to share referral links through social media, email, or messaging apps, increasing the reach of your <a href="https://www.99minds.io/blog/what-is-referral-program" role="link" target="_blanck">referral program</a> and attracting new customers.
+A seamless referral process enhances customer satisfaction and promotes word-of-mouth marketing. Make it easy for customers to share referral links through social media, email, or messaging apps, increasing the reach of your <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">referral program</a> and attracting new customers.
 </li>
 
 <li>

@@ -57,7 +57,7 @@ Publish exclusive information that talks about keeping their pets hale and heart
 
 ### Loyalty program:
 
-Get the help of a loyalty platform like 99minds, which will give the <a href="https://www.99minds.io/loyalty">customers options to earn and redeem points</a>. There are different types of <a href="https://www.99minds.io/blog/what-is-referral-program">reward programs</a> that you can choose based on what works best for your business and customers. 
+Get the help of a loyalty platform like 99minds, which will give the <a href="https://www.99minds.io/loyalty">customers options to earn and redeem points</a>. There are different types of <a href="https://www.99minds.io/blog/referral-program">reward programs</a> that you can choose based on what works best for your business and customers. 
 
 Here are some of the loyalty options that you can choose for your pet insurance business:
 

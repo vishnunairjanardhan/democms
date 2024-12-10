@@ -361,7 +361,7 @@ In addition to attracting new customers, referral programs can also foster <a hr
 <li>
 <h3>Multichannel Strategy</h3>
 
-A <a href="https://www.99minds.io/blog/what-is-omnichannel-commerce" role="link" target="_blanck">multichannel strategy</a>involves leveraging multiple marketing channels and touchpoints to reach customers at various stages of the buying journey. This may include online channels such as websites, social media, email marketing, and paid advertising, as well as offline channels such as events, print media, and direct mail. 
+A <a href="https://www.99minds.io/blog/omnichannel-commerce" role="link" target="_blanck">multichannel strategy</a>involves leveraging multiple marketing channels and touchpoints to reach customers at various stages of the buying journey. This may include online channels such as websites, social media, email marketing, and paid advertising, as well as offline channels such as events, print media, and direct mail. 
 
 By diversifying their marketing efforts across multiple channels, businesses can maximize their reach, engage with audiences across different platforms, and increase the likelihood of customer acquisitions. A cohesive multichannel strategy ensures consistent messaging and a seamless customer experience across all touchpoints, driving conversions and revenue growth.
 </li>

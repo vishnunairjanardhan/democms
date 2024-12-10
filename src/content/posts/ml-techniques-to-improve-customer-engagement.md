@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/ml-techniques-to-improve-customer-engagement"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/what-the-heck.jpg" alt="ML Techniques to Improve Customer Engagement">
+<img rel="preload" role="img" src="/assets/blog/what-the-heck.jpg" alt="ML Techniques to Improve Customer Engagement">
 
 Companies since ages have been trying to engage customers with their new marketing strategies. Here is one of the reasons they are failing.
 
@@ -55,7 +55,7 @@ We inevitably take a stand on customer acquisition with such regression techniqu
 
 With a Hybrid recommendation system, you can generate and provide suggestions by combining two or more recommendation strategies.
 
-After applying such techniques, all you need is more consistency to maintain those data fragments and form actual data points. Problems like cold-start and data sparsity still exist, which are solvable by providing optimized, automated solutions. <a href="https://www.linkedin.com/pulse/ml-techniques-improve-customer-engagement-gorakh-ovhal-3c/">With Machine Learning As A Solution (MLaaS), the market is soon going to make almost $7.6 Billion by the year 2023.</a>
+After applying such techniques, all you need is more consistency to maintain those data fragments and form actual data points. Problems like cold-start and data sparsity still exist, which are solvable by providing optimized, automated solutions. With Machine Learning As A Solution (MLaaS), the market is soon going to make almost $7.6 Billion by the year 2023.
 
 But how do you engage customers then?
 
@@ -87,7 +87,7 @@ With tools like <a href="https://manychat.com/">Manychat</a> and <a href="https:
 
 Online shopping has been in the market for quite some time now. Even then, the number of the population adhering to it is not equivalent to the percentage it should be. What is lacking?
 
-Indeed a lot of parameters lack, but the biggest of them all is ‘Lacking a sense of ownership.’ Apart from a percentage of the youth population that likes <a href="https://wordpress-aogt.onrender.com/gift-card/gift-cards-the-perfect-employee-reward-for-your-workforce/">cheap discounts and offers</a>, the other generations still restrain from online shopping. They are used to the kind of shopping where they get what they want by talking to a shopping agent or keeper. They value relations more than the products.
+Indeed a lot of parameters lack, but the biggest of them all is ‘Lacking a sense of ownership.’ Apart from a percentage of the youth population that likes cheap discounts and offers, the other generations still restrain from online shopping. They are used to the kind of shopping where they get what they want by talking to a shopping agent or keeper. They value relations more than the products.
 
 Providing value to a million customers is what AI is making possible. AI is all set to mark the beginning of personalization, where customers know what they want, how they want, and their preferences. AI engine creates a recommendation engine that reads individual customer data and activities using ML techniques and provides relevant suggestions.
 

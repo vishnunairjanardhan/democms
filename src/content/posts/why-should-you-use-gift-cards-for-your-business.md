@@ -13,15 +13,15 @@ url: "https://www.99minds.io/blog/why-should-you-use-gift-cards-for-your-busines
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Why-should-you-use-gift-cards-for-your-business-1.jpg">
+<img rel="preload" role="img" src="/assets/blog/Why-should-you-use-gift-cards-for-your-business-1.jpg" alt="why gift card use for business.">
 
-The global gift card market size is <a href="https://www.rfdtv.com/story/41734715/gift-card-market-2020-global-industry-trends-share-size-demand-growth-opportunities-industry-revenue-future-and-business-analysis-by-forecast-2023" target="_blanck">estimated to grow at a CAGR of 13%</a> in the forecast period of 2020-2023. With sophisticated technologies popping up, <a href="https://www.giftsvouchers.co.uk/blog/whats-the-difference-between-gift-cards-gift-vouchers-and-ecodes" target="_blanck">offering gift cards to customers</a> is becoming easier. The features present in some of the gift card tools incorporate user psychology and automation features that promise to work wonders for your sales registry.
+The global gift card market size is estimated to grow at a CAGR of 13% in the forecast period of 2020-2023. With sophisticated technologies popping up, offering gift cards to customers is becoming easier. The features present in some of the gift card tools incorporate user psychology and automation features that promise to work wonders for your sales registry.
 
 Also, who doesn’t love gift cards? Gift cards can be given at any time. It doesn’t have to be seasonal, which makes it even more appealing.
 
-Retailers offer gift cards to customers, therefore encouraging them to shop more at their store. That’s a win-win for the business. Unlike a coupon where you offer a discount, <a href="https://wordpress-aogt.onrender.com/gift-card/useful-gift-card-statistics-to-know-in-2022/">gift cards bring the customer to your store</a>, online or offline, again and again until the amount is fully redeemed. With each interaction, your customer forges a relationship with you. Well, we assume that you treat your customers well to build a relationship.
+Retailers offer gift cards to customers, therefore encouraging them to shop more at their store. That’s a win-win for the business. Unlike a coupon where you offer a discount, gift cards bring the customer to your store, online or offline, again and again until the amount is fully redeemed. With each interaction, your customer forges a relationship with you. Well, we assume that you treat your customers well to build a relationship.
 
-<b>Here are 9 reasons why you should use gift cards for your business:</b>
+Here are 9 reasons why you should use gift cards for your business:
 
 <b>1. Increases brand awareness:</b>
 
@@ -38,20 +38,20 @@ Gift cards make the customer feel safe about their money because the balance is 
 Lugging around a piece of paper, however light it may be, is certainly not someone’s idea of worry-free shopping. Saving a physical gift-card can be cumbersome for the average shopper. It is still better than paper certificates, although both are prone to loss, theft, or duplication. With the kind of technology that is available today, you can easily get your gift card redeemed with the help of a simple QR code at the point of sale in a store. Everything gets over in under a minute. Talk about convenience.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Giftcard1.jpg"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
 
-<div class="flex flex-wrap items-center gap-2 mt-10">
+<div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
               <!-- Trigger -->
               <span x-on:click="open = true" class="w-full">
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full" src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/07/CTA-Giftcard1.jpg"></span>
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
                 </span></div>
               </span>
               <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
                 <!-- Overlay -->
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
@@ -90,7 +90,7 @@ Walmart made a whopping $1.9 billion in breakage income in 2019. Other retailers
 
 <b>5. Build customer loyalty:</b>
 
-Making your customers stay with you is more profitable than getting existing customers. It is easier to sell premium offerings to existing customers if they are satisfied with you. Easier to upsell and cross-sell too. <a href="https://wordpress-aogt.onrender.com/gift-card/gift-card-services-for-merchants/">Gift cards are a great way to increase loyalty</a> as it helps in building strong relationships with the customer.
+Making your customers stay with you is more profitable than getting existing customers. It is easier to sell premium offerings to existing customers if they are satisfied with you. Easier to upsell and cross-sell too. Gift cards are a great way to increase loyalty as it helps in building strong relationships with the customer.
 
 While providing gift cards to your customers, provide a bonus or an extra coupon if they reach a certain spending limit, they will surely redeem the gift card. And come for more.
 
@@ -104,38 +104,7 @@ When a customer keeps coming to the store many times to redeem the gift card, th
 
 The holiday season is full of people who are under pressure to buy meaningful gifts for friends and family. There are many last-minute shoppers who end up buying gift cards since it is the easiest thing to do while still coming across as thoughtful. Offer both physical and online gift cards for the convenience of your customers. People who cannot afford to rush to a store will buy the gift card online, while those who are in your store will buy it as an afterthought when all their efforts to find a gift fails.
 
-<!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/04/CTA-IMAGE-01.jpg"></a> -->
-
-<div class="flex flex-wrap items-center gap-2 mt-10">
-              <div x-data="{ open: false }" class="w-full">
-              <!-- Trigger -->
-              <span x-on:click="open = true" class="w-full">
-                 <div class="w-full ">
-                <span class="w-full "></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full" src="https://wordpress-aogt.onrender.com/wp-content/uploads/2020/04/CTA-IMAGE-01.jpg"></span>
-                </span></div>
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly">
-                      </iframe>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <b>8. Gives you insightful data:</b>
 

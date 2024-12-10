@@ -16,11 +16,11 @@ keywords: ["referral programs for small businesses", "referral programs for smal
 
 <img rel="preload" role="img" src="/assets/blog/referral-program-for-small-businesses.webp" alt="How to build referral program for small businesses">
 
-<a href="https://www.99minds.io/blog/what-is-referral-program" role="link" target="_blanck">Referral programs</a> are one of the most effective marketing strategies for small businesses. By harnessing the power of word-of-mouth, small businesses can turn their satisfied customers into powerful advocates who help attract new customer. In the digital age, referral programs for small businesses have become easier to implement and more impactful, making them an essential tool for growth.
+<a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">Referral programs</a> are one of the most effective marketing strategies for small businesses. By harnessing the power of word-of-mouth, small businesses can turn their satisfied customers into powerful advocates who help attract new customer. In the digital age, referral programs for small businesses have become easier to implement and more impactful, making them an essential tool for growth.
 
 Why are referral programs for small businesses so valuable? As Jim Rohn famously said, “One customer, well taken care of, could be more valuable than $10,000 worth of advertising.” Happy customers who spread the word about your small business provide authentic recommendations that carry far more weight than traditional ads. By rewarding customers for their referrals with incentives like discounts, exclusive offers, or free products, small businesses can create a win-win situation that encourages even more referrals.
 
-For small businesses, referral programs can be a game-changer. They help acquire new customers, boost loyalty, reduce churn, and increase revenue. If your small business doesn't have a <a href="https://www.99minds.io/blog/what-is-referral-marketing" role="link" target="_blanck">referral marketing strategy</a>, you're missing a valuable opportunity for organic growth.
+For small businesses, referral programs can be a game-changer. They help acquire new customers, boost loyalty, reduce churn, and increase revenue. If your small business doesn't have a <a href="https://www.99minds.io/blog/referral-marketing" role="link" target="_blanck">referral marketing strategy</a>, you're missing a valuable opportunity for organic growth.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
 <p>Table of Contents:</p>
