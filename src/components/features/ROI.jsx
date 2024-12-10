@@ -29,77 +29,87 @@ const LoyaltyROICalculator = () => {
         </div>
 
         {/* Middle Section */}
-        <div className="py-0 lg:max-w-4xl col-span-1 lg:col-span-2 border border-vulcan-700 bg-white rounded-lg mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
+        <div className="py-4 lg:max-w-4xl col-span-1 lg:col-span-2 border border-vulcan-700 bg-white rounded-lg mx-4 lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
           <div className="grid lg:grid-cols-3">
+            {/* Left Section */}
             <div className="lg:col-span-2 p-8">
               {/* Annual Orders */}
-              <div className="shadow-xl border rounded-lg p-4">
-                <div className="flex items-center">
+              <div className="shadow-xl border rounded-lg p-6 mb-6">
+                <div className="flex items-center mb-4">
                   <p className="font-semibold text-black">Your annual orders</p>
-                  <p className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md">
-                    {annualOrders}
-                  </p>
+                  <input
+                    type="number"
+                    className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md"
+                    value={annualOrders}
+                    onChange={(e) => setAnnualOrders(Number(e.target.value))}
+                  />
                 </div>
                 <ReactSlider
                   className="w-full h-2 bg-gray-200 rounded-lg"
                   thumbClassName="h-4 w-4 bg-black rounded-full"
-                  trackClassName="h-2 bg-gradient-to-r from-[#ff8a05] to-[#ff5478]"
+                  trackClassName="h-4 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
                   value={annualOrders}
                   min={0}
                   max={1000000}
                   onChange={(value) => setAnnualOrders(value)}
                 />
-                <p className="text-sm">How many orders does your brand process per year?</p>
+                <p className="text-sm mt-4">How many orders does your brand process per year?</p>
               </div>
 
               {/* Annual Customers */}
-              <div className="mt-6 border shadow-xl rounded-lg p-4">
-                <div className="flex items-center">
+              <div className="shadow-xl border rounded-lg p-6 mb-6">
+                <div className="flex items-center mb-4">
                   <p className="font-semibold text-black">Your annual customers</p>
-                  <p className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md">
-                    {annualCustomers}
-                  </p>
+                  <input
+                    type="number"
+                    className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md"
+                    value={annualCustomers}
+                    onChange={(e) => setAnnualCustomers(Number(e.target.value))}
+                  />
                 </div>
                 <ReactSlider
                   className="w-full h-2 bg-gray-200 rounded-lg"
                   thumbClassName="h-4 w-4 bg-black rounded-full"
-                  trackClassName="h-2 bg-gradient-to-r from-[#ff8a05] to-[#ff5478]"
+                  trackClassName="h-4 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
                   value={annualCustomers}
                   min={0}
                   max={200000}
                   onChange={(value) => setAnnualCustomers(value)}
                 />
-                <p className="text-sm">How many customers does your brand have annually?</p>
+                <p className="text-sm mt-4">How many customers does your brand have annually?</p>
               </div>
 
               {/* Average Order Value */}
-              <div className="mt-6 border shadow-xl rounded-lg p-4">
-                <div className="flex items-center">
+              <div className="shadow-xl border rounded-lg p-6">
+                <div className="flex items-center mb-4">
                   <p className="font-semibold text-black">AOV</p>
-                  <p className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md">
-                    {averageOrderValue}
-                  </p>
+                  <input
+                    type="number"
+                    className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md"
+                    value={averageOrderValue}
+                    onChange={(e) => setAverageOrderValue(Number(e.target.value))}
+                  />
                 </div>
                 <ReactSlider
                   className="w-full h-2 bg-gray-200 rounded-lg"
                   thumbClassName="h-4 w-4 bg-black rounded-full"
-                  trackClassName="h-2 bg-gradient-to-r from-[#ff8a05] to-[#ff5478]"
+                  trackClassName="h-4 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
                   value={averageOrderValue}
                   min={0}
                   max={10000}
                   onChange={(value) => setAverageOrderValue(value)}
                 />
-                <p className="text-sm">What is your average order value?</p>
+                <p className="text-sm mt-4">What is your average order value?</p>
               </div>
             </div>
 
             {/* Right Section */}
-            <div className="bg-[#202130] bg-cover px-10 rounded-tr-md rounded-br-md">
-              <p className="mt-6 p-6 text-5xl rounded-lg text-center border border-white/60 bg-black font-bold text-white">
+            <div className="bg-[#202130] bg-cover px-10 py-8 rounded-tr-md rounded-br-md">
+              <p className="p-6 text-5xl rounded-lg text-center border border-white/60 bg-black font-bold text-white mb-4">
                 {purchasePerCustomer}
               </p>
-              <p className="mt-2 text-xl text-white">Purchases per customer</p>
-              <p className="text-sm">
+              <p className="text-xl text-white text-center mb-4">Purchases per customer</p>
+              <p className="text-sm text-white mb-6">
                 Purchases per customer is the metric that is typically most impacted by a loyalty program. Programs can be designed to focus on increasing repeat purchase rate, decreasing time to second purchase, and more.
               </p>
               <div className="py-4">
@@ -117,6 +127,7 @@ const LoyaltyROICalculator = () => {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );
