@@ -158,7 +158,7 @@ While sales promotions can bring significant benefits, there are also potential 
 <li>
 <h3>Referral programs</h3>
 
-<a href="https://www.99minds.io/blog/what-is-referral-program" role="link" target="_blanck">Referral programs</a> leverage existing customers to bring in new ones by offering rewards, such as discounts or credits, to both the referrer and the new customer. This word-of-mouth strategy enhances credibility since recommendations come from trusted sources. <a href="https://www.dropbox.com/refer" role="link" target="_blanck">Dropbox’s referral program</a> is a perfect example: they offer extra storage for referrals, which helped scale their user base without relying on heavy advertising.
+<a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">Referral programs</a> leverage existing customers to bring in new ones by offering rewards, such as discounts or credits, to both the referrer and the new customer. This word-of-mouth strategy enhances credibility since recommendations come from trusted sources. <a href="https://www.dropbox.com/refer" role="link" target="_blanck">Dropbox’s referral program</a> is a perfect example: they offer extra storage for referrals, which helped scale their user base without relying on heavy advertising.
 </li>
 
 <div class="m-auto w-full lg:px-34">

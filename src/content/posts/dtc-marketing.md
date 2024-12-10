@@ -186,7 +186,7 @@ Customer retention is essential for business. Implement loyalty programs that re
 <li>
 <h3>Implement a Referral Program</h3>
 
-<a href="https://www.99minds.io/blog/what-is-referral-program" role="link" target="_blanck">Referral programs</a> capitalize on satisfied customer networks to drive new customer acquisition. Offering incentives like discounts or store credit for successful referrals <a href="https://www.99minds.io/blog/word-of-mouth-marketing" role="link" target="_blanck">encourages word-of-mouth promotion</a>. These programs not only bring in new customers but also strengthen relationships with existing ones, creating a win-win scenario.
+<a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">Referral programs</a> capitalize on satisfied customer networks to drive new customer acquisition. Offering incentives like discounts or store credit for successful referrals <a href="https://www.99minds.io/blog/word-of-mouth-marketing" role="link" target="_blanck">encourages word-of-mouth promotion</a>. These programs not only bring in new customers but also strengthen relationships with existing ones, creating a win-win scenario.
 </li>
 
 <li>
