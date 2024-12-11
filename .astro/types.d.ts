@@ -542,6 +542,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"ecommerce-loyalty-program.md": {
+	id: "ecommerce-loyalty-program.md";
+  slug: "ecommerce-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "ecommerce-strategy-a-complete-guide.md": {
 	id: "ecommerce-strategy-a-complete-guide.md";
   slug: "ecommerce-strategy-a-complete-guide";
@@ -1140,6 +1147,13 @@ declare module 'astro:content' {
 "repeat-customer.md": {
 	id: "repeat-customer.md";
   slug: "repeat-customer";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"retail-loyalty-program.md": {
+	id: "retail-loyalty-program.md";
+  slug: "retail-loyalty-program";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
