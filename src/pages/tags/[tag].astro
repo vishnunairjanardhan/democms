@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
 import BlogPost from "../../components/BlogPost.astro";
 import EntriesOne from "../../components/entries/EntriesOne.astro";
 import { getCollection } from "astro:content";
@@ -28,7 +28,7 @@ const { posts } = Astro.props;
 <head>
   <meta name="robots" content="noindex, nofollow">
 </head>
-<BaseLayout pageTitle={tag}>
+<BaseLayout3 pageTitle={tag}>
   <section>
     <div
       class="max-w-7xl px-8 md:px-12 lg:px-32 mx-auto py-32 lg:py-36 relative">
@@ -56,4 +56,4 @@ const { posts } = Astro.props;
       </div>
     </div>
   </section>
-</BaseLayout>
+</BaseLayout3>
