@@ -325,6 +325,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"Black-friday-promotion-ideas.md": {
+	id: "Black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md": {
 	id: "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md";
   slug: "ways-to-incorporate-gift-cards-into-your-customer-retention-strategy";
@@ -419,13 +426,6 @@ declare module 'astro:content' {
 "black-friday-cyber-monday-record-success .md": {
 	id: "black-friday-cyber-monday-record-success .md";
   slug: "black-friday-cyber-monday-record-success-";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"black-friday-promotion-ideas.md": {
-	id: "black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -538,13 +538,6 @@ declare module 'astro:content' {
 "ecommerce-gift-cards-for-refunds.md": {
 	id: "ecommerce-gift-cards-for-refunds.md";
   slug: "ecommerce-gift-cards-for-refunds";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"ecommerce-loyalty-program.md": {
-	id: "ecommerce-loyalty-program.md";
-  slug: "ecommerce-loyalty-program";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

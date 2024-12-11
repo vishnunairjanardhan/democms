@@ -19,23 +19,18 @@
     <!-- Announcement Start -->
 <div
   x-show="showAlert"
-  class="flex flex-col items-center justify-center w-full px-0 py-1 bg-[url('/assets/c-bg2.jpg')] rounded-b-xl md:flex-row md:gap-6  overflow-hidden whitespace-nowrap"
+  class="flex flex-col items-center justify-center w-full px-0 py-1 bg-[url('/assets/c-bg.jpg')] rounded-b-xl md:flex-row md:gap-6  overflow-hidden whitespace-nowrap"
   style="transition: opacity 0.3s ease-in-out;"
 >
   <div class="flex items-center gap-2 md:gap-3 w-full">
-  <img class="h-8 px-12" src="/assets/menorah-svgrepo-com.svg" />
     <!-- Marquee container -->
     <div class="marquee w-full">
       <!-- Repeated content for smooth marquee -->
       <div class="marquee-content">
-        <!--<img class="h-10" src="/assets/Santa-Claus-riding.svg" />
-          <img class="h-10" src="/assets/christmas-tree.svg" />-->
-            <h3 class="text-[#c30010] font-semibold text-lg">Happy Holidays</h3>
-          <!--<img class="h-10" src="/assets/christmas-tree.svg" />-->
+          <h3 class="text-[#c30010] font-semibold italic font-[cursive]">Happy Holidays</h3>
         <img class="h-10" src="/assets/Santa Claus riding.gif" />
       </div>
     </div>
-  <img class="h-8 px-12" src="/assets/menorah-svgrepo-com.svg" />
   </div>
 </div>
 
@@ -52,31 +47,27 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    animation: scroll-reverse 20s linear infinite;
+    animation: scroll-reverse 20s linear infinite; /* Default animation duration for larger screens */
   }
 
   /* Marquee animation in reverse direction */
   @keyframes scroll-reverse {
     from {
-      transform: translateX(-25%);
+      transform: translateX(-15%);
     }
     to {
       transform: translateX(100%);
     }
   }
 
-  /* SVG and text styling */
-  .marquee-content svg {
-    width: 24px;
-    height: 24px;
-  }
-
-  .marquee-content span {
-    font-size: 16px;
-    white-space: nowrap;
-    color: #333;
+  /* Adjust animation duration for mobile devices */
+  @media (max-width: 768px) {
+    .marquee-content {
+      animation: scroll-reverse 8s linear infinite; /* Mobile-specific duration */
+    }
   }
 </style>
+
 
     <!-- Announcement End -->
 
