@@ -6,14 +6,14 @@ title: "eCommerce Loyalty Program: 8 Industry Winning Examples"
 description: Learn what makes an industry winning ecommerce loyalty program successful and its unique features that increases loyal customers.
 heading: "eCommerce Loyalty Program: 8 Industry Winning Examples"
 image:
-  url: "/assets/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.webp"
-  alt: ""
+  url: "/assets/blog/ecommerce_loyalty_programs_8_industry_winning_examples.webp"
+  alt: "ecommerce loyalty program"
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/ecommerce-loyalty-program"
 keywords: ["ecommerce loyalty programs", "loyalty program for ecommerce", "best ecommerce loyalty programs"]
 
 --- 
-<img rel="preload" role="img" src="/assets/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.webp" alt="">
+<img rel="preload" role="img" src="/assets/blog/ecommerce_loyalty_programs_8_industry_winning_examples.webp" alt="ecommerce loyalty program">
 
 <a href="https://www.99minds.io/loyalty">Loyalty programs</a> have become a cornerstone of modern eCommerce, driving customer retention and boosting sales. In today’s competitive market, where convenience and personalized experiences are key, a well-designed eCommerce loyalty program can be the difference between retaining customers and losing them to competitors.
 
