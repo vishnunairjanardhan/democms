@@ -75,7 +75,7 @@ p{
 }
 
 /* Change cursor for the entire website */
-body {
+/* body {
   cursor: url('/assets/cursor/santa.png'), auto;
 }
 
@@ -85,4 +85,4 @@ a, button, span {
 
 .cursor-pointer {
   cursor: url('/assets/cursor/glubs.png'), auto;
-}
+} */
