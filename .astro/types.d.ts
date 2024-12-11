@@ -437,27 +437,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"build-customer-loyalty.md": {
-	id: "build-customer-loyalty.md";
-  slug: "build-customer-loyalty";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"build-customer-loyalty.md": {
-	id: "build-customer-loyalty.md";
-  slug: "build-customer-loyalty";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"build-customer-loyalty.md": {
-	id: "build-customer-loyalty.md";
-  slug: "build-customer-loyalty";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "case-study-8-brilliant-loyalty-program-cases-in-2024.md": {
 	id: "case-study-8-brilliant-loyalty-program-cases-in-2024.md";
   slug: "case-study-8-brilliant-loyalty-program-cases-in-2024";
@@ -1161,6 +1140,13 @@ declare module 'astro:content' {
 "repeat-customer.md": {
 	id: "repeat-customer.md";
   slug: "repeat-customer";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"retail-loyalty-program.md": {
+	id: "retail-loyalty-program.md";
+  slug: "retail-loyalty-program";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

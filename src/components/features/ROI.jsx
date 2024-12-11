@@ -45,9 +45,9 @@ const LoyaltyROICalculator = () => {
                   />
                 </div>
                 <ReactSlider
-                  className="w-full h-2 bg-gray-200 rounded-lg"
+                  className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
                   thumbClassName="h-4 w-4 bg-black rounded-full"
-                  trackClassName="h-4 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
+                  trackClassName="h-2 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
                   value={annualOrders}
                   min={0}
                   max={1000000}
@@ -68,9 +68,9 @@ const LoyaltyROICalculator = () => {
                   />
                 </div>
                 <ReactSlider
-                  className="w-full h-2 bg-gray-200 rounded-lg"
+                  className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
                   thumbClassName="h-4 w-4 bg-black rounded-full"
-                  trackClassName="h-4 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
+                  trackClassName="h-2 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
                   value={annualCustomers}
                   min={0}
                   max={200000}
@@ -91,9 +91,9 @@ const LoyaltyROICalculator = () => {
                   />
                 </div>
                 <ReactSlider
-                  className="w-full h-2 bg-gray-200 rounded-lg"
+                  className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
                   thumbClassName="h-4 w-4 bg-black rounded-full"
-                  trackClassName="h-4 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
+                  trackClassName="h-2 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
                   value={averageOrderValue}
                   min={0}
                   max={10000}
