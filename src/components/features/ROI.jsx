@@ -23,13 +23,13 @@ const LoyaltyROICalculator = () => {
         {/* Left Section */}
         <div className="py-6 items-center rounded-lg mx-0 transition-shadow duration-300 flex flex-col">
           <h2 className="px-16 font-semibold lg:text-left text-center">Loyalty ROI Calculator</h2>
-          <p className="px-16 mt-2 text-center lg:text-left">
+          <p className="px-16 mt-4 text-center text-base lg:text-left">
             Savvy brands are doubling down on Loyalty & Referrals to offset rising acquisition costs. But what’s the bottom line of implementing these solutions on your site? Based on metrics from thousands of Yotpo Loyalty & Referrals programs, this calculator is designed to show you the revenue uplift you can potentially see from a strategic Loyalty & Referrals program.
           </p>
         </div>
 
         {/* Middle Section */}
-        <div className="py-4 lg:max-w-4xl col-span-1 lg:col-span-2 border border-vulcan-700 bg-white rounded-lg mx-4 lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
+        <div className="lg:max-w-4xl col-span-1 lg:col-span-2 border border-vulcan-700 bg-white rounded-lg mx-4 lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
           <div className="grid lg:grid-cols-3">
             {/* Left Section */}
             <div className="lg:col-span-2 p-8">
@@ -46,7 +46,7 @@ const LoyaltyROICalculator = () => {
                 </div>
                 <ReactSlider
                   className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
-                  thumbClassName="h-4 w-4 bg-black rounded-full"
+                  thumbClassName="h-6 w-6 bg-black rounded-full border border-white border-[3px] drop-shadow-lg"
                   trackClassName="h-2 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
                   value={annualOrders}
                   min={0}
@@ -69,7 +69,7 @@ const LoyaltyROICalculator = () => {
                 </div>
                 <ReactSlider
                   className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
-                  thumbClassName="h-4 w-4 bg-black rounded-full"
+                  thumbClassName="h-6 w-6 bg-black rounded-full border border-white border-[3px] drop-shadow-lg"
                   trackClassName="h-2 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
                   value={annualCustomers}
                   min={0}
@@ -92,7 +92,7 @@ const LoyaltyROICalculator = () => {
                 </div>
                 <ReactSlider
                   className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
-                  thumbClassName="h-4 w-4 bg-black rounded-full"
+                  thumbClassName="h-6 w-6 bg-black rounded-full border border-white border-[3px] drop-shadow-lg"
                   trackClassName="h-2 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
                   value={averageOrderValue}
                   min={0}
@@ -105,11 +105,11 @@ const LoyaltyROICalculator = () => {
 
             {/* Right Section */}
             <div className="bg-[#202130] bg-cover px-10 py-8 rounded-tr-md rounded-br-md">
-              <p className="p-6 text-5xl rounded-lg text-center border border-white/60 bg-black font-bold text-white mb-4">
+              <p className="p-4 text-4xl rounded-lg text-center border border-white/60 bg-black font-bold text-white mb-4">
                 {purchasePerCustomer}
               </p>
               <p className="text-xl text-white text-center mb-4">Purchases per customer</p>
-              <p className="text-sm text-white mb-6">
+              <p className="text-sm text-center text-white mb-6">
                 Purchases per customer is the metric that is typically most impacted by a loyalty program. Programs can be designed to focus on increasing repeat purchase rate, decreasing time to second purchase, and more.
               </p>
               <div className="py-4">
