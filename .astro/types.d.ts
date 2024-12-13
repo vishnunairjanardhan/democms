@@ -547,7 +547,7 @@ declare module 'astro:content' {
   slug: "ecommerce-loyalty-program";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "ecommerce-strategy-a-complete-guide.md": {
 	id: "ecommerce-strategy-a-complete-guide.md";
@@ -1163,7 +1163,7 @@ declare module 'astro:content' {
   slug: "retail-loyalty-program";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "sales-promotion.md": {
 	id: "sales-promotion.md";
