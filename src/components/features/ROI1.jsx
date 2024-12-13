@@ -72,14 +72,17 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
 
               {/* Average Order Value */}
               <div className="shadow-xl border rounded-lg p-6">
-                <div className="flex items-center mb-4">
-                  <p className="font-semibold text-black">AOV</p>
-                  <input
+              <div className="flex items-center mb-4">
+                <p className="font-semibold text-black">AOV</p>
+                <div className="relative w-32 ml-auto">
+                    <span className="absolute top-1/2 left-3 transform -translate-y-1/2 text-white">US$</span>
+                    <input
                     type="number"
-                    className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md"
+                    className="pl-10 w-full bg-vulcan-900 border px-4 text-right text-white rounded-md"
                     value={averageOrderValue}
                     onChange={(e) => setAverageOrderValue(Number(e.target.value))}
-                  />
+                    />
+                </div>
                 </div>
                 <ReactSlider
                   className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
@@ -111,7 +114,7 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
                 >
                   <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                   <span className="w-full relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
-                    <span className="relative text-white">Next</span>
+                  <span className="relative text-white">Next</span>
                   </span>
                 </button>
               </div>
