@@ -332,6 +332,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"Christmas-marketing-ideas.md": {
+	id: "Christmas-marketing-ideas.md";
+  slug: "christmas-marketing-ideas";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md": {
 	id: "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md";
   slug: "ways-to-incorporate-gift-cards-into-your-customer-retention-strategy";
@@ -409,6 +416,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"black-friday-cyber-monday-record-success .md": {
+	id: "black-friday-cyber-monday-record-success .md";
+  slug: "black-friday-cyber-monday-record-success-";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "build-customer-loyalty.md": {
 	id: "build-customer-loyalty.md";
   slug: "build-customer-loyalty";
@@ -430,13 +444,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"christmas-marketing-ideas-to-boost-your-sales-this-year.md": {
-	id: "christmas-marketing-ideas-to-boost-your-sales-this-year.md";
-  slug: "christmas-marketing-ideas-to-boost-your-sales-this-year";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "coupon-advertising-ways-to-make-it-work-for-your-business.md": {
 	id: "coupon-advertising-ways-to-make-it-work-for-your-business.md";
   slug: "coupon-advertising-ways-to-make-it-work-for-your-business";
@@ -447,6 +454,13 @@ declare module 'astro:content' {
 "customer-acquisition-strategy.md": {
 	id: "customer-acquisition-strategy.md";
   slug: "customer-acquisition-strategy";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"customer-lifetime-value.md": {
+	id: "customer-lifetime-value.md";
+  slug: "customer-lifetime-value";
   body: string;
   collection: "posts";
   data: any
@@ -510,6 +524,13 @@ declare module 'astro:content' {
 "ecommerce-gift-cards-for-refunds.md": {
 	id: "ecommerce-gift-cards-for-refunds.md";
   slug: "ecommerce-gift-cards-for-refunds";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"ecommerce-marketing.md": {
+	id: "ecommerce-marketing.md";
+  slug: "ecommerce-marketing";
   body: string;
   collection: "posts";
   data: any
@@ -1067,6 +1088,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"referral-marketing-vs-affiliate-marketing.md": {
+	id: "referral-marketing-vs-affiliate-marketing.md";
+  slug: "referral-marketing-vs-affiliate-marketing";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "referral-program-for-small-businesses.md": {
 	id: "referral-program-for-small-businesses.md";
   slug: "referral-program-for-small-businesses";
@@ -1077,6 +1105,13 @@ declare module 'astro:content' {
 "repeat-customer.md": {
 	id: "repeat-customer.md";
   slug: "repeat-customer";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"retail-loyalty-program.md": {
+	id: "retail-loyalty-program.md";
+  slug: "retail-loyalty-program";
   body: string;
   collection: "posts";
   data: any
@@ -1406,6 +1441,13 @@ declare module 'astro:content' {
 "why-your-business-needs-gift-cards-this-valentines.md": {
 	id: "why-your-business-needs-gift-cards-this-valentines.md";
   slug: "why-your-business-needs-gift-cards-this-valentines";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"word-of-mouth-marketing.md": {
+	id: "word-of-mouth-marketing.md";
+  slug: "word-of-mouth-marketing";
   body: string;
   collection: "posts";
   data: any
