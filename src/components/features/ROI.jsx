@@ -10,6 +10,9 @@ const ROICalculator = () => {
   const goToNextStep = () => {
     setCurrentStep(currentStep + 1);
   };
+  const goBack = () => {
+    setCurrentStep(currentStep - 1);
+  }
 
   return (
     <section className="lg:p-16 border-t border-y border-white/5">
@@ -29,7 +32,7 @@ const ROICalculator = () => {
             <LoyaltyROICalculator goToNextStep={goToNextStep} />
           )}
 
-          {currentStep === 2 && <IndustryMarginForm />}
+          {currentStep === 2 && <IndustryMarginForm goBack={goBack}/>}
         </div>
       </div>
     </section>

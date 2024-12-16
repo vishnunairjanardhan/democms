@@ -1,5 +1,5 @@
 ---
-pubDate: 2024-12-15
+pubDate: 2024-12-16
 author: Soniya
 authorImg: "Soniya.webp"
 title: 30 Winning Christmas Marketing Ideas to Raise the Festive Spirit
