@@ -50,12 +50,27 @@ const IndustryMarginForm = (goBack) => {
                       onClick={() => handleIndustrySelect(industry.name)}
                     >
                       <div className="flex items-center justify-center text-navy-900">
-                        {industry.imageSrc(
+                        {industry.imageSrc ? (
                           <img
                             src={industry.imageSrc}
                             alt={industry.name}
                             className="w-12 h-12 object-contain"
                           />
+                        ) : (
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="w-6 h-6"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M13 3h4a2 2 0 012 2v14a2 2 0 01-2 2H7a2 2 0 01-2-2V5a2 2 0 012-2h4"
+                            />
+                          </svg>
                         )}
                       </div>
                       <span className="mt-2 text-sm text-center text-gray-200">{industry.name}</span>
