@@ -20,7 +20,7 @@ export const industries = [
     imageSrc: "/images/fun-sports-icon.png", // Replace with the actual image path or URL
   },
   {
-    name: "FOOD & BEVERAGES",
+    name: "FOOD",
     imageSrc: "/images/food-beverages-icon.png", // Replace with the actual image path or URL
   },
   {

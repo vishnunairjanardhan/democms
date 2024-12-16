@@ -45,14 +45,14 @@ const IndustryMarginForm = (goBack) => {
                   </span>
                 </button>
               </div>  
-            <div className="mt-4 lg:flex-row justify-between w-full mx-auto p-6 space-y-6 border bg-[#202130] bg-cover rounded-t-lg mt-18">
+            <div className="mt-4 lg:flex-row justify-between w-full mx-auto p-6 space-y-6 border border-opacity-70 border-white/20  bg-[#202130] bg-cover rounded-t-lg mt-18">
               <div className="space-y-4">
                 <p className="text-lg font-semibold text-gray-200">Industry:</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[2rem] px-4">
                   {industries.map((industry, index) => (
                     <button
                       key={index}
-                      className={`h-24 flex flex-col items-center p-3 border-white/5 rounded-lg hover:bg-gray-500 transition-colors ${selectedIndustry === industry ? 'bg-gray-500' : ''}`}
+                      className={`h-24 flex flex-col items-center p-3 border-white/5 rounded-lg bg-white hover:bg-gray-500 transition-colors ${selectedIndustry === industry ? 'bg-gray-500' : ''}`}
                       style={{
                         border: "1px solid #e7edf7",
                         cursor: "pointer",
@@ -61,7 +61,7 @@ const IndustryMarginForm = (goBack) => {
                       }}
                       onClick={() => handleIndustrySelect(industry.name)}
                     >
-                      <div className="flex items-center justify-center text-navy-900">
+                      <div className="flex items-center justify-center text-black">
                         {industry.imageSrc ? (
                           <img
                             src={industry.imageSrc}
@@ -85,7 +85,7 @@ const IndustryMarginForm = (goBack) => {
                           </svg>
                         )}
                       </div>
-                      <span className="mt-2 text-sm text-center text-gray-200">{industry.name}</span>
+                      <span className="mt-2 text-sm text-center text-black">{industry.name}</span>
                     </button>
                   ))}
                 </div>

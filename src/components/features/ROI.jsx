@@ -26,7 +26,7 @@ const ROICalculator = () => {
         </div>
 
         {/* Middle Section */}
-        <div className="lg:max-w-4xl col-span-1 lg:col-span-2 border border-vulcan-700 bg-white rounded-lg mx-4 lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
+        <div className="lg:max-w-4xl col-span-1 lg:col-span-2 rounded-lg mx-4 lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
           {/* Conditional rendering based on currentStep */}
           {currentStep === 1 && (
             <LoyaltyROICalculator goToNextStep={goToNextStep} />
