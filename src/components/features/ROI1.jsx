@@ -5,15 +5,15 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
   // State variables for sliders
   const [annualOrders, setAnnualOrders] = useState(10000);
   const [annualCustomers, setAnnualCustomers] = useState(0);
-  const [averageOrderValue, setAverageOrderValue] = useState(0);
-  const [purchasePerCustomer, setPurchasePerCustomer] = useState(0);
+  const [ProfitMargine, setProfitMargine] = useState(0);
+  const [aov, setaov] = useState(0);
 
   // Calculate purchases per customer dynamically
   useEffect(() => {
     if (annualCustomers > 0) {
-      setPurchasePerCustomer((annualOrders / annualCustomers).toFixed(2));
+      setaov((annualOrders / annualCustomers).toFixed(2));
     } else {
-      setPurchasePerCustomer(0); // Avoid division by zero
+      setaov(0); // Avoid division by zero
     }
   }, [annualOrders, annualCustomers]);
 
@@ -73,36 +73,37 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
               {/* Average Order Value */}
               <div className="shadow-xl border rounded-lg p-6">
               <div className="flex items-center mb-4">
-                <p className="font-semibold text-black">AOV</p>
+                <p className="font-semibold text-black">Profit Margine</p>
                 <div className="relative w-32 ml-auto">
-                    <span className="absolute top-1/2 left-3 transform -translate-y-1/2 text-white">US$</span>
                     <input
                     type="number"
                     className="pl-10 w-full bg-vulcan-900 border px-4 text-right text-white rounded-md"
-                    value={averageOrderValue}
-                    onChange={(e) => setAverageOrderValue(Number(e.target.value))}
+                    value={ProfitMargine}
+                    onChange={(e) => setProfitMargine(Number(e.target.value))}
                     />
+                    <span className="absolute top-1/2 left-3 transform -translate-y-1/2 text-white">%</span>
+
                 </div>
                 </div>
                 <ReactSlider
                   className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
                   thumbClassName="h-6 w-6 bg-black rounded-full border border-white border-[3px] drop-shadow-lg"
                   trackClassName="h-2 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
-                  value={averageOrderValue}
+                  value={ProfitMargine}
                   min={0}
-                  max={10000}
-                  onChange={(value) => setAverageOrderValue(value)}
+                  max={100}
+                  onChange={(value) => setProfitMargine(value)}
                 />
-                <p className="text-sm mt-4">What is your average order value?</p>
+                <p className="text-sm mt-4">What is your profit margine?</p>
               </div>
             </div>
 
             {/* Right Section */}
             <div className="bg-[#202130] bg-cover px-10 py-8 rounded-tr-md rounded-br-md">
               <p className="p-4 text-2xl rounded-lg text-center border border-white/60 bg-black font-bold text-white mb-4">
-                {purchasePerCustomer}
+                ${aov}
               </p>
-              <p className="text-xl text-white text-center mb-4">Purchases per customer</p>
+              <p className="text-xl text-white text-center mb-4">Average Order per Customer</p>
               <p className="text-sm text-center text-white mb-6">
                 Purchases per customer is the metric that is typically most impacted by a loyalty program. Programs can be designed to focus on increasing repeat purchase rate, decreasing time to second purchase, and more.
               </p>

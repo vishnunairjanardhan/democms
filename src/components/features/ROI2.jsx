@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { industries } from "../../config/RoiConfig";
 
-const IndustryMarginForm = () => {
+const IndustryMarginForm = (goBack) => {
   const [selectedMargin, setSelectedMargin] = useState("<10%");
   const [email, setEmail] = useState("");
   const [selectedIndustry, setSelectedIndustry] = useState(null);
@@ -71,7 +71,17 @@ const IndustryMarginForm = () => {
                 </div>
               </div>
 
-              <div className="space-y-4 p-8">
+              <div className="space-y-4">
+              <button
+                  type="button"
+                  className="w-full raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
+                  onClick={goBack}
+                >
+                  <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                  <span className="w-full relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
+                  <span className="relative text-white">Back</span>
+                  </span>
+                </button>
                 <p className="text-lg font-semibold text-gray-200 whitespace-nowrap mt-2">
                   Your gross margin:
                 </p>
