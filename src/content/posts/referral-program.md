@@ -239,7 +239,7 @@ A well-executed referral program can give you a competitive edge. It sets you ap
 
 <h2 class="m-0 mb-4" id="Effective-Referral-Program-Ideas">Effective Referral Program Ideas</h2>
 
-To create a successful referral program, you need to come up with creative and effective ideas that resonate with your customers. Here are some referral program ideas that can help you get started:
+To create a successful referral program, you need to come up with creative and effective ideas that resonate with your customers. Here are some <a href="https://www.99minds.io/blog/referral-program-ideas" role="link" target="_blanck">referral program ideas</a> that can help you get started:
 <ol role="list">
 <li>
 <h3 class="m-0 mb-4">Double-Sided Rewards</h3>

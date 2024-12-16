@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import { AstroSeo } from "@astrolib/seo";
 import CtaThree99minds from "../components/ctas/CtaThree99minds.astro";
-import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import BlogWithSearch from "../components/react/BlogWithSearch.jsx";
 
 const allPosts = await getCollection("posts");
@@ -44,7 +44,7 @@ const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
+<BaseLayout3>
   <section>
     <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-32 lg:py-36 relative">
       <div class="flex justify-center">
@@ -76,4 +76,4 @@ const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
     </div>
   </section>
   <CtaThree99minds />
-</BaseLayout>
+</BaseLayout3>

@@ -1,7 +1,8 @@
+
 ---
 import BaseLayout2 from "../layouts/BaseLayout2.astro";
 import Slide from "../components/features/Slide.astro";
-import LoyaltyROICalculator from "../components/features/ROI.jsx";
+import ROICalculator from "../components/features/ROI.jsx";
 import Slide1 from "../components/features/Slide1.astro";
 import ProgramWidget from "../components/features/ProgramWidget.astro";
 import WorkFlow from "../components/features/WorkFlow.astro";
@@ -21,6 +22,9 @@ import Counter from "../components/customers/Counter.astro"
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
+<head>
+  <meta name="robots" content="noindex, nofollow">
+</head>
 <AstroSeo
   title="99minds | Case Studies"
   description="Discover the power of strategic collaborations with 99minds through illuminating case studies"
@@ -63,7 +67,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <ShopifyCheckout/>
 <WorkFlow/>
 <Counter/>
-<LoyaltyROICalculator client:load/>
+<ROICalculator client:load/>
 <!--<GlobeWithHexCountries client:load />-->
 <ROI3 />
 </BaseLayout2>
