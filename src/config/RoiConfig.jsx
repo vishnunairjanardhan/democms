@@ -4,7 +4,7 @@ export const industries = [
     "BEAUTY & BEYOND",
     "HOME DECOR",
     "FUN & SPORTS",
-    "FOOD & BEVERAGES",
+    "FOOD",
     "BEDDING & BATH",
     "SHOES"
   ];

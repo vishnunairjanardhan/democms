@@ -30,17 +30,29 @@ const IndustryMarginForm = (goBack) => {
   };
 
   return (
-      <div className="w-full mx-auto p-6 space-y-6 border bg-[#202130] bg-cover rounded-lg mt-18">
+      <div className="">
         {!showResult ? (
           <>
-            <div className="flex flex-col lg:flex-row justify-between">
+              <div className="py-2">
+                <button
+                  type="button"
+                  className="w-32 raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
+                  onClick={goBack}
+                >
+                  <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                  <span className="w-full relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
+                  <span className="relative text-white">Back</span>
+                  </span>
+                </button>
+              </div>  
+            <div className="mt-4 lg:flex-row justify-between w-full mx-auto p-6 space-y-6 border bg-[#202130] bg-cover rounded-t-lg mt-18">
               <div className="space-y-4">
                 <p className="text-lg font-semibold text-gray-200">Industry:</p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[2rem] px-4">
                   {industries.map((industry, index) => (
                     <button
                       key={index}
-                      className={`flex flex-col items-center p-4 border hover:bg-gray-500 transition-colors ${selectedIndustry === industry ? 'bg-gray-500' : ''}`}
+                      className={`h-24 flex flex-col items-center p-3 border-white/5 rounded-lg hover:bg-gray-500 transition-colors ${selectedIndustry === industry ? 'bg-gray-500' : ''}`}
                       style={{
                         border: "1px solid #e7edf7",
                         cursor: "pointer",
@@ -49,7 +61,7 @@ const IndustryMarginForm = (goBack) => {
                       }}
                       onClick={() => handleIndustrySelect(industry)}
                     >
-                      <div className="flex items-center justify-center text-navy-900">
+                      <div className="mt-2 flex items-center justify-center text-navy-900">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="w-6 h-6"
@@ -72,20 +84,11 @@ const IndustryMarginForm = (goBack) => {
               </div>
 
               <div className="space-y-4">
-              <button
-                  type="button"
-                  className="w-full raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
-                  onClick={goBack}
-                >
-                  <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                  <span className="w-full relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
-                  <span className="relative text-white">Back</span>
-                  </span>
-                </button>
+             
                 <p className="text-lg font-semibold text-gray-200 whitespace-nowrap mt-2">
                   Your gross margin:
                 </p>
-                <div className="grid grid-cols-1 gap-2">
+                <div className="grid lg:grid-cols-6 gap-10">
                   {["<10%", "10%-20%", "20%-30%", "30%-50%", "50%-70%", "70+%"].map((margin) => (
                     <div key={margin} className="flex items-center space-x-2 text-gray-100">
                       <input
@@ -103,7 +106,7 @@ const IndustryMarginForm = (goBack) => {
               </div>
             </div>
 
-            <div className="flex gap-4 bg-gray-100 p-6 rounded-lg">
+            <div className="flex gap-4 bg-gray-100 p-6 rounded-b-lg">
               <div className="flex-1 ">
                 <input
                   type="email"
