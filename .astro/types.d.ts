@@ -442,14 +442,14 @@ declare module 'astro:content' {
   slug: "black-friday-promotion-ideas";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
-"black-friday-promotion-ideas.md": {
-	id: "black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
+"brand-loyalty.md": {
+	id: "brand-loyalty.md";
+  slug: "brand-loyalty";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "build-customer-loyalty.md": {
 	id: "build-customer-loyalty.md";
@@ -741,6 +741,13 @@ declare module 'astro:content' {
 "holiday-2020-a-retail-season-like-no-other.md": {
 	id: "holiday-2020-a-retail-season-like-no-other.md";
   slug: "holiday-2020-a-retail-season-like-no-other";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"holiday-marketing-campaigns.md": {
+	id: "holiday-marketing-campaigns.md";
+  slug: "holiday-marketing-campaigns";
   body: string;
   collection: "posts";
   data: any
@@ -1434,13 +1441,6 @@ declare module 'astro:content' {
 "what-is-an-ecommerce-gift-card-and-how-does-it-work.md": {
 	id: "what-is-an-ecommerce-gift-card-and-how-does-it-work.md";
   slug: "what-is-an-ecommerce-gift-card-and-how-does-it-work";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"what-is-brand-loyalty.md": {
-	id: "what-is-brand-loyalty.md";
-  slug: "what-is-brand-loyalty";
   body: string;
   collection: "posts";
   data: any
