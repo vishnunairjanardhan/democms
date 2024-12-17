@@ -325,13 +325,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"Black-friday-promotion-ideas.md": {
-	id: "Black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "Christmas-marketing-ideas.md": {
 	id: "Christmas-marketing-ideas.md";
   slug: "christmas-marketing-ideas";
@@ -741,13 +734,6 @@ declare module 'astro:content' {
 "holiday-2020-a-retail-season-like-no-other.md": {
 	id: "holiday-2020-a-retail-season-like-no-other.md";
   slug: "holiday-2020-a-retail-season-like-no-other";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"holiday-marketing-campaigns.md": {
-	id: "holiday-marketing-campaigns.md";
-  slug: "holiday-marketing-campaigns";
   body: string;
   collection: "posts";
   data: any
@@ -1511,13 +1497,6 @@ declare module 'astro:content' {
 "why-your-business-needs-gift-cards-this-valentines.md": {
 	id: "why-your-business-needs-gift-cards-this-valentines.md";
   slug: "why-your-business-needs-gift-cards-this-valentines";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"word-of-mouth-marketing.md": {
-	id: "word-of-mouth-marketing.md";
-  slug: "word-of-mouth-marketing";
   body: string;
   collection: "posts";
   data: any
