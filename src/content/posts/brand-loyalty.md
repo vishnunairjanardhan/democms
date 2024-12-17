@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/What is Brand Loyalty- Importance And 7 Ways To Build It.webp"
   alt: "What is brand loyalty"
 tags: ["Loyalty Program"] 
-url: "https://www.99minds.io/blog/what-is-brand-loyalty"
+url: "https://www.99minds.io/blog/brand-loyalty"
 keywords: ["brand loyalty","how to build brand loyalt","ways to increase brand loyalty","how to create brand loyalty","build brand loyalty"]
 ---
 <img rel="preload" role="img" src="/assets/blog/What is Brand Loyalty- Importance And 7 Ways To Build It.webp" alt="What is brand loyalty">
