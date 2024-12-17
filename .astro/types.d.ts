@@ -437,13 +437,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"black-friday-promotion-ideas.md": {
-	id: "black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "brand-loyalty.md": {
 	id: "brand-loyalty.md";
   slug: "brand-loyalty";
@@ -1511,13 +1504,6 @@ declare module 'astro:content' {
 "why-your-business-needs-gift-cards-this-valentines.md": {
 	id: "why-your-business-needs-gift-cards-this-valentines.md";
   slug: "why-your-business-needs-gift-cards-this-valentines";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"word-of-mouth-marketing.md": {
-	id: "word-of-mouth-marketing.md";
-  slug: "word-of-mouth-marketing";
   body: string;
   collection: "posts";
   data: any
