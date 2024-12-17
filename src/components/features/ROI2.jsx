@@ -48,7 +48,7 @@ const IndustryMarginForm = (goBack) => {
             <div className="mt-4 lg:flex-row justify-between w-full mx-auto p-6 space-y-6 border border-opacity-70 border-white/20  bg-[#202130] bg-cover rounded-t-lg mt-18">
               <div className="space-y-4">
                 <p className="text-lg font-semibold text-gray-200">Industry:</p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[2rem] px-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[1.5rem] px-4">
                   {industries.map((industry, index) => (
                     <button
                       key={index}
@@ -61,12 +61,12 @@ const IndustryMarginForm = (goBack) => {
                       }}
                       onClick={() => handleIndustrySelect(industry.name)}
                     >
-                      <div className="flex items-center justify-center text-black">
+                      <div className="flex items-center justify-center text-black mt-1">
                         {industry.imageSrc ? (
                           <img
                             src={industry.imageSrc}
                             alt={industry.name}
-                            className="w-12 h-12 object-contain"
+                            className="w-10 h-10 object-contain"
                           />
                         ) : (
                           <svg
@@ -96,7 +96,7 @@ const IndustryMarginForm = (goBack) => {
                 <p className="text-lg font-semibold text-gray-200 whitespace-nowrap mt-2">
                   Your gross margin:
                 </p>
-                <div className="grid lg:grid-cols-6 gap-10">
+                <div className="grid lg:grid-cols-6 gap-10 px-4">
                   {["<10%", "10%-20%", "20%-30%", "30%-50%", "50%-70%", "70+%"].map((margin) => (
                     <div key={margin} className="flex items-center space-x-2 text-gray-100">
                       <input
