@@ -5,7 +5,7 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
   // State variables for sliders
   const [annualOrders, setAnnualOrders] = useState(10000);
   const [annualCustomers, setAnnualCustomers] = useState(0);
-  const [ProfitMargine, setProfitMargine] = useState(0);
+  const [ProfitMargin, setProfitMargin] = useState(0);
   const [aov, setaov] = useState(0);
 
   // Calculate purchases per customer dynamically
@@ -73,13 +73,13 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
               {/* Average Order Value */}
               <div className="shadow-xl border rounded-lg p-6">
               <div className="flex items-center mb-4">
-                <p className="font-semibold text-black">Profit Margine</p>
+                <p className="font-semibold text-black">Profit Margin</p>
                 <div className="relative w-32 ml-auto">
                     <input
                     type="number"
                     className="pl-10 w-full bg-vulcan-900 border px-4 text-right text-white rounded-md"
-                    value={ProfitMargine}
-                    onChange={(e) => setProfitMargine(Number(e.target.value))}
+                    value={ProfitMargin}
+                    onChange={(e) => setProfitMargin(Number(e.target.value))}
                     />
                     <span className="absolute top-1/2 left-3 transform -translate-y-1/2 text-white">%</span>
 
@@ -89,12 +89,12 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
                   className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
                   thumbClassName="h-6 w-6 bg-black rounded-full border border-white border-[3px] drop-shadow-lg"
                   trackClassName="h-2 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
-                  value={ProfitMargine}
+                  value={ProfitMargin}
                   min={0}
                   max={100}
-                  onChange={(value) => setProfitMargine(value)}
+                  onChange={(value) => setProfitMargin(value)}
                 />
-                <p className="text-sm mt-4">What is your profit margine?</p>
+                <p className="text-sm mt-4">What is your profit margin?</p>
               </div>
             </div>
 
