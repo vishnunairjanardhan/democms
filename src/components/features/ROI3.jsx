@@ -1,6 +1,6 @@
 import React from "react";
 
-const ResultsSection = () => {
+const ResultsSection = ({goToNextStep, goBack}) => {
     
   return (
     <section className="lg:p-16 border-t border-y border-white/5">

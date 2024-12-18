@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import LoyaltyROICalculator from "./ROI1";
 import IndustryMarginForm from "./ROI2";
+import ResultsSection from "./ROI3";
+
 
 const ROICalculator = () => {
   // State to manage the current step
@@ -9,9 +11,11 @@ const ROICalculator = () => {
   // Function to go to the next step
   const goToNextStep = () => {
     setCurrentStep(currentStep + 1);
+    console.log("page",currentStep)
   };
   const goBack = () => {
     setCurrentStep(currentStep - 1);
+    console.log("page",currentStep)
   }
 
   return (
@@ -32,7 +36,9 @@ const ROICalculator = () => {
             <LoyaltyROICalculator goToNextStep={goToNextStep} />
           )}
 
-          {currentStep === 2 && <IndustryMarginForm goBack={goBack}/>}
+          {currentStep === 2 && <IndustryMarginForm goToNextStep={goToNextStep} goBack={goBack}/>}
+
+          {currentStep === 3 && <ResultsSection goBack={goBack}/>}
         </div>
       </div>
     </section>

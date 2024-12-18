@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { industries } from "../../config/RoiConfig";
 
-const IndustryMarginForm = ({ goBack }) => {
+const IndustryMarginForm = ({goToNextStep, goBack }) => {
   const [selectedMargin, setSelectedMargin] = useState("<10%");
   const [email, setEmail] = useState("");
   const [selectedIndustry, setSelectedIndustry] = useState(""); // Ensure it's a string for comparison
@@ -132,8 +132,8 @@ const IndustryMarginForm = ({ goBack }) => {
             </div>
             <button
               className="bg-blue-600 font-semibold text-white px-8 py-2 rounded-lg"
-              onClick={handleCalculate}
-              disabled={!selectedIndustry || !email}
+              onClick={goToNextStep}
+              // disabled={!selectedIndustry || !email}
             >
               Calculate
             </button>
