@@ -25,7 +25,7 @@ An increasing number of business owners are recognizing the advantages of referr
 <p>Table of Contents:</p>
 <ul>
   <li>  
-    <a role="link" href="#What-is-Referral-Program?" rel="noreferrer">What is Referral Marketing?</a>
+    <a role="link" href="#What-is-Referral-Marketing?" rel="noreferrer">What is Referral Marketing?</a>
   </li>
   <li>  
     <a role="link" href="#Key-Components-of-a-Successful-Referral-Marketing-Program" rel="noreferrer">Key Components of a Successful Referral Marketing Program</a>
@@ -54,7 +54,7 @@ An increasing number of business owners are recognizing the advantages of referr
 </ul>   
 </div>  
 
-<h2 id="What-is-Referral-Program?">What is Referral Marketing?</h2> 
+<h2 id="What-is-Referral-Marketing?">What is Referral Marketing?</h2> 
 
 Referral marketing is all about increasing your sales with the help of word-of-mouth recommendations from your existing customers instead of referral rewards. It has the potential to convert your regular customers into brand advocates and also helps you gain access to a new set of customers.
 
