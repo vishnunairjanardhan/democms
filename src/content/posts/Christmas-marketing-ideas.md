@@ -1,5 +1,5 @@
 ---
-pubDate: 2024-12-15
+pubDate: 2024-12-16
 author: Soniya
 authorImg: "Soniya.webp"
 title: 30 Winning Christmas Marketing Ideas to Raise the Festive Spirit
@@ -9,7 +9,7 @@ heading: 30 Winning Christmas Marketing Ideas to Raise the Festive SpiritI
 image:
   url: "/assets/blog/top-30-winning-ideas-for-christmas-marketing-in-e-commerce-2024.webp"
   alt: "Christmas marketing ideas."
-tags: ["Ecommerce"]
+tags: ["Promotion"]
 url: "https://www.99minds.io/blog/christmas-marketing-ideas"
 keywords: ["Christmas marketing ideas", "marketing ideas Christmas", "marketing ideas for Christmas", "Christmas advertising  ideas"]
 
