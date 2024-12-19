@@ -164,9 +164,9 @@ import { industries } from "../../config/RoiConfig";
 const IndustryMarginForm = ({ goToNextStep, goBack }) => {
   const [selectedMargin, setSelectedMargin] = useState("<10%");
   const [email, setEmail] = useState("");
-  const [companyName, setCompanyName] = useState(""); // Added company name state
-  const [userName, setUserName] = useState(""); // Added name state
-  const [selectedIndustry, setSelectedIndustry] = useState(""); // Ensure it's a string for comparison
+  const [companyName, setCompanyName] = useState(""); 
+  const [userName, setUserName] = useState(""); 
+  const [selectedIndustry, setSelectedIndustry] = useState("");
   const [showResult, setShowResult] = useState(false);
   const [result, setResult] = useState(null);
 
@@ -179,46 +179,39 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
   };
 
   const handleCompanyNameChange = (event) => {
-    setCompanyName(event.target.value); // Handle company name input
+    setCompanyName(event.target.value); 
   };
 
   const handleUserNameChange = (event) => {
-    setUserName(event.target.value); // Handle user name input
+    setUserName(event.target.value); 
   };
 
   const handleIndustrySelect = (industry) => {
-    setSelectedIndustry(industry); // Save the name or unique ID
+    setSelectedIndustry(industry); 
   };
 
   const handleCalculate = async () => {
-    // First, calculate the result
     const calculationResult = `Your selected industry is ${selectedIndustry}, your margin range is ${selectedMargin}, and your email is ${email}.`;
-    setResult(calculationResult); // Store the result
-    setShowResult(true); // Show the result (you can display it if needed)
+    setResult(calculationResult); 
+    setShowResult(true); 
 
-    // Then, send the form data to Google Sheets
-    const formData = {
-      userName,
-      companyName,
-      email,
-      
-    };
+    const formData = new URLSearchParams();
+    formData.append('userName', userName);
+    formData.append('companyName', companyName);
+    formData.append('email', email);
     
-    console.log("Form data being sent:", formData); // Log the data before sending
+    console.log("Form data being sent:", Object.fromEntries(formData));
     
     try {
-      // Send POST request to Google Sheets
-      const response = await fetch("https://script.google.com/macros/s/AKfycbySdbl5PGPouhSU7UzaWz4VWPThPGVGavx41RUKjC_iUvckjCi-vxp0KLiow1VJwwf7/exec", {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbzN7MG7oQv9eQmMJEuDYrU2mGl8LaCFLR3UfV1TUJIA_YVrQEFtp1LooDsBkVIheXo3fg/exec", {
         method: "POST",
         headers: {
-          'Content-Type': 'application/json',  // Send JSON data instead of URL encoded form data
+          'Content-Type': 'application/x-www-form-urlencoded', 
         },
-        body: JSON.stringify(formData),
-        mode: 'no-cors'
-        // Convert the form data to JSON
+        body: formData.toString(),
       });
     
-      const result = await response.json(); // Get the result from the response
+      const result = await response.json();
       if (response.ok) {
         console.log("Data saved successfully", result);
         goToNextStep();
@@ -228,6 +221,7 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
     } catch (error) {
       console.error("Error sending data to Google Sheets:", error);
     }
+    
     
   };
 
@@ -327,7 +321,7 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
                 placeholder="Your Name"
                 className="w-full p-2 border rounded-lg"
                 value={userName}
-                onChange={handleUserNameChange} // Handle name input
+                onChange={handleUserNameChange} 
               />
             </div>
             <div className="flex-1">
@@ -336,7 +330,7 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
                 placeholder="Your Company Name"
                 className="w-full p-2 border rounded-lg"
                 value={companyName}
-                onChange={handleCompanyNameChange} // Handle company name input
+                onChange={handleCompanyNameChange} 
               />
             </div>
             <div className="flex-1">
@@ -351,7 +345,7 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
             <button
               className="bg-blue-600 font-semibold text-white px-8 py-2 rounded-lg"
               onClick={() => {
-                handleCalculate();  // Perform calculation before going to the next step
+                handleCalculate();  
                 goToNextStep();
               }}
             >
@@ -361,7 +355,7 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
         </>
       ) : (
         <div className="text-center text-white">
-          <p>{result}</p> {/* Optionally display the result */}
+          <p>{result}</p>
           <button
             className="bg-blue-600 font-semibold text-white px-8 py-2 rounded-lg mt-6"
             onClick={() => setShowResult(false)}
