@@ -395,6 +395,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"beauty-loyalty-program.md": {
+	id: "beauty-loyalty-program.md";
+  slug: "beauty-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "beginners-guide-to-e-commerce-promotions.md": {
 	id: "beginners-guide-to-e-commerce-promotions.md";
   slug: "beginners-guide-to-e-commerce-promotions";
@@ -430,6 +437,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"bfcm-sale.md": {
+	id: "bfcm-sale.md";
+  slug: "bfcm-sale";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "black-friday-cyber-monday-record-success .md": {
 	id: "black-friday-cyber-monday-record-success .md";
   slug: "black-friday-cyber-monday-record-success-";
@@ -443,6 +457,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"brand-loyalty.md": {
+	id: "brand-loyalty.md";
+  slug: "brand-loyalty";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "build-customer-loyalty.md": {
 	id: "build-customer-loyalty.md";
@@ -486,6 +507,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"customer-loyalty-analytics.md": {
+	id: "customer-loyalty-analytics.md";
+  slug: "customer-loyalty-analytics";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "customer-loyalty-programs-will-they-benefit-my-business.md": {
 	id: "customer-loyalty-programs-will-they-benefit-my-business.md";
   slug: "customer-loyalty-programs-will-they-benefit-my-business";
@@ -520,6 +548,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"dtc-marketing.md": {
+	id: "dtc-marketing.md";
+  slug: "dtc-marketing";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "easter-promotion-ideas-for-brands-in-2022.md": {
 	id: "easter-promotion-ideas-for-brands-in-2022.md";
@@ -562,6 +597,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"ecommerce-loyalty-program.md": {
+	id: "ecommerce-loyalty-program.md";
+  slug: "ecommerce-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "ecommerce-marketing.md": {
 	id: "ecommerce-marketing.md";
@@ -744,6 +786,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"holiday-marketing-campaigns.md": {
+	id: "holiday-marketing-campaigns.md";
+  slug: "holiday-marketing-campaigns";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "holiday-shoppers-take-advantage-of-early-thanksgiving-deals.md": {
 	id: "holiday-shoppers-take-advantage-of-early-thanksgiving-deals.md";
@@ -1088,6 +1137,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"omnichannel-commerce.md": {
+	id: "omnichannel-commerce.md";
+  slug: "omnichannel-commerce";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "omnichannel-loyalty-programs.md": {
 	id: "omnichannel-loyalty-programs.md";
   slug: "omnichannel-loyalty-programs";
@@ -1144,6 +1200,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"referral-code.md": {
+	id: "referral-code.md";
+  slug: "referral-code";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "referral-marketing-vs-affiliate-marketing.md": {
 	id: "referral-marketing-vs-affiliate-marketing.md";
   slug: "referral-marketing-vs-affiliate-marketing";
@@ -1157,6 +1220,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"referral-marketing.md": {
+	id: "referral-marketing.md";
+  slug: "referral-marketing";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "referral-program-for-small-businesses.md": {
 	id: "referral-program-for-small-businesses.md";
@@ -1179,6 +1249,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"referral-program-ideas.md": {
+	id: "referral-program-ideas.md";
+  slug: "referral-program-ideas";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"referral-program.md": {
+	id: "referral-program.md";
+  slug: "referral-program";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "repeat-customer.md": {
 	id: "repeat-customer.md";
   slug: "repeat-customer";
@@ -1199,6 +1283,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"sales-promotion.md": {
+	id: "sales-promotion.md";
+  slug: "sales-promotion";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "self-use-gift-cards-impact-on-consumer-behaviour.md": {
 	id: "self-use-gift-cards-impact-on-consumer-behaviour.md";
@@ -1262,6 +1353,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"thanksgiving-marketing-ideas.md": {
+	id: "thanksgiving-marketing-ideas.md";
+  slug: "thanksgiving-marketing-ideas";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store.md": {
 	id: "the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store.md";
