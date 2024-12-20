@@ -11,9 +11,8 @@ const ROICalculator = () => {
     annualCustomers: 5000,
     ProfitMargin: 20,
     averageOrder:0,
-    Aov:0,
+    Aov:50,
     selectedIndustry: "",
-    email: "",
   });
 
   const goToNextStep = () => {
