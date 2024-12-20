@@ -39,7 +39,7 @@ This blog will go over both tactics in detail, explain their differences, and he
   <a role="link" href="#When-to-Use-Affiliate-Marketing-for-Business-Growth?" rel="noreferrer">When to Use Affiliate Marketing for Business Growth?</a>
   </li>
   <li>
-  <a role="link" href="#Key-Benefits-of-Referral-vs-Affiliate-Marketing" rel="noreferrer">Key Benefits of Referral vs. Affiliate Marketing</a>
+  <a role="link" href="#Key-Benefits-of-Referral-and-Affiliate-Marketing" rel="noreferrer">Key Benefits of Referral and Affiliate Marketing</a>
   </li>
   <li>
   <a role="link" href="#Cost-and-ROI:-Which-is-More-Profitable?" rel="noreferrer">Cost and ROI: Which is More Profitable?</a>
@@ -271,7 +271,7 @@ Affiliate marketing is perfect for scaling quickly, reaching niche audiences, or
 </ul>
 </ol>
 
-<h2 id="Cost-and-ROI:-Which-Is-More-Profitable?">Cost and ROI: Which Is More Profitable?</h2>
+<h2 id="Cost-and-ROI:-Which-is-More-Profitable?">Cost and ROI: Which is More Profitable?</h2>
 When comparing referral vs affiliate marketing in terms of profitability, both strategies offer unique advantages:
 
 <li><b>Referral Marketing:</b> Referral Marketing is less expensive because you only reward clients for successful referrals. Businesses typically find that reference marketing yields a high ROI due to the trust aspect.</li>
