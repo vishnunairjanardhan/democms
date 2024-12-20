@@ -52,7 +52,7 @@ const IndustryMarginForm = (goBack) => {
                   {industries.map((industry, index) => (
                     <button
                       key={index}
-                      className={`h-24 flex flex-col items-center p-3 border-white/5 rounded-lg bg-white hover:bg-gray-500 transition-colors ${selectedIndustry === industry ? 'bg-gray-500' : ''}`}
+                      className={`h-24 flex flex-col items-center p-3 border-white/5 rounded-lg bg-white hover:bg-gray-100 transition-colors ${selectedIndustry === industry ? 'bg-gray-500' : ''}`}
                       style={{
                         border: "1px solid #e7edf7",
                         cursor: "pointer",

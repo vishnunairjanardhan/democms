@@ -4,7 +4,7 @@
       <h3 class="mt-4 text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-white">
         Program experiences
       </h3>
-      <p class="mt-6 text-white">A hub for your customers to seamlessly get their referral link, redeem their store credit, claim gifts and more!</p>
+      <p class="px-2 mt-6 text-white">A hub for your customers to seamlessly get their referral link, redeem their store credit, claim gifts and more!</p>
     </div>
 
     <div class="flex flex-col w-full"
@@ -70,8 +70,8 @@
     x-init="init()"
   >
     
-  <div class="relative flex justify-center items-center w-full h-8 mx-auto mt-6 text-white select-none">
-    <div class="shadow-[0_4px_10px_rgba(255,255,255,0.2)] flex w-5/6 max-w-3xl p-2 rounded-3xl space-x-1 md:space-x-1 md:w-1/2 mx-auto">
+  <div class="relative flex justify-center items-center w-full h-8 mx-auto mt-6 px-2 text-white select-none">
+    <div class="shadow-[0_4px_10px_rgba(255,255,255,0.2)] flex lg:w-5/6 max-w-3xl p-2 rounded-3xl space-x-1 md:space-x-1 md:w-1/2 mx-auto">
       <button @click="activeSlide = 1;" :class="{ 'text-white [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] border font-bold rounded-3xl': activeSlide === 1, 'text-white font-bold': activeSlide !== 1 }" class="flex-1 text-xs md:text-sm px-2 py-1 md:px-2 md:py-2" id="portal">Giftcard</button>
       <button @click="activeSlide = 2;" :class="{ 'text-white [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] border font-bold rounded-3xl': activeSlide === 2, 'text-white font-bold': activeSlide !== 2 }" class="flex-1 text-xs md:text-sm px-2 py-1 md:px-2 md:py-2" id="program">Loyalty Widget</button>
       <button @click="activeSlide = 3;" :class="{ 'text-white [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] border font-bold rounded-3xl': activeSlide === 3, 'text-white font-bold': activeSlide !== 3 }" class="flex-1 text-xs md:text-sm px-2 py-1 md:px-2 md:py-2" id="cobranded">Cobranded Page</button>
