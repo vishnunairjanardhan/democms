@@ -250,7 +250,7 @@ const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) 
                         ? "bg-blue-500 text-white border-2 border-blue-500"
                         : "bg-white text-black border border-white/10"
                     }`}
-                    onClick={() => handleIndustrySelect(industry.name)} // Update local and parent state
+                    onClick={() => handleIndustrySelect(industry.name)} 
                   >
                     <div className="flex items-center justify-center mt-1">
                       {industry.imageSrc ? (
