@@ -161,56 +161,55 @@
 import React, { useState } from "react";
 import { industries } from "../../config/RoiConfig";
 
-const IndustryMarginForm = ({ goToNextStep, goBack }) => {
-  const [selectedMargin, setSelectedMargin] = useState("<10%");
+const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) => {
+  const { selectedIndustry } = userInputs; 
+
   const [email, setEmail] = useState("");
-  const [companyName, setCompanyName] = useState(""); 
-  const [userName, setUserName] = useState(""); 
-  const [selectedIndustry, setSelectedIndustry] = useState("");
+  const [companyName, setCompanyName] = useState("");
+  const [userName, setUserName] = useState("");
   const [showResult, setShowResult] = useState(false);
   const [result, setResult] = useState(null);
-
-  const handleMarginChange = (event) => {
-    setSelectedMargin(event.target.value);
-  };
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
   };
 
   const handleCompanyNameChange = (event) => {
-    setCompanyName(event.target.value); 
+    setCompanyName(event.target.value);
   };
 
   const handleUserNameChange = (event) => {
-    setUserName(event.target.value); 
+    setUserName(event.target.value);
   };
 
   const handleIndustrySelect = (industry) => {
-    setSelectedIndustry(industry); 
+    updateInputs("selectedIndustry", industry); 
   };
 
   const handleCalculate = async () => {
-    const calculationResult = `Your selected industry is ${selectedIndustry}, your margin range is ${selectedMargin}, and your email is ${email}.`;
-    setResult(calculationResult); 
-    setShowResult(true); 
+    const calculationResult = `Your selected industry is ${localSelectedIndustry}, and your email is ${email}.`;
+    setResult(calculationResult);
+    setShowResult(true);
 
     const formData = new URLSearchParams();
-    formData.append('userName', userName);
-    formData.append('companyName', companyName);
-    formData.append('email', email);
-    
+    formData.append("userName", userName);
+    formData.append("companyName", companyName);
+    formData.append("email", email);
+
     console.log("Form data being sent:", Object.fromEntries(formData));
-    
+
     try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycbzN7MG7oQv9eQmMJEuDYrU2mGl8LaCFLR3UfV1TUJIA_YVrQEFtp1LooDsBkVIheXo3fg/exec", {
-        method: "POST",
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded', 
-        },
-        body: formData.toString(),
-      });
-    
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbzN7MG7oQv9eQmMJEuDYrU2mGl8LaCFLR3UfV1TUJIA_YVrQEFtp1LooDsBkVIheXo3fg/exec",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: formData.toString(),
+        }
+      );
+
       const result = await response.json();
       if (response.ok) {
         console.log("Data saved successfully", result);
@@ -221,12 +220,10 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
     } catch (error) {
       console.error("Error sending data to Google Sheets:", error);
     }
-    
-    
   };
 
   return (
-    <div className="">
+    <div>
       {!showResult ? (
         <>
           <div className="py-2">
@@ -253,7 +250,7 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
                         ? "bg-blue-500 text-white border-2 border-blue-500"
                         : "bg-white text-black border border-white/10"
                     }`}
-                    onClick={() => handleIndustrySelect(industry.name)}
+                    onClick={() => handleIndustrySelect(industry.name)} // Update local and parent state
                   >
                     <div className="flex items-center justify-center mt-1">
                       {industry.imageSrc ? (
@@ -284,36 +281,7 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
                 ))}
               </div>
             </div>
-
-            {/* <div className="space-y-4">
-              <p className="text-lg font-semibold text-gray-200 whitespace-nowrap mt-2">
-                Your gross margin:
-              </p>
-              <div className="grid lg:grid-cols-6 gap-10 px-4">
-                {[
-                  "<10%",
-                  "10%-20%",
-                  "20%-30%",
-                  "30%-50%",
-                  "50%-70%",
-                  "70+%",
-                ].map((margin) => (
-                  <div key={margin} className="flex items-center space-x-2 text-gray-100">
-                    <input
-                      type="radio"
-                      id={margin}
-                      name="margin"
-                      value={margin}
-                      checked={selectedMargin === margin}
-                      onChange={handleMarginChange}
-                    />
-                    <label htmlFor={margin}>{margin}</label>
-                  </div>
-                ))}
-              </div>
-            </div> */}
           </div>
-
           <div className="flex gap-4 bg-gray-100 p-6 rounded-b-lg">
             <div className="flex-1">
               <input
@@ -321,7 +289,7 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
                 placeholder="Your Name"
                 className="w-full p-2 border rounded-lg"
                 value={userName}
-                onChange={handleUserNameChange} 
+                onChange={handleUserNameChange}
               />
             </div>
             <div className="flex-1">
@@ -330,7 +298,7 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
                 placeholder="Your Company Name"
                 className="w-full p-2 border rounded-lg"
                 value={companyName}
-                onChange={handleCompanyNameChange} 
+                onChange={handleCompanyNameChange}
               />
             </div>
             <div className="flex-1">
@@ -345,7 +313,7 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
             <button
               className="bg-blue-600 font-semibold text-white px-8 py-2 rounded-lg"
               onClick={() => {
-                handleCalculate();  
+                handleCalculate();
                 goToNextStep();
               }}
             >
@@ -369,4 +337,6 @@ const IndustryMarginForm = ({ goToNextStep, goBack }) => {
 };
 
 export default IndustryMarginForm;
+
+
 
