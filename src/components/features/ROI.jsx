@@ -11,9 +11,8 @@ const ROICalculator = () => {
     annualCustomers: 5000,
     ProfitMargin: 20,
     averageOrder:0,
-    Aov:0,
+    Aov:50,
     selectedIndustry: "",
-    email: "",
   });
 
   const goToNextStep = () => {
@@ -24,12 +23,19 @@ const ROICalculator = () => {
     setCurrentStep((prevStep) => prevStep - 1);
   };
 
-  const updateInputs = (key, value) => {
+  // const updateInputs = (key, value) => {
+  //   setUserInputs((prevInputs) => ({
+  //     ...prevInputs,
+  //     [key]: value,
+  //   }));
+  // };
+  const updateInputs = React.useCallback((key, value) => {
     setUserInputs((prevInputs) => ({
       ...prevInputs,
       [key]: value,
     }));
-  };
+  }, []);
+  
 
   return (
     <section className="lg:p-16 border-t border-y border-white/5">

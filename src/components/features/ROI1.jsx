@@ -1,22 +1,26 @@
 import React, { useState, useEffect } from "react";
 import ReactSlider from "react-slider";
 
-const LoyaltyROICalculator = ({ goToNextStep }) => {
-  // Define state variables for the inputs
-  const [annualOrders, setAnnualOrders] = useState(10000); // Default value
-  const [annualCustomers, setAnnualCustomers] = useState(500); // Default value
-  const [ProfitMargin, setProfitMargin] = useState(20); // Default value
-  const [Aov, setAov] = useState(50);
-  const [averageOrder, setAverageOrder] = useState(0);
+const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
+  const { annualOrders, annualCustomers, ProfitMargin, Aov } = userInputs;
 
   // Calculate Average Order Value (averageOrder)
+  // useEffect(() => {
+  //   if (annualCustomers > 0) {
+  //     setAverageOrder((annualOrders / annualCustomers).toFixed(2));
+  //   } else {
+  //     setAverageOrder(0); // Avoid division by zero
+  //   }
+  // }, [annualOrders, annualCustomers, updateInputs]);
+
   useEffect(() => {
     if (annualCustomers > 0) {
-      setAverageOrder((annualOrders / annualCustomers).toFixed(2));
+      updateInputs("averageOrder", (annualOrders / annualCustomers).toFixed(2));
     } else {
-      setAverageOrder(0); // Avoid division by zero
+      updateInputs("averageOrder", 0); 
     }
-  }, [annualOrders, annualCustomers]);
+  }, [annualOrders, annualCustomers, updateInputs]);
+  
 
   return (
     <section className="border-t border-y border-white/5">
@@ -33,7 +37,9 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
                   type="number"
                   className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md"
                   value={annualOrders}
-                  onChange={(e) => setAnnualOrders(Number(e.target.value))}
+                  onChange={(e) =>
+                    updateInputs("annualOrders", Number(e.target.value))
+                  }
                 />
               </div>
               <ReactSlider
@@ -43,7 +49,7 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
                 value={annualOrders}
                 min={0}
                 max={1000000}
-                onChange={(value) => setAnnualOrders(value)}
+                onChange={(value) => updateInputs("annualOrders", value)}
               />
               <p className="text-sm mt-4">
                 How many orders does your brand process per year?
@@ -61,7 +67,7 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
                   className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md"
                   value={annualCustomers}
                   onChange={(e) =>
-                    setAnnualCustomers(Number(e.target.value))
+                    updateInputs("annualCustomers", Number(e.target.value))
                   }
                 />
               </div>
@@ -72,7 +78,9 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
                 value={annualCustomers}
                 min={0}
                 max={200000}
-                onChange={(value) => setAnnualCustomers(value)}
+                onChange={(value) =>
+                  updateInputs("annualCustomers", value)
+                }
               />
               <p className="text-sm mt-4">
                 How many customers does your brand have annually?
@@ -89,7 +97,7 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
                     className="pl-10 w-full bg-vulcan-900 border px-4 text-right text-white rounded-md"
                     value={ProfitMargin}
                     onChange={(e) =>
-                      setProfitMargin(Number(e.target.value))
+                      updateInputs("ProfitMargin", Number(e.target.value))
                     }
                   />
                   <span className="absolute top-1/2 left-3 transform -translate-y-1/2 text-white">
@@ -104,7 +112,9 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
                 value={ProfitMargin}
                 min={0}
                 max={100}
-                onChange={(value) => setProfitMargin(value)}
+                onChange={(value) =>
+                  updateInputs("ProfitMargin", value)
+                }
               />
               <p className="text-sm mt-4">What is your profit margin?</p>
             </div>
@@ -118,7 +128,9 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
                     type="number"
                     className="pl-10 w-full bg-vulcan-900 border px-4 text-right text-white rounded-md"
                     value={Aov}
-                    onChange={(e) => setAov(Number(e.target.value))}
+                    onChange={(e) =>
+                      updateInputs("Aov", Number(e.target.value))
+                    }
                   />
                   <span className="absolute top-1/2 left-3 transform -translate-y-1/2 text-white">
                     $
@@ -132,7 +144,7 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
                 value={Aov} // Corrected the value here
                 min={0}
                 max={10000}
-                onChange={(value) => setAov(value)} // Corrected the onChange handler
+                onChange={(value) => updateInputs("Aov", value)}
               />
               <p className="text-sm mt-4">What is your average order value?</p>
             </div>
@@ -141,7 +153,7 @@ const LoyaltyROICalculator = ({ goToNextStep }) => {
           {/* Right Section */}
           <div className="bg-[#202130] bg-cover px-10 py-8 rounded-tr-md rounded-br-md">
             <p className="p-4 text-2xl rounded-lg text-center border border-white/60 bg-black font-bold text-white mb-4">
-              ${averageOrder}
+            {userInputs.averageOrder}
             </p>
             <p className="text-xl text-white text-center mb-4">
               Average Order per Customer
