@@ -4,15 +4,6 @@ import ReactSlider from "react-slider";
 const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
   const { annualOrders, annualCustomers, ProfitMargin, Aov } = userInputs;
 
-  // Calculate Average Order Value (averageOrder)
-  // useEffect(() => {
-  //   if (annualCustomers > 0) {
-  //     setAverageOrder((annualOrders / annualCustomers).toFixed(2));
-  //   } else {
-  //     setAverageOrder(0); // Avoid division by zero
-  //   }
-  // }, [annualOrders, annualCustomers, updateInputs]);
-
   useEffect(() => {
     if (annualCustomers > 0) {
       updateInputs("averageOrder", (annualOrders / annualCustomers).toFixed(2));

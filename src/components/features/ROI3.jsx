@@ -3,7 +3,6 @@ import React from "react";
 const ResultsSection = ({ userInputs = {}, goBack }) => {
     const { annualOrders = 0, annualCustomers = 0, ProfitMargin = 0, Aov = 0 } = userInputs;
   
-  
     // Calculate revenue and profit impact
     const annualRevenue = (Aov * annualOrders).toFixed(2);
     
