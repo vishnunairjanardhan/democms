@@ -152,8 +152,8 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
           </div>
 
           {/* Right Section */}
-          <div className="bg-[#202130] bg-cover px-10 py-8 rounded-tr-md rounded-br-md">
-            <p className="p-4 text-2xl rounded-lg text-center border border-white/60 bg-black font-bold text-white mb-4">
+          <div className="bg-[#202130] bg-cover px-20 py-8 rounded-tr-md rounded-br-md">
+            <p className="p-4 text-3xl rounded-lg text-center border border-white/60 bg-black font-bold text-white mb-4">
             {userInputs.averageOrder}
             </p>
             <p className="text-xl text-white text-center mt-6">
