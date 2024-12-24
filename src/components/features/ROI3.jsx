@@ -9,53 +9,63 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
     const profitImpact = ((annualRevenue * ProfitMargin) / 100).toFixed(2);
   
     return (
-      <section className="lg:p-16 border-t border-y border-white/5">
-        <div className="py-6 bg-white h-auto items-center rounded-lg mx-0 transition-shadow duration-300 flex flex-col">
-          <p className="px-0 font-semibold text-2xl lg:float-left text-center text-black">
-            Your Inputs
-          </p>
-          <div className="grid grid-cols-2 gap-12 px-6 float-left mt-8 lg:mr-auto w-full">
-            <div className="col-span-1">
-              <p className="px-2 text-black text-base text-left rounded-md">Annual Orders</p>
-              <p className="px-2 text-black text-base font-semibold rounded-md">
-                {annualOrders}
-              </p>
-            </div>
-            <div>
-              <p className="px-2 text-black text-base text-left rounded-md">Annual Customers</p>
-              <p className="px-2 text-black text-base font-semibold rounded-md">
-                {annualCustomers}
-              </p>
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-12 px-6 float-left mt-6 lg:mr-auto w-full">
-            <div className="col-span-1">
-              <p className="px-2 text-black text-base text-left rounded-md">AOV</p>
-              <p className="px-2 text-black text-base font-semibold rounded-md">${Aov}</p>
-            </div>
-            <div>
-              <p className="px-2 text-black text-base text-left rounded-md">Profit Margin</p>
-              <p className="px-2 text-black text-base font-semibold rounded-md">{ProfitMargin}%</p>
-            </div>
-          </div>
-          <div className="mr-auto px-8 mt-6 w-full border-t pt-6">
-            <p className="text-base text-black">Annual Revenue</p>
-            <p className="w-full mt-2 h-14 bg-gray-800 text-center text-white text-2xl font-semibold rounded-md">
-              ${annualRevenue}
-            </p>
-            <p className="mt-6 text-base text-black">Profit Impact</p>
-            <p className="w-full mt-2 h-14 bg-gray-800 text-center text-white text-2xl font-semibold rounded-md">
-              ${profitImpact}
-            </p>
-          </div>
-          <div className="mt-8">
+      <section className="lg:p-0">
+         <div className="mt-4 pb-6">
             <button
               onClick={goBack}
-              className="bg-gradient-to-r from-[#ff8a05] via-[#ff5478] to-[#ff00c6] text-white px-6 py-2 rounded-md font-medium"
+              className="w-32 raise bg-gradient-to-r from-[#ff8a05] via-[#ff5478] to-[#ff00c6] text-white px-6 py-2 rounded-md font-medium"
             >
               Back
             </button>
           </div>
+        <div className="lg:max-w-7xl col-span-1 lg:col-span-2 bg-white rounded-lg lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
+          <div className="grid lg:grid-cols-2 pb-6">
+            <div className="grid col-span-1">
+            <p className="px-8 mt-6 font-semibold text-2xl lg:float-left text-black">
+            Your Inputs
+          </p>
+              <div className="grid lg:grid-cols-2 gap-8 px-6 float-left mt-0 lg:mr-auto w-full ">
+                <div className="col-span-1 shadow-xl border rounded-lg p-6 mb-0 h-28 w-64 lg:w-full">
+                  <p className="px-2 text-black text-left rounded-md">Annual Orders</p>
+                  <p className="p-2 text-black font-semibold rounded-md">
+                    {annualOrders}
+                  </p>
+                </div>
+                <div className="shadow-xl border rounded-lg p-6 mb-0 h-28 w-64 lg:w-full">
+                  <p className="px-2 text-black text-left rounded-md">Annual Customers</p>
+                  <p className="p-2 text-black font-semibold rounded-md">
+                    {annualCustomers}
+                  </p>
+                </div>
+              </div>
+              <div className="grid lg:grid-cols-2 gap-8 px-6 float-left mt-6 lg:mr-auto w-full">
+                <div className="col-span-1 shadow-xl border rounded-lg p-6 mb-0 h-28 w-64 lg:w-full">
+                  <p className="px-2 text-black text-left rounded-md">AOV</p>
+                  <p className="p-2 text-black font-semibold rounded-md">${Aov}</p>
+                </div>
+                <div className="shadow-xl border rounded-lg p-6 mb-0 h-28 w-64 lg:w-full">
+                  <p className="px-2 text-black  text-left rounded-md">Profit Margin</p>
+                  <p className="p-2 text-black font-semibold rounded-md">{ProfitMargin}%</p>
+                </div>
+              </div>
+            </div>
+            <div className="grid col-span-1 gap-16 mt-12 lg:px-12 pb-4">  
+              <div className="lg:mr-auto px-8 w-full item-center border py-8 rounded-lg">
+                <p className=" text-black justify-center">Annual Revenue</p>
+                <div className="item-center mt-2">
+                  <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
+                    ${annualRevenue}
+                  </p>
+                </div>
+                <p className="mt-8 text-black">Profit Impact</p>
+                <div className="item-center mt-2">
+                  <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
+                    ${profitImpact}
+                  </p>
+                </div>  
+              </div>
+            </div>
+          </div>  
         </div>
       </section>
     );

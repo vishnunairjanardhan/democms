@@ -16,12 +16,12 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
   return (
     <section className="border-t border-y border-white/5">
       {/* Middle Section */}
-      <div className="lg:max-w-7xl col-span-1 lg:col-span-2 bg-white rounded-lg mx-4 lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
+      <div className="lg:max-w-7xl col-span-1 lg:col-span-2 bg-white rounded-lg lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
         <div className="grid lg:grid-cols-3">
           {/* Left Section */}
-          <div className="lg:col-span-1 pt-8 pl-8 pr-4">
+          <div className="lg:col-span-1 pt-8 pl-4 pr-8">
             {/* Annual Orders */}
-            <div className="shadow-xl border rounded-lg p-6 mb-0 h-44">
+            <div className="shadow-xl border rounded-lg p-6 mb-0 lg:h-44">
               <div className="flex items-center mb-4">
                 <p className="font-semibold text-black">Your annual orders</p>
                 <input
@@ -48,7 +48,7 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
             </div>
 
             {/* Annual Customers */}
-            <div className="shadow-xl border rounded-lg p-6 mb-0 h-44 mt-8">
+            <div className="shadow-xl border rounded-lg p-6 mb-0 lg:h-44 mt-8">
               <div className="flex items-center mb-4">
                 <p className="font-semibold text-black">
                   Your annual customers
