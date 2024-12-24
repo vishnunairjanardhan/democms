@@ -238,17 +238,17 @@ const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) 
               </span>
             </button>
           </div>
-          <div className="mt-4 py-10 grid lg:grid-cols-3 justify-between w-full mx-auto p-6 space-y-6 border border-opacity-70 border-white/20 bg-[#202130] bg-cover rounded-lg">
+          <div className="mt-4 py-10 grid lg:grid-cols-3 justify-between w-full mx-auto p-6 space-y-6 border border-opacity-70 border-white/20 bg-white bg-cover rounded-lg">
             <div className="space-y-4 col-span-2 px-4">
-              <p className="text-lg font-semibold text-gray-200">Industry:</p>
+              <p className="text-lg font-semibold text-black">Industry:</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[1.5rem] px-4">
                 {industries.map((industry, index) => (
                   <button
                     key={index}
                     className={`h-24 flex flex-col items-center text-center p-3 rounded-lg transition-colors ${
                       selectedIndustry === industry.name
-                        ? "bg-[#F7D691]"
-                        : "bg-white text-black border border-white/10"
+                        ? "bg-[#F7D691] shadow shadow-md"
+                        : "bg-white text-black border shadow shadow-md"
                     }`}
                     onClick={() => handleIndustrySelect(industry.name)} 
                   >
@@ -310,7 +310,7 @@ const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) 
               </div>
             </div> */}
             <div className="grid col-span-1 px-4">
-              <div className="gap-4 bg-vulcan-800 p-6 rounded-lg mt-6 border border-white/10">
+              <div className="gap-4 bg-vulcan-800 lg:p-6 rounded-lg mt-6 border border-white/10">
                 <div className="flex-1 mt-6 px-4">
                   <input
                     type="text"
@@ -338,7 +338,7 @@ const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) 
                     onChange={handleEmailChange}
                   />
                 </div>
-                <div className="px-4 mt-3">
+                <div className="px-4 lg:pb-0 pb-4 mt-3">
                   <button
                     className="bg-blue-600 font-semibold text-white px-8 py-2 rounded-lg"
                     onClick={() => {
