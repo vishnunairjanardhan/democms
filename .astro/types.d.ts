@@ -514,6 +514,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"customer-retention.md": {
+	id: "customer-retention.md";
+  slug: "customer-retention";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "digital-vs.-physical-gift-card.md": {
 	id: "digital-vs.-physical-gift-card.md";
   slug: "digital-vs-physical-gift-card";
