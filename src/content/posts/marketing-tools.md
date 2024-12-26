@@ -21,6 +21,9 @@ As we approach 2024, businesses must arm themselves with the right tools to stay
 <P>Table of Contents:</P>
 <ul>
   <li>  
+    <a role="link" href="#What-are-Marketing-Tools?" rel="noreferrer">What are Marketing Tools?</a>
+  </li>
+  <li>  
     <a role="link" href="#Categories-of-Marketing-Tools" rel="noreferrer">Categories of Marketing Tools</a>
   </li>
   <li>  
@@ -34,6 +37,12 @@ As we approach 2024, businesses must arm themselves with the right tools to stay
   </li>  
 </ul>
 </div>
+
+<h2 id="What-are-Marketing-Tools?">What are Marketing Tools?</h2>
+
+Marketing tools are platforms, software, or resources designed to help businesses execute, manage, and analyze their marketing activities. These tools streamline various aspects of marketing, such as automating email campaigns, scheduling social media posts, tracking analytics, managing customer relationships, and boosting customer retention.
+
+By using marketing tools, businesses can save time, increase efficiency, and improve the effectiveness of their campaigns. They are essential for creating data-driven strategies, engaging with customers, and achieving marketing goals in a competitive landscape.
 
 <h2 id="Categories-of-Marketing-Tools">Categories of Marketing Tools</h2>
 
@@ -96,14 +105,47 @@ Virtual events have become a powerful way to connect with audiences. Webinar and
 </li>
 </ol>
 
-<h2 id="Essential-Marketing-Tools">Essential Marketing Tools</h2>
+<!-- 
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA button"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<h2 class="m-0 mb-4" id="Essential-Marketing-Tools">Essential Marketing Tools</h2>
 
 <h3>Customer Loyalty and Retention Tools</h3>
 <ol>
 <li>
 <h4>99minds</h4>
 
-99minds is a customer retention and loyalty platform designed to help businesses build meaningful connections with their audience. Whether you’re looking to create loyalty programs, <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blanck">reward repeat customers</a>, or <a href="https://www.99minds.io/blog/referral-program-ideas" role="link" target="_blanck">boost referrals</a>, 99minds offers a comprehensive solution tailored to your business needs.
+<a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a> is a customer retention and loyalty platform designed to help businesses build meaningful connections with their audience. Whether you’re looking to create loyalty programs, <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blanck">reward repeat customers</a>, or <a href="https://www.99minds.io/blog/referral-program-ideas" role="link" target="_blanck">boost referrals</a>, 99minds offers a comprehensive solution tailored to your business needs.
 
 If you’re shifting from traditional discounting strategies to more engaging loyalty-driven campaigns, 99minds is an ideal tool. Its versatility has made it a preferred choice for businesses focusing on retention and long-term customer value.
 
@@ -115,21 +157,9 @@ If you’re shifting from traditional discounting strategies to more engaging lo
 <ul>
 <li><b>Customizable Loyalty Programs:</b> Build programs that reflect your brand identity and cater to your unique audience.</li>
 
-<div class="m-auto w-full lg:px-33">
-    <img loading="lazy" role="img" src="/assets/blog/customizable_loyalty_programs.webp" alt="99minds Customizable Loyalty Programs">
-</div>
-
 <li><b>Seamless Integrations:</b> Connect easily with Shopify, Salesforce, and other popular platforms for a smooth experience.</li>
 
-<div class="m-auto w-full lg:px-33">
-    <img loading="lazy" role="img" src="/assets/blog/99minds_integrations.webp" alt="99minds Integrations">
-</div>
-
 <li><b>Referral Programs:</b> Turn your customers into advocates by incentivizing referrals.</li>
-
-<div class="m-auto w-full lg:px-33">
-    <img loading="lazy" role="img" src="/assets/blog/manage_referral_programs.webp" alt="99minds manage referral program">
-</div>
 
 <li><b>Data-Driven Insights:</b> Use detailed analytics to predict customer behavior and improve retention strategies.</li> 
 
@@ -1269,6 +1299,8 @@ For event organizers and businesses seeking to host dynamic virtual events, Hopi
 Explore Hopin to create impactful virtual events that connect and inspire your audience.
 </li>
 </ol>
+
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <h2 id="Final-Words-on-Marketing-Tools">Final Words on Marketing Tools</h2>
 
