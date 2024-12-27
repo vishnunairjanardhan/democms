@@ -432,7 +432,7 @@ What Makes Sephora's Beauty Insider Program Exceptional?
 <li>Transparent and Detailed Benefits</li>
 Sephora ensures that its customers understand how to benefit from the program. The company provides clear instructions on earning points, redeeming rewards, and progressing through the membership tiers, creating an informed and confident customer base.
 <li> Exclusive Perks</li>
-One hallmark of Sephora’s eCommerce loyalty program is its emphasis on exclusivity. With a multi-tiered rewards structure, the program provides unique benefits to loyal members, reinforcing customer value and <a href="https://www.99minds.io/blog/what-is-brand-loyalty">brand loyalty</a>. This includes access to limited-edition products and exclusive sales, ensuring ongoing engagement.
+One hallmark of Sephora’s eCommerce loyalty program is its emphasis on exclusivity. With a multi-tiered rewards structure, the program provides unique benefits to loyal members, reinforcing customer value and <a href="https://www.99minds.io/blog/brand-loyalty">brand loyalty</a>. This includes access to limited-edition products and exclusive sales, ensuring ongoing engagement.
 <li>Flexible Points-Earning Options</li>
 Beauty Insider members earn points through various channels, including purchases made on Sephora's mobile app, website, and in physical stores. Additionally, they can accumulate points at partner retailers and salons, offering unparalleled flexibility and convenience.
 <li>Tiered Membership Structure</li>
