@@ -25,12 +25,12 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
   return (
     <section className="border-t border-y border-white/5">
       {/* Middle Section */}
-      <div className="lg:max-w-4xl col-span-1 lg:col-span-2 bg-white rounded-lg mx-4 lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
+      <div className="lg:max-w-7xl col-span-1 lg:col-span-2 bg-white rounded-lg lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
         <div className="grid lg:grid-cols-3">
           {/* Left Section */}
-          <div className="lg:col-span-2 p-8">
+          <div className="lg:col-span-1 pt-8 pl-4 pr-8">
             {/* Annual Orders */}
-            <div className="shadow-xl border rounded-lg p-6 mb-6">
+            <div className="shadow-xl border rounded-lg p-6 mb-0 lg:h-44">
               <div className="flex items-center mb-4">
                 <p className="font-semibold text-black">Your annual orders</p>
                 <input
@@ -57,7 +57,7 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
             </div>
 
             {/* Annual Customers */}
-            <div className="shadow-xl border rounded-lg p-6 mb-6">
+            <div className="shadow-xl border rounded-lg p-6 mb-0 lg:h-44 mt-8">
               <div className="flex items-center mb-4">
                 <p className="font-semibold text-black">
                   Your annual customers
@@ -86,9 +86,10 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
                 How many customers does your brand have annually?
               </p>
             </div>
-
+          </div>
+          <div className="col-span-1 pt-8 pl-4 pr-8">
             {/* Profit Margin */}
-            <div className="shadow-xl border rounded-lg p-6">
+            <div className="shadow-xl border rounded-lg p-6 h-44">
               <div className="flex items-center mb-4">
                 <p className="font-semibold text-black">Profit Margin</p>
                 <div className="relative w-32 ml-auto">
@@ -120,7 +121,7 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
             </div>
 
             {/* Average Order Value (AOV) */}
-            <div className="shadow-xl border rounded-lg p-6">
+            <div className="shadow-xl border rounded-lg p-6 mt-8 h-44">
               <div className="flex items-center mb-4">
                 <p className="font-semibold text-black">AOV </p>
                 <div className="relative w-32 ml-auto">
@@ -151,14 +152,14 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
           </div>
 
           {/* Right Section */}
-          <div className="bg-[#202130] bg-cover px-10 py-8 rounded-tr-md rounded-br-md">
-            <p className="p-4 text-2xl rounded-lg text-center border border-white/60 bg-black font-bold text-white mb-4">
+          <div className="bg-[#202130] bg-cover px-20 py-8 rounded-tr-md rounded-br-md">
+            <p className="p-4 text-3xl rounded-lg text-center border border-white/60 bg-black font-bold text-white mb-4">
             {userInputs.averageOrder}
             </p>
-            <p className="text-xl text-white text-center mb-4">
+            <p className="text-xl text-white text-center mt-6">
               Average Order per Customer
             </p>
-            <p className="text-sm text-center text-white mb-6">
+            <p className="text-sm text-center text-white mt-2 mb-4">
               Purchases per customer is the metric that is typically most
               impacted by a loyalty program. Programs can be designed to focus
               on increasing repeat purchase rate, decreasing time to second

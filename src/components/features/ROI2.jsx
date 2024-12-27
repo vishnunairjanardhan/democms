@@ -238,17 +238,17 @@ const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) 
               </span>
             </button>
           </div>
-          <div className="mt-4 lg:flex-row justify-between w-full mx-auto p-6 space-y-6 border border-opacity-70 border-white/20 bg-[#202130] bg-cover rounded-t-lg mt-18">
-            <div className="space-y-4">
-              <p className="text-lg font-semibold text-gray-200">Industry:</p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[1.5rem] px-4">
+          <div className="mt-4 py-10 grid lg:grid-cols-3 justify-between w-full mx-auto p-6 space-y-6 border border-opacity-70 border-white/20 bg-white bg-cover rounded-lg">
+            <div className="space-y-4 col-span-2 px-4">
+              <p className="text-lg font-semibold text-black">Industry:</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[1.5rem] px-4">
                 {industries.map((industry, index) => (
                   <button
                     key={index}
                     className={`h-24 flex flex-col items-center text-center p-3 rounded-lg transition-colors ${
                       selectedIndustry === industry.name
-                        ? "bg-blue-500 text-white border-2 border-blue-500"
-                        : "bg-white text-black border border-white/10"
+                        ? "bg-[#F7D691] shadow shadow-md"
+                        : "bg-white text-black border shadow shadow-md"
                     }`}
                     onClick={() => handleIndustrySelect(industry.name)} 
                   >
@@ -281,45 +281,79 @@ const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) 
                 ))}
               </div>
             </div>
+
+            {/* <div className="space-y-4">
+              <p className="text-lg font-semibold text-gray-200 whitespace-nowrap mt-2">
+                Your gross margin:
+              </p>
+              <div className="grid lg:grid-cols-6 gap-10 px-4">
+                {[
+                  "<10%",
+                  "10%-20%",
+                  "20%-30%",
+                  "30%-50%",
+                  "50%-70%",
+                  "70+%",
+                ].map((margin) => (
+                  <div key={margin} className="flex items-center space-x-2 text-gray-100">
+                    <input
+                      type="radio"
+                      id={margin}
+                      name="margin"
+                      value={margin}
+                      checked={selectedMargin === margin}
+                      onChange={handleMarginChange}
+                    />
+                    <label htmlFor={margin}>{margin}</label>
+                  </div>
+                ))}
+              </div>
+            </div> */}
+            <div className="grid col-span-1 px-4">
+              <div className="gap-4 bg-vulcan-800 lg:p-6 rounded-lg mt-6 border border-white/10">
+                <div className="flex-1 mt-6 px-4">
+                  <input
+                    type="text"
+                    placeholder="Your Name"
+                    className="w-full p-2 border rounded-lg px-4"
+                    value={userName}
+                    onChange={handleUserNameChange} // Handle name input
+                  />
+                </div>
+                <div className="p-4 mt-3">
+                  <input
+                    type="text"
+                    placeholder="Your Company Name"
+                    className="w-full p-2 border rounded-lg px-4"
+                    value={companyName}
+                    onChange={handleCompanyNameChange} // Handle company name input
+                  />
+                </div>
+                <div className="flex-1 mt-3 pb-4 px-4">
+                  <input
+                    type="email"
+                    placeholder="Your Email"
+                    className="w-full p-2 border rounded-lg px-4"
+                    value={email}
+                    onChange={handleEmailChange}
+                  />
+                </div>
+                <div className="px-4 lg:pb-0 pb-4 mt-3">
+                  <button
+                    className="bg-blue-600 font-semibold text-white px-8 py-2 rounded-lg"
+                    onClick={() => {
+                      handleCalculate();  // Perform calculation before going to the next step
+                      goToNextStep();
+                    }}
+                  >
+                    
+                    Calculate
+                  </button>
+                </div>
+              </div>
+             </div>
           </div>
-          <div className="flex gap-4 bg-gray-100 p-6 rounded-b-lg">
-            <div className="flex-1">
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="w-full p-2 border rounded-lg"
-                value={userName}
-                onChange={handleUserNameChange}
-              />
-            </div>
-            <div className="flex-1">
-              <input
-                type="text"
-                placeholder="Your Company Name"
-                className="w-full p-2 border rounded-lg"
-                value={companyName}
-                onChange={handleCompanyNameChange}
-              />
-            </div>
-            <div className="flex-1">
-              <input
-                type="email"
-                placeholder="Your Email"
-                className="w-full p-2 border rounded-lg"
-                value={email}
-                onChange={handleEmailChange}
-              />
-            </div>
-            <button
-              className="bg-blue-600 font-semibold text-white px-8 py-2 rounded-lg"
-              onClick={() => {
-                handleCalculate();
-                goToNextStep();
-              }}
-            >
-              Calculate
-            </button>
-          </div>
+          
         </>
       ) : (
         <div className="text-center text-white">

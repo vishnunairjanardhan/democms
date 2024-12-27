@@ -92,7 +92,7 @@ A sales promotion is a limited-time offer or deal designed to prompt immediate b
 
 <h2 class="m-0 mb-4" id="Benefits-of-Sales-Promotion">Benefits of Sales Promotion</h2>
 
-Sales promotion can be game-changers for businesses, influencing everything from customer acquisition to <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blanck">brand loyalty</a>. Here’s a closer look at the core benefits:
+Sales promotion can be game-changers for businesses, influencing everything from customer acquisition to <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">brand loyalty</a>. Here’s a closer look at the core benefits:
 <ol>
 <li>
 <h3>Increasing Brand Awareness</h3>
@@ -216,7 +216,7 @@ Free trials offer customers the opportunity to try a product or service before m
 <li>
 <h3>Subscriptions</h3>
 
-Subscription discounts incentivize customers to commit to recurring purchases by offering a reduced rate for ongoing orders. This model is common in consumable goods (like pet food or supplements) and creates a predictable revenue stream while <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blanck">encouraging brand loyalty.</a>
+Subscription discounts incentivize customers to commit to recurring purchases by offering a reduced rate for ongoing orders. This model is common in consumable goods (like pet food or supplements) and creates a predictable revenue stream while <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">encouraging brand loyalty.</a>
 </li>
 
 <li>

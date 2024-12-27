@@ -38,20 +38,20 @@ const ROICalculator = () => {
   
 
   return (
-    <section className="lg:p-16 border-t border-y border-white/5">
-      <div className="flex lg:flex-row flex-col items-stretch grid grid-cols-1 lg:grid-cols-3 gap-5 mx-auto max-w-7xl py-12 lg:px-0 md:px-0 px-6 sm:px-4 w-full">
+    <section className="lg:px-16 py-0 border-t border-y border-white/5">
+      <div className="items-stretch gap-5 mx-auto max-w-7xl py-12 lg:px-0 md:px-0 px-6 sm:px-4 w-full">
         {/* Left Section */}
-        <div className="py-6 items-center rounded-lg mx-0 transition-shadow duration-300 flex flex-col">
-          <h2 className="px-16 font-semibold lg:text-left text-center">
+        <div className="py-6 items-center rounded-lg mx-0 transition-shadow duration-300">
+          <h2 className="px-0 font-semibold lg:text-left text-center">
             Loyalty ROI Calculator
           </h2>
-          <p className="px-16 mt-4 text-center text-base lg:text-left">
+          <p className="px-0 mt-4 text-center text-base lg:text-left">
             Calculate the potential revenue uplift from a Loyalty & Referrals program.
           </p>
         </div>
 
         {/* Middle Section */}
-        <div className="lg:max-w-4xl col-span-1 lg:col-span-2 rounded-lg mx-4 lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
+        <div className="lg:max-w-7xl mt-2 col-span-1 lg:col-span-1 rounded-lg mx-4 lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
           {currentStep === 1 && (
             <LoyaltyROICalculator
               userInputs={userInputs}

@@ -84,7 +84,7 @@ The most effective loyalty programs share a few essential characteristics:
 <li>
 <h3>Personalization</h3>
 
-Personalization is crucial to delivering a customer-centric loyalty program. By leveraging customer data, brands can tailor rewards, offers, and recommendations that align with individual preferences and past behavior. This helps create a unique experience for each customer, increasing engagement and <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blanck">brand loyalty</a>.
+Personalization is crucial to delivering a customer-centric loyalty program. By leveraging customer data, brands can tailor rewards, offers, and recommendations that align with individual preferences and past behavior. This helps create a unique experience for each customer, increasing engagement and <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">brand loyalty</a>.
 </li>
 
 <li>
