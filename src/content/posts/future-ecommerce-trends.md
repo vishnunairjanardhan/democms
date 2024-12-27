@@ -53,7 +53,7 @@ In today’s market, customers engage with brands through various touchpoints, s
 
 A robust omnichannel strategy also entails gathering and analyzing unified customer data to personalize experiences and enhance service. Businesses that effectively implement omnichannel strategies can enhance customer retention. Research indicates that those with strong omnichannel retailing retain 89% of their customers. 
 
-As consumer preferences evolve, businesses must adapt by embracing new channels and technologies to meet customer expectations and remain competitive in the expanding landscape of omnichannel opportunities. Businesses that embrace this future eCommerce trend will see enhanced customer retention and <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blanck">brand loyalty</a>.
+As consumer preferences evolve, businesses must adapt by embracing new channels and technologies to meet customer expectations and remain competitive in the expanding landscape of omnichannel opportunities. Businesses that embrace this future eCommerce trend will see enhanced customer retention and <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">brand loyalty</a>.
 </li>
 
 <li>
@@ -147,7 +147,7 @@ The easiest way to capture your customers’ attention is to make them interact 
 <li>
 <h3>Customized Loyalty Programs</h3>
 
-Customized loyalty programs are increasingly crucial in the eCommerce market as companies seek to bolster customer connections and improve retention. These programs go beyond traditional point-based systems, providing individualized incentives, exclusive access, and tailored experiences that matter to each customer. Their purpose is to encourage repeat purchases, enhance customer engagement, and cultivate lasting <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blanck">brand loyalty</a>. 
+Customized loyalty programs are increasingly crucial in the eCommerce market as companies seek to bolster customer connections and improve retention. These programs go beyond traditional point-based systems, providing individualized incentives, exclusive access, and tailored experiences that matter to each customer. Their purpose is to encourage repeat purchases, enhance customer engagement, and cultivate lasting <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">brand loyalty</a>. 
 
 To capitalize on this trend, eCommerce businesses can leverage data analytics to categorize customers according to their behaviors and preferences and offer personalized incentives like discounts on frequently purchased items, early access to sales, or special rewards. By integrating loyalty programs across various channels, such as websites, mobile apps, and brick-and-mortar stores, companies can create a cohesive and captivating experience that motivates customers to return.
 </li>

@@ -332,6 +332,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"Christmas-marketing-ideas.md": {
+	id: "Christmas-marketing-ideas.md";
+  slug: "christmas-marketing-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md": {
 	id: "Ways to Incorporate Gift Cards Into Your Customer Retention Strategy.md";
   slug: "ways-to-incorporate-gift-cards-into-your-customer-retention-strategy";
@@ -430,23 +437,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"build-customer-loyalty.md": {
-	id: "build-customer-loyalty.md";
-  slug: "build-customer-loyalty";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"build-customer-loyalty.md": {
-	id: "build-customer-loyalty.md";
-  slug: "build-customer-loyalty";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"build-customer-loyalty.md": {
-	id: "build-customer-loyalty.md";
-  slug: "build-customer-loyalty";
+"brand-loyalty.md": {
+	id: "brand-loyalty.md";
+  slug: "brand-loyalty";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -472,9 +465,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"coupon-advertising-ways-to-make-it-work-for-your-business.md": {
-	id: "coupon-advertising-ways-to-make-it-work-for-your-business.md";
-  slug: "coupon-advertising-ways-to-make-it-work-for-your-business";
+"coupon-marketing.md": {
+	id: "coupon-marketing.md";
+  slug: "coupon-marketing";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -559,6 +552,20 @@ declare module 'astro:content' {
 "ecommerce-gift-cards-for-refunds.md": {
 	id: "ecommerce-gift-cards-for-refunds.md";
   slug: "ecommerce-gift-cards-for-refunds";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"ecommerce-loyalty-program.md": {
+	id: "ecommerce-loyalty-program.md";
+  slug: "ecommerce-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"ecommerce-marketing.md": {
+	id: "ecommerce-marketing.md";
+  slug: "ecommerce-marketing";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -727,6 +734,13 @@ declare module 'astro:content' {
 "holiday-2020-a-retail-season-like-no-other.md": {
 	id: "holiday-2020-a-retail-season-like-no-other.md";
   slug: "holiday-2020-a-retail-season-like-no-other";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"holiday-marketing-campaigns.md": {
+	id: "holiday-marketing-campaigns.md";
+  slug: "holiday-marketing-campaigns";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1018,6 +1032,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"marketing-tools.md": {
+	id: "marketing-tools.md";
+  slug: "marketing-tools";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "ml-techniques-to-improve-customer-engagement.md": {
 	id: "ml-techniques-to-improve-customer-engagement.md";
   slug: "ml-techniques-to-improve-customer-engagement";
@@ -1151,6 +1172,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"referral-program-ideas.md": {
+	id: "referral-program-ideas.md";
+  slug: "referral-program-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "referral-program.md": {
 	id: "referral-program.md";
   slug: "referral-program";
@@ -1161,6 +1189,13 @@ declare module 'astro:content' {
 "repeat-customer.md": {
 	id: "repeat-customer.md";
   slug: "repeat-customer";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"retail-loyalty-program.md": {
+	id: "retail-loyalty-program.md";
+  slug: "retail-loyalty-program";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1406,13 +1441,6 @@ declare module 'astro:content' {
 "what-is-an-ecommerce-gift-card-and-how-does-it-work.md": {
 	id: "what-is-an-ecommerce-gift-card-and-how-does-it-work.md";
   slug: "what-is-an-ecommerce-gift-card-and-how-does-it-work";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"what-is-brand-loyalty.md": {
-	id: "what-is-brand-loyalty.md";
-  slug: "what-is-brand-loyalty";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
