@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/essential_marketing_tools.webp"
   alt: "50+ essential marketing tools"
 tags: ["Promotion"]
-url: "https://www.99minds.io/blog/referral-program-ideas"
+url: "https://www.99minds.io/blog/marketing-tools"
 keywords: ["Marketing Tools"]
 ---
 

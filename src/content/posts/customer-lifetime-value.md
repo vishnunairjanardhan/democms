@@ -260,7 +260,7 @@ Providing outstanding customer service (CX) is another important element that af
 </ul>
 
 <h3><li>Customer Satisfaction and Brand Loyalty</li></h3>
-Customers who are happy with a business are more likely to suggest it to others, come back, and make more purchases. <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blank">Brand loyalty</a> is a result of high customer satisfaction, and brand loyalty raises CLV. Companies can increase lifetime value by cultivating loyalty among their clientele by always providing high-quality goods and services and going above and beyond their expectations.
+Customers who are happy with a business are more likely to suggest it to others, come back, and make more purchases. <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blank">Brand loyalty</a> is a result of high customer satisfaction, and brand loyalty raises CLV. Companies can increase lifetime value by cultivating loyalty among their clientele by always providing high-quality goods and services and going above and beyond their expectations.
 
 <ul role= "list">
 <li><b>Net Promoter Score (NPS):</b> Utilizing metrics such as Net Promoter Score (NPS) to measure customer satisfaction enables organizations to assess client loyalty and pinpoint areas in need of development. A high net promoter score (NPS) suggests that consumers are not only content but also inclined to tell others about the brand, which can boost CLV and referrals.</li>

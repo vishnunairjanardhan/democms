@@ -70,7 +70,7 @@ Now, let’s explore some instances where businesses have successfully integrate
 <ol role="list">
 <li>
 <h3>Casper</h3>
-Casper, a renowned mattress company, has effectively utilized gamification to amplify <a href="https://www.99minds.io/blog/what-is-brand-loyalty">brand awareness and loyalty</a> through a clever advertising campaign in the New York subway. The company positioned ads featuring engaging riddles that were directly linked to the theme of rest and sleep, a clever nod to their main product line. Each riddle was designed to pique the curiosity of commuters, encouraging them to visit Casper’s website to uncover the answers.
+Casper, a renowned mattress company, has effectively utilized gamification to amplify <a href="https://www.99minds.io/blog/brand-loyalty">brand awareness and loyalty</a> through a clever advertising campaign in the New York subway. The company positioned ads featuring engaging riddles that were directly linked to the theme of rest and sleep, a clever nod to their main product line. Each riddle was designed to pique the curiosity of commuters, encouraging them to visit Casper’s website to uncover the answers.
 
 This approach did more than just entertain; it drove significant web traffic, introducing new potential customers to the brand. Such campaigns underscore the effectiveness of gamification in retail, particularly in creating memorable interactions that can transform a mundane commute into an interactive experience.
 

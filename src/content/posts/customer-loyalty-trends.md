@@ -188,7 +188,7 @@ The goal of gamification components is to increase the fun and satisfaction of l
 
 <b>Enhanced Motivation:</b> Customers are more inclined to take part in challenges and get incentives, which encourages more engagement in the program.
 
-<b>Increased Brand Loyalty:</b> Gamification <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blank">increases brand loyalty</a> by creating a feeling of achievement and connection.
+<b>Increased Brand Loyalty:</b> Gamification <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blank">increases brand loyalty</a> by creating a feeling of achievement and connection.
 
 <b>Example:</b> Nike Run Club incorporates gamification by rewarding users with badges, trophies, and leaderboards for completing running challenges. These gamified elements motivate customers to stay engaged and improve their fitness, while also earning rewards for their efforts. 
 
