@@ -84,7 +84,7 @@ Programs for loyalty are an affordable marketing tactic. You can invest in rewar
 Programs for loyalty can greatly increase a customer's lifetime value. Customers are more likely to stick with your brand over time and spend more money overall with you when they feel appreciated and rewarded for their ongoing business.
 
 <h3><li>Better Customer Engagement</h3></li>
-<a href="https://www.99minds.io/loyalty" role="link" target="_blank">loyalty program</a>  promote continued communication between your company and its clients. Customers are more likely to interact with your business frequently when you offer them incentives like points, rewards, and exclusive promotions. This <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blank">build brand loyalty</a> and fosters a deeper emotional bond.
+<a href="https://www.99minds.io/loyalty" role="link" target="_blank">loyalty program</a>  promote continued communication between your company and its clients. Customers are more likely to interact with your business frequently when you offer them incentives like points, rewards, and exclusive promotions. This <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blank">build brand loyalty</a> and fosters a deeper emotional bond.
 
 <h3><li>More Effective Cross-Selling and Upselling</h3></li>
 You may determine the preferences and purchasing patterns of your customers by using the data collected from <a href="https://www.99minds.io/loyalty" role="link" target="_blank">loyalty program</a> . By properly cross-selling and upselling products that match their interests, you may increase sales and improve the customer experience with the help of this information.
