@@ -145,7 +145,7 @@ Loyalty programs provide valuable insights into customer behavior, preferences, 
 <li>
 <h3>Brand Loyalty</h3> 
 
-Tiered loyalty programs encourage repeat purchases, fostering a strong sense of loyalty towards the brand. As customers progress through the tiers, their emotional connection with the brand deepens. Consistent rewards and recognition for loyal customers reinforce positive feelings towards the brand, making them more likely to continue choosing it over competitors. Strong <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blanck">brand loyalty</a> translates into long-term customer relationships and sustained revenue.
+Tiered loyalty programs encourage repeat purchases, fostering a strong sense of loyalty towards the brand. As customers progress through the tiers, their emotional connection with the brand deepens. Consistent rewards and recognition for loyal customers reinforce positive feelings towards the brand, making them more likely to continue choosing it over competitors. Strong <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">brand loyalty</a> translates into long-term customer relationships and sustained revenue.
 </li>
 
 <li>
