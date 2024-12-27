@@ -245,7 +245,7 @@ Consumers expect brands to offer tailored experiences, and DTC businesses are in
 <li>
 <h3>Subscription Models & Loyalty Programs</h3>
 
-The combination of subscription models and <a href="https://www.99minds.io/loyalty" role="link" taget="_blanck">loyalty programs</a> is transforming the DTC landscape. Subscriptions offer convenience and predictable revenue, while loyalty programs reward ongoing engagement. By offering curated experiences, flexibility, and tiered rewards, DTC brands can maximize <a href="https://www.99minds.io/blog/customer-lifetime-value" role="link" taget="_blanck">customer lifetime value</a> and foster deeper connections, enhancing overall <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" taget="_blanck">brand loyalty</a>.
+The combination of subscription models and <a href="https://www.99minds.io/loyalty" role="link" taget="_blanck">loyalty programs</a> is transforming the DTC landscape. Subscriptions offer convenience and predictable revenue, while loyalty programs reward ongoing engagement. By offering curated experiences, flexibility, and tiered rewards, DTC brands can maximize <a href="https://www.99minds.io/blog/customer-lifetime-value" role="link" taget="_blanck">customer lifetime value</a> and foster deeper connections, enhancing overall <a href="https://www.99minds.io/blog/brand-loyalty" role="link" taget="_blanck">brand loyalty</a>.
 </li> 
 
 <li>

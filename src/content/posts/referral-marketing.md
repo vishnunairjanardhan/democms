@@ -364,7 +364,7 @@ Create an account with <a href="https://www.99minds.io" role="link" target="_bla
 <li>
 <h3>Define Objectives</h3> 
 
-Clearly define the goals of your referral program. Are you looking to increase <a href="https://www.99minds.io/blog/customer-acquisition-strategy" role="link" target="_blanck">customer acquisition</a>, boost sales, or enhance <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blanck">brand loyalty</a>? Setting clear objectives will help you design a program that aligns with your business goals. For example, if your primary goal is customer acquisition, you might focus on offering incentives that attract new customers, such as discounts or free trials.
+Clearly define the goals of your referral program. Are you looking to increase <a href="https://www.99minds.io/blog/customer-acquisition-strategy" role="link" target="_blanck">customer acquisition</a>, boost sales, or enhance <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">brand loyalty</a>? Setting clear objectives will help you design a program that aligns with your business goals. For example, if your primary goal is customer acquisition, you might focus on offering incentives that attract new customers, such as discounts or free trials.
 
 <li>
 <h3>Design Referral Program</h3> 
