@@ -325,6 +325,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"Black-friday-promotion-ideas.md": {
+	id: "Black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"Black-friday-promotion-ideas.md": {
+	id: "Black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "Christmas-marketing-ideas.md": {
 	id: "Christmas-marketing-ideas.md";
   slug: "christmas-marketing-ideas";
@@ -430,13 +444,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"black-friday-promotion-ideas.md": {
-	id: "black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "brand-loyalty.md": {
 	id: "brand-loyalty.md";
   slug: "brand-loyalty";
@@ -482,13 +489,6 @@ declare module 'astro:content' {
 "customer-lifetime-value.md": {
 	id: "customer-lifetime-value.md";
   slug: "customer-lifetime-value";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"customer-loyalty-analytics.md": {
-	id: "customer-loyalty-analytics.md";
-  slug: "customer-loyalty-analytics";
   body: string;
   collection: "posts";
   data: any
@@ -1038,6 +1038,20 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: any
+} & { render(): Render[".md"] };
+"marketing-tools.md": {
+	id: "marketing-tools.md";
+  slug: "marketing-tools";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"marketing-tools.md": {
+	id: "marketing-tools.md";
+  slug: "marketing-tools";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "ml-techniques-to-improve-customer-engagement.md": {
 	id: "ml-techniques-to-improve-customer-engagement.md";

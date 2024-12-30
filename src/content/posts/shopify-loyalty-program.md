@@ -79,7 +79,7 @@ For example, Starbucks rewards is a loyalty program designed to keep customers c
 <li><h3>Increased Customer Engagement</h3>
 Engaged customers are more inclined to make repeat purchases and promote your business. Loyalty programs encourage customers to engage with your business regularly, whether by earning points, taking part in challenges, or sharing their experiences.</li>
 <li><h3>Brand Advocacy</h3>
-Satisfied customers promote the brand through word-of-mouth marketing. Loyalty programs frequently contain referral prizes, which encourage existing customers to refer new ones, increasing your organic reach and fostering  <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blank">brand loyalty</a>.</li>
+Satisfied customers promote the brand through word-of-mouth marketing. Loyalty programs frequently contain referral prizes, which encourage existing customers to refer new ones, increasing your organic reach and fostering  <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blank">brand loyalty</a>.</li>
 
 <img role="img" loading="lazy" src="/assets/blog/brand-advocasy.jpg" alt="Sephora's Beauty Insider program">
 
@@ -134,7 +134,7 @@ This encourages social engagement regularly and builds community. It is possible
 
 When a company wants to increase revenue and client retention, implementing a loyalty program can be a game-changer. It's never been simpler to start a loyalty program thanks to e-commerce platforms like Shopify. 
 
-Let’s see how you can build a loyalty program on Shopify. Increasing <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blank">customer loyalty</a> is essential to long-term success. Businesses may strengthen customer loyalty by providing incentives and prizes via a Shopify loyalty program. This keeps customers happy and engaged, which in turn increases <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blank">brand loyalty</a>.
+Let’s see how you can build a loyalty program on Shopify. Increasing <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blank">customer loyalty</a> is essential to long-term success. Businesses may strengthen customer loyalty by providing incentives and prizes via a Shopify loyalty program. This keeps customers happy and engaged, which in turn increases <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blank">brand loyalty</a>.
 
 <ol role= "list">
 <li><h3>Define Your Goals</h3>
