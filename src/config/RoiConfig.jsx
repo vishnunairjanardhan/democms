@@ -1,34 +1,32 @@
 export const industries = [
   {
-    name: "ELECTRONICS",
+    name: "LITE",
+    price: "$19",
     imageSrc: "/assets/ROI/electronics.svg", // Replace with the actual image path or URL
   },
   {
-    name: "STYLE & FASHION",
+    name: "BASIC",
+    price: "$49",
     imageSrc: "/assets/ROI/fashion.svg", // Replace with the actual image path or URL
   },
   {
-    name: "BEAUTY & BEYOND",
+    name: "PRO",
+    price: "$99",
     imageSrc: "/assets/ROI/beauty1.svg", // Replace with the actual image path or URL
   },
   {
-    name: "HOME DECOR",
+    name: "ULTRA",
+    price: "$199",
     imageSrc: "/assets/ROI/home-decor.svg", // Replace with the actual image path or URL
   },
   {
-    name: "FUN & SPORTS",
+    name: "PREMIUM",
+    price: "$499",
     imageSrc: "/assets/ROI/sports.svg", // Replace with the actual image path or URL
   },
   {
-    name: "FOOD & BEVERAGES",
+    name: "ENTERPRISE",
+    price: "Custom",
     imageSrc: "/assets/ROI/food.svg", // Replace with the actual image path or URL
-  },
-  {
-    name: "BEDDING & BATH",
-    imageSrc: "/assets/ROI/bath.svg", // Replace with the actual image path or URL
-  },
-  {
-    name: "SHOES",
-    imageSrc: "/assets/ROI/shoes.svg", // Replace with the actual image path or URL
   },
 ];

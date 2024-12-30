@@ -240,19 +240,22 @@ const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) 
           </div>
           <div className="mt-4 py-10 grid lg:grid-cols-3 justify-between w-full mx-auto p-6 space-y-6 border border-opacity-70 border-white/20 bg-white bg-cover rounded-lg">
             <div className="space-y-4 col-span-2 px-4">
-              <p className="text-lg font-semibold text-black">Industry:</p>
+              <p className="text-xl font-semibold text-black">Pricing Plan:</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[1.5rem] px-4">
                 {industries.map((industry, index) => (
+                  
                   <button
                     key={index}
-                    className={`h-24 flex flex-col items-center text-center p-3 rounded-lg transition-colors ${
+                    className={`h-44 flex flex-col items-center text-center p-3 rounded-lg transition-colors ${
                       selectedIndustry === industry.name
                         ? "bg-[#F7D691] shadow shadow-md"
                         : "bg-white text-black border shadow shadow-md"
                     }`}
                     onClick={() => handleIndustrySelect(industry.name)} 
                   >
-                    <div className="flex items-center justify-center mt-1">
+                    <span className="mt-6 text-lg font-medium text-center">{industry.name}</span>
+                    <span className="border rounded-xl bg-vulcan-700 py-2 px-8 mt-6 text-xl text-white font-semibold text-center">{industry.price}</span>
+                    {/* <div className="flex items-center justify-center mt-1">
                       {industry.imageSrc ? (
                         <img
                           src={industry.imageSrc}
@@ -275,8 +278,8 @@ const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) 
                           />
                         </svg>
                       )}
-                    </div>
-                    <span className="mt-2 text-sm text-center">{industry.name}</span>
+                    </div> */}
+                    
                   </button>
                 ))}
               </div>
