@@ -24,11 +24,13 @@ const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) 
 
   const handleIndustrySelect = (industry) => {
     updateInputs("selectedIndustry", industry); 
+    // console.log(selectedindustry.id.price, "industry selected")
   };
 
   const handleCalculate = async () => {
-    const calculationResult = `Your selected industry is ${selectedIndustry}, and your email is ${email}.`;
-    setResult(calculationResult);
+    // const calculationResult = `Your selected industry is ${selectedIndustry}, and your email is ${email}.`;
+    // setResult(calculationResult);
+
     setShowResult(true);
 
     const formData = new URLSearchParams();
@@ -79,23 +81,23 @@ const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) 
           </div>
           <div className="mt-4 py-10 grid lg:grid-cols-3 justify-between w-full mx-auto p-6 space-y-6 border border-opacity-70 border-white/20 bg-white bg-cover rounded-lg">
             <div className="space-y-4 col-span-2 px-4">
-              <p className="text-lg font-semibold text-black">Industry:</p>
+              <p className="text-lg font-semibold text-black">Choose Your Plan:</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[1.5rem] px-4">
                 {industries.map((industry, index) => (
                   <button
                     key={index}
                     className={`h-24 flex flex-col items-center text-center p-3 rounded-lg transition-colors ${
-                      selectedIndustry === industry.name
+                      selectedIndustry === industry.id
                         ? "bg-[#F7D691] shadow shadow-md"
                         : "bg-white text-black border shadow shadow-md"
                     }`}
-                    onClick={() => handleIndustrySelect(industry.name)} 
+                    onClick={() => handleIndustrySelect(industry.id)} 
                   >
                     <div className="flex items-center justify-center mt-1">
-                      {industry.imageSrc ? (
+                      {industry.id.imageSrc ? (
                         <img
-                          src={industry.imageSrc}
-                          alt={industry.name}
+                          src={industry.id.imageSrc}
+                          alt={industry.id.name}
                           className="w-10 h-10 object-contain"
                         />
                       ) : (
@@ -115,7 +117,7 @@ const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) 
                         </svg>
                       )}
                     </div>
-                    <span className="mt-2 text-sm text-center">{industry.name}</span>
+                    <span className="mt-2 text-sm text-center">{industry.id.name}</span>
                   </button>
                 ))}
               </div>

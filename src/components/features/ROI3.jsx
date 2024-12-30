@@ -1,12 +1,19 @@
 import React from "react";
 
 const ResultsSection = ({ userInputs = {}, goBack }) => {
-    const { annualOrders = 0, annualCustomers = 0, ProfitMargin = 0, Aov = 0 } = userInputs;
+  const { annualOrders = 0, annualCustomers = 0, ProfitMargin = 0, Aov = 0, selectedIndustry="" } = userInputs;
+ 
+
+  console.log(selectedIndustry, "selected price");
   
-    // Calculate revenue and profit impact
-    const annualRevenue = (Aov * annualOrders).toFixed(2);
+  // Calculate revenue and profit impact
+  const annualRevenue = (Aov * annualOrders).toFixed(2);
     
-    const profitImpact = ((annualRevenue * ProfitMargin) / 100).toFixed(2);
+  const profitImpact = ((annualRevenue * ProfitMargin) / 100).toFixed(2);
+  const newRevenue = profitImpact - (selectedIndustry.price * 12);
+  const growth = ((newRevenue * selectedIndustry.growth) / 100).toFixed(2);
+  const profitGrowthImpact = growth + profitImpact
+  
   
     return (
       <section className="lg:p-0">
@@ -57,10 +64,16 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
                     ${annualRevenue}
                   </p>
                 </div>
-                <p className="mt-8 text-black">Profit Impact</p>
+                <p className="mt-8 text-black">Profit Impact without 99minds</p>
                 <div className="item-center mt-2">
                   <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
                     ${profitImpact}
+                  </p>
+                </div>  
+                <p className="mt-8 text-black">Profit Impact with 99minds</p>
+                <div className="item-center mt-2">
+                  <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
+                    ${profitGrowthImpact}
                   </p>
                 </div>  
               </div>
