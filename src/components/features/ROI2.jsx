@@ -88,14 +88,14 @@ const IndustryMarginForm = ({ userInputs, updateInputs, goToNextStep, goBack }) 
                   <button
                     key={index}
                     className={`h-44 flex flex-col items-center text-center p-3 rounded-lg transition-colors ${
-                      selectedIndustry === industry.name
+                      selectedIndustry === industry.id
                         ? "bg-[#F7D691] shadow shadow-md"
                         : "bg-white text-black border shadow shadow-md"
                     }`}
                     onClick={() => handleIndustrySelect(industry.id)} 
                   >
-                    <span className="mt-6 text-lg font-medium text-center">{industry.name}</span>
-                    <span className="border rounded-xl bg-vulcan-700 py-2 px-8 mt-6 text-xl text-white font-semibold text-center">{industry.price}</span>
+                    <span className="mt-6 text-lg font-medium text-center">{industry.id.name}</span>
+                    <span className="border rounded-xl bg-vulcan-700 py-2 px-8 mt-6 text-xl text-white font-semibold text-center">{industry.id.price}</span>
                     {/* <div className="flex items-center justify-center mt-1">
                       {industry.imageSrc ? (
                         <img
