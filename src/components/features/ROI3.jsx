@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ResultsSection = ({ userInputs = {}, goBack }) => {
+  const [showPopup, setShowPopup] = useState(false);
+
   const {
     annualOrders = 0,
     annualCustomers = 0,
@@ -16,11 +18,19 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
   // Calculate revenue and profit impact
   const annualRevenue = Aov * annualOrders;
   const profit = (annualRevenue * ProfitMargin) / 100;
-  const growth = annualRevenue + (annualRevenue * (selectedIndustry.growth || 0)) / 100;
+  const growth =
+    annualRevenue + (annualRevenue * (selectedIndustry.growth || 0)) / 100;
   const cost = industryPrice * 12;
   const Roi = ((growth - cost) / cost) * 100;
   const profitImpact = (growth * ProfitMargin) / 100 - cost;
-  const finalProfit = profitImpact + profit;
+  const finalProfit = profitImpact;
+
+  // Check if finalProfit is less than profit
+  React.useEffect(() => {
+    if (finalProfit < profit) {
+      setShowPopup(true);
+    }
+  }, [finalProfit, profit]);
 
   // Formatter for US conventions
   const formatNumber = (value) =>
@@ -80,19 +90,19 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
               <p className="text-black justify-center">Annual Revenue</p>
               <div className="item-center mt-2">
                 <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
-                ${formatNumber(annualRevenue.toFixed(2))}
+                  ${formatNumber(annualRevenue.toFixed(2))}
                 </p>
               </div>
               <p className="mt-8 text-black">Profit without 99minds</p>
               <div className="item-center mt-2">
                 <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
-                ${formatNumber(profit.toFixed(2))}
+                  ${formatNumber(profit.toFixed(2))}
                 </p>
               </div>
               <p className="mt-8 text-black">Profit Impact with 99minds</p>
               <div className="item-center mt-2">
                 <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
-                ${formatNumber(finalProfit.toFixed(2))}
+                  ${formatNumber(finalProfit.toFixed(2))}
                 </p>
               </div>
               <p className="mt-8 text-black">
@@ -100,13 +110,30 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
               </p>
               <div className="item-center mt-2">
                 <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
-                {formatNumber(Roi.toFixed(2))}
+                  {formatNumber(Roi.toFixed(2))}
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      {showPopup && (
+        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <p className="text-xl font-bold text-red-500">
+              Final profit is less than the current profit!
+            </p>
+            <p className="text-black">Please choose a different plan.</p>
+            <button
+              onClick={goBack}
+              className="w-32 raise bg-gradient-to-r from-[#ff8a05] via-[#ff5478] to-[#ff00c6] text-white px-6 py-2 rounded-md font-medium"
+            >
+              Back
+            </button>
+          </div>
+        </div>
+      )}
     </section>
   );
 };
