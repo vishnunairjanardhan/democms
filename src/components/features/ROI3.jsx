@@ -85,37 +85,43 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
               </div>
             </div>
           </div>
-          <div className="grid col-span-1 gap-16 mt-12 lg:px-12 pb-4">
-            <div className="lg:mr-auto px-8 w-full item-center border py-8 rounded-lg">
-              <p className="text-black justify-center">Annual Revenue</p>
-              <div className="item-center mt-2">
-                <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
-                  ${formatNumber(annualRevenue.toFixed(2))}
-                </p>
+          <div className="grid lg:grid-cols-2 gap-8 mt-10 lg:px-8 pb-0">
+              <div className="col-span-1">
+                <p className="text-black justify-center">Annual Revenue</p>
+                <div className="item-center mt-2">
+                  <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
+                    ${formatNumber(annualRevenue.toFixed(2))}
+                  </p>
+                </div>
               </div>
-              <p className="mt-8 text-black">Profit without 99minds</p>
-              <div className="item-center mt-2">
-                <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
-                  ${formatNumber(profit.toFixed(2))}
-                </p>
+              <div>
+                <p className="text-black">Profit without 99minds</p>
+                <div className="item-center mt-2">
+                  <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
+                    ${formatNumber(profit.toFixed(2))}
+                  </p>
+                </div>
               </div>
-              <p className="mt-8 text-black">Profit Impact with 99minds</p>
-              <div className="item-center mt-2">
-                <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
-                  ${formatNumber(finalProfit.toFixed(2))}
-                </p>
+              <div>
+                <p className="text-black">Profit Impact with 99minds</p>
+                <div className="item-center mt-2">
+                  <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
+                    ${formatNumber(finalProfit.toFixed(2))}
+                  </p>
+                </div>
               </div>
-              <p className="mt-8 text-black">
-                Return on Investment with 99minds
-              </p>
-              <div className="item-center mt-2">
-                <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
-                  {formatNumber(Roi.toFixed(2))}
+              <div>
+                <p className=" text-black">
+                  Return on Investment with 99minds
                 </p>
+                <div className="item-center mt-2">
+                  <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
+                    {formatNumber(Roi.toFixed(2))}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
       </div>
 
       {showPopup && (
@@ -126,11 +132,11 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
             </p>
             <p className="text-black">Please choose a different plan.</p>
             <button
-              onClick={goBack}
-              className="w-32 raise bg-gradient-to-r from-[#ff8a05] via-[#ff5478] to-[#ff00c6] text-white px-6 py-2 rounded-md font-medium"
-            >
-              Back
-            </button>
+          onClick={goBack}
+          className="w-32 raise bg-gradient-to-r from-[#ff8a05] via-[#ff5478] to-[#ff00c6] text-white px-6 py-2 rounded-md font-medium"
+        >
+          Back
+        </button>
           </div>
         </div>
       )}
