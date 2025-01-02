@@ -34,13 +34,13 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
           Back
         </button>
       </div>
-      <div className="lg:max-w-7xl col-span-1 lg:col-span-2 bg-white rounded-lg lg:mx-0 hover:shadow-lg transition-shadow duration-300 group flex flex-col">
-        <div className="grid lg:grid-cols-2 pb-6">
-          <div className="grid col-span-1">
-            <p className="px-8 mt-6 font-semibold text-2xl lg:float-left text-black">
+      <div className="lg:max-w-7xl col-span-1 lg:col-span-1 bg-white rounded-lg lg:mx-0 hover:shadow-lg transition-shadow duration-300 group">
+        <div className="grid px-6 pb-6">
+          <div className="">
+            <p className="px-8 mt-8 font-semibold text-2xl lg:float-left text-black">
               Your Inputs
             </p>
-            <div className="grid lg:grid-cols-2 gap-8 px-6 float-left mt-0 lg:mr-auto w-full">
+            <div className="grid lg:grid-cols-4 gap-8 lg:px-6 lg:float-left mt-6 lg:mr-auto w-full">
               <div className="col-span-1 shadow-xl border rounded-lg p-6 mb-0 h-28 w-64 lg:w-full">
                 <p className="px-2 text-black text-left rounded-md">Annual Orders</p>
                 <p className="p-2 text-black font-semibold rounded-md">
@@ -53,8 +53,6 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
                   {annualCustomers}
                 </p>
               </div>
-            </div>
-            <div className="grid lg:grid-cols-2 gap-8 px-6 float-left mt-6 lg:mr-auto w-full">
               <div className="col-span-1 shadow-xl border rounded-lg p-6 mb-0 h-28 w-64 lg:w-full">
                 <p className="px-2 text-black text-left rounded-md">AOV</p>
                 <p className="p-2 text-black font-semibold rounded-md">
@@ -69,36 +67,46 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
               </div>
             </div>
           </div>
-          <div className="grid col-span-1 gap-16 mt-12 lg:px-12 pb-4">
-            <div className="lg:mr-auto px-8 w-full item-center border py-8 rounded-lg">
+          </div>
+          <div className="grid lg:grid-cols-2 gap-1 mt-6 lg:px-8 pb-0">
+            <div className="lg:mr-auto px-8 w-full item-center py-0 rounded-lg">
               <p className="text-black justify-center">Annual Revenue</p>
               <div className="item-center mt-2">
                 <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
                   ${annualRevenue.toFixed(2)}
                 </p>
               </div>
-              <p className="mt-8 text-black">Profit without 99minds</p>
+            </div>  
+            <div className="px-8 ">
+              <p className="text-black">Profit without 99minds</p>
               <div className="item-center mt-2">
                 <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
                   ${profit.toFixed(2)}
                 </p>
               </div>
-              <p className="mt-8 text-black">Profit Impact with 99minds</p>
+            </div>
+          </div>
+          <div className="grid lg:grid-cols-2 gap-4 mt-4 lg:px-8 pb-8">  
+            <div className="px-8">  
+              <p className="mt-2 text-black">Profit Impact with 99minds</p>
               <div className="item-center mt-2">
                 <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
                   ${finalProfit.toFixed(2)}
                 </p>
               </div>
-              <p className="mt-8 text-black">Return on Investment with 99minds</p>
+            </div> 
+            <div className="px-8"> 
+              <p className="mt-2 text-black">Return on Investment with 99minds</p>
               <div className="item-center mt-2">
                 <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
                   ${Roi.toFixed(2)}
                 </p>
               </div>
-            </div>
+            </div>  
           </div>
-        </div>
-      </div>
+          </div>
+        
+      
     </section>
   );
 };
