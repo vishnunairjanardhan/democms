@@ -20,7 +20,7 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
   const cost = industryPrice * 12;
   const Roi = ((growth - cost) / cost) * 100;
   const profitImpact = (growth * ProfitMargin) / 100 - cost;
-  const finalProfit = profitImpact + profit;
+  const finalProfit = profitImpact;
 
   // Formatter for US conventions
   const formatNumber = (value) =>
