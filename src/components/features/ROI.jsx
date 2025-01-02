@@ -13,6 +13,9 @@ const ROICalculator = () => {
     averageOrder:0,
     Aov:50,
     selectedIndustry: "",
+    userName: "",
+    companyName: "",
+    email: "",
   });
 
   const goToNextStep = () => {
