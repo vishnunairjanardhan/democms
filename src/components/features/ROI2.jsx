@@ -7,49 +7,45 @@ const IndustryMarginForm = ({
   goToNextStep,
   goBack,
 }) => {
-  const { selectedIndustry } = userInputs;
+  const { selectedIndustry, userName: savedUserName, companyName: savedCompanyName, email: savedEmail } = userInputs;
 
-  const [email, setEmail] = useState("");
-  const [companyName, setCompanyName] = useState("");
-  const [userName, setUserName] = useState("");
+  const [userName, setUserName] = useState(savedUserName || "");
+  const [companyName, setCompanyName] = useState(savedCompanyName || "");
+  const [email, setEmail] = useState(savedEmail || "");
   const [showResult, setShowResult] = useState(false);
   const [result, setResult] = useState(null);
 
   const [errors, setErrors] = useState({});
+  const [isModalVisible, setIsModalVisible] = useState(false);
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
-    if (!validateEmail(event.target.value)) {
-      setErrors((prev) => ({ ...prev, email: "Invalid email format." }));
-    } else {
-      setErrors((prev) => ({ ...prev, email: null }));
-    }
+    updateInputs("email", event.target.value); 
+    setErrors((prev) => ({
+      ...prev,
+      email: validateEmail(event.target.value) ? null : "Invalid email format.",
+    }));
   };
 
   const handleCompanyNameChange = (event) => {
     const value = event.target.value;
     setCompanyName(value);
-    if (hasNumbers(value)) {
-      setErrors((prev) => ({
-        ...prev,
-        companyName: "Company name should not contain numbers.",
-      }));
-    } else {
-      setErrors((prev) => ({ ...prev, companyName: null }));
-    }
+    updateInputs("companyName", value); 
+
+    setErrors((prev) => ({
+      ...prev,
+      companyName: validateCompanyName(value),
+    }));
   };
 
   const handleUserNameChange = (event) => {
     const value = event.target.value;
     setUserName(value);
-    if (hasNumbers(value)) {
-      setErrors((prev) => ({
-        ...prev,
-        userName: "Name should not contain numbers.",
-      }));
-    } else {
-      setErrors((prev) => ({ ...prev, userName: null }));
-    }
+    updateInputs("userName", value);
+    setErrors((prev) => ({
+      ...prev,
+      userName: hasNumbers(value) ? "Name should not contain numbers." : null,
+    }));
   };
 
   const handleIndustrySelect = (industry) => {
@@ -61,11 +57,63 @@ const IndustryMarginForm = ({
     return emailRegex.test(email);
   };
 
+  const validateCompanyName = (companyName) => {
+    if (!companyName) {
+      return "Company name is required.";
+    }
+    if (companyName.length < 3) {
+      return "Company name must be at least 3 characters long.";
+    }
+
+    return null;
+  };
+
   const hasNumbers = (input) => {
     return /\d/.test(input);
   };
 
+  const validateForm = () => {
+    const validationErrors = {};
+
+    // Validate industry first
+    if (!selectedIndustry) {
+      validationErrors.selectedIndustry = "Please select an industry.";
+    }
+
+    // Validate other fields only if industry is selected
+    if (selectedIndustry && !userName) {
+      validationErrors.userName = "Name is required.";
+    } else if (selectedIndustry && hasNumbers(userName)) {
+      validationErrors.userName = "Name should not contain numbers.";
+    }
+
+    if (selectedIndustry && !companyName) {
+      validationErrors.companyName = "Company name is required.";
+    } else if (selectedIndustry && validateCompanyName(companyName)) {
+      validationErrors.companyName =
+        "Company name must be at least 3 characters long.";
+    }
+
+    if (selectedIndustry && !email) {
+      validationErrors.email = "Email is required.";
+    } else if (selectedIndustry && !validateEmail(email)) {
+      validationErrors.email = "Invalid email format.";
+    }
+
+    setErrors(validationErrors);
+    return Object.keys(validationErrors).length === 0;
+  };
+
   const handleCalculate = async () => {
+    if (!validateForm()) {
+      if (!selectedIndustry) {
+        setIsModalVisible(true);
+      }
+      return false;
+    }
+
+    goToNextStep();
+
     setShowResult(true);
 
     const formData = new URLSearchParams();
@@ -94,6 +142,16 @@ const IndustryMarginForm = ({
     } catch (error) {
       console.error("Error sending data to Google Sheets:", error);
     }
+
+    return true;
+  };
+
+  const handleNextStep = async () => {
+    const isValid = await handleCalculate();
+  };
+
+  const closeModal = () => {
+    setIsModalVisible(false);
   };
 
   return (
@@ -182,19 +240,7 @@ const IndustryMarginForm = ({
                 <div className="px-4 lg:pb-0 pb-4 mt-3">
                   <button
                     className="bg-blue-600 font-semibold text-white px-8 py-2 rounded-lg"
-                    onClick={() => {
-                      handleCalculate();
-
-                      goToNextStep();
-                    }}
-                    disabled={
-                      !selectedIndustry ||
-                      !email ||
-                      !userName ||
-                      !companyName ||
-                      errors.userName ||
-                      errors.companyName
-                    }
+                    onClick={handleNextStep}
                   >
                     Calculate
                   </button>
@@ -212,6 +258,21 @@ const IndustryMarginForm = ({
           >
             Reset
           </button>
+        </div>
+      )}
+      {/* Modal */}
+      {isModalVisible && (
+        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+          <div className="bg-white rounded-lg p-6">
+            <h2 className="text-lg font-semibold">Form Error</h2>
+            <p>Please select an industry before proceeding.</p>
+            <button
+              onClick={closeModal}
+              className="bg-blue-600 text-white py-2 px-8 rounded mt-4"
+            >
+              Close
+            </button>
+          </div>
         </div>
       )}
     </div>
