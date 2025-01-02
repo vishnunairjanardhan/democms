@@ -259,6 +259,7 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
                   type="number"
                   className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md"
                   value={annualOrders}
+                  min="0"
                   onChange={(e) =>
                     updateInputs("annualOrders", Number(e.target.value))
                   }
@@ -291,6 +292,7 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
                   type="number"
                   className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md"
                   value={annualCustomers}
+                  min="0"
                   onChange={(e) =>
                     updateInputs("annualCustomers", Number(e.target.value))
                   }
@@ -325,6 +327,7 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
                     type="number"
                     className="pl-10 w-full bg-vulcan-900 border px-4 text-right text-white rounded-md"
                     value={ProfitMargin}
+                    min="0"
                     onChange={(e) =>
                       updateInputs("ProfitMargin", Number(e.target.value))
                     }
@@ -360,6 +363,7 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
                     type="number"
                     className="pl-10 w-full bg-vulcan-900 border px-4 text-right text-white rounded-md"
                     value={Aov}
+                    min="0"
                     onChange={(e) =>
                       updateInputs("Aov", Number(e.target.value))
                     }
