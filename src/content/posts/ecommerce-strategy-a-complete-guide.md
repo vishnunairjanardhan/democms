@@ -249,10 +249,10 @@ In the ever-evolving world of ecommerce, having a well-defined strategy is criti
 <h2>Frequently Asked Questions (FAQs)</h2>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6" ><h3>What Is An ecommerce Strategy?</h3>
- Ecommerce strategy is a plan businesses use to sell stuff online. It includes how they market, sell, and serve customers on the Internet to make money.</div>
+An eCommerce Strategy is a plan businesses use to sell stuff online. It includes how they market, sell, and serve customers on the Internet to make money.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6" ><h3>How To Use An ecommerce Strategy To Increase Sales?</h3>
-To boost sales online, businesses should make their website easy to use, show up on Google, use social media, offer deals, talk to customers, and make sure it works well on phones.</div>
+To boost sales online, businesses should make their eCommerce Strategy effective by making their website easy to use, showing up on Google, using social media, offering deals, talking to customers, and ensuring it works well on phones.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6" ><h3>What Are The Types Of ecommerce Strategies?</h3>
-There are a few types: selling on big websites like Amazon, selling directly to customers from your website, offering subscriptions, using both online and offline stores, selling without keeping stock (dropshipping), and selling on social media.
+There are a few types of eCommerce Strategy approaches: selling on big websites like Amazon, selling directly to customers from your website, offering subscriptions, using both online and offline stores, selling without keeping stock (dropshipping), and selling on social media.
 </div> 
 
