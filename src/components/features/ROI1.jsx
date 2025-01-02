@@ -192,6 +192,14 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
     Aov: ""
   });
 
+  const formatNumber = (value) => {
+    return value ? value.toLocaleString("en-US") : "";
+  };
+
+  const parseNumber = (value) => {
+    return Number(value.replace(/,/g, ""));
+  };
+
   // Validation function
   const validateInputs = () => {
     let isValid = true;
@@ -256,11 +264,11 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
               <div className="flex items-center mb-4">
                 <p className="font-semibold text-black">Your annual orders</p>
                 <input
-                  type="number"
+                  type="text"
                   className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md"
-                  value={annualOrders}
+                  value={formatNumber(annualOrders)}
                   onChange={(e) =>
-                    updateInputs("annualOrders", Number(e.target.value))
+                    updateInputs("annualOrders", parseNumber(e.target.value))
                   }
                 />
               </div>
@@ -288,11 +296,11 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
                   Your annual customers
                 </p>
                 <input
-                  type="number"
+                  type="text"
                   className="w-32 bg-vulcan-900 border px-4 float-right ml-auto text-right text-white rounded-md"
-                  value={annualCustomers}
+                  value={formatNumber(annualCustomers)}
                   onChange={(e) =>
-                    updateInputs("annualCustomers", Number(e.target.value))
+                    updateInputs("annualCustomers", parseNumber(e.target.value))
                   }
                 />
               </div>
@@ -322,11 +330,11 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
                 <p className="font-semibold text-black">Profit Margin</p>
                 <div className="relative w-32 ml-auto">
                   <input
-                    type="number"
+                    type="text"
                     className="pl-10 w-full bg-vulcan-900 border px-4 text-right text-white rounded-md"
-                    value={ProfitMargin}
+                    value={formatNumber(ProfitMargin)}
                     onChange={(e) =>
-                      updateInputs("ProfitMargin", Number(e.target.value))
+                      updateInputs("ProfitMargin", parseNumber(e.target.value))
                     }
                   />
                   <span className="absolute top-1/2 left-3 transform -translate-y-1/2 text-white">
@@ -357,11 +365,11 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
                 <p className="font-semibold text-black">AOV </p>
                 <div className="relative w-32 ml-auto">
                   <input
-                    type="number"
+                    type="text"
                     className="pl-10 w-full bg-vulcan-900 border px-4 text-right text-white rounded-md"
-                    value={Aov}
+                    value={formatNumber(Aov)}
                     onChange={(e) =>
-                      updateInputs("Aov", Number(e.target.value))
+                      updateInputs("Aov", parseNumber(e.target.value))
                     }
                   />
                   <span className="absolute top-1/2 left-3 transform -translate-y-1/2 text-white">
