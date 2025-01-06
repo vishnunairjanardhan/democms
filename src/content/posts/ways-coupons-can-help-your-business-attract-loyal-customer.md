@@ -13,8 +13,7 @@ url: "https://www.99minds.io/blog/ways-coupons-can-help-your-business-attract-lo
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/customer-loyalty/ways-coupons-can-help-your-business-attract-loyal-customer///" target="_blank">
-<img src="/assets/blog/Ways-Coupons-Can-Help-Your-Business-Attract-Loyal-Customers1.jpg"></a>
+<img src="/assets/blog/Ways-Coupons-Can-Help-Your-Business-Attract-Loyal-Customers1.jpg">
 
 The holy grail of every marketer across the world is their target market’s attention. There are a thousand ways to advertise your brand. According to several studies, one of the most <a href="https://www.99minds.io/blog/ecommerce/ecommerce-referral-marketing-strategies/" target="_blank">effective marketing strategies</a> is providing a one-time use of coupons. The <a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/" target="_blank">holiday season is the perfect time for businesses</a> to offer incentives to customers to choose them.
 
