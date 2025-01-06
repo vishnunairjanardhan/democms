@@ -333,14 +333,14 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
                 <div className="relative w-32 ml-auto">
                   <input
                     type="text"
-                    className="pl-10 w-full bg-vulcan-900 border px-4 text-right text-white rounded-md"
+                    className="pr-10 w-full bg-vulcan-900 border px-4 text-left text-white rounded-md"
                     value={formatNumber(ProfitMargin)}
                     min="0"
                     onChange={(e) =>
                       updateInputs("ProfitMargin", parseNumber(e.target.value))
                     }
                   />
-                  <span className="absolute top-1/2 left-3 transform -translate-y-1/2 text-white">
+                  <span className="absolute top-1/2 right-3 transform -translate-y-1/2 text-white">
                     %
                   </span>
                 </div>
