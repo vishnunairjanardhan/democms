@@ -6,20 +6,20 @@ export const Ecommerce = [
   url: "/integrations/shopify",
   alt:"99minds-Shopify Integration"
 },
-{
-  image: '/integrations/shopify.svg',
-  title: 'Shopify Plus',
-  desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
-  url: "/integrations/shopifyplus",
-  alt:"99minds-Shopify Plus Integration"
-},
-{
-  image: '/integrations/shopify.svg',
-  title: 'Shopify Pos',
-  desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
-  url: "/integrations/shopifypos",
-  alt:"99minds-Shopify Pos Integration"
-},
+// {
+//   image: '/integrations/shopify.svg',
+//   title: 'Shopify Plus',
+//   desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
+//   url: "/integrations/shopifyplus",
+//   alt:"99minds-Shopify Plus Integration"
+// },
+// {
+//   image: '/integrations/shopify.svg',
+//   title: 'Shopify Pos',
+//   desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
+//   url: "/integrations/shopifypos",
+//   alt:"99minds-Shopify Pos Integration"
+// },
 {
   image: '/integrations/BigCommerce-icon 1.svg',
   title: 'BigCommerce',
