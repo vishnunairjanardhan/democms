@@ -60,38 +60,38 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
     x-init="observeTabs()"
     >
       <!-- Buttons on the left -->
-      <div class="sticky top-0 flex flex-col items-start mr-4 mt-6">
+      <div class="sticky top-0 flex flex-col items-start mr-4 mt-6 w-24 lg:w-auto">
         <button @click="scrollToTab(1);" 
         :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 1, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 1 }" 
         class="px-2 py-6 md:px-4 md:py-7 w-full">
-        <span class="text-2xl">Dr. Squatch</span>
+        <span class="lg:text-2xl">Dr. Squatch</span>
     </button>
     <button @click="scrollToTab(2);" 
         :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 2, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 2 }" 
         class="px-2 py-6 md:px-4 md:py-7 w-full">
-        <span class="text-2xl">Cozy Earth</span>
+        <span class="lg:text-2xl">Cozy Earth</span>
     </button>
     <button @click="scrollToTab(3);" 
         :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 3, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 3 }" 
         class="px-2 py-6 md:px-4 md:py-7 w-full">
-        <span class="text-2xl">Chamberlain</br>Coffee</span>
+        <span class="lg:text-2xl text-xs">Chamberlain</span><span class="lg:text-2xl"></br>Coffee</span>
     </button>
     <button @click="scrollToTab(4);" 
         :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 4, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 4 }" 
         class="px-2 py-6 md:px-4 md:py-7 w-full">
-        <span class="text-2xl">Hiya</span>
+        <span class="lg:text-2xl">Hiya</span>
     </button>
     <button @click="scrollToTab(5);" 
         :class="{ 'text-black bg-green-200 border-2 border-gray-500 font-bold rounded-3xl mt-6': activeTab === 5, 'text-gray-400 border border-gray-500 rounded-3xl mt-6': activeTab !== 5 }" 
         class="px-2 py-6 md:px-4 md:py-7 w-full">
-        <span class="text-2xl">Viva Raw</span>
+        <span class="lg:text-2xl">Viva Raw</span>
     </button>
       </div>
   
         
         <!-- Tab contents on the right -->
-        <div class="relative w-full lg:h-full overflow-y-auto no-scrollbar" x-ref="tabsContainer" style="max-height: 88vh;">
-            <div class="flex flex-col pl-4 transition-transform duration-500">
+        <div class="relative w-full lg:h-full lg:mt-0 mt-12 overflow-y-auto no-scrollbar" x-ref="tabsContainer" style="max-height: 88vh;">
+            <div class="flex flex-col lg:pl-4 transition-transform duration-500">
                 <!-- Tab content for Dr. Squatch -->
                 <div x-ref="tab1" data-tab="1" class="tab-content w-full">
                     <div class="w-full flex flex-col shrink-0 snap-start h-full">
@@ -145,7 +145,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                 </div>
     
                 <!-- tab content for Cozy Earth -->
-                <div x-ref="tab2" data-tab="2" class="tab-content w-full pt-16">
+                <div x-ref="tab2" data-tab="2" class="tab-content w-full lg:pt-16">
                     <div class="w-full flex flex-col shrink-0 snap-start h-full">
                         <figure class="h-full">
                             <ul class="h-full">
@@ -197,7 +197,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                 </div>
     
                 <!-- tab content for Chamberlain -->
-                <div x-ref="tab3" data-tab="3" class="tab-content w-full h-full pt-20">
+                <div x-ref="tab3" data-tab="3" class="tab-content w-full h-full lg:pt-20">
                     <div class="w-full flex flex-col shrink-0 snap-start h-full">
                         <figure class="h-full">
                             <ul class="h-full">
@@ -249,7 +249,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                 </div>
     
                 <!-- tab content for Hiya -->
-                <div x-ref="tab4" data-tab="4" class="tab-content w-full pt-20">
+                <div x-ref="tab4" data-tab="4" class="tab-content w-full lg:pt-20">
                     <div class="w-full flex flex-col shrink-0 snap-start h-full">
                         <figure class="h-full">
                             <ul class="h-full">
@@ -301,7 +301,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                 </div>
     
                 <!-- tab content for Viva Raw -->
-                <div x-ref="tab5" data-tab="5" class="tab-content w-full pt-16">
+                <div x-ref="tab5" data-tab="5" class="tab-content w-full lg:pt-16">
                     <div class="w-full flex flex-col shrink-0 snap-start h-full">
                         <figure class="h-full">
                             <ul class="h-full">

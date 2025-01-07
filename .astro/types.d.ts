@@ -325,13 +325,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"Black-friday-promotion-ideas.md": {
-	id: "Black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "Christmas-marketing-ideas.md": {
 	id: "Christmas-marketing-ideas.md";
   slug: "christmas-marketing-ideas";
@@ -437,6 +430,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"black-friday-promotion-ideas.md": {
+	id: "black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"black-friday-promotion-ideas.md": {
+	id: "black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "brand-loyalty.md": {
 	id: "brand-loyalty.md";
   slug: "brand-loyalty";
@@ -486,6 +493,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"customer-loyalty-analytics.md": {
+	id: "customer-loyalty-analytics.md";
+  slug: "customer-loyalty-analytics";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"customer-loyalty-analytics.md": {
+	id: "customer-loyalty-analytics.md";
+  slug: "customer-loyalty-analytics";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "customer-loyalty-programs-will-they-benefit-my-business.md": {
 	id: "customer-loyalty-programs-will-they-benefit-my-business.md";
   slug: "customer-loyalty-programs-will-they-benefit-my-business";
@@ -506,6 +527,20 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: any
+} & { render(): Render[".md"] };
+"customer-retention.md": {
+	id: "customer-retention.md";
+  slug: "customer-retention";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"customer-retention.md": {
+	id: "customer-retention.md";
+  slug: "customer-retention";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "digital-vs.-physical-gift-card.md": {
 	id: "digital-vs.-physical-gift-card.md";
