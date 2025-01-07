@@ -14,8 +14,24 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <AstroSeo
   title="MudAustralia Boosts Revenue & Loyalty with BigCommerce Migration | 99Minds"
   description="Discover how Mud Australia achieved a 38% average order value (AOV) increase through omnichannel and multi-currency gift card transformation with 99Minds."
-  canonical="https://www.99minds.io/case-study/mudaustralia-case-study"
-  {...Seo}
+  canonical="https://www.99minds.io/case-study/mudaustralia"
+  openGraph={{
+    url: "https://www.99minds.io/case-study/mudaustralia",
+    title: "MudAustralia Boosts Revenue & Loyalty with BigCommerce Migration | 99Minds",
+    description: "Discover how Mud Australia achieved a 38% average order value (AOV) increase through omnichannel and multi-currency gift card transformation with 99Minds.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/case-study/mud-Aus-banner.webp",
+        alt: "Mudaustralia uses 99minds Gift Card Program",
+        type: "image/jpeg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
 />
 <BaseLayout3>
   <HeroCasestudyMudaus />
