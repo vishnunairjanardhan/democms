@@ -1,3 +1,4 @@
+
 ---
 import BaseHead from "../components/BaseHead.astro";
 import NavigationAdd from "../components/global/NavigationAdd.astro";
@@ -24,57 +25,26 @@ import Footer from "../components/global/Footer.astro";
     <Footer />
 
     <!-- tsParticles Snow Effect -->
-    <!-- <div id="tsparticles" style="position: fixed; z-index: -1; width: 100%; height: 100%;"></div> -->
+    <div id="tsparticles" style="position: fixed; z-index: -1; width: 100%; height: 100%;"></div>
 
     <!-- Import and Initialize tsParticles -->
+    <script type="module">
+      import { tsParticles } from "tsparticles-engine";
+      import { loadSnowPreset } from "tsparticles-preset-snow";
 
-<!-- <script type="module">
-  import { tsParticles } from "https://cdn.jsdelivr.net/npm/tsparticles-engine/+esm";
-  import { loadSnowPreset } from "https://cdn.jsdelivr.net/npm/tsparticles-preset-snow/+esm";
+      window.addEventListener("DOMContentLoaded", async () => {
+        // Load the snow preset
+        await loadSnowPreset(tsParticles);
 
-  window.addEventListener("DOMContentLoaded", async () => {
-    try {
-      
-      await loadSnowPreset(tsParticles);
-      tsParticles.load("tsparticles", {
-        preset: "snow",
-        particles: {
-          color: { value: "#ffffff" }, 
-          move: {
-            direction: "bottom",
-            enable: true,
-            speed: 2, 
+        // Initialize tsParticles with the snow effect
+        tsParticles.load("tsparticles", {
+          preset: "snow",
+          fullScreen: {
+            zIndex: -1, // Keeps snowflakes in the background
           },
-          number: {
-            value: 150, 
-          },
-          opacity: {
-            value: 0.7, 
-          },
-          size: {
-            value: 3,
-          },
-        },
-        interactivity: {
-          events: {
-            onHover: {
-              enable: false, 
-            },
-          },
-        },
-        fullScreen: {
-          enable: true,
-          zIndex: -1,
-        },
-        background: {
-          color: "transparent", 
-        },
+        });
       });
-    } catch (err) {
-      console.error("Failed to initialize tsParticles with snow effect:", err);
-    }
-  });
-</script> -->
+    </script>
 
     <!-- Zoho SalesIQ Widget -->
     <script type="text/javascript">
@@ -94,12 +64,6 @@ import Footer from "../components/global/Footer.astro";
       t.parentNode.insertBefore(s, t);
       d.innerHTML = "<div id='zsiqwidget'></div>";
     </script>
-
-    <!-- AOS Animation -->
-    <!-- <script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script type="text/javascript">
-      AOS.init();
-    </script> -->
 
     <!-- Vanilla Tilt -->
     <script

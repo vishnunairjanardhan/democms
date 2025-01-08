@@ -40,7 +40,7 @@ As we approach 2024, businesses must arm themselves with the right tools to stay
 
 <h2 id="What-are-Marketing-Tools?">What are Marketing Tools?</h2>
 
-Marketing tools are platforms, software, or resources designed to help businesses execute, manage, and analyze their marketing activities. These tools streamline various aspects of marketing, such as automating email campaigns, scheduling social media posts, tracking analytics, managing customer relationships, and boosting customer retention.
+Marketing tools are platforms, software, or resources designed to help businesses execute, manage, and analyze their marketing activities. These tools streamline various aspects of marketing, such as automating email campaigns, scheduling social media posts, tracking analytics, managing customer relationships, and boosting <a href="http://99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a>.
 
 By using marketing tools, businesses can save time, increase efficiency, and improve the effectiveness of their campaigns. They are essential for creating data-driven strategies, engaging with customers, and achieving marketing goals in a competitive landscape.
 
@@ -51,7 +51,7 @@ Before diving into specific tools, it’s important to understand the broad cate
 <li>
 <h3>Customer Loyalty and Retention Tools</h3>
 
-Keeping your existing customers is just as important as acquiring new ones. <a href="https://www.99minds.io/" role="link" target="_blanck">Customer loyalty and retention tools</a> help you build programs that reward repeat purchases and encourage long-term engagement. Whether it’s through points, discounts, or VIP tiers, these tools make customers feel valued. They also provide data on customer habits, helping businesses refine their strategies and <a href="https://www.99minds.io/blog/customer-lifetime-value" role="link" target="_blanck">increase lifetime value.</a>
+Keeping your existing customers is just as important as acquiring new ones. Customer loyalty and retention tools help you build programs that reward repeat purchases and encourage long-term engagement. Whether it’s through points, discounts, or VIP tiers, these tools make customers feel valued. They also provide data on customer habits, helping businesses refine their strategies and <a href="https://www.99minds.io/blog/customer-lifetime-value" role="link" target="_blanck">increase lifetime value.</a>
 </li>
 
 <li>
