@@ -73,7 +73,7 @@ For example, offering extra convenience or free shipping to increase their chanc
 
 The opportunity for customers to communicate with your business through multiple channels is one of the best aspects of customer service. It is no longer a luxury since every customer expects it these days. As of now, around 52% of eCommerce retailers have omnichannel capabilities. It is one of the simplest methods for retaining customers.
 
-You will be able to provide an excellent shopping experience to your customers using <a href="https://www.99minds.io/blog/omnichannel-commerce/" role="link" target="_blanck">omnichannel</a> communication by understanding them deeply. It would help if you researched the channels they use and how they use them and have a clear idea about the buyer's journey.</li>
+You will be able to provide an excellent shopping experience to your customers using <a href="https://www.99minds.io/blog/omnichannel-commerce" role="link" target="_blanck">omnichannel</a> communication by understanding them deeply. It would help if you researched the channels they use and how they use them and have a clear idea about the buyer's journey.</li>
 
 <li><b>Mobile optimization B2B eCommerce</b>: Mobile commerce is rapidly becoming the preferred channel for B2B buyers due to the widespread use of smartphones. Recent studies suggest that more than <a href="https://www.bcg.com/publications/2017/marketing-sales-digital-go-to-market-transformation-mobile-marketing-new-b2b-buyer" role="link" target="_blanck">60% of B2B buyers</a> now use mobile devices to research and make purchases. This shift towards mobile commerce highlights the significance of optimizing your eCommerce platform for mobile devices. 
 
