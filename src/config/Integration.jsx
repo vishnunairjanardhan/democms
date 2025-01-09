@@ -7,7 +7,7 @@ export const Ecommerce = [
   alt:"99minds-Shopify Integration"
 },
 // {
-//   image: '/integrations/shopify.svg',
+//   image: '/integrations/Shopify-plus-icon.svg',
 //   title: 'Shopify Plus',
 //   desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
 //   url: "/integrations/shopifyplus",
