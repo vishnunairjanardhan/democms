@@ -85,9 +85,9 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
               </div>
             </div>
           </div>
-          <div className="grid col-span-1 gap-16 mt-12 lg:px-12 pb-4">
-            <div className="lg:mr-auto px-8 w-full item-center border py-8 rounded-lg">
-              <p className="text-black justify-center">Annual Revenue</p>
+          <div className="mt-12 lg:px-6 pb-4">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 col-span-1 gap-8 lg:mr-auto px-8 w-full item-center border py-8 rounded-lg">
+              <p className="mt-8 text-black justify-center">Annual Revenue</p>
               <div className="item-center mt-2">
                 <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
                   ${formatNumber(annualRevenue.toFixed(2))}
