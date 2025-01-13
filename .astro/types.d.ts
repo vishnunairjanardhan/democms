@@ -640,6 +640,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"gamification-loyalty-programs.md": {
+	id: "gamification-loyalty-programs.md";
+  slug: "gamification-loyalty-programs";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "getting-your-e-commerce-shop-thanksgiving-ready.md": {
 	id: "getting-your-e-commerce-shop-thanksgiving-ready.md";
   slug: "getting-your-e-commerce-shop-thanksgiving-ready";
@@ -1210,13 +1217,6 @@ declare module 'astro:content' {
 "repeat-customer.md": {
 	id: "repeat-customer.md";
   slug: "repeat-customer";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"restaurant-loyalty-programs.md": {
-	id: "restaurant-loyalty-programs.md";
-  slug: "restaurant-loyalty-programs";
   body: string;
   collection: "posts";
   data: any
