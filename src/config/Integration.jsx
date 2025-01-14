@@ -6,20 +6,14 @@ export const Ecommerce = [
   url: "/integrations/shopify",
   alt:"99minds-Shopify Integration"
 },
-// {
-//   image: '/integrations/Shopify-plus-icon.svg',
-//   title: 'Shopify Plus',
-//   desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
-//   url: "/integrations/shopifyplus",
-//   alt:"99minds-Shopify Plus Integration"
-// },
-// {
-//   image: '/integrations/shopify.svg',
-//   title: 'Shopify Pos',
-//   desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
-//   url: "/integrations/shopifypos",
-//   alt:"99minds-Shopify Pos Integration"
-// },
+{
+  image: '/integrations/Shopify-plus-icon.svg',
+  title: 'Shopify Plus',
+  desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
+  url: "/integrations/shopifyplus",
+  alt:"99minds-Shopify Plus Integration"
+},
+
 {
   image: '/integrations/BigCommerce-icon 1.svg',
   title: 'BigCommerce',
@@ -41,12 +35,12 @@ export const Ecommerce = [
   url: "/integrations/salesforce",
   alt:"99minds-Salesforce Integration"
 },
-{
-  image: '/integrations/miva.svg',
-  title: 'Miva',
-  desc:"A flexible e-commerce platform that integrates with 99minds to provide gift card solutions.  99minds empowers you to add functionalities like scheduling gift card delivery, rewarding gift card purchases with loyalty points, and offering promotional gift cards to your Miva store, enhancing the value proposition for your customers.",
-  alt:"99minds-Miva Integration"
-}
+// {
+//   image: '/integrations/miva.svg',
+//   title: 'Miva',
+//   desc:"A flexible e-commerce platform that integrates with 99minds to provide gift card solutions.  99minds empowers you to add functionalities like scheduling gift card delivery, rewarding gift card purchases with loyalty points, and offering promotional gift cards to your Miva store, enhancing the value proposition for your customers.",
+//   alt:"99minds-Miva Integration"
+// }
 ]
 
 export const POS = [
@@ -56,6 +50,13 @@ export const POS = [
   desc: "99minds integrates seamlessly with Square POS, allowing you to manage gift cards, loyalty programs, and store credits across your online store and physical location.  This ensures a smooth experience for customers - they can redeem a gift card purchased online in-store, earn loyalty points for in-store purchases that are reflected online, and use store credits interchangeably between channels.",
   url: "/integrations/square",
   alt:"99minds-Square Integration"
+},
+{
+  image: '/integrations/shopify-pos.svg',
+  title: 'Shopify Pos',
+  desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
+  url: "/integrations/shopifypos",
+  alt:"99minds-Shopify Pos Integration"
 },
 {
   image: '/integrations/lightspeed.svg',
