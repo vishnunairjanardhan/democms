@@ -332,13 +332,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"Black-friday-promotion-ideas.md": {
-	id: "Black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "Christmas-marketing-ideas.md": {
 	id: "Christmas-marketing-ideas.md";
   slug: "christmas-marketing-ideas";
@@ -694,7 +687,7 @@ declare module 'astro:content' {
   slug: "gamification-loyalty-programs";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "gamification-loyalty-programs.md": {
 	id: "gamification-loyalty-programs.md";
@@ -1338,8 +1331,6 @@ declare module 'astro:content' {
   slug: "repeat-customer";
   body: string;
   collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "retail-loyalty-program.md": {

@@ -133,7 +133,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:flex flex-col pb-4 py-10 pr-10 pb-8">
+                        <div className="lg:flex flex-col pb-4 py-10 lg:pr-10 px-8 pb-8">
                             <h3 className="text-lg font-bold pb-2">Wallet Preview</h3>
                             <div className="bg-white mt-2 rounded shadow-md py-5 w-full px-8">
                                 <div className="w-full flex h-8 bg-gray-200 pl-2 rounded-lg my-3">
