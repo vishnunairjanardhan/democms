@@ -323,14 +323,14 @@ declare module 'astro:content' {
   slug: "are-omnichannel-loyalty-programs-the-future-of-retail";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "Black-friday-promotion-ideas.md": {
 	id: "Black-friday-promotion-ideas.md";
   slug: "black-friday-promotion-ideas";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "Christmas-marketing-ideas.md": {
 	id: "Christmas-marketing-ideas.md";
@@ -645,7 +645,14 @@ declare module 'astro:content' {
   slug: "gamification-in-retail-industry";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"gamification-loyalty-programs.md": {
+	id: "gamification-loyalty-programs.md";
+  slug: "gamification-loyalty-programs";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "gamification-loyalty-programs.md": {
 	id: "gamification-loyalty-programs.md";
@@ -1233,7 +1240,7 @@ declare module 'astro:content' {
   slug: "repeat-customer";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "retail-loyalty-program.md": {
 	id: "retail-loyalty-program.md";
