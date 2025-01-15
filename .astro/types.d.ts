@@ -325,20 +325,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"Black-friday-promotion-ideas.md": {
-	id: "Black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"Black-friday-promotion-ideas.md": {
-	id: "Black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "Christmas-marketing-ideas.md": {
 	id: "Christmas-marketing-ideas.md";
   slug: "christmas-marketing-ideas";
@@ -444,6 +430,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"black-friday-promotion-ideas.md": {
+	id: "black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "brand-loyalty.md": {
 	id: "brand-loyalty.md";
   slug: "brand-loyalty";
@@ -482,6 +475,13 @@ declare module 'astro:content' {
 "customer-acquisition-strategy.md": {
 	id: "customer-acquisition-strategy.md";
   slug: "customer-acquisition-strategy";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"customer-engagement.md": {
+	id: "customer-engagement.md";
+  slug: "customer-engagement";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -652,7 +652,7 @@ declare module 'astro:content' {
   slug: "gamification-loyalty-programs";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "getting-your-e-commerce-shop-thanksgiving-ready.md": {
 	id: "getting-your-e-commerce-shop-thanksgiving-ready.md";
@@ -1226,8 +1226,6 @@ declare module 'astro:content' {
   slug: "repeat-customer";
   body: string;
   collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "retail-loyalty-program.md": {
