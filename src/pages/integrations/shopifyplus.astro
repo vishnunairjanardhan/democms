@@ -13,7 +13,7 @@ import BcomRating from "../../components/Infopages/BcomRating.astro";
 import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
 import FeatureTen from "../../components/features/FeatureTen.astro";
 import IntegrationShopifyplus from "../../components/integrations/IntegrationShopifyplus.astro";
-import ROICalculator from "../../components/features/ROI.jsx";
+import ParentPage from "../../components/CheckoutFeature/parent";
 
 
 import { AstroSeo } from "@astrolib/seo";
@@ -62,7 +62,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <!--<FeatureShopify2 />-->
   <FeatureTen />
   <IntegrationShopifyplus />
-  <ROICalculator client:load/>
+  <ParentPage client:load>
   <Testimonialtry />
   <!--<Integrations99minds />-->
   <!-- <Cta99mindsShopify /> -->
