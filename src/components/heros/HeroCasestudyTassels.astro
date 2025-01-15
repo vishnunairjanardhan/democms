@@ -10,38 +10,61 @@ import Blurgradientleft from "../assets/Blurgradientleft.astro";
 <section class="relative pt-2 y-12 mt-12 mx-auto max-w-7xl">
   <div class="relative">
     <!-- <img src="/assets/case-study/tassels1.png" alt="Background Image" class="h-[40rem] object-cover rounded-t-2xl">  Use w-full instead of w-screen -->
-    <div class="flex items-center justify-center">
-    <video class="rounded-lg shadow-2xl items-center w-full rounded-t-2xl" playsinline>
-      <source src="/videos/Tassels.mp4" type="video/mp4">
-    </video>
-  </div>
-
-  <script>
-    // Select the video element
-    const video = document.querySelector('video');
-
-    // Function to play the video when it becomes visible
-    const playVideoWhenVisible = (entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          video.play();
-        } else {
-          video.pause();
+<div class="flex items-center justify-center">
+  <iframe class="rounded-md" 
+        src="https://www.youtube.com/embed/W1vkcWAw-zo?enablejsapi=1&autoplay=1?rel=0" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen 
+                width="1432" 
+                height="640" 
+                id="youtube-video">
+        </iframe>
+      </div>
+      
+      <script>
+        const tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        document.head.appendChild(tag);
+      
+        let player;
+      
+        function onYouTubeIframeAPIReady() {
+          player = new YT.Player('youtube-video', {
+            events: {
+              'onReady': onPlayerReady
+            }
+          });
         }
-      });
-    };
-
-    // Create an Intersection Observer
-    const observer = new IntersectionObserver(playVideoWhenVisible, {
-      threshold: 0.5  // Play when 50% of the video is visible
-    });
-
-    // Observe the video element
-    observer.observe(video);
-  </script>
+      
+        function onPlayerReady(event) {
+      
+          const videoElement = document.getElementById('youtube-video');
+      
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (entry.intersectionRatio >= 0.5) {
+                player.unMute();  // Unmute when visible
+                player.playVideo();
+              } else {
+                player.mute(); // Mute when not visible
+                player.pauseVideo();
+              }
+            });
+          }, { threshold: [0.5] });
+      
+          observer.observe(videoElement);
+        }
+      
+        // Set a fallback in case YouTube API takes time to load
+        if (!window.YT) {
+          window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+        }
+      </script>
    <div class="absolute inset-0 bg-black bg-opacity-30 rounded-t-2xl"></div>
    <div class="absolute inset-0 flex flex-col items-center justify-center text-center">
-     <h1 class="relative px-4 py-6 mt-[10rem] sm:mt-48 md:mt-96 lg:mt-[40rem] mx-auto max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-7xl text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white">
+     <h1 class="relative px-4 py-6 mt-[10rem] sm:mt-48 md:mt-96 lg:mt-[30rem] mx-auto max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-7xl text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white">
        Tassel gained a 15% Conversion Rate and boosted Customer retention by 40% with Store Credit as Cashback and Loyalty program
      </h1>
    </div>

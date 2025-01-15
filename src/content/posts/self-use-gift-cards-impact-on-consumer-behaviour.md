@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/self-use-gift-cards-impact-on-consumer-behavio
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Self-Use-Gift-Cards-Impact-On-Consumer-Behavior1.jpg">
+<img rel="preload" role="img" src="/assets/blog/Self-Use-Gift-Cards-Impact-On-Consumer-Behavior1.jpg" alt="Self-Use Gift Cards: Impact On Consumer Behaviour">
 
 Despite the world’s erratic economic position, Gift Cards remain a staple of gift-giving worldwide, joined by the emergence of new trends such as the boom in self-use. Now that several world regions are resuming their transition from crisis management to recovery and economic revitalization, new consumer behaviors are emerging: shifting purchasing patterns, shifting preferences, digital acceleration… They are present in all aspects of life.
 
@@ -24,8 +24,6 @@ While we’ve all battled to find the right gift for others, self-use is the hab
 Self-gifting is used by over 60% of the population in the United States. Getting a bargain is a major motivation for Americans, who spend an average of $38 every transaction. Those who are most engaged with both physical and digital gift cards love self-use as a reward: to earn spending-based rewards, such as at Starbucks, or to trade hotel and credit card loyalty points for gift cards that they use for themselves.
 
 Acquiring Gift Cards for personal use also influences consumer purchasing and travel decisions, particularly for clothing, movies, restaurants, and other routine spending categories. Then, self-use permits people who are barred from banking to make purchases. Fashion, supermarket, and entertainment gift cards are the most popular self-use categories in the United States.
-
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/08/CTA-IMAGES-holiday-rush1.jpg%22"></a>
 
 <b>What is going on in Europe?</b>
 
@@ -47,7 +45,7 @@ Without a doubt, one of China’s distinctive features is its traditional gift-g
 
 Finally, while the gift card market in the UAE is projected to be impacted across retail and corporate segments owing to the Covid-19 outbreak, certain areas, such as self-use, are expected to acquire considerable market share. This could be due to UAE consumers becoming more conscious of how they spend their money and forming new habits to save money.
 
-<a href="https://calendly.com/sarahbabraj" target="_blanck"> <img class="w-full" src="https://wordpress-aogt.onrender.com/wp-content/uploads/2021/08/CTA-BOOK-A-DEMO.jpg"></a>
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <b>Who stands to gain from this trend?</b>
 

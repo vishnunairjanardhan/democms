@@ -38,7 +38,7 @@ Returns and refund requests have a bad impact on retailers. It is a headache thr
 
 <ul>
 <li>Understand the true costs associated with returns and the potential opportunities that are there to reduce the costs.</li>
-<li>Create an <a href="https://www.99minds.io/blog/what-is-omnichannel-commerce/" target="_blank">effective omnichannel organization to streamline operations</a>.</li>
+<li>Create an <a href="https://www.99minds.io/blog/omnichannel-commerce/" target="_blank">effective omnichannel organization to streamline operations</a>.</li>
 <li>Simplify and integrate IT systems to manage the impact of returns.
 <a href="https://www.99minds.io/blog/why-are-digital-gift-cards-essential-to-your-e-commerce-business/" target="_blank">Provide gift cards instead of refunding the money in cash</a>.</li>
 </ul>

@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "/src/layouts/BaseLayout.astro";
+import BaseLayout3 from "/src/layouts/BaseLayout3.astro";
 import HeroCasestudySolstice from "/src/components/heros/HeroCasestudySolstice.astro";
 import CasestudytestSolstice from "/src/components/testimonials/CasestudytestSolstice.astro";
 import FeatureCasestudySolstice from "/src/components/features/FeatureCasestudySolstice.astro";
@@ -11,6 +11,8 @@ import { AstroSeo } from "@astrolib/seo";
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 --->
+
+<BaseLayout3>
 <AstroSeo
   title="Solstice Case Study: 30% Conversion Rate Increase with Omnichannel Gift Cards | 99Minds"
   description="Discover how Solstice boosted conversions by 30% and AOV by 28% with an integrated omnichannel gift card system, enhancing customer engagement and loyalty."
@@ -33,10 +35,9 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
   <HeroCasestudySolstice />
   <CasestudytestSolstice />
   
 <Solstice />
 <FeatureCasestudySolstice />
-</BaseLayout>
+</BaseLayout3>

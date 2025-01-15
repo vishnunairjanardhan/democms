@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
 import HeroFiserv from "../../components/heros/HeroFiserv.astro"
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import FeatureFiserv from "../../components/features/FeatureFiserv.astro";
@@ -14,6 +14,8 @@ import { AstroSeo } from "@astrolib/seo";
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
+
+<BaseLayout3>
 <AstroSeo
   title="99minds integration with Fiserv"
   description="The complete rewards solution for restaurants with Fiserv . Boost sales with smart omnichannel loyalty, gift card and coupons."
@@ -37,11 +39,10 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
   <HeroFiserv />
   <LogoCloudOne />
   <FeatureFiserv />
   <FeatureTenFiserv />
   <Testimonialtry />
   <CtaThreeU />
-</BaseLayout>
+</BaseLayout3>

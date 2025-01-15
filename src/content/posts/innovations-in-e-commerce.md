@@ -24,7 +24,7 @@ Let’s look at some of the innovations in eCommerce that will bolster the indus
 
 <a href="https://blackhawknetwork.com/sites/default/files/2021-01/BHN-ebook-Gift-Card-Facts.pdf" target="_blank">Google</a>, <a href="https://blackhawknetwork.com/sites/default/files/2021-01/BHN-ebook-Gift-Card-Facts.pdf" target="_blank">Firefox</a>, and other internet giants promise to ban third-party cookies, thanks to legislations such as GDPR and CCPA. For the uninitiated, cookieless tracking means the business will not know what users do on their site, where they came from, or what their previous behavior on the site was. eCommerce companies will get little insights on attribution, demographics, or purchase funnels. Unfortunately, we are looking at a cookieless future.
 
-In the absence of data from 3rd party cookies, eCommerce stores will depend on first-party data. Such data can be collected from customers with exclusive incentives. For example, promotional offers, early access to new products, in-store and online discounts, and <a href="https://www.99minds.io/blog/how-to-market-your-loyalty-program/" target="_blank">loyalty program</a>, to name a few.
+In the absence of data from 3rd party cookies, eCommerce stores will depend on first-party data. Such data can be collected from customers with exclusive incentives. For example, promotional offers, early access to new products, in-store and online discounts, and loyalty program, to name a few.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
 <img src="/assets/blog/CTA-IMAGES-easter.jpg"></a>
@@ -89,7 +89,7 @@ Some of the most popular eCommerce platforms have begun to offer visual search c
 
 In the world of eCommerce, there is nothing constant. What is new today and considered innovative might become obsolete. A case in point is <a href="https://www.bbc.com/news/technology-37224691" target="_blank">Amazon’s Dash Button</a>, an electronic device that was designed to make product ordering easy. Innovative? Yes. Did people love it? Not really. At the end of the day, that’s what matters. Your innovativeness should be lapped up by your target audience.
 
-If you are looking for a platform that helps in setting up <a href="https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs/" target="_blank">loyalty programs for your eCommerce store</a>, get in touch with us. We will be more than happy to create a <a href="https://www.99minds.io/blog/what-are-promotional-codes-and-how-do-they-work/" target="_blank">promotional</a> program for you.
+If you are looking for a platform that helps in setting up <a href="https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs/" target="_blank">loyalty programs for your eCommerce store</a>, get in touch with us. We will be more than happy to create a <a href="https://www.99minds.io/blog/promotional-codes" target="_blank">promotional</a> program for you.
 
 
 

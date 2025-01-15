@@ -8,7 +8,7 @@ heading: 15 Wicked Halloween Promotions & Marketing Ideas for 2024
 image:
   url: "/assets/blog/halloween-marketing-ideas.webp"
   alt: "15 Halloween Promotions & Marketing Ideas"
-tags: ["Marketing"]
+tags: ["Promotion"]
 keywords: ["halloween promotion ideas", "marketing ideas for halloween", "halloween campaign ideas", "halloween promotional ideas", "halloween promotions", "halloween promotion"]
 url: "https://www.99minds.io/blog/halloween-marketing-ideas"
 
@@ -150,7 +150,7 @@ By giving their website this spooky seasonal touch, Starbucks reinforces its bra
 <li>
 <h3>Give Away Halloween Treats with Purchases</h3>
 
-Delight your customers by offering a small Halloween-themed treat with each purchase. For example, Lush Cosmetics has been known to include free samples of their limited-edition Halloween bath bombs with online orders. This small gesture adds a fun twist to the shopping experience and helps <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_balnck">boost brand loyalty</a>.
+Delight your customers by offering a small Halloween-themed treat with each purchase. For example, Lush Cosmetics has been known to include free samples of their limited-edition Halloween bath bombs with online orders. This small gesture adds a fun twist to the shopping experience and helps <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_balnck">boost brand loyalty</a>.
 </li>
 
 <div class="m-auto w-full lg:px-33">

@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import HeroThree from "../components/heros/HeroThree.astro";
 import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro";
 import FeatureFive_NewHome from "../components/features/FeatureFive_NewHome.astro";
@@ -14,7 +14,10 @@ import { AstroSeo } from "@astrolib/seo";
 import { Seo } from "../config/Seo.jsx";
 ---
 
-<AstroSeo
+
+
+<BaseLayout3>
+  <AstroSeo
   title="Gift Cards & Loyalty Platform for Omnichannel e-Commerce & In-store | 99minds"
   description="An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience."
   canonical="https://www.99minds.io"
@@ -44,8 +47,6 @@ import { Seo } from "../config/Seo.jsx";
       cardType: "summary_large_image",
     }}
 />
-
-<BaseLayout>
   <HeroThree />
   <LogoCloudOne />
   <FeatureFive_NewHome />
@@ -56,4 +57,4 @@ import { Seo } from "../config/Seo.jsx";
   <!--<Pricing99minds />-->
   <Faq99minds />
   <CtaThree />
-</BaseLayout>
+</BaseLayout3>

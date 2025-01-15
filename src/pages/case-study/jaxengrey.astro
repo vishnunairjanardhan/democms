@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "/src/layouts/BaseLayout.astro";
+import BaseLayout3 from "/src/layouts/BaseLayout3.astro";
 import HeroCasestudyJaxen from "/src/components/heros/HeroCasestudyJaxen.astro";
 import CasestudytestJaxen from "/src/components/testimonials/CasestudytestJaxen.astro";
 import FeatureCasestudyJaxen from "/src/components/features/FeatureCasestudyJaxen.astro";
@@ -11,6 +11,8 @@ import { AstroSeo } from "@astrolib/seo";
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 --->
+
+<BaseLayout3>
 <AstroSeo
   title="Jaxen Grey's Gift Card Promotions Boost Engagement by 20% | 99minds"
   description="Learn how Jaxen Grey used social media gift card promotions to drive 20% sales growth, boost foot traffic, and enhance customer loyalty. Discover their strategies!"
@@ -33,10 +35,9 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
   <HeroCasestudyJaxen />
   <CasestudytestJaxen />
   
 <Jaxen />
 <FeatureCasestudyJaxen />
-</BaseLayout>
+</BaseLayout3>

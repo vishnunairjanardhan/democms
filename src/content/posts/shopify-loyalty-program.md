@@ -79,7 +79,7 @@ For example, Starbucks rewards is a loyalty program designed to keep customers c
 <li><h3>Increased Customer Engagement</h3>
 Engaged customers are more inclined to make repeat purchases and promote your business. Loyalty programs encourage customers to engage with your business regularly, whether by earning points, taking part in challenges, or sharing their experiences.</li>
 <li><h3>Brand Advocacy</h3>
-Satisfied customers promote the brand through word-of-mouth marketing. Loyalty programs frequently contain referral prizes, which encourage existing customers to refer new ones, increasing your organic reach and fostering  <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blank">brand loyalty</a>.</li>
+Satisfied customers promote the brand through word-of-mouth marketing. Loyalty programs frequently contain referral prizes, which encourage existing customers to refer new ones, increasing your organic reach and fostering  <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blank">brand loyalty</a>.</li>
 
 <img role="img" loading="lazy" src="/assets/blog/brand-advocasy.jpg" alt="Sephora's Beauty Insider program">
 
@@ -127,14 +127,14 @@ Customers who participate in cash back programs receive a portion of their purch
 <li><h3>Gamified Loyalty Programs</h3>
 Gamified loyalty programs increase user engagement by incorporating game-like aspects. This can involve competing in events, finishing tasks, and obtaining badges. Users of a fitness app, for instance, might receive rewards for finishing fitness challenges and working out every day.
 
-This encourages social engagement regularly and builds community. It is possible to incorporate a <a href="https://www.99minds.io/blog/what-is-referral-program" role="link" target="_blank">referral program</a> where users can earn incentives or points for referring friends to download the app. This fosters a stronger community by utilizing the social networks of current users in addition to aiding in user acquisition.</li>
+This encourages social engagement regularly and builds community. It is possible to incorporate a <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blank">referral program</a> where users can earn incentives or points for referring friends to download the app. This fosters a stronger community by utilizing the social networks of current users in addition to aiding in user acquisition.</li>
 </ol>
 
 <h2 id="How-To-Set-Up-a-Loyalty-Program-On-Shopify?">How To Set Up a Loyalty Program On Shopify?</h2>
 
 When a company wants to increase revenue and client retention, implementing a loyalty program can be a game-changer. It's never been simpler to start a loyalty program thanks to e-commerce platforms like Shopify. 
 
-Let’s see how you can build a loyalty program on Shopify. Increasing <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blank">customer loyalty</a> is essential to long-term success. Businesses may strengthen customer loyalty by providing incentives and prizes via a Shopify loyalty program. This keeps customers happy and engaged, which in turn increases <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blank">brand loyalty</a>.
+Let’s see how you can build a loyalty program on Shopify. Increasing <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blank">customer loyalty</a> is essential to long-term success. Businesses may strengthen customer loyalty by providing incentives and prizes via a Shopify loyalty program. This keeps customers happy and engaged, which in turn increases <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blank">brand loyalty</a>.
 
 <ol role= "list">
 <li><h3>Define Your Goals</h3>
@@ -190,7 +190,7 @@ Crafting strategies that not only drive repeat purchases but also deepen custome
 <li><b>Members-only content:</b> Offer access to exclusive content such as advanced industry reports, how-to guides, or members-only videos that add value beyond just the products sold on your site. This content should be valuable to your customer base and encourage frequent visits back to your platform.</li>
 <li><b>Enhanced customer support:</b> Provide premium support options for top-tier loyalty program members. This could include live chat support, priority email queues, or even a direct hotline to assist with any inquiries or issues, ensuring your best customers receive the best service.</li>
 <li><b>Customization and personalization options:</b> Allow customers to collect points that can be used for customization services such as personalized products or exclusive product bundles. Offering personalized shopping experiences increases the emotional investment in the purchase process.</li>
-<li><b>Engagement-based discounts:</b> Reward customers for engaging with your brand on social media or <a href="https://www.99minds.io/blog/what-is-referral-program" role="link" target="_blank">referral program</a>. These activities not only enhance loyalty but also help amplify your brand’s presence online and attract new customers.</li>
+<li><b>Engagement-based discounts:</b> Reward customers for engaging with your brand on social media or <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blank">referral program</a>. These activities not only enhance loyalty but also help amplify your brand’s presence online and attract new customers.</li>
 </ul>
 </ol>
 

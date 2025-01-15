@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import CaseStudyNewHeader from "../components/features/CaseStudyNewHeader.astro";
 import FeatureCaseStudyNew from "../components/features/FeatureCaseStudyNew.astro";
 import FeatureCaseStudyNew2 from "../components/features/FeatureCaseStudyNew2.astro";
@@ -13,14 +13,16 @@ import { AstroSeo } from "@astrolib/seo";
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
+
+<BaseLayout3>
 <AstroSeo
-  title="99minds | Case Studies"
-  description="Discover the power of strategic collaborations with 99minds through illuminating case studies"
-  canonical="https://www.99minds.io/case-study1"
+  title="99minds Case Studies: Driving Business Growth and Results"
+  description="Explore how strategic collaborations with 99minds drive success through impactful case studies and real business results."
+  canonical="https://www.99minds.io/case-study"
   openGraph={{
-    url: "https://www.99minds.io/case-study1",
-    title: "99minds | Case Studies",
-    description: "Discover the power of strategic collaborations with 99minds through illuminating case studies",
+    url: "https://www.99minds.io/case-study",
+    title: "99minds Case Studies: Driving Business Growth and Results",
+    description: "Explore how strategic collaborations with 99minds drive success through impactful case studies and real business results.",
     images: [
       {
         url: "https://www.99minds.io/assets/99minds-logo1.svg",
@@ -31,7 +33,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     site_name: "99minds",
   }}
   twitter={{
-    url: "https://www.99minds.io/case-study1",
+    url: "https://www.99minds.io/case-study",
     images: [
       {
         url: "https://www.99minds.io/assets/99minds-logo1.svg",
@@ -43,11 +45,10 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
   <CaseStudyNewHeader />
   <!-- <FeatureCaseStudyNew/>
   <FeatureCaseStudyNew2/> -->
   <!-- <Testimonialtry2/> -->
   <TestimonialNew/>
   <CtaThreeU/>
-</BaseLayout>
+</BaseLayout3>

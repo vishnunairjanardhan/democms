@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
 import HeroPaytronix from "../../components/heros/HeroPaytronix.astro"
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import FeaturePaytronix from "../../components/features/FeaturePaytronix.astro";
@@ -15,6 +15,8 @@ import { AstroSeo } from "@astrolib/seo";
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
+
+<BaseLayout3>
 <AstroSeo
   title="99minds integration with Paytronix"
   description="The complete rewards solution for restaurants with paytronix. Boost sales with smart omnichannel loyalty, gift card and coupons."
@@ -38,7 +40,6 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
   <HeroPaytronix />
   <LogoCloudOne />
   <FeaturePaytronix />
@@ -46,4 +47,4 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <Testimonialtry />
   <!-- <Cta99mindsPOS /> -->
   <CtaThreeU />
-</BaseLayout>
+</BaseLayout3>

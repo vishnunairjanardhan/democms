@@ -1,8 +1,10 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import CouponGenerator from "../components/codeGenerator/codeGenerator"
 import { AstroSeo } from "@astrolib/seo";
 ---
+
+<BaseLayout3>
 <AstroSeo
   title="Free Coupon Code Generator | 99minds"
   description="Generate unique and effective coupon codes for free! Enhance your business with quick and easy discount solutions that attract and retain customers."
@@ -33,6 +35,5 @@ import { AstroSeo } from "@astrolib/seo";
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
   <CouponGenerator client:load>
-</BaseLayout>
+</BaseLayout3>

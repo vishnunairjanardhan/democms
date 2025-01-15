@@ -47,13 +47,13 @@ This includes hiring skilled sales staff, carefully reviewing the online sales p
 <li>
 <h3>Omnichannel Commerce</h3> 
 
-The future of eCommerce is in <a href="https://www.99minds.io/blog/what-is-omnichannel-commerce" role="link" target="_blanck">omnichannel commerce</a>, which involves seamlessly integrating online and offline channels to offer a unified customer experience. This means removing barriers between sales and communication channels. This approach ensures consistency in inventory management, customer data, and messaging across all platforms. 
+The future of eCommerce is in <a href="https://www.99minds.io/blog/omnichannel-commerce" role="link" target="_blanck">omnichannel commerce</a>, which involves seamlessly integrating online and offline channels to offer a unified customer experience. This means removing barriers between sales and communication channels. This approach ensures consistency in inventory management, customer data, and messaging across all platforms. 
 
 In today’s market, customers engage with brands through various touchpoints, such as eCommerce sites, mobile apps, social media, and physical stores. To succeed, businesses need to maintain a consistent brand appearance, tone, and quality across these channels. Providing cross-channel customer service is crucial, allowing customers to seek support through their preferred means, whether it's social media, email, phone, or in-person. 
 
 A robust omnichannel strategy also entails gathering and analyzing unified customer data to personalize experiences and enhance service. Businesses that effectively implement omnichannel strategies can enhance customer retention. Research indicates that those with strong omnichannel retailing retain 89% of their customers. 
 
-As consumer preferences evolve, businesses must adapt by embracing new channels and technologies to meet customer expectations and remain competitive in the expanding landscape of omnichannel opportunities. Businesses that embrace this future eCommerce trend will see enhanced customer retention and <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blanck">brand loyalty</a>.
+As consumer preferences evolve, businesses must adapt by embracing new channels and technologies to meet customer expectations and remain competitive in the expanding landscape of omnichannel opportunities. Businesses that embrace this future eCommerce trend will see enhanced customer retention and <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">brand loyalty</a>.
 </li>
 
 <li>
@@ -147,7 +147,7 @@ The easiest way to capture your customers’ attention is to make them interact 
 <li>
 <h3>Customized Loyalty Programs</h3>
 
-Customized loyalty programs are increasingly crucial in the eCommerce market as companies seek to bolster customer connections and improve retention. These programs go beyond traditional point-based systems, providing individualized incentives, exclusive access, and tailored experiences that matter to each customer. Their purpose is to encourage repeat purchases, enhance customer engagement, and cultivate lasting <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blanck">brand loyalty</a>. 
+Customized loyalty programs are increasingly crucial in the eCommerce market as companies seek to bolster customer connections and improve retention. These programs go beyond traditional point-based systems, providing individualized incentives, exclusive access, and tailored experiences that matter to each customer. Their purpose is to encourage repeat purchases, enhance customer engagement, and cultivate lasting <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">brand loyalty</a>. 
 
 To capitalize on this trend, eCommerce businesses can leverage data analytics to categorize customers according to their behaviors and preferences and offer personalized incentives like discounts on frequently purchased items, early access to sales, or special rewards. By integrating loyalty programs across various channels, such as websites, mobile apps, and brick-and-mortar stores, companies can create a cohesive and captivating experience that motivates customers to return.
 </li>

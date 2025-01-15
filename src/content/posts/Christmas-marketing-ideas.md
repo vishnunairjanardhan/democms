@@ -9,7 +9,7 @@ heading: 30 Winning Christmas Marketing Ideas to Raise the Festive SpiritI
 image:
   url: "/assets/blog/top-30-winning-ideas-for-christmas-marketing-in-e-commerce-2024.webp"
   alt: "Christmas marketing ideas."
-tags: ["Ecommerce"]
+tags: ["Promotion"]
 url: "https://www.99minds.io/blog/christmas-marketing-ideas"
 keywords: ["Christmas marketing ideas", "marketing ideas Christmas", "marketing ideas for Christmas", "Christmas advertising  ideas"]
 

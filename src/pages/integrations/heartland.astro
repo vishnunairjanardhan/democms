@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
 import HeroHeartland from "../../components/heros/HeroHeartland.astro";
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import FeatureHeartland from "../../components/features/FeatureHeartland.astro";
@@ -18,6 +18,8 @@ import { AstroSeo } from "@astrolib/seo";
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
+
+<BaseLayout3>
 <AstroSeo
   title="99minds and Heartland integration | 99minds"
   description="The complete rewards solution for Heartland Retail. Drive sales from your existing customer base with smart omnichannel loyalty, gift card and store credit."
@@ -40,7 +42,6 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
   <HeroHeartland />
   <LogoCloudOne />
   <FeatureHeartland />
@@ -50,4 +51,4 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <Testimonialtry />
   <!-- <Cta99mindsPOS /> -->
   <CtaThreeU />
-</BaseLayout>
+</BaseLayout3>

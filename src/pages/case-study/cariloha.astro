@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "/src/layouts/BaseLayout.astro";
+import BaseLayout3 from "/src/layouts/BaseLayout3.astro";
 import HeroCasestudyCariloha from "/src/components/heros/HeroCasestudyCariloha.astro";
 import CasestudytestCariloha from "/src/components/testimonials/CasestudytestCariloha.astro";
 import CaseStudyCariloha from "/src/components/testimonials/CaseStudyCariloha.astro";
@@ -13,6 +13,8 @@ import { AstroSeo } from "@astrolib/seo";
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 --->
+
+<BaseLayout3>
 <AstroSeo
   title="Cariloha's Gift Card Promotion Boosts Customer Acquisition by 30% | 99minds"
   description="Learn how Cariloha's social media gift card promotions drove a 30% increase in customer acquisition and boosted engagement and AOV."
@@ -35,11 +37,10 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
   <HeroCasestudyCariloha />
   <Cariloha/>
   <CasestudytestCariloha />
   <Infocariloha />
   <FeatureCasestudyCariloha />
   <CaseStudyCariloha/>
-</BaseLayout>
+</BaseLayout3>

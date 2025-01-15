@@ -48,7 +48,7 @@ Most of the information should be available from external data sources, but your
 
 ### <li><h3>Assess your organizational resources:</h3></li>
 
-Before you dive head-first into a customer loyalty program, it is better to assess <a href="https://www.99minds.io/blog/5-wicked-halloween-marketing-ideas-to-boost-your-online-sales" target="_blank"> your current wherewithal and get a realistic idea of what is possible</a>. Ensure that you get a buy-in from the leadership team before starting.
+Before you dive head-first into a customer loyalty program, it is better to assess your current wherewithal and get a realistic idea of what is possible. Ensure that you get a buy-in from the leadership team before starting.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
 <img src="/assets/blog/CTA-IMAGES-holiday-rush1.jpg" alt="connect your store"></a>

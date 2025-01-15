@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import HeroReferral from "../components/heros/HeroReferral.astro";
 import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro";
 import FeatureReferral from "../components/features/FeatureReferral.astro";
@@ -13,6 +13,8 @@ import { AstroSeo } from "@astrolib/seo";
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
+
+<BaseLayout3>
 <AstroSeo
   title="Boost Organic Ecommerce Sales With 99minds Referral Program | 99minds"
   description="Incentivize your customers to refer your brand experience to their friends and families with 99minds referral program software."
@@ -43,11 +45,10 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
   <HeroReferral />
   <LogoCloudOne />
   <FeatureReferral />
   <TestimonialNew />
   <Integrations99minds2 />
   <CtaThreeU />
-</BaseLayout>
+</BaseLayout3>

@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
 import HeroOmnisend from "../../components/heros/HeroOmnisend.astro";
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import FeatureOmnisend from "../../components/features/FeatureOmnisend.astro";
@@ -18,6 +18,8 @@ import { AstroSeo } from "@astrolib/seo";
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
+
+<BaseLayout3>
 <AstroSeo
   title="99minds and Omnisend integration | 99minds"
   description="Leverage 99minds and Klaviyo integration to drive sales and foster customer loyalty with bulk email and SMS campaigns featuring dynamic loyalty rewards and gift cards."
@@ -50,7 +52,6 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
   <HeroOmnisend />
   <LogoCloudOne />
   <FeatureOmnisend />
@@ -62,4 +63,4 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <!--<Integrations99minds />-->
   <!-- <CtaThree99minds /> -->
   <CtaThreeU />
-</BaseLayout>
+</BaseLayout3>
