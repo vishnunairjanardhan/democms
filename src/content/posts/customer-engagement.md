@@ -94,27 +94,28 @@ Customer engagement is crucial as it directly impacts customer satisfaction, boo
 <h2 id="Marketing-Funnel-and-Customer-Engagement">Marketing Funnel and Customer Engagement</h2>
 Brands can implement various <strong class="text-gray-200">customer engagement</strong> strategies across different stages of the marketing funnel, from awareness to consideration, decision-making, and loyalty. Here's how brands can engage customers effectively at each stage, whether they are new or existing:
 <ul>
-<li><h3>Awareness</h3></li>
-Brand awareness refers to a customer’s familiarity with a brand, including recognition of its name, messaging, values, culture, and tone. To drive awareness, brands need to reach customers where they spend their time, such as through TV ads (both linear and connected), digital advertising, social media campaigns, content marketing, and more. This stage offers brands an opportunity to engage customers early in the buying journey. According to a survey, 84% of shoppers start their online research on digital channels that aren't the brand’s own website, making these touchpoints more critical than ever.
+<h3>Awareness</h3>
+<li>Brand awareness refers to a customer’s familiarity with a brand, including recognition of its name, messaging, values, culture, and tone. To drive awareness, brands need to reach customers where they spend their time, such as through TV ads (both linear and connected), digital advertising, social media campaigns, content marketing, and more. This stage offers brands an opportunity to engage customers early in the buying journey. According to a survey, 84% of shoppers start their online research on digital channels that aren't the brand’s own website, making these touchpoints more critical than ever.
+</li>
 
-<li><h3>Conversion</h3></li>
-At the conversion stage, the goal is to inspire potential buyers to purchase by demonstrating that your brand is the right solution to their needs. A well-designed website, clear product pages, and an excellent customer service experience are key in this phase. Ensuring a positive experience boosts customer confidence and engagement, improving conversion rates and leading to higher sales.
+<h3>Conversion</h3>
+<li>At the conversion stage, the goal is to inspire potential buyers to purchase by demonstrating that your brand is the right solution to their needs. A well-designed website, clear product pages, and an excellent customer service experience are key in this phase. Ensuring a positive experience boosts customer confidence and engagement, improving conversion rates and leading to higher sales.</li>
 
-<li><h3>Loyalty</h3></li>
-<a href="https://www.99minds.io/blog/build-customer-loyalty">Building customer loyalty</a> requires offering a seamless purchase experience and delivering high-quality products or services. Nurturing relationships with customers after the sale ensures they remain top-of-mind. Retaining existing customers is more cost-effective than acquiring new ones, it's five times cheaper to keep a customer than to attract a new one. <a href="https://www.99minds.io/blog/loyalty-program-for-small-business">Loyalty programs</a>, email nurturing campaigns, social media activations, and other engagement marketing tactics are great ways to foster long-term customer relationships. Ultimately, the goal is to create loyal, satisfied customers who will become brand advocates, helping to sustain your business’s growth.
+<h3>Loyalty</h3>
+<li><a href="https://www.99minds.io/blog/build-customer-loyalty">Building customer loyalty</a> requires offering a seamless purchase experience and delivering high-quality products or services. Nurturing relationships with customers after the sale ensures they remain top-of-mind. Retaining existing customers is more cost-effective than acquiring new ones, it's five times cheaper to keep a customer than to attract a new one. <a href="https://www.99minds.io/blog/loyalty-program-for-small-business">Loyalty programs</a>, email nurturing campaigns, social media activations, and other engagement marketing tactics are great ways to foster long-term customer relationships. Ultimately, the goal is to create loyal, satisfied customers who will become brand advocates, helping to sustain your business’s growth.</li>
 
 </ul>
 
 <h2 id="Customer-Engagement-Strategy">Customer Engagement Strategy</h2>
 <ul>
-<li><h3>Understanding of Audience</h3></li>
-To effectively enhance customer engagement, it's essential to have a comprehensive understanding of your audience. Look beyond basic demographics and delve into how your customers interact with your product or service. This deeper insight will enable you to craft tailored messaging and creative content that resonates, ultimately boosting your brand’s engagement with customers.
+<h3>Understanding of Audience</h3>
+<li>To effectively enhance customer engagement, it's essential to have a comprehensive understanding of your audience. Look beyond basic demographics and delve into how your customers interact with your product or service. This deeper insight will enable you to craft tailored messaging and creative content that resonates, ultimately boosting your brand’s engagement with customers.</li>
 
-<li><h3>Offering Value at Every Interaction</h3></li>
-Offering value at every touchpoint is crucial for keeping customers engaged. Brands should explore creative ad formats that deliver unique experiences to captivate and inspire their audience. According to a recent study ,55% of consumers prefer interactive ads that allow them to follow links to purchase products, participate in at-home activities, or enter sweepstakes. Additionally, 55% of consumers are drawn to brands that creatively integrate their messaging into the content they are watching. This indicates that consumers are receptive to innovative and engaging ways brands can blend their messaging into consumer experiences.
+<h3>Offering Value at Every Interaction</h3>
+<li>Offering value at every touchpoint is crucial for keeping customers engaged. Brands should explore creative ad formats that deliver unique experiences to captivate and inspire their audience. According to a recent study ,55% of consumers prefer interactive ads that allow them to follow links to purchase products, participate in at-home activities, or enter sweepstakes. Additionally, 55% of consumers are drawn to brands that creatively integrate their messaging into the content they are watching. This indicates that consumers are receptive to innovative and engaging ways brands can blend their messaging into consumer experiences.</li>
 
-<li><h3>Optimise and Measure</h3></li>
-To maximize customer engagement, it's important to continually measure and optimize your efforts. Leveraging data and analytics helps identify successful strategies and areas for improvement, enabling you to refine your creative approach for even better engagement outcomes.
+<h3>Optimise and Measure</h3>
+<li>To maximize customer engagement, it's important to continually measure and optimize your efforts. Leveraging data and analytics helps identify successful strategies and areas for improvement, enabling you to refine your creative approach for even better engagement outcomes.</li>
 </ul>
 
 <div class="flex flex-wrap items-center gap-2">
@@ -150,8 +151,8 @@ To maximize customer engagement, it's important to continually measure and optim
 <h2 id="Examples-of-Customer-Engagement">Examples of Customer Engagement</h2>
 
 <ul>
-<li><h3>The Honest Company</h3></li>
-The Honest Company has been utilizing creative customer engagement strategies since it started advertising on Amazon in 2017. To build brand awareness and reach fresh audiences, they combined various advertising tools, including Amazon DSP (Demand-Side Platform) and Amazon Streaming TV ads. By using Amazon DSP, they were able to target exclusive audiences on Amazon-owned platforms as well as on third-party sites and apps, helping them extend their reach beyond Amazon itself.
+<h3>The Honest Company</h3>
+<li>The Honest Company has been utilizing creative customer engagement strategies since it started advertising on Amazon in 2017. To build brand awareness and reach fresh audiences, they combined various advertising tools, including Amazon DSP (Demand-Side Platform) and Amazon Streaming TV ads. By using Amazon DSP, they were able to target exclusive audiences on Amazon-owned platforms as well as on third-party sites and apps, helping them extend their reach beyond Amazon itself.
 
 <img src="/assets/blog/6179a66e5f9cc70024c6ce69_635932379655011574-Jessica-Alba-The-Honest-Co_aea7f3f600dd0086555152c1cc8011a1_2000.png" alt="The Honest Company"/>
 
@@ -159,16 +160,16 @@ To engage high-intent shoppers, The Honest Company also leveraged Sponsored Prod
 
 One of the brand’s standout engagement tactics was hosting an Amazon Live livestream with Jessica Alba, the founder. This gave her the chance to connect directly with customers, share the story behind the brand, and showcase products in a fun, interactive live video.
 
-This multi-faceted strategy paid off big time. The Honest Company saw a fivefold increase in page views from Streaming TV ad impressions, a 39% higher return on ad spend, and continued growth in reach from one quarter to the next. It’s a great example of how brands can use a blend of ads, live engagement, and personalized experiences to keep customers engaged and drive results.
+This multi-faceted strategy paid off big time. The Honest Company saw a fivefold increase in page views from Streaming TV ad impressions, a 39% higher return on ad spend, and continued growth in reach from one quarter to the next. It’s a great example of how brands can use a blend of ads, live engagement, and personalized experiences to keep customers engaged and drive results.</li>
 
-<li><h3>McDelivery</h3></li>
-McDonald’s McDelivery service has been redefining customer engagement since its launch in Canada in 2017. With the onset of the pandemic in 2020, McDelivery became even more essential as restaurants had to close indoor dining. To shift brand perception and engage with customers in new, creative ways, McDonald’s partnered with Amazon Advertising to develop the campaign "McDelivery and a Movie."
+<h3>McDelivery</h3>
+<li>McDonald’s McDelivery service has been redefining customer engagement since its launch in Canada in 2017. With the onset of the pandemic in 2020, McDelivery became even more essential as restaurants had to close indoor dining. To shift brand perception and engage with customers in new, creative ways, McDonald’s partnered with Amazon Advertising to develop the campaign "McDelivery and a Movie."
 
 <img src="/assets/blog/save-while-you-savor-1024x549.jpeg" alt="McDelivery"/>
 
 This campaign was all about bringing the family movie night experience directly to customers, combining food delivery with entertainment. Custom “McDelivery hubs” were created on Amazon.ca and Fire TV, offering a curated list of movies perfect for a cozy night in. Additionally, a shoppable carousel featured movie night essentials like popcorn bowls and pajamas, making it easy for customers to complete their experience with a few clicks.
 
-To amplify the campaign, McDonald’s used traffic-driving display banners and engaging online video content, running across multiple platforms including Amazon.ca, IMDb, Twitch, and even Thursday Night Football. The campaign not only promoted McDelivery as a convenient service but also made it a fun, integrated part of customers' entertainment routines. This creative approach helped McDonald’s boost engagement and positively shift how customers viewed the brand during a challenging time.
+To amplify the campaign, McDonald’s used traffic-driving display banners and engaging online video content, running across multiple platforms including Amazon.ca, IMDb, Twitch, and even Thursday Night Football. The campaign not only promoted McDelivery as a convenient service but also made it a fun, integrated part of customers' entertainment routines. This creative approach helped McDonald’s boost engagement and positively shift how customers viewed the brand during a challenging time.</li>
 
 
 </ul>

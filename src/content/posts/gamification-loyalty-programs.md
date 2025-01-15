@@ -163,7 +163,7 @@ Ultimately, the goal of gamified loyalty programs is to deepen customer engageme
 
    <h2 id="5-Winning-Gamification-Loyalty-Programs">5 Winning Gamification Loyalty Programs</h2>
    <ol role="list">
-   <li><h3>Spin-to-win games</h3></li>
+   <li><h3>Spin-to-win games</h3>
    Incorporating a spin-to-win game into your gamification loyalty programs adds an exciting element of chance and fun that captivates customers and enhances their experience. This feature, commonly used in digital platforms like apps or websites, is a powerful tool to boost engagement and encourage repeat interactions.
    <img src="/assets/blog/Spin-the-wheel-1-2024.png" alt="Spin to win loyalty program" style="width: 800px;"/>
 
@@ -208,8 +208,9 @@ Spin-to-win games are a fantastic example of <strong class="text-gray-200">gamif
 <li><strong class="text-gray-200">Sephora</strong>: As part of their Beauty Insider loyalty program, Sephora occasionally includes gamified elements like spin-to-win games to give customers chances to earn exclusive beauty products or discounts.</li>
 <img src="/assets/blog/blog-pngs.png" alt="Sephora spin to win loyalty program" style="width: 800px;"/>
 </ul>
+</li>
 
-<li><h3>Tier-Level Challenges</h3></li>
+<li><h3>Tier-Level Challenges</h3>
 In today’s competitive market, loyalty programs must go beyond traditional point-based systems to truly captivate customers. One innovative approach is introducing <strong class="text-gray-200">tier-level challenges</strong> that gamify the customer experience, creating an interactive and rewarding journey.
 <img src="/assets/blog/Sephora-Beauty-Insider-Program-Benefits-2023-768x1152.jpg" alt="Sephora Tiered Loyalty Program" style="width: 800px; height: 700px;"/>
 
@@ -226,9 +227,9 @@ By integrating tier-level challenges, you encourage customers to engage with you
 
 This multi-faceted approach ensures customers feel valued at every interaction and not just when they spend.
 
-By adding <strong class="text-gray-200">gamification to loyalty programs</strong>, you can take customer satisfaction to the next level. Tier-level challenges not only motivate customers to achieve higher tiers for better rewards but also create a sense of accomplishment, making their loyalty journey more personal and rewarding.
+By adding <strong class="text-gray-200">gamification to loyalty programs</strong>, you can take customer satisfaction to the next level. Tier-level challenges not only motivate customers to achieve higher tiers for better rewards but also create a sense of accomplishment, making their loyalty journey more personal and rewarding.</li>
 
-<li><h3>Augmented Reality Games</h3></li>
+<li><h3>Augmented Reality Games</h3>
 AR games are designed to merge gamification with real-world exploration. Customers interact with virtual elements within their physical surroundings using your app’s AR features. The success of this approach hinges on crafting a game concept that aligns seamlessly with your brand identity.
 
 Here’s how AR games can be implemented:
@@ -257,11 +258,12 @@ AR games offer a fresh and engaging way to connect with customers. Here’s why 
 
 <strong class="text-gray-200">Real-Life Example</strong><br>
 <ul>
-<li><strong class="text-gray-200">Kipling</strong>: The global accessories brand successfully integrated AR into its loyalty program app by allowing members to "catch" the brand’s signature monkeys in an AR game. The engaging concept, closely tied to Kipling’s identity, became a hit among customers, driving app usage and enhancing loyalty.</li>
+<li><strong class="text-gray-200">Kipling:</strong> The global accessories brand successfully integrated AR into its loyalty program app by allowing members to "catch" the brand’s signature monkeys in an AR game. The engaging concept, closely tied to Kipling’s identity, became a hit among customers, driving app usage and enhancing loyalty.</li>
 <img src="/assets/blog/03-kipling.webp" alt="Kipling Loyalty Program" style="width: 800px;"/>
 </ul>
+</li>
 
-<li><h3>Rewarding Customers with Badges</h3></li>
+<li><h3>Rewarding Customers with Badges</h3>
 Badges are earned by customers when they complete specific actions within your loyalty program. These actions can range from basic participation to more advanced achievements. By incorporating a tiered or collectible structure, you can create a sense of progression that keeps customers actively involved.
 
 Here’s how you can implement badges in your loyalty program:
@@ -299,8 +301,9 @@ Badges and trophies go beyond simple rewards—they add a layer of recognition, 
 <img src="/assets/blog/nike-run-club-screenshot-2000x1125.jpg" alt="Nike Run Club" style="width: 800px;"/>
 
 </ul>
+</li>
 
-<li><h3>Friend Referral Challenge</h3></li>
+<li><h3>Friend Referral Challenge</h3>
 A friend <a href="https://www.99minds.io/blog/referral-marketing">referral</a> challenge is one of the most effective strategies in gamification loyalty programs, offering the perfect balance between customer retention and acquisition. By rewarding your existing members for referring friends, you engage current customers while simultaneously expanding your member base in an organic and cost-effective manner.
 
 The concept is simple but impactful: incentivize customers to invite their friends to join your loyalty program or subscribe to your service. For every successful referral, both the referrer and the referred friend receive a reward, creating a win-win situation.
@@ -338,7 +341,7 @@ A friend referral challenge blends gamification with word-of-mouth marketing to 
 <li><strong class="text-gray-200">Spotify Premium</strong>: Spotify has run friend referral challenges where users earn free months of Premium subscriptions for every successful referral, boosting both engagement and acquisition.</li>
 <img src="/assets/blog/61f899385c6753fcb9f4fc03_spotify-referral-program-widget.png" alt="Spotify loyalty referral program" style="width: 800px;"/>
 </ul>
-
+</li>
    </ol>
 
 <h2 id="Final-words-on-Gamification-Loyalty-Programs">Final words on Gamification Loyalty Programs</h2>
