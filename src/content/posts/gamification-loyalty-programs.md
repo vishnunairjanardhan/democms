@@ -304,7 +304,7 @@ Badges and trophies go beyond simple rewards—they add a layer of recognition, 
 </li>
 
 <li><h3>Friend Referral Challenge</h3>
-A friend <a href="https://www.99minds.io/blog/referral-marketing">referral</a> challenge is one of the most effective strategies in gamification loyalty programs, offering the perfect balance between customer retention and acquisition. By rewarding your existing members for referring friends, you engage current customers while simultaneously expanding your member base in an organic and cost-effective manner.
+A friend referral challenge is one of the most effective strategies in gamification loyalty programs, offering the perfect balance between customer retention and acquisition. By rewarding your existing members for referring friends, you engage current customers while simultaneously expanding your member base in an organic and cost-effective manner.
 
 The concept is simple but impactful: incentivize customers to invite their friends to join your loyalty program or subscribe to your service. For every successful referral, both the referrer and the referred friend receive a reward, creating a win-win situation.
 
@@ -355,5 +355,5 @@ Gamification adds interactive and engaging elements like games, badges, and chal
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Are gamification strategies suitable for all types of businesses?</h3>
 Yes, gamification loyalty programs can be tailored to suit businesses across industries. Whether you’re in retail, hospitality, or e-commerce, strategies like spin-to-win games, referral challenges, or badges can be customized to align with your brand goals and customer preferences.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can I create a gamified loyalty program for my business?</h3>
-<a href="http://www.99minds.io">99minds</a> offers a powerful platform to design and manage gamified loyalty programs. With features like tier-based challenges, spin-to-win games, referral systems, and more, 99minds makes it easy for businesses to engage customers, boost retention, and grow their customer base effectively.
+99minds offers a powerful platform to design and manage gamified loyalty programs. With features like tier-based challenges, spin-to-win games, referral systems, and more, 99minds makes it easy for businesses to engage customers, boost retention, and grow their customer base effectively.
 </div>

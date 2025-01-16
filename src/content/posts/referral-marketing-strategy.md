@@ -1,5 +1,5 @@
 ---
-pubDate: 2025-01-13
+pubDate: 2025-01-15
 author: Soniya
 authorImg: "Soniya.webp"
 title:  "How to Create an Effective Referral Marketing Strategy in 2025"
@@ -66,6 +66,8 @@ A referral marketing approach offers numerous advantages, such as:
 <li><b>Scalable expansion:</b> Referral programs can quickly grow to satisfy the demands of your business without incurring significant extra costs.</li>
 </ul>
 
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
+
 <h2 id="12-Effective-Referral-Marketing-Strategies-to-Win-New-Customers">12 Effective Referral Marketing Strategies to Win New Customers</h2> 
 
 A solid referral marketing strategy is essential for success. Below are 12 strategies businesses can adopt:
@@ -82,6 +84,8 @@ One effective strategy for promoting involvement in a  <a href="https://www.99mi
 </ul>
 
 Types of rewards can be tailored to match the specific requirements of your business. For instance, a retail store could provide a discount on your subsequent purchase, whereas a subscription service could grant a complimentary month of service. 
+
+<img src="/assets/blog/offer-discount.webp" alt="offer incentives">
 
 <li><h3>Simplify Sharing</h3></li>
 Customers are more inclined to participate in a recommendation procedure that is easy for them to complete. The following are some recommended practices:
@@ -119,6 +123,8 @@ Customers may be persuaded to respond quickly by time-sensitive offers because t
 </ul>
 
 This urgency will push customers to act immediately, maximizing the number of referrals within a limited window.
+
+<img src="/assets/blog/Black-Friday-Limited-Time-Popup.webp" alt="create urgecy">
 
 <li><h3>Gamify the Process</li></h3>
 Gamification introduces a fun and competitive element that can encourage more participation and foster long-term engagement. 
@@ -202,6 +208,8 @@ User-created content (UCC) is a significant marketing asset that aids in promoti
 UGC acts as authentic and powerful <a href="https://www.99minds.io/blog/word-of-mouth-marketing" role="link" target="_blank">word-of-mouth marketing</a>, which can boost the success of your referral marketing strategy.</li>
 </ul>
 
+<img src="/assets/blog/Incorporate-ugc.png" alt="Incorporate ugc">
+
 <li><h3>Use Influencers</li></h3>
 Influencers can enhance your referral program by connecting with wider and more specific audiences. They are able to: 
 <ul role= "list">
@@ -212,6 +220,37 @@ Influencers can enhance your referral program by connecting with wider and more 
 <li><b>Establish Trustworthiness:</b> When executed correctly, these tactics can improve the effectiveness and longevity of your referral marketing efforts. By fostering engagement, simplifying procedures, and crafting a delightful experience, you can turn your customers into vital advocates for your brand.</li>
 </ul>
 </ol>
+
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
 <h2>Referral Marketing Tools and Software</h2>
 <ol role= "list">
