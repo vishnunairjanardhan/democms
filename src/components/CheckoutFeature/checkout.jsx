@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-const CheckoutPage = (walletData) => {
+const CheckoutPage = (walletData,onPaymentSuccess) => {
   const [denomination, setDenomination] = useState(0);
   const [quantity1, setQuantity1] = useState(1);
   const [quantity2, setQuantity2] = useState(1);
@@ -206,21 +206,20 @@ const CheckoutPage = (walletData) => {
     setIsGiftCardOpen(!isGiftCardOpen);
     setIsCouponOpen(false);
   };
+  const handlePayButtonClick = () => {
+    onPaymentSuccess();
+  };
   return (
-    <article className="relative py-12 mx-auto max-w-7xl md:py-24 lg:px-16 w-full">
+    <article className="relative mx-auto max-w-7xl lg:px-16 w-full">
       <div className='flex justify-between'>
-        <button type="button" class="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick={() => { window.location.reload(); }}>
+        <button type="button" class="relative p-1 my-8 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick={() => { window.location.reload(); }}>
           <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
           <span class="relative px-4 py-1 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
             <span class="relative text-white flex items-center justify-center"><h4 className='px-2'>Back</h4></span>
           </span></button>
-        {/* <a type="button" class="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" href='/submit-order'>
-          <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-          <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
-            <span class="relative text-white flex items-center justify-center"><h4 className='px-2'>Next</h4></span>
-          </span></a> */}
+          
       </div>
-      <h4 className="text-2xl text-white text-center font-bold mb-4 pt-4">{walletData['walletData']['brandName']}'s Wallet</h4>
+      {/* <h4 className="text-2xl text-white text-center font-bold mb-4 pt-4">{walletData['walletData']['brandName']}'s Wallet</h4> */}
       <div className="bg-white rounded p-3">
         <div className="w-full flex h-8 bg-gray-200 pl-2 rounded-lg my-3">
           <div class="rounded-full bg-white h-4 w-4 mt-2 mx-2"></div>
@@ -397,13 +396,15 @@ const CheckoutPage = (walletData) => {
             </div>
             <form method="post" className="flex-1 space-y-2 p-4 bg-white">
               <div>
-                <button type="button" class="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md w-full" onClick={() => { window.location.reload(); }}>
+                <button type="button" class="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md w-full">
                   <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                   <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
                     <span class="relative text-white flex items-center justify-center"><h4 className='px-2'>{walletData['walletData']['brandName']}</h4> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
                       <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3h43V1.78a.5.5 0 0 0-.621-.484zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h43a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z" />
-                    </svg></span>
-                  </span></button>
+                    </svg>
+                    </span>
+                  </span>
+                </button>
               </div>
               <div className="flex-1 p-4 rounded-md space-y-1">
                 {/* giftcard */}
@@ -586,9 +587,7 @@ const CheckoutPage = (walletData) => {
                 </label>
                 </div>
                 <div className='w-full pt-2'>
-                  <a href='/submit-order'>
-                    <button type='button' className="bg-black text-white p-3 rounded-md w-full">Pay</button>
-                  </a>
+                  <button onClick={handlePayButtonClick} type='button' className="bg-black text-white p-3 rounded-md w-full">Pay</button>
                 </div>
               </form>
             </form>

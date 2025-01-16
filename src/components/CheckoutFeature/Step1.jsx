@@ -25,10 +25,9 @@ const WalletPage = ({ onNextButtonClick }) => {
         }
     };
     return (
-        <article className="relative py-12 mx-auto max-w-7xl md:py-24 lg:px-16 w-full">
+        <article className="relative mx-auto max-w-7xl lg:px-16 w-full">
             <div className="flex flex-col items-center justify-center pb-8">
-                <h1 className="text-2xl font-bold mb-4 pt-4 text-white">Create Your Brand Wallet</h1>
-                <div className='p-3 mt-4 bg-vulcan-900 rounded-xl p-[0.060rem] shadow-xl shadow-vulcan-950 border border-white/10'>
+                <div className='p-3 mt-12 bg-vulcan-900 rounded-xl p-[0.060rem] shadow-xl shadow-vulcan-950 border border-white/10'>
                     <div className="lg:flex justify-center ">
                         <div className="lg:flex flex-col pb-4 mr-4">
                             <div className="mb-4 flex flex-col">
