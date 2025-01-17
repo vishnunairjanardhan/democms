@@ -179,20 +179,20 @@ const CheckoutPage = (walletData,onPaymentSuccess) => {
     const formattedPrice = typeof price === 'number' ? price.toFixed(2) : price;
     return (
       <tr className="lg:w-full">
-        <td className="py-4">
+        <td className="lg:px-0  lg:py-4">
           <div className="flex flex-col lg:flex-row items-center">
             <img className="h-16 w-16 lg:mr-4 lg:rounded-md" src={image} alt="Product image" />
             <span className="font-semibold">{name}</span>
           </div>
         </td>
-        <td className="py-4">
+        <td className="lg:px-0 px-2 lg:py-4">
           <div className="flex items-center">
             <button onClick={onDecrement} className="border rounded-md py-2 px-4 mr-2">-</button>
             <span className="text-center w-8">{quantity}</span>
             <button onClick={onIncrement} className="border rounded-md py-2 px-4 ml-2">+</button>
           </div>
         </td>
-        <td className="py-4">${(price * quantity).toFixed(2)}</td>
+        <td className="lg:px-0 px-2 lg:py-4">${(price * quantity).toFixed(2)}</td>
       </tr>
     );
   };
@@ -211,7 +211,7 @@ const CheckoutPage = (walletData,onPaymentSuccess) => {
   };
   return (
     <article className="relative mx-auto max-w-7xl lg:px-16 w-full">
-      <div className='flex justify-between'>
+      <div className='flex justify-between lg:px-0 px-4'>
         <button type="button" class="relative p-1 my-8 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick={() => { window.location.reload(); }}>
           <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
           <span class="relative px-4 py-1 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
@@ -220,7 +220,7 @@ const CheckoutPage = (walletData,onPaymentSuccess) => {
           
       </div>
       {/* <h4 className="text-2xl text-white text-center font-bold mb-4 pt-4">{walletData['walletData']['brandName']}'s Wallet</h4> */}
-      <div className="bg-white rounded p-3">
+      <div className="bg-white rounded p-3 lg:mx-0 mx-4">
         <div className="w-full flex h-8 bg-gray-200 pl-2 rounded-lg my-3">
           <div class="rounded-full bg-white h-4 w-4 mt-2 mx-2"></div>
           <div class="rounded-full bg-white h-4 w-4 mt-2"></div>
@@ -234,13 +234,13 @@ const CheckoutPage = (walletData,onPaymentSuccess) => {
                 <h2 className="text-lg font-medium py-4 text-black">Order Details</h2>
               </div>
               <div className="md:w-full">
-                <div className="bg-white rounded-lg shadow-md p-6 mb-4">
+                <div className="bg-white rounded-lg shadow-md lg:p-6 p-4 mb-4">
                   <table className="w-full">
                     <thead>
                       <tr>
-                        <th className="text-left font-semibold">Product</th>
-                        <th className="text-left font-semibold">Quantity</th>
-                        <th className="text-left font-semibold">Price</th>
+                        <th className="lg:text-left font-semibold">Product</th>
+                        <th className="lg:text-left font-semibold">Quantity</th>
+                        <th className="lg:text-left font-semibold">Price</th>
                       </tr>
                     </thead>
                     <tbody>
