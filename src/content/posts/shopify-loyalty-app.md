@@ -60,6 +60,8 @@ In this blog, I’m breaking down the 12 best Shopify loyalty apps for 2025. Whe
 <b>Price</b>: Custom pricing based on features.
 </li>
 
+<a href="https://www.99minds.io/loyalty" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP1.webp" alt="boost customer retention with our loyalty platform"></a>
+
 <li>
 <h3>Smile.io: Simplify Customer Rewards</h3> 
 
@@ -301,7 +303,40 @@ Glow is a flexible and affordable loyalty app designed to help Shopify merchants
 </li>
 </ol>
 
-<h2 id="Final-Words-on-Shopify-Loyalty-Apps">Final Words on Shopify Loyalty Apps</h2>
+<!-- 
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+<h2 class="m-0 mb-4" id="Final-Words-on-Shopify-Loyalty-App">Final Words on Shopify Loyalty App</h2>
 
 With these 12 Shopify loyalty apps, you can create a rewards program that fits your business’s unique needs. From simple point systems to complex tiered memberships, these apps provide everything you need to engage and retain your customers.
 
