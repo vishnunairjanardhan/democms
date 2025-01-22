@@ -49,7 +49,7 @@ Gift card marketing is a smart way to pump up your sales by letting customers bu
 <ol>
 <li><b>Maximize sales:</b> Gift card marketing is like the secret sauce for bumping up your sales—not only do folks often spend more than the gift card value, but it also brings in new customers who might just turn into long-term loyal customers.</li>
 
-<li><b>Building Loyalty:</b> By weaving gift cards into your <a href="https://www.99minds.io/loyalty" role="link" target="_blanck">loyalty programs</a>, you're not just keeping your current customers happy, you're strengthening your relationship with them. This strategy enhances their overall experience by offering tangible rewards that incentivize repeat business.</li>
+<li><b>Building Loyalty:</b> By weaving gift cards into your <a href="https://www.99minds.io/blog/loyalty-program" role="link" target="_blanck">loyalty programs</a>, you're not just keeping your current customers happy, you're strengthening your relationship with them. This strategy enhances their overall experience by offering tangible rewards that incentivize repeat business.</li>
 
 <li><b>Holiday season cheat code:</b> Don’t overlook the power of seasonal spikes; during the holidays or special anniversaries, promoting <a href="https://www.99minds.io/giftcard" role="link" target="_blanck">gift card</a> can seriously boost your sales. These key times are when customers are actively looking for easy, thoughtful gifts, and gift cards fit the bill perfectly.</li>
 
