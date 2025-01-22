@@ -486,13 +486,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"customer-engagement.md": {
-	id: "customer-engagement.md";
-  slug: "customer-engagement";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "customer-lifetime-value.md": {
 	id: "customer-lifetime-value.md";
   slug: "customer-lifetime-value";
@@ -505,7 +498,7 @@ declare module 'astro:content' {
   slug: "customer-loyalty-analytics";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "customer-loyalty-programs-will-they-benefit-my-business.md": {
 	id: "customer-loyalty-programs-will-they-benefit-my-business.md";
@@ -526,7 +519,7 @@ declare module 'astro:content' {
   slug: "customer-loyalty";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "customer-retention-and-acquisition-using-ai.md": {
 	id: "customer-retention-and-acquisition-using-ai.md";
@@ -540,7 +533,7 @@ declare module 'astro:content' {
   slug: "customer-retention";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "digital-vs.-physical-gift-card.md": {
 	id: "digital-vs.-physical-gift-card.md";
@@ -667,13 +660,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"gamification-loyalty-programs.md": {
-	id: "gamification-loyalty-programs.md";
-  slug: "gamification-loyalty-programs";
-  body: string;
-  collection: "posts";
-  data: any
 } & { render(): Render[".md"] };
 "getting-your-e-commerce-shop-thanksgiving-ready.md": {
 	id: "getting-your-e-commerce-shop-thanksgiving-ready.md";
@@ -1213,13 +1199,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"referral-marketing-strategy.md": {
-	id: "referral-marketing-strategy.md";
-  slug: "referral-marketing-strategy";
-  body: string;
-  collection: "posts";
-  data: any
 } & { render(): Render[".md"] };
 "referral-marketing-vs-affiliate-marketing.md": {
 	id: "referral-marketing-vs-affiliate-marketing.md";
