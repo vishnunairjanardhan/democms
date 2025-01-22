@@ -493,13 +493,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"customer-loyalty-programs-will-they-benefit-my-business.md": {
-	id: "customer-loyalty-programs-will-they-benefit-my-business.md";
-  slug: "customer-loyalty-programs-will-they-benefit-my-business";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "customer-loyalty-trends.md": {
 	id: "customer-loyalty-trends.md";
   slug: "customer-loyalty-trends";
@@ -622,13 +615,6 @@ declare module 'astro:content' {
 "fathers-day-retail-promotion-ideas.md": {
 	id: "fathers-day-retail-promotion-ideas.md";
   slug: "fathers-day-retail-promotion-ideas";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"from-discounts-to-exclusivity-designing-an-effective-customer-loyalty-program-for-your-shopify-store.md": {
-	id: "from-discounts-to-exclusivity-designing-an-effective-customer-loyalty-program-for-your-shopify-store.md";
-  slug: "from-discounts-to-exclusivity-designing-an-effective-customer-loyalty-program-for-your-shopify-store";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1056,6 +1042,13 @@ declare module 'astro:content' {
 "loyalty-program-for-small-business.md": {
 	id: "loyalty-program-for-small-business.md";
   slug: "loyalty-program-for-small-business";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"loyalty-program.md": {
+	id: "loyalty-program.md";
+  slug: "loyalty-program";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
