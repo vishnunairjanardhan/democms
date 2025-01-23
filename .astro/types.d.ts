@@ -342,7 +342,14 @@ declare module 'astro:content' {
   slug: "are-omnichannel-loyalty-programs-the-future-of-retail";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
+} & { render(): Render[".md"] };
+"Black-friday-promotion-ideas.md": {
+	id: "Black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "Christmas-marketing-ideas.md": {
 	id: "Christmas-marketing-ideas.md";
@@ -365,7 +372,14 @@ declare module 'astro:content' {
   slug: "a-comprehensive-guide-to-digital-gift-cards";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
+} & { render(): Render[".md"] };
+"ai-for-customer-engagement.md": {
+	id: "ai-for-customer-engagement.md";
+  slug: "ai-for-customer-engagement";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "ai-for-everyone.md": {
 	id: "ai-for-everyone.md";
@@ -514,14 +528,7 @@ declare module 'astro:content' {
   slug: "customer-acquisition-strategy";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"customer-engagement.md": {
-	id: "customer-engagement.md";
-  slug: "customer-engagement";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "customer-engagement.md": {
 	id: "customer-engagement.md";
@@ -545,19 +552,12 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"customer-loyalty-programs-will-they-benefit-my-business.md": {
-	id: "customer-loyalty-programs-will-they-benefit-my-business.md";
-  slug: "customer-loyalty-programs-will-they-benefit-my-business";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "customer-loyalty-trends.md": {
 	id: "customer-loyalty-trends.md";
   slug: "customer-loyalty-trends";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "customer-loyalty.md": {
 	id: "customer-loyalty.md";
@@ -714,14 +714,7 @@ declare module 'astro:content' {
   slug: "gamification-in-retail-industry";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"gamification-loyalty-programs.md": {
-	id: "gamification-loyalty-programs.md";
-  slug: "gamification-loyalty-programs";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "getting-your-e-commerce-shop-thanksgiving-ready.md": {
 	id: "getting-your-e-commerce-shop-thanksgiving-ready.md";
@@ -1200,14 +1193,7 @@ declare module 'astro:content' {
   slug: "marketing-tools";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"ml-techniques-to-improve-customer-engagement.md": {
-	id: "ml-techniques-to-improve-customer-engagement.md";
-  slug: "ml-techniques-to-improve-customer-engagement";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "moneyball-game-changer-for-everyone.md": {
 	id: "moneyball-game-changer-for-everyone.md";
@@ -1326,14 +1312,7 @@ declare module 'astro:content' {
   slug: "referral-code";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"referral-marketing-strategy.md": {
-	id: "referral-marketing-strategy.md";
-  slug: "referral-marketing-strategy";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "referral-marketing-strategy.md": {
 	id: "referral-marketing-strategy.md";
@@ -1387,7 +1366,7 @@ declare module 'astro:content' {
   slug: "repeat-customer";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "retail-loyalty-program.md": {
 	id: "retail-loyalty-program.md";
