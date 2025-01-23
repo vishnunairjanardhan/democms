@@ -1284,6 +1284,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"sephoras-beauty-insider.md": {
+	id: "sephoras-beauty-insider.md";
+  slug: "sephoras-beauty-insider";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "shopify-gift-card.md": {
 	id: "shopify-gift-card.md";
   slug: "shopify-gift-card";
