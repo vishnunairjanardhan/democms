@@ -244,7 +244,7 @@ Customers feel connected to you when they believe you are listening to their fee
 <li>
 <h3>Implement Customer Loyalty Program</h3>
 
-Implementing a <a href="https://www.99minds.io/blog/loyalty-program" role="link" target="blanck">Starbucks rewards program</a>customer loyalty program is a great strategy to enhance customer loyalty. This marketing strategy that encourages customers to spend more money and time instead of their competitors by rewarding them with incentives,  exclusive discounts, early product access, or VIP perks.
+Implementing a <a href="https://www.99minds.io/blog/loyalty-program" role="link" target="blanck">customer loyalty program</a> is a great strategy to enhance customer loyalty. This marketing strategy that encourages customers to spend more money and time instead of their competitors by rewarding them with incentives,  exclusive discounts, early product access, or VIP perks.
 
 For example, the <a href="https://www.starbucks.com/rewards" role="link" target="blanck">Starbucks rewards program</a> is one the best <a href="https://www.99minds.io/blog/loyalty-program-examples" role="link" target="_blanck">examples of loyalty programs</a>. Customers can earn stars on every spend which customers can redeem through the Starbucks app and in-store. Customers can redeem these stars for free drinks, food, and merchandise. With a reward program, Starbucks can get more repeat purchases and <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">build brand loyalty</a>.
 </li>
