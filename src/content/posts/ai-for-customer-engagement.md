@@ -6,14 +6,14 @@ title: "AI for Customer Engagement: Transforming Experiences & Loyalty"
 description: "Discover how AI revolutionizes customer engagement through personalization, predictive analytics, and better retention strategies. Enhance brand loyalty today."
 heading: "How AI for Customer Engagement: Key Benefits and Use Cases"
 image:
-  url: "/assets/blog/ai-for-customer-engagement-transforming-experiences-loyalty.webp"
+  url: "/assets/blog/why_does_ai_matter_for_today_s_businesses_.webp"
   alt: "Ai for Customer Engagement"
 tags: ["Machine Learning"]
 url: "https://www.99minds.io/blog/ai-for-customer-engagement"
 keywords: ["ai for customer engagement"]
 
 ---
-<img rel="preload" role="img" src="/assets/blog/ai-for-customer-engagement-transforming-experiences-loyalty.webp" alt="AI for Customer Engagement">
+<img rel="preload" role="img" src="/assets/blog/why_does_ai_matter_for_today_s_businesses_.webp" alt="AI for Customer Engagement">
 
 <h2 id="What-is-AI-in-Customer-Engagement?">What is AI in Customer Engagement?</h2> 
 
