@@ -91,7 +91,7 @@ Every business needs to understand its customers to succeed. By knowing the buyi
 
 Understanding the decision-making process enables businesses to improve the customer journey by solving pain points and personalizing experiences. This allows marketers to enhance customer satisfaction at every stage by ensuring smooth navigations, responsive service, and tailored recommendations. 
 
-When businesses pay attention to these factors, they can create loyalty and advocacy, thereby transforming happy customers into <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blanck">repeat customers</a> and brand ambassadors.
+When businesses pay attention to these factors, they can <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">create loyalty</a> and advocacy, thereby transforming happy customers into <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blanck">repeat customers</a> and brand ambassadors.
 </li>
 
 <li>
