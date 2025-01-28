@@ -1,0 +1,73 @@
+<section
+  aria-labelledby="logocloud"
+  id="logocloud "
+  class="flex items-end justify-center bg-vulcan-900 border-t border-white/60 border-y border-white/5" style="background-image: linear-gradient(to top, #202130 , #2C2F48);">
+  <div
+    class="justify-center px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-0 lg:py-12">
+      <ul class="grid grid-cols-2 gap-6 list-none md:grid-cols-4 lg:gap-12 lg:mt-0 py-10" role="list"><li x-data="{ count: 0, target: 400, counter() { 
+        let interval = setInterval(() => { 
+            if (this.count < this.target) { 
+                this.count += 10; 
+            } else { 
+                clearInterval(interval); 
+            } 
+        }, 50); 
+    } }" 
+    x-init="counter()">
+        <div>
+            <p class="text-5xl mt-6 font-medium text-white lg:text-5xl" x-text="count">
+            </p>
+        </div>
+        <div class="mt-2 text-white text-base text-vulcan-300">
+            Gift Card Programs
+        </div>
+    </li>
+    <li x-data="{ count: 0, target: 3126, counter() { 
+      let interval = setInterval(() => { 
+          if (this.count < this.target) { 
+              this.count += 6; 
+          } else { 
+              clearInterval(interval); 
+          } 
+      }, 3); 
+  } }" 
+  x-init="counter()">
+      <div>
+          <p class="text-5xl mt-6 font-medium text-white lg:text-5xl" x-text="count">
+          </p></div><div class="mt-2 text-white text-base text-vulcan-300">
+Orders
+</div></li>
+<li x-data="{ count: 0, target: 5, formattedCount() { return '$'+ this.count.toFixed(1) + 'M'; }, counter() { 
+  let interval = setInterval(() => { 
+      if (this.count < this.target) { 
+          this.count += 0.5; 
+      } else { 
+          this.count = this.target;
+          clearInterval(interval); 
+      } 
+  }, 50); 
+} }" 
+x-init="counter()">
+<div>
+<p class="text-5xl mt-6 font-medium text-white lg:text-5xl" x-text="formattedCount()"></p></div>
+<div class="mt-2 text-white text-base text-vulcan-300">
+Value Generated
+</div></li>
+<li x-data="{ count: 0, target: 174288, counter() { 
+  let interval = setInterval(() => { 
+      if (this.count < this.target) { 
+          this.count += 3631; 
+      } else { 
+          clearInterval(interval); 
+      } 
+  }, 50); 
+} }" 
+x-init="counter()">
+  <div>
+      <p class="text-5xl mt-6 font-medium text-white lg:text-5xl" x-text="count">
+</p></div><div class="mt-2 text-white text-base text-vulcan-300">
+Total Transactions
+</div></li></ul>
+    </div>
+  </div>
+</section>

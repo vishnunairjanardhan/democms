@@ -1,0 +1,58 @@
+---
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
+import HeroStorecredit from "../components/heros/HeroStorecredit.astro";
+import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro";
+import FeatureStorecredit1 from "../components/features/FeatureStorecredit1.astro";
+import FeatureStorecredit from "../components/features/FeatureStorecredit.astro";
+import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
+import CtaThreeU from "../components/ctas/CtaThreeU.astro";
+import Integrations99minds2 from "../components/integrations/Integrations99minds2.astro";
+import { AstroSeo } from "@astrolib/seo";
+import { Seo } from "../config/Seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+<BaseLayout3>
+<AstroSeo
+  title="Convert Refunds to Sales with 99mind's Store Credit Software | 99minds"
+  description="Build customer loyalty and increase sales by easily issuing store credit to process refunds and reward customers."
+  canonical="https://www.99minds.io/store-credit"
+  openGraph={{
+    url: "https://www.99minds.io/store-credit",
+    title: "Convert Refunds to Sales with 99mind's Store Credit Software | 99minds",
+    description: "Build customer loyalty and increase sales by easily issuing store credit to process refunds and reward customers.",
+   images: [
+      {
+        url: "https://www.99minds.io/assets/storecredit/Storecredit-b2.png ",
+        alt: "99minds Store Credit",
+        type: "image/png",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/referral",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/storecredit/Storecredit-b2.png ",
+        alt: "99minds Store Credit",
+        type: "image/png",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroStorecredit />
+  <LogoCloudOne />
+  <FeatureStorecredit1 />
+  <FeatureStorecredit />
+  <TestimonialNew />
+  <Integrations99minds2 />
+  <CtaThreeU />
+  <!-- <Integrations99minds2 />
+  <CtaThreeU /> -->
+</BaseLayout3>

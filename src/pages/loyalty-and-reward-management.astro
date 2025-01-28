@@ -1,0 +1,73 @@
+
+---
+import BaseLayout2 from "../layouts/BaseLayout2.astro";
+import Slide from "../components/features/Slide.astro";
+import ROICalculator from "../components/features/ROI.jsx";
+import Slide1 from "../components/features/Slide1.astro";
+import ProgramWidget from "../components/features/ProgramWidget.astro";
+import WorkFlow from "../components/features/WorkFlow.astro";
+import SocialWidget from "../components/features/SocialWidget.astro";
+import FeatureMem3 from "../components/features/FeatureMem3.astro";
+import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
+import FeatureTabComp from "../components/features/FeatureTabComp.astro";
+import Bfcm from "../components/features/Bfcm.astro";
+import ShopifyCheckout from "../components/features/ShopifyCheckout.astro";
+import ResultsSection from "../components/features/ROI3.jsx";
+import ScrollComp from "../components/features/ScrollComp.astro";
+import { AstroSeo } from "@astrolib/seo";
+import GlobeWithHexCountries from "../components/customers/ThreeScene.jsx"
+import Counter from "../components/customers/Counter.astro"
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<head>
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<AstroSeo
+  title="99minds | Case Studies"
+  description="Discover the power of strategic collaborations with 99minds through illuminating case studies"
+  canonical="https://www.99minds.io/product"
+  openGraph={{
+    url: "https://www.99minds.io/product",
+    title: "99minds | Case Studies",
+    description: "Discover the power of strategic collaborations with 99minds through illuminating case studies",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
+        alt: "Case Study",
+        type: "image/svg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/case-study1",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
+        alt: "Case Study",
+        type: "image/svg",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout2>
+<!--<Bfcm />-->
+<Slide/>
+<ProgramWidget/>
+<SocialWidget/>
+<Slide1/>
+<ScrollComp />
+<FeatureMem3 />
+<FeatureTabComp />
+<ShopifyCheckout/>
+<WorkFlow/>
+<Counter/>
+<ROICalculator client:load/>
+<!--<GlobeWithHexCountries client:load />
+<ResultsSection client:load />-->
+</BaseLayout2>

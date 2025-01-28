@@ -1,0 +1,63 @@
+---
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
+import HeroWoocommerce from "../../components/heros/HeroWoocommerce.astro";
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureWcom from "../../components/features/FeatureWcom.astro";
+import FeatureTenWcom from "../../components/features/FeatureTenWcom.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+//import Cta99mindsWcom from "../../components/ctas/Cta99mindsWcom.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+import IntegrationWcom2 from "../../components/integrations/IntegrationWcom2.astro";
+import BcomRating from "../../components/Infopages/BcomRating.astro";
+import IntegrationWcom from "../../components/integrations/IntegrationWcom.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+<BaseLayout3>
+<AstroSeo
+  title="99minds and WooCommerce integration | 99minds"
+  description="Add the leading omnichannel gift card and loyalty program app to your Woocommerce store. Boost customer retention and increase revenue."
+  canonical="https://www.99minds.io/integrations/woocommerce"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/woocommerce",
+    title: "99minds and WooCommerce integration | 99minds",
+    description: "Add the leading omnichannel gift card and loyalty program app to your Woocommerce store. Boost customer retention and increase revenue.",
+  images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-Wcom-OGI.svg",
+        alt: "99minds & WooCommerce",
+        type: "image/svg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/integrations/woocommerce",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-Wcom-OGI.svg",
+        alt: "99minds & WooCommerce",
+        type: "image/svg",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroWoocommerce />
+  <LogoCloudOne />
+  <FeatureWcom />
+  <IntegrationWcom />
+  <!--<FeatureShopify2 />-->
+  <FeatureTenWcom />
+  <IntegrationWcom2 />
+  <Testimonialtry />
+  <!-- <Cta99mindsWcom /> -->
+  <CtaThreeU />
+</BaseLayout3>

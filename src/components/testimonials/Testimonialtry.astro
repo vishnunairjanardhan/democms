@@ -1,0 +1,183 @@
+<section class="lg:p-8 border-t border-y border-white/5">
+  <div class="mx-auto 2xl:max-w-7xl py-12 lg:px-16 md:px-12 px-8 xl:px-28 items-center w-full">
+
+    <div class="flex flex-col w-full" x-data="{
+      skip: 1,
+      atBeginning: false,
+      atEnd: false,
+      next() {
+          this.to((current, offset) => current + (offset * this.skip))
+      },
+      prev() {
+          this.to((current, offset) => current - (offset * this.skip))
+      },
+      to(strategy) {
+          let slider = this.$refs.slider;
+          let current = slider.scrollLeft;
+          let offset = slider.firstElementChild.getBoundingClientRect().width;
+          let maxScroll = slider.scrollWidth - slider.clientWidth;
+
+          let newScrollLeft = strategy(current, offset);
+
+          if (newScrollLeft < 0) {
+              newScrollLeft = maxScroll;
+          } else if (newScrollLeft > maxScroll) {
+              newScrollLeft = 0;
+          }
+
+          slider.scrollTo({ left: newScrollLeft, behavior: 'smooth' });
+      },
+      focusableWhenVisible: {
+          'x-intersect:enter'() {
+              this.$el.removeAttribute('tabindex');
+          },
+          'x-intersect:leave'() {
+              this.$el.setAttribute('tabindex', '-1');
+          },
+      },
+      disableNextAndPreviousButtons: {
+          'x-intersect:enter.threshold.05'() {
+              let slideEls = this.$el.parentElement.children;
+              if (slideEls[0] === this.$el) {
+                  this.atBeginning = true;
+              } else if (slideEls[slideEls.length - 1] === this.$el) {
+                  this.atEnd = true;
+              }
+          },
+          'x-intersect:leave.threshold.05'() {
+              let slideEls = this.$el.parentElement.children;
+              if (slideEls[0] === this.$el) {
+                  this.atBeginning = false;
+              } else if (slideEls[slideEls.length - 1] === this.$el) {
+                  this.atEnd = false;
+              }
+          },
+      },
+      startAutoSlide() {
+          this.interval = setInterval(() => {
+              this.next();
+          }, 3000);
+      },
+      stopAutoSlide() {
+          clearInterval(this.interval);
+      },
+  }" x-init="startAutoSlide" x-on:mouseenter="stopAutoSlide" x-on:mouseleave="startAutoSlide" role="button">
+      <div class="flex flex-col w-full" aria-labelledby="carousel-label" role="region" tabindex="0" x-on:keydown.left="prev" x-on:keydown.right="next">
+        <h2 class="sr-only" hidden="" id="carousel-label">Carousel</h2>
+        <span class="sr-only" hidden="" id="carousel-content-label">Carousel</span>
+        <div class="grid grid-cols-1 lg:grid-cols-2 pb-6 border-b border-white/10 overflow-hidden">
+        <h2 class="text-3xl tracking-tighter mt-0 font-normal lg:text-4xl text-white">Hear from our Clients </h2>
+          <div class="items-center inline-flex lg:col-start-4 lg:ml-auto lg:px-2 mb-4 pt-4 order-last space-x-2">
+            <button class="bg-white/5 hover:bg-white/10 focus:bg-transparent rounded-2xl inline-flex items-center text-center text-white p-4 ring-1 ring-white/10" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }" :aria-disabled="atBeginning" :tabindex="atEnd ? -1 : 0" x-on:click="prev" tabindex="0">
+              <span aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path>
+                </svg>
+              </span>
+              <span class="sr-only">Skip to previous slide page</span>
+            </button>
+            <button class="bg-white/5 hover:bg-white/10 focus:bg-transparent rounded-2xl inline-flex items-center text-center text-white p-4 ring-1 ring-white/10" :class="{ 'opacity-50 cursor-not-allowed': atEnd }" :aria-disabled="atEnd" :tabindex="atEnd ? -1 : 0" x-on:click="next" tabindex="0">
+              <span aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </span>
+              <span class="sr-only">Skip to next slide page</span>
+            </button>
+          </div>
+        </div>
+        <ul class="flex gap-3 overflow-x-scroll pb-16 pt-12 scrollbar-hide snap-mandatory snap-x w-full" role="listbox" aria-labelledby="carousel-content-label" tabindex="0" x-ref="slider">
+          <li class="items-center justify-center w-full flex flex-col shrink-0 snap-start" role="option" x-bind="disableNextAndPreviousButtons">
+            <figure>
+              <ul class=" h-full">
+                <li class="bg-gradient-to-b mb-4 from-indigo-500 via-indigo-500/5 shadow-2xl rounded-xl p-[0.060rem] snap-start w-120 lg:h-80 h-3/5 ring-1 ring-vulcan-800">
+                  <figure class="bg-vulcan-900 rounded-xl p-4">
+                    <div data-tilt class="">
+                      <div class="mt-6 lg:mt-4 lg:flex h-64 lg:items-center">
+                        <img class="object-cover object-center mt-8 rounded-lg" loading="lazy" src="/assets/testimonial/Pinstripe1.webp" width="320" height="423" alt="Pinstripe">
+                        <div class="mt-8 lg:px-10 lg:mt-0">
+                          <img class="object-cover object-center" width="64" height="51" loading="lazy" src="/assets/testimonial/C-1.png" alt="">
+                          <p class="max-w-lg mt-2 text-base"> "The team at 99Minds has been great to work with. Changing to them as our gift card vendor has saved us substantial money and also made the purchase experience far more seamless for our guests. Additionally their customer service is top notch. They are incredibly responsive and help us bring guests to resolution in a timely manner." </p>
+                          <div class='flex'>
+                          <div>
+                          <h3 class="mt-6 text-md font-medium text-white">ANTHONY COLUCCI-VICE PRESIDENT</h3>
+                          <p class="text-sm text-vulcan-300">MARKETING, PINSTRIPES INC.</p>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </figure>
+                </li>
+              </ul>
+            </figure>
+          </li>
+          <li class="items-center justify-center w-full flex flex-col shrink-0 snap-start" role="option" x-bind="disableNextAndPreviousButtons">
+            <figure>
+              <ul class=" h-full">
+                <li class="bg-gradient-to-b mb-4 from-indigo-500 via-indigo-500/5 shadow-2xl rounded-xl p-[0.060rem] snap-start w-120 lg:h-80 h-3/5 ring-1 ring-vulcan-800">
+                  <figure class="bg-vulcan-900 rounded-xl p-4">
+                    <div data-tilt class="">
+                      <div class="mt-4 lg:mt-4 lg:flex h-64 lg:items-center">
+                        <img class="object-cover object-center  mt-8 rounded-lg" loading="lazy" src="/assets/testimonial/Flynnohara1.webp" width="320" height="423" alt="Flynnohara">
+                        <div class="mt-8 lg:px-10 lg:mt-0">
+                          <img class="object-cover object-center" width="64" height="51" loading="lazy" src="/assets/testimonial/C-1.png" alt="">
+                          <p class="max-w-lg mt-4 text-base font-normal"> "99minds provided 100% of our requirements and offered much more to manage our program. The team has been a great partner, and we highly recommend them to other customers." </p>
+                          <h3 class="mt-6 text-md font-medium text-white">THOMAS NARKIEWICZ</h3>
+                          <p class="text-sm text-vulcan-300">CTO, FLYNNOHARA</p>
+                        </div>
+                      </div>
+                    </div>
+                  </figure>
+                </li>
+              </ul>
+            </figure>
+          </li>
+
+          <li class="items-center justify-center w-full flex flex-col shrink-0 snap-start" role="option" x-bind="disableNextAndPreviousButtons">
+            <figure>
+              <ul class=" h-full">
+                <li class="bg-gradient-to-b mb-4 from-indigo-500 via-indigo-500/5 shadow-2xl rounded-xl p-[0.060rem] snap-start w-120 lg:h-80 h-3/5 ring-1 ring-vulcan-800">
+                  <figure class="bg-vulcan-900 rounded-xl p-4">
+                    <div data-tilt class="">
+                      <div class="mt-4 lg:mt-4 h-64 lg:flex lg:items-center">
+                        <img class="object-cover object-center mt-8 rounded-lg" loading="lazy" src="/assets/testimonial/Cariloha1-u.webp" width="320" height="423" alt="Cariloha">
+                        <div class="mt-8 lg:px-10 lg:mt-0">
+                          <img class="object-cover object-center" width="64" height="51" loading="lazy" src="/assets/testimonial/C-1.png" alt="">
+                          <p class="max-w-lg mt-2 text-base"> "One stop solution for Marketing and Promotion.Complete automation for gift cards and Coupons based on Customer Journey." </p>
+                          <h3 class="mt-6 text-md font-medium text-white">JOSH KIKKERT</h3>
+                          <p class="text-sm text-vulcan-300">DIRECTOR OF E-COMMERCE, CARILOHA</p>
+                        </div>
+                      </div>
+                    </div>
+                  </figure>
+                </li>
+              </ul>
+            </figure>
+          </li>
+          <li class="items-center justify-center w-full flex flex-col shrink-0 snap-start" role="option" x-bind="disableNextAndPreviousButtons">
+            <figure>
+              <ul class=" h-full">
+                <li class="bg-gradient-to-b mb-4 from-indigo-500 via-indigo-500/5 shadow-2xl rounded-xl p-[0.060rem] snap-start w-120 lg:h-80 h-3/5 ring-1 ring-vulcan-800">
+                  <figure class="bg-vulcan-900 rounded-xl p-4">
+                    <div data-tilt class="">
+                      <div class="mt-4 lg:mt-4 h-64 lg:flex lg:items-center">
+                        <img class="object-cover object-center mt-8 rounded-lg" loading="lazy" src="/assets/testimonial/Bestop1.webp" width="320" height="423" alt="Bestop">
+                        <div class="mt-8 lg:px-10 lg:mt-0">
+                          <img class="object-cover object-center" width="64" height="51" loading="lazy" src="/assets/testimonial/C-1.png" alt="">
+                          <p class="max-w-lg mt-2 text-base"> "With 99minds we are able to create one gift cards to make it work across multi-storefront for our multiple brands." </p>
+                          <h3 class="mt-6 text-md font-medium text-white">LAUREN BACK </h3>
+                          <p class="text-sm text-vulcan-300">DIGITAL MARKETING MANAGER, BESTOPS</p>
+                        </div>
+                      </div>
+                    </div>
+                  </figure>
+                </li>
+              </ul>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

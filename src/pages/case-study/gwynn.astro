@@ -1,0 +1,42 @@
+---
+import BaseLayout3 from "/src/layouts/BaseLayout3.astro";
+import HeroCasestudyGwynn from "/src/components/heros/HeroCasestudyGwynn.astro";
+import CasestudytestGwynn from "/src/components/testimonials/CasestudytestGwynn.astro";
+import FeatureCasestudyGwynn from "/src/components/features/FeatureCasestudyGwynn.astro";
+import Gwynn from "/src/components/Infopages/Gwynn.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+--->
+
+<BaseLayout3>
+<AstroSeo
+  title="Boosting Gwynn's Sales with Seamless Gift Card Integration | 99Minds"
+  description="Discover how Gwynn integrated gift cards with BigCommerce and Narvar, boosting sales and customer satisfaction while creating memorable shopping experiences!"
+  canonical="https://www.99minds.io/case-study/gwynn"
+  openGraph={{
+    url: "https://www.99minds.io/case-study/gwynn",
+    title: "Boosting Gwynn's Sales with Seamless Gift Card Integration | 99Minds",
+    description: "Discover how Gwynn integrated gift cards with BigCommerce and Narvar, boosting sales and customer satisfaction while creating memorable shopping experiences!",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/case-study/Gwynn1.png",
+        alt: "Gwynn uses 99minds Gift Card Program",
+        type: "image/jpeg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroCasestudyGwynn/>
+  <CasestudytestGwynn />
+  <Gwynn/>
+  <FeatureCasestudyGwynn/>
+</BaseLayout3>

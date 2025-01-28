@@ -1,0 +1,125 @@
+---
+import RoundedGrid from "../assets/RoundedGrid.astro";
+---
+
+<section class="relative border-t border-y border-white/5">
+  <RoundedGrid />
+  <div class="flex flex-col lg:flex-row justify-between px-8 md:px-12 lg:px-16 lg:py-24 py-12 mx-auto max-w-screen-xl">
+ 
+    <!-- Cards Section -->
+    <div class="w-full lg:max-w-2xl mb-8 mt-12 lg:mb-0 px-4 lg:px-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 w-full lg:w-[500px]"> 
+        <!-- Card 1 -->
+        <div class="flex flex-col w-full h-40 shadow-2xl border border-white/10">
+          <div class="h-full p-4 bg-vulcan-900 rounded-3xl flex flex-col justify-between">
+            <div class="flex items-center">
+              <div class="text-indigo-400 w-8 h-8">
+                <img alt="use gift card software for easy redemption" loading="lazy" src="/assets/giftcard/redeem.svg">
+              </div>
+              <h2 class="text-lg text-white ml-4">52x</h2> 
+            </div>
+            <div class="flex flex-col mt-auto">
+              <p class="mt-1 text-md">return on investment*.</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Card 2 -->
+        <div class="flex flex-col w-full h-40 shadow-2xl border border-white/10">
+          <div class="h-full p-4 bg-vulcan-900 rounded-3xl flex flex-col justify-between">
+            <div class="flex items-center">
+              <div class="text-indigo-400 w-8 h-8">
+                <img alt="use gift card software for easy redemption" loading="lazy" src="/assets/giftcard/redeem.svg">
+              </div>
+              <h2 class="text-lg text-white ml-4">3.1x</h2>
+            </div>
+            <div class="flex flex-col mt-auto">
+              <p class="mt-1 text-md">Repeat purchase rate</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="flex flex-col w-full h-40 shadow-2xl border border-white/10">
+          <div class="h-full p-4 bg-vulcan-900 rounded-3xl flex flex-col justify-between">
+            <div class="flex items-center">
+              <div class="text-indigo-400 w-8 h-8">
+                <img alt="use gift card software for easy redemption" loading="lazy" src="/assets/giftcard/redeem.svg">
+              </div>
+              <h2 class="text-lg text-white ml-4">+4%</h2>
+            </div>
+            <div class="flex flex-col mt-auto">
+              <p class="mt-1 text-md">99minds driven revenue.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 4 -->
+        <div class="flex flex-col w-full h-40 shadow-2xl border border-white/10">
+          <div class="h-full p-4 bg-vulcan-900 rounded-3xl flex flex-col justify-between">
+            <div class="flex items-center">
+              <div class="text-indigo-400 w-8 h-8">
+                <img alt="use gift card software for easy redemption" loading="lazy" src="/assets/giftcard/redeem.svg">
+              </div>
+              <h2 class="text-lg text-white ml-4">7000+</h2>
+            </div>
+            <div class="flex flex-col mt-auto">
+              <p class="mt-1 text-md">Brands run on 99minds.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Text Section -->
+    <div class="flex flex-col max-w-3xl lg:ml-36 space-y-4 px-4 sm:px-6 lg:px-6"> 
+      <p class="text-xl font-semibold text-left text-white">Why 99minds?</p>
+      <p class="text-xl">
+        Businesses can simplify gift card management, loyalty programs, and marketing automation with 99minds' all-in-one solution. Companies may increase income while improving customer engagement by utilizing features like omnichannel assistance, seamless integration, and comprehensive analytics.
+      </p>
+      <p class="text-xl font-semibold text-left text-white">Ready to achieve similar results?</p>
+      <div class="">
+        <div class="flex flex-wrap items-center mt-2">
+            <div x-data="{ open: false }" class="flex justify-center"
+            role="button">
+            <!-- Trigger -->
+            <!-- <span x-on:click="open = true"> -->
+              
+            <!-- </span> -->
+            <button type="button" class="raise relative p-0.5 ml-2 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
+              <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+              <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-10 duration-400">
+              <span class="relative text-white">Book a Demo</span>
+              </span>
+            </button>
+            <!-- Modal -->
+            <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5" style="display: none;">
+              <!-- Overlay -->
+              <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+              <!-- Panel -->
+              <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                  <div class="bg-vulcan-900 rounded-3xl p-6 text-center">
+                    
+                  <iframe
+                  role= "generic"
+                    src="/GetStarted"
+                    width="100%"
+                    height="650"
+                    frameBorder="0"
+                    allowFullScreen
+                    title="Calendly"
+                  ></iframe>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>

@@ -1,0 +1,66 @@
+---
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
+import HeroOmnisend from "../../components/heros/HeroOmnisend.astro";
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureOmnisend from "../../components/features/FeatureOmnisend.astro";
+import FeatureOmnisend1 from "../../components/features/FeatureOmnisend1.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+//import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
+import KlaviyoDemo from "../../components/Infopages/KlaviyoDemo.astro";
+import IntegrationOmnisend from "../../components/integrations/IntegrationOmnisend.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+<BaseLayout3>
+<AstroSeo
+  title="99minds and Omnisend integration | 99minds"
+  description="Leverage 99minds and Klaviyo integration to drive sales and foster customer loyalty with bulk email and SMS campaigns featuring dynamic loyalty rewards and gift cards."
+  canonical="https://www.99minds.io/integrations/omnisend"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/omnisend",
+    title: "99minds and Omnisend integration | 99minds",
+    description: "Leverage 99minds and Klaviyo integration to drive sales and foster customer loyalty with bulk email and SMS campaigns featuring dynamic loyalty rewards and gift cards.",
+    images: [
+          {
+            url: "https://www.99minds.io/assets/99minds-OS-OGI.svg",
+            alt: "99minds & Omnisend",
+            type: "image/svg",
+          }
+        ],
+        site_name: "99minds",
+      }}
+      twitter={{
+        title: "99minds and Omnisend integration | 99minds",
+        description: "Leverage 99minds and Klaviyo integration to drive sales and foster customer loyalty with bulk email and SMS campaigns featuring dynamic loyalty rewards and gift cards.",
+        url: "https://www.99minds.io/integrations/omnisend",
+        images: [
+          {
+            url: "https://www.99minds.io/assets/99minds-OS-OGI.svg",
+            alt: "99minds & Omnisend",
+            type: "image/svg",
+          }
+      ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroOmnisend />
+  <LogoCloudOne />
+  <FeatureOmnisend />
+  <!--<FeatureKlaviyo />-->
+  <FeatureOmnisend1 />
+  <IntegrationOmnisend />
+  <!--<KlaviyoDemo />-->
+  <!--<Testimonialtry />-->
+  <!--<Integrations99minds />-->
+  <!-- <CtaThree99minds /> -->
+  <CtaThreeU />
+</BaseLayout3>

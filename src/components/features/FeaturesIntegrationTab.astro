@@ -1,0 +1,260 @@
+--- 
+import Verticalgrid from "../assets/Verticalgrid.astro"; 
+import { Ecommerce, POS, Marketing, Email, Payment, Giftcard, Fraud } from "../../config/Integration.jsx"
+const All = [
+  ...Ecommerce,
+  ...POS,
+  ...Marketing,
+  ...Email,
+  ...Payment,
+  ...Giftcard,
+  ...Fraud
+];
+--- 
+<section>
+  <div class=" py-12 mx-auto max-w-7xl">
+    <div class="relative w-full mt-6" x-data="{
+        tabSelected: 1,
+        tabId: $id('tabs'),
+        tabButtonClicked(tabButton){
+            this.tabSelected = tabButton.id.replace(this.tabId + '-', '');
+            this.tabRepositionMarker(tabButton);
+        },
+        tabRepositionMarker(tabButton){
+            this.$refs.tabMarker.style.width=tabButton.offsetWidth + 'px';
+            this.$refs.tabMarker.style.height=tabButton.offsetHeight + 'px';
+            this.$refs.tabMarker.style.left=tabButton.offsetLeft + 'px';
+        },
+        tabContentActive(tabContent){
+            return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
+        }
+    }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);">
+      <div class="hidden lg:max-w-7xl sm:block md:block">
+        <div class=" relative flex flex-row items-center gap-10 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
+          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-1">All</button>
+          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-2">E-commerce</button>
+          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">POS</button>
+          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Marketing</button>
+          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Email</button>
+          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Payment Processing</button>
+         <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Giftcard Processors</button>
+          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Fraud Prevention</button>
+          <div class="absolute left-0 z-10 w-1/4 h-full duration-300 ease-out" x-ref="tabMarker" style="width: 224px; height: 32px; left: 0px;">
+            <div class=" w-full h-full rounded-lg bg-vulcan-900 border-2 border-indigo-500"></div>
+          </div>
+        </div>
+      </div>
+      <div class="relative border-t mt-4 border-vulcan-800 flex items-center justify-center w-full">
+        <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6">
+          <div class="relative items-center w-full">
+            <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
+              {All.map((item, index) => (
+                <li key={index}>
+                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
+                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+                    <div>
+                      <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
+                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                    </div>
+                    <div class="mt-2 text-sm justify-between text-white/70">
+                      {item.desc}
+                      {!!item.url &&
+                        <p class="mt-4">
+                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        </p>
+                      }
+                    </div>
+                  </div>  
+                </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-5" style="display: none;">
+          <div class="relative items-center w-full" style="">
+            <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
+              {Ecommerce.map((item, index) => (
+                <li key={index}>
+                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
+                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+                    <div>
+                      <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
+                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                    </div>
+                    <div class="mt-2 text-sm justify-between text-white/70">
+                      {item.desc}
+                      {!!item.url &&
+                        <p class="mt-4">
+                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        </p>
+                      }
+                    </div>
+                  </div>  
+                </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6" style="display: none;">
+          <div class="relative items-center w-full" style="">
+            <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
+              {POS.map((item, index) => (
+                 <li key={index}>
+                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
+                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+                    <div>
+                      <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
+                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                    </div>
+                    <div class="mt-2 text-sm justify-between text-white/70">
+                      {item.desc}
+                      {!!item.url &&
+                        <p class="mt-4">
+                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        </p>
+                      }
+                    </div>
+                  </div>  
+                </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      
+      <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-2-content-6" style="display: none;">
+        <div class="relative items-center w-full" style="">
+          <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
+            {Marketing.map((item, index) => (
+               <li key={index}>
+                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
+                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+                    <div>
+                      <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
+                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                    </div>
+                    <div class="mt-2 text-sm justify-between text-white/70">
+                      {item.desc}
+                      {!!item.url &&
+                        <p class="mt-4">
+                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        </p>
+                      }
+                    </div>
+                  </div>  
+                </div>
+                </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-1" style="">
+          <div class="relative items-center w-full" style="">
+            <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
+              {Email.map((item, index) => (
+                 <li key={index}>
+                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
+                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+                    <div>
+                      <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
+                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                    </div>
+                    <div class="mt-2 text-sm justify-between text-white/70">
+                      {item.desc}
+                      {!!item.url &&
+                        <p class="mt-4">
+                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        </p>
+                      }
+                    </div>
+                  </div>  
+                </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+      </div>
+      <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6" style="display: none;">
+          <div class="relative items-center w-full" style="">
+            <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
+              {Payment.map((item, index) => (
+                 <li key={index}>
+                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
+                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+                    <div>
+                      <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
+                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                    </div>
+                    <div class="mt-2 text-sm justify-between text-white/70">
+                      {item.desc}
+                      {!!item.url &&
+                        <p class="mt-4">
+                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        </p>
+                      }
+                    </div>
+                  </div>  
+                </div>
+                </li>
+              ))}
+            </ul>
+        </div>
+      </div>
+      <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6" style="display: none;">
+          <div class="relative items-center w-full" style="">
+            <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
+              {Giftcard.map((item, index) => (
+                 <li key={index}>
+                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
+                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+                    <div>
+                      <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
+                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                    </div>
+                    <div class="mt-2 text-sm justify-between text-white/70">
+                      {item.desc}
+                      {!!item.url &&
+                        <p class="mt-4">
+                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        </p>
+                      }
+                    </div>
+                  </div>  
+                </div>
+                </li>
+              ))}
+            </ul>
+        </div>
+      </div>
+      <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6" style="display: none;">
+          <div class="relative items-center w-full" style="">
+            <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
+              {Fraud.map((item, index) => (
+                 <li key={index}>
+                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
+                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+                    <div>
+                      <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
+                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                    </div>
+                    <div class="mt-2 text-sm justify-between text-white/70">
+                      {item.desc}
+                      {!!item.url &&
+                        <p class="mt-4">
+                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                        </p>
+                      }
+                    </div>
+                  </div>  
+                </div>
+                </li>
+              ))}
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>

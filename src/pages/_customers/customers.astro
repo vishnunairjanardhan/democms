@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CustomerHome from "../../components/customers/CustomerHome.astro";
+import CtaSeven from "../../components/ctas/CtaSeven.astro";
+import { AstroSeo } from "@astrolib/seo";
+import { Seo } from "../../config/Seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="Customers"
+  description="Your site description goes here"
+  canonical="https://www.99minds.io/customers/customers"
+  {...Seo}
+/>
+<BaseLayout>
+  <CustomerHome />
+  <CtaSeven />
+</BaseLayout>

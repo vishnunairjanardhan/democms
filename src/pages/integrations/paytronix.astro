@@ -1,0 +1,50 @@
+---
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
+import HeroPaytronix from "../../components/heros/HeroPaytronix.astro"
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeaturePaytronix from "../../components/features/FeaturePaytronix.astro";
+import FeatureTenPaytronix from "../../components/features/FeatureTenPaytronix.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+//import Cta99mindsPOS from "../../components/ctas/Cta99mindsPOS.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+<BaseLayout3>
+<AstroSeo
+  title="99minds integration with Paytronix"
+  description="The complete rewards solution for restaurants with paytronix. Boost sales with smart omnichannel loyalty, gift card and coupons."
+  canonical="https://www.99minds.io/integrations/paytronix"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/paytronix",
+    title: "99minds integration with Paytronix",
+    description: "The complete rewards solution for restaurants with paytronix. Boost sales with smart omnichannel loyalty, gift card and coupons.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-hike-OGI.svg",
+        alt: "99minds and Paytronix integration",
+        type: "image/svg",
+      },
+      
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroPaytronix />
+  <LogoCloudOne />
+  <FeaturePaytronix />
+  <FeatureTenPaytronix />
+  <Testimonialtry />
+  <!-- <Cta99mindsPOS /> -->
+  <CtaThreeU />
+</BaseLayout3>

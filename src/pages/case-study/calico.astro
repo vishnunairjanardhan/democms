@@ -1,0 +1,42 @@
+---
+import BaseLayout3 from "/src/layouts/BaseLayout3.astro";
+import HeroCasestudyCalico from "/src/components/heros/HeroCasestudyCalico.astro";
+import CasestudytestCalico from "/src/components/testimonials/CasestudytestCalico.astro";
+import FeatureCasestudyCalico from "/src/components/features/FeatureCasestudyCalico1.astro";
+import Calico from "/src/components/Infopages/Calico1.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+--->
+
+<BaseLayout3>
+<AstroSeo
+  title="Boosting Calico's Sales with Seamless Gift Card Integration | 99Minds"
+  description="Discover how Calico integrated gift cards with BigCommerce and Narvar, boosting sales and customer satisfaction while creating memorable shopping experiences!"
+  canonical="https://www.99minds.io/case-study/calico"
+  openGraph={{
+    url: "https://www.99minds.io/case-study/calico",
+    title: "Boosting Calico's Sales with Seamless Gift Card Integration | 99Minds",
+    description: "Discover how Calico integrated gift cards with BigCommerce and Narvar, boosting sales and customer satisfaction while creating memorable shopping experiences!",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/case-study/Calico.png",
+        alt: "Calico uses 99minds Gift Card Program",
+        type: "image/jpeg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroCasestudyCalico/>
+  <CasestudytestCalico />
+  <Calico/>
+  <FeatureCasestudyCalico/>
+</BaseLayout3>

@@ -1,0 +1,140 @@
+--- import Verticalgrid from "../assets/Verticalgrid.astro"; --- 
+<section>
+  <div class="px-8 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+    <div class="mx-auto lg:text-center lg:py-12">
+      <h2 class="mt-8 text-white text-2xl xl:text-3xl 2xl:text-5xl font-normal tracking-tight text-white"> Additional key features. </h2>
+    </div>
+<div>
+  <div x-data="{
+        tabSelected: 1,
+        tabId: $id('tabs'),
+        tabButtonClicked(tabButton){
+            this.tabSelected = tabButton.id.replace(this.tabId + '-', '');
+            this.tabRepositionMarker(tabButton);
+        },
+        tabRepositionMarker(tabButton){
+            this.$refs.tabMarker.style.width=tabButton.offsetWidth + 'px';
+            this.$refs.tabMarker.style.height=tabButton.offsetHeight + 'px';
+            this.$refs.tabMarker.style.left=tabButton.offsetLeft + 'px';
+        },
+        tabContentActive(tabContent){
+            return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
+        }
+    }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="relative mt-10">
+    <div class="relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
+      <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm py-1 px-3 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-3-1">Bulk Gift Card </button>
+      <button class="relative z-20 inline-flex py-1 px-10 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-3-2">Import & Migration</button>
+      <button class="relative z-20 inline-flex py-1 px-10 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-3-3">Multi-Currency</button>
+      <button class="relative z-20 inline-flex py-1 px-10 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-3-4">Multi-Store</button>
+      <button class="relative z-20 inline-flex py-1 px-10 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-3-4">Refund & Reward</button>
+      <button class="relative z-20 inline-flex py-1 px-10 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-3-4">Schedule Delivery</button>
+      <div class="absolute left-0 z-10 w-full h-full duration-300 ease-out" x-ref="tabMarker" style="width: 135px; height: 32px; left: 491px;">
+        <div class="w-full h-full bg-vulcan-900 border-b-2 border-violet-500"></div>
+      </div>
+    </div>
+    <div class="relative w-full pt-8 content border-t border-vulcan-800">
+      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-1" style="display: none;">
+        <!-- Tab Content 1 - Replace with your content -->
+        <section>
+          <div class="relative items-center w-full" style="">
+            <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+              <div>
+                <h2 class="2xl:text-5xl"> Bulk Gift Card </h2>
+                <p class="mt-6 ">Gift card life-cycle management, tracking, and visibility from issuance to order level redemption</p>
+                <p class="mt-4 ">Customer data reporting and analytics based on gift card usage.</p>
+              </div>
+              <div class="h-full">
+                <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/bulk-giftcard.png">
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Tab Content 1 -->
+      </div>
+      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-2" style="display: none;">
+        <section>
+          <div class="relative items-center w-full" style="">
+            <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+              <div>
+                <h2 class="2xl:text-5xl">Import & Migration</h2>
+                <p class="mt-6 ">Import existing gift cards | voucher | Certificates balance into 99minds.</p>
+                <p class="mt-4 ">Seamless migration from existing gift card processor to 99minds.</p>
+              </div>
+              <div class="h-full">
+                <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/import-migration.png">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-3" style="">
+        <section>
+          <div class="relative items-center w-full" style="">
+            <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+              <div>
+                <h2 class="2xl:text-5xl">Multi-Currency</h2>
+                <p class="mt-6">Supports 100+ currencies, including USD, CAD, EUR, GBP, KRW, JPY, CNY & many more!</p>
+                <!--<p class="mt-4">Customer data reporting and analytics based on gift card usage.</p>-->
+              </div>
+              <div class="h-full">
+                <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/multi-currency.png">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-4" style="display: none;">
+        <section>
+          <div class="relative items-center w-full" style="">
+            <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+              <div>
+                <h2 class="2xl:text-5xl">Multi-Stor</h2>
+                <p class="mt-6 ">Gift card can be redeemed at multiple locations</p>
+                <!--<p class="mt-4 text-vulcan-300 text-base">Customer data reporting and analytics based on gift card usage.</p>-->
+              </div>
+              <div class="h-full">
+                <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/multi-store.png">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-4" style="display: none;">
+        <section>
+          <div class="relative items-center w-full" style="">
+            <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+              <div>
+                <h2 class="2xl:text-5xl">Return & Refund</h2>
+                <p class="mt-6 ">Gift card can be issue for merchandise return.</p>
+                <p class="mt-4 ">Gift card amount can be updated on merchandise return bought on gift card.</p>
+              </div>
+              <div class="h-full">
+                <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/refund-giftcard.png">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-3-content-4" style="display: none;">
+        <section>
+          <div class="relative items-center w-full" style="">
+            <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+              <div>
+                <h2 class=" xl:text-3xl 2xl:text-5xl">Schedule Delivery</h2>
+                <p class="mt-6 ">Schedule Gift card delivery on special occasion like Birthday, Anniversary, Christmas, Hanukkah etc.</p>
+                <p class="mt-4 ">Schedule Gift card delivery up to 180 days</p>
+              </div>
+              <div class="h-full">
+                <img alt="Lexington thumbnail" class="rounded-2xl shadow-vulcan-950/50 w-full" src="/assets/giftcard/schedule-delivery.png">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    </div>
+  </div>
+  </div>
+</section>
+

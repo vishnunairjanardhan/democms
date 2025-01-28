@@ -1,0 +1,73 @@
+---
+import Verticalgrid from "../assets/Verticalgrid.astro";
+import Blurgradientleft from "../assets/Blurgradientleft.astro";
+---
+
+<section class="relative">
+  <Verticalgrid />
+  <Blurgradientleft />
+ <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-12 max-w-7xl lg:pt-36">
+    <div class="grid grid-cols-1 gap-6 p-8 pb-0 overflow-hidden lg:grid-cols-2 lg:gap-24 lg:p-20 lg:pb-0">
+      <div class="relative items-center gap-12 pb-12 m-auto lg:inline-flex md:order-first lg:pb-32 xl:pt-0">
+        <div class="max-w-2xl text-center lg:text-left">
+          <h1 class="mt-8 text-4xl font-normal tracking-tighter text-white sm:text-5xl">
+            <span class="text-indigo-800">A more engaging way to offer 
+            </span> Loyalty Programs, Gift cards, Offers and More
+          </h1>
+          <p class=" text-xl max-w-2xl mt-4 text-vulcan-300 ">
+            Online solution to manage and scale gift cards, store credit, digital wallets, and loyalty programs. Build better brand experience to acquire, engage, and retain lifelong customers.
+          </p>
+          <div class="flex flex-wrap items-center gap-2 mt-10">
+              <div x-data="{ open: false }" class="flex justify-center">
+              <!-- Trigger -->
+              <span x-on:click="open = true">
+                 <button type="button" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white">Sign Up Free</span>
+                </span></button>
+                <a href="/contact" target="_blank" class="relative p-0.5 ml-2 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
+                <span class="relative text-white">Contact Sales</span>
+                </span>
+              </a>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-10 w-screen overflow-y-visible" aria-labelledby="modal-title-5" style="display: none;">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-6xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-6 text-center">
+                      
+                    <iframe
+                      src="https://calendly.com/99minds"
+                      width="100%"
+                      height="650"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly"
+                    ></iframe>
+
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+          
+        </div>
+      </div>
+      <div class="relative order-first w-full lg:block">
+        <img
+          class="object-cover object-center w-full mx-auto shadow-2xl lg:absolute lg:ml-auto shadow-black"
+          alt="hero"
+          src="/assets/retain-be74a8698db45dee238bd377cf9db6ee.png"
+        />
+      </div>
+    </div>
+  </div>
+</section>

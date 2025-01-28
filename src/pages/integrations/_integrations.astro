@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Integrations from "../../components/integrations/Integrations.astro";
+import { AstroSeo } from "@astrolib/seo";
+import { Seo } from "../../config/Seo";
+---
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title= "Powerful Integrations | 99minds"
+  description="Explore seamless integrations with 99minds. Elevate your business with powerful tools and enhance productivity. Get started today"
+  canonical="https://www.99minds.io"
+  {...Seo}
+/>
+<BaseLayout>
+  <Integrations />
+</BaseLayout>

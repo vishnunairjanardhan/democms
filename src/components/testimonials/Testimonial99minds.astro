@@ -1,0 +1,89 @@
+---
+import Verticalgrid from "../assets/Verticalgrid.astro";
+---
+
+<section class="overflow-hidden"><div class="px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:pt-36"><div class="justify-center max-w-3xl"><p class="text-3xl font-normal tracking-tight text-white">Testimonial</p></div><div class="mt-12 space-y-24"><div><div class="pb-5 border-b border-vulcan-800"><h3 class="text-base font-semibold leading-6 text-white">Hear from our Clients</h3></div><div class="inline-flex flex-wrap items-center w-full gap-2 mt-10"><div x-data="{
+        skip: 3,
+        atBeginning: false,
+        atEnd: false,
+        next() {
+            this.to((current, offset) => current + (offset * this.skip))
+        },
+        prev() {
+            this.to((current, offset) => current - (offset * this.skip))
+        },
+        to(strategy) {
+            let slider = this.$refs.slider
+            let current = slider.scrollLeft
+            let offset = slider.firstElementChild.getBoundingClientRect().width
+            slider.scrollTo({ left: strategy(current, offset), behavior: 'smooth' })
+        },
+        focusableWhenVisible: {
+            'x-intersect:enter'() {
+                this.$el.removeAttribute('tabindex')
+            },
+            'x-intersect:leave'() {
+                this.$el.setAttribute('tabindex', '-1')
+            },
+        },
+        disableNextAndPreviousButtons: {
+            'x-intersect:enter.threshold.05'() {
+                let slideEls = this.$el.parentElement.children
+                // If this is the first slide.
+                if (slideEls[0] === this.$el) {
+                    this.atBeginning = true
+                // If this is the last slide.
+                } else if (slideEls[slideEls.length-1] === this.$el) {
+                    this.atEnd = true
+                }
+            },
+            'x-intersect:leave.threshold.05'() {
+                let slideEls = this.$el.parentElement.children
+                // If this is the first slide.
+                if (slideEls[0] === this.$el) {
+                    this.atBeginning = false
+                // If this is the last slide.
+                } else if (slideEls[slideEls.length-1] === this.$el) {
+                    this.atEnd = false
+                }
+            },
+        },
+    }" class="flex w-full flex-col"><div x-on:keydown.right="next" x-on:keydown.left="prev" tabindex="0" role="region" aria-labelledby="carousel-label" class="flex flex-col"><h2 id="carousel-label" class="sr-only" hidden="">Carousel</h2><div class="items-center inline-flex mt-4 space-x-2"><button class="inline-flex items-center justify-center h-10 p-3 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700 cursor-pointer" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }" :aria-disabled="atBeginning" :tabindex="atEnd ? -1 : 0" x-on:click="prev" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M15 6l-6 6l6 6"></path></svg><span class="sr-only">Skip to previous slide page</span></button><button class="inline-flex items-center justify-center h-10 p-3 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700 cursor-pointer" :class="{ 'opacity-50 cursor-not-allowed': atEnd }" :aria-disabled="atEnd" :tabindex="atEnd ? -1 : 0" x-on:click="next" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 6l6 6l-6 6"></path></svg><span class="sr-only">Skip to next slide page</span></button></div><div class="relative w-full snap-x mt-12 "><div class="w-full justify-between grid"><div class="w-full justify-between grid"><div class="absolute inset-0 from-vulcan-900  left-0 via-transparent w-44 z-10 bg-gradient-to-r"></div><div class="absolute inset-0 from-vulcan-900  left-0 via-transparent w-44 z-10 bg-gradient-to-l ml-auto"></div></div></div><ul class="gap-3 overflow-x-scroll pb-12 grid grid-flow-col auto-cols-max scrollbar-hide snap-mandatory relative" role="listbox" aria-labelledby="carousel-content-label" tabindex="0" x-ref="slider"><li role="option" x-bind="disableNextAndPreviousButtons" class="bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-xl p-[0.060rem] snap-start w-96 h-full ring-1 ring-vulcan-800"><figure class="bg-vulcan-900 rounded-xl p-4"><div><div class="inline-flex items-center gap-4"><img class="max-h-6" src="/logos/bestop_48.svg"
+              alt="Testimonial Image"></div><p class="uppercase tracking-tighter text-sm mt-4 font-medium text-white">
+Lauren Back - Digital Marketing Manager,Bestops
+</p><p class="text-sm text-vulcan-300 group-hover:text-white mt-4">
+"With 99minds we are able to create one gift cards to make it work across multi-storefront for our multiple brands."
+</p></div></figure></li><li role="option" x-bind="disableNextAndPreviousButtons" class="bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-xl p-[0.060rem] snap-start w-96 h-full ring-1 ring-vulcan-800"><figure class="bg-vulcan-900 rounded-xl p-4"><div><div class="inline-flex items-center gap-4"><img class="max-h-6" src="/logos/pinstripes-w48.svg"
+              alt="Testimonial Image">
+</div><p class="uppercase tracking-tighter text-sm font-medium mt-4 text-white">
+Anthony Colucci-Vice President of Marketing, Pinstripes Inc.
+</p><p class="text-sm text-vulcan-300 group-hover:text-white mt-4">
+The team at 99Minds has been great to work with. Changing to them as our gift card vendor has saved us substantial money and also made the purchase experience far more seamless for our guests. Additionally their customer service is top notch. They are incredibly responsive and help us bring guests to resolution in a timely manner. 
+</p></div></figure></li><li role="option" x-bind="disableNextAndPreviousButtons" class="bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-xl p-[0.060rem] snap-start w-96 h-full ring-1 ring-vulcan-800"><figure class="bg-vulcan-900 rounded-xl p-4"><div><div class="inline-flex items-center gap-4"><img class="max-h-6" src="/logos/cariloha_1 1.svg"
+              alt="Testimonial Image"></div>
+              <p class="uppercase tracking-tighter text-sm font-medium mt-4 text-white">
+Josh Kikkert - Director of E-Commerce, Cariloha
+</p><p class="text-sm text-vulcan-300 group-hover:text-white mt-4">
+"One stop solution for Marketing and Promotion.Complete automation for gift cards and Coupons based on Customer Journey."
+</p></div></figure></li>
+  <li role="option" x-bind="disableNextAndPreviousButtons" class="bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl 
+    rounded-xl p-[0.060rem] snap-start w-96 h-full ring-1 ring-vulcan-800">
+    <figure class="bg-vulcan-900 rounded-xl p-4">
+      <div>
+          <div class="inline-flex items-center gap-4">
+            <img class="max-h-6" src="/logos/FlynnOHaraUniforms_logo 1.svg"
+              alt="Testimonial Image">
+          </div>
+           <p class="uppercase tracking-tighter text-sm font-medium mt-4 text-white">
+                    Thomas Narkiewicz - CTO, FlynnOhara
+                </p>
+          <p class="text-sm text-vulcan-300 group-hover:text-white mt-4">
+              "99minds helps us to migrate our existing cumbersome bank based gift card program to easy to use gift cards program for 1000 schools and 36 stores.
+                Great support for Physical and Digital gift cards."
+          </p>
+      </div>
+    </figure>
+  </li>
+
+</ul></div></div></div></div></div>
+</section>

@@ -1,0 +1,81 @@
+
+---
+import BaseHead from "../components/BaseHead.astro";
+import NavigationAdd from "../components/global/NavigationAdd.astro";
+import ContactWidget from "../components/forms/ContactWidget.astro";
+import Footer from "../components/global/Footer.astro";
+---
+
+<html lang="en" class="scroll-smooth selection:bg-indigo-500 selection:text-white">
+  <head>
+    <BaseHead />
+  </head>
+  <body class="bg-vulcan-900">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WWJJGX6"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <NavigationAdd />
+    <ContactWidget />
+    <slot />
+    <Footer />
+
+    <!-- tsParticles Snow Effect -->
+    <div id="tsparticles" style="position: fixed; z-index: -1; width: 100%; height: 100%;"></div>
+
+    <!-- Import and Initialize tsParticles -->
+    <script type="module">
+      import { tsParticles } from "tsparticles-engine";
+      import { loadSnowPreset } from "tsparticles-preset-snow";
+
+      window.addEventListener("DOMContentLoaded", async () => {
+        // Load the snow preset
+        await loadSnowPreset(tsParticles);
+
+        // Initialize tsParticles with the snow effect
+        tsParticles.load("tsparticles", {
+          preset: "snow",
+          fullScreen: {
+            zIndex: -1, // Keeps snowflakes in the background
+          },
+        });
+      });
+    </script>
+
+    <!-- Zoho SalesIQ Widget -->
+    <script type="text/javascript">
+      var $zoho = $zoho || {};
+      $zoho.salesiq = $zoho.salesiq || {
+        widgetcode: "3edf65a468af1d9ec72c31adb273c139a09c4340d0061a773c29bfd5e5b3f44a",
+        values: {},
+        ready: function () {},
+      };
+      var d = document;
+      var s = d.createElement("script");
+      s.type = "text/javascript";
+      s.id = "zsiqscript";
+      s.defer = true;
+      s.src = "https://salesiq.zoho.in/widget";
+      var t = d.getElementsByTagName("script")[0];
+      t.parentNode.insertBefore(s, t);
+      d.innerHTML = "<div id='zsiqwidget'></div>";
+    </script>
+
+    <!-- Vanilla Tilt -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".tilt-card"), {
+        max: 35, // Max tilt rotation (degrees)
+        speed: 2500, // Speed of the enter/exit transition
+        transition: true, // Set a transition on enter/exit
+      });
+    </script>
+  </body>
+</html>

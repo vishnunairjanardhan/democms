@@ -1,0 +1,20 @@
+---
+import { Seo } from "../../config/Seo";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Method from "../../components/method/Method.astro";
+import { AstroSeo } from "@astrolib/seo";
+import { Seo } from "../../config/Seo.jsx";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="Method"
+  description="Your site description goes here"
+  canonical="https://www.lexingtonthemes.com"
+  {...Seo}
+/>
+<BaseLayout>
+  <Method />
+</BaseLayout>

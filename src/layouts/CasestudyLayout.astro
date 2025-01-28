@@ -1,0 +1,21 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import ContactWidget from "../components/forms/ContactWidget.astro";
+import OldNavbar from "../components/global/OldNavbar.astro";
+import Footer2 from "../components/global/Footer2.astro";
+---
+
+<html
+  lang="en"
+  class="scroll-smooth selection:bg-indigo-500 selection:text-white">
+  <head> <BaseHead /></head>
+  <body class="bg-vulcan-900">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWJJGX6"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <OldNavbar />
+    <ContactWidget />
+    <slot />
+    <Footer2/>
+  </body>
+</html>

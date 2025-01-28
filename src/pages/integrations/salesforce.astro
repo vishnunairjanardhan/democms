@@ -1,0 +1,68 @@
+---
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
+import HeroSalesforce from "../../components/heros/HeroSalesforce.astro";
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureSalesforce from "../../components/features/FeatureSalesforce.astro";
+import FeatureShopify2 from "../../components/features/FeatureShopify2.astro";
+import FeatureShopify3 from "../../components/features/FeatureShopify3.astro";
+import FeatureTenSF from "../../components/features/FeatureTenSF.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+//import Cta99mindsSalesforce from "../../components/ctas/Cta99mindsSalesforce.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+import IntegrationsSalesforce from "../../components/integrations/IntegrationsSalesforce.astro";
+import BcomRating from "../../components/Infopages/BcomRating.astro";
+import IntegrationSF from "../../components/integrations/IntegrationSF.astro";
+import IntegrationSF from "../../components/integrations/IntegrationSF.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+<BaseLayout3>
+<AstroSeo
+  title="99minds and Salesforce Integration | 99minds"
+  description="The ultimate Salesforce gift card and loyalty solution. Boost sales and engage customers with smart omnichannel loyalty, gift cards, and store credits."
+
+  canonical="https://www.99minds.io/integrations/salesforce"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/salesforce",
+    title: "99minds and Salesforce Integration | 99minds",
+    description: "The ultimate Salesforce gift card and loyalty solution. Boost sales and engage customers with smart omnichannel loyalty, gift cards, and store credits.",
+    images: [
+          {
+            url: "https://www.99minds.io/assets/99minds-SF-OGI.svg",
+            alt: "99minds & Salesforce",
+            type: "image/svg",
+          }
+        ],
+        site_name: "99minds",
+      }}
+      twitter={{
+        url: "https://www.99minds.io/integrations/salesforce",
+        images: [
+          {
+            url: "https://www.99minds.io/assets/99minds-SF-OGI.svg",
+            alt: "99minds & Salesforce",
+            type: "image/svg",
+          }
+      ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroSalesforce />
+  <LogoCloudOne />
+  <FeatureSalesforce />
+  <IntegrationSF />
+  <!--<FeatureShopify2 />-->
+  <FeatureTenSF />
+  <IntegrationsSalesforce />
+  <Testimonialtry />
+  <!--<Integrations99minds />-->
+  <!-- <Cta99mindsSalesforce /> -->
+  <CtaThreeU />
+</BaseLayout3>

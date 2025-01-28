@@ -1,0 +1,191 @@
+---
+import RoundedGrid from "../assets/RoundedGrid.astro";
+---
+<section class="relative overflow-x-hidden">
+  <svg
+    class="absolute top-0 right-0 blur-3xl opacity-80"
+    width="50%"
+    height="100%"
+    viewBox="0 0 400 400"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_17_60)">
+      <g filter="url(#filter0_f_17_60)">
+        <path d="M128.6 0H0V322.2L332.5 211.5L128.6 0Z" fill="#4D07E3"></path>
+        <path d="M0 322.2V400H240H320L332.5 211.5L0 322.2Z" fill="#4C00FF"
+        ></path>
+        <path d="M320 400H400V78.75L332.5 211.5L320 400Z" fill="#B5BFF1"></path>
+        <path d="M400 0H128.6L332.5 211.5L400 78.75V0Z" fill="#7fcef3"></path>
+      </g>
+    </g>
+    <defs>
+      <filter
+        id="filter0_f_17_60"
+        x="-159.933"
+        y="-159.933"
+        width="719.867"
+        height="719.867"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"></feBlend>
+        <feGaussianBlur
+          stdDeviation="79.9667"
+          result="effect1_foregroundBlur_17_60"></feGaussianBlur>
+      </filter>
+    </defs>
+  </svg>
+</section>
+<section class="relative border-t border-white/10">
+  <div class="relative px-8 py-12 mt-12 mx-auto max-w-7xl md:px-12 lg:px-16">
+    <div
+      class="prose prose-blockquote:border-l-white prose-a:text-indigo-400 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-vulcan-300 prose-code:text-white prose-blockquote:text-white/70 max-w-none">
+     
+<div class="flex items-center justify-center">
+  <iframe class="w-full aspect-video rounded-md" 
+          src="https://www.youtube.com/embed/3EAM2GJJ7-s?enablejsapi=1&autoplay=1" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen 
+          id="youtube-video">
+  </iframe>
+</div>  
+  <script>
+    const tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    document.head.appendChild(tag);
+
+    let player;
+
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('youtube-video', {
+        events: {
+          'onReady': onPlayerReady
+        }
+      });
+    }
+
+    function onPlayerReady(event) {
+      const videoElement = document.getElementById('youtube-video');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.intersectionRatio >= 0.5) {
+            player.playVideo();
+          } else {
+            player.pauseVideo();
+          }
+        });
+      }, { threshold: [0.5] });
+
+      observer.observe(videoElement);
+    }
+
+    // Fallback in case YouTube API takes time to load
+    if (!window.YT) {
+      window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+    }
+
+  </script>
+    
+  <h2 id="description-all-the-terms-that-you-agree-to-when-you-sign-up-for-a-Lexington-product-">
+    OVERVIEW
+  </h2>
+
+      <p>
+In 1972, Ed Flynn and Ned O'Hara started a school uniform program providing superior products and a convenient shopping experience to partner schools and families. Today, we outfit <strong class="text-white">500k+</strong> students from <strong class="text-white">1500+</strong> schools across the US. <strong class="text-white">Bigcommerce supported our 6 Million SKUs with variants.</strong>
+      </p>
+       <h2
+        id="description-all-the-terms-that-you-agree-to-when-you-sign-up-for-a-Lexington-product-">
+              <h2 id="account-terms">CHALLENGE</h2>
+      </h2>
+
+      <p>
+In March 2020, we, FlynnOhara (FOH), started the implementation of “BigCommerce” to replace our legacy website. This website had many limitations, and the technology was past its time. As we began to see the site take form, we were challenged on how we would be able to utilize our Gift Card Program in this new environment.</p> 
+<div class="relative overflow-hidden">
+  <RoundedGrid />
+
+  <div class="relative px-2 py-12 mx-auto max-w-7xl md:px-12 lg:px-12 lg:py-4">
+    <div class="relative ">
+      <div
+        class="justify-center w-full lg:flex-row lg:items-start items-center">
+        <div class="px-8 max-w-6xl">
+         
+          <p class="text-white">"The Gift Card Program is part of our business model to support schools and students in purchasing uniforms. Schools offer merit to families to help support the cost through this program. These programs are tracked and reported on usage and items purchased by the schools. The ability to track and manage the offerings was essential in our selection of vendors who work with our BigCommerce implementation. BigCommerce offered the power to issue gift certificates but needed to be expanded in integrating and managing the programs."<br /><br />
+<span class="text-white"><strong class="text-white">Thomas Narkiewicz,</strong> CTO, FlynnOhara</span></p>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+<p>We looked at three vendors for this program, and the one that best fit our business model was “99minds”. The other vendors believed in the traditional “Gateway” to “Bank” methodology where transactions were authorized, and the selling/redemption was reported through the “Bank.” Offerings for managing these programs were limited. Another critical decision maker was the ability to offer our customers an “Omni-Channel” experience with our website and in-stores. The ability for our customers to use these cards/certificates on the web and store seamlessly ranked as a top requirement for FOH. Because our systems were explicitly customized for FOH, integrations did not come out of the box for the other vendors. “99minds” offered traditional API calls that fit within our environment and a web portal (WebPOS) to allow customers to sell/redeem gift cards while implementing. 
+      </p>
+    
+      <h2 id="account-terms">SOLUTION -</h2>
+      <ol>
+        <li>
+          <h3>Integrations (Legacy Environment)</h3>
+             <p>We were looking for a vendor that had the ability of supporting a customized legacy environment without the time it would take to develop this collection. “99minds” provided a cookie cutter API collection that worked seamlessly for our environment. Also, provided a portal to quickly start up their program while integrations were being connected.
+              </p>
+        </li>
+        <li>
+          <h3>Program Management</h3>
+             <p> There were multiple levels we wanted to capture information upon. Other vendors' offerings were limited, requiring a manual effort to track and report usage. “99minds” offered a suite of tools to manage the program. They provided different levels through “Campaigns” so these can be reported upon easily and shared through their portal. This ability allowed our schools to manage their program through a portal eliminating the need of producing reports and sharing this information.
+            </p>
+        </li>
+        <li>
+          <h3>BigCommerce (Integration)</h3>
+              <p> While evaluating vendors, we were looking for a partner with “BigCommerce'' that would complement their functionality. “99minds” did not replace what BigCommerce offered but only added features and functions that reduced our development time and offered visibility to the program that exceeded what other vendors had to sell.
+              </p>
+        </li>
+        <li>
+          <h3>Ease of Use/Configurations</h3> 
+              <p> One of our pain points with our current provider and the other vendors as we evaluated was the ease of use of the system. With “99minds”, our user community could easily access the program and report on every transaction from beginning to end.  “99minds” offered a very robust configuration to control how each “Campaign” can be configured. The configuration offered every detail you need to control the management of the program (too many to list!)
+              </p>
+        </li>
+        <li>
+          <h3>Digital and Physical Cards</h3> 
+            <p>When looking at our vendors we wanted the ability of supporting digital and physical cards. We had a good surplus of cards that we were still using in our stores and online. “99minds” provided the ability of importing our existing cards into the program. This allowed us to shut down our current service and move forward solely with “99minds”. Their API collection allowed us to select between Physical or Digital giving our customers a choice for the program. They also offered a “Sell as a gift” feature. Partnerships with Klaviyo allow our Marketing team the ability of customizing our message to our customers.
+              </p>
+
+        </li>
+      </ol>
+
+     
+      
+        <div class="relative items-center w-full mx-auto mt-12 lg:p-10 lg:rounded-3xl lg:border bg-vulcan-900 border-vulcan-800" style="background-image: linear-gradient(to top, #202130 , #2C2F48);">
+          <h3 class="mt-1 mb-0 ml-3">Technology Stack :</h3>
+          <div class="xl:grid xl:grid-cols-2 xl:gap-8 text-lg text-white">
+              <div class="md:grid md:grid-cols-1 md:gap-8">
+                <ul>
+                  <li>
+                    99Minds Gift Card Payment API
+                  </li>
+                  <li>
+                    Bigcommerce API
+                  </li>
+                  </ul>
+              </div>
+              <div class="md:grid md:grid-cols-1 md:gap-8">
+                <ul>
+                <li>
+                  Legacy Point of Sales system
+                </li>
+                <li>
+                  Mailgun
+                </li>
+              </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</section>

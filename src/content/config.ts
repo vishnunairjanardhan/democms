@@ -1,0 +1,22 @@
+import { defineCollection, z } from "astro:content";
+
+const postsCollection = defineCollection({
+    schema: z.object({
+      title: z.string(),
+      heading: z.string(),
+      pubDate: z.date(),
+      description: z.string(),
+      author: z.string(),
+      authorImg: z.string(),
+      image: z.object({
+        url: z.string(),
+        alt: z.string()
+      }),
+      tags: z.array(z.string()),
+      // keywords: z.array(z.string()),
+      url: z.string()
+    })
+ });
+export const collections = {
+  posts: postsCollection,
+};

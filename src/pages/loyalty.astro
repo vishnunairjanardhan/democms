@@ -1,0 +1,60 @@
+---
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
+import HeroLoyalty from "../components/heros/HeroLoyalty.astro";
+import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro";
+import FeatureLoyalty1 from "../components/features/FeatureLoyalty1.astro";
+import FeatureLoyalty from "../components/features/FeatureLoyalty.astro";
+import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
+import CtaThreeU from "../components/ctas/CtaThreeU.astro";
+import Integrations99minds2 from "../components/integrations/Integrations99minds2.astro";
+import LoyaltyTab from "../components/features/LoyaltyTab.astro";
+import LoyaltyTab1 from "../components/features/LoyaltyTab1.astro";
+import { AstroSeo } from "@astrolib/seo";
+import { Seo } from "../config/Seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+<BaseLayout3>
+<AstroSeo
+  title="Omnichannel Loyalty Program software | 99minds"
+  description="Build everlasting customer loyalty and lifetime value with our powerful and easy to use loyalty program software built for growing businesses."
+  canonical="https://www.99minds.io/loyalty"
+  openGraph={{
+    url: "https://www.99minds.io/loyalty",
+    title: "Omnichannel Loyalty Program software | 99minds",
+    description: "Build everlasting customer loyalty and lifetime value with our powerful and easy to use loyalty program software built for growing businesses.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/loyalty/Loyalty-banner-2.png ",
+        alt: "99minds Loyalty Program",
+        type: "image/png",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/loyalty",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/assets/loyalty/Loyalty-banner-2.png",
+        alt: "99minds Loyalty Program",
+        type: "image/png",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroLoyalty />
+  <LogoCloudOne />
+  <FeatureLoyalty1 />
+  <FeatureLoyalty />
+  <LoyaltyTab />
+  <!-- <LoyaltyTab1 /> -->
+  <TestimonialNew />
+  <Integrations99minds2 />
+  <CtaThreeU />
+</BaseLayout3>

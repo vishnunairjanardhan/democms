@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Seo } from "../config/Seo";
+import HeaderOne from "../components/about/HeaderOne.astro";
+import AboutOne from "../components/about/AboutOne.astro";
+import LogoCloudFour from "../components/testimonials/LogoCloudFour.astro";
+import Team from "../components/about/Team.astro";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="About 01"
+  description="Your site description goes here"
+  canonical="https://www.lexingtonthemes.com"
+  {...Seo}
+/>
+<BaseLayout>
+  <HeaderOne />
+  <AboutOne />
+  <LogoCloudFour />
+  <Team />
+</BaseLayout>

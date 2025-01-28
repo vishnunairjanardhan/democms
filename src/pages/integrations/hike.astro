@@ -1,0 +1,55 @@
+---
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
+import HeroHike from "../../components/heros/HeroHike.astro";
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureHike from "../../components/features/FeatureHike.astro";
+import FeatureTenHike from "../../components/features/FeatureTenHike.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+//import Cta99mindsPOS from "../../components/ctas/Cta99mindsPOS.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+import IntegrationHike2 from "../../components/integrations/IntegrationHike2.astro";
+import BcomRating from "../../components/Infopages/BcomRating.astro";
+import IntegrationHike from "../../components/integrations/IntegrationHike.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+<BaseLayout3>
+<AstroSeo
+  title="99minds and Hike integration | 99minds"
+  description="Add the leading omnichannel gift card and loyalty program app to your Hike POS. Boost customer retention and increase revenue."
+  canonical="https://www.99minds.io/integrations/hike"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/hike",
+    title: "99minds and Hike integration | 99minds",
+    description: "Add the leading omnichannel gift card and loyalty program app to your Hike POS. Boost customer retention and increase revenue.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-hike-OGI.svg",
+        alt: "99minds and Hike integration",
+        type: "image/svg",
+      },
+      
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroHike />
+  <LogoCloudOne />
+  <FeatureHike />
+  <IntegrationHike />
+  <FeatureTenHike />
+  <IntegrationHike2 />
+  <Testimonialtry />
+  <!-- <Cta99mindsPOS /> -->
+  <CtaThreeU />
+</BaseLayout3>

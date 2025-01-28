@@ -1,0 +1,43 @@
+---
+import BaseLayout3 from "/src/layouts/BaseLayout3.astro";
+import HeroCasestudyNatori from "/src/components/heros/HeroCasestudyNatori.astro";
+import CasestudytestNatori from "/src/components/testimonials/CasestudytestNatori.astro";
+import FeatureCasestudyNatori from "/src/components/features/FeatureCasestudyNatori.astro";
+import Natori from "/src/components/Infopages/Natori.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+--->
+
+<BaseLayout3>
+<AstroSeo
+  title="Boosting Natori's Sales with Seamless Gift Card Integration | 99Minds"
+  description="Learn how 99minds helped Natori streamline gift card refunds, boost loyalty, and increase ARR, LTV, and repeat purchases through Narvar and BigCommerce integration."
+  canonical="https://www.99minds.io/case-study/natori"
+  openGraph={{
+    url: "https://www.99minds.io/case-study/natori",
+    title: "Boosting Natori's Sales with Seamless Gift Card Integration | 99Minds",
+    description: "Learn how 99minds helped Natori streamline gift card refunds, boost loyalty, and increase ARR, LTV, and repeat purchases through Narvar and BigCommerce integration.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/case-study/natori4.png",
+        alt: "Natori uses 99minds Gift Card Program",
+        type: "image/jpeg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroCasestudyNatori/>
+  <CasestudytestNatori />
+  
+<Natori/>
+<FeatureCasestudyNatori/>
+</BaseLayout3>

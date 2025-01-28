@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Pricing from "../../components/pricing/Pricing.astro";
+import PricingTwo from "../../components/pricing/PricingTwo.astro";
+import PricingThree from "../../components/pricing/PricingThree.astro";
+import PricingFour from "../../components/pricing/PricingFour.astro";
+import PricingFive from "../../components/pricing/PricingFive.astro";
+import PricingSix from "../../components/pricing/PricingSix.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="All pricing"
+  description="Your site description goes here"
+  canonical="https://www.99minds.io/components/all-pricing"
+  {...Seo}
+/>
+
+<BaseLayout>
+  <Pricing />
+  <PricingTwo />
+  <PricingThree />
+  <PricingFour />
+  <PricingFive />
+  <PricingSix />
+
+</BaseLayout>

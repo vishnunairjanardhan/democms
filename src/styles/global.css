@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { font-family: 'Montserrat', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Montserrat', sans-serif; }
+}
+
+:root {
+  --astro-code-color-text: #a1affc;
+  --astro-code-color-background: #191a29;
+  --astro-code-token-constant: #ffffff70;
+  --astro-code-token-string: #42517e;
+  --astro-code-token-comment: #ffffff80;
+  --astro-code-token-keyword: #ffffff70;
+  --astro-code-token-parameter: #1ab8d2;
+  --astro-code-token-function: #8E6FE9;
+  --astro-code-token-string-expression: #ffffff;
+  --astro-code-token-punctuation: #ffffff80;
+  --astro-code-token-link: #ffffff;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.6em 0.6em -0.4em rgb(255,33,179,.6);
+  transform: translateY(-0.25em);
+  transition: 0.3s;
+  
+}
+
+.raise1:hover,
+.raise1:focus {
+  box-shadow: 0 1.5em 1.5em -0.2em rgba(15, 15, 15, 0.6);
+  transform: translateY(-0.40em);
+  transition: 0.3s;
+  
+}
+
+h1{
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.05em;
+  font-weight: 500;
+  color: white;
+}
+
+h2{
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.025em;
+  font-weight: 400;
+  color: white;
+}
+
+h3{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: white;
+  font-weight: 400;
+}
+
+p{
+  font-size: 18px;
+  color:rgb(185,186,189);
+  font-weight: 400;
+}
+
+/* Change cursor for the entire website */
+/* body {
+  cursor: url('/assets/cursor/santa.png'), auto;
+}
+
+a, button, span {
+  cursor: url('/assets/cursor/glubs.png'), auto;
+}
+
+.cursor-pointer {
+  cursor: url('/assets/cursor/glubs.png'), auto;
+} */

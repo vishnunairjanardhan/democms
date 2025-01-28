@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CompareSmile from "../components/features/CompareSmile.astro";
+import CtaThreeU from "../components/ctas/CtaThreeU.astro";
+import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="Compare 99minds vs Smile.io: Scalable Loyalty Programs for Growth"
+  description="Compare 99minds to Smile.io and discover how 99minds empowers top brands to build loyalty programs that drive performance and growth at scale."
+  canonical="https://www.99minds.io/smile"
+  openGraph={{
+    url: "https://www.99minds.io/smile",
+    title: "Compare 99minds vs Smile.io: Scalable Loyalty Programs for Growth",
+    description: "Compare 99minds to Smile.io and discover how 99minds empowers top brands to build loyalty programs that drive performance and growth at scale.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
+        alt: "Case Study",
+        type: "image/svg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/smile",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
+        alt: "Case Study",
+        type: "image/svg",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<BaseLayout>
+  <CompareSmile />
+  <TestimonialNew/>
+  <CtaThreeU/>
+</BaseLayout>
