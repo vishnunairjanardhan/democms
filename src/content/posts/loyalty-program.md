@@ -303,7 +303,7 @@ Gamification, on the other hand, is popular among younger, tech-savvy audiences 
 
 The rewards you choose are critical to your program's success. If you sell premium items, avoid offering a $5 discount; your rewards should be consistent with your brand's identity and target audience. 
 
-Engage with customers through focus groups and interviews to ensure that you've chosen the right rewards. Here are some popular reward options such as free products, free shipping, cashback, <a href="https://www.99minds.io/giftcard" role="link" target="_blanck">gift cards</a>, <a href="https://www.99minds.io/blog/benefits-of-a-loyalty-program" role="link" target="_blanck">store credits</a>, VIP experience, and early access.
+Engage with customers through focus groups and interviews to ensure that you've chosen the right rewards. Here are some popular reward options such as free products, free shipping, cashback, <a href="https://www.99minds.io/giftcard" role="link" target="_blanck">gift cards</a>, <a href="https://www.99minds.io/blog/online-store-credit" role="link" target="_blanck">store credits</a>, VIP experience, and early access.
 </li>
 
 <li>
@@ -343,7 +343,7 @@ With the help of loyalty program software like <a href="https://www.99minds.io/"
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What makes a Good Loyalty Program?</h3>A good loyalty program is simple, easy to use, and targeted to your target audience's requirements. It offers significant rewards, provides clear communication, and aligns with your brand's goals and values.</div>
 
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Customers seek value, simplicity, and rewards. They value transparency, personalized offerings, and the ability to feel valued by the brand.</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What Do Customers Want From a Loyalty Program?</h3>Customers seek value, simplicity, and rewards. They value transparency, personalized offerings, and the ability to feel valued by the brand.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do Customer Loyalty Programs Work?</h3>Loyalty programs encourage repeat purchases and brand engagement. Customers earn rewards (such as points or discounts) for specific activities, which they can then redeem for perks. These programs promote customer retention and brand loyalty.</div>
 
