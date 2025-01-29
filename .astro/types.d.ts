@@ -381,6 +381,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"bank-loyalty-programs.md": {
+	id: "bank-loyalty-programs.md";
+  slug: "bank-loyalty-programs";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "beauty-loyalty-program.md": {
 	id: "beauty-loyalty-program.md";
   slug: "beauty-loyalty-program";
@@ -1238,6 +1245,13 @@ declare module 'astro:content' {
 "repeat-customer.md": {
 	id: "repeat-customer.md";
   slug: "repeat-customer";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"restaurant-loyalty-programs.md": {
+	id: "restaurant-loyalty-programs.md";
+  slug: "restaurant-loyalty-programs";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
