@@ -51,7 +51,7 @@ Customer loyalty is an important element for the long-term success of any busine
 <li>
 <h3>Increased Revenue</h3>
 
-Customer loyalty is essential for businesses to increase revenue. Loyal customers can drive repeat purchases and are less concerned about price which increases profits. <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blanck">Repeat customers</a> often recommend your business to friends and family, reducing the need for extensive advertising. A well-designed loyalty program further boosts revenue by motivating customers to purchase more.
+Customer loyalty is essential for businesses to increase revenue. Loyal customers can drive repeat purchases and are less concerned about price which increases profits. <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blanck">Repeat customers</a> often recommend your business to friends and family, reducing the need for extensive advertising. A well-designed stratgies further boosts revenue by motivating customers to purchase more.
 </li>
 
 <li>
@@ -87,7 +87,40 @@ Loyal customers are more likely to provide feedback and suggestions. Businesses 
 </li>
 </ol>
 
-<h2 id="Types-of-Customer-Loyalty?">Types of Customer Loyalty?</h2>
+<!-- 
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+<h2 class="m-0 mb-4" id="Types-of-Customer-Loyalty?">Types of Customer Loyalty?</h2>
 
 Here are various types of customer loyalty that explain why customers tend to be more loyal to your brand:
 <ol>
@@ -143,7 +176,8 @@ Net Promoter Score is calculated by deducting the percentage of detractors from 
 <li>
 <h3>Customer Retention Rate (CRR)</h3>
 
-Customer Retention Rate (CRR) is a metric that measures the number of customers retained by a business over a period. This metric measures your loyalty program health. CRR is an essential metric for businesses to monitor regularly, as it helps grow their loyalty program and improve customer retention.
+Customer Retention Rate (CRR) is a metric that measures the number of customers retained by a business over a period. This metric measures your customer loyalty health. CRR is an essential metric for businesses to monitor regularly, as it helps you to grow your loyalty efforts and improve customer retention.
+
 </li>
 
 <li>
@@ -169,6 +203,7 @@ Average Order Value (AOV) is a metric that enables you to track how your custome
 </li>
 </ol>
 
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <h2 id="Strategies-to-Increase-Customer-Loyalty">Strategies to Increase Customer Loyalty</h2>
 
@@ -209,7 +244,7 @@ Customers feel connected to you when they believe you are listening to their fee
 <li>
 <h3>Implement Customer Loyalty Program</h3>
 
-Implementing a customer loyalty program is a great strategy to enhance customer loyalty. This marketing strategy that encourages customers to spend more money and time instead of their competitors by rewarding them with incentives,  exclusive discounts, early product access, or VIP perks.
+Implementing a <a href="https://www.99minds.io/blog/loyalty-program" role="link" target="blanck">customer loyalty program</a> is a great strategy to enhance customer loyalty. This marketing strategy that encourages customers to spend more money and time instead of their competitors by rewarding them with incentives,  exclusive discounts, early product access, or VIP perks.
 
 For example, the <a href="https://www.starbucks.com/rewards" role="link" target="blanck">Starbucks rewards program</a> is one the best <a href="https://www.99minds.io/blog/loyalty-program-examples" role="link" target="_blanck">examples of loyalty programs</a>. Customers can earn stars on every spend which customers can redeem through the Starbucks app and in-store. Customers can redeem these stars for free drinks, food, and merchandise. With a reward program, Starbucks can get more repeat purchases and <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">build brand loyalty</a>.
 </li>

@@ -35,7 +35,7 @@ It’s a proven approach that leverages individuals' trust in recommendations fr
     <a role="link" href="#12-Effective-Referral-Marketing-Strategies-to-Win-New-Customers" rel="noreferrer">12 Effective Referral Marketing Strategies to Win New Customers</a>
   </li> 
   <li> 
-    <a role="link" href="#Referral-Marketing-Tools-and-Softwar" rel="noreferrer">Referral Marketing Tools and Software</a>
+    <a role="link" href="#Referral-Marketing-Tools-and-Software" rel="noreferrer">Referral Marketing Tools and Software</a>
   </li> 
   <li>  
     <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
