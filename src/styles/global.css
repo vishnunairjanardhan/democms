@@ -50,7 +50,7 @@ h1{
   line-height: 3.5rem;
   letter-spacing: -0.05em;
   font-weight: 500;
-  color: white;
+  color: #000000;
 }
 
 h2{
@@ -58,13 +58,13 @@ h2{
   line-height: 2.5rem;
   letter-spacing: -0.025em;
   font-weight: 400;
-  color: white;
+  color: #000000;
 }
 
 h3{
   font-size: 1.5rem;
   line-height: 2rem;
-  color: white;
+  color: #000000;
   font-weight: 400;
 }
 
