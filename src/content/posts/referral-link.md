@@ -232,10 +232,10 @@ Working with influencers is a great way to boost brand awareness and drive traff
 A referral link and a <a href="https://www.99minds.io/blog/referral-code" role="link" target="_blanck">referral code</a> both track and reward customer referrals, but they function differently.
 
 
-<table style="border-collapse: collapse; width: 100%;" border="1">
+<table class="border">
     <thead>
         <tr>
-            <th style="border: 1px solid gray; padding: 8px;">Aspect</th>
+            <th>Aspect</th>
             <th style="border: 1px solid gray; padding: 8px;">Referral Links</th>
             <th style="border: 1px solid gray; padding: 8px;">Referral Codes</th>
         </tr>
