@@ -152,7 +152,8 @@ What does it mean to have a successful loyalty program? Does it mean <a href="ht
 
 <li><h3>Understand Your Clients' Needs</h3></li>
 Look into what customers find most important about your program. What rewards would persuade them to join? That may be help with discounts, advance notice on certain products, or tailored offers. Obtain a first-hand knowledge of clients' likes. 
-<img src="/assets/blog/b2b_client_needs.png" alt="Client needs"/>
+<img src="/assets/blog/b2b_client_needs.png" alt="Client needs" style="width: 700px; height: 500px;"/>
+
 
 <li><h3> Choose the Right Technology</h3></li>
 Invest in some technology that would efficiently manage contact with clients and keep a close tab on the success rate of running the loyalty program. This might be through the use of CRM tools meant for loyalty program software and data analytics.
