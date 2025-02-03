@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/the_ultimate_guide_to_b2b_loyalty_programs_in_2025.webp"
   alt: "The Ultimate Guide to B2B Loyalty Programs in 2025" 
 tags: ["Loyalty Program"]
-url: "https://www.99minds.io/blog/bank-loyalty-program"
+url: "https://www.99minds.io/blog/b2b-loyalty-program"
 keywords: ["B2B Loyalty Program "]
 
 --- 
@@ -63,7 +63,7 @@ The B2B loyalty program is designed to reward firms for their continued partners
 
 <b>Tiers:</b> The more purchases and commitments you make, the higher tier you can achieve.  Unlocking the greater benefits or rewards. Higher tiers offer exclusive services, bigger discounts, and priority support to boost partner engagement and purchases.
 
-<b>Rewards and points:</b> You earn points for your purchases that can then be exchanged for rewards. This structure appeals to frequent purchases and good customer loyalty since it would mean 'real' benefits, from discounts to free services or products.
+<b>Rewards and points:</b> You earn points for your purchases that can then be exchanged for rewards. This structure appeals to frequent purchases and good customer loyalty since it would mean real benefits, from discounts to free services or products.
 
 <b>Cashback:</b> Get a percentage of your total relaxed back, which you can use for future purchases. The direct financial benefit on the top end makes it economically enticing for people to work together in a long-term business sense, factoring strong financial savings down the line.
 
@@ -161,8 +161,30 @@ Invest in some technology that would efficiently manage contact with clients and
 <li><h3> Designing the Program Structure</h3></li>
 Decide on the nature of the rewards, how clients will earn points, and the tier system (if applicable). Ensure that the program is aligned with your business goals and easy for clients to understand.
 
+<img src="/assets/blog/style_bank.png" alt="Program structure" style="width: 700px; height: 500px;"/>
+
 <li><h3>Promote the Program</h3></li>
 Once the loyalty program is complete, promote it to the public. Use email campaigns, social media channels, and that special touch when connecting personally with your customers about the program in a way that would trigger their interest and make them convert into active participation. 
+</ol>
+
+
+<h2 id="Effective-Implementation-Strategies-for-Your-B2B-Loyalty-Program">Effective Implementation Strategies for Your B2B Loyalty Program
+</h2>
+
+Now that the loyalty program is running, it is important to ensure that it is introduced properly, and a few insights for a great launch include:
+
+<ol>
+<li><h3> Train your Team</h3></li>
+Your team should know the ins and outs of the program to communicate it to clients. This will train staff to make them aware of the program and promote its success.
+
+<li><h3> Reward Early Adoption</h3></li>
+Get your clients on board by rewarding them for signing up. This gives you some momentum in launching the program and makes it easier for everyone to adopt the program.
+
+<li><h3> Keep a Watch</h3></li>
+Once your program is up and running, begin the ritual monitoring of program performance. Key performance indicators can include client-engaged levels, redemption rates, and overall satisfaction and use these keywords to readjust the program for performance improvements.
+
+<li><h3> Communicate Often</h3></li>
+Inform your-customers-of-the-month of their loyalty program status, new incentive redemptions, unexpected redemption offers as well as other cool rewards there. Regular communication can keep the program firmly in your customer's mind while he or she continues to participate.
 </ol>
 
 <div class="flex flex-wrap items-center gap-2">
@@ -194,25 +216,6 @@ Once the loyalty program is complete, promote it to the public. Use email campai
               </div>
             </div>
           </div>
-
-<h2 id="Effective-Implementation-Strategies-for-Your-B2B-Loyalty-Program">Effective Implementation Strategies for Your B2B Loyalty Program
-</h2>
-
-Now that the loyalty program is running, it is important to ensure that it is introduced properly, and a few insights for a great launch include:
-
-<ol>
-<li><h3> Train your Team</h3></li>
-Your team should know the ins and outs of the program to communicate it to clients. This will train staff to make them aware of the program and promote its success.
-
-<li><h3> Reward Early Adoption</h3></li>
-Get your clients on board by rewarding them for signing up. This gives you some momentum in launching the program and makes it easier for everyone to adopt the program.
-
-<li><h3> Keep a Watch</h3></li>
-Once your program is up and running, begin the ritual monitoring of program performance. Key performance indicators can include client-engaged levels, redemption rates, and overall satisfaction and use these keywords to readjust the program for performance improvements.
-
-<li><h3> Communicate Often</h3></li>
-Inform your-customers-of-the-month of their loyalty program status, new incentive redemptions, unexpected redemption offers as well as other cool rewards there. Regular communication can keep the program firmly in your customer's mind while he or she continues to participate.
-</ol>
 
 <h2 id="Emerging-Trends-in-B2B-Loyalty-Programs">Emerging Trends in B2B Loyalty Programs</h2>
 
