@@ -231,43 +231,43 @@ Working with influencers is a great way to boost brand awareness and drive traff
 
 A referral link and a <a href="https://www.99minds.io/blog/referral-code" role="link" target="_blanck">referral code</a> both track and reward customer referrals, but they function differently.
 
-
-<table style="border-collapse: collapse; width: 100%;" border="1">
+<table class="border-collapse w-full border border-gray-300">
     <thead>
         <tr>
-            <th style="border: 1px solid gray; padding: 8px;">Aspect</th>
-            <th style="border: 1px solid gray; padding: 8px;">Referral Links</th>
-            <th style="border: 1px solid gray; padding: 8px;">Referral Codes</th>
+            <th class="border border-gray-300 px-4 py-2">Aspect</th>
+            <th class="border border-gray-300 px-4 py-2">Referral Links</th>
+            <th class="border border-gray-300 px-4 py-2">Referral Codes</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="border: 1px solid gray; padding: 8px;">Ease of Sharing</td>
-            <td style="border: 1px solid gray; padding: 8px;">Share referral links via email, social media, or messages with a single click.</td>
-            <td style="border: 1px solid gray; padding: 8px;">Requires users to enter the code manually and often needs additional instructions.</td>
+            <td class="border border-gray-300 px-4 py-2">Ease of Sharing</td>
+            <td class="border border-gray-300 px-4 py-2">Share referral links via email, social media, or messages with a single click.</td>
+            <td class="border border-gray-300 px-4 py-2">Requires users to enter the code manually and often needs additional instructions.</td>
         </tr>
         <tr>
-            <td style="border: 1px solid gray; padding: 8px;">User Experience</td>
-            <td style="border: 1px solid gray; padding: 8px;">Automatically directs users to a landing page where the offer is applied, reducing friction.</td>
-            <td style="border: 1px solid gray; padding: 8px;">Users may struggle to enter the code correctly or forget to apply it, causing frustration.</td>
+            <td class="border border-gray-300 px-4 py-2">User Experience</td>
+            <td class="border border-gray-300 px-4 py-2">Automatically directs users to a landing page where the offer is applied, reducing friction.</td>
+            <td class="border border-gray-300 px-4 py-2">Users may struggle to enter the code correctly or forget to apply it, causing frustration.</td>
         </tr>
         <tr>
-            <td style="border: 1px solid gray; padding: 8px;">Lead Acquisition</td>
-            <td style="border: 1px solid gray; padding: 8px;">Sends users to a personalized landing page, increasing trust and engagement.</td>
-            <td style="border: 1px solid gray; padding: 8px;">Feels less personalized and requires extra effort from the user.</td>
+            <td class="border border-gray-300 px-4 py-2">Lead Acquisition</td>
+            <td class="border border-gray-300 px-4 py-2">Sends users to a personalized landing page, increasing trust and engagement.</td>
+            <td class="border border-gray-300 px-4 py-2">Feels less personalized and requires extra effort from the user.</td>
         </tr>
         <tr>
-            <td style="border: 1px solid gray; padding: 8px;">Tracking & Analytics</td>
-            <td style="border: 1px solid gray; padding: 8px;">Provides detailed tracking of referrals, clicks, and conversions for accurate performance measurement.</td>
-            <td style="border: 1px solid gray; padding: 8px;">Tracking is more challenging and relies on manual code entry, leading to potential errors.</td>
+            <td class="border border-gray-300 px-4 py-2">Tracking & Analytics</td>
+            <td class="border border-gray-300 px-4 py-2">Provides detailed tracking of referrals, clicks, and conversions for accurate performance measurement.</td>
+            <td class="border border-gray-300 px-4 py-2">Tracking is more challenging and relies on manual code entry, leading to potential errors.</td>
         </tr>
         <tr>
-            <td style="border: 1px solid gray; padding: 8px;">Follow-Up & Nurturing</td>
-            <td style="border: 1px solid gray; padding: 8px;">Encourages users to enter their details, enabling businesses to send follow-ups and personalized marketing.</td>
-            <td style="border: 1px solid gray; padding: 8px;">Typically allows users to redeem offers without submitting contact details, limiting future engagement.</td>
+            <td class="border border-gray-300 px-4 py-2">Follow-Up & Nurturing</td>
+            <td class="border border-gray-300 px-4 py-2">Encourages users to enter their details, enabling businesses to send follow-ups and personalized marketing.</td>
+            <td class="border border-gray-300 px-4 py-2">Typically allows users to redeem offers without submitting contact details, limiting future engagement.</td>
         </tr>       
     </tbody>
 </table>
+
 
 
 <h2 id="Conclusion">Conclusion</h2>
