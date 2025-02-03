@@ -1,31 +1,36 @@
 import React, { useState } from 'react';
-import CheckoutPage from './checkout'; // Make sure to import the correct file path
-import WalletPage from './Step1'; // Make sure to import the correct file path
+import CheckoutPage from './checkout'; 
+import WalletPage from './Step1';
+import PaymentSuccessPage from './SuccessPage';
 
 function ParentPage() {
-  const [showCheckout, setShowCheckout] = useState(false);
+  const [currentPage, setCurrentPage] = useState('wallet'); // Manages which page to display
   const [walletData, setWalletData] = useState(null);
 
   const handleNextButtonClick = (data) => {
-    // Set showCheckout to true when the "Next" button is clicked
-    setShowCheckout(true);
-    // Store wallet data in state
+    // Go to CheckoutPage and save wallet data
+    setCurrentPage('checkout');
     setWalletData(data);
   };
 
+  const handlePaymentSuccess = () => {
+    // Go to PaymentSuccessPage after payment
+    setCurrentPage('success');
+  };
+
   return (
-    <div>
-      <div className='py-4'>
-        {!showCheckout && (
-          <WalletPage onNextButtonClick={handleNextButtonClick} />
-        )}
-      </div>
-      {showCheckout && (
-        <div>
-          {/* Pass the walletData as a prop to CheckoutPage */}
-          <CheckoutPage walletData={walletData} />
-        </div>
+    <div className='text-center'>
+      <h2>Experience How Brand Wallet Works</h2>
+
+      {currentPage === 'wallet' && (
+        <WalletPage onNextButtonClick={handleNextButtonClick} />
       )}
+      
+      {currentPage === 'checkout' && (
+        <CheckoutPage walletData={walletData} onPaymentSuccess={handlePaymentSuccess} />
+      )}
+      
+      {currentPage === 'success' && <PaymentSuccessPage />}
     </div>
   );
 }

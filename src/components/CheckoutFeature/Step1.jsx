@@ -25,15 +25,14 @@ const WalletPage = ({ onNextButtonClick }) => {
         }
     };
     return (
-        <article className="relative py-12 mx-auto max-w-7xl md:py-24 w-full">
+        <article className="relative mx-auto max-w-7xl lg:px-16 w-full">
             <div className="flex flex-col items-center justify-center pb-8">
-                <h1 className="text-2xl font-bold mb-4 pt-4 text-white">Create Your Brand Wallet</h1>
-                <div className='bg-gray-100 rounded p-3 px-12'>
-                    <div className="lg:flex justify-center">
+                <div className='p-3 mt-12 bg-vulcan-900 rounded-xl p-[0.060rem] shadow-xl shadow-vulcan-950 border border-white/10'>
+                    <div className="lg:flex justify-center ">
                         <div className="lg:flex flex-col pb-4 mr-4">
                             <div className="mb-4 flex flex-col">
-                                <div className='flex flex-col p-3'>
-                                    <label htmlFor="brandName" className="mr-2 pb-2 text-lg font-bold">
+                                <div className='flex flex-col p-10'>
+                                    <label htmlFor="brandName" className="mr-2 pb-2 text-lg text-white font-bold">
                                         Brand Name
                                     </label>
                                     <input
@@ -46,13 +45,13 @@ const WalletPage = ({ onNextButtonClick }) => {
                                     {formErrors.brandName && (
                                         <p className="text-red-500 text-sm">{formErrors.brandName}</p>
                                     )}
-                                    <h1 className='py-2 pb-2 font-bold text-lg text-black'>Customize Your Wallet</h1>
+                                    <h1 className='py-4 pb-2 font-medium text-lg'>Customize Your Wallet</h1>
                                     <div className="grid grid-cols-1 gap-2 md:grid-cols-1 lg:grid-cols-1">
                                         <div className="flex items-center text-black">
                                             <button
                                                 type="button"
                                                 onClick={() => setShowGiftCard(!showGiftCard)}
-                                                className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ${showGiftCard ? 'bg-indigo-600' : 'bg-gray-200'
+                                                className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none  ${showGiftCard ? 'bg-[#FF389B]' : 'bg-gray-200'
                                                     }`}>
                                                 <span
                                                     aria-hidden="true"
@@ -60,7 +59,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                                         }`}
                                                 ></span>
                                             </button>
-                                            <label htmlFor="giftCardCheckbox" className="ml-2">
+                                            <label htmlFor="giftCardCheckbox" className="ml-2 py-1 text-white">
                                                 Gift Card
                                             </label>
                                         </div>
@@ -68,7 +67,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                             <button
                                                 type="button"
                                                 onClick={() => setShowCoupons(!showCoupons)}
-                                                className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ${showCoupons ? 'bg-indigo-600' : 'bg-gray-200'
+                                                className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none  ${showCoupons ? 'bg-[#FF389B]' : 'bg-gray-200'
                                                     }`}
                                             >
                                                 <span
@@ -77,7 +76,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                                         }`}
                                                 ></span>
                                             </button>
-                                            <label htmlFor="giftCardCheckbox" className="ml-2">
+                                            <label htmlFor="giftCardCheckbox" className="ml-2 py-1 text-white">
                                                 Coupon
                                             </label>
                                         </div>
@@ -85,7 +84,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                             <button
                                                 type="button"
                                                 onClick={() => setShowLoyaltyPoints(!showLoyaltyPoints)}
-                                                className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ${showLoyaltyPoints ? 'bg-indigo-600' : 'bg-gray-200'
+                                                className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none ${showLoyaltyPoints ? 'bg-[#FF389B]' : 'bg-gray-200'
                                                     }`}
                                             >
                                                 <span
@@ -94,7 +93,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                                         }`}
                                                 ></span>
                                             </button>
-                                            <label htmlFor="giftCardCheckbox" className="ml-2">
+                                            <label htmlFor="giftCardCheckbox" className="ml-2 py-1 text-white">
                                                 Loyalty Points
                                             </label>
                                         </div>
@@ -102,7 +101,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                             <button
                                                 type="button"
                                                 onClick={() => setShowStoreCredits(!showStoreCredits)}
-                                                className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ${showStoreCredits ? 'bg-indigo-600' : 'bg-gray-200'
+                                                className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none  ${showStoreCredits ? 'bg-[#FF389B]' : 'bg-gray-200'
                                                     }`}
                                             >
                                                 <span
@@ -111,7 +110,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                                         }`}
                                                 ></span>
                                             </button>
-                                            <label htmlFor="giftCardCheckbox" className="ml-2">
+                                            <label htmlFor="giftCardCheckbox" className="ml-2 py-1 text-white">
                                                 Store Credit
                                             </label>
                                         </div>
@@ -123,7 +122,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                             onClick={handleSubmit}
                                         >
                                             <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                                            <span className="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
+                                            <span className="relative px-4 py-1 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
                                                 <span className="relative text-white flex items-center justify-center">
                                                     <h4 className="px-2">Next</h4>
                                                 </span>
@@ -133,9 +132,9 @@ const WalletPage = ({ onNextButtonClick }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:flex flex-col pb-4 pt-3">
+                        <div className="lg:flex flex-col pb-4 py-10 lg:pr-10 px-8 pb-8">
                             <h3 className="text-lg font-bold pb-2">Wallet Preview</h3>
-                            <div className="bg-white rounded shadow-md p-3 w-full px-12">
+                            <div className="bg-white mt-2 rounded shadow-md py-5 w-full px-8">
                                 <div className="w-full flex h-8 bg-gray-200 pl-2 rounded-lg my-3">
                                     <p className="text-center w-full justify-center items-center pt-1.5 text-black pr-8 text-xs">www.99kicks.com</p>
                                 </div>

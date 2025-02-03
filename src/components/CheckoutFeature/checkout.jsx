@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-const CheckoutPage = (walletData) => {
+const CheckoutPage = (walletData,onPaymentSuccess) => {
   const [denomination, setDenomination] = useState(0);
   const [quantity1, setQuantity1] = useState(1);
   const [quantity2, setQuantity2] = useState(1);
@@ -179,20 +179,20 @@ const CheckoutPage = (walletData) => {
     const formattedPrice = typeof price === 'number' ? price.toFixed(2) : price;
     return (
       <tr className="lg:w-full">
-        <td className="py-4">
+        <td className="lg:px-0  lg:py-4">
           <div className="flex flex-col lg:flex-row items-center">
             <img className="h-16 w-16 lg:mr-4 lg:rounded-md" src={image} alt="Product image" />
             <span className="font-semibold">{name}</span>
           </div>
         </td>
-        <td className="py-4">
+        <td className="lg:px-0 px-2 lg:py-4">
           <div className="flex items-center">
             <button onClick={onDecrement} className="border rounded-md py-2 px-4 mr-2">-</button>
             <span className="text-center w-8">{quantity}</span>
             <button onClick={onIncrement} className="border rounded-md py-2 px-4 ml-2">+</button>
           </div>
         </td>
-        <td className="py-4">${(price * quantity).toFixed(2)}</td>
+        <td className="lg:px-0 px-2 lg:py-4">${(price * quantity).toFixed(2)}</td>
       </tr>
     );
   };
@@ -206,22 +206,21 @@ const CheckoutPage = (walletData) => {
     setIsGiftCardOpen(!isGiftCardOpen);
     setIsCouponOpen(false);
   };
+  const handlePayButtonClick = () => {
+    onPaymentSuccess();
+  };
   return (
-    <article className="relative py-12 mx-auto max-w-7xl md:py-24 w-full">
-      <div className='flex justify-between'>
-        <button type="button" class="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick={() => { window.location.reload(); }}>
+    <article className="relative mx-auto max-w-7xl lg:px-16 w-full">
+      <div className='flex justify-between lg:px-0 px-4'>
+        <button type="button" class="relative p-1 my-8 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick={() => { window.location.reload(); }}>
           <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-          <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
+          <span class="relative px-4 py-1 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
             <span class="relative text-white flex items-center justify-center"><h4 className='px-2'>Back</h4></span>
           </span></button>
-        {/* <a type="button" class="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" href='/submit-order'>
-          <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-          <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
-            <span class="relative text-white flex items-center justify-center"><h4 className='px-2'>Next</h4></span>
-          </span></a> */}
+          
       </div>
-      <h4 className="text-2xl text-white text-center font-bold mb-4 pt-4">{walletData['walletData']['brandName']}'s Wallet</h4>
-      <div className="bg-white rounded p-3">
+      {/* <h4 className="text-2xl text-white text-center font-bold mb-4 pt-4">{walletData['walletData']['brandName']}'s Wallet</h4> */}
+      <div className="bg-white rounded p-3 lg:mx-0 mx-4">
         <div className="w-full flex h-8 bg-gray-200 pl-2 rounded-lg my-3">
           <div class="rounded-full bg-white h-4 w-4 mt-2 mx-2"></div>
           <div class="rounded-full bg-white h-4 w-4 mt-2"></div>
@@ -232,17 +231,16 @@ const CheckoutPage = (walletData) => {
           <div className="lg:w-1/2 flex flex-col flex-1">
             <div className="p-4 bg-gray-100 h-full">
               <div className="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
-                <h2 className="text-lg font-medium py-4">Order Details</h2>
+                <h2 className="text-lg font-medium py-4 text-black">Order Details</h2>
               </div>
-              <br />
               <div className="md:w-full">
-                <div className="bg-white rounded-lg shadow-md p-6 mb-4">
+                <div className="bg-white rounded-lg shadow-md lg:p-6 p-4 mb-4">
                   <table className="w-full">
                     <thead>
                       <tr>
-                        <th className="text-left font-semibold">Product</th>
-                        <th className="text-left font-semibold">Quantity</th>
-                        <th className="text-left font-semibold">Price</th>
+                        <th className="lg:text-left font-semibold">Product</th>
+                        <th className="lg:text-left font-semibold">Quantity</th>
+                        <th className="lg:text-left font-semibold">Price</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -398,13 +396,15 @@ const CheckoutPage = (walletData) => {
             </div>
             <form method="post" className="flex-1 space-y-2 p-4 bg-white">
               <div>
-                <button type="button" class="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md w-full" onClick={() => { window.location.reload(); }}>
+                <button type="button" class="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md w-full">
                   <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                   <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
-                    <span class="relative text-white flex items-center justify-center"><h4 className='px-2'>{walletData['walletData']['brandName']}</h4> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                    <span class="relative text-white flex items-center justify-center"><h4 className='px-2'>{walletData['walletData']['brandName']}</h4> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
                       <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3h43V1.78a.5.5 0 0 0-.621-.484zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h43a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z" />
-                    </svg></span>
-                  </span></button>
+                    </svg>
+                    </span>
+                  </span>
+                </button>
               </div>
               <div className="flex-1 p-4 rounded-md space-y-1">
                 {/* giftcard */}
@@ -538,36 +538,56 @@ const CheckoutPage = (walletData) => {
               <form method="post" className="flex-1 space-y-2 border p-4 rounded-md bg-white mt-4 lg:mt-0">
                 <label className="relative w-full flex flex-col">
                   <span className="mb-1.5">Card number</span>
-                  <input className="rounded-md peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300" type="text" name="card_number" placeholder="4242 4242 4242 4242" defaultValue="4242 4242 4242 4242" />
-                  <svg xmlns="http://www.w3.org/2000/svg" className="absolute bottom-0 left-0 -mb-0.5 transform translate-x-1/2 -translate-y-1/2 text-black peer-placeholder-shown:text-gray-300 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h48M7 15h4m4 0h4m-7 4h42a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
-                  </svg>
+                    <div className="relative">
+                      <svg className="absolute left-3 top-1/2 transform -translate-y-1/2 h-6 w-6 text-black" 
+                          width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" 
+                          stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <rect x="3" y="5" width="18" height="14" rx="3"/>
+                        <line x1="3" y1="10" x2="21" y2="10"/>
+                        <line x1="7" y1="15" x2="7.01" y2="15"/>
+                        <line x1="11" y1="15" x2="13" y2="15"/>
+                      </svg>
+                      <input className="rounded-md pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300 w-full" 
+                        type="text" name="card_number" placeholder="4242 4242 4242 4242" defaultValue="4242 4242 4242 4242" />
+                    </div>
                 </label>
+
                 <div className="flex flex-col lg:flex-row gap-4 w-full">
-                  <label className="relative flex-1 flex flex-col">
-                    <span className="mb-1.5">Expire date</span>
-                    <input className="rounded-md peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300" type="text" name="expire_date" placeholder="MM/YY" defaultValue="12/25" />
-                    <svg xmlns="http://www.w3.org/2000/svg" className="absolute bottom-0 left-0 -mb-0.5 transform translate-x-1/2 -translate-y-1/2 text-black peer-placeholder-shown:text-gray-300 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h40M5 21h44a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                <label className="relative flex-1 flex flex-col">
+                  <span className="mb-1.5">Expire date</span>
+                  <div className="relative">
+                    <svg className="absolute left-3 top-1/2 transform -translate-y-1/2 h-6 w-6 text-black" 
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
                     </svg>
-                  </label>
-                  <label className="relative flex-1 flex flex-col">
-                    <span className="flex items-center gap-3 mb-1.5">
-                      CVC/CVV
-                      <span className="relative group">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </span>
+                    <input className="rounded-md pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300 w-full" 
+                          type="text" name="expire_date" placeholder="MM/YY" defaultValue="12/25" />
+                  </div>
+                </label>
+
+                <label className="relative flex-1 flex flex-col">
+                  <span className="flex items-center gap-3 mb-1.5">
+                    CVC/CVV
+                    <span className="relative group">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                            d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </span>
-                    <input className="rounded-md peer pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300" type="text" name="card_cvc" placeholder="•••" defaultValue="123" />
-                    <svg xmlns="http://www.w3.org/2000/svg" className="absolute bottom-0 left-0 -mb-0.5 transform translate-x-1/2 -translate-y-1/2 text-black peer-placeholder-shown:text-gray-300 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h42a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </span>
+                  <div className="relative">
+                    <svg className="absolute left-3 top-1/2 transform -translate-y-1/2 h-6 w-6 black" 
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                            d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
                     </svg>
-                  </label>
+                    <input className="rounded-md pl-12 pr-2 py-2 border-2 border-gray-200 placeholder-gray-300 w-full" 
+                          type="text" name="card_cvc" placeholder="•••" defaultValue="123" />
+                  </div>
+                </label>
                 </div>
                 <div className='w-full pt-2'>
-                  <a href='/submit-order'>
-                    <button type='button' className="bg-black text-white p-3 rounded-md w-full">Pay</button>
-                  </a>
+                  <button onClick={handlePayButtonClick} type='button' className="bg-black text-white p-3 rounded-md w-full">Pay</button>
                 </div>
               </form>
             </form>

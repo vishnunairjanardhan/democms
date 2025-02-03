@@ -6,6 +6,7 @@ import FeatureCaseStudyNew2 from "../components/features/FeatureCaseStudyNew2.as
 import FeatureCaseStudyNew3 from "../components/features/FeatureCaseStudyNew3.astro";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
 import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
+import HeroCasestudy from "../components/heros/HeroCasestudy.astro";
 
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -13,6 +14,8 @@ import { AstroSeo } from "@astrolib/seo";
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
+
+<BaseLayout3>
 <AstroSeo
   title="99minds Case Studies: Driving Business Growth and Results"
   description="Explore how strategic collaborations with 99minds drive success through impactful case studies and real business results."
@@ -43,7 +46,8 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout3>
+
+  <HeroCasestudy />
   <CaseStudyNewHeader />
   <!-- <FeatureCaseStudyNew/>
   <FeatureCaseStudyNew2/> -->
