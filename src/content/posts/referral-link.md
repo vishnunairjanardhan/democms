@@ -129,13 +129,13 @@ Customers love sharing their favorite products and services. When they get rewar
 
 <h2 class="m-0 mb-4" id="referral-link-work">How does Referral Link Work?</h2>
 
-Referral links work through a structured tracking system that rewards users for sharing. This link contains information that connects back to the person who referred it in the company’s database.
+Referral links operate through a structured tracking system that rewards users for sharing them. Each link contains a unique identifier that connects back to the referrer in the company's database.
 
-They then notify customers of the referral program and outline the perks of referring people. After customers receive their referral link, they can send it to their network, which can be friends, family, coworkers, or a wider audience via social media.
+Businesses promote their referral program by informing customers about its benefits. Once a customer receives their referral link, they can share it with their network such as friends, family, coworkers, or a broader audience via social media.
 
-When users click the link, it takes them directly to the business’s website or product page. A unique referral code allows the business to track who referred the new customer. Their marketing system monitors what the visitor does. That's a form of commissioning those who referred them, as if they perform a desired action, such as making purchases or subscribing to their services, the activity will be rewarded to the referrer.
+When someone clicks the referral link, they are directed to the business’s website or product page. A unique referral code tracks who referred the new customer. The system then monitors their actions, such as making a purchase or signing up for a service. If the referral meets the program’s criteria, the referrer earns a reward.
 
-In exchange, the referrer is rewarded according to the company’s referral program rules. Such incentives may include discounts, bonuses, cashback, etc. Some companies have double-sided referral programs that reward both the referer and the referral. Each time a referral link gets shared, and someone clicks it, the process continues, bringing in more potential customers repeatedly.
+Referrers receive incentives based on the company's referral program rules, which may include discounts, bonuses, cashback, or other perks. Some businesses use double-sided referral programs, where both the referrer and the referred customer receive rewards. This cycle continues as more people share and engage with the referral links, driving ongoing customer acquisition.
 
 <h2 id="create-referral-link">How to Create a Referral Link?</h2>
 
