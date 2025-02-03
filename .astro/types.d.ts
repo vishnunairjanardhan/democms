@@ -1207,6 +1207,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"referral-link.md": {
+	id: "referral-link.md";
+  slug: "referral-link";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "referral-marketing-strategy.md": {
 	id: "referral-marketing-strategy.md";
   slug: "referral-marketing-strategy";
