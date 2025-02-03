@@ -231,42 +231,44 @@ Working with influencers is a great way to boost brand awareness and drive traff
 
 A referral link and a <a href="https://www.99minds.io/blog/referral-code" role="link" target="_blanck">referral code</a> both track and reward customer referrals, but they function differently.
 
-<table border="1">
+
+<table style="border-collapse: collapse; width: 100%;" border="1">
     <thead>
         <tr>
-            <th>Aspect</th>
-            <th>Referral Links</th>
-            <th>Referral Codes</th>
+            <th style="border: 1px solid gray; padding: 8px;">Aspect</th>
+            <th style="border: 1px solid gray; padding: 8px;">Referral Links</th>
+            <th style="border: 1px solid gray; padding: 8px;">Referral Codes</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Ease of Sharing</td>
-            <td>Share referral links via email, social media, or messages with a single click.</td>
-            <td>Requires users to enter the code manually and often needs additional instructions.</td>
+            <td style="border: 1px solid gray; padding: 8px;">Ease of Sharing</td>
+            <td style="border: 1px solid gray; padding: 8px;">Share referral links via email, social media, or messages with a single click.</td>
+            <td style="border: 1px solid gray; padding: 8px;">Requires users to enter the code manually and often needs additional instructions.</td>
         </tr>
         <tr>
-            <td>User Experience</td>
-            <td>Automatically directs users to a landing page where the offer is applied, reducing friction.</td>
-            <td>Users may struggle to enter the code correctly or forget to apply it, causing frustration.</td>
+            <td style="border: 1px solid gray; padding: 8px;">User Experience</td>
+            <td style="border: 1px solid gray; padding: 8px;">Automatically directs users to a landing page where the offer is applied, reducing friction.</td>
+            <td style="border: 1px solid gray; padding: 8px;">Users may struggle to enter the code correctly or forget to apply it, causing frustration.</td>
         </tr>
         <tr>
-            <td>Lead Acquisition</td>
-            <td>Sends users to a personalized landing page, increasing trust and engagement.</td>
-            <td>Feels less personalized and requires extra effort from the user.</td>
+            <td style="border: 1px solid gray; padding: 8px;">Lead Acquisition</td>
+            <td style="border: 1px solid gray; padding: 8px;">Sends users to a personalized landing page, increasing trust and engagement.</td>
+            <td style="border: 1px solid gray; padding: 8px;">Feels less personalized and requires extra effort from the user.</td>
         </tr>
         <tr>
-            <td>Tracking & Analytics</td>
-            <td>Provides detailed tracking of referrals, clicks, and conversions for accurate performance measurement.</td>
-            <td>Tracking is more challenging and relies on manual code entry, leading to potential errors.</td>
+            <td style="border: 1px solid gray; padding: 8px;">Tracking & Analytics</td>
+            <td style="border: 1px solid gray; padding: 8px;">Provides detailed tracking of referrals, clicks, and conversions for accurate performance measurement.</td>
+            <td style="border: 1px solid gray; padding: 8px;">Tracking is more challenging and relies on manual code entry, leading to potential errors.</td>
         </tr>
         <tr>
-            <td>Follow-Up & Nurturing</td>
-            <td>Encourages users to enter their details, enabling businesses to send follow-ups and personalized marketing.</td>
-            <td>Typically allows users to redeem offers without submitting contact details, limiting future engagement.</td>
+            <td style="border: 1px solid gray; padding: 8px;">Follow-Up & Nurturing</td>
+            <td style="border: 1px solid gray; padding: 8px;">Encourages users to enter their details, enabling businesses to send follow-ups and personalized marketing.</td>
+            <td style="border: 1px solid gray; padding: 8px;">Typically allows users to redeem offers without submitting contact details, limiting future engagement.</td>
         </tr>       
     </tbody>
 </table>
+
 
 <h2 id="Conclusion">Conclusion</h2>
 
