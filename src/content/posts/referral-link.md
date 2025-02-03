@@ -225,6 +225,8 @@ Working with influencers is a great way to boost brand awareness and drive traff
 </li>
 </ol>
 
+<a href="https://www.99minds.io/referral" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-R1 (2).webp" alt="grow your business with referrals"></a>
+
 <h2 id="referral-link-vs-referral-code">Referral Link Vs. Referral Code</h2>
 
 A referral link and a <a href="https://www.99minds.io/blog/referral-code" role="link" target="_blanck">referral code</a> both track and reward customer referrals, but they function differently.
