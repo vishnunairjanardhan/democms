@@ -54,7 +54,7 @@ This blog will go over both tactics in detail, explain their differences, and he
 
 <h2 id="What-is-Referral-Marketing?" rel="noreferrer">What is Referral Marketing?</h2>
 
-<a href="https://www.99minds.io/blog/what-is-referral-marketing" role="link" target="_blank">Referral marketing</a> is a method that uses the influence of current customers to spread the word about your product or service. It encourages customers to refer their friends, family, or coworkers to your company in exchange for incentives such as discounts, free products, or loyalty benefits.
+<a href="https://www.99minds.io/blog/referral-marketing" role="link" target="_blank">Referral marketing</a> is a method that uses the influence of current customers to spread the word about your product or service. It encourages customers to refer their friends, family, or coworkers to your company in exchange for incentives such as discounts, free products, or loyalty benefits.
 
 Referral marketing primarily relies on <a href="https://www.99minds.io/blog/word-of-mouth-marketing" role="link" target="_blank">word-of-mouth</a>, powerful marketing with great influence over customer purchase decisions. <a href="https://www.nielsen.com/insights/" role="link" target="_blank">Nielsen reports</a> that 92% of customers trust recommendations from friends and family over any other form of promotion. Referral marketing, as part of a referral program vs affiliate program, capitalizes on this trust, using the credibility of existing customers to generate new leads and increase sales.
 

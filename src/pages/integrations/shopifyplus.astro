@@ -1,49 +1,46 @@
 ---
+
 import BaseLayout3 from "../../layouts/BaseLayout3.astro";
 import HeroShopifyPlus1 from "../../components/heros/HeroShopifyPlus1.astro";
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import FeatureShopifyplus1 from "../../components/features/FeatureShopifyplus1.astro";
+import ParentPage from "../../components/CheckoutFeature/parent"
 import FeatureShopifyplus2 from "../../components/features/FeatureShopifyplus2.astro";
 import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
 import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
-//import Cta99mindsShopify from "../../components/ctas/Cta99mindsShopify.astro";
 import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
 import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
 import BcomRating from "../../components/Infopages/BcomRating.astro";
 import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
 import FeatureShopifyplus3 from "../../components/features/FeatureShopifyplus3.astro";
-import IntegrationShopify from "../../components/integrations/IntegrationShopify.astro";
-
-
+import IntegrationShopifyplus from "../../components/integrations/IntegrationShopifyplus.astro";
 import { AstroSeo } from "@astrolib/seo";
+
 ---
 
-<!---
-Use AstroSeo in all the pages you want different Seo than the index page
--->
 <AstroSeo
   title="99minds and Shopify Plus integration | 99minds",
   description="Add the most powerful omnichannel gift card and loyalty program app to your Shopify account and improve customer retention and revenue.",
-  canonical="https://www.99minds.io/integrations/shopify-plus"
+  canonical="https://www.99minds.io/integrations/shopifyplus"
   openGraph={{
-    url: "https://www.99minds.io/integrations/shopify-plus",
-    title: "99minds and Shopify integration | 99minds",
+    url: "https://www.99minds.io/integrations/shopifyplus",
+    title: "99minds and Shopifyplus integration | 99minds",
     description: "Add the most powerful omnichannel gift card and loyalty program app to your Shopify account and improve customer retention and revenue.",
     images: [
       {
-        url: "https://www.99minds.io/assets/shopify/99minds-Shopify-OGI.svg",
-        alt: "99minds & Shopify integration",
+        url: "https://www.99minds.io/assets/shopifyplus/99minds-shopifyplus-OGI.svg",
+        alt: "99minds & Shopifyplus integration",
         type: "image/svg",
       }
     ],
     site_name: "99minds",
   }}
   twitter={{
-    url: "https://www.99minds.io/integrations/shopify",
+    url: "https://www.99minds.io/integrations/shopifyplus",
     images: [
       {
-        url: "https://www.99minds.io/assets/shopify/99minds-Shopify-OGI.svg",
-        alt: "99minds & Shopify integration",
+        url: "https://www.99minds.io/assets/shopifyplus/99minds-shopifyplus-OGI.svg",
+        alt: "99minds & Shopifyplus integration",
         type: "image/svg",
       }
     ],
@@ -51,17 +48,17 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
+<head>
+  <meta name="robots" content="noindex, nofollow">
+</head>
 <BaseLayout3>
   <HeroShopifyPlus1 />
   <LogoCloudOne />
-   <!--<FeatureBcom1 />-->
   <FeatureShopifyplus1 />
+  <ParentPage client:load/>
   <FeatureShopifyplus2 />
-  <!--<FeatureShopify2 />-->
-  <FeatureShopifyplus3 />
-  <IntegrationShopify />
+  <!-- <FeatureShopifyplus3 /> -->
+  <IntegrationShopifyplus />
   <Testimonialtry />
-  <!--<Integrations99minds />-->
-  <!-- <Cta99mindsShopify /> -->
   <CtaThreeU />
 </BaseLayout3>

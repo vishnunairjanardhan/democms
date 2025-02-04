@@ -56,7 +56,7 @@ A referral code is more than just a discount or promotional offer—it's a way t
 
 <h2 id="Referral-Code-VS-Referral-Links">Referral Code VS Referral Links</h2>
 
-Although both referral codes and referral links aim to improve <a href="https://www.99minds.io/blog/customer-acquisition-strategy" role="link" target="_blanck">customer acquisition</a>, they differ significantly in terms of functionality, user experience, and use cases.
+Although both referral codes and <a href="https://www.99minds.io/blog/referral-link" role="link" target="_blanck">referral links</a> aim to improve <a href="https://www.99minds.io/blog/customer-acquisition-strategy" role="link" target="_blanck">customer acquisition</a>, they differ significantly in terms of functionality, user experience, and use cases.
 
 Referral Codes are alphanumeric characters that customers enter manually during checkout or sign-up. These codes are unique to each individual and serve as identifiers when tracking referrals. They add a personal touch, making them ideal for vocal referrals, such as when someone reveals the code during a podcast or discussion. However, the need for manually signing up might provide challenges: customers may forget to use the code or enter it improperly, resulting in missed rewards and tracking discrepancies. Despite these disadvantages, referral codes are flexible and effective in cases when digital sharing is not a possibility.
 
