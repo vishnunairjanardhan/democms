@@ -104,7 +104,7 @@ Customers love sharing their favorite products and services. When they get rewar
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
+                <span class="relative text-gray"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
                 </span></div>
               </span>
               <!-- Modal -->
@@ -129,13 +129,13 @@ Customers love sharing their favorite products and services. When they get rewar
 
 <h2 class="m-0 mb-4" id="referral-link-work">How does Referral Link Work?</h2>
 
-Referral links work through a structured tracking system that rewards users for sharing. This link contains information that connects back to the person who referred it in the company’s database.
+Referral links operate through a structured tracking system that rewards users for sharing them. Each link contains a unique identifier that connects back to the referrer in the company's database.
 
-They then notify customers of the referral program and outline the perks of referring people. After customers receive their referral link, they can send it to their network, which can be friends, family, coworkers, or a wider audience via social media.
+Businesses promote their referral program by informing customers about its benefits. Once a customer receives their referral link, they can share it with their network such as friends, family, coworkers, or a broader audience via social media.
 
-When users click the link, it takes them directly to the business’s website or product page. A unique referral code allows the business to track who referred the new customer. Their marketing system monitors what the visitor does. That's a form of commissioning those who referred them, as if they perform a desired action, such as making purchases or subscribing to their services, the activity will be rewarded to the referrer.
+When someone clicks the referral link, they are directed to the business’s website or product page. A unique referral code tracks who referred the new customer. The system then monitors their actions, such as making a purchase or signing up for a service. If the referral meets the program’s criteria, the referrer earns a reward.
 
-In exchange, the referrer is rewarded according to the company’s referral program rules. Such incentives may include discounts, bonuses, cashback, etc. Some companies have double-sided referral programs that reward both the referer and the referral. Each time a referral link gets shared, and someone clicks it, the process continues, bringing in more potential customers repeatedly.
+Referrers receive incentives based on the company's referral program rules, which may include discounts, bonuses, cashback, or other perks. Some businesses use double-sided referral programs, where both the referrer and the referred customer receive rewards. This cycle continues as more people share and engage with the referral links, driving ongoing customer acquisition.
 
 <h2 id="create-referral-link">How to Create a Referral Link?</h2>
 
@@ -231,42 +231,45 @@ Working with influencers is a great way to boost brand awareness and drive traff
 
 A referral link and a <a href="https://www.99minds.io/blog/referral-code" role="link" target="_blanck">referral code</a> both track and reward customer referrals, but they function differently.
 
-<table class="border-collapse w-full border border-gray-300">
-    <thead>
+
+
+<table class="w-full table-auto border-separate border-spacing-0 rounded-lg overflow-hidden shadow-lg">
+    <thead class="bg-vulcan-800 text-gray">
         <tr>
-            <th class="border border-gray-300 px-4 py-2">Aspect</th>
-            <th class="border border-gray-300 px-4 py-2">Referral Links</th>
-            <th class="border border-gray-300 px-4 py-2">Referral Codes</th>
+            <th class="px-6 py-3 text-left border-gray-600 border-r text-md font-semibold">Aspect</th>
+            <th class="px-6 py-3 text-left border-gray-600 border-r text-md font-semibold">Referral Links</th>
+            <th class="px-6 py-3 text-left text-md font-semibold">Referral Codes</th>
         </tr>
     </thead>
-    <tbody>
-        <tr>
-            <td class="border border-gray-300 px-4 py-2">Ease of Sharing</td>
-            <td class="border border-gray-300 px-4 py-2">Share referral links via email, social media, or messages with a single click.</td>
-            <td class="border border-gray-300 px-4 py-2">Requires users to enter the code manually and often needs additional instructions.</td>
+    <tbody class="bg-vulcan-800 text-gray">
+        <tr class="bg-vulcan-800 text-gray">
+            <td class="border-t border-r border-b border-gray-600 px-6 py-4 text-sm">Ease of Sharing</td>
+            <td class="border-t border-r border-b border-gray-600 px-6 py-4 text-sm">Share referral links via email, social media, or messages with a single click.</td>
+            <td class="border-t border-b border-gray-600 px-6 py-4 text-sm">Requires users to enter the code manually and often needs additional instructions.</td>
         </tr>
-        <tr>
-            <td class="border border-gray-300 px-4 py-2">User Experience</td>
-            <td class="border border-gray-300 px-4 py-2">Automatically directs users to a landing page where the offer is applied, reducing friction.</td>
-            <td class="border border-gray-300 px-4 py-2">Users may struggle to enter the code correctly or forget to apply it, causing frustration.</td>
+        <tr class="bg-vulcan-800 text-gray">
+            <td class="border-t border-r border-b border-gray-600 px-6 py-4 text-sm">User Experience</td>
+            <td class="border-t border-r border-b border-gray-600 px-6 py-4 text-sm">Automatically directs users to a landing page where the offer is applied, reducing friction.</td>
+            <td class="border-t border-b border-gray-600 px-6 py-4 text-sm">Users may struggle to enter the code correctly or forget to apply it, causing frustration.</td>
         </tr>
-        <tr>
-            <td class="border border-gray-300 px-4 py-2">Lead Acquisition</td>
-            <td class="border border-gray-300 px-4 py-2">Sends users to a personalized landing page, increasing trust and engagement.</td>
-            <td class="border border-gray-300 px-4 py-2">Feels less personalized and requires extra effort from the user.</td>
+        <tr class="bg-vulcan-800 text-gray">
+            <td class="border-t border-r border-b border-gray-600 px-6 py-4 text-sm">Lead Acquisition</td>
+            <td class="border-t border-r border-b border-gray-600 px-6 py-4 text-sm">Sends users to a personalized landing page, increasing trust and engagement.</td>
+            <td class="border-t border-b border-gray-600 px-6 py-4 text-sm">Feels less personalized and requires extra effort from the user.</td>
         </tr>
-        <tr>
-            <td class="border border-gray-300 px-4 py-2">Tracking & Analytics</td>
-            <td class="border border-gray-300 px-4 py-2">Provides detailed tracking of referrals, clicks, and conversions for accurate performance measurement.</td>
-            <td class="border border-gray-300 px-4 py-2">Tracking is more challenging and relies on manual code entry, leading to potential errors.</td>
+        <tr class="bg-vulcan-800 text-gray">
+            <td class="border-t border-r border-b border-gray-600 px-6 py-4 text-sm">Tracking & Analytics</td>
+            <td class="border-t border-r border-b border-gray-600 px-6 py-4 text-sm">Provides detailed tracking of referrals, clicks, and conversions for accurate performance measurement.</td>
+            <td class="border-t border-b border-gray-600 px-6 py-4 text-sm">Tracking is more challenging and relies on manual code entry, leading to potential errors.</td>
         </tr>
-        <tr>
-            <td class="border border-gray-300 px-4 py-2">Follow-Up & Nurturing</td>
-            <td class="border border-gray-300 px-4 py-2">Encourages users to enter their details, enabling businesses to send follow-ups and personalized marketing.</td>
-            <td class="border border-gray-300 px-4 py-2">Typically allows users to redeem offers without submitting contact details, limiting future engagement.</td>
-        </tr>       
+        <tr class="bg-vulcan-800 text-gray">
+            <td class="border-t border-r border-gray-600 px-6 py-4 text-sm">Follow-Up & Nurturing</td>
+            <td class="border-t border-r border-gray-600 px-6 py-4 text-sm">Encourages users to enter their details, enabling businesses to send follow-ups and personalized marketing.</td>
+            <td class="border-t border-gray-600 px-6 py-4 text-sm">Typically allows users to redeem offers without submitting contact details, limiting future engagement.</td>
+        </tr>
     </tbody>
 </table>
+
 
 
 
