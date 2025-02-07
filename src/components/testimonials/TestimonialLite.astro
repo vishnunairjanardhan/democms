@@ -2,7 +2,8 @@
 import Verticalgrid from "../assets/Verticalgrid.astro";
 ---
 
-<section class="mx-auto 2xl:max-w-7xl py-12 lg:px-24 md:px-12 px-6 sm:px-4 items-center w-full">
+<section class="relative overflow-hidden border-t border-white/5">
+<div class="relative px-8 py-12 mx-auto max-w-[98rem] md:px-12 lg:px-16 lg:py-24">
 <div class="flex flex-col w-full lg:px-2" 
         x-data="{
             activeTab: 1,
@@ -88,7 +89,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                 alt="Tassels" />
         </button>
       </div>
-      <div class="relative overflow-hidden mt-6">
+          <div class="relative overflow-hidden mt-6">
         <div class="flex transition-transform duration-500" :style="{ transform: `translateX(-${(activeTab - 1) * 100}%)` }">
                   <div class="tab-content flex-shrink-0 w-full h-auto lg:h-[500px]">
                     <div class="w-full flex flex-col shrink-0 snap-start h-full">
@@ -96,40 +97,40 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                               <ul class="h-full">
                                   <li class="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                           <div class="lg:py-6 py-4 h-full">
-                                              <div class="lg:flex lg:h-full lg:items-center">
-                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                              <div class="lg:flex lg:h-full lg:items-center justify-between gap-0 max-w-7xl mx-auto">
+                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0">
                                                       <div class="ml-4 h-9">
                                                           <img class="h-12" alt="Group" src="/assets/testimonial/MudAustralia-B-logo.svg" />
                                                       </div>
                                                       <div class="grid grid-cols-2 w-full mt-10 gap-4">
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl text-[#303030]">
-                                                                  <h3 class="font-semibold  text-2xl md:text-3xl lg:text-3xl">38%</h3>
+                                                                  <h3 class="font-semibold text-2xl md:text-3xl lg:text-3xl">38%</h3>
                                                                   <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase Average Spend Over Gift Card Value</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-[#303030]text-2xl md:text-3xl lg:text-3xl"> Multi-Currency </h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">AUS $ USD $ GBP £ </p>
+                                                                  <h3 class="font-semibold text-[#303030] text-2xl md:text-3xl lg:text-3xl">Multi-Currency</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">AUS $ USD $ GBP £</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-[#303030]text-2xl md:text-3xl lg:text-3xl">30%</h3>
+                                                                  <h3 class="font-semibold text-[#303030] text-2xl md:text-3xl lg:text-3xl">30%</h3>
                                                                   <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in Sales due to rise in Gift card Redemption frequency</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-[#303030]text-2xl md:text-3xl lg:text-3xl">Saved 400hrs</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]"> Manual work</p>
+                                                                  <h3 class="font-semibold text-[#303030] text-2xl md:text-3xl lg:text-3xl">Saved 400hrs</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Manual work</p>
                                                               </div>
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="mt-4 lg:mt-0 px-2 lg:px-2">
-                                                      <img class="object-cover object-center rounded-3xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/mud-aus-t.webp" alt="" />
+                                                  <div class="lg:w-[500px] lg:mr-12 mt-4 lg:mt-0">
+                                                      <img class="object-cover object-center rounded-3xl w-full h-full" loading="lazy" src="/assets/testimonial/mud-aus-t.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
@@ -144,8 +145,8 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                               <ul class="h-full">
                                   <li class="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                           <div class="lg:py-5 py-4 h-full">
-                                              <div class="lg:flex lg:h-full lg:items-center">
-                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                              <div class="lg:flex lg:h-full lg:items-center justify-between gap-0 max-w-7xl mx-auto">
+                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0">
                                                       <div class="ml-4 ">
                                                           <img class="h-12" alt="Group" src="/assets/testimonial/Solistice-logo.svg" />
                                                       </div>
@@ -176,7 +177,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="mt-4 lg:mt-0 p-3 lg:px-10">
+                                                  <div class="mt-4 lg:mt-0 lg:mr-12 p-3 lg:px-10">
                                                       <img class="object-cover object-center rounded-3xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Solstice-t.webp" alt="" />
                                                   </div>
                                               </div>
@@ -192,8 +193,8 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                               <ul class="h-full">
                                   <li class="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                           <div class="lg:py-6 py-4 h-full">
-                                              <div class="lg:flex lg:h-full lg:items-center">
-                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                              <div class="lg:flex lg:h-full lg:items-center justify-between gap-0 max-w-7xl mx-auto">
+                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0">
                                                       <div class="ml-4 mt-2">
                                                           <img class="h-6" alt="Group" src="/assets/testimonial/Natori-logo.svg" />
                                                       </div>
@@ -224,7 +225,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="mt-4 lg:mt-0 p-3 lg:px-10">
+                                                  <div class="mt-4 lg:mt-0 lg:mr-12 p-3 lg:px-10">
                                                       <img class="object-cover object-center rounded-3xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Natori-t.webp" alt="" />
                                                   </div>
                                               </div>
@@ -240,8 +241,8 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                               <ul class="h-full">
                                   <li class="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                           <div class="lg:py-6 py-4 h-full">
-                                              <div class="lg:flex lg:h-full lg:items-center">
-                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                              <div class="lg:flex lg:h-full lg:items-center justify-between gap-0 max-w-7xl mx-auto">
+                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0">
                                                       <div class="ml-4 h-9">
                                                           <img class="" alt="Group" src="/assets/testimonial/Bestop-logo.svg" />
                                                       </div>
@@ -272,7 +273,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                  <div class="mt-4 lg:mt-0 lg:mr-12 px-2 lg:px-2">
                                                       <img class="object-cover object-center rounded-3xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Bestop-T1.webp" alt="" />
                                                   </div>
                                               </div>
@@ -288,8 +289,8 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                               <ul class="h-full">
                                   <li class="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                           <div class="lg:py-5 py-4 h-full">
-                                              <div class="lg:flex lg:h-full lg:items-center">
-                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                              <div class="lg:flex lg:h-full lg:items-center justify-between gap-0 max-w-7xl mx-auto">
+                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0">
                                                       <div class="ml-4">
                                                           <img class="h-10" alt="Group" src="/assets/testimonial/calico-logo.svg" />
                                                       </div>
@@ -320,7 +321,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                  <div class="mt-4 lg:mt-0 lg:mr-12 px-2 lg:px-2">
                                                       <img class="object-cover object-center rounded-3xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Calico-t.webp" alt="" />
                                                   </div>
                                               </div>
@@ -336,8 +337,8 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                               <ul class="h-full">
                                   <li class="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                           <div class="lg:py-6 py-4 h-full">
-                                              <div class="lg:flex lg:h-full lg:items-center">
-                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
+                                              <div class="lg:flex lg:h-full lg:items-center justify-between gap-0 max-w-7xl mx-auto">
+                                                  <div class="w-full lg:w-[38rem] mb-6 lg:mb-0">
                                                       <div class="ml-4">
                                                           <img class="h-10" alt="Group" src="/assets/testimonial/Tassels-logo.svg" />
                                                       </div>
@@ -368,7 +369,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                                                           </div>
                                                       </div>
                                                   </div>
-                                                  <div class="mt-4 lg:mt-0 px-2 lg:px-2">
+                                                  <div class="mt-4 lg:mt-0 lg:mr-12 px-2 lg:px-2">
                                                       <img class="object-cover object-center rounded-3xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/tassels-t.webp" alt="" />
                                                   </div>
                                               </div>
@@ -382,5 +383,6 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
            </div>
        </div>
    </section>
+</div>
 </div>
 </section>
