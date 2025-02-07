@@ -2,14 +2,8 @@
 import Verticalgrid from "../assets/Verticalgrid.astro";
 ---
 
-<section class="lg:p-8 border-t border-y border-white/5">
-  <div class="mx-auto max-w-7xl py-12 lg:px-24 md:px-12 px-6 sm:px-4 items-center w-full">
-    <div class="mx-auto text-center lg:py-8">
-      <h2 class="mt-4 text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-black">
-        Don’t just take our word for it.<br /> Meet our brands.
-      </h2>
-    </div>
-    <div class="flex flex-col w-full lg:px-2" 
+
+<div class="flex flex-col w-full lg:px-2" 
         x-data="{
             activeTab: 1,
             interval: null,
@@ -37,46 +31,59 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
         x-init="init()"
         @mouseenter="stopAutoSlide()" 
         @mouseleave="startAutoSlide()">
-      <div class="relative inline-grid items-center justify-center w-full h-8 grid-cols-3 md:grid-cols-6 mx-auto mt-6 text-white select-none hidden sm:grid">
+<section 
+  class="lg:p-8 border-t border-y border-white/5 transition-all duration-500"
+  x-bind:style="{
+    background: activeTab === 1 ? 'linear-gradient(180deg, rgb(170,143,255) 0%, rgb(150.5,117.3,255) 100%)' :
+                activeTab === 2 ? 'linear-gradient(180deg, rgb(184,191,255) 0%, rgb(132.6,144.67,255) 100%)' :
+                activeTab === 3 ? 'linear-gradient(180deg, rgb(147,213,225) 0%, rgb(107.32,197.57,213.98) 100%)' :
+                activeTab === 4 ? 'linear-gradient(180deg, rgb(217,205,255) 0%, rgb(196.86,178.5,255) 100%)' :
+                activeTab === 5 ? 'linear-gradient(180deg, #DABDA9 0%, #CBA286 100%)' :
+                activeTab === 6 ? 'linear-gradient(180deg, rgb(184,191,255) 0%, rgb(132.6,144.67,255) 100%)' :
+                'linear-gradient(180deg, rgb(184,191,255) 0%, rgb(132.6,144.67,255) 100%)'
+  }"
+>
+  <div class="mx-auto 2xl:max-w-7xl py-12 lg:px-24 md:px-12 px-6 sm:px-4 items-center w-full">
+      <div class="relative inline-grid items-center justify-center w-full h-8 grid-cols-3 md:grid-cols-6 mx-auto mt-6 text-[#303030]select-none hidden sm:grid">
         <button @click="activeTab = 1;" 
-                :class="{ 'text-white bg-white border font-bold rounded-3xl': activeTab === 1, 'text-white': activeTab !== 1 }" 
+                :class="{ 'text-white bg-black border font-bold rounded-3xl': activeTab === 1, 'text-black': activeTab !== 1 }" 
                 class="px-2 py-2 md:px-4 md:py-4">
-            <img :src="activeTab === 1 ? '/assets/testimonial/MudAustralia-B-logo.svg' : '/assets/testimonial/MudAustralia-logo.svg'"
+            <img :src="activeTab === 1 ? '/assets/testimonial/MudAustralia-logo.svg' : '/assets/testimonial/MudAustralia-B-logo.svg'"
                 class="h-7 justify-center mx-auto" 
                 alt="MudAustralia" />
         </button>
         <button @click="activeTab = 2;" 
-                :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 2, 'text-gray-400': activeTab !== 2 }" 
+                :class="{ 'text-white bg-black border font-bold rounded-3xl': activeTab === 2, 'text-black': activeTab !== 2 }" 
                 class="px-2 py-1 md:px-4 md:py-4">
-            <img :src="activeTab === 2 ? '/assets/testimonial/Solistice-logo.svg' : '/assets/testimonial/Solistice-logo-w.svg'" 
+            <img :src="activeTab === 2 ? '/assets/testimonial/Solistice-logo-w.svg' : '/assets/testimonial/Solistice-logo.svg'" 
                 class="h-8 justify-center mx-auto" 
                 alt="Solistice" />
         </button>
         <button @click="activeTab = 3;" 
-                :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 3, 'text-gray-400': activeTab !== 3 }" 
+                :class="{ 'text-white bg-black border font-bold rounded-3xl': activeTab === 3, 'text-black': activeTab !== 3 }" 
                 class="px-2 py-1 md:px-4 md:py-5">
-            <img :src="activeTab === 3 ? '/assets/testimonial/Natori-logo.svg' : '/assets/testimonial/Natori-logo-w.svg'" 
+            <img :src="activeTab === 3 ? '/assets/testimonial/Natori-logo-w.svg' : '/assets/testimonial/Natori-logo.svg'" 
                 class="h-4 justify-center mx-auto" 
                 alt="Natori" />
         </button>
         <button @click="activeTab = 4;" 
-                :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 4, 'text-gray-400': activeTab !== 4 }" 
+                :class="{ 'text-white bg-black border font-bold rounded-3xl': activeTab === 4, 'text-black': activeTab !== 4 }" 
                 class="px-2 py-1 md:px-4 md:py-4">
-            <img :src="activeTab === 4 ? '/assets/testimonial/Bestop-logo.svg' : '/assets/testimonial/Bestop-logo-w.svg'" 
+            <img :src="activeTab === 4 ? '/assets/testimonial/Bestop-logo-w.svg' : '/assets/testimonial/Bestop-logo.svg'" 
                 class="h-6 justify-center mx-auto" 
                 alt="Bestop" />
         </button>
         <button @click="activeTab = 5;" 
-                :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 5, 'text-gray-400': activeTab !== 5 }" 
+                :class="{ 'text-white bg-black border font-bold rounded-3xl': activeTab === 5, 'text-black': activeTab !== 5 }" 
                 class="px-2 py-1 md:px-4 md:py-4">
-            <img :src="activeTab === 5 ? '/assets/testimonial/calico-logo.svg' : '/assets/testimonial/calico-logo-w.svg'" 
+            <img :src="activeTab === 5 ? '/assets/testimonial/calico-logo-w.svg' : '/assets/testimonial/calico-logo.svg'" 
                 class="h-7 justify-center mx-auto" 
                 alt="Calico" />
         </button>
         <button @click="activeTab = 6;" 
-                :class="{ 'text-black bg-white border font-bold rounded-3xl': activeTab === 6, 'text-gray-400': activeTab !== 6 }" 
+                :class="{ 'text-white bg-black border font-bold rounded-3xl': activeTab === 6, 'text-black': activeTab !== 6 }" 
                 class="px-2 py-1 md:px-4 md:py-4">
-            <img :src="activeTab === 6 ? '/assets/testimonial/Tassels-logo.svg' : '/assets/testimonial/Tassels-logo-w.svg'" 
+            <img :src="activeTab === 6 ? '/assets/testimonial/Tassels-logo-w.svg' : '/assets/testimonial/Tassels-logo.svg'" 
                 class="h-6 justify-center mx-auto" 
                 alt="Tassels" />
         </button>
@@ -87,47 +94,45 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                     <div class="w-full flex flex-col shrink-0 snap-start h-full">
                         <figure class="h-full">
                               <ul class="h-full">
-                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
-                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(170,143,255)_0%,rgb(150.5,117.3,255)_100%)] opacity-95">
+                                  <li class="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                           <div class="lg:py-6 py-4 h-full">
                                               <div class="lg:flex lg:h-full lg:items-center">
                                                   <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
                                                       <div class="ml-4 h-9">
-                                                          <img class="h-12" alt="Group" src="/assets/testimonial/MudAustralia-logo.svg" />
+                                                          <img class="h-12" alt="Group" src="/assets/testimonial/MudAustralia-B-logo.svg" />
                                                       </div>
                                                       <div class="grid grid-cols-2 w-full mt-10 gap-4">
                                                           <div class="flex flex-col w-full">
-                                                              <div class="p-4 rounded-3xl text-white">
+                                                              <div class="p-4 rounded-3xl text-[#303030]">
                                                                   <h3 class="font-semibold  text-2xl md:text-3xl lg:text-3xl">38%</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-white">Increase Average Spend Over Gift Card Value</p>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase Average Spend Over Gift Card Value</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-3xl"> Multi-Currency </h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-white">AUS $ USD $ GBP £ </p>
+                                                                  <h3 class="font-semibold text-[#303030]text-2xl md:text-3xl lg:text-3xl"> Multi-Currency </h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">AUS $ USD $ GBP £ </p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-3xl">30%</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-white">Increase in Sales due to rise in Gift card Redemption frequency</p>
+                                                                  <h3 class="font-semibold text-[#303030]text-2xl md:text-3xl lg:text-3xl">30%</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]">Increase in Sales due to rise in Gift card Redemption frequency</p>
                                                               </div>
                                                           </div>
                                                           <div class="flex flex-col w-full">
                                                               <div class="p-4 rounded-3xl">
-                                                                  <h3 class="font-semibold text-white text-2xl md:text-3xl lg:text-3xl">Saved 400hrs</h3>
-                                                                  <p class="text-sm md:text-base lg:text-lg text-white"> Manual work</p>
+                                                                  <h3 class="font-semibold text-[#303030]text-2xl md:text-3xl lg:text-3xl">Saved 400hrs</h3>
+                                                                  <p class="text-sm md:text-base lg:text-lg text-[#303030]"> Manual work</p>
                                                               </div>
                                                           </div>
                                                       </div>
                                                   </div>
                                                   <div class="mt-4 lg:mt-0 px-2 lg:px-2">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/mud-aus-t.webp" alt="" />
+                                                      <img class="object-cover object-center rounded-3xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/mud-aus-t.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
-                                      </figure>
                                   </li>
                               </ul>
                         </figure>
@@ -137,8 +142,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                       <div class="w-full flex flex-col shrink-0 snap-start h-full">
                           <figure class="h-full">
                               <ul class="h-full">
-                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
-                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(184,191,255)_0%,rgb(132.6,144.67,255)_100%)] opacity-95">
+                                  <li class="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                           <div class="lg:py-5 py-4 h-full">
                                               <div class="lg:flex lg:h-full lg:items-center">
                                                   <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
@@ -173,11 +177,10 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                                                       </div>
                                                   </div>
                                                   <div class="mt-4 lg:mt-0 p-3 lg:px-10">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Solstice-t.webp" alt="" />
+                                                      <img class="object-cover object-center rounded-3xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Solstice-t.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
-                                      </figure>
                                   </li>
                               </ul>
                           </figure>
@@ -187,8 +190,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                       <div class="w-full flex flex-col shrink-0 snap-start h-full">
                           <figure class="h-full">
                               <ul class="h-full">
-                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
-                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(147,213,225)_0%,rgb(107.32,197.57,213.98)_100%)] opacity-95">
+                                  <li class="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                           <div class="lg:py-6 py-4 h-full">
                                               <div class="lg:flex lg:h-full lg:items-center">
                                                   <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
@@ -223,11 +225,10 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                                                       </div>
                                                   </div>
                                                   <div class="mt-4 lg:mt-0 p-3 lg:px-10">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Natori-t.webp" alt="" />
+                                                      <img class="object-cover object-center rounded-3xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Natori-t.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
-                                      </figure>
                                   </li>
                               </ul>
                           </figure>
@@ -237,8 +238,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                       <div class="w-full flex flex-col shrink-0 snap-start h-full">
                           <figure class="h-full">
                               <ul class="h-full">
-                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
-                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(217,205,255)_0%,rgb(196.86,178.5,255)_100%)] opacity-95">
+                                  <li class="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                           <div class="lg:py-6 py-4 h-full">
                                               <div class="lg:flex lg:h-full lg:items-center">
                                                   <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
@@ -273,11 +273,10 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                                                       </div>
                                                   </div>
                                                   <div class="mt-4 lg:mt-0 px-2 lg:px-2">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Bestop-T1.webp" alt="" />
+                                                      <img class="object-cover object-center rounded-3xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Bestop-T1.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
-                                      </figure>
                                   </li>
                               </ul>
                           </figure>
@@ -287,8 +286,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                       <div class="w-full flex flex-col shrink-0 snap-start h-full">
                           <figure class="h-full">
                               <ul class="h-full">
-                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
-                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,#DABDA9_0%,#CBA286_100%)] opacity-95">
+                                  <li class="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                           <div class="lg:py-5 py-4 h-full">
                                               <div class="lg:flex lg:h-full lg:items-center">
                                                   <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
@@ -323,11 +321,10 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                                                       </div>
                                                   </div>
                                                   <div class="mt-4 lg:mt-0 px-2 lg:px-2">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Calico-t.webp" alt="" />
+                                                      <img class="object-cover object-center rounded-3xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/Calico-t.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
-                                      </figure>
                                   </li>
                               </ul>
                           </figure>
@@ -337,8 +334,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                       <div class="w-full flex flex-col shrink-0 snap-start h-full">
                           <figure class="h-full">
                               <ul class="h-full">
-                                  <li class="lg:mt-10 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
-                                    <figure class="bg-white rounded-[32px] overflow-hidden [background:linear-gradient(180deg,rgb(184,191,255)_0%,rgb(132.6,144.67,255)_100%)] opacity-95">
+                                  <li class="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                                           <div class="lg:py-6 py-4 h-full">
                                               <div class="lg:flex lg:h-full lg:items-center">
                                                   <div class="w-full lg:w-[38rem] mb-6 lg:mb-0 px-4">
@@ -373,18 +369,17 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                                                       </div>
                                                   </div>
                                                   <div class="mt-4 lg:mt-0 px-2 lg:px-2">
-                                                      <img class="object-cover object-center rounded-3xl drop-shadow-xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/tassels-t.webp" alt="" />
+                                                      <img class="object-cover object-center rounded-3xl w-full lg:w-[500px]" loading="lazy" src="/assets/testimonial/tassels-t.webp" alt="" />
                                                   </div>
                                               </div>
                                           </div>
-                                      </figure>
-                                  </li>
-                              </ul>
+                                     </li>
+                                </ul>
                           </figure>
                       </div>
                   </div>     
-        </div>
-      </div>
-    </div>
- </div>
-</section>
+               </div>
+           </div>
+       </div>
+   </section>
+</div>

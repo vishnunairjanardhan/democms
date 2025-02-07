@@ -14,7 +14,7 @@
 			</div>
 			<nav id="primary-navigation" :class="{'flex': open, 'hidden': !open}" class="flex-col items-start flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
 				<div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
-					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-white/50" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>
+					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>
               Product
             </span>
 						<svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
