@@ -57,9 +57,10 @@ function NewLogoCloud() {
   const duplicateImages = [...images, ...images];
 
   return (
-    <section className="mx-auto 2xl:max-w-7xl py-12 lg:px-24 md:px-12 px-6 sm:px-4 items-center w-full">
-      <div className="overflow-hidden shadow-sm p-4 mt-4">
-        <div className="flex gap-4 items-center animate-marquee">
+    <section>
+      <div className="overflow-hidden shadow-sm p-4 mt-6">
+        <p className="text-lg text-center">Trusted by teams at</p>
+        <div className="flex gap-8 py-6 items-center animate-marquee">
           {duplicateImages.map((image, index) => (
             <img
               key={index}
