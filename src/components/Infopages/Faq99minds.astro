@@ -1,333 +1,286 @@
----
-import Verticalgrid from "../assets/Verticalgrid.astro";
----
-
+--- import Verticalgrid from "../assets/Verticalgrid.astro"; ---
 <section class="relative">
-  <Verticalgrid />
-  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:pt-24">
-    <div class="max-w-3xl mx-auto text-center">
-      <p
+	<Verticalgrid />
+	<div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:pt-12 bg-[#f2f2f7]">
+		<div class="max-w-3xl mx-auto text-center">
+			<!--<p
         class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
         Frequent questions and answers
-      </p>
-      <h2 class="mt-8 text-3xl font-normal tracking-tight text-white">
-        Fully automated, fully supported
+      </p>-->
+			<h2 class="mt-8 text-3xl font-medium tracking-tight text-black">
+        Frequently asked questions
       </h2>
-      <p class="mx-auto mt-4 text-xl">
-        Self-serve or work with a representative, we're here to help with the
-        capital journey that works for you.
-      </p>
+			<p class="mx-auto mt-4 text-xl text-[#475467]"> Self-serve or work with a representative, we're here to help with the capital journey that works for you. </p>
+		</div>
+		<div class="relative mt-16">
+			<div class="grid lg:grid-cols-2 gap-6">
+				<div class="relative mx-auto border rounded-3xl border-white/5" x-data="{ selected: null }">
+      <ul class="list-none" role="list">
+        <!-- FAQ Item 1 -->
+        <li class="relative border-b border-white/5">
+          <button 
+            role="button" 
+            type="button" 
+            class="w-full lg:px-6 py-4 text-left"
+            @click="selected !== 1 ? selected = 1 : selected = null"
+          >
+            <div class="flex items-center justify-between text-white group">
+              <p class="w-4/5 duration-200 font-medium">What if I need to add someone new to my team?</p>
+              <svg 
+                :class="{'rotate-0': selected === 1, 'rotate-180': selected !== 1}" 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="w-1/5 h-5 ml-4 float-right transition-transform duration-200" 
+                viewBox="0 0 20 20" 
+                fill="black"
+              >
+                <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+          </button>
+          <div 
+            class="relative overflow-hidden transition-all duration-700 max-h-0" 
+            x-ref="container1"
+            x-bind:style="selected === 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''"
+          >
+            <p class="lg:px-6 lg:pt-0 pb-10 text-[#475467]">If you need to add new members, you can do that. The amount charged per new user will be the same for the other members included in your plan.</p>
+          </div>
+        </li>
+
+        <!-- FAQ Item 2 -->
+        <li class="relative border-b border-white/5">
+          <button 
+            role="button" 
+            type="button" 
+            class="w-full lg:px-6 py-4 text-left"
+            @click="selected !== 2 ? selected = 2 : selected = null"
+          >
+            <div class="flex items-center justify-between text-white group">
+              <p class="w-4/5 duration-200 font-medium">Can I change plans anytime I want? How long are the contracts?</p>
+              <svg 
+                :class="{'rotate-0': selected === 2, 'rotate-180': selected !== 2}" 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="w-1/5 h-5 ml-4 transition-transform duration-200" 
+                viewBox="0 0 20 20" 
+                fill="black"
+              >
+                <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+          </button>
+          <div 
+            class="relative overflow-hidden transition-all duration-700 max-h-0" 
+            x-ref="container2"
+            x-bind:style="selected === 2 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''"
+          >
+            <p class="lg:px-6 pb-10 text-[#475467]">The contracts can be monthly or yearly. You can start/stop or make changes to your plan any time you want – however, we won't give refunds for cancellation or plan downgrades.</p>
+          </div>
+        </li>
+
+        <!-- FAQ Item 3 -->
+        <li class="relative border-b border-white/5">
+          <button 
+            role="button" 
+            type="button" 
+            class="w-full lg:px-6 py-4 text-left"
+            @click="selected !== 3 ? selected = 3 : selected = null"
+          >
+            <div class="flex items-center justify-between text-white group">
+              <p class="w-4/5 duration-200 font-medium">Do I need any advanced technical skills or professional support services to implement 99minds?</p>
+              <svg 
+                :class="{'rotate-0': selected === 3, 'rotate-180': selected !== 3}" 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="w-1/5 h-5 ml-4 transition-transform duration-200" 
+                viewBox="0 0 20 20" 
+                fill="black"
+              >
+                <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+          </button>
+          <div 
+            class="relative overflow-hidden transition-all duration-700 max-h-0" 
+            x-ref="container3"
+            x-bind:style="selected === 3 ? 'max-height: ' + $refs.container3.scrollHeight + 'px' : ''"
+          >
+            <p class="lg:px-6 p1-20 text-[#475467]">99minds is designed to be simple and easy, allowing anyone to configure their own processes and workflows. However, in large and complex operations some companies like to have the support of our professional consultants – in this case we can recommend companies that offer those services.</p>
+          </div>
+        </li>
+
+        <!-- FAQ Item 4 -->
+        <li class="relative border-b border-white/5">
+          <button 
+            role="button" 
+            type="button" 
+            class="w-full lg:px-6 py-4 text-left"
+            @click="selected !== 4 ? selected = 4 : selected = null"
+          >
+            <div class="flex items-center justify-between text-white group">
+              <p class="w-4/5 duration-200 font-medium">Will my data be private and safe?</p>
+              <svg 
+                :class="{'rotate-0': selected === 4, 'rotate-180': selected !== 4}" 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="w-1/5 h-5 ml-4 transition-transform duration-200" 
+                viewBox="0 0 20 20" 
+                fill="black"
+              >
+                <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+          </button>
+          <div 
+            class="relative overflow-hidden transition-all duration-700 max-h-0" 
+            x-ref="container4"
+            x-bind:style="selected === 4 ? 'max-height: ' + $refs.container4.scrollHeight + 'px' : ''"
+          >
+            <p class="lg:px-6 pb-10 text-[#475467]">Keeping your data secure is a top priority at 99minds. Review our security protocols and how your business and customer data will be protected in our security whitepaper.</p>
+          </div>
+        </li>
+      </ul>
     </div>
-    <div class="relative mt-10">
-      <div
-        class="relative mx-auto border rounded-3xl border-white/5 bg-vulcan-900"
-        x-data="{selected:null}">
-        <ul class="list-none" role="list" @click="open = !open">
-          <li class="relative border-b border-white/5">
-            <button
-            role="button"
-              type="button"
-              class="w-full px-8 py-6 text-left"
-              @click="selected !== 1 ? selected = 1 : selected = null">
-              <div class="flex items-center justify-between text-white group">
-                <p
-                   class="w-4/5 duration-200 group-hover:text-indigo-400">
-                  What if I need to add someone new to my team?
-                </p>
-                <svg
-                    :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
-                  xmlns="http://www.w3.org/2000/svg"
-    class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor">
-                  <path
-                    fill-rule="evenodd"
-                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-            </button>
-            <div
-              class="relative overflow-hidden transition-all duration-700 max-h-0"
-              style=""
-              x-ref="container1"
-              x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
-              <p class="px-8 pt-4 pb-20">
-                If you need to add new members, you can do that. The amount charged per new user will be the same for the other members included in your plan.
-              </p>
+
+        <div class="relative mx-auto border rounded-3xl border-white/5" x-data="{selected:null}">
+					<div class="relative mx-auto border rounded-3xl border-white/5" x-data="{ selected: null }">
+      <ul class="list-none" role="list">
+        <!-- FAQ Item 1 -->
+        <li class="relative border-b border-white/5">
+          <button 
+            role="button" 
+            type="button" 
+            class="w-full lg:px-6 py-4 text-left"
+            @click="selected !== 5 ? selected = 5 : selected = null"
+          >
+            <div class="flex items-center justify-between text-white group">
+              <p class="w-4/5 duration-200 font-medium">Does 99minds integrate with other systems and applications?</p>
+              <svg 
+                :class="{'rotate-0': selected === 5, 'rotate-180': selected !== 5, 'custom-svg': true}" 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="w-1/5 h-5 ml-4 transition-transform duration-200" 
+                viewBox="0 0 20 20" 
+                fill="Black"
+              >
+                <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+              </svg>
             </div>
-          </li>
-          <li class="relative border-b border-white/5">
-            <button
-            role="button"
-              type="button"
-              class="w-full px-8 py-6 text-left"
-              @click="selected !== 2 ? selected = 2 : selected = null">
-              <div class="flex items-center justify-between text-white group">
-                <p
-                   class="w-4/5 duration-200  group-hover:text-indigo-400">
-                  Can I change plans anytime I want? How long are the contracts?
-                </p>
-                <svg
-                    :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
-                  xmlns="http://www.w3.org/2000/svg"
-    class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor">
-                  <path
-                    fill-rule="evenodd"
-                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-            </button>
-            <div
-              class="relative overflow-hidden transition-all duration-700 max-h-0"
-              style=""
-              x-ref="container2"
-              x-bind:style="selected == 2 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
-              <p class="px-8 pt-4 pb-20">
-                The contracts can be monthly or yearly. You can start/stop or make changes to your plan any time you want – however, we won't give refunds for cancellation or plan downgrades.
-              </p>
+          </button>
+          <div 
+            class="relative overflow-hidden transition-all duration-700 max-h-0" 
+            x-ref="container5"
+            x-bind:style="selected === 5 ? 'max-height: ' + $refs.container5.scrollHeight + 'px' : ''"
+          >
+            <p class="lg:px-6 pb-10 text-[#475467]">Yes. There are 4 ways to integrate 99minds with your favorite tools:</br> 1. Custom Integrations with any software you need. Request a quote here.</br> 2. Native Integrations with Bigcommerce, Shopify, Heartland, Vend, Hike, Retail Pro, Retail Pro Prism, SquareUp POS, Miva, Cart.com and many more.</br> 3. Via API</br> 4. Via Zapier.</p>
+          </div>
+        </li>
+
+        <!-- FAQ Item 2 -->
+        <li class="relative border-b border-white/5">
+          <button 
+            role="button" 
+            type="button" 
+            class="w-full lg:px-6 py-4 text-left"
+            @click="selected !== 6 ? selected = 6 : selected = null"
+          >
+            <div class="flex items-center justify-between text-white group">
+              <p class="w-4/5 duration-200 font-medium">What are transactions and how do they constitute billing?</p>
+              <svg 
+                :class="{'rotate-0': selected === 6, 'rotate-180': selected !== 6, 'custom-svg': true}" 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="w-1/5 h-5 ml-4 transition-transform duration-200" 
+                viewBox="0 0 20 20" 
+                fill="Black"
+              >
+                <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+              </svg>
             </div>
-          </li>
-          <li class="relative border-b border-white/5">
-            <button
-            role="button"
-              type="button"
-              class="w-full px-8 py-6 text-left"
-              @click="selected !== 3 ? selected = 3 : selected = null">
-              <div class="flex items-center justify-between text-white group">
-                <p
-                   class="w-4/5 duration-200  group-hover:text-indigo-400">
-                  Do I need any advanced technical skills or professional support services to implement 99minds?
-                </p>
-                <svg
-                    :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
-                  xmlns="http://www.w3.org/2000/svg"
-    class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor">
-                  <path
-                    fill-rule="evenodd"
-                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-            </button>
-            <div
-              class="relative overflow-hidden transition-all duration-700 max-h-0"
-              style=""
-              x-ref="container2"
-              x-bind:style="selected == 3 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
-              <p class="px-8 pt-4 pb-20">
-                99minds is designed to be simple and easy, allowing anyone to configure their own processes and workflows. However, in large and complex operations some companies like to have the support of our professional consultants – in this case we can recommend companies that offer those services.
-              </p>
+          </button>
+          <div 
+            class="relative overflow-hidden transition-all duration-700 max-h-0" 
+            x-ref="container6"
+            x-bind:style="selected === 6 ? 'max-height: ' + $refs.container6.scrollHeight + 'px' : ''"
+          >
+            <p class="lg:px-6 pb-10">There are different types of transactions on 99minds that count towards your billing. Each plan on 99minds has a fixed set of free monthly transactions. Any usage above that, in a calendar month, is charged extra based on the Per-transaction rate defined for each plan.</p>
+          </div>
+        </li>
+
+        <!-- FAQ Item 3 -->
+        <li class="relative border-b border-white/5">
+          <button 
+            role="button" 
+            type="button" 
+            class="w-full lg:px-6 py-4 text-left"
+            @click="selected !== 7 ? selected = 7 : selected = null"
+          >
+            <div class="flex items-center justify-between text-white group">
+              <p class="w-4/5 duration-200 font-medium">Which transactions are considered for billing?</p>
+              <svg 
+                :class="{'rotate-0': selected === 7, 'rotate-180': selected !== 7, 'custom-svg': true}" 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="w-1/5 h-5 ml-4 transition-transform duration-200" 
+                viewBox="0 0 20 20" 
+                fill="Black"
+              >
+                <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+              </svg>
             </div>
-          </li>
-          <li class="relative border-b border-white/5">
-            <button
-            role="button"
-              type="button"
-              class="w-full px-8 py-6 text-left"
-              @click="selected !== 4 ? selected = 4 : selected = null">
-              <div class="flex items-center justify-between text-white group">
-                <p
-                   class="w-4/5 duration-200 group-hover:text-indigo-400">
-                  Will my data be private and safe?
-                </p>
-                <svg
-                    :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
-                  xmlns="http://www.w3.org/2000/svg"
-    class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor">
-                  <path
-                    fill-rule="evenodd"
-                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-            </button>
-            <div
-              class="relative overflow-hidden transition-all duration-700 max-h-0"
-              style=""
-              x-ref="container2"
-              x-bind:style="selected == 4 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
-              <p class="px-8 pt-4 pb-20">
-                Keeping your data secure is a top priority at 99minds. Review our security protocols and how your business and customer data will be protected in our security whitepaper.
-              </p>
-            </div>
-          </li>
-          <li class="relative border-b border-white/5">
-            <button
-            role="button"
-              type="button"
-              class="w-full px-8 py-6 text-left"
-              @click="selected !== 5 ? selected = 5 : selected = null">
-              <div class="flex items-center justify-between text-white group">
-                <p
-                   class="w-4/5 duration-200  group-hover:text-indigo-400">
-                  Does 99minds integrate with other systems and applications?
-                </p>
-                <svg
-                    :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor">
-                  <path
-                    fill-rule="evenodd"
-                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-            </button>
-            <div
-              class="relative overflow-hidden transition-all duration-700 max-h-0"
-              style=""
-              x-ref="container2"
-              x-bind:style="selected == 5 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
-              <p class="px-8 pt-4 pb-20">
-                Yes. There are 4 ways to integrate 99minds with your favorite tools:</br>
-1. Custom Integrations with any software you need. Request a quote here.</br>
-2. Native Integrations with Bigcommerce, Shopify, Heartland, Vend, Hike, Retail Pro, Retail Pro Prism, SquareUp POS, Miva, Cart.com and many more.</br>
-3. Via API</br>
-4. Via Zapier
-              </p>
-            </div>
-          </li>
-          <li class="relative border-b border-white/5">
-            <button
-            role="button"
-              type="button"
-              class="w-full px-8 py-6 text-left"
-              @click="selected !== 6 ? selected = 6 : selected = null">
-              <div class="flex items-center justify-between text-white group">
-                <p
-                   class="w-4/5 duration-200  group-hover:text-indigo-400">
-                   What are transactions and how do they constitute billing?
-                </p>
-                <svg
-                    :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
-                  xmlns="http://www.w3.org/2000/svg"
-    class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor">
-                  <path
-                    fill-rule="evenodd"
-                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-            </button>
-            <div
-              class="relative overflow-hidden transition-all duration-700 max-h-0"
-              style=""
-              x-ref="container2"
-              x-bind:style="selected == 6 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
-              <p class="px-8 pt-4 pb-20">
-                There are the different types of transactions on 99minds which are counted towards your billing. Each plan on 99minds has a fixed set of free monthly transactions. Any usage above that, in a calendar month, is charged extra depending on the Per transaction rate defined for each plan.
-              </p>
-            </div>
-          </li>
-          <li class="relative border-b border-white/5">
-            <button
-              role="button"
-              type="button"
-              class="w-full px-8 py-6 text-left"
-              @click="selected !== 7 ? selected = 7 : selected = null">
-              <div class="flex items-center justify-between text-white group">
-                <p
-                  class="w-4/5 duration-200 group-hover:text-indigo-400">
-                  Which transactions are considered for billing?
-                </p>
-                <svg
-                  :class="{'rotate-180': open, 'rotate-0': !open, 'custom-svg': true}"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-1/5 h-5 ml-4 transition-transform duration-200 transform rotate-180 group-hover:text-indigo-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor">
-                  <path
-                    fill-rule="evenodd"
-                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-            </button>
-            <div
-              class="relative overflow-hidden transition-all duration-700 max-h-0"
-              x-ref="container2"
-              x-bind:style="selected == 7 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
-              <div class="flow-root w-full">
-                <div class="overflow-x-auto px-4 pb-4">
-                  <div class="inline-block w-full align-middle border border-vulcan-800 rounded-xl overflow-hidden">
-                    <table class="min-w-full divide-y divide-vulcan-700 w-full">
-                      <thead>
-                        <tr class="bg-vulcan-800/30">
-                          <th scope="col" class="p-2 sm:p-5 text-left uppercase text-xs sm:text-s font-medium text-white">
-                            <span class="hidden md:inline">Module</span>
-                          </th>
-                          <th scope="col" class="p-2 sm:p-5 text-left uppercase text-xs sm:text-s font-medium text-white">
-                            Transaction <span class="hidden md:inline">Types</span>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody class="divide-y divide-vulcan-800 bg-vulcan-900">
-                        <tr>
-                          <td class="whitespace-nowrap p-2 sm:p-5 text-xs sm:text-s uppercase text-vulcan-300">
-                            <span class="block text-white">Gift Card</span>
-                          </td>
-                          <td class="whitespace-normal p-2 sm:p-5 text-xs sm:text-s text-vulcan-300">
-                            Creation, Activation, Deactivation, Block, Redemption, Reload, Extend Expiry, <br>
-                            Imported, Issued, Amount Loaded, Refund, Void
-                          </td>
-                        </tr>
-                        <tr class="bg-vulcan-800/30">
-                          <td class="whitespace-nowrap p-2 sm:p-5 text-xs sm:text-s uppercase text-vulcan-300">
-                            <span class="block text-white">Loyalty</span>
-                          </td>
-                          <td class="whitespace-normal p-2 sm:p-5 text-xs sm:text-s text-vulcan-300">Credit, Debit, Expired</td>
-                        </tr>
-                        <tr>
-                          <td class="whitespace-nowrap p-2 sm:p-5 text-xs sm:text-s uppercase text-vulcan-300">
-                            <span class="block text-white">Store Credit</span>
-                          </td>
-                          <td class="whitespace-normal p-2 sm:p-5 text-xs sm:text-s text-vulcan-300">Credit, Debit, Expired</td>
-                        </tr>
-                        <tr class="bg-vulcan-800/30">
-                          <td class="whitespace-nowrap p-2 sm:p-5 text-xs sm:text-s uppercase text-vulcan-300">
-                            <span class="block text-white">Referrals</span>
-                          </td>
-                          <td class="whitespace-normal p-2 sm:p-5 text-xs sm:text-s text-vulcan-300">Redeem</td>
-                        </tr>
-                        <tr>
-                          <td class="whitespace-nowrap p-2 sm:p-5 text-xs sm:text-s uppercase text-vulcan-300">
-                            <span class="block text-white">VIP Tiers</span>
-                          </td>
-                          <td class="whitespace-normal p-2 sm:p-5 text-xs sm:text-s text-vulcan-300">Upgrade, Downgrade</td>
-                        </tr>
-                        <tr class="bg-vulcan-800/30">
-                          <td class="whitespace-nowrap p-2 sm:p-5 text-xs sm:text-s uppercase text-vulcan-300">
-                            <span class="block text-white">Coupons</span>
-                          </td>
-                          <td class="whitespace-normal p-2 sm:p-5 text-xs sm:text-s text-vulcan-300">0.5 x Creation, Redemption</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+          </button>
+          <div 
+            class="relative overflow-hidden transition-all duration-700 max-h-0" 
+            x-ref="container7"
+            x-bind:style="selected === 7 ? 'max-height: ' + $refs.container7.scrollHeight + 'px' : ''"
+          >
+            <div class="flow-root w-full">
+              <div class="overflow-x-auto px-4 pb-4">
+                <div class="inline-block w-full align-middle border border-vulcan-800 rounded-xl overflow-hidden">
+                  <table class="min-w-full divide-y divide-vulcan-700 w-full">
+                    <thead>
+                      <tr class="">
+                        <th scope="col" class="p-2 sm:p-5 text-left uppercase text-xs sm:text-s font-medium text-black">Module</th>
+                        <th scope="col" class="p-2 sm:p-5 text-left uppercase text-xs sm:text-s font-medium text-black">Transaction Types</th>
+                      </tr>
+                    </thead>
+                    <tbody class="divide-y divide-vulcan-800">
+                      <tr>
+                        <td class="whitespace-nowrap p-2 sm:p-5 text-xs sm:text-s uppercase text-[#475467] font-medium">Gift Card</td>
+                        <td class="whitespace-normal p-2 sm:p-5 text-xs sm:text-s text-[#475467]">Creation, Activation, Deactivation, Block, Redemption, Reload, Extend Expiry, Imported, Issued, Amount Loaded, Refund, Void</td>
+                      </tr>
+                      <tr class="">
+                        <td class="whitespace-nowrap p-2 sm:p-5 text-xs sm:text-s uppercase text-[#475467] font-medium">Loyalty</td>
+                        <td class="whitespace-normal p-2 sm:p-5 text-xs sm:text-s text-[#475467]">Credit, Debit, Expired</td>
+                      </tr>
+                      <tr>
+                        <td class="whitespace-nowrap p-2 sm:p-5 text-xs sm:text-s uppercase text-[#475467] font-medium">Store Credit</td>
+                        <td class="whitespace-normal p-2 sm:p-5 text-xs sm:text-s text-[#475467]">Credit, Debit, Expired</td>
+                      </tr>
+                      <tr class="">
+                        <td class="whitespace-nowrap p-2 sm:p-5 text-xs sm:text-s uppercase text-[#475467] font-medium">Referrals</td>
+                        <td class="whitespace-normal p-2 sm:p-5 text-xs sm:text-s text-[#475467]">Redeem</td>
+                      </tr>
+                      <tr>
+                        <td class="whitespace-nowrap p-2 sm:p-5 text-xs sm:text-s uppercase text-[#475467] font-medium">VIP Tiers</td>
+                        <td class="whitespace-normal p-2 sm:p-5 text-xs sm:text-s text-[#475467]">Upgrade, Downgrade</td>
+                      </tr>
+                      <tr class="">
+                        <td class="whitespace-nowrap p-2 sm:p-5 text-xs sm:text-s uppercase text-[#475467] font-medium">Coupons</td>
+                        <td class="whitespace-normal p-2 sm:p-5 text-xs sm:text-s text-[#475467]">0.5 x Creation, Redemption</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
-          </li>
-        </ul>
-      </div>
+          </div>
+        </li>
+      </ul>
     </div>
-  </div>
+
+				</div>
+			</div>
+		</div>
 </section>
 <style>
-  .custom-svg {
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Adjust the height as needed */
-  }
+.custom-svg {
+	width: 20px;
+	/* Adjust the width as needed */
+	height: 20px;
+	/* Adjust the height as needed */
+}
 </style>
