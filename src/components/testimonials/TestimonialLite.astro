@@ -2,7 +2,7 @@
 import Verticalgrid from "../assets/Verticalgrid.astro";
 ---
 
-
+<section class="mx-auto 2xl:max-w-7xl py-12 lg:px-24 md:px-12 px-6 sm:px-4 items-center w-full">
 <div class="flex flex-col w-full lg:px-2" 
         x-data="{
             activeTab: 1,
@@ -43,7 +43,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
                 'linear-gradient(180deg, rgb(184,191,255) 0%, rgb(132.6,144.67,255) 100%)'
   }"
 >
-  <div class="mx-auto 2xl:max-w-7xl py-12 lg:px-24 md:px-12 px-6 sm:px-4 items-center w-full">
+  <div class="">
       <div class="relative inline-grid items-center justify-center w-full h-8 grid-cols-3 md:grid-cols-6 mx-auto mt-6 text-[#303030]select-none hidden sm:grid">
         <button @click="activeTab = 1;" 
                 :class="{ 'text-white bg-black border font-bold rounded-3xl': activeTab === 1, 'text-black': activeTab !== 1 }" 
@@ -383,3 +383,4 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
        </div>
    </section>
 </div>
+</section>
