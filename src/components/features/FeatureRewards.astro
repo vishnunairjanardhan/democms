@@ -1,0 +1,360 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a2e;
+            color: white;
+        }
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 8rem 2rem;
+            text-align: center;
+        }
+        .heading {
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-top: 1rem;
+            letter-spacing: -1px;
+        }
+        @media (min-width: 640px) {
+            .heading {
+                font-size: 3rem;
+            }
+        }
+
+        .membership-container {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+            min-height: 500px;
+            max-width: 1280px;
+            margin: 0 auto;
+           
+        }
+
+        /* Hide radio buttons */
+        .tab-input {
+            display: none;
+        }
+
+        .tabs {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 400px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .tab-label {
+            padding: 15px;
+            background: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 1.1em;
+            color: #666;
+            border-left: 4px solid transparent;
+            transition: all 0.3s ease;
+            display: block;
+        }
+
+        .tab-label:hover {
+            background: #eee;
+        }
+
+        /* Hide all tab content by default */
+        .tab-content {
+            display: none;
+            flex: 1;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            color: black;
+        }
+
+        /* Show tab content when corresponding radio is checked */
+        #infinity:checked ~ .tab-contents #infinity-content,
+        #gold:checked ~ .tab-contents #gold-content,
+        #luxe:checked ~ .tab-contents #luxe-content {
+            display: flex;
+            gap: 30px;
+        }
+
+        /* Style active tab label */
+        #infinity:checked ~ .tabs label[for="infinity"],
+        #gold:checked ~ .tabs label[for="gold"],
+        #luxe:checked ~ .tabs label[for="luxe"] {
+            background: #fff;
+            color: #333;
+            border-left-color: #4a4a4a;
+            font-weight: bold;
+        }
+
+        .card-image {
+            flex: 0 0 200px;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            flex: 1;
+        }
+
+        .price {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .benefits-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .benefits-list li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .benefits-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #666;
+        }
+
+        .join-button {
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #4a4a4a;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .join-button:hover {
+            background-color: #333;
+        }
+        .header-content {
+            margin-top: 30px;
+        }
+        .join-now {
+            display: inline-block;
+            padding: 10px 30px;
+            border: 1px solid #000;
+            text-decoration: none;
+            color: #000;
+            margin-top: 40px;
+            transition: all 0.3s ease;
+        }
+
+        .join-now:hover {
+            background-color: #000;
+            color: #fff;
+        }
+         .footer {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 40px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-top: 1px solid #eee;
+            font-size: 0.8em;
+        }
+
+        .footer-section {
+            text-align: center;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 4px;
+            justify-content: center;
+        }
+        .social-icons a {
+           display: inline-block;
+           width: 40px;
+           height: 40px;
+           background: white;
+           color: #1a1a2e;
+           text-align: center;
+           line-height: 40px;
+           border-radius: 50%;
+           font-size: 1.2em;
+           transition: 0.3s;
+        }
+
+     .social-icons a:hover {
+        background: #4a4a4a;
+        color: white;
+       }
+
+    </style>
+
+
+    <div class="container">
+        <h1 class="heading">Golden Bond Reward Programs</h1>
+        <p class="header-content">We believe in celebrating our customers with exclusive rewards, VIP perks, and premium experiences. Our Reward Programs are designed to enhance your shopping journey, whether you're a frequent buyer or looking for an elevated experience. Earn rewards, unlock priority access, and enjoy special benefits curated just for you.</p>
+        <p class="header-content">We offer three membership tiers to suit your lifestyle and shopping preferences. Whether you’re looking for everyday rewards, VIP treatment, or a luxurious gift for someone special, there’s a perfect membership waiting for you.</p>
+    </div>
+
+   <div class="membership-container">
+        <!-- Radio buttons for tabs -->
+        <input type="radio" name="tabs" id="infinity" class="tab-input" checked>
+        <input type="radio" name="tabs" id="gold" class="tab-input">
+        <input type="radio" name="tabs" id="luxe" class="tab-input">
+
+        <!-- Tab labels -->
+        <div class="tabs">
+            <label for="infinity" class="tab-label">Infinity Bond</label>
+            <label for="gold" class="tab-label">Gold Bond</label>
+            <label for="luxe" class="tab-label">Luxe Bond</label>
+        </div>
+
+        <!-- Tab Content Wrapper -->
+        <div class="tab-contents">
+            <!-- Infinity Bond Content -->
+            <div id="infinity-content" class="tab-content">
+                <div class="card-image">
+                    <img src="https://lirp.cdn-website.com/9dd83133/dms3rep/multi/opt/Beige+Aesthetic+Floral+Fashion+Moodboard+Photo+Collage+%2817%29-1920w.png" alt="Infinity Bond Member" />
+                </div>
+                <div class="card-content">
+                    <div class="price">Free</div>
+
+                    <p>For customers who love Golden Bond Jewelry and want to stay connected.</p><br>
+
+                    <p>Points-Based Rewards: Earn 1 point per $1 spent.</p><br>
+
+                    <p>Redeem Points Effortlessly: 100 points = $5 off.</p><br>
+
+                    <p>Birthday Surprise: A $10 reward or a same-month credit toward a free charm.</p><br>
+
+                    <p>First-Look Access: Early access to new collections, flash sales, and limited-edition drops.</p><br>
+
+                    <p>Loyalty Milestones: Spend $500+ annually to unlock a $25 reward or exclusive charm credit.</p><br>
+
+                    <p>Exclusive Invitations: Member-only access to seasonal events like Bracelet Bar showcases or mini jewelry styling workshops.</p>
+                    
+
+                    <a href="#" class="join-now">Join Now</a>
+                </div>
+            </div>
+
+            <!-- Gold Bond Content -->
+            <div id="gold-content" class="tab-content">
+                <div class="card-image">
+                    <img src="https://lirp.cdn-website.com/9dd83133/dms3rep/multi/opt/Beige+Aesthetic+Floral+Fashion+Moodboard+Photo+Collage+%2816%29-1920w.png" alt="Gold Bond Member" />
+                </div>
+                <div class="card-content">
+                    <div class="price">$99/Year</div>
+                    <p>A perfect step up for loyal customers who want more rewards and exclusive perks.</p><br>
+
+                   <p>Redeem points effortlessly: 100 points = $5 off.</p><br>
+
+                   <p>Exclusive Discounts: 5% off all purchases, including permanent jewelry, ready-made collections, and custom services.</p><br>
+
+                   <p>Complimentary Services:</p>
+                    <ul class="benefits-list">
+                        <li>1 free weld repair or chain resizing per year ($25 value).</li>
+                        <li>1 free custom engraving per year ($15 value).</li>
+                    </ul>
+                    <p>Early Access: Be the first to shop new collections and limited-edition drops with 12-hour early access.</p><br>
+
+                     <p>Exclusive Invitations: Invitations to member-only events like seasonal showcases or private sales.</p><br>
+                     <p>Welcome Gift: Receive a $15 gift card to use toward any purchase.</p>
+                   
+
+                    <a href="#" class="join-now">Join Now</a>
+                </div>
+            </div>
+
+            <!-- Luxe Bond Content -->
+            <div id="luxe-content" class="tab-content">
+                <div class="card-image">
+                    <img src="https://lirp.cdn-website.com/9dd83133/dms3rep/multi/opt/473188126_1115540153914658_803887245569964873_n-%281%29-1920w.png" alt="Luxe Bond Member" />
+                </div>
+                <div class="card-content">
+                   <div class="price">$159/Year</div>
+                    <p>The Ultimate VIP experience for our most loyal customers.</p><br>
+
+
+                    <p>Elevated Rewards:</p>
+                    <ul class="benefits-list">
+                        <li>Earn 2 points per $1 spent (double points).</li>
+                        <li>Unlock an extra $25 reward for every $500 spent.</li>
+                    </ul>
+
+                    <p>Welcome Gift: Receive an exclusive Luxe Bond charm or bracelet upon joining ($40 value).</p><br>
+
+
+                      <p>Complimentary Services:</p>
+                    <ul class="benefits-list">
+                        <li>1 free weld repair or chain resizing per year ($25 value).</li>
+                        <li>3 free custom engravings per year for charms or custom pieces ($45 value).</li>
+                    </ul>
+
+                     <p>Exclusive Event Access:</p>
+                    <ul class="benefits-list">
+                        <li>Invitations to member-only after-hours parties like holiday soirees or new collection launches.</li>
+                        <li>Priority booking for private Bracelet Bar parties.</li>
+                    </ul>
+
+
+                 <p>Early Access + Limited Drops: Be the first to shop new collections or limited-edition pieces with 24-hour early access.</p><br>
+
+                 <p>VIP Discounts: Enjoy 10% off all purchases—permanent jewelry, ready-made collections, and custom designs.</p><br>
+
+                 <p>Priority Customer Service: VIP hotline and email support for fast, personalized assistance.</p><br>
+
+                 <p>Golden Bond Signature Extras: Complimentary premium packaging for gifts. Free clasp add-ons for permanent jewelry adjustments.</p>
+                    <a href="#" class="join-now">Join Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="container">
+        <h1 class="heading">Give The Gift Of Membership</h1>
+        <p class="header-content">Want to share the rewards? Every Golden Bond Rewards Program membership can be gifted, allowing your loved ones to enjoy exclusive perks and benefits tailored to their shopping preferences. Whether it's a thoughtful gift for a jewelry enthusiast or a luxurious surprise, a Golden Bond Membership is always a perfect choice.</p>
+        <a href="#" class="join-now">Gift a Membership</a>
+    </div>
+
+   <div class="footer">
+            <div class="footer-section">
+                <h3>Visit Our Studio</h3>
+                <p>1508 Washington Plaza W A<br>Reston, VA 20190</p>
+            </div>
+            <div class="footer-section">
+                <a href="#" class="join-now">Shop Online</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>703.391.8842<br>info@goldenbond.com</p>
+            </div>
+        </div>
+    
+
+
+
+
