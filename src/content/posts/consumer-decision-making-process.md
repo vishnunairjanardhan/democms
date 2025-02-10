@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/understanding_the_consumer_decision_making_process_for_growth.webp"
   alt: "Understanding the Consumer Decision-Making Process for Growth"
 tags: ["Promotion"]
-url: "https://www.99minds.io/blog/customer-loyalty"
+url: "https://www.99minds.io/blog/consumer-decision-making-process"
 keywords: ["Consumer Decision Making Process"]
 ---
 
