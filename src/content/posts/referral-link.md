@@ -28,7 +28,7 @@ Businesses across multiple industries leverage referral links to boost customer 
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
 <P>Table of Contents:</P>
-<ul role="list">
+<ul>
   <li>  
     <a role="link" href="#benefits" rel="noreferrer">Benefits of a Referral Link</a>
   </li> 
@@ -154,7 +154,7 @@ Tracking tags in URLs allows you to monitor referral traffic in Google Analytics
 </li>
 
 <div class="flex justify-center">
-<img class="w-3/4 m-4" src="/assets/blog/referral-link-utm-parameter.webp" alt="Show images show the pop up of referral link utm parameters">
+<img class="w-3/4 m-4" src="/assets/blog/referral-link-utm-parameter.webp" alt="Images show the pop up of referral link utm parameters">
 </div>
 
 <li>
