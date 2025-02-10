@@ -1,13 +1,13 @@
 ---
 pubDate: 2025-01-22
+author: Piyush
+authorImg: "Piyush.webp"
 title: What is a Loyalty Program? Benefits, Types & Examples
 description: Loyalty programs drive repeat purchases by offering rewards and incentives. Learn effective customer loyalty program benefits, types, and examples to grow your business.
 heading:  What is a Loyalty Program? Benefits, Types & Examples
 image:
   url: "/assets/blog/what_is_a_loyalty_program.webp"
   alt: "What is loyalty program?"
-author: Piyush
-authorImg: "Piyush.webp"
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/loyalty-program"
 keywords: ["Loyalty Program"]
