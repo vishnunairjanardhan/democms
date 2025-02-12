@@ -17,10 +17,22 @@ Use AstroSeo in all the pages you want different Seo than the index page
 
 <BaseLayout3>
 <AstroSeo
-  title="Gift Cards & Loyalty Platform for Omnichannel e-Commerce & In-store | 99minds"
-  description="An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience."
+  title="99minds Trust Center | Privacy, Security, & Legal"
+  description="At the 99minds Trust Center, find everything you need to know about our compliance, security, and legal practices. We’re dedicated to protecting your data and building trust, so you can confidently focus on growing your business."
   canonical="https://www.99minds.io/trust"
-  {...Seo}
+  openGraph={{
+    url: "https://www.99minds.io/trust",
+    title: "99minds Trust Center | Privacy, Security, & Legal",
+    description: "At the 99minds Trust Center, find everything you need to know about our compliance, security, and legal practices. We’re dedicated to protecting your data and building trust, so you can confidently focus on growing your business.",
+    images: [
+      {
+        url: "https://www.99minds.io//assets/trust/trust-banner.svg",
+        alt: "99minds Trust Center",
+        type: "image/svg",
+      }
+    ],
+    site_name: "99minds",
+  }}
 />
   <HeroTrust />
   <FeatureTrust />
