@@ -1046,6 +1046,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"kpis-for-loyalty-programs.md": {
+	id: "kpis-for-loyalty-programs.md";
+  slug: "kpis-for-loyalty-programs";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "last-minute-christmas-marketing-checklist-for-ecommerce.md": {
 	id: "last-minute-christmas-marketing-checklist-for-ecommerce.md";
   slug: "last-minute-christmas-marketing-checklist-for-ecommerce";
