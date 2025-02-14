@@ -198,7 +198,7 @@
 						</svg>
 					</button>
 					<div id="resources-dropdown" x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute left-1/2 pr-[34rem] transform md:-translate-x-1/2 z-50 mt-2 ring-1 ring-inset ring-white/5 focus:outline-none">
-						<div class="bg-white border-t rounded-xl flex flex-col md:flex-row lg:flex-row gap-6 mt-4 md:w-[90rem] sm:h-[48rem] md:h-[28rem]">
+						<div class="bg-white border-t rounded-xl flex flex-col md:flex-row lg:flex-row gap-6 mt-4 md:w-[91rem] sm:h-[48rem] md:h-[28rem]">
 
 
 							<ul id="products" class="lg:space-y-2 mt-4 md:ml-14 flex flex-col items-start">
@@ -212,7 +212,7 @@
 											<h4>
                         99minds Blog
                       </h4> </div>
-										<p class="text-sm mt-2"> Learn how to drive retention
+										<p class="text-sm mt-2 hideThis"> Learn how to drive retention
 											<br> rates through the roof. </p>
 									</a>
 								</li>
@@ -222,7 +222,7 @@
 											<h4>
                         Documentation
                       </h4> </div>
-										<p class="text-sm mt-2"> Get the latest news & insights
+										<p class="text-sm mt-2 hideThis"> Get the latest news & insights
 											<br> from the team at 99minds. </p>
 									</a>
 								</li>
@@ -232,12 +232,12 @@
 											<h4>
                         API Documentation
                       </h4> </div>
-										<p class="text-sm mt-2"> Analyze, calculate & generate
+										<p class="text-sm mt-2 hideThis"> Analyze, calculate & generate
 											<br> with our free retention tools. </p>
 									</a>
 								</li>
 							</ul>
-							<div class="border-r border-gray-600 pr-16 ml-16 mt-4 mb-14">
+							<div class="border-r border-gray-600 pr-16 lg:ml-16 mt-4 mb-14">
 								<ul id="coupon" class="lg:mt-2 mt-0">
 									<li>
 										<a href="/coupons" class="text-black font-semibold lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
@@ -245,7 +245,7 @@
 												<h4>
                           Gift Card Generator
                         </h4> </div>
-											<p class="text-sm mt-2"> Email & SMS inspiration. By
+											<p class="text-sm mt-2 hideThis"> Email & SMS inspiration. By
 												<br> marketers, for marketers. </p>
 										</a>
 									</li>
@@ -255,7 +255,7 @@
 												<h4>
                           Coupon Code Generator
                         </h4> </div>
-											<p class="text-sm mt-2"> Deep dive into all the essential
+											<p class="text-sm mt-2 hideThis"> Deep dive into all the essential
 												<br> topics about retention. </p>
 										</a>
 									</li>
@@ -271,8 +271,8 @@
 									</li>-->
 							</div>
 							</ul>
-							<div class="border-r border-gray-600 pr-16 mt-10 mb-14">
-								<ul id="case-studies" class="space-y-2 ml-6 flex flex-col items-start">
+							<div class="border-r border-gray-600 pr-16 lg:mt-4 mb-14">
+								<ul id="case-studies" class="space-y-2 ml-6 lg:mt-4 flex flex-col items-start">
 									<li>
 										<h3 class="text-black">
                       Connect
@@ -317,12 +317,12 @@
 									</li>-->
 							</div>
 							</ul>
-							<ul id="demo-button" class="space-x-8 mt-10 ml-0">
+							<ul id="demo-button" class="space-x-8 lg:mt-8 ml-0">
 								<li>
-									<h3 class="text-black ml-8">
+									<h3 class="text-black lg:ml-8 hideThis">
                     Highlights
                   </h3> </li>
-								<a href="/bfcm">
+								<a class="hideThis" href="/bfcm">
 									<li class="flex items-center ml-8">
 										<div class="h-18" style="width: 200px;">
 											<!-- <img src="https://tse3.mm.bing.net/th?id=OIP.lXVRQx0ymGGowRLcF8XbiAAAAA&pid=Api&P=0&h=100" alt="Black Friday Image"/> --><img src="https://via.placeholder.com/300x120.png?text=Black Friday" alt="Black Friday Image" /> </div>
@@ -331,7 +331,7 @@
 									</li>
 								</a>
 								<li> </li>
-								<a href="/bfcm">
+								<a class="hideThis" href="/bfcm">
 									<li class="flex items-center ml-8">
 										<div class="h-22" style="width: 200px;"> <img src="https://via.placeholder.com/300x120.png?text=Amazing" alt="Amazing Image" /> </div>
 										<div class="ml-6 text-white text-sm"> Highlighting the amazing
@@ -340,7 +340,7 @@
 									</li>
 								</a>
 								<li> </li>
-								<a href="/bfcm">
+								<a class="hideThis" href="/bfcm">
 									<li class="flex items-center ml-8">
 										<div class="h-22" style="width: 200px;"> <img src="https://via.placeholder.com/300x120.png?text=Xcelerator" alt="Xcelerator Image" /> </div>
 										<div class="ml-6 text-white text-sm"> Accelerating incredible
@@ -370,7 +370,7 @@
 	</div>
 </section>
 <!-- Mobile Responsive CSS -->
-<style>
+<!--<style>
     @media (max-width: 768px) {
       #products-dropdown {
         position: fixed;
@@ -409,4 +409,128 @@
       }
 	  
     }
+  </style> -->
+
+  <style>
+#resources-dropdown {
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 50;
+}
+
+#resources-dropdown .bg-white {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+    @media (max-width: 768px) {
+      #products-dropdown {
+        position: fixed;
+        top: 60px; 
+        left: 0;
+        width: 100%;
+        max-height: calc(100vh - 60px);
+        overflow-y: auto;
+      }
+	  .hideThis{
+		display: none;
+	  }
+      
+      .def {
+        height: auto;
+        padding: 1rem;
+      }
+      
+      #products li, #coupon li {
+        margin-top: 0.5rem;
+      }
+      
+      #products li:first-child, #coupon li:first-child {
+        margin-top: 0;
+      }
+      
+      .grid-cols-1 > * {
+        padding: 0.5rem 0;
+      }
+      
+      .border-r {
+        border-right: none;
+        border-bottom: 1px solid #e5e7eb;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+      }
+	   #resources-dropdown {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    transform: none;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+    padding-right: 0;
+  }
+
+  #resources-dropdown .bg-white {
+    flex-direction: column;
+    padding: 1rem;
+    height: auto;
+  }
+
+  #resources-dropdown .border-r {
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+  #resources-dropdown ul {
+    margin-left: 0;
+    padding: 0.5rem;
+  }
+
+  #resources-dropdown #demo-button {
+    margin: 1rem 0;
+  }
+
+  #demo-button li {
+    margin: 1rem 0;
+  }
+
+  /* Hide decorative elements on mobile */
+  #resources-dropdown .pr-[27rem] {
+    padding-right: 0;
+  }
+
+  /* Adjust image containers */
+  #demo-button .flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #demo-button .flex div[style*="width: 200px"] {
+    width: 100% !important;
+    margin-bottom: 0.5rem;
+  }
+
+  #demo-button .flex img {
+    width: 100%;
+    height: auto;
+  }
+
+  #demo-button .flex .ml-6 {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+    }
+	@media (max-width: 480px) {
+  #resources-dropdown {
+    padding: 0;
+  }
+
+  #resources-dropdown .bg-white {
+    border-radius: 0;
+  }
+}
   </style>
