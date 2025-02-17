@@ -10,7 +10,7 @@ image:
   alt: "The word community with a heart."
 tags: ["Gift Card",]
 keywords: ["99minds"]
-url: "https://www.99minds.io/blog/digital-vs.-physical-gift-cards"
+url: "https://www.99minds.io/blog/digital-vs-physical-gift-card"
 
 --- 
 <img src="/assets/blog/Digital-vs-physical.png">
