@@ -46,40 +46,40 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
   </div>
   <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24">
     <div class="text-center max-w-2xl  lg:mt-0 mx-auto">
-      <h2 class="text-3xl font-normal tracking-tight text-balance text-white">Drive Revenue with Gift Card Program</h2>
+      <h2 class="text-3xl font-normal tracking-tight text-balance text-black">Drive Revenue with Gift Card Program</h2>
     </div>
     <div class="grid grid-cols-1 mt-16 -mx-4 gap-y-10 sm:mx-auto lg:max-w-none md:grid-cols-2 lg:grid-cols-3 gap-x-10 lg:mx-8">
-      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5">
-        <div class="h-full p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-between">
+      <div class="flex flex-col rounded-3xl p-[0.060rem]  shadow-2xl shadow-vulcan-350">
+        <div class="h-full p-8 bg-white rounded-3xl flex flex-col justify-between">
           <div>
             <div class="text-indigo-400 w-10 h-10">
               <img class="" alt="use gift card software for easy redemption" loading="lazy" src="/assets/giftcard/redeem.svg">
             </div>
-            <h3 class="mt-5 text-xl text-white">
+            <h3 class="mt-5 text-xl text-black">
               Easy Redemption
             </h3>
             <p class="mt-2 text-base">Help users checkout without sharing payment information, with their Google and Apple Wallet app.</p>
           </div>
         </div>
       </div>
-      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5">
-        <div class="h-full p-8 bg-vulcan-900 rounded-3xl">
+      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-2xl shadow-vulcan-350">
+        <div class="h-full p-8 bg-white rounded-3xl">
             <div class="text-indigo-400 w-10 h-10">
               <img class="" alt="create gift cards to improve cash flow" loading="lazy" src="/assets/giftcard/cash flow.svg">
             </div>
-          <h3 class="mt-5 text-xl text-white">
+          <h3 class="mt-5 text-xl text-black">
             Improve Cash Flow
           </h3>
           <p class="mt-2 text-base">Receive payments through redeemed gift cards upfront and use the fund to grow your business.</p>
         </div>
       </div>
-      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5">
-        <div class="h-full p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-between">
+      <div class="flex flex-col rounded-3xl p-[0.060rem]  shadow-2xl shadow-vulcan-350">
+        <div class="h-full p-8 bg-white rounded-3xl flex flex-col justify-between">
           <div>
           <div class="text-indigo-400 w-10 h-10">
               <img class="" alt="Retain users with gift card software" loading="lazy" src="/assets/giftcard/repeat-B.svg">
             </div>
-            <h3 class="mt-5 text-xl text-white">
+            <h3 class="mt-5 text-xl text-black">
               Get Repeat Business
             </h3>
             <p class="mt-2 text-base">Compel buyers to return to your store with a gift card program and get more sales opportunities.</p>
@@ -91,11 +91,10 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
              <div x-data="{ open: false }" class="flex">
               <!-- Trigger -->
               <span x-on:click="open = true">
-                 <button type="button" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium raise">
-                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
-                <span class="relative text-white">Sign up for free</span>
-                </span></button>
+                <button type="button" role="button" aria-label="Get Started for Free" class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+                  <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
+                  <span class="relative text-white">Sign Up free</span> </span>
+							  </button>
                                 <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
               </span>
               <!-- Modal -->

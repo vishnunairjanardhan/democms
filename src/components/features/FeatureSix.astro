@@ -4,26 +4,37 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
 
 <section class="relative">
   <Verticalgrid />
-  <div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-24  space-y-24">
+  <div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-24  space-y-24 bg-[#FEFCF5]">
     <div class="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+      <div class="h-full">
+        <img
+          role='img'
+          loading="lazy"
+          alt="gift card image"
+          class="rounded-2xl shadow-vulcan-950/50" width="731" height="733"
+          src="/assets/homepage/GC-exp.webp"
+        />
+      </div>
       <div class=" ">
         <p
-          class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
+          class="text-base font-medium text-[#AA8FFF] uppercase bg-clip-text">
           Gift Card Management
         </p>
-        <h2 class="mt-8">
+        <h2 class="py-4 font-medium">
            Drive Revenue with Omnichannel Gift Card Experience  
         </h2>
-        <p class="mt-4">
+        <p class="">
           Seamless offline and online gift cards solution for elevating sales across all channels including online website, mobile apps, storefront, POS, and across multiple store locations. Empower your customers to send gifts via email, social media, SMS/Text, Print-at-Home, or physical gift cards.
         </p>
           <div class="lg:flex gap-2 mt-10" role="button">
               <div x-data="{ open: false }" class="flex justify-center">
               <!-- Trigger -->
               <span x-on:click="open = true">
-                <button type="button" role="button" aria-label="Get Started for Free" class="raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
-                <span class="relative text-white">Get started for free</span>
+                <button type="button" role="button" aria-label="Get Started for Free" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">                
+                <!--<span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">-->
+                <span class="relative text-[#AA8FFF] text-xl">Get started for free</span>
+                <svg class="ml-3 h-8 w-8 text-[#AA8FFF]"  width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="5" y1="12" x2="19" y2="12" />  <line x1="13" y1="18" x2="19" y2="12" />  <line x1="13" y1="6" x2="19" y2="12" /></svg>
                 </span></button>
                                 <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
               </span>
@@ -55,36 +66,30 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
           
       </div>
       
-      <div class="h-full">
-        <img
-          role='img'
-          loading="lazy"
-          alt="gift card image"
-          class="rounded-2xl shadow-vulcan-950/50" width="731" height="733"
-          src="/assets/homepage/GC-experience.webp"
-        />
-      </div>
+      
     </div>
     <div
       class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-      <div class="sm:order-last  ">
+      <div class="">
         <p
-          class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
+          class="text-base font-medium text-[#AA8FFF] uppercase bg-clip-text">
           Loyalty Program
         </p>
-        <h2 class="mt-8">
+        <h2 class="py-4 font-medium">
           Loyalty Programs Simplified
         </h2>
-        <p class="mt-4">
+        <p class="">
           Generate millions of unique coupons in a few clicks. Customize them based on promo codes, prefixes, SKU items, and many more dynamic options. Set expiry dates and link individual customer IDs to single coupon to create highly personalized coupons. Fully integrated with our Loyalty management solution to create at scale campaigns.
         </p>
         <div class="lg:flex gap-2 mt-10" role="button">
               <div x-data="{ open: false }" class="flex justify-center">
               <!-- Trigger -->
               <span x-on:click="open = true">
-                <button type="button" role="button" aria-label="Get Started for Free" class="raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
-                <span class="relative text-white">Get started for free</span>
+                <button type="button" role="button" aria-label="Get Started for Free" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">                
+                <!--<span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">-->
+                <span class="relative text-[#AA8FFF] text-xl">Get started for free</span>
+                <svg class="ml-3 h-8 w-8 text-[#AA8FFF]"  width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="5" y1="12" x2="19" y2="12" />  <line x1="13" y1="18" x2="19" y2="12" />  <line x1="13" y1="6" x2="19" y2="12" /></svg>
                 </span></button>
                                 <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
               </span>
@@ -119,30 +124,32 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
           loading="lazy"
           alt="Loyalty Points image"
           class="rounded-2xl shadow-vulcan-950/50 " width="760" height="700"
-          src="/assets/homepage/LP.webp"
+          src="/assets/homepage/LP1.webp"
         />
       </div>
     </div>
     <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
-      <div role='none'>
+      <div class="sm:order-last">
         <p 
           role='term'
-          class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
+          class="text-base font-medium text-[#AA8FFF] uppercase bg-clip-text">
           CASHBACK & STORE CREDIT MANAGEMENT
         </p>
-        <h2 role='heading' class="mt-8">
+        <h2 role='heading' class="py-4 font-medium">
           Acquire Customer with Cashback & Retain with Store Credit
         </h2>
-        <p role='emphasis' class="mt-4">
+        <p role='emphasis' class="">
           Enable the effortless issuance and management of store credits, allowing your customers to engage and shop with ease and flexibility. Automate Store Credit compensations to enhance refund processes smoothly and transition from cash refunds to store credit, ensuring your revenue remains within your business
         </p>
                 <div class="lg:flex gap-2 mt-10">
               <div x-data="{ open: false }" class="flex justify-center">
               <!-- Trigger -->
               <span x-on:click="open = true">
-                <button type="button" role="button" aria-label="Get Started for Free" class="raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
-                <span class="relative text-white">Get started for free</span>
+                <button type="button" role="button" aria-label="Get Started for Free" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">                
+                <!--<span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">-->
+                <span class="relative text-[#AA8FFF] text-xl">Get started for free</span>
+                <svg class="ml-3 h-8 w-8 text-[#AA8FFF]"  width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="5" y1="12" x2="19" y2="12" />  <line x1="13" y1="18" x2="19" y2="12" />  <line x1="13" y1="6" x2="19" y2="12" /></svg>
                 </span></button>
                                 <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
               </span>
@@ -177,7 +184,7 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
           loading="lazy"
           alt="Store Credits image"
           class="rounded-2xl shadow-vulcan-950/50 " width="761" height="700"
-          src="/assets/homepage/SC.webp"
+          src="/assets/homepage/SC1.webp"
         />
       </div>
     </div>
