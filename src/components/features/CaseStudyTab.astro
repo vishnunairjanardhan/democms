@@ -2,8 +2,10 @@
  import Verticalgrid from "../assets/Verticalgrid.astro"; 
  import { buttonConfig, cardData, Fashion, Others } from '../../config/CaseStudy.jsx';
 --- 
-<section>
-  <div>
+<section class="relative">
+  <div class="relative mx-auto max-w-7xl md:px-12 lg:px-0 lg:py-0">
+
+
     <div x-data="{
           tabSelected: 1,
           tabId: $id('tabs'),
@@ -19,9 +21,9 @@
           tabContentActive(tabContent){
               return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
           }
-      }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="relative mt-10">
-      <div class="hidden lg:max-w-7xl sm:block md:block">
-      <div class=" relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
+      }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="relative mt-10 w-full">
+     <div class="w-full sm:block md:block">
+       <div class="relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-gray-900 select-none" x-ref="tabButtons">
           {buttonConfig.map((button) => (
             <button
             class="relative z-20 inline-flex p-2 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id={button.id}>
@@ -44,20 +46,20 @@
             </button>
           ))}
         <div class="absolute left-0 z-10 w-full h-full duration-300 ease-out" x-ref="tabMarker" style="width: 76px; height: 32px; left: 300px;">
-          <div class="w-full h-full rounded-lg bg-vulcan-900 border-2 border-indigo-500"></div>
+          <div class="w-full h-full rounded-lg bg-white border-2 border-indigo-500"></div>
         </div>
       </div>
       </div>
       <div class="relative w-full pt-8 content border-t mt-8 border-vulcan-800">
-        <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-1">
+        <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative w-full" id="tabs-5-content-1">
           <!-- Tab Content 1 - Replace with your content -->
           <section>
-            <div class="py-10">
+             <div class="py-10 w-full">
               <ol class="grid grid-cols-1 gap-16 lg:grid-cols-2 sm:grid-cols-2" role="list">
                 {cardData.map((data) => (
-                  <li key={data.title} class="group border bg-vulcan-800 border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
+                  <li key={data.title} class="group border bg-white border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
                     <a href={data.href}>
-                      <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
+                      <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-xl">
                         <div class="flex">
                           {data.img ? (
                             <img 
@@ -91,10 +93,10 @@
                                 </p>
                               </div>-->  
                         </div>
-                        <h2 class="text-xl font-semibold text-indigo-400">{data.heading}</h2> 
-                        <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
-                        <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
-                        <a href={data.href} class="text-indigo-400 mt-5 hover:underline">Read More</a>
+                        <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
+                        <h2 class="mt-5 text-lg font-medium leading-6 text-gray-900">{data.title}</h2>
+                        <p class="mt-2 text-base text-blue-600 line-clamp-1">{data.description}</p>
+                        <a href={data.href} class="text-blue-600 mt-5 hover:underline">Read More</a>
                       </div>
                     </a>
                   </li>
@@ -109,9 +111,9 @@
             <div class="py-12">
               <ol class="grid grid-cols-1 gap-16 lg:grid-cols-2 sm:grid-cols-2" role="list">
                 {Fashion.map((data) => (
-                <li key={data.title} class="group border bg-vulcan-800 border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
+                <li key={data.title} class="group border bg-white border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
                     <a href={data.href}>
-                      <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
+                      <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-xl">
                         <div class="flex">
                           {data.img ? (
                             <img 
@@ -140,10 +142,10 @@
                         <div class="flex">
                           <div class="basis-1/2"><img class="h-9" alt="" src={data.logo}></div>
                         </div>
-                        <h2 class="text-xl font-semibold text-indigo-400">{data.heading}</h2> 
-                        <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
-                        <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
-                        <a href={data.href} class="text-indigo-400 mt-5 hover:underline">Read More</a>
+                        <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
+                        <h2 class="mt-5 text-lg font-medium leading-6 text-gray-900">{data.title}</h2>
+                        <p class="mt-2 text-base text-blue-600 line-clamp-1">{data.description}</p>
+                        <a href={data.href} class="text-gray-700 mt-5 hover:underline">Read More</a>
                       </div>
                   </a>
                 </li>
@@ -193,9 +195,9 @@
             <div class="py-12">
               <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-2" role="list">
                 {Others.map((data) => (
-                <li key={data.title} class="group border bg-vulcan-800 border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
+                <li key={data.title} class="group border bg-white border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
                     <a href={data.href}>
-                      <div class="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
+                      <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-xl">
                         <div class="flex">
                           {data.img ? (
                             <img 
@@ -229,10 +231,10 @@
                                 </p>
                               </div>-->  
                         </div>
-                        <h2 class="text-xl mt-2 font-normal text-indigo-400">{data.heading}</h2> 
-                        <h2 class="mt-5 text-lg font-medium leading-6 text-white">{data.title}</h2>
-                        <p class="mt-2 text-base text-vulcan-300 line-clamp-1">{data.description}</p>
-                        <a href={data.href} class="text-indigo-400 mt-5 hover:underline">Read More</a>
+                        <h2 class="text-xl mt-2 font-normal text-gray-700">{data.heading}</h2> 
+                        <h2 class="mt-5 text-lg font-medium leading-6 text-gray-900">{data.title}</h2>
+                        <p class="mt-2 text-base text-blue-600 line-clamp-1">{data.description}</p>
+                        <a href={data.href} class="text-gray-700 mt-5 hover:underline">Read More</a>
                       </div>
                   </a>
                 </li>
