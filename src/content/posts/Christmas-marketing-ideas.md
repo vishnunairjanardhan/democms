@@ -4,7 +4,7 @@ author: Soniya
 authorImg: "Soniya.webp"
 title: 30 Winning Christmas Marketing Ideas to Raise the Festive Spirit
 description: "Make the most of this festive season with 30 creative Christmas marketing ideas designed to boost your holiday sales and spread cheer."
-heading: 30 Winning Christmas Marketing Ideas to Raise the Festive SpiritI
+heading: 30 Winning Christmas Marketing Ideas to Raise the Festive Spirit
 
 image:
   url: "/assets/blog/top-30-winning-ideas-for-christmas-marketing-in-e-commerce-2024.webp"
