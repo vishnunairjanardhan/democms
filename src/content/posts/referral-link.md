@@ -1,5 +1,5 @@
 ---
-pubDate: 2025-01-31
+pubDate: 2025-02-03
 author: Piyush
 authorImg: "Piyush.webp"
 title: "Referral Link: What It Is and How to Create One"
@@ -195,10 +195,6 @@ Making it easier to share referral links encourages customers to share them more
 - Twitter
 - Instagram
 </li>
-
-<div class="flex justify-center">
-<img class="w-3/4 m-4" src="/assets/blog/refere-friend.webp" alt="Promoting referal link on social media">
-</div>
 
 <li>
 <h3>Use Personalized Referral Emails</h3>
