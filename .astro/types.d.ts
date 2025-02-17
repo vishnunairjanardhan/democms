@@ -1649,6 +1649,13 @@ declare module 'astro:content' {
   data: any
   data: any
 } & { render(): Render[".md"] };
+"valentines-day-marketing-ideas.md": {
+	id: "valentines-day-marketing-ideas.md";
+  slug: "valentines-day-marketing-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "ways-coupons-can-help-your-business-attract-loyal-customer.md": {
 	id: "ways-coupons-can-help-your-business-attract-loyal-customer.md";
   slug: "ways-coupons-can-help-your-business-attract-loyal-customer";

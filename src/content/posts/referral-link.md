@@ -104,7 +104,7 @@ Customers love sharing their favorite products and services. When they get rewar
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
+                <span class="relative text-gray"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
                 </span></div>
               </span>
               <!-- Modal -->
@@ -227,42 +227,47 @@ Working with influencers is a great way to boost brand awareness and drive traff
 
 A referral link and a <a href="https://www.99minds.io/blog/referral-code" role="link" target="_blanck">referral code</a> both track and reward customer referrals, but they function differently.
 
-<table border="1">
-    <thead>
+
+
+<table class="w-full table-auto border-separate border border-vulcan-700 border-spacing-0 rounded-lg overflow-hidden shadow-lg">
+    <thead class="">
         <tr>
-            <th>Aspect</th>
-            <th>Referral Links</th>
-            <th>Referral Codes</th>
+            <th class="px-6 py-3 text-left border-r border-vulcan-800 text-md font-semibold">Aspect</th>
+            <th class="px-6 py-3 text-left border-r border-vulcan-800 text-md font-semibold">Referral Links</th>
+            <th class="px-6 py-3 text-left border-vulcan-600 text-md font-semibold">Referral Codes</th>
         </tr>
     </thead>
-    <tbody>
-        <tr>
-            <td>Ease of Sharing</td>
-            <td>Share referral links via email, social media, or messages with a single click.</td>
-            <td>Requires users to enter the code manually and often needs additional instructions.</td>
+    <tbody class="">
+        <tr class="bg-vulcan-900 text-gray">
+            <td class="border-t border-b border-r border-vulcan-800 px-6 py-4 text-sm">Ease of Sharing</td>
+            <td class="border-t border-b border-r border-vulcan-800 px-6 py-4 text-sm">Share referral links via email, social media, or messages with a single click.</td>
+            <td class="border-t border-b border-vulcan-800 px-6 py-4 text-sm">Requires users to enter the code manually and often needs additional instructions.</td>
         </tr>
-        <tr>
-            <td>User Experience</td>
-            <td>Automatically directs users to a landing page where the offer is applied, reducing friction.</td>
-            <td>Users may struggle to enter the code correctly or forget to apply it, causing frustration.</td>
+        <tr class="bg-vulcan-800/30 text-gray">
+            <td class="border-t border-b border-r border-vulcan-800 px-6 py-4 text-sm">User Experience</td>
+            <td class="border-t border-b border-r border-vulcan-800 px-6 py-4 text-sm">Automatically directs users to a landing page where the offer is applied, reducing friction.</td>
+            <td class="border-t border-b border-vulcan-800 px-6 py-4 text-sm">Users may struggle to enter the code correctly or forget to apply it, causing frustration.</td>
         </tr>
-        <tr>
-            <td>Lead Acquisition</td>
-            <td>Sends users to a personalized landing page, increasing trust and engagement.</td>
-            <td>Feels less personalized and requires extra effort from the user.</td>
+        <tr class="bg-vulcan-900 text-gray">
+            <td class="border-t border-b border-r border-vulcan-800 px-6 py-4 text-sm">Lead Acquisition</td>
+            <td class="border-t border-b border-r border-vulcan-800 px-6 py-4 text-sm">Sends users to a personalized landing page, increasing trust and engagement.</td>
+            <td class="border-t border-b border-vulcan-800 px-6 py-4 text-sm">Feels less personalized and requires extra effort from the user.</td>
         </tr>
-        <tr>
-            <td>Tracking & Analytics</td>
-            <td>Provides detailed tracking of referrals, clicks, and conversions for accurate performance measurement.</td>
-            <td>Tracking is more challenging and relies on manual code entry, leading to potential errors.</td>
+        <tr class="bg-vulcan-800/30 text-gray">
+            <td class="border-t border-b border-r border-vulcan-800 px-6 py-4 text-sm">Tracking & Analytics</td>
+            <td class="border-t border-b border-r border-vulcan-800 px-6 py-4 text-sm">Provides detailed tracking of referrals, clicks, and conversions for accurate performance measurement.</td>
+            <td class="border-t border-b border-vulcan-800 px-6 py-4 text-sm">Tracking is more challenging and relies on manual code entry, leading to potential errors.</td>
         </tr>
-        <tr>
-            <td>Follow-Up & Nurturing</td>
-            <td>Encourages users to enter their details, enabling businesses to send follow-ups and personalized marketing.</td>
-            <td>Typically allows users to redeem offers without submitting contact details, limiting future engagement.</td>
-        </tr>       
+        <tr class="bg-vulcan-900 text-gray">
+            <td class="border-t border-r border-vulcan-800 px-6 py-4 text-sm">Follow-Up & Nurturing</td>
+            <td class="border-t border-r border-vulcan-800 px-6 py-4 text-sm">Encourages users to enter their details, enabling businesses to send follow-ups and personalized marketing.</td>
+            <td class="border-t border-vulcan-800 px-6 py-4 text-sm">Typically allows users to redeem offers without submitting contact details, limiting future engagement.</td>
+        </tr>
     </tbody>
 </table>
+
+
+
 
 <h2 id="Conclusion">Conclusion</h2>
 
