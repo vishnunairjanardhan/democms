@@ -39,8 +39,8 @@
 
 .raise1:hover,
 .raise1:focus {
-  box-shadow: 0 1.5em 1.5em -0.2em rgba(15, 15, 15, 0.6);
-  transform: translateY(-0.40em);
+  box-shadow: 0 0.6em 0.6em -0.4em rgba(15, 15, 15, 0.6);
+  transform: translateY(-0.25em);
   transition: 0.3s;
   
 }
