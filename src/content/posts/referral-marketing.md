@@ -8,7 +8,7 @@ heading: "Referral Marketing: Benefits, Strategies & Types"
 image: 
   url: "/assets/blog/referral_marketing.webp"
   alt: "What is Referral marketing? Best Practices & Strategies"
-tags: ["Referral Program","Customer Acquisation"]
+tags: ["Referral Program"]
 url: "https://www.99minds.io/blog/referral-marketing"
 keywords: ["referral marketing","referral marketing strategy","what is referral marketing","referral advertising","referral based marketing","referral marketing campaigns","referrals marketing"]
 
