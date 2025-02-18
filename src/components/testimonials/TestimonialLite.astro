@@ -5,33 +5,43 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
 <section class="relative overflow-hidden">
 <div class="relative mx-auto max-w-7xl md:px-12 lg:px-0 lg:py-0">
 <div class="flex flex-col w-full lg:px-0" 
-        x-data="{
-            activeTab: 1,
-            interval: null,
-            autoSlideEnabled: false,
-            startAutoSlide() {
-            this.interval = setInterval(() => {
-                this.activeTab = this.activeTab === 6 ? 1 : this.activeTab + 1;
-            }, 3000); 
-            },
-            stopAutoSlide() {
-            clearInterval(this.interval);
-            this.interval = null; 
-            },
-            checkScreenSize() {
-            if (!this.autoSlideEnabled) {
-                this.autoSlideEnabled = true;
-                this.startAutoSlide();
-            }
-            },
-            init() {
-            this.checkScreenSize(); 
-            window.addEventListener('resize', this.checkScreenSize.bind(this)); 
-            }
-        }"
-        x-init="init()"
-        @mouseenter="stopAutoSlide()" 
-        @mouseleave="startAutoSlide()">
+  x-data="{
+    activeTab: 1,
+    interval: null,
+    autoSlideEnabled: false,
+
+    startAutoSlide() {
+        if (this.interval) return; // Prevent multiple intervals
+        this.interval = setInterval(() => {
+            this.activeTab = this.activeTab === 6 ? 1 : this.activeTab + 1;
+        }, 3000);
+    },
+
+    stopAutoSlide() {
+        clearInterval(this.interval);
+        this.interval = null;
+    },
+
+    checkScreenSize() {
+        if (!this.autoSlideEnabled) {
+            this.autoSlideEnabled = true;
+            this.startAutoSlide();
+        }
+    },
+
+    init() {
+        this.checkScreenSize();
+        window.addEventListener('resize', this.checkScreenSize.bind(this));
+    },
+
+    userClicked(tab) {
+        this.stopAutoSlide(); // Immediately stop auto-slide
+        this.activeTab = tab; // Instantly switch to the clicked tab
+        this.startAutoSlide(); // Restart auto-slide **immediately** after click
+    }
+}"
+@mouseenter="stopAutoSlide()" 
+@mouseleave="startAutoSlide()">
 <section 
   class="lg:p-8 border-t border-y border-white/5 transition-all duration-500"
   x-bind:style="{
@@ -46,42 +56,42 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
 >
   <div class="">
       <div class="px-8 relative inline-grid items-center justify-center w-full h-8 grid-cols-3 md:grid-cols-6 mx-auto mt-14 text-[#303030]select-none hidden sm:grid">
-        <button @click="activeTab = 1;" 
+        <button @click.immediate="activeTab = 1" 
                 :class="{ 'text-white bg-black font-bold rounded-3xl': activeTab === 1, 'text-black': activeTab !== 1 }" 
                 class="px-2 py-2 md:px-4 md:py-4">
             <img :src="activeTab === 1 ? '/assets/testimonial/MudAustralia-logo.svg' : '/assets/testimonial/MudAustralia-B-logo.svg'"
                 class="h-7 justify-center mx-auto" 
                 alt="MudAustralia" />
         </button>
-        <button @click="activeTab = 2;" 
+        <button @click.immediate="activeTab = 2" 
                 :class="{ 'text-white bg-black font-bold rounded-3xl': activeTab === 2, 'text-black': activeTab !== 2 }" 
                 class="px-2 py-1 md:px-4 md:py-4">
             <img :src="activeTab === 2 ? '/assets/testimonial/Solistice-logo-w.svg' : '/assets/testimonial/Solistice-logo.svg'" 
                 class="h-8 justify-center mx-auto" 
                 alt="Solistice" />
         </button>
-        <button @click="activeTab = 3;" 
+        <button @click.immediate="activeTab = 3" 
                 :class="{ 'text-white bg-black font-bold rounded-3xl': activeTab === 3, 'text-black': activeTab !== 3 }" 
                 class="px-2 py-1 md:px-4 md:py-5">
             <img :src="activeTab === 3 ? '/assets/testimonial/Natori-logo-w.svg' : '/assets/testimonial/Natori-logo.svg'" 
                 class="h-4 justify-center mx-auto" 
                 alt="Natori" />
         </button>
-        <button @click="activeTab = 4;" 
+        <button @click.immediate="activeTab = 4" 
                 :class="{ 'text-white bg-black font-bold rounded-3xl': activeTab === 4, 'text-black': activeTab !== 4 }" 
                 class="px-2 py-1 md:px-4 md:py-4">
             <img :src="activeTab === 4 ? '/assets/testimonial/Bestop-logo-w.svg' : '/assets/testimonial/Bestop-logo.svg'" 
                 class="h-6 justify-center mx-auto" 
                 alt="Bestop" />
         </button>
-        <button @click="activeTab = 5;" 
+        <button @click.immediate="activeTab = 5" 
                 :class="{ 'text-white bg-black font-bold rounded-3xl': activeTab === 5, 'text-black': activeTab !== 5 }" 
                 class="px-2 py-1 md:px-4 md:py-4">
             <img :src="activeTab === 5 ? '/assets/testimonial/calico-logo-w.svg' : '/assets/testimonial/calico-logo.svg'" 
                 class="h-7 justify-center mx-auto" 
                 alt="Calico" />
         </button>
-        <button @click="activeTab = 6;" 
+        <button @click.immediate="activeTab = 6" 
                 :class="{ 'text-white bg-black font-bold rounded-3xl': activeTab === 6, 'text-black': activeTab !== 6 }" 
                 class="px-2 py-1 md:px-4 md:py-4">
             <img :src="activeTab === 6 ? '/assets/testimonial/Tassels-logo-w.svg' : '/assets/testimonial/Tassels-logo.svg'" 
