@@ -10,53 +10,54 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
   const handleSearchChange = (event) => {
     const searchValue = event.target.value.toLowerCase();
     setSearchTerm(searchValue);
-
     const filtered = sortedPosts.filter((post) =>
       post.data.title.toLowerCase().includes(searchValue) ||
       post.data.description.toLowerCase().includes(searchValue) ||
       post.data.heading.toLowerCase().includes(searchValue)
     );
-
     setFilteredPosts(filtered);
-    setCurrentPage(1); 
+    setCurrentPage(1);
   };
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
-
   const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
-  const getPageNumbers = () => {
-    const pageNumbers = [];
-    const maxPagesToShow = 6;
-    let startPage, endPage;
-
-    if (totalPages <= maxPagesToShow) {
-      startPage = 1;
-      endPage = totalPages;
-    } else {
-      const maxPagesBeforeCurrentPage = Math.floor(maxPagesToShow / 2);
-      const maxPagesAfterCurrentPage = Math.ceil(maxPagesToShow / 2) - 1;
-      if (currentPage <= maxPagesBeforeCurrentPage) {
-        startPage = 1;
-        endPage = maxPagesToShow;
-      } else if (currentPage + maxPagesAfterCurrentPage >= totalPages) {
-        startPage = totalPages - maxPagesToShow + 1;
-        endPage = totalPages;
-      } else {
-        startPage = currentPage - maxPagesBeforeCurrentPage;
-        endPage = currentPage + maxPagesAfterCurrentPage;
-      }
-    }
-
-    for (let i = startPage; i <= endPage; i++) {
-      pageNumbers.push(i);
-    }
-
-    return pageNumbers;
+  const BlogGrid = ({ blogs }) => {
+    return (
+      <div className="grid grid-cols-3 gap-6 p-6">
+        <div className="col-span-2">
+          {blogs.length > 0 && (
+            <BlogEntry
+              url={`/blog/${blogs[0].slug}`}
+              title={blogs[0].data.heading}
+              description={blogs[0].data.description}
+              alt={blogs[0].data.heading}
+              pubDate={new Date(blogs[0].data.pubDate).toLocaleDateString()}
+              author={blogs[0].data.author}
+              image={blogs[0].data.image.url}
+            />
+          )}
+        </div>
+        <div className="col-span-1 grid grid-cols-1 gap-4">
+          {blogs.slice(1, 3).map((post) => (
+            <BlogEntry
+              key={post.slug}
+              url={`/blog/${post.slug}`}
+              title={post.data.heading}
+              description={post.data.description}
+              alt={post.data.heading}
+              pubDate={new Date(post.data.pubDate).toLocaleDateString()}
+              author={post.data.author}
+              image={post.data.image.url}
+            />
+          ))}
+        </div>
+      </div>
+    );
   };
 
   return (
@@ -68,18 +69,18 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
             name="search"
             id="search"
             required
-            className="block w-full h-10 px-4 py-2 text-sm text-indigo-300 bg-transparent border rounded-lg appearance-none border-white/10 placeholder-white/50 focus:border-indigo-300 focus:bg-transparent focus:outline-none focus:ring-indigo-300 sm:text-sm"
+            className="block w-full h-10 px-4 py-2 text-sm text-indigo-300 bg-transparent border rounded-lg border-black/10 focus:border-indigo-300 focus:outline-none"
             placeholder="Search blog"
             value={searchTerm}
             onChange={handleSearchChange}
           />
         </form>
       </div>
-      <div className="mt-12 ">
+      <div className="mt-12">
         <ul className="flex flex-wrap gap-2 mx-auto justify-center" role="list">
           {tags.map((tag) => (
             <a href={`/tags/${tag}`} key={tag}>
-              <li className="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">
+              <li className="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold text-white bg-vulcan-900 hover:text-indigo-400 border border-vulcan-700 rounded-lg">
                 {tag}
               </li>
             </a>
@@ -87,31 +88,10 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
         </ul>
       </div>
       {currentPosts.length > 0 ? (
-        <div className="py-24 flex">
-          <ol className="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-1" role="list">
-            {currentPosts.map((post) => (
-              <BlogEntry
-                url={`/blog/${post.slug}`}
-                title={post.data.heading}
-                description={post.data.description}
-                alt={post.data.heading}
-                pubDate={new Date(post.data.pubDate).toLocaleDateString(undefined, {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric',
-                })}
-                author={post.data.author}
-                image={post.data.image.url}
-                key={post.slug}
-              />
-            ))}
-          </ol>
-        </div>
+        <BlogGrid blogs={currentPosts} />
       ) : (
         <div className="py-24 flex justify-center w-full">
-          <p className="text-4xl font-semibold tracking-tighter text-white sm:text-5xl">
-            No results
-          </p>
+          <p className="text-4xl font-semibold text-white sm:text-5xl">No results</p>
         </div>
       )}
       <div className="flex justify-center w-full mt-8">
@@ -137,17 +117,17 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
                 </li>
               </>
             )}
-            {getPageNumbers().map((pageNumber) => (
-              <li key={pageNumber}>
+            {[...Array(totalPages)].map((_, index) => (
+              <li key={index + 1}>
                 <button
-                  onClick={() => paginate(pageNumber)}
+                  onClick={() => paginate(index + 1)}
                   className={`px-4 py-2 border rounded ${
-                    pageNumber === currentPage
+                    index + 1 === currentPage
                       ? 'bg-indigo-400 text-white'
                       : 'bg-white text-vulcan-900 font-semibold'
                   }`}
                 >
-                  {pageNumber}
+                  {index + 1}
                 </button>
               </li>
             ))}
