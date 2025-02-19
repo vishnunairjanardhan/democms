@@ -132,58 +132,7 @@
 						</div>
 					</div>
 				</div>
-				<!--<div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
-					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>
-              Customers
-            </span>
-						<svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-							<path stroke="none" d="M0 0h24v24H0z" fill="none"> </path>
-							<path d="M6 9l6 6l6 -6"> </path>
-						</svg>
-					</button>
-					<div id="customers-dropdown" x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute left-1/2 transform -translate-x-1/2 ml-12 z-50 mt-2 ring-1 ring-inset ring-white/5 focus:outline-none">
-						<div class="bg-vulcan-900 rounded-xl grid grid-cols-1 md:grid-cols-4 mt-4 gap-4 max-w-none mx-auto w-[110rem] def sm:h-[48rem] md:h-[28rem]">
-							<div class="border-r border-gray-600 pr-16 mt-10 mb-14">
-								<ul id="case-studies" class="space-y-2 ml-32 flex flex-col items-start">
-									<li>
-										<h3 class="text-white">
-                      Our Customers
-                    </h3> </li>
-									<li>
-										<a href="/case-study" class="text-white mt-4 block text-sm hover:text-indigo-400">
-											<div class="flex items-center">
-												<h4 class="font-semibold">
-                          Case Studies
-                        </h4> </div>
-											<p id="customer" class="text-sm mt-2"> Find out what our customers love about our platform. </p>
-										</a>
-									</li>
-									<li>
-										<a href="/case-study" class="text-white mt-4 block text-sm hover:text-indigo-400">
-											<div class="flex items-center">
-												<h4 class="font-semibold">
-                          Customer Success
-                        </h4> </div>
-											<p id="customer" class="text-sm mt-2"> Meet the team that ensures you get the most out of 99minds. </p>
-										</a>
-									</li>
-							</div>
-							</ul>
-							<ul id="winning" class="space-y-2 mt-4 ml-12 flex flex-col items-start">
-								<li>
-									<h3 class="text-white block mt-4">
-                    Winning with 99minds
-                  </h3> </li>
-								<li>
-									<a href="/case-study/natori" class="block mt-4 text-sm text-white hover:text-indigo-400">
-										<div class="relative w-full max-w-[510px] mx-auto overflow-hidden rounded-2xl shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl"> <img src="/assets/case-study/natori4.png" alt="Case Study - Natori" class="w-full h-[200px] object-cover rounded-2xl" /> </div>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>-->
-        <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 " href="/integrations">
+        <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 " href="/integration">
           Integrations
         </a> <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" href="/case-study">
           Case Study
@@ -202,12 +151,7 @@
 
 
 							<ul id="products" class="lg:space-y-2 mt-4 md:ml-14 flex flex-col items-start">
-								<!--<li>
-									<h3 class="text-white block mt-4">
-                    Learn
-                  </h3> </li>
-								<li>-->
-									<a href="/blog" class="text-black font-semibold lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
+									<a href="/coupons" class="text-black font-semibold lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
 										<div class="flex items-center">
 											<h4>
                         99minds Blog
@@ -259,16 +203,6 @@
 												<br> topics about retention. </p>
 										</a>
 									</li>
-									<!--<li>
-										<a href="/coupons" class="text-white lg:mt-8 mt-0 block text-sm hover:text-indigo-400">
-											<div class="flex items-center">
-												<h4>
-                          Videos & Webinars
-                        </h4> </div>
-											<p class="text-sm mt-2"> Watch video tutorials from
-												<br> eCommerce retention experts. </p>
-										</a>
-									</li>-->
 							</div>
 							</ul>
 							<div class="border-r border-gray-600 pr-16 lg:mt-4 mb-14">
@@ -283,38 +217,6 @@
                         Contact Us
                       </h4> </a>
 									</li>
-									<!--<li>
-										<a href="/" class="text-white mt-6 block text-sm hover:text-indigo-400">
-											<div class="flex items-center">
-												<h4 class="font-semibold">
-                          Help Center
-                        </h4> </div>
-										</a>
-									</li>
-									<li>
-										<a href="/case-study" class="text-white mt-6 block text-sm hover:text-indigo-400">
-											<div class="flex items-center">
-												<h4 class="font-semibold">
-                          99minds Community
-                        </h4> </div>
-										</a>
-									</li>
-									<li>
-										<a href="/case-study" class="text-white mt-6 block text-sm hover:text-indigo-400">
-											<div class="flex items-center">
-												<h4 class="font-semibold">
-                          Become a Partner
-                        </h4> </div>
-										</a>
-									</li>
-									<li>
-										<a href="/case-study" class="text-white mt-6 block text-sm hover:text-indigo-400">
-											<div class="flex items-center">
-												<h4 class="font-semibold">
-                          Careers
-                        </h4> </div>
-										</a>
-									</li>-->
 							</div>
 							</ul>
 							<ul id="demo-button" class="space-x-8 lg:mt-8 ml-0">
@@ -325,7 +227,7 @@
 								<a class="hideThis" href="/bfcm">
 									<li class="flex items-center ml-8">
 										<div class="h-18" style="width: 200px;">
-											<!-- <img src="https://tse3.mm.bing.net/th?id=OIP.lXVRQx0ymGGowRLcF8XbiAAAAA&pid=Api&P=0&h=100" alt="Black Friday Image"/> --><img src="https://via.placeholder.com/300x120.png?text=Black Friday" alt="Black Friday Image" /> </div>
+                      <img src="https://via.placeholder.com/300x120.png?text=Black Friday" alt="Black Friday Image" /> </div>
 										<div class="ml-6 text-white text-sm"> Everything you need to do
 											<br> for Black friday, and when. </div>
 									</li>
@@ -369,48 +271,6 @@
 		</div>
 	</div>
 </section>
-<!-- Mobile Responsive CSS -->
-<!--<style>
-    @media (max-width: 768px) {
-      #products-dropdown {
-        position: fixed;
-        top: 60px; 
-        left: 0;
-        width: 100%;
-        max-height: calc(100vh - 60px);
-        overflow-y: auto;
-      }
-	  .hideThis{
-		display: none;
-	  }
-      
-      .def {
-        height: auto;
-        padding: 1rem;
-      }
-      
-      #products li, #coupon li {
-        margin-top: 0.5rem;
-      }
-      
-      #products li:first-child, #coupon li:first-child {
-        margin-top: 0;
-      }
-      
-      .grid-cols-1 > * {
-        padding: 0.5rem 0;
-      }
-      
-      .border-r {
-        border-right: none;
-        border-bottom: 1px solid #e5e7eb;
-        margin-bottom: 1rem;
-        padding-bottom: 1rem;
-      }
-	  
-    }
-  </style> -->
-
   <style>
 #resources-dropdown {
   position: absolute;
