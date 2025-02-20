@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
-const BlogLayout = ({ title, url, description, pubDate, author, image, authorImage }) => {
+const LatestBlog = ({ title, url, description, pubDate, author, image, authorImage }) => {
   return(
   <div className="group flex flex-row md:flex-row">
     <a href={url} title={title} className="flex w-full">
       {/* Image on the left */}
-      <div className="w-2/4 h-auto flex-shrink-0">
+      <div className="w-2/3 h-auto flex-shrink-0">
         <img
           className="group-hover:scale-110 duration-300 aspect-[4/2] object-cover w-full h-full rounded-l-xl"
           loading="lazy"
@@ -33,4 +33,4 @@ const BlogLayout = ({ title, url, description, pubDate, author, image, authorIma
   )
 }
 
-export default BlogLayout;
+export default LatestBlog;

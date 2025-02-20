@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import BlogEntry from "./BlogEntry";
 import BlogLayout from "./BlogLayout";
+import LatestBlog from "./LatestBlog";
 
 const BlogWithSearch = ({ sortedPosts, tags }) => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -8,7 +9,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const postsPerPage = 6;
+  const postsPerPage = 11;
 
   const handleSearchChange = (event) => {
     const searchValue = event.target.value.toLowerCase();
@@ -31,7 +32,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   const BlogGrid = ({ blogs }) => (
-    <div className="grid grid-cols-2 gap-6 p-6">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-6">
       <div>
         {blogs.length > 0 && (
           <BlogEntry
@@ -52,6 +53,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
             key={post.slug}
             url={`/blog/${post.slug}`}
             title={post.data.heading}
+            description={post.data.description}
             alt={post.data.heading}
             pubDate={new Date(post.data.pubDate).toLocaleDateString()}
             image={post.data.image.url}
@@ -60,7 +62,21 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
       </div>
     </div>
   );
-
+  const LatestBlogGrid = ({ blogs }) => (
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-1">
+      {blogs.slice(5, 13).map((post) => (
+          <LatestBlog
+            key={post.slug}
+            url={`/blog/${post.slug}`}
+            title={post.data.heading}
+            description={post.data.description}
+            alt={post.data.heading}
+            pubDate={new Date(post.data.pubDate).toLocaleDateString()}
+            image={post.data.image.url}
+          />
+        ))}
+    </div>
+  );
   return (
     <div className="flex flex-wrap">
       {/* Search Bar */}
@@ -149,8 +165,24 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
         </div>
       )}
 
+      {/*Latest Blog */}
+      <div class="p-4 border-t-2 border-vulcan-800">
+        <div className="flex justify-between items-center">
+          <p class="pb-2 font-semibold">Latest</p>
+          <a class="font-semibold cursor-pointer" href="/latest/blog">View All</a>
+        </div>
+      {currentPosts.length > 0 ? (
+        <LatestBlogGrid blogs={currentPosts} />
+      ) : (
+        <div className="py-24 flex justify-center w-full">
+          <p className="text-4xl font-semibold text-white sm:text-5xl">
+            No results
+          </p>
+        </div>
+      )}
+      </div>
       {/* Pagination */}
-      <div className="flex justify-center w-full mt-8">
+      {/* <div className="flex justify-center w-full mt-8">
       <nav>
         <ul className="flex space-x-2">
           {currentPage > 1 && (
@@ -225,7 +257,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
           )}
         </ul>
       </nav>
-      </div>
+      </div> */}
     </div>
   );
 };
