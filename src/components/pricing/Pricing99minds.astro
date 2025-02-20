@@ -82,15 +82,15 @@ import { Icon } from 'astro-icon/components'
     </div>
     <!---- Here starts the Desktop pricing table -->
     <section class="relative hidden lg:block">
-      <div class="max-w-7xl p-8 mx-auto border border-white/5 rounded-3xl bg-vulcan-900">
-        <table class="w-full mx-auto text-white bg-vulcan-900">
+      <div class="max-w-7xl p-8 mx-auto border border-white/5 rounded-3xl bg-white">
+        <table class="w-full mx-auto text-white bg-white">
           <thead>
             <tr class="text-center align-top">
               <th class=""></th>
               <th class="px-2" width="8%">
                 <tr>
                   {TABLE_HEAD.map((header) => (
-                    <th class="px-2 p-4 font-normal text-white" key={header}>{header}</th>
+                    <th class="px-2 p-4 font-normal text-black" key={header}>{header}</th>
                   ))}
                 </tr>
                 <tr>
@@ -109,10 +109,10 @@ import { Icon } from 'astro-icon/components'
                   ))}
                 </tr>  
                 {PRICE_LIST_AMOUNT.map((feature) => (
-                  <tr class="mt-6 text-sm text-vulcan-300 border-b border-white/5" key={feature.Column1}>
+                  <tr class="mt-6 text-sm text-black font-medium border-b border-white/5" key={feature.Column1}>
                     <th class="px-2 p-4 font-normal" >{feature.Column1}</th>
                     {TABLE_HEAD.slice(1).map((col) => (
-                      <th class="font-normal text-white" key={col}>{feature[col]}</th>
+                      <th class="font-normal text-blacl" key={col}>{feature[col]}</th>
                     ))}
                   </tr>
                 ))}
