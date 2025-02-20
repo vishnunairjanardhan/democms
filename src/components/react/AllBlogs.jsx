@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import BlogEntry from './BlogEntry';
+import Blogs from './Blogs';
 
 const BlogWithSearch = ({ sortedPosts, tags }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -90,7 +90,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
         <div className="py-24 flex">
           <ol className="grid grid-cols-1 gap-8 lg:grid-cols-3 sm:grid-cols-1" role="list">
             {currentPosts.map((post) => (
-              <BlogEntry
+              <Blogs
                 url={`/blog/${post.slug}`}
                 title={post.data.heading}
                 description={post.data.description}
