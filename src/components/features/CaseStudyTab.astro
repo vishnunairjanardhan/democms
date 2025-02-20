@@ -13,6 +13,9 @@
               this.tabSelected = tabButton.id.replace(this.tabId + '-', '');
               this.tabRepositionMarker(tabButton);
           },
+           tabButtonActive(tabButton) {
+    return this.tabSelected == tabButton.id.replace(this.tabId + '-', '');
+},
           tabRepositionMarker(tabButton){
               this.$refs.tabMarker.style.width=tabButton.offsetWidth + 'px';
               this.$refs.tabMarker.style.height=tabButton.offsetHeight + 'px';
@@ -21,12 +24,16 @@
           tabContentActive(tabContent){
               return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
           }
-      }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);" class="relative mt-10 w-full">
+      }" x-init="$nextTick(() => { 
+      tabSelected = '1'; 
+      tabRepositionMarker($refs.tabButtons.firstElementChild); 
+      $refs.tabButtons.firstElementChild.classList.add('bg-black', 'text-white'); 
+  })" class="relative mt-10 w-full">
      <div class="w-full sm:block md:block">
        <div class="relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-gray-900 select-none" x-ref="tabButtons">
           {buttonConfig.map((button) => (
             <button
-            class="relative z-20 inline-flex p-2 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id={button.id}>
+            class="relative z-20 inline-flex p-2 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer rounded-lg items-center whitespace-nowrap" type="button" :class="{ 'bg-black text-white' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id={button.id}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class={`w-4 icon icon-tabler ${button.icon}`}
@@ -45,8 +52,8 @@
               </svg>{button.label}
             </button>
           ))}
-        <div class="absolute left-0 z-10 w-full h-full duration-300 ease-out" x-ref="tabMarker" style="width: 76px; height: 32px; left: 300px;">
-          <div class="w-full h-full rounded-lg bg-[#f2f2f7] border-2 border-indigo-500"></div>
+        <div class="absolute left-0 z-10 w-full h-full duration-100 ease-out" x-ref="tabMarker" style="width: 76px; height: 32px; left: 300px;">
+          <div class="w-full h-full bg-[#f2f2f7]"></div>
         </div>
       </div>
       </div>
