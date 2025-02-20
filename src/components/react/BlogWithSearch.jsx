@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import BlogEntry from './BlogEntry';
+import BlogLayout from './BlogLayout'
 
 const BlogWithSearch = ({ sortedPosts, tags }) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -28,8 +29,8 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
 
   const BlogGrid = ({ blogs }) => {
     return (
-      <div className="grid grid-cols-3 gap-6 p-6">
-        <div className="col-span-2">
+      <div className="grid grid-cols-2 gap-6 p-6">
+        <div className="">
           {blogs.length > 0 && (
             <BlogEntry
               url={`/blog/${blogs[0].slug}`}
@@ -39,19 +40,20 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
               pubDate={new Date(blogs[0].data.pubDate).toLocaleDateString()}
               author={blogs[0].data.author}
               image={blogs[0].data.image.url}
+              authorImage={blogs[0].data.authorImage}
             />
           )}
         </div>
         <div className="col-span-1 grid grid-cols-1 gap-4">
-          {blogs.slice(1, 3).map((post) => (
-            <BlogEntry
+          {blogs.slice(1, 4).map((post) => (
+            <BlogLayout
               key={post.slug}
               url={`/blog/${post.slug}`}
               title={post.data.heading}
-              description={post.data.description}
+              // description={post.data.description}
               alt={post.data.heading}
               pubDate={new Date(post.data.pubDate).toLocaleDateString()}
-              author={post.data.author}
+              // author={post.data.author}
               image={post.data.image.url}
             />
           ))}
@@ -70,7 +72,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
             id="search"
             required
             className="block w-full h-10 px-4 py-2 text-sm text-indigo-300 bg-transparent border rounded-lg border-black/10 focus:border-indigo-300 focus:outline-none"
-            placeholder="Search blog"
+            placeholder="Search Blog"
             value={searchTerm}
             onChange={handleSearchChange}
           />
@@ -95,64 +97,80 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
         </div>
       )}
       <div className="flex justify-center w-full mt-8">
-        <nav>
-          <ul className="flex space-x-2">
-            {currentPage > 1 && (
-              <>
-                <li>
-                  <button
-                    onClick={() => paginate(1)}
-                    className="px-4 py-2 border rounded bg-white text-vulcan-900 font-semibold"
-                  >
-                    First
-                  </button>
-                </li>
-                <li>
-                  <button
-                    onClick={() => paginate(currentPage - 1)}
-                    className="px-4 py-2 border rounded bg-white text-vulcan-900 font-semibold"
-                  >
-                    Previous
-                  </button>
-                </li>
-              </>
-            )}
-            {[...Array(totalPages)].map((_, index) => (
-              <li key={index + 1}>
-                <button
-                  onClick={() => paginate(index + 1)}
-                  className={`px-4 py-2 border rounded ${
-                    index + 1 === currentPage
-                      ? 'bg-indigo-400 text-white'
-                      : 'bg-white text-vulcan-900 font-semibold'
-                  }`}
-                >
-                  {index + 1}
-                </button>
-              </li>
-            ))}
-            {currentPage < totalPages && (
-              <>
-                <li>
-                  <button
-                    onClick={() => paginate(currentPage + 1)}
-                    className="px-4 py-2 border rounded bg-white text-vulcan-900 font-semibold"
-                  >
-                    Next
-                  </button>
-                </li>
-                <li>
-                  <button
-                    onClick={() => paginate(totalPages)}
-                    className="px-4 py-2 border rounded bg-white text-vulcan-900 font-semibold"
-                  >
-                    Last
-                  </button>
-                </li>
-              </>
-            )}
-          </ul>
-        </nav>
+  <nav>
+    <ul className="flex space-x-2">
+      {currentPage > 1 && (
+        <>
+          <li>
+            <button
+              onClick={() => paginate(1)}
+              className="px-4 py-2 border rounded bg-white text-vulcan-900 font-semibold"
+            >
+              First
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => paginate(currentPage - 1)}
+              className="px-4 py-2 border rounded bg-white text-vulcan-900 font-semibold"
+            >
+              Previous
+            </button>
+          </li>
+        </>
+      )}
+
+      {(() => {
+        const pageNumbers = [];
+        const maxPages = 6;
+        let startPage = Math.max(1, currentPage - Math.floor(maxPages / 2));
+        let endPage = Math.min(totalPages, startPage + maxPages - 1);
+
+        if (endPage - startPage < maxPages - 1) {
+          startPage = Math.max(1, endPage - maxPages + 1);
+        }
+
+        for (let i = startPage; i <= endPage; i++) {
+          pageNumbers.push(
+            <li key={i}>
+              <button
+                onClick={() => paginate(i)}
+                className={`px-4 py-2 border rounded ${
+                  i === currentPage
+                    ? 'bg-indigo-400 text-white'
+                    : 'bg-white text-vulcan-900 font-semibold'
+                }`}
+              >
+                {i}
+              </button>
+            </li>
+          );
+        }
+        return pageNumbers;
+      })()}
+
+      {currentPage < totalPages && (
+        <>
+          <li>
+            <button
+              onClick={() => paginate(currentPage + 1)}
+              className="px-4 py-2 border rounded bg-white text-vulcan-900 font-semibold"
+            >
+              Next
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => paginate(totalPages)}
+              className="px-4 py-2 border rounded bg-white text-vulcan-900 font-semibold"
+            >
+              Last
+            </button>
+          </li>
+        </>
+      )}
+    </ul>
+  </nav>
       </div>
     </div>
   );

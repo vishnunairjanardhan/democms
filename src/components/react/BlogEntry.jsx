@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const BlogEntry = ({ title, url, description, pubDate, author, image, authorImage }) => {
   return <div
-    className="group border border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl flex md:flex-col">
+    className="group flex md:flex-col">
     <a href={url} title={title}>
       <div
         className="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
@@ -16,16 +16,20 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
           />
         </div>
       </div>
-      <div className="p-8">
+      <div className="py-8">
         <p>
           <time className="text-xs text-vulcan-800" datetime={pubDate}>{pubDate}</time>
         </p>
         <h3 className="mt-5 text-lg font-medium leading-6 ">
           {title}
         </h3>
-        <p className="mt-2 text-base text-vulcan-900 line-clamp-1">
+        <p className="mt-2 text-base text-vulcan-900">
           {description}
         </p>
+        <div>
+          {/* <img src={authorImage} /> */}
+          {author && <p className='text-base'>Author: {author}</p>}
+          </div>
       </div>
     </a>
   </div>
