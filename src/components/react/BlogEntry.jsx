@@ -5,7 +5,7 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
     className="group flex md:flex-col">
     <a href={url} title={title}>
       <div
-        className="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
+        className="flex items-end justify-center overflow-hidden">
         <div className="flex">
           <img
             className="group-hover:scale-110 duration-300 aspect-[2/1] object-cover"
