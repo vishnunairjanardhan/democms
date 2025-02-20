@@ -137,7 +137,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
                 onClick={() => paginate(i)}
                 className={`px-4 py-2 border rounded ${
                   i === currentPage
-                    ? 'bg-indigo-400 text-white'
+                    ? 'bg-gray-200 text-black font-semibold'
                     : 'bg-white text-vulcan-900 font-semibold'
                 }`}
               >
