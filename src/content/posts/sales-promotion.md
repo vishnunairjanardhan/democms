@@ -148,7 +148,7 @@ While sales promotion can bring significant benefits, there are also potential d
 <li>
 <h3>Loyalty programs</h3>
 
-<a href="https://www.99minds.io/loyalty" role="link" target="_blanck">Loyalty programs</a> reward repeat customers with incentives like points or rewards redeemable for discounts and free items, encouraging ongoing engagement. This approach keeps customers returning by offering exclusive benefits that deepen brand loyalty. <a href="https://www.starbucks.com/rewards" role="link" target="_blanck">Starbucks Rewards</a>, for example, not only enhances customer retention but also builds brand identity by creating a community of regular customers who enjoy unique perks.
+<a href="https://www.99minds.io/blog/loyalty-program" role="link" target="_blanck">Loyalty programs</a> reward repeat customers with incentives like points or rewards redeemable for discounts and free items, encouraging ongoing engagement. This approach keeps customers returning by offering exclusive benefits that deepen brand loyalty. <a href="https://www.starbucks.com/rewards" role="link" target="_blanck">Starbucks Rewards</a>, for example, not only enhances customer retention but also builds brand identity by creating a community of regular customers who enjoy unique perks.
 </li>
 
 <div class="m-auto w-full lg:px-33">
