@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 const BlogLayout = ({ title, url, description, pubDate, author, image, authorImage }) => {
   return(
-  <div className="group flex flex-row md:flex-row">
-    <a href={url} title={title} className="flex w-full">
+  <div className="group">
+    <a href={url} title={title} className="flex flex-col md:flex-row w-full">
       {/* Image on the left */}
-      <div className="w-2/4 h-auto flex-shrink-0">
+      <div className="md:w-2/4 h-auto flex-shrink-0">
         <img
           className="group-hover:scale-110 duration-300 aspect-[4/2] object-cover w-full h-full "
           loading="lazy"
@@ -15,7 +15,7 @@ const BlogLayout = ({ title, url, description, pubDate, author, image, authorIma
       </div>
   
       {/* Content on the right */}
-      <div className="w-2/4 pl-6 flex flex-col justify-center">
+      <div className="md:w-2/4 md:pl-6 flex flex-col justify-center">
         <p>
           <time className="text-xs text-vulcan-800" dateTime={pubDate}>
             {pubDate}
