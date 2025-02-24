@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const BlogEntry = ({ title, url, description, pubDate, author, image, authorImage }) => {
+const Blogs = ({ title, url, description, pubDate, author, image, authorImage }) => {
   return <div
     className="group flex md:flex-col">
     <a href={url} title={title}>
@@ -23,16 +23,16 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
         <h3 className="mt-5 text-lg font-medium leading-6 ">
           {title}
         </h3>
-        <p className="mt-2 text-base text-vulcan-900">
+        <p className="mt-2 text-base text-vulcan-900 line-clamp-1">
           {description}
         </p>
         <div>
           {/* <img src={authorImage} /> */}
-          {author && <p className='text-base font-semibold'>Author: {author}</p>}
+          {author && <p className='text-base font-semibold '>Author: {author}</p>}
           </div>
       </div>
     </a>
   </div>
 }
 
-export default BlogEntry;
+export default Blogs;
