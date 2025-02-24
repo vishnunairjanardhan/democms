@@ -129,7 +129,7 @@ Additionally, incentivizing customers to refer friends by offering extra rewards
 
 Personalizing the shopping experience for each customer leads to stronger connections, higher retention rates, and more sales. Use data analytics to understand what customers like, their needs and preferences, and their behavior. 
 
-By utlilizing this knowledge, provide personalized recommendations, customized promotions, relevant offers, and content that matches customer interests. By offering a unique homepage, tailored product suggestions, or custom messages, you show customers that you value them as individuals.
+By utilizing this knowledge, provide personalized recommendations, customized promotions, relevant offers, and content that matches customer interests. By offering a unique homepage, tailored product suggestions, or custom messages, you show customers that you value them as individuals.
 </li>
 
 <li>
@@ -264,7 +264,9 @@ Retention marketing focuses on turning one-time buyers into loyal customers. It�
 
 Customer Retention Rate (CRR) is an important metric indicating the proportion of customers who still interact with your brand during a particular period. To calculate CRR, you can use the formula:
 
-Customer Retention Rate (CRR)= Total customers at the end of the period - Total customers at the end of the period / Customers at the beginning of the period x 100
+<b>
+<em>Customer Retention Rate (CRR)= (Total customers at the end of the period) - (Total customers at the end of the period) / (Customers at the beginning of the period) x 100</em>
+</b>
 
 A high customer retention rate indicates the effectiveness of your retention efforts, and a low rate means it might be time to improve your customer engagement strategies.
 </li>
@@ -274,7 +276,9 @@ A high customer retention rate indicates the effectiveness of your retention e
 
 This metric measures the number of times your customers return to your brand to make repeat purchases. To calculate the Repeat Purchase Rate, the formula is:
 
-Repeat Purchase Rate(RPR)= Repeat Customers ​/ Repeat Customers​ 
+<b>
+<em>Repeat Purchase Rate(RPR)= (Repeat Customers) ​/ (Repeat Customers​)</em> 
+</b>
 
 A high Repeat Purchase Rate shows that your customers find value in what you offer and will return for more.
 </li>
@@ -284,7 +288,9 @@ A high Repeat Purchase Rate shows that your customers find value in what you o
 
 Customer Lifetime Value (CLV) measures how much money a customer is likely to bring to your business over their entire relationship with you. This metric is crucial for understanding how much you can spend on attracting new customers while still making a profit. The formula can be simplified as follows:
 
-Customer Lifetime Value (CLV)= Average Purchase Value × Purchase Frequency × Customer Lifespan 
+<b>
+<em>Customer Lifetime Value (CLV)= (Average Purchase Value) × (Purchase Frequency) × (Customer Lifespan)</em> 
+</b>
 
 A high CLV means that you are getting a good return from your customers, and this indicates successful retention.
 </li>
@@ -294,7 +300,9 @@ A high CLV means that you are getting a good return from your customers, and t
 
 The Churn Rate provides insight into the number of customers discontinuing usage of your business within a given period. To calculate this, you can use:
 
-Churn Rate= Lost Customers  / Total Customers at Start of Period x 100
+<b>
+<em>Churn Rate= (Lost Customers)  / (Total Customers at Start of Period) x 100</em>
+</b>
 
 A lower churn rate is preferred, as it indicates that your business retains more customers. Monitoring this metric helps identify potential issues and areas for improvement.
 </li>
@@ -304,7 +312,9 @@ A lower churn rate is preferred, as it indicates that your business retains more
 
 The NPS indicates customer satisfaction and loyalty, which calculates how likely your customers are to recommend your brand to others on a scale of 0-10. Depending on how they respond, customers are classified into promoters, passives, or detractors. The NPS is calculated with the formula:
 
-Net Promoter Score (NPS)= %Promoters−%Detractors
+<b>
+<em>Net Promoter Score (NPS)= (%Promoters−%Detractors)</em>
+</b>
 
 A high NPS indicates high levels of customer loyalty and satisfaction, and a low score may indicate dissatisfaction and the need to take corrective action.
 </li>
