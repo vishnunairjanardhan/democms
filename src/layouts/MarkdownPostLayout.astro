@@ -41,51 +41,13 @@ import { AstroSeo } from "@astrolib/seo";
         url: frontmatter?.url || "",
     }}
   />
-  <section class="relative overflow-x-hidden">
-    <svg
-      class="absolute blur-3xl right-0 top-0 opacity-80"
-      width="50%"
-      height="100%"
-      viewBox="0 0 400 400"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg">
-      <g clip-path="url(#clip0_17_60)">
-        <g filter="url(#filter0_f_17_60)">
-          <path d="M128.6 0H0V322.2L332.5 211.5L128.6 0Z" fill="#4D07E3"></path>
-          <path d="M0 322.2V400H240H320L332.5 211.5L0 322.2Z" fill="#4C00FF"
-          ></path>
-          <path d="M320 400H400V78.75L332.5 211.5L320 400Z" fill="#B5BFF1"
-          ></path>
-          <path d="M400 0H128.6L332.5 211.5L400 78.75V0Z" fill="#7fcef3"></path>
-        </g>
-      </g>
-      <defs>
-        <filter
-          id="filter0_f_17_60"
-          x="-159.933"
-          y="-159.933"
-          width="719.867"
-          height="719.867"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"></feBlend>
-          <feGaussianBlur
-            stdDeviation="79.9667"
-            result="effect1_foregroundBlur_17_60"></feGaussianBlur>
-        </filter>
-      </defs>
-    </svg>
+  <section class="relative overflow-x-hidden bg-[#E0DCFC]">
     <div
-      class="max-w-7xl px-8 md:px-12 relative lg:px-32 mx-auto lg:pt-56">
+      class="max-w-7xl px-8 md:px-12 relative lg:px-32 mx-auto lg:pt-56 pb-5">
       <div class="max-w-6xl">
-        <div class="flex">
+        <div class=" flex">
           <div class="border h-10 w-10 inline-flex items-center rounded-lg border-vulcan-800 group hover:border-white duration-300">
-            <a href="/" class="text-sm text-vulcan-800 duration-300 group-hover:mx-auto" role="link" aria-label="home">
+            <a href="/" class="text-sm text-vulcan-300 duration-300 group-hover: mx-auto" role="link" aria-label="home">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-#-2 w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> 
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path>
             <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path> <path d="M10 12h4v4h-4z"></path>
@@ -99,7 +61,7 @@ import { AstroSeo } from "@astrolib/seo";
           <a class="text-vulcan-800">{frontmatter.heading}</a>
           </div>
         </div>
-        <h1 rel="preload" class="text-4xl mt-4 font-normal tracking-tighter">
+        <h1 rel="preload" class="text-4xl mt-4 font-normal tracking-tighter ">
           {frontmatter.heading}
         </h1>
         <section class="relative overflow-x-hidden">
@@ -111,14 +73,14 @@ import { AstroSeo } from "@astrolib/seo";
               </div>
               <div class="w-full">
                 <div> 
-                  <p rel="preload" class="font-medium text-sm">
+                  <p rel="preload" class="font-medium  text-sm">
                   {frontmatter.author}
                 </p>
                 
                 </div>
                 <div>
                   <time
-                     class="flex text-vulcan-800 text-sm"
+                     class="flex text-vulcan-700 text-sm"
                      datetime={new Date(frontmatter.pubDate).toISOString()}
                      >
                      {new Date(frontmatter.pubDate).toLocaleDateString(undefined, {
@@ -132,7 +94,7 @@ import { AstroSeo } from "@astrolib/seo";
             </div>              
               <ul rel="preload" class="flex flex-wrap gap-2 mt-12">
               {frontmatter.tags.map((tag) => (
-                <li key={tag} class="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold transition-all border rounded-lg hover:text-indigo-400 border-vulcan-700">
+                <li key={tag} class="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold  transition-all border rounded-lg hover:text-vulcan-700 border-vulcan-700">
                   <a href={`/tags/${tag}`}>
                     {tag}
                   </a>
@@ -149,7 +111,7 @@ import { AstroSeo } from "@astrolib/seo";
     <div class="max-w-5xl px-8 md:px-12 relative lg:px-32 mx-auto py-10 lg:pt-10">
       <div>
         <div>
-          <div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-[#F7D691] hover:prose-a:prose-headings:font-normal prose-headings:prose-li:marker:text-white/70 prose-code:text-[18px] prose-blockquote:text-white/70">
+          <div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-[#F7D691] hover:prose-a: prose-headings:font-normal prose-headings: prose-li:marker: /70 prose-code: text-[18px] prose-blockquote:/70">
             <slot />
           </div>
         </div>

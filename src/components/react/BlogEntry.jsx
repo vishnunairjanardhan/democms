@@ -28,7 +28,7 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
         </p>
         <div>
           {/* <img src={authorImage} /> */}
-          {author && <p className='text-base'>Author: {author}</p>}
+          {author && <p className='text-base font-semibold'>Author: {author}</p>}
           </div>
       </div>
     </a>
