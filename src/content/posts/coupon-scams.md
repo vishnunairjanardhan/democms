@@ -49,6 +49,8 @@ A coupon scam occurs when individuals or groups manipulate discount codes, vouch
 
 According to a report by the global news agency on online payments, coupon fraud costs businesses over $600 million annually in the U.S. alone. Such activities undermine the integrity of promotional campaigns and lead to financial losses, inventory issues, and a negative impact on genuine customer experiences.
 
+<a href="https://www.99minds.io/loyalty" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP1.webp" alt="boost customer retention with our loyalty platform"></a>
+
 <h2 id="2">What Are the Common Types of Coupon Scams?</h2>
 
 Understanding the different types of coupon scams can help you identify and prevent misuse before it hurts your bottom line. Here are some of the most common types:
@@ -75,7 +77,40 @@ In some cases, fraudsters buy discounted coupons in bulk and resell them to cust
 
 Some customers create multiple accounts to take advantage of one-time-use coupons repeatedly, leading to revenue losses. This applies to popular [referral programs](https://www.99minds.io/blog/referral-program) when fraudsters generate fake referrals for which they get many bonuses.
 
-<h2 id="3">How Coupon Scams Take Shape</h2> 
+<!-- 
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+<h2 class="m-0 mb-4" id="3">How Coupon Scams Take Shape</h2> 
 
 Coupon scams aren’t always a simple case of someone printing an extra coupon at home. Many scams are well-organized and take advantage of loopholes in store policies or digital coupon systems. Here’s how these coupon frauds typically unfold:
 
@@ -101,6 +136,8 @@ Some scammers exploit loopholes in a store’s coupon system by stacking several
 Fake Refund & Exchange Schemes
 
 Another strategy uses counterfeit coupons to buy something and then return it for a full-price refund. Scam artists sometimes take advantage of the return policy by receiving cash instead of [store credit](https://www.99minds.io/blog/online-store-credit), successfully transitioning fake coupons to actual currency.
+
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <h2 id="4">Tips for Avoiding Coupon Misuse</h2>
 
