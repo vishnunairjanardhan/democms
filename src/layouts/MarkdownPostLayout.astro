@@ -85,7 +85,7 @@ import { AstroSeo } from "@astrolib/seo";
       <div class="max-w-6xl">
         <div class="text-white flex">
           <div class="border h-10 w-10 inline-flex items-center rounded-lg border-vulcan-800 group hover:border-white duration-300">
-            <a href="/" class="text-sm text-vulcan-300 duration-300 group-hover:text-white mx-auto" role="link" aria-label="home">
+            <a href="/" class="text-sm text-vulcan-300 duration-300 group-hover:text-vulcan-900 mx-auto" role="link" aria-label="home">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-#-2 w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> 
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path>
             <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path> <path d="M10 12h4v4h-4z"></path>
@@ -171,7 +171,7 @@ import { AstroSeo } from "@astrolib/seo";
             </div>              
               <ul rel="preload" class="flex flex-wrap gap-2 mt-12">
               {frontmatter.tags.map((tag) => (
-                <li key={tag} class="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">
+                <li key={tag} class="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-400 hover:border-white">
                   <a href={`/tags/${tag}`}>
                     {tag}
                   </a>
@@ -188,8 +188,8 @@ import { AstroSeo } from "@astrolib/seo";
     <div class="max-w-5xl px-8 md:px-12 relative lg:px-32 mx-auto py-10 lg:pt-10">
       <div>
         <div>
-          <div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-[#F7D691] hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-white text-white/70 prose-code:text-white text-[18px] prose-blockquote:text-white/70">
-          <!--<div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-violet-400	 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white   prose-li:marker:text-indigo-500 text-vulcan-300 text-lg prose-code:text-white prose-blockquote:text-white/70">-->
+          <div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-[#F7D691] hover:prose-a:text-vulcan-900 prose-headings:font-normal prose-headings:text-vulcan-900 prose-li:marker:text-vulcan-900 text-vulcan-900/70 prose-code:text-vulcan-900 text-[18px] prose-blockquote:text-vulcan-900/70">
+          <!--<div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-violet-400	 hover:prose-a:text-vulcan-900 prose-headings:font-normal prose-headings:text-vulcan-900   prose-li:marker:text-indigo-500 text-vulcan-300 text-lg prose-code:text-vulcan-900 prose-blockquote:text-vulcan-900/70">-->
             <slot />
           </div>
         </div>
