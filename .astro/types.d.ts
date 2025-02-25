@@ -500,6 +500,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"coupon-scams.md": {
+	id: "coupon-scams.md";
+  slug: "coupon-scams";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "customer-acquisition-strategy.md": {
 	id: "customer-acquisition-strategy.md";
   slug: "customer-acquisition-strategy";
