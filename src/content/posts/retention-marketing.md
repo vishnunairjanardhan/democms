@@ -59,6 +59,8 @@ Retention marketing is all about repeatedly keeping customers coming back and 
 
 Retention strategies focus on retaining existing customers rather than acquiring new ones. According to <a href="https://www.forbes.com/councils/forbesbusinesscouncil/2022/12/12/customer-retention-versus-customer-acquisition/" role="link" target="_blanck">Forbes</a>, research shows that getting a new customer might cost five times to seven times more than retaining an existing one. <a href="https://www.99minds.io/blog/customer-retention" role="link" target="_blanck">Customer retention</a> helps businesses build brand loyalty, increase lifetime value, and provide sustainable revenue streams.
 
+<a href="https://www.99minds.io/loyalty" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP1.webp" alt="boost customer retention with our loyalty platform"></a>
+
 <h2 id="2">Benefits of Retention Marketing</h2>
 
 Retention marketing is a powerful strategy to encourage customers to make repeat purchases, which helps the business grow in the long term. Here’s a breakdown of how each benefit contributes to your success:
@@ -129,7 +131,7 @@ Additionally, incentivizing customers to refer friends by offering extra rewards
 
 Personalizing the shopping experience for each customer leads to stronger connections, higher retention rates, and more sales. Use data analytics to understand what customers like, their needs and preferences, and their behavior. 
 
-By utlilizing this knowledge, provide personalized recommendations, customized promotions, relevant offers, and content that matches customer interests. By offering a unique homepage, tailored product suggestions, or custom messages, you show customers that you value them as individuals.
+By utilizing this knowledge, provide personalized recommendations, customized promotions, relevant offers, and content that matches customer interests. By offering a unique homepage, tailored product suggestions, or custom messages, you show customers that you value them as individuals.
 </li>
 
 <li>
@@ -156,6 +158,8 @@ Additionally, post exclusive deals, birthday discounts, and limited-time offers 
 Using digital coupons in your email and social media, marketing makes it easy for customers to access them. Ensure these coupons are simple to use, improving the overall shopping experience. You can also create unique coupon codes for loyal customers to encourage them to shop again and show that you value their continued business.
 </li>
 </ol>
+
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <h2 id="4">Retention Marketing Tools</h2>
 
@@ -255,7 +259,40 @@ Hotjar is a popular tool used by famous brands such as Decathlon, HubSpot, Airbn
 - <b>Analytics & Reporting</b>: Gain insights into customer behavior and campaign performance.
 </ol>
 
-<h2 id="5">How to Measure the Retention Marketing</h2>
+<!-- 
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+<h2 class="m-0 mb-4" id="5">How to Measure the Retention Marketing</h2>
 
 Retention marketing focuses on turning one-time buyers into loyal customers. It’s about building a relationship that encourages customers to return. Here are five important metrics to measure how well it works:
 <ol>
@@ -264,7 +301,9 @@ Retention marketing focuses on turning one-time buyers into loyal customers. It�
 
 Customer Retention Rate (CRR) is an important metric indicating the proportion of customers who still interact with your brand during a particular period. To calculate CRR, you can use the formula:
 
-Customer Retention Rate (CRR)= Total customers at the end of the period - Total customers at the end of the period / Customers at the beginning of the period x 100
+<b>
+<em>Customer Retention Rate (CRR)= (Total customers at the end of the period) - (Total customers at the end of the period) / (Customers at the beginning of the period) x 100</em>
+</b>
 
 A high customer retention rate indicates the effectiveness of your retention efforts, and a low rate means it might be time to improve your customer engagement strategies.
 </li>
@@ -274,7 +313,9 @@ A high customer retention rate indicates the effectiveness of your retention e
 
 This metric measures the number of times your customers return to your brand to make repeat purchases. To calculate the Repeat Purchase Rate, the formula is:
 
-Repeat Purchase Rate(RPR)= Repeat Customers ​/ Repeat Customers​ 
+<b>
+<em>Repeat Purchase Rate(RPR)= (Repeat Customers) ​/ (Repeat Customers​)</em> 
+</b>
 
 A high Repeat Purchase Rate shows that your customers find value in what you offer and will return for more.
 </li>
@@ -284,7 +325,9 @@ A high Repeat Purchase Rate shows that your customers find value in what you o
 
 Customer Lifetime Value (CLV) measures how much money a customer is likely to bring to your business over their entire relationship with you. This metric is crucial for understanding how much you can spend on attracting new customers while still making a profit. The formula can be simplified as follows:
 
-Customer Lifetime Value (CLV)= Average Purchase Value × Purchase Frequency × Customer Lifespan 
+<b>
+<em>Customer Lifetime Value (CLV)= (Average Purchase Value) × (Purchase Frequency) × (Customer Lifespan)</em> 
+</b>
 
 A high CLV means that you are getting a good return from your customers, and this indicates successful retention.
 </li>
@@ -294,7 +337,9 @@ A high CLV means that you are getting a good return from your customers, and t
 
 The Churn Rate provides insight into the number of customers discontinuing usage of your business within a given period. To calculate this, you can use:
 
-Churn Rate= Lost Customers  / Total Customers at Start of Period x 100
+<b>
+<em>Churn Rate= (Lost Customers)  / (Total Customers at Start of Period) x 100</em>
+</b>
 
 A lower churn rate is preferred, as it indicates that your business retains more customers. Monitoring this metric helps identify potential issues and areas for improvement.
 </li>
@@ -304,7 +349,9 @@ A lower churn rate is preferred, as it indicates that your business retains more
 
 The NPS indicates customer satisfaction and loyalty, which calculates how likely your customers are to recommend your brand to others on a scale of 0-10. Depending on how they respond, customers are classified into promoters, passives, or detractors. The NPS is calculated with the formula:
 
-Net Promoter Score (NPS)= %Promoters−%Detractors
+<b>
+<em>Net Promoter Score (NPS)= (%Promoters−%Detractors)</em>
+</b>
 
 A high NPS indicates high levels of customer loyalty and satisfaction, and a low score may indicate dissatisfaction and the need to take corrective action.
 </li>
