@@ -38,7 +38,7 @@ In this blog, I’m breaking down the 12 best Shopify loyalty apps for 2025. Whe
 <h2 id="Best-Shopify-Loyalty-Apps">Best Shopify Loyalty Apps</h2>
 <ol>
 <li>
-<h3>99minds</h3>
+<h3>99minds Gift Card & Loyalty</h3>
 
 <a href="https://apps.shopify.com/99minds-gift-card-loyalty-referral" role="link" target="blanck">99minds</a> is a powerful Shopify loyalty app that enables merchants to create personalized loyalty programs tailored to their audience. Its advanced segmentation and automation features make it a favorite among businesses looking to offer unique customer experiences.
 
@@ -203,10 +203,10 @@ In this blog, I’m breaking down the 12 best Shopify loyalty apps for 2025. Whe
 
 <b>Why it’s great</b>:
 <ul>
-<li>Points and rewards system</li>.
-<li>Referral and VIP programs</li>.
-<li>Customizable program designs</li>.
-<li>Integration with Shopify</li>.
+<li>Points and rewards system.</li>
+<li>Referral and VIP programs.</li>
+<li>Customizable program designs.</li>
+<li>Integration with Shopify.</li>
 </ul>
 
 <b>Best For</b>: Small businesses seeking a comprehensive and affordable loyalty app.
