@@ -5,12 +5,19 @@
 				<a role="link" href="/" class="lg:pr-8">
 					<div class="inline-flex items-center gap-3"> <img class="" width="125" height="28" alt="99minds logo" src="/logos/99minds-logo-b.svg" /> </div>
 				</a>
-				<button role="button" aria-label="navigation" @click="open = !open" :aria-expanded="open" aria-controls="primary-navigation" class="inline-flex items-center justify-center p-2 text-white hover:text-indigo-400 focus:outline-none focus:text-white md:hidden">
-					<svg class="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-						<path :class="{'hidden': open, 'inline-flex': !open }" class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"> </path>
-						<path :class="{'hidden': !open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"> </path>
-					</svg>
-				</button>
+			  <button role="button" aria-label="navigation" @click="open = !open" :aria-expanded="open"
+            aria-controls="primary-navigation"
+            class="inline-flex items-center justify-center p-2 focus:outline-none md:hidden"
+            :class="open ? 'text-black' : 'text-black'">
+            <svg class="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                <path :class="{ 'hidden': open, 'inline-flex': !open }" class="inline-flex" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                </path>
+                <path :class="{ 'hidden': !open, 'inline-flex': open }" class="hidden" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                </path>
+            </svg>
+        </button>
 			</div>
 			<nav id="primary-navigation" :class="{'flex': open, 'hidden': !open}" class="flex-col items-start flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
 				<div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
@@ -112,7 +119,7 @@
 								</li>
 							</ul>
 							<ul id="demo-button" class="space-x-8 mt-10 ml-0">
-								<li class="hideThis">
+								<li class="hideDemo">
 									<div class="h-80 border rounded-3xl" style="width: 250px; background-color: #c2ddff;">
 										<div>
 											<p class="text-black text-lg font-semibold mt-24 ml-8"> Ready to see how it
@@ -150,7 +157,7 @@
 						<div class="bg-white border-t rounded-xl flex flex-col md:flex-row lg:flex-row gap-6 mt-4 md:w-[91rem] sm:h-[48rem] md:h-[28rem]">
 
 
-							<ul id="products" class="lg:space-y-2 mt-4 md:ml-14 flex flex-col items-start">
+							<ul id="resources" class="lg:space-y-2 mt-4 md:ml-14 flex flex-col items-start">
 									<a href="/blog" class="text-black font-semibold lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
 										<div class="flex items-center">
 											<h4>
@@ -182,7 +189,7 @@
 								</li>
 							</ul>
 							<div class="border-r border-gray-600 pr-16 lg:ml-16 mt-4 mb-14">
-								<ul id="coupon" class="lg:mt-2 mt-0">
+								<ul id="resources" class="lg:mt-2 mt-0">
 									<li>
 										<a href="/case-study" class="text-black font-semibold lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
 											<div class="flex items-center">
@@ -230,7 +237,7 @@
 							</ul>
 							<ul id="demo-button" class="space-x-8 lg:mt-8 ml-0">
 								<li>
-									<h3 class="text-black lg:ml-8 hideThis">
+									<h3 class="text-black lg:ml-8 hideThis highlights">
                     Highlights
                   </h3> </li>
 								<a class="hideThis" href="/bfcm">
@@ -280,72 +287,80 @@
 		</div>
 	</div>
 </section>
+
+
   <style>
-#resources-dropdown {
+/* Common styles for dropdowns */
+#resources-dropdown, #products-dropdown {
   position: absolute;
   transform: translateX(-50%);
   z-index: 50;
 }
 
-#resources-dropdown .bg-white {
-  display: flex;
-  flex-direction: row;
-  gap: 1.5rem;
-}
-    @media (max-width: 768px) {
-      #products-dropdown {
-        position: fixed;
-        top: 60px; 
-        left: 0;
-        width: 100%;
-        max-height: calc(100vh - 60px);
-        overflow-y: auto;
-      }
-	  .hideThis{
-		display: none;
-	  }
-      
-      .def {
-        height: auto;
-        padding: 1rem;
-      }
-      
-      #products li, #coupon li {
-        margin-top: 0.5rem;
-      }
-      
-      #products li:first-child, #coupon li:first-child {
-        margin-top: 0;
-      }
-      
-      .grid-cols-1 > * {
-        padding: 0.5rem 0;
-      }
-      
-      .border-r {
-        border-right: none;
-        border-bottom: 1px solid #e5e7eb;
-        margin-bottom: 1rem;
-        padding-bottom: 1rem;
-      }
-	   #resources-dropdown {
+/* Apply mobile styles to medium screens */
+@media (max-width: 1024px) {
+  /* Make dropdowns full width */
+  #products-dropdown, #resources-dropdown {
     position: fixed;
     top: 60px;
     left: 0;
     width: 100%;
-    transform: none;
     max-height: calc(100vh - 60px);
     overflow-y: auto;
+    transform: none;
     padding-right: 0;
   }
+  #resources-dropdown .bg-white, #products-dropdown .bg-white {
+  display: flex;
+  flex-direction: row;
+  gap: 1.3rem;
+}
+ #resources-dropdown #resources li {
+  margin-top: 1.5rem;
+}
+ /* Remove left margin on li elements */
+  #resources-dropdown ul li,
+  #products-dropdown ul li {
+    margin-left: 0 !important;
+  }
 
-  #resources-dropdown .bg-white {
+  /* Ensure ul has no extra margin or padding */
+  #resources-dropdown ul, 
+  #products-dropdown ul {
+    margin-left: 0 !important;
+  }
+
+  #resources-dropdown .highlights {
+  margin-left: 0 !important;
+}
+
+  /* Ensure div with border doesn't add unwanted spacing */
+  .border-r {
+    margin-left: 0 !important;
+  } 
+
+  /* Adjust dropdown content to single-column */
+  #resources-dropdown .bg-white,
+  #products-dropdown .bg-white {
     flex-direction: column;
     padding: 1rem;
     height: auto;
+    width: 100%;
   }
 
-  #resources-dropdown .border-r {
+  /* Ensure all items in Products dropdown align in one column */
+  #products-dropdown ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #products-dropdown li {
+    width: 100%;
+  }
+
+  /* Style individual sections */
+  .border-r {
     border-right: none;
     border-bottom: 1px solid #e5e7eb;
     margin-bottom: 1rem;
@@ -354,12 +369,14 @@
     margin-right: 0;
   }
 
-  #resources-dropdown ul {
+  #resources-dropdown ul, #products-dropdown ul {
     margin-left: 0;
     padding: 0.5rem;
   }
 
-  #resources-dropdown #demo-button {
+  /* Hide demo button */
+  #resources-dropdown #demo-button, 
+  #products-dropdown #demo-button {
     margin: 1rem 0;
   }
 
@@ -367,8 +384,9 @@
     margin: 1rem 0;
   }
 
-  /* Hide decorative elements on mobile */
-  #resources-dropdown .pr-[27rem] {
+  /* Hide decorative elements */
+  #resources-dropdown .pr-[27rem], 
+  #products-dropdown .pr-[27rem] {
     padding-right: 0;
   }
 
@@ -392,14 +410,27 @@
     margin-left: 0;
     margin-top: 0.5rem;
   }
-    }
-	@media (max-width: 480px) {
-  #resources-dropdown {
+}
+
+/* Small screen adjustments */
+@media (max-width: 480px) {
+  #resources-dropdown, #products-dropdown {
     padding: 0;
   }
+  #products-dropdown .hideThis {
+  display: none !important;
+}
+ #resources-dropdown .hideThis {
+  display: none !important;
+}
 
-  #resources-dropdown .bg-white {
+#resources-dropdown #resources li {
+  margin-top: 1.5rem;
+}
+  #resources-dropdown .bg-white, #products-dropdown .bg-white {
     border-radius: 0;
   }
 }
+
+
   </style>
