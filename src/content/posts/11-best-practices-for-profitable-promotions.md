@@ -62,7 +62,8 @@ Advancements can essentially boost deals, client engagement, and brand mindfulne
   </ul>
  </div> 
 
- <h2 id="Define-Clear-Goals-and-Metrics">Define Clear Goals and Metrics</h2>
+<ol role="list">
+ <li><h2 id="Define-Clear-Goals-and-Metrics">Define Clear Goals and Metrics</h2></li>
 
  Some time recently propelling a limited time campaign, characterizing particular targets that adjust together with your generally commerce technique is fundamental. This is difference degree win and make sure progress adds to economical growth rather than short-term pick-ups.
 
@@ -93,7 +94,7 @@ In order to test the effectiveness of a promotion, measure important performance
  <img class="w-3/4 m-4" src="/assets/blog/business-metrics.png" alt="Business Metrics"/>
  </div>
 
- <h2 id="Target-the-Right-Audience">Target the Right Audience</h2>
+ <li><h2 id="Target-the-Right-Audience">Target the Right Audience</h2></li>
 
  Promotions need to be aimed at focused customer segments, not dumped on all consumers. Identification of the targeted audience maximizes the efficacy of promotion and prevents unnecessary discounting.
 
@@ -111,7 +112,7 @@ Key customer segments include:
  <img class="w-3/4 m-4" src="/assets/blog/customer-segmentation.png" alt="Customer Segmentation"/>
  </div>
 
- <h2 id="Choose-the-Right-Promotion-Type">Choose the Right Promotion Type</h2>
+ <li><h2 id="Choose-the-Right-Promotion-Type">Choose the Right Promotion Type</h2></li>
 
  Selecting the right type of promotion depends on the business objective and the target audience. 
 
@@ -131,7 +132,7 @@ Key customer segments include:
   <img class="w-3/4 m-4" src="/assets/blog/sales-promotions.png" alt="Sales Promotions"/>
   </div>
 
- <h2 id="Use-Multi-Channel-Promotion-Strategies">Use Multi-Channel Promotion Strategies</h2>
+ <li><h2 id="Use-Multi-Channel-Promotion-Strategies">Use Multi-Channel Promotion Strategies</h2></li>
 
  The promotion must be spread far and wide to ensure that it reaches the maximum possible. A single channel is sufficient to restrict reach and prevent conversions. 
 
@@ -151,7 +152,7 @@ Successful channels are:
   <img class="w-3/4 m-4" src="/assets/blog/marketing-channels.png" alt="Channel Promotions"/>
   </div>
 
- <h2 id="Leverage-Scarcity-&-Urgency">Leverage Scarcity and Urgency</h2>
+ <li><h2 id="Leverage-Scarcity-&-Urgency">Leverage Scarcity and Urgency</h2></li>
 
  Creating a sense of urgency is one of the most effective ways to drive immediate action. Customers are more likely to purchase if they believe they might miss out on a good deal.
 
@@ -170,7 +171,7 @@ Proven urgency tactics include:
  <img class="w-3/4 m-4" src="/assets/blog/proven-urgency-tactics-include-visual-selection.png" alt="Security Promotions"/>
  </div>
 
- <h2 id="Optimize-Pricing-&-Discount-Structures">Optimize Pricing and Discount Structures</h2>
+ <li><h2 id="Optimize-Pricing-&-Discount-Structures">Optimize Pricing and Discount Structures</h2></li>
 
  Offering discounts without a clearly formulated price policy can lead to revenue loss. To stay profitable, firms need to formulate discount levels and price models with care.
 
@@ -190,7 +191,7 @@ Best practices for pricing strategies:
  <img class="w-3/4 m-4" src="/assets/blog/pricing-strategies.png" alt="Pricing Strategies"/>
  </div>
 
- <h2 id="Ensure-a-Seamless-Customer-Experience">Ensure a Seamless Customer Experience</h2>
+ <li><h2 id="Ensure-a-Seamless-Customer-Experience">Ensure a Seamless Customer Experience</h2></li>
 
  Even the most excellent promotion won't take flight if the consumer is having a bad moment at checkout time. Frictionless shopping results in higher conversion and satisfaction.
 
@@ -209,7 +210,7 @@ Key areas to optimize:
  <img class="w-3/4 m-4" src="/assets/blog/optimize-funnel.png" alt="Customer funnel"/>
  </div>
 
- <h2 id="Prevent-Fraud-&-Abuse">Prevent Fraud and Abuse</h2>
+ <li><h2 id="Prevent-Fraud-&-Abuse">Prevent Fraud and Abuse</h2></li>
 
  Promotional fraud in the form of coupon abuse and fictitious accounts can cause high financial losses. Companies need to put measures in place to mitigate these occurrences.
 
@@ -231,7 +232,7 @@ Be alert to any out-of-place buys.
  <img class="w-3/4 m-4" src="/assets/blog/fraudulent-activities.png" alt="Fraudulent Activities"/>
  </div>
 
-<h2 id="Optimize-Mobile-Experience">Optimize for Mobile Users</h2>
+<li><h2 id="Optimize-Mobile-Experience">Optimize for Mobile Users</h2></li>
 
 With most online sales happening via mobile devices, ensuring mobile-friendly promotions is crucial.
 
@@ -250,7 +251,7 @@ Methods to improve the mobile shopping experience:
  <img class="w-3/4 m-4" src="/assets/blog/mobile-shopping.png" alt="Mobile Shopping"/>
  </div>
 
- <h2 id="Test-Analyze-&-Optimize">Test, Analyze, and Optimize Promotions</h2>
+ <li><h2 id="Test-Analyze-&-Optimize">Test, Analyze, and Optimize Promotions</h2></li>
 
  Analysis & Optimization So, additional iteration is required to maximize promotional revenue. A/B Testing is the very first thing that companies should do, followed up by checking their performance metrics all day long.
 
@@ -269,7 +270,7 @@ Essential elements to test:
  <img class="w-3/4 m-4" src="/assets/blog/optimize-strategies.png" alt="Optimize Promotions"/>
  </div>
 
- <h2 id="Build-Long-Term-Customer-Loyalty">Build Long-Term Customer Loyalty</h2>
+ <li><h2 id="Build-Long-Term-Customer-Loyalty">Build Long-Term Customer Loyalty</h2></li>
 
  It is more effective for businesses to use promotions as a means of building <a href="https://www.99minds.io/blog/build-customer-loyalty">customer loyalty</a>, rather than just providing revenue in short-term periods.
 
@@ -283,6 +284,7 @@ Essential elements to test:
 <div class="flex justify-center">
  <img class="w-3/4 m-4" src="/assets/blog/customer-engagement-strategies.png" alt="Optimize Promotions"/>
  </div>
+ </ol>
 
  <h2 id="Conclusion">Conclusion</h2>
 
