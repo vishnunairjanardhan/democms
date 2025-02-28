@@ -22,7 +22,7 @@ The essential part of this problem is to use performance measuring through Key P
 
 In this blog post, we will explore 10 fundamental KPIs that can help you manage and improve your loyalty program, increasing your customer retention and the overall lifetime value of your customers.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
+<div class="p-[0.060rem] rounded-3xl border-2 border-gray-300 bg-gradient-to-r from-purple-100 to-purple-300 shadow-md px-8 pb-4">
 <p>Table of Contents:</p>
 <ul role="list">
   <li>

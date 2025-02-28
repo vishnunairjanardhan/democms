@@ -22,32 +22,47 @@ With almost five million online stores, Shopify is one of the top ecommerce plat
 The impact of a Shopify referral program is significant—27% of D2C shoppers consider loyalty programs (often paired with referral features) a key reason to shop directly from brands. Take Galen Leather Co. as an example—after launching a <a href="https://www.99minds.io/blog/referral-program-ideas">referral program</a>, the brand saw $350,000+ in sales and gained 2,000+ new customers through referral codes.
 
 In this guide, we’ll break down everything you need to know about Shopify referral programs, from how they work to the best strategies for setting one up successfully.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#How-Shopify-Referral-Programs-Works" rel="noreferrer">How Shopify Referral Programs Works</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Different-types-of-Shopify-Referral-Programs" rel="noreferrer">Different types of Shopify Referral Programs</a>
-  </li>
-    <li>  
-    <a role="link" href="#Why-Referral-Programs-Work" rel="noreferrer">Why Referral Programs Work</a>
-  </li>
-  <li>  
-    <a role="link" href="#How-to-Set-Up-a-Referral-Program-on-Shopify" ref="noreferrer">How to Set Up a Referral Program on Shopify</a>
-  </li>
-    <li>  
-    <a role="link" href="#Final-Words-on-Shopify-Referral-Programs" ref="noreferrer">Final Words on Shopify Referral Programs
-</a>
-  </li>
-  <li>  
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Shopify-Referral-Programs" ref="noreferrer">Frequently Asked Questions (FAQs) on Shopify Referral Programs
-</a>
-  </li>  
-</ul>
+<!-- <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4"> -->
+<!-- <div class="p-[0.060rem] rounded-3xl border-2 border-gray-300 bg-gradient-to-r from-orange-100 to-orange-200 shadow-md px-8 pb-4"> -->
+<!-- <div class="p-[0.060rem] rounded-3xl border-2 border-gray-300 bg-gradient-to-r from-purple-100 to-purple-300 shadow-md px-8 pb-4"> -->
+<!-- <div class="p-[0.060rem] rounded-3xl border-2 border-gray-300 bg-gradient-to-r from-green-100 to-green-300 shadow-md px-8 pb-4"> -->
+<!-- <div class="p-[0.060rem] rounded-3xl border-2 border-gray-300 bg-gradient-to-r from-gray-100 to-gray-300 shadow-md px-8 pb-4"> -->
+<div class="p-[0.060rem] rounded-3xl border-2 border-gray-300 bg-gradient-to-r from-blue-100 to-blue-300 shadow-md px-8 pb-4">
+  <p class="font-semibold">Table of Contents:</p>
+  <ul class="space-y-2 text-gray-700">
+    <li>
+      <a href="#How-Shopify-Referral-Programs-Works" rel="noreferrer">
+        How Shopify Referral Programs Works
+      </a>
+    </li>
+    <li>
+      <a href="#Different-types-of-Shopify-Referral-Programs" rel="noreferrer">
+        Different types of Shopify Referral Programs
+      </a>
+    </li>
+    <li>
+      <a href="#Why-Referral-Programs-Work" rel="noreferrer">
+        Why Referral Programs Work
+      </a>
+    </li>
+    <li>
+      <a href="#How-to-Set-Up-a-Referral-Program-on-Shopify" rel="noreferrer">
+        How to Set Up a Referral Program on Shopify
+      </a>
+    </li>
+    <li>
+      <a href="#Final-Words-on-Shopify-Referral-Programs" rel="noreferrer">
+        Final Words on Shopify Referral Programs
+      </a>
+    </li>
+    <li>
+      <a href="#Frequently-Asked-Questions-(FAQs)-on-Shopify-Referral-Programs" rel="noreferrer">
+        Frequently Asked Questions (FAQs) on Shopify Referral Programs
+      </a>
+    </li>
+  </ul>
 </div>
+
 
 <h2 id="How-Shopify-Referral-Programs-Works">How a Shopify Referral Program Works</h2>
 

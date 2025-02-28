@@ -23,7 +23,7 @@ According to <a href="https://cdn2.hubspot.net/hubfs/2771217/Content/2018%20Cust
 
 By creating strong retention marketing strategies, businesses can improve customer satisfaction, build long-term relationships, and maintain steady revenue growth.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
+<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-indigo-200 shadow-purple-300 bg-purple-200 via-indigo-500/1 px-8 pb-4">
 <P>Table of Contents:</P>
 <ul>
   <li>  

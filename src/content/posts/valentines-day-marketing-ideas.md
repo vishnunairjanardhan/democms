@@ -18,17 +18,17 @@ keywords: ["Valentine’s Day Marketing Ideas"]
 Valentine’s Day presents a significant opportunity for businesses, especially in the ecommerce sector, as it drives substantial consumer spending. In the U.S. alone, expenditures are projected to hit $22 billion this year. For online retailers, this romantic holiday is a prime time to boost sales and engage customers. However, not all Valentine’s Day marketing ideas are equally effective, and what works for one business may not suit another.
 
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
+<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-indigo-950 text-white px-8 pb-4">
+<p class="text-white">Table of Contents:</p>
 <ul>
   <li>  
-    <a role="link" href="#10-Winning-Valentine’s-Day-Marketing-Ideas" rel="noreferrer">10 Winning Valentine’s Day Marketing Ideas</a>
+    <a role="link" href="#10-Winning-Valentine’s-Day-Marketing-Ideas" rel="noreferrer">10 Winning Valentines Day Marketing Ideas</a>
   </li> 
   <li>  
-    <a role="link" href="#Final-Words-on-Valentine’s-Day-Marketing-Ideas" rel="noreferrer">Final Words on Valentine’s Day Marketing Ideas</a>
+    <a role="link" href="#Final-Words-on-Valentine’s-Day-Marketing-Ideas" rel="noreferrer">Final Words on Valentines Day Marketing Ideas</a>
   </li>
     <li>  
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Valentine’s-Day-Marketing-Ideas" rel="noreferrer">Frequently Asked Questions (FAQs) on Valentine’s Day Marketing Ideas</a>
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Valentine’s-Day-Marketing-Ideas" rel="noreferrer">Frequently Asked Questions (FAQs) on Valentines Day Marketing Ideas</a>
   </li>
  
 </ul>
