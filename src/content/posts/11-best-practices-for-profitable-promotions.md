@@ -81,9 +81,9 @@ In order to test the effectiveness of a promotion, measure important performance
 (KPIs) including:
 
  <ul>
- <li><b>Conversion rate:</b> The ratio of visitors who make a purchase.</li>
+ <li><b>Conversion rate: </b> The ratio of visitors who make a purchase.</li>
  <li><b>Revenue per customer: </b>Average spend amount per transaction.</li>
- <li><b>Profit margins:</b>In order to avoid the discounts resulting in financial losses.</li>
+ <li><b>Profit margins: </b>In order to avoid the discounts resulting in financial losses.</li>
  <li><b>Customer acquisition cost (CAC): </b>To estimate the effectiveness in bringing in new purchasers.</li>
  
  </ul>
@@ -101,9 +101,9 @@ In order to test the effectiveness of a promotion, measure important performance
 Key customer segments include:
 
  <ul>
- <li><b>New Customers:</b>New customers can be motivated with temporary welcome discounts or first-order offers.</li>
- <li><b>Loyal Customers:</b>VIP or rewards-based discounts enhance brand loyalty and drive repeat purchases.</li>
- <li><b>Inactive Shoppers:</b>Billed re-engagement promotions (e.g., special offers on products they last looked at) can encourage re-purchasing by those who haven't bought in a while.</li> 
+ <li><b>New Customers: </b>New customers can be motivated with temporary welcome discounts or first-order offers.</li>
+ <li><b>Loyal Customers: </b>VIP or rewards-based discounts enhance brand loyalty and drive repeat purchases.</li>
+ <li><b>Inactive Shoppers: </b>Billed re-engagement promotions (e.g., special offers on products they last looked at) can encourage re-purchasing by those who haven't bought in a while.</li> 
  </ul>
 
  Using customer information and shopping history enables companies to create promotions that talk to certain groups of people, with increased engagement and profitability in the long term.
@@ -119,11 +119,11 @@ Key customer segments include:
  Some of the most effective promotion types include:
 
   <ul>
- <li><b>Flash Sales:</b>Short-term discounts that create urgency and help clear excess inventory.</li>
- <li><b>Buy One, Get One (BOGO):</b>Encourages higher sales volume and improves perceived value.
+ <li><b>Flash Sales: </b>Short-term discounts that create urgency and help clear excess inventory.</li>
+ <li><b>Buy One, Get One (BOGO): </b>Encourages higher sales volume and improves perceived value.
 </li>
- <li><b>Tiered Discounts:</b>Offers greater savings when customers spend more, encouraging larger purchases (e.g., "Spend $50 and get 10% off, spend $100 and get 20% off").</li> 
-  <li><b>Free Shipping Incentives:</b> Many customers abandon carts due to shipping costs; offering free shipping beyond a certain order value can increase AOV.</li> 
+ <li><b>Tiered Discounts: </b>Offers greater savings when customers spend more, encouraging larger purchases (e.g., "Spend $50 and get 10% off, spend $100 and get 20% off").</li> 
+  <li><b>Free Shipping Incentives: </b> Many customers abandon carts due to shipping costs; offering free shipping beyond a certain order value can increase AOV.</li> 
  </ul>
 
  By testing various promotion tactics, companies can determine what performs best with their audience and revenue objectives.
@@ -139,11 +139,11 @@ Key customer segments include:
 Successful channels are:
 
   <ul>
- <li><b>Email Marketing:</b>Personalized promotions based on past purchases or browsing behavior.</li>
- <li><b>Social Media Advertising:</b>Facebook, Instagram, and TikTok promotions that target specific customer demographics.
+ <li><b>Email Marketing: </b>Personalized promotions based on past purchases or browsing behavior.</li>
+ <li><b>Social Media Advertising: </b>Facebook, Instagram, and TikTok promotions that target specific customer demographics.
 </li>
- <li><b>SEO & Content Marketing:</b>Optimized blog posts and landing pages that attract organic search traffic.</li> 
-  <li><b>Google Ads & Retargeting:</b>Search and display ads that reconnect with interested customers who already browsed the website.</li> 
+ <li><b>SEO & Content Marketing: </b>Optimized blog posts and landing pages that attract organic search traffic.</li> 
+  <li><b>Google Ads & Retargeting: </b>Search and display ads that reconnect with interested customers who already browsed the website.</li> 
  </ul>
 
  An omnichannel strategy boosts visibility and makes it so that the customer experiences promotions at various touchpoints, resulting in increased conversion rates.
@@ -159,10 +159,10 @@ Successful channels are:
 Proven urgency tactics include:
 
  <ul>
- <li><b>Limited-Time Offers:</b> Clearly communicating that the promotion will end soon, such as “Only 24 hours left to save”</li>
- <li><b>Low Stock Alerts:</b>Highlighting when an item is almost out of stock (e.g., "Only three left in stock") to create urgency.
+ <li><b>Limited-Time Offers: </b> Clearly communicating that the promotion will end soon, such as “Only 24 hours left to save”</li>
+ <li><b>Low Stock Alerts: </b>Highlighting when an item is almost out of stock (e.g., "Only three left in stock") to create urgency.
 </li>
- <li><b>Exclusive Deals:</b>Promotions that are only available to a select group (such as email subscribers or loyalty program members) to enhance exclusivity.</li> 
+ <li><b>Exclusive Deals: </b>Promotions that are only available to a select group (such as email subscribers or loyalty program members) to enhance exclusivity.</li> 
  </ul>
 
  By leveraging scarcity, businesses can reduce customer hesitation and increase conversion rates.
@@ -179,10 +179,10 @@ Proven urgency tactics include:
 Best practices for pricing strategies:
 
  <ul>
- <li><b>Establish Discount Limits:</b>Never over-discount items, damaging brand reputation and shrinking profit margins.</li>
- <li><b>Dynamic Pricing:</b>Adapt promotion pricing to demand, competition prices, and real-time performance.
+ <li><b>Establish Discount Limits: </b>Never over-discount items, damaging brand reputation and shrinking profit margins.</li>
+ <li><b>Dynamic Pricing: </b>Adapt promotion pricing to demand, competition prices, and real-time performance.
 </li>
- <li><b>Volume-Based Incentives:</b>Encourage larger purchases by offering discounts on bulk buys.</li> 
+ <li><b>Volume-Based Incentives: </b>Encourage larger purchases by offering discounts on bulk buys.</li> 
  </ul>
 
  Analyzing previous sales data and running A/B tests helps identify the most effective discount structures.
@@ -198,10 +198,10 @@ Best practices for pricing strategies:
 Key areas to optimize:
 
  <ul>
- <li><b>Checkout Process:</b>Simplify checkout to avoid unnecessary steps and include guest checkout.</li>
- <li><b>Website Speed:</b>Slow websites can lead consumers to leave their carts before making a purchase.
+ <li><b>Checkout Process: </b>Simplify checkout to avoid unnecessary steps and include guest checkout.</li>
+ <li><b>Website Speed: </b>Slow websites can lead consumers to leave their carts before making a purchase.
 </li>
- <li><b>Customer Support:</b>Offer live support, for instance, live chats, to respond to customers' questions regarding promotions.</li> 
+ <li><b>Customer Support: </b>Offer live support, for instance, live chats, to respond to customers' questions regarding promotions.</li> 
  </ul>
 
  Frictionless experience is more likely to lead to customer purchases.
@@ -217,10 +217,10 @@ Key areas to optimize:
 Fraudulent types commonly witnessed are:
 
  <ul>
- <li><b>Impersonation Email Accounts:</b>Subscribers open many accounts to use new customer promotions.</li>
- <li><b>Coupon Selling:</b>Unauthorized third-party websites reselling promo codes.
+ <li><b>Impersonation Email Accounts: </b>Subscribers open many accounts to use new customer promotions.</li>
+ <li><b>Coupon Selling: </b>Unauthorized third-party websites reselling promo codes.
 </li>
- <li><b>Return Fraud:</b>This is when consumers use unusual, extraordinary savings coupons to actually acquire an item without a cost then return these for his or her own full refund.</li> 
+ <li><b>Return Fraud: </b>This is when consumers use unusual, extraordinary savings coupons to actually acquire an item without a cost then return these for his or her own full refund.</li> 
  </ul>
 
  Here's what companies can do to prevent fraud:
@@ -239,10 +239,10 @@ With most online sales happening via mobile devices, ensuring mobile-friendly pr
 Methods to improve the mobile shopping experience:
 
  <ul>
- <li><b>Quick-Loading Pages:</b>Streamlined pages enhance user experience and avoid drop-offs.</li>
- <li><b>One-Click Checkout:</b>Enhancing mobile payment methods such as Apple Pay and Google Pay.
+ <li><b>Quick-Loading Pages: </b>Streamlined pages enhance user experience and avoid drop-offs.</li>
+ <li><b>One-Click Checkout: </b>Enhancing mobile payment methods such as Apple Pay and Google Pay.
 </li>
- <li><b>Mobile-Specific Ads:</b>Running targeted promotions optimized for mobile users on platforms like Instagram and TikTok.</li> 
+ <li><b>Mobile-Specific Ads: </b>Running targeted promotions optimized for mobile users on platforms like Instagram and TikTok.</li> 
  </ul>
 
  A well-optimized mobile experience leads to higher conversion rates and a better overall customer experience.
@@ -259,7 +259,7 @@ Essential elements to test:
 
  <ul>
  <li><b>Different Discount Percentages: </b>Analyze the impact of a varying percentage amount off on sales.</li>
- <li><b>Infomercial Copy:</b>Against headllines, CTAs and urgency strats a
+ <li><b>Infomercial Copy: </b>Against headllines, CTAs and urgency strats a
 </li>
  <li><b>Testing Targeting Strategies: </b>There might be certain audience segments which may seem interesting due to other factors as well.</li> 
  </ul>
@@ -275,10 +275,10 @@ Essential elements to test:
  It is more effective for businesses to use promotions as a means of building <a href="https://www.99minds.io/blog/build-customer-loyalty">customer loyalty</a>, rather than just providing revenue in short-term periods.
 
   <ul>
- <li><b>Loyalty Programs:</b>Reward repeat customers with points, exclusive deals, and perks.</li>
- <li><b>Post-Purchase Engagement:</b>Follow up with personalized offers and incentives for future purchases.
+ <li><b>Loyalty Programs: </b>Reward repeat customers with points, exclusive deals, and perks.</li>
+ <li><b>Post-Purchase Engagement: </b>Follow up with personalized offers and incentives for future purchases.
 </li>
- <li><b>Subscription Discounts:</b> Encourage recurring purchases through subscription-based models.</li> 
+ <li><b>Subscription Discounts: </b> Encourage recurring purchases through subscription-based models.</li> 
  </ul>
 
 <div class="flex justify-center">
