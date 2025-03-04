@@ -183,7 +183,7 @@ Impose strict internal policies for coupon handling and ensure that employees 
 
 ### 7. Work with Secure Couponing Platforms
 
-Implementing secure [digital coupon platfrom](https://www.99minds.io/coupons), such as 99minds, can help businesses prevent fraud with advanced tracking, verification, and redemption controls. These platforms provide real-time fraud detection, automated restrictions, and seamless integration with existing sales and loyalty programs.
+Implementing secure [digital coupon platform](https://www.99minds.io/coupons), like 99minds, can help businesses prevent fraud with advanced tracking, verification, and redemption controls. These platforms provide real-time fraud detection, automated restrictions, and seamless integration with existing sales and loyalty programs.
 
 ![digital coupon management tool](/assets/blog/digital-coupon-platfrom.webp)
 
