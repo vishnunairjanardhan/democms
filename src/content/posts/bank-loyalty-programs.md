@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/10_leading_bank_loyalty_programs_for_2025.webp"
   alt: "Leading Bank Loyalty Programs for 2025" 
 tags: ["Loyalty Program"]
-url: "https://www.99minds.io/blog/bank-loyalty-program"
+url: "https://www.99minds.io/blog/bank-loyalty-programs"
 keywords: ["Bank loyalty programs"]
 
 --- 
