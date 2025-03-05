@@ -21,14 +21,14 @@ export const Ecommerce = [
 //   alt:"99minds-Shopify Pos Integration"
 // },
 {
-  image: '/integrations/BigCommerce-icon 1.svg',
+  image: '/integrations/BigCommerce-icon.svg',
   title: 'BigCommerce',
   desc: " Another popular e-commerce platform that integrates with 99minds for gift card functionality.  99minds empowers you to add advanced features to your BigCommerce store, such as scheduling delivery of gift cards, rewarding gift card purchases with loyalty points, and offering promotional gift cards to drive sales.",
   url: "/integrations/bigcommerce",
   alt:"99minds-Bigcommerce Integration"
 },
 {
-  image: '/integrations/woocommerce 1.svg',
+  image: '/integrations/woocommerce-logo.svg',
   title: 'WooCommerce',
   desc: "An open-source e-commerce plugin for WordPress that works with 99minds to provide gift card functionality.  99minds integrates seamlessly with WooCommerce, allowing you to offer advanced features like scheduling gift card delivery, integrating gift cards with your loyalty program, and creating promotional gift cards to attract new customers.",
   url: "/integrations/woocommerce",
@@ -92,7 +92,7 @@ export const POS = [
   alt:"99minds-Hike Integration"
 },
 {
-  image: '/integrations/rp-white-logo 2.svg',
+  image: '/integrations/retailpro-logo.svg',
   title: 'Retail Pro Prism',
   desc: "99minds integrates with Retail Pro Prism, offering a unified approach to managing gift cards, loyalty programs, store credits, and coupons.  This ensures consistent program functionality across your online store and your Retail Pro Prism POS system.",
   alt:"99minds-Retail Pro Prism Integration"

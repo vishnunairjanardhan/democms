@@ -59,7 +59,7 @@ function NewLogoCloud() {
   return (
     <section>
       <div className="overflow-hidden shadow-sm p-4 mt-6">
-        <p className="text-lg text-center">Trusted by teams at</p>
+        <p className="text-lg text-center pt-2 py-2">Trusted by teams at</p>
         <div className="flex gap-8 py-6 items-center animate-marquee">
           {duplicateImages.map((image, index) => (
             <img

@@ -10,7 +10,7 @@ import { Icon } from 'astro-icon/components'
     <Verticalgrid />
     <Blurgradientleft />
   </div>
-  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:py-24 mt-8">
+  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:pt-24 pb-12 mt-8">
     <div class="max-w-3xl lg:text-center lg:mx-auto">
       <h2
         class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text"
@@ -49,7 +49,7 @@ import { Icon } from 'astro-icon/components'
             <div class="mt-4"></div>
             {TOP_PRODUCT_PRICE_LIST.map((features) => (
               features[header] !== "No" && (
-                <li class="flex py-2 text-sm text-vulcan-300">
+                <li class="flex py-2 text-base text-vulcan-300">
                   <svg
                     class="flex-shrink-0 w-5 h-5 text-indigo-400"
                     xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ import { Icon } from 'astro-icon/components'
               <th class="px-2" width="8%">
                 <tr>
                   {TABLE_HEAD.map((header) => (
-                    <th class="px-2 p-4 font-normal text-black" key={header}>{header}</th>
+                    <th class="px-2 p-4 font-medium text-black" key={header}>{header}</th>
                   ))}
                 </tr>
                 <tr>
@@ -99,7 +99,7 @@ import { Icon } from 'astro-icon/components'
                       {feature.active && (
                         <div class="py-2 mb-4">
                           <a href={feature.Url}
-                            class="flex items-center justify-center h-10 px-4 py-2 text-sm font-normal text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700 w-full"
+                            class="flex items-center justify-center h-10 px-4 py-2 text-sm font-medium text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700 w-full"
                             id="billing-plan-get-in-touch-enterprise">
                             {feature.Label}
                           </a>
@@ -109,18 +109,18 @@ import { Icon } from 'astro-icon/components'
                   ))}
                 </tr>  
                 {PRICE_LIST_AMOUNT.map((feature) => (
-                  <tr class="mt-6 text-sm text-black font-medium border-b border-white/5" key={feature.Column1}>
-                    <th class="px-2 p-4 font-normal" >{feature.Column1}</th>
+                  <tr class="mt-6 text-base text-black font-medium border-b border-black/5" key={feature.Column1}>
+                    <th class="px-2 p-4 font-medium" >{feature.Column1}</th>
                     {TABLE_HEAD.slice(1).map((col) => (
-                      <th class="font-normal text-blacl" key={col}>{feature[col]}</th>
+                      <th class="font-normal text-black" key={col}>{feature[col]}</th>
                     ))}
                   </tr>
                 ))}
                 {TOP_PRODUCT_PRICE_LIST.map((feature) => (
-                  <tr class="mt-6 text-sm font-normal text-vulcan-300 border-b border-white/5 mx-auto" key={feature.Column1}>
-                    <th class="p-4 font-normal">{feature.Column1}</th>
+                  <tr class="mt-6 text-base font-normal text-black border-b border-black/5 mx-auto" key={feature.Column1}>
+                    <th class="p-4 font-medium">{feature.Column1}</th>
                     {TABLE_HEAD.slice(1).map((col) => (
-                      <th class="font-normal text-white" key={col}>
+                      <th class="font-normal text-black" key={col}>
                         {feature[col] === 'Yes' ? (
                           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#16a34a" class="m-auto bi bi-check-lg" viewBox="0 0 16 16">
                             <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
@@ -139,15 +139,15 @@ import { Icon } from 'astro-icon/components'
             </tr>
           </thead>
         </table>
-        <div class="relative mx-auto rounded-3xl border-white/5 bg-vulcan-900" x-data="{selected:null}">
+        <div class="relative mx-auto rounded-3xl border-black/5 bg-white" x-data="{selected:null}">
           <button
             role="button"
             type="button"
             class="w-full px-8 py-6 text-left"
             @click="selected !== 1 ? selected = 1 : selected = null">
-            <div class="flex text-white group">
+            <div class="flex text-black group">
               <p
-                class="text-base text-center font-bold w-full duration-200 group-hover:text-white">
+                class="text-base text-center font-semibold w-full duration-200 group-hover:text-vulcan-800">
                 Compare Price List
                 <svg :class="{'rotate-180': open, 'rotate-180': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-5 transition-transform duration-200 transform rotate-180" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -162,14 +162,14 @@ import { Icon } from 'astro-icon/components'
             x-ref="container1"
             x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''"
           >
-            <div class="max-w-7xl mx-auto rounded-xl bg-vulcan-900">
-              <table class="w-full mx-auto text-white bg-vulcan-900 mt-5">
+            <div class="max-w-7xl mx-auto rounded-xl bg-white">
+              <table class="w-full mx-auto text-white bg-white mt-5">
                 <thead>
                   {REMAINING_PRODUCT_PRICE_LIST.map((feature) => (
-                    <tr class="mt-6 text-sm font-normal text-vulcan-300 border-b border-white/5 mx-auto text-center" key={feature.Column1}>
-                      <th class="w-1/12 p-4 font-normal">{feature.Column1}</th>
+                    <tr class="mt-6 text-base font-semibold text-black border-b border-black/5 mx-auto text-center" key={feature.Column1}>
+                      <th class="w-1/12 p-4 font-medium">{feature.Column1}</th>
                       {TABLE_HEAD.slice(1).map((col) => (
-                        <td class="w-1/12 font-normal text-white" key={col}>
+                        <td class="w-1/12 font-normal text-black" key={col}>
                           {feature[col] === 'Yes' ? (
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#16a34a" class="m-auto bi bi-check-lg" viewBox="0 0 16 16">
                               <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
