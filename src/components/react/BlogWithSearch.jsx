@@ -151,7 +151,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
             className="relative w-full max-w-3xl bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]"
             onClick={(e) => e.stopPropagation()} // Prevents closing when clicking inside modal
           >
-            <div className="bg-vulcan-900 rounded-3xl p-10 text-center">
+            <div className="bg-vulcan-50 rounded-3xl p-10 text-center">
               <iframe
                 src="../GetStarted"
                 width="100%"
