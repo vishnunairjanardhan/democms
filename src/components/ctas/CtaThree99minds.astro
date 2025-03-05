@@ -2,8 +2,8 @@
 import RoundedGrid from "../assets/RoundedGrid.astro";
 ---
 
-<section class="relative overflow-hidden border-t border-white/5">
-  <RoundedGrid />
+<section class="relative overflow-hidden border-t border-white ">
+  <!--<RoundedGrid />-->
 
   <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24">
     <div class="relative items-center">
@@ -25,11 +25,10 @@ import RoundedGrid from "../assets/RoundedGrid.astro";
                <div x-data="{ open: false }" class="flex justify-center">
               <!-- Trigger -->
               <span x-on:click="open = true">
-                 <button type="button" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium raise">
-                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
-                <span class="relative text-white">Get started for free</span>
-                </span></button>
+                 <button type="button" role="button" aria-label="Get Started for Free" class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+                  <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
+                  <span class="relative text-white">Get started for free</span> </span>
+							  </button>
                                 <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
               </span>
               <!-- Modal -->
