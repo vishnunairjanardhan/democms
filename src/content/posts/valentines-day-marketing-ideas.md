@@ -13,13 +13,12 @@ url: "https://www.99minds.io/blog/valentines-day-marketing-ideas"
 keywords: ["Valentine’s Day Marketing Ideas"]
 
 --- 
-<img rel="preload" role="img" src="/assets/blog/valentine_s_day_marketing_ideas.webp" alt="Valentine’s Day Marketing Ideas">
-
-Valentine’s Day presents a significant opportunity for businesses, especially in the ecommerce sector, as it drives substantial consumer spending. In the U.S. alone, expenditures are projected to hit $22 billion this year. For online retailers, this romantic holiday is a prime time to boost sales and engage customers. However, not all Valentine’s Day marketing ideas are equally effective, and what works for one business may not suit another.
 
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-indigo-950 text-white px-8 pb-4">
-<p class="text-white">Table of Contents:</p>
+<div class="max-w-[1200px] mx-auto px-4 lg:flex lg:gap-16">
+<div class="w-full lg:max-w-[350px] lg:-ml-52 lg:sticky top-40 self-start">
+<div class="p-[0.060rem] rounded-3xl lg:mt-6 border-2 border-gray-300 bg-gradient-to-r from-purple-100 to-purple-300 shadow-md text-black px-8 pb-4">
+<p class="text-black font-semibold">Table of Contents:</p>
 <ul>
   <li>  
     <a role="link" href="#10-Winning-Valentine’s-Day-Marketing-Ideas" rel="noreferrer">10 Winning Valentines Day Marketing Ideas</a>
@@ -33,7 +32,12 @@ Valentine’s Day presents a significant opportunity for businesses, especially 
  
 </ul>
 </div>
+  </div>
 
+ <div class="w-full lg:mt-0">
+<img rel="preload" role="img" src="/assets/blog/valentine_s_day_marketing_ideas.webp" alt="Valentine’s Day Marketing Ideas">
+
+Valentine’s Day presents a significant opportunity for businesses, especially in the ecommerce sector, as it drives substantial consumer spending. In the U.S. alone, expenditures are projected to hit $22 billion this year. For online retailers, this romantic holiday is a prime time to boost sales and engage customers. However, not all Valentine’s Day marketing ideas are equally effective, and what works for one business may not suit another.
 <h2 id="10-Winning-Valentine’s-Day-Marketing-Ideas">10 Winning Valentine’s Day Marketing Ideas</h2>
 
 <ol>
@@ -213,3 +217,5 @@ Gift cards are perfect for Valentine’s Day because they’re a flexible gift o
 You can get creative by running a pre-Valentine’s countdown, sending personalized cards or freebies to your customers, or asking them to share their own content. These strategies can help engage your audience and boost sales.
 </div>
 
+  </div>
+</div>
