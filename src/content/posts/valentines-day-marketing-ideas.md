@@ -16,7 +16,7 @@ keywords: ["Valentine’s Day Marketing Ideas"]
 
 <div class="lg:flex">
   <!-- Left Sidebar -->
-  <div class="w-[230px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-6 border-r-2 h-full text-black px-6 pb-4">
+  <div class="lg:w-[230px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-6 border-r-2 h-full text-black px-6 pb-4">
     <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul class="pl-0 text-md">
   <li>  
@@ -33,7 +33,7 @@ keywords: ["Valentine’s Day Marketing Ideas"]
 </div>
   
 <!-- right section -->
-<div class="col-span-3 w-full max-w-full lg:ml-4">
+<div class="flex-1 w-full max-w-full lg:ml-4">
 <img rel="preload" role="img" src="/assets/blog/valentine_s_day_marketing_ideas.webp" alt="Valentine’s Day Marketing Ideas">
 
 Valentine’s Day presents a significant opportunity for businesses, especially in the ecommerce sector, as it drives substantial consumer spending. In the U.S. alone, expenditures are projected to hit $22 billion this year. For online retailers, this romantic holiday is a prime time to boost sales and engage customers. However, not all Valentine’s Day marketing ideas are equally effective, and what works for one business may not suit another.
@@ -114,8 +114,8 @@ To make your <a href="https://www.99minds.io/blog/loyalty-program-for-small-busi
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -187,8 +187,8 @@ For instance, starting from February 1st, you can send daily emails or post on s
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto  shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
