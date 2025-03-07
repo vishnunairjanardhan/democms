@@ -16,7 +16,7 @@ keywords: ["Valentine’s Day Marketing Ideas"]
 
 <div class="lg:flex lg:gap-24">
   <!-- Left Sidebar -->
-  <div class="lg:w-[230px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-6 h-full text-black pb-4">
+  <div class="lg:w-[300px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-6 h-full text-black pb-4">
     <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul class="pl-0 text-md list-none">
   <li class="hover:bg-gray-100 lg:mt-4">  
