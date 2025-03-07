@@ -19,13 +19,13 @@ keywords: ["Valentine’s Day Marketing Ideas"]
   <div class="lg:w-[230px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-6 border-r-2 h-full text-black pb-4">
     <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul class="pl-0 text-md list-none">
-  <li>  
+  <li class="hover:bg-gray-100">  
     <a role="link" href="#10-Winning-Valentine’s-Day-Marketing-Ideas" rel="noreferrer">10 Winning Valentines Day Marketing Ideas</a>
   </li> 
-  <li>  
+ <li class="hover:bg-gray-100">  
     <a role="link" href="#Final-Words-on-Valentine’s-Day-Marketing-Ideas" rel="noreferrer">Final Words on Valentines Day Marketing Ideas</a>
   </li>
-    <li>  
+   <li class="hover:bg-gray-100">   
     <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Valentine’s-Day-Marketing-Ideas" rel="noreferrer">Frequently Asked Questions (FAQs) on Valentines Day Marketing Ideas</a>
   </li>
  
@@ -220,3 +220,6 @@ You can get creative by running a pre-Valentine’s countdown, sending personali
   </div>
   
 </div>
+
+
+
