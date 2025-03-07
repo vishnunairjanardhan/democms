@@ -142,27 +142,28 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
       </div> */}
       <div className="flex justify-center w-full mt-4 mb-4">
         <div className="w-full">
-          <div
-            onClick={() => setIsModalOpen(true)}
-            className="w-full cursor-pointer"
-          >
-            <div className="bg-[#AA8FFF40] rounded-2xl p-12 flex justify-between items-center w-full">
-              <div>
-                <h2 className="text-2xl font-semibold text-gray-900">
-                  Powerful Integrations for Powerful Businesses
-                </h2>
-                <p className="text-gray-600 mt-2">
-                  Integrations for e-commerce and retail eco-system
-                </p>
-              </div>
-              <div className="flex space-x-4">
-                <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-800 bg-[#FFFFFF] hover:bg-gray-100">
+          <div className="bg-[#AA8FFF40] rounded-2xl p-12 flex justify-between items-center w-full">
+            <div>
+              <h2 className="text-2xl font-semibold text-gray-900">
+                Powerful Integrations for Powerful Businesses
+              </h2>
+              <p className="text-gray-600 mt-2">
+                Integrations for e-commerce and retail eco-system
+              </p>
+            </div>
+            <div className="flex space-x-4">
+              <button className="px-4 py-2 font-semibold border border-gray-300 rounded-lg text-gray-800 bg-[#FFFFFF] hover:bg-gray-100">
+                <a href="https://99mindsastrolite.netlify.app/integrations/">
+                  {" "}
                   Learn more
-                </button>
-                <button className="px-4 py-2 bg-[#7F56D9] text-white rounded-lg hover:bg-purple-700">
-                  Get started
-                </button>
-              </div>
+                </a>
+              </button>
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="px-4 py-2 font-semibold bg-[#7F56D9] text-white rounded-lg hover:bg-purple-700"
+              >
+                Get started
+              </button>
             </div>
           </div>
         </div>
