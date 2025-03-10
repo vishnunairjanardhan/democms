@@ -332,6 +332,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"Black-friday-promotion-ideas.md": {
+	id: "Black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "Christmas-marketing-ideas.md": {
 	id: "Christmas-marketing-ideas.md";
   slug: "christmas-marketing-ideas";
@@ -393,21 +400,21 @@ declare module 'astro:content' {
   slug: "b2b-ecommerce-trends";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "b2b-loyalty-program.md": {
 	id: "b2b-loyalty-program.md";
   slug: "b2b-loyalty-program";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "bank-loyalty-programs.md": {
 	id: "bank-loyalty-programs.md";
   slug: "bank-loyalty-programs";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "beauty-loyalty-program.md": {
 	id: "beauty-loyalty-program.md";
@@ -458,13 +465,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"black-friday-promotion-ideas.md": {
-	id: "black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "brand-loyalty.md": {
 	id: "brand-loyalty.md";
   slug: "brand-loyalty";
@@ -491,14 +491,14 @@ declare module 'astro:content' {
   slug: "celebrating-women-and-their-achievements";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "consumer-decision-making-process.md": {
 	id: "consumer-decision-making-process.md";
   slug: "consumer-decision-making-process";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "coupon-marketing.md": {
 	id: "coupon-marketing.md";
@@ -512,7 +512,7 @@ declare module 'astro:content' {
   slug: "coupon-scams";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "customer-acquisition-strategy.md": {
 	id: "customer-acquisition-strategy.md";
@@ -547,21 +547,21 @@ declare module 'astro:content' {
   slug: "customer-loyalty-analytics";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "customer-loyalty-trends.md": {
 	id: "customer-loyalty-trends.md";
   slug: "customer-loyalty-trends";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "customer-loyalty.md": {
 	id: "customer-loyalty.md";
   slug: "customer-loyalty";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "customer-retention-and-acquisition-using-ai.md": {
 	id: "customer-retention-and-acquisition-using-ai.md";
@@ -673,7 +673,7 @@ declare module 'astro:content' {
   slug: "fathers-day-retail-promotion-ideas";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "future-ecommerce-trends.md": {
 	id: "future-ecommerce-trends.md";
@@ -1053,6 +1053,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"increase-customer-loyalty.md": {
+	id: "increase-customer-loyalty.md";
+  slug: "increase-customer-loyalty";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify.md": {
 	id: "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify.md";
   slug: "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify";
@@ -1079,14 +1086,14 @@ declare module 'astro:content' {
   slug: "internationalization-strategies-in-e-commerce";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "kpis-for-loyalty-programs.md": {
 	id: "kpis-for-loyalty-programs.md";
   slug: "kpis-for-loyalty-programs";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "last-minute-christmas-marketing-checklist-for-ecommerce.md": {
 	id: "last-minute-christmas-marketing-checklist-for-ecommerce.md";
@@ -1114,14 +1121,14 @@ declare module 'astro:content' {
   slug: "loyalty-program-for-small-business";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "loyalty-program.md": {
 	id: "loyalty-program.md";
   slug: "loyalty-program";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "marketing-tools.md": {
 	id: "marketing-tools.md";
@@ -1296,14 +1303,14 @@ declare module 'astro:content' {
   slug: "repeat-customer";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "restaurant-loyalty-programs.md": {
 	id: "restaurant-loyalty-programs.md";
   slug: "restaurant-loyalty-programs";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "retail-loyalty-program.md": {
 	id: "retail-loyalty-program.md";
@@ -1352,14 +1359,14 @@ declare module 'astro:content' {
   slug: "send-bulk-gift-cards-with-omnisend";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "sephoras-beauty-insider.md": {
 	id: "sephoras-beauty-insider.md";
   slug: "sephoras-beauty-insider";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "shopify-gift-card.md": {
 	id: "shopify-gift-card.md";
@@ -1541,7 +1548,7 @@ declare module 'astro:content' {
   slug: "valentines-day-marketing-ideas";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "ways-coupons-can-help-your-business-attract-loyal-customer.md": {
 	id: "ways-coupons-can-help-your-business-attract-loyal-customer.md";
