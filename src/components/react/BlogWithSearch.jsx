@@ -65,16 +65,16 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
   const LatestBlogGrid = ({ blogs }) => (
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-1">
       {blogs.slice(5, 13).map((post) => (
-          <LatestBlog
-            key={post.slug}
-            url={`/blog/${post.slug}`}
-            title={post.data.heading}
-            description={post.data.description}
-            alt={post.data.heading}
-            pubDate={new Date(post.data.pubDate).toLocaleDateString()}
-            image={post.data.image.url}
-          />
-        ))}
+        <LatestBlog
+          key={post.slug}
+          url={`/blog/${post.slug}`}
+          title={post.data.heading}
+          description={post.data.description}
+          alt={post.data.heading}
+          pubDate={new Date(post.data.pubDate).toLocaleDateString()}
+          image={post.data.image.url}
+        />
+      ))}
     </div>
   );
   return (
@@ -120,7 +120,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
       )}
 
       {/* CTA Button & Modal */}
-      <div className="flex justify-center w-full mt-8">
+      {/* <div className="flex justify-center w-full mt-8">
         <div className="w-full">
           <div
             onClick={() => setIsModalOpen(true)}
@@ -139,6 +139,34 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className="flex justify-center w-full mt-4 mb-4">
+        <div className="w-full">
+          <div className="bg-[#AA8FFF40] rounded-2xl p-12 flex justify-between items-center w-full">
+            <div>
+              <h2 className="text-2xl font-semibold text-gray-900">
+                Powerful Integrations for Powerful Businesses
+              </h2>
+              <p className="text-gray-600 mt-2">
+                Integrations for e-commerce and retail eco-system
+              </p>
+            </div>
+            <div className="flex space-x-4">
+              <button className="px-4 py-2 font-semibold border border-gray-300 rounded-lg text-gray-800 bg-[#FFFFFF] hover:bg-gray-100">
+                <a href="https://99mindsastrolite.netlify.app/integrations/">
+                  {" "}
+                  Learn more
+                </a>
+              </button>
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="px-4 py-2 font-semibold bg-[#7F56D9] text-white rounded-lg hover:bg-purple-700"
+              >
+                Get started
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* React Modal */}
@@ -148,10 +176,10 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
           onClick={() => setIsModalOpen(false)}
         >
           <div
-            className="relative w-full max-w-3xl bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]"
+            className="relative w-full max-w-3xl shadow-2xl rounded-3xl p-[0.060rem]"
             onClick={(e) => e.stopPropagation()} // Prevents closing when clicking inside modal
           >
-            <div className="bg-vulcan-50 rounded-3xl p-10 text-center">
+            <div className="bg-white rounded-3xl p-10 text-center">
               <iframe
                 src="../GetStarted"
                 width="100%"
@@ -169,17 +197,19 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
       <div class="p-4 border-t-2 border-vulcan-800">
         <div className="flex justify-between items-center">
           <p class="pb-2 font-semibold">Latest</p>
-          <a class="font-semibold cursor-pointer" href="/latest/blog">View All</a>
+          <a class="font-semibold cursor-pointer" href="/latest/blog">
+            View All
+          </a>
         </div>
-      {currentPosts.length > 0 ? (
-        <LatestBlogGrid blogs={currentPosts} />
-      ) : (
-        <div className="py-24 flex justify-center w-full">
-          <p className="text-4xl font-semibold text-white sm:text-5xl">
-            No results
-          </p>
-        </div>
-      )}
+        {currentPosts.length > 0 ? (
+          <LatestBlogGrid blogs={currentPosts} />
+        ) : (
+          <div className="py-24 flex justify-center w-full">
+            <p className="text-4xl font-semibold text-white sm:text-5xl">
+              No results
+            </p>
+          </div>
+        )}
       </div>
       {/* Pagination */}
       {/* <div className="flex justify-center w-full mt-8">
