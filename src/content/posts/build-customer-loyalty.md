@@ -122,7 +122,7 @@ Loyalty programs encourage <a href="https://www.99minds.io/blog/repeat-customer"
 
 - Point-based programs: Customers earn points for purchases, which they can redeem for discounts or rewards.
 - <a href="https://www.99minds.io/blog/tiered-loyalty-program" role="link" target="_blanck">Tiered programs</a>: Customers unlock benefits as they reach higher spending levels.
-- <a href="https://www.99minds.io/blog/tiered-loyalty-program" role="link" target="_blanck">Tiered programs</a>Referral programs</a>: Reward existing customers for bringing in new business.
+- <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">Referral programs</a>: Reward existing customers for bringing in new business.
 - Subscription-based programs: Provide exclusive benefits for a recurring membership fee.
 
 In fact, you can let your imagination run wild when trying to offer extra sops for your customers. Retail giant Target’s free loyalty card called Rard helps them save 5% on each purchase, free shipping for online orders, and a 30-day return policy.
