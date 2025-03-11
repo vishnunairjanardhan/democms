@@ -118,11 +118,11 @@ Displaying these on your website, social media, and marketing materials helps bu
 
 ### 2. Introduce a loyalty program
 
-Loyalty programs encourage <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blanck">repeat customers</a> by offering incentives for continued engagement. According to a Hubspot Report, 71% of loyalty program members feel that being a member of one is the most meaningful part of their relationship with brands. There are different <a href="https://www.99minds.io/blog/types-of-loyalty-program" role="link" target="_blanck">types of loyalty programs</a> that you can choose, such as:
+Loyalty programs encourage <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blanck">repeat customers</a> by offering incentives for continued engagement. According to a <a href="https://cdn2.hubspot.net/hubfs/352767/Loyalty%20Report%202018%20Files/Bond_TheLoyaltyReport%202018%20US_Exec%20Summary.pdf?__hstc=20629287.9baff9b886da5e2fe655b4113897e76d.1580934235534.1585683608724.1586982181323.7&__hssc=20629287.3.1586982181323&__hsfp=3576519970" role="link" target="_blanck">Hubspot Report</a>, 71% of loyalty program members feel that being a member of one is the most meaningful part of their relationship with brands. There are different <a href="https://www.99minds.io/blog/types-of-loyalty-program" role="link" target="_blanck">types of loyalty programs</a> that you can choose, such as:
 
 - Point-based programs: Customers earn points for purchases, which they can redeem for discounts or rewards.
 - <a href="https://www.99minds.io/blog/tiered-loyalty-program" role="link" target="_blanck">Tiered programs</a>: Customers unlock benefits as they reach higher spending levels.
-- <a href="https://www.99minds.io/blog/tiered-loyalty-program" role="link" target="_blanck">Tiered programs</a>Referral programs</a>: Reward existing customers for bringing in new business.
+- <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">Referral programs</a>: Reward existing customers for bringing in new business.
 - Subscription-based programs: Provide exclusive benefits for a recurring membership fee.
 
 In fact, you can let your imagination run wild when trying to offer extra sops for your customers. Retail giant Target’s free loyalty card called Rard helps them save 5% on each purchase, free shipping for online orders, and a 30-day return policy.
