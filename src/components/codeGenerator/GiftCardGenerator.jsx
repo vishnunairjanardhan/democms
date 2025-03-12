@@ -151,7 +151,7 @@ const CouponGenerator = () => {
   const renderCodeButton = (title, example1, example2, onClickHandler) => (
     <button
       className={`h-60 bg-white bg-gradient-to-b from-blue-50 via-white to-gray-100 
-        mb-4 shadow-md rounded-xl p-[0.060rem] snap-start ring-1 ring-gray-300 
+        lg:mb-4 lg:shadow-md rounded-xl p-[0.060rem] snap-start ring-1 ring-gray-300 
         border ${selectedTemplate === title ? "border-blue-500" : "border-gray-300"} 
         hover:border-gray-600 hover:shadow-lg transition-all duration-300`}
       onClick={() => {
@@ -159,7 +159,7 @@ const CouponGenerator = () => {
         setSelectedTemplate(title);
       }}
     >
-      <figure className="bg-white rounded-xl pt-8 lg:pb-5 pb-12">
+      <figure className="bg-white rounded-xl pt-8 pb-5">
         <h5 className="px-10 text-lg font-medium tracking-tight text-center text-gray-800 h-16 mb-6">
           {`Generate ${title} Codes`}
         </h5>
