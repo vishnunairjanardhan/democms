@@ -150,22 +150,26 @@ const CouponGenerator = () => {
   // );
   const renderCodeButton = (title, example1, example2, onClickHandler) => (
     <button
-      className={`h-60 bg-white bg-gradient-to-b mb-4 from-blue-200 via-white shadow-xl rounded-xl p-[0.060rem] snap-start ring-1 ring-gray-300 border ${
-        selectedTemplate === title ? "border-gray-500" : "border-gray-300"
-      } hover:border-gray-600 duration-300 group`}
+      className={`h-60 bg-white bg-gradient-to-b from-blue-50 via-white to-gray-100 
+        mb-4 shadow-md rounded-xl p-[0.060rem] snap-start ring-1 ring-gray-300 
+        border ${selectedTemplate === title ? "border-blue-500" : "border-gray-300"} 
+        hover:border-gray-600 hover:shadow-lg transition-all duration-300`}
       onClick={() => {
         onClickHandler();
         setSelectedTemplate(title);
       }}
     >
       <figure className="bg-white rounded-xl pt-8 lg:pb-5 pb-12">
-        <h5 className="px-10 text-lg font-normal tracking-tight text-center text-gray-900 h-16 mb-6">{`Generate ${title} Codes`}</h5>
+        <h5 className="px-10 text-lg font-medium tracking-tight text-center text-gray-800 h-16 mb-6">
+          {`Generate ${title} Codes`}
+        </h5>
         <div className="border-b border-gray-300"></div>
-        <h6 className="mt-6 mb-2 pt-2 text-gray-700">{example1}</h6>
-        <h6 className="mb-2 text-gray-700">{example2}</h6>
+        <h6 className="mt-6 mb-2 pt-2 text-gray-600">{example1}</h6>
+        <h6 className="mb-2 text-gray-600">{example2}</h6>
       </figure>
     </button>
   );
+  
 
   return (
     <div className="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24">
@@ -180,7 +184,7 @@ const CouponGenerator = () => {
               successful marketing campaign.
             </p>
           </div>
-          <div className="p-[0.060rem] rounded-3xl shadow-xl shadow-gray-300 bg-gradient-to-b from-gray-100 via-white lg:px-36 sm:py-32 sm:px-4">
+          <div className="p-[0.060rem] rounded-3xl shadow-xl shadow-gray-300 bg-gradient-to-r from-purple-200 to-purple-400 lg:px-36 sm:py-32 sm:px-4">
             <div className="mx-auto max-w-7xl">
               <h2 className="text-center lg:text-3xl text-2xl font-normal tracking-tight text-black lg:mt-0 mt-12">
                 Choose your eCommerce Site
@@ -191,9 +195,11 @@ const CouponGenerator = () => {
                     key={logo.id}
                     className={`relative cursor-pointer focus:outline-none rounded-lg border ${
                       selectedLogo === logo.id
-                        ? "border-indigo-300"
-                        : "border-vulcan-800"
-                    } hover:border-indigo-300 duration-300 group`}
+                        ? "border-indigo-500" 
+                        : "border-gray-700" 
+                    } 
+                        hover:border-indigo-400 // Hover state (lighter indigo)
+                        duration-300 group`}
                   >
                     <input
                       type="radio"
