@@ -49,6 +49,10 @@ Building customer loyalty directly correlates with retention. <a href="https://w
 
 According to a Harvard Business Review report, showing that increasing customer retention rates by just 5 percent can boost profits by 25-95 percent. This is because retained customers consistently purchase from your brand, reducing revenue fluctuations and ensuring long-term business stability.
 
+<div class="m-auto w-full lg:px-34">
+    <img loading="lazy" role="img" src="/assets/blog/stats-from-harvard-business-reviews.webp" alt="Statistics from harvards business reviews">
+</div>
+
 ### 2. Increased Revenue & Lifetime Value (CLV)
 
 <a href="https://www.99minds.io/blog/customer-lifetime-value" role="link" target="_blanck">Customer lifetime value (CLV)</a> measures how much a customer is expected to spend with a business throughout their relationship. Loyal customers tend to make more extensive and frequent purchases over time. According to <a href="https://www.business.com/articles/returning-customers-spend-67-more-than-new-customers-keep-your-customers-coming-back-with-a-recurring-revenue-sales-model/" role="link" target="_blanck">Business.com</a>, research shows that repeat customers spend 67% more than new customers, making them a key driver of profitability.
@@ -64,7 +68,6 @@ Loyal customers not only make repeat purchases from your brand but also promote 
 ### 5. Better Customer Insights
 
 Loyal customers provide valuable data on purchasing behaviors, preferences, and engagement patterns. Businesses can use this data to personalize offers, optimize marketing strategies, and enhance the customer experience.
-
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -131,12 +134,6 @@ In fact, you can let your imagination run wild when trying to offer extra sops f
     <img loading="lazy" role="img" src="/assets/blog/target-redcard.webp" alt="Target RedCard">
 </div>
 
-Barnes & Noble has a $25/year membership that gives the customer 40% off the price of bestsellers, 10% off all other purchases, and free shipping for every online order. Based on its target market, a business can think of many more offerings.
-
-<div class="m-auto w-full lg:px-34">
-    <img loading="lazy" role="img" src="/assets/blog/barnes_noble.webp" alt="Barnes & Noble premium membership">
-</div>
-
 ### 3. Engage with Customers on Social Media
 
 Your business should have a strong presence on social media platforms where your customers spend their time. More than just promoting products or services, businesses that engage, entertain, and educate their audience build strong <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">brand loyalty</a>. Businesses can use different ways to enhance engagement on social  media, including:
@@ -165,7 +162,9 @@ Gathering customer feedback is crucial for improving your products, services, an
 
 When customers see that their feedback leads to real improvements, they develop a stronger connection with your brand.
 
-<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
+<div class="m-auto w-full lg:px-34">
+    <img loading="lazy" role="img" src="/assets/blog/implemention_feedback.webp" alt="implementing feedback to build customer loyalty">
+</div>
 
 ### 6. Simplify The User Experience
 
@@ -188,6 +187,8 @@ Personalized communications can include referring to the customer's name, recogn
 - Provide exclusive offers for loyal customers
 - Highlight the benefits of Being Loyal
 - Allow Customers to Build a Wishlist
+
+<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP1.webp" alt="CTA image on Boost Customer retention with our loyalty program"></a>
 
 ### 10. Continuously Adapt And Evolve
 
