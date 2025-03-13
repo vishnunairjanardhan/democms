@@ -15,7 +15,7 @@ keywords: ["Valentine’s Day Marketing Ideas"]
 --- 
 
 <div class="lg:flex lg:gap-8">
-  <!-- Left Sidebar -->
+  <!-- Table of content section -->
   <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
     <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul class="pl-0 text-base list-none">
@@ -32,7 +32,6 @@ keywords: ["Valentine’s Day Marketing Ideas"]
 </ul>
 </div>
   
-<!-- right section -->
 <div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/valentine_s_day_marketing_ideas.webp" alt="Valentine’s Day Marketing Ideas">
 
@@ -218,7 +217,8 @@ You can get creative by running a pre-Valentine’s countdown, sending personali
 
 
   </div>
- <div class="lg:w-[300px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30">
+  <!-- CTA section  -->
+ <div class="lg:w-[300px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
   <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
     <div class="p-4">
       <h2 class="text-base !font-bold">
