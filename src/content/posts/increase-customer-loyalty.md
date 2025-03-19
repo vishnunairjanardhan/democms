@@ -1,5 +1,5 @@
 ---
-pubDate: 2025-03-06
+pubDate: 2025-03-11
 author: Soniya 
 authorImg: "Soniya.webp"
 title: "15 Proven Strategies to Increase Customer Loyalty & Retention"  
@@ -8,7 +8,7 @@ heading: "15 Proven Strategies to Increase Customer Loyalty & Retention"
 image:
   url: "/assets/blog/15-proven-strategies-to-increase-customer-loyalty-retention.webp"
   alt: "15 Proven Strategies to Increace Customer Loyalty & Retention"
-tags: ["Promotion"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/increase-customer-loyalty"
 keywords: ["Loyalty Program"]
 
