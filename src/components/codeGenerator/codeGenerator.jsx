@@ -108,21 +108,42 @@ const CouponGenerator = () => {
     { id: 4, src: '/images/coupon-generator/Salesforce-logo-w.svg', url:'https://giftcard.99minds.io/access/login'},
     { id: 5, src: '/images/coupon-generator/woocommerce-logo1-w.svg', url:'https://giftcard.99minds.io/access/login'},
   ];
+  // const renderCodeButton = (title, example1, example2, onClickHandler) => (
+  //   <button
+  //   className={`h-60 bg-white bg-gradient-to-b mb-4 from-blue-200 via-white shadow-xl rounded-xl p-[0.060rem] snap-start ring-1 ring-gray-300 border ${
+  //     selectedTemplate === title ? "border-gray-500" : "border-gray-300"
+  //   } hover:border-gray-600 duration-300 group`}
+  //   onClick={() => {
+  //     onClickHandler();
+  //     setSelectedTemplate(title);
+  //   }}
+  // >
+  //    <figure className="bg-white rounded-xl pt-8 lg:pb-5 pb-12">
+  //       <h5 className="px-10 text-lg font-normal tracking-tight text-center text-gray-900 h-16 mb-6">{`Generate ${title} Codes`}</h5>
+  //       <div className="border-b border-gray-300"></div>
+  //       <h6 className="mt-6 mb-2 pt-2 text-gray-700">{example1}</h6>
+  //       <h6 className="mb-2 text-gray-700">{example2}</h6>
+  //     </figure>
+  //   </button>
+  // );
   const renderCodeButton = (title, example1, example2, onClickHandler) => (
     <button
-    className={`h-60 bg-white bg-gradient-to-b mb-4 from-blue-200 via-white shadow-xl rounded-xl p-[0.060rem] snap-start ring-1 ring-gray-300 border ${
-      selectedTemplate === title ? "border-gray-500" : "border-gray-300"
-    } hover:border-gray-600 duration-300 group`}
-    onClick={() => {
-      onClickHandler();
-      setSelectedTemplate(title);
-    }}
-  >
-     <figure className="bg-white rounded-xl pt-8 lg:pb-5 pb-12">
-        <h5 className="px-10 text-lg font-normal tracking-tight text-center text-gray-900 h-16 mb-6">{`Generate ${title} Codes`}</h5>
+      className={`h-60 bg-white bg-gradient-to-b from-blue-50 via-white to-gray-100 
+        lg:mb-4 lg:shadow-md rounded-xl p-[0.060rem] snap-start ring-1 ring-gray-300 
+        border ${selectedTemplate === title ? "border-blue-500" : "border-gray-300"} 
+        hover:border-gray-600 hover:shadow-lg transition-all duration-300`}
+      onClick={() => {
+        onClickHandler();
+        setSelectedTemplate(title);
+      }}
+    >
+      <figure className="bg-white rounded-xl pt-8 pb-5">
+        <h5 className="px-10 text-lg font-medium tracking-tight text-center text-gray-800 h-16 mb-6">
+          {`Generate ${title} Codes`}
+        </h5>
         <div className="border-b border-gray-300"></div>
-        <h6 className="mt-6 mb-2 pt-2 text-gray-700">{example1}</h6>
-        <h6 className="mb-2 text-gray-700">{example2}</h6>
+        <h6 className="mt-6 mb-2 pt-2 text-gray-600">{example1}</h6>
+        <h6 className="mb-2 text-gray-600">{example2}</h6>
       </figure>
     </button>
   );
@@ -140,14 +161,19 @@ const CouponGenerator = () => {
        Generate a free coupon code and give your business a boost with quick and easy discount solutions.
       </p>
         </div>
-        <div className="p-[0.060rem] rounded-3xl shadow-xl shadow-gray-300 bg-gradient-to-b from-gray-100 via-white lg:px-36 sm:py-32 sm:px-4">
+        <div className="p-[0.060rem] rounded-3xl shadow-xl shadow-gray-300 bg-gradient-to-r from-purple-200 to-purple-400 lg:px-36 sm:py-32 sm:px-4">
           <div className="mx-auto max-w-7xl">
             <h2 className='text-center lg:text-3xl text-2xl font-normal tracking-tight text-black lg:mt-0 mt-12'>Choose your eCommerce Site</h2>
             <div className="mx-auto lg:mt-24 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
               {logos.map((logo) => (
                 <label
                 key={logo.id}
-                className={`relative cursor-pointer focus:outline-none rounded-lg border ${selectedLogo === logo.id ? 'border-indigo-300' : 'border-vulcan-800'} hover:border-indigo-300 duration-300 group`}
+                className={`relative cursor-pointer focus:outline-none rounded-lg border ${ selectedLogo === logo.id
+                  ? "border-indigo-500" 
+                  : "border-gray-700" 
+              } 
+                  hover:border-indigo-400 
+                  duration-300 group`}
               >
                   <input
                     type="radio"
