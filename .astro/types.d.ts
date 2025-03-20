@@ -1116,6 +1116,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"loyalty-program-successful.md": {
+	id: "loyalty-program-successful.md";
+  slug: "loyalty-program-successful";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "loyalty-program.md": {
 	id: "loyalty-program.md";
   slug: "loyalty-program";
@@ -1595,13 +1602,6 @@ declare module 'astro:content' {
 "what-is-the-future-of-e-commerce-in-the-next-5-10-years.md": {
 	id: "what-is-the-future-of-e-commerce-in-the-next-5-10-years.md";
   slug: "what-is-the-future-of-e-commerce-in-the-next-5-10-years";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"what-makes-a-loyalty-program-successful.md": {
-	id: "what-makes-a-loyalty-program-successful.md";
-  slug: "what-makes-a-loyalty-program-successful";
   body: string;
   collection: "posts";
   data: any
