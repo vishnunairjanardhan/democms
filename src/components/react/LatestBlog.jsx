@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 
 const LatestBlog = ({ title, url, description, pubDate, author, image, authorImage }) => {
   return(
-  <div className="group ">
+  <div className="group">
     <a href={url} title={title} className="flex flex-col md:flex-row w-full">
       {/* Image on the left */}
-      <div className="md:w-2/4 h-auto flex-shrink-0">
+      <div className="md:w-2/4 h-auto flex-shrink-0 ">
         <img
-          className="group-hover:scale-110 duration-300 aspect-[4/2] object-cover w-full h-full"
+          className="group-hover:scale-110 duration-300 aspect-[4/2] object-cover w-full h-full rounded-md"
           loading="lazy"
           src={image}
           alt={title}

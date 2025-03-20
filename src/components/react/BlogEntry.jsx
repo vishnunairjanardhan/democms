@@ -5,7 +5,7 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
     className="group flex md:flex-col">
     <a href={url} title={title}>
       <div
-        className="flex items-end justify-center overflow-hidden">
+        className="flex items-end justify-center overflow-hidden rounded-lg">
         <div className="flex">
           <img
             className="group-hover:scale-110 duration-300 aspect-[2/1] object-cover"
@@ -20,9 +20,9 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
         <p>
           <time className="text-xs text-vulcan-800" datetime={pubDate}>{pubDate}</time>
         </p>
-        <h3 className="mt-5 text-lg font-medium leading-6 ">
+        <h2 className="mt-5 text-3xl font-medium leading-10 ">
           {title}
-        </h3>
+        </h2>
         <p className="mt-2 text-base text-vulcan-900">
           {description}
         </p>
