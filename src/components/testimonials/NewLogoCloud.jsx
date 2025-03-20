@@ -43,7 +43,7 @@ function NewLogoCloud() {
       alt: "Coolvines logo",
     },
     {
-      src: "../assets/logo-cloud/solsticesunglasses-b.svg",
+      src: "../assets/logo-cloud/solsticesunglasses.svg",
       width: 160,
       alt: "Solstice logo",
     },
