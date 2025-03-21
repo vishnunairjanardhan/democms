@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 
 const BlogEntry = ({ title, url, description, pubDate, author, image, authorImage }) => {
   return <li
-    className="group border bg-vulcan-800 border-white/5 overflow-hidden rounded-xl shadow-vulcan-950 shadow-2xl">
+    className="group border bg-vulcan-800 border-white/5 overflow-hidden rounded-lg shadow-vulcan-950 shadow-2xl">
     <a href={url} title={title}>
       <div
-        className="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-xl">
+        className="flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-lg">
         <div className="flex">
           <img
-            className="group-hover:scale-110 duration-300 aspect-[3/1] object-cover"
+            className="group-hover:scale-105 duration-300  object-cover"
             loading="lazy"
             src={image}
             alt={title}
@@ -16,7 +16,7 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
           />
         </div>
       </div>
-      <div className="p-8">
+      <div className="p-6">
         <p>
           <time className="text-xs text-indigo-300" datetime={pubDate}>{pubDate}</time>
         </p>
