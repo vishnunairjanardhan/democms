@@ -79,7 +79,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
         <ul className="flex flex-wrap gap-2 mx-auto justify-center" role="list">
           {tags.map((tag) => (
             <a href={`/tags/${tag}`} key={tag}>
-              <li className="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold  transition-all border rounded-lg hover:bg-vulcan-100 border-vulcan-700">
+              <li className="flex items-center justify-center h-8 text-sm  text-[#667085] px-4 py-2 font-semibold transition-all rounded-lg hover:bg-[#F9F5FF] hover:text-[#6941C6]">
                 {tag}
               </li>
             </a>
@@ -109,7 +109,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
         </div>
       ) : (
         <div className="py-24 flex justify-center w-full">
-          <p className="text-4xl font-semibold tracking-tighter  sm:text-5xl">
+          <p className="text-4xl font-semibold tracking-tighter sm:text-5xl">
             No results
           </p>
         </div>

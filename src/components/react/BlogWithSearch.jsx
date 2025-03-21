@@ -32,7 +32,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   const BlogGrid = ({ blogs }) => (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-6">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-6 mt-6">
       <div>
         {blogs.length > 0 && (
           <BlogEntry
@@ -47,7 +47,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
           />
         )}
       </div>
-      <div className="col-span-1 grid grid-cols-1 gap-4">
+      <div className="col-span-1 grid grid-cols-1 gap-0">
         {blogs.slice(1, 4).map((post) => (
           <BlogLayout
             key={post.slug}
@@ -63,7 +63,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
     </div>
   );
   const LatestBlogGrid = ({ blogs }) => (
-    <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-1">
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-1 mt-2">
       {blogs.slice(5, 13).map((post) => (
         <LatestBlog
           key={post.slug}
@@ -81,7 +81,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
     <div className="flex flex-wrap">
       {/* Search Bar */}
       <div className="flex justify-center w-full">
-        <form className="mt-6 sm:flex sm:max-w-md lg:w-1/2">
+        <form className="mt-10 sm:flex sm:max-w-md lg:w-1/2">
           <input
             type="text"
             name="search"
@@ -100,7 +100,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
         <ul className="flex flex-wrap gap-2 mx-auto justify-center" role="list">
           {tags.map((tag) => (
             <a href={`/tags/${tag}`} key={tag}>
-              <li className="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold hover:bg-gray-200 border border-vulcan-700 rounded-lg">
+              <li className="flex items-center justify-center h-8 text-[#667085] text-sm px-4 py-2 font-semibold hover:bg-[#F9F5FF] hover:text-[#6941C6]  rounded-lg">
                 {tag}
               </li>
             </a>
@@ -142,7 +142,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
       </div> */}
       <div className="flex justify-center w-full mt-4 mb-4">
         <div className="w-full">
-          <div className="bg-[#AA8FFF40] rounded-2xl p-12 flex justify-between items-center w-full">
+          <div className="bg-[#AA8FFF40] rounded-2xl p-12 flex lg:flex-row flex-col justify-between items-center w-full">
             <div>
               <h2 className="text-2xl font-semibold text-gray-900">
                 Powerful Integrations for Powerful Businesses
@@ -194,10 +194,10 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
       )}
 
       {/*Latest Blog */}
-      <div class="p-4 border-t-2 border-vulcan-800">
-        <div className="flex justify-between items-center">
-          <p class="pb-2 font-semibold">Latest</p>
-          <a class="font-semibold cursor-pointer" href="/latest/blog">
+      <div class="p-4 border-t-2 border-vulcan-800 mt-8">
+        <div className="flex pb-6 mt-2 justify-between items-center">
+          <p class="font-semibold">Latest</p>
+          <a class="font-medium cursor-pointer" href="/latest/blog">
             View All
           </a>
         </div>
