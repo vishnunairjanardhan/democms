@@ -13,6 +13,37 @@ url: "https://www.99minds.io/blog/loyalty-program"
 keywords: ["Loyalty Program"]
 
 --- 
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Loyalty-Program?" rel="noreferrer">What is a Loyalty Program?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Loyalty-Program-Benefits" rel="noreferrer">Benefits of the Loyalty Program</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Types-of-Loyalty-Program" rel="noreferrer">Types-of-Loyalty-Program</a>
+  </li>       
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Loyalty-Program-Examples" rel="noreferrer">Successful Loyalty Program Examples</a>
+  </li>    
+    <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Create-Loyalty-Program" ref="noreferrer">How to Create a Loyalty Program?</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Final-Words" ref="noreferrer">Final Words</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#FAQs" ref="noreferrer">Frequently Ask Question (FAQs) on Loyalty Program</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" src="/assets/blog/what_is_a_loyalty_program.webp" alt="what is Customer loyalty program? benefits and types">
 
 Successful businesses understand that a loyalty program is essential to retain customers. Implementing such a program allows you to thank existing customers, make them feel appreciated, and encourage referrals. 
@@ -20,33 +51,6 @@ Successful businesses understand that a loyalty program is essential to retain c
 This approach strengthens relationships and increases customer satisfaction. Investing in rewards programs is likely to increase retention rates, resulting in increased sales. Customers who are satisfied with your service are more likely to recommend it to others, resulting in increased growth. 
 
 Prioritizing these programs benefits not only existing customers but also creates an opportunity to attract new customers through positive <a href="https://www.99minds.io/blog/word-of-mouth-marketing" role="link" target="_blanck">word-of-mouth marketing</a>.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#Loyalty-Program?" rel="noreferrer">What is a Loyalty Program?</a>
-  </li>
-  <li>  
-    <a role="link" href="#Loyalty-Program-Benefits" rel="noreferrer">Benefits of the Loyalty Program</a>
-  </li>
-  <li>  
-    <a role="link" href="#Types-of-Loyalty-Program" rel="noreferrer">Types-of-Loyalty-Program</a>
-  </li>       
-  <li>  
-    <a role="link" href="#Loyalty-Program-Examples" rel="noreferrer">Successful Loyalty Program Examples</a>
-  </li>    
-    <li>  
-    <a role="link" href="#Create-Loyalty-Program" ref="noreferrer">How to Create a Loyalty Program?</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Final-Words" ref="noreferrer">Final Words</a>
-  </li>  
-  <li>  
-    <a role="link" href="#FAQs" ref="noreferrer">Frequently Ask Question (FAQs) on Loyalty Program</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="Loyalty-Program?">What is a Loyalty Program?</h2>
 
@@ -347,3 +351,25 @@ With the help of loyalty program software like <a href="https://www.99minds.io/"
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do Customer Loyalty Programs Work?</h3>Loyalty programs encourage repeat purchases and brand engagement. Customers earn rewards (such as points or discounts) for specific activities, which they can then redeem for perks. These programs promote customer retention and brand loyalty.</div>
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

@@ -13,6 +13,43 @@ url: "https://www.99minds.io/blog/build-customer-loyalty"
 keywords: ["build customer loyalty", "how to build customer loyalty", "how to build loyalty with customers", "ways to build customer loyalty"]
 
 --- 
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#What-is-Customer-Loyalty?" rel="noreferrer">What is Customer Loyalty?</a>
+    </li> 
+   <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Why-Even-Build-Customer-Loyalty" rel="noreferrer">Why Even Build  Customer Loyalty?</a>
+    </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Type-of-Loyal-Customers" rel="noreferrer">Types of Loyal Customers</a>
+    </li>   
+   <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#7-Strategies-to-Build-Customer-Loyalty" rel="noreferrer">7 Strategies to Build Customer Loyalty</a>
+     </li>
+    <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Build-Customer-Loyalty-with-99minds" rel="noreferrer">Build Customer Loyalty with 99minds</a>
+    </li>
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Why-Choose-99minds-for-Your-Loyalty-Program?" rel="noreferrer">Why Choose 99minds for Your Loyalty Program?</a>
+    </li>    
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#How-to-Measure-and-Track-Customer-Loyalty?" rel="noreferrer">How to Measure and Track Customer Loyalty?</a>
+    </li>
+    <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Wrapping-up" rel="noreferrer">Wrapping up</a>
+    </li>
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently Ask Questions(FAQs)</a>
+    </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/What-is-Cutomer-Loyalty.webp" alt="What is customer loyalty? How to build it">
 
 A robust customer loyalty strategy is crucial for the success of any brand. According to <a href="https://www.forbes.com/sites/forbesagencycouncil/2020/01/29/the-value-of-investing-in-loyal-customers/?sh=860912721f6b" role="link" target="_blanck">Forbes</a>, customers who are loyal are 50% more likely to try new products and spend 31% more compared to new customers. Moreover, retaining an existing customer is significantly more cost-effective - about six to seven times less expensive than acquiring new ones. 
@@ -21,38 +58,7 @@ Whether you already have a customer loyalty program in place or are considering 
 
 In this guide, you'll learn everything you need to know about customer loyalty and discover how to build a successful customer loyalty program. You'll find strategic insights and practical tips on how to build customer loyalty effectively and ensure that your customers continue to engage with and support your brand over time.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul role="list">
-    <li>  
-    <a role="link" href="#What-is-Customer-Loyalty?" rel="noreferrer">What is Customer Loyalty?</a>
-    </li> 
-    <li>  
-    <a role="link" href="#Why-Even-Build-Customer-Loyalty" rel="noreferrer">Why Even Build  Customer Loyalty?</a>
-    </li> 
-    <li>  
-    <a role="link" href="#Type-of-Loyal-Customers" rel="noreferrer">Types of Loyal Customers</a>
-    </li>   
-    <li>  
-    <a role="link" href="#7-Strategies-to-Build-Customer-Loyalty" rel="noreferrer">7 Strategies to Build Customer Loyalty</a>
-     </li>
-    <li>  
-    <a role="link" href="#Build-Customer-Loyalty-with-99minds" rel="noreferrer">Build Customer Loyalty with 99minds</a>
-    </li>
-    <li>  
-    <a role="link" href="#Why-Choose-99minds-for-Your-Loyalty-Program?" rel="noreferrer">Why Choose 99minds for Your Loyalty Program?</a>
-    </li>    
-    <li>  
-    <a role="link" href="#How-to-Measure-and-Track-Customer-Loyalty?" rel="noreferrer">How to Measure and Track Customer Loyalty?</a>
-    </li>
-    <li>  
-    <a role="link" href="#Wrapping-up" rel="noreferrer">Wrapping up</a>
-    </li>
-    <li>  
-    <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently Ask Questions(FAQs)</a>
-    </li>  
-</ul>
-</div>
+
 
 <h2 id="What-is-Customer-Loyalty?">What Is Customer Loyalty?</h2>
 
@@ -323,4 +329,24 @@ Customer loyalty refers to a customer's consistent preference to buy from a spec
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why Is It Important To Build Customer Loyalty?</h3>Customer loyalty is important because it leads to repeat business, reduces the cost associated with acquiring new customers, increases brand advocacy, and can significantly boost a company's profitability.</div>
 
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can Digital Tools Help In Build Customer Loyalty?</h3>Yes, digital tools like <a href="https://www.99minds.io/loyalty" role="link" target="_blanck">99minds</a> can significantly help in building customer loyalty by streamlining loyalty programs, offering digital gift cards, and facilitating personalized customer interactions across various channels.
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can Digital Tools Help In Build Customer Loyalty?</h3>Yes, digital tools like <a href="https://www.99minds.io/loyalty" role="link" target="_blanck">99minds</a> can significantly help in building customer loyalty by streamlining loyalty programs, offering digital gift cards, and facilitating personalized customer interactions across various channels.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

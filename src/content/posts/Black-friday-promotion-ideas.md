@@ -13,7 +13,33 @@ url: "https://www.99minds.io/blog/black-friday-promotion-ideas"
 keywords: ["black friday promotion ideas", "black friday marketing ideas", "black friday sale ideas", "black friday advertising ideas"]
 
 ---
-<img src="/assets/blog/20_irresistible_black_friday_promotion_ideas_to_stand_out_in_2024.webp" alt="20 Irresistible Black Friday Promotion Ideas to Stand Out in 2024">
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#What-is-Black-Friday-Marketing?" rel="noreferrer">What is Black Friday Marketing?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#20-Black-Friday-Promotion-Ideas-that-make-your-offer-tempting" rel="noreferrer">20 Black Friday Promotion Ideas that make your offer tempting</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Black-Friday-Marketing-Strategy-Examples-by-Leading-Retailers" rel="noreferrer">Black Friday Marketing Strategy Examples by Leading Retailers</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Black-Friday-Promotion-Ideas" rel="noreferrer">Frequently Asked Questions (FAQs) on Black Friday Promotion Ideas</a>
+  </li>
+  </ul>
+ </div> 
+
+ <div class="w-full">
+ <img src="/assets/blog/20_irresistible_black_friday_promotion_ideas_to_stand_out_in_2024.webp" alt="20 Irresistible Black Friday Promotion Ideas to Stand Out in 2024">
 
 The only thing better than a good deal is a Black Friday deal! 
 
@@ -25,26 +51,6 @@ With this shopping period offering a major sales boost, it's essential to prepar
 
 <img loading="lazy" role="img" src="/assets/blog/black-friday-promotion-ideas.jpg" alt=" black-friday-spending-chart">
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-is-Black-Friday-Marketing?" rel="noreferrer">What is Black Friday Marketing?</a>
-  </li>
-  <li>
-  <a role="link" href="#20-Black-Friday-Promotion-Ideas-that-make-your-offer-tempting" rel="noreferrer">20 Black Friday Promotion Ideas that make your offer tempting</a>
-  </li>
-  <li>
-  <a role="link" href="#Black-Friday-Marketing-Strategy-Examples-by-Leading-Retailers" rel="noreferrer">Black Friday Marketing Strategy Examples by Leading Retailers</a>
-  </li>
-  <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-  <li>
-  <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Black-Friday-Promotion-Ideas" rel="noreferrer">Frequently Asked Questions (FAQs) on Black Friday Promotion Ideas</a>
-  </li>
-  </ul>
- </div> 
 
  <h2 id="What-is-Black-Friday-Marketing?">What is Black Friday Marketing?</h2>
 
@@ -339,4 +345,27 @@ Consider using <a href="http://99minds.i">99minds</a> to streamline your referra
 Some successful strategies include early-bird discounts, flash sales, mystery boxes, limited-edition product releases, and offering free gifts with every purchase. These tactics create excitement and encourage customer engagement.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can I increase customer loyalty during Black Friday?</h3>Omnichannel marketing uses multiple integrated channels to create a seamless and cohesive customer experience, allowing smooth transitions between various touchpoints. In contrast, single-channel marketing focuses on just one platform, leading to disjointed and less effective interactions.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Should I extend my Black Friday sale to Cyber Monday?</h3>Yes! Extending your sale to Cyber Monday can help you capture more sales and maximize your promotion's impact. Many shoppers continue hunting for deals throughout the weekend, so it’s beneficial to extend your offers.
+</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
 </div>

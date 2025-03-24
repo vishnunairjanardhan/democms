@@ -13,41 +13,45 @@ url: "https://www.99minds.io/blog/ai-for-customer-engagement"
 keywords: ["ai for customer engagement"]
 
 ---
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Why-does-it-Matters-for-Businesses-Today?" rel="noreferrer">Why does it Matters for Businesses Today?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Benefits-of-AI-for-Customer-Engagement" rel="noreferrer">Benefits of AI for Customer Engagement</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Key-AI-Techniques-for-Engaging-Customers" rel="noreferrer">Key AI Techniques for Engaging Customers</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Real-World-Applications" rel="noreferrer">Real-World Applications</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Challenges-and-Ethical-Considerations" rel="noreferrer">Challenges and Ethical Considerations</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Future-Trends-in-AI-for-Customer-Engagement" rel="noreferrer">Future Trends in AI for Customer Engagement</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)" ref="noreferrer">Frequently Asked Questions (FAQs)</a>
+  </li>                       
+</ul>   
+</div>  
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/why_does_ai_matter_for_today_s_businesses_.webp" alt="AI for Customer Engagement">
 
 <h2 id="What-is-AI-in-Customer-Engagement?">What is AI in Customer Engagement?</h2> 
 
 Artificial Intelligence (AI) in customer engagement refers to using machine learning, natural language processing (NLP), and predictive analytics to enhance how businesses interact with their customers. This includes chatbots, personalized recommendations, and automated responses that ensure 24/7 support.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a role="link" href="#Why-does-it-Matters-for-Businesses-Today?" rel="noreferrer">Why does it Matters for Businesses Today?</a>
-  </li>
-  <li>  
-    <a role="link" href="#Benefits-of-AI-for-Customer-Engagement" rel="noreferrer">Benefits of AI for Customer Engagement</a>
-  </li>
-  <li>  
-    <a role="link" href="#Key-AI-Techniques-for-Engaging-Customers" rel="noreferrer">Key AI Techniques for Engaging Customers</a>
-  </li> 
-  <li> 
-    <a role="link" href="#Real-World-Applications" rel="noreferrer">Real-World Applications</a>
-  </li>
-   <li> 
-    <a role="link" href="#Challenges-and-Ethical-Considerations" rel="noreferrer">Challenges and Ethical Considerations</a>
-  </li>
-   <li> 
-    <a role="link" href="#Future-Trends-in-AI-for-Customer-Engagement" rel="noreferrer">Future Trends in AI for Customer Engagement</a>
-  </li>
-  <li>  
-    <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li> 
-  <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)" ref="noreferrer">Frequently Asked Questions (FAQs)</a>
-  </li>                       
-</ul>   
-</div>  
 
 <h2 id="Why-does-it-Matters-for-Businesses-Today?">Why does it Matters for Businesses Today?</h2> 
 
@@ -205,5 +209,26 @@ While  Fast and convenient service is critical to gaining loyal customers. AI ag
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is the future of AI?</h3>
 AI is expected to improve industries like healthcare, manufacturing, and customer service, leading to higher-quality experiences for both workers and customers. However, it does face challenges like increased regulation, data privacy concerns, and worries over job losses.</div><br>
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
 
+
+
+</div>
 

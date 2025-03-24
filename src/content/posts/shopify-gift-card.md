@@ -13,57 +13,63 @@ url: "https://www.99minds.io/blog/shopify-gift-card"
 keywords: ["shopify gift card, gift cards for shopify,shopify gift certificate, how to set up a gift card, shopify e gift cards, shopify digital gift cards"]
 
 ---
-<img rel= "preload" role= "img" src="/assets/blog/how-to-set-up-a-gift-card-on-shopify.webp" alt= "How to set-up a gift card on shopify">
 
-Adding a gift card to your Shopify business is a great way to expand its products and give customers more choices regarding shopping. Including a Shopify gift card can revolutionize your business, whether your goals are to increase revenue, draw in new clients, or enhance cash flow. In this blog, we'll walk you through setting up gift cards on Shopify with <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> so you can easily manage and personalize your <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift card program</a>. Let's get started by delving into the matter.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
   <a role="link" href="#What-is-a-Shopify-Gift-Card?" rel="noreferrer">What is a Shopify Gift Card?</a>
   </li>
-<li>
+<li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#How-do-Shopify-Gift-Cards-Work?" rel="noreferrer">How do Shopify Gift Cards Work?</a>
   </li>
-  <li>
+  <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Advantages-of-Using-Shopify-Gift-Card" rel="noreferrer">Advantages of Using Shopify Gift Card</a>
   </li>
-  <li>
+  <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Difference-Between-Adding-to-a-Gift-Card-vs.-Creating-a-Gift-Card"rel="noreferrer">Difference Between Adding to a Gift Card vs. Creating a Gift Card</a>
   </li>
-  <li>
+  <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#How-to-Get-Started-with-Shopify-Gift-Cards?" rel="noreferrer">How to Get Started with Shopify Gift Cards?</a>
   </li>
-  <li>
+  <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Add-Gift-Card-on-Shopify" rel="noreferrer">Add Gift Card on Shopify</a>
   </li>
-  <li>
+  <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Create-Gift-Card-on-Shopify" rel="noreferrer">Create Gift Card n Shopify</a>
   </li>
-  <li>
+ <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Use-of-Creating-Gift-Cards-on-Shopify" rel="noreferrer">Use of Creating Gift Cards on Shopify</a>
   </li>
-  <li>
+ <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#How-to-Disable-Gift-Cards?" rel="noreferrer">How to Disable Gift Cards?</a>
   </li>
-  <li>
+  <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#What-is-Shopify-Gift-Card-Balance?" rel="noreferrer">What is Shopify Gift Card Balance
   </a>
   </li>
-  <li>
+  <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Promote-Your-Shopify-Gift-Card" rel="noreferrer">Promote Your Shopify Gift Card</a>
   </li>
-  <li>
+  <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Building-a-Gift-Card-Program-With-99minds-vs-Shopify's-Default-Gift-Card-Features" rel="noreferrer"> Building a Gift Card Program With 99minds vs Shopify's Default Gift Card Features</a>
   </li>
-  <li>
+  <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
   </li>
-<li>
+<li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
   </li>
  </div>
+
+ <div class="w-full">
+ <img rel= "preload" role= "img" src="/assets/blog/how-to-set-up-a-gift-card-on-shopify.webp" alt= "How to set-up a gift card on shopify">
+
+Adding a gift card to your Shopify business is a great way to expand its products and give customers more choices regarding shopping. Including a Shopify gift card can revolutionize your business, whether your goals are to increase revenue, draw in new clients, or enhance cash flow. In this blog, we'll walk you through setting up gift cards on Shopify with <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> so you can easily manage and personalize your <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift card program</a>. Let's get started by delving into the matter.
+
  
 <h2 id="What-is-a-Shopify-Gift-Card?">What is a Shopify Gift Card?</h2>
 <ol role="list">
@@ -512,7 +518,25 @@ Absolutely! Customers can easily check their Shopify gift card balance by visiti
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>HHow Do I Promote My Shopify Gift Cards?</h3>
 Promoting your Shopify gift cards is essential to maximize sales. You can promote them through email marketing campaigns, social media posts, and on your website. Offering special promotions or discounts on Shopify gift cards during holidays or special occasions can also help boost sales.</div>
 
-
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>
 
 
 

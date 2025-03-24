@@ -13,6 +13,53 @@ url: "https://www.99minds.io/blog/referral-program"
 keywords: ["referral program","referral programs","what is a referral program","successful referral programs","how to build a referral program"]
 
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#What-is-a-Referral-Program?" rel="noreferrer">What is a Referral Program?</a>
+  </li> 
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Key-Components-of-an-Effective-Referral-Program" rel="noreferrer">Key Components of an Effective Referral Program</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Benefits-of-Referral-Program-for-eCommerce-Business" rel="noreferrer">Benefits of Referral Program for eCommerce Business</a>
+  </li>   
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Why-Do-You-Need-a-Referral-Program?" rel="noreferrer">Why Do You Need a Referral Program?</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Effective-Referral-Program-Ideas" rel="noreferrer">Effective Referral Program Ideas</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#How-Does-a-Referral-Program-Work?" rel="noreferrer">How Does a Referral Program Work?</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#How-to-Build-a-Referral-Program-in-2024" rel="noreferrer">How to Build a Referral Program in 2024</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#How-to-Reward-Customers-for-Referrals" rel="noreferrer">How to Reward Customers for Referrals?</a>
+  </li>    
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Successful-Referral-Program-Examples" rel="noreferrer">Successful Referral Program Examples</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Launch-your-Customer-Referral-Program-with-99minds" rel="noreferrer">Launch your Customer Referral Program with 99minds</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Referral-Program" ref="noreferrer">Frequently Asked Questions (FAQs) for Referral Program</a>
+  </li>                      
+</ul>
+</div>  
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/Guide to Referral Program- Benefits and How to Build One in 2024.webp" alt="Guide to referral program">
 
 Referral programs have become a cornerstone of modern marketing strategies, particularly for eCommerce businesses. A referral program is an incentive structure for your customers to share about your products and services for rewards. It could be any reward- store credits, cash, free trips, free consultations, additional perks, exclusive access, free products, etc. It is up to the business to decide.
@@ -21,47 +68,6 @@ Ecommerce stores have managed to reduce their customer acquisition costs by empl
 
 Referrals are extremely powerful because people believe other people like themselves when they suggest something. According to <a href="https://www.nielsen.com/insights/2012/consumer-trust-in-online-social-and-mobile-advertising-grows/#:~:text=According%20to%20Nielsen's%20latest%20Global,an%20increase%20of%2018%20percent" role="link" target="_blanck">Neilsen's</a> study, more than 92% of people trust the recommendations of friends and families. That’s precisely why social proof, positive comments on forums, customer testimonials, and reviews play a huge role in people buying from you.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a role="link" href="#What-is-a-Referral-Program?" rel="noreferrer">What is a Referral Program?</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Key-Components-of-an-Effective-Referral-Program" rel="noreferrer">Key Components of an Effective Referral Program</a>
-  </li>
-  <li>  
-    <a role="link" href="#Benefits-of-Referral-Program-for-eCommerce-Business" rel="noreferrer">Benefits of Referral Program for eCommerce Business</a>
-  </li>   
-  <li>  
-    <a role="link" href="#Why-Do-You-Need-a-Referral-Program?" rel="noreferrer">Why Do You Need a Referral Program?</a>
-  </li>
-  <li>  
-    <a role="link" href="#Effective-Referral-Program-Ideas" rel="noreferrer">Effective Referral Program Ideas</a>
-  </li>
-  <li>  
-    <a role="link" href="#How-Does-a-Referral-Program-Work?" rel="noreferrer">How Does a Referral Program Work?</a>
-  </li>  
-  <li>  
-    <a role="link" href="#How-to-Build-a-Referral-Program-in-2024" rel="noreferrer">How to Build a Referral Program in 2024</a>
-  </li> 
-  <li>  
-    <a role="link" href="#How-to-Reward-Customers-for-Referrals" rel="noreferrer">How to Reward Customers for Referrals?</a>
-  </li>    
-  <li>  
-    <a role="link" href="#Successful-Referral-Program-Examples" rel="noreferrer">Successful Referral Program Examples</a>
-  </li>
-  <li>  
-    <a role="link" href="#Launch-your-Customer-Referral-Program-with-99minds" rel="noreferrer">Launch your Customer Referral Program with 99minds</a>
-  </li>
-  <li>  
-    <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
-  </li> 
-  <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Referral-Program" ref="noreferrer">Frequently Asked Questions (FAQs) for Referral Program</a>
-  </li>                      
-</ul>
-</div>  
 
 <h2 id="What-is-a-Referral-Program?">What is a Referral Program?</h2>
 
@@ -553,3 +559,22 @@ In 2024, Referral programs remain pivotal for marketing success, offering a comp
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do Referral Programs Benefit eCommerce Businesses?</h3>Referral programs benefit ecommerce businesses by leveraging existing customers to acquire new ones, resulting in increased sales, customer retention, and brand awareness. They tap into the power of word-of-mouth marketing, foster customer loyalty, and provide cost-effective acquisition channels, ultimately driving growth and profitability.</div>
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

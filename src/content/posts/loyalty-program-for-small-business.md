@@ -13,6 +13,38 @@ url: "https://www.99minds.io/blog/loyalty-program-for-small-business"
 keywords: ["loyalty program for small business"]
 
 ---
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">   
+    <a role="link" href="#Why-Loyalty-Programs-Matter-for-Small-Businesses" rel="noreferrer">Why Loyalty Programs Matter for Small Businesses</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Benefits-of-Loyalty-Program-for-Small-Businesses" rel="noreferrer">Benefits of Loyalty Program for Small Businesses</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Types-of-Loyalty-Program-for-Small-Businesses" rel="noreferrer" rel="noreferrer">Types of Loyalty Program for Small Businesses</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#How-to-Build-a-Loyalty-Program-for-Small-Business" rel="noreferrer" rel="noreferrer">How to Build a Loyalty Program for Small Business</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Creative-Ideas-for-Loyalty-Program-for-Small-Businesses" rel="noreferrer" rel="noreferrer">Creative Ideas for Loyalty Program for Small Businesses</a>
+  </li>         
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Final-Words" rel="noreferrer">Final Words</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Loyalty-Program-for-Small-Businesses" ref="noreferrer">Frequently Ask Questions (FAQs) Loyalty Program for Small Businesses</a>
+  </li>                    
+</ul>
+</div>   
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/loyalty_program_for_small_businesses.webp" alt="How to build a loyalty program for small businesses">
 
 Let’s start with a simple question: 
@@ -25,32 +57,6 @@ In this blog, we’ll explore why <a href="http://99minds.io/loyalty" role="link
 
 Let’s dive in.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a role="link" href="#Why-Loyalty-Programs-Matter-for-Small-Businesses" rel="noreferrer">Why Loyalty Programs Matter for Small Businesses</a>
-  </li>
-  <li>  
-    <a role="link" href="#Benefits-of-Loyalty-Program-for-Small-Businesses" rel="noreferrer">Benefits of Loyalty Program for Small Businesses</a>
-  </li>
-  <li>  
-    <a role="link" href="#Types-of-Loyalty-Program-for-Small-Businesses" rel="noreferrer" rel="noreferrer">Types of Loyalty Program for Small Businesses</a>
-  </li>
-  <li>  
-    <a role="link" href="#How-to-Build-a-Loyalty-Program-for-Small-Business" rel="noreferrer" rel="noreferrer">How to Build a Loyalty Program for Small Business</a>
-  </li>
-  <li>  
-    <a role="link" href="#Creative-Ideas-for-Loyalty-Program-for-Small-Businesses" rel="noreferrer" rel="noreferrer">Creative Ideas for Loyalty Program for Small Businesses</a>
-  </li>         
-  <li>  
-    <a role="link" href="#Final-Words" rel="noreferrer">Final Words</a>
-  </li>  
-  <li>
-    <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Loyalty-Program-for-Small-Businesses" ref="noreferrer">Frequently Ask Questions (FAQs) Loyalty Program for Small Businesses</a>
-  </li>                    
-</ul>
-</div>   
 
 <h2 id="Why-Loyalty-Programs-Matter-for-Small-Businesses">Why Loyalty Programs Matter for Small Businesses</h2>
 
@@ -383,3 +389,26 @@ By keeping your program simple, meaningful, and customer-focused, you’re well 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do I create a loyalty program for small businesses?</h3>To create a loyalty program, first define your goals—whether it’s increasing repeat visits, boosting revenue, or driving referrals. Choose a program type that fits your business, such as points, tiers, or punch cards. Invest in affordable tools to track rewards and promote the program through social media, email, and in-store signage. Keep the program simple and engaging, and regularly gather customer feedback to improve it. Start small and scale as your business grows.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is the best software to manage my loyalty program for small businesses?</h3>99minds, Square Loyalty, and Loyalzoo are excellent options. 99minds offers flexible, customizable loyalty programs like tiered rewards and referrals. It integrates seamlessly with tools, making it user-friendly. Other tools like Fivestars and Yotpo provide analytics and easy-to-use features for small business needs.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

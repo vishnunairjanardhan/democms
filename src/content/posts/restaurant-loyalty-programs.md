@@ -13,33 +13,39 @@ url: "https://www.99minds.io/blog/restaurant-loyalty-programs"
 keywords: ["Restaurant loyalty program"]
 
 ---
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#How-is-marketing-in-the-restaurant-industry-changing?" rel="noreferrer">How is marketing in the restaurant industry changing?</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#The-top-6-examples-of-best-loyalty-programs-in-restaurant-industry" rel="noreferrer">The top 6 examples of best loyalty programs in restaurant industry</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-do-successful-restaurant-loyalty-programs-have-in-common?" rel="noreferrer">What do successful restaurant loyalty programs have in common?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Conclusion" ref="noreferrer">Conclusion</a>
+  </li>
+  
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Restaurant-Loyalty-Programs" ref="noreferrer">Frequently Asked Questions (FAQs) on Restaurant Loyalty Programs</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/top_6_best_restaurant_loyalty_programs_in_2025.webp" alt="Restaurant Loyalty Programs.">
 
 With over 200,000 fast-food restaurants in the U.S. alone, success isn’t just about great taste. To build a beloved brand in the competitive restaurant industry and encourage repeat visits, offering more than just delicious food is essential. That’s where well-crafted restaurant loyalty programs make a difference.
 
 In this article, we explore 10 of the most successful restaurant loyalty program ideas and uncover the secrets behind their effectiveness. We’ll also dive into how <a href="https://www.99minds.io/blog/build-customer-loyalty">customer loyalty programs</a> are evolving in the restaurant sector, the main objectives of these programs, and showcase 10 standout examples. Finally, we’ll compare these programs to identify the key features that make restaurant loyalty programs truly successful.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#How-is-marketing-in-the-restaurant-industry-changing?" rel="noreferrer">How is marketing in the restaurant industry changing?</a>
-  </li> 
-  <li>  
-    <a role="link" href="#The-top-6-examples-of-best-loyalty-programs-in-restaurant-industry" rel="noreferrer">The top 6 examples of best loyalty programs in restaurant industry</a>
-  </li>
-    <li>  
-    <a role="link" href="#What-do-successful-restaurant-loyalty-programs-have-in-common?" rel="noreferrer">What do successful restaurant loyalty programs have in common?</a>
-  </li>
-  <li>  
-    <a role="link" href="#Conclusion" ref="noreferrer">Conclusion</a>
-  </li>
-  
-  <li>  
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Restaurant-Loyalty-Programs" ref="noreferrer">Frequently Asked Questions (FAQs) on Restaurant Loyalty Programs</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="How-is-marketing-in-the-restaurant-industry-changing?">How is marketing in the restaurant industry changing?</h2>
 
@@ -414,3 +420,25 @@ You can design a customized program with tools like <a href="https://www.99minds
 </div>
 
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

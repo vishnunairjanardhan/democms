@@ -13,6 +13,35 @@ url: "https://www.99minds.io/blog/how-to-increase-ecommerce-sales-47-actionable-
 keywords: ["how to increase ecommerce sales, ecommerce sales strategy, increase sales ecommerce,increasing ecommerce sales "]
 
 ---
+
+
+<div class="lg:flex lg:gap-6">
+<!-- Table of content section -->
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+<p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Future-of-Ecommerce-Sales" rel="noreferrer">Future of Ecommerce Sales </a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#What-is-Ecommerce-Sales" rel="noreferrer">What is Ecommerce Sales?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Importance-of-Increasing-Ecommerce-Sales" rel="noreferrer">Importance of Increasing Ecommerce Sales</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#How-to-Increase-Ecommerce-Sales-47-Actionable-Ways" rel="noreferrer">How to Increase Ecommerce Sales: 47 Actionable Ways</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Frequently-Ask-Questions-(FAQs)" ref="noreferrer">Frequently Ask Questions (FAQs)</a>
+  </li>
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" loading="lazy" src="/assets/blog/how-to-increase-eCommerce-sales.webp"  alt=" How to increase e-commerce sales">
 
 Ecommerce is growing, and sales are expected to reach <a href="https://www.forbes.com/advisor/business/ecommerce-statistics/" role="link" target="_blank">$6. 3 trillion</a> in 2024. Companies want to know how to increase ecommerce sales. Ecommerce sales can be increased through various effective tactics, including paid traffic, social media, and email marketing. However, SEO remains an important factor in driving growth, traffic, and conversions. 
@@ -25,29 +54,6 @@ As technology continues to evolve and more people gain access to the internet, e
 
 Businesses can take advantage of this shift in consumer behavior and use these e-commerce sales strategies to grow sales. But before we dive into these strategies, let’s first glance through the expected future of e-commerce sales.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul role="list"> 
-  <li>
-    <a role="link" href="#Future-of-Ecommerce-Sales" rel="noreferrer">Future of Ecommerce Sales </a>
-  </li>
-  <li>
-    <a role="link" href="#What-is-Ecommerce-Sales" rel="noreferrer">What is Ecommerce Sales?</a>
-  </li>
-  <li>
-    <a role="link" href="#Importance-of-Increasing-Ecommerce-Sales" rel="noreferrer">Importance of Increasing Ecommerce Sales</a>
-  </li>
-  <li>
-    <a role="link" href="#How-to-Increase-Ecommerce-Sales-47-Actionable-Ways" rel="noreferrer">How to Increase Ecommerce Sales: 47 Actionable Ways</a>
-  </li>
-  <li>
-    <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-  <li>
-    <a role="link" href="#Frequently-Ask-Questions-(FAQs)" ref="noreferrer">Frequently Ask Questions (FAQs)</a>
-  </li>
-</ul>
-</div>
 
 
 <h2 id="Future-of-Ecommerce-Sales"> Future of Ecommerce Sales </h2>
@@ -472,3 +478,23 @@ By using technology, data, and a customer-centric approach, ecommerce companies 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> How To Increase My ecommerce Sales?</h3>There are many ways to increase your ecommerce sales, including optimizing your website for search engines, using social media, offering multiple payment options, providing better customer service, and implementing pricing strategies.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What Are ecommerce Sales Strategies?</h3> ecommerce sales strategies are plans businesses use to boost online sales. Common tactics include SEO to improve website visibility, PPC ads for targeted advertising, email marketing for customer engagement, and offering discounts to attract shoppers.</div>
  
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>
