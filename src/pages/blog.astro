@@ -4,6 +4,7 @@ import { AstroSeo } from "@astrolib/seo";
 import CtaThree99minds from "../components/ctas/CtaThree99minds.astro";
 import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import BlogWithSearch from "../components/react/BlogWithSearch.jsx";
+import CaseStudyTabNew from "../components/features/CaseStudyTabNew.astro";
 
 const allPosts = await getCollection("posts");
 const sortedPosts = allPosts.sort((a, b) => {
@@ -54,6 +55,7 @@ const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
         </h1>
       </div>
       <BlogWithSearch client:only="react" sortedPosts={sortedPosts} tags={tags}/>
+      <CaseStudyTabNew/>
     </div>
   </section>
   <CtaThree99minds />
