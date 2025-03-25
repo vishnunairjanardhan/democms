@@ -180,8 +180,8 @@ For example, studies show that customers referred by friends are four times more
 Customers interact with brands across multiple touchpoints, including websites, mobile apps, in-store visits, and social media. A seamless <a href="https://www.99minds.io/blog/omnichannel-loyalty-programs" role="link" target="_blanck">omnichannel loyalty strategy</a> ensures customers receive consistent rewards and personalized experiences no matter where they engage with your brand. Key <a href="https://www.99minds.io/blog/omnichannel-marketing" role="link" target="_blanck">omnichannel tactics</a> include:
 
 - <b>Unified rewards system</b>: Customers earn and redeem points across all platforms.
-<b>Cross-channel engagement</b>: Email, SMS, social media, and in-app notifications work together to keep customers engaged.
-<b>Consistent experience</b>: Ensure loyalty benefits and messaging remain the same across online and offline stores.
+- <b>Cross-channel engagement</b>: Email, SMS, social media, and in-app notifications work together to keep customers engaged.
+- <b>Consistent experience</b>: Ensure loyalty benefits and messaging remain the same across online and offline stores.
 
 ### 7. Utilize Gamification to Enhance Engagement
 
