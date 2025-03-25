@@ -13,7 +13,42 @@ url: "https://www.99minds.io/blog/benefits-of-a-loyalty-program"
 keywords: ["benefits of a loyalty program, loyalty program benefits, loyalty program benefits for customers, customer loyalty program benefits, benefits of a loyalty program, benefits of loyalty schemes, benefits of customer loyalty programs, reward program benefits, benefits of rewards programs, benefits of reward programs, benefits of loyalty card, benefits of loyalty cards for customers, benefits of loyalty cards to customers, loyalty programs benefits"]
 
 ---
-<img src="/assets/blog/10-Benefits-of-a-Loyalty-Program-for-Your-Business.webp">
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-is-a-Loyalty-Program?" rel="noreferrer">What is a Loyalty Program?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#10-Benefits-of-Loyalty-Program" rel="noreferrer">10 Benefits of Loyalty Program
+</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Types-of-Loyalty-Programs" rel="noreferrer">Types of Loyalty Programs</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Creating-a-Customer-Loyalty-Program"rel="noreferrer">Creating a Customer Loyalty Program</a>
+</li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+<a role="link" href="#The-Key-Metrics-to-Measure-the-Success-of-your-Loyalty-Program"rel="noreferrer">The Key Metrics to Measure the Success of your Loyalty Program</a>
+</li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+<a role="link" href="#Why-Choose-99minds"rel="norferrer">Why Choose 99minds</a>
+</li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role= "link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
+  </li>
+ </div>
+
+ <div class="w-full">
+ <img src="/assets/blog/10-Benefits-of-a-Loyalty-Program-for-Your-Business.webp">
 
 When you're a few points away from receiving a free cup of coffee, have you ever noticed yourself returning to the same coffee shop? Or may your loyalty to a specific airline stem from the miles you've accrued? 
 
@@ -21,35 +56,6 @@ That is how loyalty programs work their magic. Retaining clients is more importa
 
 <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blank">Customer loyalty programs</a> foster a sense of community and encourage consumers to pick your company over competitors by providing incentives and prizes. Let's explore the many <a href="https://www.99minds.io/blog/types-of-loyalty-program" role="link" target="_blank">types of loyalty programs</a>, their definitions, and above all the advantages they can offer your company.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-is-a-Loyalty-Program?" rel="noreferrer">What is a Loyalty Program?</a>
-  </li>
-<li>
-  <a role="link" href="#10-Benefits-of-Loyalty-Program" rel="noreferrer">10 Benefits of Loyalty Program
-</a>
-  </li>
-  <li>
-  <a role="link" href="#Types-of-Loyalty-Programs" rel="noreferrer">Types of Loyalty Programs</a>
-  </li>
-  <li>
-  <a role="link" href="#Creating-a-Customer-Loyalty-Program"rel="noreferrer">Creating a Customer Loyalty Program</a>
-</li>
-<li>
-<a role="link" href="#The-Key-Metrics-to-Measure-the-Success-of-your-Loyalty-Program"rel="noreferrer">The Key Metrics to Measure the Success of your Loyalty Program</a>
-</li>
-<li>
-<a role="link" href="#Why-Choose-99minds"rel="norferrer">Why Choose 99minds</a>
-</li>
-  <li>
-  <a role= "link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-<li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
-  </li>
- </div>
 
  <h2 id="What-is-a-Loyalty-Program?">What is a Loyalty Program?</h2>
 
@@ -307,3 +313,25 @@ In the future, keeping up with new developments in loyalty program tactics will 
 Common types include points-based programs (earn points for rewards), tiered programs (unlock benefits as you spend more), and cashback programs (get money back on purchases).</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can loyalty programs evolve to stay relevant in the future?</h3>
 hey can evolve by personalizing rewards based on customer behavior, integrating rewards across online and offline channels, and incorporating social and environmental responsibility into their incenti
+</div>
+
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

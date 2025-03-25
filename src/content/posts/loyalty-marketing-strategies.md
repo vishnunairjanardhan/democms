@@ -13,32 +13,38 @@ url: "https://www.99minds.io/blog/loyalty-marketing-strategies"
 keywords: ["loyalty marketing", "loyalty program marketing", "what is loyalty marketing", "loyalty marketing strategy"]
 
 ---
-<img src="/assets/blog/5_loyalty_marketing_strategies_for_loyal_and_happy_customers.webp">
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#What-is-Loyalty-Marketing?" rel="noreferrer">What is Loyalty Marketing?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Why-is-Loyalty-Marketing-Important?" rel="noreferrer">Why is Loyalty Marketing Important?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#5-Loyalty-Marketing-Strategies-to-Grow-Your-Brand" rel="noreferrer">5 Loyalty Marketing Strategies to Grow Your Brand</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Asked-Questions-on-Loyalty-Marketing-(FAQs)" rel="noreferrer">Frequently Asked Questions on Loyalty Marketing (FAQs)</a>
+  </li>
+  </ul>
+ </div> 
+
+ <div class="w-full">
+ <img src="/assets/blog/5_loyalty_marketing_strategies_for_loyal_and_happy_customers.webp">
 
 Loyalty marketing revolves around cultivating long-term relationships with existing customers by offering personalized and rewarding experiences. As brands move away from one-time promotions, loyalty marketing strategies help businesses engage customers throughout their journey, focusing on retention. By leveraging personalized rewards and tailored communication, brands can boost customer engagement, reduce churn, and build brand advocates. Research shows acquiring new customers is significantly more costly than retaining current ones.
 
 This guide will introduce tactics for multichannel loyalty program marketing, including personalizing rewards, testing, and structuring effective loyalty marketing strategies across various platforms.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-is-Loyalty-Marketing?" rel="noreferrer">What is Loyalty Marketing?</a>
-  </li>
-  <li>
-  <a role="link" href="#Why-is-Loyalty-Marketing-Important?" rel="noreferrer">Why is Loyalty Marketing Important?</a>
-  </li>
-  <li>
-  <a role="link" href="#5-Loyalty-Marketing-Strategies-to-Grow-Your-Brand" rel="noreferrer">5 Loyalty Marketing Strategies to Grow Your Brand</a>
-  </li>
-  <li>
-  <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
-  </li>
-  <li>
-  <a role="link" href="#Frequently-Asked-Questions-on-Loyalty-Marketing-(FAQs)" rel="noreferrer">Frequently Asked Questions on Loyalty Marketing (FAQs)</a>
-  </li>
-  </ul>
- </div> 
 
 <h2 id="What-is-Loyalty-Marketing?">What is Loyalty Marketing?</h2>
 
@@ -189,4 +195,27 @@ In conclusion, loyalty marketing is an essential strategy that helps businesses 
 Loyalty marketing is a strategy that focuses on retaining and rewarding existing customers by offering incentives such as discounts, points, or exclusive offers to encourage repeat purchases and long-term brand loyalty.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do loyalty programs benefit businesses?</h3>Loyalty programs help increase customer retention, boost sales, and build long-term relationships by rewarding repeat purchases, driving customer engagement, and improving brand loyalty.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why should I use 99minds for loyalty programs?</h3><a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> offers customizable, omnichannel solutions for creating loyalty programs that enhance customer retention and boost revenue, with easy-to-use tools for business growth.
+</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
 </div>

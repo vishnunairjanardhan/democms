@@ -13,33 +13,39 @@ url: "https://www.99minds.io/blog/promotional-codes"
 keywords: ["promotional code", "promotion code", "what is promotional code", "what is the promotional code"]
 
 ---
-<img src="/assets/blog/how_to_use_a_promotional_code_to_drive_sales.webp">
 
-Before making an online purchase, most of us instinctively search for a promotional code to lower the total cost or score a freebie. This behavior is universal, and it’s why eCommerce sites should capitalize on the power of promotional codes. Research shows that 92% of shoppers use promo codes at least once a year, influencing over 50% of purchases. In this article, we'll dive into how promotional code works, the various types available, and the benefits they offer to both businesses and customers.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
   <a role="link" href="#What-is-a-Promotional-Code?" rel="noreferrer">What is a Promotional Code?</a>
   </li>
-  <li>
+ <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#How-do-Promotional-Codes-Work?" rel="noreferrer">How do Promotional Codes Work?</a>
   </li>
-  <li>
+ <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Why-Promotional-Codes-Work?" rel="noreferrer">Why Promotional Codes Work?</a>
   </li>
-  <li>
+  <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#7-Ways-to-use-Promotional-Codes-to-Drive-Sales" rel="noreferrer">7 Ways to use Promotional Codes to Drive Sales</a>
   </li>
-  <li>
+ <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
   </li>
-  <li>
+ <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Frequently-Asked-Questions-on-Promotional-Codes-(FAQs)" rel="noreferrer">Frequently Asked Questions on Promotional Codes (FAQs)</a>
   </li>
   </ul>
  </div> 
+
+ <div class="w-full">
+ <img src="/assets/blog/how_to_use_a_promotional_code_to_drive_sales.webp">
+
+Before making an online purchase, most of us instinctively search for a promotional code to lower the total cost or score a freebie. This behavior is universal, and it’s why eCommerce sites should capitalize on the power of promotional codes. Research shows that 92% of shoppers use promo codes at least once a year, influencing over 50% of purchases. In this article, we'll dive into how promotional code works, the various types available, and the benefits they offer to both businesses and customers.
+
 
 <h2 id="What-is-a-Promotional-Code?">What is a Promotional Code?</h2>
 
@@ -222,4 +228,28 @@ For an efficient and user-friendly way to implement promotional codes and other 
 A promotional code is a combination of numbers and letters that offers customers special discounts or deals when applied during checkout. It can be used to attract new customers and reward existing ones.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> How can promotional codes benefit my business?</h3>Promotional codes can increase sales, attract new customers, and boost brand loyalty. They provide an incentive for customers to make a purchase, which can lead to higher conversion rates.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why use 99minds for managing promotional codes? </h3><a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> offers a robust platform to create, manage, and track promotional codes efficiently. It integrates seamlessly with your eCommerce setup, helping you run targeted campaigns to maximize revenue.
+</div>
+
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
 </div>

@@ -13,44 +13,50 @@ url: "https://www.99minds.io/blog/customer-lifetime-value"
 keywords: ["Customer lifetime value", "client lifetime value", "lifetime value of a customer","lifetime customer value formula","how to calculate customer lifetime value"]
 
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Understanding-Customer-Lifetime-Value" rel="noreferrer">Understanding Customer Lifetime Value</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Why-Customer-Lifetime-Value-Matters?" rel="noreferrer">Why Customer Lifetime Value Matters?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#How-to-Calculate-Customer-Lifetime-Value?" rel="noreferrer">How to Calculate Customer Lifetime Value?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Key-Factors-Influencing-Customer-Lifetime-Value" rel="noreferrer">Key Factors Influencing Customer Lifetime Value</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Strategies-to-Enhance-Customer-Lifetime-Value" rel="noreferrer">Strategies to Enhance Customer Lifetime Value</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Tools-and-Resources-for-Measuring-CLV" rel="noreferrer">Tools and Resources for Measuring CLV</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Real-World-Examples-and-Case-Studies" rel="noreferrer">Real-World Examples and Case Studies</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
+  </li>
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/why-you-can't-ignore-customer-lifetime-value-insights-for-growth.webp"></a>
 
 Long-term business success in today's competitive industry depends on having a solid understanding of a customer's financial worth. Customer Lifetime Value (CLV) is one of the most effective indicators that can assist you in determining this value. In other words, CLV calculates the total revenue a customer will bring in for your company throughout their association with you.<br>
 
 This metric assists you in optimizing profitability in addition to providing useful information for marketing and customer service decisions. We'll explore CLV in this blog, including its definition, significance, calculation methods, and ways to raise it.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#Understanding-Customer-Lifetime-Value" rel="noreferrer">Understanding Customer Lifetime Value</a>
-  </li>
-<li>
-  <a role="link" href="#Why-Customer-Lifetime-Value-Matters?" rel="noreferrer">Why Customer Lifetime Value Matters?</a>
-  </li>
-  <li>
-  <a role="link" href="#How-to-Calculate-Customer-Lifetime-Value?" rel="noreferrer">How to Calculate Customer Lifetime Value?</a>
-  </li>
-  <li>
-  <a role="link" href="#Key-Factors-Influencing-Customer-Lifetime-Value" rel="noreferrer">Key Factors Influencing Customer Lifetime Value</a>
-  </li>
-  <li>
-  <a role="link" href="#Strategies-to-Enhance-Customer-Lifetime-Value" rel="noreferrer">Strategies to Enhance Customer Lifetime Value</a>
-  </li>
-  <li>
-  <a role="link" href="#Tools-and-Resources-for-Measuring-CLV" rel="noreferrer">Tools and Resources for Measuring CLV</a>
-  </li>
-  <li>
-  <a role="link" href="#Real-World-Examples-and-Case-Studies" rel="noreferrer">Real-World Examples and Case Studies</a>
-  </li>
-  <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-<li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
-  </li>
-</ul>
-</div>
 
 <h2 id="Understanding-Customer-Lifetime-Value">Understanding Customer Lifetime Value</h2>
 
@@ -421,6 +427,29 @@ A good CLV varies by industry, but generally, it should significantly exceed you
 Businesses should reassess CLV calculations regularly, ideally quarterly or semi-annually, to account for changes in customer behavior and market conditions.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can CLV be applied to different customer segments?</h3>
 Absolutely! Analyzing CLV by different customer segments can provide valuable insights, allowing businesses to tailor marketing strategies to maximize returns from each segment.</div><br>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>
 </body>
 </html>
 

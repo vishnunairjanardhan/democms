@@ -13,6 +13,41 @@ url: "https://www.99minds.io/blog/gift-card-scams"
 keywords: ["gift card scams", "gift card scam", " gift cards scams", " gift card scammer"]
 
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#What-is-are-Gift-Card-Scams?" rel="noreferrer">What is are Gift Card Scams?</a>
+  </li> 
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Types-of-Gift-Card-Scams" rel="noreferrer">Types of Gift Card Scams</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Spotting-Gift-Card-Scams" rel="noreferrer">Spotting Gift Card Scams</a>
+  </li> 
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#What-to-do-if-your-Customer-is-Scammed?" rel="noreferrer">What to do if Your Customer is Scammed?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Instructions-for-your-Users-if-they-are-Scammed" rel="noreferrer">Instructions for Your Users if they are Scammed</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Build-a-Safe-and-Secure-Gift-Card-Program-with-99minds" rel="noreferrer">Build a Safe and Secure Gift Card Program with 99minds</a>
+  </li>        
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Conclusion" ref="noreferrer">Conclusion</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)" ref="noreferrer">Frequently Asked Questions (FAQs)</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/The-Holiday-Season-is-an-Ideal-Time-for-Gift-Card-Scam-to-Bloom1.webp" alt="Top 18 B2B eCommerce Trends in 2024">
 
 Unfortunately, many honest customers get conned by scammers who steal their personal information and money. During the holiday season, it is important to be vigilant about everything you purchase, from devices to gift cards, to avoid falling victim to gift card scam.
@@ -21,35 +56,6 @@ No one wants to be scammed, especially during the holiday season, as it is a dif
 
 An <a href="https://www.aarp.org/money/scams-fraud/info-2019/gift-card.html" role="link" target="_blank">AARP survey</a> 20% of participants found the gift cards they purchased had no value. That's a significant number, and no one wants to be part of this 20%. In this article, we will discuss how to identify and avoid gift card scams.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul role="list">
-  <li>  
-    <a role="link" href="#What-is-are-Gift-Card-Scams?" rel="noreferrer">What is are Gift Card Scams?</a>
-  </li> 
-  <li>
-    <a role="link" href="#Types-of-Gift-Card-Scams" rel="noreferrer">Types of Gift Card Scams</a>
-  </li>
-  <li>
-    <a role="link" href="#Spotting-Gift-Card-Scams" rel="noreferrer">Spotting Gift Card Scams</a>
-  </li> 
-  <li>
-    <a role="link" href="#What-to-do-if-your-Customer-is-Scammed?" rel="noreferrer">What to do if Your Customer is Scammed?</a>
-  </li>
-  <li>
-    <a role="link" href="#Instructions-for-your-Users-if-they-are-Scammed" rel="noreferrer">Instructions for Your Users if they are Scammed</a>
-  </li>
-  <li>
-    <a role="link" href="#Build-a-Safe-and-Secure-Gift-Card-Program-with-99minds" rel="noreferrer">Build a Safe and Secure Gift Card Program with 99minds</a>
-  </li>        
-  <li>
-    <a role="link" href="#Conclusion" ref="noreferrer">Conclusion</a>
-  </li>
-  <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)" ref="noreferrer">Frequently Asked Questions (FAQs)</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="What-is-are-Gift-Card-Scams?">What is are Gift Card Scams?</h2>
 
@@ -321,5 +327,22 @@ If you are looking to set up a gift card solution for your business, get in touc
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How To Avoid Gift Card Scams?</h3>To avoid gift card scams, always be skeptical of unexpected requests for gift cards. Verify the identity and legitimacy of the requester independently before taking any action. Never share gift card numbers or PINs with anyone, even if the request seems urgent or convincing. Keeping these precautions in mind can help protect you from becoming a victim of gift card fraud.</div>
 
 
-
-
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

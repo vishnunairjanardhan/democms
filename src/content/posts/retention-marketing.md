@@ -13,6 +13,41 @@ url: "https://www.99minds.io/blog/retention-marketing"
 keywords: ["retention marketing"]
 ---
 
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+<p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#1" rel="noreferrer">What is Retention marketing?</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#2" rel="noreferrer">Benefits of Retention Marketing</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#3" rel="noreferrer">Retention Marketing Strategies</a>
+  </li>    
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#4" rel="noreferrer">Retention Marketing Tools</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#5" rel="noreferrer">How to Measure the Retention Marketing</a>
+  </li>   
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#6" rel="noreferrer">Customer Retention Marketing Vs. Customer Acquisition</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Conclusion" ref="noreferrer">Conclusion</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" role="link" href="#FAQs" ref="noreferrer">Frequently Ask Questions (FAQs) on Retention Marketing</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" src="/assets/blog/retention_marketing.webp" alt="retention marketing blog banner image">
 
 Retention marketing is an essential part of a successful business strategy. It helps keep customers engaged, rebuild relationships with past buyers, and encourage repeat purchases from loyal customers.
@@ -22,36 +57,6 @@ However, just reminding customers about your brand is not enough to keep them in
 According to <a href="https://cdn2.hubspot.net/hubfs/2771217/Content/2018%20Customer%20Service%20Expectations%20Gladly.pdf" role="link" target="_blanck">HubSpot</a>, 68% of respondents would pay more for a product from a company with a strong record of good customer service. This emphasizes the need for targeted communication, segmented marketing, and excellent customer experiences to keep loyal customers. 
 
 By creating strong retention marketing strategies, businesses can improve customer satisfaction, build long-term relationships, and maintain steady revenue growth.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-indigo-200 shadow-purple-300 bg-purple-200 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#1" rel="noreferrer">What is Retention marketing?</a>
-  </li> 
-  <li>
-    <a role="link" href="#2" rel="noreferrer">Benefits of Retention Marketing</a>
-  </li>
-  <li>
-    <a role="link" href="#3" rel="noreferrer">Retention Marketing Strategies</a>
-  </li>    
-  <li>
-    <a role="link" href="#4" rel="noreferrer">Retention Marketing Tools</a>
-  </li> 
-  <li>
-    <a role="link" href="#5" rel="noreferrer">How to Measure the Retention Marketing</a>
-  </li>   
-  <li>
-    <a role="link" href="#6" rel="noreferrer">Customer Retention Marketing Vs. Customer Acquisition</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Conclusion" ref="noreferrer">Conclusion</a>
-  </li>
-  <li>  
-    <a role="link" role="link" href="#FAQs" ref="noreferrer">Frequently Ask Questions (FAQs) on Retention Marketing</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="1">What is Retention marketing?</h2>
 
@@ -377,3 +382,26 @@ Using these strategies helps you build strong customer relationships and turn on
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can small businesses benefit from retention marketing?</h3>Absolutely! Retention marketing is beneficial for businesses of all sizes. Small businesses can leverage cost-effective strategies like email marketing and personalized customer experiences to build long-term relationships and grow their revenue.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the retention marketing channels?</h3>Retention marketing channels include email marketing, SMS marketing, social media engagement, loyalty programs, referral programs, personalized customer service, and in-app messaging. These channels help businesses maintain strong relationships with their customers and encourage repeat purchases.</div> 
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

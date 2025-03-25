@@ -13,35 +13,41 @@ url: "https://www.99minds.io/blog/beauty-loyalty-program"
 keywords: ["best beauty loyalty programs", "beauty loyalty programs", "beauty loyalty", "beauty rewards programs"]
 
 ---
-<img src="/assets/blog/the_7_best_beauty_loyalty_programs_and_why_they_re_so_effective.webp" alt="The 7 Best Beauty Loyalty Programs and Why they’re so Effective">
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Numbers-of-the-eCommerce-Beauty-Industry" rel="noreferrer">Numbers of the eCommerce Beauty Industry</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Why-are-Loyalty-Programs-Important?" rel="noreferrer">Why are Loyalty Programs Important?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-are-the-Best-Beauty-Loyalty-Programs?" rel="noreferrer">What are the Best Beauty Loyalty Programs?</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Top-Tips-Inspired-by-the-World’s-Best-Beauty-Loyalty-Programs" rel="noreferrer">Top Tips Inspired by the World’s Best Beauty Loyalty Programs</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#FAQ-on-the-Best-Beauty-Loyalty-Programs" rel="noreferrer">FAQ on the Best Beauty Loyalty Programs</a>
+  </li>
+  </ul>
+ </div> 
+
+ <div class="w-full">
+ <img src="/assets/blog/the_7_best_beauty_loyalty_programs_and_why_they_re_so_effective.webp" alt="The 7 Best Beauty Loyalty Programs and Why they’re so Effective">
 
 Ever wondered why some beauty brands flourish while others falter, despite selling similar products? The secret often lies in their beauty loyalty programs. Leading brands like Sephora and Ulta have some of the best beauty loyalty programs, attracting millions of loyal customers and serving as industry benchmarks.
 
 But beyond these giants, what are other successful beauty loyalty initiatives? What unique strategies do they use to engage and retain customers? This article will explore the most successful beauty loyalty programs globally and reveal the key elements driving their success.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#Numbers-of-the-eCommerce-Beauty-Industry" rel="noreferrer">Numbers of the eCommerce Beauty Industry</a>
-  </li>
-  <li>
-  <a role="link" href="#Why-are-Loyalty-Programs-Important?" rel="noreferrer">Why are Loyalty Programs Important?</a>
-  </li>
-  <li>
-  <a role="link" href="#What-are-the-Best-Beauty-Loyalty-Programs?" rel="noreferrer">What are the Best Beauty Loyalty Programs?</a>
-  </li>
-  <li>
-  <a role="link" href="#Top-Tips-Inspired-by-the-World’s-Best-Beauty-Loyalty-Programs" rel="noreferrer">Top Tips Inspired by the World’s Best Beauty Loyalty Programs</a>
-  </li>
-  <li>
-  <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
-  </li>
-  <li>
-  <a role="link" href="#FAQ-on-the-Best-Beauty-Loyalty-Programs" rel="noreferrer">FAQ on the Best Beauty Loyalty Programs</a>
-  </li>
-  </ul>
- </div> 
 
  <h2 id="Numbers-of-the-eCommerce-Beauty-Industry">Numbers of the eCommerce Beauty Industry</h2>
 
@@ -351,4 +357,27 @@ These strategies not only drive repeat purchases but also foster a community of 
 Beauty loyalty programs are customer reward systems designed to enhance customer retention and satisfaction in the beauty industry. Customers earn points through purchases, referrals, or brand interactions, which can be redeemed for rewards like discounts, free products, or exclusive event access.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are some key features of the best beauty loyalty programs?</h3>Top beauty loyalty programs often include clear points systems, tiered rewards (offering exclusive perks at higher levels), birthday rewards, multiple ways to earn points beyond purchases (like social shares or reviews), and diverse reward options such as free samples, gift sets, or spa experiences.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why are beauty loyalty programs effective?</h3>These programs reward repeat purchases, making customers feel valued while creating personalized experiences. They encourage brand loyalty by offering benefits that can save money, give access to exclusive products or events, and build a sense of community among members.
+</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
 </div>

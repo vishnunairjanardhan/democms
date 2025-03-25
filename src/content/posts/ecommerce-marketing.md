@@ -13,6 +13,31 @@ url: "https://www.99minds.io/blog/ecommerce-marketing"
 keywords: ["ecommerce marketing"]
 
 --- 
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-is-Ecommerce-Marketing?" rel="noreferrer">What is Ecommerce Marketing?</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Types-of-Ecommerce-Marketing" rel="noreferrer">Types of Ecommerce Marketing</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#20-Proven-Ecommerce-Marketing-Hacks-for-2025" rel="noreferrer">20 Proven Ecommerce Marketing Hacks for 2025</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
+  </li>
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/ecommerce-marketing-strategies-and-tips-for-2025.webp"></a>
 
 Global retail ecommerce sales are expected to reach an incredible $8.1 trillion by 2026, making ecommerce marketing more competitive. This tremendous expansion offers firms both amazing prospects and difficult obstacles. It takes more than just a website to stand out in this competitive field; you also need a strategic strategy that speaks directly to your audience's requirements and preferences.
@@ -21,26 +46,6 @@ Having a solid marketing strategy is crucial, regardless of your goals—increas
 
 This thorough guide explores tried-and-true ecommerce marketing tactics, practical advice, and the newest developments to help you outperform the competition. We'll cover everything you need to improve your online brand in 2025, from creating interesting content for your audience to making your campaigns more receptive to repeat business. Are you prepared to change your company? Let's begin!
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-is-Ecommerce-Marketing?" rel="noreferrer">What is Ecommerce Marketing?</a>
-  </li>
-<li>
-  <a role="link" href="#Types-of-Ecommerce-Marketing" rel="noreferrer">Types of Ecommerce Marketing</a>
-  </li>
-  <li>
-  <a role="link" href="#20-Proven-Ecommerce-Marketing-Hacks-for-2025" rel="noreferrer">20 Proven Ecommerce Marketing Hacks for 2025</a>
-  </li>
-  <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-<li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
-  </li>
-</ul>
-</div>
 
 <h2 id="What-is-Ecommerce-Marketing?">What is Ecommerce Marketing?</h2>
 The deliberate process of advertising an online store to increase traffic, sales, and client retention is known as ecommerce marketing. It includes a variety of strategies and platforms, both online and offline, that are intended to assist clients in their purchasing process. Ecommerce marketing covers every phase of the client lifecycle, from creating early brand recognition to cultivating trust and loyalty.<br>
@@ -268,6 +273,30 @@ By using customized techniques, such as improving website performance or gift ca
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is the best way to increase ecommerce sales?</h3>
 The best way to increase ecommerce sales is through effective ecommerce marketing strategies, including optimizing your website for search engines, utilizing social media marketing, running email campaigns, and offering excellent customer service.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How important is SEO for ecommerce businesses?</h3>
-SEO is a vital component of ecommerce marketing as it helps drive organic traffic to your site, reducing reliance on paid advertising. By optimizing product pages, blog posts, and technical site elements, you can improve search rankings and visibility.<div><br>
+SEO is a vital component of ecommerce marketing as it helps drive organic traffic to your site, reducing reliance on paid advertising. By optimizing product pages, blog posts, and technical site elements, you can improve search rankings and visibility.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can I improve my ecommerce website’s conversion rate?</h3>
 To improve your conversion rate, focus on ecommerce marketing techniques like optimizing product pages, offering clear calls to action, simplifying the checkout process, and implementing trust signals such as customer reviews, free shipping, and secure payment options.</div><br>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>
+

@@ -12,6 +12,47 @@ tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/omnichannel-loyalty-programs"
 keywords: ["Omnichannel loyalty", "Omnichannel loyalty programs","omnichannel loyalty program", "omnichannel customer loyalty program"]
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+        <a role="link" href="#What-is-Omnichannel-Loyalty-Program?" rel="noreferrer">What is Omnichannel Loyalty Program?</a>
+    </li> 
+   <li class="hover:bg-gray-100 lg:mt-4">  
+        <a role="link" href="#Traditional-vs.-Omnichannel-Loyalty-Program" rel="noreferrer">Traditional vs. Omnichannel Loyalty Program</a>
+    </li>
+   <li class="hover:bg-gray-100 lg:mt-4">  
+        <a role="link" href="#The-Benefits-of-Omnichannel-Loyalty-Programs" rel="noreferrer">The Benefits of Omnichannel Loyalty Programs</a>    
+    </li>
+    <li class="hover:bg-gray-100 lg:mt-4">   
+        <a role="link" href="#Key-Components-of-an-Effective-Omnichannel-Loyalty-Program" rel="noreferrer">Key Components of an Effective Omnichannel Loyalty Program</a>    
+    </li>
+    <li class="hover:bg-gray-100 lg:mt-4">   
+        <a role="link" href="#Challenges-of-Creating-an-Omnichannel-Loyalty-Program" rel="noreferrer">Challenges of Creating an Omnichannel Loyalty Program</a>    
+    </li> 
+    <li class="hover:bg-gray-100 lg:mt-4">  
+        <a role="link" href="#Steps-to-Implement-an-Omnichannel-Loyalty-Program" rel="noreferrer">Steps to Implement an Omnichannel Loyalty Program</a>    
+    </li>                
+   <li class="hover:bg-gray-100 lg:mt-4">   
+        <a role="link" href="#Examples-of-omnichannel-loyalty-programs" rel="noreferrer">Examples of Omnichannel Loyalty Programs</a>    
+    </li> 
+    <li class="hover:bg-gray-100 lg:mt-4">  
+        <a role="link" href="#Why-are-Omnichannel-Loyalty-Programs-the-Future-of-Retail" rel="noreferrer">Why are Omnichannel Loyalty Programs the Future of Retail</a>    
+    </li> 
+    <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Final-Words-for-Omnichannel-Loyalty-Program" rel="noreferrer">Final Words for Omnichannel Loyalty Program</a>
+    </li> 
+    <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Omnichannel-Loyalty-Program" ref="noreferrer">Frequently Asked Questions (FAQs) for Omnichannel Loyalty Program</a>
+    </li>                   
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/guide-to-omnichannel-loyalty.webp" alt="Guide to Omnichannel Loyalty Program:The Future of Retail in 2024">
 
 The emergence of omnichannel loyalty Programs is transforming how brands connect with their customers, turning a multi-channel presence into a sophisticated, integrated strategy. As consumer behaviors change and expectations increase, providing a seamless, personalized shopping experience has become crucial.
@@ -20,41 +61,6 @@ A recent report by <a href="https://hbr.org/2017/01/a-study-of-46000-shoppers-sh
 
 Omnichannel loyalty goes beyond simply linking different touchpoints; it involves creating a unified and personalized journey that meets the expectations of modern shoppers. In this guide, we will explore the fundamentals of omnichannel loyalty, discuss its benefits, and offer practical insights on developing a strong strategy that aligns with the demands of today's retail environment. Learn how to utilize omnichannel loyalty to enhance customer interactions and cultivate lasting brand connections.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-    <li>  
-        <a role="link" href="#What-is-Omnichannel-Loyalty-Program?" rel="noreferrer">What is Omnichannel Loyalty Program?</a>
-    </li> 
-    <li>  
-        <a role="link" href="#Traditional-vs.-Omnichannel-Loyalty-Program" rel="noreferrer">Traditional vs. Omnichannel Loyalty Program</a>
-    </li>
-    <li>   
-        <a role="link" href="#The-Benefits-of-Omnichannel-Loyalty-Programs" rel="noreferrer">The Benefits of Omnichannel Loyalty Programs</a>    
-    </li>
-    <li>   
-        <a role="link" href="#Key-Components-of-an-Effective-Omnichannel-Loyalty-Program" rel="noreferrer">Key Components of an Effective Omnichannel Loyalty Program</a>    
-    </li>
-    <li>   
-        <a role="link" href="#Challenges-of-Creating-an-Omnichannel-Loyalty-Program" rel="noreferrer">Challenges of Creating an Omnichannel Loyalty Program</a>    
-    </li> 
-    <li>   
-        <a role="link" href="#Steps-to-Implement-an-Omnichannel-Loyalty-Program" rel="noreferrer">Steps to Implement an Omnichannel Loyalty Program</a>    
-    </li>                
-    <li>   
-        <a role="link" href="#Examples-of-omnichannel-loyalty-programs" rel="noreferrer">Examples of Omnichannel Loyalty Programs</a>    
-    </li> 
-    <li>   
-        <a role="link" href="#Why-are-Omnichannel-Loyalty-Programs-the-Future-of-Retail" rel="noreferrer">Why are Omnichannel Loyalty Programs the Future of Retail</a>    
-    </li> 
-    <li>  
-    <a role="link" href="#Final-Words-for-Omnichannel-Loyalty-Program" rel="noreferrer">Final Words for Omnichannel Loyalty Program</a>
-    </li> 
-    <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Omnichannel-Loyalty-Program" ref="noreferrer">Frequently Asked Questions (FAQs) for Omnichannel Loyalty Program</a>
-    </li>                   
-</ul>
-</div>
 
 <h2 id="What-is-Omnichannel-Loyalty-Program?">What is Omnichannel Loyalty Program?</h2>
 
@@ -380,3 +386,23 @@ If you are looking for retail loyalty app recommendations to create an omnichann
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How does an omnichannel loyalty program benefit businesses?</h3>An omnichannel loyalty program benefits businesses by enhancing customer engagement and satisfaction through consistent and personalized experiences across all touchpoints. It also provides valuable data insights into customer behavior, enabling more targeted marketing strategies. This leads to increased customer retention, higher sales, and a stronger brand loyalty.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can businesses implement an omnichannel loyalty program?</h3>To implement an effective omnichannel loyalty program, businesses should select a versatile loyalty platform, maintain consistent data synchronization, design appealing rewards, promote the program across all channels, analyze customer data regularly, and train staff to provide seamless service across all platforms.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

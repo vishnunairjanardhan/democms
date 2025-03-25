@@ -13,24 +13,30 @@ url: "https://www.99minds.io/blog/future-ecommerce-trends"
 keywords: ["future of ecommerce", "what is the future of ecommerce", "ecommerce future", "future ecommerce", "future ecommerce trends", "ecommerce future trends"]
 
 ---
-<img rel="preload" role="img" src="/assets/blog/15-future-eCommerce-trends.webp" alt="Top 15 future eCommerce trends in 2024">
 
-As we approach 2024, the future of eCommerce is poised for significant transformations driven by emerging technologies and evolving consumer behaviors. Businesses aiming to stay competitive must anticipate these changes by prioritizing future eCommerce trends such as personalized shopping experiences, seamless integration of online and offline retail, and embracing digital innovations. we'll explore 15 key trends that are shaping the future of eCommerce and how businesses can leverage these developments to remain competitive.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
     <a role="link" href="#Top-15-Future-eCommerce-Trends-in-2024" rel="noreferrer">Top 15 Future eCommerce Trends in 2024</a>
   </li>
-  <li>  
+ <li class="hover:bg-gray-100 lg:mt-4"> 
     <a role="link" href="#Final-Words-for-Future-eCommerce-Trends-2024" rel="noreferrer">Final Words for Future eCommerce Trends 2024</a>
   </li>
-  <li>
+ <li class="hover:bg-gray-100 lg:mt-4">
     <a role="link" href="#Frequently-Ask-Questions-(FAQs)-for-Future-eCommerce-Trends" ref="noreferrer">Frequently Ask Questions (FAQs) for Future eCommerce Trends</a>
   </li>                    
 </ul>
 </div>   
+
+<div class="w-full">
+<img rel="preload" role="img" src="/assets/blog/15-future-eCommerce-trends.webp" alt="Top 15 future eCommerce trends in 2024">
+
+As we approach 2024, the future of eCommerce is poised for significant transformations driven by emerging technologies and evolving consumer behaviors. Businesses aiming to stay competitive must anticipate these changes by prioritizing future eCommerce trends such as personalized shopping experiences, seamless integration of online and offline retail, and embracing digital innovations. we'll explore 15 key trends that are shaping the future of eCommerce and how businesses can leverage these developments to remain competitive.
+
 
 <h2 id="Top-15-Future-eCommerce-Trends-in-2024">Top 15 Future eCommerce Trends in 2024</h2> 
 
@@ -186,3 +192,26 @@ If you’re considering incorporating gift cards or loyalty programs into your b
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How will AI impact the future of eCommerce?</h3>AI will enhance customer experiences, automate operations, and enable data-driven decision-making in the eCommerce future. From chatbots to personalized marketing, AI will be a key driver of innovation.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the top future eCommerce trends for 2024?</h3>The top trends shaping the future of eCommerce include omnichannel commerce, mobile shopping, AI-powered chatbots, AR experiences, sustainability, and automation.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

@@ -13,7 +13,36 @@ url: "https://www.99minds.io/blog/ecommerce-gift-cards-for-refunds"
 keywords: ["ecommerce gift cards", "ecommerce gift cards for refunds"]
 
 --- 
-<img rel="preload" role="img" src="/assets/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.webp" alt="eCommerce Gift Cards, Easy Alternative for Refunds and Exchanges">
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#How-Do-eCommerce-Gift-Cards-Work?" rel="noreferrer">How Do eCommerce Gift Cards Work?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Benefits-of-Offering-Gift-Cards-to-your-Customers" rel="noreferrer">Benefits of Offering Gift Cards to your Customers</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#5-Strategies-to-use-eCommerce-Gift-Cards-for-Refunds" rel="noreferrer">5 Strategies to use eCommerce Gift Cards for Refunds</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Example-of-Brand-Using-Gift-Cards-for-Refunds" rel="noreferrer">Example of Brand Using Gift Cards for Refunds</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Asked-Questions-(FAQs)" rel="noreferrer">Frequently-Asked-Questions-(FAQs)</a>
+  </li>
+  </ul>
+ </div> 
+
+ <div class="w-full">
+ <img rel="preload" role="img" src="/assets/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.webp" alt="eCommerce Gift Cards, Easy Alternative for Refunds and Exchanges">
 
 US consumers return billions of dollars worth of unwanted products every year. These returns, while beneficial for customers, pose significant challenges for retailers. The phenomenon of buyer's remorse often leads to returns; impulse buys or well-intentioned gifts may not meet the buyer’s expectations once they arrive home.
 
@@ -23,29 +52,6 @@ eCommerce gift cards present a strategic solution to mitigate these issues. By o
 
 For retailers looking to improve customer retention and sustainability practices, we dive into how incorporating gift cards eCommerce into your return strategy is more essential than ever.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#How-Do-eCommerce-Gift-Cards-Work?" rel="noreferrer">How Do eCommerce Gift Cards Work?</a>
-  </li>
-  <li>
-  <a role="link" href="#Benefits-of-Offering-Gift-Cards-to-your-Customers" rel="noreferrer">Benefits of Offering Gift Cards to your Customers</a>
-  </li>
-  <li>
-  <a role="link" href="#5-Strategies-to-use-eCommerce-Gift-Cards-for-Refunds" rel="noreferrer">5 Strategies to use eCommerce Gift Cards for Refunds</a>
-  </li>
-  <li>
-  <a role="link" href="#Example-of-Brand-Using-Gift-Cards-for-Refunds" rel="noreferrer">Example of Brand Using Gift Cards for Refunds</a>
-  </li>
-  <li>
-  <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
-  </li>
-  <li>
-  <a role="link" href="#Frequently-Asked-Questions-(FAQs)" rel="noreferrer">Frequently-Asked-Questions-(FAQs)</a>
-  </li>
-  </ul>
- </div> 
 
  <h2 id="How-Do-eCommerce-Gift-Cards-Work?">How Do eCommerce Gift Cards Work?</h2>
 Gift cards serve as a versatile payment option used across various sectors such as retail, dining, and more. You can pre-load money onto these cards, which can then be used by the holder to make purchases at participating locations. Both physical and digital formats of gift cards are available. 
@@ -225,4 +231,27 @@ For those looking to develop or enhance their gift card program, 99minds provide
 Gift cards encourage customers to return to your store, increasing <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blank">brand loyalty</a>. They offer a convenient way for customers to engage with your brand post-purchase, whether they're using a gift card they received as a refund or as part of a promotional campaign.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> What are the advantages of offering gift cards instead of cash refunds?</h3> Offering ecommerce gift cards instead of cash refunds helps keep the money within the business and encourages customers to make future purchases. It also reduces the complexity and cost associated with processing returns and managing inventory.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can gift cards be integrated into existing loyalty programs?</h3>Yes, gift cards can be seamlessly integrated into existing loyalty programs to enhance customer engagement. You can do it with the help of <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a>.Gift cards can be used to reward customers, incentivize repeat purchases, and elevate the overall shopping experience.
+</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
 </div>

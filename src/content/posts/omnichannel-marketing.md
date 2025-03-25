@@ -13,41 +13,47 @@ url: "https://www.99minds.io/blog/omnichannel-marketing"
 keywords: ["omnichannel marketing", "what is omnichannel marketing", "omnichannel marketing strategy", "omnichannel vs multichannel marketing", "omnichannel marketing examples"]
 
 ---
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-is-Omnichannel-Marketing?" rel="noreferrer">What is Omnichannel Marketing?</a>
+  </li> 
+ <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Omnichannel-vs-Multichannel-Marketing" rel="noreferrer">Omnichannel vs Multichannel Marketing</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Key-Benefits-of-Omnichannel-Marketing" rel="noreferrer">Key Benefits of Omnichannel Marketing</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Successful-Omnichannel-Marketing-Strategies" rel="noreferrer">Successful Omnichannel Marketing Strategies</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Omnichannel-Marketing-Examples" rel="noreferrer">Omnichannel Marketing Examples</a>
+  </li>   
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Trends-in-Omnichannel" rel="noreferrer">Trends in Omnichannel</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Final-Words-on-Omnichannel-Marketing" rel="noreferrer">Final Words on Omnichannel Marketing</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Omnichannel-Marketing" rel="noreferrer">Frequently Asked Questions (FAQs) on Omnichannel Marketing</a>
+  </li>               
+</ul>
+</div> 
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/omnichannel-marketing.webp" alt="Guide to omnichannel marketing">
 
 As customer interactions increasingly occur across various channels including social media, websites, physical stores, and mobile apps, businesses are tasked with ensuring a consistent and seamless experience across all touchpoints. Omnichannel marketing emerges as a potent strategy in addressing this challenge.
 
 Picture a scenario in which customers seamlessly transition between browsing a website, engaging with a mobile app, and visiting a physical store, all the while receiving a personalized experience tailored to their preferences. Omnichannel marketing establishes this interconnected system of engagement, ensuring that every interaction contributes to a cohesive and unified journey. It goes beyond mere presence on multiple platforms; it involves orchestrating these platforms to function cohesively, thereby enhancing the overall customer experience.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a role="link" href="#What-is-Omnichannel-Marketing?" rel="noreferrer">What is Omnichannel Marketing?</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Omnichannel-vs-Multichannel-Marketing" rel="noreferrer">Omnichannel vs Multichannel Marketing</a>
-  </li>
-  <li>  
-    <a role="link" href="#Key-Benefits-of-Omnichannel-Marketing" rel="noreferrer">Key Benefits of Omnichannel Marketing</a>
-  </li>
-  <li>  
-    <a role="link" href="#Successful-Omnichannel-Marketing-Strategies" rel="noreferrer">Successful Omnichannel Marketing Strategies</a>
-  </li>
-  <li>  
-    <a role="link" href="#Omnichannel-Marketing-Examples" rel="noreferrer">Omnichannel Marketing Examples</a>
-  </li>   
-  <li>  
-    <a role="link" href="#Trends-in-Omnichannel" rel="noreferrer">Trends in Omnichannel</a>
-  </li>
-  <li>  
-    <a role="link" href="#Final-Words-on-Omnichannel-Marketing" rel="noreferrer">Final Words on Omnichannel Marketing</a>
-  </li>
-  <li>  
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Omnichannel-Marketing" rel="noreferrer">Frequently Asked Questions (FAQs) on Omnichannel Marketing</a>
-  </li>               
-</ul>
-</div> 
 
 <h2 id="What-is-Omnichannel-Marketing?">What is Omnichannel Marketing?</h2>
 
@@ -320,3 +326,26 @@ If you want to create personalized campaigns and build an omnichannel customer e
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the differences between omnichannel marketing and single-channel marketing?</h3>Omnichannel marketing uses multiple integrated channels to create a seamless and cohesive customer experience, allowing smooth transitions between various touchpoints. In contrast, single-channel marketing focuses on just one platform, leading to disjointed and less effective interactions.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the benefits of using an omnichannel approach?</h3>The benefits of an omnichannel approach include enhanced customer experience through consistency, increased customer loyalty due to personalized engagement, improved marketing ROI from integrated strategies, better data insights for targeted marketing, and greater sales opportunities by effectively engaging customers across various channels.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

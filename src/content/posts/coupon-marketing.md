@@ -14,38 +14,42 @@ keywords: ["coupon marketing"]
 
 --- 
 
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-is-Coupon-Marketing?" rel="noreferrer">What is Coupon Marketing?</a>
+  </li>  
+ <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#How-does-Coupon-Marketing-Work?" rel="noreferrer">How does Coupon Marketing Work?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Benefits-of-Coupons-Marketing" rel="noreferrer">Benefits of Coupons Marketing</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Effective-Ways-for-Businesses-to-Use-Coupons-Marketing" rel="noreferrer">Effective Ways for Businesses to Use Coupons Marketing</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Advantages-and-Disadvantages-of-Coupon-Marketing" rel="noreferrer">Advantages and Disadvantages of Coupon Marketing</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Final-Words-on-Coupon-Marketing" ref="noreferrer">Final Words on Coupon Marketing</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Coupon-Marketing" ref="noreferrer">Frequently Ask Questions (FAQs) on Coupon Marketing</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" src="/assets/blog/coupon_marketing.webp" alt="coupon marketing strategies">
 
 Customers love saving money. No one is arguing against that statement, isn’t it?
 
 One of the oldest tricks in the book is offering special deals to customers to encourage them to buy more from you. Coupon Marketing is a terrific option for a business looking to increase its bottom line or attract new customers.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#What-is-Coupon-Marketing?" rel="noreferrer">What is Coupon Marketing?</a>
-  </li>  
-  <li>  
-    <a role="link" href="#How-does-Coupon-Marketing-Work?" rel="noreferrer">How does Coupon Marketing Work?</a>
-  </li>
-  <li>  
-    <a role="link" href="#Benefits-of-Coupons-Marketing" rel="noreferrer">Benefits of Coupons Marketing</a>
-  </li>
-  <li>  
-    <a role="link" href="#Effective-Ways-for-Businesses-to-Use-Coupons-Marketing" rel="noreferrer">Effective Ways for Businesses to Use Coupons Marketing</a>
-  </li>
-  <li>  
-    <a role="link" href="#Advantages-and-Disadvantages-of-Coupon-Marketing" rel="noreferrer">Advantages and Disadvantages of Coupon Marketing</a>
-  </li>
-  <li>  
-    <a role="link" href="#Final-Words-on-Coupon-Marketing" ref="noreferrer">Final Words on Coupon Marketing</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Coupon-Marketing" ref="noreferrer">Frequently Ask Questions (FAQs) on Coupon Marketing</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="What-is-Coupon-Marketing?">What is Coupon Marketing?</h2>
 
@@ -291,4 +295,26 @@ We hope this guide equips you with the insights and strategies needed to plan, i
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How Do I Advertise a Coupon Code?</h3>Promote your coupon code via email campaigns, social media posts, website banners, or SMS. Use engaging visuals and clear calls-to-action to highlight the offer, and target the audience most likely to redeem it.</div>
 
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>
 

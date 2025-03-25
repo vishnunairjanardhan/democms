@@ -13,6 +13,46 @@ url: "https://www.99minds.io/blog/shopify-referral-programs"
 keywords: ["shopify referral programs"]
 
 --- 
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+      <a href="#How-Shopify-Referral-Programs-Works" rel="noreferrer">
+        How Shopify Referral Programs Works
+      </a>
+    </li>
+    <li class="hover:bg-gray-100 lg:mt-4">
+      <a href="#Different-types-of-Shopify-Referral-Programs" rel="noreferrer">
+        Different types of Shopify Referral Programs
+      </a>
+    </li>
+    <li class="hover:bg-gray-100 lg:mt-4">
+      <a href="#Why-Referral-Programs-Work" rel="noreferrer">
+        Why Referral Programs Work
+      </a>
+    </li>
+    <li class="hover:bg-gray-100 lg:mt-4">
+      <a href="#How-to-Set-Up-a-Referral-Program-on-Shopify" rel="noreferrer">
+        How to Set Up a Referral Program on Shopify
+      </a>
+    </li>
+    <li class="hover:bg-gray-100 lg:mt-4">
+      <a href="#Final-Words-on-Shopify-Referral-Programs" rel="noreferrer">
+        Final Words on Shopify Referral Programs
+      </a>
+    </li>
+    <li class="hover:bg-gray-100 lg:mt-4">
+      <a href="#Frequently-Asked-Questions-(FAQs)-on-Shopify-Referral-Programs" rel="noreferrer">
+        Frequently Asked Questions (FAQs) on Shopify Referral Programs
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/how_to_build_successful_shopify_referral_programs_in_2025.webp" alt="How to Build a Successful Shopify Referral Program in 2025">
 
 Loyalty and referral programs play a huge role in ecommerce growth, helping brands retain existing customers while attracting new ones. Nearly 48% of customers join <a href="https://www.99minds.io/blog/loyalty-program">loyalty programs</a> to show their brand commitment, while 52% recommend brands to family and friends—making <a href="https://www.99minds.io/blog/referral-marketing">referrals</a> a powerful tool for organic growth.
@@ -22,46 +62,6 @@ With almost five million online stores, Shopify is one of the top ecommerce plat
 The impact of a Shopify referral program is significant—27% of D2C shoppers consider loyalty programs (often paired with referral features) a key reason to shop directly from brands. Take Galen Leather Co. as an example—after launching a <a href="https://www.99minds.io/blog/referral-program-ideas">referral program</a>, the brand saw $350,000+ in sales and gained 2,000+ new customers through referral codes.
 
 In this guide, we’ll break down everything you need to know about Shopify referral programs, from how they work to the best strategies for setting one up successfully.
-<!-- <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4"> -->
-<!-- <div class="p-[0.060rem] rounded-3xl border-2 border-gray-300 bg-gradient-to-r from-orange-100 to-orange-200 shadow-md px-8 pb-4"> -->
-<!-- <div class="p-[0.060rem] rounded-3xl border-2 border-gray-300 bg-gradient-to-r from-purple-100 to-purple-300 shadow-md px-8 pb-4"> -->
-<!-- <div class="p-[0.060rem] rounded-3xl border-2 border-gray-300 bg-gradient-to-r from-green-100 to-green-300 shadow-md px-8 pb-4"> -->
-<!-- <div class="p-[0.060rem] rounded-3xl border-2 border-gray-300 bg-gradient-to-r from-gray-100 to-gray-300 shadow-md px-8 pb-4"> -->
-<div class="p-[0.060rem] rounded-3xl border-2 border-gray-300 bg-gradient-to-r from-blue-100 to-blue-300 shadow-md px-8 pb-4">
-  <p class="font-semibold">Table of Contents:</p>
-  <ul class="space-y-2 text-gray-700">
-    <li>
-      <a href="#How-Shopify-Referral-Programs-Works" rel="noreferrer">
-        How Shopify Referral Programs Works
-      </a>
-    </li>
-    <li>
-      <a href="#Different-types-of-Shopify-Referral-Programs" rel="noreferrer">
-        Different types of Shopify Referral Programs
-      </a>
-    </li>
-    <li>
-      <a href="#Why-Referral-Programs-Work" rel="noreferrer">
-        Why Referral Programs Work
-      </a>
-    </li>
-    <li>
-      <a href="#How-to-Set-Up-a-Referral-Program-on-Shopify" rel="noreferrer">
-        How to Set Up a Referral Program on Shopify
-      </a>
-    </li>
-    <li>
-      <a href="#Final-Words-on-Shopify-Referral-Programs" rel="noreferrer">
-        Final Words on Shopify Referral Programs
-      </a>
-    </li>
-    <li>
-      <a href="#Frequently-Asked-Questions-(FAQs)-on-Shopify-Referral-Programs" rel="noreferrer">
-        Frequently Asked Questions (FAQs) on Shopify Referral Programs
-      </a>
-    </li>
-  </ul>
-</div>
 
 
 <h2 id="How-Shopify-Referral-Programs-Works">How a Shopify Referral Program Works</h2>
@@ -300,3 +300,25 @@ Since Shopify doesn’t have a built-in referral feature, you’ll need an app l
 You can offer store credit, cashback, discount coupons, or free gifts to referrers and new customers, depending on your business goals.
 </div>
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

@@ -15,7 +15,33 @@ keywords: ["gamification in retail industry", "gamification in retail",
 ]
 
 --- 
-<img rel="preload" role="img" src="/assets/blog/7 Ways to Use Gamification in Retail Industry.webp" alt="7 Ways to Use Gamification in Retail Industry">
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-is-Gamification-in-Retail-Industry?" rel="noreferrer">What is Gamification in Retail Industry?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Why-is-Gamification-in-Retail-Important?" rel="noreferrer">Why is Gamification in Retail Important?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#7-Examples-of-Retail-Businesses-using-Gamification" rel="noreferrer">7 Examples of Retail Businesses using Gamification</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#FAQs-on-gamification-examples-in-retail" rel="noreferrer">FAQs on gamification examples in retail</a>
+  </li>
+  </ul>
+ </div> 
+
+ <div class="w-full">
+ <img rel="preload" role="img" src="/assets/blog/7 Ways to Use Gamification in Retail Industry.webp" alt="7 Ways to Use Gamification in Retail Industry">
 
 The fascination with gamification has surged remarkably in recent years. As more businesses transition online, fresh avenues for enhancing customer experiences have emerged. This has positioned gamification as a focal point for numerous brands. <a href="https://www.mordorintelligence.com/industry-reports/gamification-market">According to Mordor Intelligence</a>, the gamification market could be worth $30.7 billion by 2026.
 
@@ -23,26 +49,6 @@ Gamification isn't confined to digital realms alone—many brands effectively im
 
 In this blog post, we will explore 7 outstanding ways to use gamification in the retail industry, detailing the strategies employed and examples. But first, let's delve deeper into why gamification in retail is becoming indispensable for engaging and retaining customers.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-is-Gamification-in-Retail-Industry?" rel="noreferrer">What is Gamification in Retail Industry?</a>
-  </li>
-  <li>
-  <a role="link" href="#Why-is-Gamification-in-Retail-Important?" rel="noreferrer">Why is Gamification in Retail Important?</a>
-  </li>
-  <li>
-  <a role="link" href="#7-Examples-of-Retail-Businesses-using-Gamification" rel="noreferrer">7 Examples of Retail Businesses using Gamification</a>
-  </li>
-  <li>
-  <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
-  </li>
-  <li>
-  <a role="link" href="#FAQs-on-gamification-examples-in-retail" rel="noreferrer">FAQs on gamification examples in retail</a>
-  </li>
-  </ul>
- </div> 
 
  <h2 id="What-is-Gamification-in-Retail-Industry?">What is Gamification in Retail Industry?</h2>
  Let’s begin by defining gamification.
@@ -166,7 +172,28 @@ Retail gamification can significantly influence long-term customer behavior, enh
 </div>
 
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
 
+
+
+</div>
 
 
 

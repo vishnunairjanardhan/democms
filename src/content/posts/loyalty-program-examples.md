@@ -13,32 +13,38 @@ url: "https://www.99minds.io/blog/loyalty-program-examples"
 keywords: ["loyalty program examples","customer loyalty programs examples","best loyalty programs","examples of loyalty programs","good customer loyalty programs", "successful loyalty programs examples"]
 
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-is-a-Loyalty-Program?" rel="noreferrer">What is a Loyalty Program?</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Key-Features-of-Good-Customer-Loyalty-Programs?" rel="noreferrer">Key Features of Good Customer Loyalty Programs</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#10-Successful-Loyalty-Program-Examples" rel="noreferrer">10 Successful Loyalty Program Examples</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Final-Words-on-Loyalty-Program-Examples" rel="noreferrer">Final Words on Loyalty Program Examples</a>
+  </li>     
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Loyalty-Program-Examples" ref="noreferrer">Frequently Asked Questions (FAQs) on Loyalty Program Examples </a>
+  </li>                      
+</ul>
+</div>  
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/loyalty_program_examples.webp" alt="Best loyalty program examples">
 
 Loyalty programs have become a powerful strategy for businesses looking to enhance customer retention, engagement, and lifetime value. Statistics show that companies with strong loyalty programs can significantly boost their customer retention rates. In fact, according to a report by <a href="https://www.accenture.com/us-en/insights/consulting/talent-belonging" role="link" target="_blanck">Accenture</a>, 57% of consumers spend more on brands to which they are loyal. Additionally, a study by <a href="https://hbr.org/2014/10/the-value-of-keeping-the-right-customers" role="link" target="_blanck">Harvard Business Review</a> found that increasing customer retention rates by just 5% can increase profits by 25% to 95%. These programs encourage repeat purchases and create emotional connections that convert casual shoppers into long-term advocates.
 
 Another striking statistic from <a href="https://www.zendesk.com/in/blog/zendesk-customer-experience-trends-report-2020/#" role="link" target="_blanck">Zendesk</a> shows that 66% of customers are willing to spend more with brands that deliver excellent customer service. This demonstrates the importance of integrating loyalty programs into an overall positive customer experience. With the rising popularity of customer loyalty programs, brands across various industries have crafted unique, innovative strategies to foster customer engagement and brand loyalty.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a role="link" href="#What-is-a-Loyalty-Program?" rel="noreferrer">What is a Loyalty Program?</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Key-Features-of-Good-Customer-Loyalty-Programs?" rel="noreferrer">Key Features of Good Customer Loyalty Programs</a>
-  </li>
-  <li>  
-    <a role="link" href="#10-Successful-Loyalty-Program-Examples" rel="noreferrer">10 Successful Loyalty Program Examples</a>
-  </li>
-  <li>  
-    <a role="link" href="#Final-Words-on-Loyalty-Program-Examples" rel="noreferrer">Final Words on Loyalty Program Examples</a>
-  </li>     
-  <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Loyalty-Program-Examples" ref="noreferrer">Frequently Asked Questions (FAQs) on Loyalty Program Examples </a>
-  </li>                      
-</ul>
-</div>  
 
 <h2 id="What-is-a-Loyalty-Program?">What is a Loyalty Program?</h2>
 
@@ -241,4 +247,27 @@ This is where <a href="https://www.99minds.io/" role="link" target="_blanck">99m
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do loyalty programs increase customer retention</h3>Loyalty programs increase customer retention by offering rewards that encourage repeat purchases and foster emotional connections. Through personalization and exclusive benefits like early access, discounts, or special events, customers feel valued. This positive experience strengthens their loyalty, making them more likely to continue engaging with the brand over time.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What features make a loyalty program effective?</h3>The most effective loyalty programs include personalization, ease of use, and tiered rewards. Programs that leverage customer data to tailor offers, provide a seamless user experience, and offer exclusive perks for high-level engagement are more likely to succeed. Gamification, multichannel integration, and a sense of community can further enhance the program’s effectiveness.
+</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
 </div>

@@ -13,6 +13,41 @@ url: "https://www.99minds.io/blog/repeat-customer"
 keywords: ["repeat customer","repeat customers","how to get repeat customers","how to increase repeat customers","increase repeat customers"]
 
 ---
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-is-a-Repeat-Customer?" rel="noreferrer">What is a Repeat Customer?</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Importance-of-Repeat-Customers" rel="noreferrer">Importance of Repeat Customers</a>
+  </li> 
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Characteristics-of-Repeat-Customers" rel="noreferrer">Characteristics of Repeat Customers</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#How-to-Increase-Repeat-Customers" rel="noreferrer">How to Increase Repeat Customers</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#The-Future-of-Repeat-Customers" rel="noreferrer">The Future of Repeat Customers</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Increase-Repeat-Customers-with-99minds" rel="noreferrer">Increase Repeat Customers with 99minds</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Frequently-Ask-Questions-(FAQs)-for-Repeat-Customer" ref="noreferrer">Frequently Ask Questions (FAQs) for Repeat Customer</a>
+  </li>                    
+</ul>
+</div>   
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/What-is-a-repeat-customer.webp" alt="What is a Repeat Customer and How can you increase them?">
 
 In today's competitive business landscape, attracting and retaining customers is crucial for sustainable growth. While acquiring new customers is essential, nurturing repeat customers can significantly boost a company's revenue and profitability. 
@@ -21,35 +56,6 @@ According to a <a href="https://www.bain.com/insights/retaining-customers-is-the
 
 This blog will explore the importance of repeat customers, their contribution to business growth, and effective strategies to attract and retain them.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a role="link" href="#What-is-a-Repeat-Customer?" rel="noreferrer">What is a Repeat Customer?</a>
-  </li>
-  <li>  
-    <a role="link" href="#Importance-of-Repeat-Customers" rel="noreferrer">Importance of Repeat Customers</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Characteristics-of-Repeat-Customers" rel="noreferrer">Characteristics of Repeat Customers</a>
-  </li>
-  <li>  
-    <a role="link" href="#How-to-Increase-Repeat-Customers" rel="noreferrer">How to Increase Repeat Customers</a>
-  </li>  
-  <li>  
-    <a role="link" href="#The-Future-of-Repeat-Customers" rel="noreferrer">The Future of Repeat Customers</a>
-  </li>
-  <li>  
-    <a role="link" href="#Increase-Repeat-Customers-with-99minds" rel="noreferrer">Increase Repeat Customers with 99minds</a>
-  </li>
-  <li>  
-    <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
-  </li>
-  <li>
-    <a role="link" href="#Frequently-Ask-Questions-(FAQs)-for-Repeat-Customer" ref="noreferrer">Frequently Ask Questions (FAQs) for Repeat Customer</a>
-  </li>                    
-</ul>
-</div>   
 
 <h2 id="What-is-a-Repeat-Customer?">What is a Repeat Customer?</h2> 
 
@@ -433,3 +439,23 @@ Interested in learning more about how to boost your customer retention and grow 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How to Attract Repeat Customers?</h3>To attract repeat customers, provide excellent service, offer loyalty programs, maintain consistent quality, engage through personalized marketing, and seek customer feedback to continuously improve products and experiences.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why are Repeat Customers More Profitable?</h3>Repeat customers are more profitable because they tend to buy more frequently, require less marketing effort, and often refer others, reducing acquisition costs and increasing revenue.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>
