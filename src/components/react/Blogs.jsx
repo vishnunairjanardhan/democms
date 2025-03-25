@@ -5,10 +5,10 @@ const Blogs = ({ title, url, description, pubDate, author, image, authorImage })
     className="group flex md:flex-col">
     <a href={url} title={title}>
       <div
-        className="flex items-end justify-center overflow-hidden">
-        <div className="flex">
+        className="flex items-end justify-center overflow-hidden rounded-lg">
+        <div className="flex ">
           <img
-            className="group-hover:scale-110 duration-300 aspect-[2/1] object-cover"
+            className="group-hover:scale-105 duration-300 object-cover"
             loading="lazy"
             src={image}
             alt={title}

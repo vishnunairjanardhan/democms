@@ -7,7 +7,7 @@ const LatestBlog = ({ title, url, description, pubDate, author, image, authorIma
       {/* Image on the left */}
       <div className="md:w-2/4 h-auto flex-shrink-0 ">
         <img
-          className="group-hover:scale-110 duration-300 aspect-[4/2] object-cover w-full h-full rounded-md"
+          className="group-hover:scale-105 duration-300 object-cover w-full h-full rounded-md"
           loading="lazy"
           src={image}
           alt={title}
