@@ -39,7 +39,7 @@ Loyalty program customer insights will tell you the right difference between the
       </tr>
       <tr>
         <td>They reward users with a points system using which customers can get their rewards. </td>
-        <td>Gamification in loyalty programs and other strategies are used to persuade customers to interact with the brand..</td>
+        <td>Gamification in loyalty programs and other strategies are used to persuade customers to interact with the brand.</td>
       </tr>
       <tr>
         <td>It is a one-size-fits-all approach and doesn’t offer room for personalization. </td>
