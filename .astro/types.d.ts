@@ -549,6 +549,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"customer-loyalty-and-retention.md": {
+	id: "customer-loyalty-and-retention.md";
+  slug: "customer-loyalty-and-retention";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "customer-loyalty-trends.md": {
 	id: "customer-loyalty-trends.md";
   slug: "customer-loyalty-trends";
@@ -1374,6 +1381,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"shopify-discount-combinations.md": {
+	id: "shopify-discount-combinations.md";
+  slug: "shopify-discount-combinations";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "shopify-gift-card.md": {
 	id: "shopify-gift-card.md";
