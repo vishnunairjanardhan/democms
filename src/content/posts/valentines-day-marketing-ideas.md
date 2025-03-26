@@ -114,7 +114,7 @@ To make your <a href="https://www.99minds.io/blog/loyalty-program-for-small-busi
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
                   <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto rounded-3xl p-[0.060rem]">
-                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -187,7 +187,7 @@ For instance, starting from February 1st, you can send daily emails or post on s
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
                   <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto  shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">

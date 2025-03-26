@@ -97,7 +97,7 @@ Second, gift cards draw in recurring purchases. Furthermore, consumers frequentl
 
 <a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA"></a>
 
-Finally, a satisfying gift card experience can inspire buyers to come back and buy more.. All things considered, gift cards are a straightforward and powerful strategy for increasing ecommerce sales and customer engagement. 
+Finally, a satisfying gift card experience can inspire buyers to come back and buy more. All things considered, gift cards are a straightforward and powerful strategy for increasing ecommerce sales and customer engagement. 
 You can opt for <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift card software</a> to create, assign, and manage gift cards for both your ecommerce and retail store. 
 
 ### <li>Develop A Marketing Strategy For Ecommerce Sales</li>
