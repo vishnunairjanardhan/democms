@@ -1,3 +1,16 @@
+---
+import { getCollection } from "astro:content";
+import LatestBlogGrid from '../react/Highlight.jsx'; 
+import Blogs from '../react/BlogHighlight.jsx';
+
+const allPosts = await getCollection("posts");
+const sortedPosts = allPosts.sort((a, b) => {
+  return new Date(b.data.pubDate) - new Date(a.data.pubDate);
+});
+
+---
+
+
 <section role="navigation" aria-label="Main Navigation" class="fixed z-50 w-full bg-white drop-shadow-md">
 	<div class="relative w-full mx-auto max-w-7xl">
 		<div x-data="{ open: false }" class="relative flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16">
@@ -144,7 +157,7 @@
         <!--</a> <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" href="/case-study">
           Case Study
         </a>-->
-				<div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
+				<div @mouseenter="open = true" @mouseleave="open = " class="relative" x-data="{ open: false }">
 					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>
               Resources
             </span>
@@ -234,7 +247,15 @@
 									</li>
 							</div>
 							</ul>
-							<ul id="demo-button" class="space-x-8 lg:mt-12 px-8">
+              <ul class=" lg:mt-12 px-8">
+                <li class="space-x-8">
+									<h3 class="text-black  highlights">
+                    Highlights
+                  </h3>
+                </li>
+                  <LatestBlogGrid class="hideThis" blogs={sortedPosts} />
+              </ul>
+							<!-- <ul id="demo-button" class="space-x-8 lg:mt-12 px-8">
 								<li>
 									<h3 class="text-black  highlights">
                     Highlights
@@ -264,7 +285,7 @@
 										<div class="ml-6 text-black text-sm"> How to Build a Successful Shopify Referral Program in 2025</div>
 									</li>
 								</a>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 				</div> 
