@@ -1,19 +1,19 @@
 ---
-pubDate: 2025-03-19
+pubDate: 2025-03-29
 author: Soniya
 authorImg: "Soniya.webp"
 title: "How 99minds Enhances Shopify Discount Combinations | Boost Sales & Conversions"
 description: "Enable Shopify customers to stack coupons, gift cards, and promotions with 99minds. Maximize sales, enhance customer experience, and boost conversions effortlessly."
 heading: "How 99minds Enhances Shopify Discount Combination | Boost Sales & Conversions"
 image:
-  url: "/assets/blog/ecommerce-marketing-strategies-and-tips-for-2025.webp"
+  url: "/assets/blog/how-99minds-enhances-shopify-discount-combinations-boost-sales-conversions.webp"
   alt: "How 99minds Enhances Shopify Discount Combinations | Boost Sales & Conversions"
 tags: ["Ecommerce"]
 url: "https://www.99minds.io/blog/shopify-discount-combinations"
 keywords: ["Shopify"]
 
 --- 
-<img src="/assets/blog/ecommerce-marketing-strategies-and-tips-for-2025.webp"></a>
+<img src="/assets/blog/how-99minds-enhances-shopify-discount-combinations-boost-sales-conversions.webp"></a>
 
 Discounts are crucial to e-commerce, helping businesses attract customers, boost sales, and improve <a href="https://www.99minds.io/blog/customer-retention" role="link" target="_blank">customer retention</a>. In any case, the need for improving the stacking of discounts in Shopify makes it more complicated for the merchants to offer more than one promotion in a single purchase. This is however one of the significant limitations that Shopify has in terms of discount stacking.
 
@@ -128,24 +128,24 @@ This section will explain how 99minds’ coupon rules work, including the differ
 <h4>Step 1: Access the 99minds Dashboard</h4>
 <ul role= "list">
 <li>Log in to your 99minds account.</li>
-<img src="/assets/blog/login-in-to-99minds-account.png" alt="login in to 99minds account">
+<img src="/assets/blog/login-into-99minds-dashboard.png" alt="login in to 99minds account">
 
 <li>Navigate to the Coupons section in the dashboard</li>
-<img src="/assets/blog/select-coupon.png" alt="select coupon">
+<img src="/assets/blog/click-on-coupons.png" alt="select coupon">
 
 <li>Click on Create Coupon Rule to set up a new discount.</li>
 </ul>
-<img src="/assets/blog/create-coupons-rule.png" alt="create coupons rule">
+<img src="/assets/blog/click-on-create-coupon-rules.png" alt="create coupons rule">
 
 <h4>Step 2: Choose the Discount Type</h4>
 99minds allows merchants to create three main types of discounts:
 
 <ul role= "list">
 <li>Fixed-Amount Discounts – Offers a specific dollar amount off the order total or specific products (e.g., "$10 off").</li>
-<img src="/assets/blog/fixed-amount-discount.png" alt="fixed amount discount">
+<img src="/assets/blog/fixed-discount.png" alt="fixed amount discount">
 
 <li>Percentage-Based Discounts – Reduces the price by a certain percentage (e.g., "20% off").</li>
-<img src="/assets/blog/percentage-based-discount.png" alt="percentage based discount">
+<img src="/assets/blog/percentage-discount.png" alt="percentage based discount">
 
 <li>Free Shipping Discounts – Removes shipping costs for eligible orders.</li>
 </ul>
@@ -164,7 +164,7 @@ Vendors can control how long a coupon remains substantial by setting an terminat
 </ul>
 <b>Example:</b> A store running a conclusion of the week bargain can make a coupon that slips at midnight on Sunday, ensuring clients act speedy to claim the bargain. 
 
-<img src="/assets/blog/expiration-period.png" alt="expiration period">
+<img src="/assets/blog/expire-period.png" alt="expiration period">
 
 <h4>Step 4: Apply Discounts to Specific Products, Variants, Collections, or Categories</h4>
 
@@ -172,14 +172,14 @@ With 99minds, merchants can apply discounts at a granular level, choosing:
 
 <ul role= "list">
 <li><b>Category-Based Discounts:</b> Set up category-based discounts, such as "10% off all Electronics".</li>
-<img src="/assets/blog/Category-ids.png" alt="Category ids">
+<img src="/assets/blog/category-ids-based.png" alt="Category ids">
 
 <li><b>Product-Level Discounts:</b> Apply coupons to selected products only.</li>
-<img src="/assets/blog/product-ids.png" alt="product ids">
+<img src="/assets/blog/product-ids-based.png" alt="product ids">
 
 <li><b>Variant-Level Discounts:</b> Offer discounts on specific product variations (e.g., only on red t-shirts).</li>
 </ul>
-<img src="/assets/blog/variant-ids.png" alt="variant ids">
+<img src="/assets/blog/variants-ids-based.png" alt="variant ids">
 
 <b>Example:</b> A merchant selling shoes can offer 10% off on Sneakers while excluding Formal Shoes from the discount.
 
@@ -192,11 +192,11 @@ A store can run a Black Friday sale on electronics only, without affecting other
 <b>Customization Options:</b>
 <ul role= "list">
 <li><b>Minimum Product Quantity:</b> The customer must add a certain number of items before using the coupon (e.g., "Buy 3 or more shirts to get 15% off").</li>
-<img src="/assets/blog/minimum-quantity.png" alt="minimum quantity">
+<img src="/assets/blog/minimum-requirements.png" alt="minimum quantity">
 
 <li><b>Minimum Order Subtotal:</b> The customer must reach a specific cart value before the coupon is applied (e.g., "Get $10 off on orders above $100").</li></ul>
 
-<img src="/assets/blog/minimum-subtotal.png" alt="minimum subtotal">
+<img src="/assets/blog/minimum-purchase-amount.png" alt="minimum subtotal">
 
 <b>Example:</b>
 
@@ -214,11 +214,11 @@ A merchant running a bulk-buy discount can offer 10% off when customers buy 5+ u
 <img src="/assets/blog/all-coupons.png" alt="all coupons">
 
 2. Go to the coupon code row and select and coupon code
-<img src="/assets/blog/select-any-coupon-code.png" alt="select any coupon code">
+<img src="/assets/blog/click-on-coupon-code.png" alt="select any coupon code">
 
 3. Click on Disable 
 </ul>
-<img src="/assets/blog/click-on-disable.png" alt="click on disable">
+<img src="/assets/blog/disable-click.png" alt="click on disable">
 
 <b>Example:</b> If a limited-time promo code was leaked to a coupon-sharing website, the merchant can instantly disable it to prevent losses.
 
@@ -229,48 +229,48 @@ A merchant running a bulk-buy discount can offer 10% off when customers buy 5+ u
 <li><b>Import pre-existing coupons:</b> The merchant can import pre existing coupons to 99minds ensuring their old coupons work seamlessly with POS systems.</li>
 
 1.Go to coupon rules 
-<img src="/assets/blog/coupons-rules.png" alt="coupons rules">
+<img src="/assets/blog/select-coupons-rule.png" alt="coupons rules">
 
 2. Click on Create a coupon rule.
-<img src="/assets/blog/create-a-coupon-rule.png" alt="create a coupon rule">
+<img src="/assets/blog/coupons-rule-create.png" alt="create a coupon rule">
 
 3. Select the coupon rule.
-<img src="/assets/blog/select-a-coupon-rule.png" alt="select a coupon rule">
+<img src="/assets/blog/click-on-coupons-rule.png" alt="select a coupon rule">
 
 4. Click on either of the two options: Import Coupons or Create Bulk Coupons.
-<img src="/assets/blog/two-options.png" alt="two options">
+<img src="/assets/blog/two-options-for-choose.png" alt="two options">
 
 5. If selecting Import Coupons.
-<img src="/assets/blog/import-coupons.png" alt="import coupons">
+<img src="/assets/blog/import-coupons-manually.png" alt="import coupons">
 
 6. Click on next 
-<img src="/assets/blog/click-to-next.png" alt="click to next">
+<img src="/assets/blog/click-on-next-button.png" alt="click to next">
 
 7. Upload a CSV file to generate bulk coupons.
 <img src="/assets/blog/upload-csv.png" alt="upload csv">
 
 8. If selecting Create Bulk Coupons.
-<img src="/assets/blog/create-bulk-coupons.png" alt="create bulk coupons">
+<img src="/assets/blog/choose-create-bulk-coupons.png" alt="create bulk coupons">
 
 9. Specify the number of coupon codes to be created and Click on create coupons, and the system will automatically generate the coupons.</li>
 </ul>
-<img src="/assets/blog/specify-the-number.png" alt="specify the number">
+<img src="/assets/blog/give-a-number.png" alt="specify the number">
 
 <b>Example:</b> A store can upload a CSV file with 500 unique discount codes for a marketing campaign, ensuring each customer gets a one-time-use code.
 
 <h4>Step 8. Issue Bulk Coupons</h4>
 
 1. Click on Issue Bulk Coupons
-<img src="/assets/blog/issue-bulk-coupons.png" alt="issue bulk coupons">
+<img src="/assets/blog/choose-issue-bulk-coupons.png" alt="issue bulk coupons">
 
 2. There are two options for issuing coupons: Manual entry or uploading CSV files. 
 
 Click on Manual, fill in all the required details, and then click Issue Coupons. Upload the details of customers whom you would like to issue coupons.
 
-<img src="/assets/blog/fill-the-details.png" alt="fill the details">
+<img src="/assets/blog/fill-the-all-detalies.png" alt="fill the details">
 
 For importing CSV files, add note and select coupon rules.
-<img src="/assets/blog/importing-csv.png" alt="importing csv">
+<img src="/assets/blog/select-csv-and-download.png" alt="importing csv">
 
 Click on the Next button and upload the CSV file that contains customer data along with coupon names. The merchant can refer to the sample CSV file to generate their own.
 
