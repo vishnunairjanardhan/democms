@@ -516,14 +516,14 @@ const CouponGenerator = () => {
                   filename="exported_code.csv"
                 >
                   <button
-                    className="text-[#7f56d9] font-semibold raise1 rounded-md py-2 lg:px-28 px-16 rounded-lg border border-vulcan-800 hover:border-[#7f56d9] hover:border-2 duration-300 group"
+                    className="text-black font-medium raise1 rounded-md py-2 lg:px-28 px-16 rounded-lg border border-vulcan-800  hover:border-2 duration-300 group"
                     type="button"
                   >
                     Export
                   </button>
                 </CSVLink>
                 <button
-                  className="text-white bg-[#7f56d9] rounded-md py-2 px-16 lg:px-12 lg:flex rounded-lg raise1 duration-300 group"
+                  className="text-white bg-black rounded-md py-2 px-16 lg:px-12 lg:flex rounded-lg raise1 duration-300 group"
                   onClick={() =>
                     window.open(
                       getSelectedLogoUrl(),
