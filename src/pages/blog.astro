@@ -8,7 +8,6 @@ import CaseStudyTabNew from "../components/features/CaseStudyTabNew.astro";
 
 const allPosts = await getCollection("posts");
 const sortedPosts = allPosts.sort((a, b) => {
-  // Assuming pubDate is a string in ISO 8601 format, you can directly compare them
   return new Date(b.data.pubDate) - new Date(a.data.pubDate);
 });
 

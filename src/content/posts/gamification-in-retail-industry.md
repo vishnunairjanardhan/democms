@@ -19,7 +19,7 @@ keywords: ["gamification in retail industry", "gamification in retail",
 
 <div class="lg:flex lg:gap-6">
   <!-- Table of content section -->
-  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
     <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul class="pl-0 text-base list-none">
   <li class="hover:bg-gray-100 lg:mt-4">
