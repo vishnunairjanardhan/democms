@@ -33,7 +33,7 @@ const sortedPosts = allPosts.sort((a, b) => {
         </button>
 			</div>
 			<nav id="primary-navigation" :class="{'flex': open, 'hidden': !open}" class="flex-col items-start flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
-				<div @mouseenter="open = true" @mouseleave="open = " class="relative" x-data="{ open: false }">
+				<div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
 					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>
               Product
             </span>
@@ -157,7 +157,7 @@ const sortedPosts = allPosts.sort((a, b) => {
         <!--</a> <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" href="/case-study">
           Case Study
         </a>-->
-				<div @mouseenter="open = true" @mouseleave="open = " class="relative" x-data="{ open: false }">
+				<div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
 					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>
               Resources
             </span>
@@ -307,149 +307,3 @@ const sortedPosts = allPosts.sort((a, b) => {
 	</div>
 </section>
 
-
-  <style>
-/* Common styles for dropdowns */
-#resources-dropdown, #products-dropdown {
-  position: absolute;
-  transform: translateX(-50%);
-  z-index: 50;
-}
-
-/* Apply mobile styles to medium screens */
-@media (max-width: 1024px) {
-  /* Make dropdowns full width */
-  #products-dropdown, #resources-dropdown {
-    position: fixed;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    max-height: calc(100vh - 60px);
-    overflow-y: auto;
-    transform: none;
-    padding-right: 0;
-  }
-  #resources-dropdown .bg-white, #products-dropdown .bg-white {
-  display: flex;
-  flex-direction: row;
-  gap: 1.3rem;
-}
- #resources-dropdown #resources li {
-  margin-top: 1.5rem;
-}
- /* Remove left margin on li elements */
-  #resources-dropdown ul li,
-  #products-dropdown ul li {
-    margin-left: 0 !important;
-  }
-
-  /* Ensure ul has no extra margin or padding */
-  #resources-dropdown ul, 
-  #products-dropdown ul {
-    margin-left: 0 !important;
-  }
-
-  #resources-dropdown .highlights {
-  margin-left: 0 !important;
-}
-
-  /* Ensure div with border doesn't add unwanted spacing */
-  .border-r {
-    margin-left: 0 !important;
-  } 
-
-  /* Adjust dropdown content to single-column */
-  #resources-dropdown .bg-white,
-  #products-dropdown .bg-white {
-    flex-direction: column;
-    padding: 1rem;
-    height: auto;
-    width: 100%;
-  }
-
-  /* Ensure all items in Products dropdown align in one column */
-  #products-dropdown ul {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  #products-dropdown li {
-    width: 100%;
-  }
-
-  /* Style individual sections */
-  .border-r {
-    border-right: none;
-    border-bottom: 1px solid #e5e7eb;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    padding-right: 0;
-    margin-right: 0;
-  }
-
-  #resources-dropdown ul, #products-dropdown ul {
-    margin-left: 0;
-    padding: 0.5rem;
-  }
-
-  /* Hide demo button */
-  #resources-dropdown #demo-button, 
-  #products-dropdown #demo-button {
-    margin: 1rem 0;
-  }
-
-  #demo-button li {
-    margin: 1rem 0;
-  }
-
-  /* Hide decorative elements */
-  #resources-dropdown .pr-[27rem], 
-  #products-dropdown .pr-[27rem] {
-    padding-right: 0;
-  }
-
-  /* Adjust image containers */
-  #demo-button .flex {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  #demo-button .flex div[style*="width: 200px"] {
-    width: 100% !important;
-    margin-bottom: 0.5rem;
-  }
-
-  #demo-button .flex img {
-    width: 100%;
-    height: auto;
-  }
-
-  #demo-button .flex .ml-6 {
-    margin-left: 0;
-    margin-top: 0.5rem;
-  }
-}
-
-/* Small screen adjustments */
-@media (max-width: 480px) {
-  #resources-dropdown, #products-dropdown {
-    padding: 0;
-  }
-  #products-dropdown .hideThis {
-  display: none !important;
-}
- #resources-dropdown .hideThis {
-  display: none !important;
-}
-
-#resources-dropdown #resources li {
-  margin-top: 1.5rem;
-}
-  #resources-dropdown .bg-white, #products-dropdown .bg-white {
-    border-radius: 0;
-  }
-}
-
-
-  </style>
