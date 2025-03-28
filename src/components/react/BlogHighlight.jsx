@@ -8,7 +8,7 @@ const Blogs = ({ title, url, description, pubDate, author, image, authorImage })
         className="flex items-end justify-center overflow-hidden rounded-lg">
         <div className="flex ">
           <img
-            className="group-hover:scale-105 duration-300 object-cover"
+            className="group-hover:scale-105 duration-300 object-cover w-2/4"
             loading="lazy"
             src={image}
             alt={title}

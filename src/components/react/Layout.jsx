@@ -3,11 +3,11 @@ import React from 'react';
 const BlogLayout = ({ title, url, image }) => {
   return (
     <a href={url}>
-      <li className="flex">
-        <div className="h-22" style={{ width: '200px' }}>
-          <img className="rounded-sm" src={image} alt={title} />
+      <li className="grid grid-cols-[auto,1fr] gap-4 ">
+        <div className="w-[160px] overflow-hidden">
+          <img className="rounded-sm object-cover w-full h-full" src={image} alt={title} />
         </div>
-        <div className="ml-6 text-black text-sm">{title}</div>
+        <div className="text-black text-sm">{title}</div>
       </li>
     </a>
   );
