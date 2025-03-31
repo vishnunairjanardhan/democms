@@ -150,7 +150,7 @@ const CouponGenerator = () => {
   // );
   const renderCodeButton = (title, example1, example2, onClickHandler) => (
     <button
-      className={`h-60 bg-white bg-gradient-to-b from-blue-50 via-white to-gray-100 
+      className={`h-60 bg-white
         lg:mb-4 lg:shadow-lg rounded-xl p-[0.060rem] snap-start  
         border ${selectedTemplate === title ? "border-2 border-[#7f56d9]" : "border-black/20"} 
         hover:border-[#7f56d9] hover:shadow-2xl transition-all duration-300`}
@@ -195,7 +195,7 @@ const CouponGenerator = () => {
                     key={logo.id}
                     className={`relative raise1  cursor-pointer focus:outline-none rounded-lg bg-gray-700 ${
                       selectedLogo === logo.id
-                        ? "bg-violet-600 border-indigo-500" 
+                        ? "bg-violet-500 border-indigo-500" 
                         : "border-gray-700" 
                     } 
                         hover:border-black // Hover state (lighter indigo)
@@ -483,7 +483,7 @@ const CouponGenerator = () => {
           role="button"
           aria-label="More Actions"
           onClick={Generate}
-          class="raise1 relative mt-6 p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium"
+          className="raise1 relative mt-6 p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium"
         >
           <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>{" "}
           <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
