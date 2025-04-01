@@ -129,11 +129,11 @@ const CouponGenerator = () => {
     },
   ];
   const selectedLogoSrc = {
-    1: "/images/coupon-generator/shopify-logo-1-selected.svg",
-    2: "/images/coupon-generator/bigcommerce-logo-selected.svg",
-    3: "/images/coupon-generator/shopifyPlus-logo-selected.svg",
-    4: "/images/coupon-generator/Salesforce-logo-selected.svg",
-    5: "/images/coupon-generator/woocommerce-logo1-selected.svg",
+    1: "/images/coupon-generator/Shopify_logo_2018.svg",
+    2: "/images/coupon-generator/bc-logo-dark.svg",
+    3: "/images/coupon-generator/shopify+.svg",
+    4: "/images/coupon-generator/Salesforce-logo.svg",
+    5: "/images/coupon-generator/woocommerce-logo-1395ccff7884105ee1bc16f777a9964e.png",
   };
   // const renderCodeButton = (title, example1, example2, onClickHandler) => (
   //   <button
@@ -195,10 +195,10 @@ const CouponGenerator = () => {
                 {logos.map((logo) => (
                   <label
                     key={logo.id}
-                    className={`relative raise1 cursor-pointer focus:outline-none rounded-lg bg-gray-700 ${
+                    className={`relative raise1 cursor-pointer focus:outline-none rounded-lg bg-gray-700 border-gray-800 ${
                       selectedLogo === logo.id
-                        ? "bg-gray-700" 
-                        : "border-gray-700"
+                        ? "bg-white" 
+                        : "border-gray-800"
                     } 
                       hover:border-black duration-300 group`}
                   >
