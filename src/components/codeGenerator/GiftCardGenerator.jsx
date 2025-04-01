@@ -108,36 +108,36 @@ const CouponGenerator = () => {
   const logos = [
     {
       id: 1,
-      src: "/images/coupon-generator/shopify-logo-1-w.svg",
+      src: "/images/coupon-generator/Shopify_logo_2018.svg",
       url: "https://34bbcb-ae.myshopify.com/",
     },
     {
       id: 2,
-      src: "/images/coupon-generator/bigcommerce-logo-w.svg",
+      src: "/images/coupon-generator/bc-logo-dark.svg",
       url: "https://99kicks.mybigcommerce.com/",
     },
     {
       id: 3,
-      src: "/images/coupon-generator/shopifyPlus-logo-w.svg",
+      src: "/images/coupon-generator/shopify+.svg",
       url: "https://34bbcb-ae.myshopify.com/",
     },
     {
       id: 4,
-      src: "/images/coupon-generator/Salesforce-logo-w.svg",
+      src: "/images/coupon-generator/Salesforce-logo.svg",
       url: "https://giftcard.99minds.io/access/login",
     },
     {
       id: 5,
-      src: "/images/coupon-generator/woocommerce-logo1-w.svg",
+      src: "/images/coupon-generator/woocommerce-logo-1395ccff7884105ee1bc16f777a9964e.png",
       url: "https://giftcard.99minds.io/access/login",
     },
   ];
   const selectedLogoSrc = {
-    1: "/images/coupon-generator/Shopify_logo_2018.svg",
-    2: "/images/coupon-generator/bc-logo-dark.svg",
-    3: "/images/coupon-generator/shopify+.svg",
-    4: "/images/coupon-generator/Salesforce-logo.svg",
-    5: "/images/coupon-generator/woocommerce-logo-1395ccff7884105ee1bc16f777a9964e.png",
+    1: "/images/coupon-generator/shopify-logo-1-w.svg",
+    2: "/images/coupon-generator/bigcommerce-logo-w.svg",
+    3: "/images/coupon-generator/shopifyPlus-logo-w.svg",
+    4: "/images/coupon-generator/Salesforce-logo-w.svg",
+    5: "/images/coupon-generator/woocommerce-logo1-w.svg",
   };
   
   const renderCodeButton = (title, example1, example2, onClickHandler) => (
@@ -187,8 +187,8 @@ const CouponGenerator = () => {
                     key={logo.id}
                     className={`relative raise1 cursor-pointer focus:outline-none rounded-lg ${
                       selectedLogo === logo.id
-                        ? "bg-white border-gray-800" 
-                        : "bg-gray-700 border-gray-700"
+                        ? "bg-gray-700 border-gray-800" 
+                        : "bg-white border-gray-700"
                     } 
                       hover:border-black duration-300 group`}
                   >

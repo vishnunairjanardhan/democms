@@ -135,24 +135,7 @@ const CouponGenerator = () => {
     4: "/images/coupon-generator/Salesforce-logo.svg",
     5: "/images/coupon-generator/woocommerce-logo-1395ccff7884105ee1bc16f777a9964e.png",
   };
-  // const renderCodeButton = (title, example1, example2, onClickHandler) => (
-  //   <button
-  //   className={`h-60 bg-white bg-gradient-to-b mb-4 from-blue-200 via-white shadow-xl rounded-xl p-[0.060rem] snap-start ring-1 ring-gray-300 border ${
-  //     selectedTemplate === title ? "border-gray-500" : "border-gray-300"
-  //   } hover:border-gray-600 duration-300 group`}
-  //   onClick={() => {
-  //     onClickHandler();
-  //     setSelectedTemplate(title);
-  //   }}
-  // >
-  //    <figure className="bg-white rounded-xl pt-8 lg:pb-5 pb-12">
-  //       <h5 className="px-10 text-lg font-normal tracking-tight text-center text-gray-900 h-16 mb-6">{`Generate ${title} Codes`}</h5>
-  //       <div className="border-b border-gray-300"></div>
-  //       <h6 className="mt-6 mb-2 pt-2 text-gray-700">{example1}</h6>
-  //       <h6 className="mb-2 text-gray-700">{example2}</h6>
-  //     </figure>
-  //   </button>
-  // );
+  
   const renderCodeButton = (title, example1, example2, onClickHandler) => (
     <button
       className={`h-60 bg-white
@@ -178,9 +161,7 @@ const CouponGenerator = () => {
     <div className='relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24'>
     <div className="container mx-auto flex flex-col items-center justify-center min-h-screen">
       <div className='relative mx-auto space-y-20'>
-         {/* <h1 className='text-white text-center text-2xl font-bold'>Create Your Custom Coupons</h1> */}
         <div className='flex flex-col items-center justify-center'>
-        {/* <h5 className='text-white w-1/2 text-lg font-bold text-center'>Use free code generator to generate unique codes that can be used for coupons, gift cards. If you need an end-to-end promotion management tool, try 99minds.</h5> */}
         <h1 class="mt-16 tracking-tight text-center text-black">
         Free Coupon Code Generator
       </h1>
@@ -279,13 +260,6 @@ const CouponGenerator = () => {
       </div>
       <div className="py-4 text-white text-center w-full">
         <div className="container mx-auto mt-8 justify-center p-0 max-w-7xl px-0 lg:px-0 w-full">
-          {/* <button
-            className="h-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500"
-            onClick={toggleDropdown}
-            
-          >
-            More Actions
-          </button> */}
               <button
               type="button"
               role="button"
@@ -392,9 +366,6 @@ const CouponGenerator = () => {
   </div>
 </div>
       </div>
-      {/* <button className="flex items-center justify-center h-10 mt-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500" onClick={Generate}>
-        <h5 className="text-white p-3">Generate</h5>
-      </button> */}
          <button
           type="button"
           role="button"
@@ -429,7 +400,6 @@ const CouponGenerator = () => {
               <img className='pl-4 mt-0 ' src={getSelectedLogoSrc()}  width={95} />
             </button>
           </div>
-
         </div>
       </div>}
     </div>
