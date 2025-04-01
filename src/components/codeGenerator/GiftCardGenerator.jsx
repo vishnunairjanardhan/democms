@@ -336,8 +336,7 @@ const CouponGenerator = () => {
               role="button"
               aria-label="More Actions"
               onClick={toggleDropdown}
-              class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium"
-            >
+              class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
               <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>{" "}
               <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
                 <span class="relative text-white">More Actions</span>{" "}
