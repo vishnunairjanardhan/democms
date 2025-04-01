@@ -102,12 +102,39 @@ const CouponGenerator = () => {
   const [selectedLogo, setSelectedLogo] = useState(null);
 
   const logos = [
-    { id: 1, src: '/images/coupon-generator/shopify-logo-1-w.svg', url:'https://34bbcb-ae.myshopify.com/'},
-    { id: 2, src: '/images/coupon-generator/bigcommerce-logo-w.svg', url:'https://99kicks.mybigcommerce.com/'},
-    { id: 3, src: '/images/coupon-generator/shopifyPlus-logo-w.svg', url:'https://34bbcb-ae.myshopify.com/'},
-    { id: 4, src: '/images/coupon-generator/Salesforce-logo-w.svg', url:'https://giftcard.99minds.io/access/login'},
-    { id: 5, src: '/images/coupon-generator/woocommerce-logo1-w.svg', url:'https://giftcard.99minds.io/access/login'},
+    {
+      id: 1,
+      src: "/images/coupon-generator/shopify-logo-1-w.svg",
+      url: "https://34bbcb-ae.myshopify.com/",
+    },
+    {
+      id: 2,
+      src: "/images/coupon-generator/bigcommerce-logo-w.svg",
+      url: "https://99kicks.mybigcommerce.com/",
+    },
+    {
+      id: 3,
+      src: "/images/coupon-generator/shopifyPlus-logo-w.svg",
+      url: "https://34bbcb-ae.myshopify.com/",
+    },
+    {
+      id: 4,
+      src: "/images/coupon-generator/Salesforce-logo-w.svg",
+      url: "https://giftcard.99minds.io/access/login",
+    },
+    {
+      id: 5,
+      src: "/images/coupon-generator/woocommerce-logo1-w.svg",
+      url: "https://giftcard.99minds.io/access/login",
+    },
   ];
+  const selectedLogoSrc = {
+    1: "/images/coupon-generator/shopify-logo-1-selected.svg",
+    2: "/images/coupon-generator/bigcommerce-logo-selected.svg",
+    3: "/images/coupon-generator/shopifyPlus-logo-selected.svg",
+    4: "/images/coupon-generator/Salesforce-logo-selected.svg",
+    5: "/images/coupon-generator/woocommerce-logo1-selected.svg",
+  };
   // const renderCodeButton = (title, example1, example2, onClickHandler) => (
   //   <button
   //   className={`h-60 bg-white bg-gradient-to-b mb-4 from-blue-200 via-white shadow-xl rounded-xl p-[0.060rem] snap-start ring-1 ring-gray-300 border ${
@@ -164,31 +191,31 @@ const CouponGenerator = () => {
         <div className="p-[0.060rem] rounded-3xl  shadow-gray-300 bg-white shadow-xl border border-black/20 lg:px-36 py-16 sm:px-4">
             <div className="mx-auto max-w-7xl">
               <h2 className="text-center lg:text-3xl text-2xl font-normal tracking-tight text-black lg:mt-0 mt-12">Choose your eCommerce Site</h2>
-            <div className="mx-auto lg:mt-16 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-              {logos.map((logo) => (
-                <label
-                key={logo.id}
-                className={`relative cursor-pointer focus:outline-none rounded-lg bg-violet-300 ${ selectedLogo === logo.id
-                  ? "bg-violet-600 border-indigo-500"
-                  : "border-gray-700" 
-              } 
-                  hover:border-indigo-400 
-                  duration-300 group`}
-              >
-                  <input
-                    type="radio"
-                    name="logo"
-                    className="hidden"
-                    onChange={() => setSelectedLogo(logo.id)}
-                  />
-                  <img
-                    src={logo.src}
-                    alt={`Logo ${logo.id}`}
-                    className="max-h-12 w-full object-contain p-3"
-                  />
-                </label>
-              ))}
-            </div>
+              <div className="mx-auto lg:mt-16 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+                {logos.map((logo) => (
+                  <label
+                    key={logo.id}
+                    className={`relative raise1 cursor-pointer focus:outline-none rounded-lg bg-gray-700 ${
+                      selectedLogo === logo.id
+                        ? "bg-gray-700" 
+                        : "border-gray-700"
+                    } 
+                      hover:border-black duration-300 group`}
+                  >
+                    <input
+                      type="radio"
+                      name="logo"
+                      className="hidden"
+                      onChange={() => setSelectedLogo(logo.id)}
+                    />
+                    <img
+                      src={selectedLogo === logo.id ? selectedLogoSrc[logo.id] : logo.src}
+                      alt={`Logo ${logo.id}`}
+                      className="max-h-12 w-full object-contain p-3"
+                    />
+                  </label>
+                ))}
+              </div>
           </div>
         </div>
       </div>
