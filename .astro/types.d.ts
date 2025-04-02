@@ -1382,6 +1382,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"shopify-discount-combinations.md": {
+	id: "shopify-discount-combinations.md";
+  slug: "shopify-discount-combinations";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "shopify-gift-card.md": {
 	id: "shopify-gift-card.md";
   slug: "shopify-gift-card";
