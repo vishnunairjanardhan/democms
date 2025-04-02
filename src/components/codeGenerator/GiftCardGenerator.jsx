@@ -513,7 +513,7 @@ const CouponGenerator = () => {
                   </button>
                 </CSVLink>
                 <button
-                  className="text-white bg-black rounded-md py-2 px-16 lg:px-12 lg:flex rounded-lg raise1 duration-300 group"
+                  className="text-black font-medium raise1 rounded-md py-2 px-16 rounded-lg border border-vulcan-800 flex justify-between hover:border-2 duration-300 group"
                   onClick={() =>
                     window.open(
                       getSelectedLogoUrl(),

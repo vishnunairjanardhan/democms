@@ -104,36 +104,36 @@ const CouponGenerator = () => {
   const logos = [
     {
       id: 1,
-      src: "/images/coupon-generator/shopify-logo-1-w.svg",
+      src: "/images/coupon-generator/Shopify_logo_2018.svg",
       url: "https://34bbcb-ae.myshopify.com/",
     },
     {
       id: 2,
-      src: "/images/coupon-generator/bigcommerce-logo-w.svg",
+      src: "/images/coupon-generator/bc-logo-dark.svg",
       url: "https://99kicks.mybigcommerce.com/",
     },
     {
       id: 3,
-      src: "/images/coupon-generator/shopifyPlus-logo-w.svg",
+      src: "/images/coupon-generator/shopify+.svg",
       url: "https://34bbcb-ae.myshopify.com/",
     },
     {
       id: 4,
-      src: "/images/coupon-generator/Salesforce-logo-w.svg",
+      src: "/images/coupon-generator/Salesforce-logo.svg",
       url: "https://giftcard.99minds.io/access/login",
     },
     {
       id: 5,
-      src: "/images/coupon-generator/woocommerce-logo1-w.svg",
+      src: "/images/coupon-generator/woocommerce-logo-1395ccff7884105ee1bc16f777a9964e.png",
       url: "https://giftcard.99minds.io/access/login",
     },
   ];
   const selectedLogoSrc = {
-    1: "/images/coupon-generator/Shopify_logo_2018.svg",
-    2: "/images/coupon-generator/bc-logo-dark.svg",
-    3: "/images/coupon-generator/shopify+.svg",
-    4: "/images/coupon-generator/Salesforce-logo.svg",
-    5: "/images/coupon-generator/woocommerce-logo-1395ccff7884105ee1bc16f777a9964e.png",
+    1: "/images/coupon-generator/shopify-logo-1-w.svg",
+    2: "/images/coupon-generator/bigcommerce-logo-w.svg",
+    3: "/images/coupon-generator/shopifyPlus-logo-w.svg",
+    4: "/images/coupon-generator/Salesforce-logo-w.svg",
+    5: "/images/coupon-generator/woocommerce-logo1-w.svg",
   };
   
   const renderCodeButton = (title, example1, example2, onClickHandler) => (
@@ -398,7 +398,22 @@ const CouponGenerator = () => {
             >
               Import to
               <img className='pl-4 mt-0 ' src={getSelectedLogoSrc()}  width={95} />
-            </button>
+            </button><button
+                  className="text-black font-medium raise1 rounded-md py-2 px-16 rounded-lg border border-vulcan-800 flex justify-between hover:border-2 duration-300 group"
+                  onClick={() =>
+                    window.open(
+                      getSelectedLogoUrl(),
+                      "https://giftcard.99minds.io/access/login"
+                    )
+                  }
+                >
+                  Import to
+                  <img
+                    className="pl-2 mt-1 "
+                    src={getSelectedLogoSrc()}
+                    width={95}
+                  />
+                </button>
           </div>
         </div>
       </div>}
