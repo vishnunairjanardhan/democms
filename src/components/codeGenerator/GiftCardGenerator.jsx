@@ -185,7 +185,7 @@ const CouponGenerator = () => {
                 {logos.map((logo) => (
                   <label
                     key={logo.id}
-                    className={`relative raise1 cursor-pointer focus:outline-none rounded-lg ${
+                    className={`relative raise1 cursor-pointer focus:outline-none border rounded-lg ${
                       selectedLogo === logo.id
                         ? "bg-gray-700 border-gray-800" 
                         : "bg-white border-gray-700"

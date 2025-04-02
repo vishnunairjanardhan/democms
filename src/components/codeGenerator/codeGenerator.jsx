@@ -176,9 +176,9 @@ const CouponGenerator = () => {
                 {logos.map((logo) => (
                   <label
                     key={logo.id}
-                    className={`relative raise1 cursor-pointer focus:outline-none rounded-lg bg-gray-700 border-gray-800 ${
+                    className={`relative raise1 cursor-pointer focus:outline-none border rounded-lg border-gray-800 ${
                       selectedLogo === logo.id
-                        ? "bg-white" 
+                        ? "bg-gray-700" 
                         : "border-gray-800"
                     } 
                       hover:border-black duration-300 group`}
@@ -393,20 +393,13 @@ const CouponGenerator = () => {
               <button                     className="text-black font-medium raise1 rounded-md py-2 lg:px-28 px-16 rounded-lg border border-vulcan-800  hover:border-2 duration-300 group" type="button">Export</button>
             </CSVLink>
             <button
-              className="text-white bg-black rounded-md py-2 px-16 lg:px-12 lg:flex rounded-lg raise1 duration-300 group"
-              onClick={() => window.open(getSelectedLogoUrl(), "https://giftcard.99minds.io/access/login")}
-            >
-              Import to
-              <img className='pl-4 mt-0 ' src={getSelectedLogoSrc()}  width={95} />
-            </button><button
                   className="text-black font-medium raise1 rounded-md py-2 px-16 rounded-lg border border-vulcan-800 flex justify-between hover:border-2 duration-300 group"
                   onClick={() =>
                     window.open(
                       getSelectedLogoUrl(),
                       "https://giftcard.99minds.io/access/login"
                     )
-                  }
-                >
+                  }>
                   Import to
                   <img
                     className="pl-2 mt-1 "
