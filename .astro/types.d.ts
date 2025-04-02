@@ -458,9 +458,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"black-friday-cyber-monday-record-success .md": {
-	id: "black-friday-cyber-monday-record-success .md";
-  slug: "black-friday-cyber-monday-record-success-";
+"black-friday-cyber-monday-record-success.md": {
+	id: "black-friday-cyber-monday-record-success.md";
+  slug: "black-friday-cyber-monday-record-success";
   body: string;
   collection: "posts";
   data: any
@@ -927,13 +927,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"how-to-build-customer-loyalty-for-your-e-commerce-store.md": {
-	id: "how-to-build-customer-loyalty-for-your-e-commerce-store.md";
-  slug: "how-to-build-customer-loyalty-for-your-e-commerce-store";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
 "how-to-capitalize-on-the-christmas-rush-using-gift-cards.md": {
 	id: "how-to-capitalize-on-the-christmas-rush-using-gift-cards.md";
   slug: "how-to-capitalize-on-the-christmas-rush-using-gift-cards";
@@ -1116,9 +1109,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"loyalty-marketing-strategies.md": {
-	id: "loyalty-marketing-strategies.md";
-  slug: "loyalty-marketing-strategies";
+"loyalty-marketing.md": {
+	id: "loyalty-marketing.md";
+  slug: "loyalty-marketing";
   body: string;
   collection: "posts";
   data: any
@@ -1133,6 +1126,13 @@ declare module 'astro:content' {
 "loyalty-program-for-small-business.md": {
 	id: "loyalty-program-for-small-business.md";
   slug: "loyalty-program-for-small-business";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"loyalty-program-successful.md": {
+	id: "loyalty-program-successful.md";
+  slug: "loyalty-program-successful";
   body: string;
   collection: "posts";
   data: any
@@ -1623,13 +1623,6 @@ declare module 'astro:content' {
 "what-is-the-future-of-e-commerce-in-the-next-5-10-years.md": {
 	id: "what-is-the-future-of-e-commerce-in-the-next-5-10-years.md";
   slug: "what-is-the-future-of-e-commerce-in-the-next-5-10-years";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"what-makes-a-loyalty-program-successful.md": {
-	id: "what-makes-a-loyalty-program-successful.md";
-  slug: "what-makes-a-loyalty-program-successful";
   body: string;
   collection: "posts";
   data: any
