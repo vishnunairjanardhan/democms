@@ -102,30 +102,40 @@ const CouponGenerator = () => {
   const [selectedLogo, setSelectedLogo] = useState(null);
 
   const logos = [
-    { id: 1, src: '/images/coupon-generator/shopify-logo-1-w.svg', url:'https://34bbcb-ae.myshopify.com/'},
-    { id: 2, src: '/images/coupon-generator/bigcommerce-logo-w.svg', url:'https://99kicks.mybigcommerce.com/'},
-    { id: 3, src: '/images/coupon-generator/shopifyPlus-logo-w.svg', url:'https://34bbcb-ae.myshopify.com/'},
-    { id: 4, src: '/images/coupon-generator/Salesforce-logo-w.svg', url:'https://giftcard.99minds.io/access/login'},
-    { id: 5, src: '/images/coupon-generator/woocommerce-logo1-w.svg', url:'https://giftcard.99minds.io/access/login'},
+    {
+      id: 1,
+      src: "/images/coupon-generator/Shopify_logo_2018.svg",
+      url: "https://34bbcb-ae.myshopify.com/",
+    },
+    {
+      id: 2,
+      src: "/images/coupon-generator/bc-logo-dark.svg",
+      url: "https://99kicks.mybigcommerce.com/",
+    },
+    {
+      id: 3,
+      src: "/images/coupon-generator/shopify+.svg",
+      url: "https://34bbcb-ae.myshopify.com/",
+    },
+    {
+      id: 4,
+      src: "/images/coupon-generator/Salesforce-logo.svg",
+      url: "https://giftcard.99minds.io/access/login",
+    },
+    {
+      id: 5,
+      src: "/images/coupon-generator/woocommerce-logo-1395ccff7884105ee1bc16f777a9964e.png",
+      url: "https://giftcard.99minds.io/access/login",
+    },
   ];
-  // const renderCodeButton = (title, example1, example2, onClickHandler) => (
-  //   <button
-  //   className={`h-60 bg-white bg-gradient-to-b mb-4 from-blue-200 via-white shadow-xl rounded-xl p-[0.060rem] snap-start ring-1 ring-gray-300 border ${
-  //     selectedTemplate === title ? "border-gray-500" : "border-gray-300"
-  //   } hover:border-gray-600 duration-300 group`}
-  //   onClick={() => {
-  //     onClickHandler();
-  //     setSelectedTemplate(title);
-  //   }}
-  // >
-  //    <figure className="bg-white rounded-xl pt-8 lg:pb-5 pb-12">
-  //       <h5 className="px-10 text-lg font-normal tracking-tight text-center text-gray-900 h-16 mb-6">{`Generate ${title} Codes`}</h5>
-  //       <div className="border-b border-gray-300"></div>
-  //       <h6 className="mt-6 mb-2 pt-2 text-gray-700">{example1}</h6>
-  //       <h6 className="mb-2 text-gray-700">{example2}</h6>
-  //     </figure>
-  //   </button>
-  // );
+  const selectedLogoSrc = {
+    1: "/images/coupon-generator/shopify-logo-1-w.svg",
+    2: "/images/coupon-generator/bigcommerce-logo-w.svg",
+    3: "/images/coupon-generator/shopifyPlus-logo-w.svg",
+    4: "/images/coupon-generator/Salesforce-logo-w.svg",
+    5: "/images/coupon-generator/woocommerce-logo1-w.svg",
+  };
+  
   const renderCodeButton = (title, example1, example2, onClickHandler) => (
     <button
       className={`h-60 bg-white
@@ -151,9 +161,7 @@ const CouponGenerator = () => {
     <div className='relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24'>
     <div className="container mx-auto flex flex-col items-center justify-center min-h-screen">
       <div className='relative mx-auto space-y-20'>
-         {/* <h1 className='text-white text-center text-2xl font-bold'>Create Your Custom Coupons</h1> */}
         <div className='flex flex-col items-center justify-center'>
-        {/* <h5 className='text-white w-1/2 text-lg font-bold text-center'>Use free code generator to generate unique codes that can be used for coupons, gift cards. If you need an end-to-end promotion management tool, try 99minds.</h5> */}
         <h1 class="mt-16 tracking-tight text-center text-black">
         Free Coupon Code Generator
       </h1>
@@ -164,31 +172,31 @@ const CouponGenerator = () => {
         <div className="p-[0.060rem] rounded-3xl  shadow-gray-300 bg-white shadow-xl border border-black/20 lg:px-36 py-16 sm:px-4">
             <div className="mx-auto max-w-7xl">
               <h2 className="text-center lg:text-3xl text-2xl font-normal tracking-tight text-black lg:mt-0 mt-12">Choose your eCommerce Site</h2>
-            <div className="mx-auto lg:mt-16 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-              {logos.map((logo) => (
-                <label
-                key={logo.id}
-                className={`relative cursor-pointer focus:outline-none rounded-lg bg-violet-300 ${ selectedLogo === logo.id
-                  ? "bg-violet-600 border-indigo-500"
-                  : "border-gray-700" 
-              } 
-                  hover:border-indigo-400 
-                  duration-300 group`}
-              >
-                  <input
-                    type="radio"
-                    name="logo"
-                    className="hidden"
-                    onChange={() => setSelectedLogo(logo.id)}
-                  />
-                  <img
-                    src={logo.src}
-                    alt={`Logo ${logo.id}`}
-                    className="max-h-12 w-full object-contain p-3"
-                  />
-                </label>
-              ))}
-            </div>
+              <div className="mx-auto lg:mt-16 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+                {logos.map((logo) => (
+                  <label
+                    key={logo.id}
+                    className={`relative raise1 cursor-pointer focus:outline-none border rounded-lg border-gray-800 ${
+                      selectedLogo === logo.id
+                        ? "bg-gray-700" 
+                        : "border-gray-800"
+                    } 
+                      hover:border-black duration-300 group`}
+                  >
+                    <input
+                      type="radio"
+                      name="logo"
+                      className="hidden"
+                      onChange={() => setSelectedLogo(logo.id)}
+                    />
+                    <img
+                      src={selectedLogo === logo.id ? selectedLogoSrc[logo.id] : logo.src}
+                      alt={`Logo ${logo.id}`}
+                      className="max-h-12 w-full object-contain p-3"
+                    />
+                  </label>
+                ))}
+              </div>
           </div>
         </div>
       </div>
@@ -252,13 +260,6 @@ const CouponGenerator = () => {
       </div>
       <div className="py-4 text-white text-center w-full">
         <div className="container mx-auto mt-8 justify-center p-0 max-w-7xl px-0 lg:px-0 w-full">
-          {/* <button
-            className="h-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500"
-            onClick={toggleDropdown}
-            
-          >
-            More Actions
-          </button> */}
               <button
               type="button"
               role="button"
@@ -365,9 +366,6 @@ const CouponGenerator = () => {
   </div>
 </div>
       </div>
-      {/* <button className="flex items-center justify-center h-10 mt-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500" onClick={Generate}>
-        <h5 className="text-white p-3">Generate</h5>
-      </button> */}
          <button
           type="button"
           role="button"
@@ -395,14 +393,21 @@ const CouponGenerator = () => {
               <button                     className="text-black font-medium raise1 rounded-md py-2 lg:px-28 px-16 rounded-lg border border-vulcan-800  hover:border-2 duration-300 group" type="button">Export</button>
             </CSVLink>
             <button
-              className="text-white bg-black rounded-md py-2 px-16 lg:px-12 lg:flex rounded-lg raise1 duration-300 group"
-              onClick={() => window.open(getSelectedLogoUrl(), "https://giftcard.99minds.io/access/login")}
-            >
-              Import to
-              <img className='pl-4 mt-0 ' src={getSelectedLogoSrc()}  width={95} />
-            </button>
+                  className="text-black font-medium raise1 rounded-md py-2 px-16 rounded-lg border border-vulcan-800 flex justify-between hover:border-2 duration-300 group"
+                  onClick={() =>
+                    window.open(
+                      getSelectedLogoUrl(),
+                      "https://giftcard.99minds.io/access/login"
+                    )
+                  }>
+                  Import to
+                  <img
+                    className="pl-2 mt-1 "
+                    src={getSelectedLogoSrc()}
+                    width={95}
+                  />
+                </button>
           </div>
-
         </div>
       </div>}
     </div>

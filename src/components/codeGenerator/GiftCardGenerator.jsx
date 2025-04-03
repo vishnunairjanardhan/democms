@@ -108,52 +108,44 @@ const CouponGenerator = () => {
   const logos = [
     {
       id: 1,
-      src: "/images/coupon-generator/shopify-logo-1-w.svg",
+      src: "/images/coupon-generator/Shopify_logo_2018.svg",
       url: "https://34bbcb-ae.myshopify.com/",
     },
     {
       id: 2,
-      src: "/images/coupon-generator/bigcommerce-logo-w.svg",
+      src: "/images/coupon-generator/bc-logo-dark.svg",
       url: "https://99kicks.mybigcommerce.com/",
     },
     {
       id: 3,
-      src: "/images/coupon-generator/shopifyPlus-logo-w.svg",
+      src: "/images/coupon-generator/shopify+.svg",
       url: "https://34bbcb-ae.myshopify.com/",
     },
     {
       id: 4,
-      src: "/images/coupon-generator/Salesforce-logo-w.svg",
+      src: "/images/coupon-generator/Salesforce-logo.svg",
       url: "https://giftcard.99minds.io/access/login",
     },
     {
       id: 5,
-      src: "/images/coupon-generator/woocommerce-logo1-w.svg",
+      src: "/images/coupon-generator/woocommerce-logo-1395ccff7884105ee1bc16f777a9964e.png",
       url: "https://giftcard.99minds.io/access/login",
     },
   ];
-  // const renderCodeButton = (title, example1, example2, onClickHandler) => (
-  //   <button
-  //   className={`h-60 bg-vulcan-900 bg-gradient-to-b mb-4 from-indigo-500 via-indigo-500/5 shadow-2xl rounded-xl p-[0.060rem] snap-start ring-1 ring-vulcan-800 border ${selectedTemplate === title ? 'border-white-100' : 'border-vulcan-800'} hover:border-white duration-300 group`}
-  //   onClick={() => {
-  //     onClickHandler();
-  //     setSelectedTemplate(title);
-  //   }}
-  // >
-  //     <figure class="bg-vulcan-900 rounded-xl pt-8 lg:pb-5 pb-12">
-  //     <h5 className="px-10 text-lg font-normal tracking-tight text-center text-white h-16 mb-6">{`Generate ${title} Codes`}</h5>
-  //     <div className='border-b border-vulcan-800'></div>
-  //     <h6 className="mt-6 mb-2 pt-2">{example1}</h6>
-  //     <h6 className='mb-2'>{example2}</h6>
-  //     </figure>
-  //   </button>
-  // );
+  const selectedLogoSrc = {
+    1: "/images/coupon-generator/shopify-logo-1-w.svg",
+    2: "/images/coupon-generator/bigcommerce-logo-w.svg",
+    3: "/images/coupon-generator/shopifyPlus-logo-w.svg",
+    4: "/images/coupon-generator/Salesforce-logo-w.svg",
+    5: "/images/coupon-generator/woocommerce-logo1-w.svg",
+  };
+  
   const renderCodeButton = (title, example1, example2, onClickHandler) => (
     <button
       className={`h-60 bg-white
         lg:mb-4 lg:shadow-lg rounded-xl p-[0.060rem] snap-start  
         border ${selectedTemplate === title ? "border-2 border-[#7f56d9]" : "border-black/20"} 
-        hover:border-[#7f56d9] hover:shadow-2xl transition-all duration-300`}
+        hover:shadow-2xl transition-all duration-300`}
       onClick={() => {
         onClickHandler();
         setSelectedTemplate(title);
@@ -193,13 +185,12 @@ const CouponGenerator = () => {
                 {logos.map((logo) => (
                   <label
                     key={logo.id}
-                    className={`relative raise1  cursor-pointer focus:outline-none rounded-lg bg-gray-700 ${
+                    className={`relative raise1 cursor-pointer focus:outline-none border rounded-lg ${
                       selectedLogo === logo.id
-                        ? "bg-violet-500 border-indigo-500" 
-                        : "border-gray-700" 
+                        ? "bg-gray-700 border-gray-800" 
+                        : "bg-white border-gray-700"
                     } 
-                        hover:border-black // Hover state (lighter indigo)
-                        duration-300 group`}
+                      hover:border-black duration-300 group`}
                   >
                     <input
                       type="radio"
@@ -208,7 +199,7 @@ const CouponGenerator = () => {
                       onChange={() => setSelectedLogo(logo.id)}
                     />
                     <img
-                      src={logo.src}
+                      src={selectedLogo === logo.id ? selectedLogoSrc[logo.id] : logo.src}
                       alt={`Logo ${logo.id}`}
                       className="max-h-12 w-full object-contain p-3"
                     />
@@ -522,7 +513,7 @@ const CouponGenerator = () => {
                   </button>
                 </CSVLink>
                 <button
-                  className="text-white bg-black rounded-md py-2 px-16 lg:px-12 lg:flex rounded-lg raise1 duration-300 group"
+                  className="text-black font-medium raise1 rounded-md py-2 px-16 rounded-lg border border-vulcan-800 flex justify-between hover:border-2 duration-300 group"
                   onClick={() =>
                     window.open(
                       getSelectedLogoUrl(),
