@@ -458,9 +458,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"black-friday-cyber-monday-record-success .md": {
-	id: "black-friday-cyber-monday-record-success .md";
-  slug: "black-friday-cyber-monday-record-success-";
+"black-friday-cyber-monday-record-success.md": {
+	id: "black-friday-cyber-monday-record-success.md";
+  slug: "black-friday-cyber-monday-record-success";
   body: string;
   collection: "posts";
   data: any
@@ -653,6 +653,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: any
+} & { render(): Render[".md"] };
+"ecommerce-promotions.md": {
+	id: "ecommerce-promotions.md";
+  slug: "ecommerce-promotions";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "ecommerce-strategy-a-complete-guide.md": {
 	id: "ecommerce-strategy-a-complete-guide.md";
