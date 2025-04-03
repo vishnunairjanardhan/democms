@@ -654,6 +654,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"ecommerce-promotions.md": {
+	id: "ecommerce-promotions.md";
+  slug: "ecommerce-promotions";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "ecommerce-strategy-a-complete-guide.md": {
 	id: "ecommerce-strategy-a-complete-guide.md";
   slug: "ecommerce-strategy-a-complete-guide";
