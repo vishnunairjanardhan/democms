@@ -605,6 +605,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"ecommerce-evolution.md": {
+	id: "ecommerce-evolution.md";
+  slug: "ecommerce-evolution";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales.md": {
 	id: "ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales.md";
   slug: "ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales";
