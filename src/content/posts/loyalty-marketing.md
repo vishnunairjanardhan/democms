@@ -7,13 +7,14 @@ description: "Loyalty marketing focuses on retaining and nurturing existing cust
 heading: What is Loyalty Marketing? Benefits and Strategies
 image:
   url: "/assets/blog/loyalty_marketing.webp"
-  alt: "Loyalty Marketing."
+  alt: "featured image of loyalty marketing blog"
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/loyalty-marketing"
 keywords: ["loyalty marketing", "customer loyalty marketing","loyalty program marketing", "what is loyalty marketing", "loyalty marketing strategy"]
 
 ---
-<img src="/assets/blog/loyalty_marketing.webp">
+
+<img rel="preload" role="img" src="/assets/blog/loyalty_marketing.webp" alt="banner image of loyalty marketing">
 
 Building long-term relationships with customers is crucial for business success. Instead of relying on one-time promotions, brands are now focusing on engaging customers throughout their journey, emphasizing retention and meaningful interactions.
 
@@ -48,7 +49,7 @@ Loyalty marketing plays a key role in this approach. According to <a href="https
   </ul>
  </div> 
 
-<h2 id="What-is-Loyalty-Marketing?">What is Loyalty Marketing?</h2>
+<h2 id="1">What is Loyalty Marketing?</h2>
 
 Loyalty marketing focuses on retaining and nurturing existing customers through targeted incentives and personalized experiences. The goal is to reduce churn and encourage repeat purchases from high-value but often overlooked customers.
 
@@ -191,7 +192,7 @@ Customers interact with brands across multiple touchpoints, including websites, 
 - <b>Streak rewards</b>: Customers earn bonuses for consecutive purchases.
 - <b>Challenges and leaderboards</b>: Reward customers for completing certain actions, such as referring friends or making multiple purchases within a timeframe.
 
-<img loading="lazy" role="img" src="/assets/blog/CTA-LP1.webp" alt="CTA image on Boost Customer retention with our loyalty program">
+<a href="https://www.99minds.io/loyalty" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP1.webp" alt="CTA image on Boost Customer retention with our loyalty program"></a>
 
 <h2 id="4">Loyalty Marketing Channels</h2>
 
@@ -250,8 +251,6 @@ Customer loyalty marketing enhances customer satisfaction and generates higher l
 
 <h2 id="7">Frequently Asked Questions (FAQs) on Loyalty Marketing</h2>
 
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is loyalty marketing in simple terms?</h3>Loyalty marketing is a strategy where businesses reward and retain customers by offering incentives, exclusive deals, and personalized experiences to encourage repeat purchases.
-What are the two types of loyalty marketing?
-</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is loyalty marketing in simple terms?</h3>Loyalty marketing is a strategy where businesses reward and retain customers by offering incentives, exclusive deals, and personalized experiences to encourage repeat purchases.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How does loyalty marketing benefit eCommerce retailers?</h3>eCommerce retailers benefit from loyalty marketing by increasing customer retention, boosting repeat purchases, and building brand advocates who refer new customers.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the two types of loyalty marketing?</h3>The two main types of loyalty marketing are transactional loyalty and emotional loyalty. Transactional loyalty is based on rewards and incentives, while emotional loyalty focuses on creating deep customer relationships through personalized experiences and brand engagement.</div>
