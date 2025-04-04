@@ -167,7 +167,7 @@ const sortedPosts = allPosts.sort((a, b) => {
         </a> <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" href="/case-study">
           Case Study
         </a>
-				<div @mouseenter="open = true" @mouseleave="open = " class="relative" x-data="{ open: false }">
+				<div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
 					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>
               Resources
             </span>
