@@ -243,8 +243,8 @@ a, button, span {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px; 
-  margin-bottom: 40px; 
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .center-logo {
@@ -262,7 +262,9 @@ a, button, span {
 
 .center-logo img {
   width: auto;
-  height: 3150  px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .circle-container {
@@ -304,7 +306,7 @@ a, button, span {
   position: absolute;
   width: 100px;
   height: 50px;
-  border : 1px solid #000000;
+  border: 1px solid #000000;
   background-color: white;
   border-radius: 10px;
   display: flex;
@@ -320,96 +322,104 @@ a, button, span {
   max-width: 100%;
 }
 
-/* Circle 1 independent orbits */
+/* Circle 1 independent orbits - 25s rotation period */
 .circle-1 {
-position: absolute;
-width: 230px;
-height: 230px;
+  position: absolute;
+  width: 230px;
+  height: 230px;
 }
+
 .circle-1 .logo-container:nth-child(1) {
---orbit-radius: 140px;
-animation: orbit 25s linear infinite;
-position: absolute;
-top: calc(50% - 25px);
-left: calc(50% - 50px);
-animation-delay: 0s;
+  --orbit-radius: 140px;
+  animation: orbit 25s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -0s; /* 0° position */
 }
+
 .circle-1 .logo-container:nth-child(2) {
---orbit-radius: 140px;
-animation: orbit 25s linear infinite;
-position: absolute;
-top: calc(50% - 25px);
-left: calc(50% - 50px);
-animation-delay: -8.33s; 
+  --orbit-radius: 140px;
+  animation: orbit 25s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -8.33s; /* 120° position */
 }
+
 .circle-1 .logo-container:nth-child(3) {
---orbit-radius: 140px;
-animation: orbit 25s linear infinite;
-position: absolute;
-top: calc(50% - 25px);
-left: calc(50% - 50px);
-animation-delay: -16.67s;
+  --orbit-radius: 140px;
+  animation: orbit 25s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -16.67s; /* 240° position */
 }
 
-/* Circle 2 independent orbits */
+/* Circle 2 independent orbits - 30s rotation period */
 .circle-2 {
-position: absolute;
-width: 340px;
-height: 340px;
-}
-.circle-2 .logo-container:nth-child(1) {
---orbit-radius: 190px;
-animation: orbit 30s linear infinite;
-position: absolute;
-top: calc(50% - 25px);
-left: calc(50% - 50px);
-animation-delay: 0s;
-}
-.circle-2 .logo-container:nth-child(2) {
---orbit-radius: 190px;
-animation: orbit 30s linear infinite;
-position: absolute;
-top: calc(50% - 25px);
-left: calc(50% - 50px);
-animation-delay: -15s; 
+  position: absolute;
+  width: 340px;
+  height: 340px;
 }
 
-/* Circle 3 independent orbits */
+.circle-2 .logo-container:nth-child(1) {
+  --orbit-radius: 190px;
+  animation: orbit 30s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -5s; /* 60° position */
+}
+
+.circle-2 .logo-container:nth-child(2) {
+  --orbit-radius: 190px;
+  animation: orbit 30s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -17.5s; /* 210° position - adjusted from 240° */
+}
+
+/* Circle 3 independent orbits - 35s rotation period */
 .circle-3 {
-position: absolute;
-width: 440px;
-height: 440px;
+  position: absolute;
+  width: 440px;
+  height: 440px;
 }
+
 .circle-3 .logo-container:nth-child(1) {
---orbit-radius: 210px;
-animation: orbit 35s linear infinite;
-position: absolute;
-top: calc(50% - 25px);
-left: calc(50% - 50px);
-animation-delay: 0s;
+  --orbit-radius: 210px;
+  animation: orbit 35s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -2.92s; /* 30° position */
 }
+
 .circle-3 .logo-container:nth-child(2) {
---orbit-radius: 210px;
-animation: orbit 35s linear infinite;
-position: absolute;
-top: calc(50% - 25px);
-left: calc(50% - 50px);
-animation-delay: -11.67s; 
+  --orbit-radius: 210px;
+  animation: orbit 35s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -14.58s; /* 150° position */
 }
+
 .circle-3 .logo-container:nth-child(3) {
---orbit-radius: 210px;
-animation: orbit 35s linear infinite;
-position: absolute;
-top: calc(50% - 25px);
-left: calc(50% - 50px);
-animation-delay: -23.33s; 
+  --orbit-radius: 210px;
+  animation: orbit 35s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -24.79s; /* 255° position - adjusted from 270° */
 }
 
 @keyframes orbit {
-from {
-transform: rotate(0deg) translateX(var(--orbit-radius)) rotate(0deg);
-}
-to {
-transform: rotate(360deg) translateX(var(--orbit-radius)) rotate(-360deg);
-}
+  from {
+    transform: rotate(0deg) translateX(var(--orbit-radius)) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(var(--orbit-radius)) rotate(-360deg);
+  }
 }
