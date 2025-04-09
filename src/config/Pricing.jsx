@@ -72,7 +72,7 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Lite: "$0.2",
     Basic: "$0.15",
     Pro: "$0.15",
-    Ultra: "$0.1",
+    Ultra: "$0.10",
     Premium: "$0.05",
     Enterprise: "Custom",
   },
