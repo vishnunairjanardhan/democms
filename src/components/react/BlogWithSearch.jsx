@@ -60,7 +60,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
   };
 
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap py-4">
       <div className="flex justify-center w-full">
         <form className="mt-6 sm:flex sm:max-w-md lg:w-1/2">
           <input
@@ -76,7 +76,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
         </form>
       </div>
       <div className="mt-12 ">
-        <ul className="flex flex-wrap gap-2 mx-auto justify-center" role="list">
+        <ul className="flex flex-wrap gap-3 mx-auto justify-center" role="list">
           {tags.map((tag) => (
             <a href={`/tags/${tag}`} key={tag}>
               <li className="flex items-center justify-center h-8 text-xs px-4 py-2 font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700">
@@ -87,8 +87,8 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
         </ul>
       </div>
       {currentPosts.length > 0 ? (
-        <div className="py-24 flex">
-          <ol className="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-1" role="list">
+        <div className="py-20 flex">
+          <ol className="grid grid-cols-1 gap-10 lg:grid-cols-3 sm:grid-cols-1" role="list">
             {currentPosts.map((post) => (
               <BlogEntry
                 url={`/blog/${post.slug}`}

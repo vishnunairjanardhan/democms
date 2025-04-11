@@ -458,9 +458,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"black-friday-cyber-monday-record-success .md": {
-	id: "black-friday-cyber-monday-record-success .md";
-  slug: "black-friday-cyber-monday-record-success-";
+"black-friday-cyber-monday-record-success.md": {
+	id: "black-friday-cyber-monday-record-success.md";
+  slug: "black-friday-cyber-monday-record-success";
   body: string;
   collection: "posts";
   data: any
@@ -549,6 +549,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"customer-loyalty-and-retention.md": {
+	id: "customer-loyalty-and-retention.md";
+  slug: "customer-loyalty-and-retention";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "customer-loyalty-trends.md": {
 	id: "customer-loyalty-trends.md";
   slug: "customer-loyalty-trends";
@@ -594,6 +601,13 @@ declare module 'astro:content' {
 "easter-marketing-ideas.md": {
 	id: "easter-marketing-ideas.md";
   slug: "easter-marketing-ideas";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"ecommerce-evolution.md": {
+	id: "ecommerce-evolution.md";
+  slug: "ecommerce-evolution";
   body: string;
   collection: "posts";
   data: any
@@ -1332,6 +1346,7 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: any
+  data: any
 } & { render(): Render[".md"] };
 "retail-loyalty-program.md": {
 	id: "retail-loyalty-program.md";
@@ -1385,6 +1400,13 @@ declare module 'astro:content' {
 "sephoras-beauty-insider.md": {
 	id: "sephoras-beauty-insider.md";
   slug: "sephoras-beauty-insider";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"shopify-discount-combinations.md": {
+	id: "shopify-discount-combinations.md";
+  slug: "shopify-discount-combinations";
   body: string;
   collection: "posts";
   data: any
