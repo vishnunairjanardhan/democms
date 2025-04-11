@@ -69,7 +69,7 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Additional Transactions",
-    Lite: "$0.2",
+    Lite: "$0.20",
     Basic: "$0.15",
     Pro: "$0.15",
     Ultra: "$0.10",
