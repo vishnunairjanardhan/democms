@@ -8,7 +8,7 @@ heading: 30 Effective eCommerce Promotions Ideas & Strategies for Success
 image:
   url: "/assets/blog/ecommerce_promotions.webp"
   alt: "featured image of eCommerce promotions blog"
-tags: ["Ecommerce"]
+tags: ["Ecommerce", "Promotion"]
 url: "https://www.99minds.io/blog/ecommerce-promotions"
 keywords: ["ecommerce promotions"]
 
@@ -16,7 +16,7 @@ keywords: ["ecommerce promotions"]
 
 <img rel="preload" role="img" src="/assets/blog/ecommerce_promotions.webp" alt="banner image of eCommerce promotions blog">
 
-As the world advances towards new digital technologies, businesses are also finding new avenues to optimize their sales and promotional campaigns. eCcommerce has become a powerful platform for retailers to reach their target audience and increase their revenue. If you are a business owner or a marketer looking to venture into eCommerce, then you must know about eCommerce promotions.
+As the world advances towards new digital technologies, businesses are also finding new avenues to optimize their sales and promotional campaigns. eCommerce has become a powerful platform for retailers to reach their target audience and increase their revenue. If you are a business owner or a marketer looking to venture into eCommerce, then you must know about eCommerce promotions.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
 <p>Table of Contents:</p>

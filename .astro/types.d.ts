@@ -598,9 +598,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"easter-promotion-ideas-for-brands-in-2022.md": {
-	id: "easter-promotion-ideas-for-brands-in-2022.md";
-  slug: "easter-promotion-ideas-for-brands-in-2022";
+"easter-marketing-ideas.md": {
+	id: "easter-marketing-ideas.md";
+  slug: "easter-marketing-ideas";
   body: string;
   collection: "posts";
   data: any
@@ -666,7 +666,7 @@ declare module 'astro:content' {
   slug: "ecommerce-promotions";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "ecommerce-strategy-a-complete-guide.md": {
 	id: "ecommerce-strategy-a-complete-guide.md";
@@ -1338,6 +1338,14 @@ declare module 'astro:content' {
   slug: "restaurant-loyalty-programs";
   body: string;
   collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"retail-customer-engagement.md": {
+	id: "retail-customer-engagement.md";
+  slug: "retail-customer-engagement";
+  body: string;
+  collection: "posts";
+  data: any
   data: any
 } & { render(): Render[".md"] };
 "retail-loyalty-program.md": {
