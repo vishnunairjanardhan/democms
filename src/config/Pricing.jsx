@@ -318,7 +318,7 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Lite: "No",
     Basic: "No",
     Pro: "No",
-    Ultra: "Yes",
+    Ultra: "No",
     Premium: "Yes",
     Enterprise: "Yes",
   },
