@@ -210,7 +210,7 @@ const CheckoutPage = (walletData) => {
     <article className="relative py-12 mx-auto max-w-7xl md:py-24 lg:px-16 w-full">
       <div className='flex justify-between'>
         <button type="button" class="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick={() => { window.location.reload(); }}>
-          <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+          <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
           <span class="relative px-4 py-1 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
             <span class="relative text-white flex items-center justify-center"><h4 className='px-2'>Back</h4></span>
           </span></button>
@@ -398,7 +398,7 @@ const CheckoutPage = (walletData) => {
             <form method="post" className="flex-1 space-y-2 p-4 bg-white">
               <div>
                 <button type="button" class="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md w-full" onClick={() => { window.location.reload(); }}>
-                  <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                  <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                   <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
                     <span class="relative text-white flex items-center justify-center"><h4 className='px-2'>{walletData['walletData']['brandName']}</h4> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
                       <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3h43V1.78a.5.5 0 0 0-.621-.484zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h43a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z" />
