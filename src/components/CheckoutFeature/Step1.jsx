@@ -27,17 +27,17 @@ const WalletPage = ({ onNextButtonClick }) => {
   return (
     <article className="relative py-12 mx-auto max-w-7xl md:py-24 lg:px-16 w-full">
       <div className="flex flex-col items-center justify-center pb-8">
-        <h1 className="text-2xl font-bold mb-4 pt-4 text-white">
+        <h1 className="text-2xl font-bold mb-4 pt-4">
           Create Your Brand Wallet
         </h1>
-        <div className="p-3 mt-4 bg-vulcan-900 rounded-xl p-[0.060rem] shadow-xl shadow-vulcan-950 border border-white/10">
+        <div className="p-3 mt-4 bg-white rounded-xl shadow-xl shadow-vulcan-950 border border-black/20">
           <div className="lg:flex justify-center ">
             <div className="lg:flex flex-col pb-4 mr-4">
               <div className="mb-4 flex flex-col">
                 <div className="flex flex-col p-10">
                   <label
                     htmlFor="brandName"
-                    className="mr-2 pb-2 text-lg text-white font-bold"
+                    className="mr-2 pb-2 text-lg  font-bold"
                   >
                     Brand Name
                   </label>
@@ -77,7 +77,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                       </button>
                       <label
                         htmlFor="giftCardCheckbox"
-                        className="ml-2 py-1 text-white"
+                        className="ml-2 py-1 "
                       >
                         Gift Card
                       </label>
@@ -99,7 +99,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                       </button>
                       <label
                         htmlFor="giftCardCheckbox"
-                        className="ml-2 py-1 text-white"
+                        className="ml-2 py-1 "
                       >
                         Coupon
                       </label>
@@ -123,7 +123,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                       </button>
                       <label
                         htmlFor="giftCardCheckbox"
-                        className="ml-2 py-1 text-white"
+                        className="ml-2 py-1 "
                       >
                         Loyalty Points
                       </label>
@@ -145,7 +145,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                       </button>
                       <label
                         htmlFor="giftCardCheckbox"
-                        className="ml-2 py-1 text-white"
+                        className="ml-2 py-1 "
                       >
                         Store Credit
                       </label>
@@ -159,7 +159,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                         >
                                             <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                                             <span className="relative px-4 py-1 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
-                                                <span className="relative text-white flex items-center justify-center">
+                                                <span className="relative  flex items-center justify-center">
                                                     <h4 className="px-2">Next</h4>
                                                 </span>
                                             </span>
@@ -167,8 +167,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                     <button
                       type="button"
                       className="relative p-1 mt-4 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
-                      onClick={handleSubmit}
-                    >
+                      onClick={handleSubmit}>
                       <span className="w-full h-full bg-[#3b82f6] group-hover:from-[#d1d5db] group-hover:via-[#e5e7eb] group-hover:to-[#f3f4f6] absolute"></span>
                       <span className="relative px-4 py-1 transition-all ease-out bg-white bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
                         <span className="relative text-gray-200 flex items-center justify-center">
@@ -180,7 +179,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                 </div>
               </div>
             </div>
-            <div className="lg:flex flex-col pb-4 py-10 pr-10 pb-8">
+            <div className="lg:flex flex-col pb-4 py-10 pr-10">
               <h3 className="text-lg font-bold pb-2">Wallet Preview</h3>
               <div className="bg-white mt-2 rounded shadow-md py-5 w-full px-8">
                 <div className="w-full flex h-8 bg-gray-200 pl-2 rounded-lg my-3">
@@ -200,7 +199,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                         {/* <button type="button" className="relative p-1 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md w-full">
                                                     <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
                                                     <span className="relative px-4 py-2 transition-all ease-out bg-black bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
-                                                        <span className="relative text-white flex items-center justify-center">
+                                                        <span className="relative  flex items-center justify-center">
                                                             <h4 className="px-2">{brandName}</h4>
                                                             <svg
                                                                 xmlns="http://www.w3.org/2000/svg"
