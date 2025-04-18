@@ -65,7 +65,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                         type="button"
                         onClick={() => setShowGiftCard(!showGiftCard)}
                         className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none  ${
-                          showGiftCard ? "bg-green-500" : "bg-gray-200"
+                          showGiftCard ? "bg-gray-900" : "bg-gray-200"
                         }`}
                       >
                         <span
@@ -75,10 +75,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                           }`}
                         ></span>
                       </button>
-                      <label
-                        htmlFor="giftCardCheckbox"
-                        className="ml-2 py-1 "
-                      >
+                      <label htmlFor="giftCardCheckbox" className="ml-2 py-1 ">
                         Gift Card
                       </label>
                     </div>
@@ -87,7 +84,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                         type="button"
                         onClick={() => setShowCoupons(!showCoupons)}
                         className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none  ${
-                          showCoupons ? "bg-green-500" : "bg-gray-200"
+                          showCoupons ? "bg-gray-900" : "bg-gray-200"
                         }`}
                       >
                         <span
@@ -97,10 +94,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                           }`}
                         ></span>
                       </button>
-                      <label
-                        htmlFor="giftCardCheckbox"
-                        className="ml-2 py-1 "
-                      >
+                      <label htmlFor="giftCardCheckbox" className="ml-2 py-1 ">
                         Coupon
                       </label>
                     </div>
@@ -109,7 +103,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                         type="button"
                         onClick={() => setShowLoyaltyPoints(!showLoyaltyPoints)}
                         className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none ${
-                          showLoyaltyPoints ? "bg-green-500" : "bg-gray-200"
+                          showLoyaltyPoints ? "bg-gray-900" : "bg-gray-200"
                         }`}
                       >
                         <span
@@ -121,10 +115,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                           }`}
                         ></span>
                       </button>
-                      <label
-                        htmlFor="giftCardCheckbox"
-                        className="ml-2 py-1 "
-                      >
+                      <label htmlFor="giftCardCheckbox" className="ml-2 py-1 ">
                         Loyalty Points
                       </label>
                     </div>
@@ -133,7 +124,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                         type="button"
                         onClick={() => setShowStoreCredits(!showStoreCredits)}
                         className={`relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none  ${
-                          showStoreCredits ? "bg-green-500" : "bg-gray-200"
+                          showStoreCredits ? "bg-gray-900" : "bg-gray-200"
                         }`}
                       >
                         <span
@@ -143,10 +134,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                           }`}
                         ></span>
                       </button>
-                      <label
-                        htmlFor="giftCardCheckbox"
-                        className="ml-2 py-1 "
-                      >
+                      <label htmlFor="giftCardCheckbox" className="ml-2 py-1 ">
                         Store Credit
                       </label>
                     </div>
@@ -166,13 +154,13 @@ const WalletPage = ({ onNextButtonClick }) => {
                                         </button> */}
                     <button
                       type="button"
-                      className="relative p-1 mt-4 flex inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
-                      onClick={handleSubmit}>
-                      <span className="w-full h-full bg-[#3b82f6] group-hover:from-[#d1d5db] group-hover:via-[#e5e7eb] group-hover:to-[#f3f4f6] absolute"></span>
-                      <span className="relative px-4 py-1 transition-all ease-out bg-white bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400 w-full">
-                        <span className="relative text-gray-200 flex items-center justify-center">
-                          <h4 className="px-2">Next</h4>
-                        </span>
+                      onClick={handleSubmit}
+                      class="raise1 relative p-1 mt-4 inline-flex items-center justify-center overflow-hidden group rounded-md"
+                    >
+                      {" "}
+                      <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>{" "}
+                      <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-10 duration-400 inline-flex items-center gap-2">
+                        <span class="relative flex items-center justify-center text-white"><h4 className="px-2">Next</h4></span>{" "}
                       </span>
                     </button>
                   </div>
