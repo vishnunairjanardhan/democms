@@ -27,7 +27,7 @@ const WalletPage = ({ onNextButtonClick }) => {
   return (
     <article className="relative py-12 mx-auto max-w-7xl md:py-24 lg:px-16 w-full">
       <div className="flex flex-col items-center justify-center pb-8">
-        <h1 className="text-2xl font-bold mb-4 pt-4">
+        <h1 className="text-2xl font-bold mb-4 pt-8">
           Create Your Brand Wallet
         </h1>
         <div className="p-3 mt-4 bg-white rounded-xl shadow-xl shadow-vulcan-950 border border-black/20">
@@ -152,7 +152,7 @@ const WalletPage = ({ onNextButtonClick }) => {
                                                 </span>
                                             </span>
                                         </button> */}
-                    <button
+                    {/* <button
                       type="button"
                       onClick={handleSubmit}
                       class="raise1 relative p-1 mt-4 inline-flex items-center justify-center overflow-hidden group rounded-md"
@@ -162,13 +162,20 @@ const WalletPage = ({ onNextButtonClick }) => {
                       <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-10 duration-400 inline-flex items-center gap-2">
                         <span class="relative flex items-center justify-center text-white"><h4 className="px-2">Next</h4></span>{" "}
                       </span>
-                    </button>
+                    </button> */}
+                     <button
+                          type="button"
+                          onClick={handleSubmit}
+                          className="relative p-1 mt-4 inline-flex items-center justify-center overflow-hidden group rounded-md"
+                        >
+                         <span class="bg-white border-2 border-gray-500 text-black p-2 rounded-md h-full hover:bg-gray-200 font-medium w-24"><h4 className="px-2">Next</h4></span>
+                        </button>
                   </div>
                 </div>
               </div>
             </div>
             <div className="lg:flex flex-col pb-4 py-10 pr-10">
-              <h3 className="text-lg font-bold pb-2">Wallet Preview</h3>
+              <h3 className="text-lg font-bold pb-2 px-3">Wallet Preview</h3>
               <div className="bg-white mt-2 rounded shadow-md py-5 w-full px-8">
                 <div className="w-full flex h-8 bg-gray-200 pl-2 rounded-lg my-3">
                   <p className="text-center w-full justify-center items-center pt-1.5 text-black pr-8 text-xs">

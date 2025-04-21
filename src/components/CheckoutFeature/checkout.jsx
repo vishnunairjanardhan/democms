@@ -469,7 +469,7 @@ const CheckoutPage = (walletData) => {
                   </button>
                   {isCouponOpen && (
                     <div
-                      className="flex flex-col absolute bottom-12 p-2 w-52 rounded-lg bg-vulcan-900"
+                      className="flex flex-col absolute bottom-12 p-2 w-52 rounded-lg bg-[#C6D8FF]"
                       role="none"
                     >
                       <button
@@ -482,7 +482,7 @@ const CheckoutPage = (walletData) => {
                       >
                         {copyStatus || "20OFF"}
                       </button>
-                      <h4 className="text-white text-xs text-center block py-2">
+                      <h4 className="text-black text-xs text-center block py-2">
                         Click on the code to copy
                       </h4>
                     </div>
@@ -499,7 +499,7 @@ const CheckoutPage = (walletData) => {
                   </button>
                   {isGiftCardOpen && (
                     <div
-                      className="absolute flex flex-col bottom-12 p-2 w-52 rounded-lg bg-vulcan-900"
+                      className="absolute flex flex-col bottom-12 p-2 w-52 rounded-lg bg-[#C6D8FF]"
                       role="none"
                     >
                       <button
@@ -512,7 +512,7 @@ const CheckoutPage = (walletData) => {
                       >
                         {copyStatus || "1234567890"}
                       </button>
-                      <h4 className="text-white text-xs text-center block py-2">
+                      <h4 className="text-black text-xs text-center block py-2">
                         Click on the code to copy
                       </h4>
                     </div>
@@ -656,7 +656,7 @@ const CheckoutPage = (walletData) => {
                                           coupon.discount
                                         )
                                       }
-                                      className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-24"
+                                      className="bg-white border-2 border-gray-500 text-black p-2 rounded-md h-full hover:bg-gray-200 font-medium w-24"
                                     >
                                       Apply
                                     </button>
