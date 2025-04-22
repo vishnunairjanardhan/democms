@@ -10,7 +10,7 @@ image:
   alt: "featured image of Easter marketing ideas blog"
 tags: ["Promotion"]
 url: "https://www.99minds.io/blog/easter-marketing-ideas"
-keywords: ["99minds"]
+keywords: ["Easter Marketing Ideas"]
 
 --- 
 

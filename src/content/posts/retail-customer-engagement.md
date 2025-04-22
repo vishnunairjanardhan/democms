@@ -30,7 +30,7 @@ Retail customer engagement is about creating meaningful interactions at every to
     <a role="link" href="#2" rel="noreferrer">Why is Customer Engagement in Retail Important?</a>
   </li>
   <li>  
-    <a role="link" href="#3" rel="noreferrer">12 Ways strategies to improve retail customer engagement</a>
+    <a role="link" href="#3" rel="noreferrer">12 Strategies to Boost Retail Customer Engagement</a>
   </li>
   <li>  
     <a role="link" href="#4" rel="noreferrer">Conclusion</a>
@@ -75,7 +75,7 @@ With eCommerce making shopping easier than ever, retailers require powerful di
 
 Whether it’s personalized service, interactive displays, or exclusive events, creating an engaging in-store environment sets your brand apart and keeps customers coming back.
 
-<h2 id="3">12 Ways strategies to improve retail customer engagement</h2>
+<h2 id="3">12 Strategies to Boost Retail Customer Engagement</h2>
 
 ### 1. Loyalty Programs
 
