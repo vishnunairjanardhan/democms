@@ -30,7 +30,7 @@ const WalletPage = ({ onNextButtonClick }) => {
         <h1 className="text-2xl font-bold mb-4 pt-8">
           Create Your Brand Wallet
         </h1>
-        <div className="p-3 mt-4 bg-white rounded-xl shadow-xl shadow-vulcan-950 border border-black/20">
+        <div className="p-3 mt-4 bg-white rounded-xl shadow-xl shadow-vulcan-200 border border-black/20">
           <div className="lg:flex justify-center ">
             <div className="lg:flex flex-col pb-4 mr-4">
               <div className="mb-4 flex flex-col">

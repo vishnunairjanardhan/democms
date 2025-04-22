@@ -685,7 +685,7 @@ const CheckoutPage = (walletData) => {
                         <button
                           type="button"
                           onClick={handleLoyaltyPointsRedeem}
-                          className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-[6rem]"
+                          className="bg-white border-2 border-gray-500 text-black p-2 rounded-md h-full hover:bg-gray-200 font-medium w-24 w-[6rem]"
                         >
                           Redeem
                         </button>
@@ -708,7 +708,7 @@ const CheckoutPage = (walletData) => {
                         <button
                           type="button"
                           onClick={handleStoreCreditsRedeem}
-                          className="bg-green-500 text-white p-2 rounded-md h-full hover:bg-green-600 w-24"
+                          className="bg-white border-2 border-gray-500 text-black p-2 rounded-md h-full hover:bg-gray-200 font-medium w-24 w-24"
                         >
                           Redeem
                         </button>
