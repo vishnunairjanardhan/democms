@@ -318,13 +318,22 @@ const sortedPosts = allPosts.sort((a, b) => {
 								<li>
 									<h4 class="text-black font-medium highlights">Whats New </h4> 
                 				</li>
-								<div class="mt-2">
-								<div>
-									<img class="object-cover object-center mx-auto shadow-l lg:absolute lg:ml-auto shadow-black" width="270" height="" loading="lazy" alt="hero" src="/assets/loyalty/Loyalty-banner1.webp">
-								</div>
-								<div>
-								<!--<button type="button" role="button" aria-label="Get Started for Free" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium"> <span class="relative text-[#AA8FFF] text-xl">Book a demo</span> <svg class="ml-3 h-8 w-8 text-[#AA8FFF]" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z"></path> <line x1="5" y1="12" x2="19" y2="12"></line> <line x1="13" y1="18" x2="19" y2="12"></line> <line x1="13" y1="6" x2="19" y2="12"></line></svg> </button>-->
-								</div>
+								<div class=" p-4 rounded-3xl flex flex-col justify-start">
+									<div>
+										<a href="/integrations/shopify"><img class="w-44" src="/assets/loyalty/Loyalty-banner1.webp" alt="99minds-Shopify Integration">
+											<p class="mt-2 px-2 text-xs font-medium text-black lg:text-sm">Loyalty Page</p>
+										</a>
+									</div>
+									<div class="mt-2 px-2 text-xs justify-between text-black"> A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.</div>
+										<div>
+										<button type="button" role="button" label="book a demo" class=" relative p-0.5 inline-flex font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
+											<span class="relative px-2 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md duration-400 font-medium">
+												<span class="relative text-sm font-semibold text-black hover:text-[#7F56D9]">
+												Book a Demo →
+												</span>
+											</span>
+										</button>
+									</div>
 								</div>
 							</ul>
 							</div>
