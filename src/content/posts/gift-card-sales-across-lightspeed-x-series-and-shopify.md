@@ -2,14 +2,14 @@
 pubDate: 2025-04-29
 author: Mrudul
 authorImg: "Mrudul.png"
-title: "Seamless Retail: How 99minds Powers Gift Card Sales Across Lightspeed X-Series and Shopify"
-description: "The way marketers build and operate online campaigns has evolved thanks to marketing technologies. Many digital marketing activities would be a gamble if they didn't have data and analytics for study and measurement. There are numerous tools available for current campaigns that provide specialty alternatives or unique features that can make practically any marketing campaign"
-heading: "How 99minds Powers Gift Card Sales Across Lightspeed X-Series and Shopify"
+title: "Lightspeed X & Shopify Gift Cards Linked by 99minds."
+description: "Discover how 99minds enables smooth gift card sales and redemptions across Lightspeed X-Series and Shopify. Sell in-store, redeem online, and go omnichannel."
+heading: "Lightspeed X & Shopify Gift Cards Linked by 99minds."
 image:
-  url: "/assets/blog/How-99minds-fits-Into-Your-Martech-Stack.jpg"
+  url: "/assets/blog/how_99minds_powers_gift_card_sales_across_lightspeed_x_series_and_shopify.webp"
   alt: "Martech Stack."
-tags: ["Loyalty Program", "Omnichannel", "Gift Card"]
-url: "https://www.99minds.io/blog/how-99minds-fits-into-your-martech-stack"
+tags: ["Omnichannel", "Gift Card"]
+url: "https://www.99minds.io/blog/gift-card-sales-across-lightspeed-x-series-and-shopify"
 keywords: ["99minds"]
 ---
 
@@ -37,7 +37,7 @@ keywords: ["99minds"]
 </div>
 
 <div class="w-full">
-<img rel="preload" role="img" src="/assets/blog/valentine_s_day_marketing_ideas.webp" alt="Valentine’s Day Marketing Ideas">
+<img rel="preload" role="img" src="/assets/blog/how_99minds_powers_gift_card_sales_across_lightspeed_x_series_and_shopify.webp" alt="Lightspeed X & Shopify Gift Cards Linked by 99minds.">
 
 Creating a smooth and unified customer experience is crucial in today's omnichannel retail landscape. That’s where 99minds steps in—empowering merchants to effortlessly sell and redeem gift cards in-store and online through powerful integrations with Lightspeed Retail (X-Series) and Shopify.
 
@@ -67,6 +67,37 @@ When a customer wants to redeem a gift card in-store:
 
 </ol>
 
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/cta-gift-cards.webp" alt="Create your own referral campaign"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto  shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
 <h2 id="Redemption-Made-Simple-on-Shopify">Redemption Made Simple on Shopify</h2>
 Gift cards issued in-store can also be used online, thanks to 99minds' cross-platform integration with major eCommerce platforms like Shopify.
 
@@ -90,7 +121,7 @@ This fluid omnichannel experience ensures that gift cards work wherever your cus
 </ul>
 
 <h2 id="Conclusion">Conclusion</h2>
-<a href="http://www.99minds.io">99minds</a> makes it incredibly easy for retailers to offer and manage gift cards across both physical and digital storefronts. With its tight integration into Lightspeed Retail (X-Series) and Shopify, merchants get a streamlined POS solution that bridges the gap between in-person and online shopping.
+<a href="http://www.99minds.io">99minds</a> makes it incredibly easy for retailers to offer and manage gift cards across both physical and digital storefronts. With its tight integration into <a href="https://www.99minds.io/integrations/lightspeed">Lightspeed Retail (X-Series)</a> and Shopify, merchants get a streamlined POS solution that bridges the gap between in-person and online shopping.
 
 Want to give your customers the power of choice? Start using 99minds and turn your gift card program into a revenue driver—online and off.
 
