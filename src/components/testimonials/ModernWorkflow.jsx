@@ -4,11 +4,10 @@ import { ArrowRight, Check } from 'lucide-react';
 export default function ModernWorkflow() {
   const [activeStep, setActiveStep] = useState(0);
   
-  // Auto-cycle through steps
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveStep((prev) => (prev + 1) % 3);
-    }, 3000);
+    }, 2000);
     
     return () => clearInterval(interval);
   }, []);
@@ -41,7 +40,6 @@ export default function ModernWorkflow() {
         <p className="mt-4 text-xl text-gray-600">Automate your workflow in three simple steps</p>
       </div>
       
-      {/* Steps navigation */}
       <div className="flex justify-center mb-10">
         <div className="flex items-center">
           {steps.map((step, index) => (
@@ -71,7 +69,6 @@ export default function ModernWorkflow() {
         </div>
       </div>
       
-      {/* Cards container */}
       <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-8 relative">
         {steps.map((step, index) => (
           <div 
@@ -112,8 +109,7 @@ export default function ModernWorkflow() {
         ))}
       </div>
       
-      {/* Interactive buttons */}
-      <div className="flex justify-center mt-12 gap-4">
+      {/* <div className="flex justify-center mt-12 gap-4">
         {steps.map((_, index) => (
           <button
             key={index}
@@ -123,7 +119,7 @@ export default function ModernWorkflow() {
             }`}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
