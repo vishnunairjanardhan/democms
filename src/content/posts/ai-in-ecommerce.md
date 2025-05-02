@@ -8,7 +8,7 @@ heading: "AI in eCommerce: 10 Ways to Transform Your Business"
 image:
   url: "/assets/blog/ai-in-ecommerce.webp"
   alt: "eCommerce Ai blog featured image"
-tags: ["Ecommerce"]
+tags: ["Ecommerce", "Artificial Intelligence"]
 url: "https://www.99minds.io/blog/ai-in-ecommerce"
 keywords: ["ai in ecommerce"]
 
