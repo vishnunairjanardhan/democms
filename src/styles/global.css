@@ -235,3 +235,87 @@ a, button, span {
 
 
 
+/* Custom animation styles for Integration Main Page  */
+
+ /* Custom animation for orbiting logos  */
+ @keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(var(--orbit-radius)) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(var(--orbit-radius)) rotate(-360deg);
+  }
+}
+
+/* Custom properties for orbit animation */
+.circle-1 .logo-container:nth-child(1) {
+  --orbit-radius: 140px;
+  animation: orbit 25s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -0s;
+}
+
+.circle-1 .logo-container:nth-child(2) {
+  --orbit-radius: 140px;
+  animation: orbit 25s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -8.33s;
+}
+
+.circle-1 .logo-container:nth-child(3) {
+  --orbit-radius: 140px;
+  animation: orbit 25s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -16.67s;
+}
+
+.circle-2 .logo-container:nth-child(1) {
+  --orbit-radius: 190px;
+  animation: orbit 30s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -5s;
+}
+
+.circle-2 .logo-container:nth-child(2) {
+  --orbit-radius: 190px;
+  animation: orbit 30s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -17.5s;
+}
+
+.circle-3 .logo-container:nth-child(1) {
+  --orbit-radius: 210px;
+  animation: orbit 35s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -2.92s;
+}
+
+.circle-3 .logo-container:nth-child(2) {
+  --orbit-radius: 210px;
+  animation: orbit 35s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -14.58s;
+}
+
+.circle-3 .logo-container:nth-child(3) {
+  --orbit-radius: 210px;
+  animation: orbit 35s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -24.79s;
+}
