@@ -49,15 +49,39 @@ Whether your customer is walking into a physical store or shopping online, 99min
 With 99minds integrated into Lightspeed Retail (X-Series), selling a physical gift card becomes as straightforward as any other product on your shelf:
 <ol>
 <li><strong class="text-gray-200"> Start the Sale:</strong> Navigate to the Sell screen via the Lightspeed left-hand menu.</li>
+
 <li><strong class="text-gray-200"> Find the Product:</strong> Search for “Gift Card” in the product search bar.</li>
+<img src="/assets/blog/SS/Frame1.png" />
 <li><strong class="text-gray-200"> Add the Card:</strong> On the Add New Gift Card screen, select the gift card product and enter the customer’s gift card number.</li>
+<img src="/assets/blog/SS/Frame2.png" />
 <li><strong class="text-gray-200"> Verify & Load:</strong> Click Find Gift Card to validate the card, then enter the amount the customer wants to load.
 </li>
+<img src="/assets/blog/SS/Frame3.png" />
+<img src="/assets/blog/SS/Frame4.png" />
 <li><strong class="text-gray-200"> Complete the Sale:</strong> Click Add to Sale and finish the transaction as you normally would.</li>
+
+<img src="/assets/blog/SS/Frame6.png" />
+<img src="/assets/blog/SS/Frame7.png" />
 </ol>
 
 
 The transaction details are instantly recorded in the 99minds platform under the Recent Transactions section, giving merchants real-time visibility and control.
+
+<img src="/assets/blog/SS/Frame8.png" />
+
+<h3>Buying a Gift Card Online via 99minds Widget on Shopify</h3>
+Customers can also buy gift cards digitally through your Shopify store using the 99minds widget:
+
+<ol>
+<li><strong class="text-gray-200"> Access the Widget</strong> The customers can buy giftcard like any other product on the online Shopify store by going to giftcard page. The Store owner has to activate the 99minds Gift Card page on their store</li>
+
+<li><strong class="text-gray-200"> Select Gift Card Details</strong> Choose a card value, enter the recipient's details, and optionally write a message.</li>
+</ol>
+<li><strong class="text-gray-200"> Checkout</strong> Add the gift card to the cart and complete the purchase via Shopify’s checkout.</li>
+<li><strong class="text-gray-200"> Digital Delivery</strong> The recipient receives the digital gift card via email or SMS, powered by 99minds.</li>
+</ol>
+
+These gift cards are stored in the 99minds system, linked to a phone number or email, and are instantly redeemable in-store through Lightspeed X or online via Shopify—because both platforms are synced through the 99minds integration.
 
 <h3>Redeeming a Gift Card In-Store</h3>
 When a customer wants to redeem a gift card in-store:
@@ -106,7 +130,10 @@ Here’s how customers redeem gift cards online:
 
 <ol>
 <li><strong class="text-gray-200"> Checkout:</strong> At the Order Summary page, customers click Gift Certificate.</li>
-<!-- <img src="" /> -->
+
+<img src="/assets/blog/SS/Frame4.png" />
+<img src="/assets/blog/SS/Frame10.png" />
+
 <li><strong class="text-gray-200"> Apply the Code:</strong> They enter their unique gift card code and click Apply.</li>
 <li><strong class="text-gray-200"> Pay Balance:</strong> If the gift card doesn’t cover the full amount, you can pay the remaining balance using another method</li>
 
