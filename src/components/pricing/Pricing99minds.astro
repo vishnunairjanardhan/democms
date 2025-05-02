@@ -90,7 +90,7 @@ import { Icon } from 'astro-icon/components'
               <th class="px-2" width="8%">
                 <tr>
                   {TABLE_HEAD.map((header) => (
-                    <th class="px-2 p-4 font-medium text-[#6941c6]" key={header}>{header}</th>
+                    <th class="px-2 p-4 font-medium text-black" key={header}>{header}</th>
                   ))}
                 </tr>
                 <tr>
@@ -99,7 +99,7 @@ import { Icon } from 'astro-icon/components'
                       {feature.active && (
                         <div class="py-2 mb-4">
                           <a href={feature.Url}
-                            class="flex raise1 items-center justify-center h-10 px-4 py-2 text-sm font-medium text-[#6941C6] transition-all border rounded-lg bg-[#F9F5FF] border-[#6941c6] w-full"
+                            class="flex raise1 items-center justify-center h-10 px-4 py-2 text-sm font-medium text-white transition-all rounded-lg bg-black  w-full"
                             id="billing-plan-get-in-touch-enterprise">
                             {feature.Label}
                           </a>
