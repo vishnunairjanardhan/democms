@@ -182,7 +182,7 @@ The town Web page Ticketmaster makes it possible for customers to pay their park
 
 <img src="/assets/blog/Types-of-E-commerce-Models.png" alt="Types of E-commerce Models">
 
-<h2 id="Key Trends Defining E-commerce in 2025">Key Trends Defining E-commerce in 2025</h2>
+<h2 id="Key-Trends-Defining-E-commerce-in-2025">Key Trends Defining E-commerce in 2025</h2>
 
 The impact of e-commerce is verifiable, because it has changed how individuals shop by making exchanges less demanding, more convenient, and accessible to a around the world gathering of people.
 
