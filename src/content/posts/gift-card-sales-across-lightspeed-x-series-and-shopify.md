@@ -19,6 +19,8 @@ Creating a smooth and unified customer experience is crucial in today's omnichan
 
 Whether your customer is walking into a physical store or shopping online, 99minds ensures that gift cards are always a convenient and versatile option. Let’s break down how it all works.
 
+<img rel="preload" role="img" src="/assets/blog/SS/Lightspeed-Shopify.jpg" alt="Lightspeed X & Shopify Gift Cards Linked by 99minds.">
+
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
 <p>Table of Contents:</p>
 <ul>
@@ -135,7 +137,11 @@ Here’s how customers redeem gift cards online:
 <img src="/assets/blog/SS/Frame10.png" />
 
 <li><strong class="text-gray-200"> Apply the Code:</strong> They enter their unique gift card code and click Apply.</li>
+<img src="/assets/blog/SS/Frame11.png" />
+<img src="/assets/blog/SS/Frame14.png" />
+
 <li><strong class="text-gray-200"> Pay Balance:</strong> If the gift card doesn’t cover the full amount, you can pay the remaining balance using another method</li>
+<img src="/assets/blog/SS/Frame12.png" />
 
 </ol>
 
