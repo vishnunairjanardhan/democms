@@ -6,14 +6,14 @@ title: "Customer Journey Personalization: Enhance Engagement & Drive Growth"
 description: "Explore how customer journey personalization transforms user experiences, boosts engagement, and fosters loyalty. Learn strategies to tailor interactions across all touchpoints.​​"
 heading: "Customer Journey Personalization: Enhance Engagement & Drive Growth"
 image:
-  url: "/assets/blog/channel-loyalty-programs-boost-b2b-sales-strengthen-partner-relationships.webp"
+  url: "/assets/blog/customer-journey-personalization-enhance-engagement-drive-growth.webp"
   alt: "Customer Journey Personalization: Enhance Engagement & Drive Growth"
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/channel-loyalty-program"
 keywords: ["customer journey personalization"]
 
 --- 
-<img src="/assets/blog/channel-loyalty-programs-boost-b2b-sales-strengthen-partner-relationships.webp"></a>
+<img src="/assets/blog/customer-journey-personalization-enhance-engagement-drive-growth.webp"></a>
 
 In today’s digital-first world, customers expect brands to know them, understand them, and connect with them, not just treat them as another email address or account number. That’s where customer journey personalization comes into play.
 
