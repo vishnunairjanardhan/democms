@@ -591,6 +591,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"discount-code-ideas.md": {
+	id: "discount-code-ideas.md";
+  slug: "discount-code-ideas";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "dtc-marketing.md": {
 	id: "dtc-marketing.md";
   slug: "dtc-marketing";
