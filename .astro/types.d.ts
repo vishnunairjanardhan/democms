@@ -766,6 +766,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"gift-card-sales-across-lightspeed-x-series-and-shopify.md": {
+	id: "gift-card-sales-across-lightspeed-x-series-and-shopify.md";
+  slug: "gift-card-sales-across-lightspeed-x-series-and-shopify";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "gift-card-sales-on-social-media.md": {
 	id: "gift-card-sales-on-social-media.md";
   slug: "gift-card-sales-on-social-media";
