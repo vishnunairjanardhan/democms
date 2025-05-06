@@ -133,15 +133,13 @@ Here’s how customers redeem gift cards online:
 <ol>
 <li><strong class="text-gray-200"> Checkout:</strong> At the Order Summary page, customers click Gift Certificate.</li>
 
-<img src="/assets/blog/SS/Frame4.png" />
-<img src="/assets/blog/SS/Frame10.png" />
+<img src="/assets/blog/SS/Frame18.png" />
 
 <li><strong class="text-gray-200"> Apply the Code:</strong> They enter their unique gift card code and click Apply.</li>
-<img src="/assets/blog/SS/Frame11.png" />
-<img src="/assets/blog/SS/Frame14.png" />
+<img src="/assets/blog/SS/Frame19.png" />
 
 <li><strong class="text-gray-200"> Pay Balance:</strong> If the gift card doesn’t cover the full amount, you can pay the remaining balance using another method</li>
-<img src="/assets/blog/SS/Frame12.png" />
+<img src="/assets/blog/SS/Frame20.png" />
 
 </ol>
 
