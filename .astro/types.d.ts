@@ -591,6 +591,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"discount-code-ideas.md": {
+	id: "discount-code-ideas.md";
+  slug: "discount-code-ideas";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "dtc-marketing.md": {
 	id: "dtc-marketing.md";
   slug: "dtc-marketing";
@@ -666,7 +673,7 @@ declare module 'astro:content' {
   slug: "ecommerce-promotions";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "ecommerce-strategy-a-complete-guide.md": {
 	id: "ecommerce-strategy-a-complete-guide.md";
@@ -1346,6 +1353,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"retail-customer-engagement.md": {
+	id: "retail-customer-engagement.md";
+  slug: "retail-customer-engagement";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "retail-loyalty-program.md": {
 	id: "retail-loyalty-program.md";
