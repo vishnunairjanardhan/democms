@@ -22,7 +22,7 @@ const BlogLayout = ({ title, url, description, pubDate, author, image, authorIma
           </time>
         </p>
         <h3 className="mt-3 text-lg font-medium leading-6">{title}</h3>
-        <p className="mt-2 text-base text-vulcan-900 line-clamp-1">{description}</p>
+        <p className="mt-2 text-base text-vulcan-900 line-clamp-2">{description}</p>
   
         {/* Show author only if it exists */}
         {author && <p className="mt-4 text-sm font-medium">Author: {author}</p>}
