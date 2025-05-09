@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/Customer_Engagement_Definition_Examples.webp"
   alt: "Customer engagement"
 tags: ["Customer Engagement"]
-url: "https://www.99minds.io/blog/gamification-loyalty-programs"
+url: "https://www.99minds.io/blog/customer-engagement"
 keywords: ["Customer engagement"]
 ---
 
