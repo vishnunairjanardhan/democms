@@ -67,7 +67,7 @@ You might offer:
 
 <a href="https://www.99minds.io/referral" role="link" target="_blanck">Referral software</a> automatically tracks everything behind the scenes. It monitors clicks and conversions and identifies customers with the most new traffic. This way, you can see how effective your eCommerce referral program is without doing the heavy lifting yourself.
 
-<a href="http://localhost:4321/giftcard" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-GC3.webp" alt="75% customers spend more than their gift card value"></a>
+<a href="https://www.99minds.io/giftcard" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-GC3.webp" alt="75% customers spend more than their gift card value"></a>
 
 <h2 id="2">Why are Referral Programs for eCommerce Important?</h2>
 
