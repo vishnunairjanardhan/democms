@@ -675,6 +675,14 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"ecommerce-referral-program.md": {
+	id: "ecommerce-referral-program.md";
+  slug: "ecommerce-referral-program";
+  body: string;
+  collection: "posts";
+  data: any
+  data: any
+} & { render(): Render[".md"] };
 "ecommerce-strategy-a-complete-guide.md": {
 	id: "ecommerce-strategy-a-complete-guide.md";
   slug: "ecommerce-strategy-a-complete-guide";
@@ -1191,6 +1199,14 @@ declare module 'astro:content' {
   slug: "mothers-day-gift-card-design-ideas-that-will-wow-your-customers";
   body: string;
   collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"mothers-day-promotion.md": {
+	id: "mothers-day-promotion.md";
+  slug: "mothers-day-promotion";
+  body: string;
+  collection: "posts";
+  data: any
   data: any
 } & { render(): Render[".md"] };
 "mothers-day-promotions-any-small-business-can-use.md": {
