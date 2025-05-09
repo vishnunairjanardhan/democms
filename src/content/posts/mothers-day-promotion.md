@@ -4,7 +4,7 @@ author: Piyush
 authorImg: "Piyush.webp"
 title: "15 Mother’s Day Promotion Ideas for eCommerce Businesses"
 description: "Explore 15 Effective Mother’s Day promotion ideas to help your eCommerce business increase sales, engage customers, and drive loyalty this season."
-heading: "25 Mother’s Day Promotion Ideas for eCommerce Businesses"
+heading: "15 Mother’s Day Promotion Ideas for eCommerce Businesses"
 image:
   url: "/assets/blog/mothers-day-promotions.webp"
   alt: "featured image of Mother’s Day Promotion blog"
