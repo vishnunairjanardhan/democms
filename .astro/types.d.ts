@@ -591,6 +591,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"discount-code-ideas.md": {
+	id: "discount-code-ideas.md";
+  slug: "discount-code-ideas";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "dtc-marketing.md": {
 	id: "dtc-marketing.md";
   slug: "dtc-marketing";
@@ -673,6 +680,7 @@ declare module 'astro:content' {
   slug: "ecommerce-referral-program";
   body: string;
   collection: "posts";
+  data: any
   data: any
 } & { render(): Render[".md"] };
 "ecommerce-strategy-a-complete-guide.md": {
@@ -762,6 +770,13 @@ declare module 'astro:content' {
 "gift-card-promotions.md": {
 	id: "gift-card-promotions.md";
   slug: "gift-card-promotions";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"gift-card-sales-across-lightspeed-x-series-and-shopify.md": {
+	id: "gift-card-sales-across-lightspeed-x-series-and-shopify.md";
+  slug: "gift-card-sales-across-lightspeed-x-series-and-shopify";
   body: string;
   collection: "posts";
   data: any
@@ -1191,6 +1206,7 @@ declare module 'astro:content' {
   slug: "mothers-day-promotion";
   body: string;
   collection: "posts";
+  data: any
   data: any
 } & { render(): Render[".md"] };
 "mothers-day-promotions-any-small-business-can-use.md": {
