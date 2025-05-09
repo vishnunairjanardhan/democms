@@ -2,7 +2,7 @@
 pubDate: 2025-05-08
 author: Piyush
 authorImg: "Piyush.webp"
-title: "25 Mother’s Day Promotion Ideas for eCommerce Businesses"
+title: "15 Mother’s Day Promotion Ideas for eCommerce Businesses"
 description: "Explore 15 Effective Mother’s Day promotion ideas to help your eCommerce business increase sales, engage customers, and drive loyalty this season."
 heading: "25 Mother’s Day Promotion Ideas for eCommerce Businesses"
 image:
