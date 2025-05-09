@@ -1,0 +1,63 @@
+---
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
+import HeroYotpoAlternative from "../../components/heros/HeroYotpoAlternative.astro";
+import NewLogoCloud from "../../components/testimonials/NewLogoCloud.jsx";
+import FeatureYotpoAlternative from "../../components/features/FeatureYotpoAlternative.astro";
+import FeatureSixYA from "../../components/features/FeatureSixYA.astro";
+import FeatureSevenYA from "../../components/features/FeatureSevenYA.astro";
+import FeatureEightYA from "../../components/features/FeatureEightYA.astro";
+import FeatureNineYA from "../../components/features/FeatureNineYA.astro";
+import FeatureTenYA from "../../components/features/FeatureTenYA.astro";
+import TestimonialLite from "../../components/testimonials/TestimonialLite.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+import { Seo } from "../../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+<BaseLayout3>
+<AstroSeo
+  title="The Top Browserstack Alternative - 99minds"
+  description="Searching for the best Yotpo alternatives? Switch to 99minds – a smarter, scalable, and more affordable solution than Yotpo."
+  canonical="https://www.99minds.io/comparison/yotpo-alternative"
+  openGraph={{
+    url: "https://www.99minds.io/comparison/yotpo-alternative",
+    title: "The Top Browserstack Alternative - 99minds",
+    description: "Searching for the best Yotpo alternatives? Switch to 99minds – a smarter, scalable, and more affordable solution than Yotpo.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/automation/Automationbanner2.png",
+        alt: "Social open graph",
+        type: "image/png",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/comparison/yotpo-alternative",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/automation/Automationbanner2.png",
+        alt: "Social open graph",
+        type: "image/png",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroYotpoAlternative />
+  <FeatureYotpoAlternative />
+   <NewLogoCloud />
+   <FeatureSixYA />
+   <FeatureSevenYA />
+   <FeatureEightYA />
+   <FeatureNineYA />
+   <FeatureTenYA />
+  <TestimonialLite />
+  <!---<FeatureSixYA />--->
+  <CtaThreeU />
+</BaseLayout3>
