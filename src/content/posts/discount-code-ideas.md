@@ -306,7 +306,7 @@ The key is to be strategic and creative.
 
 Use a mix of urgency-based discounts, loyalty perks, and personalized offers to keep your promotions fresh and your audience engaged. And remember, a discount isn’t just about saving money—it’s about creating a memorable shopping experience that keeps people coming back.
 
-Now, managing all these codes, tracking their performance, and ensuring they don’t overlap or undercut your margins? That’s where 99minds comes in. With 99minds, you can easily automate, personalize, and optimize your discount code campaigns across channels—all from a single platform. Whether you’re running seasonal promotions or building a full-scale loyalty program, 99minds makes it simple, seamless, and scalable.
+Now, managing all these codes, tracking their performance, and ensuring they don’t overlap or undercut your margins? That’s where 99minds comes in. With <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a>, you can easily automate, personalize, and optimize your discount code campaigns across channels—all from a single platform. Whether you’re running seasonal promotions or building a full-scale loyalty program, 99minds makes it simple, seamless, and scalable.
 
 <h2 id="Frequently-Ask-Questions-(FAQs)-on-Discount-Code-Ideas">Frequently-Ask-Questions-(FAQs) Discount Code Ideas</h2>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How often should I offer discount codes? </h3>
