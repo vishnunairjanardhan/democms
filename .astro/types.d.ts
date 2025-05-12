@@ -493,6 +493,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"channel-loyalty-program.md": {
+	id: "channel-loyalty-program.md";
+  slug: "channel-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "consumer-decision-making-process.md": {
 	id: "consumer-decision-making-process.md";
   slug: "consumer-decision-making-process";
@@ -531,6 +538,13 @@ declare module 'astro:content' {
 "customer-engagement.md": {
 	id: "customer-engagement.md";
   slug: "customer-engagement";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"customer-journey-personalization.md": {
+	id: "customer-journey-personalization.md";
+  slug: "customer-journey-personalization";
   body: string;
   collection: "posts";
   data: any
@@ -1154,6 +1168,13 @@ declare module 'astro:content' {
 "loyalty-program.md": {
 	id: "loyalty-program.md";
   slug: "loyalty-program";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"marketing-automation-platform.md": {
+	id: "marketing-automation-platform.md";
+  slug: "marketing-automation-platform";
   body: string;
   collection: "posts";
   data: any
