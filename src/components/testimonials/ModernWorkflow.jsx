@@ -17,19 +17,19 @@ export default function ModernWorkflow() {
       title: "Trigger",
       description: "When order status is updated to paid",
       label: "Set up Trigger",
-      icon: <div className="w-10 h-10 flex items-center justify-center bg-indigo-100 text-indigo-600 rounded-full">1</div>
+      icon: <div className="w-10 h-10 flex items-center justify-center bg-[#F9F5FF] text-[#6941C6] font-medium rounded-full">1</div>
     },
     {
       title: "Conditions",
       description: "If total value of order is greater than $50",
       label: "Logic Conditions",
-      icon: <div className="w-10 h-10 flex items-center justify-center bg-indigo-100 text-indigo-600 rounded-full">2</div>
+      icon: <div className="w-10 h-10 flex items-center justify-center bg-[#F9F5FF] text-[#6941C6] font-medium rounded-full">2</div>
     },
     {
       title: "Action",
       description: "Send a text/email message with a discount gift card",
       label: "Execute Action",
-      icon: <div className="w-10 h-10 flex items-center justify-center bg-indigo-100 text-indigo-600 rounded-full">3</div>
+      icon: <div className="w-10 h-10 flex items-center justify-center bg-[#F9F5FF] text-[#6941C6] font-medium rounded-full">3</div>
     }
   ];
 
@@ -47,21 +47,21 @@ export default function ModernWorkflow() {
               <button 
                 onClick={() => setActiveStep(index)}
                 className={`transition-all duration-300 ${
-                  index === activeStep ? "scale-110" : "opacity-70"
+                  index === activeStep ? "scale-110" : "opacity-100"
                 }`}
               >
-                <div className={`rounded-full w-4 h-4 ${
-                  index <= activeStep ? "bg-indigo-600" : "bg-gray-300"
+                <div className={`rounded-full w-5 h-5 ${
+                  index <= activeStep ? "bg-[#7F56D9]" : "bg-gray-300"
                 }`}>
                   {index < activeStep && (
-                    <Check className="text-white w-4 h-4" />
+                    <Check className="text-white w-5 h-5" />
                   )}
                 </div>
               </button>
               
               {index < steps.length - 1 && (
                 <div className={`h-1 w-16 mx-2 transition-colors duration-500 ${
-                  index < activeStep ? "bg-indigo-600" : "bg-gray-300"
+                  index < activeStep ? "bg-[#7F56D9]" : "bg-gray-300"
                 }`} />
               )}
             </div>
@@ -83,14 +83,14 @@ export default function ModernWorkflow() {
               activeStep === index ? "shadow-xl" : ""
             }`}>
               <div className={`h-2 w-full ${
-                index === 0 ? "bg-blue-500" :
-                index === 1 ? "bg-indigo-500" :
-                "bg-violet-500"
+                index === 0 ? "bg-[#7F56D9]" :
+                index === 1 ? "bg-[#7F56D9]" :
+                "bg-[#7F56D9]"
               }`}></div>
               <div className="p-8">
                 <div className="flex justify-between items-center">
                   {step.icon}
-                  <span className="text-xs font-bold text-indigo-600 uppercase tracking-wider">{step.label}</span>
+                  <span className="text-xs font-bold text-[#6941C6] uppercase tracking-wider">{step.label}</span>
                 </div>
                 
                 <h3 className="text-xl font-semibold mt-6 text-gray-900">{step.title}</h3>
@@ -98,8 +98,8 @@ export default function ModernWorkflow() {
                 
                 {activeStep === index && (
                   <div className="mt-6 flex justify-end">
-                    <div className="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center">
-                      <ArrowRight className="w-4 h-4 text-indigo-600" />
+                    <div className="w-8 h-8 rounded-full bg-[#F9F5FF] flex items-center justify-center">
+                      <ArrowRight className="w-4 h-4 text-[#6941C6]" />
                     </div>
                   </div>
                 )}
