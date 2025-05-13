@@ -23,7 +23,7 @@ const Blogs = ({ title, url, description, pubDate, author, image, authorImage })
         <h3 className="mt-5 text-lg font-medium leading-6 ">
           {title}
         </h3>
-        <p className="mt-2 text-base text-vulcan-900 line-clamp-1">
+        <p className="mt-2 text-base text-vulcan-900 line-clamp-2">
           {description}
         </p>
         <div>

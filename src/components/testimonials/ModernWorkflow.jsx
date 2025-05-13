@@ -36,7 +36,8 @@ export default function ModernWorkflow() {
   return (
     <div className="px-6 py-16 mx-auto max-w-7xl md:px-12 lg:px-16">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold text-gray-900">How it works</h2>
+        {/* <h2 className="text-4xl font-bold text-gray-900">How it works</h2> */}
+        <p class="text-3xl font-normal tracking-tight text-black">How its work</p>
         <p className="mt-4 text-xl text-gray-600">Automate your workflow in three simple steps</p>
       </div>
       
