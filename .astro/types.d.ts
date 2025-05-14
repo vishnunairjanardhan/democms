@@ -1137,6 +1137,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"lightspeed-r-shopify-gift-cards-integration.md": {
+	id: "lightspeed-r-shopify-gift-cards-integration.md";
+  slug: "lightspeed-r-shopify-gift-cards-integration";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "loyalty-marketing.md": {
 	id: "loyalty-marketing.md";
   slug: "loyalty-marketing";
