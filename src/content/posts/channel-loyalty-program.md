@@ -19,6 +19,8 @@ In B2B commerce, nurturing channel partners like distributors, resellers, agents
 
 But what exactly is a channel loyalty program, and why is it becoming essential in the <a href="https://www.99minds.io/blog/ecommerce-evolution" role="link" target="_blank">e-commerce evolution</a> we’re witnessing today? Let's jump into channel devotion programs' methodologies, benefits, sorts, and illustrations that can genuinely lift your B2B diversion.
 
+<img src="/assets/blog/b2b-sales-&-strength-partner-relationship.png" alt="b2b sales & strength partner relationship">
+
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
 <p>Table of Contents:</p>
 <ul role="list">
@@ -177,6 +179,8 @@ In 2025, loyalty programs aren’t siloed—they’re embedded into the partner 
 </ul>
 </ol>
 
+<img src="/assets/blog/Why-Channel-Loyalty-Programs-Matter-in-2025.png" alt="Why Channel Loyalty Programs Matter in 2025">
+
 <h2 id="Key-Benefits-of-Channel-Loyalty-Programs">Key Benefits of Channel Loyalty Programs</h2>
 
 Making a solid channel dependability program isn't fair a showcasing tactic—it's a keen trade move. Whether you're attempting to develop deals, hold accomplices, or make strides collaboration, a well-designed program can assist you accomplish all of that and more. Here's how:
@@ -270,6 +274,8 @@ You can also use loyalty rewards to encourage partners to complete training prog
 <li>A knowledgeable partner is a more effective seller—and they’ll appreciate being rewarded for learning.</li>
 </ul>
 </ol>
+
+<img src="/assets/blog/Key-Benefits-of-Channel-Loyalty-Programs.png" alt="Key Benefits of Channel Loyalty Programs">
 
 <h2 id="Types-of-Channel-Loyalty-Programs">Types of Channel Loyalty Programs</h2>
 
@@ -419,6 +425,8 @@ It allows you to balance long-term goals (like partner growth) with short-term a
 </ul>
 </ol>
 
+<img src="/assets/blog/Types-of-Channel-Loyalty-Programs.png" alt="Types of Channel Loyalty Programs">
+
 <h2 id="How-to-Design-an-Effective-Channel-Loyalty-Program?">How to Design an Effective Channel Loyalty Program?</h2>
 
 Planning a channel dependability program isn’t just about advertising rewards—it's about building strong, long-term connections with your partners. A well-planned program keeps your accomplices persuaded, faithful, and aligned with your commerce objectives.
@@ -524,6 +532,8 @@ Utilize your stage to show real-time dashboards showcasing their advance. Let th
 </ul>
 </ol>
 
+<img src="/assets/blog/How-to-Design-an-Effective-Channel-Loyalty-Program.png" alt="How to Design an Effective Channel Loyalty Program">
+
 <h2 id="Examples-of-Successful-Channel-Loyalty-Programs">Examples of Successful Channel Loyalty Programs</h2>
 
 To better understand how channel loyalty programs work in the real world, let’s look at some well-known companies that have successfully built and run them. These programs are great examples of how to use training, rewards, and data to build strong relationships with channel partners.
@@ -601,6 +611,8 @@ Salesforce is another tech giant with a very partner-focused approach to channel
 <b>Why it works:</b>
 It rewards performance, learning, and partner innovation in a very structured and transparent way.
 
+<img src="/assets/blog/Examples-of-Successful-Channel-Loyalty-Programs.png" alt="Examples of Successful Channel Loyalty Programs">
+
 <h2 id="Mistakes-to-Avoid">Mistakes to Avoid</h2>
 
 <ul role= "list">
@@ -677,6 +689,8 @@ When your accomplices feel esteemed, they do not fair sell—they become your br
 <li>You assist them in developing their trade so they adhere to you long-term.</li>
 <li>You create a channel program that’s not around transactions—it’s around belief and shared victory.</li>
 </ul>
+
+<img src="/assets/blog/How-99minds-Can-Help.png" alt="How 99minds Can Help">
 
 <h2 id="Conclusion">Conclusion</h2>
 

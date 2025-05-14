@@ -493,6 +493,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"channel-loyalty-program.md": {
+	id: "channel-loyalty-program.md";
+  slug: "channel-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "consumer-decision-making-process.md": {
 	id: "consumer-decision-making-process.md";
   slug: "consumer-decision-making-process";
@@ -534,6 +541,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"customer-journey-personalization.md": {
+	id: "customer-journey-personalization.md";
+  slug: "customer-journey-personalization";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "customer-lifetime-value.md": {
 	id: "customer-lifetime-value.md";
@@ -769,6 +783,13 @@ declare module 'astro:content' {
 "gift-card-promotions.md": {
 	id: "gift-card-promotions.md";
   slug: "gift-card-promotions";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"gift-card-sales-across-lightspeed-x-series-and-shopify.md": {
+	id: "gift-card-sales-across-lightspeed-x-series-and-shopify.md";
+  slug: "gift-card-sales-across-lightspeed-x-series-and-shopify";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1172,6 +1193,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"marketing-automation-platform.md": {
+	id: "marketing-automation-platform.md";
+  slug: "marketing-automation-platform";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "marketing-tools.md": {
 	id: "marketing-tools.md";
   slug: "marketing-tools";
@@ -1189,6 +1217,13 @@ declare module 'astro:content' {
 "mothers-day-gift-card-design-ideas-that-will-wow-your-customers.md": {
 	id: "mothers-day-gift-card-design-ideas-that-will-wow-your-customers.md";
   slug: "mothers-day-gift-card-design-ideas-that-will-wow-your-customers";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"mothers-day-promotion.md": {
+	id: "mothers-day-promotion.md";
+  slug: "mothers-day-promotion";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1350,13 +1385,6 @@ declare module 'astro:content' {
 "restaurant-loyalty-programs.md": {
 	id: "restaurant-loyalty-programs.md";
   slug: "restaurant-loyalty-programs";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"retail-customer-engagement.md": {
-	id: "retail-customer-engagement.md";
-  slug: "retail-customer-engagement";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
