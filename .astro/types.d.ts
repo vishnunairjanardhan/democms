@@ -1410,6 +1410,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"sell-redeem-gift-cards-lightspeed-bigcommerce.md": {
+	id: "sell-redeem-gift-cards-lightspeed-bigcommerce.md";
+  slug: "sell-redeem-gift-cards-lightspeed-bigcommerce";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "send-bulk-gift-cards-using-klaviyo.md": {
 	id: "send-bulk-gift-cards-using-klaviyo.md";
   slug: "send-bulk-gift-cards-using-klaviyo";
