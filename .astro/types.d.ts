@@ -619,9 +619,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
-"easter-promotion-ideas-for-brands-in-2022.md": {
-	id: "easter-promotion-ideas-for-brands-in-2022.md";
-  slug: "easter-promotion-ideas-for-brands-in-2022";
+"easter-marketing-ideas.md": {
+	id: "easter-marketing-ideas.md";
+  slug: "easter-marketing-ideas";
   body: string;
   collection: "posts";
   data: any
@@ -678,6 +678,20 @@ declare module 'astro:content' {
 "ecommerce-marketing.md": {
 	id: "ecommerce-marketing.md";
   slug: "ecommerce-marketing";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"ecommerce-promotions.md": {
+	id: "ecommerce-promotions.md";
+  slug: "ecommerce-promotions";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"ecommerce-referral-program.md": {
+	id: "ecommerce-referral-program.md";
+  slug: "ecommerce-referral-program";
   body: string;
   collection: "posts";
   data: any
@@ -769,6 +783,13 @@ declare module 'astro:content' {
 "gift-card-promotions.md": {
 	id: "gift-card-promotions.md";
   slug: "gift-card-promotions";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"gift-card-sales-across-lightspeed-x-series-and-shopify.md": {
+	id: "gift-card-sales-across-lightspeed-x-series-and-shopify.md";
+  slug: "gift-card-sales-across-lightspeed-x-series-and-shopify";
   body: string;
   collection: "posts";
   data: any
@@ -1207,6 +1228,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"mothers-day-promotion.md": {
+	id: "mothers-day-promotion.md";
+  slug: "mothers-day-promotion";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "mothers-day-promotions-any-small-business-can-use.md": {
 	id: "mothers-day-promotions-any-small-business-can-use.md";
   slug: "mothers-day-promotions-any-small-business-can-use";
@@ -1364,6 +1392,13 @@ declare module 'astro:content' {
 "restaurant-loyalty-programs.md": {
 	id: "restaurant-loyalty-programs.md";
   slug: "restaurant-loyalty-programs";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"retail-customer-engagement.md": {
+	id: "retail-customer-engagement.md";
+  slug: "retail-customer-engagement";
   body: string;
   collection: "posts";
   data: any

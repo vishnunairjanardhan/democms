@@ -6,14 +6,14 @@ title: "Lightspeed R & Shopify Gift Cards Linked by 99minds"
 description: "Sell and redeem gift cards across Lightspeed R-Series and Shopify with 99minds. Enable seamless in-store and online gift card experiences."
 heading: "Seamless Retail: How 99minds Powers Gift Card Sales Across Lightspeed R-Series and Shopify"
 image:
-  url: "/assets/blog/marketing-automation-platform-streamline-your-campaigns-boost-roi.webp"
-  alt: "Marketing Automation Platform: Everything You Need to Know in 2025"
+  url: "/assets/blog/lightspeed-r-shopify-gift-cards-linked-by-99minds.webp"
+  alt: "lightspeed r shopify gift cards linked by 99minds"
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/lightspeed-r-shopify-gift-cards-integration"
 keywords: ["gift card"]
 
 --- 
-<img src="/assets/blog/marketing-automation-platform-streamline-your-campaigns-boost-roi.webp"></a>
+<img src="/assets/blog/lightspeed-r-shopify-gift-cards-linked-by-99minds.webp"></a>
 
 In today’s omnichannel retail environment, delivering a seamless and consistent customer experience is essential. <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> enables merchants to quickly sell and redeem <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift cards</a> in-store and online through robust integrations with <a href="https://www.99minds.io/integrations/lightspeed" role="link" target="_blank">Lightspeed Retail (R-Series) and Shopify</a>.
 
@@ -52,14 +52,31 @@ With 99minds integrated into Lightspeed Retail (R-Series), selling a physical gi
 
 <ul role= "list">
 <li><b>Start the Sale:</b> Navigate to the Sell screen via the Lightspeed left-hand menu.</li>
+
+<img src="/assets/blog/start-the-sales.png"/>
+
 <li><b>Find the Product:</b> Search for “Gift Card” in the product search bar.</li>
+
+<img src="/assets/blog/find-the-product.png" />
+
 <li><b>Add the Card:</b> Select the gift card product on the Add New Gift Card screen and enter the customer’s number.</li>
+
+<img src="/assets/blog/add-the-card.png" />
+
+<img src="/assets/blog/new-custoumer-number.png" />
+
 <li><b>Verify & Load:</b> Click Find Gift Card to validate the card, then enter the amount the customer wants to load.</li>
+
+<img src="/assets/blog/varify-&-load.png" />
+
 <li><b>Complete the Sale:</b> Click Add to Sale and finish the transaction as you normally would.</li>
+
+<img src="/assets/blog/complete-the-sale.png" />
+
 </ul>
 The transaction details are instantly recorded in the 99minds platform under the Recent Transactions section, giving merchants real-time visibility and control.
 
-<a href="https://capitaloneshopping.com/research/brand-loyalty-statistics/" role="link" target="_blanck">Capital One Shopping Research</a>
+<img src="/assets/blog/complete-the-sales-2.png"/>
 
 <h3><li>Buying a Gift Card Online via 99minds Widget on Shopify</li></h3>
 Customers can also buy gift cards digitally through your Shopify store using the 99minds widget:
@@ -79,8 +96,17 @@ When a customer wants to redeem a gift card in-store:
 
 <ul role= "list">
 <li><b>Choose Gift Card as Payment Method:</b> Select Gift Card as the payment type during checkout.</li>
+
+<img src="/assets/blog/Choose-Gift-Card-as-Payment-Method.png" />
+
 <li><b>Scan or Enter the Number:</b> Input the gift card number and click Find Gift Card.</li>
+
+<img src="/assets/blog/Scan-or-Enter-the-Number.png" />
+
 <li><b>Process Payment:</b> Complete the sale and click Pay with Gift Card. The system will automatically deduct the amount from the card balance.</li>
+
+<img src="/assets/blog/process-payments.png" />
+
 </ul>
 
 <h2 id="Redemption-Made-Simple-on-Shopify">Redemption Made Simple on Shopify</h2>
@@ -91,8 +117,16 @@ Here’s how customers redeem gift cards online:
 
 <ul role= "list">
 <li><b>Checkout:</b> At the Order Summary page, go to discount code or gift cards.</li>
+
+<img src="/assets/blog/SS/Frame18.png" />
+
 <li><b>Apply the Code:</b> Enter the unique gift card code and click Apply.</li>
+
+<img src="/assets/blog/SS/Frame19.png" />
+
 <li><b>Pay Balance:</b> If the gift card doesn’t cover the full amount, customers can use another method to pay the balance.</li>
+
+<img src="/assets/blog/SS/Frame20.png" />
 
 This fluid omnichannel experience ensures gift cards work wherever customers shop, providing greater reach, flexibility, and satisfaction.
 </ul>
@@ -105,6 +139,36 @@ This fluid omnichannel experience ensures gift cards work wherever customers sho
 <li><b>Easy Management:</b> From the 99minds dashboard, you can track gift card issuance, redemptions, and balances in real time.</li>
 <li><b>Customer Convenience:</b> Shoppers can buy in-store and redeem online, or vice versa.</li>
 </ul>
+
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/cta-gift-cards.webp" alt="Create your own referral campaign"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto  shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 <h2 id="Conclusion">Conclusion</h2>
 
