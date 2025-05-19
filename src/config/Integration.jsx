@@ -46,6 +46,13 @@ export const Ecommerce = [
   title: 'Miva',
   desc:"A flexible e-commerce platform that integrates with 99minds to provide gift card solutions.  99minds empowers you to add functionalities like scheduling gift card delivery, rewarding gift card purchases with loyalty points, and offering promotional gift cards to your Miva store, enhancing the value proposition for your customers.",
   alt:"99minds-Miva Integration"
+  },
+{
+  image: '/integrations/shopify.svg',
+  title: 'Appbrew',
+  desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
+  url: "/integrations/appbrew",
+  alt:"99minds-Appbrew Integration"
 }
 ]
 
