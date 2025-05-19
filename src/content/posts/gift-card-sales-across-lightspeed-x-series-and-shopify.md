@@ -1,10 +1,10 @@
 ---
-pubDate: 2025-04-29
+pubDate: 2025-05-15
 author: Mrudul
 authorImg: "Mrudul.png"
 title: "Lightspeed X & Shopify Gift Cards Linked by 99minds."
-description: "Discover how 99minds enables smooth gift card sales and redemptions across Lightspeed X-Series and Shopify. Sell in-store, redeem online, and go omnichannel."
-heading: "Lightspeed X & Shopify Gift Cards Linked by 99minds."
+description: "Learn how 99Minds integrates seamlessly with Shopify and Lightspeed X-Series POS to streamline gift card sales, boost customer loyalty, and simplify setup for retailers."
+heading: "How 99minds Powers Gift Card Sales Across Lightspeed X-Series and Shopify"
 image:
   url: "/assets/blog/how_99minds_powers_gift_card_sales_across_lightspeed_x_series_and_shopify.webp"
   alt: "Martech Stack."

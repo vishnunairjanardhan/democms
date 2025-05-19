@@ -493,6 +493,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"channel-loyalty-program.md": {
+	id: "channel-loyalty-program.md";
+  slug: "channel-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "consumer-decision-making-process.md": {
 	id: "consumer-decision-making-process.md";
   slug: "consumer-decision-making-process";
@@ -534,6 +541,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"customer-journey-personalization.md": {
+	id: "customer-journey-personalization.md";
+  slug: "customer-journey-personalization";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "customer-lifetime-value.md": {
 	id: "customer-lifetime-value.md";
@@ -1178,6 +1192,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"marketing-automation-platform.md": {
+	id: "marketing-automation-platform.md";
+  slug: "marketing-automation-platform";
+  body: string;
+  collection: "posts";
+  data: any
 } & { render(): Render[".md"] };
 "marketing-tools.md": {
 	id: "marketing-tools.md";
