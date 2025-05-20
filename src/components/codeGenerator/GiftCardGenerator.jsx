@@ -108,58 +108,50 @@ const CouponGenerator = () => {
   const logos = [
     {
       id: 1,
-      src: "/images/coupon-generator/shopify-logo-1-w.svg",
+      src: "/images/coupon-generator/Shopify_logo_2018.svg",
       url: "https://34bbcb-ae.myshopify.com/",
     },
     {
       id: 2,
-      src: "/images/coupon-generator/bigcommerce-logo-w.svg",
+      src: "/images/coupon-generator/bc-logo-dark.svg",
       url: "https://99kicks.mybigcommerce.com/",
     },
     {
       id: 3,
-      src: "/images/coupon-generator/shopifyPlus-logo-w.svg",
+      src: "/images/coupon-generator/shopify+.svg",
       url: "https://34bbcb-ae.myshopify.com/",
     },
     {
       id: 4,
-      src: "/images/coupon-generator/Salesforce-logo-w.svg",
+      src: "/images/coupon-generator/Salesforce-logo.svg",
       url: "https://giftcard.99minds.io/access/login",
     },
     {
       id: 5,
-      src: "/images/coupon-generator/woocommerce-logo1-w.svg",
+      src: "/images/coupon-generator/woocommerce-logo-1395ccff7884105ee1bc16f777a9964e.png",
       url: "https://giftcard.99minds.io/access/login",
     },
   ];
-  // const renderCodeButton = (title, example1, example2, onClickHandler) => (
-  //   <button
-  //   className={`h-60 bg-vulcan-900 bg-gradient-to-b mb-4 from-indigo-500 via-indigo-500/5 shadow-2xl rounded-xl p-[0.060rem] snap-start ring-1 ring-vulcan-800 border ${selectedTemplate === title ? 'border-white-100' : 'border-vulcan-800'} hover:border-white duration-300 group`}
-  //   onClick={() => {
-  //     onClickHandler();
-  //     setSelectedTemplate(title);
-  //   }}
-  // >
-  //     <figure class="bg-vulcan-900 rounded-xl pt-8 lg:pb-5 pb-12">
-  //     <h5 className="px-10 text-lg font-normal tracking-tight text-center text-white h-16 mb-6">{`Generate ${title} Codes`}</h5>
-  //     <div className='border-b border-vulcan-800'></div>
-  //     <h6 className="mt-6 mb-2 pt-2">{example1}</h6>
-  //     <h6 className='mb-2'>{example2}</h6>
-  //     </figure>
-  //   </button>
-  // );
+  const selectedLogoSrc = {
+    1: "/images/coupon-generator/shopify-logo-1-w.svg",
+    2: "/images/coupon-generator/bigcommerce-logo-w.svg",
+    3: "/images/coupon-generator/shopifyPlus-logo-w.svg",
+    4: "/images/coupon-generator/Salesforce-logo-w.svg",
+    5: "/images/coupon-generator/woocommerce-logo1-w.svg",
+  };
+  
   const renderCodeButton = (title, example1, example2, onClickHandler) => (
     <button
-      className={`h-60 bg-white bg-gradient-to-b from-blue-50 via-white to-gray-100 
-        lg:mb-4 lg:shadow-md rounded-xl p-[0.060rem] snap-start ring-1 ring-gray-300 
-        border ${selectedTemplate === title ? "border-blue-500" : "border-gray-300"} 
-        hover:border-gray-600 hover:shadow-lg transition-all duration-300`}
+      className={`h-60 bg-white
+        lg:mb-4 lg:shadow-lg rounded-xl p-[0.060rem] snap-start  
+        border ${selectedTemplate === title ? "border-2 border-[#7f56d9]" : "border-black/20"} 
+        hover:shadow-2xl transition-all duration-300`}
       onClick={() => {
         onClickHandler();
         setSelectedTemplate(title);
       }}
     >
-      <figure className="bg-white rounded-xl pt-8 pb-5">
+      <figure className="bg-white rounded-xl pt-8 pb-4">
         <h5 className="px-10 text-lg font-medium tracking-tight text-center text-gray-800 h-16 mb-6">
           {`Generate ${title} Codes`}
         </h5>
@@ -173,8 +165,8 @@ const CouponGenerator = () => {
 
   return (
     <div className="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24">
-      <div className="container mx-auto flex flex-col items-center justify-center min-h-screen">
-        <div className="relative mx-auto space-y-20">
+      <div className="container mx-auto flex flex-col items-center justify-center min-h-screen ">
+        <div className="relative mx-auto space-y-20 ">
           <div className="flex flex-col items-center justify-center">
             <h1 class="mt-16 tracking-tight text-center text-black">
               Free Gift Card Code Generator
@@ -184,22 +176,21 @@ const CouponGenerator = () => {
               successful marketing campaign.
             </p>
           </div>
-          <div className="p-[0.060rem] rounded-3xl shadow-xl shadow-gray-300 bg-gradient-to-r from-purple-200 to-purple-400 lg:px-36 sm:py-32 sm:px-4">
+          <div className="p-[0.060rem] rounded-3xl  shadow-gray-300 bg-white shadow-xl border border-black/20 lg:px-36 py-16 sm:px-4">
             <div className="mx-auto max-w-7xl">
               <h2 className="text-center lg:text-3xl text-2xl font-normal tracking-tight text-black lg:mt-0 mt-12">
                 Choose your eCommerce Site
               </h2>
-              <div className="mx-auto lg:mt-24 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+              <div className="mx-auto lg:mt-16 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
                 {logos.map((logo) => (
                   <label
                     key={logo.id}
-                    className={`relative cursor-pointer focus:outline-none rounded-lg border ${
+                    className={`relative raise1 cursor-pointer focus:outline-none border rounded-lg ${
                       selectedLogo === logo.id
-                        ? "border-indigo-500" 
-                        : "border-gray-700" 
+                        ? "bg-gray-700 border-gray-800" 
+                        : "bg-white border-gray-700"
                     } 
-                        hover:border-indigo-400 // Hover state (lighter indigo)
-                        duration-300 group`}
+                      hover:border-black duration-300 group`}
                   >
                     <input
                       type="radio"
@@ -208,7 +199,7 @@ const CouponGenerator = () => {
                       onChange={() => setSelectedLogo(logo.id)}
                     />
                     <img
-                      src={logo.src}
+                      src={selectedLogo === logo.id ? selectedLogoSrc[logo.id] : logo.src}
                       alt={`Logo ${logo.id}`}
                       className="max-h-12 w-full object-contain p-3"
                     />
@@ -222,7 +213,7 @@ const CouponGenerator = () => {
           Code Generation Form
         </h2>
 
-        <div className="mx-auto max-w-7xl px-0 lg:px-0 mt-8 w-full">
+        <div className="mx-auto max-w-7xl px-0 lg:px-16 mt-8 w-full">
           <div className="flex space-x-4">
             <div className="mb-4 flex-1">
               <label
@@ -235,7 +226,7 @@ const CouponGenerator = () => {
                 type="number"
                 id="lengthOfCode"
                 name="lengthOfCode"
-                className="p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 border bg-transparent border-vulcan-800 appearance-none text-gray-800 placeholder-vulcan-400 focus:border-indigo-300 focus:bg-transparent focus:outline-none focus:ring-indigo-300 sm:text-sm"
+                className="p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 bg-transparent border-voilet-700 appearance-none text-gray-800 placeholder-vulcan-400 focus:border-[#7f56d9] focus:bg-transparent  sm:text-sm"
                 value={length}
                 onChange={(e) => setLength(Number(e.target.value))}
               />
@@ -252,7 +243,7 @@ const CouponGenerator = () => {
                 type="number"
                 id="numberOfCodes"
                 name="numberOfCodes"
-                className="p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 border bg-transparent border-vulcan-800 appearance-none text-gray-800 placeholder-vulcan-400 focus:border-indigo-300 focus:bg-transparent focus:outline-none focus:ring-indigo-300 sm:text-sm"
+                className="p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 border bg-transparent border-vulcan-800 appearance-none text-gray-800 placeholder-vulcan-400 focus:border-[#7f56d9] focus:bg-transparent focus:outline-none sm:text-sm"
                 value={NumberOfCode}
                 onChange={(e) => setNumberOfCode(e.target.value)}
               />
@@ -324,7 +315,7 @@ const CouponGenerator = () => {
           )}
         </div>
         <div className="py-4 text-white text-center w-full">
-          <div className="container mx-auto mt-8 justify-center p-0 max-w-7xl px-0 lg:px-0 w-full">
+          <div className="container mx-auto mt-8 justify-center p-0 max-w-7xl px-0 lg:px-16 w-full">
             {/* <button
             className="h-10 px-4 py-2 text-sm font-semibold text-white transition-all rounded-lg hover:to-indigo-600 bg-gradient-to-b from-indigo-300 via-indigo-400 to-indigo-500"
             onClick={toggleDropdown}
@@ -336,8 +327,7 @@ const CouponGenerator = () => {
               role="button"
               aria-label="More Actions"
               onClick={toggleDropdown}
-              class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium"
-            >
+              class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
               <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>{" "}
               <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
                 <span class="relative text-white">More Actions</span>{" "}
@@ -356,7 +346,7 @@ const CouponGenerator = () => {
                     type="text"
                     id="prefix"
                     name="prefix"
-                    className="p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 border bg-transparent border-vulcan-800 appearance-none text-gray-800 placeholder-vulcan-800 focus:border-indigo-300 focus:bg-transparent focus:outline-none focus:ring-indigo-300 sm:text-sm"
+                    className="p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 border bg-transparent border-vulcan-800 appearance-none text-gray-800 placeholder-vulcan-800 focus:border-[#7f56d9] focus:bg-transparent focus:outline-none  sm:text-sm"
                     value={prefix}
                     onChange={(e) => setPrefix(e.target.value)}
                     placeholder="Enter prefix..."
@@ -373,7 +363,7 @@ const CouponGenerator = () => {
                     type="text"
                     id="suffix"
                     name="suffix"
-                    className="p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 border bg-transparent border-vulcan-800 appearance-none text-gray-800 placeholder-vulcan-800 focus:border-indigo-300 focus:bg-transparent focus:outline-none focus:ring-indigo-300 sm:text-sm"
+                    className="p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 border bg-transparent border-vulcan-800 appearance-none text-gray-800 placeholder-vulcan-800 focus:border-[#7f56d9] focus:bg-transparent focus:outline-none  sm:text-sm"
                     value={suffix}
                     onChange={(e) => setSuffix(e.target.value)}
                     placeholder="Enter suffix..."
@@ -389,7 +379,7 @@ const CouponGenerator = () => {
                   </label>
                   <select
                     id="characterType"
-                    className="p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 border bg-transparent border-vulcan-800 appearance-none text-gray-800 placeholder-vulcan-800 focus:border-indigo-300 focus:bg-transparent focus:outline-none focus:ring-indigo-300 sm:text-sm"
+                    className="p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 border bg-transparent border-vulcan-800 appearance-none text-gray-800 placeholder-vulcan-800 focus:border-[#7f56d9] focus:bg-transparent focus:outline-none focus:ring-voilet-600 sm:text-sm"
                     value={characterType}
                     onChange={(e) => {
                       setCharacterType(e.target.value);
@@ -434,7 +424,7 @@ const CouponGenerator = () => {
                     type="text"
                     id="codePattern"
                     name="codePattern"
-                    className="p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 border bg-transparent border-vulcan-800 appearance-none text-gray-800 placeholder-vulcan-800 focus:border-indigo-300 focus:bg-transparent focus:outline-none focus:ring-indigo-300 sm:text-sm"
+                    className="p-2 w-full border rounded-md block w-full px-4 py-2 mt-4 border bg-transparent border-vulcan-800 appearance-none text-gray-800 placeholder-vulcan-800 focus:border-[#7f56d9] focus:bg-transparent focus:outline-none focus:ring-voilet-600 sm:text-sm"
                     value={codePattern}
                     onChange={handleCodePatternChange}
                     placeholder="Enter code pattern..."
@@ -447,7 +437,7 @@ const CouponGenerator = () => {
             Choose Your Templates
           </h2>
           <div className="mx-auto max-w-7xl text-white">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 mx-auto max-w-7xl lg:px-0 justify-between">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6 mx-auto max-w-7xl lg:px-16 justify-between">
               {renderCodeButton(
                 "Alphanumeric",
                 "SUMM ER24 SALE 5489",
@@ -483,7 +473,7 @@ const CouponGenerator = () => {
           role="button"
           aria-label="More Actions"
           onClick={Generate}
-          class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium"
+          className="raise1 relative mt-6 p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium"
         >
           <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>{" "}
           <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
@@ -516,14 +506,14 @@ const CouponGenerator = () => {
                   filename="exported_code.csv"
                 >
                   <button
-                    className="text-black rounded-md py-2 lg:px-28 px-16 rounded-lg border border-vulcan-800 hover:border-indigo-300 duration-300 group"
+                    className="text-black font-medium raise1 rounded-md py-2 lg:px-28 px-16 rounded-lg border border-vulcan-800  hover:border-2 duration-300 group"
                     type="button"
                   >
                     Export
                   </button>
                 </CSVLink>
                 <button
-                  className="text-black rounded-md py-2 px-16 lg:px-12 lg:flex rounded-lg border border-vulcan-800 hover:border-indigo-300 duration-300 group"
+                  className="text-black font-medium raise1 rounded-md py-2 px-16 rounded-lg border border-vulcan-800 flex justify-between hover:border-2 duration-300 group"
                   onClick={() =>
                     window.open(
                       getSelectedLogoUrl(),

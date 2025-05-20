@@ -1,3 +1,14 @@
+---
+import { getCollection } from "astro:content";
+import LatestBlogGrid from '../react/Highlight.jsx'; 
+import Blogs from '../react/BlogHighlight.jsx';
+
+const allPosts = await getCollection("posts");
+const sortedPosts = allPosts.sort((a, b) => {
+  return new Date(b.data.pubDate) - new Date(a.data.pubDate);
+});
+
+---
 <section role="navigation" aria-label="Main Navigation" class="fixed z-50 w-full bg-white drop-shadow-md">
 	<div class="relative w-full mx-auto max-w-7xl">
 		<div x-data="{ open: false }" class="relative flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16">
@@ -5,145 +16,179 @@
 				<a role="link" href="/" class="lg:pr-8">
 					<div class="inline-flex items-center gap-3"> <img class="" width="125" height="28" alt="99minds logo" src="/logos/99minds-logo-b.svg" /> </div>
 				</a>
-			  <button role="button" aria-label="navigation" @click="open = !open" :aria-expanded="open"
-            aria-controls="primary-navigation"
-            class="inline-flex items-center justify-center p-2 focus:outline-none md:hidden"
-            :class="open ? 'text-black' : 'text-black'">
-            <svg class="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                <path :class="{ 'hidden': open, 'inline-flex': !open }" class="inline-flex" stroke-linecap="round"
-                    stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
-                </path>
-                <path :class="{ 'hidden': !open, 'inline-flex': open }" class="hidden" stroke-linecap="round"
-                    stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
-                </path>
-            </svg>
-        </button>
+			    <button role="button" aria-label="navigation" @click="open = !open" :aria-expanded="open"
+					aria-controls="primary-navigation"
+					class="inline-flex items-center justify-center p-2 focus:outline-none md:hidden"
+					:class="open ? 'text-black' : 'text-black'">
+					<svg class="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+						<path :class="{ 'hidden': open, 'inline-flex': !open }" class="inline-flex" stroke-linecap="round"
+							stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+						</path>
+						<path :class="{ 'hidden': !open, 'inline-flex': open }" class="hidden" stroke-linecap="round"
+							stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+						</path>
+					</svg>
+				</button>
 			</div>
 			<nav id="primary-navigation" :class="{'flex': open, 'hidden': !open}" class="flex-col items-start flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
 				<div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
-					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>
-              Product
-            </span>
+					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>Product</span>
 						<svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
 							<path stroke="none" d="M0 0h24v24H0z" fill="none"> </path>
 							<path d="M6 9l6 6l6 -6"> </path>
 						</svg>
 					</button>
-					 <div id="products-dropdown" x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute left-0 max-w-7xl transform md:-translate-x-1/2 z-50 mt-2 ring-1 ring-inset ring-white/5 focus:outline-none">
-    <div class="bg-white border-t rounded-xl grid grid-cols-1 md:grid-cols-4 mt-4 gap-8 w-full lg:w-[95rem] mx-auto def sm:h-auto md:h-[28rem] px-4 md:px-0">
-      <div class="border-r border-gray-600 pr-4 md:pr-16 py-4 md:py-0 md:mt-6 md:mb-14">
-        <ul id="products" class="space-y-4 lg:ml-24 flex flex-col items-start">
-          <li class="mt-0">
-            <h3 class="text-black">Our Products</h3>
-          </li>
-          <li class="mt-4 hideThis">
-            <a href="/" class="text-black block text-sm hover:text-indigo-400">
-              <div class="flex items-center space-x-4">
-                <img class="w-auto h-4" alt="99minds logo" src="/logos/99minds-logo-b.svg" />
-              </div>
-            </a>
-            <p class="text-sm text-gray-400 mt-2">Access shared data, connected experience & retention tracking</p>
-          </li>
-          <li class="mt-4 hideThis">
-            <a href="/integrations" class="text-black block text-sm hover:text-indigo-400">Our Integrations</a>
-          </li>
-        </ul>
-      </div>
-
-     <ul id="products" class="lg:mt-2 mt-0">
-  <li>
-    <a href="/giftcard" class="text-black lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
-      <div class="flex">
-        <img role="img" alt="gift card logo" class="" width="32" height="24" src="/assets/homepage/GC-b.svg" />
-        <h4 class="ml-3">Gift Card</h4>
-      </div>
-      <p class="text-sm mt-2 hideThis">
-        All-in-One Gift Card Software for E-commerce<br> and Retail Stores.
-      </p>
-    </a>
-  </li>
-  <li>
-    <a href="/store-credit" class="text-black mt-6 block text-sm hover:text-indigo-400">
-      <div class="flex">
-        <img role="img" alt="In-store payments logo" class="" width="32" height="24" src="/assets/homepage/Instore-Pay-b.svg" />
-        <h4 class="ml-3">Store Credit</h4>
-      </div>
-      <p class="text-sm mt-2 hideThis">
-        Retain Customer with Store<br> Credit.
-      </p>
-    </a>
-  </li>
-  <li>
-    <a href="/loyalty" class="text-black mt-6 block text-sm hover:text-indigo-400">
-      <div class="flex">
-        <img role="img" alt="Loyalty card logo" class="" width="32" height="24" src="/assets/homepage/LC-b.svg" />
-        <h4 class="ml-3">Loyalty Program</h4>
-      </div>
-      <p class="text-sm mt-2 hideThis">
-        Boost Customer Loyalty with<br> our Program.
-      </p>
-    </a>
-  </li>
-</ul>
-
-							<ul id="coupon" class="lg:mt-2 mt-0">
-								<li>
-									<a href="/coupons" class="text-black lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
-										<div class="flex"> <img role="img" alt="offers logo" class="" width="32" height="24" py-4 src="/assets/homepage/offer-b.svg" />
-											<h4 class="ml-3">
-                        Coupons
-                      </h4> </div>
-										<p class="text-sm mt-2 hideThis"> Bulk, Dynamic & Personalize
-											<br> coupons generation for your Store. </p>
+					<div id="products-dropdown" 
+						x-show="open" 
+						x-transition:enter="transition ease-out duration-100"
+						x-transition:enter-start="transform opacity-0 scale-100"
+						x-transition:enter-end="transform opacity-100 scale-100"
+						x-transition:leave="transition ease-in duration-75"
+						x-transition:leave-start="transform opacity-100 scale-100"
+						x-transition:leave-end="transform opacity-0 scale-100"
+						class="absolute left-28 w-screen z-50 mt-2 ring-1 ring-inset ring-white/5 focus:outline-none  ">						
+						<div class="bg-white border-t w-screen flex justify-center lg:mt-4">
+							<div class="grid grid-cols-1 md:grid-cols-4 mt-4 gap-4 w-full max-w-7xl sm:h-auto md:h-72 px-4 md:px-16 ">
+							<div class="border-r border-gray-600 md:pr-16 py-4 md:py-0 md:mt-4 md:mb-14">
+								<ul id="products" class="space-y-4 flex flex-col items-start">
+								<li class="mt-0">
+									<h3 class="text-black">Our Products</h3>
+								</li>
+								<li class="mt-4 hideThis">
+									<a href="/" class="text-black block text-sm hover:text-indigo-400">
+									<div class="flex items-center space-x-4">
+										<img class="w-auto h-4" alt="99minds logo" src="/logos/99minds-logo-b.svg" />
+									</div>
+									</a>
+									<p class="text-sm text-gray-400 mt-2">Access shared data, connected experience & retention tracking</p>
+								</li>
+								<li class="mt-4 hideThis">
+									<a href="/integrations" class="text-black block text-sm font-medium hover:text-[#6941C6]">Our Integrations</a>
+								</li>
+								</ul>
+							</div>
+							<ul id="products" class="lg:space-y-3 lg:mt-2 mt-0 md:ml-0">
+								<li class="hover:bg-[#F9F5FF] py-2 px-2 rounded-md w-full">
+									<a href="/giftcard" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-[#6941C6]">
+									<div class="flex">
+											<div> 
+											   <img role="img" alt="gift card logo" class="w-[63px] mt-1" width="" height="auto" src="/assets/homepage/GC-b.svg" />
+											</div>
+											<div class="ml-2">
+												<h4 class="text-sm">
+													Gift Card
+												</h4> 
+												<p class="text-xs hideThis">All-in-One Gift Card Software for E-commerce and Retail Stores.</p>
+											</div>
+										</div>
 									</a>
 								</li>
-								<li>
-									<a href="/referral" class="text-black mt-6 block text-sm hover:text-indigo-400">
-										<div class="flex"> <img role="img" alt="referral logo" class="" width="32" height="24" py-4 src="/assets/homepage/Referral-b.svg" />
-											<h4 class="ml-3">
-                        Referrals
-                      </h4> </div>
-										<p class="text-sm mt-2 hideThis"> Boost your organic sales
-											<br> by adding a customer referral program. </p>
+								<li class="hover:bg-[#F9F5FF] py-2 px-2 rounded-md w-full">
+									<a href="/store-credit" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-[#6941C6]">
+									<div class="flex">
+											<div> 
+											   <img role="img" alt="gift card logo" class="w-[41.5px] mt-1" width="" height="auto" src="/assets/homepage/Instore-Pay-b.svg" />
+											</div>
+											<div class="ml-2">
+												<h4 class="text-sm">
+													Store Credit
+												</h4> 
+												<p class="text-xs hideThis">Retain Customer with <br /> Store Credit.</p>
+											</div>
+										</div>
 									</a>
 								</li>
-								<li>
-									<a href="/automated-workflow" class="text-black mt-6 block text-sm hover:text-indigo-400">
-										<div class="flex"> <img role="img" alt="workflow logo" class="" width="32" height="24" py-4 src="/assets/homepage/Automate1.svg" />
-											<h4 class="ml-3">
-                        Automated WorkFlows
-                      </h4> </div>
-										<p class="text-sm mt-2 hideThis"> Create and customize gift cards
-											<br> store credit, and coupon marketing automation. </p>
+								<li class="hover:bg-[#F9F5FF] py-2 px-2 rounded-md w-full">
+									<a href="/loyalty" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-[#6941C6]">
+										<div class="flex">
+											<div> 
+											   <img role="img" alt="gift card logo" class="w-[40px] mt-1" width="" height="auto" src="/assets/homepage/LC-b.svg" />
+											</div>
+											<div class="ml-2">
+												<h4 class="text-sm">
+													Loyalty Program
+												</h4> 
+												<p class="text-xs mt- hideThis">Boost Customer Loyalty with our Program.</p>
+											</div>
+										</div>
 									</a>
 								</li>
 							</ul>
-							<ul id="demo-button" class="space-x-8 mt-10 ml-0">
-								<li class="hideDemo">
-									<div class="h-80 border rounded-3xl" style="width: 250px; background: linear-gradient(to bottom right, #93D5E1 0%, #6BC6D6 100%);">
-										<div>
-											<p class="text-black text-lg font-semibold mt-24 ml-8"> Ready to see how it
-												<br> <span class="ml-10">
-                          all works?
-                        </span> </p>
+							<ul id="coupon" class="lg:space-y-3 lg:mt-2 mt-0">
+								<li class="hover:bg-[#F9F5FF] py-2 px-2 rounded-md w-full">
+									<a href="/coupons" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-[#6941C6]">
+										<div class="flex">
+											<div> 
+											   <img role="img" alt="gift card logo" class="w-16 mt-1" width="" height="auto" src="/assets/homepage/offer-b.svg" />
+											</div>
+											<div class="ml-2">
+												<h4 class="text-sm">
+													Coupons
+												</h4> 
+												<p class="text-xs mt- hideThis">Bulk, Dynamic & Personalize coupons generation for your Store.</p>
+											</div>
 										</div>
-										<button type="button" role="button" label="book a demo" class="raise1 mt-8 ml-12 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });"> <span class="w-full h-full bg-black absolute">
-                      </span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
-                        <span class="relative text-white">
-                          Book a Demo
-                        </span> </span>
-										</button>
+									</a>
+								</li>
+								<li class="hover:bg-[#F9F5FF] py-2 px-2 rounded-md w-full">
+									<a href="/referral" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-[#6941C6]">
+										<div class="flex">
+											<div> 
+											   <img role="img" alt="gift card logo" class="w-16 mt-1" width="" height="auto" src="/assets/homepage/Referral-b.svg" />
+											</div>
+											<div class="ml-2">
+												<h4 class="text-sm">
+													Referrals
+												</h4> 
+												<p class="text-xs hideThis"> Boost your organic sales by adding a customer referral program. </p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li class="hover:bg-[#F9F5FF] py-2 px-2 rounded-md w-full">
+									<a href="/automated-workflow" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-[#6941C6]">
+										<div class="flex">
+											<div> 
+											   <img role="img" alt="gift card logo" class="w-[78px] mt-1" width="" height="auto" src="/assets/homepage/Automate1.svg" />
+											</div>
+											<div class="ml-2">
+												<h4 class="text-sm">
+													Automated WorkFlows
+												</h4> 
+												<p class="text-xs hideThis">Create and customize gift cards, store credit & coupon marketing automation.</p>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<ul id="demo-button" class="space-x-8 mt-0 lg:ml-4">
+								<li class="hideDemo ">
+									<div class="h-56 w-64 rounded-2xl bg-[#93D5E1] mt-6 fixed">
+										<div class="">
+											<p class="text-black text-lg font-semibold mt-10 text-center px-10"> Ready to see how it all works?
+											</p>
+										</div>
+                   							 <div class="mx-auto flex justify-center items-center">
+											<button type="button" role="button" label="book a demo" class="raise1 mt-8 mx-auto relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });"> <span class="w-full h-full bg-black absolute">
+											</span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
+												<span class="relative text-white">
+												Book a Demo
+												</span>
+											</span>
+											</button>
+                    					 </div> 
 									</div>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
+			</div>
         <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 " href="/integrations">
           Integrations
-        <!--</a> <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" href="/case-study">
+        </a> <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" href="/case-study">
           Case Study
-        </a>-->
+        </a>
 				<div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
 					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>
               Resources
@@ -153,118 +198,146 @@
 							<path d="M6 9l6 6l6 -6"> </path>
 						</svg>
 					</button>
-					<div id="resources-dropdown" x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute left-0 pr-[22rem] transform md:-translate-x-1/2 z-50 mt-0 ring-1 ring-inset ring-white/5 focus:outline-none">
-						<div class="bg-white border-t flex flex-col md:flex-row lg:flex-row gap-0 mt-0 lg:w-[90rem] lg:h-[28rem] md:h-[28rem]">
-							<ul id="resources" class="lg:space-y-2 mt-0 p-2 flex flex-col items-start">
-              <li>
-									<a href="/blog" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-indigo-400">
+					<div id="resources-dropdown" x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="pr-[26rem] transform z-50 mt-2 ring-1 ring-inset ring-white/5 focus:outline-none">
+						<div class="bg-white border-t w-screen flex justify-center lg:mt-4">
+						<div class="justify-center grid grid-cols-3 gap-8 mt-0 px-14 max-w-7xl">
+							<ul id="resources" class="lg:space-y-3 mt-10 md:ml-0 px-0 flex flex-col items-start mx-auto">
+								<li class="hover:bg-[#F9F5FF] py-2 px-2 rounded-md w-full">
+									<a href="/blog" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-[#6941C6]">
 										<div class="flex items-center">
-											<h4>
-                        99minds Blog
-                      </h4> </div>
-										<p class="text-sm mt-2 hideThis"> Learn how to drive retention
-											rates through the roof. </p>
+											<div>
+												<img role="img" alt="gift card logo" class="" width="42" height="auto" src="/assets/homepage/Blog-Icon.svg" />
+											</div>
+											<div class="ml-3 mt-0">
+												<h4 class="text-sm">
+													99minds Blog
+												</h4> 
+												<p class="text-xs mt-0 hideThis"> Learn how to drive retention rates through the roof. </p>
+											</div>
+										</div>
 									</a>
 								</li>
-								<li>
-									<a href="https://support.99minds.io/portal/en/kb" class="text-black font-semibold lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
+								<li></li>
+								<li class="hover:bg-[#F9F5FF] py-2 px-2 rounded-md w-full">
+									<a href="https://support.99minds.io/portal/en/kb" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-[#6941C6] ">
 										<div class="flex items-center">
-											<h4>
-                        Documentation
-                      </h4> </div>
-										<p class="text-sm mt-2 hideThis"> Get the latest news & insights
-											from the team at 99minds. </p>
+											<div>
+												<img role="img" alt="gift card logo" class="" width="42" height="auto" src="/assets/homepage/Dc-icon1.svg"/>
+											</div>
+											<div class="ml-3 mt-0">
+												<h4 class="text-sm">
+													Documentation
+												</h4> 
+												<p class="text-xs mt-0 hideThis"> Get the latest news & insights from the team at 99minds.</p>
+											</div>
+										</div>
 									</a>
 								</li>
-								<li>
-									<a href="https://docs.99minds.io/" class="text-black font-semibold lg:mt-6 mt-0 block text-sm hover:text-indigo-400">
+								<li></li>
+								<li class="hover:bg-[#F9F5FF] py-2 px-2 rounded-md w-full">
+									<a href="https://docs.99minds.io/" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-[#6941C6]">
 										<div class="flex items-center">
-											<h4>
-                        API Documentation
-                      </h4> </div>
-										<p class="text-sm mt-2 hideThis"> Analyze, calculate & generate
-											with our free retention tools. </p>
+											<div>
+												<img role="img" alt="gift card logo" class="" width="42" height="auto" src="/assets/homepage/Api-Dc-icon1.svg" />
+											</div>
+											<div class="ml-3 mt-0">
+												<h4 class="text-sm">
+													API Documentation
+												</h4> 
+												<p class="text-xs mt-0 hideThis">Analyze, calculate & generate with our free retention tools. </p>
+											</div>
+										</div>
 									</a>
 								</li>
 							</ul>
-							<div class="border-r border-gray-600 pr-16 lg:ml-16 mt-6 mb-14">
-								<ul id="resources" class="lg:mt-2 mt-0">
-									<li>
-										<a href="/case-study" class="text-black font-semibold lg:mt-8 mt-0 block text-sm hover:text-indigo-400">
+							<div class="lg:px-0 mb-14">
+								<ul id="resources" class=" lg:space-y-3 mt-10 md:ml-0 px-0 flex flex-col items-start mx-auto">
+									<li class="hover:bg-[#F9F5FF] py-2 px-2 rounded-md w-full">
+										<a href="/case-study" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-[#6941C6]">
 											<div class="flex items-center">
-												<h4>
-                          Case Study
-                        </h4> </div>
-											<p class="text-sm mt-2 hideThis"> How 99minds provide solutions<br> to businesses</p>
+												<div>
+													<img role="img" alt="gift card logo" class="" width="42" height="auto" src="/assets/homepage/CS-icon.svg" />
+												</div>
+												<div class="ml-3 mt-0">
+													<h4 class="text-sm">
+														Case Study
+													</h4> 
+													<p class="text-xs mt-0 hideThis">How 99minds provide solutions to businesses</p>
+												</div>
+											</div>
 										</a>
 									</li>
-                  	<li>
-										<a href="/giftcard-code-generator" class="text-black font-semibold lg:mt-8 mt-0 block text-sm hover:text-indigo-400">
+									<li></li>
+                  					<li class="hover:bg-[#F9F5FF] py-2 px-2 rounded-md w-full">
+										<a href="/giftcard-code-generator" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-[#6941C6]">
 											<div class="flex items-center">
-												<h4>
-                          Gift Card Generator
-                        </h4> </div>
-											<p class="text-sm mt-2 hideThis"> Email & SMS inspiration. By
-												marketers, for marketers. </p>
+												<div>
+													<img role="img" alt="gift card logo" class="" width="42" height="auto" src="/assets/homepage/GC-b.svg" />
+												</div>
+												<div class="ml-3 mt-0">
+													<h4 class="text-sm">
+														Gift Card Generator
+													</h4> 
+													<p class="text-xs mt-0 hideThis">Create and Import Custom Gift Card on 99minds</p>
+												</div>
+											</div>
 										</a>
 									</li>
-									<li>
-										<a href="/coupon-code-generator" class="text-black font-semibold lg:mt-8 mt-0 block text-sm hover:text-indigo-400">
+									<li></li>
+									<li class="hover:bg-[#F9F5FF] py-2 px-2 rounded-md w-full">
+										<a href="/coupon-code-generator" class="text-black font-semibold lg:mt-0 mt-0 block text-sm hover:text-[#6941C6]">
 											<div class="flex items-center">
-												<h4>
-                          Coupon Code Generator
-                        </h4> </div>
-											<p class="text-sm mt-2 hideThis"> Deep dive into all the essential
-												topics about retention. </p>
+												<div>
+													<img role="img" alt="gift card logo" class="" width="42" height="auto" src="/assets/homepage/offer-b.svg" />
+												</div>
+												<div class="ml-3 mt-0">
+													<h4 class="text-sm">
+														Coupon Code Generator
+													</h4> 
+													<p class="text-xs mt-0 hideThis">Create and Import Custom Coupons on 99minds</p>
+												</div>
+											</div>
 										</a>
 									</li>
+								</ul>
 							</div>
-							</ul>
-							<div class="border-r border-gray-600 pr-16 lg:mt-8 mb-14">
+							<!--<div class="border-r border-gray-600 pr-16 lg:mt-4 mb-14">
 								<ul id="case-studies" class="space-y-2 ml-6 lg:mt-4 flex flex-col items-start">
 									<li>
-										<h3 class="text-black">
-                      Connect
-                    </h3> </li>
+										<h3 class="text-black"> Connect </h3> 
+									</li>
 									<li>
 										<a href="/contact" class="text-white mt-4 block text-sm hover:text-indigo-400">
-											<h4 class="text-black">
-                        Contact Us
-                      </h4> </a>
+											<h4 class="text-black"> Contact Us </h4> 
+										</a>
 									</li>
-							</div>
-							</ul>
-							<ul id="demo-button" class="space-x-8 lg:mt-12 px-8">
+								</ul>
+							</div>-->
+							<div class="bg-[#F2F4F7]">
+							<ul id="demo-button" class="px-4 lg:mt-6 ">
 								<li>
-									<h3 class="text-black  highlights">
-                    Highlights
-                  </h3>
-                </li>
-								<a class="hideThis" href="/b">
-									<li class="flex items-center">
-										<div class="h-22" style="width: 200px;">
-                      <img class="rounded-sm" src="https://99mindsastrolite.netlify.app/assets/blog/how_to_build_successful_shopify_referral_programs_in_2025.webp" alt="Image" /> </div>
-										<div class="ml-6 text-black text-sm"> How to Build a Successful Shopify Referral Program in 2025</div>
-									</li>
-								</a>
-								<li> </li>
-                <a class="hideThis" href="/b">
-									<li class="flex items-center">
-										<div class="h-22" style="width: 200px;">
-                      <img class="rounded-sm" src="https://99mindsastrolite.netlify.app/assets/blog/how_to_build_successful_shopify_referral_programs_in_2025.webp" alt="Image" /> </div>
-										<div class="ml-6 text-black text-sm"> How to Build a Successful Shopify Referral Program in 2025</div>
-									</li>
-								</a>
-								
-								<li> </li>
-								<a class="hideThis" href="/b">
-									<li class="flex items-center">
-										<div class="h-22" style="width: 200px;">
-                      <img class="rounded-sm" src="https://99mindsastrolite.netlify.app/assets/blog/how_to_build_successful_shopify_referral_programs_in_2025.webp" alt="Image" /> </div>
-										<div class="ml-6 text-black text-sm"> How to Build a Successful Shopify Referral Program in 2025</div>
-									</li>
-								</a>
+									<h4 class="text-black font-medium highlights">Whats New </h4> 
+                				</li>
+								<div class=" p-4 rounded-3xl flex flex-col justify-start">
+									<div>
+										<a href="/integrations/shopify"><img class="w-44" src="/assets/loyalty/Loyalty-banner1.webp" alt="99minds-Shopify Integration">
+											<p class="mt-2 px-2 text-xs font-medium text-black lg:text-sm">Loyalty Page</p>
+										</a>
+									</div>
+									<div class="mt-2 px-2 text-xs justify-between text-black"> A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.</div>
+										<div>
+										<button type="button" role="button" label="book a demo" class=" relative p-0.5 inline-flex font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
+											<span class="relative px-2 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md duration-400 font-medium">
+												<span class="relative text-sm font-semibold text-black hover:text-[#7F56D9]">
+												Book a Demo →
+												</span>
+											</span>
+										</button>
+									</div>
+								</div>
 							</ul>
+							</div>
+						</div>
 						</div>
 					</div>
 				</div> 
@@ -287,148 +360,4 @@
 </section>
 
 
-  <style>
-/* Common styles for dropdowns */
-#resources-dropdown, #products-dropdown {
-  position: absolute;
-  transform: translateX(-50%);
-  z-index: 50;
-}
-
-/* Apply mobile styles to medium screens */
-@media (max-width: 1024px) {
-  /* Make dropdowns full width */
-  #products-dropdown, #resources-dropdown {
-    position: fixed;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    max-height: calc(100vh - 60px);
-    overflow-y: auto;
-    transform: none;
-    padding-right: 0;
-  }
-  #resources-dropdown .bg-white, #products-dropdown .bg-white {
-  display: flex;
-  flex-direction: row;
-  gap: 1.3rem;
-}
- #resources-dropdown #resources li {
-  margin-top: 1.5rem;
-}
- /* Remove left margin on li elements */
-  #resources-dropdown ul li,
-  #products-dropdown ul li {
-    margin-left: 0 !important;
-  }
-
-  /* Ensure ul has no extra margin or padding */
-  #resources-dropdown ul, 
-  #products-dropdown ul {
-    margin-left: 0 !important;
-  }
-
-  #resources-dropdown .highlights {
-  margin-left: 0 !important;
-}
-
-  /* Ensure div with border doesn't add unwanted spacing */
-  .border-r {
-    margin-left: 0 !important;
-  } 
-
-  /* Adjust dropdown content to single-column */
-  #resources-dropdown .bg-white,
-  #products-dropdown .bg-white {
-    flex-direction: column;
-    padding: 1rem;
-    height: auto;
-    width: 100%;
-  }
-
-  /* Ensure all items in Products dropdown align in one column */
-  #products-dropdown ul {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  #products-dropdown li {
-    width: 100%;
-  }
-
-  /* Style individual sections */
-  .border-r {
-    border-right: none;
-    border-bottom: 1px solid #e5e7eb;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    padding-right: 0;
-    margin-right: 0;
-  }
-
-  #resources-dropdown ul, #products-dropdown ul {
-    margin-left: 0;
-    padding: 0.5rem;
-  }
-
-  /* Hide demo button */
-  #resources-dropdown #demo-button, 
-  #products-dropdown #demo-button {
-    margin: 1rem 0;
-  }
-
-  #demo-button li {
-    margin: 1rem 0;
-  }
-
-  /* Hide decorative elements */
-  #resources-dropdown .pr-[27rem], 
-  #products-dropdown .pr-[27rem] {
-    padding-right: 0;
-  }
-
-  /* Adjust image containers */
-  #demo-button .flex {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  #demo-button .flex div[style*="width: 200px"] {
-    width: 100% !important;
-    margin-bottom: 0.5rem;
-  }
-
-  #demo-button .flex img {
-    width: 100%;
-    height: auto;
-  }
-
-  #demo-button .flex .ml-6 {
-    margin-left: 0;
-    margin-top: 0.5rem;
-  }
-}
-
-/* Small screen adjustments */
-@media (max-width: 480px) {
-  #resources-dropdown, #products-dropdown {
-    padding: 0;
-  }
-  #products-dropdown .hideThis {
-  display: none !important;
-}
- #resources-dropdown .hideThis {
-  display: none !important;
-}
-
-#resources-dropdown #resources li {
-  margin-top: 1.5rem;
-}
-  #resources-dropdown .bg-white, #products-dropdown .bg-white {
-    border-radius: 0;
-  }
-}
-
-
-  </style>
+ 

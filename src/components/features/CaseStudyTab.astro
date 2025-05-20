@@ -30,7 +30,7 @@
       $refs.tabButtons.firstElementChild.classList.add('bg-black', 'text-white'); 
   })" class="relative mt-10 w-full">
      <div class="w-full sm:block md:block">
-       <div class="relative flex flex-row items-center gap-4 justify-center w-full h-8 mx-auto text-gray-900 select-none" x-ref="tabButtons">
+        <div class="relative flex flex-wrap justify-center gap-2 sm:gap-4 w-full mx-auto text-gray-900 select-none" x-ref="tabButtons">
           {buttonConfig.map((button) => (
             <button
             class="relative z-20 inline-flex p-2 w-auto h-8 gap-2 text-sm font-medium transition-all cursor-pointer rounded-lg items-center whitespace-nowrap" type="button" :class="{ 'bg-black text-white' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id={button.id}>
@@ -62,15 +62,15 @@
           <!-- Tab Content 1 - Replace with your content -->
           <section>
              <div class="py-10 w-full">
-              <ol class="grid grid-cols-1 gap-16 lg:grid-cols-2 sm:grid-cols-2" role="list">
+              <ol class="grid grid-cols-1 gap-12 lg:grid-cols-3 sm:grid-cols-2" role="list">
                 {cardData.map((data) => (
-                  <li key={data.title} class="group border bg-white border-white/5 overflow-hidden rounded-xl  shadow-2xl">
+                  <li key={data.title} class="group bg-white border-white/5 overflow-hidden rounded-xl  shadow-2xl">
                     <a href={data.href}>
                       <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-xl">
                         <div class="flex">
                           {data.img ? (
                             <img 
-                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" 
+                              class="group-hover:scale-105 duration-300 aspect-[2/1] object-cover" 
                               loading="lazy" 
                               src={data.img} 
                               alt={data.alt} 
@@ -78,7 +78,7 @@
                             />
                           ) : data.videoId ? (
                             <iframe
-                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover"
+                              class="group-hover:scale-105 duration-300 h-[202px] object-cover"
                               src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=1&mute=1&rel=0`}
                               title={data.title}
                               width="630"
@@ -101,7 +101,7 @@
                               </div>-->  
                         </div>
                         <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
-                        <h2 class="mt-5 text-lg font-medium leading-6 text-gray-900">{data.title}</h2>
+                        <h2 class="mt-5 text-base font-normal leading-6 text-gray-900">{data.title}</h2>
                         <p class="mt-2 text-base text-blue-600 line-clamp-1">{data.description}</p>
                         <a href={data.href} class="text-blue-600 mt-5 hover:underline">Read More</a>
                       </div>
