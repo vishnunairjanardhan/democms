@@ -3,17 +3,17 @@ import React from "react";
 function NewLogoCloud() {
   const images = [
     {
-      src: "../assets/logo-cloud/Pinstripe-b.svg",
+      src: "/../assets/logo-cloud/Pinstripe-b.svg",
       width: 160,
       alt: "Pinstripe logo",
     },
     {
-      src: "../assets/logo-cloud/Bestop-b.svg",
+      src: "/../assets/logo-cloud/Bestop-b.svg",
       width: 160,
       alt: "Bestop logo",
     },
     {
-      src: "../assets/logo-cloud/cornerbakery-b.svg",
+      src: "/../assets/logo-cloud/cornerbakery-b.svg",
       width: 160,
       alt: "Corner bakery logo",
     },
@@ -33,22 +33,22 @@ function NewLogoCloud() {
       alt: "Thirdlove Logo",
     },
     {
-      src: "../assets/logo-cloud/Flynnohara-b.svg",
+      src: "/../assets/logo-cloud/Flynnohara-b.svg",
       width: 160,
       alt: "Flynnohara Logo",
     },
     {
-      src: "../assets/logo-cloud/coolvines-b.svg",
+      src: "/../assets/logo-cloud/coolvines-b.svg",
       width: 160,
       alt: "Coolvines logo",
     },
     {
-      src: "../assets/logo-cloud/solsticesunglasses.svg",
+      src: "/../assets/logo-cloud/solsticesunglasses.svg",
       width: 160,
       alt: "Solstice logo",
     },
     {
-      src: "../assets/logo-cloud/solobrands-b.svg",
+      src: "/../assets/logo-cloud/solobrands-b.svg",
       width: 160,
       alt: "Solobrand logo",
     },
