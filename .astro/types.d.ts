@@ -472,6 +472,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"black-friday-promotion-ideas.md": {
+	id: "black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "brand-loyalty.md": {
 	id: "brand-loyalty.md";
   slug: "brand-loyalty";
