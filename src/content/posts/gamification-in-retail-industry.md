@@ -8,11 +8,9 @@ heading: 7 Ways to Use Gamification in Retail Industry [With Examples]
 image:
   url: "/assets/blog/7 Ways to Use Gamification in Retail Industry.webp"
   alt: "Ways to Use Gamification in Retail Industry [With Examples]."
-tags: ["Gift Card"]
+tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/gamification-in-retail-industry"
-keywords: ["gamification in retail industry", "gamification in retail",
-"gamification in retail examples", "gamification in retail stores"
-]
+keywords: ["gamification in retail industry", "gamification in retail","gamification in retail examples", "gamification in retail stores"]
 
 --- 
 <img rel="preload" role="img" src="/assets/blog/7 Ways to Use Gamification in Retail Industry.webp" alt="7 Ways to Use Gamification in Retail Industry">
