@@ -126,7 +126,7 @@ When a customer wants to redeem a gift card in-store:
 
 
 <h2 id="Redemption-Made-Simple-on-Shopify">Redemption Made Simple on Shopify</h2>
-Gift cards issued in-store can also be used online, thanks to 99minds' cross-platform integration with major eCommerce platforms like Shopify.
+Gift cards issued in-store can also be used online, thanks to 99minds' cross-platform integration with major eCommerce platforms like Shopify.</br>
 
 Here’s how customers redeem gift cards online:
 
