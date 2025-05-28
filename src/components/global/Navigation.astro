@@ -32,7 +32,7 @@ const sortedPosts = allPosts.sort((a, b) => {
 			</div>
 			<nav id="primary-navigation" :class="{'flex': open, 'hidden': !open}" class="flex-col items-start flex-grow hidden lg:pb-0 lg:flex lg:justify-end lg:flex-row">
 				<div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
-					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>Product</span>
+					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-[#AA8FFF]" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>Product</span>
 						<svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
 							<path stroke="none" d="M0 0h24v24H0z" fill="none"> </path>
 							<path d="M6 9l6 6l6 -6"> </path>
@@ -178,13 +178,13 @@ const sortedPosts = allPosts.sort((a, b) => {
 					</div>
 				</div>
 			</div>
-        <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 " href="/integrations">
+        <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-[#AA8FFF]" href="/integrations">
           Integrations
-        </a> <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" href="/case-study">
+        </a> <a class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-[#AA8FFF]" href="/case-study">
           Case Study
         </a>
 				<div @mouseenter="open = true" @mouseleave="open = false" class="relative" x-data="{ open: false }">
-					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>
+					<button class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-black hover:text-[#AA8FFF] lg:px-3 md:px-3" role="button" :aria-expanded="open" aria-controls="products-dropdown"> <span>
               Resources
             </span>
 						<svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -299,10 +299,10 @@ const sortedPosts = allPosts.sort((a, b) => {
 						</div>
 					</div>
 				</div> 
-        <a role="link" class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" href="/pricing">
+        <a role="link" class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-[#AA8FFF]" href="/pricing">
           Pricing
         </a> 
-        <a role="link" target="_blank" class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-whit" href="https://giftcard.99minds.io/access/register">
+        <a role="link" target="_blank" class="px-2 py-2 text-sm font-normal text-black lg:px-3 md:px-3 hover:text-[#AA8FFF]" href="https://giftcard.99minds.io/access/register">
           Sign Up
         </a>
 				<button type="button" role="button" label="book a demo" class="mx-3 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
