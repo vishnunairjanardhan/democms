@@ -13,7 +13,7 @@ import RoundedGrid from "../assets/RoundedGrid.astro";
         <!--<h2>
           Unified Multicurrency Dashboard
         </h2>-->
-         <p class="mt-4">Thanks @99minds – seamless service for multi-currency omnichannel physical and digital gift cards, hassle-free. <br /><br />Club Monaco</p> 
+         <p class="text-xl mt-4">"Thanks @99minds – seamless service for multi-currency omnichannel physical and digital gift cards, hassle-free." <br /><br />- Club Monaco</p> 
       </div>
       <div class="h-full">
         <h2>
@@ -33,12 +33,8 @@ import RoundedGrid from "../assets/RoundedGrid.astro";
                   </span>
                 </button>
               </span>
-              <button type="button" class="raise relative p-0.5 ml-2 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
-                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-10 duration-400">
-                <span class="relative text-white">Book a Demo</span>
-                </span>
-              </button>
+               <button type="button" role="button" label="book a demo" class="mx-3 raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onclick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });"> <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium"> <span class="relative text-white">Book a Demo</span> </span>
+                </button>
               <!-- Modal -->
               <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5" style="display: none;">
                 <!-- Overlay -->
