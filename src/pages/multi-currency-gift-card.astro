@@ -1,0 +1,59 @@
+---
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
+import HeroMulticurrency from "../components/heros/HeroMulticurrency.astro";
+import LogoMulticurrency from "../components/testimonials/LogoMulticurrency.astro";
+import FeatureMulticurrency2 from "../components/features/FeatureMulticurrency2.astro";
+import FeatureMulticurrency3 from "../components/features/FeatureMulticurrency3.astro";
+import FeatureMulticurrency from "../components/features/FeatureMulticurrency.astro";
+import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
+import CtaMulticurrency from "../components/ctas/CtaMulticurrency.astro";
+import CtaMulticurrency2 from "../components/ctas/CtaMulticurrency2.astro";
+import Integrations99minds2 from "../components/integrations/Integrations99minds2.astro";
+import { Seo } from "../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+
+<BaseLayout3>
+<AstroSeo
+  title="Complete Gift Card Solution for All Businesses | 99minds"
+  description="Discover the key features of our Gift Card Platform: 100's of beautiful themed cards, brand design uploads, customization and multi-channel delivery options."
+  canonical="https://www.99minds.io/multi-currency-gift-card"
+  openGraph={{
+    url: "https://www.99minds.io/multi-currency-gift-card",
+    title: "99minds | Multi-Currency Gift Card Solution for Shopify",
+    description: "Explore the world’s first multi-currency gift card solution for Shopify. Sell and Redeem globally, reduce checkout friction, and unlock new revenue with 99minds.",
+    images: [
+      {
+        url: "https://www.99minds.io//assets/multicurrency/multi_currency.webp",
+        alt: "Multicurrency Gift Card",
+        type: "image/webp",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/multi-currency-gift-card",
+    title: "Complete Gift Card Solution for All Businesses | 99minds",
+    description: "Discover the key features of our Gift Card Platform: 100's of beautiful themed cards, brand design uploads, customization and multi-channel delivery options.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/multicurrency/multi_currency.webp",
+        alt: "Multicurrency Gift Card",
+        type: "image/webp",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroMulticurrency />
+  <LogoMulticurrency />
+  <FeatureMulticurrency />
+  <FeatureMulticurrency2 />
+  <CtaMulticurrency />
+  <FeatureMulticurrency3 />
+  <CtaMulticurrency2 />
+  <!--<TestimonialNew />
+  <Integrations99minds2 />-->
+</BaseLayout3>
