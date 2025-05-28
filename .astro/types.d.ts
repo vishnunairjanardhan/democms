@@ -498,14 +498,7 @@ declare module 'astro:content' {
   slug: "channel-loyalty-program";
   body: string;
   collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"channel-loyalty-program.md": {
-	id: "channel-loyalty-program.md";
-  slug: "channel-loyalty-program";
-  body: string;
-  collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "consumer-decision-making-process.md": {
 	id: "consumer-decision-making-process.md";
@@ -554,14 +547,7 @@ declare module 'astro:content' {
   slug: "customer-journey-personalization";
   body: string;
   collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"customer-journey-personalization.md": {
-	id: "customer-journey-personalization.md";
-  slug: "customer-journey-personalization";
-  body: string;
-  collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "customer-lifetime-value.md": {
 	id: "customer-lifetime-value.md";
@@ -625,13 +611,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"discount-code-ideas.md": {
-	id: "discount-code-ideas.md";
-  slug: "discount-code-ideas";
-  body: string;
-  collection: "posts";
-  data: any
 } & { render(): Render[".md"] };
 "dtc-marketing.md": {
 	id: "dtc-marketing.md";
@@ -708,14 +687,7 @@ declare module 'astro:content' {
   slug: "ecommerce-promotions";
   body: string;
   collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"ecommerce-referral-program.md": {
-	id: "ecommerce-referral-program.md";
-  slug: "ecommerce-referral-program";
-  body: string;
-  collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "ecommerce-referral-program.md": {
 	id: "ecommerce-referral-program.md";
@@ -821,13 +793,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"gift-card-sales-across-lightspeed-x-series-and-shopify.md": {
-	id: "gift-card-sales-across-lightspeed-x-series-and-shopify.md";
-  slug: "gift-card-sales-across-lightspeed-x-series-and-shopify";
-  body: string;
-  collection: "posts";
-  data: any
 } & { render(): Render[".md"] };
 "gift-card-sales-on-social-media.md": {
 	id: "gift-card-sales-on-social-media.md";
@@ -1233,14 +1198,7 @@ declare module 'astro:content' {
   slug: "marketing-automation-platform";
   body: string;
   collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"marketing-automation-platform.md": {
-	id: "marketing-automation-platform.md";
-  slug: "marketing-automation-platform";
-  body: string;
-  collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "marketing-tools.md": {
 	id: "marketing-tools.md";
@@ -1269,13 +1227,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"mothers-day-promotion.md": {
-	id: "mothers-day-promotion.md";
-  slug: "mothers-day-promotion";
-  body: string;
-  collection: "posts";
-  data: any
 } & { render(): Render[".md"] };
 "mothers-day-promotions-any-small-business-can-use.md": {
 	id: "mothers-day-promotions-any-small-business-can-use.md";
@@ -1444,13 +1395,6 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"retail-customer-engagement.md": {
-	id: "retail-customer-engagement.md";
-  slug: "retail-customer-engagement";
-  body: string;
-  collection: "posts";
-  data: any
 } & { render(): Render[".md"] };
 "retail-loyalty-program.md": {
 	id: "retail-loyalty-program.md";
