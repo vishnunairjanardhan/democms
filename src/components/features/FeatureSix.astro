@@ -27,22 +27,30 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
           Seamless offline and online gift cards solution for elevating sales across all channels including online website, mobile apps, storefront, POS, and across multiple store locations. Empower your customers to send gifts via email, social media, SMS/Text, Print-at-Home, or physical gift cards.
         </p>
           <div class="lg:flex gap-2 mt-10" role="button">
-              <div x-data="{ open: false }" class="flex justify-center">
+              <div x-data="{ open: false }" class="flex justify-start lg:justify-center">
               <!-- Trigger -->
-              <span x-on:click="open = true">
-                <button type="button" role="button" aria-label="Get Started for Free" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
-                  <span class="relative text-[#AA8FFF] text-xl group-hover:text-indigo-500 transition-colors duration-300">
-                    Get started for free
-                  </span>
-                  <svg class="ml-3 h-8 w-8 text-[#AA8FFF] group-hover:text-indigo-500 transition-colors duration-300" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z"/>
-                    <line x1="5" y1="12" x2="19" y2="12" />
-                    <line x1="13" y1="18" x2="19" y2="12" />
-                    <line x1="13" y1="6" x2="19" y2="12" />
-                  </svg>
-                </button>                
-                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
-              </span>
+             <span x-on:click="open = true">
+  <button type="button" role="button" aria-label="Get Started for Free"
+    class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+    
+    <span class="relative text-[#AA8FFF] text-xl group-hover:text-indigo-500 transition-colors duration-300">
+      Get started for free
+    </span>
+
+    <svg
+      class="ml-3 h-8 w-8 text-[#AA8FFF] transition-all duration-300 transform group-hover:translate-x-2"
+      width="16" height="16" viewBox="0 0 24 24"
+      stroke-width="2" stroke="currentColor" fill="none"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" />
+      <line x1="5" y1="12" x2="19" y2="12" />
+      <line x1="13" y1="18" x2="19" y2="12" />
+      <line x1="13" y1="6" x2="19" y2="12" />
+    </svg>
+
+  </button>
+</span>
+
               <!-- Modal -->
               <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="Get free demo">
                 <!-- Overlay -->
@@ -87,22 +95,30 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
           Generate millions of unique coupons in a few clicks. Customize them based on promo codes, prefixes, SKU items, and many more dynamic options. Set expiry dates and link individual customer IDs to single coupon to create highly personalized coupons. Fully integrated with our Loyalty management solution to create at scale campaigns.
         </p>
         <div class="lg:flex gap-2 mt-10" role="button">
-              <div x-data="{ open: false }" class="flex justify-center">
+              <div x-data="{ open: false }" class="flex justify-start lg:justify-center">
               <!-- Trigger -->
               <span x-on:click="open = true">
-                <button type="button" role="button" aria-label="Get Started for Free" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
-                  <span class="relative text-[#AA8FFF] text-xl group-hover:text-indigo-500 transition-colors duration-300">
-                    Get started for free
-                  </span>
-                  <svg class="ml-3 h-8 w-8 text-[#AA8FFF] group-hover:text-indigo-500 transition-colors duration-300" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z"/>
-                    <line x1="5" y1="12" x2="19" y2="12" />
-                    <line x1="13" y1="18" x2="19" y2="12" />
-                    <line x1="13" y1="6" x2="19" y2="12" />
-                  </svg>
-                </button>                
-                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
-              </span>
+  <button type="button" role="button" aria-label="Get Started for Free"
+    class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+    
+    <span class="relative text-[#AA8FFF] text-xl group-hover:text-indigo-500 transition-colors duration-300">
+      Get started for free
+    </span>
+
+    <svg
+      class="ml-3 h-8 w-8 text-[#AA8FFF] transition-all duration-300 transform group-hover:translate-x-2"
+      width="16" height="16" viewBox="0 0 24 24"
+      stroke-width="2" stroke="currentColor" fill="none"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" />
+      <line x1="5" y1="12" x2="19" y2="12" />
+      <line x1="13" y1="18" x2="19" y2="12" />
+      <line x1="13" y1="6" x2="19" y2="12" />
+    </svg>
+
+  </button>
+</span>
+
               <!-- Modal -->
               <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
                 <!-- Overlay -->
@@ -152,21 +168,30 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
           Enable the effortless issuance and management of store credits, allowing your customers to engage and shop with ease and flexibility. Automate Store Credit compensations to enhance refund processes smoothly and transition from cash refunds to store credit, ensuring your revenue remains within your business
         </p>
                 <div class="lg:flex gap-2 mt-10">
-              <div x-data="{ open: false }" class="flex justify-center">
+              <div x-data="{ open: false }" class="flex justify-start lg:justify-center">
               <!-- Trigger -->
-              <span x-on:click="open = true">
-                <button type="button" role="button" aria-label="Get Started for Free" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
-                  <span class="relative text-[#AA8FFF] text-xl group-hover:text-indigo-500 transition-colors duration-300">
-                    Get started for free
-                  </span>
-                  <svg class="ml-3 h-8 w-8 text-[#AA8FFF] group-hover:text-indigo-500 transition-colors duration-300" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z"/>
-                    <line x1="5" y1="12" x2="19" y2="12" />
-                    <line x1="13" y1="18" x2="19" y2="12" />
-                    <line x1="13" y1="6" x2="19" y2="12" />
-                  </svg>
-                </button><!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
-              </span>
+             <span x-on:click="open = true">
+  <button type="button" role="button" aria-label="Get Started for Free"
+    class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+    
+    <span class="relative text-[#AA8FFF] text-xl group-hover:text-indigo-500 transition-colors duration-300">
+      Get started for free
+    </span>
+
+    <svg
+      class="ml-3 h-8 w-8 text-[#AA8FFF] transition-all duration-300 transform group-hover:translate-x-2"
+      width="16" height="16" viewBox="0 0 24 24"
+      stroke-width="2" stroke="currentColor" fill="none"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" />
+      <line x1="5" y1="12" x2="19" y2="12" />
+      <line x1="13" y1="18" x2="19" y2="12" />
+      <line x1="13" y1="6" x2="19" y2="12" />
+    </svg>
+
+  </button>
+</span>
+
               <!-- Modal -->
               <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
                 <!-- Overlay -->
