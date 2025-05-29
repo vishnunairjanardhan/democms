@@ -18,7 +18,7 @@ keywords: ["99minds"]
 
 Gift cards are like Christmas. Everyone loves it. They are happy as soon as they get one. No wonder gift cards are most popular during the holiday season.
 
-“No, I do not want gift cards,” said no one ever. Can you imagine your friends or family saying that when you offer them one? There are people who collect gift cards (empty ones, though!). No matter what kind of customers you have, online or offline, they wouldn’t mind getting their hands on gift cards to offer it to someone they love. If you think of it, gift cards are an expression of love. It is exactly why businesses should use them- to spread the love! <a href="https://www.99minds.io/blog/why-should-you-use-gift-cards-for-your-business/" target="_blank">Here’s an article on Why Should You Use Gift Cards For Your Business</a>
+“No, I do not want gift cards,” said no one ever. Can you imagine your friends or family saying that when you offer them one? There are people who collect gift cards (empty ones, though!). No matter what kind of customers you have, online or offline, they wouldn’t mind getting their hands on gift cards to offer it to someone they love. If you think of it, gift cards are an expression of love. It is exactly why businesses should use them- to spread the love! <a href="https://www.99minds.io/blog/why-should-you-use-gift-cards-for-your-business" target="_blank">Here’s an article on Why Should You Use Gift Cards For Your Business</a>
 
 ## Reason Why Should Business want Gift Cards
 
@@ -26,7 +26,7 @@ There are several more reasons why a business should get serious about gift card
 
 ### Helps with customer engagement
 
-It is one of the easiest ways to engage with your customer or someone who you would like to be counted as one. Gift cards offer a plethora of marketing opportunities. With the right kind of offer, you can easily use it to engage with your customers over and over. <a href="https://www.99minds.io/blog/ml-techniques-to-improve-customer-engagement" target="_blank">Here’s an article on Using ML Techniques to Improve Customer Engagement</a>.
+It is one of the easiest ways to engage with your customer or someone who you would like to be counted as one. Gift cards offer a plethora of marketing opportunities. With the right kind of offer, you can easily use it to engage with your customers over and over. Here’s an article on Using ML Techniques to Improve <a href="https://www.99minds.io/blog/customer-engagement" target="_blank">Customer Engagement</a>.
 
 ### Build a community
 
@@ -43,11 +43,11 @@ For brands, apart from the money that a gift card fetches, there are also times 
 
 ### Increase customer loyalty
 
-Without a doubt, the customers who purchase from you are the ones who are already in love with your brand and the products you sell. By understanding them and their wants a bit more, you can forge the existing relationship. Customers who feel a strong bond with a company are more likely to purchase, are easy to upsell and cross-sell to, and will be your most vociferous supporters. If you keep making them happy by offering exceptional experiences and stellar products, they will be loyal to you. Here’s an article that can help you build your customer loyalty.
+Without a doubt, the customers who purchase from you are the ones who are already in love with your brand and the products you sell. By understanding them and their wants a bit more, you can forge the existing relationship. Customers who feel a strong bond with a company are more likely to purchase, are easy to upsell and cross-sell to, and will be your most vociferous supporters. If you keep making them happy by offering exceptional experiences and stellar products, they will be loyal to you. Here’s an article that can help you build your <a href="https://www.99minds.io/blog/customer-loyalty" target="_blank">customer loyalty</a>.
 
 ### Result in more sales
 
-We know that one of the simplest ways to convince a business that something is good for them is to tell them that it will increase their sales. We didn’t begin the article with ‘Increase in sales’ as the first benefit of having a gift card program because we wanted to walk you through the other benefits as well.
+We know that one of the simplest ways to convince a business that something is good for them is to tell them that it will increase their sales. We didn’t begin the article with ‘Increase in sales’ as the first benefit of having a <a href="https://www.99minds.io/giftcard" target="_blank">gift card program</a> because we wanted to walk you through the other benefits as well.
 
 The gift card recipient will not completely use up the gift card’s value in the first purchase. So, you are more or less guaranteed a second visit, at least. What does that mean? You have a minimum of two chances to make the customer fall in love with your brand? Understand what they like based on their first visit and offer them an even better experience during their second visit.
 

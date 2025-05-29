@@ -17,7 +17,7 @@ keywords: ["99minds"]
 
 eCommerce adoption has been continually increasing over the past few years. It reached a crescendo with the global pandemic that affected us all since we were forced to buy online. If you have thought of starting an eCommerce store, you won’t find a better time to do it than now.
 
-For your <a href="https://www.99minds.io/blog/customer-loyalty/how-to-build-customer-loyalty-for-your-e-commerce-store/">eCommerce store</a> to perform well, you must have a fully-optimized store with powerful features that makes shopping with you a dream. Having a CRM, providing gift cards, or even adding your <a href="https://www.99minds.io/">loyal customers to a referral program</a> can make a world of difference to your bottom line. Here, we look at strategies to make your store a much-loved one amongst its target audience.
+For your <a href="https://www.99minds.io/blog/how-to-build-customer-loyalty-for-your-e-commerce-store">eCommerce store</a> to perform well, you must have a fully-optimized store with powerful features that makes shopping with you a dream. Having a CRM, providing gift cards, or even adding your <a href="https://www.99minds.io/">loyal customers to a referral program</a> can make a world of difference to your bottom line. Here, we look at strategies to make your store a much-loved one amongst its target audience.
 
 <b>This article looks at some of the must-have features for your eCommerce store.</b>
 <ul>
@@ -51,9 +51,9 @@ It is imperative that you use eCommerce shipping software to ensure that everyth
 
 <li><b>Start loyalty programs:</b></li>
 
-Most of us have been part of <a href="https://www.99minds.io/blog/customer-engagement/how-to-build-customer-loyalty-for-your-e-commerce-store/">loyalty programs</a>. While not every program was the best, the ones that offered us the best returns became our favorite retailers. Like most brands, if you use obsolete loyalty software or strategies, you will have already regretted it. Having the right customer loyalty program could be your secret weapon.
+Most of us have been part of <a href="https://www.99minds.io/blog/loyalty-program">loyalty programs</a>. While not every program was the best, the ones that offered us the best returns became our favorite retailers. Like most brands, if you use obsolete loyalty software or strategies, you will have already regretted it. Having the right customer loyalty program could be your secret weapon.
 
-Customers who are invested in your brand will find more reasons to stay with you. A <a href="https://www.99minds.io/">loyalty program</a> reduces customer churn since loyal customers continually keep getting breaks.
+Customers who are invested in your brand will find more reasons to stay with you. A loyalty program reduces customer churn since loyal customers continually keep getting breaks.
 
 <a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
 
@@ -78,7 +78,7 @@ Here are a few strategies to have fool-proof security:
 
 Want to increase your sales without having to reduce your inventory? Do you want a new set of customers? Do you want to increase brand awareness? The answer to all of them is gift cards. Gift cards are good for the customer and the eCommerce store.
 
-Gift cards are also incredible during the <a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/">holiday season</a> since most people would prefer buying a gift card over a physical gift, as the latter can be a headache since you “have to buy the perfect gift.” They are also easy to distribute, and you can easily expose them to potential customers from other brands.
+Gift cards are also incredible during the <a href="https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales">holiday season</a> since most people would prefer buying a gift card over a physical gift, as the latter can be a headache since you “have to buy the perfect gift.” They are also easy to distribute, and you can easily expose them to potential customers from other brands.
 
 <li><b>Product recommendations:</b></li>
 
