@@ -1165,6 +1165,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"lightspeed-r-shopify-gift-cards-integration.md": {
+	id: "lightspeed-r-shopify-gift-cards-integration.md";
+  slug: "lightspeed-r-shopify-gift-cards-integration";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "loyalty-marketing-strategies.md": {
 	id: "loyalty-marketing-strategies.md";
   slug: "loyalty-marketing-strategies";
@@ -1441,6 +1448,13 @@ declare module 'astro:content' {
 "sell-redeem-and-sync-gift-cards-from-your-hike-pos-with-99minds.md": {
 	id: "sell-redeem-and-sync-gift-cards-from-your-hike-pos-with-99minds.md";
   slug: "sell-redeem-and-sync-gift-cards-from-your-hike-pos-with-99minds";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"sell-redeem-gift-cards-lightspeed-bigcommerce.md": {
+	id: "sell-redeem-gift-cards-lightspeed-bigcommerce.md";
+  slug: "sell-redeem-gift-cards-lightspeed-bigcommerce";
   body: string;
   collection: "posts";
   data: any
