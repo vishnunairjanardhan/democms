@@ -26,7 +26,7 @@ So don’t miss out on this opportunity and start planning your Father’s Day p
 <ol role= "list">
 <h3><li>Redefine your Social Media Game:</h3></li>
 
-Use your <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards/">social media platforms</a> to engage with your audience more during the Father’s Day celebration. One effective technique is to establish a gamified raffle or contest that motivates users to participate and share. You’ll not only <a href="https://www.99minds.io/blog/how-can-small-businesses-can-increase-sales-with-gift-cards/">increase revenues by increasing website traffic</a>, but you’ll also be able to collect new leads and increase consumer interaction with the brand.
+Use your <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards">social media platforms</a> to engage with your audience more during the Father’s Day celebration. One effective technique is to establish a gamified raffle or contest that motivates users to participate and share. You’ll not only <a href="https://www.99minds.io/blog/how-can-small-businesses-can-increase-sales-with-gift-cards">increase revenues by increasing website traffic</a>, but you’ll also be able to collect new leads and increase consumer interaction with the brand.
 In the context of relationship marketing, the ultimate goal is to put your eCommerce business ahead of the competition. Make your online business their first pick for Father’s Day and any other occasion.
 This goal will be easier to attain if you can rely on the guidance of e-gift card strategists who can assist you with the facts you need to forecast your competitors’ actions and strategies.
 
@@ -50,7 +50,7 @@ Given that the lack of free delivery is directly tied to 65 % of cart abandonmen
 
 <h3><li>Exclusive E-Gift Card for Father’s Day:</h3></li>
 
-Online buyers will be hoping to obtain a <a href="https://www.99minds.io/blog/how-to-kick-off-your-sales-on-fathers-day/">discount on Father’s Day sales</a>. To claim the discounted amount, create an exclusive e-gift card that is only valid for a limited time. This will generate a sense of urgency to shop, increasing sales as more customers visit your business to take advantage of the discounted price before it expires. To get the most traffic to your website, promote it everywhere. To have the task done rightly, you can use our gift cards.
+Online buyers will be hoping to obtain a <a href="https://www.99minds.io/blog/how-to-kick-off-your-sales-on-fathers-day">discount on Father’s Day sales</a>. To claim the discounted amount, create an exclusive e-gift card that is only valid for a limited time. This will generate a sense of urgency to shop, increasing sales as more customers visit your business to take advantage of the discounted price before it expires. To get the most traffic to your website, promote it everywhere. To have the task done rightly, you can use our gift cards.
 </ol>
 
 <h2>Final Thoughts:</h2>

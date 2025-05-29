@@ -13,10 +13,10 @@ url: "https://www.99minds.io/blog/innovations-in-e-commerce"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/ecommerce/innovations-in-e-commerce//" target="_blank">
+<a href="https://www.99minds.io/blog/innovations-in-e-commerce" target="_blank">
 <img src="/assets/blog/Innovations-in-e-commerce.jpg"></a>
 
-Setting up an online store alone will not give you magical sales numbers. <a href="https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday/" target="_blank">eCommerce stores are an essential part of our day-to-day lives</a>. You cannot survive in the market by doing the bare minimum. Offering a seamless and delightful experience to your customers every single time should be your goal. For that, you must leverage the latest innovations to keep your customers invested in your brand.
+Setting up an online store alone will not give you magical sales numbers. <a href="https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday" target="_blank">eCommerce stores are an essential part of our day-to-day lives</a>. You cannot survive in the market by doing the bare minimum. Offering a seamless and delightful experience to your customers every single time should be your goal. For that, you must leverage the latest innovations to keep your customers invested in your brand.
 
 Let’s look at some of the innovations in eCommerce that will bolster the industry for the year 2023 and beyond:
 
@@ -31,7 +31,7 @@ In the absence of data from 3rd party cookies, eCommerce stores will depend on f
 
 <h2>Sensory shopping</h2>
 
-Online retailers will soon be offering sensory experiences through VR, AR, video, and conversational AI. For decades, some of the <a href="https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses/" target="_blank">biggest retailers</a> in the world have used multi-sensory atmospheres to create a perception amongst their clientele. The same will be a regular fixture in eCommerce stores too.
+Online retailers will soon be offering sensory experiences through VR, AR, video, and conversational AI. For decades, some of the <a href="https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses" target="_blank">biggest retailers</a> in the world have used multi-sensory atmospheres to create a perception amongst their clientele. The same will be a regular fixture in eCommerce stores too.
 
 <h2>Livestream commerce</h2>
 
@@ -39,13 +39,13 @@ In Livestream commerce, videos of products are streamed, which can be bought by 
 
 <h2>Improved attribution models</h2>
 
-The buyer’s journey is never straightforward, isn’t it? Your customers traverse through a variety of <a href="https://www.99minds.io/blog/6-mothers-day-marketing-ideas-for-ecommerce-businesses/" target="_blank">marketing channels</a>, like emails, <a href="https://www.facebook.com/" target="_blank">Facebook</a>, <a href="https://www.instagram.com/" target="_blank">Instagram</a>, etc., before they buy from your store. So who do you attribute the sale to? Most eCommerce retailers attribute the sale to the last channel that the customer clicked before the purchase. The chances are that it might not always be the one that heavily contributed to the sale.
+The buyer’s journey is never straightforward, isn’t it? Your customers traverse through a variety of <a href="https://www.99minds.io/blog/6-mothers-day-marketing-ideas-for-ecommerce-businesses" target="_blank">marketing channels</a>, like emails, <a href="https://www.facebook.com/" target="_blank">Facebook</a>, <a href="https://www.instagram.com/" target="_blank">Instagram</a>, etc., before they buy from your store. So who do you attribute the sale to? Most eCommerce retailers attribute the sale to the last channel that the customer clicked before the purchase. The chances are that it might not always be the one that heavily contributed to the sale.
 
-The problem with the above scenario is that the eCommerce site ends up spending ad money on the last-clicked channel. Thankfully, there are on-platform attribution modeling platforms that send real-time attribution tracking to a dashboard. It helps the business see the emails, ads, videos, <a href="https://www.99minds.io/blog/how-to-use-gift-cards-in-sms-marketing/" target="_blank">SMSes</a>, etc., that the visitor viewed and track them through to the point of conversion. This level of accuracy helps marketers spend their ad dollars on channels that create the most impact.
+The problem with the above scenario is that the eCommerce site ends up spending ad money on the last-clicked channel. Thankfully, there are on-platform attribution modeling platforms that send real-time attribution tracking to a dashboard. It helps the business see the emails, ads, videos, <a href="https://www.99minds.io/blog/how-to-use-gift-cards-in-sms-marketing" target="_blank">SMSes</a>, etc., that the visitor viewed and track them through to the point of conversion. This level of accuracy helps marketers spend their ad dollars on channels that create the most impact.
 
 <h2>Subscription-based eCommerce</h2>
 
-Research by Kearney says that 50% of people who purchase weekly are open to the concept of subscriptions. This is a good enough reason for <a href="https://www.99minds.io/blog/how-to-build-customer-loyalty-for-subscription-as-a-service/" target="_blank">eCommerce stores to invest in infrastructure for subscriptions</a>. The best thing about subscriptions is that it is convenient for the customer and promises recurring revenue for the eCommerce store.
+Research by Kearney says that 50% of people who purchase weekly are open to the concept of subscriptions. This is a good enough reason for <a href="https://www.99minds.io/blog/how-to-build-customer-loyalty-for-subscription-as-a-service" target="_blank">eCommerce stores to invest in infrastructure for subscriptions</a>. The best thing about subscriptions is that it is convenient for the customer and promises recurring revenue for the eCommerce store.
 
 While not every store will be able to sell its products via subscriptions, the ones that can afford to do so should study which products are best for it. Below are the following features that you must add to the subscription eCommerce setup:
 
@@ -67,7 +67,7 @@ The target customers for BNPL are millennials and Gen Z. For customers, BNPL is 
 
 <h2>Loyalty programs</h2>
 
-Even though loyalty programs aren’t new, you will see them evolving as the years go by. <a href="https://www.99minds.io/blog/what-constitutes-a-good-loyalty-program/v" target="_blank">Loyalty programs are extremely beneficial for eCommerce stores </a> since loyalty is finicky. According to a <a href="https://www.bain.com/insights/prescription-for-cutting-costs-bain-brief/" target="_blank">Bain & Company</a> report, the ability to earn rewards changes the spending behavior of customers. This is where loyalty programs come in.
+Even though loyalty programs aren’t new, you will see them evolving as the years go by. <a href="https://www.99minds.io/blog/what-constitutes-a-good-loyalty-program" target="_blank">Loyalty programs are extremely beneficial for eCommerce stores </a> since loyalty is finicky. According to a <a href="https://www.bain.com/insights/prescription-for-cutting-costs-bain-brief/" target="_blank">Bain & Company</a> report, the ability to earn rewards changes the spending behavior of customers. This is where loyalty programs come in.
 
 Most loyalty programs fall into four categories: points, tiers, social media, and paid programs. The most popular loyalty program is <a href="https://www.amazon.com/amazonprime?pd_rd_w=cFL2H&content-id=amzn1.sym.1cf19434-e068-4b11-beb6-3d982de1d630:amzn1.sym.1cf19434-e068-4b11-beb6-3d982de1d630&pf_rd_p=1cf19434-e068-4b11-beb6-3d982de1d630&pf_rd_r=13BMHMZZM7ZJC6Q1E04Q&pd_rd_wg=U7DAe&pd_rd_r=d69e2a21-6984-4436-b155-582d6e9e7e64&qid=1680243827&ref=sxts_aspa_qna&c_c=-74066531" target="_blank">Amazon Prime</a>. From one-day shipping on millions of products to a variety of other perks, Amazon makes sure that you get more from its Prime subscription than the dollar value that you pay. No wonder it has 200 million plus members. Loyalty programs are effective at driving customer retention, boosting customer lifetime value, and increasing loyalty. Once you have a greater idea of your customers by using data, identify perks that work best.
 
@@ -89,7 +89,7 @@ Some of the most popular eCommerce platforms have begun to offer visual search c
 
 In the world of eCommerce, there is nothing constant. What is new today and considered innovative might become obsolete. A case in point is <a href="https://www.bbc.com/news/technology-37224691" target="_blank">Amazon’s Dash Button</a>, an electronic device that was designed to make product ordering easy. Innovative? Yes. Did people love it? Not really. At the end of the day, that’s what matters. Your innovativeness should be lapped up by your target audience.
 
-If you are looking for a platform that helps in setting up <a href="https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs/" target="_blank">loyalty programs for your eCommerce store</a>, get in touch with us. We will be more than happy to create a <a href="https://www.99minds.io/blog/promotional-codes" target="_blank">promotional</a> program for you.
+If you are looking for a platform that helps in setting up <a href="https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs" target="_blank">loyalty programs for your eCommerce store</a>, get in touch with us. We will be more than happy to create a <a href="https://www.99minds.io/blog/promotional-codes" target="_blank">promotional</a> program for you.
 
 
 
