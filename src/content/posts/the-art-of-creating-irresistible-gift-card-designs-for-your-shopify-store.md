@@ -58,21 +58,21 @@ Observe the customer journey and find ways to provide the best possible customer
 
 <h3><li>Choose From the Templates:</li></h3>
 
-If you were to use a <a href="https://www.99minds.io/blog/we-are-live-with-giftcard-platform-on-bigcommerce/">gift card platform</a>, they will add different gift card design templates for you to get started. For those who don’t have the necessary design skills, this could act as a starter. All you need to do is drag-and-drop the necessary elements into your gift card template. It can be readied in a matter of few minutes.
+If you were to use a <a href="https://www.99minds.io/blog/we-are-live-with-giftcard-platform-on-bigcommerce">gift card platform</a>, they will add different gift card design templates for you to get started. For those who don’t have the necessary design skills, this could act as a starter. All you need to do is drag-and-drop the necessary elements into your gift card template. It can be readied in a matter of few minutes.
 
 <h3><li>Keep the Design Minimal:</li></h3>
 
-You don’t want to overdo your gift card design, only to end up with something that is unremarkable. <a href="https://www.99minds.io/blog/sell-redeem-and-sync-gift-cards-from-your-hike-pos-with-99minds/">Using the gift card, redeeming its value</a>, or getting refund should be a smooth process. For example, people find it difficult to copy-paste the codes if they are not easy to copy to a clipboard. This single design change reduces the friction associated with using your gift cards. Send feedback survey forms to customers to see if they are finding any trouble using your gift cards.
+You don’t want to overdo your gift card design, only to end up with something that is unremarkable. <a href="https://www.99minds.io/blog/sell-redeem-and-sync-gift-cards-from-your-hike-pos-with-99minds">Using the gift card, redeeming its value</a>, or getting refund should be a smooth process. For example, people find it difficult to copy-paste the codes if they are not easy to copy to a clipboard. This single design change reduces the friction associated with using your gift cards. Send feedback survey forms to customers to see if they are finding any trouble using your gift cards.
 
 <h3><li>Create Excellent Designs for Emails Too:</li></h3>
 
-Your email marketing is one of your most powerful marketing assets. With an ROI that exceeds <a href="https://www.litmus.com/blog/infographic-the-roi-of-email-marketing">4,200%</a> you cannot slack when it comes to sending emails about your gift cards.
+Your email marketing is one of your most powerful marketing assets. With an ROI that exceeds 4,200% you cannot slack when it comes to sending emails about your gift cards.
 
 The gift card recipient should be able to go straight to the shopping page with money added to their gift card’s digital wallet. A proper gift card email design mainly involves making it attractive while scoring high on utility points.
 
 <h3><li>Below are the best times to send gift card newsletters</li></h3>
 <ul>
-    <li><a href="https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/">The festival season is a great time to spread the festive cheer by introducing gift cards</a>with a variety of perks</li>
+    <li><a href="https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales">The festival season is a great time to spread the festive cheer by introducing gift cards</a>with a variety of perks</li>
     <li>Don’t miss the contact’s birthday. Provide them with a discount on their special day</li>
     <li>If the customer has been inconvenienced in any manner, it would be a great idea to pacify them with a gift card</li>
     <li>Another great time to send gift card emails is when a milestone is achieved or during an anniversary for the business</li>
@@ -86,7 +86,7 @@ Every happy experience that your customers get acts as a trigger in involving ot
 
 <h3><li>Get Creative With the Design</li></h3>
 
-Even though gift cards are loved universally by their recipients, it wouldn’t hurt to create inspiring and interesting designs. In fact, by doing so, you increase the chances of it being bought by customers. Your gift card designs should be replete with <a href="https://www.99minds.io/blog/gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine/">emotions that strike a chord with your target audience</a>. Animated GIFs and other interactive features can be great additions to your gift card design. Make sure that your gift card design matches with your overall website’s design. 
+Even though gift cards are loved universally by their recipients, it wouldn’t hurt to create inspiring and interesting designs. In fact, by doing so, you increase the chances of it being bought by customers. Your gift card designs should be replete with <a href="https://www.99minds.io/blog/gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine">emotions that strike a chord with your target audience</a>. Animated GIFs and other interactive features can be great additions to your gift card design. Make sure that your gift card design matches with your overall website’s design. 
 </ul>
 </ol>
 

@@ -112,7 +112,7 @@ Store credits help ecommerce businesses build recurring users and regain their u
 You can also set up a <a href="https://www.99minds.io/store-credit" role="link" target="_blank">store credit</a> program on your store. 
 The store credit functionality at <a href="http://www.99minds.io" role="link" target="_blank">99minds</a> makes credit administration easier for online firms. It's flexible, automated, and works smoothly with existing systems. It’s easy to use and even provides powerful analytics to make educated decisions. Overall, it simplifies processes and enhances the customer experience.</li>
 
-<a role="link" href="https://www.99minds.io/storecredit" target="_blank"><img role="img" loading="lazy" class="m-auto lg:w-3/5 py-6" src="/assets/blog/store-credit-banner.webp" alt="Store credit at 99minds"></a>
+<a role="link" href="https://www.99minds.io/store-credit" target="_blank"><img role="img" loading="lazy" class="m-auto lg:w-3/5 py-6" src="/assets/blog/store-credit-banner.webp" alt="Store credit at 99minds"></a>
 
 <li><h3>Email Marketing</h3> Use email marketing to build relationships with your clients and boost revenue. Develop email campaigns that focus on providing useful information, announcing promotions, and increasing leads. Use custom landing pages and automation tools to simplify your email marketing and increase engagement.</li>
 
