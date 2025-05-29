@@ -21,18 +21,18 @@ Many firms had quick digital transformations as a result of the pandemic, which 
 
 <h2>A Good Stack Has Its Own Benefits</h2>
 
-Your martech stack refers to how you’ve arranged or stacked your marketing technology tools. Instead of embracing a <a href="https://www.99minds.io/blog/essential-marketing-tools-for-2021/">new marketing tool every few months</a>, you should have a systematic approach to your technology usage, regardless of how exciting or inventive each new app you hear about. Each platform or software should complement or support the others so that everyone in marketing, as well as sales, finance, and other departments, is on the same page at all times.
+Your martech stack refers to how you’ve arranged or stacked your marketing technology tools. Instead of embracing a <a href="https://www.99minds.io/blog/essential-marketing-tools-for-2021">new marketing tool every few months</a>, you should have a systematic approach to your technology usage, regardless of how exciting or inventive each new app you hear about. Each platform or software should complement or support the others so that everyone in marketing, as well as sales, finance, and other departments, is on the same page at all times.
 
 Having a well-thought-out stack allows you to reap the benefits of each piece of technology and helps to streamline interactions within your company. This will help you stay on track and focused on your objectives.
 
 <h2>What Role Does 99minds Play in Your Marketing Technology Stack?</h2>
 <ul>
 <ol>
-<li>99minds excels at creating targeted marketing strategies and delivering an <a href="https://www.99minds.io/blog/benefits-of-omnichannel-loyalty-programs/">omnichannel customer experience</a>. This ultimately saves our customers’ time and money.</li>
-<li>99minds enables you to develop and track dynamic <a href="https://www.99minds.io/blog/benefits-of-omnichannel-loyalty-programs/">promotional vouchers</a> in order to gain insight into usage and lower promotional marketing costs.</li>
-<li>Coupon promotions via 99minds enable you to utilize <a href="https://www.99minds.io/blog/benefits-of-omnichannel-loyalty-programs/">coupons to achieve business objectives</a>, such as recruiting new consumers, developing email lists, improving the average order value of sales, marketing products, or rewarding loyal customers.</li>
+<li>99minds excels at creating targeted marketing strategies and delivering an omnichannel customer experience. This ultimately saves our customers’ time and money.</li>
+<li>99minds enables you to develop and track dynamic promotional vouchers in order to gain insight into usage and lower promotional marketing costs.</li>
+<li>Coupon promotions via 99minds enable you to utilize coupons to achieve business objectives, such as recruiting new consumers, developing email lists, improving the average order value of sales, marketing products, or rewarding loyal customers.</li>
 <li>To open the door to creative avenues, 99minds has integrated with a variety of applications and platforms. It’s as simple as plugging it in and turning it on. Our customers benefit as a result of this.</li>
-<li>99minds is a one-stop-shop for <a href="https://www.99minds.io/blog/benefits-of-omnichannel-loyalty-programs/">customer acquisition</a>, retention, and engagement. What could be better than receiving all of your e-commerce services in one place?</li>
+<li>99minds is a one-stop-shop for customer acquisition, retention, and engagement. What could be better than receiving all of your e-commerce services in one place?</li>
 </ul>
 </ol>
 

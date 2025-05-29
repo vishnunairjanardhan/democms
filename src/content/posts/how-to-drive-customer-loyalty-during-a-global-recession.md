@@ -13,12 +13,12 @@ url: "https://www.99minds.io/blog/how-to-drive-customer-loyalty-during-a-global-
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/customer-loyalty/how-to-drive-customer-loyalty-during-a-global-recession/" target="_blank">
-<img src="/assets/blog/How-to-drive-customer-loyalty-during-a-Global-Recession-1.jpg"></a>
 
-These are tough times. We are sure that there are thousands of blogs highlighting how crucial <a href="https://www.99minds.io/blog/types-of-customer-loyalty-programs/" target="_blank">customer loyalty</a> is. The world is on the brink of a recession. Pockets are going to be tight. Spending will be frugal. People will have their guard up, thanks to the uncertainty associated with the global recession.
+<img src="/assets/blog/How-to-drive-customer-loyalty-during-a-Global-Recession-1.jpg" >
 
-Your loyal customers will most likely stay with you and spend more on each transaction than others. Essential products will be sold more than ones that are nice to have. With people displaying prudent spending behavior, your brand needs to remind customers that you value their association. Thankfully, there are a few steps that you can take to drive <a href="https://www.99minds.io/blog/customer-loyalty-programs-will-they-benefit-my-business/" target="_blank">customer loyalty during times of recession</a>.
+These are tough times. We are sure that there are thousands of blogs highlighting how crucial <a href="https://www.99minds.io/blog/customer-loyalty" target="_blank">customer loyalty</a> is. The world is on the brink of a recession. Pockets are going to be tight. Spending will be frugal. People will have their guard up, thanks to the uncertainty associated with the global recession.
+
+Your loyal customers will most likely stay with you and spend more on each transaction than others. Essential products will be sold more than ones that are nice to have. With people displaying prudent spending behavior, your brand needs to remind customers that you value their association. Thankfully, there are a few steps that you can take to drive customer loyalty during times of recession.
 
 <h2>Create an emotional connection</h2>
 
@@ -31,7 +31,7 @@ When a customer feels that they are being valued, the chances of them choosing a
 <li> Engage with customers even if they aren’t actively purchasing from you. It will make them feel that they are a part of “your” community.</li>
 <li> Allow customers to earn points without even having to buy anything from you.</li>
 <li> Send push notifications to customers and encourage them to interact with your content for 
-<a href="https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges/" target="_blank">incentives</a>.</li>
+<a href="https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges" target="_blank">incentives</a>.</li>
 </ul>
 </ol>
 
@@ -58,13 +58,13 @@ Heard of the 1% rule? It is a theoretical concept where you strive to improve ev
 
 <h2>Find new ways to reward customers</h2>
 
-One of the easiest ways to increase the <a href="https://www.99minds.io/blog/how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween/" target="_blank">customer-brand relationship is by rewarding customers</a>. 75% of customers expect brands to contribute to their well-being and quality of life. Brands should be vying to one-up each other by rewarding loyal customers. There is no better time to find better rewards than now.
+One of the easiest ways to increase the <a href="https://www.99minds.io/blog/how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween" target="_blank">customer-brand relationship is by rewarding customers</a>. 75% of customers expect brands to contribute to their well-being and quality of life. Brands should be vying to one-up each other by rewarding loyal customers. There is no better time to find better rewards than now.
 
 Rewards make your customers keep coming back for you, instead of exploring cheaper options during an economic downturn. You can take up the services of a customer loyalty program partner. They would help you set up a system that lets you reward your customers for a variety of activities. Keeping them hooked to your brand should be your biggest priority, and a good loyalty program software has several features, including the incredibly popular gamification option.
 
 <h2>Use social media extensively</h2>
 
-Leveraging social media, even during normal times, is a no-brainer. Hear us out. Use social media sites to engage your customers, answer their queries, respond to concerns, ask for recommendations on your products and services, and so on. You will be sitting on a goldmine of data if you learn to <a href="https://www.99minds.io/blog/how-to-use-gift-card-in-social-media-marketing/" target="_blank">use social media effectively</a>. Conduct extensive customer surveys where you ask them specific pointers on what can be improved. Find out what motivates them to buy from you.
+Leveraging social media, even during normal times, is a no-brainer. Hear us out. Use social media sites to engage your customers, answer their queries, respond to concerns, ask for recommendations on your products and services, and so on. You will be sitting on a goldmine of data if you learn to <a href="https://www.99minds.io/blog/how-to-use-gift-card-in-social-media-marketing" target="_blank">use social media effectively</a>. Conduct extensive customer surveys where you ask them specific pointers on what can be improved. Find out what motivates them to buy from you.
 
 You can even engage in pointless banter. Even frivolous updates end up going viral, and as long as it isn’t anything offensive or bigoted, it will only help your brand. Talk about a cause that your brand cares about. It is as much a tool for brand engagement as it is about forging deeper relationships with customers.
 
@@ -111,9 +111,8 @@ Collect feedback from customers regularly to understand what they are looking fo
 
 Make customer experience a focal point. Businesses that keep prioritizing customer experience will always be well-liked and frequented by their customers and will be able to create loyal ones who will stay with you, recession or not. If you are a business that is aware of the global business scenario, you must come up with strategies that will help you build and develop trust that will result in lifelong loyalty.
 
-If you are looking for an 
-<a href="https://www.99minds.io/blog/what-makes-a-loyalty-program-successful/" target="_blank">online loyalty program to increase the number of advocates for your brand</a>, you are in the right place. With the threat of a recession looming large, you are better off choosing a program that will bring cheer to your customers. Let the team at 
-<a href="https://www.99minds.io/" target="_blank">99minds </a>help you with it.
+If you are looking for an online loyalty program to increase the number of advocates for your brand, you are in the right place. With the threat of a recession looming large, you are better off choosing a program that will bring cheer to your customers. Let the team at 
+<a href="https://www.99minds.io/" target="_blank">99minds</a>help you with it.
 
 
 
