@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/how-and-why-you-should-use-digital-rewards-for
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/generic/how-and-why-you-should-use-digital-rewards-for-workplace-gamification/">
-<img src="/assets/blog/How-and-Why-You-Should-Use-Digital-Rewards-for-Workplace-Gamification3.jpg"></a>
+
+<img src="/assets/blog/How-and-Why-You-Should-Use-Digital-Rewards-for-Workplace-Gamification3.jpg">
 
 Who doesn’t love games? What if you could motivate your employees using workplace gamification? With Millennials and Gen Z “hogging” the workforce, you shouldn’t be surprised employers are using games to keep them motivated and engaged. It seems like a natural progression.
 
@@ -56,7 +56,7 @@ Companies can use gamification to make the learning process much more engaging. 
 <ol>
 <li>You can set step targets for employees as a part of your internal wellness program. Or you could incorporate some health challenges that are time-bound. Add lucrative incentives to complete tasks.</li>
 <li>Design a program where the employee who gets the work done in the minimum amount of time gets rewards.</li>
-<li>Assign points for each work completed, and the <a href="https://www.99minds.io/blog/gift-cards-the-perfect-employee-reward-for-your-workforce/" target="_blank">employee gets rewarded</a> at the end of a quarter.</li>
+<li>Assign points for each work completed, and the <a href="https://www.99minds.io/blog/gift-cards-the-perfect-employee-reward-for-your-workforce" target="_blank">employee gets rewarded</a> at the end of a quarter.</li>
 <li>You can add a sense of spontaneity in the workplace by giving instant rewards for completing a particular task.</li>
 <li>Interactive leaderboards can be used to track employee performances quantitatively to increase their performance and keep them motivated.</li>
 <li>Eliminate boredom from mundane and repetitive tasks by adding gamification techniques such as progress bars.</li>
@@ -70,7 +70,7 @@ There are endless ways to gamify the workplace and benefit from it. It gives you
 <ol>
 <h3><li>Leaderboards:</li></h3>
 
-It is a gamification method that boosts competition at the workplace in a fun way. Since there is only one winner, you can offer a bumper reward. The leaderboard inspires friendly competition while helping employees give their best for an <a href="https://www.99minds.io/blog/how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween/" target="_blank">exciting reward</a>.
+It is a gamification method that boosts competition at the workplace in a fun way. Since there is only one winner, you can offer a bumper reward. The leaderboard inspires friendly competition while helping employees give their best for an <a href="https://www.99minds.io/blog/how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween" target="_blank">exciting reward</a>.
 
 <a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
@@ -86,7 +86,7 @@ The peer recognition system allows colleagues to applaud each other’s success 
 
 <h3><li>Scavenger hunts:</li></h3>
 
-An easy way to make training engaging for your employees is through scavenger hunts. It can also be a team-building activity where employees are divided into different groups to complete tasks. It <a href="https://www.99minds.io/blog/ml-techniques-to-improve-customer-engagement/" target="_blank">increases camaraderie and increases engagement</a> toward the task.
+An easy way to make training engaging for your employees is through scavenger hunts. It can also be a team-building activity where employees are divided into different groups to complete tasks. It increases camaraderie and increases engagement toward the task.
 
 <h3><li>Levels:</li></h3>
 
@@ -121,7 +121,7 @@ Let’s look at a few best practices to make gamification work for your company:
 
 Gamification helps employees align their goals with the company. It initiates conversations with the leadership team about performance and targets. The badges, leaderboard positions, peer recognition, and progress tracking are good motivators for employees. If you want to increase the stakes, allow employees to get their rewards in gift cards.
 
-Digital gift cards deliver the power of choice for your customers. Since they can be redeemed immediately, <a href="https://www.99minds.io/blog/why-are-digital-gift-cards-essential-to-your-e-commerce-business/" target="_blank">digital gift cards incentivize employees to exceed expectations</a>.
+Digital gift cards deliver the power of choice for your customers. Since they can be redeemed immediately, <a href="https://www.99minds.io/blog/why-are-digital-gift-cards-essential-to-your-e-commerce-business" target="_blank">digital gift cards incentivize employees to exceed expectations</a>.
 
 <h2>Wrapping up:</h2>
 
