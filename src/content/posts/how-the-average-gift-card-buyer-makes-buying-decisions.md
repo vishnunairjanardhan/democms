@@ -13,12 +13,12 @@ url: "https://www.99minds.io/blog/how-the-average-gift-card-buyer-makes-buying-d
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/gift-card/how-the-average-gift-card-buyer-makes-buying-decisions//" target="_blank">
-<img src="/assets/blog/how-the-average-gift-card-buyer-makes-buying-decisions1-1.jpg"></a>
+
+<img rel="preload" role="img" src="/assets/blog/how-the-average-gift-card-buyer-makes-buying-decisions1-1-800x450.jpg" alt="How the average gift card buyer makes buying decisions">
 
 If you are into retail, now is the time for you to up your gift card game. Businesses need to change their mindset when it comes to gift cards, it is usually considered as a part of a marketing exercise. <a href="https://www.99minds.io/giftcard" target="_blank">Gift cards</a> can be much more than that, it should be part of your customer service function too.
 
-With Covid happening, there will be a lot of changes in the shopping habits of consumers. The number of people lining up in front of stores to buy from their favorite brands might not happen anytime soon. People are happy shopping online and <a href="https://www.99minds.io/blog/why-are-digital-gift-cards-essential-to-your-e-commerce-business/" target="_blank">digital gifting is inevitably the best option for businesses to spread cheer</a>, at least a bit.
+With Covid happening, there will be a lot of changes in the shopping habits of consumers. The number of people lining up in front of stores to buy from their favorite brands might not happen anytime soon. People are happy shopping online and digital gifting is inevitably the best option for businesses to spread cheer, at least a bit.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
 <img src="/assets/blog/CTA-IMAGES-easter.jpg"></a>

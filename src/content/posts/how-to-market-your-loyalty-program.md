@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/how-to-market-your-loyalty-program"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/generic/10-best-point-of-sale-pos-systems-for-2022/">
-<img src="/assets/blog/How-to-Market-your-Loyalty-Program.jpg"></a>
+
+<img src="/assets/blog/How-to-Market-your-Loyalty-Program.jpg">
 
 <h2>What is the best way to market your loyalty program?</h2>
 
@@ -24,7 +24,7 @@ Before we begin, let’s take a glance at why a
 In a survey, 90% of respondents said that they will prefer the same brand over a less expensive option if they’re a member of a loyalty program.
 When it comes to the company’s overall strategy, 66.4 % consider customer loyalty and loyalty marketing to be important.
 
-More than half of US adults now belong to at least one loyalty program So how do you market your <a href="https://www.99minds.io/blog/how-do-loyalty-programs-help-the-pet-industry/" target="_blank">loyalty program</a> and enjoy all of these payoffs? Let’s see…
+More than half of US adults now belong to at least one loyalty program So how do you market your <a href="https://www.99minds.io/blog/how-do-loyalty-programs-help-the-pet-industry" target="_blank">loyalty program</a> and enjoy all of these payoffs? Let’s see…
 <ul>
 <ol>
 <h3><li>EMAILS:</li></h3>
@@ -53,7 +53,7 @@ Involve Loyalty Program Members in Case Studies by nurturing them through email 
 
 Email isn’t simply for keeping in touch with customers who have got a $20 discount on their first order. It can be used to strengthen bonds between you and your loyal members of your loyalty program.
 
-It will be helpful to approach their involvement in case studies if you have built a stronger relationship with them. When a customer says something good about us, it’s always more trustworthy than when we declare it ourselves. If customers agree to have their stories published you can leverage their thoughts on your website, in marketing, and on <a href="https://www.99minds.io/blog/how-to-use-gift-card-in-social-media-marketing/" target="_blank">social sites</a>.
+It will be helpful to approach their involvement in case studies if you have built a stronger relationship with them. When a customer says something good about us, it’s always more trustworthy than when we declare it ourselves. If customers agree to have their stories published you can leverage their thoughts on your website, in marketing, and on <a href="https://www.99minds.io/blog/how-to-use-gift-card-in-social-media-marketing" target="_blank">social sites</a>.
 
 <h3><li>SOCIAL MEDIA</li></h3>
 
