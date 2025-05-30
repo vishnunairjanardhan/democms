@@ -1186,6 +1186,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"loyalty-program-strategy.md": {
+	id: "loyalty-program-strategy.md";
+  slug: "loyalty-program-strategy";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "loyalty-program-successful.md": {
 	id: "loyalty-program-successful.md";
   slug: "loyalty-program-successful";
@@ -1443,7 +1450,7 @@ declare module 'astro:content' {
   slug: "sell-redeem-gift-cards-lightspeed-bigcommerce";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "send-bulk-gift-cards-using-klaviyo.md": {
 	id: "send-bulk-gift-cards-using-klaviyo.md";
