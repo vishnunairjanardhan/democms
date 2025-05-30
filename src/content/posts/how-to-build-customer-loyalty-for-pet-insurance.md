@@ -15,13 +15,13 @@ keywords: ["99minds"]
 ---
 <img src="/assets/blog/Loyalty-for-pet-insurance2-1.jpg" alt="Customer loyalty for pet insurance">
 
-On social media, the most popular videos are of pets doing random things. In fact, research says that watching these videos is good for our health as it lifts our mood. Why? Because everyone loves animals and the comfort and joy of bringing up one is a great responsibility and a privilege. No wonder that there is a huge market for anything related to taking care of pets. <a href="https://www.researchandmarkets.com/reports/4431942/global-animal-healthcare-market-size-market">The global animal healthcare market is expected to reach $53,420 million by 2025.</a>
+On social media, the most popular videos are of pets doing random things. In fact, research says that watching these videos is good for our health as it lifts our mood. Why? Because everyone loves animals and the comfort and joy of bringing up one is a great responsibility and a privilege. No wonder that there is a huge market for anything related to taking care of pets. The global animal healthcare market is expected to reach $53,420 million by 2025.
 
-Did you know during the period 2019-2025, the global pet insurance market is expected to grow at a CAGR of 20%? The pet insurance market is catching up in developing countries as well, and people are willing to spend money to give their pets a safe, healthy, and secure life. More than <a href="https://www.reportlinker.com/p05840005/Pet-Insurance-Market-Global-Outlook-and-Forecast.html?utm_source=PRN">$72 billion was spent by The US household spent on pet medical insurance.</a>
+Did you know during the period 2019-2025, the global pet insurance market is expected to grow at a CAGR of 20%? The pet insurance market is catching up in developing countries as well, and people are willing to spend money to give their pets a safe, healthy, and secure life. More than $72 billion was spent by The US household spent on pet medical insurance.
 
 <h2>Build Customer Loyalty For Pet Insurance Industry</h2>
 
-If you are in the pet insurance industry, here is how you can build <a href="https://www.99minds.io/blog/customer-loyalty-programs-will-they-benefit-my-business">customer loyalty</a>
+If you are in the pet insurance industry, here is how you can build <a href="https://www.99minds.io/blog/customer-loyalty">customer loyalty</a>
 
 ### Simple claims process:
 
@@ -57,12 +57,12 @@ Publish exclusive information that talks about keeping their pets hale and heart
 
 ### Loyalty program:
 
-Get the help of a loyalty platform like 99minds, which will give the <a href="https://www.99minds.io/loyalty">customers options to earn and redeem points</a>. There are different types of <a href="https://www.99minds.io/blog/referral-program">reward programs</a> that you can choose based on what works best for your business and customers. 
+Get the help of a loyalty platform like 99minds, which will give the customers options to earn and redeem points. There are different types of reward programs that you can choose based on what works best for your business and customers. 
 
 Here are some of the loyalty options that you can choose for your pet insurance business:
 
 <ul>
-<li>You can have a <a href="https://www.99minds.io/loyalty">points system</a> where the more they spend, the higher are the returns.</li>
+<li>You can have a points system where the more they spend, the higher are the returns.</li>
 <li>Customers need to pay a membership fee to be a part of an exclusive club where they will be able to get a lot of benefits. A paid club will only work when your brand is highly recognizable.</li>
 <li><a href="https://www.99minds.io/blog/tiered-loyalty-program">Tier-based loyalty program</a> where they will be inducted into different tiers based on their spending with you. The higher the tier, the bigger the benefits.</li>
 <li>Create a community of like-minded customers where they can connect with each other, socialize, get access to exclusive events, and so on.</li>
@@ -72,4 +72,4 @@ Here are some of the loyalty options that you can choose for your pet insurance 
 
 The actions you take, the emails you send, the phone calls you make, the empathy that you show, and the process that is put in place- these are all the things that create customer loyalty. Customers will understand the universal language of care. All they want from you as a pet insurance company is to take care of their pet’s needs when it is affected the most. If you can do that consistently without any shortcuts, your customer’s loyalty will never be something that you would have to worry about.
 
-<a href="https://www.99minds.io/">99minds</a> empowers its customers in the pet insurance industry to remain extremely competitive by designing loyalty programs that are best suited for its audience. With our heavily customizable platform, we will be able to help you ideate, design, and create a <a href="https://www.99minds.io/loyalty">loyalty program</a> like no other. Get on a call with the loyalty program experts to know more about us and how we can help you.
+<a href="https://www.99minds.io/">99minds</a> empowers its customers in the pet insurance industry to remain extremely competitive by designing loyalty programs that are best suited for its audience. With our heavily customizable platform, we will be able to help you ideate, design, and create a <a href="https://www.99minds.io/blog/loyalty-program">loyalty program</a> like no other. Get on a call with the loyalty program experts to know more about us and how we can help you.

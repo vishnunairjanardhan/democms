@@ -220,13 +220,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md": {
-	id: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md";
-  slug: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024.md": {
 	id: "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024.md";
   slug: "21-ways-to-prepare-your-shopify-store-for-the-holidays-in-2024";
@@ -1186,6 +1179,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"loyalty-program-strategy.md": {
+	id: "loyalty-program-strategy.md";
+  slug: "loyalty-program-strategy";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"loyalty-program-strategy.md": {
+	id: "loyalty-program-strategy.md";
+  slug: "loyalty-program-strategy";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "loyalty-program-successful.md": {
 	id: "loyalty-program-successful.md";
   slug: "loyalty-program-successful";
@@ -1443,7 +1450,7 @@ declare module 'astro:content' {
   slug: "sell-redeem-gift-cards-lightspeed-bigcommerce";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "send-bulk-gift-cards-using-klaviyo.md": {
 	id: "send-bulk-gift-cards-using-klaviyo.md";
