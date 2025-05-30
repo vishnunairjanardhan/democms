@@ -213,6 +213,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"11-best-practices-for-profitable-promotions.md": {
+	id: "11-best-practices-for-profitable-promotions.md";
+  slug: "11-best-practices-for-profitable-promotions";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md": {
 	id: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store.md";
   slug: "11-proven-loyalty-program-best-practices-to-retain-and-reward-customers-on-your-shopify-store";
@@ -381,6 +388,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"ai-in-ecommerce.md": {
+	id: "ai-in-ecommerce.md";
+  slug: "ai-in-ecommerce";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "are-gift-cards-only-for-holidays-and-seasonal-sales.md": {
 	id: "are-gift-cards-only-for-holidays-and-seasonal-sales.md";
   slug: "are-gift-cards-only-for-holidays-and-seasonal-sales";
@@ -486,6 +500,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"channel-loyalty-program.md": {
+	id: "channel-loyalty-program.md";
+  slug: "channel-loyalty-program";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "consumer-decision-making-process.md": {
 	id: "consumer-decision-making-process.md";
   slug: "consumer-decision-making-process";
@@ -521,6 +542,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"customer-journey-personalization.md": {
+	id: "customer-journey-personalization.md";
+  slug: "customer-journey-personalization";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "customer-lifetime-value.md": {
 	id: "customer-lifetime-value.md";
   slug: "customer-lifetime-value";
@@ -531,6 +559,13 @@ declare module 'astro:content' {
 "customer-loyalty-analytics.md": {
 	id: "customer-loyalty-analytics.md";
   slug: "customer-loyalty-analytics";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"customer-loyalty-and-retention.md": {
+	id: "customer-loyalty-and-retention.md";
+  slug: "customer-loyalty-and-retention";
   body: string;
   collection: "posts";
   data: any
@@ -570,6 +605,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"discount-code-ideas.md": {
+	id: "discount-code-ideas.md";
+  slug: "discount-code-ideas";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "dtc-marketing.md": {
 	id: "dtc-marketing.md";
   slug: "dtc-marketing";
@@ -577,9 +619,23 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"easter-marketing-ideas.md": {
+	id: "easter-marketing-ideas.md";
+  slug: "easter-marketing-ideas";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "easter-promotion-ideas-for-brands-in-2022.md": {
 	id: "easter-promotion-ideas-for-brands-in-2022.md";
   slug: "easter-promotion-ideas-for-brands-in-2022";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"ecommerce-evolution.md": {
+	id: "ecommerce-evolution.md";
+  slug: "ecommerce-evolution";
   body: string;
   collection: "posts";
   data: any
@@ -622,6 +678,20 @@ declare module 'astro:content' {
 "ecommerce-marketing.md": {
 	id: "ecommerce-marketing.md";
   slug: "ecommerce-marketing";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"ecommerce-promotions.md": {
+	id: "ecommerce-promotions.md";
+  slug: "ecommerce-promotions";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"ecommerce-referral-program.md": {
+	id: "ecommerce-referral-program.md";
+  slug: "ecommerce-referral-program";
   body: string;
   collection: "posts";
   data: any
@@ -1046,6 +1116,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"increase-customer-loyalty.md": {
+	id: "increase-customer-loyalty.md";
+  slug: "increase-customer-loyalty";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify.md": {
 	id: "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify.md";
   slug: "increasing-repeat-purchases-how-gift-cards-and-loyalty-programs-can-drive-customer-lifetime-value-on-shopify";
@@ -1088,9 +1165,23 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"lightspeed-r-shopify-gift-cards-integration.md": {
+	id: "lightspeed-r-shopify-gift-cards-integration.md";
+  slug: "lightspeed-r-shopify-gift-cards-integration";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "loyalty-marketing-strategies.md": {
 	id: "loyalty-marketing-strategies.md";
   slug: "loyalty-marketing-strategies";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"loyalty-marketing.md": {
+	id: "loyalty-marketing.md";
+  slug: "loyalty-marketing";
   body: string;
   collection: "posts";
   data: any
@@ -1109,9 +1200,23 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"loyalty-program-successful.md": {
+	id: "loyalty-program-successful.md";
+  slug: "loyalty-program-successful";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "loyalty-program.md": {
 	id: "loyalty-program.md";
   slug: "loyalty-program";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"marketing-automation-platform.md": {
+	id: "marketing-automation-platform.md";
+  slug: "marketing-automation-platform";
   body: string;
   collection: "posts";
   data: any
@@ -1133,6 +1238,13 @@ declare module 'astro:content' {
 "mothers-day-gift-card-design-ideas-that-will-wow-your-customers.md": {
 	id: "mothers-day-gift-card-design-ideas-that-will-wow-your-customers.md";
   slug: "mothers-day-gift-card-design-ideas-that-will-wow-your-customers";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"mothers-day-promotion.md": {
+	id: "mothers-day-promotion.md";
+  slug: "mothers-day-promotion";
   body: string;
   collection: "posts";
   data: any
@@ -1203,6 +1315,13 @@ declare module 'astro:content' {
 "portrait-of-the-average-gift-card-shopper.md": {
 	id: "portrait-of-the-average-gift-card-shopper.md";
   slug: "portrait-of-the-average-gift-card-shopper";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"promotion-marketing.md": {
+	id: "promotion-marketing.md";
+  slug: "promotion-marketing";
   body: string;
   collection: "posts";
   data: any
@@ -1291,6 +1410,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"retail-customer-engagement.md": {
+	id: "retail-customer-engagement.md";
+  slug: "retail-customer-engagement";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "retail-loyalty-program.md": {
 	id: "retail-loyalty-program.md";
   slug: "retail-loyalty-program";
@@ -1326,6 +1452,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"sell-redeem-gift-cards-lightspeed-bigcommerce.md": {
+	id: "sell-redeem-gift-cards-lightspeed-bigcommerce.md";
+  slug: "sell-redeem-gift-cards-lightspeed-bigcommerce";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "send-bulk-gift-cards-using-klaviyo.md": {
 	id: "send-bulk-gift-cards-using-klaviyo.md";
   slug: "send-bulk-gift-cards-using-klaviyo";
@@ -1343,6 +1476,13 @@ declare module 'astro:content' {
 "sephoras-beauty-insider.md": {
 	id: "sephoras-beauty-insider.md";
   slug: "sephoras-beauty-insider";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"shopify-discount-combinations.md": {
+	id: "shopify-discount-combinations.md";
+  slug: "shopify-discount-combinations";
   body: string;
   collection: "posts";
   data: any

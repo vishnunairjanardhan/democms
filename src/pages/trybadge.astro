@@ -1,0 +1,45 @@
+---
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
+import HeroTrybadge from "../components/heros/HeroTrybadge.astro";
+import FeatureTrybadge from "../components/features/FeatureTrybadge.jsx";
+import FeatureBadgeOne from "../components/features/FeatureBadgeOne.astro";
+import FeatureBadgeTwo from "../components/features/FeatureBadgeTwo.astro";
+import FeatureBadgeThree from "../components/features/FeatureBadgeThree.astro";
+import FeatureBadgeFour from "../components/features/FeatureBadgeFour.astro";
+import FeatureBadgeFive from "../components/features/FeatureBadgeFive.astro";
+import FeatureBadgeSix from "../components/features/FeatureBadgeSix.astro";
+import FeatureBadgeSeven from "../components/features/FeatureBadgeSeven.astro";
+import NewLogoCloud from "../components/testimonials/NewLogoCloud.jsx";
+import CtaThreeU from "../components/ctas/CtaThreeU.astro";
+import { Seo } from "../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+
+<BaseLayout3>
+<AstroSeo
+  title="Build faster in mobile wallets | 99minds"
+  description="An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience."
+  canonical="https://www.99minds.io/trybadge"
+  {...Seo}
+/>
+<HeroTrybadge/>
+<FeatureBadgeOne/>
+<FeatureBadgeTwo/>
+<FeatureBadgeThree/>
+<FeatureBadgeFour/>
+<FeatureBadgeFive/>
+<FeatureBadgeSix/>
+ <FeatureBadgeSeven/>
+
+  <!--<Testimonialtry1 />
+  <Integrations99minds2 />
+  <NewLogoCloud/>
+ 
+  -->
+  <CtaThreeU />
+</BaseLayout3>
