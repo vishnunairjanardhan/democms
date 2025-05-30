@@ -25,48 +25,32 @@ import RoundedGrid from "../assets/RoundedGrid.astro";
           Leading Omnichannel Gifting & Loyalty Platform
         </h2>
          <p class="mt-4">99minds helps retailers enhance customer relationships through integrated loyalty, gift card, and store credit solutions.</p> 
-        <div class="lg:ml-auto">
-          <div class="flex flex-wrap items-center gap-2 mt-10">
-              <div x-data="{ open: false }" class="flex justify-center"
-              role="button">
-              <!-- Trigger -->
-              <a href="https://apps.shopify.com/99minds-gift-card-loyalty-referral#" target="_blank" class="inline-block">
-                <button type="button" class="raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
-                  <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                  <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
-                  <span class="relative text-white">Get started for Free</span>
-                  </span>
-                </button>
-              </a>
-               <button type="button" role="button" label="book a demo" class="mx-3 raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onclick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });"> <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium"> <span class="relative text-white">Book a Demo</span> </span>
-                </button>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="modal-title-5" style="display: none;">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-6 text-center">
-                      
-                    <iframe
-                    role= "generic"
-                      src="/GetStarted"
-                      width="100%"
-                      height="650"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly"
-                    ></iframe>
-
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+         <div class="flex flex-col sm:flex-row gap-4 mt-10 justify-left items-center">
+          <button 
+            type="button" 
+            role="button" 
+            label="book a demo"
+            class="raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
+            onclick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });"
+          >
+            <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+            <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
+              <span class="relative text-white">Book a Demo</span>
+            </span>
+          </button>
+        
+          <a 
+            href="https://apps.shopify.com/99minds-gift-card-loyalty-referral#" 
+            target="_blank" 
+            class="raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium"
+          >
+            <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+            <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
+              <span class="relative text-white">Install On Shopify</span>
+            </span>
+          </a>
         </div>
+        
       </div>
     </div>
     </div>
