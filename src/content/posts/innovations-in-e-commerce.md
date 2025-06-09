@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/innovations-in-e-commerce"
 keywords: ["99minds"]
 
 --- 
-
-<img src="/assets/blog/Innovations-in-e-commerce.jpg">
+<a href="https://www.99minds.io/blog/innovations-in-e-commerce" target="_blank">
+<img src="/assets/blog/Innovations-in-e-commerce.jpg"></a>
 
 Setting up an online store alone will not give you magical sales numbers. <a href="https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday" target="_blank">eCommerce stores are an essential part of our day-to-day lives</a>. You cannot survive in the market by doing the bare minimum. Offering a seamless and delightful experience to your customers every single time should be your goal. For that, you must leverage the latest innovations to keep your customers invested in your brand.
 

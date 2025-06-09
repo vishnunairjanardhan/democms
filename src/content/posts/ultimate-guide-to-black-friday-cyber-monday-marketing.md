@@ -33,7 +33,7 @@ Although many customers will continue to buy online this year, 77% believe they 
 <a href="https://www.99minds.io/blog/10-mothers-day-ideas-to-implement-in-your-retail-business/" target="_blank">Customers value genuine interactions with brands and retailers</a>, and they are most connected to brands that they believe are aware of their requirements. When customers sense a connection with a brand, 57% are willing to spend more with that company, and 76% will continue to buy from that brand.
 
 Listening to consumer feedback and responding, whether by private messaging or public comment, is one of the finest methods to develop and deepen connections. When they leave a review, about 33% of shoppers expect a public reaction, whether it’s positive or negative.
-If you haven’t already, responding to customer queries and feedback (both positive and negative) should be a crucial element of your Cyber Monday and Black Friday plan. Your response will help you <a href="https://www.99minds.io/blog/how-to-turn-your-hard-earned-sales-into-repeat-customers/" target="_blank">maintain existing customer relationships while also converting new customers into loyal ones</a>. It’s also beneficial to business: answering inquiries boosts conversions by 98%.
+If you haven’t already, responding to customer queries and feedback (both positive and negative) should be a crucial element of your Cyber Monday and Black Friday plan. Your response will help you maintain existing customer relationships while also converting new customers into loyal ones. It’s also beneficial to business: answering inquiries boosts conversions by 98%.
 
 <h2>For increased exposure, invest in paid search and display ads.</h2>
 
