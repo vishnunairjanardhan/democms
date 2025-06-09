@@ -15,18 +15,18 @@ keywords: ["99minds"]
 ---
 <img src="/assets/blog/Unlocking-the-Power-of-gift-cards-1160x653.jpg">
 
-<a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-crucial-for-growing-retail-businesses/">Gift cards are a boon for retailers</a> and customers alike. Retailers who offer exclusive gift cards know about the kind of impact that they can have on your bottom line. From helping with brand awareness to acting as an extra sales channel for your organization, gift cards have innumerable benefits. <a href="https://www.shopify.com/in">Shopify stores</a> should make it a point to include gift cards in their offering.
+<a href="https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses">Gift cards are a boon for retailers</a> and customers alike. Retailers who offer exclusive gift cards know about the kind of impact that they can have on your bottom line. From helping with brand awareness to acting as an extra sales channel for your organization, gift cards have innumerable benefits. <a href="https://www.shopify.com/in">Shopify stores</a> should make it a point to include gift cards in their offering.
 
 In this article, we look at why you must have a gift card strategy and how you can boost sales and customer loyalty using them.
 
 <b>Why should gift cards be a must-have component in your Shopify store?</b>
 <ul>
 <li>You can bring in a lot more traffic to your store with gift cards since there will be customers actively searching for them</li>
-<li><a href="https://www.99minds.io/blog/gift-card/why-are-digital-gift-cards-essential-to-your-e-commerce-business/">Digital gift cards are incredibly convenient</a> as you don’t have to carry them in your person, and can even be purchased for loved ones within the comfort of your home</li>
+<li><a href="https://www.99minds.io/blog/why-are-digital-gift-cards-essential-to-your-e-commerce-business">Digital gift cards are incredibly convenient</a> as you don’t have to carry them in your person, and can even be purchased for loved ones within the comfort of your home</li>
 <li>Since gift cards are usually bought for someone else, you get to bring in a new set of customers to your store. They might not even be a part of your target audience</li>
 <li>Gift cards can also be used to settle disputes. A disgruntled customer can be appeased with a gift card
 The remaining balance on the gift card prods the customers to come back to your store. This is another opportunity to impress them</li>
-<li>It is great for <a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/">the holiday season</a>, and also for non-seasonal events like marriages, birthdays, etc
+<li>It is great for <a href="https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales">the holiday season</a>, and also for non-seasonal events like marriages, birthdays, etc
 They help you collect valuable data about your customers’ spending patterns, triggers, categories, etc</li>
 </ul>
 
@@ -45,16 +45,16 @@ You want to work with a gift card solution that aligns with your budget, offers 
 
 <li><b>Incentivize customers:</b>
 
-Come up with <a href="https://www.99minds.io/blog/ecommerce/beginners-guide-to-e-commerce-promotions/">unique promotions</a> or campaigns around gift cards. Customers who purchase gift cards can receive an additional discount or perk. The objective is to increase the sale of gift cards– as simple as that.</li>
+Come up with <a href="https://www.99minds.io/blog/">unique promotions</a> or campaigns around gift cards. Customers who purchase gift cards can receive an additional discount or perk. The objective is to increase the sale of gift cards– as simple as that.</li>
 
 Below are some exciting incentive ideas:
 <ul>
-<li>Invite customers to your <a href="https://www.99minds.io/blog/customer-loyalty/how-do-loyalty-programs-help-the-pet-industry/">loyalty program</a> when they buy gift cards. It is a win-win since you get to convert an ordinary customer into an ambassador for your brand with the loyalty program</li>
+<li>Invite customers to your <a href="https://www.99minds.io/blog/how-do-loyalty-programs-help-the-pet-industry">loyalty program</a> when they buy gift cards. It is a win-win since you get to convert an ordinary customer into an ambassador for your brand with the loyalty program</li>
 <li>Make the gift card design and copy so alluring that holding your brand’s gift card in their person gives them a sense of exclusivity</li>
 <li>Offer limited-time discounts on gift cards</li>
 <li>Consider donating a portion of your gift card sales to charity. Philanthropic gestures are well-accepted, especially among millennial and Gen Z customers</li>
 </ul>
-Create an incentive or <a href="https://www.99minds.io/blog/customer-loyalty/how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween/">rewards program</a> where your customers get to redeem it as soon as possible. The program should be easy to understand and simple to be a part of. For higher order values, the rewards should be high too.
+Create an incentive or <a href="https://www.99minds.io/blog/how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween">rewards program</a> where your customers get to redeem it as soon as possible. The program should be easy to understand and simple to be a part of. For higher order values, the rewards should be high too.
 
 <li><b>Use it as an alternative for refunds/exchanges/returns:</b>
 
@@ -74,7 +74,7 @@ If you intend to buy something for your loved ones, gift cards make your shoppin
 
 <li><b>Consistent communication:</b>
 
-Regular communication is quintessential to make your customers aware of the value that gift cards bring. Communicate about your gift cards in the form of <a href="https://www.99minds.io/blog/gift-card/how-to-use-gift-cards-in-sms-marketing/">SMS campaigns</a>, push notifications, in-app messages, emails, etc. Try to include details about gift cards in every communication, without coming across as too pushy.</li>
+Regular communication is quintessential to make your customers aware of the value that gift cards bring. Communicate about your gift cards in the form of <a href="https://www.99minds.io/blog/how-to-use-gift-cards-in-sms-marketing">SMS campaigns</a>, push notifications, in-app messages, emails, etc. Try to include details about gift cards in every communication, without coming across as too pushy.</li>
 
 <li><b>Tie up with complementary businesses:</b>
 

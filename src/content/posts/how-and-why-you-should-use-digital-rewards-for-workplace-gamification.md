@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/how-and-why-you-should-use-digital-rewards-for
 keywords: ["99minds"]
 
 --- 
-
-<img src="/assets/blog/How-and-Why-You-Should-Use-Digital-Rewards-for-Workplace-Gamification3.jpg">
+<a href="https://www.99minds.io/blog/how-and-why-you-should-use-digital-rewards-for-workplace-gamification">
+<img src="/assets/blog/How-and-Why-You-Should-Use-Digital-Rewards-for-Workplace-Gamification3.jpg"></a>
 
 Who doesn’t love games? What if you could motivate your employees using workplace gamification? With Millennials and Gen Z “hogging” the workforce, you shouldn’t be surprised employers are using games to keep them motivated and engaged. It seems like a natural progression.
 
@@ -86,7 +86,7 @@ The peer recognition system allows colleagues to applaud each other’s success 
 
 <h3><li>Scavenger hunts:</li></h3>
 
-An easy way to make training engaging for your employees is through scavenger hunts. It can also be a team-building activity where employees are divided into different groups to complete tasks. It increases camaraderie and increases engagement toward the task.
+An easy way to make training engaging for your employees is through scavenger hunts. It can also be a team-building activity where employees are divided into different groups to complete tasks. It <a href="https://www.99minds.io/blog/ml-techniques-to-improve-customer-engagement" target="_blank">increases camaraderie and increases engagement</a> toward the task.
 
 <h3><li>Levels:</li></h3>
 
