@@ -13,12 +13,12 @@ url: "https://www.99minds.io/blog/how-to-drive-customer-loyalty-during-a-global-
 keywords: ["99minds"]
 
 --- 
+<a href="https://www.99minds.io/blog/how-to-drive-customer-loyalty-during-a-global-recession" target="_blank">
+<img src="/assets/blog/How-to-drive-customer-loyalty-during-a-Global-Recession-1.jpg"></a>
 
-<img src="/assets/blog/How-to-drive-customer-loyalty-during-a-Global-Recession-1.jpg" >
+These are tough times. We are sure that there are thousands of blogs highlighting how crucial <a href="https://www.99minds.io/blog/types-of-customer-loyalty-programs" target="_blank">customer loyalty</a> is. The world is on the brink of a recession. Pockets are going to be tight. Spending will be frugal. People will have their guard up, thanks to the uncertainty associated with the global recession.
 
-These are tough times. We are sure that there are thousands of blogs highlighting how crucial <a href="https://www.99minds.io/blog/customer-loyalty" target="_blank">customer loyalty</a> is. The world is on the brink of a recession. Pockets are going to be tight. Spending will be frugal. People will have their guard up, thanks to the uncertainty associated with the global recession.
-
-Your loyal customers will most likely stay with you and spend more on each transaction than others. Essential products will be sold more than ones that are nice to have. With people displaying prudent spending behavior, your brand needs to remind customers that you value their association. Thankfully, there are a few steps that you can take to drive customer loyalty during times of recession.
+Your loyal customers will most likely stay with you and spend more on each transaction than others. Essential products will be sold more than ones that are nice to have. With people displaying prudent spending behavior, your brand needs to remind customers that you value their association. Thankfully, there are a few steps that you can take to drive <a href="https://www.99minds.io/blog/customer-loyalty-programs-will-they-benefit-my-business" target="_blank">customer loyalty during times of recession</a>.
 
 <h2>Create an emotional connection</h2>
 
@@ -111,8 +111,9 @@ Collect feedback from customers regularly to understand what they are looking fo
 
 Make customer experience a focal point. Businesses that keep prioritizing customer experience will always be well-liked and frequented by their customers and will be able to create loyal ones who will stay with you, recession or not. If you are a business that is aware of the global business scenario, you must come up with strategies that will help you build and develop trust that will result in lifelong loyalty.
 
-If you are looking for an online loyalty program to increase the number of advocates for your brand, you are in the right place. With the threat of a recession looming large, you are better off choosing a program that will bring cheer to your customers. Let the team at 
-<a href="https://www.99minds.io/" target="_blank">99minds</a>help you with it.
+If you are looking for an 
+<a href="https://www.99minds.io/blog/what-makes-a-loyalty-program-successful" target="_blank">online loyalty program to increase the number of advocates for your brand</a>, you are in the right place. With the threat of a recession looming large, you are better off choosing a program that will bring cheer to your customers. Let the team at 
+<a href="https://www.99minds.io/" target="_blank">99minds </a>help you with it.
 
 
 

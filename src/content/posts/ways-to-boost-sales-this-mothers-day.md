@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/ways-to-boost-sales-this-mothers-day"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/generic/ways-to-boost-sales-this-mothers-day/">
+<a href="https://www.99minds.io/blog/ways-to-boost-sales-this-mothers-day">
 <img src="/assets/blog/Ways-to-Boost-Sales-this-Mothers-Day.jpg"></a>
 
 There are nearly two billion mothers in the world, with 85 million in the United States. In just a few weeks, 84 percent of Americans will be giving gifts to their moms and would spend over $28 billion on Mother’s Day gifts.

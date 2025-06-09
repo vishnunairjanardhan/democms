@@ -15,7 +15,7 @@ keywords: ["99minds"]
 --- 
 <img src="/assets/blog/Ways-Coupons-Can-Help-Your-Business-Attract-Loyal-Customers1.jpg">
 
-The holy grail of every marketer across the world is their target market’s attention. There are a thousand ways to advertise your brand. According to several studies, one of the most effective marketing strategies is providing a one-time use of coupons. The <a href="https://www.99minds.io/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales" target="_blank">holiday season is the perfect time for businesses</a> to offer incentives to customers to choose them.
+The holy grail of every marketer across the world is their target market’s attention. There are a thousand ways to advertise your brand. According to several studies, one of the most <a href="https://www.99minds.io/blog/ecommerce-referral-marketing-strategies" target="_blank">effective marketing strategies</a> is providing a one-time use of coupons. The <a href="https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales" target="_blank">holiday season is the perfect time for businesses</a> to offer incentives to customers to choose them.
 
 Coupons are more than 135 years old. The first coupon is said to have been created by <a href="https://www.coca-colacompany.com/" target="_blank">Coca-Cola</a>, and they were mailed to potential customers and inserted in magazines. The coupon promised a free glass of Coca-Cola, then retailing at 5 cents.
 
@@ -50,7 +50,7 @@ For example, a simple way for customers to get your coupons should be if their o
 
 ## Leverage technology
 
-The average marketer is harried because of the plethora of things they are bound to take care of. Adding coupons to the marketing strategy might not even be 5% of the work they are supposed to take care of. This is where technology is a godsend. Marketers can simply concentrate on their core tasks by using a powerful customer loyalty program that offers coupons.
+The average marketer is harried because of the plethora of things they are bound to take care of. Adding coupons to the marketing strategy might not even be 5% of the work they are supposed to take care of. This is where technology is a godsend. Marketers can simply concentrate on their core tasks by using a powerful <a href="https://www.99minds.io/blog/customer-loyalty-programs-will-they-benefit-my-business" target="_blank">customer loyalty program that offers coupons</a>.
 
 A customer loyalty program software will take care of everything from engaging, acquiring, and retaining customers using coupons. If you use software like <a href="https://www.99minds.io/" target="_blank">99minds</a>, it will handle gift cards, workflow automation, coupons, and store credit, including a referral and loyalty program. That takes a lot of pressure off the marketer. It also increases the efficiency of your coupon strategy and gets more done at a lower cost to your business.
 
@@ -95,11 +95,13 @@ Customers will act only when they see an offer that appeals to them. A 5% discou
 
 ## Not tracking coupon performance
 
-The retailer will have a goldmine of data after a marketing campaign. Not measuring and benchmarking them for the future is a rookie mistake several eCommerce companies make.
+The retailer will have a goldmine of data after a marketing campaign. Not measuring and benchmarking them for the future is a rookie mistake several 
+<a href="https://www.99minds.io/blog/future-of-ecommerce-in-2023" target="_blank">eCommerce</a> companies make.
 
 # Wrapping up
 
 Coupons are an excellent way to get loyal customers. It will help you develop a client base and foster a fulfilling relationship with them. It is one of those marketing strategies that can turn the tide for you, especially during a poor sales phase.
 
-Outperform your previous coupon campaigns using a customer loyalty program to deliver coupons. Get in touch with the <a href="https://www.99minds.io/" target="_blanck">99minds</a> team to help set up your coupon campaign.
+Outperform your previous coupon campaigns using a 
+<a href="https://www.99minds.io/blog/what-constitutes-a-good-loyalty-program" target="_blank">customer loyalty program</a> to deliver coupons. Get in touch with the 99minds team to help set up your coupon campaign.
 
