@@ -255,13 +255,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"5-tips-for-promoting-fathers-day-in-your-online-shop.md": {
-	id: "5-tips-for-promoting-fathers-day-in-your-online-shop.md";
-  slug: "5-tips-for-promoting-fathers-day-in-your-online-shop";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "6-mothers-day-marketing-ideas-for-ecommerce-businesses.md": {
 	id: "6-mothers-day-marketing-ideas-for-ecommerce-businesses.md";
   slug: "6-mothers-day-marketing-ideas-for-ecommerce-businesses";
@@ -717,9 +710,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"fathers-day-retail-promotion-ideas.md": {
-	id: "fathers-day-retail-promotion-ideas.md";
-  slug: "fathers-day-retail-promotion-ideas";
+"fathers-day-promotion-ideas.md": {
+	id: "fathers-day-promotion-ideas.md";
+  slug: "fathers-day-promotion-ideas";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1035,13 +1028,6 @@ declare module 'astro:content' {
 "how-to-increase-ecommerce-sales-47-actionable-ways.md": {
 	id: "how-to-increase-ecommerce-sales-47-actionable-ways.md";
   slug: "how-to-increase-ecommerce-sales-47-actionable-ways";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"how-to-kick-off-your-sales-on-fathers-day.md": {
-	id: "how-to-kick-off-your-sales-on-fathers-day.md";
-  slug: "how-to-kick-off-your-sales-on-fathers-day";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1518,13 +1504,6 @@ declare module 'astro:content' {
 "the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store.md": {
 	id: "the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store.md";
   slug: "the-art-of-creating-irresistible-gift-card-designs-for-your-shopify-store";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"the-best-gift-card-for-fathers-day-2021.md": {
-	id: "the-best-gift-card-for-fathers-day-2021.md";
-  slug: "the-best-gift-card-for-fathers-day-2021";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
