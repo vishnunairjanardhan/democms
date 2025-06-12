@@ -1123,6 +1123,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"introducing-multi-currency-gift-card.md": {
+	id: "introducing-multi-currency-gift-card.md";
+  slug: "introducing-multi-currency-gift-card";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "kpis-for-loyalty-programs.md": {
 	id: "kpis-for-loyalty-programs.md";
   slug: "kpis-for-loyalty-programs";
