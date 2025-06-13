@@ -703,6 +703,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"employee-referral-program.md": {
+	id: "employee-referral-program.md";
+  slug: "employee-referral-program";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "essential-marketing-tools-for-2021.md": {
 	id: "essential-marketing-tools-for-2021.md";
   slug: "essential-marketing-tools-for-2021";
