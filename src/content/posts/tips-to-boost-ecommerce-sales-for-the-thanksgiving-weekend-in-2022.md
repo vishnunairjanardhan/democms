@@ -31,7 +31,7 @@ Thanksgiving is a stressful time for your customers. Giving them a website with 
 <li>Reach existing customers:</li>
 </ul>
 
-Getting new customers is great for your eCommerce brand. But you know what is even more fantastic? Making your existing customers a big part of your store’s digital marketing strategy is pivotal. It is the easiest way to increase your sales, and existing customers who like your offering are easy to upsell and cross-sell. They will be the ones who will lap up your promotions and discounts.
+Getting new customers is great for your eCommerce brand. But you know what is even more fantastic? Making your existing customers a big part of your store’s digital marketing strategy is pivotal. It is the easiest way to increase your sales, and <a href="https://www.99minds.io/blog/how-to-turn-your-hard-earned-sales-into-repeat-customers">existing customers who like your offering</a> are easy to upsell and cross-sell. They will be the ones who will lap up your promotions and discounts.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Big-99minds.jpg"></a>
 
@@ -39,7 +39,7 @@ Getting new customers is great for your eCommerce brand. But you know what is ev
 <li>Set up a referral program:</li>
 </ul>
 
-One of the best ways to increase your customer base is to put your existing customers into a <a href="https://www.99minds.io/referral">referral program</a>. Offer them incentives for each referral. You can use plug-and-play referral software that can quickly start your referral campaigns. The <a href="https://www.99minds.io/blog/referral-program">referral program</a> for Thanksgiving will <a href="https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday">fetch you customers during your Cyber Monday and Black Friday sales.</a>
+One of the best ways to increase your customer base is to put your existing customers into a <a href="https://www.99minds.io/referral">referral program</a>. Offer them incentives for each referral. You can use plug-and-play referral software that can quickly start your referral campaigns. The <a href="https://www.99minds.io/blog/how-do-i-set-up-an-ecommerce-referral-program">referral program</a> for Thanksgiving will <a href="https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday">fetch you customers during your Cyber Monday and Black Friday sales.</a>
 
 <ul>
 <li>Promote the right products:</li>
@@ -57,7 +57,7 @@ Some best-selling product categories are electronics, footwear, toys, kitchen wa
  
 It is a given that most B2C customers can be found on <a href="https://www.instagram.com/">Instagram</a> and <a href="https://www.facebook.com/">Facebook</a>. Picking the right products is as important as choosing the right people to target. Come up with the right offers that will delight your target audience. Promote the offer on your social media handles and use the right hashtags and groups to spread the message.
 
-Your competitors will do everything they can to target their audience with innovative marketing strategies. This is why you must ensure that your social media content should be attention-grabbing. Make sure that your social media team comes up with interesting posts that pique the attention of your target audience.
+Your competitors will do everything they can to target their audience with innovative marketing strategies. This is why you must ensure that your  <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards">social media content should be attention-grabbing</a>. Make sure that your social media team comes up with interesting posts that pique the attention of your target audience.
 
 Make an emotional connection with your customers. Use visuals that invoke the Thanksgiving spirit in your target audience. Drop hints about the big promotions and deals that you are offering for the holidays.
 
