@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/inspirational-women-in-ecommerce"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/generic/inspirational-women-in-ecommerce/" target="_blank">
+<a href="https://www.99minds.io/blog/inspirational-women-in-ecommerce" target="_blank">
 <img src="/assets/blog/Inspirational-Women-in-Ecommerce3.jpg"></a>
 
 Join 99minds in celebrating women in eCommerce who are driving the industry forward with their incomparable contributions. Let us look at a few of them who have made a name for themselves, either as entrepreneurs or employees.

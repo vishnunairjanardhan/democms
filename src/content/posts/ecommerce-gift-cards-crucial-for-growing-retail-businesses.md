@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retai
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/gift-card/ecommerce-gift-cards-crucial-for-growing-retail-businesses/">
+<a href="https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses">
 <img src="/assets/blog/eCommerce-Gift-Cards-Crucial-For-Growing-Retail-Businesses-1.jpg"></a>
 
 The holiday season is the time to open your purse strings for loved ones, isn’t it? What you decide to gift someone can actually be a stressor. Gifts require a lot of thought put into them. It has to be affordable for the one buying it. Why not reduce the stress your customers face during the all-important holiday season? Yes, we are talking about gift cards. The good thing is that gift cards aren’t a seasonal fad. It can be used throughout the year and has the same effect.

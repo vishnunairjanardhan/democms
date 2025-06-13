@@ -16,7 +16,7 @@ keywords: ["99minds"]
 <img src="/assets/blog/The-Art-of-Creating-Irresistible-Gift-Card-Designs-for-Your-Shopify-Store.jpg">
 
 
-A gift card can be one more sales channel for you and also act as a souvenir of sorts. It can do more than two things at a time. It is one of the most underused <a href="https://www.99minds.io/blog/ecommerce-referral-marketing-strategies/">marketing channels</a>. To get the most out of gift cards, you must primarily begin with creating attractive gift card designs.
+A gift card can be one more sales channel for you and also act as a souvenir of sorts. It can do more than two things at a time. It is one of the most underused <a href="https://www.99minds.io/blog/ecommerce-referral-marketing-strategies">marketing channels</a>. To get the most out of gift cards, you must primarily begin with creating attractive gift card designs.
 
 Your gift cards can act as a statement of the value that your brand brings to the table. The design you use for the gift cards is a telling statement about you as a brand. It would be prudent to invest the right amount of time and technology into it.
 
