@@ -18,7 +18,7 @@ keywords: ["gift card"]
 In the fast-moving SaaS world, acquiring new users is great—but keeping them? That’s where the real magic happens. A solid SaaS loyalty program doesn’t just help you retain customers, it turns them into raving fans, brand advocates, and repeat buyers.
 
 Gone are the days when loyalty was reserved for retail or food apps. In 2025, SaaS brands are getting creative with loyalty models, integrating them into user experience, upsells, and even community building.
-Whether you’re just starting or scaling your SaaS, this blog is your go-to guide for launching a loyalty program that actually works.
+Whether you’re just starting or scaling your SaaS, this blog is your go-to guide for launching a <a href="https://www.99minds.io/loyalty" role="link" target="_blanck">loyalty program</a> that actually works.
 
 <div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
 <p>Table of Contents:</p>
@@ -95,6 +95,8 @@ Offer loyalty perks to users who integrate with other tools in your ecosystem or
 Give your most loyal users early access to new features or product beta tests. This builds trust and makes them feel part of the product journey.
 </ol>
 
+<img src="/assets/blog/Types-of-SaaS-Loyalty-Programs-That-Actually-Work.png" alt="Types of SaaS Loyalty Programs That Actually Work">
+
 <h2 id="Real-Examples-of-SaaS-Loyalty-Programs-in-Action">Real Examples of SaaS Loyalty Programs in Action</h2>
 
 <ol role= "list">
@@ -112,6 +114,8 @@ Focuses on onboarding loyalty—rewarding users for completing walkthroughs and 
 
 These programs show one thing clearly: loyalty in SaaS isn’t transactional; it’s experiential.
 </ol>
+
+<img src="/assets/blog/Real-Examples-of-SaaS-Loyalty-Programs-in-Action.png" alt="Real Examples of SaaS Loyalty Programs in Action">
 
 <h2 id="How-to-Build-a-SaaS-Loyalty-Program-from-Scratch?">How to Build a SaaS Loyalty Program from Scratch?</h2>
 
@@ -173,7 +177,7 @@ Tracking the right metrics is crucial to determine whether your loyalty program 
 
 <b>How to track it:</b> Most referral platforms (like ReferralCandy, ReferralHero, or built-in tools in platforms like 99minds) provide detailed dashboards to track referrals and conversions.
 
-<h3><li>Customer Lifetime Value (CLTV)</li></h3>
+<h3><li><a href="https://www.99minds.io/blog/customer-lifetime-value" role="link" target="_blanck">Customer Lifetime Value (CLTV)</a></li></h3>
 
 <b>What it means:</b> CLTV is the total revenue a business can expect from a single customer account throughout its lifecycle.
 
@@ -198,9 +202,11 @@ While the KPIs above are primary indicators, consider tracking these as well for
 <li><b>Program Participation Rate:</b> What percentage of your users are actively enrolled in the loyalty program?</li>
 </ul>
 
+<img src="/assets/blog/Top-KPIs-to-Measure-the-Success-of-Your-Loyalty-Program.png" alt="Top KPIs to Measure the Success of Your Loyalty Program">
+
 <h2 id="How-99minds-Supports-Scalable-SaaS-Loyalty-Programs?">How 99minds Supports Scalable SaaS Loyalty Programs?</h2>
 
-At 99minds, we understand that loyalty in SaaS isn’t a one-size-fits-all thing. Our platform allows you to:
+At <a href="https://www.99minds.io" role="link" target="_blanck">99minds</a>, we understand that loyalty in SaaS isn’t a one-size-fits-all thing. Our platform allows you to:
 
 <ul role= "list">
 <li>Create custom reward flows based on usage or behavior.</li>
@@ -211,6 +217,39 @@ At 99minds, we understand that loyalty in SaaS isn’t a one-size-fits-all thing
 </ul>
 Whether you're a nimble startup or a scaling SaaS unicorn, we help you turn users into superfans—without adding complexity to your stack.
 
+<!-- 
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+
+<div class="flex flex-wrap items-center gap-2">
+              <div x-data="{ open: false }" class="w-full">
+              <!-- Trigger -->
+              <span x-on:click="open = true" class="w-full">
+                 <div class="w-full ">
+                <span class="w-full "></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA button"></span>
+                </span></div>
+              </span>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Calendly">
+                      </iframe>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
 <h2 id="Conclusion">Conclusion</h2>
 
 Customer loyalty in SaaS is no longer just a retention tool—it’s a growth strategy. In an industry where user acquisition costs are climbing and customer expectations are higher than ever, loyalty programs give you a powerful edge.
