@@ -332,13 +332,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"Black-friday-promotion-ideas.md": {
-	id: "Black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "Christmas-marketing-ideas.md": {
 	id: "Christmas-marketing-ideas.md";
   slug: "christmas-marketing-ideas";
@@ -475,6 +468,13 @@ declare module 'astro:content' {
 "black-friday-cyber-monday-record-success .md": {
 	id: "black-friday-cyber-monday-record-success .md";
   slug: "black-friday-cyber-monday-record-success-";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"black-friday-promotion-ideas.md": {
+	id: "black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -727,6 +727,13 @@ declare module 'astro:content' {
 "fathers-day-ecommerce-facts-you-need-to-know.md": {
 	id: "fathers-day-ecommerce-facts-you-need-to-know.md";
   slug: "fathers-day-ecommerce-facts-you-need-to-know";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"fathers-day-promotion-ideas.md": {
+	id: "fathers-day-promotion-ideas.md";
+  slug: "fathers-day-promotion-ideas";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1154,6 +1161,13 @@ declare module 'astro:content' {
 "internationalization-strategies-in-e-commerce.md": {
 	id: "internationalization-strategies-in-e-commerce.md";
   slug: "internationalization-strategies-in-e-commerce";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"introducing-multi-currency-gift-card.md": {
+	id: "introducing-multi-currency-gift-card.md";
+  slug: "introducing-multi-currency-gift-card";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
