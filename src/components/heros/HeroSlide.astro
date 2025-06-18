@@ -82,7 +82,7 @@ import TESTIMONIAL from "../../config/Testimonial.json";
           <div class="mx-auto lg:px-4 md:px-2 items-center w-full">
             <div class="flex flex-col w-full" x-data="{
             currentSlide: 0,
-            totalSlides: 6,
+            totalSlides: 3,
             interval: null,
             slider: null,
             slideWidth: 0,
@@ -111,7 +111,7 @@ import TESTIMONIAL from "../../config/Testimonial.json";
            }, 50);
          }
            this.isTransitioning = false;
-      }, 500);
+      }, 3000);
   },
 
       startAutoSlide() {
@@ -148,21 +148,17 @@ import TESTIMONIAL from "../../config/Testimonial.json";
                     <li class="w-full flex flex-col shrink-0" role="option">
                       <figure class="text-center">
                         <div class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] w-full">
-                          <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center">
-                            <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/loyalty/Loyalty-banner1.webp" alt="Loyalty Program">
+                          <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center bg-linear-to-r from-cyan-500 to-blue-500">
+                            <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/about-us/H1.gif" alt="Loyalty Program">
                           </div>
                         </div>
-                        <figcaption class="mt-4 px-4">
-                          <h3 class="text-lg font-semibold text-gray-800 mb-2">Loyalty Program</h3>
-                          <p class="text-sm text-gray-600">Build customer loyalty with points, rewards, and exclusive benefits that keep them coming back.</p>
-                        </figcaption>
                       </figure>
                     </li>
                     <li class="w-full flex flex-col shrink-0" role="option">
                       <figure class="text-center">
                         <div class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] w-full">
                           <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center">
-                            <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/giftcardBanner1.png" alt="Gift Cards">
+                            <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/about-us/H2.gif" alt="Gift Cards">
                           </div>
                         </div>
                         <figcaption class="mt-4 px-4">
@@ -171,72 +167,16 @@ import TESTIMONIAL from "../../config/Testimonial.json";
                         </figcaption>
                       </figure>
                     </li>
-                    <li class="w-full flex flex-col shrink-0" role="option">
+                   <li class="w-full flex flex-col shrink-0" role="option">
                       <figure class="text-center">
                         <div class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] w-full">
                           <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center">
-                            <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/storecredit/store-credit-banner.webp" alt="Store Credit">
+                            <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/about-us/H1.gif" alt="Loyalty Program">
                           </div>
                         </div>
-                        <figcaption class="mt-4 px-4">
-                          <h3 class="text-lg font-semibold text-gray-800 mb-2">Store Credit</h3>
-                          <p class="text-sm text-gray-600">Retain customers and reduce refunds by offering flexible store credit options.</p>
-                        </figcaption>
                       </figure>
                     </li>
-                    <li class="w-full flex flex-col shrink-0" role="option">
-                      <figure class="text-center">
-                        <div class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] w-full">
-                          <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center">
-                            <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/coupons/coupon-banner2.webp" alt="Coupons & Discounts">
-                          </div>
-                        </div>
-                        <figcaption class="mt-4 px-4">
-                          <h3 class="text-lg font-semibold text-gray-800 mb-2">Coupons & Discounts</h3>
-                          <p class="text-sm text-gray-600">Drive sales with targeted promotional campaigns and personalized discount codes.</p>
-                        </figcaption>
-                      </figure>
-                    </li>
-                    <li class="w-full flex flex-col shrink-0" role="option">
-                      <figure class="text-center">
-                        <div class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] w-full">
-                          <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center">
-                            <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/referral/referral-banner1.webp" alt="Referral Program">
-                          </div>
-                        </div>
-                        <figcaption class="mt-4 px-4">
-                          <h3 class="text-lg font-semibold text-gray-800 mb-2">Referral Program</h3>
-                          <p class="text-sm text-gray-600">Turn customers into brand advocates with rewarding referral incentives.</p>
-                        </figcaption>
-                      </figure>
-                    </li>
-                    <li class="w-full flex flex-col shrink-0" role="option">
-                      <figure class="text-center">
-                        <div class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] w-full">
-                          <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center">
-                            <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/automation/automationBanner1.webp" alt="Marketing Automation">
-                          </div>
-                        </div>
-                        <figcaption class="mt-4 px-4">
-                          <h3 class="text-lg font-semibold text-gray-800 mb-2">Marketing Automation</h3>
-                          <p class="text-sm text-gray-600">Streamline your marketing efforts with intelligent automation workflows.</p>
-                        </figcaption>
-                      </figure>
-                    </li>
-                
-                    <li class="w-full flex flex-col shrink-0" role="option">
-                      <figure class="text-center">
-                        <div class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] w-full">
-                          <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center">
-                            <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/loyalty/Loyalty-banner1.webp" alt="Loyalty Program">
-                          </div>
-                        </div>
-                        <figcaption class="mt-4 px-4">
-                          <h3 class="text-lg font-semibold text-gray-800 mb-2">Loyalty Program</h3>
-                          <p class="text-sm text-gray-600">Build customer loyalty with points, rewards, and exclusive benefits that keep them coming back.</p>
-                        </figcaption>
-                      </figure>
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
