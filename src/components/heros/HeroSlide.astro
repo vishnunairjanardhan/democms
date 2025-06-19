@@ -1,0 +1,138 @@
+<section class="relative">
+  <div class="w-full h-full -z-1 absolute flex flex-row justify-between left-0 lg:h-full lg:max-w-7xl lg:px-0 mx-auto px-6 right-0">
+    <template x-for="i in 6">
+      <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
+    </template>
+  </div>
+
+  <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-16">
+    <div class="grid grid-cols-1 gap-6 p-0 pb-0 overflow-hidden lg:grid-cols-2 lg:gap-24 lg:p-0 lg:pt-8">
+      <div class="relative items-center gap-8 pb-12 m-auto lg:inline-flex md:order-first lg:pb-32 xl:pt-0">
+        <div class="max-w-xl text-center lg:text-left" x-data="{
+          currentSlide: 0,
+          displayedTitle: '',
+          displayedDescription: '',
+          isTyping: false,
+          slideData: [
+            {
+              title: 'Gift Cards',
+              description: 'Increase revenue and attract new customers with customizable digital gift cards.'
+            },
+            {
+              title: 'Store Credit',
+              description: 'Retain customers and reduce refunds by offering flexible store credit options.'
+            },
+            {
+              title: 'Loyalty Program',
+              description: 'Build customer loyalty with points, rewards, and exclusive benefits that keep them coming back.'
+            }
+          ],
+          async typeText(text, target, speed = 50) {
+            let result = '';
+            for (let i = 0; i < text.length; i++) {
+              result += text.charAt(i);
+              this[target] = result;
+              await new Promise(resolve => setTimeout(resolve, speed));
+            }
+          },
+          async updateContent(slideIndex) {
+            if (this.isTyping) return;
+            this.isTyping = true;
+            const newData = this.slideData[slideIndex];
+            this.displayedTitle = '';
+            this.displayedDescription = '';
+            await new Promise(resolve => setTimeout(resolve, 200));
+            await this.typeText(newData.title, 'displayedTitle', 80);
+            await new Promise(resolve => setTimeout(resolve, 300));
+            await this.typeText(newData.description, 'displayedDescription', 30);
+            this.isTyping = false;
+          },
+          init() {
+            this.updateContent(0);
+            window.addEventListener('slide-changed', (e) => {
+              this.currentSlide = e.detail.slide;
+              this.updateContent(e.detail.slide);
+            });
+          }
+        }" x-init="init()">
+          <h1 class="mt-8 font-bold text-4xl lg:text-4xl text-gray-900">Engage, Acquire & Retain Customers</h1>
+          <div class="p-3">
+            <h3 class="text-xl font-bold text-gray-800 min-h-[28px]">
+              <span x-text="displayedTitle"></span>
+              <span x-show="displayedTitle.length < slideData[currentSlide]?.title?.length" class="animate-pulse"></span>
+            </h3>
+            <p class="text-gray-600 min-h-[48px]">
+              <span x-text="displayedDescription"></span>
+              <span x-show="displayedDescription.length < slideData[currentSlide]?.description?.length && displayedTitle.length >= slideData[currentSlide]?.title?.length" class="animate-pulse">|</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded-3xl relative h-auto video-container overflow-hidden">
+        <section>
+          <div class="mx-auto lg:px-4 md:px-2 items-center w-full">
+            <div class="flex flex-col w-full" x-data="{
+              currentSlide: 0,
+              totalSlides: 3,
+              interval: null,
+              slider: null,
+              slideWidth: 0,
+              isTransitioning: false,
+              next() {
+                if (this.isTransitioning) return;
+                this.isTransitioning = true;
+                const newSlide = (this.currentSlide + 1) % this.totalSlides;
+                window.dispatchEvent(new CustomEvent('slide-changed', { detail: { slide: newSlide } }));
+                this.currentSlide++;
+                this.slider.style.transition = 'transform 0.5s ease-in-out';
+                this.slider.style.transform = `translateX(-${this.currentSlide * this.slideWidth}px)`;
+                setTimeout(() => {
+                  if (this.currentSlide >= this.totalSlides) {
+                    this.slider.style.transition = 'none';
+                    this.currentSlide = 0;
+                    this.slider.style.transform = `translateX(0px)`;
+                    window.dispatchEvent(new CustomEvent('slide-changed', { detail: { slide: 0 } }));
+                    setTimeout(() => {
+                      this.slider.style.transition = 'transform 0.5s ease-in-out';
+                    }, 50);
+                  }
+                  this.isTransitioning = false;
+                }, 500);
+              },
+              startAutoSlide() {
+                this.interval = setInterval(() => this.next(), 5000);
+              },
+              stopAutoSlide() {
+                clearInterval(this.interval);
+              },
+              init() {
+                this.slider = this.$refs.slider;
+                this.slideWidth = this.slider.children[0].offsetWidth + 12;
+                this.startAutoSlide();
+                window.addEventListener('resize', () => {
+                  this.slideWidth = this.slider.children[0].offsetWidth + 12;
+                  this.slider.style.transform = `translateX(-${this.currentSlide * this.slideWidth}px)`;
+                });
+              }
+            }" x-init="init" @mouseenter="stopAutoSlide()" @mouseleave="startAutoSlide()">
+              <div class="overflow-hidden">
+                <ul x-ref="slider" class="flex gap-3 pb-6 pt-4 w-full" style="transition: transform 0.5s ease-in-out;">
+                  <li class="w-full flex flex-col shrink-0">
+                    <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/giftcardBanner1.png" alt="Gift Cards">
+                  </li>
+                  <li class="w-full flex flex-col shrink-0">
+                    <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/storecredit/store-credit-banner.webp" alt="Store Credit">
+                  </li>
+                  <li class="w-full flex flex-col shrink-0">
+                    <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/loyalty/Loyalty-banner1.webp" alt="Loyalty Program">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</section>

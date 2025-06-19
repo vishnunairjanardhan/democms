@@ -731,6 +731,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"fathers-day-promotion-ideas.md": {
+	id: "fathers-day-promotion-ideas.md";
+  slug: "fathers-day-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "fathers-day-retail-promotion-ideas.md": {
 	id: "fathers-day-retail-promotion-ideas.md";
   slug: "fathers-day-retail-promotion-ideas";
@@ -1157,6 +1164,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: any
+} & { render(): Render[".md"] };
+"introducing-multi-currency-gift-card.md": {
+	id: "introducing-multi-currency-gift-card.md";
+  slug: "introducing-multi-currency-gift-card";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "kpis-for-loyalty-programs.md": {
 	id: "kpis-for-loyalty-programs.md";
