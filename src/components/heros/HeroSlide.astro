@@ -1,11 +1,8 @@
 <section class="relative">
   <div class="w-full h-full -z-1 absolute flex flex-row justify-between left-0 lg:h-full lg:max-w-7xl lg:px-0 mx-auto px-6 right-0">
-    <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
-    <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
-    <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
-    <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
-    <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
-    <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
+    <template x-for="i in 6">
+      <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
+    </template>
   </div>
 
   <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-16">
@@ -17,7 +14,6 @@
           displayedDescription: '',
           isTyping: false,
           slideData: [
-           
             {
               title: 'Gift Cards',
               description: 'Increase revenue and attract new customers with customizable digital gift cards.'
@@ -26,54 +22,40 @@
               title: 'Store Credit',
               description: 'Retain customers and reduce refunds by offering flexible store credit options.'
             },
-             {
+            {
               title: 'Loyalty Program',
               description: 'Build customer loyalty with points, rewards, and exclusive benefits that keep them coming back.'
             }
-           
           ],
-          
-          async typeText(text, element, speed = 50) {
-            element = '';
+          async typeText(text, target, speed = 50) {
+            let result = '';
             for (let i = 0; i < text.length; i++) {
-              element += text.charAt(i);
-              this[element === this.displayedTitle ? 'displayedTitle' : 'displayedDescription'] = element;
+              result += text.charAt(i);
+              this[target] = result;
               await new Promise(resolve => setTimeout(resolve, speed));
             }
           },
-          
           async updateContent(slideIndex) {
             if (this.isTyping) return;
             this.isTyping = true;
-            
             const newData = this.slideData[slideIndex];
-            
-            // Clear current content
             this.displayedTitle = '';
             this.displayedDescription = '';
-            
-            // Add a small delay before starting to type
             await new Promise(resolve => setTimeout(resolve, 200));
-            
-            // Type title first
             await this.typeText(newData.title, 'displayedTitle', 80);
-            // Small pause between title and description
             await new Promise(resolve => setTimeout(resolve, 300));
-            // Then type description
             await this.typeText(newData.description, 'displayedDescription', 30);
-            
             this.isTyping = false;
           },
-          
           init() {
-            // Initialize with first slide
             this.updateContent(0);
+            window.addEventListener('slide-changed', (e) => {
+              this.currentSlide = e.detail.slide;
+              this.updateContent(e.detail.slide);
+            });
           }
-        }" @slide-changed.window="currentSlide = $event.detail.slide; updateContent($event.detail.slide)" x-init="init()">
+        }" x-init="init()">
           <h1 class="mt-8 font-bold text-4xl lg:text-4xl text-gray-900">Engage, Acquire & Retain Customers</h1>
-            <!--<p class="max-w-2xl mt-4 text-lg text-gray-600">Enrich your Customer Journey with a Gift Card, Store Credit, and Loyalty Program. Empower them to share your brand experience with Referrals</p>-->
-          
-          <!-- Dynamic content based on current slide -->
           <div class="p-3">
             <h3 class="text-xl font-bold text-gray-800 min-h-[28px]">
               <span x-text="displayedTitle"></span>
@@ -84,63 +66,9 @@
               <span x-show="displayedDescription.length < slideData[currentSlide]?.description?.length && displayedTitle.length >= slideData[currentSlide]?.title?.length" class="animate-pulse">|</span>
             </p>
           </div>
-
-          <div class="mt-6" x-data="{ open: false }">
-            <span @click="open = true">
-              <button
-                type="button"
-                role="button"
-                aria-label="Get Started for Free"
-                class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium mt-4"
-              >
-                <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
-                  <span class="relative text-white">Get started for free</span>
-                </span>
-              </button>
-            </span>
-
-            <div
-              x-show="open"
-              @keydown.escape.window="open = false"
-              @click="open = false"
-              class="fixed inset-0 z-50 w-screen overflow-y-auto"
-              style="display: none"
-              x-transition
-            >
-              <div
-                class="fixed inset-0 bg-vulcan-950 bg-opacity-50"
-              ></div>
-
-              <div class="relative flex min-h-screen items-center justify-center p-4">
-                <div
-                  @click.stop
-                  class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]"
-                >
-                  <div class="bg-white rounded-3xl p-4 text-center">
-                    <iframe
-                      src="../GetStarted"
-                      width="100%"
-                      height="600"
-                      frameborder="0"
-                      allowfullscreen
-                      title="Get Started"
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex items-center gap-2 mt-4">
-              <svg width="16" height="12" viewBox="0 0 12 8.953" class="text-green-500">
-                <path d="M5.055,9.313a.623.623,0,0,0,.867,0l6.891-6.891a.623.623,0,0,0,0-.867L11.969.711a.594.594,0,0,0-.844,0L5.5,6.336,2.852,3.711a.594.594,0,0,0-.844,0l-.844.844a.623.623,0,0,0,0,.867Z" transform="translate(-0.988 -0.535)" fill="currentColor"/>
-              </svg>
-              <p class="font-semibold text-gray-700">No Credit Card Required</p>
-            </div>
-          </div>
         </div>
       </div>
-      
+
       <div class="rounded-3xl relative h-auto video-container overflow-hidden">
         <section>
           <div class="mx-auto lg:px-4 md:px-2 items-center w-full">
@@ -151,32 +79,20 @@
               slider: null,
               slideWidth: 0,
               isTransitioning: false,
-
               next() {
                 if (this.isTransitioning) return;
-        
                 this.isTransitioning = true;
+                const newSlide = (this.currentSlide + 1) % this.totalSlides;
+                window.dispatchEvent(new CustomEvent('slide-changed', { detail: { slide: newSlide } }));
                 this.currentSlide++;
-        
                 this.slider.style.transition = 'transform 0.5s ease-in-out';
                 this.slider.style.transform = `translateX(-${this.currentSlide * this.slideWidth}px)`;
-        
-                // Dispatch custom event to update left side content
-                window.dispatchEvent(new CustomEvent('slide-changed', {
-                  detail: { slide: this.currentSlide % this.totalSlides }
-                }));
-        
                 setTimeout(() => {
                   if (this.currentSlide >= this.totalSlides) {
                     this.slider.style.transition = 'none';
                     this.currentSlide = 0;
                     this.slider.style.transform = `translateX(0px)`;
-                    
-                    // Dispatch event for reset
-                    window.dispatchEvent(new CustomEvent('slide-changed', {
-                      detail: { slide: 0 }
-                    }));
-            
+                    window.dispatchEvent(new CustomEvent('slide-changed', { detail: { slide: 0 } }));
                     setTimeout(() => {
                       this.slider.style.transition = 'transform 0.5s ease-in-out';
                     }, 50);
@@ -184,73 +100,39 @@
                   this.isTransitioning = false;
                 }, 500);
               },
-
               startAutoSlide() {
                 this.interval = setInterval(() => this.next(), 5000);
               },
-
               stopAutoSlide() {
                 clearInterval(this.interval);
               },
-
               init() {
                 this.slider = this.$refs.slider;
                 this.slideWidth = this.slider.children[0].offsetWidth + 12;
                 this.startAutoSlide();
-                
                 window.addEventListener('resize', () => {
                   this.slideWidth = this.slider.children[0].offsetWidth + 12;
                   this.slider.style.transform = `translateX(-${this.currentSlide * this.slideWidth}px)`;
                 });
               }
-            }"
-            x-init="init"
-            @mouseenter="stopAutoSlide()"
-            @mouseleave="startAutoSlide()"
-            role="button">
-              <div class="flex flex-col w-full" aria-labelledby="carousel-label" role="region" tabindex="0">
-                <div class="overflow-hidden">
-                  <ul
-                    x-ref="slider"
-                    class="flex gap-3 pb-6 pt-4 w-full"
-                    style="transition: transform 0.5s ease-in-out;"
-                  >
-                    <li class="w-full flex flex-col shrink-0" role="option">
-                      <figure class="text-center">
-                        <div class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] w-full">
-                          <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center">
-                           <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/giftcardBanner1.png" alt="Loyalty Program">
-                          </div>
-                        </div>
-                      </figure>
-                    </li>
-                    <li class="w-full flex flex-col shrink-0" role="option">
-                      <figure class="text-center">
-                        <div class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] w-full">
-                          <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center">
-                           <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/storecredit/store-credit-banner.webp" alt="Loyalty Program">
-                          </div>
-                        </div>
-                      </figure>
-                    </li>
-                    <li class="w-full flex flex-col shrink-0" role="option">
-                      <figure class="text-center">
-                        <div class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] w-full">
-                          <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center">
-                           <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/loyalty/Loyalty-banner1.webp" alt="Loyalty Program">
-                          </div>
-                        </div>
-                      </figure>
-                    </li>
-                   
-                   
-                  </ul>
-                </div>
+            }" x-init="init" @mouseenter="stopAutoSlide()" @mouseleave="startAutoSlide()">
+              <div class="overflow-hidden">
+                <ul x-ref="slider" class="flex gap-3 pb-6 pt-4 w-full" style="transition: transform 0.5s ease-in-out;">
+                  <li class="w-full flex flex-col shrink-0">
+                    <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/giftcardBanner1.png" alt="Gift Cards">
+                  </li>
+                  <li class="w-full flex flex-col shrink-0">
+                    <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/storecredit/store-credit-banner.webp" alt="Store Credit">
+                  </li>
+                  <li class="w-full flex flex-col shrink-0">
+                    <img class="object-cover object-center rounded-xl" loading="lazy" src="/assets/loyalty/Loyalty-banner1.webp" alt="Loyalty Program">
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </section>
-      </div>    
+      </div>
     </div>
   </div>
 </section>
