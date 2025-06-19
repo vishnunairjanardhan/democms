@@ -736,7 +736,7 @@ declare module 'astro:content' {
   slug: "fathers-day-promotion-ideas";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "fathers-day-retail-promotion-ideas.md": {
 	id: "fathers-day-retail-promotion-ideas.md";
@@ -1170,7 +1170,7 @@ declare module 'astro:content' {
   slug: "introducing-multi-currency-gift-card";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "kpis-for-loyalty-programs.md": {
 	id: "kpis-for-loyalty-programs.md";
