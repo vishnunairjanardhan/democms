@@ -6,14 +6,14 @@ title: "Coalition Loyalty Programs: A Strategic Advantage for Modern eCommerce B
 description: "Discover how coalition loyalty programs can drive growth for eCommerce brands. Learn the benefits, structure, implementation tips, and top examples in this detailed guide."
 heading: "Coalition Loyalty Programs: A Strategic Advantage for Modern eCommerce Brands"
 image:
-  url: "/assets/blog/boost-revenue-with-automotive-loyalty-programs.webp"
+  url: "/assets/blog/coalition-loyalty-programs-a-strategic-advantage-for-modern-ecommerce-brands.webp"
   alt: "Coalition Loyalty Programs: A Strategic Advantage for Modern eCommerce Brands"
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/coalition-loyalty-programs"
 keywords: ["gift card"]
 
 --- 
-<img src="/assets/blog/boost-revenue-with-automotive-loyalty-programs.webp"></a>
+<img src="/assets/blog/coalition-loyalty-programs-a-strategic-advantage-for-modern-ecommerce-brands.webp"></a>
 
 In today’s fast-changing retail world, dependability isn’t close to focuses or discounts—it’s around conveying genuine, progressing esteem. That’s precisely what consolidation devotion programs are planned to do.
 Instead of one brand offering rewards on its own, coalition programs bring together multiple non-competing brands to create a shared loyalty ecosystem. Customers can earn points with one brand and redeem them with another—offering more choice, flexibility, and value.
