@@ -6,14 +6,14 @@ title: "SaaS Loyalty Programs: Drive Retention & Growth in 2025"
 description: "Discover how SaaS loyalty programs are transforming customer retention and driving sustainable growth. Learn strategies, tools, and real examples to build loyalty in the SaaS space."
 heading: "SaaS Loyalty Programs: The Secret to Long-Term Customer Success"
 image:
-  url: "/assets/blog/boost-revenue-with-automotive-loyalty-programs.webp"
-  alt: "Employee Referral Programs for eCommerce: Boost Hiring & Loyalty"
+  url: "/assets/blog/saas-loyalty-programs-drive-retention-growth-in-2025.webp"
+  alt: "saas loyalty programs drive retention growth in 2025"
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/saas-loyalty-programs"
 keywords: ["gift card"]
 
 --- 
-<img src="/assets/blog/boost-revenue-with-automotive-loyalty-programs.webp"></a>
+<img src="/assets/blog/saas-loyalty-programs-drive-retention-growth-in-2025.webp"></a>
 
 In the fast-moving SaaS world, acquiring new users is great—but keeping them? That’s where the real magic happens. A solid SaaS loyalty program doesn’t just help you retain customers, it turns them into raving fans, brand advocates, and repeat buyers.
 

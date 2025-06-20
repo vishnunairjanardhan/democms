@@ -19,7 +19,7 @@ If you are an eCommerce retailer, Thanksgiving is the time to create irresistibl
 
 ## What’s special about thanksgiving for retailers?
 
-It is an excellent <a href="https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges" target="_blank">opportunity for businesses to increase revenue</a>. With thanksgiving, the holiday season is officially starting, and people are planning to spend more on friends and family. Retailers are open on this holiday to give their customers a head start on <a href="https://www.99minds.io/blog/holiday-shoppers-take-advantage-of-early-thanksgiving-deals" target="_blank">the holiday season shopping</a>. Most retailers offer special discounts and promotions on Thanksgiving.
+It is an excellent opportunity for businesses to increase revenue. With thanksgiving, the holiday season is officially starting, and people are planning to spend more on friends and family. Retailers are open on this holiday to give their customers a head start on <a href="https://www.99minds.io/blog/holiday-shoppers-take-advantage-of-early-thanksgiving-deals" target="_blank">the holiday season shopping</a>. Most retailers offer special discounts and promotions on Thanksgiving.
 
 ## Ten steps to get your eCommerce store Thanksgiving ready
 
@@ -39,7 +39,7 @@ Come up with <a href="https://www.99minds.io/blog/tips-to-boost-ecommerce-sales-
 
 ### Use a holiday calendar
 
-Thanksgiving is followed by a series of other holidays: <a href="https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday" target="_blank">Black Friday, Small Business Saturday, Cyber Monday</a>, Boxing Day, Christmas, and New Year’s. Thanksgiving is a great time to prep yourself for the holiday season. You need a strong sales plan to make the most of this holiday season. Holidays are the best time to attract new customers and re-target your old ones.
+Thanksgiving is followed by a series of other holidays: Black Friday, Small Business Saturday, Cyber Monday, Boxing Day, Christmas, and New Year’s. Thanksgiving is a great time to prep yourself for the holiday season. You need a strong sales plan to make the most of this holiday season. Holidays are the best time to attract new customers and re-target your old ones.
 Create a holiday calendar and the series of engagement tactics you should be indulging for each. Plan everything in advance, including the on-page design elements, sales banners, unique products, promotional offers, gift guide graphics, and your content calendar. Having such a plan and following it to the T ensures you can meet or exceed your targets.
 
 ### Offer gift cards

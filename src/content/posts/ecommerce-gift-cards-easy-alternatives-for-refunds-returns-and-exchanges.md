@@ -22,7 +22,7 @@ Buyer’s remorse is a common phenomenon. Some purchases are impulse decisions, 
 
 Even though returns and exchanges are great for the customer, they are terrible for retailers. It is estimated that around $428 billion worth of merchandise was returned in 2020. It accounts for more than 10% of the total sales. It is even worse during the holiday season, as an estimated two-thirds of the products are returned.
 
-Customers think that returned products are easier to resell. The truth is that most of them end up in landfills. <a href="https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges" target="_blank">Gift cards can reduce the burden on retailers by a huge margin</a>. As the holidays inch closer, retailers should be even more careful and have a streamlined process for returns, refunds, and exchanges. Your main objective should be to keep the customers asking for returns from going elsewhere.
+Customers think that returned products are easier to resell. The truth is that most of them end up in landfills. Gift cards can reduce the burden on retailers by a huge margin. As the holidays inch closer, retailers should be even more careful and have a streamlined process for returns, refunds, and exchanges. Your main objective should be to keep the customers asking for returns from going elsewhere.
 
 <h2>What is the problem with online returns?</h2>
 
