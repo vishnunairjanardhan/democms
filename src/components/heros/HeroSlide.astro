@@ -74,18 +74,14 @@
             <!--<p class="max-w-2xl mt-4 text-lg text-gray-600">Enrich your Customer Journey with a Gift Card, Store Credit, and Loyalty Program. Empower them to share your brand experience with Referrals</p>-->
           
           <!-- Dynamic content based on current slide -->
-          <div class="p-3">
-            <h3 class="text-xl font-bold text-gray-800 min-h-[28px]">
-              <span x-text="displayedTitle"></span>
-              <span x-show="displayedTitle.length < slideData[currentSlide]?.title?.length" class="animate-pulse"></span>
-            </h3>
+          <div class="py-3">
             <p class="text-gray-600 min-h-[48px]">
               <span x-text="displayedDescription"></span>
               <span x-show="displayedDescription.length < slideData[currentSlide]?.description?.length && displayedTitle.length >= slideData[currentSlide]?.title?.length" class="animate-pulse">|</span>
             </p>
           </div>
 
-          <div class="mt-6" x-data="{ open: false }">
+          <div x-data="{ open: false }">
             <span @click="open = true">
               <button
                 type="button"
