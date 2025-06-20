@@ -82,7 +82,7 @@ The structure of the collaboration should be clear. The goals could be to genera
 
 Check for potential issues that can happen during the <a href="https://www.99minds.io/blog/are-gift-cards-only-for-holidays-and-seasonal-sales">holiday season</a>. Is your website optimized to handle all kinds of traffic? Ensure that your website will be incident-free. More than <a href="https://redsignal.net/72-of-the-customers-abandon-shopping-cart-sales-due-to-bad-user-experience/">70% of shoppers will abandon the site</a> if they have a poor experience while they are on the site. You need to offer the best possible customer experience so that they can have a seamless purchasing experience.
 
-To reduce the instances of too many customer queries, use the services of a chatbot to handle them. Automate your operations to be more productive and save time. Use <a href="https://www.99minds.io/blog/customer-retention-and-acquisition-using-ai">artificial intelligence</a> and machine learning technologies to automate product assortment and make sorting decisions.
+To reduce the instances of too many customer queries, use the services of a chatbot to handle them. Automate your operations to be more productive and save time. Use artificial intelligence and machine learning technologies to automate product assortment and make sorting decisions.
 
 <h3><li> Create a gifting guide:</li></h3>
   

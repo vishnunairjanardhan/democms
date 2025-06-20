@@ -71,7 +71,7 @@ Offer special discounts on gift cards to make more people buy your branded gift 
 
 <h2>What can businesses do with gift cards to help customers?</h2>
 
-We’ve established that gift cards are great for businesses during an economic downturn. Here’s what businesses can do during these tough times to gain <a href="https://www.99minds.io/blog/what-constitutes-a-good-loyalty-program">loyalty</a>. The idea is to give gift cards to your loyal customers. If your eCommerce store is stable, with reasonable profits being posted month-on-month, then giving away is one of the best things you can do.
+We’ve established that gift cards are great for businesses during an economic downturn. Here’s what businesses can do during these tough times to gain loyalty. The idea is to give gift cards to your loyal customers. If your eCommerce store is stable, with reasonable profits being posted month-on-month, then giving away is one of the best things you can do.
 
 It will be an incredible story of goodwill that can never be measured in terms of dollars. You don’t have to give away a fortune and not to every customer, either.
 

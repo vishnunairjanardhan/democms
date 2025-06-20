@@ -19,7 +19,7 @@ Who would have in their wildest dreams thought about how calculating data can le
 
 <b>No one. I bet.</b>
 
-<a href="https://onlinemba.montclair.edu/">Because what seemed to be a statistical analysis of data when Billy Beane and his assistant Paul DePodesta innovated sabermetrics</a>, achieved it in 2004, is our next revolution. Creating enough data to solve the toughest problems is in itself all about how we are using Data Science and <a href="https://www.99minds.io/blog/ai-for-everyone">implementing AI with our systems</a> and day to day situations.
+<a href="https://onlinemba.montclair.edu/">Because what seemed to be a statistical analysis of data when Billy Beane and his assistant Paul DePodesta innovated sabermetrics</a>, achieved it in 2004, is our next revolution. Creating enough data to solve the toughest problems is in itself all about how we are using Data Science and implementing AI with our systems and day to day situations.
 
 ## Let’s first understand what Moneyball is and why industries are after this strategy!
 
