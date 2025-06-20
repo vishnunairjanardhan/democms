@@ -18,7 +18,7 @@ keywords: ["99minds"]
 
 Once again, it’s that time of year. The <a href="https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/" target="_blank">holiday season of Christmas is quickly approaching</a>. Christmas is a fantastic time for your eCommerce firm to capitalise on the holiday season’s sales potential. Any eCommerce business owner, though, understands that the holidays aren’t just about shopping. Store proprietors are also highly busy.
 
-If you’re in a highly competitive industry, you’re probably wondering how you’ll make your <a href="https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday/" target="_blank">eCommerce store ready for the busiest season</a>, especially if you haven’t taken any preparations. Advanced planning is critical for eCommerce store owners to ensure that valuable sales are not missed. I’ve included a few pointers below to assist you in preparing your online store for the holiday shopping frenzy.
+If you’re in a highly competitive industry, you’re probably wondering how you’ll make your eCommerce store ready for the busiest season, especially if you haven’t taken any preparations. Advanced planning is critical for eCommerce store owners to ensure that valuable sales are not missed. I’ve included a few pointers below to assist you in preparing your online store for the holiday shopping frenzy.
 
 <h2>Use a variety of ways to sell your product.</h2>
 

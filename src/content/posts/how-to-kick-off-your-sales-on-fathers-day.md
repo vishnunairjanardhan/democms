@@ -16,7 +16,7 @@ keywords: ["99minds"]
 
 <img src="/assets/blog/How-To-Kick-Off-Your-Sales-for-Fathers-Day.jpg" alt="How to kick off your sales for fathers day">
 
-Father’s Day isn’t as popular as <a href="https://www.99minds.io/blog/ways-to-boost-sales-this-mothers-day" target="_blank">Mother’s Day</a>, but you don’t want to lose out on the $20 billion spent on the celebration. Also, 77% of Americans plan to celebrate Father’s Day this year, 2% more than last year.
+Father’s Day isn’t as popular as Mother’s Day, but you don’t want to lose out on the $20 billion spent on the celebration. Also, 77% of Americans plan to celebrate Father’s Day this year, 2% more than last year.
 
 Consumers are expected to spend an average of $171. This means that for those looking to take advantage of seasonal sales, <a href="https://www.99minds.io/blog/fathers-day-retail-promotion-ideas" target="_blank">Father’s Day is an unavoidable retail holiday</a>.
 
@@ -54,7 +54,7 @@ Installing themed mobiles or stands and using displays to emphasise size men’s
 
 Buyers are enticed by the selling of many products at a somewhat lower price. These are especially helpful when customers are unsure of what they want to buy.
 
-Consider trousers and shirt sets, or exotic foods in specific packaging for the event. That’s how the <a href="https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges/" target="_blank">eCommerce company suggests a more appealing present to users at a cheaper cost than it would be if purchased separately</a>.
+Consider trousers and shirt sets, or exotic foods in specific packaging for the event. That’s how the eCommerce company suggests a more appealing present to users at a cheaper cost than it would be if purchased separately.
 
 <a href="https://giftcard.99minds.io/access/login" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE-03.jpg" alt="create your own personalized loyalty program"></a>
 

@@ -50,7 +50,7 @@ Given that the lack of free delivery is directly tied to 65 % of cart abandonmen
 
 <h3><li>Exclusive E-Gift Card for Father’s Day:</h3></li>
 
-Online buyers will be hoping to obtain a <a href="https://www.99minds.io/blog/how-to-kick-off-your-sales-on-fathers-day">discount on Father’s Day sales</a>. To claim the discounted amount, create an exclusive e-gift card that is only valid for a limited time. This will generate a sense of urgency to shop, increasing sales as more customers visit your business to take advantage of the discounted price before it expires. To get the most traffic to your website, promote it everywhere. To have the task done rightly, you can use our gift cards.
+Online buyers will be hoping to obtain a discount on Father’s Day sales. To claim the discounted amount, create an exclusive e-gift card that is only valid for a limited time. This will generate a sense of urgency to shop, increasing sales as more customers visit your business to take advantage of the discounted price before it expires. To get the most traffic to your website, promote it everywhere. To have the task done rightly, you can use our gift cards.
 </ol>
 
 <h2>Final Thoughts:</h2>

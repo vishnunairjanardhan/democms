@@ -16,7 +16,7 @@ keywords: ["99minds"]
 <a href="https://www.99minds.io/blog/innovations-in-e-commerce" target="_blank">
 <img src="/assets/blog/Innovations-in-e-commerce.jpg"></a>
 
-Setting up an online store alone will not give you magical sales numbers. <a href="https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday" target="_blank">eCommerce stores are an essential part of our day-to-day lives</a>. You cannot survive in the market by doing the bare minimum. Offering a seamless and delightful experience to your customers every single time should be your goal. For that, you must leverage the latest innovations to keep your customers invested in your brand.
+Setting up an online store alone will not give you magical sales numbers. eCommerce stores are an essential part of our day-to-day lives. You cannot survive in the market by doing the bare minimum. Offering a seamless and delightful experience to your customers every single time should be your goal. For that, you must leverage the latest innovations to keep your customers invested in your brand.
 
 Let’s look at some of the innovations in eCommerce that will bolster the industry for the year 2023 and beyond:
 
@@ -39,7 +39,7 @@ In Livestream commerce, videos of products are streamed, which can be bought by 
 
 <h2>Improved attribution models</h2>
 
-The buyer’s journey is never straightforward, isn’t it? Your customers traverse through a variety of <a href="https://www.99minds.io/blog/6-mothers-day-marketing-ideas-for-ecommerce-businesses" target="_blank">marketing channels</a>, like emails, <a href="https://www.facebook.com/" target="_blank">Facebook</a>, <a href="https://www.instagram.com/" target="_blank">Instagram</a>, etc., before they buy from your store. So who do you attribute the sale to? Most eCommerce retailers attribute the sale to the last channel that the customer clicked before the purchase. The chances are that it might not always be the one that heavily contributed to the sale.
+The buyer’s journey is never straightforward, isn’t it? Your customers traverse through a variety of marketing channels, like emails, <a href="https://www.facebook.com/" target="_blank">Facebook</a>, <a href="https://www.instagram.com/" target="_blank">Instagram</a>, etc., before they buy from your store. So who do you attribute the sale to? Most eCommerce retailers attribute the sale to the last channel that the customer clicked before the purchase. The chances are that it might not always be the one that heavily contributed to the sale.
 
 The problem with the above scenario is that the eCommerce site ends up spending ad money on the last-clicked channel. Thankfully, there are on-platform attribution modeling platforms that send real-time attribution tracking to a dashboard. It helps the business see the emails, ads, videos, <a href="https://www.99minds.io/blog/how-to-use-gift-cards-in-sms-marketing" target="_blank">SMSes</a>, etc., that the visitor viewed and track them through to the point of conversion. This level of accuracy helps marketers spend their ad dollars on channels that create the most impact.
 
@@ -89,7 +89,7 @@ Some of the most popular eCommerce platforms have begun to offer visual search c
 
 In the world of eCommerce, there is nothing constant. What is new today and considered innovative might become obsolete. A case in point is <a href="https://www.bbc.com/news/technology-37224691" target="_blank">Amazon’s Dash Button</a>, an electronic device that was designed to make product ordering easy. Innovative? Yes. Did people love it? Not really. At the end of the day, that’s what matters. Your innovativeness should be lapped up by your target audience.
 
-If you are looking for a platform that helps in setting up <a href="https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs" target="_blank">loyalty programs for your eCommerce store</a>, get in touch with us. We will be more than happy to create a <a href="https://www.99minds.io/blog/promotional-codes" target="_blank">promotional</a> program for you.
+If you are looking for a platform that helps in setting up loyalty programs for your eCommerce store, get in touch with us. We will be more than happy to create a <a href="https://www.99minds.io/blog/promotional-codes" target="_blank">promotional</a> program for you.
 
 
 

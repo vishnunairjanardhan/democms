@@ -39,7 +39,7 @@ Getting new customers is great for your eCommerce brand. But you know what is ev
 <li>Set up a referral program:</li>
 </ul>
 
-One of the best ways to increase your customer base is to put your existing customers into a <a href="https://www.99minds.io/referral">referral program</a>. Offer them incentives for each referral. You can use plug-and-play referral software that can quickly start your referral campaigns. The <a href="https://www.99minds.io/blog/how-do-i-set-up-an-ecommerce-referral-program">referral program</a> for Thanksgiving will <a href="https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday">fetch you customers during your Cyber Monday and Black Friday sales.</a>
+One of the best ways to increase your customer base is to put your existing customers into a <a href="https://www.99minds.io/referral">referral program</a>. Offer them incentives for each referral. You can use plug-and-play referral software that can quickly start your referral campaigns. The <a href="https://www.99minds.io/blog/how-do-i-set-up-an-ecommerce-referral-program">referral program</a> for Thanksgiving will fetch you customers during your Cyber Monday and Black Friday sales.
 
 <ul>
 <li>Promote the right products:</li>
@@ -111,7 +111,7 @@ Do you want to make the customers ambassadors of your brand? Put them into a <a 
 
 ### Wrapping up:
 
-The holiday season is the perfect time for eCommerce sites to amp up their marketing and operational strategy. You have to earn each of these sales, but we are confident that using the above set of strategies will help <a href="https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges">increase your revenues for Thanksgiving and the other holidays</a>. Go into the holidays with a solid eCommerce sales plan in place to get great results.
+The holiday season is the perfect time for eCommerce sites to amp up their marketing and operational strategy. You have to earn each of these sales, but we are confident that using the above set of strategies will help increase your revenues for Thanksgiving and the other holidays. Go into the holidays with a solid eCommerce sales plan in place to get great results.
 
 Businesses should invest in a referral program to increase their user base and incentivize their existing customers. Adding a gift card for the holiday season will be a great deal for your customers who want to gift their loved ones for the holidays. Get in touch with the <a href="https://www.99minds.io/home">99minds</a> team to understand how we can help your eCommerce store conquer the holiday season.
 

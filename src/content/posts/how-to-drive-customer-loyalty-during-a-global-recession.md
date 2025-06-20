@@ -30,8 +30,7 @@ When a customer feels that they are being valued, the chances of them choosing a
 <ol>
 <li> Engage with customers even if they aren’t actively purchasing from you. It will make them feel that they are a part of “your” community.</li>
 <li> Allow customers to earn points without even having to buy anything from you.</li>
-<li> Send push notifications to customers and encourage them to interact with your content for 
-<a href="https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges" target="_blank">incentives</a>.</li>
+<li> Send push notifications to customers and encourage them to interact with your content for incentives.</li>
 </ul>
 </ol>
 

@@ -36,7 +36,7 @@ Keep in mind that the top Father’s Day gift includes special outings, clothes,
 
 <b>Guide your customers…</b>
 
-Everyone is not a good decision-maker, and some people are unsure what to get their father even at the last minute. So you can help them with your <a href="https://www.99minds.io/blog/how-to-kick-off-your-sales-on-fathers-day" target="_blank">Father’s Day gifts guide</a>.
+Everyone is not a good decision-maker, and some people are unsure what to get their father even at the last minute. So you can help them with your Father’s Day gifts guide.
 
 And suggest them to customers. It’d get really easy for them to choose something that their father would love. Working on creating a gift basket is one option.
 

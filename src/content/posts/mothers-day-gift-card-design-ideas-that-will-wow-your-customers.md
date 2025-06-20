@@ -52,7 +52,7 @@ Elevate your designs with metallic accents and foil stamping. Nothing says “pr
 
 ## Conclusion
 
-Designing unique and creative <a href="https://www.99minds.io/blog/ways-to-boost-sales-this-mothers-day/" target="_blank">Mother’s Day gift cards</a> doesn’t have to be hard. By using elements such as floral patterns, personalization, fun shapes, motivational messages, and metallic accents, your gift card can stand out. While the card offers a convenient and effortless way to show appreciation, the design can make it a memorable experience. With <a href="https://www.99minds.io/" target="_blank">99minds</a> advanced gifting experience, make the most outstanding gift cards to stay on top of the game. Keep the above tips in mind, let’s aim to create gift cards that will wow our customer and make their Mother’s Day memorable.
+Designing unique and creative Mother’s Day gift cards doesn’t have to be hard. By using elements such as floral patterns, personalization, fun shapes, motivational messages, and metallic accents, your gift card can stand out. While the card offers a convenient and effortless way to show appreciation, the design can make it a memorable experience. With <a href="https://www.99minds.io/" target="_blank">99minds</a> advanced gifting experience, make the most outstanding gift cards to stay on top of the game. Keep the above tips in mind, let’s aim to create gift cards that will wow our customer and make their Mother’s Day memorable.
 
 
 
