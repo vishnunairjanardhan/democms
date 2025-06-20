@@ -126,7 +126,7 @@ Here’s how small businesses can make the most of their gift card program.
 
 <li><h3>Employee Training</h3> Provide comprehensive training to effectively promote gift card sales.Emphasize the importance of excellent customer service in gift card transactions.Conduct role-playing exercises to simulate various customer scenarios.</li>
 
-<li><h3>Comments and Analysis</h3> Implement systems to collect and analyze sales data and customer feedback.Use analytics tools to track the performance of your  <a href="https://www.99minds.io/blog/gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness"  role="link" target="_blank">gift card strategies</a>. Regularly review feedback and analytics to identify areas for improvement and optimization.</li>
+<li><h3>Comments and Analysis</h3> Implement systems to collect and analyze sales data and customer feedback.Use analytics tools to track the performance of your gift card strategies. Regularly review feedback and analytics to identify areas for improvement and optimization.</li>
 
 <li><h3>Cold Reach Outs</h3> Cold communication like emails or phone calls helps small businesses promote gift cards to new customers. Personalized messages emphasize the convenience of gift cards, increase sales and increase awareness.</li>
 

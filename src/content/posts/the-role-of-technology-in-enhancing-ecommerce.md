@@ -51,7 +51,7 @@ The algorithm is able to forecast this information by going through previous sea
 
 <li><b>Better marketing:</li></b>
 
-<a href="https://www.99minds.io/blog/how-is-online-ecommerce-evolving">Technological advancements in the field of ecommerce</a> has touched all aspects possible, and that includes marketing as well. It even provides you the opportunity to localize your website so that local users can access it. Thanks to the modern suite of technologies available, it is easy to do it in a short period of time. How? There are localization software and multiple plugins which can provide customers with a chance to browse your website in their local language. It will help you reach a wide array of audience and helps your marketing campaigns by a huge margin.
+Technological advancements in the field of ecommerce has touched all aspects possible, and that includes marketing as well. It even provides you the opportunity to localize your website so that local users can access it. Thanks to the modern suite of technologies available, it is easy to do it in a short period of time. How? There are localization software and multiple plugins which can provide customers with a chance to browse your website in their local language. It will help you reach a wide array of audience and helps your marketing campaigns by a huge margin.
 
 <li><b>Augmented Reality:</li></b>
 

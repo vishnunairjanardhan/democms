@@ -31,7 +31,7 @@ Flowers, the quintessential
 ### Gift of personalisation
 
 Make Mother’s Day a truly special occasion by adding a personal touch to your gift. It’s the little things that count, and incorporating the recipient’s name or picture on a gift card makes it truly unique and unforgettable. This simple gesture shows just how much you care about the person and goes a long way in making their day a memorable one. Give the 
-<a href="https://www.99minds.io/blog/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day/" target="_blank">perfect gift this Mother’s Day</a> that will bring a smile to their face and touch their heart. Personalize it!
+perfect gift this Mother’s Day that will bring a smile to their face and touch their heart. Personalize it!
 
 ### Fun Shapes
 

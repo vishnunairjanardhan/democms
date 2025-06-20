@@ -42,7 +42,7 @@ More and more clients are looking for inspiration and direction during the festi
 
 <h2>Give gift cards to your long-term customer.</h2>
 
-Every consumer enjoys customised gifts, and sending a gift card to your regular customers would be greatly appreciated. This is the most effective technique to show your consumers how much you appreciate them. Although not all customers expect this from the companies or businesses where they purchase, sending them a gesture would be a nice touch. It can, however, assist you in establishing great customer service relationships that lead to improved sales. You may always reach out to 99minds to build a <a href="https://www.99minds.io/blog/what-constitutes-a-good-loyalty-program/" target="_blank">Christmas-themed gift card loyalty programme</a>.
+Every consumer enjoys customised gifts, and sending a gift card to your regular customers would be greatly appreciated. This is the most effective technique to show your consumers how much you appreciate them. Although not all customers expect this from the companies or businesses where they purchase, sending them a gesture would be a nice touch. It can, however, assist you in establishing great customer service relationships that lead to improved sales. You may always reach out to 99minds to build a Christmas-themed gift card loyalty programme.
 
 <a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 
