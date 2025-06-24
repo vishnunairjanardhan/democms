@@ -54,7 +54,7 @@ function NewLogoCloud() {
     },
   ];
 
-  const duplicateImages = [...images, ...images];
+  const duplicateImages = [...images, ...images, ...images, ...images, ...images];
 
   return (
     <section>
