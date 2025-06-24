@@ -6,14 +6,14 @@ title: "Top Loyalty Program Apps for eCommerce Merchants in 2025"
 description: "Discover the best loyalty program apps for e‑commerce merchants—ranging from Shopify solutions to multi-brand loyalty systems. Learn how to boost customer retention and value with real examples and expert tips"
 heading: "Top Loyalty Program Apps for eCommerce Merchants in 2025"
 image:
-  url: "/assets/blog/boost-revenue-with-automotive-loyalty-programs.webp"
+  url: "/assets/blog/top-loyalty-program-apps-for-ecommerce-merchants-in-2025.webp"
   alt: "Top Loyalty Program Apps for eCommerce Merchants in 2025"
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/loyalty-program-apps"
 keywords: ["gift card"]
 
 --- 
-<img src="/assets/blog/boost-revenue-with-automotive-loyalty-programs.webp"></a>
+<img src="/assets/blog/top-loyalty-program-apps-for-ecommerce-merchants-in-2025.webp"></a>
 
 In the competitive world of eCommerce, keeping customers coming back is just as important as attracting new ones. <a href="https://www.99minds.io/loyalty" role="link" target="_blanck">Loyalty program apps</a> have become essential tools for merchants who want to build strong relationships with their customers and boost repeat sales. But with so many options out there—ranging from simple points-based systems to complex coalition programs—it can be overwhelming to choose the right one.
 
