@@ -31,7 +31,7 @@ Flowers, the quintessential
 ### Gift of personalisation
 
 Make Mother’s Day a truly special occasion by adding a personal touch to your gift. It’s the little things that count, and incorporating the recipient’s name or picture on a gift card makes it truly unique and unforgettable. This simple gesture shows just how much you care about the person and goes a long way in making their day a memorable one. Give the 
-<a href="https://www.99minds.io/blog/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day/" target="_blank">perfect gift this Mother’s Day</a> that will bring a smile to their face and touch their heart. Personalize it!
+perfect gift this Mother’s Day that will bring a smile to their face and touch their heart. Personalize it!
 
 ### Fun Shapes
 
@@ -52,7 +52,7 @@ Elevate your designs with metallic accents and foil stamping. Nothing says “pr
 
 ## Conclusion
 
-Designing unique and creative <a href="https://www.99minds.io/blog/ways-to-boost-sales-this-mothers-day/" target="_blank">Mother’s Day gift cards</a> doesn’t have to be hard. By using elements such as floral patterns, personalization, fun shapes, motivational messages, and metallic accents, your gift card can stand out. While the card offers a convenient and effortless way to show appreciation, the design can make it a memorable experience. With <a href="https://www.99minds.io/" target="_blank">99minds</a> advanced gifting experience, make the most outstanding gift cards to stay on top of the game. Keep the above tips in mind, let’s aim to create gift cards that will wow our customer and make their Mother’s Day memorable.
+Designing unique and creative Mother’s Day gift cards doesn’t have to be hard. By using elements such as floral patterns, personalization, fun shapes, motivational messages, and metallic accents, your gift card can stand out. While the card offers a convenient and effortless way to show appreciation, the design can make it a memorable experience. With <a href="https://www.99minds.io/" target="_blank">99minds</a> advanced gifting experience, make the most outstanding gift cards to stay on top of the game. Keep the above tips in mind, let’s aim to create gift cards that will wow our customer and make their Mother’s Day memorable.
 
 
 
