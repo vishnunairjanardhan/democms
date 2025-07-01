@@ -84,14 +84,14 @@ function NewLogoCloudAbout() {
           <div class="flex justify-center items-center gap-2 py-6">
             <button
               type="button"
-              role="button"
-              label="book a demo"
-              class="w-full sm:w-auto lg:mx-3 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
-              onClick="alert('Demo booking clicked')"
+              class="raise1 relative p-0.5 inline-flex items-center justify-center overflow-hidden group rounded-md"
+              onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });"
             >
-              <span class="w-full h-full bg-white border border-solid border-black rounded-md absolute"></span>
-              <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
-                <span class="relative text-black">Book a Demo</span>
+              {" "}
+              <span class="w-full h-full bg-black text-white border border-black rounded-md group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>{" "}
+              <span class="relative px-4 py-2 transition-all ease-out rounded-md group-hover:bg-opacity-10 duration-400 inline-flex items-center gap-2">
+               
+                <span class="relative text-white">Book a Demo</span>{" "}
               </span>
             </button>
           </div>
