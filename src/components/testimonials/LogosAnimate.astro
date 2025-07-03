@@ -1,67 +1,51 @@
 <div class="relative max-w-7xl mx-auto py-12 lg:py-24">
-  <div class="logos-wrapper bg-white overflow-hidden">
-    <div class="logos-slide">
-      <img src="/../assets/logo-cloud/Pinstripe-b.svg" />
-      <img src="/../assets/logo-cloud/Bestop-b.svg" />
-      <img src="/../assets/logo-cloud/cornerbakery-b.svg" />
-      <img src="/../assets/logo-cloud/cariloha-b.svg" />
-      <img src="/../assets/logo-cloud/birdsnest-b.svg" />
-      <img src="/../assets/logo-cloud/ThirdLove-b.svg" />
-      <img src="/../assets/logo-cloud/Flynnohara-b.svg" />
-      <img src="/../assets/logo-cloud/coolvines-b.svg" />
-
-      <!-- Repeat again for smooth loop -->
-      <img src="/../assets/logo-cloud/Pinstripe-b.svg" />
-      <img src="/../assets/logo-cloud/Bestop-b.svg" />
-      <img src="/../assets/logo-cloud/cornerbakery-b.svg" />
-      <img src="/../assets/logo-cloud/cariloha-b.svg" />
-      <img src="/../assets/logo-cloud/birdsnest-b.svg" />
-      <img src="/../assets/logo-cloud/ThirdLove-b.svg" />
-      <img src="/../assets/logo-cloud/Flynnohara-b.svg" />
-      <img src="/../assets/logo-cloud/coolvines-b.svg" />
-
+  <div class="relative overflow-hidden bg-white">
     
-     
+    <!-- Left & Right Gradients -->
+    <div class="absolute left-0 top-0 bottom-0 w-16 z-10 pointer-events-none bg-gradient-to-r from-white to-transparent"></div>
+    <div class="absolute right-0 top-0 bottom-0 w-16 z-10 pointer-events-none bg-gradient-to-l from-white to-transparent"></div>
+
+    <!-- Logos Track -->
+    <div class="inline-flex whitespace-nowrap items-center gap-4 sm:gap-6 md:gap-10 lg:gap-[75px] animate-clientCarouselScroll">
+      <div class="flex-shrink-0 w-40 h-16 flex items-center justify-center">
+        <img src="/../assets/logo-cloud/Pinstripe-b.svg" class="max-w-[140px] max-h-10 object-contain" />
+      </div>
+      <div class="flex-shrink-0 w-40 h-16 flex items-center justify-center">
+        <img src="/../assets/logo-cloud/cariloha-b.svg" class="max-w-[140px] max-h-10 object-contain" />
+      </div>
+      
+      <div class="flex-shrink-0 w-40 h-16 flex items-center justify-center">
+        <img src="/../assets/logo-cloud/ThirdLove-b.svg" class="max-w-[140px] max-h-10 object-contain" />
+      </div>
+      <div class="flex-shrink-0 w-40 h-16 flex items-center justify-center">
+        <img src="/../assets/logo-cloud/birdsnest-b.svg" class="max-w-[140px] max-h-10 object-contain" />
+      </div>
+      <div class="flex-shrink-0 w-40 h-16 flex items-center justify-center">
+        <img src="/../assets/logo-cloud/Flynnohara-b.svg" class="max-w-[140px] max-h-10 object-contain" />
+      </div>
+      <div class="flex-shrink-0 w-40 h-16 flex items-center justify-center">
+        <img src="/../assets/logo-cloud/coolvines-b.svg" class="max-w-[140px] max-h-10 object-contain" />
+      </div>
+      <div class="flex-shrink-0 w-40 h-16 flex items-center justify-center">
+        <img src="/../assets/logo-cloud/Bestop-b.svg" class="max-w-[140px] max-h-10 object-contain" />
+      </div>
+      <div class="flex-shrink-0 w-40 h-16 flex items-center justify-center">
+        <img src="/../assets/logo-cloud/cornerbakery-b.svg" class="max-w-[140px] max-h-10 object-contain" />
+      </div>
     </div>
   </div>
 </div>
 
 <style>
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
+@keyframes clientCarouselScroll {
+  0% {
+    transform: translateX(0);
   }
-
-  .logos-wrapper {
-    overflow: hidden;
-    background: white;
-    position: relative;
-    width: 100%;
+  100% {
+    transform: translateX(-50%);
   }
-
-  .logos-slide {
-    display: flex;
-    width: max-content;
-    animation: scroll 90s linear infinite;
-  }
-
-  .logos-slide:hover {
-    animation-play-state: paused;
-  }
-
-  .logos-slide img {
-    width: 140px;        
-    height: 40px; 
-    margin-right: 32px;
-    flex-shrink: 0;
-    object-fit: contain;
-  }
-
-  .logos-slide img:first-child {
-    margin-left: 0;
-  }
+}
+.animate-clientCarouselScroll {
+  animation: clientCarouselScroll 70s linear infinite;
+}
 </style>
