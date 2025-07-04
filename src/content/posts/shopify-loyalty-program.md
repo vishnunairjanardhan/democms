@@ -201,7 +201,7 @@ Let's look at the numerous benefits that loyalty programs provide, allowing busi
 <li><h3>Increased Customer Retention</h3>
 Loyalty programs encourage customers to return and make repeat purchases, resulting in much higher retention rates. According to a <a href="https://www.bain.com/insights/retaining-customers-is-the-real-challenge/#:~:text=If%20this%20is%20true%2C%20then,much%20as%2095%20per%20cent./" role="link" target="_blank">Bain & Company analysis</a>, boosting client retention by 5% leads to a 25%-95% rise in earnings.</li>
 <li><h3>Enhanced Customer Engagement</h3>
-Loyalty programs encourage customers to interact with your brand more regularly by providing prizes and incentives such as offering a <a href="https://www.99minds.io/blog/the-green-revolution-digital-gift-cards-vs-plastic-gift-cards" role="link" target="_blank">digital gift card</a> or a discount code for liking a post on social media, hence increasing overall engagement.</li>
+Loyalty programs encourage customers to interact with your brand more regularly by providing prizes and incentives such as offering a digital gift card or a discount code for liking a post on social media, hence increasing overall engagement.</li>
 <li><h3>Improved Customer Data Collection</h3>
 Loyalty programs offer significant insights into customer behavior and preferences, which may be leveraged to adjust marketing campaigns and enhance the customer experience.
 

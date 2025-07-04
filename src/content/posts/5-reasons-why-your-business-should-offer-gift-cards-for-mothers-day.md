@@ -49,7 +49,7 @@ Gift cards are a great way to increase repeat business, thereby increasing sales
 <h2>Gift Cards Can Introduce New Customers to Your Business</h2>
 
 If you’re looking to increase your customer base, offering gift cards is a great way to do it. In fact, over 40% of those who receive a gift card for your business are first time customers! 
-<a href="https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges/" target="_blank">Gift card programs have emerged as alternatives to help companies increase revenue</a> and reduce voluntary churn. Plus, with the current pandemic making people more conscious of their spending, chances are more people will be looking out for unique gift experiences that your business can offer – in the form of a gift card!
+Gift card programs have emerged as alternatives to help companies increase revenue and reduce voluntary churn. Plus, with the current pandemic making people more conscious of their spending, chances are more people will be looking out for unique gift experiences that your business can offer – in the form of a gift card!
 With bulk purchases from companies, you can also drive huge sales for retailers – especially when Mother’s Day is around the corner. A well-designed gift card program could attract new customers and offer them an opportunity to experience something different. What’s great about gift cards is that they provide flexibility to customers since they come at a fixed price. With most businesses now going online and turning their services digital, they can allow customers to download digital versions of their gift cards too.
 At the end of the day, its all about offering real value – in whatever form your customer prefers – so that they return again and again!
 
@@ -63,7 +63,7 @@ Gift cards create an opportunity for creative expression and thoughtfulness. Not
 
 <h2>Conclusion</h2>
 
-<a href="https://www.99minds.io/blog/8-ways-to-boost-sales-with-gift-cards-this-mothers-day/" target="_blank">Mothers Day is a great opportunity for your business to boost sales</a>, increase brand loyalty and attract new customers. Whether you’re offering physical cards or digital ones, offering gift cards is a great way to engage with your customers and make sure they can give <a href="https://www.99minds.io/blog/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day/" target="_blank">the perfect gift to their loved ones</a>.
+<a href="https://www.99minds.io/blog/8-ways-to-boost-sales-with-gift-cards-this-mothers-day/" target="_blank">Mothers Day is a great opportunity for your business to boost sales</a>, increase brand loyalty and attract new customers. Whether you’re offering physical cards or digital ones, offering gift cards is a great way to engage with your customers and make sure they can give the perfect gift to their loved ones.
 From shopping discounts to freebies, gift cards can be tailored to meet the individual needs of your customers. Moreover, they are easy to manage and provide a great return on investment to your business.
 Gift cards are an excellent way to swoop in and take advantage of this opportunity to make your customers feel special and show them your appreciation on Mothers Day. So, don’t miss the chance to offer gift cards this Mother’s Day for a win-win situation.
 

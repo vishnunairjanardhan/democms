@@ -13,16 +13,16 @@ url: "https://www.99minds.io/blog/ecommerce-gift-cards-easy-alternatives-for-ref
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges/">
+<a href="https://www.99minds.io/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges">
 <img src="/assets/blog/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges.jpg"></a>
 
-US consumers were predicted to return $100 billion worth of unwanted products purchased between <a href="https://www.99minds.io/blog/tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022/" target="_blank">Thanksgiving</a> and <a href="https://www.99minds.io/blog/how-to-create-a-successful-gift-card-campaign-for-christmas/" target="_blank">Christmas</a>. Those are some painful numbers. As exciting as the <a href="https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/" target="_blank">holiday season</a> is for retailers, returns and refund requests pose a major problem.
+US consumers were predicted to return $100 billion worth of unwanted products purchased between <a href="https://www.99minds.io/blog/tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022" target="_blank">Thanksgiving</a> and <a href="https://www.99minds.io/blog/how-to-create-a-successful-gift-card-campaign-for-christmas" target="_blank">Christmas</a>. Those are some painful numbers. As exciting as the <a href="https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales" target="_blank">holiday season</a> is for retailers, returns and refund requests pose a major problem.
 
 Buyer’s remorse is a common phenomenon. Some purchases are impulse decisions, and the customer may not feel it fits their taste or style after getting the product home. Even well-meaning gifts from loved ones end up being returned to the store.
 
 Even though returns and exchanges are great for the customer, they are terrible for retailers. It is estimated that around $428 billion worth of merchandise was returned in 2020. It accounts for more than 10% of the total sales. It is even worse during the holiday season, as an estimated two-thirds of the products are returned.
 
-Customers think that returned products are easier to resell. The truth is that most of them end up in landfills. <a href="https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges/" target="_blank">Gift cards can reduce the burden on retailers by a huge margin</a>. As the holidays inch closer, retailers should be even more careful and have a streamlined process for returns, refunds, and exchanges. Your main objective should be to keep the customers asking for returns from going elsewhere.
+Customers think that returned products are easier to resell. The truth is that most of them end up in landfills. Gift cards can reduce the burden on retailers by a huge margin. As the holidays inch closer, retailers should be even more careful and have a streamlined process for returns, refunds, and exchanges. Your main objective should be to keep the customers asking for returns from going elsewhere.
 
 <h2>What is the problem with online returns?</h2>
 
@@ -38,9 +38,9 @@ Returns and refund requests have a bad impact on retailers. It is a headache thr
 
 <ul>
 <li>Understand the true costs associated with returns and the potential opportunities that are there to reduce the costs.</li>
-<li>Create an <a href="https://www.99minds.io/blog/omnichannel-commerce/" target="_blank">effective omnichannel organization to streamline operations</a>.</li>
+<li>Create an <a href="https://www.99minds.io/blog/omnichannel-commerce" target="_blank">effective omnichannel organization to streamline operations</a>.</li>
 <li>Simplify and integrate IT systems to manage the impact of returns.
-<a href="https://www.99minds.io/blog/why-are-digital-gift-cards-essential-to-your-e-commerce-business/" target="_blank">Provide gift cards instead of refunding the money in cash</a>.</li>
+<a href="https://www.99minds.io/blog/why-are-digital-gift-cards-essential-to-your-e-commerce-business" target="_blank">Provide gift cards instead of refunding the money in cash</a>.</li>
 </ul>
 
 <h2>Here’s how you can use gift cards as an alternative for refunds, returns, and exchanges:</h2>
@@ -62,11 +62,11 @@ Imagine if the only perks are getting points for each purchase which cannot be r
 
 <h3><li>Convince them to keep the product with a gift card:</li></h3>
 
-There are times when the customer is still dilly-dallying about the decision to return the product. You can use this opportunity to convince the customer that if they keep the product, you will give them a <a href="https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses/" target="_blank">brand-new gift card for a certain amount</a>. Customers who weren’t sure about returning have nothing to lose. They also get to make a cool profit. Make sure you don’t publicize this policy too much. It might result in several customers who walk in with empty threats of returns, just to get your gift card offer.
+There are times when the customer is still dilly-dallying about the decision to return the product. You can use this opportunity to convince the customer that if they keep the product, you will give them a <a href="https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses" target="_blank">brand-new gift card for a certain amount</a>. Customers who weren’t sure about returning have nothing to lose. They also get to make a cool profit. Make sure you don’t publicize this policy too much. It might result in several customers who walk in with empty threats of returns, just to get your gift card offer.
 
 <h3><li>Incentivize your staff:</li></h3>
 
-Even if the leadership team’s heart is in the right place when they come up with policies, the same should reflect in the employees. One way to push <a href="https://www.99minds.io/blog/gift-cards-the-perfect-employee-reward-for-your-workforce/" target="_blank">gift cards for exchanges is to offer incentives for the employees</a> too. Since it takes up a little more time, employees would rather talk to buying customers. Therefore, they would want to end the transaction with the customer who wants a refund as soon as possible.
+Even if the leadership team’s heart is in the right place when they come up with policies, the same should reflect in the employees. One way to push <a href="https://www.99minds.io/blog/gift-cards-the-perfect-employee-reward-for-your-workforce" target="_blank">gift cards for exchanges is to offer incentives for the employees</a> too. Since it takes up a little more time, employees would rather talk to buying customers. Therefore, they would want to end the transaction with the customer who wants a refund as soon as possible.
 
 Giving them a cash reward or any other incentive to push gift cards for returns is a great way to ensure that your customers stay with you.
 
@@ -79,7 +79,7 @@ Every customer who wants to return the product they brought from your store repr
 <h2>Wrapping up:</h2>
 
 Returns are one of the biggest problems that retailers face. With shopping becoming incredibly easy, that too with the few clicks of a button, returns have become easier too. Most customers don’t understand the kind of hassle that returns pose to retailers. Unfortunately, making returns restrictive can also be bad for the brand. This is where offering 
-<a href="https://www.99minds.io/blog/gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine/" target="_blank">gift cards</a> as an alternative for refunds makes immense business sense. It helps the retailer keep the customer’s business.
+<a href="https://www.99minds.io/blog/gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine" target="_blank">gift cards</a> as an alternative for refunds makes immense business sense. It helps the retailer keep the customer’s business.
 
 If you are looking to add gift cards to your repertoire, yesterday was the right time. Fret not; the team at 
 <a href="https://www.99minds.io/" target="_blank">99minds</a> is here to help you get ready to handle returns and refund requests the right way.
