@@ -185,13 +185,6 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"posts": {
-"10-awesome-tips-for-using-gift-cards-to-boost-your-holiday-sales.md": {
-	id: "10-awesome-tips-for-using-gift-cards-to-boost-your-holiday-sales.md";
-  slug: "10-awesome-tips-for-using-gift-cards-to-boost-your-holiday-sales";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "10-best-merchant-services-for-2022.md": {
 	id: "10-best-merchant-services-for-2022.md";
   slug: "10-best-merchant-services-for-2022";
@@ -209,13 +202,6 @@ declare module 'astro:content' {
 "10-mothers-day-ideas-to-implement-in-your-retail-business.md": {
 	id: "10-mothers-day-ideas-to-implement-in-your-retail-business.md";
   slug: "10-mothers-day-ideas-to-implement-in-your-retail-business";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"11-best-practices-for-profitable-promotions.md": {
-	id: "11-best-practices-for-profitable-promotions.md";
-  slug: "11-best-practices-for-profitable-promotions";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -251,13 +237,6 @@ declare module 'astro:content' {
 "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md": {
 	id: "5-must-have-features-for-a-successful-shopify-store-gift-card-program.md";
   slug: "5-must-have-features-for-a-successful-shopify-store-gift-card-program";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"5-reasons-why-your-business-should-offer-gift-cards-for-mothers-day.md": {
-	id: "5-reasons-why-your-business-should-offer-gift-cards-for-mothers-day.md";
-  slug: "5-reasons-why-your-business-should-offer-gift-cards-for-mothers-day";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -328,13 +307,6 @@ declare module 'astro:content' {
 "Are Omnichannel Loyalty Programs the Future of Retail.md": {
 	id: "Are Omnichannel Loyalty Programs the Future of Retail.md";
   slug: "are-omnichannel-loyalty-programs-the-future-of-retail";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"Black-friday-promotion-ideas.md": {
-	id: "Black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -479,6 +451,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"black-friday-promotion-ideas.md": {
+	id: "black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "brand-loyalty.md": {
 	id: "brand-loyalty.md";
   slug: "brand-loyalty";
@@ -514,6 +493,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"coalition-loyalty-programs.md": {
+	id: "coalition-loyalty-programs.md";
+  slug: "coalition-loyalty-programs";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "consumer-decision-making-process.md": {
 	id: "consumer-decision-making-process.md";
   slug: "consumer-decision-making-process";
@@ -538,6 +524,13 @@ declare module 'astro:content' {
 "customer-acquisition.md": {
 	id: "customer-acquisition.md";
   slug: "customer-acquisition";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"customer-engagement-strategy.md": {
+	id: "customer-engagement-strategy.md";
+  slug: "customer-engagement-strategy";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -717,6 +710,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"employee-referral-program.md": {
+	id: "employee-referral-program.md";
+  slug: "employee-referral-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "essential-marketing-tools-for-2021.md": {
 	id: "essential-marketing-tools-for-2021.md";
   slug: "essential-marketing-tools-for-2021";
@@ -871,13 +871,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat.md": {
-	id: "halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat.md";
-  slug: "halloween-tips-for-your-restaurant-use-gift-and-loyalty-as-the-treat";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "holiday-2020-a-retail-season-like-no-other.md": {
 	id: "holiday-2020-a-retail-season-like-no-other.md";
   slug: "holiday-2020-a-retail-season-like-no-other";
@@ -902,13 +895,6 @@ declare module 'astro:content' {
 "how-99minds-fits-into-your-martech-stack.md": {
 	id: "how-99minds-fits-into-your-martech-stack.md";
   slug: "how-99minds-fits-into-your-martech-stack";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"how-and-why-you-should-use-digital-rewards-for-workplace-gamification.md": {
-	id: "how-and-why-you-should-use-digital-rewards-for-workplace-gamification.md";
-  slug: "how-and-why-you-should-use-digital-rewards-for-workplace-gamification";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -944,13 +930,6 @@ declare module 'astro:content' {
 "how-is-online-ecommerce-evolving.md": {
 	id: "how-is-online-ecommerce-evolving.md";
   slug: "how-is-online-ecommerce-evolving";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"how-personalized-experiences-are-the-key-to-driving-customer-loyalty.md": {
-	id: "how-personalized-experiences-are-the-key-to-driving-customer-loyalty.md";
-  slug: "how-personalized-experiences-are-the-key-to-driving-customer-loyalty";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1207,6 +1186,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"loyalty-program-apps.md": {
+	id: "loyalty-program-apps.md";
+  slug: "loyalty-program-apps";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "loyalty-program-examples.md": {
 	id: "loyalty-program-examples.md";
   slug: "loyalty-program-examples";
@@ -1333,13 +1319,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"portrait-of-the-average-gift-card-shopper.md": {
-	id: "portrait-of-the-average-gift-card-shopper.md";
-  slug: "portrait-of-the-average-gift-card-shopper";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "promotion-marketing.md": {
 	id: "promotion-marketing.md";
   slug: "promotion-marketing";
@@ -1448,6 +1427,13 @@ declare module 'astro:content' {
 "retention-marketing.md": {
 	id: "retention-marketing.md";
   slug: "retention-marketing";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"saas-loyalty-programs.md": {
+	id: "saas-loyalty-programs.md";
+  slug: "saas-loyalty-programs";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1599,13 +1585,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"the-role-of-technology-in-enhancing-ecommerce.md": {
-	id: "the-role-of-technology-in-enhancing-ecommerce.md";
-  slug: "the-role-of-technology-in-enhancing-ecommerce";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "tiered-loyalty-program.md": {
 	id: "tiered-loyalty-program.md";
   slug: "tiered-loyalty-program";
@@ -1665,13 +1644,6 @@ declare module 'astro:content' {
 "unleashing-the-power-of-loyalty-promotion-programs.md": {
 	id: "unleashing-the-power-of-loyalty-promotion-programs.md";
   slug: "unleashing-the-power-of-loyalty-promotion-programs";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"unlocking-the-power-of-gift-cards-boosting-sales-and-customer-loyalty-on-your-shopify-store.md": {
-	id: "unlocking-the-power-of-gift-cards-boosting-sales-and-customer-loyalty-on-your-shopify-store.md";
-  slug: "unlocking-the-power-of-gift-cards-boosting-sales-and-customer-loyalty-on-your-shopify-store";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -1777,13 +1749,6 @@ declare module 'astro:content' {
 "why-should-every-business-be-a-digital-business.md": {
 	id: "why-should-every-business-be-a-digital-business.md";
   slug: "why-should-every-business-be-a-digital-business";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"why-should-you-use-gift-cards-for-your-business.md": {
-	id: "why-should-you-use-gift-cards-for-your-business.md";
-  slug: "why-should-you-use-gift-cards-for-your-business";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
