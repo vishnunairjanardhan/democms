@@ -9,6 +9,9 @@ import partytown from "@astrojs/partytown";
 import icon from "astro-icon";
 
 export default defineConfig({
+  
+  trailingSlash: 'never',
+
   markdown: {
     drafts: true,
     shikiConfig: { theme: "css-variables" }
