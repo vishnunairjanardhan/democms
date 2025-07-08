@@ -1,10 +1,10 @@
 export const buttonConfig = [
     { label: 'All', icon: 'icon-tabler-components', id: 'tabs-5-1' },
     { label: 'Fashion', icon: 'icon-tabler-components', id: 'tabs-5-2' },
-    { label: 'Sports', icon: 'icon-tabler-components', id: 'tabs-5-3' },
-    { label: 'Food & Beverages', icon: 'icon-tabler-components', id: 'tabs-5-4' },
-    { label: 'Beauty', icon: 'icon-tabler-components', id: 'tabs-5-5' },
-    { label: 'Jewellery', icon: 'icon-tabler-components', id: 'tabs-5-6' },
+    // { label: 'Sports', icon: 'icon-tabler-components', id: 'tabs-5-3' },
+    // { label: 'Food & Beverages', icon: 'icon-tabler-components', id: 'tabs-5-4' },
+    // { label: 'Beauty', icon: 'icon-tabler-components', id: 'tabs-5-5' },
+    // { label: 'Jewellery', icon: 'icon-tabler-components', id: 'tabs-5-6' },
     { label: 'Other', icon: 'icon-tabler-components', id: 'tabs-5-7' },
   ];
 
