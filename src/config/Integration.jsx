@@ -74,8 +74,8 @@ export const POS = [
 {
   image: '/integrations/vend 3.svg',
   title: 'Lightspeed X-Series (Formerly Vend)',
-  desc: "99minds integrates with Lightspeed X-Series to offer a streamlined omnichannel solution for gift cards, loyalty programs, store credits, and coupons. This allows customers to enjoy the flexibility of using these programs seamlessly across your online store and your physical location managed by Lightspeed X-Series.",
-  url: "/integrations/lightspeed",
+  desc: "99minds integrates with Vend to offer a streamlined omnichannel solution for gift cards, loyalty programs, store credits, and coupons. This allows customers to enjoy the flexibility of using these programs seamlessly across your online store and your physical location managed by Lightspeed X-Series.",
+  url: "/integrations/vend",
   alt:"99minds-Vend Integration"
 },
 {
