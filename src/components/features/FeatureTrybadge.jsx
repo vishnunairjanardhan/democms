@@ -7,7 +7,7 @@ const TabbedImages = () => {
     {
       id: "ui",
       label: "UI",
-      img: "/assets/homepage/GC-exp.webp",
+      img: "/assets/wallet/Push Notification.png",
       alt: "gift card ui",
     },
     {
@@ -50,9 +50,9 @@ const TabbedImages = () => {
                 key={tab.id}
                 src={tab.img}
                 alt={tab.alt}
-                width="1024"
+                width="900"
                 loading="lazy"
-                className={`h-[630px] rounded-2xl shadow-vulcan-950/50 ${
+                className={` rounded-2xl shadow-vulcan-950/50 ${
                   activeTab === tab.id ? "block" : "hidden"
                 }`}
               />
