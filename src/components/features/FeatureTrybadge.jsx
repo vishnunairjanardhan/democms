@@ -50,9 +50,9 @@ const TabbedImages = () => {
                 key={tab.id}
                 src={tab.img}
                 alt={tab.alt}
-                width="1024"
+                width="900"
                 loading="lazy"
-                className={`h-[630px] rounded-2xl shadow-vulcan-950/50 ${
+                className={` rounded-2xl shadow-vulcan-950/50 ${
                   activeTab === tab.id ? "block" : "hidden"
                 }`}
               />
