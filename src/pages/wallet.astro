@@ -23,10 +23,34 @@ Use AstroSeo in all the pages you want different Seo than the index page
 
 <BaseLayout3>
 <AstroSeo
-  title="Build faster in mobile wallets | 99minds"
-  description="An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience."
+  title="Add Gift Cards to Apple & Google Wallet | 99minds"
+  description="Empower customers to save, redeem & track rewards with your branded gift cards in Apple & Google Wallet. Drive loyalty and sales with 99minds."
   canonical="https://www.99minds.io/wallet"
-  {...Seo}
+  openGraph={{
+    url: "https://www.99minds.io/wallet",
+    title: "Add Gift Cards to Apple & Google Wallet | 99minds",
+    description: "Empower customers to save, redeem & track rewards with your branded gift cards in Apple & Google Wallet. Drive loyalty and sales with 99minds.",
+   images: [
+      {
+        url: "https://www.99minds.io/assets/storecredit/Storecredit-b2.png ",
+        alt: "99minds Wallet Pass",
+        type: "image/png",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/wallet",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/storecredit/Storecredit-b2.png ",
+        alt: "99minds Wallet Pass",
+        type: "image/png",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
 />
 <HeroWallet/>
 <HeroWallet1/>
