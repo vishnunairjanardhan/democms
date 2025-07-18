@@ -6,22 +6,22 @@ const TabbedImages = () => {
   const tabs = [
     {
       id: "ui",
-      label: "UI",
-      img: "/assets/wallet/Push Notification.png",
+      label: "Wallet",
+      img: "/assets/wallet/Wallet-banner.png",
       alt: "gift card ui",
     },
     {
       id: "api",
-      label: "API",
-      img: "/assets/homepage/LP1.webp",
+      label: "Push Notification",
+      img: "/assets/wallet/Push Notification.png",
       alt: "gift card api",
     },
-    {
-      id: "embed",
-      label: "Embed",
-      img: "/assets/homepage/SC1.webp",
-      alt: "gift card embed",
-    },
+    // {
+    //   id: "embed",
+    //   label: "Embed",
+    //   img: "/assets/homepage/SC1.webp",
+    //   alt: "gift card embed",
+    // },
   ];
 
   return (
@@ -29,7 +29,7 @@ const TabbedImages = () => {
       <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-4 lg:py-4 space-y-4">
         <div className="w-full max-w-6xl mx-auto py-4">
           {/* Tabs aligned to end (right) */}
-          <div className="flex justify-end space-x-4 mb-6 lg:mr-24">
+          <div className="flex justify-end space-x-4 mb-10 lg:mr-24">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
