@@ -16,20 +16,15 @@ const TabbedImages = () => {
       img: "/assets/wallet/Push Notification.png",
       alt: "gift card api",
     },
-    // {
-    //   id: "embed",
-    //   label: "Embed",
-    //   img: "/assets/homepage/SC1.webp",
-    //   alt: "gift card embed",
-    // },
   ];
 
   return (
-    <section className="relative">
-      <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-10 lg:py-4">
+    <section className="relative w-full">
+      <div className="relative w-full max-w-7xl px-4 sm:px-6 md:px-8 mx-auto space-y-6">
+
         <div className="flex flex-col-reverse md:flex-col items-center md:items-stretch space-y-6 md:space-y-4 md:space-y-reverse">
-          <div className="flex justify-center md:justify-end gap-2 lg:mb-3 lg:py-0 py-6 lg:mr-32">
-             {tabs.map((tab) => (
+          <div className="flex justify-center md:justify-end gap-2 lg:mb-3 lg:py-0 py-6">
+            {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
@@ -42,18 +37,17 @@ const TabbedImages = () => {
             ))}
           </div>
 
-          {/* Content (image centered) */}
-          <div className="relative flex justify-center">
+          {/* Image */}
+          <div className="w-full flex justify-center">
             {tabs.map((tab) => (
               <img
                 key={tab.id}
                 src={tab.img}
                 alt={tab.alt}
-                width="900"
-                loading="lazy"
-                className={` rounded-2xl shadow-vulcan-950/50 ${
+                className={`rounded-2xl shadow-md w-full max-w-[900px] h-auto ${
                   activeTab === tab.id ? "block" : "hidden"
                 }`}
+                loading="lazy"
               />
             ))}
           </div>
