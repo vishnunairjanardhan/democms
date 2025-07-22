@@ -8,13 +8,13 @@ const TabbedImages = () => {
     {
       id: "ui",
       label: "Wallet",
-      img: "/assets/wallet/Wallet-banner.png",
+      img: "/assets/wallet/wallet-banner1.jpg",
       alt: "gift card ui",
     },
     {
       id: "api",
       label: "Push Notification",
-      img: "/assets/wallet/Push Notification.png",
+      img: "/assets/wallet/wallet-banner2.jpg",
       alt: "gift card api",
     },
   ];
@@ -73,15 +73,15 @@ const TabbedImages = () => {
               {tabs.map((tab) =>
                 activeTab === tab.id ? (
                  <motion.img
-  key={tab?.img}
-  src={tab?.img}
-  alt={tab?.alt}
-  initial={{ opacity: 0, scale: 0.9, rotate: 2, x: 60 }}
-  animate={{ opacity: 1, scale: 1, rotate: 0, x: 0 }}
-  exit={{ opacity: 0, scale: 0.95, rotate: -2, x: -60 }}
-  transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
-  className="absolute rounded-2xl shadow-md w-full max-w-[900px] h-auto"
-/>
+                  key={tab?.img}
+                  src={tab?.img}
+                  alt={tab?.alt}
+                  initial={{ opacity: 0, scale: 0.9, rotate: 2, x: 60 }}
+                  animate={{ opacity: 1, scale: 1, rotate: 0, x: 0 }}
+                  exit={{ opacity: 0, scale: 0.95, rotate: -2, x: -60 }}
+                  transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
+                  className="absolute rounded-2xl shadow-md w-full max-w-[900px] h-auto"
+                />
                 ) : null
               )}
             </AnimatePresence>
