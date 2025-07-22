@@ -7,7 +7,7 @@ const TabbedImages = () => {
     {
       id: "ui",
       label: "Wallet",
-      img: "/assets/wallet/Wallet-banner.png",
+      img: "/assets/wallet/wallet_banner.webp",
       alt: "gift card ui",
     },
     {
