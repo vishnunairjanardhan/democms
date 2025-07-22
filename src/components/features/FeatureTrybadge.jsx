@@ -61,7 +61,7 @@ const TabbedImages = () => {
           </div>
 
           {/* Animated Image Section */}
-          <div className="relative flex justify-center overflow-hidden min-h-[400px]">
+          <div className="relative flex justify-center min-h-[120px] md:min-h-[350px]">
             <AnimatePresence mode="wait">
               <motion.img
                 key={activeTab.id}
