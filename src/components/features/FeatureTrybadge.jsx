@@ -26,15 +26,14 @@ const TabbedImages = () => {
 
   return (
     <section className="relative">
-      <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-4 lg:py-4 space-y-4">
-        <div className="w-full max-w-6xl mx-auto py-4">
-          {/* Tabs aligned to end (right) */}
-          <div className="flex justify-end space-x-4 mb-10 lg:mr-24">
-            {tabs.map((tab) => (
+      <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-10 lg:py-4">
+        <div className="flex flex-col-reverse md:flex-col items-center md:items-stretch space-y-6 md:space-y-4 md:space-y-reverse">
+          <div className="flex justify-center md:justify-end gap-2 lg:mb-3 lg:py-0 py-6 lg:mr-32">
+             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-4 py-2 rounded-full border border-gray-300 text-sm font-medium focus:outline-none ${
+                className={`px-4 py-2 rounded-full border border-gray-300 text-sm font-medium transition whitespace-nowrap ${
                   activeTab === tab.id ? "bg-gray-700 text-white" : ""
                 }`}
               >
