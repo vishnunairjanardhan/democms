@@ -5,12 +5,15 @@ import HeroWallet1 from "../components/heros/HeroWallet1.astro";
 import FeatureTryWallet from "../components/features/FeatureTryWallet.jsx";
 import FeatureWalletOne from "../components/features/FeatureWalletOne.astro";
 import FeatureWalletTwo from "../components/features/FeatureWalletTwo.astro";
+import LogosAnimate from "../components/testimonials/LogosAnimate.astro";
 import FeatureWalletThree from "../components/features/FeatureWalletThree.astro";
 import FeatureWalletFour from "../components/features/FeatureWalletFour.astro";
 import FeatureWalletFive from "../components/features/FeatureWalletFive.astro";
 import FeatureWalletSix from "../components/features/FeatureWalletSix.astro";
 import FeatureWalletSeven from "../components/features/FeatureWalletSeven.astro";
+import FeatureWalletEight from "../components/features/FeatureWalletEight.astro";
 import NewLogoCloud from "../components/testimonials/NewLogoCloud.jsx";
+import TestimonialWallet from "../components/testimonials/TestimonialWallet.astro";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
 import { Seo } from "../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
@@ -23,13 +26,13 @@ Use AstroSeo in all the pages you want different Seo than the index page
 
 <BaseLayout3>
 <AstroSeo
-  title="Add Gift Cards to Apple & Google Wallet | 99minds"
-  description="Empower customers to save, redeem & track rewards with your branded gift cards in Apple & Google Wallet. Drive loyalty and sales with 99minds."
+  title="All in one Digital Wallet for Loyalty and Gift cards | 99minds"
+  description="Combine gift cards, loyalty rewards, and coupons in one smart digital wallet. Drive retention and revenue with 99minds."
   canonical="https://www.99minds.io/wallet"
   openGraph={{
     url: "https://www.99minds.io/wallet",
-    title: "Add Gift Cards to Apple & Google Wallet | 99minds",
-    description: "Empower customers to save, redeem & track rewards with your branded gift cards in Apple & Google Wallet. Drive loyalty and sales with 99minds.",
+    title: "All in one Digital Wallet for Loyalty and Gift cards | 99minds",
+    description: "Combine gift cards, loyalty rewards, and coupons in one smart digital wallet. Drive retention and revenue with 99minds.",
    images: [
       {
         url: "https://www.99minds.io/assets/storecredit/Storecredit-b2.png ",
@@ -54,6 +57,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
 />
 <HeroWallet/>
 <!-- <HeroWallet1/> -->
+<LogosAnimate/>
 <FeatureWalletOne/>
 <!-- <FeatureWalletTwo/> -->
 <FeatureWalletThree/>
@@ -68,5 +72,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <NewLogoCloud/>
  
   -->
+  <TestimonialWallet />
+  <FeatureWalletEight />
   <CtaThreeU />
 </BaseLayout3>
