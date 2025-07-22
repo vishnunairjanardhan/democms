@@ -51,7 +51,7 @@ const TabbedImages = () => {
           onMouseLeave={startAutoPlay}
         >
           {/* Tabs */}
-          <div className="flex justify-center md:justify-end gap-2 py-6">
+          <div className="flex justify-center md:justify-end gap-2 py-16 md:py-16 lg:py-6">
             {tabs.map((tab) => (
               <motion.button
                 key={tab.id}
@@ -68,7 +68,7 @@ const TabbedImages = () => {
           </div>
 
           {/* Image Slider with Zoom-in Animation */}
-          <div className="w-full flex justify-center relative min-h-[120px]">
+          <div className="w-full flex justify-center relative min-h-[120px] md:min-h-[350px]">
             <AnimatePresence>
               {tabs.map((tab) =>
                 activeTab === tab.id ? (
