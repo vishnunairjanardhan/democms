@@ -14,7 +14,7 @@ const TabbedImages = () => {
     {
       id: "api",
       label: "Push Notification",
-      img: "/assets/wallet/Push Notification.png",
+      img: "/assets/wallet/wallet-banner2.jpg",
       alt: "gift card api",
     },
   ];
@@ -44,14 +44,14 @@ const TabbedImages = () => {
 
   return (
     <section className="relative w-full">
-      <div className="relative w-full max-w-7xl px-4 sm:px-6 md:px-8 mx-auto space-y-6">
+      <div className="relative w-full max-w-7xl px-0 sm:px-6 md:px-8 mx-auto space-y-6">
         <div
           className="flex flex-col-reverse md:flex-col items-center md:items-stretch space-y-6 md:space-y-4 md:space-y-reverse"
           onMouseEnter={stopAutoPlay}
           onMouseLeave={startAutoPlay}
         >
           {/* Tabs */}
-          <div className="flex justify-center md:justify-end gap-2 py-6">
+          <div className="flex justify-center md:justify-end gap-2 py-12 mt-20 lg:mt-0 md:py-16 lg:py-6">
             {tabs.map((tab) => (
               <motion.button
                 key={tab.id}
@@ -68,20 +68,20 @@ const TabbedImages = () => {
           </div>
 
           {/* Image Slider with Zoom-in Animation */}
-          <div className="w-full flex justify-center relative min-h-[120px]">
+          <div className="w-full flex justify-center relative min-h-[120px] md:min-h-[350px]">
             <AnimatePresence>
               {tabs.map((tab) =>
                 activeTab === tab.id ? (
                  <motion.img
-  key={tab?.img}
-  src={tab?.img}
-  alt={tab?.alt}
-  initial={{ opacity: 0, scale: 0.9, rotate: 2, x: 60 }}
-  animate={{ opacity: 1, scale: 1, rotate: 0, x: 0 }}
-  exit={{ opacity: 0, scale: 0.95, rotate: -2, x: -60 }}
-  transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
-  className="absolute rounded-2xl shadow-md w-full max-w-[900px] h-auto"
-/>
+                  key={tab?.img}
+                  src={tab?.img}
+                  alt={tab?.alt}
+                  initial={{ opacity: 0, scale: 0.9, rotate: 2, x: 60 }}
+                  animate={{ opacity: 1, scale: 1, rotate: 0, x: 0 }}
+                  exit={{ opacity: 0, scale: 0.95, rotate: -2, x: -60 }}
+                  transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
+                  className="absolute rounded-2xl shadow-md w-full max-w-[900px] h-auto"
+                />
                 ) : null
               )}
             </AnimatePresence>
