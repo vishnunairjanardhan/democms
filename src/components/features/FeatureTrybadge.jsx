@@ -5,25 +5,41 @@ const TabbedImages = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const intervalRef = useRef(null);
 
+  // const tabs = [
+  //   {
+  //     id: "ui",
+  //     label: "Wallet",
+  //     img: "/assets/wallet/wallet_banner.webp",
+  //     alt: "gift card ui",
+  //   },
+  //   {
+  //     id: "api",
+  //     label: "Push Notification",
+  //     img: "/assets/wallet/Push Notification.png",
+  //     alt: "gift card api",
+  //   },
+  // ];
+
   const tabs = [
-    {
-      id: "ui",
-      label: "Wallet",
-      img: "/assets/wallet/wallet_banner.webp",
-      alt: "gift card ui",
-    },
+    
     {
       id: "api",
       label: "Push Notification",
-      img: "/assets/wallet/Push Notification.png",
+      img: "/assets/wallet/wallet-banner2.jpg",
       alt: "gift card api",
+    },
+    {
+      id: "ui",
+      label: "Wallet",
+      img: "/assets/wallet/Wallet-banner2.png",
+      alt: "gift card ui",
     },
   ];
 
   const startAutoSlide = () => {
     intervalRef.current = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % tabs.length);
-    }, 3000); // 3 seconds
+    }, 3000);
   };
 
   const resetAutoSlide = () => {
@@ -33,7 +49,7 @@ const TabbedImages = () => {
 
   useEffect(() => {
     startAutoSlide();
-    return () => clearInterval(intervalRef.current); // Cleanup
+    return () => clearInterval(intervalRef.current);
   }, []);
 
   const activeTab = tabs[activeIndex];
@@ -49,7 +65,7 @@ const TabbedImages = () => {
                 key={tab.id}
                 onClick={() => {
                   setActiveIndex(index);
-                  resetAutoSlide(); // Manual click resets timer
+                  resetAutoSlide();
                 }}
                 className={`px-4 py-2 rounded-full border border-gray-300 text-sm font-medium transition whitespace-nowrap ${
                   activeIndex === index ? "bg-gray-700 text-white" : ""
@@ -60,22 +76,28 @@ const TabbedImages = () => {
             ))}
           </div>
 
-          {/* Animated Image Section */}
-          <div className="relative flex justify-center min-h-[120px] md:min-h-[350px]">
-            <AnimatePresence mode="wait">
-              <motion.img
-                key={activeTab.id}
-                src={activeTab.img}
-                alt={activeTab.alt}
-                width="900"
-                loading="lazy"
-                className="rounded-2xl shadow-vulcan-950/50"
-                initial={{ opacity: 0, scale: 0.9, rotate: 2, x: 60 }}
-                animate={{ opacity: 1, scale: 1, rotate: 0, x: 0 }}
-                exit={{ opacity: 0, scale: 0.95, rotate: -2, x: -60 }}
-                transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
-              />
-            </AnimatePresence>
+          {/* Image Slider with Smooth Animation */}
+          <div className="relative flex justify-center w-full min-h-[200px] md:min-h-[400px]">
+            <div className="relative w-full max-w-[950px] h-[300px] md:h-[600px] overflow-hidden rounded-2xl shadow-md">
+              <AnimatePresence mode="sync">
+                {tabs.map(
+                  (tab, index) =>
+                    index === activeIndex && (
+                      <motion.img
+                        key={tab.id}
+                        src={tab.img}
+                        alt={tab.alt}
+                        loading="lazy"
+                        className="absolute inset-0 w-full h-full object-cover rounded-2xl"
+                        initial={{ opacity: 0, scale: 0.96 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0, scale: 1.02 }}
+                        transition={{ duration: 0.5, ease: "easeInOut" }}
+                      />
+                    )
+                )}
+              </AnimatePresence>
+            </div>
           </div>
         </div>
       </div>
