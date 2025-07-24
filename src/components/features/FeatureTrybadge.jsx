@@ -24,14 +24,14 @@ const TabbedImages = () => {
     
     {
       id: "api",
-      label: "Push Notification",
-      img: "/assets/wallet/wallet-banner2.jpg",
+      label: "Wallet",
+      img: "/assets/wallet/wallet_banner.webp",
       alt: "gift card api",
     },
     {
       id: "ui",
-      label: "Wallet",
-      img: "/assets/wallet/Wallet-banner2.png",
+      label: "Push Notification",
+      img: "/assets/wallet/Push Notification.png",
       alt: "gift card ui",
     },
   ];
@@ -78,7 +78,7 @@ const TabbedImages = () => {
 
           {/* Image Slider with Smooth Animation */}
           <div className="relative flex justify-center w-full min-h-[200px] md:min-h-[400px]">
-            <div className="relative w-full max-w-[950px] h-[300px] md:h-[600px] overflow-hidden rounded-2xl shadow-md">
+            <div className="relative w-full max-w-[900px] h-[300px] md:h-[518px] overflow-hidden rounded-2xl ">
               <AnimatePresence mode="sync">
                 {tabs.map(
                   (tab, index) =>
