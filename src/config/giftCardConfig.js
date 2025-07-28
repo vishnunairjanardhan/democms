@@ -91,3 +91,27 @@ export const giftCards = [
   },
   
 ];
+
+export const logos = [
+  "/../assets/logos-cloud/Bestop-b.svg",
+  "/../assets/logos-cloud/cariloha-b.svg",
+  "/../assets/logos-cloud/Clubmonaco-b.svg",
+    "/../assets/logos-cloud/Birdsnest.svg",
+    "/../assets/logos-cloud/FlynnOhara.svg",
+    "/../assets/logos-cloud/cornerbakery-b.svg",
+    "/../assets/logos-cloud/Tootsies.svg",
+    "/../assets/logos-cloud/jaxengray.svg", 
+    "/../assets/logos-cloud/Lovable.svg",
+    "/../assets/logos-cloud/MudAustralia.svg",
+    "/../assets/logos-cloud/Dunning.svg",
+    "/../assets/logos-cloud/LaSenza.svg",
+    "/../assets/logos-cloud/Logo_Mizuno.svg",
+    "/../assets/logos-cloud/Natori.svg",
+    "/../assets/logos-cloud/DIM Paris.svg",
+    "/../assets/logos-cloud/Pinstripe-b.svg",
+    "/../assets/logos-cloud/GregNorman.svg",
+    "/../assets/logos-cloud/SoloBrands.svg",
+    "/../assets/logos-cloud/solsticesunglasses.svg",
+    "/../assets/logos-cloud/Gwynn's.svg",
+  "/../assets/logos-cloud/ThirdLove-b.svg"
+];
