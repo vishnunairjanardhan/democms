@@ -7,8 +7,10 @@ import FeatureLogoWave from "../components/features/FeatureLogoWave.jsx";
 import Slide1 from "../components/features/Slide1.astro";
 import HeroSlide from "../components/heros/HeroSlide.astro";
 import ProgramWidget from "../components/features/ProgramWidget.astro";
+import FeatureCarousal from "../components/features/FeatureCarousal.astro";
 import WorkFlow from "../components/features/WorkFlow.astro";
 import SocialWidget from "../components/features/SocialWidget.astro";
+import LogoMarquee from "../components/features/LogoMarquee.jsx";
 import FeatureMem3 from "../components/features/FeatureMem3.astro";
 import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
 import LogosAnimate from "../components/testimonials/LogosAnimate.astro";
@@ -62,7 +64,11 @@ Use AstroSeo in all the pages you want different Seo than the index page
 />
 <BaseLayout2>
 <!--<Bfcm />-->
+
+
 <Slide/>
+<FeatureCarousal/>
+<LogoMarquee client:load/>
 <ProgramWidget/>
 <SocialWidget/>
 <Slide1/>
@@ -80,5 +86,6 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <ResultsSection client:load />-->
 <!-- <IntegrationAnimate/> -->
 <HeroSlide/>
+
 
 </BaseLayout2>
