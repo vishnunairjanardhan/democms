@@ -1,53 +1,16 @@
 ---
 import IntegrationCircular from "../../components/features/IntegrationCircular.astro";
+import LogoMarquee from "../../components/features/LogoMarquee.jsx";
 ---
 <section class="relative">
-  <div class="w-full h-full -z-1 absolute flex flex-row justify-between left-0 lg:h-full lg:max-w-7xl lg:px-0 mx-auto px-6 right-0">
-    <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
-    <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
-    <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
-    <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
-    <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
-    <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
-  </div>
-  <div class="relative items-center w-full px-5 pt-20 mx-auto md:px-12 lg:px-12 max-w-7xl lg:pt-20">
-    <div class="grid grid-cols-1 gap-6 p-8 pb-0 overflow-hidden lg:grid-cols-2 lg:gap-2 lg:p-4 lg:pt-8">
-      <div class="relative items-center gap-12 pb-12 m-auto lg:inline-flex md:order-first lg:pb-36 xl:pt-0 lg:pr-20">
-        <div class="max-w-xl text-center pt-10 lg:text-left">
-           <span
-          class="text-base font-medium tracking-widest  uppercase text-indigo-600"
-          >integrations</span
-        >
-          <h2 class="mt-8 text-2xl lg:text-4xl">Hundreds of apps. <br />Endless possibilities.</h2>
-          <p class="max-w-2xl mt-4">Enhance your 99minds experience with a wide variety of <br />add-ons and integrations. From everyday essentials to powerful pro workflows.</p>
-        <!-- <div class="lg:mt-48 mt-6 text-center lg:text-left">
-         <span class="text-base font-medium tracking-widest uppercase text-indigo-600">
-          Explore all Integrations →
-         </span>
-       </div> -->
-         <div class="mt-36 flex items-center justify-start">
-   <a href="/integrations" class="group inline-flex items-center">
-  <span class="text-[#AA8FFF] text-xl group-hover:text-indigo-500 transition-colors duration-300">Explore all Integrations</span>
-  <svg
-      class="ml-3 h-8 w-8 text-[#AA8FFF] transition-all duration-300 transform group-hover:translate-x-2"
-      width="16" height="16" viewBox="0 0 24 24"
-      stroke-width="2" stroke="currentColor" fill="none"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" />
-      <line x1="5" y1="12" x2="19" y2="12" />
-      <line x1="13" y1="18" x2="19" y2="12" />
-      <line x1="13" y1="6" x2="19" y2="12" />
-    </svg>
-    </a>
-  </div>
+<div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-24">
 
-        </div>
-      </div>
-   <div class="relative flex items-center justify-center w-full px-6 mx-auto lg:mx-0 lg:justify-end ">
-   <div class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl my-16 lg:my-0">
-    <IntegrationCircular />
-    </div>
+  <div class="max-w-3xl mx-auto text-center"> 
+     <h2 class="text-2xl lg:text-4xl mb-4">Seamless Integrations with Your Marketing Ecosystem.</h2> 
+     <p class="text-gray-500 max-w-4xl mx-auto mb-20 text-lg">
+      Connect your wallet passes with your existing CRM, POS, and marketing automation platforms to create a unified customer experience and streamline your operations.
+    </p> 
   </div>
- </div>
+  <LogoMarquee client:load/>
 </div>
 </section>

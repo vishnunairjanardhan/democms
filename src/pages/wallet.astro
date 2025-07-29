@@ -1,9 +1,10 @@
 ---
 import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import HeroWallet from "../components/heros/HeroWallet.astro";
-import HeroWallet1 from "../components/heros/HeroWallet1.astro";
+// import HeroWallet1 from "../components/heros/HeroWallet1.astro";
 import FeatureTryWallet from "../components/features/FeatureTryWallet.jsx";
-import FeatureWalletOne from "../components/features/FeatureWalletOne.astro";
+import FeatureWallet1 from "../components/features/FeatureWallet1.astro";
+import FeatureWallet from "../components/features/FeatureWallet.astro";
 import FeatureWalletTwo from "../components/features/FeatureWalletTwo.astro";
 import LogosAnimate from "../components/testimonials/LogosAnimate.astro";
 import FeatureWalletThree from "../components/features/FeatureWalletThree.astro";
@@ -27,12 +28,12 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <BaseLayout3>
 <AstroSeo
   title="All in one Digital Wallet for Loyalty and Gift cards | 99minds"
-  description="Combine gift cards, loyalty rewards, and coupons in one smart digital wallet. Drive retention and revenue with 99minds."
+  description="Boost customer engagement with digital passes, interactive gift cards, loyalty rewards, and coupons for Apple Wallet and Google Pay"
   canonical="https://www.99minds.io/wallet"
   openGraph={{
     url: "https://www.99minds.io/wallet",
     title: "All in one Digital Wallet for Loyalty and Gift cards | 99minds",
-    description: "Combine gift cards, loyalty rewards, and coupons in one smart digital wallet. Drive retention and revenue with 99minds.",
+    description: "Boost customer engagement with digital passes, interactive gift cards, loyalty rewards, and coupons for Apple Wallet and Google Pay",
    images: [
       {
         url: "https://www.99minds.io/assets/storecredit/Storecredit-b2.png ",
@@ -56,23 +57,13 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
 <HeroWallet/>
-<!-- <HeroWallet1/> -->
 <LogosAnimate/>
-<FeatureWalletOne/>
-<!-- <FeatureWalletTwo/> 
-<FeatureWalletThree/>-->
-<FeatureWalletFour/> 
-
-<!-- <FeatureWalletFive/> -->
 <FeatureWalletSix/>
- <!-- <FeatureWalletSeven/> -->
-
-  <!--<Testimonialtry1 />
-  <Integrations99minds2 />
-  <NewLogoCloud/>
- 
-  -->
-  <TestimonialWallet />
-  <FeatureWalletEight />
-  <CtaThreeU />
+<!-- <FeatureWallet1> -->
+<FeatureWallet/>
+<FeatureWalletFour/> 
+<TestimonialWallet />
+<!-- <FeatureWalletFive/> -->
+<FeatureWalletEight />
+<CtaThreeU />
 </BaseLayout3>
