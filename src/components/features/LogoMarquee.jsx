@@ -31,7 +31,7 @@ const MarqueeRow = ({ direction = "left", images }) => {
             key={index}
             src={src}
             alt="logo"
-            className="object-contain"
+            className="object-contain border p-3 rounded-lg "
           />
         ))}
       </motion.div>

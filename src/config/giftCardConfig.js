@@ -93,14 +93,14 @@ export const giftCards = [
 ];
 
 export const logos = [
-  "/../assets/logos-cloud/Bestop-b.svg",
-  "/../assets/logos-cloud/cariloha-b.svg",
-  "/../assets/logos-cloud/Clubmonaco-b.svg",
-    "/../assets/logos-cloud/Birdsnest.svg",
-    "/../assets/logos-cloud/FlynnOhara.svg",
-    "/../assets/logos-cloud/cornerbakery-b.svg",
-    "/../assets/logos-cloud/Tootsies.svg",
-    "/../assets/logos-cloud/jaxengray.svg", 
+  "/../integrations/shopify.svg",
+  "/../integrations/BigCommerce-icon.svg",
+  "/../integrations/salesforce.svg",
+    "/../integrations/miva.svg",
+    "/../integrations/square.svg",
+    "/../integrations/lightspeed.svg",
+    "/../integrations/heartland-icon.svg",
+    "/../integrations/hike-icon.svg", 
     "/../assets/logos-cloud/Lovable.svg",
     "/../assets/logos-cloud/MudAustralia.svg",
     "/../assets/logos-cloud/Dunning.svg",
