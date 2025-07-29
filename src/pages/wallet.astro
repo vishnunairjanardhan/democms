@@ -1,7 +1,7 @@
 ---
 import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import HeroWallet from "../components/heros/HeroWallet.astro";
-// import HeroWallet1 from "../components/heros/HeroWallet1.astro";
+import FeatureCarousal from "../components/features/FeatureCarousal.astro";
 import FeatureTryWallet from "../components/features/FeatureTryWallet.jsx";
 import FeatureWallet1 from "../components/features/FeatureWallet1.astro";
 import FeatureWallet from "../components/features/FeatureWallet.astro";
@@ -16,6 +16,7 @@ import FeatureWalletEight from "../components/features/FeatureWalletEight.astro"
 import NewLogoCloud from "../components/testimonials/NewLogoCloud.jsx";
 import TestimonialWallet from "../components/testimonials/TestimonialWallet.astro";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
+import WalletTab from "../components/features/WalletTab.astro";
 import { Seo } from "../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -59,8 +60,10 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <HeroWallet/>
 <LogosAnimate/>
 <FeatureWalletSix/>
+<FeatureCarousal/>
 <!-- <FeatureWallet1> -->
-<FeatureWallet/>
+<!-- <FeatureWallet/> -->
+<WalletTab/>
 <FeatureWalletFour/> 
 <TestimonialWallet />
 <!-- <FeatureWalletFive/> -->
