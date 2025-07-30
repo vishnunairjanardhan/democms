@@ -26,13 +26,12 @@
         
         startAutoScroll() {
             this.intervalId = setInterval(() => {
-                this.tabSelected = (this.tabSelected % this.totalTabs) + 1; // Loop back to the first tab
+                this.tabSelected = (this.tabSelected % this.totalTabs) + 1;
                 let tabButton = document.getElementById(this.tabId + '-' + this.tabSelected);
                 this.tabRepositionMarker(tabButton);
             }, 3000);
         },
 
-        // Method to stop the scrolling
         stopAutoScroll() {
             clearInterval(this.intervalId);
         }
