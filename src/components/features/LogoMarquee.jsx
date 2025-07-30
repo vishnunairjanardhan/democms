@@ -19,7 +19,9 @@ const MarqueeRow = ({ direction = "left", images }) => {
   const repeatedLogos = [...images, ...images, ...images, ...images];
 
   return (
-    <div className="overflow-hidden w-full">
+    <div className="overflow-hidden w-full relative">
+        <div class="absolute left-0 top-0 bottom-0 w-16 z-10 pointer-events-none bg-gradient-to-r from-white to-transparent"></div>
+    <div class="absolute right-0 top-0 bottom-0 w-16 z-10 pointer-events-none bg-gradient-to-l from-white to-transparent"></div>
       <motion.div
         className="flex items-center w-max gap-12 h-36"
         variants={scrollVariants}
@@ -48,6 +50,7 @@ export default function LogoMarquee() {
 
   return (
     <section className="bg-white relative max-w-7xl mx-auto  lg:pb-12 lg:px-14 py-4 lg:py-8">
+      
       <MarqueeRow direction="left" images={row1Logos} />
       <MarqueeRow direction="right" images={row2Logos} />
       <MarqueeRow direction="left" images={row3Logos} />
