@@ -72,7 +72,7 @@ const MarqueeRow = ({ direction = "left", images }) => {
   return (
     <div className="overflow-hidden w-full">
       <motion.div
-        className="flex items-center w-max gap-16 h-20"
+        className="flex items-center w-max gap-12 h-36"
         variants={scrollVariants}
         animate="animate"
         custom={direction}
@@ -82,7 +82,7 @@ const MarqueeRow = ({ direction = "left", images }) => {
             key={index}
             src={src}
             alt="logo"
-            className="object-contain h-16"
+            className="object-contain border bg-[#F3F4F] p-4 rounded-2xl w-24 shadow-lg"
           />
         ))}
       </motion.div>
@@ -98,10 +98,10 @@ export default function LogoMarquee() {
   const row3Logos = logos.slice(logosPerRow * 2);
 
   return (
-    <section className="bg-white relative max-w-7xl mx-auto lg:pb-12 lg:px-14 py-4 lg:py-16 space-y-10">
-      <MarqueeRow direction="left" images={row1Logos} />
-      <MarqueeRow direction="right" images={row2Logos} />
-      <MarqueeRow direction="left" images={row3Logos} />
+    <section className="bg-white relative max-w-7xl mx-auto  lg:pb-12 lg:px-14 py-4 lg:py-8">
+      <MarqueeRow direction="left" images={logos} />
+      <MarqueeRow direction="right" images={logos} />
+      <MarqueeRow direction="left" images={logos} />
     </section>
   );
 }
