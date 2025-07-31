@@ -96,14 +96,14 @@ export const logos = [
   "/../integrations/shopify.svg",
   "/../integrations/BigCommerce-icon.svg",
   "/../integrations/salesforce.svg",
-    "/../integrations/miva.svg",
+    
     "/../integrations/square.svg",
     "/../integrations/lightspeed.svg",
-    "/../integrations/heartland-icon.svg",
-    "/../integrations/hike-icon.svg", 
+    "/../integrations/heartland-logo1.svg",
+    "/../integrations/hike-icon 2.svg", 
     "/../integrations/clover logo.svg",
     "/../integrations/retailpro.svg",
-    "/../integrations/runit.svg",
+   
     "/../integrations/connectpos.svg",
     "/../integrations/spreadly.svg",
     "/../integrations/omnisend-icon.svg",
@@ -113,5 +113,5 @@ export const logos = [
     "/../integrations/mailgun.svg",
     "/../integrations/mailchimp.svg",
     "/../integrations/Btree logo.svg",
-  "/../integrations/hike-icon.svg"
+  "/../integrations/hike-icon 2.svg"
 ];
