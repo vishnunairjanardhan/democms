@@ -29,7 +29,7 @@
                 this.tabSelected = (this.tabSelected % this.totalTabs) + 1;
                 let tabButton = document.getElementById(this.tabId + '-' + this.tabSelected);
                 this.tabRepositionMarker(tabButton);
-            }, 3000);
+            }, 4000);
         },
 
         stopAutoScroll() {
@@ -37,7 +37,6 @@
         }
     }" 
     x-init="tabRepositionMarker($refs.tabButtons.firstElementChild); startAutoScroll();" 
-    @mouseenter="stopAutoScroll" @mouseleave="startAutoScroll" 
     class="relative mt-10">
 		
 		<div class="relative lg:flex lg:flex-row lg:border lg:border-gray-700 rounded-xl items-center justify-center lg:gap-5 lg:w-[38rem] w-16 h-16 mx-auto text-black select-none hidden" x-ref="tabButtons">
