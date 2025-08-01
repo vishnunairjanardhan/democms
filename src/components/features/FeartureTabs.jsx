@@ -9,31 +9,31 @@ const TabbedImages = () => {
     {
       id: "gift-card",
       label: "Gift Card",
-      img: "/assets/wallet/wallet_banner.webp",
+      img: "/assets/wallet/gift_card_buy.webp",
       alt: "Gift Card",
     },
     {
       id: "store-credit",
       label: "Cashback & Store Credit",
-      img: "/assets/wallet/Push Notification.png",
+      img: "/assets/wallet/cashback.webp",
       alt: "Cashback & Store Credit",
     },
     {
       id: "loyalty-reward",
       label: "Loyalty & Rewards",
-      img: "/assets/wallet/wallet_banner.webp",
+      img: "/assets/wallet/loyalty.webp",
       alt: "Loyalty & Rewards",
     },
     {
       id: "automation",
       label: "Automation",
-      img: "/assets/wallet/Push Notification.png",
+      img: "/assets/wallet/automation.webp",
       alt: "Automation Workflow",
     },
     {
       id: "wallet",
       label: "Wallet",
-      img: "/assets/wallet/wallet_banner.webp",
+      img: "/assets/wallet/wallet.webp",
       alt: "Wallet Passes",
     },
     {
@@ -64,7 +64,7 @@ const TabbedImages = () => {
 
   return (
     <section className="relative">
-      <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-10 lg:py-8">
+      <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-10 lg:py-8 lg:mt-8">
         <div className="flex flex-col-reverse md:flex-col justify-center items-center md:items-stretch space-y-6 md:space-y-4 md:space-y-reverse">
           {/* Tabs */}
           <div className="flex justify-center gap-2 lg:mb-3 lg:py-0 py-6">
@@ -86,7 +86,7 @@ const TabbedImages = () => {
 
           {/* Image Slider with Smooth Animation */}
           <div className="relative flex justify-center w-full min-h-[200px] md:min-h-[400px]">
-            <div className="relative w-full max-w-[900px] h-[300px] md:h-[518px] overflow-hidden rounded-2xl ">
+            <div className="relative w-full max-w-[900px] h-[300px] md:h-[518px] overflow-hidden rounded-2xl mt-4">
               <AnimatePresence mode="sync">
                 {tabs.map(
                   (tab, index) =>
