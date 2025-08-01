@@ -1,10 +1,10 @@
 <section class="relative overflow-x-hidden border-y border-white/5">
-    <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:pt-24 border shadow-2xl border-vulcan-700 rounded-3xl">
+    <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 shadow-2xl rounded-3xl">
 	
 	<div x-data="{
         tabSelected: 1,
         tabId: $id('tabs'),
-        totalTabs: 4, 
+        totalTabs: 6, 
         intervalId: null,
         
         tabButtonClicked(tabButton) {
@@ -39,18 +39,24 @@
     x-init="tabRepositionMarker($refs.tabButtons.firstElementChild); startAutoScroll();" 
     class="relative mt-10">
 		
-		<div class="relative lg:flex lg:flex-row lg:border lg:border-gray-700 rounded-xl items-center justify-center lg:gap-5 lg:w-[38rem] w-16 h-16 mx-auto text-black select-none hidden" x-ref="tabButtons">
+		<div class="relative lg:flex lg:flex-row lg:border lg:border-gray-700 rounded-xl items-center justify-center lg:gap-5 lg:w-[50rem] w-16 h-16 mx-auto text-black select-none hidden" x-ref="tabButtons">
             <button class="relative z-20 inline-flex items-center gap-2 w-auto lg:h-10 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500': tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" >
-                Reward Management
+                Gift Card
             </button>
             <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500': tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);">
-                Integrations
+                Cashback & Store Credit
             </button>
             <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500': tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);">
-                Creator Management
+                Loyalty & Rewards
             </button>
             <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500': tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);">
-                Analytics
+                Automation
+            </button>
+            <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500': tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);">
+                Wallet
+            </button>
+            <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500': tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);">
+                Membership
             </button>
             <div class="absolute left-0 z-10 w-full h-full duration-300 ease-out" x-ref="tabMarker" style="width: 76px; height: 32px; left: 0px;">
                 <div class="w-full h-full rounded-lg bg-white border-2 border-gray-800"></div>
@@ -61,25 +67,37 @@
             <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative flex-shrink-0 lg:flex-shrink" id="tabs-3-content-1" style="display: none;">
                 <section class="item center justify-center mt-2 w-full">
                     <p class="text-xl max-w-4xl mx-auto text-center text-black">Manage gifting and payments on a commission or flat rate basis for any scale of affiliates.</p>
-                    <img src="/assets/tab-component/program.svg" alt="Background Image" class="lg:w-[72rem] mt-12 object-cover mx-auto rounded-t-2xl"> 
+                    <img src="/assets/tab-component/Giftcard.jpg" alt="Background Image" class="lg:w-[72rem] mt-12 object-cover mx-auto rounded-t-2xl"> 
                 </section>
             </div>
             <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative flex-shrink-0 lg:flex-shrink" id="tabs-3-content-2" style="display: none;">
                 <section class="item center justify-center mt-2 w-full">
                     <p class="text-xl max-w-4xl mx-auto text-center text-black">Built for the modern ecommerce stack across every SMS, email, and subscription app.</p>
-                    <img src="/assets/tab-component/Integration-section.svg" alt="Background Image" class="lg:h-[28rem] mt-4 object-cover mx-auto rounded-t-2xl"> 
+                    <img src="/assets/tab-component/Cashback.png" alt="Background Image" class="lg:h-[28rem] mt-4 object-cover mx-auto rounded-t-2xl"> 
                 </section>
             </div>
             <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative flex-shrink-0 lg:flex-shrink" id="tabs-3-content-3" style="display: none;">
                 <section class="item center justify-center mt-2 w-full">
                     <p class="text-xl text-center max-w-4xl mx-auto text-black">Manage each creator’s balance, track their performance and equip your customer success team with all the tools they need to scale the program.</p>
-                    <img src="/assets/tab-component/Creator.svg" alt="Background Image" class="lg:h-[32rem] mt-12 object-cover mx-auto rounded-t-2xl"> 
+                    <img src="/assets/tab-component/Loyalty-rewards.png" alt="Background Image" class="lg:h-[32rem] mt-12 object-cover mx-auto rounded-t-2xl"> 
                 </section>
             </div>
             <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative flex-shrink-0 lg:flex-shrink" id="tabs-3-content-4">
                 <section class="item center justify-center mt-2 w-full">
                     <p class="text-xl text-center max-w-4xl mx-auto text-black">Track and double down on top-performing creators based on their ability to generate traffic, revenue, and new customers.</p>
-                    <img src="/assets/tab-component/Analytics-tabcomp.svg" alt="Background Image" class="lg:h-[32rem] mt-2 object-cover mx-auto rounded-t-2xl"> 
+                    <img src="/assets/tab-component/Automation.png" alt="Background Image" class="lg:h-[32rem] mt-2 object-cover mx-auto rounded-t-2xl"> 
+                </section>
+            </div>
+            <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative flex-shrink-0 lg:flex-shrink" id="tabs-3-content-4">
+                <section class="item center justify-center mt-2 w-full">
+                    <p class="text-xl text-center max-w-4xl mx-auto text-black">Track and double down on top-performing creators based on their ability to generate traffic, revenue, and new customers.</p>
+                    <img src="/assets/tab-component/Wallet.png" alt="Background Image" class="lg:h-[32rem] mt-2 object-cover mx-auto rounded-t-2xl"> 
+                </section>
+            </div>
+            <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative flex-shrink-0 lg:flex-shrink" id="tabs-3-content-4">
+                <section class="item center justify-center mt-2 w-full">
+                    <p class="text-xl text-center max-w-4xl mx-auto text-black">Track and double down on top-performing creators based on their ability to generate traffic, revenue, and new customers.</p>
+                    <img src="/assets/tab-component/Membership.png" alt="Background Image" class="lg:h-[32rem] mt-2 object-cover mx-auto rounded-t-2xl"> 
                 </section>
             </div>
         </div>

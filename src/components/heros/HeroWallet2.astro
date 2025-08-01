@@ -1,0 +1,48 @@
+---
+import TabbedImages from "../features/FeatureTrybadge.jsx";
+import FeatureTabComp from "../features/FeatureTabComp.astro";
+---
+
+
+ <section>
+  <div class="relative max-w-7xl px-0 md:px-12 lg:px-16 mx-auto py-4 lg:py-6">
+
+      <section class="text-center px-6 pt-20 lg:pt-28"> 
+         <h1 class="py-4 mt-4 mx-auto text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug max-w-xs lg:max-w-7xl md:max-w-3xl">Automate Growth. <span class="text-[#EF5A3C]">Amplify Results.</span></h1>
+      <p class="max-w-xs sm:max-w-md md:max-w-2xl mx-auto text-base sm:text-lg text-gray-600 mb-6 text-center leading-relaxed">
+      Instantly Launch Gift Cards, Store Credit & Automated Promotions via Apple and Google Wallets — Boost Revenue and Customer Loyalty Across Your Retail & eCommerce Stores
+      </p>
+     <div class="lg:flex justify-center gap-2 mt-10" role="group">
+						<div x-data="{ open: false }" class="flex flex-wrap items-center justify-center gap-4">
+							<!-- Trigger --><span x-on:click="open = true">
+							<button type="button" role="button" aria-label="Get Started for Free" class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+								<span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
+								<span class="relative text-white">Get started for free</span> </span>
+							</button>
+							</span>
+							<button type="button" class="raise1 relative p-0.5 inline-flex items-center justify-center overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });"> <span class="w-full h-full bg-white border border-black rounded-md group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out rounded-md group-hover:bg-opacity-10 duration-400 inline-flex items-center gap-2">
+								<span class="relative text-black">Book a Demo</span> </span>
+							</button>
+							<!-- Modal -->
+							<div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="Book a demo">
+								<!-- Overlay -->
+								<div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+								<!-- Panel -->
+								<div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+									<div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto  shadow-2xl rounded-3xl p-[0.060rem]">
+										<div class="bg-white rounded-3xl p-4 text-center">
+											<iframe src="../GetStarted" width="100%" height="600" frameBorder="0" allowFullScreen title="GetStarted"></iframe>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+     <FeatureTabComp/>
+    </section>
+
+
+</div>
+</section>
