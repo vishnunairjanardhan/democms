@@ -39,7 +39,7 @@ const TabbedImages = () => {
     {
       id: "membership",
       label: "Membership",
-      img: "/assets/wallet/Push Notification.png",
+      img: "/assets/tab-component/Membership.png",
       alt: "Membership Programs",
     },
   ];
