@@ -1,15 +1,20 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro";
-import FeatureFive_NewHome1 from "../components/features/FeatureFive_NewHome1.astro";
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
+import HeroIndex from "../components/heros/HeroIndex.astro";
+import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro"
+import NewLogoCloud from "../components/testimonials/NewLogoCloud.jsx";
+import FeatureFive_NewHome from "../components/features/FeatureFive_NewHome.astro";
 import FeatureSix from "../components/features/FeatureSix.astro";
 import FeatureTen from "../components/features/FeatureTen.astro";
-import Testimonialtry from "../components/testimonials/Testimonialtry.astro";
+import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
+import TestimonialLite from "../components/testimonials/TestimonialLite.astro";
 import Pricing99minds from "../components/pricing/Pricing99minds.astro";
 import Faq99minds from "../components/Infopages/Faq99minds.astro";
+import LogosAnimate from "../components/testimonials/LogosAnimate.astro";
 import CtaThree from "../components/ctas/CtaThree.astro";
+import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
 import { AstroSeo } from "@astrolib/seo";
-import HeroThree1 from "../components/heros/HeroThree1.astro";
+import { Seo } from "../config/Seo.jsx";
 ---
 
 <!---
@@ -31,16 +36,15 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-<BaseLayout>
-  <HeroThree1 />
-  <LogoCloudOne />
-  <FeatureFive_NewHome1 />
-  <!--<FeaturesHome />-->
+<BaseLayout3>
+  <HeroIndex />
+  <LogosAnimate />
   <FeatureSix />
+  <FeatureFive_NewHome />
   <FeatureTen />
- <!--<TestimonialTwo99minds />-->
-  <Testimonialtry />
-  <Pricing99minds/>
+  <!--<TestimonialNew />-->
+   <TestimonialLite />
+  <IntegrationsHome />
+  <!--<Pricing99minds />-->
   <Faq99minds />
-  <CtaThree />
-</BaseLayout>
+</BaseLayout3>
