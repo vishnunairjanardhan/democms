@@ -6,42 +6,12 @@ const TabbedImages = () => {
   const intervalRef = useRef(null);
 
   const tabs = [
-    {
-      id: "gift-card",
-      label: "Gift Card",
-      img: "/assets/wallet/gift_card_buy.webp",
-      alt: "Gift Card",
-    },
-    {
-      id: "store-credit",
-      label: "Cashback & Store Credit",
-      img: "/assets/wallet/cashback.webp",
-      alt: "Cashback & Store Credit",
-    },
-    {
-      id: "loyalty-reward",
-      label: "Loyalty & Rewards",
-      img: "/assets/wallet/loyalty.webp",
-      alt: "Loyalty & Rewards",
-    },
-    {
-      id: "automation",
-      label: "Automation",
-      img: "/assets/wallet/automation.webp",
-      alt: "Automation Workflow",
-    },
-    {
-      id: "wallet",
-      label: "Wallet",
-      img: "/assets/wallet/wallet.webp",
-      alt: "Wallet Passes",
-    },
-    {
-      id: "membership",
-      label: "Membership",
-      img: "/assets/tab-component/Membership.png",
-      alt: "Membership Programs",
-    },
+    { id: "gift-card", label: "Gift Card", img: "/assets/wallet/gift_card_buy.webp", alt: "Gift Card" },
+    { id: "store-credit", label: "Cashback & Store Credit", img: "/assets/wallet/cashback.webp", alt: "Cashback & Store Credit" },
+    { id: "loyalty-reward", label: "Loyalty & Rewards", img: "/assets/wallet/loyalty.webp", alt: "Loyalty & Rewards" },
+    { id: "automation", label: "Automation", img: "/assets/wallet/automation.webp", alt: "Automation Workflow" },
+    { id: "wallet", label: "Wallet", img: "/assets/wallet/wallet.webp", alt: "Wallet Passes" },
+    { id: "membership", label: "Membership", img: "/assets/tab-component/Membership.png", alt: "Membership Programs" },
   ];
 
   const startAutoSlide = () => {
@@ -60,14 +30,12 @@ const TabbedImages = () => {
     return () => clearInterval(intervalRef.current);
   }, []);
 
-  const activeTab = tabs[activeIndex];
-
   return (
     <section className="relative">
       <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-10 lg:py-8 lg:mt-8">
         <div className="flex flex-col-reverse md:flex-col justify-center items-center md:items-stretch space-y-6 md:space-y-4 md:space-y-reverse">
-          {/* Tabs */}
-          <div className="flex justify-center gap-2 lg:mb-3 lg:py-0 py-6">
+          {/* Tabs (visible only on laptop and above) */}
+          <div className="hidden lg:flex justify-center gap-2 lg:mb-3 lg:py-0 py-6">
             {tabs.map((tab, index) => (
               <button
                 key={tab.id}
