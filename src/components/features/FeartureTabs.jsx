@@ -11,7 +11,7 @@ const TabbedImages = () => {
     { id: "loyalty-reward", label: "Loyalty & Rewards", img: "/assets/wallet/loyalty.webp", alt: "Loyalty & Rewards" },
     { id: "automation", label: "Automation", img: "/assets/wallet/automation.webp", alt: "Automation Workflow" },
     { id: "wallet", label: "Wallet", img: "/assets/wallet/wallet.webp", alt: "Wallet Passes" },
-    { id: "membership", label: "Membership", img: "/assets/tab-component/Membership.png", alt: "Membership Programs" },
+    { id: "membership", label: "Membership", img: "/assets/wallet/membership.webp", alt: "Membership Programs" },
   ];
 
   const startAutoSlide = () => {
