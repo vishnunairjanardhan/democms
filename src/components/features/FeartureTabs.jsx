@@ -11,7 +11,7 @@ const TabbedImages = () => {
     { id: "loyalty-reward", label: "Loyalty & Rewards", img: "/assets/wallet/loyalty.webp", alt: "Loyalty & Rewards" },
     { id: "automation", label: "Automation", img: "/assets/wallet/automation.webp", alt: "Automation Workflow" },
     { id: "wallet", label: "Wallet", img: "/assets/wallet/wallet.webp", alt: "Wallet Passes" },
-    { id: "membership", label: "Membership", img: "/assets/tab-component/Membership.png", alt: "Membership Programs" },
+    { id: "membership", label: "Membership", img: "/assets/wallet/membership.webp", alt: "Membership Programs" },
   ];
 
   const startAutoSlide = () => {
@@ -32,7 +32,7 @@ const TabbedImages = () => {
 
   return (
     <section className="relative">
-      <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-10 lg:py-8 lg:mt-8">
+      <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-5 lg:py-8 lg:mt-8">
         <div className="flex flex-col-reverse md:flex-col justify-center items-center md:items-stretch space-y-6 md:space-y-4 md:space-y-reverse">
           {/* Tabs (visible only on laptop and above) */}
           <div className="hidden lg:flex justify-center gap-2 lg:mb-3 lg:py-0 py-6">
@@ -54,7 +54,7 @@ const TabbedImages = () => {
 
           {/* Image Slider with Smooth Animation */}
           <div className="relative flex justify-center w-full min-h-[200px] md:min-h-[400px]">
-            <div className="relative w-full max-w-[900px] h-[300px] md:h-[518px] overflow-hidden rounded-2xl mt-4">
+            <div className="relative w-full max-w-[900px] h-auto md:h-[518px] overflow-hidden rounded-2xl mt-4">
               <AnimatePresence mode="sync">
                 {tabs.map(
                   (tab, index) =>
@@ -64,7 +64,7 @@ const TabbedImages = () => {
                         src={tab.img}
                         alt={tab.alt}
                         loading="lazy"
-                        className="absolute inset-0 w-full h-full object-cover rounded-2xl"
+                        className="absolute inset-0 object-cover rounded-2xl"
                         initial={{ opacity: 0, scale: 0.96 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 1.02 }}
