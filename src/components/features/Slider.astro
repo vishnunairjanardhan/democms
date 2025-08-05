@@ -75,7 +75,7 @@
 </script> -->
 
 <!-- Glide.js CDN -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
 
 <section class="min-h-screen flex flex-col justify-center items-center relative overflow-hidden bg-gradient-to-br from-slate-50 to-blue-100">
@@ -148,4 +148,116 @@
       animationDuration: 500,
     }).mount();
   });
+</script> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+</head>
+<body>
+<section
+  class="min-h-screen flex flex-col justify-center items-center relative overflow-hidden bg-gradient-to-br from-slate-50 to-blue-100">
+  <!-- Background blobs -->
+  <div class="absolute inset-0 overflow-hidden">
+    <div class="absolute -top-40 -right-40 w-80 h-80 bg-purple-200 rounded-full opacity-50 blur-3xl"></div>
+    <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-200 rounded-full opacity-50 blur-3xl"></div>
+  </div>
+
+  <!-- Text -->
+  <div class="relative z-10 text-center px-6 py-12 max-w-6xl mx-auto">
+    <h2 class="text-2xl lg:text-4xl mb-4">Endless possibilities</h2>
+    <p class="text-lg md:text-xl lg:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
+      Digital wallet passes can transform how you engage with customers across multiple channels.
+    </p>
+  </div>
+
+  <!-- Carousel -->
+  <div class="relative z-10 max-w-7xl w-full px-4 pb-12">
+    <div class="glide" id="walletCarousel">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <div class="bg-white rounded-xl shadow-lg h-[36rem] overflow-hidden">
+              <img src="../assets/wallet/Gift-Card-Pass.png"
+                   alt="Gift Card"
+                   class="w-full h-full object-cover">
+            </div>
+            <h2 class="text-center mt-4">Gift Card</h2>
+          </li>
+          <li class="glide__slide">
+            <div class="bg-white rounded-xl shadow-lg h-[36rem] overflow-hidden">
+              <img src="../assets/wallet/Loyalty-Pass.png" alt="Loyalty Rewards" class="w-full h-full object-cover">
+            </div>
+            <h2 class="text-center mt-4">Loyalty Rewards</h2>
+          </li>
+          <li class="glide__slide">
+            <div class="bg-white rounded-xl shadow-lg h-[36rem] overflow-hidden">
+              <img src="../assets/wallet/Membership-pass.png" alt="Membership" class="w-full h-full object-cover">
+            </div>
+            <h2 class="text-center mt-4">Membership</h2>
+          </li>
+          <li class="glide__slide">
+            <div class="bg-white rounded-xl shadow-lg h-[36rem] overflow-hidden">
+              <img src="../assets/wallet/Coupon-pass.png" alt="Coupons" class="w-full h-full object-cover">
+            </div>
+            <h2 class="text-center mt-4">Coupons</h2>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Hidden default arrows for Glide binding -->
+      <div class="hidden">
+        <button id="prevBtn" data-glide-dir="<"></button>
+        <button id="nextBtn" data-glide-dir=">"></button>
+      </div>
+
+      <!-- Overlay arrows styled with Tailwind -->
+      <button
+        id="prevOverlay"
+        class="absolute top-1/2 left-2 -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full h-12 w-12 flex items-center justify-center z-20">
+        &#8592;
+      </button>
+      <button
+        id="nextOverlay"
+        class="absolute top-1/2 right-2 -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full h-12 w-12 flex items-center justify-center z-20">
+        &#8594;
+      </button>
+
+      <div class="glide__bullets flex justify-center mt-6" data-glide-el="controls[nav]">
+        <button class="glide__bullet mx-1" data-glide-dir="=0"></button>
+        <button class="glide__bullet mx-1" data-glide-dir="=1"></button>
+        <button class="glide__bullet mx-1" data-glide-dir="=2"></button>
+        <button class="glide__bullet mx-1" data-glide-dir="=3"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const glide = new Glide('#walletCarousel', {
+      type: 'carousel',
+      focusAt: 'center',
+      perView: 3,
+      peek: { before: 100, after: 100 },
+      gap: 20,
+      autoplay: 3000,
+      hoverpause: true,
+      animationDuration: 600,
+      breakpoints: {
+        1024: { perView: 1, peek: { before: 50, after: 50 } },
+        768: { perView: 1, peek: 0 }
+      }
+    }).mount();
+
+    // Custom arrow event binding using Glide API
+    document.getElementById('prevOverlay').addEventListener('click', () => glide.go('<'));
+    document.getElementById('nextOverlay').addEventListener('click', () => glide.go('>'));
+  });
 </script>
+</body>
+</html>
