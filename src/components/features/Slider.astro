@@ -181,7 +181,7 @@
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
           <li class="glide__slide">
-            <div class="bg-white rounded-xl shadow-lg h-[36rem] overflow-hidden">
+            <div class="bg-white rounded-xl shadow-lg h-auto overflow-hidden p-2">
               <img src="../assets/wallet/Gift-Card-Pass.png"
                    alt="Gift Card"
                    class="w-full h-full object-cover">
@@ -189,19 +189,19 @@
             <h2 class="text-center mt-4">Gift Card</h2>
           </li>
           <li class="glide__slide">
-            <div class="bg-white rounded-xl shadow-lg h-[36rem] overflow-hidden">
+            <div class="bg-white rounded-xl shadow-lg h-auto overflow-hidden p-2">
               <img src="../assets/wallet/Loyalty-Pass.png" alt="Loyalty Rewards" class="w-full h-full object-cover">
             </div>
             <h2 class="text-center mt-4">Loyalty Rewards</h2>
           </li>
           <li class="glide__slide">
-            <div class="bg-white rounded-xl shadow-lg h-[36rem] overflow-hidden">
+            <div class="bg-white rounded-xl shadow-lg h-auto overflow-hidden p-2">
               <img src="../assets/wallet/Membership-pass.png" alt="Membership" class="w-full h-full object-cover">
             </div>
             <h2 class="text-center mt-4">Membership</h2>
           </li>
           <li class="glide__slide">
-            <div class="bg-white rounded-xl shadow-lg h-[36rem] overflow-hidden">
+            <div class="bg-white rounded-xl shadow-lg h-auto overflow-hidden p-2">
               <img src="../assets/wallet/Coupon-pass.png" alt="Coupons" class="w-full h-full object-cover">
             </div>
             <h2 class="text-center mt-4">Coupons</h2>
@@ -243,10 +243,8 @@
       type: 'carousel',
       focusAt: 'center',
       perView: 3,
-      peek: { before: 100, after: 100 },
-      gap: 20,
+      gap: 24, 
       autoplay: 3000,
-      hoverpause: true,
       animationDuration: 600,
       breakpoints: {
         1024: { perView: 1, peek: { before: 50, after: 50 } },
@@ -259,5 +257,16 @@
     document.getElementById('nextOverlay').addEventListener('click', () => glide.go('>'));
   });
 </script>
+<style>
+.glide__slide {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transform: scale(0.95);
+}
+
+.glide__slide--active {
+  transform: scale(1.0);
+}
+</style>
+
 </body>
 </html>
