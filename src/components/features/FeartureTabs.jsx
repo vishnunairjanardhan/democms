@@ -8,10 +8,10 @@ const TabbedImages = () => {
   const tabs = [
     { id: "gift-card", label: "Gift Card", img: "/assets/wallet/gift_card_buy.webp", alt: "Gift Card" },
     { id: "store-credit", label: "Cashback & Store Credit", img: "/assets/wallet/cashback.webp", alt: "Cashback & Store Credit" },
-    { id: "loyalty-reward", label: "Loyalty & Rewards", img: "/assets/wallet/loyalty.webp", alt: "Loyalty & Rewards" },
+    { id: "loyalty-reward", label: "Loyalty & Referrals", img: "/assets/wallet/loyalty.webp", alt: "Loyalty & Rewards" },
     { id: "automation", label: "Automation", img: "/assets/wallet/automation.webp", alt: "Automation Workflow" },
     { id: "wallet", label: "Wallet", img: "/assets/wallet/wallet.webp", alt: "Wallet Passes" },
-    { id: "membership", label: "Membership", img: "/assets/wallet/membership.webp", alt: "Membership Programs" },
+    { id: "membership", label: "Memberships", img: "/assets/wallet/membership.webp", alt: "Membership Programs" },
   ];
 
   const startAutoSlide = () => {
