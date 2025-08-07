@@ -3,7 +3,7 @@ const HeroSection = () => {
     {
       id: 1,
       brand: "99minds",
-      bgColor: "bg-indigo-900",
+      bgColor: "#D9CDFF",
       content: {
         image: "/assets/homepage/Gift_Card1.png",
         title: "Digital Gift Cards",
@@ -16,7 +16,7 @@ const HeroSection = () => {
     {
       id: 2,
       brand: "99minds",
-      bgColor: "bg-emerald-600",
+      bgColor: "#B8BFFF",
       content: {
         image: "/assets/homepage/Gift_Card1.png",
         title: "Loyalty Rewards",
@@ -27,7 +27,7 @@ const HeroSection = () => {
     {
       id: 3,
       brand: "99minds",
-      bgColor: "bg-pink-600",
+      bgColor: "#AA8FFF",
       content: {
         image: "/assets/homepage/Gift_Card1.png",
         title: "Membership Passes",
@@ -39,7 +39,7 @@ const HeroSection = () => {
     {
       id: 4,
       brand: "99minds",
-      bgColor: "bg-blue-800",
+      bgColor: "#93D5E1",
       content: {
         image: "/assets/homepage/Gift_Card1.png",
         title: "Promo & Coupon Campaigns",
@@ -53,7 +53,7 @@ const HeroSection = () => {
     {
       id: 5,
       brand: "99minds",
-      bgColor: "bg-yellow-500",
+      bgColor: "#D9CDFF",
       content: {
         image: "/assets/homepage/gift_card2.png",
         title: "Apple & Google Wallet Integration",
@@ -63,7 +63,7 @@ const HeroSection = () => {
     {
       id: 6,
       brand: "99minds",
-      bgColor: "bg-red-500",
+      bgColor: "#B8BFFF",
       content: {
         image: "/assets/homepage/gift_card2.png",
         title: "Automated Rewards",
@@ -73,7 +73,7 @@ const HeroSection = () => {
     {
       id: 7,
       brand: "99minds",
-      bgColor: "bg-green-700",
+      bgColor: "#AA8FFF",
       content: {
         image: "/assets/homepage/gift_card2.png",
         title: "Real-Time Analytics",
@@ -83,7 +83,7 @@ const HeroSection = () => {
     {
       id: 8,
       brand: "99minds",
-      bgColor: "bg-purple-600",
+      bgColor: "#93D5E1",
       content: {
         image: "/assets/homepage/gift_card2.png",
         title: "Omnichannel Campaigns",
@@ -102,7 +102,10 @@ const HeroSection = () => {
         } mb-8 mx-auto flex-shrink-0`}
       >
         {/* Background Card */}
-        <div className={`absolute inset-0 ${phone.bgColor} rounded-3xl`}></div>
+        <div
+          className="absolute inset-0 rounded-3xl"
+          style={{ backgroundColor: phone.bgColor }}
+        ></div>
 
         {/* Phone Frame */}
         <div
