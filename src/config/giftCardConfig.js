@@ -115,3 +115,89 @@ export const logos = [
     "/../integrations/Btree logo.svg",
   "/../integrations/hike-icon 2.svg"
 ];
+
+
+  export const leftColumnPhones = [
+    {
+      id: 1,
+      brand: "MUD\\WTR",
+      content: {
+        image: "/assets/homepage/Gift_Card1.png",
+        title: "Creator Revenue",
+        amount: "$162.67",
+        description: "Recommended by Grappa",
+        discount: "Get 15% OFF",
+        cta: "Shop now"
+      }
+    },
+    {
+      id: 2,
+      brand: "GRAZA",
+      content: {
+        image: "/assets/homepage/Gift_Card1.png",
+        title: "Olive oil the way it should be",
+        subtitle: "Always fresh, never blended",
+        cta: "Recommended by Grappa"
+      }
+    },
+    {
+      id: 3,
+      brand: "Ketone-IQ",
+      content: {
+        image: "/assets/homepage/Gift_Card1.png",
+        title: "Ketone-IQ",
+        subtitle: "Pure ketone energy",
+        user: "Pay creators",
+        paypal: true
+      }
+    },
+    {
+      id: 4,
+      brand: "fatty15",
+      content: {
+        image: "/assets/homepage/Gift_Card1.png",
+        title: "fatty15",
+        subtitle: "Essential fatty acid supplement",
+        user: "Health enthusiast"
+      }
+    }
+  ];
+
+  export const rightColumnPhones = [
+    {
+      id: 5,
+      brand: "GRAZA",
+      content: {
+        image: "/assets/homepage/gift_card2.png",
+        title: "Premium Olive Oil",
+        subtitle: "Cold pressed excellence"
+      }
+    },
+    {
+      id: 6,
+      brand: "Ketone-IQ", 
+      content: {
+        image: "/assets/homepage/gift_card2.png",
+        title: "Energy Boost",
+        subtitle: "Natural ketones"
+      }
+    },
+    {
+      id: 7,
+      brand: "MUD\\WTR",
+      content: {
+        image: "/assets/homepage/gift_card2.png",
+        title: "Coffee Alternative",
+        subtitle: "Mushroom blend"
+      }
+    },
+    {
+      id: 8,
+      brand: "fatty15",
+      content: {
+        image: "/assets/homepage/gift_card2.png",
+        title: "Cellular Health",
+        subtitle: "Daily supplement"
+      }
+    }
+  ];
