@@ -160,7 +160,7 @@
 </head>
 <body>
 <section
-  class="min-h-screen flex flex-col justify-center items-center relative overflow-hidden bg-gradient-to-br from-slate-50 to-blue-100">
+  class="min-h-screen flex flex-col justify-center items-center relative overflow-hidden bg-gradient-to-br from-slate-50 to-blue-100 pt-28">
   <!-- Background blobs -->
   <div class="absolute inset-0 overflow-hidden">
     <div class="absolute -top-40 -right-40 w-80 h-80 bg-purple-200 rounded-full opacity-50 blur-3xl"></div>
@@ -216,16 +216,18 @@
       </div>
 
       <!-- Overlay arrows styled with Tailwind -->
-      <button
-        id="prevOverlay"
-        class="absolute top-1/2 left-2 -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full h-12 w-12 flex items-center justify-center z-20">
-        &#8592;
-      </button>
-      <button
-        id="nextOverlay"
-        class="absolute top-1/2 right-2 -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full h-12 w-12 flex items-center justify-center z-20">
-        &#8594;
-      </button>
+     <button
+  id="prevOverlay"
+  class="absolute top-1/2 -translate-y-1/2 -left-6 md:-left-10 lg:-left-12 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full h-10 w-10 md:h-12 md:w-12 flex items-center justify-center shadow-md z-20">
+  &#8592;
+</button>
+
+<!-- Right Arrow -->
+<button
+  id="nextOverlay"
+  class="absolute top-1/2 -translate-y-1/2 -right-6 md:-right-10 lg:-right-12 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full h-10 w-10 md:h-12 md:w-12 flex items-center justify-center shadow-md z-20">
+  &#8594;
+</button>
 
       <div class="glide__bullets flex justify-center mt-6" data-glide-el="controls[nav]">
         <button class="glide__bullet mx-1" data-glide-dir="=0"></button>
