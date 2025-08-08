@@ -14,7 +14,7 @@ const HeroSection = () => {
           {phone.content.image && (
             <img
               src={phone.content.image}
-              alt={phone.content.title || phone.brand}
+              alt={phone.content.title}
               className="w-full h-full object-contain rounded-lg"
             />
           )}
@@ -24,7 +24,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="min-h-screen text-black relative overflow-hidden">
+    <div className="text-black relative overflow-hidden">
       <div className="max-w-7xl relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-16">
         <div className="grid lg:grid-cols-2 gap-16 items-start lg:pt-16">
           {/* Left Content */}

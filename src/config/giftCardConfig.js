@@ -162,7 +162,7 @@ export const logos = [
       }
     },
     {
-      id: 4,
+      id: 5,
       brand: "fatty15",
       content: {
         image: "/assets/giftcard/lasenza-gc1.webp",
@@ -170,12 +170,21 @@ export const logos = [
         subtitle: "Essential fatty acid supplement",
         user: "Health enthusiast"
       }
+    },
+    {
+      id: 6,
+      brand: "fatty15",
+      content: {
+        image: "/assets/giftcard/natori-gc.webp",
+        title: "Cellular Health",
+        subtitle: "Daily supplement"
+      }
     }
   ];
 
   export const rightColumnPhones = [
     {
-      id: 5,
+      id: 7,
       brand: "GRAZA",
       content: {
         image: "/assets/giftcard/cariloha-gc.webp",
@@ -184,7 +193,7 @@ export const logos = [
       }
     },
     {
-      id: 6,
+      id: 8,
       brand: "Ketone-IQ", 
       content: {
         image: "/assets/giftcard/dunning-gc.webp",
@@ -193,7 +202,7 @@ export const logos = [
       }
     },
     {
-      id: 7,
+      id: 9,
       brand: "MUD\\WTR",
       content: {
         image: "/assets/giftcard/corner_bakery-gc.webp",
@@ -202,7 +211,7 @@ export const logos = [
       }
     },
     {
-      id: 8,
+      id: 10,
       brand: "fatty15",
       content: {
         image: "/assets/giftcard/jaxen_gray-gc.webp",
@@ -210,13 +219,5 @@ export const logos = [
         subtitle: "Daily supplement"
       }
     },
-    {
-      id: 8,
-      brand: "fatty15",
-      content: {
-        image: "/assets/giftcard/natori-gc.webp",
-        title: "Cellular Health",
-        subtitle: "Daily supplement"
-      }
-    }
+    
   ];
