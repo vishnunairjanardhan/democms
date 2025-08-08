@@ -75,7 +75,7 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className="w-auto overflow-hidden">
+            <div className="w-auto overflow-hidden hidden md:block block-revel">
               <div className="scroll-down-container">
                 {/* Triple the cards for seamless loop */}
                 {[
