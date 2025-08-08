@@ -6,10 +6,10 @@ import {
 const HeroSection = () => {
   const PhoneCard = ({ phone }) => {
     return (
-      <div className={"relative w-72 h-[200px] mb-4 mx-auto flex-shrink-0"}>
+      <div className={"relative w-60 py-3 mx-auto flex-shrink-0"}>
         {/* Card with Image */}
         <div
-          className={`rounded-2xl h-full w-full overflow-hidden flex items-center justify-center`}
+          className={`rounded-lg h-full w-full overflow-hidden flex items-center justify-center`}
         >
           {phone.content.image && (
             <img
@@ -25,31 +25,20 @@ const HeroSection = () => {
 
   return (
     <div className="min-h-screen text-black relative overflow-hidden">
-      <div className="max-w-7xl relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-12">
-        <div className="grid lg:grid-cols-2 gap-16 items-start pt-16">
+      <div className="max-w-7xl relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-16">
+        <div className="grid lg:grid-cols-2 gap-16 items-start lg:pt-16">
           {/* Left Content */}
-          <div className="space-y-8 lg:pt-16">
+          <div className="max-w-xl text-center lg:text-left">
             <div className="space-y-6">
-              <h1 className="text-2xl lg:text-5xl font-bold leading-tight text-gray-800">
-                Scale end to end
-                <br />
-                99minds Creator
-                <br />
-                programs
-              </h1>
-
-              <p className="text-xl text-gray-800 leading-relaxed max-w-lg">
-                Empower your customers and creators with 99minds' cobranded
-                landing pages, cash and store credit rewards, gift cards, and
-                comprehensive creator monetization tools!
-              </p>
+            <h1 class="mt-8">All-in-One <span class="text-[#EF5A3C]">Gift Card Software</span> for E-commerce and Retail Stores</h1>
+            <p class="max-w-2xl mt-4">The go-to gift card software solution for businesses to boost revenue, elevate customer experience, and enhance brand rapport.</p>
             </div>
 
             <button
               type="button"
               role="button"
               aria-label="book a demo"
-              className="raise1 mt-4 mx-auto relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
+              className="raise1 mt-8 mx-auto relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
               onClick={() =>
                 window.Calendly?.initPopupWidget({
                   url: "https://calendly.com/99minds/30min",
@@ -65,8 +54,8 @@ const HeroSection = () => {
 
           {/* Right Content - Scrolling Phone Mockups */}
           <div
-            className="flex space-x-6 h-screen overflow-hidden relative"
-            style={{ height: "650px", maxHeight: "700px" }}
+            className="flex space-x-6 h-screen overflow-hidden relative justify-center"
+            style={{ maxHeight: "540px" }}
           >
             {/* Left Column - Larger Phones */}
             <div className="w-auto overflow-hidden">

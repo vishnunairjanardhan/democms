@@ -122,7 +122,7 @@ export const logos = [
       id: 1,
       brand: "MUD\\WTR",
       content: {
-        image: "/assets/homepage/Gift_Card1.png",
+        image: "/assets/giftcard/cm-gc.webp",
         title: "Creator Revenue",
         amount: "$162.67",
         description: "Recommended by Grappa",
@@ -134,7 +134,7 @@ export const logos = [
       id: 2,
       brand: "GRAZA",
       content: {
-        image: "/assets/homepage/Gift_Card1.png",
+        image: "/assets/giftcard/flynnohara-gc.webp",
         title: "Olive oil the way it should be",
         subtitle: "Always fresh, never blended",
         cta: "Recommended by Grappa"
@@ -144,7 +144,7 @@ export const logos = [
       id: 3,
       brand: "Ketone-IQ",
       content: {
-        image: "/assets/homepage/Gift_Card1.png",
+        image: "/assets/giftcard/pinstripe-gc.webp",
         title: "Ketone-IQ",
         subtitle: "Pure ketone energy",
         user: "Pay creators",
@@ -155,7 +155,17 @@ export const logos = [
       id: 4,
       brand: "fatty15",
       content: {
-        image: "/assets/homepage/Gift_Card1.png",
+        image: "/assets/giftcard/muda_gc.webp",
+        title: "fatty15",
+        subtitle: "Essential fatty acid supplement",
+        user: "Health enthusiast"
+      }
+    },
+    {
+      id: 4,
+      brand: "fatty15",
+      content: {
+        image: "/assets/giftcard/lasenza-gc1.webp",
         title: "fatty15",
         subtitle: "Essential fatty acid supplement",
         user: "Health enthusiast"
@@ -168,7 +178,7 @@ export const logos = [
       id: 5,
       brand: "GRAZA",
       content: {
-        image: "/assets/homepage/gift_card2.png",
+        image: "/assets/giftcard/cariloha-gc.webp",
         title: "Premium Olive Oil",
         subtitle: "Cold pressed excellence"
       }
@@ -177,7 +187,7 @@ export const logos = [
       id: 6,
       brand: "Ketone-IQ", 
       content: {
-        image: "/assets/homepage/gift_card2.png",
+        image: "/assets/giftcard/dunning-gc.webp",
         title: "Energy Boost",
         subtitle: "Natural ketones"
       }
@@ -186,7 +196,7 @@ export const logos = [
       id: 7,
       brand: "MUD\\WTR",
       content: {
-        image: "/assets/homepage/gift_card2.png",
+        image: "/assets/giftcard/corner_bakery-gc.webp",
         title: "Coffee Alternative",
         subtitle: "Mushroom blend"
       }
@@ -195,7 +205,16 @@ export const logos = [
       id: 8,
       brand: "fatty15",
       content: {
-        image: "/assets/homepage/gift_card2.png",
+        image: "/assets/giftcard/jaxen_gray-gc.webp",
+        title: "Cellular Health",
+        subtitle: "Daily supplement"
+      }
+    },
+    {
+      id: 8,
+      brand: "fatty15",
+      content: {
+        image: "/assets/giftcard/natori-gc.webp",
         title: "Cellular Health",
         subtitle: "Daily supplement"
       }

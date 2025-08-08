@@ -8,6 +8,7 @@ import TestimonialLite from "../components/testimonials/TestimonialLite.astro";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
 import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
 import GiftCardTab1 from "../components/features/GiftCardTab1.astro";
+import FeatureVerticalScroll from "../components/features/FeatureVerticalScroll.jsx";
 import { Seo } from "../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -46,7 +47,8 @@ import { AstroSeo } from "@astrolib/seo";
     cardType: "summary_large_image",
   }}
 />
-  <HeroGiftcard />
+  <!--<HeroGiftcard />-->
+  <FeatureVerticalScroll client:load/>
   <LogosAnimate />
   <FeatureGiftcard />
   <FeatureSixGiftcard />
