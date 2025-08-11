@@ -51,7 +51,7 @@ export default function FeatureLogoWave() {
   const currentBatch = getBatch(batchIndex);
 
   return (
-    <div className="relative max-w-7xl px-8 mx-auto py-12 lg:py-24">
+    <div className="relative max-w-7xl px-8 mx-auto py-12 lg:py-24 border">
     <p className="text-lg text-center pt-2 py-6">Trusted by teams at</p>
       <div className="flex justify-center items-center gap-10 px-6 py-10 bg-[#FEFCF7] overflow-hidden min-h-[50px] relative h-[64px]">
         <AnimatePresence>
