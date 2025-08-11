@@ -1,6 +1,6 @@
 ---
 import BaseLayout3 from "../layouts/BaseLayout3.astro";
-import HeroIndex from "../components/heros/HeroIndex.astro";
+import HeroThree2 from "../components/heros/HeroThree2.astro";
 import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro"
 import NewLogoCloud from "../components/testimonials/NewLogoCloud.jsx";
 import FeatureFive_NewHome from "../components/features/FeatureFive_NewHome.astro";
@@ -17,27 +17,43 @@ import { AstroSeo } from "@astrolib/seo";
 import { Seo } from "../config/Seo.jsx";
 ---
 
-<!---
-Use AstroSeo in all the pages you want different Seo than the index page
--->
-<AstroSeo
-  title="All-In-One Gift Card & Loyalty Platform For Businesses | 99minds"
+
+
+<BaseLayout3>
+  <AstroSeo
+  title="Gift Cards & Loyalty Platform for Omnichannel e-Commerce & In-store | 99minds"
   description="An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience."
   canonical="https://www.99minds.io"
-  openGraph={{
-    url: "https://www.99minds.io",
-    title: "All-In-One Gift Card & Loyalty Platform For Businesses | 99minds",
-    description: "An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience.",
-    
-    site_name: "99minds",
-  }}
-  twitter={{
-    site: "@99minds_io",
-    cardType: "summary_large_image",
-  }}
+    openGraph= {{
+      url: "https://www.99minds.io",
+      title: "Gift Cards & Loyalty Platform for Omnichannel e-Commerce & In-store | 99minds",
+      description: "An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience.",
+      images: [
+        {
+          url: "https://www.99minds.io/assets/homepage/h1.png",
+          alt: "99minds Gift Card & Loyalty",
+          type: "image/jpeg",
+        },
+      ],
+      site_name: "99minds",
+    }}
+    twitter={{
+      url: "https://www.99minds.io",
+      images: [
+        {
+          url: "https://www.99minds.io/assets/homepage/h1.png",
+          alt: "99minds Gift Card & Loyalty",
+          type: "image/png",
+        }
+      ],
+      site: "@99minds_io",
+      cardType: "summary_large_image",
+    }}
 />
-<BaseLayout3>
-  <HeroIndex />
+<!-- <svg class="absolute blur-3xl right-0 opacity-80" width="50%" height="100%" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_17_60)"> <g filter="url(#filter0_f_17_60)"> <path d="M128.6 0H0V322.2L332.5 211.5L128.6 0Z" fill="#4D07E3"></path> <path d="M0 322.2V400H240H320L332.5 211.5L0 322.2Z" fill="#4C00FF"></path> <path d="M320 400H400V78.75L332.5 211.5L320 400Z" fill="#7fcef3"></path> <path d="M400 0H128.6L332.5 211.5L400 78.75V0Z" fill="#7fcef3"></path> </g> </g> <defs> <filter id="filter0_f_17_60" x="-159.933" y="-159.933" width="719.867" height="719.867" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"> <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood> <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend> <feGaussianBlur stdDeviation="79.9667" result="effect1_foregroundBlur_17_60"></feGaussianBlur> </filter> </defs> </svg> -->
+  <HeroThree2 />
+  <!--<LogoCloudOne />
+  <NewLogoCloud />-->
   <LogosAnimate />
   <FeatureSix />
   <FeatureFive_NewHome />
