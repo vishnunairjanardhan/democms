@@ -12,7 +12,7 @@
         
         tabButtonClicked(tabButton) {
             clearInterval(this.intervalId); 
-            this.tabSelected = tabButton.id.replace(this.tabId + '-', '');
+            this.tabSelected = parseInt(tabButton.id.replace(this.tabId + '-', ''));
             this.tabRepositionMarker(tabButton);
             this.startAutoScroll();
         },
@@ -24,17 +24,22 @@
         },
 
         tabContentActive(tabContent) {
-            return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
+            const contentNumber = parseInt(tabContent.id.split('-').pop());
+            return this.tabSelected === contentNumber;
         },
+        
         tabButtonActive(tabButton) {
-    return this.tabSelected == tabButton.id.replace(this.tabId + '-', '');
-},
+            const buttonNumber = parseInt(tabButton.id.replace(this.tabId + '-', ''));
+            return this.tabSelected === buttonNumber;
+        },
         
         startAutoScroll() {
             this.intervalId = setInterval(() => {
                 this.tabSelected = (this.tabSelected % this.totalTabs) + 1;
                 let tabButton = document.getElementById(this.tabId + '-' + this.tabSelected);
-                this.tabRepositionMarker(tabButton);
+                if (tabButton) {
+                    this.tabRepositionMarker(tabButton);
+                }
             }, 4000);
         },
 
@@ -42,17 +47,36 @@
             clearInterval(this.intervalId);
         }
     }" 
-    x-init="tabRepositionMarker($refs.tabButtons.firstElementChild); startAutoScroll();" 
+    x-init="
+        setTimeout(() => {
+            if ($refs.tabButtons && $refs.tabButtons.firstElementChild) {
+                tabRepositionMarker($refs.tabButtons.firstElementChild);
+                startAutoScroll();
+            }
+        }, 50);
+    " 
     class="relative mt-10">
 		
-		<div class="relative lg:flex lg:flex-row lg:border lg:border-gray-700 rounded-xl items-center justify-center lg:gap-5 lg:w-[36rem] w-16 h-16 mx-auto select-none hidden" x-ref="tabButtons">
-            <button class="relative z-20 inline-flex items-center gap-2 w-auto lg:h-10 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ ' text-white': tabButtonActive($el), 'text-gray-700': !tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" >
+	<div class="relative lg:flex lg:flex-row lg:border lg:border-gray-700 rounded-xl items-center justify-center lg:gap-5 lg:w-[36rem] w-16 h-16 mx-auto select-none hidden" x-ref="tabButtons">
+            <button class="relative z-20 inline-flex items-center gap-2 w-auto lg:h-10 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" 
+                    type="button" 
+                    :class="tabSelected === 1 ? 'text-white' : 'text-gray-700'" 
+                    :id="$id(tabId)" 
+                    @click="tabButtonClicked($el);">
                 Design your pass
             </button>
-            <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ '  text-white': tabButtonActive($el), 'text-gray-700': !tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);">
+            <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" 
+                    type="button" 
+                    :class="tabSelected === 2 ? 'text-white' : 'text-gray-700'" 
+                    :id="$id(tabId)" 
+                    @click="tabButtonClicked($el);">
                 Configure push notification
             </button>
-            <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" type="button" :class="{ ' text-white': tabButtonActive($el), 'text-gray-700': !tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);">
+            <button class="relative z-20 inline-flex p-2 w-auto h-10 gap-2 text-sm font-medium transition-all cursor-pointer items-center whitespace-nowrap" 
+                    type="button" 
+                    :class="tabSelected === 3 ? 'text-white' : 'text-gray-700'" 
+                    :id="$id(tabId)" 
+                    @click="tabButtonClicked($el);">
                Distribute & analyze
             </button>
             <div class="absolute left-0 z-10 w-full h-full duration-300 ease-out" x-ref="tabMarker" style="width: 76px; height: 32px; left: 0px;">
