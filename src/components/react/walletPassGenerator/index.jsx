@@ -27,7 +27,7 @@ const WalletPassCustomizer = () => {
     labelColor: "#ffffff",
     backgroundColor: "#6366f1",
     bannerImage:
-      "https://99minds-staging-assets.s3.amazonaws.com/merchants/vendor_439d4de31eb60bf768/images/Reward_Program-1716369294.png",
+      "../assets/giftcard/giftcard-pass.png",
     logoUrl: "https://dev.giftcard.99minds.co/99minds_Logo.svg",
     pointLabel: "POINTS",
     memberLabel: "MEMBER",
