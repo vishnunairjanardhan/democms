@@ -18,6 +18,8 @@ const GoogleLoyaltyPreview = ({
         backgroundColor,
         balanceLabel: pointLabel,
         expiryLabel: tierLabel,
+        expiryValue: "GOLD",
+        balanceValue: "1000",
       }}
     />
   );
