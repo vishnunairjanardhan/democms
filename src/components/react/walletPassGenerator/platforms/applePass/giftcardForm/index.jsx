@@ -91,7 +91,7 @@ const GooglePreview = ({
                   color: textColor || "white",
                 }}
               >
-                • • • • • • • • • •
+                {"XXXX-XXXXX-XXXX"}
               </div>
             </div>
             <div>
@@ -102,7 +102,7 @@ const GooglePreview = ({
                 {expiryLabel}
               </div>
               <div style={{ fontSize: "14px", color: textColor }}>
-                {"• • • • •"}
+                {"NEVER"}
               </div>
             </div>
           </div>

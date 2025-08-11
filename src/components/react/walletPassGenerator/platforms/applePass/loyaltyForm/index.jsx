@@ -91,7 +91,7 @@ const LoyaltyPreview = ({
                   color: textColor || "white",
                 }}
               >
-                John Doe Michael
+                {"John Doe"}
               </div>
             </div>
             <div>
@@ -114,7 +114,7 @@ const LoyaltyPreview = ({
               <div className="flex justify-center">
                 <div className="p-2 rounded-md border bg-white flex justify-center items-center  flex-col text-center">
                   <QRCodeSVG size={100} value="https://reactjs.org/" />
-                  <p className="text-xs mt-1">{"LOYALTY-XXXXX-XXXX"}</p>
+                  <p className="text-xs mt-1">{"XXXX-XXXXX-XXXX"}</p>
                 </div>
               </div>
             </div>

@@ -10,7 +10,9 @@ const GooglePreview = ({
   bannerImage,
   backgroundColor,
   balanceLabel,
+  balanceValue,
   expiryLabel,
+  expiryValue,
 }) => {
   const textColor = getAutoFontColor(backgroundColor);
   return (
@@ -90,7 +92,7 @@ const GooglePreview = ({
                   color: textColor || "white",
                 }}
               >
-                {"€5.00"}
+                {balanceValue || "$10.00"}
               </div>
             </div>
             <div>
@@ -104,7 +106,7 @@ const GooglePreview = ({
                 className="text-sm text-uppercase fw-bold flex justify-end"
                 style={{ color: textColor }}
               >
-                {"NEVER"}
+                {expiryValue || "NEVER"}
               </div>
             </div>
           </div>
@@ -120,7 +122,7 @@ const GooglePreview = ({
                   value="https://reactjs.org/"
                 />
                 <p style={{ color: textColor }} className="text-xs mt-1">
-                  {"XXXX-XXXXX"}
+                  {"XXXX-XXXXX-XXXX"}
                 </p>
               </div>
             </div>
