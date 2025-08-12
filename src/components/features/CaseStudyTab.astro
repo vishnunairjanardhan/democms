@@ -116,7 +116,7 @@
         <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-2" style="display: none;">
           <section>
             <div class="py-12">
-              <ol class="grid grid-cols-1 gap-16 lg:grid-cols-2 sm:grid-cols-2" role="list">
+              <ol class="grid grid-cols-1 gap-16 lg:grid-cols-3 sm:grid-cols-2" role="list">
                 {Fashion.map((data) => (
                 <li key={data.title} class="group border bg-white border-white/5 overflow-hidden rounded-xl  shadow-2xl">
                     <a href={data.href}>
@@ -132,7 +132,7 @@
                             />
                           ) : data.videoId ? (
                             <iframe
-                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover"
+                              class="group-hover:scale-110 duration-300 h-[202px] object-cover"
                               src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=1&mute=1&rel=0`}
                               title={data.title}
                               width="630"
@@ -150,9 +150,9 @@
                           <div class="basis-1/2"><img class="h-9" alt="" src={data.logo}></div>
                         </div>
                         <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
-                        <h2 class="mt-5 text-lg font-medium leading-6 text-gray-900">{data.title}</h2>
+                        <h2 class="mt-5 text-base font-normal leading-6 text-gray-900">{data.title}</h2>
                         <p class="mt-2 text-base text-blue-600 line-clamp-1">{data.description}</p>
-                        <a href={data.href} class="text-gray-700 mt-5 hover:underline">Read More</a>
+                         <a href={data.href} class="text-blue-600 mt-5 hover:underline">Read More</a>
                       </div>
                   </a>
                 </li>
@@ -165,7 +165,7 @@
         <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-7" style="display: none;">
           <section>
             <div class="py-12">
-              <ol class="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-2" role="list">
+              <ol class="grid grid-cols-1 gap-8 lg:grid-cols-3 sm:grid-cols-2" role="list">
                 {Others.map((data) => (
                 <li key={data.title} class="group border bg-white border-white/5 overflow-hidden rounded-xl  shadow-2xl">
                     <a href={data.href}>
@@ -204,9 +204,9 @@
                               </div>-->  
                         </div>
                         <h2 class="text-xl mt-2 font-normal text-gray-700">{data.heading}</h2> 
-                        <h2 class="mt-5 text-lg font-medium leading-6 text-gray-900">{data.title}</h2>
+                        <h2 class="mt-5 text-base font-normal leading-6 text-gray-900">{data.title}</h2>
                         <p class="mt-2 text-base text-blue-600 line-clamp-1">{data.description}</p>
-                        <a href={data.href} class="text-gray-700 mt-5 hover:underline">Read More</a>
+                         <a href={data.href} class="text-blue-600 mt-5 hover:underline">Read More</a>
                       </div>
                   </a>
                 </li>
