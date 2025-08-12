@@ -41,12 +41,12 @@ export const Ecommerce = [
   url: "/integrations/salesforce",
   alt:"99minds-Salesforce Integration"
 },
-{
-  image: '/integrations/miva.svg',
-  title: 'Miva',
-  desc:"A flexible e-commerce platform that integrates with 99minds to provide gift card solutions.  99minds empowers you to add functionalities like scheduling gift card delivery, rewarding gift card purchases with loyalty points, and offering promotional gift cards to your Miva store, enhancing the value proposition for your customers.",
-  alt:"99minds-Miva Integration"
-  },
+// {
+//   image: '/integrations/miva.svg',
+//   title: 'Miva',
+//   desc:"A flexible e-commerce platform that integrates with 99minds to provide gift card solutions.  99minds empowers you to add functionalities like scheduling gift card delivery, rewarding gift card purchases with loyalty points, and offering promotional gift cards to your Miva store, enhancing the value proposition for your customers.",
+//   alt:"99minds-Miva Integration"
+//   },
 {
   image: '/integrations/appbrew-icon.svg',
   title: 'Appbrew',
@@ -98,24 +98,24 @@ export const POS = [
   url: "/integrations/hike",
   alt:"99minds-Hike Integration"
 },
-{
-  image: '/integrations/retailpro-logo.svg',
-  title: 'Retail Pro Prism',
-  desc: "99minds integrates with Retail Pro Prism, offering a unified approach to managing gift cards, loyalty programs, store credits, and coupons.  This ensures consistent program functionality across your online store and your Retail Pro Prism POS system.",
-  alt:"99minds-Retail Pro Prism Integration"
-},
+// {
+//   image: '/integrations/retailpro-logo.svg',
+//   title: 'Retail Pro Prism',
+//   desc: "99minds integrates with Retail Pro Prism, offering a unified approach to managing gift cards, loyalty programs, store credits, and coupons.  This ensures consistent program functionality across your online store and your Retail Pro Prism POS system.",
+//   alt:"99minds-Retail Pro Prism Integration"
+// },
 {
   image: '/integrations/runit.svg',
   title: 'Runit',
   desc: "99minds integrates with Runit POS to provide an omnichannel solution for gift cards, loyalty programs, store credits, and coupons.  Customers can enjoy the benefit of using these programs interchangeably between your online store and your Runit POS system.",
   alt:"99minds-Runit Integration"
 },
-{
-  image: '/integrations/retailpro.svg',
-  title: 'Retail Pro 9',
-  desc: "99minds integrates with Retail Pro 9, allowing you to create a unified platform for managing gift cards, loyalty programs, store credits, and coupons. This ensures a consistent customer experience across your online store and your Retail Pro 9 POS system.",
-  alt:"99minds-Retail Pro 9 Integration"
-},
+// {
+//   image: '/integrations/retailpro.svg',
+//   title: 'Retail Pro 9',
+//   desc: "99minds integrates with Retail Pro 9, allowing you to create a unified platform for managing gift cards, loyalty programs, store credits, and coupons. This ensures a consistent customer experience across your online store and your Retail Pro 9 POS system.",
+//   alt:"99minds-Retail Pro 9 Integration"
+// },
 {
   image: '/integrations/connectpos.svg',
   title: 'ConnectPOS',
