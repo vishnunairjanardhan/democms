@@ -86,36 +86,7 @@ export default function FeatureLogoWave() {
         </AnimatePresence>
       </div>
     </div>
-//    <div className="relative max-w-7xl px-4 sm:px-6 mx-auto py-12 lg:py-24">
-//   <div className="flex justify-center items-center px-4 py-10 bg-[#FEFCF7] overflow-hidden min-h-[50px] relative h-auto lg:h-[64px]">
-//     <AnimatePresence mode="wait">
-//       <motion.div
-//         key={batchIndex}
-//         className="absolute inset-0 w-full mx-auto flex justify-between items-center flex-wrap lg:flex-nowrap gap-6 sm:gap-10 lg:gap-6 px-4 sm:px-6"
-//         initial={{ opacity: 0, y: 20 }}
-//         animate={{ opacity: 1, y: 0 }}
-//         exit={{ opacity: 0, y: -20 }}
-//         transition={{ duration: 0.3 }}
-//       >
-//         {currentBatch.map((logo, index) => (
-//           <motion.img
-//             key={`${batchIndex}-${index}`}
-//             src={logo.src}
-//             className="h-6 object-contain flex-shrink-0 max-w-[100px]"
-//             initial={{ opacity: 0, y: 20, rotate: -15 }}
-//             animate={{ opacity: 1, y: 0, rotate: 0 }}
-//             transition={{
-//               duration: 0.5,
-//               delay: index * 0.05,
-//               ease: "easeOut"
-//             }}
-//             alt="Company logo"
-//           />
-//         ))}
-//       </motion.div>
-//     </AnimatePresence>
-//   </div>
-// </div>
+
 
   );
 }
