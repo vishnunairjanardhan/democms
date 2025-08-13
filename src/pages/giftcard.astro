@@ -1,14 +1,14 @@
 ---
 import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import HeroGiftcard from "../components/heros/HeroGiftcard.astro";
-import LogosAnimate from "../components/testimonials/LogosAnimate.astro";
+import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
 import FeatureSixGiftcard from "../components/features/FeatureSixGiftcard.astro";
 import FeatureGiftcard from "../components/features/FeatureGiftcard.astro";
 import TestimonialLite from "../components/testimonials/TestimonialLite.astro";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
 import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
 import GiftCardTab1 from "../components/features/GiftCardTab1.astro";
-import FeatureVerticalScroll from "../components/features/FeatureVerticalScroll.jsx";
+import GiftcardHeroSection from "../components/features/GiftcardHeroSection.jsx";
 import { Seo } from "../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -48,8 +48,8 @@ import { AstroSeo } from "@astrolib/seo";
   }}
 />
   <!--<HeroGiftcard />-->
-  <FeatureVerticalScroll client:load/>
-  <LogosAnimate />
+  <GiftcardHeroSection client:load/>
+  <ClientLogoScroller />
   <FeatureGiftcard />
   <FeatureSixGiftcard />
   <!-- <GiftCardTab /> -->
