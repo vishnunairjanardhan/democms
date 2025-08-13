@@ -4,7 +4,7 @@ import BaseLayout2 from "../layouts/BaseLayout2.astro";
 import Slide from "../components/features/Slide.astro";
 import ROICalculator from "../components/features/ROI.jsx";
 import FeatureLogoWave from "../components/features/FeatureLogoWave.jsx";
-import Slide1 from "../components/features/Slide1.astro";
+import HeroBanner from "../components/features/HeroBanner.astro";
 import FeatureTabsNew from "../components/features/FeatureTabsNew.astro";
 import FeatureTabsNew1 from "../components/features/FeaturesTabsNew1.jsx";
 import HeroSlide from "../components/heros/HeroSlide.astro";
@@ -12,12 +12,12 @@ import ProgramWidget from "../components/features/ProgramWidget.astro";
 import FeatureCarousal from "../components/features/FeatureCarousal.astro";
 import WorkFlow from "../components/features/WorkFlow.astro";
 import SocialWidget from "../components/features/SocialWidget.astro";
-import LogoMarquee from "../components/features/LogoMarquee.jsx";
+import PartnersGrid from "../components/features/PartnersGrid.jsx";
 import FeatureMem3 from "../components/features/FeatureMem3.astro";
-import FeatureVerticalScroll from "../components/features/FeatureVerticalScroll.jsx";
+import GiftcardHeroSection from "../components/features/GiftcardHeroSection.jsx";
 import FeatureVerticalScroll1 from "../components/features/FeatureVerticalScroll1.jsx";
 import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
-import LogosAnimate from "../components/testimonials/LogosAnimate.astro";
+import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
 import NewLogoCloud from "../components/testimonials/NewLogoCloud.jsx";
 import IntegrationAnimate from "../components/features/IntegrationAnimate.astro";
 import FeatureTabComp from "../components/features/FeatureTabComp.astro";
@@ -28,7 +28,7 @@ import ScrollComp from "../components/features/ScrollComp.astro";
 import { AstroSeo } from "@astrolib/seo";
 import GlobeWithHexCountries from "../components/customers/ThreeScene.jsx"
 import Counter from "../components/customers/Counter.astro"
-import Slider from "../components/features/Slider.astro";
+import WalletSlider from "../components/features/WalletSlider.astro";
 ---
 
 <!---
@@ -70,16 +70,16 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <BaseLayout2>
 <!--<Bfcm />-->
 
-<Slider/>
-<FeatureVerticalScroll client:load/>
+<WalletSlider/>
+<GiftcardHeroSection client:load/>
 <!-- <FeatureVerticalScroll1 client:load/> -->
 
 <Slide/>
 <FeatureCarousal/>
-<LogoMarquee client:load/>
+<PartnersGrid client:load/>
 <ProgramWidget/>
 <SocialWidget/>
-<Slide1/>
+<HeroBanner />
 <ScrollComp />
 <FeatureMem3 />
 <FeatureTabComp />
@@ -88,7 +88,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <Counter/>
 <ROICalculator client:load/>
 <FeatureLogoWave client:load/>
-<LogosAnimate/>
+<ClientLogoScroller/>
 <!--<GlobeWithHexCountries client:load />
 <ResultsSection client:load />-->
 <!-- <IntegrationAnimate/> -->
