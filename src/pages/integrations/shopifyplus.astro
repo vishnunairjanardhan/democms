@@ -1,0 +1,64 @@
+---
+
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
+import HeroShopifyPlus1 from "../../components/heros/HeroShopifyPlus1.astro";
+import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
+import FeatureShopifyplus1 from "../../components/features/FeatureShopifyplus1.astro";
+import ParentPage from "../../components/CheckoutFeature/parent"
+import FeatureShopifyplus2 from "../../components/features/FeatureShopifyplus2.astro";
+import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+import Integrations99minds from "../../components/integrations/Integrations99minds.astro";
+import BcomRating from "../../components/Infopages/BcomRating.astro";
+import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
+import FeatureShopifyplus3 from "../../components/features/FeatureShopifyplus3.astro";
+import IntegrationShopifyplus from "../../components/integrations/IntegrationShopifyplus.astro";
+import { AstroSeo } from "@astrolib/seo";
+
+---
+
+<AstroSeo
+  title="99minds and Shopify Plus integration | 99minds",
+  description="Add the most powerful omnichannel gift card and loyalty program app to your Shopify account and improve customer retention and revenue.",
+  canonical="https://www.99minds.io/integrations/shopifyplus"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/shopifyplus",
+    title: "99minds and Shopifyplus integration | 99minds",
+    description: "Add the most powerful omnichannel gift card and loyalty program app to your Shopify account and improve customer retention and revenue.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/shopifyplus/99minds-shopifyplus-OGI.svg",
+        alt: "99minds & Shopifyplus integration",
+        type: "image/svg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/integrations/shopifyplus",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/shopifyplus/99minds-shopifyplus-OGI.svg",
+        alt: "99minds & Shopifyplus integration",
+        type: "image/svg",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<head>
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<BaseLayout3>
+  <HeroShopifyPlus1 />
+  <LogoCloudOne />
+  <FeatureShopifyplus1 />
+  <ParentPage client:load/>
+  <FeatureShopifyplus2 />
+  <!-- <FeatureShopifyplus3 /> -->
+  <IntegrationShopifyplus />
+  <Testimonialtry />
+  <CtaThreeU />
+</BaseLayout3>

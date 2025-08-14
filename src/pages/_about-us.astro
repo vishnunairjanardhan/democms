@@ -1,0 +1,37 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Seo } from "../config/Seo";
+import HeroAboutus from "../components/heros/HeroAboutus.astro";
+import HeroAboutUs2 from "../components/heros/HeroAboutUs2.astro";
+import FeatureAboutus from "../components/features/FeatureAboutus.astro";
+import FeatureAboutUs2 from "../components/features/FeatureAboutUs2.astro";
+import FeatureAboutUs3 from "../components/features/FeatureAboutUs3.astro";
+import About_us from "../components/Infopages/About_us.astro";
+import AboutOne from "../components/about/AboutOne.astro";
+import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro";
+import Team from "../components/about/Team.astro";
+import CtaAbout from "../components/ctas/CtaAbout.astro";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="About 01"
+  description="Your site description goes here"
+  canonical=""
+  {...Seo}
+/>
+<BaseLayout>
+  <HeroAboutUs2 />
+  <!--<HeroAboutus />-->
+  <About_us />
+  <FeatureAboutus />
+  <!--<AboutOne />-->
+  <LogoCloudOne/>
+  <FeatureAboutUs2 />
+  <FeatureAboutUs3 />
+  <!--<Team /> -->
+  <CtaAbout />
+</BaseLayout>
