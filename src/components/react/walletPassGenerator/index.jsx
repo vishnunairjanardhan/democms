@@ -58,14 +58,14 @@ const WalletPassCustomizer = () => {
     <div className="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24">
       <div className="flex flex-col items-center justify-center">
         <h1 class="mt-16 tracking-tight text-center text-black">
-          Free Wallet Pass Generator
+          Free Wallet Pass Creator – Design & Share in Minutes
         </h1>
         <p class="mt-6 text-center text-vulcan-700">
-          Check preview for your digital wallet passes for gift cards and
+          Check the preview for your digital wallet passes for gift cards and
           loyalty programs.
         </p>
       </div>
-      <div className="min-h-screen">
+      <div className="min-h-screen ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Left Panel - Controls */}
@@ -197,6 +197,32 @@ const WalletPassCustomizer = () => {
             </div>
           </div>
         </div>
+
+        {/*  */}
+        <div className="flex flex-col gap-4 items-center justify-center">
+          <p class="mt-4 text-gray-600">
+            Transform Loyalty, Gift Card, and Payment Experiences into a Single
+            Smart Wallet
+          </p>
+
+          <button
+            type="button"
+            role="button"
+            aria-label="book a demo"
+            className="raise1 mt-4 mx-auto relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
+            onClick={() =>
+              window.Calendly?.initPopupWidget({
+                url: "https://calendly.com/99minds/30min",
+              })
+            }
+          >
+            <span className="w-full h-full bg-black absolute"></span>
+            <span className="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
+              <span className="relative text-white">Book a Demo</span>
+            </span>
+          </button>
+        </div>
+        {/*  */}
       </div>
     </div>
   );
