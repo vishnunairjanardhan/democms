@@ -19,7 +19,7 @@ Who would have in their wildest dreams thought about how calculating data can le
 
 <b>No one. I bet.</b>
 
-<a href="https://onlinemba.montclair.edu/">Because what seemed to be a statistical analysis of data when Billy Beane and his assistant Paul DePodesta innovated sabermetrics</a>, achieved it in 2004, is our next revolution. Creating enough data to solve the toughest problems is in itself all about how we are using Data Science and implementing AI with our systems and day to day situations.
+<a href="https://onlinemba.montclair.edu/">Because what seemed to be a statistical analysis of data when Billy Beane and his assistant Paul DePodesta innovated sabermetrics</a>, achieved it in 2004, is our next revolution. Creating enough data to solve the toughest problems is in itself all about how we are using Data Science and <a href="https://www.99minds.io/blog/ai-for-everyone">implementing AI with our systems</a> and day to day situations.
 
 ## Let’s first understand what Moneyball is and why industries are after this strategy!
 
@@ -59,7 +59,7 @@ Workout? The amount of weight you can lift, the number of different exercises th
 
 Now, when science is behind everything, then why not in predicting and working on making decisions that seem impossible or extremely hazy?
 
-<a href="https://www.99minds.io/blog/ai-helps-to-make-pizza-more-delicious">AI can make or break all your myths and still work hard</a> to perform for you much more than your efforts because, like you, AI can predict the amount of energy you can put in as well.
+<a href="https://www.99minds.io/blog/artificial-intelligence/ai-helps-to-make-pizza-more-delicious/">AI can make or break all your myths and still work hard</a> to perform for you much more than your efforts because, like you, AI can predict the amount of energy you can put in as well.
 
 But if that is the case, why isn’t everyone working behind data and making it their whole sole strategy to win big in the market?
 

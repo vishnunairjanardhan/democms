@@ -12,6 +12,26 @@ tags: ["Referral Program"]
 url: "https://www.99minds.io/blog/referral-program-ideas"
 keywords: ["referral program ideas"]
 ---
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#30-Effective-Referral-Program-Ideas" rel="noreferrer">30 Effective Referral Program Ideas</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Final-Words-on-Referral-Program-Ideas" ref="noreferrer">Final Words on Referral Program Ideas</a>
+  </li>  
+ <li class="hover:bg-gray-100 lg:mt-4">   
+    <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Referral-Program-Ideas" ref="noreferrer">Frequently Ask Questions (FAQs) on Referral Program Ideas</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" src="/assets/blog/referral_program_ideas.webp" alt="30 effective referral program ideas">
 
 <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">Referral programs</a> are a powerful approach to lower customer acquisition costs, increase conversion rates, and improve customer lifetime value. You can use <a href="https://www.99minds.io/blog/word-of-mouth-marketing" role="link" target="_blanck">word-of-mouth marketing</a> to drive long-term growth by encouraging loyal customers to refer their friends and family. However, developing successful referral program ideas is more than just a one-size-fits-all proposition; it necessitates a strategy that is targeted to your target demographic and linked with your overall marketing objectives.
@@ -19,20 +39,6 @@ keywords: ["referral program ideas"]
 Whether it's a <a href="https://www.99minds.io/blog/tiered-loyalty-program" role="link" target="_blanck">tiered program</a>, a give-and-take model, or a referral contest, implementing the right referral program ideas will help you maximize the effectiveness of your <a href="https://www.99minds.io/blog/referral-marketing" role="link" target="_blanck">referral marketing</a> efforts.
 Whether it's a tiered program, a give-and-take model, or a referral contest, implementing the right referral program ideas will help you maximize the effectiveness of your referral marketing efforts.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#30-Effective-Referral-Program-Ideas" rel="noreferrer">30 Effective Referral Program Ideas</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Final-Words-on-Referral-Program-Ideas" ref="noreferrer">Final Words on Referral Program Ideas</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Referral-Program-Ideas" ref="noreferrer">Frequently Ask Questions (FAQs) on Referral Program Ideas</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="30-Effective-Referral-Program-Ideas">30 Effective Referral Program Ideas</h2>
 
@@ -353,3 +359,26 @@ At <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a>, w
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How to run a good referral program?</h3>To run a successful referral program, ensure rewards align with your audience's preferences, simplify the process, promote it effectively, and track performance regularly.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do I create a referral program?</h3>Start by defining clear goals, selecting meaningful incentives, and setting easy-to-follow rules. Use tools like 99minds to streamline setup and management.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

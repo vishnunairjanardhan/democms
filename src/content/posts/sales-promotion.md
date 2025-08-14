@@ -12,6 +12,45 @@ tags: ["Promotion"]
 url: "https://www.99minds.io/blog/sales-promotion"
 keywords: ["sales promotion","what is sales promotion","sales and promotion","sales promotion techniques","advantages of sales promotions","disadvantages of sales promotions","examples of sales promotions","benefits of sales promotion", "sales promotion ideas", "sales promotion marketing"]
 ---
+
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#What-is-a-Sales-Promotion?" rel="noreferrer">What is a Sales Promotion?</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Benefits-of-Sales-Promotion" rel="noreferrer">Benefits of Sales Promotion</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Pros-and-Cons-of-Sales-Promotion" rel="noreferrer">Pros and Cons of Sales Promotion</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Types-of-Sales-Promotion" rel="noreferrer">Types of Sales Promotion</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Sales-Promotion-Strategies" rel="noreferrer">Sales Promotion Strategies</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Sales-Promotion-Ideas" rel="noreferrer">Sales Promotion Ideas</a>
+  </li>                    
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Sales-Promotion-Examples" ref="noreferrer">Sales Promotion Examples</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Final-Words-on-Sale-Promotion" ref="noreferrer">Final Words on Sale Promotion</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Sales-Promotion" ref="noreferrer">Frequently Ask Questions (FAQs) on Sale Promotion</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" src="/assets/blog/sales_promotion_types_strategies_examples.webp" alt="What are sales promotions and their types">
 
 
@@ -19,39 +58,6 @@ Sales promotion have become an essential strategy for businesses looking to attr
 
 By providing incentives and limited-time offers, sales promotion not only drive immediate sales but also increase brand visibility, allowing companies to achieve both their short-term and long-term goals.
 
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#What-is-a-Sales-Promotion?" rel="noreferrer">What is a Sales Promotion?</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Benefits-of-Sales-Promotion" rel="noreferrer">Benefits of Sales Promotion</a>
-  </li>
-  <li>  
-    <a role="link" href="#Pros-and-Cons-of-Sales-Promotion" rel="noreferrer">Pros and Cons of Sales Promotion</a>
-  </li>
-  <li>  
-    <a role="link" href="#Types-of-Sales-Promotion" rel="noreferrer">Types of Sales Promotion</a>
-  </li>
-  <li>  
-    <a role="link" href="#Sales-Promotion-Strategies" rel="noreferrer">Sales Promotion Strategies</a>
-  </li>
-  <li>  
-    <a role="link" href="#Sales-Promotion-Ideas" rel="noreferrer">Sales Promotion Ideas</a>
-  </li>                    
-  <li>  
-    <a role="link" href="#Sales-Promotion-Examples" ref="noreferrer">Sales Promotion Examples</a>
-  </li>
-  <li>  
-    <a role="link" href="#Final-Words-on-Sale-Promotion" ref="noreferrer">Final Words on Sale Promotion</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Sales-Promotion" ref="noreferrer">Frequently Ask Questions (FAQs) on Sale Promotion</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="What-is-a-Sales-Promotion?">What is a Sales Promotion?</h2>
 
@@ -76,8 +82,8 @@ A sales promotion is a limited-time offer or deal designed to prompt immediate b
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -379,3 +385,26 @@ Promotions come in various forms, each offering different types of incentives. F
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is the Most Common Type of Sales Promotion?</h3>The most common type of sales promotion is discounts, such as percentage-off offers or buy-one-get-one-free deals. For instance, a clothing store might offer "50% off all items" during the holiday season, creating urgency and encouraging immediate purchases. Discounts appeal to customers because of their instant value, making them highly effective for driving sales in both online and physical stores.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How to Measure Sales Promotion Effectiveness?</h3>To measure sales promotion effectiveness, track metrics like sales lift, conversion rate, and ROI. For example, if a brand runs a week-long discount and sees a 30% sales increase, that lift can help gauge success. Additionally, monitoring the redemption rate (how many customers used the discount) and repeat purchase rate provides insights into both immediate and long-term impacts, enabling better planning for future promotions.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

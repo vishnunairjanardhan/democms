@@ -13,6 +13,26 @@ url: "https://www.99minds.io/blog/types-of-loyalty-program"
 keywords: ["types of loyalty programs", "types of loyalty program", "different types of loyalty programs", "loyalty program types"]
 
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-is-a-Loyalty-Program?" rel="noreferrer">What is a Loyalty Program?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Different-Types-of-Loyalty-Programs" rel="noreferrer">Different Types of Loyalty Programs</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Conclusion:-Understanding-Different-Types-of-Loyalty-Programs" rel="noreferrer">Conclusion: Understanding Different Types of Loyalty Programs</a>
+  </li>     
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/types-of-Loyalty-Programs.webp" alt="T8 Types of Loyalty Programs with Examples">
 
 Customer loyalty is important for the success of any business. In today's competitive marketplace, retaining loyal customers is just as important as acquiring new ones. One of the most effective strategies for ensuring <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blanck">repeat customers</a> is to implement loyalty programs. By understanding the various types of loyalty programs available, businesses can encourage repeat business, boost customer engagement, and ultimately drive revenue. According to research by <a href="https://cdn2.hubspot.net/hubfs/352767/Loyalty%20Report%202018%20Files/Bond_TheLoyaltyReport%202018%20US_Exec%20Summary.pdf" role="link" target="_blanck">Bond Brand Loyalty</a>, 77% of consumers are more likely to stick with businesses that offer loyalty programs. 
@@ -21,20 +41,6 @@ Over time, various loyalty strategies such as points schemes, tiered programs, a
 
 In this article, we'll explore the different types of loyalty programs, delve into the pros and cons of each with real-world examples, and provide you with a framework to identify the best loyalty program for your business.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul role="list">
-  <li>  
-    <a role="link" href="#What-is-a-Loyalty-Program?" rel="noreferrer">What is a Loyalty Program?</a>
-  </li>
-  <li>  
-    <a role="link" href="#Different-Types-of-Loyalty-Programs" rel="noreferrer">Different Types of Loyalty Programs</a>
-  </li>
-  <li>  
-    <a role="link" href="#Conclusion:-Understanding-Different-Types-of-Loyalty-Programs" rel="noreferrer">Conclusion: Understanding Different Types of Loyalty Programs</a>
-  </li>     
-</ul>
-</div>
 
 <h2 id="What-is-a-Loyalty-Program?">What is a Loyalty Program?</h2>
 
@@ -288,8 +294,8 @@ Example: <a href="https://www.netflix.com/" role="link" target="_blanck">Netflix
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -311,3 +317,24 @@ To simplify the implementation and management of your loyalty program, consider 
 With <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a>, you can tailor a loyalty program that aligns perfectly with your brand and customer expectations, seamlessly integrate it with your existing systems, and utilize data-driven insights to continuously improve the program. Additionally, expert support is available to ensure your loyalty program's success.
 
 Start your journey to enhancing customer loyalty and transforming your customer relationships. 
+
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

@@ -13,49 +13,54 @@ url: "https://www.99minds.io/blog/automotive-loyalty-programs"
 keywords: ["gift card"]
 
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+<!-- Table of content section -->
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+<p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Why-Loyalty-Matters-in-the-Automotive-Industry?" rel="noreferrer">Why Loyalty Matters in the Automotive Industry?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+<a rolw="link" href="#What-are-Automotive-Loyalty-Programs?" rel="noreferrer">What are Automotive Loyalty Programs?</a>
+</li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#The-Business-Benefits-of-Automotive-Loyalty-Programs" rel="noreferrer">The Business Benefits of Automotive Loyalty Programs</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Types-of-Automotive-Loyalty-Programs" rel="noreferrer">Types of Automotive Loyalty Programs</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Strategies-to-Design-a-Successful-Loyalty-Program" rel="noreferrer">Strategies to Design a Successful Loyalty Program</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Examples-of-Effective-Automotive-Loyalty-Programs" rel="noreferrer">Examples of Effective Automotive Loyalty Programs</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Challenges-in-Implementing-Loyalty-Programs-and-How-to-Overcome-Them" rel="noreferrer">Challenges in Implementing Loyalty Programs and How to Overcome Them</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#The-Role-of-Technology-in-Automotive-Loyalty" rel="noreferrer">The Role of Technology in Automotive Loyalty</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Future-Trends-in-Automotive-Loyalty-Programs" rel="noreferrer">Future Trends in Automotive Loyalty Programs</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Automotive-Loyalty-Programs"rel="noreferrer">Frequently-Ask-Questions-(FAQs)-on-Automotive-Loyalty-Programs</a></li>
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/boost-revenue-with-automotive-loyalty-programs.webp"></a>
 
 In today’s ultra-competitive automotive industry, <a href="https://www.99minds.io/blog/channel-loyalty-program" role="link" target="_blank">customer loyalty</a> isn’t just a nice-to-have—it’s a game-changer. With buyers facing endless options, brands that deliver more than just a great vehicle are the ones that stand out. That’s where automotive loyalty programs come into play. From reward points and service discounts to exclusive perks for long-term customers, these programs are designed to keep your buyers returning, not just for their next car, but for every oil change and tire rotation. 
 
 In this blog, we’ll explore why loyalty matters in the automotive world, what programs are most effective, and how forward-thinking dealerships and manufacturers use loyalty to drive growth and customer satisfaction.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#Why-Loyalty-Matters-in-the-Automotive-Industry?" rel="noreferrer">Why Loyalty Matters in the Automotive Industry?</a>
-  </li>
-  <li>
-<a rolw="link" href="#What-are-Automotive-Loyalty-Programs?" rel="noreferrer">What are Automotive Loyalty Programs?</a>
-</li>
-  <li>
-  <a role="link" href="#The-Business-Benefits-of-Automotive-Loyalty-Programs" rel="noreferrer">The Business Benefits of Automotive Loyalty Programs</a>
-  </li>
-  <li>
-  <a role="link" href="#Types-of-Automotive-Loyalty-Programs" rel="noreferrer">Types of Automotive Loyalty Programs</a>
-  </li>
-   <li>
-  <a role="link" href="#Strategies-to-Design-a-Successful-Loyalty-Program" rel="noreferrer">Strategies to Design a Successful Loyalty Program</a>
-  </li>
-   <li>
-  <a role="link" href="#Examples-of-Effective-Automotive-Loyalty-Programs" rel="noreferrer">Examples of Effective Automotive Loyalty Programs</a>
-  </li>
-   <li>
-  <a role="link" href="#Challenges-in-Implementing-Loyalty-Programs-and-How-to-Overcome-Them" rel="noreferrer">Challenges in Implementing Loyalty Programs and How to Overcome Them</a>
-  </li>
-   <li>
-  <a role="link" href="#The-Role-of-Technology-in-Automotive-Loyalty" rel="noreferrer">The Role of Technology in Automotive Loyalty</a>
-  </li>
-<li>
-  <a role="link" href="#Future-Trends-in-Automotive-Loyalty-Programs" rel="noreferrer">Future Trends in Automotive Loyalty Programs</a>
-  </li>
-  <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-<li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Automotive-Loyalty-Programs"rel="noreferrer">Frequently-Ask-Questions-(FAQs)-on-Automotive-Loyalty-Programs</a></li>
-</ul>
-</div>
 
 <h2 id="Why-Loyalty-Matters-in-the-Automotive-Industry?">Why Loyalty Matters in the Automotive Industry?</h2>
 
@@ -383,10 +388,34 @@ That’s where platforms like <a href="https://www.99minds.io" role="link" targe
 <h2 id="Frequently-Ask-Questions-(FAQs)-on-Automotive-Loyalty-Programs">Frequently-Ask-Questions-(FAQs)-on-Automotive-Loyalty-Programs</h2>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What makes a good automotive loyalty program?</h3>
-A good program is simple to use, offers relevant rewards, and integrates with the customer's journey. It should also be backed by data and regularly optimized.</div><br>
+A good program is simple to use, offers relevant rewards, and integrates with the customer's journey. It should also be backed by data and regularly optimized.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Are loyalty programs only for dealerships?</h3>
-Not at all. Manufacturers, service centers, and even parts retailers can all benefit from launching loyalty initiatives.<div><br>
+Not at all. Manufacturers, service centers, and even parts retailers can all benefit from launching loyalty initiatives.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can I measure the ROI of a loyalty program?</h3>
-Track metrics like customer retention rate, average spend per customer, repeat visit frequency, and referral activity. Combine this with qualitative feedback to understand overall impact.</div><br>
+Track metrics like customer retention rate, average spend per customer, repeat visit frequency, and referral activity. Combine this with qualitative feedback to understand overall impact.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Do loyalty programs work for used car dealerships?</h3>
-Yes. In fact, used car buyers often become highly loyal customers when offered valuable service-based rewards and personalized communication.</div><br>
+Yes. In fact, used car buyers often become highly loyal customers when offered valuable service-based rewards and personalized communication.</div>
+
+
+
+ </div>
+ </div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+</div>

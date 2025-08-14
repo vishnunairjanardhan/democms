@@ -1,21 +1,21 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import ContactWidget from "../components/forms/ContactWidget.astro";
-import OldNavbar from "../components/global/OldNavbar.astro";
-import Footer2 from "../components/global/Footer2.astro";
+import Navigation from "../components/global/Navigation.astro";
+import FooterAdd from "../components/global/FooterAdd.astro";
 ---
 
 <html
   lang="en"
   class="scroll-smooth selection:bg-indigo-500 selection:text-white">
   <head> <BaseHead /></head>
-  <body class="bg-vulcan-900">
+  <body>
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWJJGX6"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <OldNavbar />
+    <Navigation />
     <ContactWidget />
     <slot />
-    <Footer2/>
+    <FooterAdd/>
   </body>
 </html>

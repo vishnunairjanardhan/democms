@@ -1,0 +1,39 @@
+---
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
+import PassGenerator from "../components/react/walletPassGenerator/index.jsx"
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<BaseLayout3>
+<AstroSeo
+  title="Free Gift Card Code Generator | 99minds"
+  description="Generate and export personalized gift card codes to use in your marketing promotions and campaigns. If you need an end-to-end promotion management tool, try 99minds."
+  canonical="https://www.99minds.io/giftcard-code-generator"
+  openGraph={{
+    url: "https://www.99minds.io/giftcard-code-generator",
+    title: "Free Gift Card Code Generator | 99minds",
+    description: "Generate and export personalized gift card codes to use in your marketing promotions and campaigns. If you need an end-to-end promotion management tool, try 99minds.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
+        alt: "99minds",
+        type: "image/svg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/giftcard-code-generator",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
+        alt: "99minds",
+        type: "image/svg",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <PassGenerator client:load>
+</BaseLayout3>

@@ -1,0 +1,72 @@
+---
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
+import HeroWallet from "../components/heros/HeroWallet.astro";
+import FeatureCarousal from "../components/features/FeatureCarousal.astro";
+import FeatureTryWallet from "../components/features/FeatureTryWallet.jsx";
+import FeatureWallet1 from "../components/features/FeatureWallet1.astro";
+import FeatureWallet from "../components/features/FeatureWallet.astro";
+import FeatureWalletTwo from "../components/features/FeatureWalletTwo.astro";
+import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
+import FeatureWalletThree from "../components/features/FeatureWalletThree.astro";
+import FeatureWalletFour from "../components/features/FeatureWalletFour.astro";
+import FeatureWalletFive from "../components/features/FeatureWalletFive.astro";
+import FeatureWalletSix from "../components/features/FeatureWalletSix.astro";
+import FeatureWalletSeven from "../components/features/FeatureWalletSeven.astro";
+import FeatureWalletEight from "../components/features/FeatureWalletEight.astro";
+import FeatureTabComp2 from "../components/features/FeatureTabComp2.astro";
+import FeatureTabComp3 from "../components/features/FeatureTabComp3.astro";
+import NewLogoCloud from "../components/testimonials/NewLogoCloud.jsx";
+import TestimonialWallet from "../components/testimonials/TestimonialWallet.astro";
+import CtaThreeU from "../components/ctas/CtaThreeU.astro";
+import WalletTab from "../components/features/WalletTab.astro";
+import { Seo } from "../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+import WalletSlider from "../components/features/WalletSlider.astro";
+
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+
+<BaseLayout3>
+<AstroSeo
+  title="All in one Digital Wallet for Loyalty and Gift cards | 99minds"
+  description="Boost customer engagement with digital passes, interactive gift cards, loyalty rewards, and coupons for Apple Wallet and Google Pay"
+  canonical="https://www.99minds.io/wallet"
+  openGraph={{
+    url: "https://www.99minds.io/wallet",
+    title: "All in one Digital Wallet for Loyalty and Gift cards | 99minds",
+    description: "Boost customer engagement with digital passes, interactive gift cards, loyalty rewards, and coupons for Apple Wallet and Google Pay",
+   images: [
+      {
+        url: "https://www.99minds.io/assets/wallet/wallet_banner.webp ",
+        alt: "99minds Wallet Pass",
+        type: "image/png",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/wallet",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/wallet/wallet_banner.webp",
+        alt: "99minds Wallet Pass",
+        type: "image/png",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<HeroWallet/>
+<ClientLogoScroller/>
+<WalletSlider/>
+<FeatureTabComp3/>
+<FeatureWalletFour/> 
+<TestimonialWallet />
+<FeatureWalletEight />
+<CtaThreeU />
+</BaseLayout3>

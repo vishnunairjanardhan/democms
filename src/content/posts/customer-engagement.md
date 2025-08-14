@@ -9,10 +9,43 @@ image:
   url: "/assets/blog/Customer_Engagement_Definition_Examples.webp"
   alt: "Customer engagement"
 tags: ["Customer Engagement"]
-url: "https://www.99minds.io/blog/customer-engagement"
+url: "https://www.99minds.io/blog/gamification-loyalty-programs"
 keywords: ["Customer engagement"]
 ---
 
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-is-Customer-Engagement?" rel="noreferrer">What is Customer Engagement?</a>
+  </li> 
+ <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Why-is-Customer-Engagement-important?" rel="noreferrer">Why is Customer Engagement important?</a>
+  </li>
+    <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Marketing-Funnel-and-Customer-Engagement" rel="noreferrer">Marketing Funnel and Customer Engagement</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Customer-Engagement-Strategy" ref="noreferrer">Customer Engagement Strategy</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Examples-of-Customer-Engagement" ref="noreferrer">Examples of Customer Engagement</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Conclusion-on-Customer-Engagement" ref="noreferrer">Conclusion on Customer Engagement</a>
+  </li>
+  
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Customer-Engagement
+" ref="noreferrer">Frequently Asked Questions (FAQs) on Customer Engagement
+</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/Customer_Engagement_Definition_Examples.webp" alt="Gamification loyalty programs.">
 
 Customer engagement has significantly evolved in recent years as businesses prioritize innovative methods to attract and <a href="https://www.99minds.io/blog/customer-retention">retain loyal customers</a>. While offering a high-quality product or service once sufficed, the landscape has shifted dramatically. <a href="https://www.redpointglobal.com/press-releases/74-percent-of-consumers-believe-brand-loyalty-is-about-feeling-understood-and-valued-not-discounts-and-loyalty-perks/">According to Redpoint</a>, studies reveal that 74% of consumers are more likely to make a purchase based on how a brand interacts with them.
@@ -20,36 +53,6 @@ Customer engagement has significantly evolved in recent years as businesses prio
 With advanced data and analytical tools, customer engagement has emerged as one of the most critical factors influencing purchasing decisions. It’s now a central topic in business strategies and discussions. Despite its growing importance, the concept often remains abstract and misunderstood by many organizations.
 
 In this article, we’ll break down what customer engagement truly entails, highlight its benefits, and provide actionable strategies to help businesses foster stronger relationships and drive success in today’s competitive market.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#What-is-Customer-Engagement?" rel="noreferrer">What is Customer Engagement?</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Why-is-Customer-Engagement-important?" rel="noreferrer">Why is Customer Engagement important?</a>
-  </li>
-    <li>  
-    <a role="link" href="#Marketing-Funnel-and-Customer-Engagement" rel="noreferrer">Marketing Funnel and Customer Engagement</a>
-  </li>
-  <li>  
-    <a role="link" href="#Customer-Engagement-Strategy" ref="noreferrer">Customer Engagement Strategy</a>
-  </li>
-   <li>  
-    <a role="link" href="#Examples-of-Customer-Engagement" ref="noreferrer">Examples of Customer Engagement</a>
-  </li>
-  <li>  
-    <a role="link" href="#Conclusion-on-Customer-Engagement" ref="noreferrer">Conclusion on Customer Engagement</a>
-  </li>
-  
-  <li>  
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Customer-Engagement
-" ref="noreferrer">Frequently Asked Questions (FAQs) on Customer Engagement
-</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="What-is-Customer-Engagement?">What is Customer Engagement?</h2>
 
@@ -73,8 +76,8 @@ Essentially, customer engagement is about the depth and relevance of the bond be
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -135,8 +138,8 @@ To maximize customer engagement, it's important to continually measure and optim
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -188,3 +191,25 @@ Customer engagement helps improve customer satisfaction, increase brand loyalty,
 Improving customer engagement can be achieved by offering personalized experiences, creating interactive content, using loyalty programs, and ensuring timely and relevant communication through multiple channels.
 </div>
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

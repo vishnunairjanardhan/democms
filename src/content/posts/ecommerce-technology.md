@@ -13,30 +13,34 @@ url: "https://www.99minds.io/blog/ecommerce-technology"
 keywords: ["technology in ecommerce", "technology of e commerce", "technology for ecommerce", "technology for e commerce","ecommerce technologies"]
 
 ---
-<img src="/assets/blog/25-Emerging-Trends-in-Technology-in-eCommerce-for-2024.webp">
 
-<p>In today's fast-paced digital world, keeping competitive in ecommerce requires more than simply a strong online store. It necessitates using cutting-edge technology in eCommerce to stimulate innovation and improve the buying experience. As we approach 2024, several cutting-edge technology in eCommerce are poised to transform how organizations function and connect with their customers. From powerful artificial intelligence (AI) to immersive augmented reality (AR), these technologies open up new possibilities for growth, efficiency, and client engagement. In this article, we will look at 25 major technologies in eCommerce driving online retail's future and how you can incorporate them into your plan to remain competitive and fulfill your customers' changing requirements.</p>
 
-<!-- Adding space -->
-<br>
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
   <a role="link" href="#What-is-eCommerce-Technology?" rel="noreferrer">What is eCommerce Technology?</a>
   </li>
-<li>
+<li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#25-Cutting-Edge-eCommerce-Technologies-for-2024" rel="noreferrer">25 Cutting-Edge eCommerce Technologies for 2024</a>
   </li>
-  <li>
+ <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
   </li>
-<li>
+<li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
   </li>
 </ul>
 </div>
+
+<div class="w-full">
+<img src="/assets/blog/25-Emerging-Trends-in-Technology-in-eCommerce-for-2024.webp">
+
+<p>In today's fast-paced digital world, keeping competitive in ecommerce requires more than simply a strong online store. It necessitates using cutting-edge technology in eCommerce to stimulate innovation and improve the buying experience. As we approach 2024, several cutting-edge technology in eCommerce are poised to transform how organizations function and connect with their customers. From powerful artificial intelligence (AI) to immersive augmented reality (AR), these technologies open up new possibilities for growth, efficiency, and client engagement. In this article, we will look at 25 major technologies in eCommerce driving online retail's future and how you can incorporate them into your plan to remain competitive and fulfill your customers' changing requirements.</p>
+
 
 <h2 id="What-is-eCommerce-Technology?">What is eCommerce Technology?</h2>
 
@@ -64,8 +68,8 @@ For instance, <a href="https://www.99minds.io/" role="link" target="_blank">99mi
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -567,6 +571,29 @@ Ecommerce technologies refer to the tools, software, and systems that enable bus
 AI in ecommerce provides personalized shopping experiences by analyzing customer behavior and preferences. It helps in automating processes, predicting customer needs, improving inventory management, and increasing overall efficiency.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> What is the role of AR/VR in online shopping?</h3>
 AR/VR technologies offer immersive shopping experiences, allowing customers to visualize products in real-world settings, try on virtual items, or explore virtual stores. These technologies help reduce returns and increase customer satisfaction.</div><br>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>
 </body>
 </html>
 

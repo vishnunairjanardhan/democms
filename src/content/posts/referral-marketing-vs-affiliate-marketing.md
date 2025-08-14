@@ -13,44 +13,50 @@ url: "https://www.99minds.io/blog/referral-marketing-vs-affiliate-marketing"
 keywords: ["referral vs affiliate marketing", "affiliate marketing vs referral marketing","referral vs affiliate marketing","referral program vs affiliate program","affiliate program vs referral program"]
 
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-is-Referral-Marketing?" rel="noreferrer">What is Referral Marketing?</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-is-Affiliate-Marketing?" rel="noreferrer">What is Affiliate Marketing?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Key-Differences-Between-Referral-and-Affiliate-Marketing" rel="noreferrer">Key Differences Between Referral and Affiliate Marketing</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#When-to-Use-Referral-Marketing-for-Business-Growth?" rel="noreferrer">When to Use Referral Marketing for Business Growth?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#When-to-Use-Affiliate-Marketing-for-Business-Growth?" rel="noreferrer">When to Use Affiliate Marketing for Business Growth?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Key-Benefits-of-Referral-and-Affiliate-Marketing" rel="noreferrer">Key Benefits of Referral and Affiliate Marketing</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Cost-and-ROI:-Which-is-More-Profitable?" rel="noreferrer">Cost and ROI: Which is More Profitable?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
+  </li>
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/referral-marketing-vs-affiliate-marketing-key-differences-and-benefits.webp"></a>
 
 In the fast-paced world of digital marketing, businesses are continuously looking for ways to broaden their reach and increase their consumer base. Two of the most popular growth techniques are referral vs affiliate marketing. While both attempt to attract new customers and grow sales, their techniques and efficacy vary greatly. Understanding the differences between referral vs affiliate marketing is critical for any business, particularly e-commerce merchants and business owners looking to grow their online presence.<br>
 
 This blog will go over both tactics in detail, explain their differences, and help you decide which one is best for expanding your internet business.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-is-Referral-Marketing?" rel="noreferrer">What is Referral Marketing?</a>
-  </li>
-<li>
-  <a role="link" href="#What-is-Affiliate-Marketing?" rel="noreferrer">What is Affiliate Marketing?</a>
-  </li>
-  <li>
-  <a role="link" href="#Key-Differences-Between-Referral-and-Affiliate-Marketing" rel="noreferrer">Key Differences Between Referral and Affiliate Marketing</a>
-  </li>
-  <li>
-  <a role="link" href="#When-to-Use-Referral-Marketing-for-Business-Growth?" rel="noreferrer">When to Use Referral Marketing for Business Growth?</a>
-  </li>
-  <li>
-  <a role="link" href="#When-to-Use-Affiliate-Marketing-for-Business-Growth?" rel="noreferrer">When to Use Affiliate Marketing for Business Growth?</a>
-  </li>
-  <li>
-  <a role="link" href="#Key-Benefits-of-Referral-and-Affiliate-Marketing" rel="noreferrer">Key Benefits of Referral and Affiliate Marketing</a>
-  </li>
-  <li>
-  <a role="link" href="#Cost-and-ROI:-Which-is-More-Profitable?" rel="noreferrer">Cost and ROI: Which is More Profitable?</a>
-  </li>
-  <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-<li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
-  </li>
-</ul>
-</div>
 
 <h2 id="What-is-Referral-Marketing?" rel="noreferrer">What is Referral Marketing?</h2>
 
@@ -72,7 +78,7 @@ In referral marketing, the reward you provide might vary, but it must be meaning
 
 <h3>Cost of Referral Marketing</h3>
 
-Referral programs have a higher return on investment (ROI) as user engagement increases and new customers join the network of delighted customers. Because your existing customers are driving conversions, you may cut sales and marketing costs both short and long term.
+<a href="https://www.99minds.io/blog/what-is-referral-program" role="link" target="_blank">Referral programs</a> have a higher return on investment (ROI) as user engagement increases and new customers join the network of delighted customers. Because your existing customers are driving conversions, you may cut sales and marketing costs both short and long term.
 
 However, poor customer service might result in increased costs in a referral marketing scheme. Creating pleased and loyal consumers is critical, especially when conducting a referral campaign. Make sure you address any flaws and enhance areas where customers may not be completely satisfied with their experience.
 
@@ -175,8 +181,8 @@ Understanding the referral program vs affiliate program differences helps busine
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -294,7 +300,28 @@ Referral marketing success is measured through metrics like the number of referr
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What types of businesses benefit most from referral marketing?</h3>
 Businesses with a strong, loyal customer base—such as SaaS companies, subscription services, and e-commerce brands—tend to benefit most from referral marketing.</div><br>
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
 
+
+
+</div>
 
 
 

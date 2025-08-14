@@ -13,6 +13,41 @@ url: "https://www.99minds.io/blog/retention-marketing"
 keywords: ["retention marketing"]
 ---
 
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+<p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#1" rel="noreferrer">What is Retention marketing?</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#2" rel="noreferrer">Benefits of Retention Marketing</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#3" rel="noreferrer">Retention Marketing Strategies</a>
+  </li>    
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#4" rel="noreferrer">Retention Marketing Tools</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#5" rel="noreferrer">How to Measure the Retention Marketing</a>
+  </li>   
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#6" rel="noreferrer">Customer Retention Marketing Vs. Customer Acquisition</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Conclusion" ref="noreferrer">Conclusion</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" role="link" href="#FAQs" ref="noreferrer">Frequently Ask Questions (FAQs) on Retention Marketing</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" src="/assets/blog/retention_marketing.webp" alt="retention marketing blog banner image">
 
 Retention marketing is an essential part of a successful business strategy. It helps keep customers engaged, rebuild relationships with past buyers, and encourage repeat purchases from loyal customers.
@@ -23,43 +58,11 @@ According to <a href="https://cdn2.hubspot.net/hubfs/2771217/Content/2018%20Cust
 
 By creating strong retention marketing strategies, businesses can improve customer satisfaction, build long-term relationships, and maintain steady revenue growth.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#1" rel="noreferrer">What is Retention marketing?</a>
-  </li> 
-  <li>
-    <a role="link" href="#2" rel="noreferrer">Benefits of Retention Marketing</a>
-  </li>
-  <li>
-    <a role="link" href="#3" rel="noreferrer">Retention Marketing Strategies</a>
-  </li>    
-  <li>
-    <a role="link" href="#4" rel="noreferrer">Retention Marketing Tools</a>
-  </li> 
-  <li>
-    <a role="link" href="#5" rel="noreferrer">How to Measure the Retention Marketing</a>
-  </li>   
-  <li>
-    <a role="link" href="#6" rel="noreferrer">Customer Retention Marketing Vs. Customer Acquisition</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Conclusion" ref="noreferrer">Conclusion</a>
-  </li>
-  <li>  
-    <a role="link" role="link" href="#FAQs" ref="noreferrer">Frequently Ask Questions (FAQs) on Retention Marketing</a>
-  </li>  
-</ul>
-</div>
-
 <h2 id="1">What is Retention marketing?</h2>
 
 Retention marketing is all about repeatedly keeping customers coming back and making repeat purchases from your business. Instead of continuously spending on acquiring new customers, businesses can increase profitability by strengthening their relationships with those they already have. Such approaches include personalized messaging, loyalty programs, business and leisure customer service, and targeted engagement methods that improve the overall customer experience.
 
 Retention strategies focus on retaining existing customers rather than acquiring new ones. According to <a href="https://www.forbes.com/councils/forbesbusinesscouncil/2022/12/12/customer-retention-versus-customer-acquisition/" role="link" target="_blanck">Forbes</a>, research shows that getting a new customer might cost five times to seven times more than retaining an existing one. <a href="https://www.99minds.io/blog/customer-retention" role="link" target="_blanck">Customer retention</a> helps businesses build brand loyalty, increase lifetime value, and provide sustainable revenue streams.
-
-<a href="https://www.99minds.io/loyalty" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/CTA-LP1.webp" alt="boost customer retention with our loyalty platform"></a>
 
 <h2 id="2">Benefits of Retention Marketing</h2>
 
@@ -131,7 +134,7 @@ Additionally, incentivizing customers to refer friends by offering extra rewards
 
 Personalizing the shopping experience for each customer leads to stronger connections, higher retention rates, and more sales. Use data analytics to understand what customers like, their needs and preferences, and their behavior. 
 
-By utilizing this knowledge, provide personalized recommendations, customized promotions, relevant offers, and content that matches customer interests. By offering a unique homepage, tailored product suggestions, or custom messages, you show customers that you value them as individuals.
+By utlilizing this knowledge, provide personalized recommendations, customized promotions, relevant offers, and content that matches customer interests. By offering a unique homepage, tailored product suggestions, or custom messages, you show customers that you value them as individuals.
 </li>
 
 <li>
@@ -158,8 +161,6 @@ Additionally, post exclusive deals, birthday discounts, and limited-time offers 
 Using digital coupons in your email and social media, marketing makes it easy for customers to access them. Ensure these coupons are simple to use, improving the overall shopping experience. You can also create unique coupon codes for loyal customers to encourage them to shop again and show that you value their continued business.
 </li>
 </ol>
-
-<a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo CTA image for b2b ecommerce trends"></a>
 
 <h2 id="4">Retention Marketing Tools</h2>
 
@@ -259,40 +260,7 @@ Hotjar is a popular tool used by famous brands such as Decathlon, HubSpot, Airbn
 - <b>Analytics & Reporting</b>: Gain insights into customer behavior and campaign performance.
 </ol>
 
-<!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
-
-<div class="flex flex-wrap items-center gap-2">
-              <div x-data="{ open: false }" class="w-full">
-              <!-- Trigger -->
-              <span x-on:click="open = true" class="w-full">
-                 <div class="w-full ">
-                <span class="w-full "></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
-                </span></div>
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly">
-                      </iframe>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> 
-
-<h2 class="m-0 mb-4" id="5">How to Measure the Retention Marketing</h2>
+<h2 id="5">How to Measure the Retention Marketing</h2>
 
 Retention marketing focuses on turning one-time buyers into loyal customers. It’s about building a relationship that encourages customers to return. Here are five important metrics to measure how well it works:
 <ol>
@@ -301,9 +269,7 @@ Retention marketing focuses on turning one-time buyers into loyal customers. It�
 
 Customer Retention Rate (CRR) is an important metric indicating the proportion of customers who still interact with your brand during a particular period. To calculate CRR, you can use the formula:
 
-<b>
-<em>Customer Retention Rate (CRR)= (Total customers at the end of the period) - (Total customers at the end of the period) / (Customers at the beginning of the period) x 100</em>
-</b>
+Customer Retention Rate (CRR)= Total customers at the end of the period - Total customers at the end of the period / Customers at the beginning of the period x 100
 
 A high customer retention rate indicates the effectiveness of your retention efforts, and a low rate means it might be time to improve your customer engagement strategies.
 </li>
@@ -313,9 +279,7 @@ A high customer retention rate indicates the effectiveness of your retention e
 
 This metric measures the number of times your customers return to your brand to make repeat purchases. To calculate the Repeat Purchase Rate, the formula is:
 
-<b>
-<em>Repeat Purchase Rate(RPR)= (Repeat Customers) ​/ (Repeat Customers​)</em> 
-</b>
+Repeat Purchase Rate(RPR)= Repeat Customers ​/ Repeat Customers​ 
 
 A high Repeat Purchase Rate shows that your customers find value in what you offer and will return for more.
 </li>
@@ -325,9 +289,7 @@ A high Repeat Purchase Rate shows that your customers find value in what you o
 
 Customer Lifetime Value (CLV) measures how much money a customer is likely to bring to your business over their entire relationship with you. This metric is crucial for understanding how much you can spend on attracting new customers while still making a profit. The formula can be simplified as follows:
 
-<b>
-<em>Customer Lifetime Value (CLV)= (Average Purchase Value) × (Purchase Frequency) × (Customer Lifespan)</em> 
-</b>
+Customer Lifetime Value (CLV)= Average Purchase Value × Purchase Frequency × Customer Lifespan 
 
 A high CLV means that you are getting a good return from your customers, and this indicates successful retention.
 </li>
@@ -337,9 +299,7 @@ A high CLV means that you are getting a good return from your customers, and t
 
 The Churn Rate provides insight into the number of customers discontinuing usage of your business within a given period. To calculate this, you can use:
 
-<b>
-<em>Churn Rate= (Lost Customers)  / (Total Customers at Start of Period) x 100</em>
-</b>
+Churn Rate= Lost Customers  / Total Customers at Start of Period x 100
 
 A lower churn rate is preferred, as it indicates that your business retains more customers. Monitoring this metric helps identify potential issues and areas for improvement.
 </li>
@@ -349,9 +309,7 @@ A lower churn rate is preferred, as it indicates that your business retains more
 
 The NPS indicates customer satisfaction and loyalty, which calculates how likely your customers are to recommend your brand to others on a scale of 0-10. Depending on how they respond, customers are classified into promoters, passives, or detractors. The NPS is calculated with the formula:
 
-<b>
-<em>Net Promoter Score (NPS)= (%Promoters−%Detractors)</em>
-</b>
+Net Promoter Score (NPS)= %Promoters−%Detractors
 
 A high NPS indicates high levels of customer loyalty and satisfaction, and a low score may indicate dissatisfaction and the need to take corrective action.
 </li>
@@ -424,3 +382,26 @@ Using these strategies helps you build strong customer relationships and turn on
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can small businesses benefit from retention marketing?</h3>Absolutely! Retention marketing is beneficial for businesses of all sizes. Small businesses can leverage cost-effective strategies like email marketing and personalized customer experiences to build long-term relationships and grow their revenue.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the retention marketing channels?</h3>Retention marketing channels include email marketing, SMS marketing, social media engagement, loyalty programs, referral programs, personalized customer service, and in-app messaging. These channels help businesses maintain strong relationships with their customers and encourage repeat purchases.</div> 
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

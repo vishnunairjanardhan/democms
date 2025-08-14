@@ -14,16 +14,13 @@ keywords: ["99minds"]
 
 --- 
 
-<img rel="preload" role="img" src="/assets/blog/18_father_s_day_promotions_ideas_to_win_over_customers.webp" alt="banner image of Father's Day Promotions blog">
-
-Father's Day is big business. According to the <a href="https://nrf.com/research-insights/holiday-data-and-trends/fathers-day" role="link" target="_blanck">National Retail Federation</a>, in 2024 alone, consumers in the U.S. spent over $22.9 billion on Father's Day gifts and experiences. With shoppers looking to celebrate the dads, grandpas, and father figures in their lives, now is the perfect time for retail and eCommerce brands to launch irresistible Father's Day promotions.
-
-But standing out takes more than slapping a "Happy Father's Day" banner on your homepage. You need thoughtful, engaging, and creative ideas to make your campaign memorable and profitable.
 
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
   <li>
   <a role="link" href="#1" rel="noreferrer">18 Creative Father's Day Promotions and Marketing Ideas</a>
   </li>
@@ -35,6 +32,13 @@ But standing out takes more than slapping a "Happy Father's Day" banner on your 
   </li>   
   </ul>
  </div> 
+
+<div class="w-full">
+ <img rel="preload" role="img" src="/assets/blog/18_father_s_day_promotions_ideas_to_win_over_customers.webp" alt="banner image of Father's Day Promotions blog">
+
+Father's Day is big business. According to the <a href="https://nrf.com/research-insights/holiday-data-and-trends/fathers-day" role="link" target="_blanck">National Retail Federation</a>, in 2024 alone, consumers in the U.S. spent over $22.9 billion on Father's Day gifts and experiences. With shoppers looking to celebrate the dads, grandpas, and father figures in their lives, now is the perfect time for retail and eCommerce brands to launch irresistible Father's Day promotions.
+
+But standing out takes more than slapping a "Happy Father's Day" banner on your homepage. You need thoughtful, engaging, and creative ideas to make your campaign memorable and profitable.
 
 <h2 id="1">18 Creative Father's Day Promotions and Marketing Ideas</h2>
 
@@ -213,3 +217,26 @@ At <a href="http://99minds.io/" role="link" target="_blanck">99minds</a>, we bel
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the best Father’s Day promotion ideas for eCommerce?</h3>The most effective Father’s Day promotion ideas include curated gift guides, personalized products, flash sales, and digital gift cards. You can also engage your audience through email and SMS campaigns, bundling offers, and influencer collaborations to maximize impact and conversions.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>When should I start promoting for Father’s Day?</h3>Begin your Father's Day marketing campaign at least 3 to 4 weeks in advance. This timing allows you to reach early-bird shoppers while giving your campaign enough runway to build engagement and momentum as the day approaches.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Are digital gift cards effective for Father’s Day?</h3>Absolutely. Digital gift cards are ideal for last-minute shoppers and can increase average order value while offering flexibility to the recipient.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

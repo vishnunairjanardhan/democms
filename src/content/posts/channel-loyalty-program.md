@@ -13,15 +13,9 @@ url: "https://www.99minds.io/blog/channel-loyalty-program"
 keywords: ["discount code ideas"]
 
 --- 
-<img src="/assets/blog/channel-loyalty-programs-boost-b2b-sales-strengthen-partner-relationships.webp"></a>
 
-In B2B commerce, nurturing channel partners like distributors, resellers, agents, and affiliates is no longer just about providing significant margins or discounts. Today, channel <a href="https://www.99minds.io/loyalty" role="link" target="_blank">loyalty programs</a> are one of the most effective tools businesses can use to build stronger, longer-lasting relationships with their partners while also significantly boosting sales and brand advocacy.
-
-But what exactly is a channel loyalty program, and why is it becoming essential in the <a href="https://www.99minds.io/blog/ecommerce-evolution" role="link" target="_blank">e-commerce evolution</a> we’re witnessing today? Let's jump into channel devotion programs' methodologies, benefits, sorts, and illustrations that can genuinely lift your B2B diversion.
-
-<img src="/assets/blog/b2b-sales-&-strength-partner-relationship.png" alt="b2b sales & strength partner relationship">
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
+<div class="lg:flex lg:gap-6">
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
 <p>Table of Contents:</p>
 <ul role="list">
   <li>
@@ -56,6 +50,15 @@ But what exactly is a channel loyalty program, and why is it becoming essential 
   </li>
 </ul>
 </div>
+<div class="w-full">
+<img src="/assets/blog/channel-loyalty-programs-boost-b2b-sales-strengthen-partner-relationships.webp"></a>
+
+In B2B commerce, nurturing channel partners like distributors, resellers, agents, and affiliates is no longer just about providing significant margins or discounts. Today, channel <a href="https://www.99minds.io/loyalty" role="link" target="_blank">loyalty programs</a> are one of the most effective tools businesses can use to build stronger, longer-lasting relationships with their partners while also significantly boosting sales and brand advocacy.
+
+But what exactly is a channel loyalty program, and why is it becoming essential in the <a href="https://www.99minds.io/blog/ecommerce-evolution" role="link" target="_blank">e-commerce evolution</a> we’re witnessing today? Let's jump into channel devotion programs' methodologies, benefits, sorts, and illustrations that can genuinely lift your B2B diversion.
+
+<img src="/assets/blog/b2b-sales-&-strength-partner-relationship.png" alt="b2b sales & strength partner relationship">
+
 
 <h2 id="What-is-a-Channel-Loyalty-Program?">What is a Channel Loyalty Program?</h2>
 
@@ -708,3 +711,20 @@ Track metrics like partner sales growth, program participation rate, average dea
 Financial bonuses, co-marketing funds, exclusive leads, product training, and event invitations.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can small businesses benefit from channel loyalty programs?</h3>
 Absolutely! Even small or mid-size businesses can use simple platforms to reward and retain their top-performing partners.</div><br>
+</div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>

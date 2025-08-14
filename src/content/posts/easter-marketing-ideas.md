@@ -13,19 +13,9 @@ url: "https://www.99minds.io/blog/easter-marketing-ideas"
 keywords: ["Easter Marketing Ideas"]
 
 --- 
-
-<img rel="preload" role="img" src="/assets/blog/easter_marketing_ideas.webp" alt="Blog banner image of Easter marketing ideas">
-
-Easter represents the triumph of life over death, a celebration of new beginnings, joy, and hope.
-
-In the business world, Easter can also represent a rebirth. Some brands are already thriving. Others are struggling and need a fresh push. Sometimes, it all comes down to visibility. With the right marketing strategy, a brand can rise from obscurity and find new life by connecting with its audience.
-
-Last year, According to the <a href="https://nrf.com/media-center/press-releases/2024-easter-spending-expected-top-22-billion" role="link" target="_blanck">National Retail Federation</a>, Americans spent an estimated $22 billion on Easter Sunday. That makes Easter a golden opportunity to promote your business, drive traffic, and <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">build brand loyalty</a>.
-
-Let’s explore 20 creative Easter marketing ideas that can attract shoppers, boost engagement, and drive sales in 2025.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
+<div class="lg:flex lg:gap-6">
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+<p>Table of Contents:</p>
 <ul>
   <li>  
     <a role="link" href="#1" rel="noreferrer">20 Creative Easter Marketing Ideas</a>
@@ -38,7 +28,16 @@ Let’s explore 20 creative Easter marketing ideas that can attract shoppers, bo
   </li>
 </ul>
 </div>
+<div class="w-full">
+<img rel="preload" role="img" src="/assets/blog/easter_marketing_ideas.webp" alt="Blog banner image of Easter marketing ideas">
 
+Easter represents the triumph of life over death, a celebration of new beginnings, joy, and hope.
+
+In the business world, Easter can also represent a rebirth. Some brands are already thriving. Others are struggling and need a fresh push. Sometimes, it all comes down to visibility. With the right marketing strategy, a brand can rise from obscurity and find new life by connecting with its audience.
+
+Last year, According to the <a href="https://nrf.com/media-center/press-releases/2024-easter-spending-expected-top-22-billion" role="link" target="_blanck">National Retail Federation</a>, Americans spent an estimated $22 billion on Easter Sunday. That makes Easter a golden opportunity to promote your business, drive traffic, and <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">build brand loyalty</a>.
+
+Let’s explore 20 creative Easter marketing ideas that can attract shoppers, boost engagement, and drive sales in 2025.
 <h2 id="1">20 Creative Easter Marketing Ideas</h2>
 
 Here are 20 creative Easter marketing ideas to boost engagement and sales and help you make the most of the season.
@@ -241,3 +240,21 @@ To make this process easier, platforms like <a href="https://www.99minds.io/" ro
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>When should I start planning my Easter marketing ideas?</h3>The best time to roll out your Easter marketing ideas is at least 3–4 weeks before the holiday. This gives your campaign time to build momentum and reach early shoppers.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Are email campaigns effective Easter marketing ideas?</h3>Definitely! Email is one of the top-performing Easter marketing ideas. Personalized Easter emails with catchy subject lines and special offers can increase open rates and conversions.</div>
+ </div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+</div>

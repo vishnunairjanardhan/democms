@@ -14,6 +14,38 @@ url: "https://www.99minds.io/blog/kpis-for-loyalty-programs"
 keywords: ["Christmas marketing ideas", "marketing ideas Christmas", "marketing ideas for Christmas", "Christmas advertising  ideas"]
 
 ---
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#What-Are-Loyalty-Program-KPIs?" rel="noreferrer">What Are Loyalty Program KPIs?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Why-KPIs-Are-Crucial-for-Loyalty-Program-Success" rel="noreferrer">Why KPIs Are Crucial for Loyalty Program Success</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Top-10-KPIs-for-Loyalty-Programs" rel="noreferrer">Top 10 KPIs for Loyalty Programs</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#How-to-Track-and-Measure-KPIs-for-Loyalty-Programs" rel="noreferrer">How to Track and Measure KPIs for Loyalty Programs</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Practical-Strategies-to-Improve-KPIs" rel="noreferrer">Practical Strategies to Improve KPIs</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
+  </li>
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/10-essential-kpis-for-loyalty-programs-in-2025-to-boost-retention.webp">
 
 By 2025, companies will prioritize and amplify  <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blank">customer loyalty</a> and retention programs. Besides the apparent uniqueness in every market, it is up to companies to keep their customers so that they can become more than one-time customers. Customer loyalty programs are a perfect way to establish solid customer connections, yet how can you discover whether your program is causing the expected results?
@@ -21,33 +53,6 @@ By 2025, companies will prioritize and amplify  <a href="https://www.99minds.io/
 The essential part of this problem is to use performance measuring through Key Performance Indicators (KPIs). KPIs for <a href="https://www.99minds.io/loyalty" role="link" target="_blank">loyalty programs</a> provide precise insights into whether your program is operating at the expected level and also guide you on areas needing improvement. 
 
 In this blog post, we will explore 10 fundamental KPIs that can help you manage and improve your loyalty program, increasing your customer retention and the overall lifetime value of your customers.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-Are-Loyalty-Program-KPIs?" rel="noreferrer">What Are Loyalty Program KPIs?</a>
-  </li>
-  <li>
-  <a role="link" href="#Why-KPIs-Are-Crucial-for-Loyalty-Program-Success" rel="noreferrer">Why KPIs Are Crucial for Loyalty Program Success</a>
-  </li>
-   <li>
-  <a role="link" href="#Top-10-KPIs-for-Loyalty-Programs" rel="noreferrer">Top 10 KPIs for Loyalty Programs</a>
-  </li>
-   <li>
-  <a role="link" href="#How-to-Track-and-Measure-KPIs-for-Loyalty-Programs" rel="noreferrer">How to Track and Measure KPIs for Loyalty Programs</a>
-  </li>
-  <li>
-  <a role="link" href="#Practical-Strategies-to-Improve-KPIs" rel="noreferrer">Practical Strategies to Improve KPIs</a>
-  </li>
-   <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-<li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
-  </li>
-</ul>
-</div>
 
 <h2 id=" What-Are-Loyalty-Program-KPIs?"> What Are Loyalty Program KPIs?</h2>
 
@@ -488,7 +493,7 @@ How to Optimize Loyalty Programs Using Data
                  <div class="w-full ">
                 <span class="w-full "></span>
                 <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
+                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Create your own referral campaign"></span>
                 </span></div>
               </span>
               <!-- Modal -->
@@ -497,8 +502,8 @@ How to Optimize Loyalty Programs Using Data
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto  shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-4 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -525,5 +530,28 @@ While KPIs provide valuable insights, they should be considered part of a broade
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do I know if my rewards are attractive enough?</h3>
 High Reward Redemption Rates and Customer Engagement Rates indicate that your rewards appeal to customers.
 </div><br>
+
+  </div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>
 </body>
 </html>

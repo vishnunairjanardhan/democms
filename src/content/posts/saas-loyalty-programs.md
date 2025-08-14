@@ -13,44 +13,48 @@ url: "https://www.99minds.io/blog/saas-loyalty-programs"
 keywords: ["gift card"]
 
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-is-a-SaaS-Loyalty-Program?" rel="noreferrer">What is a SaaS Loyalty Program?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+<a rolw="link" href="#Benefits-of-Loyalty-Programs-for-SaaS-Businesses" rel="noreferrer">Benefits of Loyalty Programs for SaaS Businesses</a>
+</li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Types-of-SaaS-Loyalty-Programs-That-Actually-Work" rel="noreferrer">Types of SaaS Loyalty Programs That Actually Work</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Real-Examples-of-SaaS-Loyalty-Programs-in-Action" rel="noreferrer">Real Examples of SaaS Loyalty Programs in Action</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#How-to-Build-a-SaaS-Loyalty-Program-from-Scratch?" rel="noreferrer">How to Build a SaaS Loyalty Program from Scratch?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Top-KPIs-to-Measure-the-Success-of-Your-Loyalty-Program" rel="noreferrer">Top KPIs to Measure the Success of Your Loyalty Program</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#How-99minds-Supports-Scalable-SaaS-Loyalty-Programs?" rel="noreferrer">How 99minds Supports Scalable SaaS Loyalty Programs?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-SaaS-Loyalty-Program"rel="noreferrer">Frequently-Ask-Questions-(FAQs)-on-SaaS Loyalty Program</a></li>
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/saas-loyalty-programs-drive-retention-growth-in-2025.webp"></a>
 
 In the fast-moving SaaS world, acquiring new users is great—but keeping them? That’s where the real magic happens. A solid SaaS loyalty program doesn’t just help you retain customers, it turns them into raving fans, brand advocates, and repeat buyers.
 
 Gone are the days when loyalty was reserved for retail or food apps. In 2025, SaaS brands are getting creative with loyalty models, integrating them into user experience, upsells, and even community building.
 Whether you’re just starting or scaling your SaaS, this blog is your go-to guide for launching a <a href="https://www.99minds.io/loyalty" role="link" target="_blanck">loyalty program</a> that actually works.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-is-a-SaaS-Loyalty-Program?" rel="noreferrer">What is a SaaS Loyalty Program?</a>
-  </li>
-  <li>
-<a rolw="link" href="#Benefits-of-Loyalty-Programs-for-SaaS-Businesses" rel="noreferrer">Benefits of Loyalty Programs for SaaS Businesses</a>
-</li>
-  <li>
-  <a role="link" href="#Types-of-SaaS-Loyalty-Programs-That-Actually-Work" rel="noreferrer">Types of SaaS Loyalty Programs That Actually Work</a>
-  </li>
-  <li>
-  <a role="link" href="#Real-Examples-of-SaaS-Loyalty-Programs-in-Action" rel="noreferrer">Real Examples of SaaS Loyalty Programs in Action</a>
-  </li>
-   <li>
-  <a role="link" href="#How-to-Build-a-SaaS-Loyalty-Program-from-Scratch?" rel="noreferrer">How to Build a SaaS Loyalty Program from Scratch?</a>
-  </li>
-   <li>
-  <a role="link" href="#Top-KPIs-to-Measure-the-Success-of-Your-Loyalty-Program" rel="noreferrer">Top KPIs to Measure the Success of Your Loyalty Program</a>
-  </li>
-   <li>
-  <a role="link" href="#How-99minds-Supports-Scalable-SaaS-Loyalty-Programs?" rel="noreferrer">How 99minds Supports Scalable SaaS Loyalty Programs?</a>
-  </li>
-  <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-<li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-SaaS-Loyalty-Program"rel="noreferrer">Frequently-Ask-Questions-(FAQs)-on-SaaS Loyalty Program</a></li>
-</ul>
-</div>
 
 <h2 id="What-is-a-SaaS-Loyalty-Program?">What is a SaaS Loyalty Program?</h2>
 
@@ -259,10 +263,34 @@ And with a platform like 99minds backing your efforts, you can launch, test, and
 <h2 id="Frequently-Ask-Questions-(FAQs)-on-SaaS-Loyalty-Program">Frequently-Ask-Questions-(FAQs) on SaaS Loyalty Program</h2>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Are loyalty programs suitable for B2B SaaS?</h3>
-Yes! B2B SaaS platforms benefit greatly from loyalty—especially in upsells, renewals, and referrals. Tiered programs and usage-based incentives work particularly well.</div><br>
+Yes! B2B SaaS platforms benefit greatly from loyalty—especially in upsells, renewals, and referrals. Tiered programs and usage-based incentives work particularly well.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What kind of rewards should I offer?</h3>
-Depends on your user base! Common rewards include discounts, premium feature unlocks, additional user seats, training sessions, or even swag.<div><br>
+Depends on your user base! Common rewards include discounts, premium feature unlocks, additional user seats, training sessions, or even swag.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can I integrate a loyalty program with my existing CRM?</h3>
-Absolutely. Platforms like 99minds make it easy to plug loyalty features into your CRM, email platform, or product analytics tools.</div><br>
+Absolutely. Platforms like 99minds make it easy to plug loyalty features into your CRM, email platform, or product analytics tools.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How long does it take to see ROI from a loyalty program?</h3>
-While it varies, many SaaS businesses see improvements in engagement and retention within the first 3–6 months of launching a loyalty strategy.</div><br>
+While it varies, many SaaS businesses see improvements in engagement and retention within the first 3–6 months of launching a loyalty strategy.</div>
+
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

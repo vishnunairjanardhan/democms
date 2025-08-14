@@ -65,7 +65,7 @@ Gift card recipients spend more than the value of their cards. When was the last
 
 ## How to increase holiday sales with gift card
 
-Last year’s Black Friday traffic was 110% higher than usual on average. It is the right time to attract new customers and show your existing ones why they gave their business to you. Use this holiday to increase your sales and welcome new customers. With the right gift card marketing strategy, you will be able to attract the right kind of audience to your store.
+Last year’s <a href="https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday" target="_blank">Black Friday traffic was 110% higher than usual on average</a>. It is the right time to attract new customers and show your existing ones why they gave their business to you. Use this holiday to increase your sales and welcome new customers. With the right gift card marketing strategy, you will be able to attract the right kind of audience to your store.
 
 Let’s look at a few strategies that you can use to increase holiday sales with gift cards:
 

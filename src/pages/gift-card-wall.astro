@@ -1,0 +1,44 @@
+---
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
+import GiftCardWall from '../components/GiftCardWall/giftCardWall.jsx';
+import { Seo } from "../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+import HeroWall from "../components/heros/HeroWall.astro";
+---
+
+<BaseLayout3>
+<AstroSeo
+  title="Best Gift Card Software - Easily Create Gift Card Programs"
+  description="99minds is a powerful, customizable gifting solution to help ecommerce, SMBs, & retailer merchants deliver a seamless omnichannel gift card experience. Try now; sign up for free!"
+  canonical="https://www.99minds.io/giftcard"
+  openGraph={{
+    url: "https://www.99minds.io/giftcard",
+    title: "Complete Gift Card Solution for All Businesses | 99minds",
+    description: "Discover the key features of our Gift Card Platform: 100's of beautiful themed cards, brand design uploads, customization and multi-channel delivery options.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/giftcard/giftcard-banner2.png",
+        alt: "99minds Gift Card",
+        type: "image/png",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/giftcard",
+    title: "Complete Gift Card Solution for All Businesses | 99minds",
+    description: "Discover the key features of our Gift Card Platform: 100's of beautiful themed cards, brand design uploads, customization and multi-channel delivery options.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/giftcard/giftcard-banner2.png",
+        alt: "99minds Gift Card",
+        type: "image/png",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<HeroWall/>
+<GiftCardWall client:load />
+</BaseLayout3>

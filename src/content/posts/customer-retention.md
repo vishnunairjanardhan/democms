@@ -13,38 +13,44 @@ url: "https://www.99minds.io/blog/customer-retention"
 keywords: ["Customer retention"]
 
 ---
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#What-Is-Customer-Retention?" rel="noreferrer">What Is Customer Retention?</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">   
+    <a role="link" href="#Why-is-customer-retention-important?" rel="noreferrer">Why is customer retention important?</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Key-Customer-Retention-Metrics" rel="noreferrer">Key Customer Retention Metrics</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#6-Strategies-to-Boost Customer-Retention" ref="noreferrer">6 Strategies to Boost Customer Retention</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Customer-Retention-Examples" ref="noreferrer">Customer Retention Examples</a>
+  </li>     
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Conclusion" ref="noreferrer">Conclusion</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Customer-Retention" ref="noreferrer">Frequently Asked Questions (FAQs) on Customer Retention</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/customer_retention_6_strategies_examples_that_truly_work.webp" alt="Customer Retention: 8 Strategies & Examples that truly work.">
 
 Businesses put significant effort into attracting customers through marketing, social media, and branding strategies. After dedicating time, energy, and resources to earning their trust, it’s only logical to prioritize keeping them. This is where focusing on customer retention becomes essential. Enhancing customer retention requires evaluating the entire customer experience and everything customers perceive and feel when engaging with your brand. Factors such as resolving support tickets efficiently and effectively communicating brand values significantly influence a buyer’s relationship with your business.
 
 By delivering a seamless, satisfying experience at every touchpoint, you can <strong class="text-gray-200">foster loyalty</strong> and retain more customers. On the other hand, failing to meet customer expectations can lead to losing them before you even have a chance to address their concerns.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#What-Is-Customer-Retention?" rel="noreferrer">What Is Customer Retention?</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Why-is-customer-retention-important?" rel="noreferrer">Why is customer retention important?</a>
-  </li>
-    <li>  
-    <a role="link" href="#Key-Customer-Retention-Metrics" rel="noreferrer">Key Customer Retention Metrics</a>
-  </li>
-  <li>  
-    <a role="link" href="#6-Strategies-to-Boost Customer-Retention" ref="noreferrer">6 Strategies to Boost Customer Retention</a>
-  </li>
-  <li>  
-    <a role="link" href="#Customer-Retention-Examples" ref="noreferrer">Customer Retention Examples</a>
-  </li>     
-  <li>  
-    <a role="link" href="#Conclusion" ref="noreferrer">Conclusion</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Customer-Retention" ref="noreferrer">Frequently Asked Questions (FAQs) on Customer Retention</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="What-Is-Customer-Retention?">What is Customer Retention?</h2>
 
@@ -72,8 +78,8 @@ When you invest in strengthening those relationships, customers are more likely 
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -153,8 +159,8 @@ High attrition rates or low retention rates can signal dissatisfaction, poor ser
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -288,4 +294,27 @@ Customer retention is crucial because loyal customers drive repeat purchases, in
 Loyalty programs reward repeat purchases and engagement, making customers feel valued and incentivized to return. Tools like <a href="https://www.99minds.io/">99minds</a> can help you build and manage these programs seamlessly.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are some quick ways to boost customer retention?</h3>
 Focus on personalized support, create engaging loyalty programs, and ensure a hassle-free shopping and returns experience to keep customers coming back.
+</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
 </div>

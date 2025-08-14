@@ -1,73 +1,56 @@
+--- 
+import Verticalgrid from "../assets/Verticalgrid.astro"; 
+import Blurgradienttop from "../assets/Blurgradienttop.astro";
+import backgroundUrl from "../assets/images/header-startseite.webp";
 ---
-import Verticalgrid from "../assets/Verticalgrid.astro";
-import Blurgradientleft from "../assets/Blurgradientleft.astro";
----
+<section class="relative bg-gradient-to-b from-[#be56dc]/20 via-[#fee6df]/6 0 to-[#ffffff] to-transparent" aria-label="Main Content">
 
-<section class="relative">
-  <Verticalgrid />
-  <Blurgradientleft />
- <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-12 max-w-7xl lg:pt-36">
-    <div class="grid grid-cols-1 gap-6 p-8 pb-0 overflow-hidden lg:grid-cols-2 lg:gap-24 lg:p-20 lg:pb-0">
-      <div class="relative items-center gap-12 pb-12 m-auto lg:inline-flex md:order-first lg:pb-32 xl:pt-0">
-        <div class="max-w-2xl text-center lg:text-left">
-          <h1 class="mt-8 text-4xl font-normal tracking-tighter text-white sm:text-5xl">
-            <span class="text-indigo-800">A more engaging way to offer 
-            </span> Loyalty Programs, Gift cards, Offers and More
+	<div class="relative items-center w-full px-5 pt-24 mx-auto md:px-0 lg:px-0 max-w-8xl lg:py-20 bg-center bg-no-repeat  bg-none bg-blend-multiply ">
+		<div class="flex justify-center p-6 pb-0 overflow-hidden lg:px-16 lg:pb-2 ">
+			<div class="relative items-center justify-center pb-12 m-auto lg:inline-flex md:order-first lg:pb-2 xl:pt-[2rem] ">
+				<div class="max-w-3xl px-6  ">
+					<h1 class="mt-0 lg:text-5xl text-center">
+            <span class="text-indigo-800 mt-28 font-black"></span>All-in-One <span class="bg-gradient-to-r from-[#8356fc] via-[#be56dc] to-[#ff7f96] inline-block text-transparent bg-clip-text">Gift Card Software</span> for <br /> E-commerce and Retail Stores
           </h1>
-          <p class=" text-xl max-w-2xl mt-4 text-vulcan-300 ">
-            Online solution to manage and scale gift cards, store credit, digital wallets, and loyalty programs. Build better brand experience to acquire, engage, and retain lifelong customers.
-          </p>
-          <div class="flex flex-wrap items-center gap-2 mt-10">
-              <div x-data="{ open: false }" class="flex justify-center">
-              <!-- Trigger -->
-              <span x-on:click="open = true">
-                 <button type="button" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
-                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white">Sign Up Free</span>
-                </span></button>
-                <a href="/contact" target="_blank" class="relative p-0.5 ml-2 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
-                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
-                <span class="relative text-white">Contact Sales</span>
-                </span>
-              </a>
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-10 w-screen overflow-y-visible" aria-labelledby="modal-title-5" style="display: none;">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-6xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-6 text-center">
-                      
-                    <iframe
-                      src="https://calendly.com/99minds"
-                      width="100%"
-                      height="650"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly"
-                    ></iframe>
-
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-              
-          
-        </div>
-      </div>
-      <div class="relative order-first w-full lg:block">
-        <img
-          class="object-cover object-center w-full mx-auto shadow-2xl lg:absolute lg:ml-auto shadow-black"
-          alt="hero"
-          src="/assets/retain-be74a8698db45dee238bd377cf9db6ee.png"
-        />
-      </div>
-    </div>
-  </div>
+					<p class="max-w-3xl mt-4 text-center" aria-label="Sub Heading">The go-to gift card software solution for businesses to boost revenue, elevate customer experience, and enhance brand rapport.</p>
+					<div class="lg:flex justify-center gap-2 mt-10" role="group">
+						<div x-data="{ open: false }" class="flex flex-wrap items-center justify-center gap-4">
+							<!-- Trigger --><span x-on:click="open = true">
+							<button type="button" role="button" aria-label="Get Started for Free" class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+								<span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
+								<span class="relative text-white">Get started for free</span> </span>
+							</button>
+							</span>
+							<button type="button" class="raise1 relative p-0.5 inline-flex items-center justify-center overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });"> <span class="w-full h-full bg-white border border-black rounded-md group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out rounded-md group-hover:bg-opacity-10 duration-400 inline-flex items-center gap-2">
+								<svg role="img" alt="customer support logo" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-headset text-white" viewBox="0 0 16 16">
+									<path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+								</svg>
+								<span class="relative text-black">Book a Demo</span> </span>
+							</button>
+							<!-- Modal -->
+							<div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="Book a demo">
+								<!-- Overlay -->
+								<div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+								<!-- Panel -->
+								<div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+									<div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto  shadow-2xl rounded-3xl p-[0.060rem]">
+										<div class="bg-white rounded-3xl p-4 text-center">
+											<iframe src="../GetStarted" width="100%" height="600" frameBorder="0" allowFullScreen title="GetStarted"></iframe>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="lg:flex grid grid-cols-2 mt-8 gap-0.5 justify-center item-center mx-auto" aria-label="5 Star Rating">
+							<div class="flex col-span-2 lg:col-span-1 justify-center"> <img role="img" loading="lazy" class="py-1" width="350" height="28" alt="5 Star Rating" src="/assets/homepage/Ecom-logo5star.webp" /> </div>
+							<div class="flex mt-4 lg:mt-2 lg:col-span-1 col-span-2 justify-center">
+								<p class="lg:text-l text-center lg:ml-3 max-w-2xl text-black font-semibold"> 100% 5-Star Review </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="flex col-span-2 lg:col-span-1 justify-center"> <img role="img" loading="lazy" class="py-1 w-full"  alt="5 Star Rating" src="/assets/homepage/herobanner.webp" /> </div>
+		</div>
 </section>

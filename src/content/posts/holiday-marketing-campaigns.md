@@ -14,32 +14,37 @@ keywords: ["holiday marketing campaigns"]
 
 --- 
 
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-To-Expect-This-Holiday-Season" rel="noreferrer">What To Expect This Holiday Season</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#8-Killer-Holiday-Marketing-Campaigns-to-Get-Inspired-From" rel="noreferrer">8 Killer Holiday Marketing Campaigns to Get Inspired From</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#3-Hacks-for-Generating-Creative-Holiday-Marketing-Ideas" rel="noreferrer">3 Hacks for Generating Creative Holiday Marketing Ideas</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Final-Words-on-Holiday-Marketing-Campaigns" rel="noreferrer">Final Words on Holiday Marketing Campaigns</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Holiday-Marketing-Campaigns" ref="noreferrer">Frequently Asked Questions (FAQs) on Holiday Marketing Campaigns</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/the_8_most_creative_holiday_marketing_campaigns_for_2024.webp" alt="The 8 Most Creative Holiday Marketing Campaigns for 2024 ">
 
 Every year, as Halloween ends, the holiday marketing campaigns begin in full swing. Businesses flood consumers with holiday emails, social media ads, and TV commercials, all vying for attention during the spending season.
 
 But among the noise, some brands stand out with holiday marketing campaigns that genuinely resonate. These campaigns go beyond selling — they delight customers, evoke emotions, encourage sharing, and even foster connections with loved ones. Some even partner with charitable organizations, making a meaningful impact while driving engagement.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul role="list">
-  <li>  
-    <a role="link" href="#What-To-Expect-This-Holiday-Season" rel="noreferrer">What To Expect This Holiday Season</a>
-  </li> 
-  <li>  
-    <a role="link" href="#8-Killer-Holiday-Marketing-Campaigns-to-Get-Inspired-From" rel="noreferrer">8 Killer Holiday Marketing Campaigns to Get Inspired From</a>
-  </li> 
-  <li>
-    <a role="link" href="#3-Hacks-for-Generating-Creative-Holiday-Marketing-Ideas" rel="noreferrer">3 Hacks for Generating Creative Holiday Marketing Ideas</a>
-  </li> 
-  <li>
-    <a role="link" href="#Final-Words-on-Holiday-Marketing-Campaigns" rel="noreferrer">Final Words on Holiday Marketing Campaigns</a>
-  </li> 
-  <li>  
-    <a role="link" role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Holiday-Marketing-Campaigns" ref="noreferrer">Frequently Asked Questions (FAQs) on Holiday Marketing Campaigns</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="What-To-Expect-This-Holiday-Season">What To Expect This Holiday Season</h2>
 
@@ -65,8 +70,8 @@ Stay ahead with adaptable strategies and thoughtful campaigns to make the most o
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -352,8 +357,8 @@ Oreo’s Colorfilled campaign is a stellar example of how a brand can elevate it
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -420,4 +425,27 @@ A successful campaign includes emotional storytelling, engaging visuals, persona
 Use customer data, observe past campaign trends, and brainstorm creative themes that align with your brand's values and holiday spirit.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why should I incorporate loyalty programs into my holiday marketing?</h3>
 Loyalty programs boost customer retention, encourage repeat purchases, and provide personalized rewards, making them essential for holiday success.
+</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
 </div>

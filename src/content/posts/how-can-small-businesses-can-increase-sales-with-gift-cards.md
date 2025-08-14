@@ -13,30 +13,37 @@ url: "https://www.99minds.io/blog/how-can-small-businesses-can-increase-sales-wi
 keywords: ["Gift Cards for small businesses, small business gift cards, small business gift certificates, small business gift card program, small business gift card ideas"]
 
 ---
+
+<div class="lg:flex lg:gap-6">
+<!-- Table of content section -->
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+<p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+      <a role="link" href="#5-major-benefits-of-gift-cards-for-small-business" rel="noreferrer">5 Major Benefits of Gift Cards for Small Businesses</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+      <a role="link" href="#tips-for-implementing-gift-card-programs" rel="noreferrer">Tips for Implementing Gift Card Programs</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+      <a role="link" href="#strategies-to-increase-sales-with-gift-cards" rel="noreferrer">Strategies to Increase Sales with Gift Cards</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+      <a role="link" href="#how-to-boost-customer-engagement-with-gift-cards?" rel="noreferrer">How to Boost Customer Engagement with Gift Cards?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+      <a role="link" href="#conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+  </ul>
+  </div>
+
+  <div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/gift-cards-for-small-businesses.webp" alt="how can small businesses can increase sales with gift cards">
 
 Gift cards can increase revenues for your small businesses. You got that right! According to the <a href="https://nrf.com/research/national-retail-security-survey-2020"  role="link" target="_blank"> National Retail Federation</a>
 (NRF), in 2020, 65% of consumers spent more than the value of their <a href="https://www.99minds.io/giftcard"  role="link" target="_blank">gift card</a> when redeeming it, resulting in increased revenue for businesses. Gift cards for small businesses are a great way to boost sales, retain existing customers while attracting new ones. They provide an easy way to attract new customers, secure upfront revenue, and foster stronger relationships with existing customers.
 
 If you’re a stakeholder for a small business and wondering if adding a gift card program for a small business would make sense, you’ve come to the right resource. This article will provide a deep dive into how gift cards can accelerate growth for small businesses.
-## <p>Table of contents</p>
-<ul role="list">
-  <li>
-      <a role="link" href="#5-major-benefits-of-gift-cards-for-small-business" rel="noreferrer">5 Major Benefits of Gift Cards for Small Businesses</a>
-  </li>
-  <li>
-      <a role="link" href="#tips-for-implementing-gift-card-programs" rel="noreferrer">Tips for Implementing Gift Card Programs</a>
-  </li>
-  <li>
-      <a role="link" href="#strategies-to-increase-sales-with-gift-cards" rel="noreferrer">Strategies to Increase Sales with Gift Cards</a>
-  </li>
-  <li>
-      <a role="link" href="#how-to-boost-customer-engagement-with-gift-cards?" rel="noreferrer">How to Boost Customer Engagement with Gift Cards?</a>
-  </li>
-  <li>
-      <a role="link" href="#conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-  </ul>
   
 <h2 id="5-major-benefits-of-gift-cards-for-small-business">5 Major Benefits of Gift Cards for Small Businesses</h2>
 
@@ -80,7 +87,7 @@ For small businesses, launching a gift card program can open doors to new opport
 
 <li><h3>Marketing and Advertising</h3> Promote your gift card program through multiple channels, including social media, email marketing, and in-store signage, to reach a broader audience and generate customer interest and loyalty.</li>
 
-<li><h3>Special Occasions and Events</h3> Leverage special occasions and events such as holidays, birthdays or anniversaries, valentine’s day gift ideas to launch targeted promotions or themed gift card offers that match customer preferences and purchasing behavior.</li>
+<li><h3>Special Occasions and Events</h3> Leverage special occasions and events such as holidays, birthdays or anniversaries, <a href="https://www.99minds.io/blog/7-valentines-day-marketing-ideas"  role="link" target="_blank">valentine’s day gift ideas</a> to launch targeted promotions or themed gift card offers that match customer preferences and purchasing behavior.</li>
 
 <li><h3>Customer Feedback</h3> Ask customers for feedback on their experiences with your <a href="https://www.99minds.io/giftcards"  role="link" target="_blank">gift card program</a> and use this information to make informed decisions and make improvements to improve the overall customer experience.</li>
 
@@ -126,7 +133,7 @@ Here’s how small businesses can make the most of their gift card program.
 
 <li><h3>Employee Training</h3> Provide comprehensive training to effectively promote gift card sales.Emphasize the importance of excellent customer service in gift card transactions.Conduct role-playing exercises to simulate various customer scenarios.</li>
 
-<li><h3>Comments and Analysis</h3> Implement systems to collect and analyze sales data and customer feedback.Use analytics tools to track the performance of your gift card strategies. Regularly review feedback and analytics to identify areas for improvement and optimization.</li>
+<li><h3>Comments and Analysis</h3> Implement systems to collect and analyze sales data and customer feedback.Use analytics tools to track the performance of your  <a href="https://www.99minds.io/blog/gift-card-marketing-strategies-to-drive-sales-and-increase-brand-awareness"  role="link" target="_blank">gift card strategies</a>. Regularly review feedback and analytics to identify areas for improvement and optimization.</li>
 
 <li><h3>Cold Reach Outs</h3> Cold communication like emails or phone calls helps small businesses promote gift cards to new customers. Personalized messages emphasize the convenience of gift cards, increase sales and increase awareness.</li>
 
@@ -172,3 +179,23 @@ Incorporating a well-planned <a href="https://www.99minds.io/giftcard"  role="li
 
  <a href="https://www.99minds.io/"  role="link" target="_blank">99 minds</a> offers companies an easy-to-use platform to create personalized loyalty and advertising campaigns. With customizable gift cards, multi-channel delivery options, and comprehensive lifecycle management, businesses can easily manage and grow their gift card programs. The platform supports multiple currencies and locations, streamlining operations and driving customer loyalty. Whether you're looking to attract new customers or retain existing ones, <a href="https://www.99minds.io/"  role="link" target="_blank">99 minds</a> offers the tools to help build better brands and maintain lasting customer relationships.  <a href="https://www.99minds.io/giftcard"  role="link" target="_blank">Book a Demo</a> for more information. 
 
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

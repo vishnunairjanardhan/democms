@@ -17,11 +17,11 @@ keywords: ["99minds"]
 
 February 14 is one of the most beautiful days of the year. It is a day that is outrightly dedicated to love. Is there a better time to gift something to your lover or to someone you love!
 
-If you are a <a href="https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses">retail business, gift cards are your best friend for this special occasion</a>. By using it in the right manner, you can get new customers as well as an increase in sales, and more.
+If you are a <a href="https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses/">retail business, gift cards are your best friend for this special occasion</a>. By using it in the right manner, you can get new customers as well as an increase in sales, and more.
 
 <h2>Why does your business need gift cards this Valentine’s day?</h2>
 
-If you look at <a href="https://www.google.com/">Google</a> Trends, you will find that the search for gift cards spike a few days before special days like Valentine’s day. The reason is that most consumers want to give gift cards to their loved ones as it is not only easier to buy, but it also gives the gift recipient to buy the products that they prefer. Millennials make up 37% of gift card buyers, according to InComm. These are also the main target audience of <a href="https://www.99minds.io/blog/why-your-business-needs-gift-cards-this-valentines">retailers for a holiday like Valentine’s day</a>.
+If you look at <a href="https://www.google.com/">Google</a> Trends, you will find that the search for gift cards spike a few days before special days like Valentine’s day. The reason is that most consumers want to give gift cards to their loved ones as it is not only easier to buy, but it also gives the gift recipient to buy the products that they prefer. Millennials make up 37% of gift card buyers, according to InComm. These are also the main target audience of <a href="https://www.99minds.io/blog/why-your-business-needs-gift-cards-this-valentines/">retailers for a holiday like Valentine’s day</a>.
 
 No matter what type of retail store you have, the chances of your sales picking up during the season of love is a given.
 
@@ -34,7 +34,7 @@ It is a great time to grow your customer base. During this period, there are a l
 
 <h3><li>Increases sales:</li></h3>
 
-<a href="https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses">Gift cards</a> could be the holy grail during special days such as Valentine’s Day. Most customers are stressed about finding the right gift for their partners, and a gift card goes a long way in alleviating that. By giving their partners gift cards, the onus is on the recipient to buy what they love.
+<a href="https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses/">Gift cards</a> could be the holy grail during special days such as Valentine’s Day. Most customers are stressed about finding the right gift for their partners, and a gift card goes a long way in alleviating that. By giving their partners gift cards, the onus is on the recipient to buy what they love.
 
 Not only is everyone happy here, but it also lets you get a recurring customer as the buyer and the recipient of the gift card will walk into the store. Also, if they don’t extinguish the amount of the gift card, they will come again.
 
@@ -91,6 +91,6 @@ The best way to sell more gift cards is by luring your customers with the right 
 
 <h2>Conclusion:</h2>
 
-There is no doubt about the spike in sales that businesses with gift cards get during the <a href="https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales">holiday season</a>, especially so during Valentine’s day as well. A business that uses clever marketing campaigns to promote its gift cards will see it bear fruit.
+There is no doubt about the spike in sales that businesses with gift cards get during the <a href="https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/">holiday season</a>, especially so during Valentine’s day as well. A business that uses clever marketing campaigns to promote its gift cards will see it bear fruit.
 
 If you are looking to equip your store with a gift card to cash in on the festivities of this wonderful day, get in touch with the good folks at 99minds. We are more than happy to set up gift cards for your business. Do not miss out on the huge opportunity of gift cards. Embrace them!

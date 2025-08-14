@@ -13,7 +13,45 @@ url: "https://www.99minds.io/blog/referral-marketing"
 keywords: ["referral marketing","referral marketing strategy","what is referral marketing","referral advertising","referral based marketing","referral marketing campaigns","referrals marketing"]
 
 --- 
-<img rel="preload" role="img" src="/assets/blog/referral_marketing.webp" alt="What is Referral marketing? Best Practices & Strategies">
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">   
+    <a role="link" href="#What-is-Referral-Marketing?" rel="noreferrer">What is Referral Marketing?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Key-Components-of-a-Successful-Referral-Marketing-Program" rel="noreferrer">Key Components of a Successful Referral Marketing Program</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Benefits-of-Referral-Marketing-in-eCommerce" rel="noreferrer">Benefits of Referral Marketing in eCommerce</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Effective-Referral-Marketing-Strategy-in-ecommerce" rel="noreferrer">Effective Referral Marketing Strategy in ecommerce</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Types-of-Referral-Marketing-with-Real-world-Examples" rel="noreferrer">Types of Referral Marketing with Real-world Examples</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#eCommerce-Referral-Marketing-Mistakes-to-Avoid" rel="noreferrer">eCommerce Referral Marketing Mistakes to Avoid</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Build-a-Referral-Marketing-with-99minds" rel="noreferrer">Build a Referral Marketing with 99minds</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
+  </li> 
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Referral-Marketing" ref="noreferrer">Frequently Asked Questions (FAQs) for Referral Marketing</a>
+  </li>                       
+</ul>   
+</div>  
+
+ <div class="w-full">
+ <img rel="preload" role="img" src="/assets/blog/referral_marketing.webp" alt="What is Referral marketing? Best Practices & Strategies">
 
 Selecting an effective marketing approach for your company may be one of the most difficult aspects of promoting your products or services. With so many marketing approaches available, it can be difficult to identify which one will be most beneficial for your particular business needs.  
 
@@ -21,38 +59,6 @@ What works for one company might not suit another, highlighting the importance o
 
 An increasing number of business owners are recognizing the advantages of referral marketing strategies. Historically, word-of-mouth was a cost-free and often effective method of promotion. Today, referral marketing leverages this concept through a structured program designed to yield significant results. By incentivizing existing customers to recommend your business, referral marketing can transform regular customers into brand advocates and open doors to new customer bases.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a role="link" href="#What-is-Referral-Marketing?" rel="noreferrer">What is Referral Marketing?</a>
-  </li>
-  <li>  
-    <a role="link" href="#Key-Components-of-a-Successful-Referral-Marketing-Program" rel="noreferrer">Key Components of a Successful Referral Marketing Program</a>
-  </li>
-  <li>  
-    <a role="link" href="#Benefits-of-Referral-Marketing-in-eCommerce" rel="noreferrer">Benefits of Referral Marketing in eCommerce</a>
-  </li>
-  <li>  
-    <a role="link" href="#Effective-Referral-Marketing-Strategy-in-ecommerce" rel="noreferrer">Effective Referral Marketing Strategy in ecommerce</a>
-  </li>
-  <li>  
-    <a role="link" href="#Types-of-Referral-Marketing-with-Real-world-Examples" rel="noreferrer">Types of Referral Marketing with Real-world Examples</a>
-  </li> 
-  <li> 
-    <a role="link" href="#eCommerce-Referral-Marketing-Mistakes-to-Avoid" rel="noreferrer">eCommerce Referral Marketing Mistakes to Avoid</a>
-  </li> 
-  <li> 
-    <a role="link" href="#Build-a-Referral-Marketing-with-99minds" rel="noreferrer">Build a Referral Marketing with 99minds</a>
-  </li>
-  <li>  
-    <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
-  </li> 
-  <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Referral-Marketing" ref="noreferrer">Frequently Asked Questions (FAQs) for Referral Marketing</a>
-  </li>                       
-</ul>   
-</div>  
 
 <h2 id="What-is-Referral-Marketing?">What is Referral Marketing?</h2> 
 
@@ -202,8 +208,8 @@ Make it easy for customers to share about your referral program and its benefits
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -405,3 +411,23 @@ If you are looking for referral marketing software that will fulfill all your ca
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the Best Practices for Referral Marketing?</h3>Effective referral marketing requires a straightforward, user-friendly process. Offer incentives that are attractive and relevant to your audience. Ensure instructions are clear and maintain transparent communication throughout. Regularly promote the referral program to keep it visible. Utilize technology for efficient tracking and analytics. Continuously engage with participants and recognize their efforts to keep them motivated.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can Referral Programs Work for all Types of Businesses?</h3>Yes, referral programs can work for a wide range of businesses, including e-commerce, SaaS, retail, hospitality, fitness, and more. The key is to tailor the program to fit the specific needs and behaviors of your customer base, ensuring that the incentives and referral process resonate with them.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

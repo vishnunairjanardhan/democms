@@ -14,6 +14,38 @@ url: "https://www.99minds.io/blog/shopify-store-credit-guide"
 
 ---
 
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-is-Shopify-Store-Credit?" rel="noreferrer">What is Shopify Store Credit?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#What-are-the-Benefits-of-Issuing-Shopify-Store-Credit?" rel="noreferrer">What are the Benefits of Issuing Shopify Store Credit?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#How-Does-Store-Credit-Work?" rel="noreferrer">How Does Store Credit Work?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#How-to-Issue-Shopify-Store-Credit?" rel="noreferrer">How to Issue Shopify Store Credit?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Tips-to-get-the-most-out-of-shopify-store-credit" rel="noreferrer">Tips to get the most out of shopify store credit</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
+  </li> 
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Shopify-Store-Credit" ref="noreferrer">Frequently Asked Questions (FAQs) for Shopify Store Credit</a>
+  </li>           
+  </ul>
+</div> 
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/How-to-use-Shopify-Store-Credit-to-sell-more.webp" alt="How to use Shopify Store Credit to sell more">
 
 Returns can pose significant challenges for retail operations. After a successful sale, there's always the possibility that the product will be returned, causing the refunded money to leave your business.
@@ -24,32 +56,6 @@ Shopify store credit offers a valuable alternative to traditional cash refunds, 
 
 This guide will delve into effective strategies to utilize and promote store credit on shopify as the preferred refund option in your retail setting, enhancing both customer satisfaction and business performance.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a role="link" href="#What-is-Shopify-Store-Credit?" rel="noreferrer">What is Shopify Store Credit?</a>
-  </li>
-  <li>  
-    <a role="link" href="#What-are-the-Benefits-of-Issuing-Shopify-Store-Credit?" rel="noreferrer">What are the Benefits of Issuing Shopify Store Credit?</a>
-  </li>
-  <li>  
-    <a role="link" href="#How-Does-Store-Credit-Work?" rel="noreferrer">How Does Store Credit Work?</a>
-  </li>
-  <li>  
-    <a role="link" href="#How-to-Issue-Shopify-Store-Credit?" rel="noreferrer">How to Issue Shopify Store Credit?</a>
-  </li>
-  <li>  
-    <a role="link" href="#Tips-to-get-the-most-out-of-shopify-store-credit" rel="noreferrer">Tips to get the most out of shopify store credit</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
-  </li> 
-  <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Shopify-Store-Credit" ref="noreferrer">Frequently Asked Questions (FAQs) for Shopify Store Credit</a>
-  </li>           
-  </ul>
-</div> 
 
 <h2 id="What-is-Shopify-Store-Credit?">What is Shopify Store Credit?</h2>
 
@@ -76,8 +82,8 @@ If you are a store owner, imagine your customer buys a pair of sneakers from you
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -272,3 +278,23 @@ In conclusion, understanding what is store credit and implementing an effective 
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is a Store Credit Refund?</h3>A store credit refund is when a retailer gives a customer credit instead of cash back for a returned item. This credit is usually applied to the customer's account and can be used for future purchases at the same store.
 </div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

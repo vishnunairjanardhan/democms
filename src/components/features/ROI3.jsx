@@ -52,7 +52,7 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
             <p className="px-8 mt-8 font-semibold text-2xl lg:float-left text-black">
               Your Inputs
             </p>
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8 lg:px-6 lg:float-left mt-6 lg:mr-auto w-full">
+            <div className="grid lg:grid-cols-4 gap-8 lg:px-6 lg:float-left mt-6 lg:mr-auto w-full">
               <div className="col-span-1 shadow-xl border rounded-lg p-6 mb-0 h-28 w-64 lg:w-full">
                 <p className="px-2 text-black text-left rounded-md">
                   Annual Orders
@@ -85,41 +85,33 @@ const ResultsSection = ({ userInputs = {}, goBack }) => {
               </div>
             </div>
           </div>
-          <div className="mt-12 lg:px-6 pb-4">
-            <div className="grid lg:grid-cols-2 sm:grid-cols-1 col-span-1 gap-8 lg:mr-auto px-8 w-full item-center border py-8 rounded-lg">
-              <div>
-                <p className="mt-8 text-black justify-center">Annual Revenue</p>
-                <div className="item-center mt-2">
-                  <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
-                    ${formatNumber(annualRevenue.toFixed(2))}
-                  </p>
-                </div>
-              </div>
-              <div>
-                <p className="mt-8 text-black">Profit without 99minds</p>
-                <div className="item-center mt-2">
-                  <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
-                    ${formatNumber(profit.toFixed(2))}
-                  </p>
-                </div>
-              </div>
-              <div>
-                <p className="mt-8 text-black">Profit Impact with 99minds</p>
-                <div className="item-center mt-2">
-                  <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
-                    ${formatNumber(finalProfit.toFixed(2))}
-                  </p>
-                </div>
-              </div>
-              <div>
-                <p className="mt-8 text-black">
-                  Return on Investment with 99minds
+          <div className="grid col-span-1 gap-16 mt-12 lg:px-12 pb-4">
+            <div className="lg:mr-auto px-8 w-full item-center border py-8 rounded-lg">
+              <p className="text-black justify-center">Annual Revenue</p>
+              <div className="item-center mt-2">
+                <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
+                  ${formatNumber(annualRevenue.toFixed(2))}
                 </p>
-                <div className="item-center mt-2">
-                  <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
-                    {formatNumber(Roi.toFixed(2))}
-                  </p>
-                </div>
+              </div>
+              <p className="mt-8 text-black">Profit without 99minds</p>
+              <div className="item-center mt-2">
+                <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
+                  ${formatNumber(profit.toFixed(2))}
+                </p>
+              </div>
+              <p className="mt-8 text-black">Profit Impact with 99minds</p>
+              <div className="item-center mt-2">
+                <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
+                  ${formatNumber(finalProfit.toFixed(2))}
+                </p>
+              </div>
+              <p className="mt-8 text-black">
+                Return on Investment with 99minds
+              </p>
+              <div className="item-center mt-2">
+                <p className="w-full pt-5 h-20 bg-gray-800 text-center text-white text-3xl font-semibold rounded-md">
+                  {formatNumber(Roi.toFixed(2))}
+                </p>
               </div>
             </div>
           </div>

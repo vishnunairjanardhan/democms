@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/how-to-get-mothers-day-gift-cards-for-your-bus
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/how-to-get-mothers-day-gift-cards-for-your-business-to-sell-a-lot">
+<a href="https://www.99minds.io/blog/gift-card/how-to-get-mothers-day-gift-cards-for-your-business-to-sell-a-lot/">
 <img src="/assets/blog/How-to-Get-Mothers-Day-Gift-Cards-for-Your-Business-to-sell-a-lot.jpg"></a>
 
 For retailers, Mother’s day is a lucrative day in their business if rightly used. Americans spend extravagantly on this with the average gift value being around $200. If you want to cash in on this beautiful day, creating gift cards for your business is the cleverest thing you can do.
