@@ -1,10 +1,13 @@
 
 <section
-  aria-labelledby="logocloud"
+  aria-labelledby="logocloud-heading"
   id="logocloud"
   class="flex items-end justify-center bg-vulcan-900 border-t border-white/60 border-y border-white/5 px-8 mx-auto max-w-7xl md:px-12 lg:px-16 rounded-b-2xl"
   style="background-image: linear-gradient(to top, #DABCA8, #CBA286);">
-  <div class="justify-center px-8 mx-auto max-w-7xl md:px-12 lg:px-0">
+  
+  <!-- Accessible Heading for Screen Readers -->
+  <h2 id="logocloud-heading" class="sr-only">Key Business Metrics</h2>
+
     <ul class="grid grid-cols-1 gap-6 list-none sm:grid-cols-2 md:grid-cols-4 lg:gap-8 lg:mt-0 py-4 text-center" role="list">
       
       <li x-data="{ count: 0, target: 38, counter() { 
@@ -18,7 +21,7 @@
         }, 30); 
     } }" x-init="counter()">
       <div>
-        <h2 class="text-2xl md:text-2xl mt-3 font-bold text-black" x-text="count + '%'"></h2>
+        <h2 class="text-2xl md:text-2xl mt-3 font-bold text-black" x-text="count + '%'" aria-live="polite"></h2>
       </div>
         <div class="mt-2 text-black font-bold text-sm md:text-base">Increase Average Spend Over Gift Card Value</div>
       </li>
@@ -34,7 +37,7 @@
           }, 30); 
       } }" x-init="counter()">
         <div>
-          <h2 class="text-2xl md:text-2xl mt-3 font-bold text-black" x-text="count + '%'"></h2>
+          <h2 class="text-2xl md:text-2xl mt-3 font-bold text-black" x-text="count + '%'" aria-live="polite"></h2>
         </div>
         <div class="mt-2 text-black font-bold text-sm md:text-base">Increase in Sales due to rise in Gift Card Redemption frequency</div>
       </li>
@@ -50,7 +53,7 @@
         }, 30); 
     } }" x-init="counter()">
       <div>
-        <h2 class="text-2xl md:text-2xl mt-3 font-bold text-black" x-text="'Saved ' + count + 'hrs'"></h2>
+        <h2 class="text-2xl md:text-2xl mt-3 font-bold text-black" x-text="'Saved ' + count + 'hrs'" aria-live="polite"></h2>
       </div>
       <div class="mt-2 text-black font-bold text-sm md:text-base">Manual Work</div>
     </li>

@@ -13,7 +13,27 @@ url: "https://www.99minds.io/blog/b2b-ecommerce-trends"
 keywords: ["b2b ecommerce trends","trends in b2b ecommerce","trends in b2b e commerce","b2b commerce trend","b2b ecommerce trends 2024","ecommerce b2b trends"]
 
 ---
-<img rel="preload" src="/assets/blog/Top 18 B2B eCommerce Trends in 2024.webp" alt="Top 18 B2B eCommerce Trends in 2024">
+
+
+<div class="lg:flex lg:gap-6">
+<!-- Table of content section -->
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+<p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a href="#b2b-ecommerce-statistics" rel="noreferrer">B2B eCommerce Statistics</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a href="#top-18-b2b-ecommerce-trends-in-2024" rel="noreferrer">Top 18 B2B eCommerce Trends in 2024</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a href="#wrapping-up" ref="noreferrer">Wrapping Up</a>
+  </li>
+</ul>
+</div>
+
+ <div class="w-full">
+ <img rel="preload" src="/assets/blog/Top 18 B2B eCommerce Trends in 2024.webp" alt="Top 18 B2B eCommerce Trends in 2024">
 
 As the world of eCommerce continues to evolve, it is becoming increasingly important for companies to stay updated with the b2b ecommerce trends. The fast growth has led to a rise in competition among eCommerce firms, and they are investing in tools and resources to stand out from the crowd. Otherwise, it is easy to be swept away in a sea of eCommerce stores.
 
@@ -25,20 +45,6 @@ However the list is long, and in this blog we have listed the most hot b2b eComm
 
 In the following sections, we will explore stats related to B2B eCommerce and the top trends in b2b ecommerce. These trends are expected to shape the business landscape this year.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a href="#b2b-ecommerce-statistics" rel="noreferrer">B2B eCommerce Statistics</a>
-  </li> 
-  <li>
-    <a href="#top-18-b2b-ecommerce-trends-in-2024" rel="noreferrer">Top 18 B2B eCommerce Trends in 2024</a>
-  </li> 
-  <li>
-    <a href="#wrapping-up" ref="noreferrer">Wrapping Up</a>
-  </li>
-</ul>
-</div>
 
 <h2 id="b2b-ecommerce-statistics">B2B eCommerce Statistics</h2>
 
@@ -146,7 +152,7 @@ For example, utilizing <a href="https://www.99minds.io/loyalty" role="link" targ
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
                   <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -220,3 +226,23 @@ AI is transforming eCommerce by improving user experiences with real-time chatbo
 Businesses can position themselves for significant revenue growth by staying up-to-date with the latest b2b eCommerce trends and making necessary adjustments to fit the market realities. By harnessing automation, omnichannel sales, expansion into third-party B2B marketplaces, giving importance to mobile optimization, maintaining customer service standards, and building enduring relationships with customers, businesses may put themselves at the top of the digital transformation.
 
 Finding methods to draw in new clients is vital, but it's just as critical to develop strategies that keep existing ones coming back. For eCommerce businesses looking to grow with a powerful <a href="https://www.99minds.io/loyalty" role="link" target="_blanck">loyalty reward program</a>, we are here to help. 
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

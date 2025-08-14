@@ -13,6 +13,45 @@ url: "https://www.99minds.io/blog/b2b-loyalty-program"
 keywords: ["B2B Loyalty Program "]
 
 --- 
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-are-B2B-Loyalty-Program" rel="noreferrer">What are B2B Loyalty Program</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Why-B2B-Loyalty-Programs-Matter:-Key-Benefits" rel="noreferrer">Why B2B Loyalty Programs Matter: Key Benefits</a>
+  </li>
+    <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Key-Elements-of-a-Successful-Loyalty-Program" rel="noreferrer"> Key Elements of a Successful Loyalty Program</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Step-by-Step-Guide-to-Building-a-Successful-B2B-Loyalty-Program" ref="noreferrer">Step-by-Step Guide to Building a Successful B2B Loyalty Programs</a>
+  </li>
+    <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Effective-Implementation-Strategies-for-Your-B2B-Loyalty-Program" ref="noreferrer">Effective Implementation Strategies for Your B2B Loyalty Program
+</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Emerging-Trends-in-B2B-Loyalty-Programs" ref="noreferrer">Emerging Trends in B2B Loyalty Programs</a>
+  </li>
+  
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Conclusion" ref="noreferrer">Conclusion
+</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Frequently-Asked-Questions-about-B2B-Loyalty-Programs" ref="noreferrer">Frequently Asked Questions about B2B Loyalty Programs
+</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
+
 <img rel="preload" role="img" src="/assets/blog/the_ultimate_guide_to_b2b_loyalty_programs_in_2025.webp" alt="The Ultimate Guide to B2B Loyalty Programs in 2025">
 
 <h2>Introduction</h2>
@@ -20,39 +59,8 @@ Think about going beyond just giving rewards to individual customers. B2B loyalt
 
 Create deeper more lasting connections with your customers by motivating them to come back and boosting their satisfaction. This has an impact on developing a flourishing community that's good for your company and your clients. This guide will talk about the advantages essential elements, and tactics to set up a system that deepens your business relationships and create a way for long-term achievement.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#What-are-B2B-Loyalty-Program" rel="noreferrer">What are B2B Loyalty Program</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Why-B2B-Loyalty-Programs-Matter:-Key-Benefits" rel="noreferrer">Why B2B Loyalty Programs Matter: Key Benefits</a>
-  </li>
-    <li>  
-    <a role="link" href="#Key-Elements-of-a-Successful-Loyalty-Program" rel="noreferrer"> Key Elements of a Successful Loyalty Program</a>
-  </li>
-  <li>  
-    <a role="link" href="#Step-by-Step-Guide-to-Building-a-Successful-B2B-Loyalty-Program" ref="noreferrer">Step-by-Step Guide to Building a Successful B2B Loyalty Programs</a>
-  </li>
-    <li>  
-    <a role="link" href="#Effective-Implementation-Strategies-for-Your-B2B-Loyalty-Program" ref="noreferrer">Effective Implementation Strategies for Your B2B Loyalty Program
-</a>
-  </li>
-    <li>  
-    <a role="link" href="#Emerging-Trends-in-B2B-Loyalty-Programs" ref="noreferrer">Emerging Trends in B2B Loyalty Programs</a>
-  </li>
-  
-  <li>  
-    <a role="link" href="#Conclusion" ref="noreferrer">Conclusion
-</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Frequently-Asked-Questions-about-B2B-Loyalty-Programs" ref="noreferrer">Frequently Asked Questions about B2B Loyalty Programs
-</a>
-  </li>  
-</ul>
-</div>
+<h2>Why Are B2B Loyalty Programs Important?</h2>
+B2B loyalty programs help businesses stand out by making customers feel valued. With increasing competition, offering a <a href="https://www.99minds.io/loyalty">loyalty program</a> sets you apart. It encourages customers to come back and helps build strong, lasting relationships.
 
 <h2 id="What-are-B2B-Loyalty-Program">What is B2B Loyalty Program?</h2>
 The B2B loyalty program is designed to reward firms for their continued partnership and encourage them to make repeat purchases. Unlike traditional <a href="https://www.99minds.io/blog/build-customer-loyalty\">customer loyalty</a> programs, these programs relay the common theme of creating a long-term relationship between businesses. The aims of these initiatives lay down fresh commitments for customer retention. Such features are like:
@@ -81,8 +89,8 @@ The B2B loyalty program is designed to reward firms for their continued partners
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto  shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-4 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -216,8 +224,8 @@ The integration of loyalty programs with other tools such as CRM, ERP, and marke
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -247,4 +255,27 @@ The purpose of a business-to-business loyalty or rewards program is to reward cl
 Typically, B2B loyalty programs offer their clients points, discounts, or special rewards based upon consumption or engagement. Points can likely be redeemed for multiple benefits, like discounts, products, and services. </div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the benefits of a B2B loyalty program?</h3>
 Key benefits include improved customer retention, increased revenue, stronger relationships, valuable data insights, and a competitive advantage.
+</div>
+
+ </div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
 </div>

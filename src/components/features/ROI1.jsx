@@ -276,7 +276,7 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
               <ReactSlider
                 className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
                 thumbClassName="h-6 w-6 bg-black rounded-full border border-white border-[3px] drop-shadow-lg"
-                trackClassName="h-2 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
+                trackClassName="h-2 bg-[#D9CDFF]"
                 value={annualOrders}
                 min={0}
                 max={1000000}
@@ -309,7 +309,7 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
               <ReactSlider
                 className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
                 thumbClassName="h-6 w-6 bg-black rounded-full border border-white border-[3px] drop-shadow-lg"
-                trackClassName="h-2 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
+                trackClassName="h-2 bg-[#D9CDFF]"
                 value={annualCustomers}
                 min={0}
                 max={200000}
@@ -348,7 +348,7 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
               <ReactSlider
                 className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
                 thumbClassName="h-6 w-6 bg-black rounded-full border border-white border-[3px] drop-shadow-lg"
-                trackClassName="h-2 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
+                trackClassName="h-2 bg-[#D9CDFF]"
                 value={ProfitMargin}
                 min={0}
                 max={100}
@@ -384,7 +384,7 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
               <ReactSlider
                 className="w-full h-2 bg-gray-200 rounded-lg relative flex items-center"
                 thumbClassName="h-6 w-6 bg-black rounded-full border border-white border-[3px] drop-shadow-lg"
-                trackClassName="h-2 bg-gradient-to-r rounded-full from-[#ff8a05] to-[#ff5478]"
+                trackClassName="h-2 bg-[#D9CDFF]"
                 value={Aov} // Corrected the value here
                 min={0}
                 max={10000}
@@ -398,14 +398,14 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
           </div>
 
           {/* Right Section */}
-          <div className="bg-[#202130] bg-cover px-20 py-8 rounded-tr-md rounded-br-md">
+          <div className="bg-gray-100 bg-cover px-20 py-8 rounded-tr-md rounded-br-md">
             <p className="p-4 text-3xl rounded-lg text-center border border-white/60 bg-black font-bold text-white mb-4">
               {userInputs.averageOrder}
             </p>
-            <p className="text-xl text-white text-center mt-6">
+            <p className="text-xl text-black text-center mt-6">
               Average Order per Customer
             </p>
-            <p className="text-sm text-center text-white mt-2 mb-4">
+            <p className="text-sm text-center text-black mt-2 mb-4">
               Purchases per customer is the metric that is typically most
               impacted by a loyalty program. Programs can be designed to focus
               on increasing repeat purchase rate, decreasing time to second
@@ -417,9 +417,9 @@ const LoyaltyROICalculator = ({ userInputs, updateInputs, goToNextStep }) => {
                 className="w-full raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
                 onClick={handleNextClick} // Button click handler
               >
-                <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span className="w-full relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
-                  <span className="relative text-white">Next</span>
+                <span className="w-full h-full bg-black group-hover:bg-black absolute rounded-md"></span>
+                <span className="w-full relative px-4 py-2 transition-all ease-out bg-black bg-opacity-100 rounded-md duration-400 font-medium">
+  <span className="relative text-white">Next</span>
                 </span>
               </button>
             </div>

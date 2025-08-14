@@ -13,16 +13,9 @@ url: "https://www.99minds.io/blog/shopify-discount-combinations"
 keywords: ["Shopify"]
 
 --- 
-<img src="/assets/blog/how-99minds-enhances-shopify-discount-combinations-boost-sales-conversions.webp"></a>
-
-Discounts are crucial to e-commerce, helping businesses attract customers, boost sales, and improve <a href="https://www.99minds.io/blog/customer-retention" role="link" target="_blank">customer retention</a>. In any case, the need for improving the stacking of discounts in Shopify makes it more complicated for the merchants to offer more than one promotion in a single purchase. This is however one of the significant limitations that Shopify has in terms of discount stacking.
-
-Practically speaking, Shopify is designed to help customers to apply only one discount code per checkout, which might result in lost sales and leave unsatisfied customers. Also, Shopify designed a feature but have only a few choices and it quiet often is not strong enough to support multiple coupons, <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift cards</a>, and custom promotional rules.
-
-It is important for a business to engage customer base and <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> is a master of this method. 99minds can be very helpful in lowering the limitations so to speak of what you can apply to the platform for discounting in a way that in turn allows customers to mix and match several discounts, gift cards, and promotion codes without a glitch.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul role="list">
   <li>
   <a role="link" href="#What-is-Shopify’s-Discount-Combination-Feature?" rel="noreferrer">What is Shopify’s Discount Combination Feature?</a>
@@ -40,13 +33,22 @@ It is important for a business to engage customer base and <a href="https://www.
   <a role="link" href="#How-to-Implement-Shopify-Discount-Stacking-in-99minds" rel="noreferrer">How to Implement Shopify Discount Stacking in 99minds</a>
   </li>
   <li>
-  <a role="link" href="# Why-Shopify-Merchants-Should-Use-99minds" rel="noreferrer">Why Shopify Merchants Should Use 99minds</a>
+  <a role="link" href="#Why-Shopify-Merchants-Should-Use-99minds" rel="noreferrer">Why Shopify Merchants Should Use 99minds</a>
   </li>
   <li>
   <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
   </li>
 </ul>
-</div>
+  </div> 
+<div class="w-full">
+<img src="/assets/blog/how-99minds-enhances-shopify-discount-combinations-boost-sales-conversions.webp"></a>
+
+Discounts are crucial to e-commerce, helping businesses attract customers, boost sales, and improve <a href="https://www.99minds.io/blog/customer-retention" role="link" target="_blank">customer retention</a>. In any case, the need for improving the stacking of discounts in Shopify makes it more complicated for the merchants to offer more than one promotion in a single purchase. This is however one of the significant limitations that Shopify has in terms of discount stacking.
+
+Practically speaking, Shopify is designed to help customers to apply only one discount code per checkout, which might result in lost sales and leave unsatisfied customers. Also, Shopify designed a feature but have only a few choices and it quiet often is not strong enough to support multiple coupons, <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift cards</a>, and custom promotional rules.
+
+It is important for a business to engage customer base and <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> is a master of this method. 99minds can be very helpful in lowering the limitations so to speak of what you can apply to the platform for discounting in a way that in turn allows customers to mix and match several discounts, gift cards, and promotion codes without a glitch.
+
 
 <h2 id="What-is-Shopify’s-Discount-Combination-Feature?">What is Shopify’s Discount Combination Feature?</h2>
 
@@ -292,3 +294,21 @@ Shopify's default rebate framework limits how vendors can offer advancements, co
 
 99minds tackles these challenges by empowering vendors to stack different markdown codes, blessing cards, and custom advancements consistently. With progressed coupon rules and more prominent control over rebate applications, shippers can make more appealing offers that boost changes and client fulfillment. By coordination 99minds, Shopify store proprietors can open the complete potential of their markdown methodologies and drive long-term commerce development. 
 
+</div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+</div>

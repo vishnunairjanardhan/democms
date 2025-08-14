@@ -13,43 +13,49 @@ url: "https://www.99minds.io/blog/a-comprehensive-guide-to-digital-gift-cards"
 keywords: ["Digital gift cards, what is a digital gift cards, E-gift card, egift card"]
 
 --- 
-<img rel= "preload" role= "img" src="/assets/blog/A-comprehensive-guide-to-Digital-Gift-Cards.webp" alt= "Digital Gift Cards">
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#What-are-Digital-Gift-Cards?" rel="noreferrer">What are Digital Gift Cards?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Why-are-Digital-Gift-Cards-so-Successful?" rel="noreferrer">Why are Digital Gift Cards so Successful?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#How-do-Digital-Gift-Cards-Work?" rel="noreferrer">How do Digital Gift Cards Work?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#How-to-Set-Up-Your-Digital-Gift-Cards?" rel="noreferrer">How to Set Up Your Digital Gift Cards?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Compliance-and-Regulations-for-Digital-Gift-Cards" rel="noreferrer">Compliance and Regulations for Digital Gift Cards</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Digital-Gift-Cards-Security" rel="noreferrer">Digital Gift Cards Security</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Sell-Gift-Cards-with-99minds" rel="noreferrer">Sell Gift Cards with 99minds</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
+  </li>
+ </div> 
+
+ <div class="w-full">
+ <img rel= "preload" role= "img" src="/assets/blog/A-comprehensive-guide-to-Digital-Gift-Cards.webp" alt= "Digital Gift Cards">
 
 In today's fast-paced digital world, the art of gifting has changed dramatically. We no longer use traditional physical gift cards; instead, we prefer the ease and variety of digital gift cards. But what is a digital gift card? These digital alternatives open up a world of possibilities, delivering quick gratification, seamless accessibility, and limitless options for both present givers and recipients.
 
 This comprehensive guide delves into the world of digital gift cards, including their various varieties, benefits, and limitations. Whether you're new to the concept or want to improve your understanding, join us as we explore the exciting world of digital gifting, with a special emphasis on the innovative platform <a href="https://www.99minds.io/" role="link" target="_blank">99Minds</a>.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-are-Digital-Gift-Cards?" rel="noreferrer">What are Digital Gift Cards?</a>
-  </li>
-  <li>
-  <a role="link" href="#Why-are-Digital-Gift-Cards-so-Successful?" rel="noreferrer">Why are Digital Gift Cards so Successful?</a>
-  </li>
-  <li>
-  <a role="link" href="#How-do-Digital-Gift-Cards-Work?" rel="noreferrer">How do Digital Gift Cards Work?</a>
-  </li>
-  <li>
-  <a role="link" href="#How-to-Set-Up-Your-Digital-Gift-Cards?" rel="noreferrer">How to Set Up Your Digital Gift Cards?</a>
-  </li>
-  <li>
-  <a role="link" href="#Compliance-and-Regulations-for-Digital-Gift-Cards" rel="noreferrer">Compliance and Regulations for Digital Gift Cards</a>
-  </li>
-  <li>
-  <a role="link" href="#Digital-Gift-Cards-Security" rel="noreferrer">Digital Gift Cards Security</a>
-  </li>
-  <li>
-  <a role="link" href="#Sell-Gift-Cards-with-99minds" rel="noreferrer">Sell Gift Cards with 99minds</a>
-  </li>
-  <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-  <li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
-  </li>
- </div> 
 
  <h2 id="What-are-Digital-Gift-Cards?">What are Digital Gift Cards?</h2>
  Consider a standard gift card, a tangible card that may be used for specific purchases in the same way that cash or credit cards are. People frequently purchase these as gifts for relatives and family. Instead of devoting a lot of time to selecting a specific gift, simply get a gift card for a store or platform you believe they will appreciate. <a href="https://www.99minds.io/giftcard" role="link" target="_blank">Gift cards</a> contain a predetermined amount of money and can be purchased from various major retailers, including Best Buy, Target, Amazon, Steam, and several smaller online merchants. 
@@ -202,8 +208,8 @@ Using digital gift cards for in-store or online purchases is an easy and quick a
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -258,8 +264,8 @@ Setting up digital gift cards can be an effective way to increase sales, improve
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -376,8 +382,8 @@ Following regulations regarding gift card expiration dates is essential to stop 
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -435,8 +441,8 @@ Digital gift cards are convenient and flexible, but their security is critical f
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -497,3 +503,22 @@ Yes, digital gift cards are generally secure as they are stored electronically a
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Are There Any Fees Associated with Digital Gift Cards?</h3>Fees may vary depending on the platform and retailer. It's essential to read the terms and conditions before purchasing or using a digital gift card.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> Can I Reload a Digital Gift Card?</h3>Some digital gift cards are reloadable, allowing the recipient or purchaser to add funds for future use.</div>
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

@@ -13,30 +13,34 @@ url: "https://www.99minds.io/blog/marketing-tools"
 keywords: ["Marketing Tools"]
 ---
 
-<img rel="preload" src="/assets/blog/essential_marketing_tools.webp" alt="50+ essential marketing tools">
 
-As we approach 2024, businesses must arm themselves with the right tools to stay competitive in the fast-paced marketing world. The landscape has evolved, and the focus isn’t just on attracting customers but also retaining them. Leveraging the right marketing tools can streamline processes, enhance customer engagement, and drive long-term growth.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">   
     <a role="link" href="#What-are-Marketing-Tools?" rel="noreferrer">What are Marketing Tools?</a>
   </li>
-  <li>  
+   <li class="hover:bg-gray-100 lg:mt-4">  
     <a role="link" href="#Categories-of-Marketing-Tools" rel="noreferrer">Categories of Marketing Tools</a>
   </li>
-  <li>  
+   <li class="hover:bg-gray-100 lg:mt-4"> 
     <a role="link" href="#Essential-Marketing-Tools" rel="noreferrer">Essential Marketing Tools</a>
   </li>               
-  <li>  
+  <li class="hover:bg-gray-100 lg:mt-4">  
     <a role="link" href="#Final-Words-on-Marketing-Tools" ref="noreferrer">Final Words on Marketing Tools</a>
   </li>  
-  <li>  
+   <li class="hover:bg-gray-100 lg:mt-4">  
     <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Marketing-Tools" ref="noreferrer">Frequently Asked Questions (FAQs) on Marketing Tools</a>
   </li>  
 </ul>
 </div>
+
+<div class="w-full">
+<img rel="preload" src="/assets/blog/essential_marketing_tools.webp" alt="50+ essential marketing tools">
+
+As we approach 2024, businesses must arm themselves with the right tools to stay competitive in the fast-paced marketing world. The landscape has evolved, and the focus isn’t just on attracting customers but also retaining them. Leveraging the right marketing tools can streamline processes, enhance customer engagement, and drive long-term growth.
 
 <h2 id="What-are-Marketing-Tools?">What are Marketing Tools?</h2>
 
@@ -124,8 +128,8 @@ Virtual events have become a powerful way to connect with audiences. Webinar and
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -1321,4 +1325,25 @@ If retaining customers is a top priority, consider exploring <a href="https://ww
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the importance of marketing tools in 2024?</h3>Marketing tools are essential in 2024 to streamline workflows, improve customer engagement, and make data-driven decisions, ensuring businesses stay competitive and efficient.</div>
 
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
 
+
+
+</div>

@@ -1,0 +1,113 @@
+<section class="relative">
+  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 bg-[#FEFCF5]">
+    
+    <!-- Heading -->
+    <div class="text-center mb-10">
+      <h2 class="font-medium">
+        Design Stunning Passes with Our Intuitive Builder.<br/>Three simple steps
+      </h2>
+      <p class="mt-5 text-gray-600">
+        Get your mobile wallet passes up and running in minutes, not days.
+      </p>
+    </div>
+
+    <!-- Alpine Tabs + Auto Scroll -->
+    <div 
+      x-data="{
+        tabSelected: 1,
+        totalTabs: 3,
+        intervalId: null,
+        selectTab(step) {
+          this.tabSelected = step;
+          clearInterval(this.intervalId);
+          this.startAutoScroll();
+        },
+        startAutoScroll() {
+          this.intervalId = setInterval(() => {
+            this.tabSelected = (this.tabSelected % this.totalTabs) + 1;
+          }, 4000);
+        }
+      }"
+      x-init="startAutoScroll()"
+      class="relative lg:flex lg:items-start lg:gap-12"
+    >
+
+      <!-- Stepper Navigation -->
+      <div class="hidden lg:flex flex-col gap-6 min-w-[220px]">
+        <template x-for="step in totalTabs" :key="step">
+          <div class="flex items-center gap-3 cursor-pointer select-none"
+               @click="selectTab(step)">
+            
+            <!-- Step Circle -->
+            <div :class="tabSelected >= step 
+                        ? 'bg-indigo-500 text-white border-indigo-500' 
+                        : 'bg-white text-gray-700 border-gray-400'"
+                 class="flex items-center justify-center w-10 h-10 rounded-full border-2 font-semibold transition-all duration-300">
+              <span x-text="step"></span>
+            </div>
+
+            <!-- Step Label -->
+            <div class="text-sm font-medium"
+                 :class="tabSelected === step ? 'text-indigo-600' : 'text-gray-500'"
+                 x-text="[ 
+                   'Design your pass', 
+                   'Configure push notification', 
+                   'Distribute & analyze' 
+                 ][step - 1]">
+            </div>
+          </div>
+        </template>
+      </div>
+
+      <!-- Tab Content -->
+      <div class="flex-1 w-full">
+        
+        <!-- Step 1 -->
+        <div x-show="tabSelected === 1" x-cloak 
+             x-transition.opacity.scale.duration.500ms>
+          <section class="flex flex-col lg:flex-row gap-6">
+            <div class="text-center lg:text-left w-full lg:w-3/4 pb-5">
+              <h3 class="font-medium pb-2">Design your pass</h3>
+              <p class="text-gray-600 mb-4">
+                Choose a template and customize it with your branding, colors, and content using our intuitive visual editor. No coding required.
+              </p>
+              <img src="../assets/wallet/design_your_pass.webp" alt="Design your pass" 
+                   class="w-full h-auto object-cover rounded-xl shadow">
+            </div>
+          </section>
+        </div>
+
+        <!-- Step 2 -->
+        <div x-show="tabSelected === 2" x-cloak 
+             x-transition.opacity.scale.duration.500ms>
+          <section class="flex flex-col lg:flex-row gap-6">
+            <div class="text-center lg:text-left w-full lg:w-3/4 pb-5">
+              <h3 class="font-medium pb-2">Configure push notification</h3>
+              <p class="text-gray-600 mb-4">
+                Set up pass behavior, expiration dates, locations, and notifications to create a dynamic experience.
+              </p>
+              <img src="../assets/wallet/config.webp" alt="Configure push notification" 
+                   class="w-full h-auto object-cover rounded-xl shadow">
+            </div>
+          </section>
+        </div>
+
+        <!-- Step 3 -->
+        <div x-show="tabSelected === 3" x-cloak 
+             x-transition.opacity.scale.duration.500ms>
+          <section class="flex flex-col lg:flex-row gap-6">
+            <div class="text-center lg:text-left w-full lg:w-3/4 pb-5">
+              <h3 class="font-medium pb-2">Distribute & analyze</h3>
+              <p class="text-gray-600 mb-4">
+                Share passes via email, SMS, QR codes, or direct links, then track performance with detailed analytics.
+              </p>
+              <img src="../assets/wallet/distribute.webp" alt="Distribute & analyze" 
+                   class="w-full h-auto object-cover rounded-xl shadow">
+            </div>
+          </section>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

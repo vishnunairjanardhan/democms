@@ -13,7 +13,47 @@ url: "https://www.99minds.io/blog/shopify-loyalty-program"
 keywords: ["Shopify loyalty program ,shopify rewards program,how to create a loyalty program on shopify,how to set up a loyalty program on shopify,loyalty program on shopify,shopify customer loyalty program,rewards program for shopify,shopify loyalty points,loyalty program for shopify,shopify reward points,customer loyalty program shopify,shopify loyalty rewards program,loyalty rewards and referrals shopify,loyalty rewards and referrals shopify,benefits of a loyalty program"]
 
 --- 
-<img rel= "preload" role= "img" src="/assets/blog/shopify-loyalty-programs-a-complete-guide.webp" alt= "Shopify Loyalty Program">
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+  <a role="link" href="#What-Is-a-Shopify-Loyalty-Program?" rel="noreferrer">What Is a Shopify Loyalty Program?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Importance-Of-Loyalty-Programs-For-Shopify-Stores" rel="noreferrer">Importance Of Loyalty Programs For Shopify Stores</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Types-Of-Loyalty-Programs-For-Shopify-Store-Owners" rel="noreferrer">Types Of Loyalty Programs For Shopify Store Owners</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#How-To-Set-Up-a-Loyalty-Program-On-Shopify?" rel="noreferrer">How To Set Up a Loyalty Program On Shopify?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#The-Benefits-Of-Shopify-Loyalty-Programs" rel="noreferrer">The Benefits Of Shopify Loyalty Programs</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Promoting-Your-Shopify-Loyalty-Program" rel="noreferrer">Promoting Your Shopify Loyalty Program</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Monitoring-And-Optimizing-Shopify-Loyalty-Program" rel="noreferrer">Monitoring And Optimizing Shopify Loyalty Program</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Build-a-Loyalty-Program-On-Shopify-With-99minds" rel="noreferrer">Build a Loyalty Program On Shopify With 99minds</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
+  </li>
+ </div> 
+
+ <div class="w-full">
+ <img rel= "preload" role= "img" src="/assets/blog/shopify-loyalty-programs-a-complete-guide.webp" alt= "Shopify Loyalty Program">
 
 In the fast-paced world of online retailing, Shopify store owners are constantly looking for methods to differentiate themselves from the competition. One wonderful idea is to launch a Shopify loyalty program. These programs reward customers with points, discounts, or special incentives, keeping them interested and wanting to return.
 
@@ -22,40 +62,6 @@ However, implementing a loyalty program might be difficult. Many store owners ne
 We'll review everything you need to know about the Shopify loyalty program, including why they're important and how to establish one that works for your company.
 So, if you're ready to elevate your Shopify store and keep your customers returning for more, let's explore the world of the Shopify loyalty program together.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-Is-a-Shopify-Loyalty-Program?" rel="noreferrer">What Is a Shopify Loyalty Program?</a>
-  </li>
-  <li>
-  <a role="link" href="#Importance-Of-Loyalty-Programs-For-Shopify-Stores" rel="noreferrer">Importance Of Loyalty Programs For Shopify Stores</a>
-  </li>
-  <li>
-  <a role="link" href="#Types-Of-Loyalty-Programs-For-Shopify-Store-Owners" rel="noreferrer">Types Of Loyalty Programs For Shopify Store Owners</a>
-  </li>
-  <li>
-  <a role="link" href="#How-To-Set-Up-a-Loyalty-Program-On-Shopify?" rel="noreferrer">How To Set Up a Loyalty Program On Shopify?</a>
-  </li>
-  <li>
-  <a role="link" href="#The-Benefits-Of-Shopify-Loyalty-Programs" rel="noreferrer">The Benefits Of Shopify Loyalty Programs</a>
-  </li>
-  <li>
-  <a role="link" href="#Promoting-Your-Shopify-Loyalty-Program" rel="noreferrer">Promoting Your Shopify Loyalty Program</a>
-  </li>
-  <li>
-  <a role="link" href="#Monitoring-And-Optimizing-Shopify-Loyalty-Program" rel="noreferrer">Monitoring And Optimizing Shopify Loyalty Program</a>
-  </li>
-  <li>
-  <a role="link" href="#Build-a-Loyalty-Program-On-Shopify-With-99minds" rel="noreferrer">Build a Loyalty Program On Shopify With 99minds</a>
-  </li>
-  <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-  <li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
-  </li>
- </div> 
 
  <h2 id="What-Is-a-Shopify-Loyalty-Program?">What Is a Shopify Loyalty Program?</h2>
  A Shopify loyalty program is a set of incentives created to encourage patrons to return to your Shopify store and make purchases. These programs, which are designed to increase client interaction and promote repeat business, usually give points, discounts, or freebies with every purchase. 
@@ -173,8 +179,8 @@ Crafting strategies that not only drive repeat purchases but also deepen custome
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -254,8 +260,8 @@ Establishing a loyalty program is only the first step; the real difficulty is in
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -300,8 +306,8 @@ Regularly collect client input to find areas for improvement. Monitor online rev
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -369,3 +375,23 @@ A Shopify loyalty program incentivizes customer loyalty with rewards, discounts,
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How Can I Set Up a Loyalty Program On My Shopify Store, And What Are The Essential Steps To Consider?</h3> Setting up a loyalty program on your Shopify store involves several key steps. First, define your goals such as increasing customer retention or boosting order value. Next, choose a suitable loyalty app based on compatibility, customization, and budget. Integrate the app with your Shopify store and design a tailored program with reward tiers, earning rules, and a personalized experience. Promote the program across channels and monitor its performance to optimize effectiveness and success over time.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> What Are Some Best Practices And Tips For Creating a Successful Shopify Loyalty Program?</h3>
 To create a successful Shopify loyalty program, follow best practices: Define clear goals, design a user-friendly interface, personalize the experience, promote across channels, monitor KPIs, and optimize based on feedback and trends for maximum customer engagement and loyalty.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

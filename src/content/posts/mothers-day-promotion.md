@@ -13,17 +13,9 @@ url: "https://www.99minds.io/blog/mothers-day-promotion"
 keywords: ["eCommerce Referral Program"]
 
 ---
-
-<img rel="preload" role="img" src="/assets/blog/mothers-day-promotions.webp" alt="banner image of Mother’s Day Promotion blog">
-
-Mother’s Day is a special occasion, but finding the right gift can be stressful for customers. People are looking for gift ideas to give their mothers or the motherly figures in their lives on this special occasion. This creates a significant opportunity for eCommerce businesses to provide value and build lasting relationships with customers.
-
-According to the <a href="https://nrf.com/media-center/press-releases/mother-s-day-spending-expected-to-reach-34-1-billion" role="link" target="_blanck">National Retail Federation (NRF)</a>, U.S. consumers are projected to spend $34.1 billion on Mother’s Day in 2025. This marks an increase from $33.5 billion in 2024 and is approaching the record spending of $35.7 billion in 2023.
-
-Whether your business is in fashion, beauty, wellness, or digital services, these effective Mother’s Day promotion ideas will help your brand stand out, attract new customers, and maximize conversions during this meaningful holiday.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul role="list">
   <li>
   <a role="link" href="#1" rel="noreferrer">15 Effective Mother’s Day Promotion Ideas</a>
@@ -34,8 +26,16 @@ Whether your business is in fashion, beauty, wellness, or digital services, thes
   <li>
   <a role="link" href="#3" rel="noreferrer">Mother’s Day Promotion Frequently Ask Questions (FAQs)</a>
   </li>  
-  </ul>
- </div> 
+</ul>
+</div>
+<div class="w-full">
+<img rel="preload" role="img" src="/assets/blog/mothers-day-promotions.webp" alt="banner image of Mother’s Day Promotion blog">
+
+Mother’s Day is a special occasion, but finding the right gift can be stressful for customers. People are looking for gift ideas to give their mothers or the motherly figures in their lives on this special occasion. This creates a significant opportunity for eCommerce businesses to provide value and build lasting relationships with customers.
+
+According to the <a href="https://nrf.com/media-center/press-releases/mother-s-day-spending-expected-to-reach-34-1-billion" role="link" target="_blanck">National Retail Federation (NRF)</a>, U.S. consumers are projected to spend $34.1 billion on Mother’s Day in 2025. This marks an increase from $33.5 billion in 2024 and is approaching the record spending of $35.7 billion in 2023.
+
+Whether your business is in fashion, beauty, wellness, or digital services, these effective Mother’s Day promotion ideas will help your brand stand out, attract new customers, and maximize conversions during this meaningful holiday.
 
 <h2 id="1">15 Effective Mother’s Day Promotion Ideas</h2>
 
@@ -184,3 +184,20 @@ If you are looking to add gift cards as a part of your marketing strategy, we wo
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the best types of Mother’s Day promotions for eCommerce?</h3>Reward-based promotions, personalized gift bundles, and limited-edition product drops are some of the most effective Mother's Day promotions for eCommerce. These strategies encourage urgency, boost average order value, and create a memorable customer experience.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do you promote Mother's Day?</h3>To effectively promote Mother’s Day, use emotionally driven campaigns, showcase gift guides, launch loyalty-based incentives, and run targeted ads. Combine this with SMS, email, and social posts to reach buyers where they are and drive timely engagement.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can digital gift cards enhance a Mother’s Day promotion campaign for working moms?</h3>Digital gift cards offer flexibility and convenience, making them ideal for busy gift-givers. They allow working moms to choose what they really want, reduce delivery stress, and make last-minute gifting a breeze while keeping your brand top-of-mind.</div>
+</div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>

@@ -1,0 +1,16 @@
+---
+import IntegrationCircular from "../../components/features/IntegrationCircular.astro";
+import PartnersGrid from "./PartnersGrid.jsx";
+---
+<section class="relative">
+<div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-24">
+
+  <div class="mx-auto text-center"> 
+     <h2 class="font-medium mb-4">Seamless Integrations with Your Marketing Ecosystem.</h2> 
+     <p class="text-gray-500 max-w-4xl mx-auto mb-8 text-lg">
+      Connect your wallet passes with your existing CRM, POS, and marketing automation platforms to create a unified customer experience and streamline your operations.
+    </p> 
+  </div>
+  <PartnersGrid client:load/>
+</div>
+</section>

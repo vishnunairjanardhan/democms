@@ -36,7 +36,7 @@ Rather than giving people one day to enjoy a Father’s Day deal, send a special
 
 Use limited-time offers to urge customers to purchase from you. You’ll see a spike in sales if you make your offers time-sensitive because most customers don’t want to miss out on good deals.
 
-You can also give away free branded promotional items when customers spend a certain amount of money in your store. These things will not only encourage your buyers to spend more, but they will also promote your brand wherever they go. It’s a win-win situation for your company.
+You can also give away free <a href="https://www.99minds.io/blog/easter-promotion-ideas-for-brands-in-2022" target="_blank">branded promotional items</a> when customers spend a certain amount of money in your store. These things will not only encourage your buyers to spend more, but they will also promote your brand wherever they go. It’s a win-win situation for your company.
 
 <h3>Perform SEO</h3>
 
@@ -54,7 +54,7 @@ Installing themed mobiles or stands and using displays to emphasise size men’s
 
 Buyers are enticed by the selling of many products at a somewhat lower price. These are especially helpful when customers are unsure of what they want to buy.
 
-Consider trousers and shirt sets, or exotic foods in specific packaging for the event. That’s how the <a href="https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges" target="_blank">eCommerce company suggests a more appealing present to users at a cheaper cost than it would be if purchased separately</a>.
+Consider trousers and shirt sets, or exotic foods in specific packaging for the event. That’s how the <a href="https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-economic-challenges/" target="_blank">eCommerce company suggests a more appealing present to users at a cheaper cost than it would be if purchased separately</a>.
 
 <a href="https://giftcard.99minds.io/access/login" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE-03.jpg" alt="create your own personalized loyalty program"></a>
 
@@ -62,7 +62,7 @@ Consider trousers and shirt sets, or exotic foods in specific packaging for the 
 
 Remember that your core customers will be mothers, wives, and children, so adjust your messages smartly. Apart from it, invite them to share images of or with their fathers, as well as their favourite rite “dad joke.”
 
-Dads can then be featured on your social media pages and in your email campaigns. These types of messaging go a long way toward making clients feel like they can relate to you, establishing trust, and increasing sales.
+Dads can then be <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards" target="_blank">featured on your social media pages</a> and in your email campaigns. These types of messaging go a long way toward making clients feel like they can relate to you, establishing trust, and increasing sales.
 
 <h3>Allow customers to pick their own delivery dates.</h3>
 
@@ -70,7 +70,7 @@ This allows them to plan the delivery at a time and day that is convenient for t
 
 <h3>Social media strategies</h3>
 
-For this event, use your <a href="https://www.99minds.io/blog/how-to-use-gift-card-in-social-media-marketing" target="_blank">social media sites to engage with your fans more</a>. One useful tool is to design a gamified lottery or contest that motivates users to participate and contribute.
+For this event, use your <a href="https://www.99minds.io/blog/how-to-use-gift-card-in-social-media-marketing/" target="_blank">social media sites to engage with your fans more</a>. One useful tool is to design a gamified lottery or contest that motivates users to participate and contribute.
 
 You’ll not only increase revenue by increasing website traffic, but you’ll also be able to collect new leads and increase consumer interaction with your brand.
 

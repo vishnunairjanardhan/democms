@@ -13,17 +13,9 @@ url: "https://www.99minds.io/blog/increase-customer-loyalty"
 keywords: ["Loyalty Program"]
 
 --- 
-<img src="/assets/blog/15-proven-strategies-to-increase-customer-loyalty-retention.webp" alt="15 proven strategies to increase customer loyalty retention | Maximize ROI.">
-
-The lifeblood of any successful business is <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">customer loyalty</a>! Acquiring customers is no doubt an important aspect of e-commerce as we know it today, but keeping customers happy is just as critical. Research shows that a 5% increase in <a href="http://www.99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a> rates can increase profits by 75%. So what will keep customers coming back?
-In this blog, we’ll explore 15 proven strategies to increase customer loyalty and retention, helping you build strong relationships with your audience and secure long-term business growth.
-
-Understanding client devotion is basic for each commerce. Steadfast clients not as it were produce repeating income but too act as brand envoys, supporting for your items or administrations through word-of-mouth and social media. 
-
-By executing the correct procedures, businesses can develop deep-rooted connections with their client base, eventually driving to higher client lifetime esteem (CLV) and supported trade victory. 
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul role="list">
   <li>
   <a role="link" href="#What-is-Customer-Loyalty?" rel="noreferrer">What is Customer Loyalty?</a>
@@ -50,7 +42,17 @@ By executing the correct procedures, businesses can develop deep-rooted connecti
   <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Increase-Customer-Loyalty" rel="noreferrer">Frequently Asked Questions (FAQs) on Increase Customer Loyalty</a>
   </li>
   </ul>
- </div> 
+</div>
+
+<div class="w-full">
+<img src="/assets/blog/15-proven-strategies-to-increase-customer-loyalty-retention.webp" alt="15 proven strategies to increase customer loyalty retention | Maximize ROI.">
+
+The lifeblood of any successful business is <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">customer loyalty</a>! Acquiring customers is no doubt an important aspect of e-commerce as we know it today, but keeping customers happy is just as critical. Research shows that a 5% increase in <a href="http://www.99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a> rates can increase profits by 75%. So what will keep customers coming back?
+In this blog, we’ll explore 15 proven strategies to increase customer loyalty and retention, helping you build strong relationships with your audience and secure long-term business growth.
+
+Understanding client devotion is basic for each commerce. Steadfast clients not as it were produce repeating income but too act as brand envoys, supporting for your items or administrations through word-of-mouth and social media. 
+
+By executing the correct procedures, businesses can develop deep-rooted connections with their client base, eventually driving to higher client lifetime esteem (CLV) and supported trade victory. 
 
 <h2 id="What-is-Customer-Loyalty?">What is Customer Loyalty?</h2>
 
@@ -425,4 +427,20 @@ By prioritizing client fulfillment, effectively locks in along with your gatheri
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> How do loyalty programs help retain customers?</h3>Loyalty programs incentivize repeat purchases by offering points, discounts, or exclusive rewards. This encourages customers to stay engaged with your brand, return for future purchases, and even refer others.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What role does customer feedback play in building loyalty?</h3>Customer feedback helps businesses understand pain points and improve their products or services. When customers see that their opinions matter and lead to meaningful changes, they develop a deeper connection with the brand.</div>
-
+</div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>

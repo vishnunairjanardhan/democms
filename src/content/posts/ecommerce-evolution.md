@@ -13,18 +13,8 @@ url: "https://www.99minds.io/blog/ecommerce-evolution"
 keywords: ["e-commerce evolution"]
 
 --- 
-<img src="/assets/blog/e-commerce-trends-2025-the-evolution-of-digital-shopping.webp"></a>
-
-In just a few decades, e-commerce has switched from basic online transactions to an emergency shopping experience from AI. With a rapid lead by 2025, the industry is currently in another important moment driven by ambitious technology and changing consumer preferences.
-
-With the increasing prevalence of artificial intelligence (AI), hyper-personalized shopping experience and frictionless digital payment solutions, the way businesses and consumers transact online is transforming.
-In this climate of cut-throat competition, E-commerce brands are forced to innovate to stay relevant. Today’s shoppers crave quick, intuitive, and personalized shopping expeditions as if they’re effortless, and that includes everything from search to product discovery to checkout. Online shopping has never been more exciting, with AI-powered chatbots offering customers assistance, and augmented reality (AR) allowing them to virtually try on products.
-
-Moreover, the emergence of payment technology by digital wallets or adoption of crypto-currency or the burgeoning segment of buy-now-pay-later (BNPL) services will continue to revolutionize transactions. Consumer expectations are changing, making it more difficult for businesses to stay up to date with the latest tech trends lest they risk losing market share to more nimble and techliterate competitors.
-In this blog we will discuss some of the key innovations redefining the e-commerce evolution in 2025 and how businesses can adapt themselves to utilize these changes for an upper hand over the competition.
-
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
+<div class="lg:flex lg:gap-6">
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
 <p>Table of Contents:</p>
 <ul role="list">
   <li>
@@ -50,6 +40,16 @@ In this blog we will discuss some of the key innovations redefining the e-commer
   </li>
 </ul>
 </div>
+<div class="w-full">
+<img src="/assets/blog/e-commerce-trends-2025-the-evolution-of-digital-shopping.webp"></a>
+
+In just a few decades, e-commerce has switched from basic online transactions to an emergency shopping experience from AI. With a rapid lead by 2025, the industry is currently in another important moment driven by ambitious technology and changing consumer preferences.
+
+With the increasing prevalence of artificial intelligence (AI), hyper-personalized shopping experience and frictionless digital payment solutions, the way businesses and consumers transact online is transforming.
+In this climate of cut-throat competition, E-commerce brands are forced to innovate to stay relevant. Today’s shoppers crave quick, intuitive, and personalized shopping expeditions as if they’re effortless, and that includes everything from search to product discovery to checkout. Online shopping has never been more exciting, with AI-powered chatbots offering customers assistance, and augmented reality (AR) allowing them to virtually try on products.
+
+Moreover, the emergence of payment technology by digital wallets or adoption of crypto-currency or the burgeoning segment of buy-now-pay-later (BNPL) services will continue to revolutionize transactions. Consumer expectations are changing, making it more difficult for businesses to stay up to date with the latest tech trends lest they risk losing market share to more nimble and techliterate competitors.
+In this blog we will discuss some of the key innovations redefining the e-commerce evolution in 2025 and how businesses can adapt themselves to utilize these changes for an upper hand over the competition.
 
 <h2 id="What-is-E-commerce?">What is E-commerce?</h2>
 
@@ -308,6 +308,24 @@ E-commerce is poised for a future driven by convenience, personalization, and tr
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is the future of e-commerce in 2025?</h3>
 The future of e-commerce in 2025 is shaped by AI-driven personalization, AR/VR shopping experiences, sustainable practices, faster delivery options, and increased adoption of cryptocurrency payments. Brands are leveraging advanced technologies to create seamless, efficient, and engaging shopping experiences.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How is AI impacting e-commerce?</h3>
-AI is transforming e-commerce by offering personalized product recommendations, automating customer service through chatbots, optimizing inventory management, and enhancing fraud detection. AI-driven insights also help businesses improve their marketing strategies and customer experiences.<div><br>
+AI is transforming e-commerce by offering personalized product recommendations, automating customer service through chatbots, optimizing inventory management, and enhancing fraud detection. AI-driven insights also help businesses improve their marketing strategies and customer experiences.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What role does augmented reality (AR) play in online shopping?</h3>
 AR allows customers to visualize products before making a purchase. For example, shoppers can use AR apps to see how furniture fits in their home, try on clothes virtually, or test makeup shades, reducing uncertainty and increasing confidence in their buying decisions.</div><br>
+</div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+</div>

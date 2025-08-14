@@ -6,23 +6,15 @@ export const Ecommerce = [
   url: "/integrations/shopify",
   alt:"99minds-Shopify Integration"
 },
-// {
-//   image: '/integrations/Shopify-plus-icon.svg',
-//   title: 'Shopify Plus',
-//   desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
-//   url: "/integrations/shopifyplus",
-//   alt:"99minds-Shopify Plus Integration"
-// },
-
 {
-  image: '/integrations/BigCommerce-icon 1.svg',
+  image: '/integrations/BigCommerce-icon.svg',
   title: 'BigCommerce',
   desc: " Another popular e-commerce platform that integrates with 99minds for gift card functionality.  99minds empowers you to add advanced features to your BigCommerce store, such as scheduling delivery of gift cards, rewarding gift card purchases with loyalty points, and offering promotional gift cards to drive sales.",
   url: "/integrations/bigcommerce",
   alt:"99minds-Bigcommerce Integration"
 },
 {
-  image: '/integrations/woocommerce 1.svg',
+  image: '/integrations/woocommerce-logo.svg',
   title: 'WooCommerce',
   desc: "An open-source e-commerce plugin for WordPress that works with 99minds to provide gift card functionality.  99minds integrates seamlessly with WooCommerce, allowing you to offer advanced features like scheduling gift card delivery, integrating gift cards with your loyalty program, and creating promotional gift cards to attract new customers.",
   url: "/integrations/woocommerce",
@@ -35,12 +27,13 @@ export const Ecommerce = [
   url: "/integrations/salesforce",
   alt:"99minds-Salesforce Integration"
 },
-// {
-//   image: '/integrations/miva.svg',
-//   title: 'Miva',
-//   desc:"A flexible e-commerce platform that integrates with 99minds to provide gift card solutions.  99minds empowers you to add functionalities like scheduling gift card delivery, rewarding gift card purchases with loyalty points, and offering promotional gift cards to your Miva store, enhancing the value proposition for your customers.",
-//   alt:"99minds-Miva Integration"
-// }
+{
+  image: '/integrations/appbrew-icon.svg',
+  title: 'Appbrew',
+  desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
+  url: "/integrations/appbrew",
+  alt:"99minds-Appbrew Integration"
+}
 ]
 
 export const POS = [
@@ -51,13 +44,6 @@ export const POS = [
   url: "/integrations/square",
   alt:"99minds-Square Integration"
 },
-// {
-//   image: '/integrations/shopify-pos.svg',
-//   title: 'Shopify Pos',
-//   desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
-//   url: "/integrations/shopifypos",
-//   alt:"99minds-Shopify Pos Integration"
-// },
 {
   image: '/integrations/lightspeed.svg',
   title: 'Lightspeed R-Series',
@@ -68,8 +54,8 @@ export const POS = [
 {
   image: '/integrations/vend 3.svg',
   title: 'Lightspeed X-Series (Formerly Vend)',
-  desc: "99minds integrates with Lightspeed X-Series to offer a streamlined omnichannel solution for gift cards, loyalty programs, store credits, and coupons. This allows customers to enjoy the flexibility of using these programs seamlessly across your online store and your physical location managed by Lightspeed X-Series.",
-  url: "/integrations/lightspeed",
+  desc: "99minds integrates with Vend to offer a streamlined omnichannel solution for gift cards, loyalty programs, store credits, and coupons. This allows customers to enjoy the flexibility of using these programs seamlessly across your online store and your physical location managed by Lightspeed X-Series.",
+  url: "/integrations/vend",
   alt:"99minds-Vend Integration"
 },
 {
@@ -93,22 +79,10 @@ export const POS = [
   alt:"99minds-Hike Integration"
 },
 {
-  image: '/integrations/rp-white-logo 2.svg',
-  title: 'Retail Pro Prism',
-  desc: "99minds integrates with Retail Pro Prism, offering a unified approach to managing gift cards, loyalty programs, store credits, and coupons.  This ensures consistent program functionality across your online store and your Retail Pro Prism POS system.",
-  alt:"99minds-Retail Pro Prism Integration"
-},
-{
   image: '/integrations/runit.svg',
   title: 'Runit',
   desc: "99minds integrates with Runit POS to provide an omnichannel solution for gift cards, loyalty programs, store credits, and coupons.  Customers can enjoy the benefit of using these programs interchangeably between your online store and your Runit POS system.",
   alt:"99minds-Runit Integration"
-},
-{
-  image: '/integrations/retailpro.svg',
-  title: 'Retail Pro 9',
-  desc: "99minds integrates with Retail Pro 9, allowing you to create a unified platform for managing gift cards, loyalty programs, store credits, and coupons. This ensures a consistent customer experience across your online store and your Retail Pro 9 POS system.",
-  alt:"99minds-Retail Pro 9 Integration"
 },
 {
   image: '/integrations/connectpos.svg',
@@ -126,11 +100,6 @@ export const POS = [
 ]
 
 export const Marketing = [
-/*{
-  image: '/integrations/active-campaign 1.svg',
-  title: 'Active Campaign',
-  desc: 'A payment processing platform for online businesses.'
-},*/
 {
   title: "Omnisend",
   image: "/integrations/omnisend-icon.svg",

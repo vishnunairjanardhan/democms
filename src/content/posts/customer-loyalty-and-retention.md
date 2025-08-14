@@ -13,13 +13,8 @@ url: "https://www.99minds.io/blog/customer-loyalty-and-retention"
 keywords: ["customer loyalty and retention"]
 
 --- 
-<img src="/assets/blog/customer-loyalty-retention-the-ultimate-guide-to-long-term-success.webp"></a>
-
-Keeping clients cheerful and coming back is uncommonly imperative for companies that ought to stay and pick up a divide of cash for a long time. Getting new customers is obviously critical too, but making sure the ones you already got keep buying from you over and over is what makes your biz grow steadily, gives you a solid reputation, and brings in more cash on the regular.  
-
-In this article we'll check out what <a href="https://www.99minds.io/blog/build-customer-loyalty " role="link" target="_blank">customer loyalty</a> and retention actually mean, why companies gotta care about them, and some of the top ways to put programs in place that get people hooked on your brand.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
+<div class="lg:flex lg:gap-6">
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
 <p>Table of Contents:</p>
 <ul role="list">
   <li>
@@ -51,6 +46,12 @@ In this article we'll check out what <a href="https://www.99minds.io/blog/build-
   </li>
 </ul>
 </div>
+<div class="w-full">
+<img src="/assets/blog/customer-loyalty-retention-the-ultimate-guide-to-long-term-success.webp"></a>
+
+Keeping clients cheerful and coming back is uncommonly imperative for companies that ought to stay and pick up a divide of cash for a long time. Getting new customers is obviously critical too, but making sure the ones you already got keep buying from you over and over is what makes your biz grow steadily, gives you a solid reputation, and brings in more cash on the regular.  
+
+In this article we'll check out what <a href="https://www.99minds.io/blog/build-customer-loyalty " role="link" target="_blank">customer loyalty</a> and retention actually mean, why companies gotta care about them, and some of the top ways to put programs in place that get people hooked on your brand.
 
 <h2 id="What-is-Customer-Loyalty-&-Retention?">What is Customer Loyalty & Retention?</h2>
 
@@ -242,6 +243,24 @@ At <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a>, we
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why do businesses need to build loyalty among customers?</h3>
 They help in ensuring great customer service, personalization, and loyalty programs that helps in enhancing overall customer loyalty.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why Is Customer Retention Important?</h3>
-It reduces marketing costs, increases revenue, and strengthens brand reputation.<div><br>
+It reduces marketing costs, increases revenue, and strengthens brand reputation.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do you measure customer retention?</h3>
 Retainment success can be measured with metrics like CRR (Customer Retention Rate), NPS (Net Promoter Score) and Churn Rate.</div><br>
+
+ </div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>

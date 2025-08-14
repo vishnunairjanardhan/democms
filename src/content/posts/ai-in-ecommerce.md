@@ -13,15 +13,8 @@ url: "https://www.99minds.io/blog/ai-in-ecommerce"
 keywords: ["ai in ecommerce"]
 
 ---
-<img rel="preload" src="/assets/blog/ai-in-ecommerce.webp" alt="Best Shopify loyalty Apps in 2025">
-
-Artificial intelligence (AI) in eCommerce is rapidly transforming the online shopping landscape. With AI-driven personalized product recommendations and chatbots that provide immediate customer support, the shopping experience has become faster and more tailored to individual needs. Businesses are leveraging AI to gain deeper insights into customer preferences, which boosts sales and enhances [customer loyalty](https://www.99minds.io/blog/customer-loyalty).
-
-According to [Statista](https://www.statista.com/statistics/1256646/ai-in-retail-market-size/), the global market for AI in the retail industry was valued at $4.84 billion in 2021, and it is projected to reach $31.18 billion by 2028, highlighting its rapid growth and increasing adoption. 
-
-This remarkable rise indicates that companies are increasingly embracing AI tools, aware of their role in optimizing operations and improving efficiency. It's thrilling to see how AI in eCommerce is reshaping the connection between brands and customers, fostering a more engaging shopping environment.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
+<div class="lg:flex lg:gap-6">
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
 <p>Table of Contents:</p>
 <ul>
   <li>  
@@ -41,6 +34,15 @@ This remarkable rise indicates that companies are increasingly embracing AI tool
   </li>    
 </ul>
 </div>
+
+<div clasS="w-full">
+<img rel="preload" src="/assets/blog/ai-in-ecommerce.webp" alt="Best Shopify loyalty Apps in 2025">
+
+Artificial intelligence (AI) in eCommerce is rapidly transforming the online shopping landscape. With AI-driven personalized product recommendations and chatbots that provide immediate customer support, the shopping experience has become faster and more tailored to individual needs. Businesses are leveraging AI to gain deeper insights into customer preferences, which boosts sales and enhances [customer loyalty](https://www.99minds.io/blog/customer-loyalty).
+
+According to [Statista](https://www.statista.com/statistics/1256646/ai-in-retail-market-size/), the global market for AI in the retail industry was valued at $4.84 billion in 2021, and it is projected to reach $31.18 billion by 2028, highlighting its rapid growth and increasing adoption. 
+
+This remarkable rise indicates that companies are increasingly embracing AI tools, aware of their role in optimizing operations and improving efficiency. It's thrilling to see how AI in eCommerce is reshaping the connection between brands and customers, fostering a more engaging shopping environment.
 
 <h2 id="1">Benefits of AI in eCommerce</h2>
 
@@ -206,3 +208,22 @@ Provide your customers with the best possible shopping experience by finding suc
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the disadvantages of AI in eCommerce?</h3>Some disadvantages of AI in eCommerce include high implementation costs, data privacy concerns, and the need for continuous monitoring and updates to maintain efficiency.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How to integrate AI in eCommerce?</h3>To integrate AI in eCommerce, businesses can use AI-powered chatbots, recommendation engines, predictive analytics tools, visual search, and automation software to enhance customer experience and streamline operations.</div> 
+
+</div>
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+</div>

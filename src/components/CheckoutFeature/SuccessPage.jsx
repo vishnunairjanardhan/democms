@@ -10,10 +10,10 @@ const PaymentSuccessPage = () => {
       <p className="text-sm text-gray-500 mb-8">Order ID: {orderId}</p>
       <form action="/components/all-features">
         <div className="flex space-x-4">
-          <a href="/components/all-features" className="bg-green-700 hover:bg-green-600 text-white p-3 rounded-md">
+          <a href="/components/all-features" className="raise1 bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] text-white p-3 rounded-md">
             Restart Demo
           </a>
-          <a href="https://giftcard.99minds.io/access/register" className="bg-indigo-600 rounded-lg hover:bg-indigo-500 text-white p-3 rounded-md">
+          <a href="https://giftcard.99minds.io/access/register" className="raise1 group-hover:bg-opacity-10 bg-white border border-solid border-black rounded-lg hover:bg-gray-200 font-medium text-black p-3 rounded-md">
             Sign Up Now
           </a>
         </div>

@@ -13,15 +13,9 @@ url: "https://www.99minds.io/blog/retail-customer-engagement"
 keywords: ["Retail Customer Engagement"]
 
 ---
-
-<img rel="preload" role="img" src="/assets/blog/retail_customer_engagement.webp" alt="banner image of Retail Customer Engagement blog">
-
-Engaging customers effectively is the backbone of a successful retail business. According to research, <a href="https://www.pwc.com/us/en/advisory-services/publications/consumer-intelligence-series/pwc-consumer-intelligence-series-customer-experience.pdf" role="link" target="_blanck">86% of shoppers</a> are willing to pay more for a better customer experience. Rather than focusing solely on transactions, brands are shifting towards long-term engagement strategies that <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">build customer loyalty</a> and advocacy.
-
-Retail customer engagement is about creating meaningful interactions at every touchpoint. Whether through personalized marketing, omnichannel experiences, or innovative technology, businesses that prioritize engagement see higher retention, stronger <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">brand loyalty</a>, and increased sales.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul>
   <li>  
     <a role="link" href="#1" rel="noreferrer">What is Retail Customer Engagement?</a>
@@ -39,7 +33,13 @@ Retail customer engagement is about creating meaningful interactions at every to
     <a role="link" href="#5" rel="noreferrer">Retail Customer Engagement Frequently Ask Questions (FAQs)</a>
   </li>  
 </ul>
-</div>
+  </div> 
+<div class="w-full">
+<img rel="preload" role="img" src="/assets/blog/retail_customer_engagement.webp" alt="banner image of Retail Customer Engagement blog">
+
+Engaging customers effectively is the backbone of a successful retail business. According to research, <a href="https://www.pwc.com/us/en/advisory-services/publications/consumer-intelligence-series/pwc-consumer-intelligence-series-customer-experience.pdf" role="link" target="_blanck">86% of shoppers</a> are willing to pay more for a better customer experience. Rather than focusing solely on transactions, brands are shifting towards long-term engagement strategies that <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">build customer loyalty</a> and advocacy.
+
+Retail customer engagement is about creating meaningful interactions at every touchpoint. Whether through personalized marketing, omnichannel experiences, or innovative technology, businesses that prioritize engagement see higher retention, stronger <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">brand loyalty</a>, and increased sales.
 
 <h2 id="1">What is Retail Customer Engagement?</h2>
 
@@ -192,3 +192,21 @@ If you are seeking a solution to improve customer engagement strategies in ret
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How does technology improve retail customer engagement?</h3>Technologies like AI-powered recommendations, AR shopping, and chatbots enhance the shopping experience by providing convenience, personalization, and real-time support.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How does omnichannel retail improve customer engagement?</h3>Omnichannel retail ensures a seamless experience across online, mobile, and in-store shopping, making it easier for customers to interact with your brand consistently and conveniently across all touchpoints.</div>
+</div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+</div>

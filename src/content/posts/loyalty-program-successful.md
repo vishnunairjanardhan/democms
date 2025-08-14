@@ -13,17 +13,9 @@ url: "https://www.99minds.io/blog/loyalty-program-successful"
 keywords: ["Loyalty Program Successful"]
 
 ---
-
-<img rel="preload" role="img" src="/assets/blog/loyalty_program_successful.webp" alt="banner image of loyalty program successful blog">
-
-Successful businesses understand that their success is determined by how their customers are treated. A loyalty program successful in retaining customers makes them feel valued, involved, and rewarded. Innocent business owners don't go out of their way to satisfy their current consumers. They will spend hundreds and thousands of dollars on acquiring customers. Having a pipeline packed with qualified leads is perfectly acceptable, but it shouldn't come at the expense of existing customers.
-
-According to <a href="https://www.forbes.com/councils/forbesbusinesscouncil/2022/12/12/customer-retention-versus-customer-acquisition/" role="list" target="_blanck">Forbes</a>, onboarding a new customer is five to seven times more expensive than keeping your existing ones happy. According to <a href="https://hbr.org/2014/10/the-value-of-keeping-the-right-customers" role="list" target="_blanck">Harvard Business Review</a>, a 5% boost in <a href="https://www.99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a> increases profits from 25% to 95%. Customers that are already loyal to you and your product are more likely to spend more, make it easier to upsell and cross-sell to them, and even tell their friends and family about you.
-
-As a responsible business owner, you must provide your existing customers with a means of feeling appreciated and an incentive for referrals. A <a href="https://www.99minds.io/blog/loyalty-program" role="link" target="_blanck">loyalty program</a> makes sense in this situation. One of the best ways to thank your existing customers for their business and to give yourself a chance to welcome new ones is through loyalty programs.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul role="list">
     <li>  
     <a role="link" href="#1" rel="noreferrer">Essential Features of a Successful Loyalty Program</a>
@@ -39,6 +31,15 @@ As a responsible business owner, you must provide your existing customers with a
     </li>
 </ul>
 </div>
+
+<div class="w-full">
+<img rel="preload" role="img" src="/assets/blog/loyalty_program_successful.webp" alt="banner image of loyalty program successful blog">
+
+Successful businesses understand that their success is determined by how their customers are treated. A loyalty program successful in retaining customers makes them feel valued, involved, and rewarded. Innocent business owners don't go out of their way to satisfy their current consumers. They will spend hundreds and thousands of dollars on acquiring customers. Having a pipeline packed with qualified leads is perfectly acceptable, but it shouldn't come at the expense of existing customers.
+
+According to <a href="https://www.forbes.com/councils/forbesbusinesscouncil/2022/12/12/customer-retention-versus-customer-acquisition/" role="list" target="_blanck">Forbes</a>, onboarding a new customer is five to seven times more expensive than keeping your existing ones happy. According to <a href="https://hbr.org/2014/10/the-value-of-keeping-the-right-customers" role="list" target="_blanck">Harvard Business Review</a>, a 5% boost in <a href="https://www.99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a> increases profits from 25% to 95%. Customers that are already loyal to you and your product are more likely to spend more, make it easier to upsell and cross-sell to them, and even tell their friends and family about you.
+
+As a responsible business owner, you must provide your existing customers with a means of feeling appreciated and an incentive for referrals. A <a href="https://www.99minds.io/blog/loyalty-program" role="link" target="_blanck">loyalty program</a> makes sense in this situation. One of the best ways to thank your existing customers for their business and to give yourself a chance to welcome new ones is through loyalty programs.
 
 <h2 id="1">Essential Features of a Successful Loyalty Program</h2>
 
@@ -227,7 +228,20 @@ Platforms like <a href="https://www.99minds.io/" role="link" target="_blanck">99
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How to measure loyalty program success?</h3>Businesses can track key performance indicators (KPIs) such as customer retention rate, repeat purchase rate, average order value, and customer lifetime value (CLV) to evaluate program effectiveness.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can companies increase customer engagement in loyalty programs?</h3>Companies can enhance engagement by offering gamification elements, interactive challenges, referral incentives, and personalized promotions that create a rewarding and immersive experience for customers.</div>
-
-
-
-
+</div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>

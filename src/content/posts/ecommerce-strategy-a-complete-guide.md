@@ -13,34 +13,40 @@ url: "https://www.99minds.io/blog/ecommerce-strategy-a-complete-guide"
 keywords: ["ecommerce strategy, ecommerce strategies, strategies of ecommerce, ecommerce business strategy, strategies of ecommerce"]
 
 ---
-<img rel="preload" role="img" src="/assets/blog/ecommerce-strategy-a-complete-guide.webp" alt="how can small businesses can increase sales with gift cards">
+
+
+<div class="lg:flex lg:gap-6">
+<!-- Table of content section -->
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+<p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-is-Ecommerce-Strategy" rel="noreferrer">What is Ecommerce Strategy?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+      <a role="link" href="#why-Ecommerce-Strategies-are-Important" rel="noreferrer">Why Ecommerce Strategies are Important</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+      <a role="link" href="#how-to-Build-an-Ecommerce-Strategy" rel="noreferrer">How to Build an Ecommerce Strategy?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+      <a role="link" href="#types-of-Ecommerce-Strategies" rel="noreferrer">Types of Ecommerce Strategies</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+      <a role="link" href="#conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+      <a role="link" href="#FAQs" rel="noreferrer">FAQs</a>
+  </li>
+ </div> 
+
+ <div class="w-full">
+ <img rel="preload" role="img" src="/assets/blog/ecommerce-strategy-a-complete-guide.webp" alt="how can small businesses can increase sales with gift cards">
 
 Over the years, ecommerce has continued to change and evolve. Many companies sell online to reach more customers and generate more sales. But the thing is, ecommerce success isn't just about moving things online. You need a solid ecommerce strategy for consistent growth and to stay ahead of your competitors. You need a solid ecommerce strategy for consistent growth and to stay ahead of your competitors.
 
 This article will discuss everything you need to create and carry out a successful ecommerce strategy plan. It’s got steps, tips, and examples to help you build a successful and profitable ecommerce store.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-is-Ecommerce-Strategy" rel="noreferrer">What is Ecommerce Strategy?</a>
-  </li>
-  <li>
-      <a role="link" href="#why-Ecommerce-Strategies-are-Important" rel="noreferrer">Why Ecommerce Strategies are Important</a>
-  </li>
-  <li>
-      <a role="link" href="#how-to-Build-an-Ecommerce-Strategy" rel="noreferrer">How to Build an Ecommerce Strategy?</a>
-  </li>
-  <li>
-      <a role="link" href="#types-of-Ecommerce-Strategies" rel="noreferrer">Types of Ecommerce Strategies</a>
-  </li>
-  <li>
-      <a role="link" href="#conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-  <li>
-      <a role="link" href="#FAQs" rel="noreferrer">FAQs</a>
-  </li>
- </div> 
 
 <h2 id="What-is-Ecommerce-Strategy">What is Ecommerce Strategy?</h2>
 
@@ -112,7 +118,7 @@ Store credits help ecommerce businesses build recurring users and regain their u
 You can also set up a <a href="https://www.99minds.io/store-credit" role="link" target="_blank">store credit</a> program on your store. 
 The store credit functionality at <a href="http://www.99minds.io" role="link" target="_blank">99minds</a> makes credit administration easier for online firms. It's flexible, automated, and works smoothly with existing systems. It’s easy to use and even provides powerful analytics to make educated decisions. Overall, it simplifies processes and enhances the customer experience.</li>
 
-<a role="link" href="https://www.99minds.io/store-credit" target="_blank"><img role="img" loading="lazy" class="m-auto lg:w-3/5 py-6" src="/assets/blog/store-credit-banner.webp" alt="Store credit at 99minds"></a>
+<a role="link" href="https://www.99minds.io/storecredit" target="_blank"><img role="img" loading="lazy" class="m-auto lg:w-3/5 py-6" src="/assets/blog/store-credit-banner.webp" alt="Store credit at 99minds"></a>
 
 <li><h3>Email Marketing</h3> Use email marketing to build relationships with your clients and boost revenue. Develop email campaigns that focus on providing useful information, announcing promotions, and increasing leads. Use custom landing pages and automation tools to simplify your email marketing and increase engagement.</li>
 
@@ -169,8 +175,8 @@ Another interesting fact from <a href="https://www.customerengagementinsider.com
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -256,3 +262,22 @@ To boost sales online, businesses should make their eCommerce Strategy effective
 There are a few types of eCommerce Strategy approaches: selling on big websites like Amazon, selling directly to customers from your website, offering subscriptions, using both online and offline stores, selling without keeping stock (dropshipping), and selling on social media.
 </div> 
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

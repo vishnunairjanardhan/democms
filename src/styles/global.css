@@ -39,8 +39,8 @@
 
 .raise1:hover,
 .raise1:focus {
-  box-shadow: 0 1.5em 1.5em -0.2em rgba(15, 15, 15, 0.6);
-  transform: translateY(-0.40em);
+  box-shadow: 0 0.6em 0.6em -0.4em rgba(15, 15, 15, 0.6);
+  transform: translateY(-0.25em);
   transition: 0.3s;
   
 }
@@ -50,7 +50,7 @@ h1{
   line-height: 3.5rem;
   letter-spacing: -0.05em;
   font-weight: 500;
-  color: white;
+  color: black;
 }
 
 h2{
@@ -58,21 +58,25 @@ h2{
   line-height: 2.5rem;
   letter-spacing: -0.025em;
   font-weight: 400;
-  color: white;
+  color: black;
 }
 
 h3{
   font-size: 1.5rem;
   line-height: 2rem;
-  color: white;
+  color: black;
   font-weight: 400;
 }
 
 p{
   font-size: 18px;
-  color:rgb(185,186,189);
+  color:black;
   font-weight: 400;
 }
+
+/* img{
+  border-radius: 16px;
+} */
 
 /* Change cursor for the entire website */
 /* body {
@@ -86,3 +90,232 @@ a, button, span {
 .cursor-pointer {
   cursor: url('/assets/cursor/glubs.png'), auto;
 } */
+
+/* Common styles for dropdowns */
+#resources-dropdown, #products-dropdown {
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 50;
+}
+
+/* Apply mobile styles to medium screens */
+@media (max-width: 1024px) {
+  /* Make dropdowns full width */
+  #products-dropdown, #resources-dropdown {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+    transform: none;
+    padding-right: 0;
+  }
+  #resources-dropdown .bg-white, #products-dropdown .bg-white {
+  display: flex;
+  flex-direction: row;
+  gap: 1.3rem;
+}
+ #resources-dropdown #resources li {
+  margin-top: 1.5rem;
+}
+ /* Remove left margin on li elements */
+  #resources-dropdown ul li,
+  #products-dropdown ul li {
+    margin-left: 0 !important;
+  }
+
+  /* Ensure ul has no extra margin or padding */
+  #resources-dropdown ul, 
+  #products-dropdown ul {
+    margin-left: 0 !important;
+  }
+
+  #resources-dropdown .highlights {
+  margin-left: 0 !important;
+}
+
+  /* Ensure div with border doesn't add unwanted spacing */
+  .border-r {
+    margin-left: 0 !important;
+  } 
+
+  /* Adjust dropdown content to single-column */
+  #resources-dropdown .bg-white,
+  #products-dropdown .bg-white {
+    flex-direction: column;
+    padding: 1rem;
+    height: auto;
+    width: 100%;
+  }
+
+  /* Ensure all items in Products dropdown align in one column */
+  #products-dropdown ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #products-dropdown li {
+    width: 100%;
+  }
+
+  /* Style individual sections */
+  .border-r {
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+  #resources-dropdown ul, #products-dropdown ul {
+    margin-left: 0;
+    padding: 0.5rem;
+  }
+
+  /* Hide demo button */
+  #resources-dropdown #demo-button, 
+  #products-dropdown #demo-button {
+    margin: 1rem 0;
+  }
+
+  #demo-button li {
+    margin: 1rem 0;
+  }
+
+  /* Hide decorative elements */
+  #resources-dropdown .pr-[27rem], 
+  #products-dropdown .pr-[27rem] {
+    padding-right: 0;
+  }
+
+  /* Adjust image containers */
+  #demo-button .flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #demo-button .flex div[style*="width: 200px"] {
+    width: 100% !important;
+    margin-bottom: 0.5rem;
+  }
+
+  #demo-button .flex img {
+    width: 100%;
+    height: auto;
+  }
+
+  #demo-button .flex .ml-6 {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}
+
+/* Small screen adjustments */
+@media (max-width: 480px) {
+  #resources-dropdown, #products-dropdown {
+    padding: 0;
+  }
+  #products-dropdown .hideThis {
+  display: none !important;
+}
+ #resources-dropdown .hideThis {
+  display: none !important;
+}
+
+#resources-dropdown #resources li {
+  margin-top: 1.5rem;
+}
+  #resources-dropdown .bg-white, #products-dropdown .bg-white {
+    border-radius: 0;
+  }
+}
+
+
+
+/* Custom animation styles for Integration Main Page  */
+
+ /* Custom animation for orbiting logos  */
+ @keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(var(--orbit-radius)) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(var(--orbit-radius)) rotate(-360deg);
+  }
+}
+
+/* Custom properties for orbit animation */
+.circle-1 .logo-container:nth-child(1) {
+  --orbit-radius: 140px;
+  animation: orbit 25s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -0s;
+}
+
+.circle-1 .logo-container:nth-child(2) {
+  --orbit-radius: 140px;
+  animation: orbit 25s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -8.33s;
+}
+
+.circle-1 .logo-container:nth-child(3) {
+  --orbit-radius: 140px;
+  animation: orbit 25s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -16.67s;
+}
+
+.circle-2 .logo-container:nth-child(1) {
+  --orbit-radius: 190px;
+  animation: orbit 30s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -5s;
+}
+
+.circle-2 .logo-container:nth-child(2) {
+  --orbit-radius: 190px;
+  animation: orbit 30s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -17.5s;
+}
+
+.circle-3 .logo-container:nth-child(1) {
+  --orbit-radius: 210px;
+  animation: orbit 35s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -2.92s;
+}
+
+.circle-3 .logo-container:nth-child(2) {
+  --orbit-radius: 210px;
+  animation: orbit 35s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -14.58s;
+}
+
+.circle-3 .logo-container:nth-child(3) {
+  --orbit-radius: 210px;
+  animation: orbit 35s linear infinite;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 50px);
+  animation-delay: -24.79s;
+}

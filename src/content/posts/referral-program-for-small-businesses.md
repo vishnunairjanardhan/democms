@@ -14,6 +14,32 @@ keywords: ["referral programs for small businesses", "referral programs for smal
 
 --- 
 
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#The-Benefits-of-Referral-Programs-for-Small-Businesses" rel="noreferrer">The Benefits of Referral Programs for Small Businesses</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Successful-Strategy-to-Build-Referral-Program-for-Small-Business" rel="noreferrer">Successful Strategy to Build Referral Program for Small Business</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Examples-of-Best-Referral-Programs-for-Small-Business" rel="noreferrer">Examples of Best Referral Programs for Small Business</a>
+  </li>    
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Small-Business-Referral-Program-Frequently-Asked-Questions-(FAQs)" ref="noreferrer">Small Business Referral Program Frequently Asked Questions (FAQs)</a>
+  </li>                    
+</ul>
+</div> 
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/referral-program-for-small-businesses.webp" alt="How to build referral program for small businesses">
 
 <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">Referral programs</a> are one of the most effective marketing strategies for small businesses. By harnessing the power of word-of-mouth, small businesses can turn their satisfied customers into powerful advocates who help attract new customer. In the digital age, referral programs for small businesses have become easier to implement and more impactful, making them an essential tool for growth.
@@ -22,26 +48,6 @@ Why are referral programs for small businesses so valuable? As Jim Rohn famously
 
 For small businesses, referral programs can be a game-changer. They help acquire new customers, boost loyalty, reduce churn, and increase revenue. If your small business doesn't have a <a href="https://www.99minds.io/blog/referral-marketing" role="link" target="_blanck">referral marketing strategy</a>, you're missing a valuable opportunity for organic growth.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a role="link" href="#The-Benefits-of-Referral-Programs-for-Small-Businesses" rel="noreferrer">The Benefits of Referral Programs for Small Businesses</a>
-  </li>
-  <li>  
-    <a role="link" href="#Successful-Strategy-to-Build-Referral-Program-for-Small-Business" rel="noreferrer">Successful Strategy to Build Referral Program for Small Business</a>
-  </li>
-  <li>  
-    <a role="link" href="#Examples-of-Best-Referral-Programs-for-Small-Business" rel="noreferrer">Examples of Best Referral Programs for Small Business</a>
-  </li>    
-  <li>  
-    <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
-  </li>
-  <li>
-    <a role="link" href="#Small-Business-Referral-Program-Frequently-Asked-Questions-(FAQs)" ref="noreferrer">Small Business Referral Program Frequently Asked Questions (FAQs)</a>
-  </li>                    
-</ul>
-</div> 
 
 <h2 id="The-Benefits-of-Referral-Programs-for-Small-Businesses">The Benefits of Referral Programs for Small Businesses</h2>
 
@@ -107,8 +113,8 @@ For example, a small business can start with a simple referral program that offe
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -320,3 +326,26 @@ Working with a <a href="https://www.99minds.io/referral" role="link" target="_bl
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can I make my small business referral program more effective?</h3>Make it easy to understand and participate, choose appealing incentives, and promote it through email marketing, social media, and personalized content.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why should small businesses consider double-sided referral programs?</h3>Double-sided referral programs reward both the referrer and the new customer, increasing the likelihood of participation and driving more referrals.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

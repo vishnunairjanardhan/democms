@@ -14,31 +14,36 @@ keywords: ["Shopify"]
 
 --- 
 
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">   
+    <a role="link" href="#Best-Shopify-Loyalty-Apps" rel="noreferrer">Best Shopify Loyalty Apps</a>
+  </li>           
+ <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Final-Words-on-Shopify-Loyalty-Apps" ref="noreferrer">Final Words on Shopify Loyalty Apps</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Shopify-Loyalty-Apps" ref="noreferrer">Frequently Asked Questions (FAQs) on Shopify Loyalty Apps</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" src="/assets/blog/best-shopify-loyalty-app.webp" alt="Best Shopify loyalty Apps in 2025">
 
 If you’re running a Shopify store in 2025, you already know the game isn’t just about attracting new customers anymore—it’s about keeping them. Loyalty is the name of the game, and guess what? It pays off in spades. A strong <a href="https://www.99minds.io/loyalty" role="link" target="blanck">loyalty program</a> can boost <a href="https://www.99minds.io/blog/customer-retention" role="link" target="blanck">customer retention</a>, increase repeat purchases, and create brand advocates who do half your marketing for you. But with so many apps out there, finding the perfect Shopify loyalty app for your store can feel overwhelming. Don’t worry—I’ve got you covered.
 
 In this blog, I’m breaking down the 12 best Shopify loyalty apps for 2025. Whether you’re a small business just starting out or an established store looking to level up, there’s something here for everyone. 
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#Best-Shopify-Loyalty-Apps" rel="noreferrer">Best Shopify Loyalty Apps</a>
-  </li>           
-  <li>  
-    <a role="link" href="#Final-Words-on-Shopify-Loyalty-Apps" ref="noreferrer">Final Words on Shopify Loyalty Apps</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Shopify-Loyalty-Apps" ref="noreferrer">Frequently Asked Questions (FAQs) on Shopify Loyalty Apps</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="Best-Shopify-Loyalty-Apps">Best Shopify Loyalty Apps</h2>
 <ol>
 <li>
-<h3>99minds Gift Card & Loyalty</h3>
+<h3>99minds</h3>
 
 <a href="https://apps.shopify.com/99minds-gift-card-loyalty-referral" role="link" target="blanck">99minds</a> is a powerful Shopify loyalty app that enables merchants to create personalized loyalty programs tailored to their audience. Its advanced segmentation and automation features make it a favorite among businesses looking to offer unique customer experiences.
 
@@ -203,10 +208,10 @@ In this blog, I’m breaking down the 12 best Shopify loyalty apps for 2025. Whe
 
 <b>Why it’s great</b>:
 <ul>
-<li>Points and rewards system.</li>
-<li>Referral and VIP programs.</li>
-<li>Customizable program designs.</li>
-<li>Integration with Shopify.</li>
+<li>Points and rewards system</li>.
+<li>Referral and VIP programs</li>.
+<li>Customizable program designs</li>.
+<li>Integration with Shopify</li>.
 </ul>
 
 <b>Best For</b>: Small businesses seeking a comprehensive and affordable loyalty app.
@@ -322,8 +327,8 @@ Glow is a flexible and affordable loyalty app designed to help Shopify merchants
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -353,3 +358,25 @@ Ready to take your loyalty game to the next level? Start with <a href="https://w
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can I customize the loyalty program for my brand?</h3>Yes, most Shopify loyalty apps allow extensive customization of rewards, points, branding, and more to align with your store’s identity.</div>
 
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

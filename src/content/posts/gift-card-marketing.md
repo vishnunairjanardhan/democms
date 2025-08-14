@@ -13,33 +13,39 @@ url: "https://www.99minds.io/blog/gift-card-marketing"
 keywords: ["gift card marketing","marketing gift card","gift card advertising ideas","gift certificate marketing"]
 
 ---
-<img src="/assets/blog/Gift-Card-Marketing-10-Strategies-to-Boost-Your-Sales-and-ROI.webp" alt="Gift card marketing in 2022">
 
-In today's cutthroat retail environment, <a href="https://www.99minds.io/giftcard" role="link" target="_blanck">gift card software</a> are vital for increasing sales and strengthening <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">customer loyalty</a>. Effective gift card marketing strategies can significantly boost revenue, draw in new clients, and raise brand awareness. This blog will discuss cutting-edge gift card marketing strategies, provide actionable gift card advertising ideas, and showcase best practices for maximizing the marketing of gift certificates.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-<li>
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#What-is-Gift-Card-Marketing?" rel="noreferrer">What is Gift Card Marketing?</a>
   </li>
-<li>
+<li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Benefits-of-Effective-Gift-Card-Marketing" rel="noreferrer">Benefits of Effective Gift Card Marketing</a>
   </li>
-<li>
+<li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#10-Strategies-for-Successful-Gift-Card-Marketing
 " rel="noreferrer">10 Strategies for Successful Gift Card Marketing</a>
   </li>
-   <li>
+   <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Explore-the-Benefits-of-Gift-Cards-with-99minds" rel="noreferrer">Explore the Benefits of Gift Cards with 99minds</a>
   </li>
-<li>
+<li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
   </li>
-<li>
+<li class="hover:bg-gray-100 lg:mt-4">
  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
   </li>
  </div>
+
+ <div class="w-full">
+ <img src="/assets/blog/Gift-Card-Marketing-10-Strategies-to-Boost-Your-Sales-and-ROI.webp" alt="Gift card marketing in 2022">
+
+In today's cutthroat retail environment, <a href="https://www.99minds.io/giftcard" role="link" target="_blanck">gift card software</a> are vital for increasing sales and strengthening <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">customer loyalty</a>. Effective gift card marketing strategies can significantly boost revenue, draw in new clients, and raise brand awareness. This blog will discuss cutting-edge gift card marketing strategies, provide actionable gift card advertising ideas, and showcase best practices for maximizing the marketing of gift certificates.
+
 
  <h2 id="What-is-Gift-Card-Marketing?">What is Gift Card Marketing?</h2>
 
@@ -258,8 +264,8 @@ Explore our 99minds Gift Card selection and make purchases directly through our 
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -297,3 +303,26 @@ Marketing using <a href="https://www.99minds.io/giftcard" role="link" target="_b
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the benefits of 99minds gift cards?
 </h3>99minds gift cards offer versatility, convenience, and attractive designs. They can be used for a range of products and services, with easy online purchase and management options.</div>
 
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

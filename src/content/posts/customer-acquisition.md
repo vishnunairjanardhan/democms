@@ -15,38 +15,41 @@ keywords: ["Customer Acquisition"]
 
 --- 
 
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#1" rel="noreferrer">What is Customer Acquisition?</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#2" rel="noreferrer">Benefits of Customer Acquisition</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#3" rel="noreferrer">Stages of Customer Acquisition Process</a>
+  </li>    
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#4" rel="noreferrer">10 Effective Customer Acquisition Strategies</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#5" rel="noreferrer">How to Calculate Customer Acquisition Cost?</a>
+  </li>   
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#6" ref="noreferrer">Conclusion</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" role="link" href="#7" ref="noreferrer">Customer Acquisition Frequently Ask Question (FAQs)</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" src="/assets/blog/customer_acquisition_blog_blanner.webp" alt="Complete guide on customer acquisition and thier strategies to acquire customer">
 
 Customer acquisition is the cornerstone of business growth. It involves the vital process of attracting and converting new customers, which ensures a steady and sustainable revenue stream. Without new customers, businesses risk stagnation and missed opportunities. Maintaining a strong customer base is essential for success in todays increasingly competitive market. 
 
 However, acquiring customers goes beyond merely increasing visibility; it requires a strategic and well-planned approach. This approach should focus on understanding consumer needs, engaging effectively with potential customers, and converting them into loyal advocates who will promote your brand to others.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#1" rel="noreferrer">What is Customer Acquisition?</a>
-  </li> 
-  <li>
-    <a role="link" href="#2" rel="noreferrer">Benefits of Customer Acquisition</a>
-  </li>
-  <li>
-    <a role="link" href="#3" rel="noreferrer">Stages of Customer Acquisition Process</a>
-  </li>    
-  <li>
-    <a role="link" href="#4" rel="noreferrer">10 Effective Customer Acquisition Strategies</a>
-  </li> 
-  <li>
-    <a role="link" href="#5" rel="noreferrer">How to Calculate Customer Acquisition Cost?</a>
-  </li>   
-  <li>  
-    <a role="link" href="#6" ref="noreferrer">Conclusion</a>
-  </li>
-  <li>  
-    <a role="link" role="link" href="#7" ref="noreferrer">Customer Acquisition Frequently Ask Question (FAQs)</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="1">What is Customer Acquisition?</h2>
 
@@ -315,8 +318,8 @@ Using it strategically can help companies generate consistent customer inflow wh
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -368,3 +371,26 @@ At <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a>, w
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the three parts of customer acquisition?</h3>The three main parts of customer acquisition include awareness, consideration, and conversion. Awareness involves reaching potential customers through marketing efforts, consideration refers to engaging them and showcasing value, and conversion is the final step where leads are turned into actual customers.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why is customer acquisition so important?</h3>Customer acquisition is vital for business growth and sustainability. It contributes to revenue generation, increases brand visibility, and helps build a loyal customer base. A strong acquisition strategy enables businesses to compete effectively and adapt to market changes while expanding their reach in increasingly crowded marketplaces.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

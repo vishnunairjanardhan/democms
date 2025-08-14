@@ -13,33 +13,39 @@ url: "https://www.99minds.io/blog/customer-loyalty-trends"
 keywords: ["customer loyalty trends","loyalty programs trends","loyalty trends", "trends in loyalty programs","loyalty program trends","future of loyalty programs"]
 
 ---
-<img src="/assets/blog/Top-Customer-Loyalty-Trends-to-Watch-in-2024.webp" alt="Top Customer Loyalty Trends to Watch in 2024">
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Introduction" rel="noreferrer">Introduction</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-is-Customer-Loyalty?" rel="noreferrer">What is Customer Loyalty?</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Why-Customer-Loyalty-Trends-are-Important-?" rel="noreferrer">Why Customer Loyalty Trends are Important?</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Top-14-Customer-Loyalty-Trends-for-2024" rel="noreferrer">Top 14 Customer Loyalty Trends for 2024</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
+  </li>
+ </div>
+
+ <div class="w-full">
+ <img src="/assets/blog/Top-Customer-Loyalty-Trends-to-Watch-in-2024.webp" alt="Top Customer Loyalty Trends to Watch in 2024">
 
 
 For e-commerce businesses to thrive sustainably, <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blank">customer loyalty</a> is crucial, and keeping up with the current customer loyalty trends is imperative. In this blog article, we'll look at this year's top loyalty program trends and how they affect <a href="https://www.99minds.io/loyalty" role="link" target="_blank">loyalty programs</a>.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-<li>
-  <a role="link" href="#Introduction" rel="noreferrer">Introduction</a>
-  </li>
-<li>
-  <a role="link" href="#What-is-Customer-Loyalty?" rel="noreferrer">What is Customer Loyalty?</a>
-  </li>
-<li>
-  <a role="link" href="#Why-Customer-Loyalty-Trends-are-Important-?" rel="noreferrer">Why Customer Loyalty Trends are Important?</a>
-  </li>
-<li>
-  <a role="link" href="#Top-14-Customer-Loyalty-Trends-for-2024" rel="noreferrer">Top 14 Customer Loyalty Trends for 2024</a>
-  </li>
-<li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-<li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
-  </li>
- </div>
 
 Customer expectations are always changing, along with the e-commerce market. Today's Consumers want frictionless interactions, ethical business practices, and tailored experiences in addition to transactions. Trends in loyalty programs have seen various new themes arise due to this change. We'll examine these developments in more detail in this post and see how they will affect the future of loyalty programs.
 
@@ -110,8 +116,8 @@ Adapting to new trends is not just about staying current—it's about leveraging
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -365,3 +371,23 @@ Omni-channel loyalty programs, a key aspect of customer loyalty trends, provide 
 Gamification aligns with customer loyalty trends by making loyalty programs more engaging and interactive. It uses game-like elements such as challenges and leaderboards to motivate customers and increase participation.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why is sustainability a significant aspect of customer loyalty trends?</h3>
 Sustainability is a crucial part of customer loyalty trends as it aligns with the growing consumer demand for ethical practices. Incorporating sustainability into loyalty programs can improve brand reputation, foster customer loyalty, and appeal to environmentally-conscious consumers.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

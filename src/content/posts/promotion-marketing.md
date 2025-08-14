@@ -13,18 +13,9 @@ url: "https://www.99minds.io/blog/promotion-marketing"
 keywords: ["Promotion Marketing"]
 
 --- 
-<img src="/assets/blog/the_complete_guide_to_promotion_marketing_tips_types_benefits.webp" alt="The Complete Guide to Promotion Marketing: Tips, Types & Benefits.">
-
-<h2>Introduction to Promotion Marketing</h2>
-
-Promotional marketing is the umbrella under which your marketing strategy unfolds to create brand awareness, attract customers, and push sales for your product/services. It refers to targeted campaigns and incentives like discounting, time-limited offers, contests, and <a href="https://www.99minds.io/loyalty">loyalty programs</a>, designed to entice customers and push that instant call to action. It creates urgency and exclusivity; thus promotional marketing creates a ruckus when making purchase decisions.
-
-More than just one-time sales, effective promotional marketing establishes relationships that support long-term <a href="https://www.99minds.io/blog/brand-loyalty">brand loyalty</a>. When promotions consistently deliver value to customers, they not only return for repeat business, but they also further the establishment of relationships. Promotional strategies can also increase brand recall, so when customers are making future buying decisions, they will remember and prefer your brand over competitors.
-
-With digital marketing on the rise, promotional strategies have evolved to include online channels like social media, email campaigns, and influencer collaborations. Traditional methods like in-store promotions and direct mail still have value, but you need to be multi-channel to maximize your promotional impact. By planning and executing promotions well, you can acquire customers, improve retention rates, and be part of the market.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul role="list">
   <li>
   <a role="link" href="#What-Is-Promotion-in-Marketing?" rel="noreferrer"> What Is Promotion in Marketing?</a>
@@ -73,6 +64,16 @@ With digital marketing on the rise, promotional strategies have evolved to inclu
   </li>
   </ul>
  </div> 
+<div class="w-full">
+<img src="/assets/blog/the_complete_guide_to_promotion_marketing_tips_types_benefits.webp" alt="The Complete Guide to Promotion Marketing: Tips, Types & Benefits.">
+
+<h2>Introduction to Promotion Marketing</h2>
+
+Promotional marketing is the umbrella under which your marketing strategy unfolds to create brand awareness, attract customers, and push sales for your product/services. It refers to targeted campaigns and incentives like discounting, time-limited offers, contests, and <a href="https://www.99minds.io/loyalty">loyalty programs</a>, designed to entice customers and push that instant call to action. It creates urgency and exclusivity; thus promotional marketing creates a ruckus when making purchase decisions.
+
+More than just one-time sales, effective promotional marketing establishes relationships that support long-term <a href="https://www.99minds.io/blog/brand-loyalty">brand loyalty</a>. When promotions consistently deliver value to customers, they not only return for repeat business, but they also further the establishment of relationships. Promotional strategies can also increase brand recall, so when customers are making future buying decisions, they will remember and prefer your brand over competitors.
+
+With digital marketing on the rise, promotional strategies have evolved to include online channels like social media, email campaigns, and influencer collaborations. Traditional methods like in-store promotions and direct mail still have value, but you need to be multi-channel to maximize your promotional impact. By planning and executing promotions well, you can acquire customers, improve retention rates, and be part of the market.
 
 <h2 id="What-Is-Promotion-in-Marketing?">What Is Promotion in Marketing?</h2>
 
@@ -603,3 +604,20 @@ By offering incentives such as discounts, exclusive deals, and contests.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the most effective promotional strategies?</h3>
 Social media campaigns, influencer partnerships, loyalty programs, and flash sales.</div> 
+</div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>

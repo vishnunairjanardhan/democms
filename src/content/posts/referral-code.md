@@ -13,38 +13,44 @@ url: "https://www.99minds.io/blog/referral-code"
 keywords: ["referral code","referral codes","what is a referral code","referral code example","dcreate referral code"]
 
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#What-is-a-Referral-Code?" rel="noreferrer">What is a Referral Code?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Referral-Code-VS-Referral-Links" rel="noreferrer">Referral Code VS Referral Links</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#How-Do-Referral-Codes-Work?" rel="noreferrer">How Do Referral Codes Work?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">   
+    <a role="link" href="#How-to-Create-Referral-Codes-for-Your-Customers" rel="noreferrer">How to Create Referral Codes for Your Customers</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Referral-Code-Examples" rel="noreferrer">Referral Code Examples</a>
+  </li>               
+ <li class="hover:bg-gray-100 lg:mt-4">   
+    <a role="link" href="#Final-Words-on-Referral-Code" ref="noreferrer">Final Words on Referral Code</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4">   
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Referral-Code" ref="noreferrer">Frequently Asked Questions (FAQs) on Referral Code</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/what_is_referral_code.webp" alt="what is referral code and how does it works">
 
 <a href="https://www.99minds.io/blog/referral-marketing" role="link" target="_blanck">Referral marketing</a> has become one of the most powerful strategies for businesses in the digital age. It’s not just about gaining new customers but building a loyal customer base that actively promotes your product or service. One of the essential tools in referral marketing is the referral code, a unique code that customers share to get rewards for bringing in new business.
 
 <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">Referral programs</a> can lead to exponential growth. In fact, a well-executed referral program can generate higher conversion rates and bring in customers who are more likely to engage with your brand. With the rise of social media and digital platforms, referral codes are a seamless way to track these valuable customer referrals.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#What-is-a-Referral-Code?" rel="noreferrer">What is a Referral Code?</a>
-  </li>
-  <li>  
-    <a role="link" href="#Referral-Code-VS-Referral-Links" rel="noreferrer">Referral Code VS Referral Links</a>
-  </li>
-  <li>  
-    <a role="link" href="#How-Do-Referral-Codes-Work?" rel="noreferrer">How Do Referral Codes Work?</a>
-  </li>
-  <li>  
-    <a role="link" href="#How-to-Create-Referral-Codes-for-Your-Customers" rel="noreferrer">How to Create Referral Codes for Your Customers</a>
-  </li>
-  <li>  
-    <a role="link" href="#Referral-Code-Examples" rel="noreferrer">Referral Code Examples</a>
-  </li>               
-  <li>  
-    <a role="link" href="#Final-Words-on-Referral-Code" ref="noreferrer">Final Words on Referral Code</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Referral-Code" ref="noreferrer">Frequently Asked Questions (FAQs) on Referral Code</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="What-is-a-Referral-Code?">What is a Referral Code?</h2>
 
@@ -91,8 +97,8 @@ Both systems have unique advantages. Referral links are user-friendly, especiall
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -216,3 +222,26 @@ As the digital landscape continues to evolve, referral codes will remain a key d
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How Do I Send a Referral Code?</h3>Referral codes can be sent via social media, email, text messages, or in-person methods like cards and receipts. Platforms like 99minds track each code's usage, ensuring the referrer receives their reward.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What Is the Difference Between a Referral Code and a Promo Code?</h3>A referral code rewards existing customers for bringing in new ones, while a promo code offers discounts to anyone. Referral codes are tied to specific individuals and aim to grow the customer base, while promo codes focus on sales and discounts for immediate purchases.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

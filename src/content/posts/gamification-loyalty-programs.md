@@ -13,6 +13,32 @@ url: "https://www.99minds.io/blog/gamification-loyalty-programs"
 keywords: ["Gamification loyalty programs"]
 ---
 
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#The-Impact-of-Gamification-on-Customer-Loyalty?" rel="noreferrer">The Impact of Gamification on Customer Loyalty?</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-is-a-Gamified-Loyalty-Program?" rel="noreferrer">What is a Gamified Loyalty Program?</a>
+  </li>
+    <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#5-Winning-Gamification-Loyalty-Programs" rel="noreferrer">5 Winning Gamification Loyalty Programs</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Final-words-on-Gamification-Loyalty-Programs" ref="noreferrer">Final words on Gamification Loyalty Programs</a>
+  </li>
+  
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Gamification-Loyalty-Programs" ref="noreferrer">Frequently Asked Questions (FAQs) on Gamification Loyalty Programs
+</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/5_winning_gamification_loyalty_programs_for_2025.webp" alt="Gamification loyalty programs.">
 
 Let’s rethink loyalty programs with a fresh perspective. Imagine a world where every shopping experience or service you use feels like a fun, interactive game.
@@ -23,29 +49,6 @@ According to our annual Loyalty Trends research, gamification encourages custome
 In today’s competitive landscape, standing out is essential, and gamification offers a unique way for businesses to capture and retain customer attention. By blending fun with engagement, brands create deeper connections, encouraging loyalty and repeat visits. More companies are now integrating creative elements like quizzes, achievements, and rewards into their programs to keep customers hooked and coming back for more.
 
 Explore the top 5 examples of gamification loyalty programs with us, and discover how innovative brands are reshaping <a href="https://www.99minds.io/blog/build-customer-loyalty">customer loyalty</a>. Prepare to be inspired by strategies that make engagement both rewarding and genuinely enjoyable!
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#The-Impact-of-Gamification-on-Customer-Loyalty?" rel="noreferrer">The Impact of Gamification on Customer Loyalty?</a>
-  </li> 
-  <li>  
-    <a role="link" href="#What-is-a-Gamified-Loyalty-Program?" rel="noreferrer">What is a Gamified Loyalty Program?</a>
-  </li>
-    <li>  
-    <a role="link" href="#5-Winning-Gamification-Loyalty-Programs" rel="noreferrer">5 Winning Gamification Loyalty Programs</a>
-  </li>
-  <li>  
-    <a role="link" href="#Final-words-on-Gamification-Loyalty-Programs" ref="noreferrer">Final words on Gamification Loyalty Programs</a>
-  </li>
-  
-  <li>  
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Gamification-Loyalty-Programs" ref="noreferrer">Frequently Asked Questions (FAQs) on Gamification Loyalty Programs
-</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="The-Impact-of-Gamification-on-Customer-Loyalty?">Impact of Gamification on Customer Loyalty?</h2>
 
@@ -79,8 +82,8 @@ In conclusion, gamification loyalty programs create personalized, engaging, and 
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -147,8 +150,8 @@ Ultimately, the goal of gamified loyalty programs is to deepen customer engageme
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -356,4 +359,27 @@ Gamification adds interactive and engaging elements like games, badges, and chal
 Yes, gamification loyalty programs can be tailored to suit businesses across industries. Whether you’re in retail, hospitality, or e-commerce, strategies like spin-to-win games, referral challenges, or badges can be customized to align with your brand goals and customer preferences.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can I create a gamified loyalty program for my business?</h3>
 99minds offers a powerful platform to design and manage gamified loyalty programs. With features like tier-based challenges, spin-to-win games, referral systems, and more, 99minds makes it easy for businesses to engage customers, boost retention, and grow their customer base effectively.
+</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
 </div>
