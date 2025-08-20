@@ -15,6 +15,7 @@ import CtaThree from "../components/ctas/CtaThree.astro";
 import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
 import { AstroSeo } from "@astrolib/seo";
 import { Seo } from "../config/Seo.jsx";
+import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
 ---
 
 <!---
@@ -43,7 +44,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <FeatureFive_NewHome />
   <FeatureTen />
   <!--<TestimonialNew />-->
-   <TestimonialLite />
+   <TestimonialCarousel client:load/>
   <IntegrationsHome />
   <!--<Pricing99minds />-->
   <Faq99minds />
