@@ -1,0 +1,22 @@
+export const CLIENT_LOGOS = [
+  { src: "/../assets/logos-cloud/Bestop-b.svg", alt: "Bestop", sizes: { sm: 80, lg: 96, base: 60 } },
+  { src: "/../assets/logos-cloud/cariloha-b.svg", alt: "Cariloha", sizes: { sm: 100, lg: 134.77, base: 80 } },
+  { src: "/../assets/logos-cloud/Clubmonaco-b.svg", alt: "Club Monaco", sizes: { sm: 180, lg: 222.78, base: 120 } },
+  { src: "/../assets/logos-cloud/Birdsnest.svg", alt: "Birdsnest", sizes: { sm: 100, lg: 123.93, base: 80 } },
+  { src: "/../assets/logos-cloud/FlynnOhara.svg", alt: "Flynn Ohara", sizes: { sm: 100, lg: 130.91, base: 80 } },
+  { src: "/../assets/logos-cloud/cornerbakery-b.svg", alt: "Corner Bakery", sizes: { sm: 36, lg: 41.33, base: 28 } },
+  { src: "/../assets/logos-cloud/Tootsies.svg", alt: "Tootsies", sizes: { sm: 80, lg: 104.28, base: 60 } },
+  { src: "/../assets/logos-cloud/jaxengray.svg", alt: "Jaxen Gray", sizes: { sm: 48, lg: 56, base: 36 } },
+  { src: "/../assets/logos-cloud/Lovable.svg", alt: "Lovable", sizes: { sm: 100, lg: 136, base: 80 } },
+  { src: "/../assets/logos-cloud/MudAustralia.svg", alt: "Mud Australia", sizes: { sm: 40, lg: 45.28, base: 32 } },
+  { src: "/../assets/logos-cloud/Dunning.svg", alt: "Dunning", sizes: { sm: 160, lg: 194.25, base: 120 } },
+  { src: "/../assets/logos-cloud/LaSenza.svg", alt: "La Senza", sizes: { sm: 80, lg: 100.93, base: 60 } },
+  { src: "/../assets/logos-cloud/Logo_Mizuno.svg", alt: "Mizuno", sizes: { sm: 48, lg: 58, base: 38 } },
+  { src: "/../assets/logos-cloud/Natori.svg", alt: "Natori", sizes: { sm: 130, lg: 157.61, base: 100 } },
+  { src: "/../assets/logos-cloud/DIM Paris.svg", alt: "DIM Paris", sizes: { sm: 50, lg: 60.73, base: 40 } },
+  { src: "/../assets/logos-cloud/Pinstripe-b.svg", alt: "Pinstripes", sizes: { sm: 130, lg: 162, base: 100 } },
+  { src: "/../assets/logos-cloud/GregNorman.svg", alt: "Greg Norman", sizes: { sm: 64, lg: 78.89, base: 52 } },
+  { src: "/../assets/logos-cloud/SoloBrands.svg", alt: "Solo Brands", sizes: { sm: 100, lg: 115.38, base: 80 } },
+  { src: "/../assets/logos-cloud/solsticesunglasses.svg", alt: "Solstice Sunglasses", sizes: { sm: 110, lg: 120.94, base: 90 } },
+  { src: "/../assets/logos-cloud/ThirdLove-b.svg", alt: "ThirdLove", sizes: { sm: 100, lg: 128.55, base: 80 } }
+];

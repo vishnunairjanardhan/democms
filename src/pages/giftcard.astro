@@ -11,6 +11,7 @@ import GiftCardTab1 from "../components/features/GiftCardTab1.astro";
 import GiftcardHeroSection from "../components/features/GiftcardHeroSection.jsx";
 import { Seo } from "../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
+import LogoCarosel from "../components/testimonials/LogoCarousel.jsx";
 ---
 
 
@@ -47,8 +48,9 @@ import { AstroSeo } from "@astrolib/seo";
     cardType: "summary_large_image",
   }}
 />
-  <!--<HeroGiftcard />-->
-  <GiftcardHeroSection client:load/>
+  <HeroGiftcard />
+  <!-- <GiftcardHeroSection client:load/> -->
+  <LogoCarosel client:load/>
   <ClientLogoScroller />
   <FeatureGiftcard />
   <FeatureSixGiftcard />
