@@ -32,10 +32,10 @@ const TabbedImages = () => {
 
   return (
     <section className="relative">
-      <div className="relative max-w-7xl px-8 md:px-12 lg:px-0 mx-auto py-5 lg:py-8 lg:mt-8">
+      <div className="relative max-w-7xl px-8 md:px-12 lg:px-0 mx-auto py-5 lg:py-12 md:py-0">
         <div className="flex flex-col-reverse md:flex-col justify-center items-center md:items-stretch space-y-6 md:space-y-4 md:space-y-reverse">
           {/* Tabs (visible only on laptop and above) */}
-          <div className="relative hidden lg:inline-grid items-center justify-center w-full gap-4 grid-cols-6 mx-auto py-6">
+          <div className="relative hidden lg:flex  items-center justify-center w-full gap-4  mx-auto py-6">
             {tabs.map((tab, index) => (
               <button
                 key={tab.id}
@@ -43,8 +43,8 @@ const TabbedImages = () => {
                   setActiveIndex(index);
                   resetAutoSlide();
                 }}
-                className={`px-4 py-2 rounded-full border border-gray-300 text-sm font-medium transition whitespace-nowrap ${
-                  activeIndex === index ? "bg-gray-700 text-white" : ""
+                className={`px-2 py-2 w-[250px] lg:flex lg:flex-row justify-center rounded-full border border-gray-300 text-sm font-medium transition whitespace-nowrap ${
+                  activeIndex === index ? "bg-[#E6DEFF] border-[#6F4DFF] text-black" : ""
                 }`}
               >
                 {tab.label}
@@ -53,8 +53,8 @@ const TabbedImages = () => {
           </div>
 
           {/* Image Slider with Smooth Animation */}
-          <div className="relative flex justify-center w-full min-h-[200px] md:min-h-[400px]">
-            <div className="relative w-full max-w-[1300px] h-auto md:h-[518px] overflow-hidden rounded-2xl mt-4">
+          <div className="relative flex justify-center w-full lg:min-h-[518px] md:min-h-[280px]">
+            <div className="relative w-full max-w-[1300px] h-auto overflow-hidden rounded-2xl mt-2 md:mt-6">
               <AnimatePresence mode="sync">
                 {tabs.map(
                   (tab, index) =>

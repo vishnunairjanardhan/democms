@@ -92,7 +92,7 @@ export default function TestimonialsCarousel({
                 >
                   <img
                     src={active === i ? s.logoActiveSrc : s.logoSrc}
-                    className="h-8 md:h-9 lg:h-10 w-auto object-contain"
+                    className="h-6 md:h-9 lg:h-7 px-2 w-auto object-contain"
                     alt={s.logoAlt}
                     loading="lazy"
                   />
@@ -101,7 +101,7 @@ export default function TestimonialsCarousel({
             </div>
 
             {/* Slides */}
-            <div className="relative overflow-hidden mt-6 md:mt-10">
+            <div className="relative overflow-hidden">
               <div
                 className="flex transition-transform duration-500"
                 style={{ transform: `translateX(-${active * 100}%)` }}
@@ -117,12 +117,12 @@ export default function TestimonialsCarousel({
                     <div className="w-full flex flex-col shrink-0 snap-start h-full">
                       <figure className="h-full">
                         <ul className="h-full">
-                          <li className="lg:mt-10 p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
-                            <div className="lg:py-6 py-4 h-full">
+                          <li className="p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
+                            <div className="lg:py-0 py-4 h-full">
                               <div className="md:flex md:h-full md:items-center justify-between gap-6 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
                                 {/* Left: text */}
                                 <div className="w-full lg:w-[42rem] mb-6 lg:mb-0 lg:px-4 2xl:px-12">
-                                  <div className="ml-4 w-28 h-10 md:w-32 md:h-12">
+                                  <div className="ml-4 w-28 h-10 md:w-40 md:h-12">
                                     <img
                                       className="w-full h-full object-contain"
                                       alt={s.logoAlt}
