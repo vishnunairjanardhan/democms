@@ -23,7 +23,7 @@ import WalletTab from "../components/features/WalletTab.astro";
 import { Seo } from "../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
 import WalletSlider from "../components/features/WalletSlider.astro";
-
+import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
 ---
 
 <!---
@@ -67,7 +67,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <WalletSlider/>
 <FeatureTabComp3/>
 <FeatureWalletFour/> 
-<FeatureTabTest />
+<TestimonialCarousel client:load/>
 <FeatureWalletEight />
 <CtaThreeU />
 </BaseLayout3>
