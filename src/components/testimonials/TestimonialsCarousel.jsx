@@ -72,33 +72,35 @@ export default function TestimonialsCarousel({
           >
             {/* Tab strip */}
             <div
-              className="max-w-7xl px-4 md:px-8 2xl:px-16 relative grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 items-center justify-center w-full h-auto mx-auto mt-10 text-[#303030] select-none"
-              role="tablist"
-              aria-label="Customer Logos"
-              onKeyDown={onKeyDownTabs}
+            className="hidden lg:grid max-w-7xl px-4 md:px-8 2xl:px-16 relative grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 items-center justify-center w-full h-auto mx-auto mt-10 text-[#303030] select-none"
+            role="tablist"
+            aria-label="Customer Logos"
+            onKeyDown={onKeyDownTabs}
             >
-              {data.map((s, i) => (
+            {data.map((s, i) => (
                 <button
-                  key={s.id}
-                  role="tab"
-                  aria-selected={active === i}
-                  aria-controls={`slide-panel-${s.id}`}
-                  tabIndex={active === i ? 0 : -1}
-                  onClick={() => setActive(i)}
-                  className={cn(
+                key={s.id}
+                role="tab"
+                aria-selected={active === i}
+                aria-controls={`slide-panel-${s.id}`}
+                tabIndex={active === i ? 0 : -1}
+                onClick={() => setActive(i)}
+                className={cn(
                     "w-full px-3 py-2 md:px-4 md:py-3 rounded-3xl transition-colors flex items-center justify-center",
                     active === i ? "text-white bg-black font-bold" : "text-black"
-                  )}
+                )}
                 >
-                  <img
+                <img
                     src={active === i ? s.logoActiveSrc : s.logoSrc}
                     className="h-6 md:h-9 lg:h-7 px-2 w-auto object-contain"
                     alt={s.logoAlt}
                     loading="lazy"
-                  />
+                />
                 </button>
-              ))}
+            ))}
             </div>
+
+
 
             {/* Slides */}
             <div className="relative overflow-hidden">
