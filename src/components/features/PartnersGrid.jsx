@@ -49,7 +49,7 @@ export default function LogoMarquee() {
   const row3Logos = logos.slice(logosPerRow * 2);
 
   return (
-    <section className="bg-white relative max-w-7xl mx-auto  lg:pb-12 lg:px-14 py-4 lg:py-8">
+    <section className="bg-white relative max-w-7xl mx-auto  lg:pb-0 lg:px-14 py-4 lg:py-0">
       
       <MarqueeRow direction="left" images={row1Logos} />
       <MarqueeRow direction="right" images={row2Logos} />

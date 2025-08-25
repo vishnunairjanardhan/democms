@@ -64,7 +64,7 @@ export default function TestimonialsCarousel({
 
   return (
     <section ref={rootRef} className={cn("relative overflow-hidden", className)}>
-      <div className="relative mx-auto max-w-screen md:px-8 lg:px-0 lg:py-0">
+      <div className="relative mx-auto max-w-screen md:px-0 lg:px-0 lg:py-0">
         <div className="flex flex-col w-full lg:px-0">
           <section
             className="lg:p-8 border-t border-y border-white/5 transition-all duration-500"
