@@ -24,7 +24,7 @@ const LoyaltyPreview = ({
         }}
       >
         <div
-          className="wallet-pass-container-modal-preview-apple p-0"
+          className="wallet-pass-container-modal-preview-apple"
           style={{ backgroundColor: backgroundColor }}
         >
           <div className="flex items-center justify-between p-2">
