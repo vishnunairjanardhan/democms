@@ -1,18 +1,18 @@
 ---
-import TabbedImages from "./TestimonialLite.astro";
+import TestimonialCarousel from "../../components/testimonials/TestimonialsCarousel.jsx";
 ---
 
 
 <section class="relative">
-<div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-14">
+<div class="relative max-w-screen md:px-0 lg:px-0 mx-auto py-12 lg:py-[4.5rem]">
 
  <div class="max-w-2xl mx-auto text-center mb-12">
-    <h2 class="font-medium mb-4">Don’t Just Take Our Word For It Meet Our Brands. 
+    <h2 class="font-medium mb-4">Don’t Just Take Our Word For It <br /> Meet Our Brands. 
 </h2>
    
   </div>
 
-  <TabbedImages/>
+  <TestimonialCarousel client:load/>
 
   
   <div class="mt-12 flex items-center justify-center">
