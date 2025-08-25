@@ -1,17 +1,12 @@
 ---
 import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import HeroIndex from "../components/heros/HeroIndex.astro";
-import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro"
-import NewLogoCloud from "../components/testimonials/NewLogoCloud.jsx";
 import FeatureFive_NewHome from "../components/features/FeatureFive_NewHome.astro";
 import FeatureSix from "../components/features/FeatureSix.astro";
 import FeatureTen from "../components/features/FeatureTen.astro";
-import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
-import TestimonialLite from "../components/testimonials/TestimonialLite.astro";
 import Pricing99minds from "../components/pricing/Pricing99minds.astro";
 import Faq99minds1 from "../components/Infopages/Faq99minds1.astro";
 import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
-import CtaThree from "../components/ctas/CtaThree.astro";
 import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
 import { AstroSeo } from "@astrolib/seo";
 import { Seo } from "../config/Seo.jsx";
@@ -43,8 +38,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <FeatureSix />
   <FeatureFive_NewHome />
   <FeatureTen />
-  <!--<TestimonialNew />-->
-   <TestimonialCarousel client:load/>
+  <TestimonialCarousel client:load/>
   <IntegrationsHome />
   <!--<Pricing99minds />-->
   <Faq99minds1 />
