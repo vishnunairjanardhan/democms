@@ -25,7 +25,7 @@ const WalletPassCustomizer = () => {
     balanceLabel: "BALANCE",
     textColor: "#ffffff",
     labelColor: "#ffffff",
-    backgroundColor: "#6366f1",
+    backgroundColor: "#736E6E",
     bannerImage: "../assets/giftcard/giftcard-pass.png",
     logoUrl: "https://dev.giftcard.99minds.co/99minds_Logo.svg",
     pointLabel: "POINTS",

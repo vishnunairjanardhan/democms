@@ -4,7 +4,7 @@ import HeroGiftcard from "../components/heros/HeroGiftcard.astro";
 import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
 import FeatureSixGiftcard from "../components/features/FeatureSixGiftcard.astro";
 import FeatureGiftcard from "../components/features/FeatureGiftcard.astro";
-import TestimonialLite from "../components/testimonials/TestimonialLite.astro";
+import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
 import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
 import GiftCardTab1 from "../components/features/GiftCardTab1.astro";
@@ -50,13 +50,13 @@ import LogoCarosel from "../components/testimonials/LogoCarousel.jsx";
 />
   <HeroGiftcard />
   <!-- <GiftcardHeroSection client:load/> -->
-  <LogoCarosel client:load/>
-  <!-- <ClientLogoScroller /> -->
+  <!--<LogoCarosel client:load/>-->
+  <ClientLogoScroller />
   <FeatureGiftcard />
   <FeatureSixGiftcard />
   <!-- <GiftCardTab /> -->
   <GiftCardTab1 />
-  <TestimonialLite />
+  <TestimonialCarousel client:load/>
   <IntegrationsHome />
   <CtaThreeU />
 </BaseLayout3>

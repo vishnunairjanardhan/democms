@@ -32,10 +32,10 @@ const TabbedImages = () => {
 
   return (
     <section className="relative">
-      <div className="relative max-w-7xl px-8 md:px-12 lg:px-0 mx-auto py-5 lg:py-12 md:py-0">
+      <div className="relative max-w-7xl px-8 md:px-12 lg:px-0 mx-auto py-5 lg:py-0 md:py-0">
         <div className="flex flex-col-reverse md:flex-col justify-center items-center md:items-stretch space-y-6 md:space-y-4 md:space-y-reverse">
           {/* Tabs (visible only on laptop and above) */}
-          <div className="relative hidden lg:flex  items-center justify-center w-full gap-4  mx-auto py-6">
+          <div className="relative hidden lg:flex  items-center justify-center w-full gap-4  mx-auto py-8 mt-10">
             {tabs.map((tab, index) => (
               <button
                 key={tab.id}
@@ -72,6 +72,27 @@ const TabbedImages = () => {
                   )
               )}
             </AnimatePresence>
+          <div className="relative flex justify-center w-full lg:min-h-[518px] md:min-h-[280px]">
+            <div className="relative w-full max-w-[1300px] h-auto overflow-hidden rounded-2xl mt-2 md:mt-6 lg:mt-0">
+              <AnimatePresence mode="sync">
+                {tabs.map(
+                  (tab, index) =>
+                    index === activeIndex && (
+                      <motion.img
+                        key={tab.id}
+                        src={tab.img}
+                        alt={tab.alt}
+                        loading="lazy"
+                        className="absolute inset-0 object-cover rounded-2xl"
+                        initial={{ opacity: 0, scale: 0.96 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0, scale: 1.02 }}
+                        transition={{ duration: 0.5, ease: "easeInOut" }}
+                      />
+                    )
+                )}
+              </AnimatePresence>
+            </div>
           </div>
         </div>
       </div>

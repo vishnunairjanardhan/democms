@@ -5,7 +5,7 @@ import NewLogoCloud from "../components/testimonials/NewLogoCloud.jsx";
 import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
 import FeatureLoyalty1 from "../components/features/FeatureLoyalty1.astro";
 import FeatureLoyalty from "../components/features/FeatureLoyalty.astro";
-import TestimonialLite from "../components/testimonials/TestimonialLite.astro";
+import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
 import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
 import LoyaltyTab from "../components/features/LoyaltyTab.astro";
@@ -55,7 +55,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <FeatureLoyalty />
   <LoyaltyTab />
   <!-- <LoyaltyTab1 /> -->
-  <TestimonialLite />
+  <TestimonialCarousel client:load/>
   <IntegrationsHome />
   <CtaThreeU />
 </BaseLayout3>
