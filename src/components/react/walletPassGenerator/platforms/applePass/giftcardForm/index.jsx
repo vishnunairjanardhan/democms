@@ -107,7 +107,7 @@ const GooglePreview = ({
             </div>
           </div>
 
-          <div className="d-flex justify-content-center mt-2 mb-2">
+          <div className="d-flex justify-content-center mt-5 mb-2">
             <div className="flex justify-center">
               <div className="p-2 rounded-md border bg-white flex justify-center items-center  flex-col text-center">
                 <QRCodeSVG size={100} value="https://reactjs.org/" />
