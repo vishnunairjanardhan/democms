@@ -3,7 +3,7 @@ import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import HeroCoupons from "../components/heros/HeroCoupons.astro";
 import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
 import FeatureCoupons from "../components/features/FeatureCoupons.astro";
-import TestimonialLite from "../components/testimonials/TestimonialLite.astro";
+import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
 import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
 
@@ -48,7 +48,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <HeroCoupons />
   <ClientLogoScroller />
   <FeatureCoupons />
-  <TestimonialLite />
+  <TestimonialCarousel client:load/>
   <IntegrationsHome />
   <CtaThreeU />
 </BaseLayout3>
