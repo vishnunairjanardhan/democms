@@ -34,7 +34,7 @@ export default function ModernWorkflow() {
   ];
 
   return (
-    <div className="px-6 py-16 lg:py-[72px] mx-auto max-w-7xl md:px-12 lg:px-16">
+    <div className="px-6 py-16 lg:py-[72px] mx-auto max-w-7xl md:px-12 lg:px-16 bg-[#f9f9f9]">
       <div className="text-center mb-12">
         {/* <h2 className="text-4xl font-bold text-gray-900">How it works</h2> */}
         <h2 class="font-medium">How its work</h2>

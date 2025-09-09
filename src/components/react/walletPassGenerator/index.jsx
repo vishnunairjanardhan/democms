@@ -16,21 +16,21 @@ const WalletPassCustomizer = () => {
     type: "giftcard",
     platform: "apple",
     passTitle: "Summer Pass",
-    organization: "99minds",
+    organization: "MagicKicks",
     description: "Premium membership benefits",
     foregroundColor: "#ffffff",
-    logoText: "BRAND",
-    cardLabel: "CARD NUMBER",
-    expiryLabel: "VALID TILL",
-    balanceLabel: "BALANCE",
-    textColor: "#ffffff",
-    labelColor: "#ffffff",
-    backgroundColor: "#736E6E",
-    bannerImage: "../assets/giftcard/giftcard-pass.png",
-    logoUrl: "https://dev.giftcard.99minds.co/99minds_Logo.svg",
-    pointLabel: "POINTS",
-    memberLabel: "MEMBER",
-    tierLabel: "TIER",
+    logoText: "MagicKicks",
+    cardLabel: "Card Number",
+    expiryLabel: "Valid Till",
+    balanceLabel: "Balance",
+    textColor: "#000000",
+    labelColor: "#000000",
+    backgroundColor: "#FF9A7B",
+    bannerImage: "../assets/wallet/Wallet-banner.jpg",
+    logoUrl: "../assets/wallet/wp-logo.png",
+    pointLabel: "Points",
+    memberLabel: "Member",
+    tierLabel: "Tier",
   });
 
   const passTypes = [
@@ -55,7 +55,7 @@ const WalletPassCustomizer = () => {
 
   return (
     // <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-cyan-50">
-    <div className="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24">
+    <div className="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-[72px]">
       <div className="flex flex-col items-center justify-center">
         <h1 class="mt-16 tracking-tight text-center text-black">
           Free Wallet Pass Creator – Design & Share in Minutes
@@ -66,7 +66,7 @@ const WalletPassCustomizer = () => {
         </p>
       </div>
       <div className="min-h-screen ">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Left Panel - Controls */}
             <div className="drop-shadow-md border border-black/20 rounded-xl lg:col-span-2">
