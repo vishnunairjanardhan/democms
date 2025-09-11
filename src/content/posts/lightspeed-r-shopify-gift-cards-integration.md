@@ -4,7 +4,7 @@ author: Soniya
 authorImg: "Soniya.webp"
 title: "Lightspeed R & Shopify Gift Cards Linked by 99minds"
 description: "Sell and redeem gift cards across Lightspeed R-Series and Shopify with 99minds. Enable seamless in-store and online gift card experiences."
-heading: "Seamless Retail: How 99minds Powers Gift Card Sales Across Lightspeed R-Series and Shopify"
+heading: "Seamless Retail: How 99minds Powers Gift Card Sales Across Lightspeed R-Series & Shopify"
 image:
   url: "/assets/blog/lightspeed-r-shopify-gift-cards-linked-by-99minds.webp"
   alt: "lightspeed r shopify gift cards linked by 99minds"

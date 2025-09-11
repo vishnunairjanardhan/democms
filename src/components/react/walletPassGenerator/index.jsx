@@ -71,7 +71,7 @@ const WalletPassCustomizer = () => {
             {/* Left Panel - Controls */}
             <div className="drop-shadow-md border border-black/20 rounded-xl lg:col-span-2">
               {/* Platform & Type Selection */}
-              <div className="bg-white p-6 rounded-xl">
+              <div className="bg-white p-6 rounded-t-xl">
                 <h2 className="text-lg font-semibold text-gray-900 mb-4">
                   Pass Configuration
                 </h2>
@@ -146,7 +146,7 @@ const WalletPassCustomizer = () => {
               </div>
 
               {/* Design Controls */}
-              <div className="bg-white p-6 rounded-xl">
+              <div className="bg-white p-6 rounded-b-xl">
                 <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
                   {/* <Palette className="w-5 h-5 mr-2" /> */}
                   <FontAwesomeIcon className="w-5 h-5 mr-2" icon={faPalette} />

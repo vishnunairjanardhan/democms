@@ -32,7 +32,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   const BlogGrid = ({ blogs }) => (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-6 mt-6">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-0 mt-6">
       <div>
         {blogs.length > 0 && (
           <BlogEntry
@@ -140,7 +140,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
           </div>
         </div>
       </div> */}
-      <div className="flex justify-center w-full mt-4 mb-4">
+      <div className="flex justify-center w-full mt-0 mb-4">
         <div className="w-full">
           <div className="bg-[#AA8FFF40] rounded-2xl p-12 flex lg:flex-row flex-col justify-between items-center w-full">
             <div>
@@ -194,7 +194,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
       )}
 
       {/*Latest Blog */}
-      <div class="p-4 border-t-2 border-vulcan-800 mt-8">
+      <div class="py-4 border-t-2 border-vulcan-800 mt-8">
         <div className="flex pb-6 mt-2 justify-between items-center">
           <p class="font-semibold">Latest</p>
           <a class="font-medium cursor-pointer" href="/latest/blog">
