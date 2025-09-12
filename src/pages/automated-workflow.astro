@@ -3,7 +3,7 @@ import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import HeroAutomatedWF from "../components/heros/HeroAutomatedWF.astro";
 import FeatureAutomatedWF from "../components/features/FeatureAutomatedWF.astro";
 import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
-import TestimonialLite from "../components/testimonials/TestimonialLite.astro";
+import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
 import Test from "../components/testimonials/Test.astro";
 import ModernWorkflow from "../components/testimonials/ModernWorkflow.jsx";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
@@ -53,7 +53,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <!--<Test />-->
  <ModernWorkflow client:load />
   <FeatureAutomatedWF />
-  <TestimonialLite />
+  <TestimonialCarousel client:load/>
   <!---<FeatureWF />--->
   <IntegrationsHome />
   <CtaThreeU />

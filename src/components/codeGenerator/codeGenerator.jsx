@@ -158,9 +158,9 @@ const CouponGenerator = () => {
     </button>
   );
   return (
-    <div className='relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24'>
+    <div className='relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-[72px]'>
     <div className="container mx-auto flex flex-col items-center justify-center min-h-screen">
-      <div className='relative mx-auto space-y-20'>
+      <div className='relative mx-auto'>
         <div className='flex flex-col items-center justify-center'>
         <h1 class="mt-16 tracking-tight text-center text-black">
         Free Coupon Code Generator
@@ -169,10 +169,10 @@ const CouponGenerator = () => {
        Generate a free coupon code and give your business a boost with quick and easy discount solutions.
       </p>
         </div>
-        <div className="p-[0.060rem] rounded-3xl  shadow-gray-300 bg-white shadow-xl border border-black/20 lg:px-36 py-16 sm:px-4">
+        <div className="p-[0.060rem] rounded-3xl  shadow-gray-300 bg-white shadow-lg border border-black/20 lg:px-36 py-8 sm:px-4 mt-8">
             <div className="mx-auto max-w-7xl">
               <h2 className="text-center lg:text-3xl text-2xl font-normal tracking-tight text-black lg:mt-0 mt-12">Choose your eCommerce Site</h2>
-              <div className="mx-auto lg:mt-16 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+              <div className="mx-auto lg:mt-8 mt-10 grid max-w-lg grid-cols-1 justify-between lg:px-0 px-4 pb-4 items-center gap-x-2 gap-y-6 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
                 {logos.map((logo) => (
                   <label
                     key={logo.id}
@@ -200,7 +200,7 @@ const CouponGenerator = () => {
           </div>
         </div>
       </div>
-      <h2 className="text-2xl font-normal tracking-tight text-black mt-24 mb-4 text-center py-4">Code Generation Form</h2>
+      <h2 className="text-2xl font-normal tracking-tight text-black mt-[72px] mb-4 text-center">Code Generation Form</h2>
 
       <div className='mx-auto max-w-7xl px-0 lg:px-16 mt-8 w-full'>
         <div className="flex space-x-4">

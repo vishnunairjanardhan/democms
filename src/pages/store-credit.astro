@@ -4,7 +4,7 @@ import HeroStorecredit from "../components/heros/HeroStorecredit.astro";
 import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
 import FeatureStorecredit1 from "../components/features/FeatureStorecredit1.astro";
 import FeatureStorecredit from "../components/features/FeatureStorecredit.astro";
-import TestimonialLite from "../components/testimonials/TestimonialLite.astro";
+import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
 import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
 import { AstroSeo } from "@astrolib/seo";
@@ -52,7 +52,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <ClientLogoScroller />
   <FeatureStorecredit1 />
   <FeatureStorecredit />
-  <TestimonialLite />
+  <TestimonialCarousel client:load/>
   <IntegrationsHome />
   <CtaThreeU />
   <!-- <Integrations99minds2 />

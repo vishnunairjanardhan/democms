@@ -27,7 +27,7 @@ const GooglePreview = ({
           className="wallet-pass-container-modal-preview-apple p-0"
           style={{ backgroundColor: backgroundColor }}
         >
-          <div className="flex items-center justify-between p-2">
+          <div className="flex items-center justify-between py-2 px-4">
             <div className="flex items-center justify-between rounded-full">
               {!!logoUrl && (
                 <img
@@ -39,7 +39,7 @@ const GooglePreview = ({
 
               {!!organization && (
                 <div
-                  className="text-truncate font-medium ml-1 pr-2 text-sm"
+                  className="text-truncate font-medium ml-2 pr-2 text-sm"
                   style={{ maxWidth: "100px", color: textColor }}
                 >
                   {organization || ""}
@@ -49,7 +49,7 @@ const GooglePreview = ({
           </div>
           <hr className="border-t border-gray-300 my-1" />
 
-          <div className="p-2">
+          <div className="px-4 py-2">
             <div
               className="text-uppercase fw-bold"
               style={{
@@ -72,7 +72,7 @@ const GooglePreview = ({
             </div>
           </div>
 
-          <div className="flex justify-between flex-row p-2">
+          <div className="flex justify-between flex-row py-2 px-4">
             <div>
               <div
                 className="text-uppercase fw-bold"
@@ -117,8 +117,8 @@ const GooglePreview = ({
                 className={`flex justify-center items-center  flex-col text-center`}
               >
                 <QRCodeSVG
-                  className={`p-2 rounded-md border border-[${textColor}] bg-white`}
-                  size={80}
+                  className={`p-1 rounded-md border border-[${textColor}] bg-white`}
+                  size={85}
                   value="https://reactjs.org/"
                 />
                 <p style={{ color: textColor }} className="text-xs mt-1">

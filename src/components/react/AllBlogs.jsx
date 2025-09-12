@@ -62,7 +62,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
   return (
     <div className="flex flex-wrap">
       <div className="flex justify-center w-full">
-        <form className="mt-6 sm:flex sm:max-w-md lg:w-1/2">
+        <form className="mt-8 sm:flex w-full lg:w-1/2">
           <input
             type="text"
             name="search"
@@ -75,7 +75,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
           />
         </form>
       </div>
-      <div className="mt-12 ">
+      <div className="mt-8">
         <ul className="flex flex-wrap gap-2 mx-auto justify-center" role="list">
           {tags.map((tag) => (
             <a href={`/tags/${tag}`} key={tag}>
@@ -87,7 +87,7 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
         </ul>
       </div>
       {currentPosts.length > 0 ? (
-        <div className="py-24 flex">
+        <div className="py-[72px] flex">
           <ol className="grid grid-cols-1 gap-8 lg:grid-cols-3 sm:grid-cols-1" role="list">
             {currentPosts.map((post) => (
               <Blogs
@@ -114,9 +114,9 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
           </p>
         </div>
       )}
-      <div className="flex justify-center w-full mt-8">
+      <div className="flex justify-center w-full">
         <nav>
-          <ul className="flex space-x-2">
+          <ul className="flex lg:space-x-2 space-x-0.5">
             {currentPage > 1 && (
               <>
                 <li>

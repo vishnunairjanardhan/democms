@@ -2,7 +2,7 @@
  import Verticalgrid from "../assets/Verticalgrid.astro"; 
  import { buttonConfig, cardData, Fashion, Others } from '../../config/CaseStudy.jsx';
 --- 
-<section class="relative">
+<section class="">
   <div class="relative mx-auto max-w-7xl md:px-12 lg:px-0 lg:py-0">
 
 
@@ -61,10 +61,10 @@
         <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative w-full" id="tabs-5-content-1">
           <!-- Tab Content 1 - Replace with your content -->
           <section>
-             <div class="py-10 w-full">
+             <div class="mt-8 w-full">
               <ol class="grid grid-cols-1 gap-12 lg:grid-cols-3 sm:grid-cols-2" role="list">
                 {cardData.map((data) => (
-                  <li key={data.title} class="group bg-white border-white/5 overflow-hidden rounded-xl  shadow-2xl">
+                  <li key={data.title} class="group bg-white border-white/5 overflow-hidden rounded-xl  shadow-xl">
                     <a href={data.href}>
                       <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-xl">
                         <div class="flex">
@@ -115,10 +115,10 @@
         </div>
         <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-2" style="display: none;">
           <section>
-            <div class="py-12">
+            <div class="pt-8">
               <ol class="grid grid-cols-1 gap-16 lg:grid-cols-3 sm:grid-cols-2" role="list">
                 {Fashion.map((data) => (
-                <li key={data.title} class="group border bg-white border-white/5 overflow-hidden rounded-xl  shadow-2xl">
+                <li key={data.title} class="group border bg-white border-white/5 overflow-hidden rounded-xl  shadow-xl">
                     <a href={data.href}>
                       <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-xl">
                         <div class="flex">
@@ -164,10 +164,10 @@
        
         <div :id="$id(tabId + '-content')" x-show="tabContentActive($el)" class="relative" id="tabs-5-content-7" style="display: none;">
           <section>
-            <div class="py-12">
+            <div class="pt-12">
               <ol class="grid grid-cols-1 gap-8 lg:grid-cols-3 sm:grid-cols-2" role="list">
                 {Others.map((data) => (
-                <li key={data.title} class="group border bg-white border-white/5 overflow-hidden rounded-xl  shadow-2xl">
+                <li key={data.title} class="group border bg-white border-white/5 overflow-hidden rounded-xl  shadow-xl">
                     <a href={data.href}>
                       <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-xl">
                         <div class="flex">

@@ -26,13 +26,13 @@ const GooglePreview = ({
           className="wallet-pass-container-modal-preview-apple p-0"
           style={{ backgroundColor: backgroundColor }}
         >
-          <div className="flex items-center justify-between p-2">
+          <div className="flex items-center justify-between py-2 px-4">
             <div className="flex items-center justify-between">
               {!!logoUrl && (
                 <img
                   src={logoUrl}
                   style={{
-                    maxHeight: "33px",
+                    maxHeight: "30px",
                     maxWidth: "160px",
                     objectFit: "contain",
                   }}
@@ -42,7 +42,7 @@ const GooglePreview = ({
 
               {!!logoText && (
                 <div
-                  className="text-truncate pl-1 pr-2"
+                  className="text-truncate pl-2 pr-2"
                   style={{ maxWidth: "80px", color: textColor }}
                 >
                   {logoText || ""}
@@ -52,13 +52,13 @@ const GooglePreview = ({
 
             <div className="d-flex flex-column leading-4">
               <div
-                className=" text-uppercase font-weight-semi-bold flex justify-end"
+                className=" text-uppercase font-weight-semi-bold flex justify-end pb-[2px]"
                 style={{ fontSize: 10, color: labelColor }}
               >
                 {balanceLabel}
               </div>
               <div
-                className="line-height-1 flex justify-end text-right"
+                className="line-height-2 flex justify-end text-right font-medium"
                 style={{ color: textColor || "white" }}
               >
                 {"$10.00"}
@@ -71,7 +71,7 @@ const GooglePreview = ({
               <img src={bannerImage} className="stripImage" alt="Strip" />
             )}
           </div>
-          <div className="flex justify-between flex-row p-2">
+          <div className="flex justify-between flex-row py-3 px-4">
             <div>
               <div
                 className="text-uppercase fw-bold"
@@ -96,22 +96,22 @@ const GooglePreview = ({
             </div>
             <div>
               <div
-                className="text-uppercase fw-bold d-flex justify-content-end"
+                className="text-uppercase fw-bold d-flex justify-content-end text-right"
                 style={{ fontSize: "11px", color: labelColor }}
               >
                 {expiryLabel}
               </div>
-              <div style={{ fontSize: "14px", color: textColor }}>
+              <div className="font-medium" style={{ fontSize: "14px", color: textColor }}>
                 {"NEVER"}
               </div>
             </div>
           </div>
 
-          <div className="d-flex justify-content-center mt-5 mb-2">
+          <div className="d-flex justify-content-center py-7">
             <div className="flex justify-center">
-              <div className="p-2 rounded-md border bg-white flex justify-center items-center  flex-col text-center">
-                <QRCodeSVG size={100} value="https://reactjs.org/" />
-                <p className="text-xs mt-1">{"XXXX-XXXXX-XXXX"}</p>
+              <div className="p-1 rounded-md border bg-white flex justify-center items-center flex-col text-center">
+                <QRCodeSVG size={90} value="https://reactjs.org/" />
+                <p className="text-[10px] mt-1">{"XXXX-XXXXX-XXXX"}</p>
               </div>
             </div>
           </div>
