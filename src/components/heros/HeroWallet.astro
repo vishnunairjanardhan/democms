@@ -1,21 +1,66 @@
 ---
 import TabbedImages from "../features/FeatureTrybadge.jsx";
-import GetStartedButton from "../buttons/GetStartedButton.astro";
-import BookDemoButton from "../buttons/BookDemoButton.astro";
 ---
 
 
  <section>
-  <div class="relative max-w-7xl px-0 md:px-4 lg:px-6 mx-auto py-4 lg:py-0">
+  <div class="relative max-w-7xl px-0 md:px-4 lg:px-6 mx-auto py-4 lg:py-6">
 
       <section class="text-center px-6 pt-20 lg:pt-28"> 
-         <h1 class="py-4 mt-4 mx-auto text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug max-w-xs lg:max-w-7xl md:max-w-3xl">Turning Every Mobile into a <span class="text-[#EF5A3C]">Revenue Channel</span> </h1>
-      <p class="max-w-xs sm:max-w-md md:max-w-2xl mx-auto text-base sm:text-lg text-gray-600 mb-6 text-center leading-relaxed">
+         <h1 class="py-4 mt-4 mx-auto text-center  max-w-xs lg:max-w-7xl md:max-w-3xl">Turning Every Mobile into a Revenue Channel</span> </h1>
+      <p class="max-w-xs sm:max-w-md md:max-w-2xl mx-auto text-base sm:text-lg  mb-6 text-center leading-relaxed">
        Create Branded Mobile Wallet Passes, Gift Cards & Loyalty Rewards for Apple Wallet and Google Pay
       </p>
     <div class="flex flex-wrap items-center justify-center gap-4" role="group">
-		<GetStartedButton/>
-		<BookDemoButton/>					
+		<div class="lg:flex gap-2 mt-0" role="group">
+              <div x-data="{ open: false }" class="flex justify-center">
+              <!-- Trigger -->
+              <span x-on:click="open = true">
+                <button type="button" role="button" aria-label="Get Started for Free" class="raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
+                <span class="relative text-white">Get started for free</span>
+                </span>
+                </button>
+                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
+              </span>
+              <!-- <button class="text-vulcan-300 ml-5 flex items-center hover:text-indigo-500"  role="button" aria-label="Book a Demo" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });"><svg role="img" alt="customer support logo" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+              </svg> <p class="mx-2">Book a Demo </p> </button> -->
+              <button type="button" class="raise relative p-0.5 inline-flex items-center justify-center ml-4 overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
+                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-10 duration-400 inline-flex items-center gap-2">
+                  <svg role="img" alt="customer support logo" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-headset text-gray-500" viewBox="0 0 16 16">
+                    <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+                  </svg>
+                  <span class="relative text-white">Book a Demo</span>
+                </span>
+              </button>
+              <!-- Modal -->
+              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-visible" aria-labelledby="Book a demo">
+                <!-- Overlay -->
+                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
+                <!-- Panel -->
+                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
+                      
+                    <iframe
+                      src="../GetStarted"
+                      width="100%"
+                      height="600"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="GetStarted"
+                    ></iframe>
+
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  				
 	</div>
      <TabbedImages client:load/>
     </section>

@@ -53,27 +53,25 @@ const TabbedImages = () => {
           </div>
 
           {/* Image Slider with Smooth Animation */}
-          <div className="relative flex justify-center w-full lg:min-h-[518px] md:min-h-[280px]">
-            <div className="relative w-full max-w-[1300px] h-auto overflow-hidden rounded-2xl mt-2 md:mt-6 lg:mt-0">
-              <AnimatePresence mode="sync">
-                {tabs.map(
-                  (tab, index) =>
-                    index === activeIndex && (
-                      <motion.img
-                        key={tab.id}
-                        src={tab.img}
-                        alt={tab.alt}
-                        loading="lazy"
-                        className="absolute inset-0 object-cover rounded-2xl"
-                        initial={{ opacity: 0, scale: 0.96 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        exit={{ opacity: 0, scale: 1.02 }}
-                        transition={{ duration: 0.5, ease: "easeInOut" }}
-                      />
-                    )
-                )}
-              </AnimatePresence>
-            </div>
+          <div className="relative w-full max-w-[1300px] aspect-[16/9] overflow-hidden rounded-2xl mt-2 md:mt-6">
+            <AnimatePresence mode="sync">
+              {tabs.map(
+                (tab, index) =>
+                  index === activeIndex && (
+                    <motion.img
+                      key={tab.id}
+                      src={tab.img}
+                      alt={tab.alt}
+                      loading="lazy"
+                      className="absolute inset-0 w-full h-full object-cover rounded-2xl"
+                      initial={{ opacity: 0, scale: 0.96 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 1.02 }}
+                      transition={{ duration: 0.5, ease: "easeInOut" }}
+                    />
+                  )
+              )}
+            </AnimatePresence>
           </div>
         </div>
       </div>

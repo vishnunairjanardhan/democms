@@ -11,6 +11,8 @@ import IntegrationsHome from "../components/integrations/IntegrationsHome.astro"
 import { AstroSeo } from "@astrolib/seo";
 import { Seo } from "../config/Seo.jsx";
 import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
+import Hero from "../components/heros/HeroIndex.jsx";
+import heroConfig from "../config/heroConfig.js";
 ---
 
 <!---
@@ -33,6 +35,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
 <BaseLayout3>
+  <!-- <Hero client:load {...heroConfig}/> -->
   <HeroIndex />
   <ClientLogoScroller />
   <FeatureSix />
