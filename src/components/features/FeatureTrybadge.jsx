@@ -11,13 +11,13 @@ const TabbedImages = () => {
     {
       id: "api",
       label: "Wallet",
-      img: "/assets/wallet/wallet_banner.webp",
+      img: "/assets/wallet/wallet_banner1.webp",
       alt: "gift card api",
     },
     {
       id: "ui",
       label: "Push Notification",
-      img: "/assets/wallet/push_notification.webp",
+      img: "/assets/wallet/wallet_banner.webp",
       alt: "gift card ui",
     },
   ];
