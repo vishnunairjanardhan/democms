@@ -53,7 +53,7 @@ const TabbedImages = () => {
           </div>
 
           {/* Image Slider with Smooth Animation */}
-          <div className="relative w-full max-w-[1300px] aspect-[16/9] overflow-hidden rounded-2xl mt-2 md:mt-6">
+          <div className="relative w-full max-w-[1300px] lg:h-[512px] aspect-[16/9] overflow-hidden rounded-2xl mt-2 md:mt-6">
             <AnimatePresence mode="sync">
               {tabs.map(
                 (tab, index) =>

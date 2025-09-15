@@ -153,8 +153,8 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Lite: "No",
     Basic: "No",
     Pro: "3 stores",
-    Ultra: "5",
-    Premium: "10",
+    Ultra: "5 stores",
+    Premium: "10 stores",
     Enterprise: "Custom",
   },
   {

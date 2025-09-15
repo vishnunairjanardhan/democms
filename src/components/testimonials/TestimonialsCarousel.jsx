@@ -72,7 +72,7 @@ export default function TestimonialsCarousel({
           >
             {/* Tab strip */}
             <div
-            className="hidden lg:grid max-w-7xl px-4 md:px-8 2xl:px-16 relative grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 items-center justify-center w-full h-auto mx-auto mt-10 text-[#303030] select-none"
+            className="hidden lg:grid max-w-7xl px-4 lg:px-14 2xl:px-16 relative grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 items-center justify-center w-full h-auto mx-auto mt-10 text-[#303030] select-none"
             role="tablist"
             aria-label="Customer Logos"
             onKeyDown={onKeyDownTabs}
@@ -121,7 +121,7 @@ export default function TestimonialsCarousel({
                         <ul className="h-full">
                           <li className="p-[0.060rem] snap-start w-full lg:h-[500px] h-auto sm:h-[400px]">
                             <div className="lg:py-0 py-4 h-full">
-                              <div className="md:flex md:h-full md:items-center justify-between gap-6 md:gap-8 lg:gap-10 max-w-7xl mx-auto">
+                              <div className="md:flex md:h-full md:items-center justify-between gap-6 md:gap-8 lg:gap-10 max-w-7xl mx-auto px-8">
                                 {/* Left: text */}
                                 <div className="w-full lg:w-[42rem] mb-6 lg:mb-0 lg:px-4 2xl:px-12">
                                   <div className="ml-4 w-28 h-10 md:w-40 md:h-12">

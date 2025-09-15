@@ -6,22 +6,20 @@ import { Icon } from 'astro-icon/components'
 ---
 
 <section class="relative  border-t border-white/5">
-  <div class="hidden lg:block">
-    
-  </div>
-  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:py-[72px]">
+  
+  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-32 lg:pt-24 pb-12 mt-8">
     <div class="max-w-3xl lg:text-center lg:mx-auto">
       <h2
         class="text-lg font-medium text-transparent uppercase text-[#6941C6]"
         >pricing
       </h2>
-      <h1 class="mt-8">
+      <h1 class="">
         Pricing plans for your brand 
       </h1>
       <h3 class="mt-8">
         Designed  for every stage of your business
       </h3>
-       <p class="mt-8">
+       <p class="mt-6">
         Our FREE plan comes with 50 transactions, 1 Campaign, 1 Integration and $0.5 per additional transaction.
       </p>
     </div>
@@ -29,10 +27,10 @@ import { Icon } from 'astro-icon/components'
   <div class="pb-24 lg:pb-[72px]">
     <!-- Here starts the mobile pricing table -->
     <div class="block lg:hidden">
-      <div class="mx-auto mt-8 lg:mt-0">
+      <div class="mx-auto mt-8">
         {TABLE_HEAD.slice(1).map((header) => (
-          <div class="flex flex-col max-w-s px-8 mx-auto mb-8 text-black border-0 shadow-sm">
-            <div class="text-lg font-medium leading-6 text-black">
+          <div class="flex flex-col max-w-s p-8 mx-auto mb-8 text-white border-0 shadow-sm">
+            <div class="text-lg font-medium leading-6 text-white">
               {header}
             </div>
             {PRICE_LIST_AMOUNT.map((price) => (
@@ -50,7 +48,7 @@ import { Icon } from 'astro-icon/components'
               features[header] !== "No" && (
                 <li class="flex py-2 text-base text-vulcan-300">
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-indigo-400 mr-2"
+                    class="mr-1 flex-shrink-0 w-5 h-5 text-indigo-400"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -61,7 +59,7 @@ import { Icon } from 'astro-icon/components'
                       clip-rule="evenodd"></path>
                   </svg>
                   {features[header] !== "Yes" && features[header] !== "No" && (
-                    <span class=" mr-1 font-normal text-black">{features[header]}</span>
+                    <span class="mr-2 font-normal text-black">{features[header]}</span>
                   )}
                   <span class="font-normal">
                     <a href="#">{features.Column1}</a>
@@ -81,7 +79,7 @@ import { Icon } from 'astro-icon/components'
     </div>
     <!---- Here starts the Desktop pricing table -->
     <section class="relative hidden lg:block">
-      <div class="max-w-7xl px-8 mx-auto border border-white/5 rounded-3xl bg-white">
+      <div class="max-w-7xl px-8 lg:px-14 mx-auto border border-white/5 rounded-3xl bg-white">
         <table class="w-full mx-auto text-white bg-white">
           <thead>
             <tr class="text-center align-top">
@@ -142,7 +140,7 @@ import { Icon } from 'astro-icon/components'
           <button
             role="button"
             type="button"
-            class="w-full px-8 py-6 text-left mt-6"
+            class="w-full px-8 pt-12 text-left"
             @click="selected !== 1 ? selected = 1 : selected = null">
             <div class="flex text-black group">
               <p
