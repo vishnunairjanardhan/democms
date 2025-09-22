@@ -14,8 +14,8 @@ export default function ButtonsGrid() {
       {/* Section Title */}
       <p>
         <span className="flex items-center justify-center">
-            <img src="/5-star-logo-color.svg" alt="5 stars" className="w-24 h-auto mr-2" />
-            5 Stars Reviews
+            <img src="/5-star.svg" alt="5 stars" className="w-24 h-auto mr-2" />
+            Rated 5 Stars on Major Platforms
         </span>
       </p>
 

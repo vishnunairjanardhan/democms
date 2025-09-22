@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import GetStartedButton from "../buttons/getStartedButton";
 import BookDemoButton from "../buttons/bookDemoButton";
-import ButtonsGrid from "../buttons/getStarted";
-import TabbedImages from "../features/FeatureTrybadge";
+import ButtonsGrid from "../buttons/getStarted2";
+import  TabbedImages from "../features/FeartureTabs.jsx";
 
 function Hero({ title, title2, highlight, description }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -48,8 +48,7 @@ function Hero({ title, title2, highlight, description }) {
           > 
             <ButtonsGrid />
           </div>
-
-          <TabbedImages />
+          <TabbedImages client:load/>
         </section>
       </div>
     </section>
