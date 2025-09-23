@@ -7,6 +7,20 @@ export const Ecommerce = [
   alt:"99minds-Shopify Integration"
 },
 {
+  image: '/integrations/Shopifyplus-icon.svg',
+  title: 'Shopifyplus',
+  desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
+  url: "/integrations/shopifyplus",
+  alt:"99minds-Shopifyplus Integration"
+},
+{
+  image: '/integrations/shopifypos.svg',
+  title: 'Shopify Pos',
+  desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
+  url: "/integrations/shopify",
+  alt:"99minds-Shopify Integration"
+},
+{
   image: '/integrations/BigCommerce-icon.svg',
   title: 'BigCommerce',
   desc: " Another popular e-commerce platform that integrates with 99minds for gift card functionality.  99minds empowers you to add advanced features to your BigCommerce store, such as scheduling delivery of gift cards, rewarding gift card purchases with loyalty points, and offering promotional gift cards to drive sales.",

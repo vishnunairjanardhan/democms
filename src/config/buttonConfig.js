@@ -2,22 +2,22 @@ const buttonConfig = [
   {
     label: "Shopify",
     url: "https://apps.shopify.com/99minds-gift-card-loyalty-referral",
-    logo: "/assets/shopify/Shopify-logo.svg",
+    logo: "/assets/homepage/Shopify-l.svg",
   },
   {
     label: "Shopify Plus",
     url: "https://apps.shopify.com/99minds-gift-card-loyalty-referral",
-    logo: "/logos/shopify-plus-logo1.svg",
+    logo: "/assets/homepage/Shopifyplus-l.svg",
   },
   {
     label: "BigCommerce",
     url: "https://www.bigcommerce.com/apps/99minds-gift-card",
-    logo: "/integrations/BigC-full-logo.svg",
+    logo: "/assets/homepage/Bcom-l.svg",
   },
   {
     label: "Salesforce",
     url: "https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000J6Jc3UAF",
-    logo: "/logos/Salesforce-logo2.svg",
+    logo: "/assets/homepage/Salesforce-l.svg",
   },
 ];
 

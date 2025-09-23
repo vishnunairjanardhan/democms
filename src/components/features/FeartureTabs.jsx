@@ -35,7 +35,7 @@ const TabbedImages = () => {
       <div className="relative max-w-7xl px-8 md:px-12 lg:px-0 mx-auto py-5 lg:py-0 md:py-0">
         <div className="flex flex-col-reverse md:flex-col justify-center items-center md:items-stretch space-y-6 md:space-y-4 md:space-y-reverse">
           {/* Tabs (visible only on laptop and above) */}
-          <div className="relative hidden lg:flex  items-center justify-center w-full gap-4  mx-auto py-8 mt-10">
+          <div className="relative hidden lg:flex  items-center justify-center w-full gap-4  mx-auto py-8 mt-0">
             {tabs.map((tab, index) => (
               <button
                 key={tab.id}

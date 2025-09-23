@@ -15,12 +15,12 @@ export default function ButtonsGrid() {
       <p>
         <span className="flex items-center justify-center">
             <img src="/5-star.svg" alt="5 stars" className="w-24 h-auto mr-2" />
-            Rated 5 Stars on Major Platforms
+            5 Star Reviews
         </span>
       </p>
 
       {/* Buttons Grid */}
-      <div className="flex gap-6 justify-center mx-auto max-w-4xl p-2">
+      <div className="flex gap-4 justify-center mx-auto max-w-4xl py-3">
         {buttonConfig.map((btn, index) => (
           <button
             key={index}
@@ -30,7 +30,7 @@ export default function ButtonsGrid() {
               <img
                 src={btn.logo}
                 alt={`${btn.label} logo`}
-                className="h-8 w-auto pt-2"
+                className="h-10 w-[133px] rounded-xl w-auto"
               />
           </button>
         ))}
