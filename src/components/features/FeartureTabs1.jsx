@@ -1,0 +1,82 @@
+import { useState, useEffect, useRef } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
+const TabbedImages = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const intervalRef = useRef(null);
+
+  const tabs = [
+    { id: "gift-card", label: "Gift Card", img: "/assets/wallet/hero/giftcard.webp", alt: "Gift Card" },
+    { id: "store-credit", label: "Cashback & Store Credit", img: "/assets/wallet/hero/store_credit.webp", alt: "Cashback & Store Credit" },
+    { id: "loyalty-reward", label: "Loyalty & Referrals", img: "/assets/wallet/hero/loyalty.webp", alt: "Loyalty & Rewards" },
+    { id: "automation", label: "Automation", img: "/assets/wallet/hero/automation.webp", alt: "Automation Workflow" },
+    { id: "wallet", label: "Wallet", img: "/assets/wallet/hero/wallet.webp", alt: "Wallet Passes" },
+    { id: "membership", label: "Memberships", img: "/assets/wallet/hero/membership.webp", alt: "Membership Programs" },
+  ];
+
+  const startAutoSlide = () => {
+    intervalRef.current = setInterval(() => {
+      setActiveIndex((prev) => (prev + 1) % tabs.length);
+    }, 3000);
+  };
+
+  const resetAutoSlide = () => {
+    clearInterval(intervalRef.current);
+    startAutoSlide();
+  };
+
+  useEffect(() => {
+    startAutoSlide();
+    return () => clearInterval(intervalRef.current);
+  }, []);
+
+  return (
+    <section className="relative">
+      <div className="relative max-w-7xl px-8 md:px-12 lg:px-0 mx-auto py-5 lg:py-0 md:py-0">
+        <div className="flex flex-col-reverse md:flex-col justify-center items-center md:items-stretch space-y-6 md:space-y-4 md:space-y-reverse">
+          {/* Tabs (visible only on laptop and above) */}
+          <div className="relative hidden lg:flex  items-center justify-center w-full gap-4  mx-auto py-8 mt-0">
+            {tabs.map((tab, index) => (
+              <button
+                key={tab.id}
+                onClick={() => {
+                  setActiveIndex(index);
+                  resetAutoSlide();
+                }}
+                className={`px-2 py-2 w-[250px] lg:flex lg:flex-row justify-center rounded-full border border-gray-300 text-sm font-medium transition whitespace-nowrap ${
+                  activeIndex === index ? "bg-[#E6DEFF] border-[#6F4DFF] text-black" : ""
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+
+          {/* Image Slider with Smooth Animation */}
+          <div className="relative w-full max-w-[1300px] lg:h-[512px] aspect-[16/9] overflow-hidden rounded-2xl mt-2 md:mt-6">
+            <AnimatePresence mode="sync">
+              {tabs.map(
+                (tab, index) =>
+                  index === activeIndex && (
+                    <motion.img
+                      key={tab.id}
+                      src={tab.img}
+                      alt={tab.alt}
+                      loading="lazy"
+                      className="absolute inset-0 w-full h-full object-cover rounded-2xl"
+                      initial={{ opacity: 0, scale: 0.96 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 1.02 }}
+                      transition={{ duration: 0.5, ease: "easeInOut" }}
+                    />
+                  )
+              )}
+            </AnimatePresence>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default TabbedImages;
