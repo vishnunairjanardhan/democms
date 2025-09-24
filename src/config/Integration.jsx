@@ -17,7 +17,7 @@ export const Ecommerce = [
   image: '/integrations/shopifypos.svg',
   title: 'Shopify Pos',
   desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
-  url: "/integrations/shopify",
+  url: "/integrations/shopifypos",
   alt:"99minds-Shopify Integration"
 },
 {
@@ -57,6 +57,13 @@ export const POS = [
   desc: "99minds integrates seamlessly with Square POS, allowing you to manage gift cards, loyalty programs, and store credits across your online store and physical location.  This ensures a smooth experience for customers - they can redeem a gift card purchased online in-store, earn loyalty points for in-store purchases that are reflected online, and use store credits interchangeably between channels.",
   url: "/integrations/square",
   alt:"99minds-Square Integration"
+},
+{
+  image: '/integrations/shopifypos.svg',
+  title: 'Shopify Pos',
+  desc: "A leading e-commerce platform that seamlessly integrates with 99minds for gift card sales.  You can leverage 99minds to offer advanced features on Shopify, including gift card scheduling, loyalty program integration, and promotional gift cards, creating a more dynamic gift card experience for your customers.",
+  url: "/integrations/shopifypos",
+  alt:"99minds-Shopify Integration"
 },
 {
   image: '/integrations/lightspeed.svg',
