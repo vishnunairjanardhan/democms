@@ -11,16 +11,16 @@ const TabbedImages = () => {
     {
       id: "api",
       label: "Wallet",
-      img: "/assets/wallet/wallet_banner1.webp",
+      img: "/assets/wallet/wallet_banner2.webp",
       alt: "gift card api",
     },
     {
       id: "ui",
       label: "Push Notification",
-      img: "/assets/wallet/wallet_banner.webp",
+      img: "/assets/wallet/push_notifications.webp",
       alt: "gift card ui",
     },
-  ];
+    ]
 
   const startAutoSlide = () => {
     intervalRef.current = setInterval(() => {
