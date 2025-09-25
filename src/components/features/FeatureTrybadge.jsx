@@ -64,7 +64,7 @@ const TabbedImages = () => {
 
           {/* Image Slider with Smooth Animation */}
           <div className="relative flex justify-center w-full min-h-[200px] md:min-h-[400px]">
-            <div className="relative w-full max-w-[1400px] lg:h-[518px] overflow-hidden rounded-2xl ">
+            <div className="relative w-full max-w-[1400px] lg:h-[518px] h-[150px] md:h-[300px] overflow-hidden lg:rounded-2xl ">
               <AnimatePresence mode="sync">
                 {tabs.map(
                   (tab, index) =>
@@ -74,7 +74,7 @@ const TabbedImages = () => {
                         src={tab.img}
                         alt={tab.alt}
                         loading="lazy"
-                        className="absolute inset-0 w-full h-full object-cover rounded-2xl"
+                        className="absolute inset-0 w-full h-full object-cover lg:rounded-2xl rounded-md"
                         initial={{ opacity: 0, scale: 0.96 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 1.02 }}
