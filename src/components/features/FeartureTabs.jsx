@@ -6,7 +6,7 @@ const TabbedImages = () => {
   const intervalRef = useRef(null);
 
   const tabs = [
-    { id: "gift-card", label: "Gift Card", img: "/assets/wallet/gift_card_buy.webp", alt: "Gift Card" },
+    { id: "gift-card", label: "Gift Card", img: "/assets/wallet/gift_card.webp", alt: "Gift Card" },
     { id: "store-credit", label: "Cashback & Store Credit", img: "/assets/wallet/cashback.webp", alt: "Cashback & Store Credit" },
     { id: "loyalty-reward", label: "Loyalty & Referrals", img: "/assets/wallet/loyalty.webp", alt: "Loyalty & Rewards" },
     { id: "automation", label: "Automation", img: "/assets/wallet/automation.webp", alt: "Automation Workflow" },
@@ -53,7 +53,7 @@ const TabbedImages = () => {
           </div>
 
           {/* Image Slider with Smooth Animation */}
-          <div className="relative w-full max-w-[1300px] lg:h-[512px] aspect-[16/9] overflow-hidden rounded-2xl mt-2 md:mt-6">
+          <div className="relative w-full max-w-[1313px] lg:h-[512px] h-[150px] md:h-[220px] object-cover mx-auto aspect-[16/9] overflow-hidden lg:rounded-2xl rounded-sm mt-2 md:mt-6" loading="lazy">
             <AnimatePresence mode="sync">
               {tabs.map(
                 (tab, index) =>
@@ -63,7 +63,7 @@ const TabbedImages = () => {
                       src={tab.img}
                       alt={tab.alt}
                       loading="lazy"
-                      className="absolute inset-0 w-full h-full object-cover rounded-2xl"
+                      className="absolute inset-0 w-full h-full object-cover lg:rounded-2xl rounded-md"
                       initial={{ opacity: 0, scale: 0.96 }}
                       animate={{ opacity: 1, scale: 1 }}
                       exit={{ opacity: 0, scale: 1.02 }}
