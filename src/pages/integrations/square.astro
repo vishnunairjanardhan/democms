@@ -1,57 +1,34 @@
 ---
 import BaseLayout3 from "../../layouts/BaseLayout3.astro";
-import HeroSquarePOS from "../../components/heros/HeroSquarePOS.astro";
-import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
-import ClientLogoScroller from "../../components/testimonials/ClientLogoScroller.astro";;
+import HeroIntegration from "../../components/heros/HeroIntegration.jsx";
+import ClientLogoScroller from "../../components/testimonials/ClientLogoScroller.astro";
 import FeatureSquare from "../../components/features/FeatureSquare.astro";
 import FeatureTenSquare from "../../components/features/FeatureTenSquare.astro";
 import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
-//import Cta99mindsPOS from "../../components/ctas/Cta99mindsPOS.astro";
 import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
-import IntegrationSquare2 from "../../components/integrations/IntegrationSquare2.astro";
-import BcomRating from "../../components/Infopages/BcomRating.astro";
 import IntegrationSquare from "../../components/integrations/IntegrationSquare.astro";
-
+import IntegrationSquare2 from "../../components/integrations/IntegrationSquare2.astro";
 
 import { AstroSeo } from "@astrolib/seo";
+import { squarePageConfig } from "../../config/heroConfig.js";
+
+const { seo, hero } = squarePageConfig;
 ---
 
-<!---
-Use AstroSeo in all the pages you want different Seo than the index page
--->
-
 <BaseLayout3>
-<AstroSeo
-  title="99minds and Square integration | 99minds"
-  description="Square POS integrates with 99minds to help you with smooth gifting experience and enrich customer relationships with loyalty & rewards programs, both online & in-store."
-  canonical="https://www.99minds.io/integrations/square"
-  openGraph={{
-    url: "https://www.99minds.io/integrations/square",
-    title: "99minds and Square integration | 99minds",
-    description: "Square POS integrates with 99minds to help you with smooth gifting experience and enrich customer relationships with loyalty & rewards programs, both online & in-store.",
-    images: [
-      {
-        url: "https://www.99minds.io/assets/99minds-Square-OGI.svg",
-        alt: "99minds and Square integration",
-        type: "image/svg",
-      },
-      
-    ],
-    site_name: "99minds",
-  }}
-  twitter={{
-    site: "@99minds_io",
-    cardType: "summary_large_image",
-  }}
-/>
-  <HeroSquarePOS />
-  <!--<LogoCloudOne />-->
+  <AstroSeo {...seo} />
+
+  <!-- ✅ Hero gets only its props -->
+  <HeroIntegration {...hero} client:load />
+
   <ClientLogoScroller />
   <FeatureSquare />
+
+  <!-- ✅ Integration sections -->
   <IntegrationSquare />
   <FeatureTenSquare />
   <IntegrationSquare2 />
+
   <Testimonialtry />
-  <!-- <Cta99mindsPOS /> -->
   <CtaThreeU />
 </BaseLayout3>

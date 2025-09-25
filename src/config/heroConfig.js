@@ -49,4 +49,46 @@ export const heartlandPageConfig = {
   },
 };
 
+export const squarePageConfig = {
+  seo: {
+    title: "99minds and Square integration | 99minds",
+    description:
+      "Square POS integrates with 99minds to help you with smooth gifting experience and enrich customer relationships with loyalty & rewards programs, both online & in-store.",
+    canonical: "https://www.99minds.io/integrations/square",
+    openGraph: {
+      url: "https://www.99minds.io/integrations/square",
+      title: "99minds and Square integration | 99minds",
+      description:
+        "Square POS integrates with 99minds to help you with smooth gifting experience and enrich customer relationships with loyalty & rewards programs, both online & in-store.",
+      images: [
+        {
+          src: "https://www.99minds.io/assets/99minds-Square-OGI.svg",
+          alt: "99minds and Square integration",
+          type: "image/svg",
+        },
+      ],
+      site_name: "99minds",
+    },
+    twitter: {
+      site: "@99minds_io",
+      cardType: "summary_large_image",
+    },
+  },
+
+  hero: {
+    logo: {
+      src: "/assets/square/99minds-Square.svg",
+      width: 474,
+      height: 145,
+      alt: "99minds and Square POS integration",
+    },
+    heading: "Connect 99minds to Square POS",
+    description:
+      "Square POS has teamed up with 99minds to enhance your gifting experience and deepen customer connections through innovative loyalty and rewards programs, available both online and in-store.",
+    cta: {
+      href: "https://giftcard.99minds.io/access/register",
+      label: "Connect to Square",
+    },
+  },
+};
 
