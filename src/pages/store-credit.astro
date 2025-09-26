@@ -10,6 +10,7 @@ import IntegrationsHome from "../components/integrations/IntegrationsHome.astro"
 import { AstroSeo } from "@astrolib/seo";
 import { Seo } from "../config/Seo";
 import HeroSection from "../components/heros/HeroSection.jsx";
+import { storeCreditConfig } from "../config/heroIndex.js";
 ---
 
 <!---
@@ -48,7 +49,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
   <!-- <HeroStorecredit /> -->
-  <HeroSection client:load title="Retain Customer with" redText="Store Credit" description="Use store credit to manage returns, customer loyalty programs, promotional campaigns and more." image="/assets/storecredit/store-credit.webp"/>
+  <HeroSection {...storeCreditConfig} client:load />
   <ClientLogoScroller />
   <FeatureStorecredit1 />
   <FeatureStorecredit />

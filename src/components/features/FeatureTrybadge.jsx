@@ -42,7 +42,7 @@ const TabbedImages = () => {
 
   return (
     <section className="relative">
-      <div className="relative max-w-7xl px-4 mx-auto lg:pt-10">
+      <div className="relative max-w-7xl px-4 mx-auto">
         <div className="flex flex-col-reverse md:flex-col items-center md:items-stretch space-y-6 md:space-y-4 md:space-y-reverse">
           {/* Tabs */}
           <div className="flex justify-center gap-4 lg:mb-3 lg:py-8 py-6">
@@ -63,7 +63,7 @@ const TabbedImages = () => {
           </div>
 
           {/* Image Slider with Smooth Animation */}
-          <div className="relative flex justify-center w-full min-h-[200px] md:min-h-[400px]">
+          <div className="relative flex justify-center w-full min-h-[200px] md:min-h-[300px]">
             <div className="relative w-full max-w-[1400px] lg:h-[518px] h-[150px] md:h-[300px] overflow-hidden lg:rounded-2xl ">
               <AnimatePresence mode="sync">
                 {tabs.map(
