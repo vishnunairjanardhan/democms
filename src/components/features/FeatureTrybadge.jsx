@@ -42,8 +42,8 @@ const TabbedImages = () => {
 
   return (
     <section className="relative">
-      <div className="relative max-w-7xl px-4 mx-auto">
-        <div className="flex flex-col-reverse md:flex-col items-center md:items-stretch space-y-6 md:space-y-4 md:space-y-reverse">
+      <div className="relative max-w-7xl lg:px-4 mx-auto lg:pt-10">
+        <div className="flex flex-col-reverse md:flex-col items-center ">
           {/* Tabs */}
           <div className="flex justify-center gap-4 lg:mb-3 lg:py-8 py-6">
             {tabs.map((tab, index) => (
@@ -53,7 +53,7 @@ const TabbedImages = () => {
                   setActiveIndex(index);
                   resetAutoSlide();
                 }}
-                className={`px-4 py-2 rounded-full border border-gray-300 text-sm font-medium transition whitespace-nowrap ${
+                className={`px-4 py-2 w-full h-auto rounded-full border border-gray-300 text-sm font-medium transition whitespace-nowrap ${
                   activeIndex === index ? "bg-gray-700 text-white" : ""
                 }`}
               >
@@ -63,8 +63,8 @@ const TabbedImages = () => {
           </div>
 
           {/* Image Slider with Smooth Animation */}
-          <div className="relative flex justify-center w-full min-h-[200px] md:min-h-[300px]">
-            <div className="relative w-full max-w-[1400px] lg:h-[518px] h-[150px] md:h-[300px] overflow-hidden lg:rounded-2xl ">
+          <div className="relative flex justify-center w-full min-h-[200px] md:min-h-[250px] lg:mt-0 mt-4">
+            <div className="relative w-full mmax-w-[1313px] lg:h-[480px] md:h-[250px] h-[150px] overflow-hidden lg:rounded-2xl">
               <AnimatePresence mode="sync">
                 {tabs.map(
                   (tab, index) =>
@@ -74,7 +74,7 @@ const TabbedImages = () => {
                         src={tab.img}
                         alt={tab.alt}
                         loading="lazy"
-                        className="absolute inset-0 w-full h-full object-cover lg:rounded-2xl rounded-md"
+                        className="absolute inset-0 w-full h-auto object-cover lg:rounded-2xl rounded-md"
                         initial={{ opacity: 0, scale: 0.96 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 1.02 }}
