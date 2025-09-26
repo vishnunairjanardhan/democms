@@ -42,7 +42,7 @@ const TabbedImages = () => {
 
   return (
     <section className="relative">
-      <div className="relative max-w-7xl lg:px-4 mx-auto lg:pt-10">
+      <div className="relative max-w-7xl lg:px-4 mx-auto">
         <div className="flex flex-col-reverse md:flex-col items-center ">
           {/* Tabs */}
           <div className="flex justify-center gap-4 lg:mb-3 lg:py-8 py-6">
