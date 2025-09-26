@@ -32,11 +32,6 @@ export const TABLE_BOTTOM = [
     active: true
   },
   {
-    Url: "/Get-Started",
-    Label: "Get Started",
-    active: true
-  },
-  {
     Url: "/contact",
     Label: "Contact us",
     active: true
