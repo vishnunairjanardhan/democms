@@ -1,6 +1,7 @@
 ---
 import BaseLayout3 from "../layouts/BaseLayout3.astro";
-import HeroGiftcard from "../components/heros/HeroGiftcard.astro";
+import { giftcardConfig } from "../config/heroIndex.js";
+import HeroSection from "../components/heros/HeroSection.jsx";
 import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
 import FeatureSixGiftcard from "../components/features/FeatureSixGiftcard.astro";
 import FeatureGiftcard from "../components/features/FeatureGiftcard.astro";
@@ -49,13 +50,13 @@ import LogoCarosel from "../components/testimonials/LogoCarousel.jsx";
     cardType: "summary_large_image",
   }}
 />
-  <HeroGiftcard />
+  <HeroSection {...giftcardConfig} client:load />
   <!-- <GiftcardHeroSection client:load/> -->
   <!--<LogoCarosel client:load/>-->
   <ClientLogoScroller />
   <FeatureGiftcard />
   <FeatureSixGiftcard />
-  <GiftCardTab />
+  <!-- <GiftCardTab /> -->
   <GiftCardTab1 />
   <TestimonialCarousel client:load/>
   <IntegrationsHome />
