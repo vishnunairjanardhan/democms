@@ -30,56 +30,28 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
               <div x-data="{ open: false }" class="flex justify-start lg:justify-center">
               <!-- Trigger -->
              <span x-on:click="open = true">
-  <button type="button" role="button" aria-label="Get Started for Free"
-    class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
-    
-    <span class="relative text-[#6820EE] text-xl  transition-colors duration-300">
-      Get started for free
-    </span>
+                <a href="/Get-Started" target="_blank" type="button" role="button" aria-label="Get Started for Free"
+                  class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+                  
+                  <span class="relative text-[#6820EE] text-xl  transition-colors duration-300">
+                    Get started for free
+                  </span>
 
-    <svg
-      class="ml-3 h-8 w-8 text-[#6820EE] transition-all duration-300 transform group-hover:translate-x-2"
-      width="16" height="16" viewBox="0 0 24 24"
-      stroke-width="2" stroke="currentColor" fill="none"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" />
-      <line x1="5" y1="12" x2="19" y2="12" />
-      <line x1="13" y1="18" x2="19" y2="12" />
-      <line x1="13" y1="6" x2="19" y2="12" />
-    </svg>
-
-  </button>
-</span>
-
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="Get free demo">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-white shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-white rounded-3xl p-4 text-center">
-                      
-                    <iframe
-                      src="../GetStarted"
-                      width="100%"
-                      height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly"
-                    ></iframe>
-
-                      </form>
-                    </div>
-                  </div>
-                </div>
+                  <svg
+                    class="ml-3 h-8 w-8 text-[#6820EE] transition-all duration-300 transform group-hover:translate-x-2"
+                    width="16" height="16" viewBox="0 0 24 24"
+                    stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <line x1="13" y1="18" x2="19" y2="12" />
+                    <line x1="13" y1="6" x2="19" y2="12" />
+                  </svg>
+                </a>
+              </span>
               </div>
             </div>
- 
-          
       </div>
-      
-      
     </div>
     <div
       class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
@@ -94,53 +66,29 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
         <p class="">
           Generate millions of unique coupons in a few clicks. Customize them based on promo codes, prefixes, SKU items, and many more dynamic options. Set expiry dates and link individual customer IDs to single coupon to create highly personalized coupons.<br /><br /> Fully integrated with our Loyalty management solution to create at scale campaigns.
         </p>
-        <div class="lg:flex gap-2 mt-10" role="button">
+       <div class="lg:flex gap-2 mt-10" role="button">
               <div x-data="{ open: false }" class="flex justify-start lg:justify-center">
               <!-- Trigger -->
-              <span x-on:click="open = true">
-  <button type="button" role="button" aria-label="Get Started for Free"
-    class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
-    
-    <span class="relative text-[#6820EE] text-xl  transition-colors duration-300">
-      Get started for free
-    </span>
+             <span x-on:click="open = true">
+                <a href="/Get-Started" target="_blank" type="button" role="button" aria-label="Get Started for Free"
+                  class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+                  
+                  <span class="relative text-[#6820EE] text-xl  transition-colors duration-300">
+                    Get started for free
+                  </span>
 
-    <svg
-      class="ml-3 h-8 w-8 text-[#6820EE] transition-all duration-300 transform group-hover:translate-x-2"
-      width="16" height="16" viewBox="0 0 24 24"
-      stroke-width="2" stroke="currentColor" fill="none"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" />
-      <line x1="5" y1="12" x2="19" y2="12" />
-      <line x1="13" y1="18" x2="19" y2="12" />
-      <line x1="13" y1="6" x2="19" y2="12" />
-    </svg>
-
-  </button>
-</span>
-
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-white shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-white rounded-3xl p-4 text-center">
-                      
-                    <iframe
-                      src="../GetStarted"
-                      width="100%"
-                      height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly"
-                    ></iframe>
-
-                      </form>
-                    </div>
-                  </div>
-                </div>
+                  <svg
+                    class="ml-3 h-8 w-8 text-[#6820EE] transition-all duration-300 transform group-hover:translate-x-2"
+                    width="16" height="16" viewBox="0 0 24 24"
+                    stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <line x1="13" y1="18" x2="19" y2="12" />
+                    <line x1="13" y1="6" x2="19" y2="12" />
+                  </svg>
+                </a>
+              </span>
               </div>
             </div>
       </div>
@@ -167,55 +115,33 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
         <p role='emphasis' class="">
           Enable the effortless issuance and management of store credits, allowing your customers to engage and shop with ease and flexibility.<br /><br /> Automate Store Credit compensations to enhance refund processes smoothly and transition from cash refunds to store credit, ensuring your revenue remains within your business
         </p>
-                <div class="lg:flex gap-2 mt-10">
+               <div class="lg:flex gap-2 mt-10" role="button">
               <div x-data="{ open: false }" class="flex justify-start lg:justify-center">
               <!-- Trigger -->
              <span x-on:click="open = true">
-  <button type="button" role="button" aria-label="Get Started for Free"
-    class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
-    
-    <span class="relative text-[#6820EE] text-xl transition-colors duration-300">
-      Get started for free
-    </span>
+                <a href="/Get-Started" target="_blank" type="button" role="button" aria-label="Get Started for Free"
+                  class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+                  
+                  <span class="relative text-[#6820EE] text-xl  transition-colors duration-300">
+                    Get started for free
+                  </span>
 
-    <svg
-      class="ml-3 h-8 w-8 text-[#6820EE] transition-all duration-300 transform group-hover:translate-x-2"
-      width="16" height="16" viewBox="0 0 24 24"
-      stroke-width="2" stroke="currentColor" fill="none"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" />
-      <line x1="5" y1="12" x2="19" y2="12" />
-      <line x1="13" y1="18" x2="19" y2="12" />
-      <line x1="13" y1="6" x2="19" y2="12" />
-    </svg>
-
-  </button>
-</span>
-
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-white shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-white rounded-3xl p-4 text-center">
-                      
-                    <iframe
-                      src="../GetStarted"
-                      width="100%"
-                      height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly"
-                    ></iframe>
-
-                      </form>
-                    </div>
-                  </div>
-                </div>
+                  <svg
+                    class="ml-3 h-8 w-8 text-[#6820EE] transition-all duration-300 transform group-hover:translate-x-2"
+                    width="16" height="16" viewBox="0 0 24 24"
+                    stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <line x1="13" y1="18" x2="19" y2="12" />
+                    <line x1="13" y1="6" x2="19" y2="12" />
+                  </svg>
+                </a>
+              </span>
               </div>
             </div>
+   
+           
       </div>
       <div class="h-full">
         <img
