@@ -1,6 +1,7 @@
 ---
 import BaseLayout3 from "../layouts/BaseLayout3.astro";
-import HeroAutomatedWF from "../components/heros/HeroAutomatedWF.astro";
+import { automationConfig } from "../config/heroIndex.js";
+import HeroSection from "../components/heros/HeroSection.jsx";
 import FeatureAutomatedWF from "../components/features/FeatureAutomatedWF.astro";
 import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
 import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
@@ -48,7 +49,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-  <HeroAutomatedWF />
+  <HeroSection {...automationConfig} client:load />
   <ClientLogoScroller />
   <!--<Test />-->
  <ModernWorkflow client:load />
