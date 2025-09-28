@@ -12,41 +12,47 @@ tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/brand-loyalty"
 keywords: ["brand loyalty","how to build brand loyalt","ways to increase brand loyalty","how to create brand loyalty","build brand loyalty"]
 ---
+
+
+<div class="lg:flex lg:gap-6">
+<!-- Table of content section -->
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+<p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#What-is-Brand-Loyalty?" rel="noreferrer">What is Brand Loyalty?</a>
+  </li> 
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Difference-Between-Brand-Loyalty and-Customer-Loyalty?" rel="noreferrer">Difference Between Brand Loyalty and Customer Loyalty?</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Importance-of-Brand-Loyalty" rel="noreferrer">Importance of Brand Loyalty</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Types-of-Brand-Loyalty" rel="noreferrer">Types of Brand Loyalty</a>
+  </li> 
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#7-Ways-to-Build-Brand-Loyalty" rel="noreferrer">7 Ways to Build Brand Loyalty</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Build-Brand-Loyalty-with-99minds" rel="noreferrer">Build Brand Loyalty with 99minds</a>
+  </li> 
+    <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#How to Measure and Track Brand Loyalty?" rel="noreferrer">How to Measure and Track Brand Loyalty</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Wrapping-Up: Strengthening-Your-Brand-Loyalty" ref="noreferrer">Wrapping Up: Strengthening Your Brand Loyalty</a>
+  </li>
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/What is Brand Loyalty- Importance And 7 Ways To Build It.webp" alt="What is brand loyalty">
 
 When you think about your preferred grocery store, phone service provider, or airline, it's likely you have a clear favorite. This preference isn't just about convenience; it's about a deeper connection. Customers often form a strong loyalty to brands that consistently deliver exceptional service, innovative designs, or outstanding products.
 
 According to the 2019 <a href="https://www.edelman.com/sites/g/files/aatuss191/files/2019-07/2019_edelman_trust_barometer_special_report_in_brands_we_trust.pdf" role="link" target="_blanck">Edelmen Report:</a> 67% of consumers say they need to trust the brand behind a product or service. In today's competitive market, where consumers are bombarded with endless options, fostering brand loyalty can seem like a daunting task for companies. Having a good reputation isn't enough. However, many brands have mastered the art of captivating their clientele through continuous innovation and superior customer engagement.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul role="list">
-  <li>  
-    <a role="link" href="#What-is-Brand-Loyalty?" rel="noreferrer">What is Brand Loyalty?</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Difference-Between-Brand-Loyalty and-Customer-Loyalty?" rel="noreferrer">Difference Between Brand Loyalty and Customer Loyalty?</a>
-  </li> 
-  <li>
-    <a role="link" href="#Importance-of-Brand-Loyalty" rel="noreferrer">Importance of Brand Loyalty</a>
-  </li> 
-  <li>
-    <a role="link" href="#Types-of-Brand-Loyalty" rel="noreferrer">Types of Brand Loyalty</a>
-  </li> 
-  <li>
-    <a role="link" href="#7-Ways-to-Build-Brand-Loyalty" rel="noreferrer">7 Ways to Build Brand Loyalty</a>
-  </li> 
-  <li>
-    <a role="link" href="#Build-Brand-Loyalty-with-99minds" rel="noreferrer">Build Brand Loyalty with 99minds</a>
-  </li> 
-    <li>
-    <a role="link" href="#How to Measure and Track Brand Loyalty?" rel="noreferrer">How to Measure and Track Brand Loyalty</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Wrapping-Up: Strengthening-Your-Brand-Loyalty" ref="noreferrer">Wrapping Up: Strengthening Your Brand Loyalty</a>
-  </li>
-</ul>
-</div>
 
 <h2 id="What-is-Brand-Loyalty?">What is Brand Loyalty?</h2>
 
@@ -91,8 +97,8 @@ This distinction highlights that while customer loyalty can be encouraged throug
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -381,3 +387,23 @@ Brand loyalty is when consumers consistently choose your brand over competitors,
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How Can Companies Cultivate Brand Loyalty?</h3>Companies can cultivate brand loyalty by consistently delivering high-quality products and services, providing outstanding customer service, engaging with customers through personalized marketing, and rewarding loyal customers through effective loyalty programs.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Why Is Brand Loyalty Beneficial To A Company?</h3>Brand loyalty is beneficial because it fosters repeat purchases, lowers the cost of sales by reducing the need for new customer acquisition, and enhances brand reputation through positive customer advocacy.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

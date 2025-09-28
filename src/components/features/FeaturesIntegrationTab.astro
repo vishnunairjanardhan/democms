@@ -12,55 +12,76 @@ const All = [
 ];
 --- 
 <section>
-  <div class=" py-12 mx-auto max-w-7xl">
-    <div class="relative w-full mt-6" x-data="{
-        tabSelected: 1,
-        tabId: $id('tabs'),
-        tabButtonClicked(tabButton){
-            this.tabSelected = tabButton.id.replace(this.tabId + '-', '');
-            this.tabRepositionMarker(tabButton);
-        },
-        tabRepositionMarker(tabButton){
-            this.$refs.tabMarker.style.width=tabButton.offsetWidth + 'px';
-            this.$refs.tabMarker.style.height=tabButton.offsetHeight + 'px';
-            this.$refs.tabMarker.style.left=tabButton.offsetLeft + 'px';
-        },
-        tabContentActive(tabContent){
-            return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
+  <div class="mx-auto max-w-7xl">
+     <div class="relative w-full mt-6" x-data="{
+    tabSelected: 1,
+    tabId: $id('tabs'),
+    tabButtonClicked(tabButton){
+        this.tabSelected = tabButton.id.replace(this.tabId + '-', '');
+        this.tabRepositionMarker(tabButton);
+    },
+    tabButtonActive(tabButton) {
+        return this.tabSelected == tabButton.id.replace(this.tabId + '-', '');
+    },
+    tabRepositionMarker(tabButton){
+        this.$refs.tabMarker.style.width = tabButton.offsetWidth + 'px';
+        this.$refs.tabMarker.style.height = tabButton.offsetHeight + 'px';
+        this.$refs.tabMarker.style.left = tabButton.offsetLeft + 'px';
+        this.$refs.tabMarker.style.top = tabButton.offsetTop + 'px';
+    },
+    tabContentActive(tabContent){
+        return this.tabSelected == tabContent.id.replace(this.tabId + '-content-', '');
+    },
+    handleResize(){
+        const activeButton = Array.from(this.$refs.tabButtons.children)
+            .find(btn => this.tabButtonActive(btn));
+        if(activeButton) {
+            this.tabRepositionMarker(activeButton);
         }
-    }" x-init="tabRepositionMarker($refs.tabButtons.firstElementChild);">
+    }
+}" x-init="$nextTick(() => { 
+    tabSelected = '1'; 
+    tabRepositionMarker($refs.tabButtons.firstElementChild); 
+    $refs.tabButtons.firstElementChild.classList.add('bg-black', 'text-white');
+    
+    window.addEventListener('resize', () => handleResize());
+    
+    $cleanup = () => {
+        window.removeEventListener('resize', () => handleResize());
+    };
+})">
       <div class="hidden lg:max-w-7xl sm:block md:block">
-        <div class=" relative flex flex-row items-center gap-10 justify-center w-full h-8 mx-auto text-white select-none" x-ref="tabButtons">
-          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-indigo-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-1">All</button>
-          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-2">E-commerce</button>
-          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">POS</button>
-          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Marketing</button>
-          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Email</button>
-          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Payment Processing</button>
-         <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Giftcard Processors</button>
-          <button class="relative z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'border-b-2 border-purple-500' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">Fraud Prevention</button>
-          <div class="absolute left-0 z-10 w-1/4 h-full duration-300 ease-out" x-ref="tabMarker" style="width: 224px; height: 32px; left: 0px;">
-            <div class=" w-full h-full rounded-lg bg-vulcan-900 border-2 border-indigo-500"></div>
-          </div>
-        </div>
+       <div class="relative flex flex-row flex-wrap items-center gap-2 md:gap-4 lg:gap-10 justify-center w-full mx-auto select-none" x-ref="tabButtons">
+          <button class="relative lg:rounded-3xl md:rounded-md z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'bg-black text-white' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-1">All</button>
+          <button class="relative lg:rounded-3xl md:rounded-md z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'bg-black text-white' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-2">E-commerce</button>
+          <button class="relative lg:rounded-3xl md:rounded-md z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'bg-black text-white' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-3">POS</button>
+          <button class="relative lg:rounded-3xl md:rounded-md z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'bg-black text-white' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-4">Marketing</button>
+          <button class="relative lg:rounded-3xl md:rounded-md z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'bg-black text-white' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-5">Email</button>
+          <button class="relative lg:rounded-3xl md:rounded-md z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'bg-black text-white' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-6">Payment Processing</button>
+          <button class="relative lg:rounded-3xl md:rounded-md z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'bg-black text-white' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-7">Giftcard Processors</button>
+          <button class="relative lg:rounded-3xl md:rounded-md z-20 inline-flex items-center gap-2 w-auto h-8 text-sm p-2 font-medium cursor-pointer transition-all whitespace-nowrap" type="button" :class="{ 'bg-black text-white' : tabButtonActive($el) }" :id="$id(tabId)" @click="tabButtonClicked($el);" id="tabs-2-8">Fraud Prevention</button>
+         <div class="absolute left-0 top-0 z-10 w-1/4 h-full duration-100 hidden lg:block" x-ref="tabMarker" style="width: 224px; height: 32px; left: 0px;">
+        <div class="w-full h-full lg:rounded-lg bg-black"></div>
+       </div>
+       </div>
       </div>
       <div class="relative border-t mt-4 border-vulcan-800 flex items-center justify-center w-full">
         <div class="relative" :id="$id(tabId + '-content')" x-show="tabContentActive($el)" id="tabs-1-content-6">
           <div class="relative items-center w-full">
-            <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
+            <ul class="grid grid-cols-1 gap-3 mt-6 list-none lg:grid-cols-3 lg:gap-x-10 lg:gap-y-10 lg:mt-12" role="list">
               {All.map((item, index) => (
                 <li key={index}>
-                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
-                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+                <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-lg bg-white border border-gray-500 p-4" >
+                  <div class="h-[30rem] p-8 bg-white rounded-3xl flex flex-col justify-start">
                     <div>
                       <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                      <p class="mt-4 text-lg font-medium text-black lg:text-xl">{item.title}</p></a>
                     </div>
-                    <div class="mt-2 text-sm justify-between text-white/70">
+                    <div class="mt-2 text-sm justify-between text-black">
                       {item.desc}
                       {!!item.url &&
                         <p class="mt-4">
-                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                          <a href={item.url} class="text-base leading-6 text-[#6820EE] font-medium block">Read more <span aria-hidden="true">→</span></a>
                         </p>
                       }
                     </div>
@@ -76,17 +97,17 @@ const All = [
             <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
               {Ecommerce.map((item, index) => (
                 <li key={index}>
-                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
-                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+               <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-md bg-white border border-gray-500 p-4" >
+                  <div class="h-[30rem] p-8 bg-white rounded-3xl flex flex-col justify-start">
                     <div>
                       <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                      <p class="mt-4 text-lg font-medium text-black lg:text-xl">{item.title}</p></a>
                     </div>
-                    <div class="mt-2 text-sm justify-between text-white/70">
+                    <div class="mt-2 text-sm justify-between text-black">
                       {item.desc}
                       {!!item.url &&
                         <p class="mt-4">
-                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                          <a href={item.url} class="text-base leading-6 text-[#6820EE] font-medium block">Read more <span aria-hidden="true">→</span></a>
                         </p>
                       }
                     </div>
@@ -102,17 +123,17 @@ const All = [
             <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
               {POS.map((item, index) => (
                  <li key={index}>
-                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
-                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+                <div   class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-md bg-white border border-gray-500 p-4" >
+                  <div class="h-[30rem] p-8 bg-white rounded-3xl flex flex-col justify-start">
                     <div>
                       <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                      <p class="mt-4 text-lg font-medium text-black lg:text-xl">{item.title}</p></a>
                     </div>
-                    <div class="mt-2 text-sm justify-between text-white/70">
+                    <div class="mt-2 text-sm justify-between text-black">
                       {item.desc}
                       {!!item.url &&
                         <p class="mt-4">
-                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                          <a href={item.url} class="text-base leading-6 text-[#6820EE] font-medium block">Read more <span aria-hidden="true">→</span></a>
                         </p>
                       }
                     </div>
@@ -129,17 +150,17 @@ const All = [
           <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
             {Marketing.map((item, index) => (
                <li key={index}>
-                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
-                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+               <div   class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-md bg-white border border-gray-500 p-4" >
+                  <div class="h-[30rem] p-8 bg-white rounded-3xl flex flex-col justify-start">
                     <div>
                       <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                      <p class="mt-4 text-lg font-medium text-black lg:text-xl">{item.title}</p></a>
                     </div>
-                    <div class="mt-2 text-sm justify-between text-white/70">
+                    <div class="mt-2 text-sm justify-between text-black">
                       {item.desc}
                       {!!item.url &&
                         <p class="mt-4">
-                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                          <a href={item.url} class="text-base leading-6 text-[#6820EE] font-medium block">Read more <span aria-hidden="true">→</span></a>
                         </p>
                       }
                     </div>
@@ -155,17 +176,17 @@ const All = [
             <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
               {Email.map((item, index) => (
                  <li key={index}>
-                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
-                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+               <div   class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-md bg-white border border-gray-500 p-4" >
+                  <div class="h-[30rem] p-8 bg-white rounded-3xl flex flex-col justify-start">
                     <div>
                       <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                      <p class="mt-4 text-lg font-medium text-black lg:text-xl">{item.title}</p></a>
                     </div>
-                    <div class="mt-2 text-sm justify-between text-white/70">
+                    <div class="mt-2 text-sm justify-between text-black">
                       {item.desc}
                       {!!item.url &&
                         <p class="mt-4">
-                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                          <a href={item.url} class="text-base leading-6 text-[#6820EE] font-medium block">Read more <span aria-hidden="true">→</span></a>
                         </p>
                       }
                     </div>
@@ -181,17 +202,17 @@ const All = [
             <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
               {Payment.map((item, index) => (
                  <li key={index}>
-                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
-                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+               <div   class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-md bg-white border border-gray-500 p-4" >
+                  <div class="h-[30rem] p-8 bg-white rounded-3xl flex flex-col justify-start">
                     <div>
                       <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                      <p class="mt-4 text-lg font-medium text-black lg:text-xl">{item.title}</p></a>
                     </div>
-                    <div class="mt-2 text-sm justify-between text-white/70">
+                    <div class="mt-2 text-sm justify-between text-black">
                       {item.desc}
                       {!!item.url &&
                         <p class="mt-4">
-                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                          <a href={item.url} class="text-base leading-6 text-[#6820EE] font-medium block">Read more <span aria-hidden="true">→</span></a>
                         </p>
                       }
                     </div>
@@ -207,17 +228,17 @@ const All = [
             <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
               {Giftcard.map((item, index) => (
                  <li key={index}>
-                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
-                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+               <div   class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-md bg-white border border-gray-500 p-4" >
+                  <div class="h-[30rem] p-8 bg-white rounded-3xl flex flex-col justify-start">
                     <div>
                       <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                      <p class="mt-4 text-lg font-medium text-black lg:text-xl">{item.title}</p></a>
                     </div>
-                    <div class="mt-2 text-sm justify-between text-white/70">
+                    <div class="mt-2 text-sm justify-between text-black">
                       {item.desc}
                       {!!item.url &&
                         <p class="mt-4">
-                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                          <a href={item.url} class="text-base leading-6 text-[#6820EE] font-medium block">Read more <span aria-hidden="true">→</span></a>
                         </p>
                       }
                     </div>
@@ -233,17 +254,17 @@ const All = [
             <ul class="grid grid-cols-1 gap-3 mt-12 list-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 lg:mt-24" role="list">
               {Fraud.map((item, index) => (
                  <li key={index}>
-                <div data-tilt class="tilt-card flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/2 p-4" >
-                  <div class="h-[30rem] p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-start">
+                <div   class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-md bg-white border border-gray-500 p-4" >
+                  <div class="h-[30rem] p-8 bg-white rounded-3xl flex flex-col justify-start">
                     <div>
                       <a href={item.url}><img class='w-1/4' src={item.image} alt={item.alt} />
-                      <p class="mt-4 text-lg font-medium text-white lg:text-xl">{item.title}</p></a>
+                      <p class="mt-4 text-lg font-medium text-black lg:text-xl">{item.title}</p></a>
                     </div>
-                    <div class="mt-2 text-sm justify-between text-white/70">
+                    <div class="mt-2 text-sm justify-between text-black">
                       {item.desc}
                       {!!item.url &&
                         <p class="mt-4">
-                          <a href={item.url} class="text-base leading-6 text-indigo-400 hover:text-white block">Read more <span aria-hidden="true">→</span></a>
+                          <a href={item.url} class="text-base leading-6 text-[#6820EE] font-medium block">Read more <span aria-hidden="true">→</span></a>
                         </p>
                       }
                     </div>

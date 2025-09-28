@@ -13,9 +13,47 @@ url: "https://www.99minds.io/blog/bank-loyalty-programs"
 keywords: ["Bank loyalty programs"]
 
 --- 
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#How-Bank-Loyalty-Programs-are-Shaping-the-Future-of-Banking" rel="noreferrer">How Bank Loyalty Programs are Shaping the Future of Banking</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Building-Loyalty-in-Banking-with-Reward-Programs" rel="noreferrer">Building Loyalty in Banking with Reward Programs</a>
+  </li>
+    <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Types-of-Bank-Loyalty-Programs" rel="noreferrer">Types of Bank Loyalty Programs</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Key-Steps-for-Implementing-Effective-Bank-Loyalty-Programs" ref="noreferrer">Key Steps for Implementing Effective Bank Loyalty Programs</a>
+  </li>
+    <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Top-10-Leading-Bank-Loyalty-Programs" ref="noreferrer">Top 10 Leading Bank Loyalty Programs
+</a>
+  </li>
+    <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Measuring-the-Success-of-a-Bank-Loyalty-Programs" ref="noreferrer">Measuring the Success of a Bank Loyalty Programs</a>
+  </li>
+  
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Conclusion-on-Bank-Loyalty-Program" ref="noreferrer">Conclusion on Bank Loyalty Program
+</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Bank-Loyalty-Programs" ref="noreferrer">Frequently Asked Questions (FAQs) on Bank Loyalty Programs
+</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/10_leading_bank_loyalty_programs_for_2025.webp" alt="Leading Bank Loyalty Programs for 2025">
 
-In today's dynamic financial landscape, <strong class="text-gray-100">bank loyalty programs</strong> have become essential tools for fostering deeper customer relationships and enhancing the overall banking experience. These programs are not just about rewarding transactions; they are strategic initiatives designed to build trust, offer personalized services, and encourage long-term loyalty.
+In today's dynamic financial landscape, <strong class="text-gray-700">bank loyalty programs</strong> have become essential tools for fostering deeper customer relationships and enhancing the overall banking experience. These programs are not just about rewarding transactions; they are strategic initiatives designed to build trust, offer personalized services, and encourage long-term loyalty.
 
 Recent trends indicate a significant shift in how banks approach customer engagement. A report from the <a href="https://bankingjournal.aba.com/2025/01/2025-bank-marketing-trends/">American Bankers Association</a> highlights that marketers' top objective is deposit growth, achieved through new customer acquisition, deepening existing customer relationships, and improved retention. Furthermore, <a href="https://www.amplifiloyalty.com/blog/3-trends-shaping-bank-and-credit-union-loyalty-in-2025/">a study by Mintel</a> reveals that 77% of banking consumers expect to be rewarded for their loyalty, prompting financial institutions to expand both the range and relevance of their offerings.
 
@@ -24,40 +62,6 @@ In 2025, the focus is on creating programs that offer diverse rewards and person
 As the market for bank loyalty programs continues to grow, with projections estimating a reach of USD 1,507.10 million by 2028, financial institutions are increasingly recognizing the importance of these programs in building lasting customer relationships.
 
 In this article, we will explore the top 10 bank loyalty programs in 2025, showcasing how these innovative strategies are transforming customer engagement and setting new standards in the banking industry.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>  
-    <a role="link" href="#How-Bank-Loyalty-Programs-are-Shaping-the-Future-of-Banking" rel="noreferrer">How Bank Loyalty Programs are Shaping the Future of Banking</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Building-Loyalty-in-Banking-with-Reward-Programs" rel="noreferrer">Building Loyalty in Banking with Reward Programs</a>
-  </li>
-    <li>  
-    <a role="link" href="#Types-of-Bank-Loyalty-Programs" rel="noreferrer">Types of Bank Loyalty Programs</a>
-  </li>
-  <li>  
-    <a role="link" href="#Key-Steps-for-Implementing-Effective-Bank-Loyalty-Programs" ref="noreferrer">Key Steps for Implementing Effective Bank Loyalty Programs</a>
-  </li>
-    <li>  
-    <a role="link" href="#Top-10-Leading-Bank-Loyalty-Programs" ref="noreferrer">Top 10 Leading Bank Loyalty Programs
-</a>
-  </li>
-    <li>  
-    <a role="link" href="#Measuring-the-Success-of-a-Bank-Loyalty-Programs" ref="noreferrer">Measuring the Success of a Bank Loyalty Programs</a>
-  </li>
-  
-  <li>  
-    <a role="link" href="#Conclusion-on-Bank-Loyalty-Program" ref="noreferrer">Conclusion on Bank Loyalty Program
-</a>
-  </li>  
-  <li>  
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-on-Bank-Loyalty-Programs" ref="noreferrer">Frequently Asked Questions (FAQs) on Bank Loyalty Programs
-</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="How-Bank-Loyalty-Programs-are-Shaping-the-Future-of-Banking">How Bank Loyalty Programs are Shaping the Future of Banking</h2>
 The banking industry has weathered countless changes over the centuries, enduring global crises, technological advancements, and shifts in consumer behavior. For a long time, it seemed that traditional banks were immune to the wave of digital transformation sweeping through other sectors. However, the rise of fintech and new customer expectations is now challenging that status quo.
@@ -84,8 +88,8 @@ As a result, traditional banks are facing immense pressure to innovate and retai
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -206,8 +210,8 @@ By following these steps and constantly refining the program to meet customer ne
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -514,3 +518,25 @@ Customers enjoy rewards for their spending, which can range from travel perks to
 Banks track key metrics like customer satisfaction (CSAT), retention rate, profitability per customer, redemption rate, and Net Promoter Score (NPS) to evaluate the effectiveness of their loyalty programs.
 </div>
 
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

@@ -1,60 +1,48 @@
 ---
 import BaseLayout3 from "../layouts/BaseLayout3.astro";
-import HeroThree from "../components/heros/HeroThree.astro";
-import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro";
+import HeroIndex from "../components/heros/HeroIndex.astro";
 import FeatureFive_NewHome from "../components/features/FeatureFive_NewHome.astro";
 import FeatureSix from "../components/features/FeatureSix.astro";
 import FeatureTen from "../components/features/FeatureTen.astro";
-import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
 import Pricing99minds from "../components/pricing/Pricing99minds.astro";
-import Faq99minds from "../components/Infopages/Faq99minds.astro";
-import CtaThree from "../components/ctas/CtaThree.astro";
+import Faq99minds1 from "../components/Infopages/Faq99minds1.astro";
+import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
 import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
 import { AstroSeo } from "@astrolib/seo";
 import { Seo } from "../config/Seo.jsx";
+import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
+import Hero from "../components/heros/HeroIndex.jsx";
+import heroConfig from "../config/heroConfig.js";
 ---
 
-
-
-<BaseLayout3>
-  <AstroSeo
-  title="Gift Cards & Loyalty Platform for Omnichannel e-Commerce & In-store | 99minds"
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+<AstroSeo
+  title="All-In-One Gift Card & Loyalty Platform For Businesses | 99minds"
   description="An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience."
   canonical="https://www.99minds.io"
-    openGraph= {{
-      url: "https://www.99minds.io",
-      title: "Gift Cards & Loyalty Platform for Omnichannel e-Commerce & In-store | 99minds",
-      description: "An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience.",
-      images: [
-        {
-          url: "https://www.99minds.io/assets/homepage/h1.png",
-          alt: "99minds Gift Card & Loyalty",
-          type: "image/jpeg",
-        },
-      ],
-      site_name: "99minds",
-    }}
-    twitter={{
-      url: "https://www.99minds.io",
-      images: [
-        {
-          url: "https://www.99minds.io/assets/homepage/h1.png",
-          alt: "99minds Gift Card & Loyalty",
-          type: "image/png",
-        }
-      ],
-      site: "@99minds_io",
-      cardType: "summary_large_image",
-    }}
+  openGraph={{
+    url: "https://www.99minds.io",
+    title: "All-In-One Gift Card & Loyalty Platform For Businesses | 99minds",
+    description: "An easy-to-use, plug-&-play, cost-effective loyalty & promotions platform for businesses to create campaigns to personalize promotions & build omnichannel customer experience.",
+    
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
 />
-  <HeroThree />
-  <LogoCloudOne />
-  <FeatureFive_NewHome />
+<BaseLayout3>
+  <Hero client:load {...heroConfig}/>
+  <!-- <HeroIndex /> -->
+  <ClientLogoScroller />
   <FeatureSix />
+  <FeatureFive_NewHome />
   <FeatureTen />
-  <TestimonialNew />
+  <TestimonialCarousel client:load/>
   <IntegrationsHome />
   <!--<Pricing99minds />-->
-  <Faq99minds />
-  <CtaThree />
+  <Faq99minds1 />
 </BaseLayout3>

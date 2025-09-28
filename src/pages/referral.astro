@@ -1,11 +1,12 @@
 ---
 import BaseLayout3 from "../layouts/BaseLayout3.astro";
-import HeroReferral from "../components/heros/HeroReferral.astro";
-import LogoCloudOne from "../components/testimonials/LogoCloudOne.astro";
+import { referralConfig } from "../config/heroIndex.js";
+import HeroSection from "../components/heros/HeroSection.jsx";
+import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
 import FeatureReferral from "../components/features/FeatureReferral.astro";
-import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
+import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
-import Integrations99minds2 from "../components/integrations/Integrations99minds2.astro";
+import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
 import { Seo } from "../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -45,10 +46,10 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-  <HeroReferral />
-  <LogoCloudOne />
+  <HeroSection {...referralConfig} client:load />
+  <ClientLogoScroller />
   <FeatureReferral />
-  <TestimonialNew />
-  <Integrations99minds2 />
+  <TestimonialCarousel client:load/>
+  <IntegrationsHome />
   <CtaThreeU />
 </BaseLayout3>

@@ -13,21 +13,8 @@ url: "https://www.99minds.io/blog/ecommerce-referral-program"
 keywords: ["eCommerce Referral Program"]
 
 ---
-
-<img rel="preload" role="img" src="/assets/blog/ecommerce_referral_program.webp" alt="banner image of eCommerce referral program blog">
-
-
-An eCommerce referral program is a strategy that rewards your existing customers for referring your products to their friends, family, or network.
-
-Retail eCommerce brands use <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">referral programs</a> to expand their reach, grow their customer base, and boost revenue through trusted word of mouth. It’s a smart, scalable approach that turns satisfied shoppers into active promoters of your brand.
-
-Unlike paid advertising or influencer campaigns, <a href="https://www.99minds.io/blog/referral-marketing" role="link" target="_blanck">referral marketing</a> is often more cost-effective because it leverages one of your most valuable assets: your loyal customers. By giving them a reason to recommend your store, you can create a steady stream of high-quality leads and long-term customers.
-
-In fact, according to recent 2025 data, <a href="https://www.entrepreneur.com/growing-a-business/4-steps-to-maximizing-customer-referrals/276605" role="link" target="_blanck">65% of new business opportunities</a> come directly from referrals. That makes referral marketing one of the most powerful <a href="https://www.99minds.io/blog/ecommerce-promotions" role="link" target="_blanck">eCommerce promotions</a> to drive sustainable growth today.
-
-In this blog, we’ll explore the benefits of running a referral program for eCommerce, look at successful real-world examples, and share the best strategies to help you build one that delivers results in 2025.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
+<div class="lg:flex lg:gap-6">
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
 <p>Table of Contents:</p>
 <ul role="list">
   <li>
@@ -48,8 +35,23 @@ In this blog, we’ll explore the benefits of running a referral program for eCo
   <li>
   <a role="link" href="#6" rel="noreferrer">eCommerce Referral Program Frequently Ask Questions (FAQs)</a>
   </li>  
-  </ul>
- </div> 
+</ul>
+</div>
+<div class="w-full">
+<img rel="preload" role="img" src="/assets/blog/ecommerce_referral_program.webp" alt="banner image of eCommerce referral program blog">
+
+
+An eCommerce referral program is a strategy that rewards your existing customers for referring your products to their friends, family, or network.
+
+Retail eCommerce brands use <a href="https://www.99minds.io/blog/referral-program" role="link" target="_blanck">referral programs</a> to expand their reach, grow their customer base, and boost revenue through trusted word of mouth. It’s a smart, scalable approach that turns satisfied shoppers into active promoters of your brand.
+
+Unlike paid advertising or influencer campaigns, <a href="https://www.99minds.io/blog/referral-marketing" role="link" target="_blanck">referral marketing</a> is often more cost-effective because it leverages one of your most valuable assets: your loyal customers. By giving them a reason to recommend your store, you can create a steady stream of high-quality leads and long-term customers.
+
+In fact, according to recent 2025 data, <a href="https://www.entrepreneur.com/growing-a-business/4-steps-to-maximizing-customer-referrals/276605" role="link" target="_blanck">65% of new business opportunities</a> come directly from referrals. That makes referral marketing one of the most powerful <a href="https://www.99minds.io/blog/ecommerce-promotions" role="link" target="_blanck">eCommerce promotions</a> to drive sustainable growth today.
+
+In this blog, we’ll explore the benefits of running a referral program for eCommerce, look at successful real-world examples, and share the best strategies to help you build one that delivers results in 2025.
+
+
 
 <h2 id="1">What is an eCommerce Referral Program?</h2>
 
@@ -277,3 +279,21 @@ If you’re ready to put that data to work and scale with confidence, <a href="h
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How does the eCommerce referral program work?</h3>An eCommerce referral program rewards existing customers for referring friends or family to your store. Customers share a unique link, and when someone makes a purchase using it, both parties receive a reward. It’s a win-win approach to boost word-of-mouth and drive sales.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How to avoid mistakes in an eCommerce referral program?</h3>To avoid common mistakes, clearly define your reward structure, set simple rules, and ensure tracking works flawlessly. Promote the program consistently and monitor feedback. Avoid overly complex processes that confuse customers or discourage participation. Regularly review performance to spot issues and optimize results.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How to track your eCommerce referral program?</h3>Use referral software to track key metrics like referral clicks, conversions, and revenue generated. Monitor customer lifetime value, reward redemption rates, and top referrers. Dashboards and analytics help you measure ROI, identify trends, and fine-tune your program for better performance over time.</div>
+</div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+</div>

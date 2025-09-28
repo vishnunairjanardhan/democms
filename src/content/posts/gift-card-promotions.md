@@ -13,35 +13,41 @@ url: "https://www.99minds.io/blog/gift-card-promotions"
 keywords: ["Gift card promotions", "how to promote gift cardss", "gift card promotion ideas", "gift card promotion strategy"]
 
 ---
+
+
+<div class="lg:flex lg:gap-6">
+<!-- Table of content section -->
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+<p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-is-a-Gift-Card-Promotions?" rel="noreferrer">What is a Gift Card Promotions?</a>
+  </li> 
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Benefits-of-Gift-Card-Promotions" rel="noreferrer">Benefits of Gift Card Promotions</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Gift-Card-Promotion-Ideas" rel="noreferrer">Top Effective Gift Card Promotion Ideas</a>
+  </li>    
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#How-to-set-up-Gift-Card-Promotions" rel="noreferrer">How to Set Up Gift Card Promotions</a>
+  </li> 
+ <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Wrapping-up" ref="noreferrer">Wrapping up</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" role="link" href="#Frequently-Ask-Questions-(FAQs)" ref="noreferrer">Frequently Ask Questions (FAQs) on Gift Card Promotions</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/Gift-Card-Promotion.webp" alt="Gift card promotion ideas">
 
 Gift card promotions are a beacon of potential for businesses in the rapidly changing retail industry. They offer an excellent opportunity to boost revenue, enhance customer engagement, and create <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="link">brand loyalty</a>. According to <a href="https://www.globenewswire.com/news-release/2020/07/29/2069204/0/en/United-States-Digital-Gift-Card-and-Incentive-Card-Market-to-2024-Impact-of-COVID-19-on-the-101-Billion-Projected-Industry.html" role="link" target="_blanck">Global Newswire</a>, the US gift card market grew at a phenomenal compound annual growth rate (CAGR) of 29.1% between 2015 and 2019.
 
 Gift cards offer convenience for both gift givers and recipients, allowing the giver to choose the perfect gift while ensuring the recipient gets what they really want. Businesses can use gift card promotions to demonstrate their commitment to satisfying customers and create additional revenue streams. This approach can help businesses succeed in a competitive market and elevate their company to new levels of success.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul role="list">
-  <li>  
-    <a role="link" href="#What-is-a-Gift-Card-Promotions?" rel="noreferrer">What is a Gift Card Promotions?</a>
-  </li> 
-  <li>
-    <a role="link" href="#Benefits-of-Gift-Card-Promotions" rel="noreferrer">Benefits of Gift Card Promotions</a>
-  </li>
-  <li>
-    <a role="link" href="#Gift-Card-Promotion-Ideas" rel="noreferrer">Top Effective Gift Card Promotion Ideas</a>
-  </li>    
-  <li>
-    <a role="link" href="#How-to-set-up-Gift-Card-Promotions" rel="noreferrer">How to Set Up Gift Card Promotions</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Wrapping-up" ref="noreferrer">Wrapping up</a>
-  </li>
-  <li>  
-    <a role="link" role="link" href="#Frequently-Ask-Questions-(FAQs)" ref="noreferrer">Frequently Ask Questions (FAQs) on Gift Card Promotions</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="What-is-a-Gift-Card-Promotions?">What is a Gift Card Promotions?</h2>
 
@@ -94,8 +100,8 @@ In addition to traditional physical gift cards sold in-store, digital gift cards
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -282,3 +288,23 @@ Gift card promotions are important because it drive sales, attract new customers
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How To Promote Gift Cards?</h3>Gift card promotions through targeted social media ads, stressing their versatility for any occasion. Offer discounts to incentivize purchases. Simplify the redemption process, making it easy for customers to use online or in-store.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How Do Gift Card Promotions Help In The eCommerce Business?</h3>Gift card promotions benefit eCommerce businesses by increasing sales, expanding the customer base, and reducing returns. Gift cards often lead to higher transaction amounts as customers typically spend more than the card's value.</div> 
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

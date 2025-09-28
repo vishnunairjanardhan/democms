@@ -1,0 +1,56 @@
+---
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
+import HeroVend from "../../components/heros/HeroVend.astro";
+import ClientLogoScroller from "../../components/testimonials/ClientLogoScroller.astro";
+import NewLogoCloud from "../../components/testimonials/NewLogoCloud.jsx";
+import FeatureVend from "../../components/features/FeatureVend.astro";
+import FeatureVend2 from "../../components/features/FeatureVend2.astro";
+import FeatureTenVend from "../../components/features/FeatureTenVend.astro";
+import Testimonialtry from "../../components/testimonials/Testimonialtry.astro";
+//import Cta99mindsPOS from "../../components/ctas/Cta99mindsPOS.astro";
+import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+import IntegrationVend from "../../components/integrations/IntegrationVend.astro";
+
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+<BaseLayout3>
+<AstroSeo
+  title="99minds and Vend integration | 99minds"
+  description="99minds combines data-driven automation, gift cards store credit, and loyalty programs to deliver smart, targeted marketing for Vend users."
+  canonical="https://www.99minds.io/integrations/vend"
+  openGraph={{
+    url: "https://www.99minds.io/integrations/vend",
+    title: "99minds and Vend integration | 99minds",
+    description: "99minds combines data-driven automation, gift cards store credit, and loyalty programs to deliver smart, targeted marketing for Vend users.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/99minds-LS-OGI.svg",
+        alt: "99minds and Vend integration",
+        type: "image/jpeg",
+      },
+      
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroVend />
+  <!--<LogoCloudOne />-->
+   <ClientLogoScroller />
+  <FeatureVend />
+  <FeatureVend2 />
+  <FeatureTenVend />
+  <IntegrationVend />
+  <Testimonialtry />
+  <!-- <Cta99mindsPOS /> -->
+  <CtaThreeU />
+</BaseLayout3>

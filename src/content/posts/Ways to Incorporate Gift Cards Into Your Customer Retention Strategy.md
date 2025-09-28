@@ -13,10 +13,28 @@ url: "https://www.99minds.io/blog/ways-to-incorporate-gift-cards-into-your-custo
 keywords: ["99minds"]
 
 ---
+
+
+<div class="lg:flex lg:gap-6">
+<!-- Table of content section -->
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+<p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a href="#Retention-Strategies-With-E-gift-Cards" rel="noreferrer">Retention Strategies With E-gift Cards:</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a href="#wrapping-up" ref="noreferrer">Wrapping Up</a>
+  </li>
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM1.png">
 Boosting customer loyalty with gift cards is a sure-shot possibility. All you have to do is to have a deep understanding of your customers. Knowing their likes, dislikes, preferences, and purchasing behaviors ensures that you get the most out of a customer retention program. With competitions increasing every single day, breaking through the noise clutter is difficult. You must have a trick or two up your sleeve to retain customers. Why should they stay with your brand? This is the question you must find answer for. One of the best ways to retain customers is through gift card-based customer engagement tactics. 
 
-<h2>Retention Strategies With E-gift Cards:</h2>
+
+<h2 id="Retention-Strategies-With-E-gift-Cards">Retention Strategies With E-gift Cards:</h2>
 
 Customer retention with gift cards, in other words, is the increase of customer loyalty, using gift cards. Let’s look at some of the best ways to incorporate gift cards into your customer retention strategy. 
 <ul>
@@ -91,8 +109,29 @@ If you were to partner with a brand that attracts the same kind of audience, but
 </ul>
 </ol>
 
-<h2>Wrapping Up:</h2>
+<h2 id="wrapping-up">Wrapping Up:</h2>
 
 Gift cards and long-term customer relationships go together, especially if you have the right retention strategy. There are several ways to retain customers, but using gift cards for customer loyalty or including gift cards in customer retention plans shouldn’t be a surprise. 
 
 If you want to incorporate a gift card program into your eCommerce store, the 99minds team would be happy to help you out. Get in touch with us and we will assist in creating the perfect customer retention strategy usign gift cards. 
+
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>

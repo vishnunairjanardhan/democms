@@ -1,4 +1,6 @@
-
+---
+import IntegrationCircular from "../../components/features/IntegrationCircular.astro";
+---
 <section class="relative">
   <div class="w-full h-full -z-1 absolute flex flex-row justify-between left-0 lg:h-full lg:max-w-7xl lg:px-0 mx-auto px-6 right-0">
     <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
@@ -8,21 +10,23 @@
     <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
     <div class="w-full h-full border-[#f5f5f510]/5 border-x border-dashed"></div>
   </div>
-  <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-12 max-w-7xl lg:pt-32">
+  <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-12 max-w-7xl lg:pt-20">
     <div class="grid grid-cols-1 gap-6 p-8 pb-0 overflow-hidden lg:grid-cols-2 lg:gap-2 lg:p-4 lg:pt-8">
       <div class="relative items-center gap-12 pb-12 m-auto lg:inline-flex md:order-first lg:pb-36 xl:pt-0 lg:pr-20">
         <div class="max-w-xl text-center pt-10 lg:text-left">
            <span
-          class="text-xs font-medium tracking-widest text-transparent uppercase bg-clip-text bg-gradient-to-r from-indigo-300 via-indigo-400 to-indigo-500"
+          class="text-base font-medium tracking-widest  uppercase text-[#6820EE]"
           >integrations</span
         >
-          <h1 class="mt-8">Dozens of apps. <br />Endless possibilities.</h1>
+          <h1 class="mt-8">Hundreds of apps. <br />Endless possibilities.</h1>
           <p class="max-w-2xl mt-4">Enhance your 99minds experience with a wide variety of <br />add-ons and integrations. From everyday essentials to powerful pro workflows.</p>
         </div>
       </div>
-      <div class="relative order-first w-full lg:block ">
-        <img class="object-cover object-center justify-center w-full mx-auto shadow-l lg:absolute shadow-black" alt="hero" src="/assets/Int-1.webp">
-      </div>
+   <div class="relative flex items-center justify-center w-full px-6 mx-auto lg:px-0 lg:justify-end ">
+   <div class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl my-16 lg:my-0">
+    <IntegrationCircular />
     </div>
   </div>
+ </div>
+</div>
 </section>

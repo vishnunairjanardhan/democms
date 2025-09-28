@@ -32,7 +32,7 @@ People might be surprised by how quickly gift cards are being spent, which bodes
 
 <img class="w-full" src="/assets/blog/gift-card-market-800x600.jpg" alt="gift card market stats">
 
-2. When rewards and incentives are given to customers, one-third of them feel motivated to purchase gift cards. 33% of respondents ultimately made a purchase at a particular store as a result of an incentive, even if they had no intention of doing so. That’s why many companies uplift their Sales and Loyalty Programs using Gift Cards.
+2. When rewards and incentives are given to customers, one-third of them feel motivated to purchase gift cards. 33% of respondents ultimately made a purchase at a particular store as a result of an incentive, even if they had no intention of doing so. That’s why many companies uplift their Sales and <a href="https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs">Loyalty Programs</a> using Gift Cards.
 
 3. 32% of consumers buy seven or more gift cards a year When asked how many gift cards they generally buy each year for occasions like birthdays and weddings, 32% of respondents indicated they typically buy seven or more gift cards.Additionally, the majority of respondents (31%) claimed to purchase seven or more gift cards annually for their personal usage.
 

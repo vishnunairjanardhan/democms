@@ -1,6 +1,5 @@
 export const TABLE_HEAD = [
   "",
-  "Lite",
   "Basic",
   "Pro",
   "Ultra",
@@ -11,11 +10,6 @@ export const TABLE_BOTTOM = [
   {
     Label:'Features',
     active: false
-  },
-  {
-    Url: "/Get-Started",
-    Label: "Get Started",
-    active: true
   },
   {
     Url: "/Get-Started",
@@ -49,7 +43,6 @@ export const CHECK_ICON = ["Yes", "No"];
 export const PRICE_LIST_AMOUNT = [
   {
     Column1: "Monthly Price ($)",
-    Lite: "$19",
     Basic: "$49",
     Pro: "$99",
     Ultra: "$199",
@@ -60,7 +53,6 @@ export const PRICE_LIST_AMOUNT = [
 export const TOP_PRODUCT_PRICE_LIST = [
   {
     Column1: "Free Monthly Transactions",
-    Lite: 200,
     Basic: 800,
     Pro: 1500,
     Ultra: 3000,
@@ -69,7 +61,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Additional Transactions",
-    Lite: "$0.20",
     Basic: "$0.15",
     Pro: "$0.15",
     Ultra: "$0.10",
@@ -78,7 +69,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Number of Integrations",
-    Lite: 2,
     Basic: 3,
     Pro: 4,
     Ultra: "Unlimited",
@@ -87,7 +77,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: " Giftcard Program",
-    Lite: "Yes",
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -96,7 +85,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Store Credits",
-    Lite: "No",
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -105,7 +93,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Loyalty Program",
-    Lite: "No",
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -114,7 +101,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Coupons",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -123,7 +109,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Referral Program",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
     Ultra: "Yes",
@@ -132,8 +117,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "VIP Tiers",
-    Free: "No",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
     Ultra: "Yes",
@@ -142,7 +125,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Automation Workflows",
-    Lite: "No",
     Basic: 1,
     Pro: 5,
     Ultra: 10,
@@ -151,7 +133,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Stores (Including physical stores)",
-    Lite: "No",
     Basic: "No",
     Pro: "3 stores",
     Ultra: "5 stores",
@@ -160,7 +141,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Heartland Retail",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -169,7 +149,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Lightspeed X-Series",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -178,7 +157,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Lightspeed R-Series",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -187,7 +165,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Lightspeed K-Series",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -196,7 +173,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Lightspeed O-Series",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -205,7 +181,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Square POS",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -214,7 +189,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Runit POS",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -223,7 +197,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Connect POS",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -232,7 +205,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Clover POS",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -241,7 +213,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Salesforce Integration",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -250,7 +221,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Microsoft Dynamic 365",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -259,7 +229,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Shopify Flows Integration",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -268,44 +237,39 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Shopify Checkout Extensions",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
-    Ultra: "No",
+    Ultra: "Yes",
     Premium: "Yes",
     Enterprise: "Yes",
   },
   {
     Column1: "Shopify POS Extensions",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
-    Ultra: "No",
+    Ultra: "Yes",
     Premium: "Yes",
     Enterprise: "Yes",
   },
   {
     Column1: "Shopify Account Extensions",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
-    Ultra: "No",
+    Ultra: "Yes",
     Premium: "Yes",
     Enterprise: "Yes",
   },
   {
     Column1: "Shopify Metafields",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
-    Ultra: "No",
+    Ultra: "Yes",
     Premium: "Yes",
     Enterprise: "Yes",
   },
   {
     Column1: "Apple Pass & Google Wallet Integration",
     Free: "No",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -315,10 +279,9 @@ export const TOP_PRODUCT_PRICE_LIST = [
   {
     Column1: "Loyalty Page & Dashboard",
     Free: "No",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
-    Ultra: "No",
+    Ultra: "Yes",
     Premium: "Yes",
     Enterprise: "Yes",
   },
@@ -327,7 +290,6 @@ export const TOP_PRODUCT_PRICE_LIST = [
 export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Number of Campaigns",
-    Lite: 3,
     Basic: 5,
     Pro: 15,
     Ultra: 40,
@@ -336,7 +298,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Import Giftcards",
-    Lite: "Yes",
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -345,7 +306,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Gift Card Widget Customization",
-    Lite: "Yes",
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -354,7 +314,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Resend Emails",
-    Lite: "Yes",
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -363,7 +322,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Custom Gift Card Artworks",
-    Lite: "Yes",
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -372,7 +330,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Expiring Store Credits",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -381,8 +338,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Check Balance Page",
-    Lite: "Yes",
-    Basic: "Yes",
+     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
     Premium: "Yes",
@@ -390,7 +346,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Workflow Delay Action",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
     Ultra: "Yes",
@@ -399,7 +354,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Time-Sensitive Workflow Conditions",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -408,7 +362,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Workflow Cart Item Filters",
-    Lite: "No",
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -417,7 +370,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Print at Home",
-    Lite: "Yes",
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -427,7 +379,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
 
   {
     Column1: "Giftcard Discounts & Promotions",
-    Lite: "Yes",
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -436,7 +387,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Schedule Gift Card Delivery",
-    Lite: "Yes",
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -445,7 +395,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Default Email Customization",
-    Lite: "Yes",
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -454,7 +403,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Reports",
-    Lite: "No",
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -464,7 +412,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Custom Email Templates",
     Free: "No",
-    Lite: "No",
+    
     Basic: 3,
     Pro: 10,
     Ultra: 20,
@@ -474,7 +422,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Barcode Generation",
     Free: "No",
-    Lite: "No",
+    
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -484,7 +432,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Bulk Giftcard Creation",
     Free: "No",
-    Lite: "No",
+    
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -494,7 +442,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Web POS",
     Free: "No",
-    Lite: "No",
+    
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -504,7 +452,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Physical Gift Card Support",
     Free: "No",
-    Lite: "No",
+    
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -514,7 +462,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Multi Currency Support",
     Free: "No",
-    Lite: "No",
+    
     Basic: "No",
     Pro: "Yes",
     Ultra: "Yes",
@@ -524,7 +472,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Remove Branding",
     Free: "No",
-    Lite: "No",
+    
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -534,7 +482,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Team Management",
     Free: "No",
-    Lite: "No",
+    
     Basic: 5,
     Pro: 10,
     Ultra: 25,
@@ -544,7 +492,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "B2B Distribution",
     Free: "No",
-    Lite: "No",
+    
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -554,7 +502,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Two Factor Authentication",
     Free: "No",
-    Lite: "No",
+    
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -564,7 +512,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "API Access",
     Free: "No",
-    Lite: "No",
+    
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -574,7 +522,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Custom 3rd Party POS Support",
     Free: "No",
-    Lite: "No",
+    
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -584,7 +532,7 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Account Manager",
     Free: "No",
-    Lite: "No",
+    
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -594,7 +542,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   // {
   //   Column1: "Infrastructure",
   //   Free: "Shared",
-  //   Lite: "Shared",
   //   Basic: "Shared",
   //   Pro: "Shared",
   //   Ultra: "Shared",

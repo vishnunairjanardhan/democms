@@ -12,32 +12,38 @@ tags: ["Customer Acquisition"]
 url: "https://www.99minds.io/blog/customer-acquisition-strategy"
 keywords: ["customer acquisition strategy","strategy for customer acquisition","strategies for customer acquisition","customer acquisition techniques","customer acquisition tactics","customer acquisition strategies","client acquisition strategy","strategies to acquire new customers"]
 ---
+
+
+<div class="lg:flex lg:gap-6">
+<!-- Table of content section -->
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+<p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#1" rel="noreferrer">What is Customer Acquisition Strategy</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#2" rel="noreferrer">Why do you Need a Customer Acquisition Strategy?</a>
+  </li>    
+ <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#3" rel="noreferrer">Top 23 Customer Acquisition Strategy</a>
+  </li>  
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#4" ref="noreferrer">Conclusion</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#5" ref="noreferrer">Frequently Ask Questions (FAQs) on Customer Acquisition Strategies</a>
+  </li>  
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" src="/assets/blog/top-customer-acquisition-strategy.webp" alt="Top 23 Effective Customer Acquisition Strategy">
 
 <a href="https://www.99minds.io/blog/customer-acquisition" role="link" target="_blanck">Customer acquisition</a> is essential for business growth and success. A steady stream of new customers prevents stagnation, even for reputable brands. By implementing effective strategies, businesses can expand their market reach, increase revenue, and remain competitive.
 
 For startups, acquiring customers builds credibility and traction, while established enterprises rely on it for ongoing growth. A data-driven customer acquisition strategy supports long-term sustainability and profitability. By using various channels and optimizing approaches, businesses can create a strong pipeline of prospective customers who become loyal customers over time.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
-<ul>
-  <li>
-    <a role="link" href="#1" rel="noreferrer">What is Customer Acquisition Strategy</a>
-  </li>
-  <li>
-    <a role="link" href="#2" rel="noreferrer">Why do you Need a Customer Acquisition Strategy?</a>
-  </li>    
-  <li>
-    <a role="link" href="#3" rel="noreferrer">Top 23 Customer Acquisition Strategy</a>
-  </li>  
-  <li>  
-    <a role="link" href="#4" ref="noreferrer">Conclusion</a>
-  </li>
-  <li>  
-    <a role="link" href="#5" ref="noreferrer">Frequently Ask Questions (FAQs) on Customer Acquisition Strategies</a>
-  </li>  
-</ul>
-</div>
 
 <h2 id="1">What is Customer Acquisition Strategy</h2>
 
@@ -85,8 +91,8 @@ The promise of sustainable growth can be achieved by focusing on customer relati
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -358,5 +364,23 @@ A customer acquisition strategy is a plan or a set of methods used to attract an
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How To Make A Customer Acquisition Strategy Effective For An ecommerce Business?</h3>To acquire and retain customers effectively, ecommerce websites must leverage SEO for organic traffic, engage through social media, run targeted PPC campaigns, use email and content marketing, offer incentives, and ensure a seamless website experience with exceptional customer service.</div>
 
 
-
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>
 

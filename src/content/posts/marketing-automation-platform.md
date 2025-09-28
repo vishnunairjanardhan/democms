@@ -13,19 +13,9 @@ url: "https://www.99minds.io/blog/marketing-automation-platform"
 keywords: ["Marketing Automation Platform"]
 
 --- 
-<img src="/assets/blog/marketing-automation-platform-streamline-your-campaigns-boost-roi.webp"></a>
-
-Let’s be honest—manually managing your marketing campaigns in 2025? That’s like using a flip phone in the age of iPhones.
-
-We live in a time when customers expect fast, personal, and seamless experiences across emails, websites, social media, and messaging apps—you name it. Meeting those expectations without some serious tech help is not going to happen.
-
-That’s exactly where marketing automation comes in.
-Whether you’re a solo founder, a growing eCommerce brand, or a full-on marketing team, automating your workflows can save you hours, improve your results, and help you scale without burning out.
-
-In this guide, we’re exploring marketing automation platforms, why they matter in 2025, the key features you should look for, the top tools on the market, and how to choose the best one for your needs.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul role="list">
   <li>
   <a role="link" href="#Why-Marketing-Automation-Matters-in-2025?" rel="noreferrer">Why Marketing Automation Matters in 2025?</a>
@@ -53,6 +43,17 @@ In this guide, we’re exploring marketing automation platforms, why they matter
   </li>
 </ul>
 </div>
+<div class="w-full">
+<img src="/assets/blog/marketing-automation-platform-streamline-your-campaigns-boost-roi.webp"></a>
+
+Let’s be honest—manually managing your marketing campaigns in 2025? That’s like using a flip phone in the age of iPhones.
+
+We live in a time when customers expect fast, personal, and seamless experiences across emails, websites, social media, and messaging apps—you name it. Meeting those expectations without some serious tech help is not going to happen.
+
+That’s exactly where marketing automation comes in.
+Whether you’re a solo founder, a growing eCommerce brand, or a full-on marketing team, automating your workflows can save you hours, improve your results, and help you scale without burning out.
+
+In this guide, we’re exploring marketing automation platforms, why they matter in 2025, the key features you should look for, the top tools on the market, and how to choose the best one for your needs.
 
 <h2 id="Why-Marketing-Automation-Matters-in-2025?">Why Marketing Automation Matters in 2025?</h2>
 
@@ -439,8 +440,25 @@ If you haven’t adopted marketing automation yet, now is the perfect time to do
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is the difference between email marketing and marketing automation?</h3>
 Email marketing is a subset of marketing automation. Automation platforms include email marketing but cover other areas like SMS, lead scoring, CRM integration, and behavioral tracking.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can small businesses use marketing automation?</h3>
-Absolutely! Tools like Zoho, Mailchimp, and Klaviyo offer affordable plans that are perfect for startups and small teams.<div><br>
+Absolutely! Tools like Zoho, Mailchimp, and Klaviyo offer affordable plans that are perfect for startups and small teams.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> Is it difficult to set up marketing automation?</h3>
 Most tools offer drag-and-drop builders and templates, making setup relatively easy even for beginners.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do I measure the ROI of marketing automation?</h3>
 Use built-in analytics to track key metrics like open rate, CTR, conversions, and revenue generated from automated workflows.</div><br>
+</div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>

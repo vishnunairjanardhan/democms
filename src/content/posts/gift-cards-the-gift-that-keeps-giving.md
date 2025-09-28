@@ -69,7 +69,7 @@ due to their numerous benefits, the most important of which is security. Remotel
 
 ### 8. <b>Enhance Brand Awareness</b>
 
-Increased Brand Awareness is another advantage of Gift Cards. It’s likely that the person who receives it has never heard of your brand before. A Gift Card gives customers the opportunity to try out your products. If the receiver enjoys what you have to offer, there’s a good possibility they will buy a similar gift card for their friends and family, increasing your brand recognition.
+<a href="https://www.99minds.io/blog/how-do-you-build-longer-lasting-brand-loyalty" target="_blank">Increased Brand Awareness is another advantage of Gift Cards</a>. It’s likely that the person who receives it has never heard of your brand before. A Gift Card gives customers the opportunity to try out your products. If the receiver enjoys what you have to offer, there’s a good possibility they will buy a similar gift card for their friends and family, increasing your brand recognition.
 
 Your logo on the gift card draws attention to your company. Furthermore, unlike conventional gift cards, digital gift cards may be given from anywhere in the world, giving your brand a worldwide footprint.
 

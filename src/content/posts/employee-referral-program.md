@@ -13,6 +13,42 @@ url: "https://www.99minds.io/blog/employee-referral-program"
 keywords: ["gift card"]
 
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-is-and-Employee-Referral-Program?" rel="noreferrer">What is and Employee Referral Program?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+<a rolw="link" href="#Benefits-of-an-Employee-Referral-Program-for-eCommerce-Businesses" rel="noreferrer">Benefits of an Employee Referral Program for eCommerce Businesses</a>
+</li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#How-to-Build-an-Effective-Employee-Referral-Program?" rel="noreferrer">How to Build an Effective Employee Referral Program?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Best-Practices-for-Running-a-Referral-Program" rel="noreferrer">Best Practices for Running a Referral Program</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Employee-Referral-Rewards:-What-Works-Best?" rel="noreferrer">Employee Referral Rewards: What Works Best?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Integrating-Referral-Programs-with-Loyalty-Strategy" rel="noreferrer">Integrating Referral Programs with Loyalty Strategy</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Common-Mistakes-to-Avoid" rel="noreferrer">Common Mistakes to Avoid</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Employee-Referral-Program"rel="noreferrer">Frequently-Ask-Questions-(FAQs)-on-Employee Referral Program</a></li>
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/employee-referral-program-for-ecommerce-a-strategic-guide-to-hiring-loyalty.webp"></a>
 
 In the fast-paced world of eCommerce, building a strong and loyal team can be a game-changer. As customer expectations rise and competition grows, having top-tier employees who align with your brand values becomes critical. One of the most effective — and often underused — hiring strategies is the employee referral program.
@@ -26,38 +62,6 @@ Think of it as a <a href="https://www.99minds.io/loyalty" role="link" target="_b
 </ul>
 
 In this blog, we’ll explore 15 powerful customer engagement strategies to help you build stronger relationships, improve retention, and ultimately boost your bottom line.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-is-and-Employee-Referral-Program?" rel="noreferrer">What is and Employee Referral Program?</a>
-  </li>
-  <li>
-<a rolw="link" href="#Benefits-of-an-Employee-Referral-Program-for-eCommerce-Businesses" rel="noreferrer">Benefits of an Employee Referral Program for eCommerce Businesses</a>
-</li>
-  <li>
-  <a role="link" href="#How-to-Build-an-Effective-Employee-Referral-Program?" rel="noreferrer">How to Build an Effective Employee Referral Program?</a>
-  </li>
-  <li>
-  <a role="link" href="#Best-Practices-for-Running-a-Referral-Program" rel="noreferrer">Best Practices for Running a Referral Program</a>
-  </li>
-   <li>
-  <a role="link" href="#Employee-Referral-Rewards:-What-Works-Best?" rel="noreferrer">Employee Referral Rewards: What Works Best?</a>
-  </li>
-   <li>
-  <a role="link" href="#Integrating-Referral-Programs-with-Loyalty-Strategy" rel="noreferrer">Integrating Referral Programs with Loyalty Strategy</a>
-  </li>
-   <li>
-  <a role="link" href="#Common-Mistakes-to-Avoid" rel="noreferrer">Common Mistakes to Avoid</a>
-  </li>
-  <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-<li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Employee-Referral-Program"rel="noreferrer">Frequently-Ask-Questions-(FAQs)-on-Employee Referral Program</a></li>
-</ul>
-</div>
 
 <h2 id="What-is-and-Employee-Referral-Program?">What is and Employee Referral Program?</h2>
 
@@ -607,13 +611,36 @@ When combined with a smart loyalty program, referrals can evolve from just a hir
 <h2 id="Frequently-Ask-Questions-(FAQs)-on-Employee-Referral-Program">Frequently-Ask-Questions-(FAQs)-on-Employee Referral Program</h2>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do I launch an employee referral program if I’m a small eCommerce brand?</h3>
-Start small. Create a simple system using Google Forms or Workable, set clear rules, and promote it in your internal channels.</div><br>
+Start small. Create a simple system using Google Forms or Workable, set clear rules, and promote it in your internal channels.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How much should I offer for a referral bonus?</h3>
-It depends on the role, but anywhere between $250–$1000 is common. Loyalty perks can be added to reduce upfront costs.<div><br>
+It depends on the role, but anywhere between $250–$1000 is common. Loyalty perks can be added to reduce upfront costs.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can I integrate my employee referral program with my loyalty system?</h3>
-Absolutely. Platforms like 99minds allow you to unify employee and customer incentives in one place.</div><br>
+Absolutely. Platforms like 99minds allow you to unify employee and customer incentives in one place.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What roles work best for referral hiring in eCommerce?</h3>
 Customer service, fulfillment, marketing, and operations roles typically benefit most from referrals.
-</div><br>
+</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do I track the performance of my referral program?</h3>
-Use HR tools like Recruitee, Workable, or simple tracking dashboards. Monitor time-to-hire, retention, and referral source.</div><br>
+Use HR tools like Recruitee, Workable, or simple tracking dashboards. Monitor time-to-hire, retention, and referral source.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

@@ -13,6 +13,30 @@ url: "https://www.99minds.io/blog/gift-card-sales-across-lightspeed-x-series-and
 keywords: ["99minds"]
 ---
 
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Lightspeed-Retail-(X-Series)-+-99minds:-Sell-&-Redeem-with-Ease" rel="noreferrer">Lightspeed Retail (X-Series) + 99minds: Sell & Redeem with Ease</a>
+  </li> 
+   <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Redemption-Made-Simple-on-Shopify" rel="noreferrer">Redemption Made Simple on Shopify</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Why-This-Integration-Matters-for-Merchants" rel="noreferrer">Why This Integration Matters for Merchants</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">   
+    <a role="link" href="#FAQs" rel="noreferrer">FAQs</a>
+  </li>
+ 
+</ul>
+</div>
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/how_99minds_powers_gift_card_sales_across_lightspeed_x_series_and_shopify.webp" alt="Lightspeed X & Shopify Gift Cards Linked by 99minds.">
 
 Creating a smooth and unified customer experience is crucial in today's omnichannel retail landscape. That’s where 99minds steps in—empowering merchants to effortlessly sell and redeem gift cards in-store and online through powerful integrations with Lightspeed Retail (X-Series) and Shopify.
@@ -20,47 +44,21 @@ Creating a smooth and unified customer experience is crucial in today's omnichan
 Whether your customer is walking into a physical store or shopping online, 99minds ensures that gift cards are always a convenient and versatile option. Let’s break down how it all works.
 
 <img rel="preload" role="img" src="/assets/blog/SS/Lightspeed-Shopify.jpg" alt="Lightspeed X & Shopify Gift Cards Linked by 99minds.">
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a role="link" href="#Lightspeed-Retail-(X-Series)-+-99minds:-Sell-&-Redeem-with-Ease" rel="noreferrer">Lightspeed Retail (X-Series) + 99minds: Sell & Redeem with Ease</a>
-  </li> 
-   <li>  
-    <a role="link" href="#Redemption-Made-Simple-on-Shopify" rel="noreferrer">Redemption Made Simple on Shopify</a>
-  </li>
-   <li>  
-    <a role="link" href="#Why-This-Integration-Matters-for-Merchants" rel="noreferrer">Why This Integration Matters for Merchants</a>
-  </li>
-   <li>  
-    <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-   <li>   
-    <a role="link" href="#FAQs" rel="noreferrer">FAQs</a>
-  </li>
- 
-</ul>
-</div>
-
-
-
-
 <h2 id="Lightspeed-Retail-(X-Series)-+-99minds:-Sell-&-Redeem-with-Ease">Lightspeed Retail (X-Series) + 99minds: Sell & Redeem with Ease</h2>
 <h3>Selling a Gift Card In-Store</h3>
 With 99minds integrated into Lightspeed Retail (X-Series), selling a physical gift card becomes as straightforward as any other product on your shelf:
 <ol>
-<li><strong class="text-gray-200"> Start the Sale:</strong> Navigate to the Sell screen via the Lightspeed left-hand menu.</li>
+<li><strong class=""> Start the Sale:</strong> Navigate to the Sell screen via the Lightspeed left-hand menu.</li>
 
-<li><strong class="text-gray-200"> Find the Product:</strong> Search for “Gift Card” in the product search bar.</li>
+<li><strong class=""> Find the Product:</strong> Search for “Gift Card” in the product search bar.</li>
 <img src="/assets/blog/SS/Frame1.png" />
-<li><strong class="text-gray-200"> Add the Card:</strong> On the Add New Gift Card screen, select the gift card product and enter the customer’s gift card number.</li>
+<li><strong class=""> Add the Card:</strong> On the Add New Gift Card screen, select the gift card product and enter the customer’s gift card number.</li>
 <img src="/assets/blog/SS/Frame2.png" />
-<li><strong class="text-gray-200"> Verify & Load:</strong> Click Find Gift Card to validate the card, then enter the amount the customer wants to load.
+<li><strong class=""> Verify & Load:</strong> Click Find Gift Card to validate the card, then enter the amount the customer wants to load.
 </li>
 <img src="/assets/blog/SS/Frame3.png" />
 <img src="/assets/blog/SS/Frame4.png" />
-<li><strong class="text-gray-200"> Complete the Sale:</strong> Click Add to Sale and finish the transaction as you normally would.</li>
+<li><strong class=""> Complete the Sale:</strong> Click Add to Sale and finish the transaction as you normally would.</li>
 
 <img src="/assets/blog/SS/Frame6.png" />
 <img src="/assets/blog/SS/Frame7.png" />
@@ -75,12 +73,12 @@ The transaction details are instantly recorded in the 99minds platform under the
 Customers can also buy gift cards digitally through your Shopify store using the 99minds widget:
 
 <ol>
-<li><strong class="text-gray-200"> Access the Widget</strong> The customers can buy giftcard like any other product on the online Shopify store by going to giftcard page. The Store owner has to activate the 99minds Gift Card page on their store</li>
+<li><strong class=""> Access the Widget</strong> The customers can buy giftcard like any other product on the online Shopify store by going to giftcard page. The Store owner has to activate the 99minds Gift Card page on their store</li>
 
-<li><strong class="text-gray-200"> Select Gift Card Details</strong> Choose a card value, enter the recipient's details, and optionally write a message.</li>
+<li><strong class=""> Select Gift Card Details</strong> Choose a card value, enter the recipient's details, and optionally write a message.</li>
 </ol>
-<li><strong class="text-gray-200"> Checkout</strong> Add the gift card to the cart and complete the purchase via Shopify’s checkout.</li>
-<li><strong class="text-gray-200"> Digital Delivery</strong> The recipient receives the digital gift card via email or SMS, powered by 99minds.</li>
+<li><strong class=""> Checkout</strong> Add the gift card to the cart and complete the purchase via Shopify’s checkout.</li>
+<li><strong class=""> Digital Delivery</strong> The recipient receives the digital gift card via email or SMS, powered by 99minds.</li>
 </ol>
 
 These gift cards are stored in the 99minds system, linked to a phone number or email, and are instantly redeemable in-store through Lightspeed X or online via Shopify—because both platforms are synced through the 99minds integration.
@@ -88,9 +86,9 @@ These gift cards are stored in the 99minds system, linked to a phone number or e
 <h3>Redeeming a Gift Card In-Store</h3>
 When a customer wants to redeem a gift card in-store:
 <ol>
-<li><strong class="text-gray-200"> Choose Gift Card as Payment Method:</strong> During checkout, select Gift Card as the payment type.</li>
-<li><strong class="text-gray-200"> Scan or Enter the Number:</strong> Input the gift card number and click Find Gift Card.</li>
-<li><strong class="text-gray-200"> Process Payment:</strong> Finish the transaction and click Pay with Gift Card. The amount will be deducted from the card balance automatically.</li>
+<li><strong class=""> Choose Gift Card as Payment Method:</strong> During checkout, select Gift Card as the payment type.</li>
+<li><strong class=""> Scan or Enter the Number:</strong> Input the gift card number and click Find Gift Card.</li>
+<li><strong class=""> Process Payment:</strong> Finish the transaction and click Pay with Gift Card. The amount will be deducted from the card balance automatically.</li>
 
 </ol>
 
@@ -126,19 +124,19 @@ When a customer wants to redeem a gift card in-store:
 
 
 <h2 id="Redemption-Made-Simple-on-Shopify">Redemption Made Simple on Shopify</h2>
-Gift cards issued in-store can also be used online, thanks to 99minds' cross-platform integration with major eCommerce platforms like Shopify.</br>
+Gift cards issued in-store can also be used online, thanks to 99minds' cross-platform integration with major eCommerce platforms like Shopify.
 
 Here’s how customers redeem gift cards online:
 
 <ol>
-<li><strong class="text-gray-200"> Checkout:</strong> At the Order Summary page, customers click Gift Certificate.</li>
+<li><strong class=""> Checkout:</strong> At the Order Summary page, customers click Gift Certificate.</li>
 
 <img src="/assets/blog/SS/Frame18.png" />
 
-<li><strong class="text-gray-200"> Apply the Code:</strong> They enter their unique gift card code and click Apply.</li>
+<li><strong class=""> Apply the Code:</strong> They enter their unique gift card code and click Apply.</li>
 <img src="/assets/blog/SS/Frame19.png" />
 
-<li><strong class="text-gray-200"> Pay Balance:</strong> If the gift card doesn’t cover the full amount, you can pay the remaining balance using another method</li>
+<li><strong class=""> Pay Balance:</strong> If the gift card doesn’t cover the full amount, you can pay the remaining balance using another method</li>
 <img src="/assets/blog/SS/Frame20.png" />
 
 </ol>
@@ -147,10 +145,10 @@ This fluid omnichannel experience ensures that gift cards work wherever your cus
 
 <h2 id="Why-This-Integration-Matters-for-Merchants">Why This Integration Matters for Merchants</h2>
 <ul>
-<li><strong class="text-gray-200">One Unified System:</strong> Gift cards work seamlessly across POS and eCommerce—no siloed systems or manual reconciliation.</li>
-<li><strong class="text-gray-200">Boost Sales:</strong> Gift cards encourage higher spending and bring in new customers.</li>
-<li><strong class="text-gray-200">Easy Management:</strong> Track gift card issuance, redemption, and balance updates in real-time via the 99minds dashboard.</li>
-<li><strong class="text-gray-200">Customer Convenience:</strong> Shoppers can buy in-store and redeem online, or vice versa—meeting them wherever they are.</li>
+<li><strong class="">One Unified System:</strong> Gift cards work seamlessly across POS and eCommerce—no siloed systems or manual reconciliation.</li>
+<li><strong class="">Boost Sales:</strong> Gift cards encourage higher spending and bring in new customers.</li>
+<li><strong class="">Easy Management:</strong> Track gift card issuance, redemption, and balance updates in real-time via the 99minds dashboard.</li>
+<li><strong class="">Customer Convenience:</strong> Shoppers can buy in-store and redeem online, or vice versa—meeting them wherever they are.</li>
 </ul>
 
 <h2 id="Conclusion">Conclusion</h2>
@@ -176,9 +174,23 @@ Yes. Merchants can view detailed transaction history, current balances, and rede
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can I customize the gift card product or design?</h3>
 Absolutely. 99minds allows customization of gift card branding and design to align with your store’s visual identity, offering both physical and digital formats.
 </div>
+  </div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
 
-
- 
- 
-
-
+</div>

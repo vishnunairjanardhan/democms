@@ -4,7 +4,7 @@ author: Soniya
 authorImg: "Soniya.webp"
 title: "Lightspeed R & Shopify Gift Cards Linked by 99minds"
 description: "Sell and redeem gift cards across Lightspeed R-Series and Shopify with 99minds. Enable seamless in-store and online gift card experiences."
-heading: "Seamless Retail: How 99minds Powers Gift Card Sales Across Lightspeed R-Series and Shopify"
+heading: "Seamless Retail: How 99minds Powers Gift Card Sales Across Lightspeed R-Series & Shopify"
 image:
   url: "/assets/blog/lightspeed-r-shopify-gift-cards-linked-by-99minds.webp"
   alt: "lightspeed r shopify gift cards linked by 99minds"
@@ -13,14 +13,10 @@ url: "https://www.99minds.io/blog/lightspeed-r-shopify-gift-cards-integration"
 keywords: ["gift card"]
 
 --- 
-<img src="/assets/blog/lightspeed-r-shopify-gift-cards-linked-by-99minds.webp"></a>
-
-In today’s omnichannel retail environment, delivering a seamless and consistent customer experience is essential. <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> enables merchants to quickly sell and redeem <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift cards</a> in-store and online through robust integrations with <a href="https://www.99minds.io/integrations/lightspeed" role="link" target="_blank">Lightspeed Retail (R-Series) and Shopify</a>.
-
-Whether your customer is walking into a physical store or shopping online, 99minds ensures that gift cards are always a convenient and versatile option. Let’s break down how it all works.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
+<div class="lg:flex lg:gap-6">
+<!-- Table of content section -->
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+<p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul role="list">
   <li>
   <a role="link" href="#Lightspeed-Retail-(R-Series)-+-99minds:-Sell-&-Redeem-with-Ease" rel="noreferrer">Lightspeed Retail (R-Series) + 99minds: Sell & Redeem with Ease</a>
@@ -42,6 +38,13 @@ Whether your customer is walking into a physical store or shopping online, 99min
   </li>
 </ul>
 </div>
+
+<div class="w-full">
+<img src="/assets/blog/lightspeed-r-shopify-gift-cards-linked-by-99minds.webp"></a>
+
+In today’s omnichannel retail environment, delivering a seamless and consistent customer experience is essential. <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> enables merchants to quickly sell and redeem <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift cards</a> in-store and online through robust integrations with <a href="https://www.99minds.io/integrations/lightspeed" role="link" target="_blank">Lightspeed Retail (R-Series) and Shopify</a>.
+
+Whether your customer is walking into a physical store or shopping online, 99minds ensures that gift cards are always a convenient and versatile option. Let’s break down how it all works.
 
 <h2 id="Lightspeed Retail (R-Series) + 99minds: Sell & Redeem with Ease">Lightspeed Retail (R-Series) + 99minds: Sell & Redeem with Ease</h2>
 
@@ -181,7 +184,7 @@ Want to give your customers the power of choice? Start using 99minds and turn yo
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can customers use the same gift card both online and in-store?</h3>
 Yes! Thanks to 99minds’ seamless integration, gift cards can be used across physical and digital storefronts. Customers can buy a card in-store and redeem it online, or vice versa.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What platforms does 99minds support for online redemption?</h3>
-99minds integrates with popular eCommerce platforms such as Shopify and others. This allows gift cards to be redeemed online like discount codes or coupons.<div><br>
+99minds integrates with popular eCommerce platforms such as Shopify and others. This allows gift cards to be redeemed online like discount codes or coupons.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> What happens if the gift card balance exceeds the order total?</h3>
 If the gift card doesn’t cover the full amount, customers can pay the remaining balance using any other accepted payment method, both online and in-store.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Is it possible to track gift card usage and balance?</h3>
@@ -190,3 +193,23 @@ Absolutely. Merchants can view detailed transaction history, current balances, a
 99minds uses secure tokenization and encrypted data handling to protect all gift card transactions from fraud and unauthorized access.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can I customize the gift card product or design?</h3>
 Yes! 99minds allows you to customize your gift card’s branding and design to match your store’s identity, with options for both physical and digital cards.</div><br>
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+</div>

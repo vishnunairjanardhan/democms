@@ -13,7 +13,44 @@ url: "https://www.99minds.io/blog/customer-engagement-strategy"
 keywords: ["gift card"]
 
 --- 
-<img src="/assets/blog/15-customer-engagement-strategies-to-boost-loyalty-sales.webp"></a>
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#What-is-Customer-Engagement?" rel="noreferrer">What is Customer Engagement?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+<a rolw="link" href="#Why-Customer-Engagement-Matters-More-Than-Ever?" rel="noreferrer">Why Customer Engagement Matters More Than Ever?</a>
+</li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#How-to-Build-a-Customer-Engagement-Strategy?" rel="noreferrer">How to Build a Customer Engagement Strategy?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#15-Effective-Customer-Engagement-Strategies-for-2025" rel="noreferrer">15 Effective Customer Engagement Strategies for 2025</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Best-Tools-for-Customer-Engagement" rel="noreferrer">Best Tools for Customer Engagement
+</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Common-Mistakes-to-Avoid" rel="noreferrer">Common Mistakes to Avoid</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Customer-Engagement-Metrics-You-Should-Track" rel="noreferrer">Customer Engagement Metrics You Should Track</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4"> 
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Customer-Engagement-Strategy"rel="noreferrer">Frequently-Ask-Questions-(FAQs)-on-Customer Engagement Strategy</a></li>
+</ul>
+</div>
+
+<div class="w-full">
+<img src="/assets/blog/15-customer-engagement-strategies-to-boost-loyalty-sales.webp"/></a>
 
 In today’s fast-moving digital world, grabbing customers’ attention is only half the game. The real challenge—and the secret to long-term business success—is keeping them returning.
 Welcome to the world of client engagement.
@@ -29,39 +66,6 @@ Whether you’re a startup launching your first product, an e-commerce brand sca
 </ul>
 
 In this blog, we’ll explore 15 powerful customer engagement strategies to help you build stronger relationships, improve retention, and ultimately boost your bottom line.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-is-Customer-Engagement?" rel="noreferrer">What is Customer Engagement?</a>
-  </li>
-  <li>
-<a rolw="link" href="#Why-Customer-Engagement-Matters-More-Than-Ever?" rel="noreferrer">Why Customer Engagement Matters More Than Ever?</a>
-</li>
-  <li>
-  <a role="link" href="#How-to-Build-a-Customer-Engagement-Strategy?" rel="noreferrer">How to Build a Customer Engagement Strategy?</a>
-  </li>
-  <li>
-  <a role="link" href="#15-Effective-Customer-Engagement-Strategies-for-2025" rel="noreferrer">15 Effective Customer Engagement Strategies for 2025</a>
-  </li>
-   <li>
-  <a role="link" href="#Best-Tools-for-Customer-Engagement" rel="noreferrer">Best Tools for Customer Engagement
-</a>
-  </li>
-   <li>
-  <a role="link" href="#Common-Mistakes-to-Avoid" rel="noreferrer">Common Mistakes to Avoid</a>
-  </li>
-   <li>
-  <a role="link" href="#Customer-Engagement-Metrics-You-Should-Track" rel="noreferrer">Customer Engagement Metrics You Should Track</a>
-  </li>
-  <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-<li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Customer-Engagement-Strategy"rel="noreferrer">Frequently-Ask-Questions-(FAQs)-on-Customer Engagement Strategy</a></li>
-</ul>
-</div>
 
 <h2 id="What-is-Customer-Engagement?">What is Customer Engagement?</h2>
 
@@ -99,7 +103,7 @@ The more engaged a customer is, the less likely they are to switch to a competit
 
 <b>“Pro Tip:</b> Customer engagement is often cheaper than acquisition. It costs 5X more to gain a new customer than to retain an existing one.”
 
-<img src="/assets/blog/Why-Customer-Engagement-Matters-More-Than-Ever.png" alt="Why Customer Engagement Matters More Than Ever">
+<img src="/assets/blog/Why-Customer-Engagement-Matters-More-Than-Ever.png" alt="Why Customer Engagement Matters More Than Ever"/>
 
 <h2 id="How-to-Build-a-Customer-Engagement-Strategy?">How to Build a Customer Engagement Strategy?</h2>
 
@@ -134,7 +138,7 @@ Client engagement isn't a set-it-and-forget-it thing. Screen input, track engage
 Energize clients to interact not only with your brand but also with each other. Make gatherings, social media bunches, or run challenges and occasions. Individuals adore feeling a part of a community — it extends their association to your brand and empowers devotion. 
 </ol>
 
-<img src="/assets/blog/How-to-Build-a-Customer-Engagement-Strategy.png" alt="How-to-Build-a-Customer-Engagement-Strategy.png">
+<img src="/assets/blog/How-to-Build-a-Customer-Engagement-Strategy.png" alt="How-to-Build-a-Customer-Engagement-Strategy.png"/>
 
 <h2 id="15-Effective-Customer-Engagement-Strategies-for-2025">15 Effective Customer Engagement Strategies for 2025</h2>
 
@@ -365,22 +369,22 @@ efficiently:
 <h3><li>HubSpot</li></h3>
 This all-in-one platform is a favorite for many businesses because it combines CRM, email marketing, social media scheduling, and analytics in one place. HubSpot’s easy-to-use interface helps you track customer interaction, automate personalized emails, and monitor campaign performance. Plus, it’s scalable as your business grows.
 
-<img src="/assets/blog/hubspot.png" alt="hubspot">
+<img src="/assets/blog/hubspot.png" alt="hubspot"/>
 
 <h3><li>Intercom</li></h3>
 If you want to engage customers in real time, Intercom is a solid choice. It’s excellent for live chat support, targeted messaging, and onboarding new users with helpful prompts. Intercom also uses automation to answer common questions instantly, freeing your team to focus on more complex issues.
 
-<img src="/assets/blog/intercom.png" alt="intercom">
+<img src="/assets/blog/intercom.png" alt="intercom"/>
 
 <h3><li>Userpilot</li></h3>
 Perfect for SaaS and digital products, Userpilot lets you create personalized product experiences, like onboarding checklists, tooltips, and in-app messages, without needing a developer. It’s a fantastic way to guide customers through your product and increase active usage.
 
-<img src="/assets/blog/userpilot.png" alt="userpilot">
+<img src="/assets/blog/userpilot.png" alt="userpilot"/>
 
 <h3><li>Emarsys</li></h3>
 This stage sparkles with progressed personalization over different channels like mail, SMS, and thrust notices. Emarsys employs AI to computerize sending the correct message at the correct time, which could also be a colossal help on the off chance that you need to scale engagement endeavors without losing the individual touch. 
 
-<img src="/assets/blog/emarsys.png" alt="emarsys">
+<img src="/assets/blog/emarsys.png" alt="emarsys"/>
 
 <h3><li>Drift</li></h3>
 Known for its conversational marketing capabilities, Drift’s chatbots engage website visitors and qualify leads instantly. It helps create more natural, human-like conversations and can route qualified leads directly to sales reps, speeding up the buying process.
@@ -388,12 +392,12 @@ Known for its conversational marketing capabilities, Drift’s chatbots engage w
 <h3><li>Zendesk</li></h3>
 On the off chance that you need to combine engagement with extraordinary client benefit, Zendesk is an amazing choice. It's centered on back but coordinates with other promoting devices to make consistent encounters where clients feel listened to and esteemed. 
 
-<img src="/assets/blog/zendeck.png" alt="zendeck">
+<img src="/assets/blog/zendeck.png" alt="zendeck"/>
 
 <h3><li>Mailchimp</li></h3>
 A popular choice for email marketing, Mailchimp is user-friendly and affordable, especially for small businesses. It offers automation, segmentation, and analytics, helping you send targeted emails that boost engagement.
 
-<img src="/assets/blog/mailchimp.png" alt="mailchimp">
+<img src="/assets/blog/mailchimp.png" alt="mailchimp"/>
 </ol>
 
 <h2 id="Common-Mistakes-to-Avoid">Common Mistakes to Avoid</h2>
@@ -421,7 +425,7 @@ Everybody cherishes unused clients, but do not disregard the ones who are as of 
 Without tracking the right metrics, you’re flying blind. If you don’t review what’s working and what isn’t, you won’t be able to refine your strategy or justify investment in engagement efforts.
 </ol>
 
-<img src="/assets/blog/Common-Mistakes-to-Avoid.png" alt="Common Mistakes to Avoid">
+<img src="/assets/blog/Common-Mistakes-to-Avoid.png" alt="Common Mistakes to Avoid"/>
 
 <h2 id="Customer-Engagement-Metrics-You-Should-Track">Customer Engagement Metrics You Should Track</h2>
 
@@ -454,7 +458,7 @@ Likes, offers, comments, and notices demonstrate how your audience interacts tog
 Track how quickly and effectively your team resolves customer issues. Positive support experiences contribute heavily to overall engagement.
 </ol>
 
-<img src="/assets/blog/Customer-Engagement-Metrics-You-Should-Track.png" alt="Customer-EngagementMetrics You Should Track">
+<img src="/assets/blog/Customer-Engagement-Metrics-You-Should-Track.png" alt="Customer-EngagementMetrics You Should Track"/>
 
 <h2 id="Conclusion">Conclusion</h2>
 
@@ -465,13 +469,33 @@ engagement isn't almost about showy devices or stylish strategies. It's almost t
 
 In case you're an e-commerce brand looking to control your engagement endeavors, indeed, <a href="http://www.99minds.io" role="link" target="_blanck">99minds</a> can be a game-changer. With strong highlights like devotion programs, personalized rebates, and computerized advancements, 99minds makes a difference: you lock in clients at each stage of their travel without the manual bother. It's the ideal way to complement your engagement technique and turn casual customers into steadfast fans. 
 
+
 <h2 id="FAQs-on-Customer-Engagement-Strategy">FAQs on Customer Engagement Strategy</h2>
 
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is the core goal of a customer engagement strategy?</h3>
-To build long-term relationships by delivering consistent value, personalized interactions, and a great overall experience across all touchpoints.</div><br>
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> How is customer engagement different from customer experience?</h3>
-Customer experience is about how customers feel about your brand as a whole. Engagement is about how frequently and meaningfully they interact with you.<div><br>
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Which tools are best for improving customer engagement?</h3>
-Some top tools include HubSpot, Intercom, Userpilot, Emarsys, Drift, and Zendesk.</div><br>
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can small businesses boost customer engagement on a budget?</h3>
-Focus on personalization, email campaigns, social media engagement, and collecting feedback. You don’t need a big budget to make people feel valued.</div><br>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is the core goal of a customer engagement strategy?</h3>To build long-term relationships by delivering consistent value, personalized interactions, and a great overall experience across all touchpoints.</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How is customer engagement different from customer experience?</h3>Customer experience is about how customers feel about your brand as a whole. Engagement is about how frequently and meaningfully they interact with you.</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Which tools are best for improving customer engagement?</h3>Some top tools include HubSpot, Intercom, Userpilot, Emarsys, Drift, and Zendesk.</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How can small businesses boost customer engagement on a budget?</h3>Focus on personalization, email campaigns, social media engagement, and collecting feedback. You don’t need a big budget to make people feel valued.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

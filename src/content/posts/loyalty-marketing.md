@@ -13,16 +13,9 @@ url: "https://www.99minds.io/blog/loyalty-marketing"
 keywords: ["loyalty marketing", "customer loyalty marketing","loyalty program marketing", "what is loyalty marketing", "loyalty marketing strategy"]
 
 ---
-
-<img rel="preload" role="img" src="/assets/blog/loyalty_marketing.webp" alt="banner image of loyalty marketing">
-
-Building long-term relationships with customers is crucial for business success. Instead of relying on one-time promotions, brands are now focusing on engaging customers throughout their journey, emphasizing retention and meaningful interactions.
-
-Loyalty marketing plays a key role in this approach. According to <a href="https://capitaloneshopping.com/research/brand-loyalty-statistics/" role="link" target="_blanck">Capital One Shopping Research</a>, 70% of U.S. consumers remain loyal to brands offering loyalty programs or rewards. Moreover, According to a Nielsen Survey, <a href="https://queue-it.com/blog/loyalty-program-statistics/" role="link" target="_blanck">84% of consumers</a> are likelier to stick with a brand that provides a loyalty program. By offering personalized incentives and thoughtful communication, businesses can enhance customer satisfaction, reduce churn, and transform shoppers into enthusiastic brand advocates.​
-
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul role="list">
   <li>
   <a role="link" href="#1" rel="noreferrer">What is Loyalty Marketing?</a>
@@ -47,7 +40,15 @@ Loyalty marketing plays a key role in this approach. According to <a href="https
   <a role="link" href="#7" rel="noreferrer">Frequently Asked Questions (FAQs) on Loyalty Marketing</a>
   </li>
   </ul>
- </div> 
+</div>
+
+<div class="w-full">
+<img rel="preload" role="img" src="/assets/blog/loyalty_marketing.webp" alt="banner image of loyalty marketing">
+
+Building long-term relationships with customers is crucial for business success. Instead of relying on one-time promotions, brands are now focusing on engaging customers throughout their journey, emphasizing retention and meaningful interactions.
+
+Loyalty marketing plays a key role in this approach. According to <a href="https://capitaloneshopping.com/research/brand-loyalty-statistics/" role="link" target="_blanck">Capital One Shopping Research</a>, 70% of U.S. consumers remain loyal to brands offering loyalty programs or rewards. Moreover, According to a Nielsen Survey, <a href="https://queue-it.com/blog/loyalty-program-statistics/" role="link" target="_blanck">84% of consumers</a> are likelier to stick with a brand that provides a loyalty program. By offering personalized incentives and thoughtful communication, businesses can enhance customer satisfaction, reduce churn, and transform shoppers into enthusiastic brand advocates.​
+
 
 <h2 id="1">What is Loyalty Marketing?</h2>
 
@@ -254,3 +255,20 @@ Customer loyalty marketing enhances customer satisfaction and generates higher l
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is loyalty marketing in simple terms?</h3>Loyalty marketing is a strategy where businesses reward and retain customers by offering incentives, exclusive deals, and personalized experiences to encourage repeat purchases.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How does loyalty marketing benefit eCommerce retailers?</h3>eCommerce retailers benefit from loyalty marketing by increasing customer retention, boosting repeat purchases, and building brand advocates who refer new customers.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What are the two types of loyalty marketing?</h3>The two main types of loyalty marketing are transactional loyalty and emotional loyalty. Transactional loyalty is based on rewards and incentives, while emotional loyalty focuses on creating deep customer relationships through personalized experiences and brand engagement.</div>
+</div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>

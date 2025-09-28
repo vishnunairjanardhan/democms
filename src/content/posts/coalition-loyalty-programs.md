@@ -13,6 +13,42 @@ url: "https://www.99minds.io/blog/coalition-loyalty-programs"
 keywords: ["gift card"]
 
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-is-a-Coalition-Loyalty-Program?" rel="noreferrer">What is a Coalition Loyalty Program?</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+<a rolw="link" href="#Key-Components-of-a-Coalition-Loyalty-Program" rel="noreferrer">Key Components of a Coalition Loyalty Program</a>
+</li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Benefits-of-Coalition-Loyalty-Programs-for-eCommerce-Merchants" rel="noreferrer">Benefits of Coalition Loyalty Programs for eCommerce Merchants</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Types-of-Coalition-Loyalty-Models" rel="noreferrer">Types of Coalition Loyalty Models</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#How-to-Build-a-Successful-Coalition-Loyalty-Program?" rel="noreferrer">How to Build a Successful Coalition Loyalty Program?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Challenges-to-Consider" rel="noreferrer">Challenges to Consider</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#99minds-and-Coalition-Loyalty-Programs" rel="noreferrer">99minds and Coalition Loyalty Programs</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+<li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Coalition-Loyalty-Programs"rel="noreferrer">Frequently-Ask-Questions-(FAQs)-on-Coalition Loyalty Programs</a></li>
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/coalition-loyalty-programs-a-strategic-advantage-for-modern-ecommerce-brands.webp"></a>
 
 In today’s fast-changing retail world, dependability isn’t close to focuses or discounts—it’s around conveying genuine, progressing esteem. That’s precisely what consolidation devotion programs are planned to do.
@@ -21,37 +57,6 @@ Instead of one brand offering rewards on its own, coalition programs bring toget
 As <a href="https://www.99minds.io/blog/customer-acquisition" role="link" target="_blanck">customer acquisition</a> gets more expensive and retention becomes the focus, eCommerce brands are turning to partnerships to boost engagement, extend reach, and drive long-term loyalty.
 This blog will walk you through what coalition loyalty programs are, how they work, and how your brand can benefit by being part of one.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-is-a-Coalition-Loyalty-Program?" rel="noreferrer">What is a Coalition Loyalty Program?</a>
-  </li>
-  <li>
-<a rolw="link" href="#Key-Components-of-a-Coalition-Loyalty-Program" rel="noreferrer">Key Components of a Coalition Loyalty Program</a>
-</li>
-  <li>
-  <a role="link" href="#Benefits-of-Coalition-Loyalty-Programs-for-eCommerce-Merchants" rel="noreferrer">Benefits of Coalition Loyalty Programs for eCommerce Merchants</a>
-  </li>
-  <li>
-  <a role="link" href="#Types-of-Coalition-Loyalty-Models" rel="noreferrer">Types of Coalition Loyalty Models</a>
-  </li>
-   <li>
-  <a role="link" href="#How-to-Build-a-Successful-Coalition-Loyalty-Program?" rel="noreferrer">How to Build a Successful Coalition Loyalty Program?</a>
-  </li>
-   <li>
-  <a role="link" href="#Challenges-to-Consider" rel="noreferrer">Challenges to Consider</a>
-  </li>
-   <li>
-  <a role="link" href="#99minds-and-Coalition-Loyalty-Programs" rel="noreferrer">99minds and Coalition Loyalty Programs</a>
-  </li>
-  <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-<li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Coalition-Loyalty-Programs"rel="noreferrer">Frequently-Ask-Questions-(FAQs)-on-Coalition Loyalty Programs</a></li>
-</ul>
-</div>
 
 <h2 id="What-is-a-Coalition-Loyalty-Program?">What is a Coalition Loyalty Program?</h2>
 
@@ -485,13 +490,36 @@ If you're an eCommerce merchant aiming to expand reach and retain high-value cus
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Are coalition loyalty programs only for large brands?</h3>
 Not at all. With platforms like 99minds, even SMBs can collaborate and offer multi-brand loyalty experiences.
-</div><br>
+</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is the biggest benefit of coalition loyalty programs?</h3>
-Access to a larger customer base and increased brand stickiness.<div><br>
+Access to a larger customer base and increased brand stickiness.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can coalition loyalty work for D2C brands?</h3>
-Yes! Especially if you're targeting niche communities. For example, a coalition of eco-friendly brands could collaborate and drive mutual growth.</div><br>
+Yes! Especially if you're targeting niche communities. For example, a coalition of eco-friendly brands could collaborate and drive mutual growth.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How long does it take to set up a coalition loyalty program?</h3>
-With a platform like 99minds, it can be implemented in weeks, not months.</div><br>
+With a platform like 99minds, it can be implemented in weeks, not months.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> Is data shared among coalition partners?</h3>
-Yes, but it depends on the agreement. Make sure it's GDPR and CCPA-compliant.</div><br>
+Yes, but it depends on the agreement. Make sure it's GDPR and CCPA-compliant.</div>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

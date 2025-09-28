@@ -1,45 +1,45 @@
 ---
 import Verticalgrid from "../assets/Verticalgrid.astro";
 ---
-<section class="relative border-t border-y border-white/5">
+<section class="relative bg-[#f9f9f9]">
   <div class="hidden pt-2 lg:block">
   </div>
-  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24">
+  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-[72px]">
     <div class="text-center max-w-4xl  lg:mt-0 mx-auto">
-      <h2 class="text-3xl font-normal tracking-tight text-balance text-white">Engage Customers Better with Store Credit</h2>
+      <h2 class="font-medium">Engage Customers Better with Store Credit</h2>
     </div>
-    <div class="grid grid-cols-1 mt-16 -mx-4 gap-y-10 sm:mx-auto lg:max-w-none md:grid-cols-2 lg:grid-cols-3 gap-x-10 lg:mx-8">
-      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5">
-        <div class="h-full p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-between">
+    <div class="grid grid-cols-1 mt-12 -mx-4 gap-y-10 sm:mx-auto lg:max-w-none md:grid-cols-2 lg:grid-cols-3 gap-x-10 lg:px-0 px-4">
+      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-350">
+        <div class="h-full p-8 bg-white rounded-3xl flex flex-col justify-between">
           <div>
-            <div class="text-indigo-400 w-10 h-10">
-              <img class="" alt="retain customers with store credit" loading="lazy" src="/assets/storecredit/retain-customer.svg">
+            <div class="text-indigo-400 w-14 h-14">
+              <img class="" alt="retain customers with store credit" loading="lazy" src="../assets/storecredit/retain-customer.svg">
             </div>
-            <h3 class="mt-5 text-xl text-white">
+           <h3 class="mt-5 text-xl text-black">
               Retain Customers
             </h3>
             <p class="mt-2 text-base">Using store credits helps build loyal customers and reduce churn. Store credits can be used to reward returning users, manage refunds and returns in the same wallet, and even reward loyal users.</p>
           </div>
         </div>
       </div>
-      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5">
-        <div class="h-full p-8 bg-vulcan-900 rounded-3xl">
-            <div class="text-indigo-400 w-10 h-10">
-              <img class="" alt="manage returns with store credit" loading="lazy" src="/assets/storecredit/manage-returns.svg">
+      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-350">
+        <div class="h-full p-8 bg-white rounded-3xl">
+            <div class="text-indigo-400 w-14 h-14">
+              <img class="" alt="manage returns with store credit" loading="lazy" src="../assets/storecredit/Manage-order.svg">
             </div>
-          <h3 class="mt-5 text-xl text-white">
+         <h3 class="mt-5 text-xl text-black">
             Manage Returns
           </h3>
           <p class="mt-2 text-base">In case of returns give store credits and retain the revenue. This also encourages the buyer to come back to the store later when an item of their choice is available.</p>
         </div>
       </div>
-      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-2xl shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/5">
-        <div class="h-full p-8 bg-vulcan-900 rounded-3xl flex flex-col justify-between">
+      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-350">
+        <div class="h-full p-8 bg-white rounded-3xl flex flex-col justify-between">
           <div>
-          <div class="text-indigo-400 w-10 h-10">
-              <img class="" alt="create campaigns with store credits" loading="lazy" src="/assets/storecredit/create-campaign.svg">
+          <div class="text-indigo-400 w-14 h-14">
+              <img class="" alt="create campaigns with store credits" loading="lazy" src="../assets/storecredit/create-campaign.svg">
             </div>
-            <h3 class="mt-5 text-xl text-white">
+           <h3 class="mt-5 text-xl text-black">
               Create Campaigns
             </h3>
             <p class="mt-2 text-base">Store credits can be used as a giveaway for different campaigns focused on signing up, purchasing, giving a review, referring a friend, or for driving any other engagement campaign.</p>
@@ -47,43 +47,14 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
         </div>
       </div>
     </div>
-<div class="lg:flex gap-2 mt-20 justify-center">
-             <div x-data="{ open: false }" class="flex">
+<div class="lg:flex gap-2 mt-10 justify-center">
+      <div x-data="{ open: false }" class="flex">
               <!-- Trigger -->
-              <span x-on:click="open = true">
-                 <button type="button" class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium raise">
-                <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
-                <span class="relative text-white">Sign up for free</span>
-                </span></button>
-                                <!---<button type="button" class="flex items-center justify-center w-full h-10 px-4 py-2 text-sm font-semibold text-white transition-all border rounded-lg bg-vulcan-900 hover:text-indigo-400 border-vulcan-700"> Subscribe </button>--->
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center">
-                      
-                    <iframe
-                      src="../GetStarted"
-                      width="100%"
-                      height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly"
-                    ></iframe>
-
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
+              <a type="button" href="/Get-Started" role="button" aria-label="Get Started for Free" class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+                  <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
+                  <span class="relative text-white">Sign Up for Free</span> </span>
+              </a>
+      </div>
   </div>
 </section>
 

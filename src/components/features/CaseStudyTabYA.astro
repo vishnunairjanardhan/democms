@@ -1,0 +1,54 @@
+---
+import Verticalgrid from "../assets/Verticalgrid.astro";
+import { buttonConfig, cardData, Fashion, Others } from "../../config/CaseStudy.jsx";
+---
+
+<section class="relative">
+  <div class="relative mx-auto max-w-7xl md:px-12 lg:px-0 lg:py-0">
+    <div class="relative mt-10 w-full">
+      <div class="relative w-full pt-8 content border-t mt-8 border-vulcan-800">
+        <div class="relative w-full" id="tabs-5-content-1">
+          <section>
+            <div class="py-10 w-full">
+             <ol class="grid grid-cols-1 gap-10 lg:grid-cols-3 sm:grid-cols-2" role="list">
+            {cardData
+            .filter((data) => data.videoId) 
+             .slice(0, 4) 
+             .map((data) => (
+            <li key={data.title} class="group bg-white overflow-hidden rounded-lg shadow-xl">
+            <a href={data.href}>
+            <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-lg">
+            <div class="flex">
+              <iframe
+                class="group-hover:scale-105 duration-300 aspect-3/2 object-cover"
+                src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=1&mute=1&rel=0`}
+                title={data.title}
+                width="410"
+                height="230"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                id="youtube-video"
+              ></iframe>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex">
+              <div class="basis-1/2"><img class="h-7" alt="" src={data.logo}></div>
+            </div>
+            <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
+            <h2 class="mt-5 text-sm font-regular leading-6 text-gray-900">{data.title}</h2>
+            <p class="mt-2 text-sm text-blue-600 line-clamp-1">{data.description}</p>
+            <a href={data.href} class="text-blue-600 text-sm mt-5 hover:underline">Read More</a>
+             </div>
+              </a>
+              </li>
+             ))}
+         </ol>
+       </div>           
+    </section>
+     </div>
+    </div>
+    </div>
+  </div>
+</section>

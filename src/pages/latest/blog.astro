@@ -1,0 +1,60 @@
+---
+import { getCollection } from "astro:content";
+import { AstroSeo } from "@astrolib/seo";
+import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
+import BlogWithSearch from "../../components/react/AllBlogs.jsx";
+
+const allPosts = await getCollection("posts");
+const sortedPosts = allPosts.sort((a, b) => {
+  // Assuming pubDate is a string in ISO 8601 format, you can directly compare them
+  return new Date(b.data.pubDate) - new Date(a.data.pubDate);
+});
+
+const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
+---
+
+
+<BaseLayout3>
+<AstroSeo
+  title='99minds - Blog'
+  description="Discover diverse perspectives and valuable insights at 99minds Blog"
+  canonical="https://www.99minds.io/blog"
+  openGraph={{
+    url: "https://www.99minds.io/blog",
+    title: "Get Inspired: 99minds Blog Hub",
+    description: "Discover diverse perspectives and valuable insights at 99minds Blog",
+    images: [
+      {
+        url: "/assets/99minds-logo1.svg",
+        alt: "99minds Blog",
+        type: "image/svg",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/blog",
+    images: [
+      {
+        url: "/assets/99minds-logo1.svg",
+        alt: "99minds Blog",
+        type: "image/svg",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <section>
+    <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-[72px] relative">
+      <div class="flex justify-center">
+        <h1 class="mt-16 text-4xl font-normal tracking-tighter sm:text-5xl">
+          Get all of our latest updates.
+        </h1>
+      </div>
+      <BlogWithSearch client:only="react" sortedPosts={sortedPosts} tags={tags}/>
+    </div>
+  </section>
+  <CtaThree99minds />
+</BaseLayout3>

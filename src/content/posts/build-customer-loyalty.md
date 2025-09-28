@@ -13,16 +13,9 @@ url: "https://www.99minds.io/blog/build-customer-loyalty"
 keywords: ["build customer loyalty", "how to build customer loyalty", "how to build loyalty with customers", "ways to build customer loyalty"]
 
 --- 
-<img rel="preload" role="img" src="/assets/blog/build_customer_loyalty.webp" alt="banner image of build customer loyalty blog">
-
-<a href="https://www.99minds.io/blog/customer-loyalty" role="link" target="_blanck">Customer loyalty</a> is a key driver of long-term business success, especially in 2025 when competition is stronger than ever. With consumers having endless choices, businesses must go beyond acquiring new customers and focus on retaining them. According to <a href="https://www.accenture.com/us-en/insights/strategy/brand-purpose" role="link" target="_blanck">Accenture</a>, 57% of consumers spend more on brands to which they are loyal, proving how loyalty directly impacts revenue.
-
-Loyal customers not only drive repeat sales but also promote brands through <a href="https://www.99minds.io/blog/word-of-mouth-marketing" role="link" target="_blanck">word-of-mouth</a> and referrals, reducing the need for costly marketing efforts. Businesses that invest in trust, personalized experiences, and rewards programs see higher engagement and lifetime value. 
-
-To build customer loyalty, companies can implement strategies such as <a href="https://www.99minds.io/blog/loyalty-program" role="link" target="_blanck">loyalty programs</a>, enhanced customer service, and seamless shopping experiences. Strengthening relationships with customers leads to increased retention, advocacy, and long-term profitability.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<P>Table of Contents:</P>
+<div class="lg:flex lg:gap-6">
+<div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+<p>Table of Contents:</p>
 <ul role="list">
     <li>  
     <a role="link" href="#1" rel="noreferrer">Why is it Important to Build Customer Loyalty</a>
@@ -38,6 +31,14 @@ To build customer loyalty, companies can implement strategies such as <a href="h
     </li>
 </ul>
 </div>
+<div class="w-full">
+<img rel="preload" role="img" src="/assets/blog/build_customer_loyalty.webp" alt="banner image of build customer loyalty blog">
+
+<a href="https://www.99minds.io/blog/customer-loyalty" role="link" target="_blanck">Customer loyalty</a> is a key driver of long-term business success, especially in 2025 when competition is stronger than ever. With consumers having endless choices, businesses must go beyond acquiring new customers and focus on retaining them. According to <a href="https://www.accenture.com/us-en/insights/strategy/brand-purpose" role="link" target="_blanck">Accenture</a>, 57% of consumers spend more on brands to which they are loyal, proving how loyalty directly impacts revenue.
+
+Loyal customers not only drive repeat sales but also promote brands through <a href="https://www.99minds.io/blog/word-of-mouth-marketing" role="link" target="_blanck">word-of-mouth</a> and referrals, reducing the need for costly marketing efforts. Businesses that invest in trust, personalized experiences, and rewards programs see higher engagement and lifetime value. 
+
+To build customer loyalty, companies can implement strategies such as <a href="https://www.99minds.io/blog/loyalty-program" role="link" target="_blanck">loyalty programs</a>, enhanced customer service, and seamless shopping experiences. Strengthening relationships with customers leads to increased retention, advocacy, and long-term profitability.
 
 <h2 id="1">Why is it Important to Build Customer Loyalty</h2>
 
@@ -225,3 +226,20 @@ If you're unsure about how to create an effective loyalty program, leave it to t
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What factors influence building customer loyalty?</h3>Several factors influence customer loyalty, including product quality, pricing, brand trust, personalized engagement, and seamless shopping experiences. A well-designed loyalty program, strong customer service, and an emotional connection with the brand are crucial in fostering long-term customer relationships and increasing retention rates.</div>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is building customer loyalty?</h3>Building customer loyalty refers to strategies and efforts that encourage customers to repeatedly choose a brand over competitors. It involves creating trust, offering valuable rewards, ensuring consistent quality, and delivering personalized experiences. A loyal customer base leads to higher retention rates, increased revenue, and stronger brand advocacy.</div>
+</div>
+<div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>

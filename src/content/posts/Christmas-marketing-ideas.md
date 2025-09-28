@@ -14,24 +14,30 @@ url: "https://www.99minds.io/blog/christmas-marketing-ideas"
 keywords: ["Christmas marketing ideas", "marketing ideas Christmas", "marketing ideas for Christmas", "Christmas advertising  ideas"]
 
 ---
-<img src="/assets/blog/top-30-winning-ideas-for-christmas-marketing-in-e-commerce-2024.webp">
 
-E-commerce companies must get more creative and embrace the Christmas spirit as the holiday season draws near. Christmas is a season of happiness and celebration, but more significantly, it's a chance for companies to engage with their clientele meaningfully. You can make your brand glow like the brightest Christmas tree with the correct marketing techniques. This blog post will discuss 30 effective Christmas marketing ideas to draw clients and make this holiday season's shopping experiences unforgettable.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4"> 
   <a role="link" href="#30-Winning-Christmas-Marketing-Ideas " rel="noreferrer">30 Winning Christmas Marketing Ideas </a>
   </li>
-  <li>
+  <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
   </li>
-<li>
+<li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#Frequently-Ask-Questions-(FAQs)" rel="noreferrer">Frequently-Ask-Questions-(FAQs)</a>
   </li>
 </ul>
 </div>
+
+<div class="w-full">
+<img src="/assets/blog/top-30-winning-ideas-for-christmas-marketing-in-e-commerce-2024.webp">
+
+E-commerce companies must get more creative and embrace the Christmas spirit as the holiday season draws near. Christmas is a season of happiness and celebration, but more significantly, it's a chance for companies to engage with their clientele meaningfully. You can make your brand glow like the brightest Christmas tree with the correct marketing techniques. This blog post will discuss 30 effective Christmas marketing ideas to draw clients and make this holiday season's shopping experiences unforgettable.
+
 
 <h2 id="30-Winning-Christmas-Marketing-Ideas">30 Winning Christmas Marketing Ideas</h2>
 It’s more important than ever to separate from competitors this year. With so many brands buying for consumers' attention, using innovative and successful marketing techniques that connect with your target demographic is critical. By implementing creative Christmas marketing strategies, you can produce unforgettable events that increase client loyalty and boost revenue. To help you make the most of your holiday success, we’ll look at 30 effective Christmas marketing strategies for e-commerce companies below. Let’s get started and find out how to have your best holiday season yet.
@@ -106,8 +112,8 @@ Send holiday discounts, gift ideas, and reminders for crucial dates like shippin
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -187,5 +193,29 @@ Absolutely! Free shipping is one of the best Christmas marketing ideas to attrac
 Engage your audience by creating interactive content, running holiday-themed contests, and sharing user-generated content. Visually appealing posts that reflect the festive spirit and showcase your products are great marketing ideas for Christmas. This strategy can build excitement around your brand and increase visibility.</div><br>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> What role does email marketing play in Christmas marketing?</h3>
 Email marketing is essential for reaching your audience with personalized offers and holiday promotions. Sending well-crafted emails that highlight Christmas marketing ideas and exclusive deals can significantly increase engagement and conversions during this period. It’s a cost-effective Christmas advertising idea for boosting holiday sales.</div><br>
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>
+
 </body>
 </html>

@@ -2,73 +2,80 @@
 import Verticalgrid from "../assets/Verticalgrid.astro";
 ---
 
-<section class="relative">
+<section class="relative bg-[#91C8FA]">
   <Verticalgrid />
-  <div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-24  space-y-24" role="none">
-    <div class="mx-auto text-center">
-      <div role="subscript">
-        <p class="text-sm text-transparent uppercase bg-gradient-to-r from-indigo-300 to-indigo-400 bg-clip-text">
-          Complete Marketing Automation for Retailers and eCommerce
-        </p>
-        <h2 class="mt-8">
-          Intelligent Workflows with Effective Results for Shopify 
+  <div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-[72px]  space-y-24" role="none">
+    <div class="grid grid-cols-1 gap-4 list-none lg:grid-cols-2 lg:gap-24 ">
+      <div>
+        <h2 role="heading" class="lg:mt-24 font-medium">
+          Intelligent Workflows with Effective Results for Shopify
         </h2>
-        <p class="text-xl mt-4">
-            Create AI powered workflows for engagement retention and acquisition of users </br>
-              Grow your store and drive revenue with loyalty marketing automation.
-        </br>
+        <p role="emphasis" class="mt-4 ">
+            Create AI powered workflows for engagement retention and acquisition of users Grow your store and drive revenue with loyalty marketing automation.
         </p>
       </div>
-      <div
-        class="relative items-center w-full pb-0 mx-auto mt-12 overflow-hidden max-w-7xl lg:p-10 lg:pb-14 "
-        style="">
+      <div class="lg:mt-0 mt-12 h-full">
         <img
           role="img"
           loading="lazy"
-          class="object-cover -mb-12  rounded-xl border-white/5 lg:rounded-3xl shadow-vulcan-950" width="1280" height="739"
-          src="/assets/homepage/Workflow1.webp"
-          alt="Workflows for Shopify gift cards and loyalty program"
+          alt="Wallet pass image"
+          class="rounded-2xl shadow-vulcan-950/50" width="550" height="550"
+          src="/assets/homepage/workflow1.svg"
         />
       </div>
-      <ul class="grid grid-cols-1 gap-6 mt-24 lg:text-left sm:grid-cols-3 lg:gap-12"
+    </div>
+  </div> 
+  <div class="bg-black">
+  <div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-[72px]  space-y-24" role="none"> 
+      <ul class="grid grid-cols-1 lg:gap-16 lg:px-0 lg:text-left lg:grid-cols-3 lg:gap-12"
         role="list">
-         <li>
+         <li class="">
           <div>
+            <div class="text-indigo-400">
+              <img role="img" alt="gift card logo" class="py-4" width="38" height="24" src="/assets/homepage/Integrate1.svg"/>
+            </div>
             <h3
               role="heading"
-              class="text-2xl font-medium text-white lg:text-4xl">
+              class="text-2xl font-medium text-white">
               Integrate
             </h3>
           </div>
-          <p role="definition" class="mt-2 text-base">
+          <p role="definition" class="mt-2 text-base text-[#B9BABD]">
               Seamlessly integrate your shopify store with top eCommerce platforms and connected apps, offering more personalized workflows. Easily create highly effective experiences at each stage of the customer journey with just a few clicks. highly impactful experiences at every stage of the customer journey — with just a few clicks.
           </p>
         </li>
         <li>
           <div>
+           <div class="text-indigo-400">
+              <img role="img" alt="gift card logo" class="py-4" width="38" height="24" src="/assets/homepage/Automate1.svg"/>
+            </div>
             <h3
               role="heading"
-              class="text-2xl font-medium text-white lg:text-4xl">
+              class="text-2xl font-medium text-white">
               Automate
             </h3>
           </div>
-          <p role="definition" class="mt-2 text-base">
+          <p role="definition" class="mt-2 text-base text-[#B9BABD]">
               Develop custom workflows to execute data-driven and sophisticated promotional campaigns. Effortlessly incorporate features such as shopify store credit, coupons, shopify gift cards, and digital wallets into intricate workflows designed to attract, convert, and retain customers.
           </p>
         </li>
         <li>
           <div>
+           <div class="text-indigo-400">
+              <img role="img" alt="gift card logo" class="py-4" width="38" height="24" src="/assets/homepage/Personalize.svg"/>
+            </div>
             <h3
               role="heading"
-              class="text-2xl font-medium lg:text-4xl text-white">
+              class="text-2xl font-medium text-white">
               Personalize</h3>           
           </div>
-          <p role="definition" class="mt-2 text-base">
+          <p role="definition" class="mt-2 text-base text-[#B9BABD]">
             Design fully automated, data-driven campaigns that are custom-tailored for your customers. Offer personalized incentives based on each customer's activities and profile, including rewards, cash backs, loyalty points, coupons, gift cards, store credits, and more, to enhance engagement and loyalty.
           </p>
         </li>
        
       </ul>
     </div>
+  </div>
   </div>
 </section>

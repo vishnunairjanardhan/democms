@@ -1,0 +1,83 @@
+---
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
+import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro"
+import HeroWallet1 from "../components/heros/HeroWallet1.astro";
+import HeroWallet2 from "../components/heros/HeroWallet2.astro";
+import FeatureTryWallet from "../components/features/FeatureTryWallet.jsx";
+import FeatureWalletOne from "../components/features/FeatureWalletOne.astro";
+import FeatureWalletTwo from "../components/features/FeatureWalletTwo.astro";
+import FeatureWalletThree2 from "../components/features/FeatureWalletThree2.astro";
+import FeatureWalletFour from "../components/features/FeatureWalletFour.astro";
+import FeatureWalletFive from "../components/features/FeatureWalletFive.astro";
+import FeatureWalletSix2 from "../components/features/FeatureWalletSix2.astro";
+import FeatureWalletSix from "../components/features/FeatureWalletSix.astro";
+import FeatureWalletSeven from "../components/features/FeatureWalletSeven.astro";
+import NewLogoCloud from "../components/testimonials/NewLogoCloud.jsx";
+import TestimonialWallet from "../components/testimonials/TestimonialWallet.astro";
+import Slider from "../components/features/Slider.astro";
+import FeatureWalletEight from "../components/features/FeatureWalletEight.astro";
+import CtaThreeU from "../components/ctas/CtaThreeU.astro";
+import { Seo } from "../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+
+<BaseLayout3>
+<AstroSeo
+  title="Add Gift Cards to Apple & Google Wallet | 99minds"
+  description="Empower customers to save, redeem & track rewards with your branded gift cards in Apple & Google Wallet. Drive loyalty and sales with 99minds."
+  canonical="https://www.99minds.io/wallet1"
+  openGraph={{
+    url: "https://www.99minds.io/wallet1",
+    title: "Add Gift Cards to Apple & Google Wallet | 99minds",
+    description: "Empower customers to save, redeem & track rewards with your branded gift cards in Apple & Google Wallet. Drive loyalty and sales with 99minds.",
+   images: [
+      {
+        url: "https://www.99minds.io/assets/storecredit/Storecredit-b2.png ",
+        alt: "99minds Wallet Pass",
+        type: "image/png",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/wallet",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/storecredit/Storecredit-b2.png ",
+        alt: "99minds Wallet Pass",
+        type: "image/png",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+<!-- <HeroWallet/> -->
+<!-- <HeroWallet1/> -->
+<HeroWallet2/>
+<ClientLogoScroller/>
+<FeatureWalletOne/>
+<!-- <FeatureWalletTwo/> 
+<FeatureWalletThree2/>-->
+<FeatureWalletFour/>
+
+<!-- <FeatureWalletFive/> -->
+<!-- <FeatureWalletSix2/> -->
+<FeatureWalletSix/>
+ <!-- <FeatureWalletSeven/> -->
+
+  <!--<Testimonialtry1 />
+  <Integrations99minds2 />
+  <NewLogoCloud/>
+ 
+  -->
+  <Slider />
+  <TestimonialWallet />
+  <FeatureWalletEight />
+  <CtaThreeU />
+</BaseLayout3>

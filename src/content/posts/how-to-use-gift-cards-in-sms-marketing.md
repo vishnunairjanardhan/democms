@@ -33,7 +33,7 @@ Here are a few interesting stats about SMS marketing
 ### 1. Run contests
 
 Who doesn’t love a good contest that has rewards in it? If you want people to take an interest in your 
-<a href="https://www.99minds.io/blog/why-are-digital-gift-cards-essential-to-your-e-commerce-businessas" target="_blank">gift cards</a>, then you need to use incentives. Offering sweepstakes, giveaways and any other form of incentive through SMSes are a great way to attract the right crowd. It will result in more people registering for your program. A well thought-out strategy will be great for your business and the SMS marketing campaign for your gift cards.
+<a href="https://www.99minds.io/blog/ecommerce/why-are-digital-gift-cards-essential-to-your-e-commerce-business/" target="_blank">gift cards</a>, then you need to use incentives. Offering sweepstakes, giveaways and any other form of incentive through SMSes are a great way to attract the right crowd. It will result in more people registering for your program. A well thought-out strategy will be great for your business and the SMS marketing campaign for your gift cards.
 
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">

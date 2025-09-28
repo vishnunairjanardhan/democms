@@ -13,46 +13,51 @@ url: "https://www.99minds.io/blog/loyalty-program-apps"
 keywords: ["gift card"]
 
 --- 
+
+
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-is-a-Loyalty-Program-App?" rel="noreferrer">What is a Loyalty Program App?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+<a rolw="link" href="#Why-eCommerce-Merchants-Need-Loyalty-Apps?" rel="noreferrer">Why eCommerce Merchants Need Loyalty Apps?</a>
+</li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Types-of-Loyalty-Program-Apps" rel="noreferrer">Types of Loyalty Program Apps</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Key-Features-to-Look-for-in-a-Loyalty-App" rel="noreferrer">Key Features to Look for in a Loyalty App</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Top-Loyalty-Apps-for-eCommerce-Stores" rel="noreferrer">Top Loyalty Apps for eCommerce Stores</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#How-Coalition-Loyalty-Apps-Work?" rel="noreferrer">How Coalition Loyalty Apps Work?</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Mobile-vs.-Web-Based-Loyalty-Experiences" rel="noreferrer">Mobile vs. Web-Based Loyalty Experiences</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Common-Mistakes-to-Avoid" rel="noreferrer">Common Mistakes to Avoid</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Loyalty-Program-Apps"rel="noreferrer">Frequently-Ask-Questions-(FAQs)-on-Loyalty Program Apps</a></li>
+</ul>
+</div>
+
+<div class="w-full">
 <img src="/assets/blog/top-loyalty-program-apps-for-ecommerce-merchants-in-2025.webp"></a>
 
 In the competitive world of eCommerce, keeping customers coming back is just as important as attracting new ones. <a href="https://www.99minds.io/loyalty" role="link" target="_blanck">Loyalty program apps</a> have become essential tools for merchants who want to build strong relationships with their customers and boost repeat sales. But with so many options out there—ranging from simple points-based systems to complex coalition programs—it can be overwhelming to choose the right one.
 
 This guide breaks down everything you need to know about loyalty program apps. From what they are and why they matter, to the top apps and features you should look for, plus tips on avoiding common mistakes. Whether you’re just starting or ready to level up your loyalty game, this post has you covered.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul role="list">
-  <li>
-  <a role="link" href="#What-is-a-Loyalty-Program-App?" rel="noreferrer">What is a Loyalty Program App?</a>
-  </li>
-  <li>
-<a rolw="link" href="#Why-eCommerce-Merchants-Need-Loyalty-Apps?" rel="noreferrer">Why eCommerce Merchants Need Loyalty Apps?</a>
-</li>
-  <li>
-  <a role="link" href="#Types-of-Loyalty-Program-Apps" rel="noreferrer">Types of Loyalty Program Apps</a>
-  </li>
-  <li>
-  <a role="link" href="#Key-Features-to-Look-for-in-a-Loyalty-App" rel="noreferrer">Key Features to Look for in a Loyalty App</a>
-  </li>
-   <li>
-  <a role="link" href="#Top-Loyalty-Apps-for-eCommerce-Stores" rel="noreferrer">Top Loyalty Apps for eCommerce Stores</a>
-  </li>
-   <li>
-  <a role="link" href="#How-Coalition-Loyalty-Apps-Work?" rel="noreferrer">How Coalition Loyalty Apps Work?</a>
-  </li>
-   <li>
-  <a role="link" href="#Mobile-vs.-Web-Based-Loyalty-Experiences" rel="noreferrer">Mobile vs. Web-Based Loyalty Experiences</a>
-  </li>
-   <li>
-  <a role="link" href="#Common-Mistakes-to-Avoid" rel="noreferrer">Common Mistakes to Avoid</a>
-  </li>
-  <li>
-  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li>
-<li>
-  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Loyalty-Program-Apps"rel="noreferrer">Frequently-Ask-Questions-(FAQs)-on-Loyalty Program Apps</a></li>
-</ul>
-</div>
 
 <h2 id="What-is-a-Loyalty-Program-App?">What is a Loyalty Program App?</h2>
 
@@ -361,10 +366,34 @@ Begin by characterizing your objectives, assess the key highlights you wish, and
 <h2 id="Frequently-Ask-Questions-(FAQs)-on-Loyalty-Program-Apps">Frequently-Ask-Questions-(FAQs)-on-Loyalty Program Apps</h2>
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can I use a loyalty app if I’m a small eCommerce store?</h3>
-Absolutely! Many apps like Smile.io offer free or affordable plans perfect for small businesses to start building customer loyalty.</div><br>
+Absolutely! Many apps like Smile.io offer free or affordable plans perfect for small businesses to start building customer loyalty.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> What’s the difference between points and coalition loyalty?</h3>
-Points programs reward customers within your brand only, while coalition loyalty lets customers earn and spend points across multiple partner brands.<div><br>
+Points programs reward customers within your brand only, while coalition loyalty lets customers earn and spend points across multiple partner brands.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do I promote my loyalty program?</h3>
-Use your website, email newsletters, social media, and checkout pages to highlight rewards and benefits regularly.</div><br>
+Use your website, email newsletters, social media, and checkout pages to highlight rewards and benefits regularly.</div>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Do loyalty apps integrate with my existing marketing tools?</h3>
-Most modern apps support integration with email platforms, CRMs, and analytics tools to streamline your marketing efforts.</div><br>
+Most modern apps support integration with email platforms, CRMs, and analytics tools to streamline your marketing efforts.</div>
+
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

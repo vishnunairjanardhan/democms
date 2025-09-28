@@ -24,7 +24,7 @@ Halloween is easily one of the biggest events of the year. It is the perfect hol
 You must have a clear handle on the objectives you plan to achieve with the loyalty program. Doing so will also help you know which are the KPIs that need to be measured.
 You can ask the following questions:
 <ul>
-<li>Why are we launching a loyalty program?
+<li>Why are we <a href="https://www.99minds.io/blog/what-constitutes-a-good-loyalty-program" target="_blank">launching a loyalty program?</a></li>
 <li>What do we want from the program?</li>
 <li>What are the goals of the program?</li>
 </ul>

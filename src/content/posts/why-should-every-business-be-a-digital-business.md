@@ -17,7 +17,7 @@ keywords: ["99minds"]
 
 Being a digital business is no longer an option. It is a necessity for all businesses, no matter how they operate. Without digital tools, it is almost impossible to function smoothly. Digital transformations have even resulted in radical changes that have completely changed the status quo of various industries. Technology is the biggest contributor in shaping businesses for its future.
 
-The technology that you use will be the main driver of your growth. Starting from providing an online payment ability at your offline store to putting your customers into a loyalty program, every aspect of digital technology makes a big dent in your growth. Software helps you redesign your business as well as re-imagine the way you get your work done.
+The technology that you use will be the main driver of your growth. Starting from providing an online payment ability at <a href="https://www.99minds.io/blog/what-constitutes-a-good-loyalty-program/">your offline store to putting your customers into a loyalty program</a>, every aspect of digital technology makes a big dent in your growth. Software helps you redesign your business as well as re-imagine the way you get your work done.
 
 The shift to digital technologies has greatly changed consumer behaviour and expectations. If you do not have proper digital tools to back up your offering, then you will put your business under a lot of unnecessary stress.
 

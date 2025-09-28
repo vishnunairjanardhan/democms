@@ -13,38 +13,42 @@ url: " https://www.99minds.io/blog/referral-marketing-strategy"
 keywords: ["referral marketing strategy"]
 
 --- 
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-is-Referral-Program?" rel="noreferrer">What is Referral Marketing?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Why-Does-Referral-Marketing-Work?" rel="noreferrer">Why Does Referral Marketing Work?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-are-the-Benefits-of-Referral-Marketing?" rel="noreferrer">What are the Benefits of Referral Marketing?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#12-Effective-Referral-Marketing-Strategies-to-Win-New-Customers" rel="noreferrer">12 Effective Referral Marketing Strategies to Win New Customers</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Referral-Marketing-Tools-and-Software" rel="noreferrer">Referral Marketing Tools and Software</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)" ref="noreferrer">Frequently Asked Questions (FAQs)</a>
+  </li>                       
+</ul>   
+</div>  
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/how-to-create-an-effective-referral-marketing-strategy-in-2025.webp" alt="referral marketing strategy">
 
 Companies constantly seek effective strategies to boost revenue and enhance <a href="https://www.99minds.io/blog/customer-acquisition-strategy" role="link" target="_blank">customer acquisition</a> in today’s competitive digital environment. The referral marketing strategy is one such effective technique. This strategy, typically featuring incentives, motivates existing customers to recommend friends, family, or colleagues to a brand's products or services. 
 
 It’s a proven approach that leverages individuals' trust in recommendations from acquaintances, making it a cost-effective way to enhance brand visibility, acquire new customers, and nurture current ones. This detailed guide will discuss the key elements of a referral marketing strategy, including its benefits, types of programs, tactics for specific industries, and useful tips for implementation.
-
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a role="link" href="#What-is-Referral-Program?" rel="noreferrer">What is Referral Marketing?</a>
-  </li>
-  <li>  
-    <a role="link" href="#Why-Does-Referral-Marketing-Work?" rel="noreferrer">Why Does Referral Marketing Work?</a>
-  </li>
-  <li>  
-    <a role="link" href="#What-are-the-Benefits-of-Referral-Marketing?" rel="noreferrer">What are the Benefits of Referral Marketing?</a>
-  </li>
-  <li>  
-    <a role="link" href="#12-Effective-Referral-Marketing-Strategies-to-Win-New-Customers" rel="noreferrer">12 Effective Referral Marketing Strategies to Win New Customers</a>
-  </li> 
-  <li> 
-    <a role="link" href="#Referral-Marketing-Tools-and-Software" rel="noreferrer">Referral Marketing Tools and Software</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
-  </li> 
-  <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)" ref="noreferrer">Frequently Asked Questions (FAQs)</a>
-  </li>                       
-</ul>   
-</div>  
 
 <h2 id="What-is-Referral-Program?">What is Referral Marketing?</h2> 
 
@@ -237,8 +241,8 @@ Influencers can enhance your referral program by connecting with wider and more 
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -320,3 +324,27 @@ Integrating referral marketing with your existing loyalty program can create a p
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3> Is it necessary to offer a reward for every referral?</h3>
 Offering rewards for every referral is not always mandatory, but it’s a common practice. Some businesses may choose to incentivize high-quality referrals or set thresholds, such as rewarding customers who refer a certain number of people. The key is finding a balance between motivating your customers and maintaining profitability.
 </div><br>
+
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+  </div>
+</div>
+
+
+
+</div>

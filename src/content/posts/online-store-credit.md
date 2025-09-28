@@ -13,6 +13,42 @@ url: "https://www.99minds.io/blog/online-store-credit"
 keywords: ["online store credit","what is store credit"]
 
 ---
+
+
+<div class="lg:flex lg:gap-6">
+  <!-- Table of content section -->
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">   
+    <a role="link" href="#What-is-Store-Credit?" rel="noreferrer">What is Store Credit?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#How-Does-Store-Credit-Work?" rel="noreferrer">How Does Store Credit Work?</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#What-are-the-Benefits-of-Issuing-Online-Store-Credit?" rel="noreferrer">What are the Benefits of Issuing Online Store Credit?</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Types-of-Store-Credit" rel="noreferrer">Types of Store Credit</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#How-to-use-Store-Credit-to-Increase-Customer-Retention" rel="noreferrer">How to use Store Credit to Increase Customer Retention</a>
+  </li> 
+  <li class="hover:bg-gray-100 lg:mt-4">  
+    <a role="link" href="#Build-Store-Credit-Program-with-99minds" rel="noreferrer">Build Store Credit Program with 99minds</a>
+  </li>
+   <li class="hover:bg-gray-100 lg:mt-4"> 
+    <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Online-Store-Credit" ref="noreferrer">Frequently Asked Questions (FAQs) for Online Store Credit</a>
+  </li>                     
+</ul>   
+</div>
+
+
+<div class="w-full">
 <img rel="preload" role="img" src="/assets/blog/What-is-a-store-credit.webp" alt="What Is a Store Credit_ Meaning, Benefits, & Guide">
 
 Returns can be a significant hurdle for retail businesses. After completing a sale, you might face the item returning to your shelves, with funds departing your account when a customer requests a refund.
@@ -23,35 +59,6 @@ Online store credit offers a value that customers can use exclusively in your st
 
 This guide will explore strategies to use and promote online store credit as a preferred refund option in your retail environment.
 
-<div class="p-[0.060rem] rounded-3xl shadow-xl border-x-2 border-vulcan-700 shadow-vulcan-950 bg-gradient-to-b from-slate-800 via-indigo-500/1 px-8 pb-4">
-<p>Table of Contents:</p>
-<ul>
-  <li>  
-    <a role="link" href="#What-is-Store-Credit?" rel="noreferrer">What is Store Credit?</a>
-  </li>
-  <li>  
-    <a role="link" href="#How-Does-Store-Credit-Work?" rel="noreferrer">How Does Store Credit Work?</a>
-  </li> 
-  <li>  
-    <a role="link" href="#What-are-the-Benefits-of-Issuing-Online-Store-Credit?" rel="noreferrer">What are the Benefits of Issuing Online Store Credit?</a>
-  </li>
-  <li>  
-    <a role="link" href="#Types-of-Store-Credit" rel="noreferrer">Types of Store Credit</a>
-  </li>
-  <li>  
-    <a role="link" href="#How-to-use-Store-Credit-to-Increase-Customer-Retention" rel="noreferrer">How to use Store Credit to Increase Customer Retention</a>
-  </li> 
-  <li>  
-    <a role="link" href="#Build-Store-Credit-Program-with-99minds" rel="noreferrer">Build Store Credit Program with 99minds</a>
-  </li>
-  <li>  
-    <a role="link" href="#Wrapping-Up" rel="noreferrer">Wrapping Up</a>
-  </li>
-  <li>
-    <a role="link" href="#Frequently-Asked-Questions-(FAQs)-for-Online-Store-Credit" ref="noreferrer">Frequently Asked Questions (FAQs) for Online Store Credit</a>
-  </li>                     
-</ul>   
-</div>
 
 
 <h2 id="What-is-Store-Credit?">What is Store Credit?</h2>
@@ -229,8 +236,8 @@ Acknowledge customer loyalty by offering store credit on special milestones, suc
                 <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
                 <!-- Panel -->
                 <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
+                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
+                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
                       frameBorder="0"
                       allowFullScreen
                       title="Calendly">
@@ -293,3 +300,24 @@ This type of credit ensures that the funds are retained within the retailer's ec
 
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is a Store Credit Refund?</h3>A store credit refund is when a retailer gives you a credit instead of returning your money after you've returned an item. This credit is typically issued as "online store credit," which you can use for future purchases on the retailer's website. 
 It ensures that the funds remain within the retailer's financial ecosystem, encouraging customers to spend their credit back at the store, thereby fostering customer loyalty and retention. Unlike cash refunds, online store credit usually cannot be redeemed for cash or used at other stores, keeping the spending tied to the original retailer.</div>
+
+
+</div>
+  <!-- CTA section  -->
+ <div class="lg:w-[270px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-5 h-full text-black pb-30 md:mx-0">
+  <div class="rounded-lg mt-4 shadow-md bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),linear-gradient(120.74deg,#FFB4B7_-1.19%,#DEB5E7_29.65%,#84B5FF_62.61%,#C68CFF_93.58%)] overflow-hidden flex flex-col">
+    <div class="p-4">
+      <h2 class="text-base !font-bold">
+        Boost Customer Engagement with 99minds. The Ultimate Gift Card & Loyalty Solution!
+      </h2>
+      <a href="https://giftcard.99minds.io/access/register" 
+         class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
+         target="_blank">
+        Signup for free
+      </a>
+    </div>
+    <img src="/assets/blog/Dashboard.png"
+         class="w-full h-auto ml-4 mb-0 pb-0">
+    </div>
+   </div>
+ </div>
