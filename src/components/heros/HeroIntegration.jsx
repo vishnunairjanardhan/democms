@@ -30,7 +30,7 @@ export default function HeroIntegration({ logo, heading, description }) {
           </div>
 
           {/* Heading */}
-          <h1 className="mt-6">{heading}</h1>
+          <h1 className="mt-0">{heading}</h1>
 
           {/* Subtext */}
           <p className="max-w-5xl mx-auto my-4 pb-4">{description}</p>
