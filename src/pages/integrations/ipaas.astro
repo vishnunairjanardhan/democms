@@ -1,6 +1,6 @@
 ---
 import BaseLayout3 from "../../layouts/BaseLayout3.astro";
-import HeroIpaas from "../../components/heros/HeroIpaas.astro";
+import HeroIntegration from "../../components/heros/HeroIntegration.jsx";
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import ClientLogoScroller from "../../components/testimonials/ClientLogoScroller.astro";
 import FeatureIpaas from "../../components/features/FeatureIpaas.astro";
@@ -13,6 +13,9 @@ import BcomRating from "../../components/Infopages/BcomRating.astro";
 
 
 import { AstroSeo } from "@astrolib/seo";
+import { iPaasPageConfig } from "../../config/heroConfig.js";
+
+const { seo, hero } = iPaasPageConfig;
 ---
 
 <!---
@@ -42,7 +45,8 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-  <HeroIpaas />
+    <!-- ✅ Hero gets only its props -->
+  <HeroIntegration {...hero} client:load />
   <!--<LogoCloudOne />-->
    <ClientLogoScroller />
   <FeatureIpaas />

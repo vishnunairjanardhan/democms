@@ -1,6 +1,6 @@
 ---
 import BaseLayout3 from "../../layouts/BaseLayout3.astro";
-import HeroHike from "../../components/heros/HeroHike.astro";
+import HeroIntegration from "../../components/heros/HeroIntegration.jsx";
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import ClientLogoScroller from "../../components/testimonials/ClientLogoScroller.astro";
 import FeatureHike from "../../components/features/FeatureHike.astro";
@@ -14,6 +14,9 @@ import IntegrationHike from "../../components/integrations/IntegrationHike.astro
 
 
 import { AstroSeo } from "@astrolib/seo";
+import { hikePageConfig } from "../../config/heroConfig.js";
+
+const { seo, hero } = hikePageConfig;
 ---
 
 <!---
@@ -44,7 +47,8 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-  <HeroHike />
+  <!-- ✅ Hero gets only its props -->
+  <HeroIntegration {...hero} client:load />
   <!--<LogoCloudOne />-->
    <ClientLogoScroller />
   <FeatureHike />
