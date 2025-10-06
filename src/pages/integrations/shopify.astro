@@ -1,6 +1,6 @@
 ---
 import BaseLayout3 from "../../layouts/BaseLayout3.astro";
-import HeroShopify from "../../components/heros/HeroShopify.astro";
+import IntegrationShopify from "../../components/integrations/IntegrationShopify.astro"; 
 import LogoCloudOne from "../../components/testimonials/LogoCloudOne.astro";
 import NewLogoCloud from "../../components/testimonials/NewLogoCloud.jsx";
 import FeatureShopify from "../../components/features/FeatureShopify.astro";
@@ -14,15 +14,13 @@ import Integrations99minds from "../../components/integrations/Integrations99min
 import BcomRating from "../../components/Infopages/BcomRating.astro";
 import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
 import FeatureTen from "../../components/features/FeatureTen.astro";
-import IntegrationShopify from "../../components/integrations/IntegrationShopify.astro";
+import IntegrationSection from "../../components/heros/HeroInegrationEcom.jsx";
+import { shopifyConfig } from "../../config/HeroIntegration.jsx";
 
 
 import { AstroSeo } from "@astrolib/seo";
 ---
 
-<!---
-Use AstroSeo in all the pages you want different Seo than the index page
--->
 
 <BaseLayout3>
 <AstroSeo
@@ -55,17 +53,12 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-  <HeroShopify />
-  <!--<LogoCloudOne />-->
+  <IntegrationSection config={shopifyConfig} client:load  />
   <ClientLogoScroller />
-   <!--<FeatureBcom1 />-->
   <FeatureShopify />
   <FeatureShopify3 />
-  <!--<FeatureShopify2 />-->
   <FeatureTen />
   <IntegrationShopify />
   <Testimonialtry />
-  <!--<Integrations99minds />-->
-  <!-- <Cta99mindsShopify /> -->
   <CtaThreeU />
 </BaseLayout3>
