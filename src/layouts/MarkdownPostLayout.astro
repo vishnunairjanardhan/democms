@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "./BaseLayout.astro";
+import BaseLayout3 from "./BaseLayout3.astro";
 const { frontmatter } = Astro.props;
 import { AstroSeo } from "@astrolib/seo";
 
@@ -38,7 +38,7 @@ const blogPostSchemaString = JSON.stringify(blogPostSchema);
   <script type="application/ld+json" is:raw>{blogPostSchemaString}</script>
 </head>
 
-<BaseLayout>
+<BaseLayout3>
   <AstroSeo
     title={frontmatter.title || ""}
     description={frontmatter.description || ""}
@@ -149,4 +149,4 @@ const blogPostSchemaString = JSON.stringify(blogPostSchema);
     </div>
   </section>
 
-</BaseLayout>
+</BaseLayout3>
