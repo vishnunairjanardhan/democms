@@ -124,6 +124,22 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Enterprise: "Yes",
   },
   {
+    Column1: "Advance VIP Tiers",
+    Basic: "No",
+    Pro: "No",
+    Ultra: "No",
+    Premium: "Yes",
+    Enterprise: "Yes",
+  },
+  {
+    Column1: "Memberships",
+    Basic: "No",
+    Pro: "No",
+    Ultra: "No",
+    Premium: "Yes",
+    Enterprise: "Yes",
+  },
+  {
     Column1: "Automation Workflows",
     Basic: 1,
     Pro: 5,
@@ -261,6 +277,14 @@ export const TOP_PRODUCT_PRICE_LIST = [
   },
   {
     Column1: "Shopify Metafields",
+    Basic: "No",
+    Pro: "No",
+    Ultra: "Yes",
+    Premium: "Yes",
+    Enterprise: "Yes",
+  },
+  {
+    Column1: "Shopify Multi Store Support",
     Basic: "No",
     Pro: "No",
     Ultra: "Yes",
@@ -412,7 +436,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Custom Email Templates",
     Free: "No",
-    
     Basic: 3,
     Pro: 10,
     Ultra: 20,
@@ -422,7 +445,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Barcode Generation",
     Free: "No",
-    
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -432,7 +454,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Bulk Giftcard Creation",
     Free: "No",
-    
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -442,7 +463,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Web POS",
     Free: "No",
-    
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -452,7 +472,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Physical Gift Card Support",
     Free: "No",
-    
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -462,17 +481,15 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Multi Currency Support",
     Free: "No",
-    
     Basic: "No",
-    Pro: "Yes",
-    Ultra: "Yes",
+    Pro: "No",
+    Ultra: "No",
     Premium: "Yes",
     Enterprise: "Yes",
   },
   {
     Column1: "Remove Branding",
     Free: "No",
-    
     Basic: "Yes",
     Pro: "Yes",
     Ultra: "Yes",
@@ -482,7 +499,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Team Management",
     Free: "No",
-    
     Basic: 5,
     Pro: 10,
     Ultra: 25,
@@ -492,7 +508,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "B2B Distribution",
     Free: "No",
-    
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -502,7 +517,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Two Factor Authentication",
     Free: "No",
-    
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -512,7 +526,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "API Access",
     Free: "No",
-    
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -522,7 +535,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Custom 3rd Party POS Support",
     Free: "No",
-    
     Basic: "No",
     Pro: "No",
     Ultra: "No",
@@ -532,7 +544,6 @@ export const REMAINING_PRODUCT_PRICE_LIST = [
   {
     Column1: "Account Manager",
     Free: "No",
-    
     Basic: "No",
     Pro: "No",
     Ultra: "No",
