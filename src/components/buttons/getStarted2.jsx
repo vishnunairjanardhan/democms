@@ -30,7 +30,7 @@ export default function ButtonsGrid() {
               <img
                 src={btn.logo}
                 alt={`${btn.label} logo`}
-                className="h-10 w-[133px] rounded-xl w-auto"
+                className="h-10 w-[140px] px-1 rounded-lg w-auto "
               />
           </button>
         ))}
