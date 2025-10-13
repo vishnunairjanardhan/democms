@@ -1,5 +1,28 @@
 export const shopifyConfig = {
-  logo: {
+  seo: {
+    title: "99minds and Shopify integration | 99minds",
+    description: "Add the most powerful omnichannel gift card and loyalty program app to your Shopify account and improve customer retention and revenue.",
+    canonical: "https://www.99minds.io/integrations/shopify",
+    openGraph: {
+      url: "https://www.99minds.io/integrations/shopify",
+      title: "99minds and Shopify integration | 99minds",
+      description: "Add the most powerful omnichannel gift card and loyalty program app to your Shopify account and improve customer retention and revenue.",
+      images: [
+        {
+          src: "https://www.99minds.io/assets/shopify/99minds-Shopify-OGI.svg",
+          alt: "99minds & Shopify integration",
+          type: "image/svg",
+        },
+      ],
+      site_name: "99minds",
+    },
+    twitter: {
+      site: "@99minds_io",
+      cardType: "summary_large_image",
+    },
+  },
+  hero:{
+    logo: {
     src: "/assets/shopify/99minds-Shopify.svg",
     alt: "99minds and Shopify Integration",
     width: 474,
@@ -26,8 +49,9 @@ export const shopifyConfig = {
   buttons: [
     { label: "Book Demo", link: "/demo" },
     { label: "Learn More", link: "/learn" },
-  ],
+  ],}
 };
+
 
 export const shopifyplusConfig = {
   logo: {

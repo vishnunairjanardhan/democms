@@ -51,8 +51,7 @@ export default function IntegrationSection({ config }) {
                 className="raise1 relative px-4 py-3 inline-flex items-center justify-center font-bold overflow-hidden group rounded-lg font-medium"
               >
                 <span className="w-full h-full bg-white absolute border border-black rounded-lg"></span>
-                <span className="relative text-black"></span>
-                <span class="relative text-black">Install on </span>
+                <span className="relative text-black">Install on</span>
                 <img
                   className="z-40 m-auto ml-2"
                   width={config.cta.logo.width}
