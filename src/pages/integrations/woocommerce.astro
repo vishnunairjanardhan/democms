@@ -11,7 +11,8 @@ import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
 import IntegrationWcom2 from "../../components/integrations/IntegrationWcom2.astro";
 import BcomRating from "../../components/Infopages/BcomRating.astro";
 import IntegrationWcom from "../../components/integrations/IntegrationWcom.astro";
-
+import IntegrationSection from "../../components/heros/HeroInegrationEcom.jsx";
+import { woocommerceConfig } from "../../config/HeroIntegration.jsx";
 
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -51,7 +52,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-  <HeroWoocommerce />
+  <IntegrationSection config={woocommerceConfig} client:load  />
   <!--<LogoCloudOne />-->
   <ClientLogoScroller />
   <FeatureWcom />
