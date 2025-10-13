@@ -138,7 +138,7 @@ export default function GiftCardFeatures() {
                     ? featuresData[activeIndex].title
                     : featuresData[0].title
                 }
-                className="rounded-2xl w-[600px] h-auto object-cover"
+                className="rounded-2xl w-auto h-[450px] object-cover"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
