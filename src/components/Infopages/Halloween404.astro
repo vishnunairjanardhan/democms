@@ -1,0 +1,222 @@
+---
+import { fade } from "astro:transitions";
+---
+
+<style>
+  :root {
+    --lavender: #c7aefb;
+    --orange: #ff6b00;
+    --dark-bg: #1a0f1f;
+  }
+
+  body {
+    margin: 0;
+    background: radial-gradient(circle at top, var(--lavender) 0%, var(--dark-bg) 80%);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .error-container {
+    text-align: center;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 16px;
+    background: rgba(26, 15, 31, 0.7);
+    box-shadow: 0 0 20px rgba(255, 107, 0, 0.3);
+    animation: fadeIn 1.2s ease;
+    position: relative;
+    z-index: 10;
+  }
+
+  h1 {
+    font-family: "Creepster", cursive;
+    color: var(--orange);
+    font-size: 2rem;
+    text-shadow: 0 0 8px var(--orange);
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: var(--lavender);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    background: var(--orange);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s ease, background 0.3s ease;
+  }
+
+  .btn:hover {
+    transform: scale(1.05);
+    background: #ff8533;
+  }
+
+  .btn-secondary {
+    background: var(--lavender);
+    color: var(--dark-bg);
+  }
+
+  /* Floating ghost animation */
+  .ghost {
+    font-size: 4rem;
+    display: inline-block;
+    animation: float 4s ease-in-out infinite;
+    filter: drop-shadow(0 0 6px var(--lavender));
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  /* Decorative bubbles for subtle motion */
+  .bubble {
+    position: absolute;
+    background: var(--lavender);
+    opacity: 0.2;
+    border-radius: 50%;
+    animation: rise 12s linear infinite;
+  }
+
+  @keyframes rise {
+    0% {
+      transform: translateY(100vh) scale(0.8);
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateY(-10vh) scale(1.2);
+      opacity: 0;
+    }
+  }
+
+  /* Calendly Modal Styles */
+  .calendly-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .calendly-modal.active {
+    display: flex;
+  }
+
+  .calendly-container {
+    width: 90%;
+    max-width: 700px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    animation: fadeInModal 0.6s ease;
+  }
+
+  @keyframes fadeInModal {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  .close-modal {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--orange);
+    background: none;
+    border: none;
+    z-index: 10000;
+  }
+
+  .close-modal:hover {
+    transform: scale(1.2);
+  }
+</style>
+
+<div class="error-container" transition:animate={fade({ duration: "1s" })}>
+  <div class="ghost">👻</div>
+  <h1>Oops! This Page Vanished into the Haunted Web 👻</h1>
+  <p>Let’s get you back to reality — or maybe book a demo instead?</p>
+  <div class="buttons">
+    <a href="/" class="btn">Back to Homepage</a>
+    <button id="openCalendly" class="btn btn-secondary">🎃 Book a Demo</button>
+  </div>
+</div>
+
+<!-- Floating bubbles for ambiance -->
+<div class="bubble" style="width:20px; height:20px; left:10%; animation-delay:0s;"></div>
+<div class="bubble" style="width:15px; height:15px; left:40%; animation-delay:3s;"></div>
+<div class="bubble" style="width:25px; height:25px; left:70%; animation-delay:5s;"></div>
+<div class="bubble" style="width:12px; height:12px; left:85%; animation-delay:7s;"></div>
+<div class="bubble" style="width:18px; height:18px; left:25%; animation-delay:9s;"></div>
+
+<!-- Calendly Modal -->
+<div class="calendly-modal" id="calendlyModal">
+  <div class="calendly-container">
+    <button class="close-modal" id="closeCalendly">✖</button>
+    <iframe
+      src="https://calendly.com/99minds/30min?"
+      width="100%"
+      height="700"
+      frameborder="0"
+      style="border: none;"
+      allowfullscreen
+    ></iframe>
+  </div>
+</div>
+
+<script>
+  const openBtn = document.getElementById("openCalendly");
+  const closeBtn = document.getElementById("closeCalendly");
+  const modal = document.getElementById("calendlyModal");
+
+  openBtn.addEventListener("click", () => {
+    modal.classList.add("active");
+    document.body.style.overflow = "hidden";
+  });
+
+  closeBtn.addEventListener("click", () => {
+    modal.classList.remove("active");
+    document.body.style.overflow = "";
+  });
+
+  // Optional: Close modal when clicking backdrop
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.classList.remove("active");
+      document.body.style.overflow = "";
+    }
+  });
+</script>
