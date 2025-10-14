@@ -65,7 +65,7 @@ export default function GiftCardFeatures() {
 
   return (
     <section className="flex justify-center bg-white border-y border-white/5 overflow-hidden">
-      <div className="px-6 md:px-12 lg:px-16 max-w-7xl py-20 w-full">
+      <div className="px-6 md:px-12 lg:px-16 max-w-7xl py-[72px] w-full">
         {/* Header */}
         <div className="text-center">
           <h2 className="font-medium text-2xl lg:text-3xl text-gray-900">
@@ -78,7 +78,7 @@ export default function GiftCardFeatures() {
         </div>
 
         {/* Layout */}
-        <div className="flex flex-col-reverse md:flex-row items-start gap-10 mt-16 md:mt-20">
+        <div className="flex flex-col-reverse md:flex-row items-start gap-14 mt-12 md:mt-20">
           {/* Left: Accordion Tabs */}
           <div className="flex-1 border-l border-gray-200 relative">
             {featuresData.map((feature, index) => (
@@ -87,17 +87,19 @@ export default function GiftCardFeatures() {
                   onClick={() => handleTabClick(index)}
                   className={`relative w-full text-left py-2 px-3 transition-all duration-300 rounded-md flex items-center justify-between ${
                     activeIndex === index
-                      ? "bg-indigo-50 border-l-4 border-indigo-500 text-indigo-600"
+                      ? "bg-gray-50 border-l-4 border-[#6820EE] text-[#6820EE]"
                       : "hover:bg-gray-50 text-gray-700"
                   }`}
                 >
-                  <h3 className="font-medium">{feature.title}</h3>
+                  <h3 className="font-normal">{feature.title}</h3>
                   <span
                     className={`ml-2 transition-transform duration-300 ${
                       activeIndex === index ? "rotate-180" : "rotate-0"
                     }`}
                   >
-                    ▼
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+                    </svg>
                   </span>
                 </button>
 
@@ -110,7 +112,7 @@ export default function GiftCardFeatures() {
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3 }}
-                      className="pl-6 pr-3 text-gray-600 text-sm overflow-hidden"
+                      className="pl-4 mt-2 pr-28 text-base text-[#475467] overflow-hidden"
                       dangerouslySetInnerHTML={{
                         __html: feature.description,
                       }}
@@ -136,7 +138,7 @@ export default function GiftCardFeatures() {
                     ? featuresData[activeIndex].title
                     : featuresData[0].title
                 }
-                className="rounded-2xl shadow-xl w-full h-[380px] object-cover"
+                className="rounded-2xl w-auto lg:h-[450px] object-cover"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
