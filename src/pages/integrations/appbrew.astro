@@ -14,6 +14,8 @@ import BcomRating from "../../components/Infopages/BcomRating.astro";
 import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
 import FeatureTen from "../../components/features/FeatureTen.astro";
 import IntegrationShopify from "../../components/integrations/IntegrationShopify.astro";
+import IntegrationSection from "../../components/heros/HeroInegrationEcom.jsx";
+import { appbrewConfig } from "../../config/HeroIntegration.jsx";
 
 
 import { AstroSeo } from "@astrolib/seo";
@@ -54,7 +56,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-  <HeroAppbrew />
+  <IntegrationSection config={appbrewConfig} client:load  />
   <ClientLogoScroller />
   <FeatureAppbrew2 />
   <FeatureAppbrew />

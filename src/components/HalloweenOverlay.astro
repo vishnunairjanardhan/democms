@@ -1,0 +1,135 @@
+---
+import { fade } from "astro:transitions";
+---
+
+<style>
+  .popup-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+  }
+
+  .popup-backdrop.show {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .popup {
+    position: relative;
+    max-width: 420px;
+    background: linear-gradient(160deg, #1a1a1a, #2b0000);
+    color: #fff;
+    padding: 2rem 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid #ff6600;
+    box-shadow: 0 0 25px rgba(255, 140, 0, 0.5);
+    animation: popupIn 0.7s ease forwards;
+  }
+
+  .popup h2 {
+    font-family: "Creepster", cursive;
+    color: #ff6600;
+    font-size: 1.8rem;
+    text-shadow: 0 0 6px #ff6600;
+    margin-bottom: 1rem;
+  }
+
+  .popup p {
+    font-family: "Poppins", sans-serif;
+    color: #f8f8f8;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+
+  .popup button {
+    background: linear-gradient(90deg, #ff6600, #ff3300);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.75rem 1.5rem;
+    transition: transform 0.2s ease, background 0.3s;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .popup button:hover {
+    background: linear-gradient(90deg, #ff8800, #ff4400);
+    transform: scale(1.05);
+  }
+
+  .popup .close-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #ff6600;
+    background: none;
+    border: none;
+    transition: transform 0.2s ease;
+  }
+
+  .popup .close-btn:hover {
+    transform: rotate(15deg);
+  }
+
+  @keyframes popupIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.7) rotate(-10deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) rotate(0deg);
+    }
+  }
+</style>
+
+<div class="popup-backdrop" id="popup" transition:animate={fade({ duration: "0.8s" })}>
+  <div class="popup">
+    <button class="close-btn" id="close-btn">✖</button>
+    <h2>🎃 Treat Your Customers to Spooky Rewards! 👻</h2>
+    <p>
+      Cast a spell of delight on your visitors with limited-time Halloween offers,
+      mysterious discounts, and sweet treats!
+    </p>
+    <button id="cta-btn">Claim My Treat 🍬</button>
+  </div>
+</div>
+
+<script>
+  const popup = document.getElementById("popup");
+  const closeBtn = document.getElementById("close-btn");
+  const ctaBtn = document.getElementById("cta-btn");
+
+  const popupKey = "halloween-popup-shown";
+
+  // Show the popup only if it hasn't been shown before
+  if (!localStorage.getItem(popupKey)) {
+    setTimeout(() => {
+      popup.classList.add("show");
+    }, 1500);
+  }
+
+  const closePopup = () => {
+    popup.classList.remove("show");
+    localStorage.setItem(popupKey, "true");
+  };
+
+  closeBtn.onclick = closePopup;
+  ctaBtn.onclick = () => {
+    // Redirect to your promo page or open a modal
+    window.location.href = "/halloween-offer"; // Change to your desired URL
+    closePopup();
+  };
+</script>
