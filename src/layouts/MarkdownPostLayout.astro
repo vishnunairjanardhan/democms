@@ -1,44 +1,52 @@
 ---
 import BaseLayout3 from "./BaseLayout3.astro";
-const { frontmatter } = Astro.props;
 import { AstroSeo } from "@astrolib/seo";
 
-// Create JSON-LD schema object
-const blogPostSchema = {
+const { frontmatter } = Astro.props;
+
+// 🧠 Helper: Clean undefined/null keys
+const clean = (obj) => JSON.parse(JSON.stringify(obj, (k, v) => v ?? undefined));
+
+// ✅ Create structured data (JSON-LD)
+const blogPostSchema = clean({
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "mainEntityOfPage": {
+  mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": frontmatter.url || "https://www.99minds.io/blog"
+    "@id": frontmatter.url || "https://www.99minds.io/blog",
   },
-  "headline": frontmatter.title,
-  "description": frontmatter.description,
-  "image": frontmatter.image ? `https://www.99minds.io${frontmatter.image.url}` : undefined,
-  "author": {
+  headline: frontmatter.title,
+  description: frontmatter.description,
+  image: frontmatter.image
+    ? `https://www.99minds.io${frontmatter.image.url}`
+    : undefined,
+  author: {
     "@type": "Person",
-    "name": frontmatter.author,
+    name: frontmatter.author,
   },
-  "publisher": {
+  publisher: {
     "@type": "Organization",
-    "name": "99minds",
-    "logo": {
+    name: "99minds",
+    logo: {
       "@type": "ImageObject",
-      "url": "https://www.99minds.io/assets/logo.png" 
-    }
+      url: "https://www.99minds.io/assets/logo.png",
+    },
   },
-  "datePublished": new Date(frontmatter.pubDate).toISOString(),
-  "dateModified": new Date(frontmatter.pubDate).toISOString()
-};
+  datePublished: new Date(frontmatter.pubDate).toISOString(),
+  dateModified: new Date(frontmatter.pubDate).toISOString(),
+});
 
-const blogPostSchemaString = JSON.stringify(blogPostSchema);
+const blogPostSchemaString = JSON.stringify(blogPostSchema, null, 2);
 ---
 
 <head>
-  <meta name="keywords" content={frontmatter.keywords}>
-  <script type="application/ld+json" is:raw>{blogPostSchemaString}</script>
+  <!-- ✅ Proper JSON-LD injection -->
+  <meta name="keywords" content={frontmatter.keywords} />
+  <script type="application/ld+json" set:html={blogPostSchemaString}></script>
 </head>
 
 <BaseLayout3>
+  <!-- ✅ Astro SEO Component -->
   <AstroSeo
     title={frontmatter.title || ""}
     description={frontmatter.description || ""}
@@ -49,12 +57,14 @@ const blogPostSchemaString = JSON.stringify(blogPostSchema);
       description: frontmatter.openGraphDescription || frontmatter.description || "",
       images: [
         {
-          url: frontmatter.image ? "https://www.99minds.io" + frontmatter.image.url : "",
+          url: frontmatter.image
+            ? "https://www.99minds.io" + frontmatter.image.url
+            : "",
           width: 1200,
           height: 630,
           alt: frontmatter.image ? frontmatter.image.alt : "",
           type: "image/webp",
-        }
+        },
       ],
       site_name: "99minds",
     }}
@@ -65,22 +75,41 @@ const blogPostSchemaString = JSON.stringify(blogPostSchema);
     linkedin={{
       title: frontmatter.openGraphTitle || frontmatter.title || "",
       description: frontmatter.openGraphDescription || frontmatter.description || "",
-      image: frontmatter.image ? "https://www.99minds.io" + frontmatter.image.url : "",
+      image: frontmatter.image
+        ? "https://www.99minds.io" + frontmatter.image.url
+        : "",
       url: frontmatter?.url || "",
     }}
   />
 
+  <!-- ✅ Blog Header Section -->
   <section class="relative overflow-x-hidden bg-[#E0DCFC] px-6">
-    <div class="max-w-7xl md:px-12 relative lg:px-16 mx-auto pt-32 pb-24 lg:pt-48">
+    <div class="max-w-7xl md:px-12 lg:px-16 mx-auto pt-32 pb-24 lg:pt-48 relative">
       <div class="max-w-6xl">
-        <div class="lg:block hidden">
-          <div class="flex">
-            <div class="border h-10 w-10 inline-flex items-center rounded-lg border-vulcan-800 group hover:border-white duration-300">
-              <a href="/" class="text-sm text-vulcan-300 duration-300 group-hover: mx-auto" role="link" aria-label="home">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-#-2 w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> 
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> 
+        <!-- Breadcrumb Navigation -->
+        <div class="hidden lg:block">
+          <div class="flex items-center">
+            <div
+              class="border h-10 w-10 inline-flex items-center justify-center rounded-lg border-vulcan-800 group hover:border-white duration-300"
+            >
+              <a
+                href="/"
+                class="text-sm text-vulcan-300 duration-300 group-hover: mx-auto"
+                aria-label="home"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler w-5 h-5"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                   <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path>
-                  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path> 
+                  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path>
                   <path d="M10 12h4v4h-4z"></path>
                 </svg>
               </a>
@@ -93,60 +122,59 @@ const blogPostSchemaString = JSON.stringify(blogPostSchema);
             </div>
           </div>
         </div>
-        <h1 rel="preload" class="text-4xl mt-4 font-normal tracking-tighter">
+
+        <!-- Post Title -->
+        <h1 class="text-4xl mt-4 font-normal tracking-tighter">
           {frontmatter.heading}
         </h1>
+
+        <!-- Author & Tags -->
         <section class="relative overflow-x-hidden">
-          <div>
-            <div class="mt-4 max-w-6xl">
-              <div class="flex gap-x-4">
-                <div>
-                  <img rel="preload" src={`/assets/testimonial/${frontmatter.authorImg}`} alt="Author Image" class="w-auto h-12 rounded-full">
-                </div>
-                <div class="w-full">
-                  <div> 
-                    <p rel="preload" class="font-medium text-sm">{frontmatter.author}</p>
-                  </div>
-                  <div>
-                    <time
-                      class="flex text-vulcan-700 text-sm"
-                      datetime={new Date(frontmatter.pubDate).toISOString()}
-                    >
-                      {new Date(frontmatter.pubDate).toLocaleDateString(undefined, {
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric',
-                      })}
-                    </time>
-                  </div>
-                </div>
-              </div>              
-              <ul rel="preload" class="flex flex-wrap gap-2 mt-12">
-                {frontmatter.tags.map((tag) => (
-                  <li key={tag} class="flex items-center justify-center h-8 text-xs px-6 py-2 font-semibold transition-all border rounded-lg hover:text-vulcan-700 border-vulcan-700">
-                    <a href={`/tags/${tag}`}>
-                      {tag}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+          <div class="mt-4 max-w-6xl">
+            <div class="flex gap-x-4">
+              <img
+                src={`/assets/testimonial/${frontmatter.authorImg}`}
+                alt="Author Image"
+                class="w-auto h-12 rounded-full"
+              />
+              <div class="w-full">
+                <p class="font-medium text-sm">{frontmatter.author}</p>
+                <time
+                  class="flex text-vulcan-700 text-sm"
+                  datetime={new Date(frontmatter.pubDate).toISOString()}
+                >
+                  {new Date(frontmatter.pubDate).toLocaleDateString(undefined, {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                </time>
+              </div>
             </div>
+
+            <!-- Tags -->
+            <ul class="flex flex-wrap gap-2 mt-12">
+              {frontmatter.tags.map((tag) => (
+                <li
+                  key={tag}
+                  class="flex items-center justify-center h-8 text-xs px-6 py-2 font-semibold transition-all border rounded-lg hover:text-vulcan-700 border-vulcan-700"
+                >
+                  <a href={`/tags/${tag}`}>{tag}</a>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
       </div>
     </div>
   </section>
 
+  <!-- ✅ Blog Content Section -->
   <section class="relative px-6">
-    <div class="max-w-7xl md:px-12 relative lg:px-16 mx-auto py-10 lg:pt-10">
-      <div>
-        <div>
-          <div class="max-w-7xl prose prose-blockquote:border-l-white prose-a:text-black hover:prose-a:text-indigo-400 prose-headings:font-normal prose-headings:text-black prose-li:marker:text-black/70 prose-code:text-[18px] prose-blockquote:/70">
-            <slot />
-          </div>
-        </div>
+    <div class="max-w-7xl md:px-12 lg:px-16 mx-auto py-10 lg:pt-10">
+      <div class="max-w-7xl prose prose-headings:text-black prose-a:text-black hover:prose-a:text-indigo-400 prose-li:marker:text-black/70 prose-code:text-[18px] prose-blockquote:border-l-black/70">
+        <slot />
       </div>
     </div>
   </section>
-
 </BaseLayout3>
