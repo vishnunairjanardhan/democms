@@ -14,6 +14,8 @@ import IntegrationBigC from "../../components/integrations/IntegrationBigC.astro
 import IntegrationBcom from "../../components/integrations/IntegrationBcom.astro";
 //import CtaBigC from "../../components/ctas/CtaBigC.astro";
 import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
+import IntegrationSection from "../../components/heros/HeroInegrationEcom.jsx";
+import { bigcommerceConfig } from "../../config/HeroIntegration.jsx";
 
 
 import { AstroSeo } from "@astrolib/seo";
@@ -55,7 +57,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-  <HeroBigcommerce2 />
+  <IntegrationSection config={bigcommerceConfig} client:load  />
   <ClientLogoScroller />
   <FeatureBcom />
   <IntegrationBigC />

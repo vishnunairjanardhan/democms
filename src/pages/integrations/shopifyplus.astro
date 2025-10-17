@@ -14,6 +14,8 @@ import BcomRating from "../../components/Infopages/BcomRating.astro";
 import FeatureBcom1 from "../../components/features/FeatureBcom1.astro";
 import FeatureShopifyplus3 from "../../components/features/FeatureShopifyplus3.astro";
 import IntegrationShopifyplus from "../../components/integrations/IntegrationShopifyplus.astro";
+import IntegrationSection from "../../components/heros/HeroInegrationEcom.jsx";
+import { shopifyplusConfig } from "../../config/HeroIntegration.jsx";
 import { AstroSeo } from "@astrolib/seo";
 
 ---
@@ -52,7 +54,7 @@ import { AstroSeo } from "@astrolib/seo";
   <meta name="robots" content="noindex, nofollow">
 </head>
 <BaseLayout3>
-  <HeroShopifyPlus1 />
+  <IntegrationSection config={shopifyplusConfig} client:load  />
   <ClientLogoScroller />
   <FeatureShopifyplus1 />
   <ParentPage client:load/>

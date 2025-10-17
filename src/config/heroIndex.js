@@ -3,7 +3,7 @@ export const giftcardConfig = {
   highlight: "Gift Card Software",
   description:
     "The go-to gift card software solution for businesses to boost revenue, elevate customer experience, and enhance brand rapport.",
-  image: "/assets/BG.png",
+  image: "/assets/giftcard/container.webp",
 };
 
 export const storeCreditConfig = {
