@@ -1,6 +1,6 @@
 ---
 import BaseLayout3 from "../../layouts/BaseLayout3.astro";
-import HeroPaytronix from "../../components/heros/HeroPaytronix.astro"
+import HeroIntegration from "../../components/heros/HeroIntegration.jsx";
 import ClientLogoScroller from "../../components/testimonials/ClientLogoScroller.astro";
 import NewLogoCloud from "../../components/testimonials/NewLogoCloud.jsx";
 import FeaturePaytronix from "../../components/features/FeaturePaytronix.astro";
@@ -11,6 +11,10 @@ import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
 
 
 import { AstroSeo } from "@astrolib/seo";
+import { shift4PageConfig } from "../../config/heroConfig.js";
+
+const { seo, hero } = shift4PageConfig;
+
 ---
 
 <!---
@@ -41,7 +45,8 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
-  <HeroPaytronix />
+ <!-- ✅ Hero gets only its props -->
+  <HeroIntegration {...hero} client:load />
   <!--<LogoCloudOne />-->
    <ClientLogoScroller />
   <FeaturePaytronix />

@@ -392,3 +392,261 @@ export const hubspotPageConfig = {
     },
   },
 };
+
+export const stripePageConfig = {
+  seo: {
+    title: "99minds Integration with Stripe",
+    description:
+      "Explore the seamless integration of 99minds and Stripe to enhance your ecommerce experience with secure payment processing, real-time analytics, and customizable payment flows.",
+    canonical: "https://www.99minds.io/integrations/stripe",
+    openGraph: {
+      url: "https://www.99minds.io/integrations/stripe",
+      title: "99minds Integration with Stripe",
+      description:
+        "Explore the seamless integration of 99minds and Stripe to enhance your ecommerce experience with secure payment processing, real-time analytics, and customizable payment flows.",
+      images: [
+        {
+          src: "https://www.99minds.io/assets/99minds-stripe-OGI.svg",
+          alt: "99minds and Hubspot integration",
+          type: "image/svg",
+        },
+      ],
+      site_name: "99minds",
+    },
+    twitter: {
+      site: "@99minds_io",
+      cardType: "summary_large_image",
+    },
+  },
+
+  hero: {
+    logo: {
+      src: "/assets/stripe/99minds-Stripe.svg",
+      width: 474,
+      height: 145,
+      alt: "99minds integrates with Stripe",
+    },
+    heading: "99minds integrates with Stripe",
+    description:
+      "Stripe has partnered with 99minds to help you enhance your gift card and loyalty program experience and customer relations with reliable and secure payment solutions.",
+    cta: {
+      href: "https://giftcard.99minds.io/access/register",
+      label: "Connect to Stripe",
+    },
+  },
+};
+
+export const fiservPageConfig = {
+  seo: {
+    title: "99minds Integration with fiserv",
+    description:
+      "The complete rewards solution for restaurants with Fiserv . Boost sales with smart omnichannel loyalty, gift card and coupons.",
+    canonical: "https://www.99minds.io/integrations/fiserv",
+    openGraph: {
+      url: "https://www.99minds.io/integrations/fiserv",
+      title: "99minds Integration with fiserv",
+      description:
+        "The complete rewards solution for restaurants with Fiserv . Boost sales with smart omnichannel loyalty, gift card and coupons.",
+      images: [
+        {
+          src: "https://www.99minds.io/assets/99minds-fiserv-OGI.svg",
+          alt: "99minds and fiserv integration",
+          type: "image/svg",
+        },
+      ],
+      site_name: "99minds",
+    },
+    twitter: {
+      site: "@99minds_io",
+      cardType: "summary_large_image",
+    },
+  },
+
+  hero: {
+    logo: {
+      src: "/assets/fiserv/99minds-fiserv.svg",
+      width: 474,
+      height: 145,
+      alt: "99minds integrates with Fiserv",
+    },
+    heading: "99minds integrates with Fiserv",
+    description:
+      "99minds and Fiserv have teamed up to deliver a seamless payment and loyalty experience, enabling businesses to strengthen customer relationships with smart rewards and personalized service.",
+    cta: {
+      href: "https://giftcard.99minds.io/access/register",
+      label: "Connect to fiserv",
+    },
+  },
+};
+
+export const shift4PageConfig = {
+  seo: {
+    title: "99minds Integration with Shift4",
+    description:
+      "The complete rewards solution for restaurants with Shift4 . Boost sales with smart omnichannel loyalty, gift card and coupons.",
+    canonical: "https://www.99minds.io/integrations/shift4",
+    openGraph: {
+      url: "https://www.99minds.io/integrations/shift4",
+      title: "9minds integration with Shift4",
+      description:
+        "The complete rewards solution for restaurants with Shift4 . Boost sales with smart omnichannel loyalty, gift card and coupons.",
+      images: [
+        {
+          src: "https://www.99minds.io/assets/99minds-shifyt4-OGI.svg",
+          alt: "99minds and Shift4 integration",
+          type: "image/svg",
+        },
+      ],
+      site_name: "99minds",
+    },
+    twitter: {
+      site: "@99minds_io",
+      cardType: "summary_large_image",
+    },
+  },
+
+  hero: {
+    logo: {
+      src: "/assets/shift4/99minds-shift4.svg",
+      width: 474,
+      height: 145,
+      alt: "99minds integrates with Shift4",
+    },
+    heading: "99minds integrates with Shift4",
+    description:
+      "99minds and Shift4 have partnered to offer an integrated payment and loyalty solution, helping businesses enhance customer relationships through intelligent rewards and tailored service.",
+    cta: {
+      href: "https://giftcard.99minds.io/access/register",
+      label: "Connect to Shift4",
+    },
+  },
+};
+
+export const givexPageConfig = {
+  seo: {
+    title: "99minds integration with Givex",
+    description:
+      "99minds and Givex have partnered to deliver a seamless payment and loyalty solution, enabling businesses to strengthen customer connections with tailored rewards and personalized service.",
+    canonical: "https://www.99minds.io/integrations/givex",
+    openGraph: {
+      url: "https://www.99minds.io/integrations/givex",
+      title: "99minds integration with Givex",
+      description:
+        "99minds and Givex have partnered to deliver a seamless payment and loyalty solution, enabling businesses to strengthen customer connections with tailored rewards and personalized service.",
+      images: [
+        {
+          src: "https://www.99minds.io/assets/99minds-givex-OGI.svg",
+          alt: "99minds and Givex integration",
+          type: "image/svg",
+        },
+      ],
+      site_name: "99minds",
+    },
+    twitter: {
+      site: "@99minds_io",
+      cardType: "summary_large_image",
+    },
+  },
+
+  hero: {
+    logo: {
+      src: "/assets/givex/99minds-givex.svg",
+      width: 474,
+      height: 145,
+      alt: "99minds integrates with Givex",
+    },
+    heading: "99minds integrates with Givex",
+    description:
+      "99minds and Givex have partnered to deliver a seamless payment and loyalty solution, enabling businesses to strengthen customer connections with tailored rewards and personalized service.",
+    cta: {
+      href: "https://giftcard.99minds.io/access/register",
+      label: "Connect to Givex",
+    },
+  },
+};
+
+export const clutchPageConfig = {
+  seo: {
+    title: "99minds integration with Clutch",
+    description:
+      "The complete rewards solution for restaurants with Clutch. Boost sales with smart omnichannel loyalty, gift card and coupons.",
+    canonical: "https://www.99minds.io/integrations/clutch",
+    openGraph: {
+      url: "https://www.99minds.io/integrations/clutch",
+      title: "99minds integration with Clutch",
+      description:
+        "The complete rewards solution for restaurants with Clutch. Boost sales with smart omnichannel loyalty, gift card and coupons.",
+      images: [
+        {
+          src: "https://www.99minds.io/assets/99minds-clutch-OGI.svg",
+          alt: "99minds and Clutch integration",
+          type: "image/svg",
+        },
+      ],
+      site_name: "99minds",
+    },
+    twitter: {
+      site: "@99minds_io",
+      cardType: "summary_large_image",
+    },
+  },
+
+  hero: {
+    logo: {
+      src: "/assets/clutch/99minds-Clutch.svg",
+      width: 474,
+      height: 145,
+      alt: "99minds integrates with Clutch",
+    },
+    heading: "99minds integrates with Clutch",
+    description:
+      "99minds and Clutch have joined forces to create a unified payment and loyalty solution, empowering businesses to deepen customer relationships through customized rewards and personalized experiences.",
+    cta: {
+      href: "https://giftcard.99minds.io/access/register",
+      label: "Connect to Clutch",
+    },
+  },
+};
+
+export const paytronixPageConfig = {
+  seo: {
+    title: "99minds integration with Paytronix",
+    description:
+      "The complete rewards solution for restaurants with paytronix. Boost sales with smart omnichannel loyalty, gift card and coupons.",
+    canonical: "https://www.99minds.io/integrations/paytronix",
+    openGraph: {
+      url: "https://www.99minds.io/integrations/paytronix",
+      title: "99minds integration with Paytronix",
+      description:
+        "The complete rewards solution for restaurants with paytronix. Boost sales with smart omnichannel loyalty, gift card and coupons.",
+      images: [
+        {
+          src: "https://www.99minds.io/assets/99minds-clutch-OGI.svg",
+          alt: "99minds and Paytronix integration",
+          type: "image/svg",
+        },
+      ],
+      site_name: "99minds",
+    },
+    twitter: {
+      site: "@99minds_io",
+      cardType: "summary_large_image",
+    },
+  },
+
+  hero: {
+    logo: {
+      src: "/assets/paytronix/99minds-Paytronix.svg",
+      width: 474,
+      height: 145,
+      alt: "99minds and Paytronix Integration",
+    },
+    heading: "99minds and Paytronix Integration",
+    description:
+      "Paytronix has partnered with 99minds to help you build seamless gift card experience and customer relationships with smart loyalty and rewards for restaurants.",
+    cta: {
+      href: "https://giftcard.99minds.io/access/register",
+      label: "Connect to Paytronix",
+    },
+  },
+};

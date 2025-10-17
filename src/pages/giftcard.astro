@@ -14,6 +14,7 @@ import GiftcardHeroSection from "../components/features/GiftcardHeroSection.jsx"
 import { Seo } from "../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
 import LogoCarosel from "../components/testimonials/LogoCarousel.jsx";
+import GiftCardFeatures from "../components/features/GiftCardFeatures.jsx";
 ---
 
 
@@ -56,8 +57,8 @@ import LogoCarosel from "../components/testimonials/LogoCarousel.jsx";
   <ClientLogoScroller />
   <FeatureGiftcard />
   <FeatureSixGiftcard />
-  <!-- <GiftCardTab /> -->
-  <GiftCardTab1 />
+  <!-- <GiftCardTab1 /> -->
+  <GiftCardFeatures client:load />
   <TestimonialCarousel client:load/>
   <IntegrationsHome />
   <CtaThreeU />
