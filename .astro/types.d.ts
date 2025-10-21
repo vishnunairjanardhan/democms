@@ -1305,6 +1305,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"mobile-wallet-passes.md": {
+	id: "mobile-wallet-passes.md";
+  slug: "mobile-wallet-passes";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "moneyball-game-changer-for-everyone.md": {
 	id: "moneyball-game-changer-for-everyone.md";
   slug: "moneyball-game-changer-for-everyone";
