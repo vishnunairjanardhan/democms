@@ -1,0 +1,122 @@
+---
+import { getCollection } from "astro:content";
+import { AstroSeo } from "@astrolib/seo";
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
+import BlogWithSearch from "../../components/react/BlogWithSearch.jsx";
+import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
+import CaseStudyTabNew from "../../components/features/CaseStudyTabNew.astro";
+
+// ✅ Generate all static author pages
+export async function getStaticPaths() {
+  const allPosts = await getCollection("posts");
+
+  // Extract unique authors
+  const uniqueAuthors = [
+    ...new Set(allPosts.map((post) => post.data.author).filter(Boolean)),
+  ];
+
+  // Build params & filtered post lists for each author
+  return uniqueAuthors.map((author) => {
+    const filteredPosts = allPosts
+      .filter((post) => post.data.author === author)
+      .sort(
+        (a, b) =>
+          new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+      );
+
+    // Collect all unique tags used by this author's posts
+    const tags = [
+      ...new Set(filteredPosts.map((post) => post.data.tags).flat()),
+    ];
+
+    return {
+      params: { author },
+      props: { posts: filteredPosts, tags },
+    };
+  });
+}
+
+// ✅ Retrieve data from static paths
+const { author } = Astro.params;
+const { posts, tags } = Astro.props;
+
+// ✅ Metadata
+const authorName = author;
+const authorImg = posts[0]?.data.authorImg
+  ? `/assets/testimonial/${posts[0].data.authorImg}`
+  : "/assets/default-author.png";
+const pageTitle = `${authorName} - Author at 99minds Blog`;
+const pageDescription = `Explore all articles written by ${authorName} — discover insights, strategies, and ideas from the 99minds blog.`;
+const pageUrl = `https://www.99minds.io/author/${encodeURIComponent(author)}`;
+---
+
+<BaseLayout3>
+  <!-- ✅ SEO Metadata -->
+  <AstroSeo
+    title={pageTitle}
+    description={pageDescription}
+    canonical={pageUrl}
+    openGraph={{
+      url: pageUrl,
+      title: pageTitle,
+      description: pageDescription,
+      images: [
+        {
+          url: "/assets/99minds-logo1.svg",
+          alt: `${authorName} - 99minds Blog`,
+          type: "image/svg",
+        },
+      ],
+      site_name: "99minds",
+    }}
+    twitter={{
+      site: "@99minds_io",
+      cardType: "summary_large_image",
+    }}
+  />
+
+  <!-- ✅ Author Header -->
+  <section class="relative overflow-x-hidden bg-[#E0DCFC] px-6">
+    <div class="max-w-7xl md:px-12 lg:px-16 mx-auto pt-32 pb-20 lg:pt-48 text-center">
+      <img
+        src={authorImg}
+        alt={authorName}
+        class="mx-auto w-24 h-24 rounded-full object-cover border-4 border-white shadow-md"
+      />
+      <h1 class="mt-6 text-4xl font-normal tracking-tighter sm:text-5xl">
+        Articles by {authorName}
+      </h1>
+      <p class="mt-4 text-lg text-gray-700 max-w-2xl mx-auto">
+        Read all posts written by {authorName} — explore ideas, insights, and
+        resources from the 99minds blog.
+      </p>
+    </div>
+  </section>
+
+  <!-- ✅ Search + Tag Filter + Author Posts -->
+  <section>
+    <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-24 lg:py-[72px] relative">
+      {posts.length > 0 ? (
+        <>
+          <BlogWithSearch client:only="react" sortedPosts={posts} tags={tags} />
+          <CaseStudyTabNew />
+        </>
+      ) : (
+        <div class="text-center py-20">
+          <h2 class="text-2xl font-medium">No posts found for {authorName}</h2>
+          <p class="text-gray-600 mt-2">
+            Check back later for more content from this author.
+          </p>
+          <a
+            href="/blog"
+            class="mt-6 inline-block bg-vulcan-800 text-white px-6 py-3 rounded-md hover:bg-vulcan-700 transition-all"
+          >
+            Back to Blog
+          </a>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <CtaThree99minds />
+</BaseLayout3>
