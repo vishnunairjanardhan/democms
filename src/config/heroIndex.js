@@ -6,6 +6,7 @@ export const giftcardConfig = {
   image: "/assets/giftcard/container.webp",
 };
 
+
 export const storeCreditConfig = {
   title: "Retain Customer with Store Credit",
   highlight: "Store Credit",
@@ -44,4 +45,11 @@ export const automationConfig = {
   description:
     "Create and customize gift cards, store credit, and coupon marketing automation so that you can engage customers at every stage of their journey.",
   image: "/assets/automation/automationBanner1.webp",
+};
+
+export const membership = {
+  title: "Build a Membership Program That Keeps Customers Coming Back",
+  highlight: "Membership Program",
+  description: "Turn one-time buyers into loyal members with a program built to drive repeat purchases, boost engagement, and grow predictable revenue.",
+  image: "/assets/tab-component/Membership.png",
 };
