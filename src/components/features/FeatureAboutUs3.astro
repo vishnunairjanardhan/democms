@@ -4,13 +4,13 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
 
 <section class="relative border-t border-y border-black/5">
   <Verticalgrid />
-  <div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-24 space-y-6">
+  <div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-[72px]">
         
-          <div class="lg:flex gap-2 mt-10" role="button">
+          <div class="lg:flex gap-2" role="button">
               <div x-data="{ open: false }" class="flex justify-center"> 
              
     <div
-      class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+      class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:gap-24 items-center">
       <div class="sm:order-last  ">
         
         <h2 class="mt-8">
@@ -26,35 +26,8 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
         </p>
         <div class="lg:flex gap-2 mt-10" role="button">
               <div x-data="{ open: false }" class="flex justify-center">
-              <!-- Trigger -->
-              <span x-on:click="open = true">
-                <button type="button" role="button" aria-label="Get Started for Free" class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
-								<span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
-								<span class="relative text-white">Get Started for free</span> </span>
-							</button>
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" :aria-labelledby="$id('modal-title')" class="fixed inset-0 z-50 w-screen overflow-y-auto " aria-labelledby="modal-title-5">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-white rounded-3xl p-10 text-center">
-                      
-                    <iframe
-                      src="../GetStarted"
-                      width="100%"
-                      height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly"
-                    ></iframe>
-
-                      </form>
-                    </div>
-                  </div>
-                </div>
+               <a type="button" href="/Get-Started" target="_blank" role="button" aria-label="Get Started for Free" class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium"> <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400"> <span class="relative text-white">Get Started for free</span> </span> </a>
+                
               </div>
             </div>
       </div>
