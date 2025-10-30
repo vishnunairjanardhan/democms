@@ -8,7 +8,7 @@ const LogoCarousel = () => {
   return (
     <section className="border-y">
       <div className="relative max-w-7xl mx-auto lg:px-14 lg:py-14 py-8">
-        <p className="text-center mb-6">Trusted by teams at</p>
+        <p className="text-center mb-12">Trusted by teams at</p>
 
         <div className="relative overflow-hidden bg-white">
           {/* Fading Gradients */}

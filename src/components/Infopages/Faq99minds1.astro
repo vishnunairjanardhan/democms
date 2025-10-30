@@ -143,36 +143,6 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
         <div class="relative mx-auto border rounded-3xl border-white/5" x-data="{selected:null}">
 					<div class="relative mx-auto border rounded-3xl border-white/5" x-data="{ selected: null }">
       <ul class="list-none" role="list">
-        <!-- FAQ Item 1 -->
-        <li class="relative border-b border-black/10">
-          <button 
-            role="button" 
-            type="button" 
-            class="w-full lg:px-0 py-6 text-left"
-            @click="selected !== 5 ? selected = 5 : selected = null"
-          >
-            <div class="flex items-center justify-between text-white group">
-              <p class="w-4/5 duration-200 font-medium">Does 99minds integrate with other systems and applications?</p>
-              <svg 
-                :class="{'rotate-0': selected === 5, 'rotate-180': selected !== 5, 'custom-svg': true}" 
-                xmlns="http://www.w3.org/2000/svg" 
-                class="w-1/7 h-5 ml-4 transition-transform duration-200" 
-                viewBox="0 0 20 20" 
-                fill="Black"
-              >
-                <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"></path>
-              </svg>
-            </div>
-          </button>
-          <div 
-            class="relative overflow-hidden transition-all duration-700 max-h-0" 
-            x-ref="container5"
-            x-bind:style="selected === 5 ? 'max-height: ' + $refs.container5.scrollHeight + 'px' : ''"
-          >
-            <p class="lg:px-0 lg:mr-[12rem] pb-6 text-base text-[#475467]">Yes. There are 4 ways to integrate 99minds with your favorite tools:</br> 1. Custom Integrations with any software you need. Request a quote here.</br> 2. Native Integrations with Bigcommerce, Shopify, Heartland, Vend, Hike, Retail Pro, Retail Pro Prism, SquareUp POS, Miva, Cart.com and many more.</br> 3. Via API</br> 4. Via Zapier.</p>
-          </div>
-        </li>
-
         <!-- FAQ Item 2 -->
         <li class="relative border-b border-black/10">
           <button 

@@ -70,6 +70,11 @@ export default function TestimonialsCarousel({
             className="lg:p-8 border-t border-y border-white/5 transition-all duration-500"
             style={bgStyle}
           >
+            <div class="relative max-w-screen md:px-0 lg:px-0 mx-auto py-6">
+              <div class="max-w-2xl mx-auto text-center mb-2">
+                <h2 class="font-medium mb-4">Don’t Just Take Our Word For It <br /> Meet Our Brands.</h2>
+              </div>
+            </div>
             {/* Tab strip */}
             <div
             className="hidden lg:grid max-w-7xl px-4 lg:px-14 2xl:px-16 relative grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 items-center justify-center w-full h-auto mx-auto mt-10 text-[#303030] select-none"
