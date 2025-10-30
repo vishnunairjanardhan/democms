@@ -53,6 +53,7 @@ export default defineConfig({
     },
   },
   redirects: {
+    '/wallet': '/apple-google-wallet-pass',
     "/blog/gift-card/what-is-the-future-of-e-commerce-in-the-next-5-10-years/": "/blog/what-is-the-future-of-e-commerce-in-the-next-5-10-years/",
     "/blog/gift-card/what-is-an-ecommerce-gift-card-and-how-does-it-work/": "/blog/what-is-an-ecommerce-gift-card-and-how-does-it-work/",
     "/blog/ecommerce/the-efficiency-and-effectiveness-of-online-shopping/": "/blog/the-efficiency-and-effectiveness-of-online-shopping/",
