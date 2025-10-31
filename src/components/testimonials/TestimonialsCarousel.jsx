@@ -72,7 +72,8 @@ export default function TestimonialsCarousel({
           >
             <div class="relative max-w-screen md:px-0 lg:px-0 mx-auto py-6">
               <div class="max-w-2xl mx-auto text-center mb-2">
-                <h2 class="font-medium mb-4">Don’t Just Take Our Word For It <br /> Meet Our Brands.</h2>
+                <h2 class="font-medium mb-2">Customer Success Stories</h2>
+                <p class="font-medium">Don’t Just Take Our Word For It, Meet Our Brands.</p>
               </div>
             </div>
             {/* Tab strip */}
@@ -150,6 +151,11 @@ export default function TestimonialsCarousel({
                                         </div>
                                       </div>
                                     ))}
+                                  </div>
+                                  <div className="mx-4">
+                                    <a href= {s.href} className="text-sm md:text-base lg:text-lg font-medium text-black underline">
+                                      learn more
+                                    </a>
                                   </div>
                                 </div>
                                 {/* Right: image */}

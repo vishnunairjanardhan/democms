@@ -188,6 +188,7 @@ export const defaultSlides = [
       "linear-gradient(180deg, rgb(170,143,255) 0%, rgb(150.5,117.3,255) 100%)",
     imageSrc: "/assets/testimonial/mud-aus-t.webp",
     imageAlt: "Mud Australia store",
+    href: '/case-study/mudaustralia',
     metrics: [
       { value: "38%", label: "Increase Average Spend Over Gift Card Value" },
       { value: "Multi-Currency", label: "AUS $ USD $ GBP £" },
@@ -205,6 +206,7 @@ export const defaultSlides = [
       "linear-gradient(180deg, rgb(184,191,255) 0%, rgb(132.6,144.67,255) 100%)",
     imageSrc: "/assets/testimonial/Solstice-t.webp",
     imageAlt: "Solstice campaign",
+    href: '/case-study/solstice',
     metrics: [
       { value: "$640K", label: "In Sales due to Promotional Gift Cards" },
       { value: "45 Days", label: "Summer Promotion" },
@@ -222,6 +224,7 @@ export const defaultSlides = [
       "linear-gradient(180deg, rgb(147,213,225) 0%, rgb(107.32,197.57,213.98) 100%)",
     imageSrc: "/assets/testimonial/Natori-t.webp",
     imageAlt: "Natori product",
+    href: '/case-study/natori',
     metrics: [
       { value: "25%", label: "Increase in </br> Customer LTV" },
       { value: "Omnichannel", label: "Online and Instore" },
@@ -239,6 +242,7 @@ export const defaultSlides = [
       "linear-gradient(180deg, rgb(217,205,255) 0%, rgb(196.86,178.5,255) 100%)",
     imageSrc: "/assets/testimonial/Bestop-T1.webp",
     imageAlt: "Bestop promotion",
+    href: '/case-study/bestop',
     metrics: [
       { value: "$1.5M", label: "In Sales due to Gift Card Promotion" },
       { value: "60 Days", label: "Social Media promotion with Heather Storm" },
@@ -255,6 +259,7 @@ export const defaultSlides = [
     gradient: "linear-gradient(180deg, #DABDA9 0%, #CBA286 100%)",
     imageSrc: "/assets/testimonial/Calico-t.webp",
     imageAlt: "Calico loyalty",
+    href: '/case-study/calico',
     metrics: [
       { value: "25%", label: "Increase in </br> Customer LTV" },
       { value: "30%", label: "Increase in ARR" },
@@ -272,6 +277,7 @@ export const defaultSlides = [
       "linear-gradient(180deg, rgb(184,191,255) 0%, rgb(132.6,144.67,255) 100%)",
     imageSrc: "/assets/testimonial/tassels-t.webp",
     imageAlt: "Tassels loyalty",
+    href: '/case-study/tassels',
     metrics: [
       { value: "15%", label: "Increase in </br> Customer LTV" },
       { value: "20%", label: "Increase in ARR" },
