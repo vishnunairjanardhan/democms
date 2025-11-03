@@ -153,7 +153,7 @@ export default function TestimonialsCarousel({
                                     ))}
                                   </div>
                                   <div className="mx-4">
-                                    <a href= {s.href} className="text-sm md:text-base lg:text-lg font-medium text-black underline">
+                                    <a href= {s.href} className="text-sm md:text-base lg:text-lg font-medium text-blue underline">
                                       learn more
                                     </a>
                                   </div>
