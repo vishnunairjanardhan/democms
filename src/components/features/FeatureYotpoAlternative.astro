@@ -1,61 +1,57 @@
 ---
 import Verticalgrid from "../assets/Verticalgrid.astro";
 ---
-<section class="relative border-t border-y border-black/5">
-  <div class="hidden pt-2 lg:block">
-    <!-- Vertical grid (optional background or decorative) -->
-  </div>
-
-  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-24">
+<section class="relative bg-[#f9f9f9]">
+  <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-8 lg:py-[72px]">
     <div class="text-center max-w-4xl mx-auto">
       <h2 class="text-3xl font-normal tracking-tight text-balance text-black">
         Choose 99minds to Turn One Time Customer <br />into Repeat Customer
       </h2>
     </div>
 
-    <div class="grid grid-cols-1 mt-16 -mx-4 gap-y-10 sm:mx-auto lg:max-w-none md:grid-cols-2 lg:grid-cols-4 gap-x-10 lg:mx-8">
+    <div class="grid grid-cols-1 mt-10 mx-0 gap-y-10 sm:mx-auto lg:max-w-none md:grid-cols-2 lg:grid-cols-4 gap-x-10 lg:mx-8">
       <!-- Box 1 -->
-      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-2xl shadow-vulcan-350">
+      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-350">
         <div class="h-full p-8 bg-white rounded-3xl flex flex-col justify-between">
           <div class="text-indigo-400 text-center">
-            <p>+15%</p>
+            <p class="font-medium text-3xl">+15%</p>
           </div>
           <p class="mt-2 text-base text-center">Increase in Average Order Value (AOV)</p>
         </div>
       </div>
 
       <!-- Box 2 -->
-      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-2xl shadow-vulcan-350">
+      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-350">
         <div class="h-full p-8 bg-white rounded-3xl flex flex-col justify-between">
           <div class="text-indigo-400 text-center">
-            <p>3.5X</p>
+            <p class="font-medium text-3xl">3.5X</p>
           </div>
           <p class="mt-2 text-base text-center">Boost in Customer Lifetime Value (CLV)</p>
         </div>
       </div>
 
       <!-- Box 3 -->
-      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-2xl shadow-vulcan-350">
+      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-350">
         <div class="h-full p-8 bg-white rounded-3xl flex flex-col justify-between">
           <div class="text-indigo-400 text-center">
-            <p>60x</p>
+            <p class="font-medium text-3xl">60x</p>
           </div>
           <p class="text-base text-center">Return on <br> investment</p>
         </div>
       </div>
 
       <!-- Box 4 -->
-      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-2xl shadow-vulcan-350">
+      <div class="flex flex-col rounded-3xl p-[0.060rem] shadow-xl shadow-vulcan-350">
         <div class="h-full p-8 bg-white rounded-3xl flex flex-col justify-between">
           <div class="text-indigo-400 text-center">
-            <p>12,000+</p>
+            <p class="font-medium text-3xl">12,000+</p>
           </div>
           <p class="mt-2 text-base text-center">Businesses Growing with 99minds</p>
         </div>
       </div>
     </div>
 
-    <div class="flex gap-2 mt-20 justify-center">
+    <div class="flex gap-2 mt-10 justify-center">
       <div x-data="{ open: false }" class="flex">
         <a type="button" href="/Get-Started" role="button" aria-label="Get Started for Free" class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
             <span class="w-full h-full bg-black group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400">
