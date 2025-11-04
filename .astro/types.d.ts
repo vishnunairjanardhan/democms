@@ -752,6 +752,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"emotional-loyalty.md": {
+	id: "emotional-loyalty.md";
+  slug: "emotional-loyalty";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "employee-referral-program.md": {
 	id: "employee-referral-program.md";
   slug: "employee-referral-program";
@@ -1625,7 +1632,7 @@ declare module 'astro:content' {
   slug: "subscription-business-model";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "thanksgiving-marketing-ideas.md": {
 	id: "thanksgiving-marketing-ideas.md";

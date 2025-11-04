@@ -299,6 +299,7 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Ultra: "Yes",
     Premium: "Yes",
     Enterprise: "Yes",
+    info: "Allows you to issue, redeem, and track digital gift cards.",
   },
   {
     Column1: "Loyalty Page & Dashboard",

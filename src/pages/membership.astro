@@ -3,7 +3,6 @@ import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import { membership } from "../config/heroIndex.js";
 import HeroSection from "../components/heros/HeroSection.jsx";
 import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
-import FeatureMembership2 from "../components/features/FeatureMembership2.astro";
 import FeatureMembership1 from "../components/features/FeatureMembership1.astro";
 import FeatureMembership3 from "../components/features/FeatureMembership3.astro";
 import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
@@ -17,6 +16,8 @@ import { Seo } from "../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
 import LogoCarosel from "../components/testimonials/LogoCarousel.jsx";
 import GiftCardFeatures from "../components/features/GiftCardFeatures.jsx";
+import FeatureSection from "../components/features/FeatureSection.jsx";
+import memberRetentionConfig from "../config/memberRetentionConfig.js";
 ---
 
 
@@ -58,7 +59,7 @@ import GiftCardFeatures from "../components/features/GiftCardFeatures.jsx";
   <!--<LogoCarosel client:load/>-->
   <ClientLogoScroller />
   <FeatureMembership1 />
-  <FeatureMembership2 />
+  <FeatureSection {...memberRetentionConfig} />
   <!-- <GiftCardTab1 /> -->
   <TestimonialCarousel client:load/>
   <IntegrationsHome />
