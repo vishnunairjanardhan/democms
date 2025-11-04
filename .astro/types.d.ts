@@ -1625,7 +1625,7 @@ declare module 'astro:content' {
   slug: "subscription-business-model";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "thanksgiving-marketing-ideas.md": {
 	id: "thanksgiving-marketing-ideas.md";
