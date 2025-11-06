@@ -6,7 +6,7 @@ import FeatureCaseStudyNew2 from "../components/features/FeatureCaseStudyNew2.as
 import FeatureCaseStudyNew3 from "../components/features/FeatureCaseStudyNew3.astro";
 import CtaThreeU from "../components/ctas/CtaThreeU.astro";
 import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
-import TestimonialLite from "../components/testimonials/TestimonialLite.astro";
+import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
 
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -51,6 +51,6 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <FeatureCaseStudyNew2/> -->
   <!-- <Testimonialtry2/> -->
   <!--<TestimonialNew/> -->
-  <TestimonialLite/>
+  <TestimonialCarousel client:load/>
   <CtaThreeU/>
 </BaseLayout3>

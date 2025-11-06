@@ -67,13 +67,15 @@ export default function TestimonialsCarousel({
       <div className="relative mx-auto max-w-screen md:px-0 lg:px-0 lg:py-0">
         <div className="flex flex-col w-full lg:px-0">
           <section
-            className="lg:p-8 border-t border-y border-white/5 transition-all duration-500"
+            className="lg:p-8  transition-all duration-500"
             style={bgStyle}
           >
             <div class="relative max-w-screen md:px-0 lg:px-0 mx-auto py-6">
-              <div class="max-w-2xl mx-auto text-center mb-2">
-                <h2 class="font-medium mb-2">Customer Success Stories</h2>
-                <p class="font-medium">Don’t Just Take Our Word For It, Meet Our Brands.</p>
+              <div class="max-w-4xl mx-auto text-center mb-2">
+                <h2 class="text-3xl mb-2">Customer Success Stories</h2>
+                <p >Don’t Just Take Our Word For It, Meet Our Brands.
+                  <span class="text-[#6820EE] transition-colors duration-300 font-medium"> <a href="/case-study" target="_blanck" class="group inline-flex items-center"> All Customer Stories <svg class="ml-1 h-6 w-6 text-[#6820EE] transition-all duration-300 transform group-hover:translate-x-1" width="10" height="10" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z"></path> <line x1="5" y1="12" x2="19" y2="12"></line> <line x1="13" y1="18" x2="19" y2="12"></line> <line x1="13" y1="6" x2="19" y2="12"></line> </svg> </a></span>
+                </p>
               </div>
             </div>
             {/* Tab strip */}
@@ -152,10 +154,10 @@ export default function TestimonialsCarousel({
                                       </div>
                                     ))}
                                   </div>
-                                  <div className="mx-4">
-                                    <a href= {s.href} className="text-sm md:text-base lg:text-lg font-medium text-blue underline">
-                                      learn more
-                                    </a>
+                                  <div className="mx-4 mt-2">
+                                     <p>
+                                      <span class="text-[#6820EE] transition-colors duration-300 font-semibold"> <a href= {s.href} target="_blanck" class="group inline-flex items-center">Read Case Study<svg class="ml-1 h-6 w-6 text-[#6820EE] transition-all duration-300 transform group-hover:translate-x-1" width="10" height="10" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z"></path> <line x1="5" y1="12" x2="19" y2="12"></line> <line x1="13" y1="18" x2="19" y2="12"></line> <line x1="13" y1="6" x2="19" y2="12"></line> </svg> </a></span>
+                                    </p>
                                   </div>
                                 </div>
                                 {/* Right: image */}
