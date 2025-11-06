@@ -10,10 +10,12 @@ import FeatureNineYA from "../../components/features/FeatureNineYA.astro";
 import FeatureTenYA from "../../components/features/FeatureTenYA.astro";
 import FeatureElevenYA from "../../components/features/FeatureElevenYA.astro";
 import FeatureTwelveYA from "../../components/features/FeatureTwelveYA.astro";
-import TestimonialYotpo from "../../components/testimonials/TestimonialYotpo.astro";
+import TestimonialCarousel from "../../components/testimonials/TestimonialsCarousel.jsx";
 import CtaThreeU from "../../components/ctas/CtaThreeU.astro";
 import { Seo } from "../../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
+import FeatureSection from "../../components/features/FeatureSection.jsx";
+import yotpoFeaturesConfig from "../../config/featureConfig.js";
 ---
 
 <!---
@@ -54,12 +56,12 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <HeroYotpoAlternative />
   <ClientLogoScroller />
   <FeatureYotpoAlternative />
-   <FeatureSixYA />
+  <FeatureSection {...yotpoFeaturesConfig} />
    <FeatureYotpoA />
    <!-- <FeatureEightYA /> -->
    <FeatureNineYA />
    <FeatureTenYA />
-  <TestimonialYotpo />
+  <TestimonialCarousel client:load/>
   <!---<FeatureSixYA />--->
   <!---<FeatureElevenYA />--->
   <FeatureTwelveYA />

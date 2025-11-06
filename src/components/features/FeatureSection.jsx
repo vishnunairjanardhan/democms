@@ -5,11 +5,11 @@ export default function FeatureSection({ sectionTitle, features }) {
     <section className="relative bg-[#FEFCF5]">
       {/* Section Heading */}
       <div className="mx-auto lg:text-center px-8 lg:pt-[72px]">
-        <h2 className="font-medium">{sectionTitle}</h2>
+        <h2 className="">{sectionTitle}</h2>
       </div>
 
       {/* Feature Grid */}
-      <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-[72px] space-y-12 md:space-y-24">
+      <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-[72px]">
         {features.map((feature, i) => {
           const isRight = feature.orientation === "right";
 
@@ -26,7 +26,7 @@ export default function FeatureSection({ sectionTitle, features }) {
                   isRight ? "sm:order-last" : ""
                 } flex flex-col`}
               >
-                <h2 className="font-medium">{feature.title}</h2>
+                <h2 className="">{feature.title}</h2>
                 <p className="mt-4 text-[#4b4b4b]">{feature.description}</p>
               </div>
 

@@ -40,3 +40,4 @@ const membershipFeaturesConfig = {
 };
 
 export default membershipFeaturesConfig;
+
