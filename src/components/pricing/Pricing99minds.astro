@@ -113,12 +113,13 @@ import { Icon } from 'astro-icon/components';
                 <!-- FEATURE LIST WITH TOOLTIP -->
                 {TOP_PRODUCT_PRICE_LIST.map((feature) => (
                   <tr class="mt-6 text-base font-normal text-black border-b border-black/5 mx-auto" key={feature.Column1}>
-                    <th class="p-4 font-medium text-black relative group">
+                    <th class="p-4 font-medium text-black relative">
                       <div class="flex items-center justify-center space-x-1">
                         <span>{feature.Column1}</span>
                         {feature.info && (
-                          <span class="relative cursor-pointer">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4 text-gray-500 hover:text-black"
+                          <span class="relative cursor-pointer group">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                              class="inline w-4 h-4 text-gray-500 hover:text-black"
                               viewBox="0 0 20 20" fill="currentColor">
                               <path fill-rule="evenodd"
                                 d="M18 10A8 8 0 11 2 10a8 8 0 0116 0zm-8-3a1 1 0 10 0-2 1 1 0 000 2zm1 2a1 1 0 00-2 0v4a1 1 0 002 0v-4z"
@@ -162,7 +163,7 @@ import { Icon } from 'astro-icon/components';
         <div class="relative mx-auto rounded-3xl border-black/5 bg-white" x-data="{selected:null}">
           <button role="button" type="button" class="w-full px-8 pt-12 text-left"
             @click="selected !== 1 ? selected = 1 : selected = null">
-            <div class="flex text-black group">
+            <div class="flex text-black">
               <p class="text-base text-center font-semibold w-full duration-200 group-hover:text-vulcan-800">
                 Compare Price List
                 <svg :class="{'rotate-180': open, 'rotate-180': !open}"
@@ -186,11 +187,11 @@ import { Icon } from 'astro-icon/components';
                   {REMAINING_PRODUCT_PRICE_LIST.map((feature) => (
                     <tr class="mt-6 text-base font-semibold text-black border-b border-black/5 mx-auto text-center"
                       key={feature.Column1}>
-                      <th class="w-1/12 p-4 font-medium text-black relative group">
+                      <th class="w-1/12 p-4 font-medium text-black relative">
                         <div class="flex items-center justify-center space-x-1">
                           <span>{feature.Column1}</span>
                           {feature.info && (
-                            <span class="relative cursor-pointer">
+                            <span class="relative cursor-pointer group">
                               <svg xmlns="http://www.w3.org/2000/svg"
                                 class="inline w-4 h-4 text-gray-500 hover:text-black"
                                 viewBox="0 0 20 20" fill="currentColor">

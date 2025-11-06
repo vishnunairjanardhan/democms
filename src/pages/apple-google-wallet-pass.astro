@@ -24,6 +24,8 @@ import { Seo } from "../config/Seo";
 import { AstroSeo } from "@astrolib/seo";
 import WalletSlider from "../components/features/WalletSlider.astro";
 import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
+import PricingSection from "../components/pricing/PricingSection.jsx"; 
+import pricingConfig from "../config/WalletPricing.js"; 
 ---
 
 <!---
@@ -67,6 +69,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
 <WalletSlider/>
 <FeatureTabComp3/>
 <FeatureWalletFour/> 
+<PricingSection config={pricingConfig} client:load />
 <TestimonialCarousel client:load/>
 <!-- <TestimonialWallet /> -->
 <FeatureWalletEight />
