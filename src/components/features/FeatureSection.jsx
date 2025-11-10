@@ -28,6 +28,14 @@ export default function FeatureSection({ sectionTitle, features }) {
               >
                 <h2 className="">{feature.title}</h2>
                 <p className="mt-4 text-[#4b4b4b]">{feature.description}</p>
+
+                {feature.list && feature.list.length > 0 && (
+                  <ul className="mt-4 list-disc list-inside text-[#4b4b4b] space-y-2">
+                    {feature.list.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+                )}
               </div>
 
               {/* Image Section */}

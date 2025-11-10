@@ -17,51 +17,54 @@ import { AstroSeo } from "@astrolib/seo";
 import LogoCarosel from "../components/testimonials/LogoCarousel.jsx";
 import GiftCardFeatures from "../components/features/GiftCardFeatures.jsx";
 import FeatureSection from "../components/features/FeatureSection.jsx";
-import memberRetentionConfig from "../config/memberRetentionConfig.js";
+import { membershipFeaturesConfig, membershipHowItWorksConfig } from "../config/memberRetentionConfig.js";
+import FeatureWork from "../components/features/FeatureHowItWorks.jsx";
 ---
 
-
 <BaseLayout3>
-<AstroSeo
-  title="Best Gift Card Software - Easily Create Gift Card Programs"
-  description="99minds is a powerful, customizable gifting solution to help ecommerce, SMBs, & retailer merchants deliver a seamless omnichannel gift card experience. Try now; sign up for free!"
-  canonical="https://www.99minds.io/giftcard"
-  openGraph={{
-    url: "https://www.99minds.io/giftcard",
-    title: "Complete Gift Card Solution for All Businesses | 99minds",
-    description: "Discover the key features of our Gift Card Platform: 100's of beautiful themed cards, brand design uploads, customization and multi-channel delivery options.",
-    images: [
-      {
-        url: "https://www.99minds.io/assets/giftcard/giftcard-banner2.png",
-        alt: "99minds Gift Card",
-        type: "image/png",
-      }
-    ],
-    site_name: "99minds",
-  }}
-  twitter={{
-    url: "https://www.99minds.io/giftcard",
-    title: "Complete Gift Card Solution for All Businesses | 99minds",
-    description: "Discover the key features of our Gift Card Platform: 100's of beautiful themed cards, brand design uploads, customization and multi-channel delivery options.",
-    images: [
-      {
-        url: "https://www.99minds.io/assets/giftcard/giftcard-banner2.png",
-        alt: "99minds Gift Card",
-        type: "image/png",
-      }
-    ],
-    site: "@99minds_io",
-    cardType: "summary_large_image",
-  }}
-/>
+  <AstroSeo
+    title="Best Gift Card Software - Easily Create Gift Card Programs"
+    description="99minds is a powerful, customizable gifting solution to help ecommerce, SMBs, & retailer merchants deliver a seamless omnichannel gift card experience. Try now; sign up for free!"
+    canonical="https://www.99minds.io/giftcard"
+    openGraph={{
+      url: "https://www.99minds.io/giftcard",
+      title: "Complete Gift Card Solution for All Businesses | 99minds",
+      description: "Discover the key features of our Gift Card Platform: 100's of beautiful themed cards, brand design uploads, customization and multi-channel delivery options.",
+      images: [
+        {
+          url: "https://www.99minds.io/assets/giftcard/giftcard-banner2.png",
+          alt: "99minds Gift Card",
+          type: "image/png",
+        },
+      ],
+      site_name: "99minds",
+    }}
+    twitter={{
+      url: "https://www.99minds.io/giftcard",
+      title: "Complete Gift Card Solution for All Businesses | 99minds",
+      description: "Discover the key features of our Gift Card Platform: 100's of beautiful themed cards, brand design uploads, customization and multi-channel delivery options.",
+      images: [
+        {
+          url: "https://www.99minds.io/assets/giftcard/giftcard-banner2.png",
+          alt: "99minds Gift Card",
+          type: "image/png",
+        },
+      ],
+      site: "@99minds_io",
+      cardType: "summary_large_image",
+    }}
+  />
+
   <HeroSection {...membership} client:load />
-  <!-- <GiftcardHeroSection client:load/> -->
+  <!-- <GiftcardHeroSection client:load /> -->
   <!--<LogoCarosel client:load/>-->
   <ClientLogoScroller />
   <FeatureMembership1 />
-  <FeatureSection {...memberRetentionConfig} />
+  <FeatureWork {...membershipHowItWorksConfig} />
+  <FeatureSection {...membershipFeaturesConfig} />
+
   <!-- <GiftCardTab1 /> -->
-  <TestimonialCarousel client:load/>
+  <TestimonialCarousel client:load />
   <IntegrationsHome />
   <FeatureMembership3 />
   <FaqMembership />
