@@ -2,98 +2,106 @@
 import { getCollection } from "astro:content";
 import { AstroSeo } from "@astrolib/seo";
 import BaseLayout3 from "../../../layouts/BaseLayout3.astro";
-import BlogWithSearch from "../../../components/react/BlogWithSearch.jsx";
+import BlogWithSearch from "../../../components/react/AuthorBlogPage.jsx";
 import CtaThree99minds from "../../../components/ctas/CtaThree99minds.astro";
 import CaseStudyTabNew from "../../../components/features/CaseStudyTabNew.astro";
+import { authors } from "../../../config/authorConfig.js"; // ✅ import author config
 
-// ✅ Generate all static author pages
+// Generate static paths
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
+  const uniqueAuthors = [...new Set(allPosts.map((post) => post.data.author).filter(Boolean))];
 
-  // Extract unique authors
-  const uniqueAuthors = [
-    ...new Set(allPosts.map((post) => post.data.author).filter(Boolean)),
-  ];
-
-  // Build params & filtered post lists for each author
   return uniqueAuthors.map((author) => {
     const filteredPosts = allPosts
       .filter((post) => post.data.author === author)
-      .sort(
-        (a, b) =>
-          new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
-      );
+      .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
 
-    // Collect all unique tags used by this author's posts
-    const tags = [
-      ...new Set(filteredPosts.map((post) => post.data.tags).flat()),
-    ];
+    const tags = [...new Set(filteredPosts.map((post) => post.data.tags).flat())];
 
-    return {
-      params: { author },
-      props: { posts: filteredPosts, tags },
-    };
+    return { params: { author }, props: { posts: filteredPosts, tags } };
   });
 }
 
-// ✅ Retrieve data from static paths
 const { author } = Astro.params;
 const { posts, tags } = Astro.props;
 
-// ✅ Metadata
-const authorName = author;
-const authorImg = posts[0]?.data.authorImg
-  ? `/assets/testimonial/${posts[0].data.authorImg}`
-  : "/assets/default-author.png";
-const pageTitle = `${authorName} - Author at 99minds Blog`;
-const pageDescription = `Explore all articles written by ${authorName} — discover insights, strategies, and ideas from the 99minds blog.`;
+// Fetch author details from config
+const authorDetails = authors[author] || {};
+const authorImg = authorDetails.img ? `/assets/testimonial/${authorDetails.img}` : "/assets/default-author.png";
+const authorBio = authorDetails.bio || "";
+const authorDesignation = authorDetails.designation || "";
+const linkedinUrl = authorDetails.social?.linkedin;
+const twitterUrl = authorDetails.social?.twitter;
+
+const pageTitle = `${author} - Author at 99minds Blog`;
+const pageDescription = `Explore all articles written by ${author} — discover insights, strategies, and ideas from the 99minds blog.`;
 const pageUrl = `https://www.99minds.io/author/${encodeURIComponent(author)}`;
 ---
 
 <BaseLayout3>
-  <!-- ✅ SEO Metadata -->
   <AstroSeo
     title={pageTitle}
     description={pageDescription}
     canonical={pageUrl}
-    openGraph={{
-      url: pageUrl,
-      title: pageTitle,
-      description: pageDescription,
-      images: [
-        {
-          url: "/assets/99minds-logo1.svg",
-          alt: `${authorName} - 99minds Blog`,
-          type: "image/svg",
-        },
-      ],
-      site_name: "99minds",
-    }}
-    twitter={{
-      site: "@99minds_io",
-      cardType: "summary_large_image",
-    }}
   />
 
-  <!-- ✅ Author Header -->
+  <!-- Author Header -->
   <section class="relative overflow-x-hidden bg-[#E0DCFC] px-6">
     <div class="max-w-7xl md:px-12 lg:px-16 mx-auto pt-32 pb-20 lg:pt-48 text-center">
       <img
         src={authorImg}
-        alt={authorName}
+        alt={author}
         class="mx-auto w-24 h-24 rounded-full object-cover border-4 border-white shadow-md"
       />
       <h1 class="mt-6 text-4xl font-normal tracking-tighter sm:text-5xl">
-        Articles by {authorName}
+        Articles by {author}
       </h1>
-      <p class="mt-4 text-lg text-gray-700 max-w-2xl mx-auto">
-        Read all posts written by {authorName} — explore ideas, insights, and
-        resources from the 99minds blog.
-      </p>
+      {authorDesignation && <p class="text-lg text-gray-700">{authorDesignation}</p>}
+      {authorBio && <p class="mt-4 text-lg text-gray-700 max-w-2xl mx-auto">{authorBio}</p>}
+
+      <!-- ✅ Social Links -->
+      <div class="flex justify-center gap-6 mt-6">
+        {linkedinUrl && (
+          <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6 text-[#0A66C2] hover:text-[#004182] transition-colors"
+            >
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.762 2.239 5 5 5h14c2.761 
+              0 5-2.238 5-5v-14c0-2.761-2.239-5-5-5zm-11 
+              19h-3v-10h3v10zm-1.5-11.269c-.966 0-1.75-.784-1.75-1.75s.784-1.75 
+              1.75-1.75 1.75.784 1.75 1.75-.784 
+              1.75-1.75 1.75zm13.5 11.269h-3v-5.604c0-1.337-.027-3.059-1.865-3.059-1.865 
+              0-2.15 1.459-2.15 2.966v5.697h-3v-10h2.879v1.367h.041c.401-.761 
+              1.379-1.563 2.841-1.563 3.04 0 3.6 
+              2.003 3.6 4.609v5.587z" />
+            </svg>
+          </a>
+        )}
+
+        {twitterUrl && (
+          <a href={twitterUrl} target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6 text-black hover:text-gray-700 transition-colors"
+            >
+              <path d="M18.244 2H21.5l-7.67 8.773L22 22h-6.422l-5.036-6.129L4.812 
+              22H1.5l8.2-9.385L2 2h6.578l4.537 
+              5.63L18.244 2zm-1.07 18h1.183L7.887 
+              4h-1.27l10.558 16z"/>
+            </svg>
+          </a>
+        )}
+      </div>
     </div>
   </section>
 
-  <!-- ✅ Search + Tag Filter + Author Posts -->
+  <!-- Posts + Search + Tags -->
   <section>
     <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-24 lg:py-[72px] relative">
       {posts.length > 0 ? (
@@ -103,14 +111,8 @@ const pageUrl = `https://www.99minds.io/author/${encodeURIComponent(author)}`;
         </>
       ) : (
         <div class="text-center py-20">
-          <h2 class="text-2xl font-medium">No posts found for {authorName}</h2>
-          <p class="text-gray-600 mt-2">
-            Check back later for more content from this author.
-          </p>
-          <a
-            href="/blog"
-            class="mt-6 inline-block bg-vulcan-800 text-white px-6 py-3 rounded-md hover:bg-vulcan-700 transition-all"
-          >
+          <h2 class="text-2xl font-medium">No posts found for {author}</h2>
+          <a href="/blog" class="mt-6 inline-block bg-vulcan-800 text-white px-6 py-3 rounded-md hover:bg-vulcan-700 transition-all">
             Back to Blog
           </a>
         </div>
