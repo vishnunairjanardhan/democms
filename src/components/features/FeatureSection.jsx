@@ -5,11 +5,11 @@ export default function FeatureSection({ sectionTitle, features }) {
     <section className="relative bg-[#FEFCF5]">
       {/* Section Heading */}
       <div className="mx-auto lg:text-center px-8 lg:pt-[72px]">
-        <h2 className="">{sectionTitle}</h2>
+        <h2 className="font-medium">{sectionTitle}</h2>
       </div>
 
       {/* Feature Grid */}
-      <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-[72px]">
+      <div className="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:pb-[72px]">
         {features.map((feature, i) => {
           const isRight = feature.orientation === "right";
 
@@ -26,16 +26,40 @@ export default function FeatureSection({ sectionTitle, features }) {
                   isRight ? "sm:order-last" : ""
                 } flex flex-col`}
               >
-                <h2 className="">{feature.title}</h2>
-                <p className="mt-4 text-[#4b4b4b]">{feature.description}</p>
-
-                {feature.list && feature.list.length > 0 && (
-                  <ul className="mt-4 list-disc list-inside text-[#4b4b4b] space-y-2">
+                <p className="text-base font-medium text-[#6820EE] uppercase bg-clip-text">{feature.smallheading}</p>
+                <h2 className="py-4 font-medium">{feature.title}</h2>
+                <p className="text-[#4b4b4b]">{feature.description}</p>
+                  {feature.list && feature.list.length > 0 && (
+                  <ul className="mt-4 list-disc list-inside text-lg text-[#4b4b4b] space-y-2">
                     {feature.list.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
                   </ul>
                 )}
+                 <div class="lg:flex gap-2 mt-6" role="button">
+                <div x-data="{ open: false }" class="flex justify-start lg:justify-center">
+                  <span x-on:click="open = true">
+                      <a href="/Get-Started" target="_blank" type="button" role="button" aria-label="Get Started for Free"
+                        class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium">
+                        
+                        <span class="relative text-[#6820EE] text-lg transition-colors duration-300">
+                          Get started for free
+                        </span>
+
+                        <svg
+                          class="ml-3 h-5 w-5 text-[#6820EE] transition-all duration-300 transform group-hover:translate-x-1"
+                          width="16" height="16" viewBox="0 0 24 24"
+                          stroke-width="2" stroke="currentColor" fill="none"
+                          stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" />
+                          <line x1="5" y1="12" x2="19" y2="12" />
+                          <line x1="13" y1="18" x2="19" y2="12" />
+                          <line x1="13" y1="6" x2="19" y2="12" />
+                        </svg>
+                      </a>
+                    </span>
+                    </div>
+                  </div>             
               </div>
 
               {/* Image Section */}

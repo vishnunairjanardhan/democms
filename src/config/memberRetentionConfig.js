@@ -6,27 +6,30 @@ export const membershipFeaturesConfig = {
     "Empower your brand to retain, reward, and engage customers through seamless membership experiences.",
   features: [
     {
+      smallheading: "membership",
       title: "Flexible Membership Management",
       description:
         "Create and manage memberships effortlessly. Add or edit plans directly from the Membership tab. Define pricing, duration, and perks with complete control.",
-      img: "/assets/membership/custom_email_template.webp",
+      img: "/assets/membership/membership.webp",
       alt: "Flexible Membership Management",
       orientation: "right",
     },
     {
+      smallheading: "automate",
       title: "Automate Loyalty, Rewards & Renewals",
       description:
         "99minds automates renewals, reminders, and reward distribution so you can focus on marketing, not manual work.",
       list: [
-        "Auto-renew memberships: Keep your customers active effortlessly.",
-        "Smart reminders: Notify members before expiry or renewal.",
-        "Hands-free rewards: Send perks or store credits automatically.",
+        "Keep your customers active effortlessly.",
+        "Notify members before expiry or renewal.",
+        "Send perks or store credits automatically.",
       ],
-      img: "/assets/membership/multi_membership.webp",
+      img: "/assets/membership/automate.webp",
       alt: "Automate Loyalty, Rewards & Renewals",
       orientation: "left",
     },
     {
+      smallheading: "membership",
       title: "Combine Store Credit, Loyalty & Memberships in One System",
       description:
         "Give members more value in fewer clicks. Offer instant store credit, cashback, and tier-based perks under one unified platform, fully synced with your eCommerce and POS systems.",
@@ -35,15 +38,16 @@ export const membershipFeaturesConfig = {
       orientation: "right",
     },
     {
+      smallheading: "Google & Apple Wallet",
       title: "MemberPass with Google & Apple Wallet Integration",
       description:
         "Make memberships truly mobile-first. Customers can store their MemberPass directly in Google and Apple Wallet for instant access, and get push notifications about renewals, perks, and credits.",
       list: [
-        "Always accessible: Members view perks, balances, and tier info anytime.",
-        "Smart reminders: Send personalized notifications to customer's phones.",
-        "Mobile-first loyalty: Keep your brand top-of-mind and in their pocket."
+        "Members view perks, balances, and tier info anytime.",
+        "Send personalized notifications to customer's phones.",
+        "Keep your brand top-of-mind and in their pocket."
       ],
-      img: "/assets/membership/automated_workflow.webp",
+      img: "/assets/membership/wallet_pass.webp",
       alt: "MemberPass with Google & Apple Wallet Integration",
       orientation: "left",
     },
