@@ -1,0 +1,58 @@
+---
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
+import HeroPartnerprogram from "../components/heros/HeroPartnerprogram.astro";
+import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
+import FeaturePartnerprogram from "../components/features/FeaturePartnerprogram.astro";
+import FeaturePartnerprogram2 from "../components/features/FeaturePartnerprogram2.astro";
+import FeaturePartnerprogram3 from "../components/features/FeaturePartnerprogram3.astro";
+import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
+import CtaPartners from "../components/ctas/CtaPartners.astro";
+import CtaMulticurrency2 from "../components/ctas/CtaMulticurrency2.astro";
+import Integrations99minds2 from "../components/integrations/Integrations99minds2.astro";
+import { Seo } from "../config/Seo";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+
+<BaseLayout3>
+<AstroSeo
+  title="99minds | Multi-Currency Gift Card Solution for Shopify"
+  description="Explore the world’s first multi-currency gift card solution for Shopify. Sell and Redeem globally, reduce checkout friction, and unlock new revenue with 99minds."
+  canonical="https://www.99minds.io/multi-currency-gift-card"
+  openGraph={{
+    url: "https://www.99minds.io/multi-currency-gift-card",
+    title: "99minds | Multi-Currency Gift Card Solution for Shopify",
+    description: "Explore the world’s first multi-currency gift card solution for Shopify. Sell and Redeem globally, reduce checkout friction, and unlock new revenue with 99minds.",
+    images: [
+      {
+        url: "https://www.99minds.io//assets/multicurrency/multi_currency.webp",
+        alt: "Multicurrency Gift Card",
+        type: "image/webp",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/multi-currency-gift-card",
+    title: "99minds | Multi-Currency Gift Card Solution for Shopify",
+    description: "Explore the world’s first multi-currency gift card solution for Shopify. Sell and Redeem globally, reduce checkout friction, and unlock new revenue with 99minds.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/multicurrency/multi_currency.webp",
+        alt: "Multicurrency Gift Card",
+        type: "image/webp",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <HeroPartnerprogram />
+  <ClientLogoScroller />
+  <FeaturePartnerprogram />
+  <FeaturePartnerprogram2 />
+  <CtaPartners />
+  <FeaturePartnerprogram3 />
+  <!--<TestimonialNew />
+  <Integrations99minds2 />-->
+</BaseLayout3>

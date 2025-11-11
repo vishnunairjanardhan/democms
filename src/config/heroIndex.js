@@ -51,5 +51,5 @@ export const membership = {
   title: "Build a Membership Program That Keeps Customers Coming Back",
   highlight: "Membership Program",
   description: "Turn one-time buyers into loyal members with a program built to drive repeat purchases, boost engagement, and grow predictable revenue.",
-  image: "/assets/tab-component/Membership.png",
+  image: "/assets/membership/membership1.webp",
 };

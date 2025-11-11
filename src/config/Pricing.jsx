@@ -296,9 +296,10 @@ export const TOP_PRODUCT_PRICE_LIST = [
     Free: "No",
     Basic: "No",
     Pro: "No",
-    Ultra: "No",
+    Ultra: "Yes",
     Premium: "Yes",
     Enterprise: "Yes",
+    info: "There will be an additional charge for more than 1000 passes per month.",
   },
   {
     Column1: "Loyalty Page & Dashboard",
