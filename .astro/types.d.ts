@@ -1480,6 +1480,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"repeat-purchases.md": {
+	id: "repeat-purchases.md";
+  slug: "repeat-purchases";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "restaurant-loyalty-programs.md": {
 	id: "restaurant-loyalty-programs.md";
   slug: "restaurant-loyalty-programs";
@@ -1609,6 +1616,13 @@ declare module 'astro:content' {
 "small-business-ideas-for-valentines-day.md": {
 	id: "small-business-ideas-for-valentines-day.md";
   slug: "small-business-ideas-for-valentines-day";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"smile-io-alternatives.md": {
+	id: "smile-io-alternatives.md";
+  slug: "smile-io-alternatives";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
