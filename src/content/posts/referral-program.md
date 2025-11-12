@@ -173,6 +173,27 @@ Running referral contests and giveaways can create excitement and encourage part
 
 Collaborate with niche influencers to promote your referral program. Influencers have a strong fan base and can help you reach a larger audience. You can provide special referral codes or links to influencers, who can distribute them to their audience.
 
+<div class="w-full flex justify-center my-12 px-4">
+  <div class="w-full bg-gradient-to-br from-[#EDE7FF] to-[#D9CCFF] rounded-2xl shadow-lg p-12 text-center">
+    <h2 class="text-3xl font-semibold text-gray-900 leading-snug">
+      Powerful Integrations for Powerful Businesses
+    </h2>
+    <p class="text-gray-600 mt-3 text-lg">
+      Integrations for e-commerce and retail eco-system
+    </p>
+    <div class="flex justify-center gap-4 mt-10">
+      <a href="https://99mindsastrolite.netlify.app/integrations/"
+         class="px-6 py-3 font-semibold border border-gray-300 rounded-xl bg-white text-gray-800 hover:bg-gray-100">
+        Learn more
+      </a>
+      <button
+        class="px-6 py-3 font-semibold rounded-xl bg-[#7F56D9] text-white hover:bg-purple-700">
+        Get started
+      </button>
+    </div>
+  </div>
+</div>
+
 
 <h2 id="How-Does-a-Referral-Program-Work?">How Does a Referral Program Work?</h2>
 
