@@ -10,7 +10,7 @@ export default function FeatureWork({ sectionTitle, subTitle, features = [], cta
               </h2>
             )}
             {subTitle && (
-              <p className="mt-3 text-[#4b4b4b] max-w-md">{subTitle}</p>
+              <p className="mt-3 max-w-md">{subTitle}</p>
             )}
           </div>
 
@@ -21,7 +21,7 @@ export default function FeatureWork({ sectionTitle, subTitle, features = [], cta
                   <h4 className="font-semibold text-[#1c1335]">
                     {index + 1}. {feature.title}
                   </h4>
-                  <p className="mt-1 text-[#4b4b4b] text-sm leading-relaxed">
+                  <p className="mt-1  text-sm leading-relaxed">
                     {feature.description}
                   </p>
                 </div>
@@ -38,11 +38,11 @@ export default function FeatureWork({ sectionTitle, subTitle, features = [], cta
           )}
         </div>
 
-        <div className="flex justify-center lg:justify-end">
+        <div className="flex justify-center">
           <img
             src={cta?.img || "/assets/loyalty-demo.webp"}
             alt={cta?.alt || "Membership Program Workflow"}
-            className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-md"
+            className="w-full max-w-md lg:max-w-lg rounded-2xl"
             loading="lazy"
           />
         </div>

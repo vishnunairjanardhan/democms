@@ -33,7 +33,7 @@ export const membershipFeaturesConfig = {
       title: "Combine Store Credit, Loyalty & Memberships in One System",
       description:
         "Give members more value in fewer clicks. Offer instant store credit, cashback, and tier-based perks under one unified platform, fully synced with your eCommerce and POS systems.",
-      img: "/assets/membership/bulk_am.webp",
+      img: "/assets/membership/one_system.webp",
       alt: "Combine Store Credit, Loyalty & Memberships in One System",
       orientation: "right",
     },
@@ -67,7 +67,7 @@ export const membershipHowItWorksConfig = {
   cta: {
     text: "Get Started Today",
     link: "https://calendly.com/99minds/30min",
-    img: "/assets/loyalty/loyaltyreward.webp",
+    img: "/assets/membership/MP-work.webp",
     alt: "99minds Membership Flow Diagram",
   },
 };
