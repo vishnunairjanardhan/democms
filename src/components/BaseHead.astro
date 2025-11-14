@@ -93,37 +93,41 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
   fbq('track', 'PageView');
 </script>
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "99minds",
-  "legalName": "99minds Inc.",
-  "url": "https://www.99minds.io",
-  "logo": "https://www.99minds.io/logos/99minds-logo-b.svg",
-  "description": "99minds is a digital gift card and loyalty management platform for DTC and eCommerce brands.",
-   "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+1 917-727-4266",
-    "email": "support@99minds.io",
-    "contactType": "customer support",
-    "areaServed": "US",
-    "availableLanguage": ["English"]
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "750 Lexington Ave",
-    "addressLocality": "New York",
-    "postalCode": "10022"
-    "addressCountry": "US"
-  },
+  [{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "99minds.io",
+    "description": "99minds is an omnichannel gift card and loyalty management platform for DTC and eCommerce brands.",
+    "url": "https://www.99minds.io",
+    "logo": "https://www.99minds.io/logos/99minds-logo-b.svg",
+    "foundingDate": "2019-01-01",
+    "founder": [
+    {
+      "@type": "Person",
+      "name": "Pravin Kamble",
+      "sameAs": "https://www.linkedin.com/in/pravinkamble/"
+    },
+    {
+      "@type": "Person",
+      "name": "Mrudul Tarwatkar",
+      "sameAs": "https://www.linkedin.com/in/mrudult/"
+    }
+  ],
+    "address": [{
+      "@type": "PostalAddress",
+      "addressLocality": "New York",
+      "postalCode": "10022",
+      "streetAddress": "750 Lexington Ave, NY 10022, United States",
+      "addressCountry": "US"
+    }],
+    
 "sameAs": [
     "https://www.linkedin.com/company/loyalty-promotions-and-giftcard/",
     "https://www.youtube.com/@99mindsio",
     "https://x.com/99minds_io",
     "https://www.facebook.com/99minds.io/",
-    "https://www.99minds.io/"
-  ]
-}
+    "https://www.99minds.io/"]
+  }]
 </script>
 <noscript>
   <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=224706030671856&ev=PageView&noscript=1"/>
