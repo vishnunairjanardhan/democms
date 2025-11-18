@@ -18,7 +18,7 @@ export const membershipFeaturesConfig = {
       smallheading: "automate",
       title: "Automate Loyalty, Rewards & Renewals",
       description:
-        "99minds automates renewals, reminders, and reward distribution so you can focus on marketing, not manual work.",
+        "99minds automates reminders and reward distribution so you can focus on marketing, not manual work. Set it and forget it.",
       list: [
         "Keep your customers active effortlessly.",
         "Notify members before expiry or renewal.",
@@ -41,7 +41,7 @@ export const membershipFeaturesConfig = {
       smallheading: "Google & Apple Wallet",
       title: "MemberPass with Google & Apple Wallet Integration",
       description:
-        "Make memberships truly mobile-first. Customers can store their MemberPass directly in Google and Apple Wallet for instant access, and get push notifications about renewals, perks, and credits.",
+        "Make memberships truly mobile-first. Customers can store their MemberPass directly in Google and Apple Wallet for instant access, perks, and credits.",
       list: [
         "Members view perks, balances, and tier info anytime.",
         "Send personalized notifications to customer's phones.",
