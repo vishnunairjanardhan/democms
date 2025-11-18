@@ -1,6 +1,6 @@
 export default function FeatureWork({ sectionTitle, subTitle, features = [], cta }) {
   return (
-    <section className="relative py-16 lg:py-24">
+    <section className="relative py-16 lg:py-24 bg-[#f9f9f9]">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 px-8 md:px-12 lg:px-16 items-center">
         <div>
           <div className="mb-8">
