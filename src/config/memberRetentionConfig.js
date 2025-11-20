@@ -18,7 +18,7 @@ export const membershipFeaturesConfig = {
       smallheading: "automate",
       title: "Automate Loyalty, Rewards & Renewals",
       description:
-        "99minds automates renewals, reminders, and reward distribution so you can focus on marketing, not manual work.",
+        "99minds automates reminders and reward distribution so you can focus on marketing, not manual work. Set it and forget it.",
       list: [
         "Keep your customers active effortlessly.",
         "Notify members before expiry or renewal.",
@@ -33,7 +33,7 @@ export const membershipFeaturesConfig = {
       title: "Combine Store Credit, Loyalty & Memberships in One System",
       description:
         "Give members more value in fewer clicks. Offer instant store credit, cashback, and tier-based perks under one unified platform, fully synced with your eCommerce and POS systems.",
-      img: "/assets/membership/bulk_am.webp",
+      img: "/assets/membership/one_system.webp",
       alt: "Combine Store Credit, Loyalty & Memberships in One System",
       orientation: "right",
     },
@@ -41,7 +41,7 @@ export const membershipFeaturesConfig = {
       smallheading: "Google & Apple Wallet",
       title: "MemberPass with Google & Apple Wallet Integration",
       description:
-        "Make memberships truly mobile-first. Customers can store their MemberPass directly in Google and Apple Wallet for instant access, and get push notifications about renewals, perks, and credits.",
+        "Make memberships truly mobile-first. Customers can store their MemberPass directly in Google and Apple Wallet for instant access, perks, and credits.",
       list: [
         "Members view perks, balances, and tier info anytime.",
         "Send personalized notifications to customer's phones.",
@@ -67,7 +67,7 @@ export const membershipHowItWorksConfig = {
   cta: {
     text: "Get Started Today",
     link: "https://calendly.com/99minds/30min",
-    img: "/assets/loyalty/loyaltyreward.webp",
+    img: "/assets/membership/MP-work.webp",
     alt: "99minds Membership Flow Diagram",
   },
 };

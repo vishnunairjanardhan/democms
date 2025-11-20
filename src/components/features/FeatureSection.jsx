@@ -28,9 +28,9 @@ export default function FeatureSection({ sectionTitle, features }) {
               >
                 <p className="text-base font-medium text-[#6820EE] uppercase bg-clip-text">{feature.smallheading}</p>
                 <h2 className="py-4 font-medium">{feature.title}</h2>
-                <p className="text-[#4b4b4b]">{feature.description}</p>
+                <p className="">{feature.description}</p>
                   {feature.list && feature.list.length > 0 && (
-                  <ul className="mt-4 list-disc list-inside text-lg text-[#4b4b4b] space-y-2">
+                  <ul className="mt-4 list-disc list-inside text-lg  space-y-2">
                     {feature.list.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
@@ -67,7 +67,7 @@ export default function FeatureSection({ sectionTitle, features }) {
                 <img
                   alt={feature.alt}
                   src={feature.img}
-                  className="rounded-2xl shadow-vulcan-950/50 w-full"
+                  className="rounded-2xl shadow-vulcan-950/50 w-[550px]"
                   loading="lazy"
                 />
               </div>
