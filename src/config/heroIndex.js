@@ -8,11 +8,11 @@ export const giftcardConfig = {
 
 
 export const storeCreditConfig = {
-  title: "Retain Customer with Store Credit",
+  title: "Retain Customer with </br >Store Credit",
   highlight: "Store Credit",
   description:
     "Use store credit to manage returns, customer loyalty programs, promotional campaigns and more.",
-  image: "/assets/storecredit/store-credit.webp",
+  image: "/assets/storecredit/store_credit.webp",
 };
 
 export const loyaltyConfig = {
@@ -24,7 +24,7 @@ export const loyaltyConfig = {
 };
 
 export const couponConfig = {
-  title: "Powerful Coupon Generator",
+  title: "Powerful </br> Coupon Generator",
   highlight: "Coupon",
   description:
     "Bulk, Dynamic & Personalize coupons generation for your Store",
@@ -32,7 +32,7 @@ export const couponConfig = {
 };
 
 export const referralConfig = {
-  title: "Referral Solution that work for you",
+  title: "Referral Solution <br /> that work for you",
   highlight: "Referral",
   description:
     "Boost your organic sales by adding a customer referral program to your eCommerce & in-store",
