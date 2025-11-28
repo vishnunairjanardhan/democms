@@ -36,7 +36,7 @@ export const referralConfig = {
   highlight: "Referral",
   description:
     "Boost your organic sales by adding a customer referral program to your eCommerce & in-store",
-  image: "/assets/referral/referral-banner1.webp",
+  image: "/assets/referral/referral-banner.png",
 };
 
 export const automationConfig = {
