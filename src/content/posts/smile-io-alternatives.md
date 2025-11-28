@@ -1,5 +1,5 @@
 ---
-pubDate: 2025-10-24
+pubDate: 2025-11-04
 author: Piyush
 authorImg: "Piyush.webp"
 title: Top 11 Smile.io Alternatives & Competitors on Shopify (2025)
