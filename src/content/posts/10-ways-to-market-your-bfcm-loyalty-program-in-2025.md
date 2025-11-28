@@ -6,7 +6,7 @@ title: 10 Ways to Market Your BFCM Loyalty Program in 2025
 description: Boost your DTC sales this BFCM with 10 proven ways to market your loyalty program and drive repeat purchases, retention, and engagement.   
 heading: 10 Ways to Market Your BFCM Loyalty Program in 2025
 image:
-  url: "/assets/blog/ways-to-market-your-bfcm-loyalty-program-in-2025.webp"
+  url: "/assets/blog/10_ways_to_market_your_bfcm_loyalty_program_in_2025.webp"
   alt: "featured image for ways to market your bfcm loyalty program blog"
 tags: ["Referral Program"]
 url: "https://www.99minds.io/blog/referral-program"
@@ -32,7 +32,7 @@ keywords: ["referral program","referral programs","what is a referral program","
 </div>  
 
 <div class="w-full">
-<img rel="preload" role="img" src="/assets/blog/ways-to-market-your-bfcm-loyalty-program-in-2025.webp" alt="banner image of ways to market your bfcm loyalty program blog">
+<img rel="preload" role="img" src="/assets/blog/10_ways_to_market_your_bfcm_loyalty_program_in_2025.webp" alt="banner image of ways to market your bfcm loyalty program blog">
 
 Black Friday and Cyber Monday (BFCM) are among the busiest shopping days of the year, with U.S. consumers spending over <a href="https://statistics.blackfriday/2025-forecast/" role="link" target="_blanck">$10.8 billion</a> in 2024. Many DTC brands in the U.S. struggle to retain customers, as customer acquisition costs have been steadily rising. This makes <a href="https://www.99minds.io/blog/repeat-purchases" role="link" target="_blanck">repeat purchases</a> more valuable than ever.
 
