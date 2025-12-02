@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/10_ways_to_market_your_bfcm_loyalty_program_in_2025.webp"
   alt: "featured image for ways to market your bfcm loyalty program blog"
 tags: ["Referral Program"]
-url: "https://www.99minds.io/blog/referral-program"
+url: "https://www.99minds.io/blog/10-ways-to-market-your-bfcm-loyalty-program-in-2025"
 keywords: ["referral program","referral programs","what is a referral program","successful referral programs","how to build a referral program"]
 
 --- 

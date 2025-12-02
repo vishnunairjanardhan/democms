@@ -147,6 +147,8 @@ Its modular structure makes it ideal for DTC startups aiming to grow without hea
 
 **Pricing**: 99minds offers custom plans tailored to business size and usage needs. Pricing typically depends on order volume, feature requirements, and the number of stores connected. Up-to-date pricing information is available on the <a href="https://www.99minds.io/pricing" role="link" target="_blanck">99minds website</a>.
 
+<div class="flex justify-center w-full mt-0 mb-4"><div class="w-full"><div class="bg-[#AA8FFF40] rounded-2xl p-12 flex lg:flex-row flex-col justify-between items-center w-full"><div><h2 class="text-2xl font-semibold text-gray-900">Powerful Integrations for Powerful Businesses</h2><p class="text-gray-600 mt-2">Integrations for e-commerce and retail eco-system</p></div><div class="flex space-x-4"><button class="px-4 py-2 font-semibold border border-gray-300 rounded-lg text-gray-800 bg-[#FFFFFF] hover:bg-gray-100"><a href="https://99mindsastrolite.netlify.app/integrations/"> Learn more</a></button><button class="px-4 py-2 font-semibold bg-[#7F56D9] text-white rounded-lg hover:bg-purple-700">Get started</button></div></div></div></div>
+
 ### 2. Yotpo Loyalty & Referrals
 
 <div class="m-auto w-full lg:px-33">

@@ -479,13 +479,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"black-friday-cyber-monday-record-success .md": {
-	id: "black-friday-cyber-monday-record-success .md";
-  slug: "black-friday-cyber-monday-record-success-";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "black-friday-cyber-monday-record-success.md": {
 	id: "black-friday-cyber-monday-record-success.md";
   slug: "black-friday-cyber-monday-record-success";
