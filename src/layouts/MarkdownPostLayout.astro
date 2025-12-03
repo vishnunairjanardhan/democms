@@ -4,7 +4,8 @@ import { AstroSeo } from "@astrolib/seo";
 
 const { frontmatter } = Astro.props;
 
-const clean = (obj) => JSON.parse(JSON.stringify(obj, (k, v) => v ?? undefined));
+const clean = (obj) =>
+  JSON.parse(JSON.stringify(obj, (k, v) => (v === null || v === undefined ? undefined : v)));
 
 const blogPostSchema = clean({
   "@context": "https://schema.org",
@@ -15,9 +16,7 @@ const blogPostSchema = clean({
   },
   headline: frontmatter.title,
   description: frontmatter.description,
-  image: frontmatter.image
-    ? `https://www.99minds.io${frontmatter.image.url}`
-    : undefined,
+  image: frontmatter.image ? `https://www.99minds.io${frontmatter.image.url}` : undefined,
   author: {
     "@type": "Person",
     name: frontmatter.author,
@@ -63,42 +62,37 @@ const breadcrumbSchema = clean({
 });
 
 const breadcrumbSchemaString = JSON.stringify(breadcrumbSchema, null, 2);
-const articleSchema = {
+
+const articleSchema = clean({
   "@context": "https://schema.org",
   "@type": "Article",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": frontmatter.url || "https://www.99minds.io/"
+    "@id": frontmatter.url || "https://www.99minds.io/",
   },
   headline: frontmatter.title,
   description: frontmatter.description,
-  image: frontmatter.image
-    ? `https://www.99minds.io${frontmatter.image.url}`
-    : undefined,
+  image: frontmatter.image ? `https://www.99minds.io${frontmatter.image.url}` : undefined,
   author: {
     "@type": "Person",
     name: frontmatter.author,
     url:
       frontmatter.authorUrl ||
-      `https://www.99minds.io/assets/testimonial/${frontmatter.authorImg || ""}`
+      `https://www.99minds.io/assets/testimonial/${frontmatter.authorImg || ""}`,
   },
   publisher: {
     "@type": "Organization",
     name: "99minds",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.99minds.io/logos/99minds-logo-b.svg"
-    }
+      url: "https://www.99minds.io/logos/99minds-logo-b.svg",
+    },
   },
   datePublished: new Date(frontmatter.pubDate).toISOString(),
-  dateModified: new Date(frontmatter.pubDate).toISOString()
-};
+  dateModified: new Date(frontmatter.pubDate).toISOString(),
+});
 
-// Remove undefined values
-const clean = (obj) =>
-  JSON.parse(JSON.stringify(obj, (k, v) => (v === undefined ? undefined : v)));
-
-const articleSchemaString = JSON.stringify(clean(articleSchema), null, 2);
+const articleSchemaString = JSON.stringify(articleSchema, null, 2);
 ---
 
 <head>
@@ -107,7 +101,6 @@ const articleSchemaString = JSON.stringify(clean(articleSchema), null, 2);
   <script type="application/ld+json" set:html={blogPostSchemaString}></script>
   <script type="application/ld+json" set:html={breadcrumbSchemaString}></script>
   <script type="application/ld+json" set:html={articleSchemaString}></script>
-
 </head>
 
 <BaseLayout3>
