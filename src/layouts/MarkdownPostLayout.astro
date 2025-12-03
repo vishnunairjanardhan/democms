@@ -63,6 +63,42 @@ const breadcrumbSchema = clean({
 });
 
 const breadcrumbSchemaString = JSON.stringify(breadcrumbSchema, null, 2);
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": frontmatter.url || "https://www.99minds.io/"
+  },
+  headline: frontmatter.title,
+  description: frontmatter.description,
+  image: frontmatter.image
+    ? `https://www.99minds.io${frontmatter.image.url}`
+    : undefined,
+  author: {
+    "@type": "Person",
+    name: frontmatter.author,
+    url:
+      frontmatter.authorUrl ||
+      `https://www.99minds.io/assets/testimonial/${frontmatter.authorImg || ""}`
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "99minds",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://www.99minds.io/logos/99minds-logo-b.svg"
+    }
+  },
+  datePublished: new Date(frontmatter.pubDate).toISOString(),
+  dateModified: new Date(frontmatter.pubDate).toISOString()
+};
+
+// Remove undefined values
+const clean = (obj) =>
+  JSON.parse(JSON.stringify(obj, (k, v) => (v === undefined ? undefined : v)));
+
+const articleSchemaString = JSON.stringify(clean(articleSchema), null, 2);
 ---
 
 <head>
@@ -70,6 +106,8 @@ const breadcrumbSchemaString = JSON.stringify(breadcrumbSchema, null, 2);
   <meta name="keywords" content={frontmatter.keywords} />
   <script type="application/ld+json" set:html={blogPostSchemaString}></script>
   <script type="application/ld+json" set:html={breadcrumbSchemaString}></script>
+  <script type="application/ld+json" set:html={articleSchemaString}></script>
+
 </head>
 
 <BaseLayout3>
