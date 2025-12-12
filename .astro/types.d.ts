@@ -465,9 +465,23 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"best-gift-card-apps.md": {
+	id: "best-gift-card-apps.md";
+  slug: "best-gift-card-apps";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "best-mothers-day-gift-cards-2021.md": {
 	id: "best-mothers-day-gift-cards-2021.md";
   slug: "best-mothers-day-gift-cards-2021";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"best-shopify-store-credit-apps.md": {
+	id: "best-shopify-store-credit-apps.md";
+  slug: "best-shopify-store-credit-apps";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
