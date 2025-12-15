@@ -140,58 +140,30 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
           </div>
         </div>
       </div> */}
-      <div className="flex justify-center w-full mt-0 mb-4">
-        <div className="w-full">
-          <div className="bg-[#AA8FFF40] rounded-2xl p-12 flex lg:flex-row flex-col justify-between items-center w-full">
-            <div>
-              <h2 className="text-2xl font-semibold text-gray-900">
-                Powerful Integrations for Powerful Businesses
-              </h2>
-              <p className="text-gray-600 mt-2">
-                Integrations for e-commerce and retail eco-system
-              </p>
-            </div>
-            <div className="flex space-x-4">
-              <button className="px-4 py-2 font-semibold border border-gray-300 rounded-lg text-gray-800 bg-[#FFFFFF] hover:bg-gray-100">
-                <a href="https://99mindsastrolite.netlify.app/integrations/">
-                  {" "}
-                  Learn more
-                </a>
-              </button>
-              <button
-                onClick={() => setIsModalOpen(true)}
-                className="px-4 py-2 font-semibold bg-[#7F56D9] text-white rounded-lg hover:bg-purple-700"
-              >
-                Get started
-              </button>
-            </div>
-          </div>
-        </div>
+<div class="flex justify-center w-full mt-0 mb-4">
+  <div class="w-full">
+    <div class="bg-[#AA8FFF40] rounded-2xl p-12 flex flex-col justify-between items-center w-full">
+      <div class="text-center">
+        <h2 class="text-2xl font-semibold text-gray-900">
+          Powerful Integrations for Powerful Businesses
+        </h2>
+        <p class="text-gray-600 mt-2">
+          Integrations for e-commerce and retail eco-system
+        </p>
       </div>
-
-      {/* React Modal */}
-      {isModalOpen && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
-          onClick={() => setIsModalOpen(false)}
-        >
-          <div
-            className="relative w-full max-w-3xl shadow-2xl rounded-3xl p-[0.060rem]"
-            onClick={(e) => e.stopPropagation()} // Prevents closing when clicking inside modal
-          >
-            <div className="bg-white rounded-3xl p-10 text-center">
-              <iframe
-                src="../GetStarted"
-                width="100%"
-                height="600"
-                frameBorder="0"
-                allowFullScreen
-                title="Calendly"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      )}
+      <div class="flex space-x-4 mt-6 lg:mt-2">
+        <button class="px-4 py-2 font-semibold border border-gray-300 rounded-lg text-gray-800 bg-white hover:bg-gray-100">
+          <a href="/integrations" class="no-underline">
+            Learn more
+          </a>
+        </button>
+        <a href="/Get-Started" class="px-4 py-2 no-underline font-semibold bg-[#7F56D9] text-white rounded-lg hover:bg-purple-700">
+          Get started
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
       {/*Latest Blog */}
       <div class="py-4 border-t-2 border-vulcan-800 mt-8">

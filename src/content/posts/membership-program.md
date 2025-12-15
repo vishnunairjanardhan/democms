@@ -4,7 +4,7 @@ author: Piyush
 authorImg: "Piyush.webp"
 title: What is a Membership Program and Why it’s the Future of Customer Loyalty
 description: "A membership program is a system where customers gain access to exclusive perks or experiences, often in exchange for a recurring fee."
-heading: 12 Ways to Reduce Customer Acquisition Cost for DTC Brands
+heading: What is a Membership Program and Why it’s the Future of Customer Loyalty
 image:
   url: "/assets/blog/membership_program.webp"
   alt: "featured image for blog membership program" 
