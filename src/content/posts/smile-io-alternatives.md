@@ -147,13 +147,38 @@ Its modular structure makes it ideal for DTC startups aiming to grow without hea
 
 **Pricing**: 99minds offers custom plans tailored to business size and usage needs. Pricing typically depends on order volume, feature requirements, and the number of stores connected. Up-to-date pricing information is available on the <a href="https://www.99minds.io/pricing" role="link" target="_blanck">99minds website</a>.
 
+<div class="flex justify-center w-full mt-0 mb-4">
+  <div class="w-full">
+    <div class="bg-[#AA8FFF40] rounded-2xl px-12 flex flex-col justify-between items-center w-full">
+      <div class="text-center">
+        <h2 class="text-2xl font-semibold text-gray-900">
+          Transform Customer Retention with One Platform
+        </h2>
+        <p class="text-gray-600 mt-2">
+          Use 99minds to unify loyalty, gift cards, and  Automated Promotions, delivering a seamless omnichannel experience.
+        </p>
+      </div>
+      <div class="flex space-x-4 my-6 lg:mt-0">
+        <button class="px-4 py-2 font-semibold border border-gray-300 rounded-lg text-gray-800 bg-white hover:bg-gray-100">
+          <a href="https://calendly.com/99minds/30min" class="no-underline">
+            Book a Demo
+          </a>
+        </button>
+        <a href="/Get-Started" class="px-4 py-2 no-underline font-semibold bg-[#7F56D9] text-white rounded-lg hover:bg-purple-700">
+          Get started
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 ### 2. Yotpo Loyalty & Referrals
 
 <div class="m-auto w-full lg:px-33">
     <img loading="lazy" role="img" src="/assets/blog/yotpo-loyalty-.webp" alt="Yotpo loyalty and referral app">
 </div>
 
-<a href="" role="link" target="_blanck">Yotpo Loyalty & Referrals</a> is a strategic loyalty solution designed for brands that prioritize retention and customer advocacy. It integrates with Yotpo Reviews and SMSBump, creating a connected ecosystem of loyalty, social proof, and engagement.
+Yotpo Loyalty & Referrals is a strategic loyalty solution designed for brands that prioritize retention and customer advocacy. It integrates with Yotpo Reviews and SMSBump, creating a connected ecosystem of loyalty, social proof, and engagement.
 
 Some of the features of this Shopify loyalty app include:
 
@@ -171,7 +196,7 @@ Some of the features of this Shopify loyalty app include:
     <img loading="lazy" role="img" src="/assets/blog/loyaltylion.webp" alt="LoyaltyLion loyalty app">
 </div>
 
-<a href="https://loyaltylion.com/" role="link" target="_blanck">LoyaltyLion</a> is a data-driven loyalty platform for DTC brands that want deep customization and strong analytics. It helps brands create tier-based VIP programs, personalized incentives, and multi-channel engagement experiences.
+LoyaltyLion is a data-driven loyalty platform for DTC brands that want deep customization and strong analytics. It helps brands create tier-based VIP programs, personalized incentives, and multi-channel engagement experiences.
 
 Key features include:
 
@@ -189,7 +214,7 @@ Key features include:
     <img loading="lazy" role="img" src="/assets/blog/stamped-io.webp" alt="Stamped.io loyalty app">
 </div>
 
-<a href="http://Stamped.io" role="link" target="_blanck">Stamped.io</a> combines loyalty, reviews, and UGC in one platform, helping brands boost customer engagement and social proof simultaneously. It’s designed for brands that want to connect advocacy with retention.
+Stamped.io combines loyalty, reviews, and UGC in one platform, helping brands boost customer engagement and social proof simultaneously. It’s designed for brands that want to connect advocacy with retention.
 
 Some of its key features include:
 
@@ -207,7 +232,7 @@ Some of its key features include:
     <img loading="lazy" role="img" src="/assets/blog/rivo-loyalty.webp" alt="Rivo loyalty app">
 </div>
 
-<a href="https://www.rivo.io/" role="link" target="_blanck">Rivo</a> is a Shopify-native loyalty and referral app built for simplicity and performance. It’s perfect for growing DTC brands that want an intuitive setup and clean user interface without technical complexity.
+Rivo is a Shopify-native loyalty and referral app built for simplicity and performance. It’s perfect for growing DTC brands that want an intuitive setup and clean user interface without technical complexity.
 
 Some of the features include:
 
@@ -225,7 +250,7 @@ Some of the features include:
     <img loading="lazy" role="img" src="/assets/blog/growave-loyalty.webp" alt="Growave loyalty app">
 </div>
 
-<a href="https://www.growave.io/" role="link" target="_blanck">Growave</a> is an all-in-one customer engagement suite for Shopify that includes loyalty, reviews, wishlists, and social login. It’s designed for DTC brands that want to build community-driven retention without juggling multiple apps.
+Growave is an all-in-one customer engagement suite for Shopify that includes loyalty, reviews, wishlists, and social login. It’s designed for DTC brands that want to build community-driven retention without juggling multiple apps.
 
 Some of the features of this Shopify customer loyalty app include:
 
@@ -243,7 +268,7 @@ Some of the features of this Shopify customer loyalty app include:
     <img loading="lazy" role="img" src="/assets/blog/bon-loyalty.webp" alt="Bon loyalty app">
 </div>
 
-<a href="https://bonloyalty.com/" role="link" target="_blanck">BON Loyalty</a> offers a budget-friendly loyalty and rewards system for small to mid-sized Shopify brands. It provides customizable features with a strong focus on branding and user experience.
+BON Loyalty offers a budget-friendly loyalty and rewards system for small to mid-sized Shopify brands. It provides customizable features with a strong focus on branding and user experience.
 
 Some of the features include:
 
@@ -261,7 +286,7 @@ Some of the features include:
     <img loading="lazy" role="img" src="/assets/blog/marsello-loyalty.webp" alt="Marsello loyalty app">
 </div>
 
-<a href="https://www.marsello.com/customer-loyalty" role="link" target="_blanck">Marsello</a> is an omnichannel loyalty and marketing automation platform that connects loyalty data with email and SMS campaigns. It’s best for DTC brands that want to unify marketing and retention under one tool.
+Marsello is an omnichannel loyalty and marketing automation platform that connects loyalty data with email and SMS campaigns. It’s best for DTC brands that want to unify marketing and retention under one tool.
 
 Key features include:
 
@@ -279,7 +304,7 @@ Key features include:
     <img loading="lazy" role="img" src="/assets/blog/okendo-loyalty.webp" alt="Okendo loyalty app">
 </div>
 
-<a href="https://okendo.io/" role="link" target="_blanck">Okendo</a> is best known for reviews and user-generated content, but it now includes integrated loyalty and rewards tools. It’s ideal for brands focused on building trust and community while encouraging repeat purchases.
+Okendo is best known for reviews and user-generated content, but it now includes integrated loyalty and rewards tools. It’s ideal for brands focused on building trust and community while encouraging repeat purchases.
 
 Some of the features include:
 
@@ -297,7 +322,7 @@ Some of the features include:
     <img loading="lazy" role="img" src="/assets/blog/voucherify.webp" alt="Voucherify loyalty app">
 </div>
 
-<a href="https://www.voucherify.io/" role="link" target="_blanck">Voucherify</a> is a developer-friendly promotion and loyalty API platform that allows brands to run highly customized campaigns. It’s ideal for tech-driven DTC brands needing control over loyalty logic and automation.
+Voucherify is a developer-friendly promotion and loyalty API platform that allows brands to run highly customized campaigns. It’s ideal for tech-driven DTC brands needing control over loyalty logic and automation.
 
 Some of the features include:
 
@@ -315,7 +340,7 @@ Some of the features include:
     <img loading="lazy" role="img" src="/assets/blog/rise-ai-loyalty.webp" alt="Rise.ai loyalty app">
 </div>
 
-<a href="http://Rise.ai" role="link" target="_blanck">Rise.ai</a> focuses on gift card, store credit, and loyalty management for Shopify brands. It’s especially strong for DTC brands with physical retail or gifting-focused strategies.
+Rise.ai focuses on gift card, store credit, and loyalty management for Shopify brands. It’s especially strong for DTC brands with physical retail or gifting-focused strategies.
 
 Some of the standout features include:
 
