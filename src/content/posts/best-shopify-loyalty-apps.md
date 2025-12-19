@@ -1,5 +1,5 @@
 ---
-pubDate: 2025-19-12
+pubDate: 2025-12-19
 author: Piyush
 authorImg: "Piyush.webp"
 title: "12 Best Shopify Loyalty Apps for 2026"
