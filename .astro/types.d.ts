@@ -479,6 +479,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"best-shopify-loyalty-apps.md": {
+	id: "best-shopify-loyalty-apps.md";
+  slug: "best-shopify-loyalty-apps";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "best-shopify-store-credit-apps.md": {
 	id: "best-shopify-store-credit-apps.md";
   slug: "best-shopify-store-credit-apps";
@@ -1623,13 +1630,6 @@ declare module 'astro:content' {
 "shopify-gift-card.md": {
 	id: "shopify-gift-card.md";
   slug: "shopify-gift-card";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"shopify-loyalty-app.md": {
-	id: "shopify-loyalty-app.md";
-  slug: "shopify-loyalty-app";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
