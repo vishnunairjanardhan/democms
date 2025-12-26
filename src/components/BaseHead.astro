@@ -4,7 +4,7 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 ---
 
 <!-- Google Tag Manager -->
-<script>
+<script is:inline>
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -19,25 +19,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   type="text/javascript"
   src="https://app.termly.io/resource-blocker/d9663863-bfd6-4088-bd75-e9f13af491e1?autoBlock=on"
   defer
-></script> -->
-
-<!-- 
-// { !!GA_ID &&
-//   <>
-//     <script
-//       type="text/partytown"
-//       src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-//       defer
-//       async
-//     ></script>
-//     <script type="text/partytown">
-//       window.dataLayer = window.dataLayer || [];
-//       function gtag() { dataLayer.push(arguments); }
-//       gtag("js", new Date());
-//       gtag("config", GA_ID);
-//     </script>
-//   </>
-// } -->
+></script>
 
 <!-- Meta Tags -->
 <meta charset="utf-8" />
@@ -73,7 +55,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
 <!-- Facebook Pixel Code -->
-<script>
+<script is:inline>
   !function(f,b,e,v,n,t,s) {
     if(f.fbq) return;
     n=f.fbq=function() { n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments) };
