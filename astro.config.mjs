@@ -32,12 +32,13 @@ export default defineConfig({
       },
     }),
     mdx(),
-    partytown({
-    // Adds dataLayer.push as a forwarding-event.
-    config: {
-      forward: ["dataLayer.push"],
-    },
-  })],
+  //   partytown({
+  //   // Adds dataLayer.push as a forwarding-event.
+  //   config: {
+  //     forward: ["dataLayer.push"],
+  //   },
+  // })
+],
   vite: {
     plugins: [compression(), visualizer()],
     build: {
@@ -48,9 +49,9 @@ export default defineConfig({
         },
       },
     },
-    optimizeDeps: {
-      include: ['@astrojs/partytown'],
-    },
+    // optimizeDeps: {
+    //   include: ['@astrojs/partytown'],
+    // },
   },
   redirects: {
     '/wallet': '/apple-google-wallet-pass',
