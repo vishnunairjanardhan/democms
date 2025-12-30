@@ -11,6 +11,19 @@ import FooterAdd from "../components/global/FooterAdd.astro";
   </head>
 
   <body class="bg-white">
+    <!-- ===============================
+      Google Tag Manager (PAGEVIEW)
+    =============================== -->
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+
+      window.addEventListener("load", () => {
+        window.dataLayer.push({
+          event: "pageview",
+          page_path: window.location.pathname,
+        });
+      });
+    </script>
 
     <!-- ===============================
       Google Tag Manager (noscript)
@@ -54,26 +67,32 @@ import FooterAdd from "../components/global/FooterAdd.astro";
     </script>
 
     <!-- ===============================
-      Intercom (LOAD AFTER PAGE + GTM)
+      Intercom (LOAD AFTER PAGE)
     =============================== -->
-    <script>
+    <script is:inline>
       window.intercomSettings = { app_id: "usxp4hif" };
 
       window.addEventListener("load", function () {
-        (function(){
-          var w=window;var ic=w.Intercom;
-          if(typeof ic==="function"){
-            ic('reattach_activator');
-            ic('update',intercomSettings);
+        (function () {
+          var w = window;
+          var ic = w.Intercom;
+          if (typeof ic === "function") {
+            ic("reattach_activator");
+            ic("update", intercomSettings);
           } else {
-            var d=document;
-            var i=function(){i.c(arguments)};
-            i.q=[];i.c=function(args){i.q.push(args)};
-            w.Intercom=i;
-            var s=d.createElement('script');
-            s.type='text/javascript';
-            s.async=true;
-            s.src='https://widget.intercom.io/widget/usxp4hif';
+            var d = document;
+            var i = function () {
+              i.c(arguments);
+            };
+            i.q = [];
+            i.c = function (args) {
+              i.q.push(args);
+            };
+            w.Intercom = i;
+            var s = d.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://widget.intercom.io/widget/usxp4hif";
             d.body.appendChild(s);
           }
         })();
@@ -81,7 +100,7 @@ import FooterAdd from "../components/global/FooterAdd.astro";
     </script>
 
     <!-- ===============================
-      Vanilla Tilt (SAFE INIT)
+      Vanilla Tilt
     =============================== -->
     <script
       defer
@@ -90,7 +109,7 @@ import FooterAdd from "../components/global/FooterAdd.astro";
       referrerpolicy="no-referrer">
     </script>
 
-    <script>
+    <script is:inline>
       document.addEventListener("DOMContentLoaded", () => {
         if (window.VanillaTilt) {
           VanillaTilt.init(document.querySelectorAll(".tilt-card"), {
@@ -101,6 +120,5 @@ import FooterAdd from "../components/global/FooterAdd.astro";
         }
       });
     </script>
-
   </body>
 </html>
