@@ -8,7 +8,7 @@ heading: 8 Best Store Credit apps for Shopify in 2026
 image:
   url: "/assets/blog/8_best_store_credit_apps_for_shopify_in_2026.webp"
   alt: "featured image for blog Shopify Store Credit apps"
-tags: ["Store Credit", "Shopify"] 
+tags: ["Store Credit"] 
 url: "https://www.99minds.io/blog/best-shopify-store-credit-apps"
 keywords: ["Shopify Store Credit apps"]
 ---
