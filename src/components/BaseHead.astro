@@ -3,17 +3,22 @@ import "../styles/global.css";
 const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 ---
 
+<!-- Initialize dataLayer -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+    </script>
+
 <!-- Google Tag Manager -->
-<script>
-  (function(w,d,s,l,i){
-    w[l]=w[l]||[];
-    w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-    var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
-    j.async=true;
-    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-    f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-WWJJGX6');
+<script is:inline>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WWJJGX6');
 </script>
+<!-- End Google Tag Manager -->
+
 
 <!-- Consent Script -->
 <script
@@ -56,7 +61,7 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
 <!-- Facebook Pixel Code -->
-<script>
+<script is:inline>
   !function(f,b,e,v,n,t,s) {
     if(f.fbq) return;
     n=f.fbq=function() { n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments) };
@@ -114,3 +119,12 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 <noscript>
   <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=224706030671856&ev=PageView&noscript=1"/>
 </noscript>
+<script>
+  document.addEventListener("astro:page-load", () => {
+    dataLayer.push({
+      event: "pageview",
+      page_path: window.location.pathname,
+    });
+  });
+</script>
+<link rel="preload" as="image" href="/hero.webp" fetchpriority="high">
