@@ -31,13 +31,8 @@ export default defineConfig({
         return item;
       },
     }),
-    mdx(),
-    partytown({
-    // Adds dataLayer.push as a forwarding-event.
-    config: {
-      forward: ["dataLayer.push"],
-    },
-  })],
+    mdx()
+  ],
   vite: {
     plugins: [compression(), visualizer()],
     build: {
@@ -47,9 +42,6 @@ export default defineConfig({
           drop_console: true,
         },
       },
-    },
-    optimizeDeps: {
-      include: ['@astrojs/partytown'],
     },
   },
   redirects: {

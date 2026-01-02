@@ -22,24 +22,6 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
   defer
 ></script>
 
-<!-- Google Analytics -->
-{ !!GA_ID &&
-  <>
-    <script
-      type="text/partytown"
-      src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-      defer
-      async
-    ></script>
-    <script type="text/partytown">
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag("js", new Date());
-      gtag("config", GA_ID);
-    </script>
-  </>
-}
-
 <!-- Meta Tags -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
