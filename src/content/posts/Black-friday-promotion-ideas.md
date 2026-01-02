@@ -4,7 +4,7 @@ author: Piyush
 authorImg: "Piyush.webp"
 title: "20 Black Friday Marketing Ideas to Increase Sales in 2025"
 description: "Make your Black Friday and Cyber Monday campaigns stand out with our comprehensive guide featuring 20 creative Black Friday promotion ideas."
-heading: 20 Irresistible Black Friday Promotion Ideas to Stand Out in 2025
+heading: 20 Irresistible Black Friday Promotion Ideas to Stand Out in 2024
 image:
   url: "/assets/blog/black_friday_marketing_ideas.webp"
   alt: "featured image for Black Friday Promotion Ideas"
