@@ -5,7 +5,6 @@ import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import compression from 'vite-plugin-compression';
 import visualizer from 'rollup-plugin-visualizer';
-import partytown from "@astrojs/partytown";
 import icon from "astro-icon";
 
 export default defineConfig({
