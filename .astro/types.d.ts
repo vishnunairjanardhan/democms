@@ -1081,6 +1081,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"how-to-create-membership-program.md": {
+	id: "how-to-create-membership-program.md";
+  slug: "how-to-create-membership-program";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "how-to-drive-customer-loyalty-during-a-global-recession.md": {
 	id: "how-to-drive-customer-loyalty-during-a-global-recession.md";
   slug: "how-to-drive-customer-loyalty-during-a-global-recession";
@@ -1941,6 +1948,13 @@ declare module 'astro:content' {
   body: string;
   collection: "posts";
   data: any
+} & { render(): Render[".md"] };
+"yotpo-alternatives.md": {
+	id: "yotpo-alternatives.md";
+  slug: "yotpo-alternatives";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 };
 

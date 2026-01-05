@@ -6,9 +6,9 @@ title: The 8 Most Creative Holiday Marketing Campaigns for 2024
 description: Discover the 8 most creative holiday marketing campaigns for 2024. Get inspired to boost brand engagement and sales this festive season!
 heading: The 8 Most Creative Holiday Marketing Campaigns for 2024
 image:
-  url: "/assets/blog/the_8_most_creative_holiday_marketing_campaigns_for_2024.webp"
-  alt: "The 8 Most Creative Holiday Marketing Campaigns for 2024."
-tags: ["Gift Card"]
+  url: "/assets/blog/8_creative_holiday_marketing_campaigns_for_2025.webp"
+  alt: "The 8 Most Creative Holiday Marketing Campaigns for 2025."
+tags: ["Promotion"]
 url: "https://www.99minds.io/blog/holiday-marketing-campaigns"
 keywords: ["holiday marketing campaigns"]
 
