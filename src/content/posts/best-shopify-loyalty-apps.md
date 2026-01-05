@@ -20,7 +20,7 @@ keywords: ["Shopify loyalty apps"]
     <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
 <ul class="pl-0 text-base list-none">
   <li class="hover:bg-gray-100 lg:mt-4">   
-    <a role="link" href="#1" rel="noreferrer">Comparison Table: Shopify Loyalty Apps 2026</a>
+    <a role="link" href="#1" rel="noreferrer">Comparison Table: Best Shopify Loyalty Apps 2026</a>
   </li>  
   <li class="hover:bg-gray-100 lg:mt-4">   
     <a role="link" href="#2" rel="noreferrer">12 Best Loyalty Apps for Shopify in 2026</a>
@@ -43,7 +43,7 @@ As competition grows across ecommerce and physical retail, focusing only on cust
 
 That’s where Shopify loyalty apps come in. From points and referrals to omnichannel rewards, store credit, and VIP tiers, the right loyalty app can turn one-time shoppers into loyal, repeat customers. 
 
-<h2 id="1">Comparison Table: Shopify Loyalty Apps 2026</h2>
+<h2 id="1">Comparison Table: Best Shopify Loyalty Apps 2026</h2>
 
 <table>
   <thead>

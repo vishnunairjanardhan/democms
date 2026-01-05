@@ -1949,6 +1949,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"yotpo-alternatives.md": {
+	id: "yotpo-alternatives.md";
+  slug: "yotpo-alternatives";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 };
 
 	};

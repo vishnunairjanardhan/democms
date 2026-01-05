@@ -8,7 +8,7 @@ heading: 8 Creative Holiday Marketing Campaigns for 2025
 image:
   url: "/assets/blog/8_creative_holiday_marketing_campaigns_for_2025.webp"
   alt: "The 8 Most Creative Holiday Marketing Campaigns for 2025."
-tags: ["Gift Card"]
+tags: ["Promotion"]
 url: "https://www.99minds.io/blog/holiday-marketing-campaigns"
 keywords: ["holiday marketing campaigns"]
 
