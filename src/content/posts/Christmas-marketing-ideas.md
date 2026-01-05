@@ -15,7 +15,6 @@ keywords: ["Christmas marketing ideas", "marketing ideas Christmas", "marketing 
 
 ---
 
-
 <div class="lg:flex lg:gap-6">
   <!-- Table of content section -->
   <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
