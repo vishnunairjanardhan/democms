@@ -8,7 +8,7 @@ heading: What is a Membership Program and Why it’s the Future of Customer Loya
 image:
   url: "/assets/blog/membership_program.webp"
   alt: "featured image for blog membership program" 
-tags: ["Loyalty Program"] 
+tags: ["Membership Program"] 
 url: "https://www.99minds.io/blog/membership-program"
 keywords: ["Membership Program"]
 ---
