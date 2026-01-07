@@ -1,14 +1,15 @@
 ---
 import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import HeroNRF from "../components/heros/HeroNRF.astro";
-import FeatureFive_NewHome from "../components/features/FeatureFive_NewHome.astro";
-import FeatureSix from "../components/features/FeatureSix.astro";
+import AboutNRF from "../components/Infopages/AboutNRF.astro";
+import FeatureNRF2 from "../components/features/FeatureNRF2.astro";
 import FeatureTen from "../components/features/FeatureTen.astro";
 import Pricing99minds from "../components/pricing/Pricing99minds.astro";
 import Faq99minds1 from "../components/Infopages/Faq99minds1.astro";
 import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
 import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
-import FeatureWalletEight from "../components/features/FeatureWalletEight.astro";
+import FeatureNRF from "../components/features/FeatureNRF.astro";
+import FeatureNRF1 from "../components/features/FeatureNRF1.astro";
 import { AstroSeo } from "@astrolib/seo";
 import { Seo } from "../config/Seo.jsx";
 import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
@@ -37,12 +38,10 @@ Use AstroSeo in all the pages you want different Seo than the index page
 />
 <BaseLayout3>
   <HeroNRF/>
-  <ClientLogoScroller />
-  <FeatureSix />
-  <FeatureFive_NewHome />
-  <FeatureTen />
-  <TestimonialCarousel client:load/>
-  <FeatureWalletEight />
-  <!--<Pricing99minds />-->
-  <Faq99minds1 />
+  <!--<ClientLogoScroller />-->
+  
+  <FeatureNRF />
+  <FeatureNRF2 />
+  <AboutNRF />
+  <FeatureNRF1 />
 </BaseLayout3>
