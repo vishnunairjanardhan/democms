@@ -479,6 +479,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"best-shopify-loyalty-apps.md": {
+	id: "best-shopify-loyalty-apps.md";
+  slug: "best-shopify-loyalty-apps";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "best-shopify-store-credit-apps.md": {
 	id: "best-shopify-store-credit-apps.md";
   slug: "best-shopify-store-credit-apps";
@@ -1086,7 +1093,7 @@ declare module 'astro:content' {
   slug: "how-to-create-membership-program";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "how-to-drive-customer-loyalty-during-a-global-recession.md": {
 	id: "how-to-drive-customer-loyalty-during-a-global-recession.md";
@@ -1954,7 +1961,7 @@ declare module 'astro:content' {
   slug: "yotpo-alternatives";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 };
 
