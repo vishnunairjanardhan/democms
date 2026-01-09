@@ -5,6 +5,8 @@ import Navigation from "../components/global/Navigation.astro";
 import ContactWidget from "../components/forms/ContactWidget.astro";
 import FooterAdd from "../components/global/FooterAdd.astro";
 import HalloweenOverlay from '../components/HalloweenOverlay.astro';
+import HeroSection from "../components/shadcn-studio/blocks/hero-section-38/hero-section-38.tsx";
+import HeroIntroModal from "../components/HeroIntroModal.tsx";
 ---
 
 <html lang="en" class="scroll-smooth selection:bg-indigo-500 selection:text-white">
@@ -23,6 +25,7 @@ import HalloweenOverlay from '../components/HalloweenOverlay.astro';
     </noscript>
     <Navigation />
     <!-- <ContactWidget /> -->
+     <HeroIntroModal client:load />
     <slot />
     <FooterAdd />
 
