@@ -1,0 +1,65 @@
+---
+import Verticalgrid from "../assets/Verticalgrid.astro";
+import Blurgradientleft from "../assets/Blurgradientleft.astro";
+import BookDemoButton from "../buttons/bookDemoButton";
+
+---
+
+<section>
+   <div className="relative max-w-7xl px-0 md:px-12 lg:px-16 mx-auto py-6 lg:py-6">
+        <section className="text-center pt-20 lg:pt-28">
+          <div class="flex items-center justify-center bg-vulcan-900">
+            <iframe class="" 
+              aria-hidden="true"
+                src="https://www.youtube.com/embed/RmjXFKJjuk4?enablejsapi=1&rel=0&playsinline=1" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen 
+                    width="1432" 
+                    height="640" 
+                    id="youtube-video" style="margin-top: 80px";>
+            </iframe>
+          </div>
+      
+      <script>
+        const tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        document.head.appendChild(tag);
+      
+        let player;
+      
+        function onYouTubeIframeAPIReady() {
+          player = new YT.Player('youtube-video', {
+            events: {
+              'onReady': onPlayerReady
+            }
+          });
+        }
+      
+        function onPlayerReady(event) {
+      
+          const videoElement = document.getElementById('youtube-video');
+      
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (entry.intersectionRatio >= 0.5) {
+                player.unMute();  // Unmute when visible
+                player.playVideo();
+              } else {
+                player.mute(); // Mute when not visible
+                player.pauseVideo();
+              }
+            });
+          }, { threshold: [0.5] });
+      
+          observer.observe(videoElement);
+        }
+      
+        // Set a fallback in case YouTube API takes time to load
+        if (!window.YT) {
+          window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+        }
+      </script>
+   
+</section>
