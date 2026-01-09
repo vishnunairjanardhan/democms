@@ -19,10 +19,6 @@ export default function HeroSectionAmi() {
                   <span>⚡</span>
                   Supercharge Your Promotions
                 </span>
-                {/* <span className="text-yellow-400 text-base">⚡</span>
-                <span className="text-[#111827] text-sm font-medium">
-                  Supercharge Your Promotions
-                </span> */}
               </div>
 
               {/* Heading */}
@@ -64,9 +60,10 @@ export default function HeroSectionAmi() {
 
               {/* Subtitle */}
               <p className="text-[18px] leading-[1.6] text-[#6B7280] max-w-[520px]">
-                Build, connect, and automate your promotions effortlessly with an intelligent agent
-                designed to think, act, and deliver results. Get a glimpse of it at NRF 2026, and sign up
-                for early access!
+                Build, connect, and automate your promotions effortlessly with
+                an intelligent agent designed to think, act, and deliver
+                results. Get a glimpse of it at NRF 2026, and sign up for early
+                access!
               </p>
 
               {/* CTA Buttons */}
@@ -77,14 +74,6 @@ export default function HeroSectionAmi() {
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </div>
                 </Button>
-                {/* <Button
-                  variant="outline"
-                  className="border-[#E5E7EB] bg-[#E8E4F6] hover:bg-[#E8E4F6]/90 text-[#374151] px-6 py-2.5 rounded-md  text-sm font-medium cursor-pointer"
-                >
-                  <div className="flex flex-row items-center w-full px-6">
-                    Watch Demo
-                  </div>
-                </Button> */}
               </div>
 
               <span
@@ -241,7 +230,7 @@ export default function HeroSectionAmi() {
               {/* Promotional Cards */}
               <div className="inline-flex flex-col space-y-3 z-10">
                 {/* Time Specific Card */}
-                <div className="inline-flex flex-col gap-2.5 flex-wrap bg-[#F8F8F8] border border-[#474857]/50 rounded-xl px-3 py-2.5 max-w-[305px]">
+                <div className="inline-flex flex-col gap-2.5 flex-wrap bg-[#F8F8F8] border border-[#474857]/50 rounded-xl px-3 py-2.5 max-w-[345px]">
                   <span className="border bg-pink-600 text-white px-2 py-0.5 inline-flex items-center gap-1 text-sm font-medium rounded-full self-start">
                     Celebration Sale
                   </span>
@@ -265,7 +254,7 @@ export default function HeroSectionAmi() {
                 </div>
 
                 {/* Combo Offer Card */}
-                <div className="inline-flex flex-col gap-2.5 flex-wrap bg-[#F8F8F8] border border-[#474857]/50 rounded-xl px-3 py-2.5 max-w-[305px]">
+                <div className="inline-flex flex-col gap-2.5 flex-wrap bg-[#F8F8F8] border border-[#474857]/50 rounded-xl px-3 py-2.5 max-w-[345px]">
                   <span className="border bg-pink-600 text-white px-2 py-0.5 inline-flex items-center gap-1 text-sm font-medium rounded-full self-start">
                     Combo Offer
                   </span>
@@ -289,7 +278,7 @@ export default function HeroSectionAmi() {
                 </div>
 
                 {/* Fitness Exclusive Card */}
-                <div className="inline-flex flex-col gap-2.5 flex-wrap bg-[#F8F8F8] border border-[#474857]/50 rounded-xl px-3 py-2.5 max-w-[305px]">
+                <div className="inline-flex flex-col gap-2.5 flex-wrap bg-[#F8F8F8] border border-[#474857]/50 rounded-xl px-3 py-2.5 max-w-[345px]">
                   <span className="border bg-yellow-300 text-neutral-950 px-2 py-0.5 inline-flex items-center gap-1 text-sm font-medium rounded-full self-start">
                     Fitness Exclusive
                   </span>
@@ -318,7 +307,8 @@ export default function HeroSectionAmi() {
                   Smarter promotion suggestions
                 </h3>
                 <p className="text-muted-foreground text-sm leading-[1.5] max-w-[320px]">
-                  AI-powered and data-driven promotion recommendations for what to upsell. No more guesswork. 
+                  AI-powered and data-driven promotion recommendations for what
+                  to upsell. No more guesswork.
                 </p>
               </div>
             </div>

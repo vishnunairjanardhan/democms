@@ -1,25 +1,25 @@
-import { useEffect, useState } from 'react'
-import HeroSectionAmi from '../components/hero-section-ami.tsx'
+import { useEffect, useState } from "react";
+import HeroSectionAmi from "../components/hero-section-ami.tsx";
 
-const STORAGE_KEY = 'hero_intro_seen'
+const STORAGE_KEY = "hero_intro_seen";
 
 const HeroIntroModal = () => {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(true);
 
   useEffect(() => {
-    const hasSeen = localStorage.getItem(STORAGE_KEY)
+    const hasSeen = localStorage.getItem(STORAGE_KEY);
 
     if (!hasSeen) {
-      setOpen(true)
-      localStorage.setItem(STORAGE_KEY, 'true')
+      setOpen(true);
+      localStorage.setItem(STORAGE_KEY, "true");
     }
-  }, [])
+  }, []);
 
-  if (!open) return null
+  if (!open) return null;
 
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/70 backdrop-blur-sm">
-      <div className="relative h-full w-full max-w-[1600px] overflow-hidden bg-white">
+      <div className="relative min-h-[400px] max-h-screen w-full max-w-[1600px] overflow-hidden bg-white overflow-scroll">
         {/* Close Button */}
         <button
           onClick={() => setOpen(false)}
@@ -32,7 +32,7 @@ const HeroIntroModal = () => {
         <HeroSectionAmi />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HeroIntroModal
+export default HeroIntroModal;
