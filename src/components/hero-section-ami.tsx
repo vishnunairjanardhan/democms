@@ -68,11 +68,15 @@ export default function HeroSectionAmi() {
 
               {/* CTA Buttons */}
               <div className="flex items-center gap-4">
-                <Button className="bg-[#6F4DFF] hover:bg-[#6F4DFF]/90 text-white px-6 py-2.5 rounded-md text-sm font-medium cursor-pointer">
-                  <div className="flex flex-row items-center w-full px-6">
-                    <span>Start Free Trial</span>
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </div>
+                <Button asChild className="bg-[#6F4DFF] hover:bg-[#6F4DFF]/90 text-white px-6 py-2.5 rounded-md text-sm font-medium cursor-pointer">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA7HvmmdFiHSme2n6HC1hTc8iUu6AroHy1_QM-QlW2b7ipzA/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <div className="flex flex-row items-center w-full px-6">
+                      <span>Get Early Access</span>
+                      <ArrowRight className="ml-2 h-4 w-4" />
+                    </div>
+                  </a>
                 </Button>
               </div>
 
@@ -315,18 +319,6 @@ export default function HeroSectionAmi() {
           </div>
 
           {/* Right Content - Spline 3D Robot */}
-          {/* <div className="pointer-events-none absolute bottom-12 right-12 z-30">
-            <div className="relative w-[140px] h-[140px]">
-              <SpinningText
-                className="w-full h-full border border-red rounded-full text-sm font-medium text-[#111827] tracking-[0.15em]"
-                duration={15}
-                radius={6.5}
-                showInnerCircle
-              >
-                {"✦ Intelligent ✦ Commerce ✦ Company"}
-              </SpinningText>
-            </div>
-          </div> */}
         </div>
       </div>
       <div className="absolute bottom-[0%] left-3/4 xl:left-2/3 aspect-2/1 w-full max-w-[1600px] h-full -translate-x-1/2 max-md:hidden">
