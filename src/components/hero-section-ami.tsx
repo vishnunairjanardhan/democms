@@ -68,11 +68,15 @@ export default function HeroSectionAmi() {
 
               {/* CTA Buttons */}
               <div className="flex items-center gap-4">
-                <Button className="bg-[#6F4DFF] hover:bg-[#6F4DFF]/90 text-white px-6 py-2.5 rounded-md text-sm font-medium cursor-pointer">
-                  <div className="flex flex-row items-center w-full px-6">
-                    <span>Start Free Trial</span>
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </div>
+                <Button asChild className="bg-[#6F4DFF] hover:bg-[#6F4DFF]/90 text-white px-6 py-2.5 rounded-md text-sm font-medium cursor-pointer">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA7HvmmdFiHSme2n6HC1hTc8iUu6AroHy1_QM-QlW2b7ipzA/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <div className="flex flex-row items-center w-full px-6">
+                      <span>Get Early Access</span>
+                      <ArrowRight className="ml-2 h-4 w-4" />
+                    </div>
+                  </a>
                 </Button>
               </div>
 
