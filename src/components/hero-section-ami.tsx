@@ -332,15 +332,16 @@ export default function HeroSectionAmi() {
       <div className="absolute bottom-[0%] left-3/4 xl:left-2/3 aspect-2/1 w-full max-w-[1600px] h-full -translate-x-1/2 max-md:hidden">
         <Spline scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode" />
       </div>
-      <div className="pointer-events-none absolute bottom-12 right-12 z-30">
-        <div className="relative w-[140px] h-[140px]">
+      <div className="pointer-events-none absolute top-40 right-40 z-30">
+        <div className="relative w-[148px] h-[148px]">
           <SpinningText
-            className="w-full h-full border border-red rounded-full text-sm font-medium text-[#111827] tracking-[0.15em]"
+            wrapperClass="w-full h-full text-sm font-medium text-[#111827] tracking-[0.15em]"
+            className="w-full h-full border border-black rounded-full text-sm font-medium text-[#111827] tracking-[0.15em]"
             duration={15}
             radius={6.5}
             showInnerCircle
           >
-            {"✦ Intelligent ✦ Commerce ✦ Company"}
+            {"✦ Intelligent ✦ Commerce ✦ Companion"}
           </SpinningText>
         </div>
       </div>
