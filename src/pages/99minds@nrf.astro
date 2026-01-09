@@ -15,6 +15,7 @@ import { Seo } from "../config/Seo.jsx";
 import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
 import Hero from "../components/heros/HeroIndex.jsx";
 import heroConfig from "../config/heroConfig.js";
+import HeroSectionAmi from "../components/hero-section-ami.tsx";
 ---
 
 <!---
@@ -37,11 +38,12 @@ Use AstroSeo in all the pages you want different Seo than the index page
   }}
 />
 <BaseLayout3>
-  <HeroNRF/>
-  <!--<ClientLogoScroller />-->
+  <HeroSectionAmi client:load >
+  <!-- // <HeroNRF/>
+  // <ClientLogoScroller />
   
-  <FeatureNRF />
-  <FeatureNRF2 />
-  <AboutNRF />
-  <FeatureNRF1 />
+  // <FeatureNRF />
+  // <FeatureNRF2 />
+  // <AboutNRF />
+  // <FeatureNRF1 /> -->
 </BaseLayout3>
