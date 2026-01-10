@@ -8,7 +8,7 @@ import Spline from "@splinetool/react-spline";
 export default function HeroSectionAmi() {
   return (
     <section className="relative bg-[#F8F8F8] overflow-hidden">
-      <div className="relative max-w-[1440px] mx-auto px-[72px] py-8">
+      <div className="relative max-w-[1440px] mx-auto px-3 sm:px-6 lg:px-[72px] py-8">
         <div className="flex items-start justify-between">
           {/* Left Content */}
           <div className="max-w-[750px]">
@@ -321,10 +321,10 @@ export default function HeroSectionAmi() {
           {/* Right Content - Spline 3D Robot */}
         </div>
       </div>
-      <div className="absolute bottom-[0%] left-3/4 xl:left-2/3 aspect-2/1 w-full max-w-[1600px] h-full -translate-x-1/2 max-md:hidden">
+      <div className="absolute bottom-[0%] left-3/4 xl:left-2/3 aspect-2/1 w-full max-w-[1600px] h-full -translate-x-1/2 max-md:hidden hidden lg:block">
         <Spline scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode" />
       </div>
-      <div className="pointer-events-none absolute top-40 right-40 z-30">
+      <div className="pointer-events-none absolute top-40 right-40 z-30 hidden lg:block">
         <div className="relative w-[148px] h-[148px]">
           <SpinningText
             wrapperClass="w-full h-full text-sm font-medium text-[#111827] tracking-[0.15em]"
