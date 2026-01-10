@@ -1,17 +1,20 @@
 import { useEffect, useState } from "react";
 import HeroSectionAmi from "../components/hero-section-ami.tsx";
 
-const STORAGE_KEY = "hero_intro_seen";
+const STORAGE_KEY = "hero_intro_seen_session";
 
 const HeroIntroModal = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   useEffect(() => {
-    const hasSeen = localStorage.getItem(STORAGE_KEY);
+    // 🚫 Only on desktop / large screens
+    if (window.innerWidth < 1024) return;
+
+    const hasSeen = sessionStorage.getItem(STORAGE_KEY);
 
     if (!hasSeen) {
       setOpen(true);
-      localStorage.setItem(STORAGE_KEY, "true");
+      sessionStorage.setItem(STORAGE_KEY, "true");
     }
   }, []);
 
