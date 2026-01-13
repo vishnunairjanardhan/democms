@@ -4,7 +4,7 @@ import HeroSectionAmi from "../components/hero-section-ami.tsx";
 const STORAGE_KEY = "hero_intro_seen_session";
 
 const HeroIntroModal = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     // 🚫 Only on desktop / large screens
