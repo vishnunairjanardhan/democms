@@ -30,13 +30,13 @@ const featuresData = [
     title: "Manage Returns with Gift Cards",
     description:
       "Issue gift cards on merchandise returns or update the balance in an existing gift card.",
-    image: "/assets/giftcard/refund-giftcard.png",
+    image: "/assets/giftcard/refund-giftcard1.webp",
   },
   {
     title: "Gift Cards Delivery For Special Occasions",
     description:
       "Schedule gift card delivery on special occasions like birthdays, anniversaries, Christmas, Hanukkah or any other.",
-    image: "/assets/giftcard/schedule-delivery1.webp",
+    image: "/assets/giftcard/schedule_delivery.webp",
   },
 ];
 
