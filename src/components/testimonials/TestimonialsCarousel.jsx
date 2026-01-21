@@ -156,7 +156,7 @@ export default function TestimonialsCarousel({
                                   </div>
                                   <div className="mx-4 mt-2">
                                      <p>
-                                      <span class="text-[#6820EE] transition-colors duration-300 font-semibold"> <a href= {s.href} target="_blanck" class="group inline-flex items-center">Read Case Study<svg class="ml-1 h-6 w-6 text-[#6820EE] transition-all duration-300 transform group-hover:translate-x-1" width="10" height="10" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z"></path> <line x1="5" y1="12" x2="19" y2="12"></line> <line x1="13" y1="18" x2="19" y2="12"></line> <line x1="13" y1="6" x2="19" y2="12"></line> </svg> </a></span>
+                                      <span class="text-[#6820EE] transition-colors duration-300 font-semibold"> <a href= {s.href}  rel="noopener noreferrer" target="_blank" class="group inline-flex items-center">Read Case Study<svg class="ml-1 h-6 w-6 text-[#6820EE] transition-all duration-300 transform group-hover:translate-x-1" width="10" height="10" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z"></path> <line x1="5" y1="12" x2="19" y2="12"></line> <line x1="13" y1="18" x2="19" y2="12"></line> <line x1="13" y1="6" x2="19" y2="12"></line> </svg> </a></span>
                                     </p>
                                   </div>
                                 </div>
