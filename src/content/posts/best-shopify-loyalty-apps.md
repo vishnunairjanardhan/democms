@@ -139,7 +139,7 @@ That’s where Shopify loyalty apps come in. From points and referrals to omnich
       <td>Free Plan</td>
     </tr>
     <tr>
-  <td>BON</td>
+  <td><strong>BON</strong></td>
   <td>
     Points, referrals, VIP tiers, easy setup, automated rewards
   </td>
@@ -149,7 +149,7 @@ That’s where Shopify loyalty apps come in. From points and referrals to omnich
   <td>Free Plan</td>
 </tr>
 <tr>
-  <td>TapMango</td>
+  <td><strong>TapMango</strong></td>
   <td>
     Omnichannel loyalty, digital rewards, CRM tools, POS integrations
   </td>
@@ -159,7 +159,7 @@ That’s where Shopify loyalty apps come in. From points and referrals to omnich
   <td>Paid Plan</td>
 </tr>
 <tr>
-  <td>Kangaroo</td>
+  <td><strong>Kangaroo</strong></td>
   <td>
     Omnichannel rewards, automated campaigns, segmentation, analytics
   </td>
@@ -169,7 +169,7 @@ That’s where Shopify loyalty apps come in. From points and referrals to omnich
   <td>Paid Plan</td>
 </tr>
 <tr>
-  <td>Glow</td>
+  <td><strong>Glow</strong></td>
   <td>
     Points-based loyalty, referral programs, simple dashboards, easy setup
   </td>
