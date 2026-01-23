@@ -48,56 +48,101 @@ We analyzed how omnichannel loyalty programs work at some of the largest e-comme
 
 - <b>Top Omnichannel Customer Loyalty Programs (2026):</b>
 
-<table>
+<table style="border-collapse: collapse; width: 100%;">
   <thead>
     <tr>
-      <th>Loyalty Program</th>
-      <th>Key Highlight</th>
+      <th style="border: 1px solid #d1d5db; padding: 10px; text-align: left;">
+        Loyalty Program
+      </th>
+      <th style="border: 1px solid #d1d5db; padding: 10px; text-align: left;">
+        Key Highlight
+      </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Sukoshi Mart Rewards</strong></td>
-      <td>Engagement-driven, tiered loyalty program managed through a centralized omnichannel system</td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        <strong>Sukoshi Mart Rewards</strong>
+      </td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        Engagement-driven, tiered loyalty program managed through a centralized omnichannel system
+      </td>
     </tr>
     <tr>
-      <td><strong>Sephora Beauty Insider</strong></td>
-      <td>Combines points, tiers, exclusive experiences, and community to drive both emotional and transactional loyalty</td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        <strong>Sephora Beauty Insider</strong>
+      </td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        Combines points, tiers, exclusive experiences, and community to drive both emotional and transactional loyalty
+      </td>
     </tr>
     <tr>
-      <td><strong>Starbucks Rewards</strong></td>
-      <td>App-first, gamified points system that turns everyday purchases into habitual repeat visits</td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        <strong>Starbucks Rewards</strong>
+      </td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        App-first, gamified points system that turns everyday purchases into habitual repeat visits
+      </td>
     </tr>
     <tr>
-      <td><strong>H&amp;M Membership</strong></td>
-      <td>Simple two-tier structure rewarding purchases and sustainable actions across channels</td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        <strong>H&amp;M Membership</strong>
+      </td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        Simple two-tier structure rewarding purchases and sustainable actions across channels
+      </td>
     </tr>
     <tr>
-      <td><strong>The North Face XPLR Pass</strong></td>
-      <td>Engagement-led loyalty that rewards app usage, check-ins, referrals, and non-purchase actions</td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        <strong>The North Face XPLR Pass</strong>
+      </td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        Engagement-led loyalty that rewards app usage, check-ins, referrals, and non-purchase actions
+      </td>
     </tr>
     <tr>
-      <td><strong>Nike Membership</strong></td>
-      <td>Non-points loyalty model focused on access, personalization, content, and community</td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        <strong>Nike Membership</strong>
+      </td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        Non-points loyalty model focused on access, personalization, content, and community
+      </td>
     </tr>
     <tr>
-      <td><strong>IKEA Family</strong></td>
-      <td>Perks-driven program centered on inspiration, experiences, and everyday value rather than points</td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        <strong>IKEA Family</strong>
+      </td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        Perks-driven program centered on inspiration, experiences, and everyday value rather than points
+      </td>
     </tr>
     <tr>
-      <td><strong>Ulta Beauty Rewards</strong></td>
-      <td>Hybrid loyalty with points-to-cash redemption and spend-accelerated tiers</td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        <strong>Ulta Beauty Rewards</strong>
+      </td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        Hybrid loyalty with points-to-cash redemption and spend-accelerated tiers
+      </td>
     </tr>
     <tr>
-      <td><strong>Target Circle</strong></td>
-      <td>Hybrid model blending free rewards, paid convenience, and payment-based instant savings</td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        <strong>Target Circle</strong>
+      </td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        Hybrid model blending free rewards, paid convenience, and payment-based instant savings
+      </td>
     </tr>
     <tr>
-      <td><strong>Amazon Prime</strong></td>
-      <td>Paid membership loyalty built around speed, convenience, and ecosystem-wide benefits</td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        <strong>Amazon Prime</strong>
+      </td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">
+        Paid membership loyalty built around speed, convenience, and ecosystem-wide benefits
+      </td>
     </tr>
   </tbody>
 </table>
+
 
 - 99minds can help ecommerce and retail brands run unified loyalty programs consisting of store credit, referrals, and rewards from a single dashboard. 
 
