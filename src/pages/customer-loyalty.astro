@@ -1,0 +1,52 @@
+---
+import BaseLayout3 from "../layouts/BaseLayout3.astro";
+import CustomerLoyaltyHeader from "../components/features/CustomerLoyaltyHeader.astro";
+import FeatureCaseStudyNew from "../components/features/FeatureCaseStudyNew.astro";
+import FeatureCaseStudyNew2 from "../components/features/FeatureCaseStudyNew2.astro";
+import FeatureCaseStudyNew3 from "../components/features/FeatureCaseStudyNew3.astro";
+import CtaThreeU from "../components/ctas/CtaThreeU.astro";
+import TestimonialNew from "../components/testimonials/TestimonialNew.astro";
+import TestimonialCarousel from "../components/testimonials/TestimonialsCarousel.jsx";
+
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<!---
+Use AstroSeo in all the pages you want different Seo than the index page
+-->
+
+<BaseLayout3>
+<AstroSeo
+  title="High-converting Loyalty Program Pages Built by Leading 99minds Brands"
+  description="Explore stunning loyalty program pages built with 99minds. Get inspired by high-converting designs used by brands to increase customer retention."
+  canonical="https://www.99minds.io/customer-loyalty"
+  openGraph={{
+    url: "https://www.99minds.io/customer-loyalty",
+    title: "High-converting Loyalty Program Pages Built by Leading 99minds Brands",
+    description: "Explore stunning loyalty program pages built with 99minds. Get inspired by high-converting designs used by brands to increase customer retention.",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/loyalty/Loyalty-banner1.webp",
+        alt: "Loyalty Program Pages",
+        type: "image/webp",
+      }
+    ],
+    site_name: "99minds",
+  }}
+  twitter={{
+    url: "https://www.99minds.io/customer-loyalty",
+    images: [
+      {
+        url: "https://www.99minds.io/assets/loyalty/Loyalty-banner1.webp",
+        alt: "Loyalty Program Pages",
+        type: "image/webp",
+      }
+    ],
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
+  <CustomerLoyaltyHeader />
+  <TestimonialCarousel client:load/>
+  <CtaThreeU/>
+</BaseLayout3>

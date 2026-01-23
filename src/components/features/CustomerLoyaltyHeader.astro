@@ -1,0 +1,25 @@
+---
+import Verticalgrid from "../assets/Verticalgrid.astro";
+import CustomerLoyaltyTab from "../../components/features/CustomerLoyaltyTab.astro";
+import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
+---
+<section class="relative bg-white">
+  <Verticalgrid />
+  <div class="relative px-8 py-[72px] mx-auto space-y-24 max-w-7xl md:px-12 lg:px-16 lg:pt-36">
+    <div class="flex justify-center items-center">
+      <div class="max-w-4xl text-center">
+        <span class="text-xs font-medium tracking-widest text-[#6820EE] uppercase bg-clip-text">
+           INSPIRATIONS
+        </span>
+        <h1 class="mt-8 text-5xl font-semibold tracking-tighter text-gray-900 sm:text-5xl">
+          <span class="block">Loyalty Pages Made with 99minds</span>
+        </h1>
+        <p class="max-w-4xl mt-4 text-base text-gray-700">
+          Check out some of the stunning loyalty program pages created by our customers.
+        </p>
+      </div>
+    </div>
+    
+    <CustomerLoyaltyTab />
+  </div>
+</section>
