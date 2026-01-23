@@ -48,7 +48,7 @@ We analyzed how omnichannel loyalty programs work at some of the largest e-comme
 
 - <b>Top Omnichannel Customer Loyalty Programs (2026):</b>
 
-<table>
+<table class="border-1">
   <thead>
     <tr>
       <th>Loyalty Program</th>
@@ -427,7 +427,7 @@ And that’s exactly where the 99minds Loyalty platform comes into the picture. 
 So what are you waiting for? <a href="https://giftcard.99minds.io/access/register" role="link" target="_blanck">Sign up for 99minds</a> today and start building your omnichannel customer loyalty program instantly.
 
 <section class="relative border-t border-white/10">
-  <div class="relative px-8 py-12 mt-12 mx-auto max-w-7xl md:px-12 lg:px-16">
+  <div class="relative px-8 py-2 mt-2 mx-auto max-w-7xl md:px-12 lg:px-16">
     <div
       class="prose prose-blockquote:border-l-white prose-a:text-indigo-400 hover:prose-a:text-white prose-headings:font-normal prose-headings:text-white prose-li:marker:text-indigo-500 text-vulcan-300 prose-code:text-white prose-blockquote:text-white/70 max-w-none">
       <div class="flex items-center justify-center">
