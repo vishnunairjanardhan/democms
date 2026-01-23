@@ -48,7 +48,7 @@ We analyzed how omnichannel loyalty programs work at some of the largest e-comme
 
 - <b>Top Omnichannel Customer Loyalty Programs (2026):</b>
 
-<table class="border-1">
+<table>
   <thead>
     <tr>
       <th>Loyalty Program</th>
