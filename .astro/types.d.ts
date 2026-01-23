@@ -339,13 +339,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"Black-friday-promotion-ideas.md": {
-	id: "Black-friday-promotion-ideas.md";
-  slug: "black-friday-promotion-ideas";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "Christmas-marketing-ideas.md": {
 	id: "Christmas-marketing-ideas.md";
   slug: "christmas-marketing-ideas";
@@ -507,6 +500,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"black-friday-promotion-ideas.md": {
+	id: "black-friday-promotion-ideas.md";
+  slug: "black-friday-promotion-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "brand-loyalty.md": {
 	id: "brand-loyalty.md";
   slug: "brand-loyalty";
@@ -622,6 +622,13 @@ declare module 'astro:content' {
 "customer-loyalty-and-retention.md": {
 	id: "customer-loyalty-and-retention.md";
   slug: "customer-loyalty-and-retention";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"customer-loyalty-program.md": {
+	id: "customer-loyalty-program.md";
+  slug: "customer-loyalty-program";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
