@@ -273,7 +273,7 @@ There are a few types of eCommerce Strategy approaches: selling on big websites 
       <a href="https://giftcard.99minds.io/access/register" 
          class="inline-block bg-black !text-white font-medium text-lg px-4 py-2 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 no-underline"
          target="_blank">
-        Signup for free
+        Sign up for free
       </a>
     </div>
     <img src="/assets/blog/Dashboard.png"
