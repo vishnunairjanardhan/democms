@@ -1,10 +1,10 @@
 // src/config/heroConfig.js
 const heroConfig = {
-  title: "Automate Growth.",
+  title: "Go Beyond Sales.",
   highlight: ["Gift Card.", "Loyalty.", "Coupons.", "Membership."],
-  title2: "Amplify Results.",
+  title2: "Build Purchase Habits.",
   description:
-    "Instantly Launch Gift Cards, Store Credit & Automated Promotions via Apple and Google Wallets. Boost Revenue and Customer Loyalty Across Your Retail & eCommerce Stores",
+    "Instantly offer gift cards, store credit, memberships, and much more at your store with our omnichannel customer retention and loyalty automation platform. Drive repeat sales, boost per customer revenue, and build brand loyalty across your online and physical stores.",
 };
 
 export default heroConfig;
