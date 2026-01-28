@@ -46,7 +46,7 @@ function Hero({ title, title2, highlight, description }) {
             role="group"
           > 
             <a href="#giftcardsection" rel="noopener noreferrer" class="raise1 relative px-4 py-3 inline-flex items-center justify-center font-bold overflow-hidden group rounded-lg font-medium"><span class="w-full h-full bg-white absolute border border-[#6820EE] rounded-lg"></span><span class="relative text-[#6820EE]">Learn more</span></a>
-            <a type="button" href="/Get-Started" role="button" aria-label="Get Started for Free" class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium"> <span class="w-full h-full bg-[#6820EE] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400"> <span class="relative text-white">Get Started for free</span> </span> </a>
+            <a type="button" href="/Get-Started" role="button" aria-label="Get Started for Free" class="raise1 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md font-medium"> <span class="w-full h-full bg-[#6820EE] absolute"></span> <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400"> <span class="relative text-white">Get Started for Free</span> </span> </a>
           </div>
             
           <div
