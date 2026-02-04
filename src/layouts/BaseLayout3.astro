@@ -4,7 +4,6 @@ import BaseHead from "../components/BaseHead.astro";
 import Navigation from "../components/global/Navigation.astro";
 import ContactWidget from "../components/forms/ContactWidget.astro";
 import FooterAdd from "../components/global/FooterAdd.astro";
-import HalloweenOverlay from '../components/HalloweenOverlay.astro';
 import HeroSection from "../components/shadcn-studio/blocks/hero-section-38/hero-section-38.tsx";
 ---
 
@@ -13,8 +12,6 @@ import HeroSection from "../components/shadcn-studio/blocks/hero-section-38/hero
     <BaseHead />
   </head>
   <body class="bg-white">
-    <!-- <HalloweenOverlay /> -->
-    <!-- Google Tag Manager (noscript) -->
     <noscript>
       <iframe
         src="https://www.googletagmanager.com/ns.html?id=GTM-WWJJGX6"
@@ -26,47 +23,6 @@ import HeroSection from "../components/shadcn-studio/blocks/hero-section-38/hero
     <!-- <ContactWidget /> -->
     <slot />
     <FooterAdd />
-
-    <!-- tsParticles Snow Effect -->
-    <div id="tsparticles" style="position: fixed; z-index: -1; width: 100%; height: 100%;"></div>
-
-    <!-- Import and Initialize tsParticles -->
-    <script type="module">
-      import { tsParticles } from "tsparticles-engine";
-      import { loadSnowPreset } from "tsparticles-preset-snow";
-
-      window.addEventListener("DOMContentLoaded", async () => {
-        // Load the snow preset
-        await loadSnowPreset(tsParticles);
-
-        // Initialize tsParticles with the snow effect
-        tsParticles.load("tsparticles", {
-          preset: "snow",
-          fullScreen: {
-            zIndex: -1, // Keeps snowflakes in the background
-          },
-        });
-      });
-    </script>
-
-    <!-- Zoho SalesIQ Widget -->
-    <!-- <script type="text/javascript">
-      var $zoho = $zoho || {};
-      $zoho.salesiq = $zoho.salesiq || {
-        widgetcode: "3edf65a468af1d9ec72c31adb273c139a09c4340d0061a773c29bfd5e5b3f44a",
-        values: {},
-        ready: function () {},
-      };
-      var d = document;
-      var s = d.createElement("script");
-      s.type = "text/javascript";
-      s.id = "zsiqscript";
-      s.defer = true;
-      s.src = "https://salesiq.zoho.in/widget";
-      var t = d.getElementsByTagName("script")[0];
-      t.parentNode.insertBefore(s, t);
-      d.innerHTML = "<div id='zsiqwidget'></div>";
-    </script> -->
 
     <!-- Intercom Widget-->
     <script>
