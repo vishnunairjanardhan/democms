@@ -39,7 +39,16 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 
 <!-- Sitemap -->
 <link rel="sitemap" href="/sitemap-index.xml" />
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link
+  rel="preload"
+  href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+/>
+<noscript>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</noscript>
+
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,7 +62,7 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 
 <!-- Calendly Widget -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script src="https://assets.calendly.com/assets/external/widget.js" client:visible type="text/javascript" async></script>
 
 <!-- Facebook Pixel Code -->
 <script>
