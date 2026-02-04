@@ -16,11 +16,14 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 </script>
 
 <!-- Consent Script -->
-<script
-  type="text/javascript"
-  src="https://app.termly.io/resource-blocker/d9663863-bfd6-4088-bd75-e9f13af491e1?autoBlock=on"
-  defer
-></script>
+<script>
+  window.addEventListener("load", () => {
+    const s = document.createElement("script");
+    s.src = "https://app.termly.io/resource-blocker/d9663863-bfd6-4088-bd75-e9f13af491e1?autoBlock=on";
+    s.async = true;
+    document.body.appendChild(s);
+  });
+</script>
 
 <!-- Meta Tags -->
 <meta charset="utf-8" />
@@ -74,7 +77,7 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 <script src="https://assets.calendly.com/assets/external/widget.js" client:visible type="text/javascript" async></script>
 
 <!-- Facebook Pixel Code -->
-<script>
+<script type="text/partytown">
   !function(f,b,e,v,n,t,s) {
     if(f.fbq) return;
     n=f.fbq=function() { n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments) };

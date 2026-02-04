@@ -25,8 +25,8 @@ export default defineConfig({
     icon(),
     partytown({
       config: {
-        forward: ['dataLayer.push'],
-      },
+      forward: ["dataLayer.push", "fbq"],
+    },
     }),
     sitemap({
       serialize(item) {
