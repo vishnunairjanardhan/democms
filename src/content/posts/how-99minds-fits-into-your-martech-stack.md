@@ -28,11 +28,11 @@ Having a well-thought-out stack allows you to reap the benefits of each piece of
 <h2>What Role Does 99minds Play in Your Marketing Technology Stack?</h2>
 <ul>
 <ol>
-<li>99minds excels at creating targeted marketing strategies and delivering an <a href="https://www.99minds.io/blog/benefits-of-omnichannel-loyalty-programs/">omnichannel customer experience</a>. This ultimately saves our customers’ time and money.</li>
-<li>99minds enables you to develop and track dynamic <a href="https://www.99minds.io/blog/benefits-of-omnichannel-loyalty-programs/">promotional vouchers</a> in order to gain insight into usage and lower promotional marketing costs.</li>
-<li>Coupon promotions via 99minds enable you to utilize <a href="https://www.99minds.io/blog/benefits-of-omnichannel-loyalty-programs/">coupons to achieve business objectives</a>, such as recruiting new consumers, developing email lists, improving the average order value of sales, marketing products, or rewarding loyal customers.</li>
+<li>99minds excels at creating targeted marketing strategies and delivering an omnichannel customer experience. This ultimately saves our customers’ time and money.</li>
+<li>99minds enables you to develop and track dynamic promotional vouchers in order to gain insight into usage and lower promotional marketing costs.</li>
+<li>Coupon promotions via 99minds enable you to utilize coupons to achieve business objectives, such as recruiting new consumers, developing email lists, improving the average order value of sales, marketing products, or rewarding loyal customers.</li>
 <li>To open the door to creative avenues, 99minds has integrated with a variety of applications and platforms. It’s as simple as plugging it in and turning it on. Our customers benefit as a result of this.</li>
-<li>99minds is a one-stop-shop for <a href="https://www.99minds.io/blog/benefits-of-omnichannel-loyalty-programs/">customer acquisition</a>, retention, and engagement. What could be better than receiving all of your e-commerce services in one place?</li>
+<li>99minds is a one-stop-shop for customer acquisition, retention, and engagement. What could be better than receiving all of your e-commerce services in one place?</li>
 </ul>
 </ol>
 

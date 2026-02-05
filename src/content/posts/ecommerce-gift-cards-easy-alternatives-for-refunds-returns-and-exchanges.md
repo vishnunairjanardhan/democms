@@ -13,9 +13,8 @@ url: "https://www.99minds.io/blog/ecommerce-gift-cards-easy-alternatives-for-ref
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges/">
-<img src="/assets/blog/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges.jpg"></a>
 
+<img src="/assets/blog/eCommerce-Gift-Cards-Easy-Alternatives-For-Refunds-Returns-And-Exchanges.jpg">
 US consumers were predicted to return $100 billion worth of unwanted products purchased between <a href="https://www.99minds.io/blog/tips-to-boost-ecommerce-sales-for-the-thanksgiving-weekend-in-2022/" target="_blank">Thanksgiving</a> and <a href="https://www.99minds.io/blog/how-to-create-a-successful-gift-card-campaign-for-christmas/" target="_blank">Christmas</a>. Those are some painful numbers. As exciting as the <a href="https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/" target="_blank">holiday season</a> is for retailers, returns and refund requests pose a major problem.
 
 Buyer’s remorse is a common phenomenon. Some purchases are impulse decisions, and the customer may not feel it fits their taste or style after getting the product home. Even well-meaning gifts from loved ones end up being returned to the store.

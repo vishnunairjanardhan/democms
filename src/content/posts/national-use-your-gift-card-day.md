@@ -31,7 +31,7 @@ Some of the biggest retailers that you know are participating in the event: <a h
 
 Follow the below steps to make sure that you empty your gift cards this holiday season.
 
-<b>Step 1:</b> Find out where all your gift cards are. The gift card that Uncle George gave you during last year’s <a href="https://www.99minds.io/blog/ecommerce/getting-your-e-commerce-shop-thanksgiving-ready/">Thanksgiving is still useful</a> if there is money in it. Do not keep them lying around like a souvenir. Make sure that you scout your emails for any digital gift cards that you might have forgotten.
+<b>Step 1:</b> Find out where all your gift cards are. The gift card that Uncle George gave you during last year’s Thanksgiving is still useful if there is money in it. Do not keep them lying around like a souvenir. Make sure that you scout your emails for any digital gift cards that you might have forgotten.
 
 <b>Step 2:</b> See if any of the retailers are running a special promotion during the event. If yes, then check for products that you were planning to buy or were hoping to splurge on some day.
 

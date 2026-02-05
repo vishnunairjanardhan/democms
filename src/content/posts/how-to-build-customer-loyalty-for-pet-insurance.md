@@ -21,7 +21,7 @@ Did you know during the period 2019-2025, the global pet insurance market is exp
 
 <h2>Build Customer Loyalty For Pet Insurance Industry</h2>
 
-If you are in the pet insurance industry, here is how you can build <a href="https://www.99minds.io/blog/customer-loyalty-programs-will-they-benefit-my-business">customer loyalty</a>
+If you are in the pet insurance industry, here is how you can build customer loyalty
 
 ### Simple claims process:
 

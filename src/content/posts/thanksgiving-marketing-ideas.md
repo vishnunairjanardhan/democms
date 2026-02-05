@@ -1,6 +1,6 @@
 ---
 pubDate: 2024-11-22
-author: PRAVIN KAMBLE
+author: Pravin
 authorImg: "Pravin.png"
 title: "8 Thanksgiving Marketing Ideas to Boost Your Sales This Holiday Season [2024]"
 description: "Boost holiday sales with these 8 creative Thanksgiving marketing ideas. From promotions to giveaways, attract and engage customers this season!"

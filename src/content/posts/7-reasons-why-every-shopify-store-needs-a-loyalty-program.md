@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/7-reasons-why-every-shopify-store-needs-a-loya
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM.png" alt="Why every Shopify store needs a Loyalty Program."></a>
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM.png" alt="Why every Shopify store needs a Loyalty Program.">
 
 More than 4.36 million online stores use Shopify. There are more than 8,000 apps built to serve Shopify stores. Undoubtedly, it is one of the most influential eCommerce stores in the world. It is a powerful platform adopted by businesses of all sizes globally. If you have a Shopify store, you would love to see customers shopping from you repeatedly, wouldn’t you? Which business doesn’t, right?
 
@@ -24,10 +24,6 @@ One of the most interesting Shopify customer retention statistics is that more t
 ## Here’s why Shopify stores need a Loyalty Program
 
 For businesses that are looking for retaining customers on Shopify, a loyalty program puts you right ahead of your competitors. Most businesses assume that a decent website and a suite of attractive products are enough to make bank, but that’s never the case. There are tonnes of other e-commerce stores that are vying for your target audience’s attention. Why should people buy from you? You must give them a little extra– a bonus or an incentive to tilt things in your favor, and that’s where loyalty programs come in. Let’s look at why you must invest in Shopify customer loyalty strategies and how they would benefit your business.
-
-<a href="https://www.99minds.io/coupon-generator" target="_blank">
-<img src="/assets/blog/CTA-Coupon-code-800x155.jpg" alt="create your custom coupons with 99minds"></a>
-<ol>
 
 ### <li>Increases Customer Engagement</li>
 

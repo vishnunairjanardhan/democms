@@ -1,6 +1,6 @@
 ---
 pubDate: 2025-01-14
-author: PRAVIN KAMBLE
+author: Pravin
 authorImg: "Pravin.png"
 title: "Customer Engagement: Definition, Examples, and Why It’s Important"
 description: "Discover effective strategies to enhance customer engagement, build brand loyalty, and improve customer satisfaction through meaningful interactions and innovative approaches."
@@ -9,7 +9,7 @@ image:
   url: "/assets/blog/Customer_Engagement_Definition_Examples.webp"
   alt: "Customer engagement"
 tags: ["Customer Engagement"]
-url: "https://www.99minds.io/blog/gamification-loyalty-programs"
+url: "https://www.99minds.io/blog/customer-engagement"
 keywords: ["Customer engagement"]
 ---
 

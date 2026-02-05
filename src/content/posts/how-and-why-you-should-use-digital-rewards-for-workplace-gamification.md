@@ -86,7 +86,7 @@ The peer recognition system allows colleagues to applaud each other’s success 
 
 <h3><li>Scavenger hunts:</li></h3>
 
-An easy way to make training engaging for your employees is through scavenger hunts. It can also be a team-building activity where employees are divided into different groups to complete tasks. It <a href="https://www.99minds.io/blog/ml-techniques-to-improve-customer-engagement" target="_blank">increases camaraderie and increases engagement</a> toward the task.
+An easy way to make training engaging for your employees is through scavenger hunts. It can also be a team-building activity where employees are divided into different groups to complete tasks. It increases camaraderie and increases engagement toward the task.
 
 <h3><li>Levels:</li></h3>
 

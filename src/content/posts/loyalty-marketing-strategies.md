@@ -1,6 +1,6 @@
 ---
 pubDate: 2024-10-10
-author: PRAVIN KAMBLE
+author: Pravin
 authorImg: "Pravin.png"
 title: "5 Loyalty Marketing Strategies For Loyal and Happy Customers"
 description: "Discover what loyalty marketing is, and learn details about it like why it’s important, what its goals are and what strategies you can use to implement it."
