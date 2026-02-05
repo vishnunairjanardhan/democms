@@ -13,8 +13,8 @@ keywords: ["99minds"]
 url: "https://www.99minds.io/blog/5-reasons-why-your-business-should-offer-gift-cards-for-mothers-day"
 
 --- 
-<a href="https://www.99minds.io/blog/gift-card/5-reasons-why-your-business-should-offer-gift-cards-for-mothers-day/" target="_blank">
-<img src="/assets/blog/5-Reasons-Why-Your-Business-Should-Offer-Gift-Cards-for-Mothers-Day1.jpg"></a>
+
+<img src="/assets/blog/5-Reasons-Why-Your-Business-Should-Offer-Gift-Cards-for-Mothers-Day1.jpg">
 
 There’s no surer way to show someone you love and appreciate them than with a gift.
 

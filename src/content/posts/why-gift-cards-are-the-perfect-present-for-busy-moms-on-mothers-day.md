@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/why-gift-cards-are-the-perfect-present-for-bus
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/gift-card/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day/" target="_blank">
-<img src="/assets/blog/Why-Gift-Cards-Are-the-Perfect-Present-for-Busy-Moms-on-Mothers-Day.jpg"></a>
+
+<img src="/assets/blog/Why-Gift-Cards-Are-the-Perfect-Present-for-Busy-Moms-on-Mothers-Day.jpg">
 
 <h2>Mother’s Day is just around the corner, and for those of us who are looking for the perfect present for our moms, gift cards are a great option to consider.</h2>
 

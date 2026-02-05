@@ -31,7 +31,7 @@ Flowers, the quintessential
 ### Gift of personalisation
 
 Make Mother’s Day a truly special occasion by adding a personal touch to your gift. It’s the little things that count, and incorporating the recipient’s name or picture on a gift card makes it truly unique and unforgettable. This simple gesture shows just how much you care about the person and goes a long way in making their day a memorable one. Give the 
-<a href="https://www.99minds.io/blog/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day/" target="_blank">perfect gift this Mother’s Day</a> that will bring a smile to their face and touch their heart. Personalize it!
+<a href="https://www.99minds.io/blog/why-gift-cards-are-the-perfect-present-for-busy-moms-on-mothers-day" target="_blank">perfect gift this Mother’s Day</a> that will bring a smile to their face and touch their heart. Personalize it!
 
 ### Fun Shapes
 
@@ -40,7 +40,7 @@ A gift card doesn’t have to be boring and rectangular; it can take any shape o
 ### Use Motivational Messages
 
 Are you tired of giving gift cards that appear impersonal, lacking that special touch? It’s time to add a little motivation and inspiration to your gestures! 
-<a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/" target="_blank">Gift cards are meant to make people feel loved and appreciated</a>. So, why not add a dose of positivity with inspiring quotes that speak to the heart? By doing so, you not only add value to your gift card but also ensure your brand stays at the forefront of the recipient’s mind. Make it memorable, appeal to their emotions and show them you care!
+Gift cards are meant to make people feel loved and appreciated. So, why not add a dose of positivity with inspiring quotes that speak to the heart? By doing so, you not only add value to your gift card but also ensure your brand stays at the forefront of the recipient’s mind. Make it memorable, appeal to their emotions and show them you care!
 
 
 <a href="https://calendly.com/99minds" target="_blank">

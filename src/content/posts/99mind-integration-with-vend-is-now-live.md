@@ -26,7 +26,7 @@ But now, Using the 99minds gift card app on Vend, you will be able to redeem ven
 
 ## About Vend
 
-Vend is a cloud-based point of sale system for retailers of all types and sizes. Vend offers tools to help manage the customer experience, as well as sales, inventory, customer data, and more. 25,000+ retailers around the world trust Vend to power their stores. Visit <a href="https://www.99minds.io/blog/product-updates/99mind-integration-with-vend-is-now-live/www.vendhq.com" target="_blank">www.vendhq.com</a> for more information
+Vend is a cloud-based point of sale system for retailers of all types and sizes. Vend offers tools to help manage the customer experience, as well as sales, inventory, customer data, and more. 25,000+ retailers around the world trust Vend to power their stores. Visit www.vendhq.com for more information
 
 ## About 99Minds
 

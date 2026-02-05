@@ -26,13 +26,13 @@ Let us look at what constitutes a good loyalty program:
 <ol>
 <li>Is easy to participate:
 
-No matter what kind of <a href="https://www.99minds.io/blog/how-to-launch-a-customer-loyalty-rewards-program-in-time-for-halloween/">rewards you promise</a>, if being a part of the loyalty program is confusing for many customers, you can certainly expect it to be a failure. You should not expect your customers to spend hours reading up on the rules just to be a part of it. The loyalty program should be easy to understand and easy to implement.
+No matter what kind of rewards you promise, if being a part of the loyalty program is confusing for many customers, you can certainly expect it to be a failure. You should not expect your customers to spend hours reading up on the rules just to be a part of it. The loyalty program should be easy to understand and easy to implement.
 
 Do not ask for a lot of details to sign up either. It can be a turn off as most of them will not be comfortable sharing their personal information. Let the customers know what is expected of them and list them down in the initial process itself so that there is no confusion. The customers should be aware of the kind of rewards they will get and what exactly is required to achieve that.</li>
 
 <li>Interesting rewards:
 
-The success of your <a href="https://www.99minds.io/blog/gift-card/gift-cards-the-perfect-employee-reward-for-your-workforce/">loyalty program depends on the kind of rewards that you offer</a>. It should be something that is equal to the kind of effort that the customers take to be a part of your loyalty program. The rewards can be anything- discount, consulting calls, free product, exclusive access, etc. But the ones that really interest the customers are monetary rewards. While you can even offer merchandise or swag to make your customers feel as if they are a part of the brand, try to add a monetary angle to it.</li>
+The success of your loyalty program depends on the kind of rewards that you offer. It should be something that is equal to the kind of effort that the customers take to be a part of your loyalty program. The rewards can be anything- discount, consulting calls, free product, exclusive access, etc. But the ones that really interest the customers are monetary rewards. While you can even offer merchandise or swag to make your customers feel as if they are a part of the brand, try to add a monetary angle to it.</li>
 
 <li>Find an emotional connection:
 
@@ -52,11 +52,11 @@ The rewards that customers get as a part of your loyalty program should be an ex
 
 If your customer is going to get the rewards of your loyalty program only when they renew in the first year, then they are not going to be enthused enough to renew the next year. Also, if getting a reward requires a lot of effort, then it will reduce the likelihood of someone participating in it. Why would someone spend a lot of their time and put in effort if it is going to take a lot of time to realize the rewards?
 
-Ensure that the program is repeatable and easy for people to complete. Do not make it a time consuming process. Tailor your customer strategy to ensure that people can see instant rewards that will bring them closer to the brand with few steps. <a href="https://www.99minds.io/blog/customer-retention/how-to-turn-your-hard-earned-sales-into-repeat-customers/">Programs that have a repeatable process have higher success rates</a>, and it will also keep the participants interested in it.</li>
+Ensure that the program is repeatable and easy for people to complete. Do not make it a time consuming process. Tailor your customer strategy to ensure that people can see instant rewards that will bring them closer to the brand with few steps. Programs that have a repeatable process have higher success rates, and it will also keep the participants interested in it.</li>
 
 <li>Make sure the program is reciprocal:
 
-Finding the right mix of strategies for your loyalty program can take a few tweaks, and a lot of back and forth. But do remember that it is a great way to increase customer retention. As a part of the loyalty program, your customer should get immense value, so should your business. The value for your business can be in the form of anything- increased sales, <a href="https://www.99minds.io/blog/artificial-intelligence/customer-retention-and-acquisition-using-ai/">increase in retention</a>, increase in CLV, more <a href="https://www.99minds.io/blog/generic/how-to-launch-a-successful-referral-program-for-your-small-business/">referrals</a>, and so on. If there is not much in it for the business, then the motivation to keep it running reduces. It should be a win-win for both parties.</li>
+Finding the right mix of strategies for your loyalty program can take a few tweaks, and a lot of back and forth. But do remember that it is a great way to increase customer retention. As a part of the loyalty program, your customer should get immense value, so should your business. The value for your business can be in the form of anything- increased sales, increase in retention, increase in CLV, more referrals, and so on. If there is not much in it for the business, then the motivation to keep it running reduces. It should be a win-win for both parties.</li>
 </ol>
 
 

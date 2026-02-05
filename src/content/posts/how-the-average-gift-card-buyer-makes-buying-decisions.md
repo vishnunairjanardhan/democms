@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/how-the-average-gift-card-buyer-makes-buying-d
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/gift-card/how-the-average-gift-card-buyer-makes-buying-decisions//" target="_blank">
-<img src="/assets/blog/how-the-average-gift-card-buyer-makes-buying-decisions1-1.jpg"></a>
+
+<img src="/assets/blog/how-the-average-gift-card-buyer-makes-buying-decisions1-1.jpg">
 
 If you are into retail, now is the time for you to up your gift card game. Businesses need to change their mindset when it comes to gift cards, it is usually considered as a part of a marketing exercise. <a href="https://www.99minds.io/giftcard" target="_blank">Gift cards</a> can be much more than that, it should be part of your customer service function too.
 

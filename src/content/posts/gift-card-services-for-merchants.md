@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/gift-card-services-for-merchants"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/gift-card/gift-card-services-for-merchants/">
-<img src="/assets/blog/Gift-Card-Services-for-Marchants.jpg"></a>
+
+<img src="/assets/blog/Gift-Card-Services-for-Marchants.jpg">
 
 Gift card, this little thing… is the most popular present among Americans – it is used by everyone from children to elders, from multinationals to small startups, from coffee shops to hair salons and so on and its popularity is still growing.
 

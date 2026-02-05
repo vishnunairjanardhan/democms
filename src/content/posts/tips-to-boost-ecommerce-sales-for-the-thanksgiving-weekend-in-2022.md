@@ -23,7 +23,7 @@ The Thanksgiving weekend is one of the most significant shopping periods of the 
 <li>Plan early:</li>
 </ul>
 
-Want to be on the minds of your <a href="https://www.99minds.io/blog/ecommerce/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/">customers during the holiday season</a>? Here’s a simple tip to keep your customers engaged enough to buy from your store on Thanksgiving- start early. Yes, plan ahead for your holiday promotions. Ensure your website is fully functional and ready to accommodate new visitors.
+Want to be on the minds of your customers during the holiday season? Here’s a simple tip to keep your customers engaged enough to buy from your store on Thanksgiving- start early. Yes, plan ahead for your holiday promotions. Ensure your website is fully functional and ready to accommodate new visitors.
 
 Thanksgiving is a stressful time for your customers. Giving them a website with a seamless interface and a fast checkout capability is something that will make them fall in love with your store. Analyze the performance of your website and keep improving the results so that everything works smoothly during the all-important holiday weekend.
 
@@ -31,7 +31,7 @@ Thanksgiving is a stressful time for your customers. Giving them a website with 
 <li>Reach existing customers:</li>
 </ul>
 
-Getting new customers is great for your eCommerce brand. But you know what is even more fantastic? Making your existing customers a big part of your store’s digital marketing strategy is pivotal. It is the easiest way to increase your sales, and <a href="https://www.99minds.io/blog/customer-retention/how-to-turn-your-hard-earned-sales-into-repeat-customers/">existing customers who like your offering</a> are easy to upsell and cross-sell. They will be the ones who will lap up your promotions and discounts.
+Getting new customers is great for your eCommerce brand. But you know what is even more fantastic? Making your existing customers a big part of your store’s digital marketing strategy is pivotal. It is the easiest way to increase your sales, and existing customers who like your offering are easy to upsell and cross-sell. They will be the ones who will lap up your promotions and discounts.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Big-99minds.jpg"></a>
 
@@ -39,7 +39,7 @@ Getting new customers is great for your eCommerce brand. But you know what is ev
 <li>Set up a referral program:</li>
 </ul>
 
-One of the best ways to increase your customer base is to put your existing customers into a <a href="https://www.99minds.io/referral">referral program</a>. Offer them incentives for each referral. You can use plug-and-play referral software that can quickly start your referral campaigns. The <a href="https://www.99minds.io/blog/ecommerce/how-do-i-set-up-an-ecommerce-referral-program/">referral program</a> for Thanksgiving will <a href="https://www.99minds.io/blog/ecommerce/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday/">fetch you customers during your Cyber Monday and Black Friday sales.</a>
+One of the best ways to increase your customer base is to put your existing customers into a <a href="https://www.99minds.io/referral">referral program</a>. Offer them incentives for each referral. You can use plug-and-play referral software that can quickly start your referral campaigns. The referral program for Thanksgiving will fetch you customers during your Cyber Monday and Black Friday sales.
 
 <ul>
 <li>Promote the right products:</li>
@@ -57,7 +57,7 @@ Some best-selling product categories are electronics, footwear, toys, kitchen wa
  
 It is a given that most B2C customers can be found on <a href="https://www.instagram.com/">Instagram</a> and <a href="https://www.facebook.com/">Facebook</a>. Picking the right products is as important as choosing the right people to target. Come up with the right offers that will delight your target audience. Promote the offer on your social media handles and use the right hashtags and groups to spread the message.
 
-Your competitors will do everything they can to target their audience with innovative marketing strategies. This is why you must ensure that your  <a href="https://www.99minds.io/blog/gift-card/using-your-social-media-accounts-to-sell-more-gift-cards/">social media content should be attention-grabbing</a>. Make sure that your social media team comes up with interesting posts that pique the attention of your target audience.
+Your competitors will do everything they can to target their audience with innovative marketing strategies. This is why you must ensure that your social media content should be attention-grabbing. Make sure that your social media team comes up with interesting posts that pique the attention of your target audience.
 
 Make an emotional connection with your customers. Use visuals that invoke the Thanksgiving spirit in your target audience. Drop hints about the big promotions and deals that you are offering for the holidays.
 
@@ -65,7 +65,7 @@ Make an emotional connection with your customers. Use visuals that invoke the Th
 <li>Plan for November:</li>
 </ul>
 
-Yes, while it is tempting to put all your efforts only into the Thanksgiving weekend, you don’t want to forget that <a href="https://www.99minds.io/blog/marketing/ultimate-guide-to-black-friday-cyber-monday-marketing/">Black Friday and Cyber Monday</a> fall on the same weekend. The shopping fever is going to last till New Year’s- you know that too. Keep offering deals and promotions for all of these holidays.
+Yes, while it is tempting to put all your efforts only into the Thanksgiving weekend, you don’t want to forget that Black Friday and Cyber Monday fall on the same weekend. The shopping fever is going to last till New Year’s- you know that too. Keep offering deals and promotions for all of these holidays.
 
 <ul>
 <li>Go mobile-first:</li>
@@ -111,8 +111,8 @@ Do you want to make the customers ambassadors of your brand? Put them into a <a 
 
 ### Wrapping up:
 
-The holiday season is the perfect time for eCommerce sites to amp up their marketing and operational strategy. You have to earn each of these sales, but we are confident that using the above set of strategies will help <a href="https://www.99minds.io/blog/gift-card/gift-cards-can-help-businesses-overcome-economic-challenges/">increase your revenues for Thanksgiving and the other holidays</a>. Go into the holidays with a solid eCommerce sales plan in place to get great results.
+The holiday season is the perfect time for eCommerce sites to amp up their marketing and operational strategy. You have to earn each of these sales, but we are confident that using the above set of strategies will help increase your revenues for Thanksgiving and the other holidays. Go into the holidays with a solid eCommerce sales plan in place to get great results.
 
-Businesses should invest in a referral program to increase their user base and incentivize their existing customers. Adding a gift card for the holiday season will be a great deal for your customers who want to gift their loved ones for the holidays. Get in touch with the <a href="https://www.99minds.io/home">99minds</a> team to understand how we can help your eCommerce store conquer the holiday season.
+Businesses should invest in a referral program to increase their user base and incentivize their existing customers. Adding a gift card for the holiday season will be a great deal for your customers who want to gift their loved ones for the holidays. Get in touch with the <a href="https://www.99minds.io/">99minds</a> team to understand how we can help your eCommerce store conquer the holiday season.
 
 

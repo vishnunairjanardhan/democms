@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/how-personalized-experiences-are-the-key-to-dr
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/customer-loyalty/how-personalized-experiences-are-the-key-to-driving-customer-loyalty/" target="_blank">
-<img src="/assets/blog/How-Personalized-Experiences-Are-the-Key-to-Driving-Customer-Loyalty.jpg"></a>
+
+<img src="/assets/blog/How-Personalized-Experiences-Are-the-Key-to-Driving-Customer-Loyalty.jpg">
 
 There is no doubt that the Covid-19 pandemic has changed the way many businesses around the world operate. Most marketers found that a huge margin slashed their budgets. Many CTOs had to enable many technological changes in driving work from home successfully and reach out to customers who couldn’t walk into a retail store like earlier. Not to forget all the technological changes that had to be done to facilitate smooth business operations like earlier. Businesses had to sound sensitive during a time like this while also making sure that they do not go bankrupt.
 
