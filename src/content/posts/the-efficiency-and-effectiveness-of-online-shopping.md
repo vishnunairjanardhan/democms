@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/the-efficiency-and-effectiveness-of-online-sho
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/ecommerce/the-efficiency-and-effectiveness-of-online-shopping/" target="_blank">
-<img src="/assets/blog/The-effectiveness-of-online-shopping-1.jpg"></a>
+
+<img src="/assets/blog/The-effectiveness-of-online-shopping-1.jpg">
 
 <h2>Online shopping has gained immense popularity in recent years.</h2>
 
