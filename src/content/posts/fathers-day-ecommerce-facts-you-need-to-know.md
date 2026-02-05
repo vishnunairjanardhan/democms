@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/fathers-day-ecommerce-facts-you-need-to-know"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/ecommerce/fathers-day-ecommerce-facts-you-need-to-know/">
-<img src="/assets/blog/Fathers-Day-Ecommerce-Facts-You-Need-to-Know-.jpg"></a>
+
+<img src="/assets/blog//assets/blog/Fathers-Day-Ecommerce-Facts-You-Need-to-Know--800x450.jpg">
 
 <a href="https://www.amazon.com/" target="_blank">Amazon</a>, <a href="https://www.alibaba.com/" target="_blank">Alibaba</a>, … We know all these companies have gained rapid growth and popularity in recent years. And also are aware of the global expansion of the eCommerce industry. During the holiday season, these eCommerce businesses own a larger portion of the overall industry profitability.
 

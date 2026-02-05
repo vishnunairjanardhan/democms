@@ -1,6 +1,6 @@
 ---
 pubDate: 2024-04-24
-author: PRAVIN KAMBLE
+author: Pravin
 authorImg: "Pravin.png"
 title: "Top 18 B2B eCommerce Trends in 2024 For Businesses"
 description: "As the world of ecommerce continues to evolve, it is becoming increasingly crucial for companies to stay updated with the b2b ecommerce trends."

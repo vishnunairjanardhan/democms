@@ -1,6 +1,6 @@
 ---
 pubDate: 2020-03-25
-author: Pravin Kamble
+author: Pravin
 authorImg: "Pravin.png"
 title: AI helps to make Pizza more delicious
 description: "As a Pizza lover, you might not even remember why you ordered your Pizza on a particular day precisely. Neither did I, nor did my mom. But some of the…"

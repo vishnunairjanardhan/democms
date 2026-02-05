@@ -1,6 +1,6 @@
 ---
 pubDate: 2024-09-25
-author: PRAVIN KAMBLE
+author: Pravin
 authorImg: "Pravin.png"
 title: "How to use promotional codes to drive sales (2024)"
 description: "Discover how to leverage promotional codes to motivate customers to complete their purchases, boost sales and revenue, and strengthen brand loyalty."

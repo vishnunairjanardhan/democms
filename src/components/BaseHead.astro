@@ -16,11 +16,14 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 </script>
 
 <!-- Consent Script -->
-<script
-  type="text/javascript"
-  src="https://app.termly.io/resource-blocker/d9663863-bfd6-4088-bd75-e9f13af491e1?autoBlock=on"
-  defer
-></script>
+<script>
+  window.addEventListener("load", () => {
+    const s = document.createElement("script");
+    s.src = "https://app.termly.io/resource-blocker/d9663863-bfd6-4088-bd75-e9f13af491e1?autoBlock=on";
+    s.async = true;
+    document.body.appendChild(s);
+  });
+</script>
 
 <!-- Meta Tags -->
 <meta charset="utf-8" />
@@ -39,12 +42,21 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 
 <!-- Sitemap -->
 <link rel="sitemap" href="/sitemap-index.xml" />
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link
+  rel="preload"
+  href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+/>
+<noscript>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</noscript>
+
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&amp;family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;family=Open+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
 
 <!-- Alpine.js -->
 <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
@@ -53,10 +65,10 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 
 <!-- Calendly Widget -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script src="https://assets.calendly.com/assets/external/widget.js" client:visible type="text/javascript" async></script>
 
 <!-- Facebook Pixel Code -->
-<script>
+<script type="text/partytown">
   !function(f,b,e,v,n,t,s) {
     if(f.fbq) return;
     n=f.fbq=function() { n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments) };
@@ -86,7 +98,7 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
     "founder": [
     {
       "@type": "Person",
-      "name": "Pravin Kamble",
+      "name": "Pravin",
       "sameAs": "https://www.linkedin.com/in/pravinkamble/"
     },
     {

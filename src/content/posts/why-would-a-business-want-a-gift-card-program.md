@@ -26,7 +26,7 @@ There are several more reasons why a business should get serious about gift card
 
 ### Helps with customer engagement
 
-It is one of the easiest ways to engage with your customer or someone who you would like to be counted as one. Gift cards offer a plethora of marketing opportunities. With the right kind of offer, you can easily use it to engage with your customers over and over. <a href="https://www.99minds.io/blog/ml-techniques-to-improve-customer-engagement" target="_blank">Here’s an article on Using ML Techniques to Improve Customer Engagement</a>.
+It is one of the easiest ways to engage with your customer or someone who you would like to be counted as one. Gift cards offer a plethora of marketing opportunities. With the right kind of offer, you can easily use it to engage with your customers over and over. Here’s an article on Using ML Techniques to Improve Customer Engagement.
 
 ### Build a community
 

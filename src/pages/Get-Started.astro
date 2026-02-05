@@ -1,12 +1,21 @@
 ---
 import BaseLayout3 from "../layouts/BaseLayout3.astro";
 import GetStarted from "../components/getStarted/getStarted";
+import { AstroSeo } from "@astrolib/seo";
 ---
-<head>
-    <meta name="robots" content="noindex, nofollow">
-</head>
+
+<AstroSeo
+  title="Get Started with 99minds"
+  description="Scale up your business with 99minds and escalate your brand value with custom gift cards, loyalty programs, store credits and many more."
+  canonical="https://www.99minds.io/Get-Started"
+  openGraph={{
+    url: "https://www.99minds.io/Get-Started",
+    title: "Get Started with 99minds",
+    description: "Scale up your business with 99minds and escalate your brand value with custom gift cards, loyalty programs, store credits and many more.",
+    site_name: "99minds",
+  }}
+/>
 <BaseLayout3>
-=
 
 <section class="bg-vulcan-50 relative">
   <div class="px-8 py-24 mx-auto max-w-7xl md:px-12 lg:px-16 lg:pt-16">
@@ -37,22 +46,22 @@ import GetStarted from "../components/getStarted/getStarted";
             </h2>
             <div class="mx-auto pt-4 grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                 <div class="flex flex-col p-6">
-                    <img class="rounded-lg shadow-xl self-start" src="/r1.webp" alt="image">
+                    <a href="https://apps.shopify.com/reviews/1252681" target="_blank"><img class="rounded-lg shadow-xl self-start" src="/r1.webp" alt="image"></a>
                 </div>
                 <div class="flex flex-col p-6">
-                    <img class="rounded-lg shadow-xl self-start" src="/r2.webp" alt="image">
+                     <a href="https://apps.shopify.com/reviews/1260693" target="_blank"><img class="rounded-lg shadow-xl self-start" src="/r2.webp" alt="image"></a>
                 </div>
                 <div class="flex flex-col p-6">
-                    <img class="rounded-lg shadow-xl self-start" src="/r3.webp" alt="image">
+                     <a href="https://apps.shopify.com/reviews/1256839" target="_blank"><img class="rounded-lg shadow-xl self-start" src="/r3.webp" alt="image"></a>
                 </div>
                 <div class="flex flex-col p-6">
-                    <img class="rounded-lg shadow-xl self-start" src="/r4.webp" alt="image">
+                    <a href="https://www.bigcommerce.com/apps/99minds-gift-card/?page=4" target="_blank"><img class="rounded-lg shadow-xl self-start" src="/r4.webp" alt="image"></a>
                 </div>
                  <div class="flex flex-col p-6">
-                    <img class="rounded-lg shadow-xl self-start" src="/r5.webp" alt="image">
+                     <a href="https://www.bigcommerce.com/apps/99minds-gift-card/?page=7" target="_blank"><img class="rounded-lg shadow-xl self-start" src="/r5.webp" alt="image"></a>
                 </div>
                  <div class="flex flex-col p-6">
-                    <img class="rounded-lg shadow-xl self-start" src="/r6.webp" alt="image">
+                     <a href="https://www.bigcommerce.com/apps/99minds-gift-card/?page=7" target="_blank"><img class="rounded-lg shadow-xl self-start" src="/r6.webp" alt="image"></a>
                 </div>  
             </div> 
         </div>

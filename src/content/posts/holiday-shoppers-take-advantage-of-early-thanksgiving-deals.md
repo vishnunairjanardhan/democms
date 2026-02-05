@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/holiday-shoppers-take-advantage-of-early-thank
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/generic/holiday-shoppers-take-advantage-of-early-thanksgiving-deals/">
-<img src="/assets/blog/Holiday-Shoppers-Take-Advantage-of-Early-Thanksgiving-Deals.jpg"></a>
+
+<img src="/assets/blog/Holiday-Shoppers-Take-Advantage-of-Early-Thanksgiving-Deals.jpg">
 
 While Black Friday isn’t until the end of the month, we’re already seeing early Black Friday offers from several major stores.
 
