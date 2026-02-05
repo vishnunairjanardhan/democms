@@ -24,28 +24,6 @@ import FooterAdd from "../components/global/FooterAdd.astro";
     <slot />
     <FooterAdd />
 
-    <!-- tsParticles Snow Effect -->
-    <div id="tsparticles" style="position: fixed; z-index: -1; width: 100%; height: 100%;"></div>
-
-    <!-- Import and Initialize tsParticles -->
-    <script type="module">
-      import { tsParticles } from "tsparticles-engine";
-      import { loadSnowPreset } from "tsparticles-preset-snow";
-
-      window.addEventListener("DOMContentLoaded", async () => {
-        // Load the snow preset
-        await loadSnowPreset(tsParticles);
-
-        // Initialize tsParticles with the snow effect
-        tsParticles.load("tsparticles", {
-          preset: "snow",
-          fullScreen: {
-            zIndex: -1, // Keeps snowflakes in the background
-          },
-        });
-      });
-    </script>
-
     <!-- Zoho SalesIQ Widget -->
     <script type="text/javascript">
       var $zoho = $zoho || {};
@@ -65,23 +43,5 @@ import FooterAdd from "../components/global/FooterAdd.astro";
       d.innerHTML = "<div id='zsiqwidget'></div>";
     </script>
 
-    <!-- AOS Animation -->
-    <!-- <script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script type="text/javascript">
-      AOS.init();
-    </script> -->
-
-    <!-- Vanilla Tilt -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"></script>
-    <script type="text/javascript">
-      VanillaTilt.init(document.querySelectorAll(".tilt-card"), {
-        max: 35, // Max tilt rotation (degrees)
-        speed: 2500, // Speed of the enter/exit transition
-        transition: true, // Set a transition on enter/exit
-      });
-    </script>
   </body>
 </html>
