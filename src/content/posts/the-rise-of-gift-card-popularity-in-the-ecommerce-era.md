@@ -1,6 +1,6 @@
 ---
 pubDate: 2023-11-12
-author: Pravin Kamble
+author: Pravin
 authorImg: "Pravin.png"
 title: The Rise of gift card popularity in the ecommerce era
 description: "Covid-19 impact on gift cards had eCommerce retailers making bank. Only the Russia-Ukraine war disrupted the expedited recovery after the pandemic."
