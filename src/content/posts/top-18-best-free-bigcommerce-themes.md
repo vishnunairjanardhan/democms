@@ -1,6 +1,6 @@
 ---
 pubDate: 2020-09-15
-author: Pravin Kamble
+author: Pravin
 authorImg: "Pravin.png"
 title: Top 18 Best Free Bigcommerce Themes
 description: "If you are looking for free BigCommerce themes, you are in the right place. These themes will help you get good at your eCommerce game."

@@ -1,6 +1,6 @@
 ---
 pubDate: 2025-01-13
-author: PRAVIN KAMBLE
+author: Pravin
 authorImg: "Pravin.png"
 title: "5 winning gamification loyalty programs for 2025"
 description: "Make loyalty fun! Discover how gamification loyalty programs can boost retention with games, challenges, and interactive rewards."
