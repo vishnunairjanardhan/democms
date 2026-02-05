@@ -6,6 +6,7 @@ import react from "@astrojs/react";
 import compression from 'vite-plugin-compression';
 import visualizer from 'rollup-plugin-visualizer';
 import icon from "astro-icon";
+import partytown from '@astrojs/partytown';
 
 export default defineConfig({
   markdown: {
@@ -22,6 +23,11 @@ export default defineConfig({
     tailwind(),
     react(),
     icon(),
+    partytown({
+      config: {
+      forward: ["dataLayer.push", "fbq"],
+    },
+    }),
     sitemap({
       serialize(item) {
         if (item.url.endsWith('/')) {
