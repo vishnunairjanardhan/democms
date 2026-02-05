@@ -35,8 +35,7 @@ Discounts and coupons are an excellent promotional strategy to increase sales an
 Social media platforms like <a href="https://www.facebook.com/" target="_blank">Facebook</a>
 , <a href="https://www.instagram.com/" target="_blank">Instagram</a>
 , and <a href="https://twitter.com/home" target="_blank">Twitter</a>
- are great platforms to reach your target audience. You can run <a href="https://www.99minds.io/blog/gift-card/using-your-social-media-accounts-to-sell-more-gift-cards/" target="_blank">social media campaigns to promote your products</a>
- and services and engage with customers. You can also collaborate with social media influencers to reach a wider audience and increase your brand awareness.
+ are great platforms to reach your target audience. You can run social media campaigns to promote your products and services and engage with customers. You can also collaborate with social media influencers to reach a wider audience and increase your brand awareness.
 
  ### Host a giveaway or contest
 
