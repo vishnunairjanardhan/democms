@@ -206,7 +206,7 @@ export const defaultSlides = [
       "linear-gradient(180deg, rgb(184,191,255) 0%, rgb(132.6,144.67,255) 100%)",
     imageSrc: "/assets/testimonial/Solstice-t.webp",
     imageAlt: "Solstice campaign",
-    href: '/case-study/solstice',
+    href: '/case-study/solsticesunglasses',
     metrics: [
       { value: "$640K", label: "In Sales due to Promotional Gift Cards" },
       { value: "45 Days", label: "Summer Promotion" },
