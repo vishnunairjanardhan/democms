@@ -277,7 +277,7 @@ export const defaultSlides = [
       "linear-gradient(180deg, rgb(184,191,255) 0%, rgb(132.6,144.67,255) 100%)",
     imageSrc: "/assets/testimonial/tassels-t.webp",
     imageAlt: "Tassels loyalty",
-    href: '/case-study/tassels',
+    href: '/case-study/tasselsshoes',
     metrics: [
       { value: "15%", label: "Increase in </br> Customer LTV" },
       { value: "20%", label: "Increase in ARR" },
