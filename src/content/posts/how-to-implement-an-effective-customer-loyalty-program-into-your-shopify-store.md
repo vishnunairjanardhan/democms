@@ -15,7 +15,7 @@ keywords: ["99minds"]
 ---
 <img src="/assets/blog/Building-Customer-Loyalty-How-to-Implement-Effective-Loyalty-Programs-on-Your-Shopify-Store.jpg" alt="Effective Customer Loyalty Program on Your Shopify Store.">
 
-Being a part of an exclusive community is a bragging matter for everyone. People love to be a part of clubs or places which cannot be accessed by everybody. This is why <a href="https://www.99minds.io/blog/customer-loyalty-programs-will-they-benefit-my-business">customer loyalty programs</a> are all the rage. They make you feel as if you are a part of royalty.
+Being a part of an exclusive community is a bragging matter for everyone. People love to be a part of clubs or places which cannot be accessed by everybody. This is why customer loyalty programs are all the rage. They make you feel as if you are a part of royalty.
 
 The eCommerce market is cut-throat and punishing. You cannot standby when your competitors use the right tools and techniques to get ahead. Here’s an interesting statistic that shows why it is a no-brainer to invest in a <a href="https://apps.shopify.com/99minds-gift-card-loyalty-referral">loyalty program for your Shopify store</a>. A <a href="https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/coping-with-the-big-switch-how-paid-loyalty-programs-can-help-bring-consumers-back-to-your-brand">McKinsey research says</a> that paid members of loyalty programs are 60% more likely to spend on the brand post-purchase, while the number is 30% for free members. The gist from the above stat is that loyalty programs are crucial to fatten your bottom line. Add this one to the mix– <a href="https://www.businesswire.com/news/home/20131111006099/en/Nielsen-Survey-84-Percent-of-Global-Respondents-More-Likely-to-Visit-Retailers-That-Offer-a-Loyalty-Program">84% of customers</a> are more likely to stick with a brand that offers a loyalty program. Now you know why customer loyalty programs are a must.
 
@@ -32,7 +32,7 @@ Setting up a loyalty program that drives ROI isn’t as complex and technical as
 <ol>
 <li><b>Determine your objectives:</b></li>
 
-The most important aspect of creating a successful loyalty program on your Shopify store is to determine why you are doing so. Are you looking to reduce your churn rate? Do you want <a href="https://www.99minds.io/blog/ecommerce-referral-marketing-strategies">referrals from your existing customers?</a> Are you trying to reach out to a newer audience? Do you want to make your customers feel appreciated? The answer could be anything. You must have clarity on what it is that you want, as it will help you choose the right steps to achieve them.
+The most important aspect of creating a successful loyalty program on your Shopify store is to determine why you are doing so. Are you looking to reduce your churn rate? Do you want referrals from your existing customers? Are you trying to reach out to a newer audience? Do you want to make your customers feel appreciated? The answer could be anything. You must have clarity on what it is that you want, as it will help you choose the right steps to achieve them.
 
 <a href="https://giftcard.99minds.io/access/login" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE-03.jpg" alt="create your own personalized loyalty program"></a>
 
@@ -56,9 +56,8 @@ If there is a plan of action that can make or break your loyalty program, it is 
 <li>Efficient maintenance</li>
 <li>Possible to white-label</li>
 <li>Extensive rewards catalogue</li>
-<li>Ability to change eligibility rules at will
-</li>
-<li><a href="https://www.99minds.io/blog/how-to-benefit-from-omnichannel-strategies-for-your-ecommerce">Omnichannel</a> distribution</li>
+<li>Ability to change eligibility rules at will</li>
+<li>Omnichannel distribution</li>
 <li>Self-service customer portal</li>
 <li>Reporting and analytics dashboard</li>
 </ul>

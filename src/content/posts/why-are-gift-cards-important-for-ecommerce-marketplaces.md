@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/why-are-gift-cards-important-for-ecommerce-mar
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/ecommerce/why-are-gift-cards-important-for-ecommerce-marketplaces/">
-<img src="/assets/blog/Why-are-Gift-Cards-important-for-eCommerce-Marketplaces1.jpg"></a>
+
+<img src="/assets/blog/Why-are-Gift-Cards-important-for-eCommerce-Marketplaces1.jpg">
 
 It is undeniable that online sales are increasing, and the old brick-and-mortar approach hurts retailers who haven’t gone online. On the other hand, several internet-born retailers have grown into online behemoths without ever setting foot in a physical store. These stores, such as Amazon, eBay, and Rakuten, have also evolved into online marketplaces, bringing consumers and sellers together in a virtual setting.
 

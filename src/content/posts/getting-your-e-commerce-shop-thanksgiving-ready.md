@@ -15,7 +15,7 @@ keywords: ["99minds"]
 --- 
 <img src="/assets/blog/Getting-Your-E-Commerce-Shop-Thanksgiving-Ready1.jpg" alt="Getting your e-commerce shop thanksgiving ready.">
 
-If you are an eCommerce retailer, Thanksgiving is the time to create irresistible offers. You can easily win over your customers as they are <a href="https://www.99minds.io/blog/gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine" target="_blank">looking to buy gifts for those they love</a>. Thanksgiving is when people are away from the daily drudgery of work, spend more time with their friends and family, and look for <a href="https://www.99minds.io/blog/future-of-ecommerce-in-2023" target="_blank">the best eCommerce deals</a>.
+If you are an eCommerce retailer, Thanksgiving is the time to create irresistible offers. You can easily win over your customers as they are <a href="https://www.99minds.io/blog/gift-cards-marketing-an-absolute-solution-to-win-new-customers-this-valentine" target="_blank">looking to buy gifts for those they love</a>. Thanksgiving is when people are away from the daily drudgery of work, spend more time with their friends and family, and look for the best eCommerce deals.
 
 ## What’s special about thanksgiving for retailers?
 

@@ -89,11 +89,11 @@ For small businesses, launching a gift card program can open doors to new opport
 
 <li><h3>Special Occasions and Events</h3> Leverage special occasions and events such as holidays, birthdays or anniversaries, <a href="https://www.99minds.io/blog/7-valentines-day-marketing-ideas"  role="link" target="_blank">valentine’s day gift ideas</a> to launch targeted promotions or themed gift card offers that match customer preferences and purchasing behavior.</li>
 
-<li><h3>Customer Feedback</h3> Ask customers for feedback on their experiences with your <a href="https://www.99minds.io/giftcards"  role="link" target="_blank">gift card program</a> and use this information to make informed decisions and make improvements to improve the overall customer experience.</li>
+<li><h3>Customer Feedback</h3> Ask customers for feedback on their experiences with your <a href="https://www.99minds.io/giftcard"  role="link" target="_blank">gift card program</a> and use this information to make informed decisions and make improvements to improve the overall customer experience.</li>
 
 <li><h3>Compliance and Regulation</h3> Ensure compliance with laws and industry standards for gift card programs, including state laws regarding expiration dates, fees, and unused balances, to avoid potential legal issues or liability.</li>
 
-<li><h3>Continuous Assessment and Optimization</h3> Regularly assess the performance of your <a href="https://www.99minds.io/giftcards"  role="link" target="_blank"> gift card program</a>and identify areas for optimization or improvement based on sales data, customer feedback, and industry trends to maximize efficiency and profitability.</li>
+<li><h3>Continuous Assessment and Optimization</h3> Regularly assess the performance of your <a href="https://www.99minds.io/giftcard"  role="link" target="_blank"> gift card program</a>and identify areas for optimization or improvement based on sales data, customer feedback, and industry trends to maximize efficiency and profitability.</li>
 </ol>
 
 <h2 id="strategies-to-increase-sales-with-gift-cards">Strategies To Increase Sales With Gift Cards</h2>

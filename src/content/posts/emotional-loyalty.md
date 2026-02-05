@@ -234,7 +234,7 @@ Emotional loyalty transforms your customers into fans who don’t just buy, they
 <b>Start today:</b> define the feeling you want your customers to have, infuse it across every touchpoint, and measure your emotional impact.
 
 Because in the end, people don’t stay for points. They stay for connection.
-Want to build <a href="https://www.99minds.io/blog/loyalty/" role="link" target="_blanck">loyalty programs</a> that create real emotional connections?
+Want to build <a href="https://www.99minds.io/blog/loyalty-program" role="link" target="_blanck">loyalty programs</a> that create real emotional connections?
 
 Explore <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a>, your partner in crafting meaningful customer experiences.
 

@@ -78,7 +78,7 @@ In referral marketing, the reward you provide might vary, but it must be meaning
 
 <h3>Cost of Referral Marketing</h3>
 
-<a href="https://www.99minds.io/blog/what-is-referral-program" role="link" target="_blank">Referral programs</a> have a higher return on investment (ROI) as user engagement increases and new customers join the network of delighted customers. Because your existing customers are driving conversions, you may cut sales and marketing costs both short and long term.
+<a href="https://www.99minds.io/blog/referral-program" role="link" target="_blank">Referral programs</a> have a higher return on investment (ROI) as user engagement increases and new customers join the network of delighted customers. Because your existing customers are driving conversions, you may cut sales and marketing costs both short and long term.
 
 However, poor customer service might result in increased costs in a referral marketing scheme. Creating pleased and loyal consumers is critical, especially when conducting a referral campaign. Make sure you address any flaws and enhance areas where customers may not be completely satisfied with their experience.
 

@@ -10,7 +10,7 @@ image:
   alt: "featured image for blog top customer loyalty programs"
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/customer-loyalty-program"
-keywords: ["Loyalty Program"]
+keywords: ["customer loyalty programs"]
 
 --- 
 

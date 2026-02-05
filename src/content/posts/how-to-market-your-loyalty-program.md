@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/how-to-market-your-loyalty-program"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/generic/10-best-point-of-sale-pos-systems-for-2022/">
-<img src="/assets/blog/How-to-Market-your-Loyalty-Program.jpg"></a>
+
+<img src="/assets/blog/How-to-Market-your-Loyalty-Program.jpg">
 
 <h2>What is the best way to market your loyalty program?</h2>
 

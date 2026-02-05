@@ -59,7 +59,7 @@ Workout? The amount of weight you can lift, the number of different exercises th
 
 Now, when science is behind everything, then why not in predicting and working on making decisions that seem impossible or extremely hazy?
 
-<a href="https://www.99minds.io/blog/artificial-intelligence/ai-helps-to-make-pizza-more-delicious/">AI can make or break all your myths and still work hard</a> to perform for you much more than your efforts because, like you, AI can predict the amount of energy you can put in as well.
+AI can make or break all your myths and still work hard to perform for you much more than your efforts because, like you, AI can predict the amount of energy you can put in as well.
 
 But if that is the case, why isn’t everyone working behind data and making it their whole sole strategy to win big in the market?
 

@@ -63,7 +63,7 @@ Create deeper more lasting connections with your customers by motivating them to
 B2B loyalty programs help businesses stand out by making customers feel valued. With increasing competition, offering a <a href="https://www.99minds.io/loyalty">loyalty program</a> sets you apart. It encourages customers to come back and helps build strong, lasting relationships.
 
 <h2 id="What-are-B2B-Loyalty-Program">What is B2B Loyalty Program?</h2>
-The B2B loyalty program is designed to reward firms for their continued partnership and encourage them to make repeat purchases. Unlike traditional <a href="https://www.99minds.io/blog/build-customer-loyalty\">customer loyalty</a> programs, these programs relay the common theme of creating a long-term relationship between businesses. The aims of these initiatives lay down fresh commitments for customer retention. Such features are like:
+The B2B loyalty program is designed to reward firms for their continued partnership and encourage them to make repeat purchases. Unlike traditional <a href="https://www.99minds.io/blog/customer-loyalty">customer loyalty</a> programs, these programs relay the common theme of creating a long-term relationship between businesses. The aims of these initiatives lay down fresh commitments for customer retention. Such features are like:
 
 <b>Tiers:</b> The more purchases and commitments you make, the higher tier you can achieve.  Unlocking the greater benefits or rewards. Higher tiers offer exclusive services, bigger discounts, and priority support to boost partner engagement and purchases.
 

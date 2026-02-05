@@ -121,7 +121,7 @@ Referral programs provide valuable data on customer behavior and preferences, ai
 
 ### Competitive Advantage
 
-A well-implemented referral program can serve as a powerful <a href="https://www.99minds.io/blog/ecommerce-strategy-guide" role="link" target="_blanck">ecommerce strategy</a>, setting a business apart from competitors and bolstering its reputation through enhanced brand advocacy. Distinctive and appealing referral initiatives can effectively distinguish a business within a competitive marketplace. By incentivizing customers to refer others, they essentially become brand ambassadors, contributing significantly to the establishment of a positive and distinctive brand identity.
+A well-implemented referral program can serve as a powerful ecommerce strategy, setting a business apart from competitors and bolstering its reputation through enhanced brand advocacy. Distinctive and appealing referral initiatives can effectively distinguish a business within a competitive marketplace. By incentivizing customers to refer others, they essentially become brand ambassadors, contributing significantly to the establishment of a positive and distinctive brand identity.
 
 ### Scalability
 
@@ -327,7 +327,7 @@ Looking at successful referral programs can provide valuable insights and inspir
 
 <h2 id="Wrapping-Up">Wrapping Up</h2>
 
-Referral programs are a powerful <a href="https://www.99minds.io/blog/marketing-tools" role="link" target="_blanck">marketing tool</a> that can help businesses acquire new customers, increase sales, and build <a href="https://www.99minds.io/blog/what-is-brand-loyalty" role="link" target="_blanck">brand loyalty</a>. By leveraging the trust and influence of existing customers, businesses can create a sustainable and cost-effective <a href="https://www.99minds.io/blog/customer-acquisition-strategy" role="link" target="_blanck">customer acquisition strategy</a>.
+Referral programs are a powerful <a href="https://www.99minds.io/blog/marketing-tools" role="link" target="_blanck">marketing tool</a> that can help businesses acquire new customers, increase sales, and build <a href="https://www.99minds.io/blog/brand-loyalty" role="link" target="_blanck">brand loyalty</a>. By leveraging the trust and influence of existing customers, businesses can create a sustainable and cost-effective <a href="https://www.99minds.io/blog/customer-acquisition-strategy" role="link" target="_blanck">customer acquisition strategy</a>.
 
 To create a successful referral program, it's essential to define your goals, understand your target audience, choose the right incentives, create a seamless referral process, promote the program, track performance, and continuously optimize. By looking at successful examples from companies, you can gain valuable insights and inspiration for designing your own referral program.
 

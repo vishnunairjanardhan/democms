@@ -13,12 +13,12 @@ url: "https://www.99minds.io/blog/how-to-drive-customer-loyalty-during-a-global-
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/customer-loyalty/how-to-drive-customer-loyalty-during-a-global-recession/" target="_blank">
-<img src="/assets/blog/How-to-drive-customer-loyalty-during-a-Global-Recession-1.jpg"></a>
 
-These are tough times. We are sure that there are thousands of blogs highlighting how crucial <a href="https://www.99minds.io/blog/types-of-customer-loyalty-programs/" target="_blank">customer loyalty</a> is. The world is on the brink of a recession. Pockets are going to be tight. Spending will be frugal. People will have their guard up, thanks to the uncertainty associated with the global recession.
+<img src="/assets/blog/How-to-drive-customer-loyalty-during-a-Global-Recession-1.jpg">
 
-Your loyal customers will most likely stay with you and spend more on each transaction than others. Essential products will be sold more than ones that are nice to have. With people displaying prudent spending behavior, your brand needs to remind customers that you value their association. Thankfully, there are a few steps that you can take to drive <a href="https://www.99minds.io/blog/customer-loyalty-programs-will-they-benefit-my-business/" target="_blank">customer loyalty during times of recession</a>.
+These are tough times. We are sure that there are thousands of blogs highlighting how crucial customer loyalty is. The world is on the brink of a recession. Pockets are going to be tight. Spending will be frugal. People will have their guard up, thanks to the uncertainty associated with the global recession.
+
+Your loyal customers will most likely stay with you and spend more on each transaction than others. Essential products will be sold more than ones that are nice to have. With people displaying prudent spending behavior, your brand needs to remind customers that you value their association. Thankfully, there are a few steps that you can take to drive customer loyalty during times of recession.
 
 <h2>Create an emotional connection</h2>
 
