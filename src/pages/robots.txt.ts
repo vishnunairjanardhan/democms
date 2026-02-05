@@ -3,9 +3,6 @@ import type { APIRoute } from 'astro';
 const robotsTxt = `
 User-agent: *
 Allow: /
-Disallow: /case-study1
-Disallow: /loyalty-and-reward-management
-Disallow: /GetStarted
 Disallow: /tags/*
 User-agent: Pinterestbot
 Disallow: /
