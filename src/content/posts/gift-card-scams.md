@@ -268,7 +268,7 @@ Building a safe and secure gift card program with <a href="https://www.99minds.i
 <li>
 <h3>Choose 99minds for Gift Card Management</h3>
 
-Selecting 99minds as your platform for gift card management is the first step because it offers comprehensive tools and features specifically designed for efficiently creating and overseeing <a href="http://99minds.io/giftcard" role="link" target="_blanck">gift card programs.</a>
+Selecting 99minds as your platform for gift card management is the first step because it offers comprehensive tools and features specifically designed for efficiently creating and overseeing <a href="https://www.99minds.io/" role="link" target="_blanck">gift card programs.</a>
 
 <img rel="preload" role="img" src="/assets/blog/gift-card-management.webp" alt="Gift card management">
 

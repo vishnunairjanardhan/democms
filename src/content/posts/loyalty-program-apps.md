@@ -148,7 +148,7 @@ Here’s a more profound plunge into a few of the most excellent dependability a
 
 <ol role= "list">
 
-<h3><li><a href="http://www.99minds.io" role="link" target="_blanck">99minds</a></li></h3>
+<h3><li><a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a></li></h3>
 
 <b>Best For:</b> Brands interested in coalition loyalty programs across multiple businesses.
 

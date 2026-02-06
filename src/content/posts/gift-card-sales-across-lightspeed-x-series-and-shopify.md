@@ -152,7 +152,7 @@ This fluid omnichannel experience ensures that gift cards work wherever your cus
 </ul>
 
 <h2 id="Conclusion">Conclusion</h2>
-<a href="http://www.99minds.io">99minds</a> makes it incredibly easy for retailers to offer and manage gift cards across both physical and digital storefronts. With its tight integration into <a href="https://www.99minds.io/integrations/lightspeed">Lightspeed Retail (X-Series)</a> and Shopify, merchants get a streamlined POS solution that bridges the gap between in-person and online shopping.
+<a href="https://www.99minds.io/">99minds</a> makes it incredibly easy for retailers to offer and manage gift cards across both physical and digital storefronts. With its tight integration into <a href="https://www.99minds.io/integrations/lightspeed">Lightspeed Retail (X-Series)</a> and Shopify, merchants get a streamlined POS solution that bridges the gap between in-person and online shopping.
 
 Want to give your customers the power of choice? Start using 99minds and turn your gift card program into a revenue driver—online and off.
 

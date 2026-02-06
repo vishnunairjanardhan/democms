@@ -47,7 +47,7 @@ keywords: ["Loyalty Program"]
 <div class="w-full">
 <img src="/assets/blog/15-proven-strategies-to-increase-customer-loyalty-retention.webp" alt="15 proven strategies to increase customer loyalty retention | Maximize ROI.">
 
-The lifeblood of any successful business is <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">customer loyalty</a>! Acquiring customers is no doubt an important aspect of e-commerce as we know it today, but keeping customers happy is just as critical. Research shows that a 5% increase in <a href="http://www.99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a> rates can increase profits by 75%. So what will keep customers coming back?
+The lifeblood of any successful business is <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">customer loyalty</a>! Acquiring customers is no doubt an important aspect of e-commerce as we know it today, but keeping customers happy is just as critical. Research shows that a 5% increase in <a href="https://www.99minds.io//blog/customer-retention" role="link" target="_blanck">customer retention</a> rates can increase profits by 75%. So what will keep customers coming back?
 In this blog, we’ll explore 15 proven strategies to increase customer loyalty and retention, helping you build strong relationships with your audience and secure long-term business growth.
 
 Understanding client devotion is basic for each commerce. Steadfast clients not as it were produce repeating income but too act as brand envoys, supporting for your items or administrations through word-of-mouth and social media. 

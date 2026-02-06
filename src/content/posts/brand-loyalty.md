@@ -294,7 +294,7 @@ Exceptional customer service is critical in building and sustaining brand loyalt
 
 <h2 class="m-0 mb-4" id="Build-Brand-Loyalty-with-99minds">Build Brand Loyalty with 99minds</h2>
 
-In today's competitive market, establishing strong brand loyalty is essential for business growth and customer retention. <a href="http://www.99minds.io" role="link" target="_blanck">99minds</a> offers an omnichannel solution that helps businesses seamlessly integrate gift cards, loyalty programs, referral programs, and store credit systems to enhance their customer engagement strategies. Here’s how 99minds can help you build brand loyalty effectively:
+In today's competitive market, establishing strong brand loyalty is essential for business growth and customer retention. <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a> offers an omnichannel solution that helps businesses seamlessly integrate gift cards, loyalty programs, referral programs, and store credit systems to enhance their customer engagement strategies. Here’s how 99minds can help you build brand loyalty effectively:
 <ol role="list">
 <li>
 <h3>Comprehensive Loyalty Programs</h3>
@@ -377,7 +377,7 @@ The churn rate, or the rate at which customers stop doing business with a brand,
 
 <h2 id="Wrapping-Up: Strengthening-Your-Brand-Loyalty">Wrapping Up: Strengthening Your Brand Loyalty</h2>
 
-In summary, fostering brand loyalty is essential for any business aiming for longevity and success. Tools like <a href="http://www.99minds.io" role="link" target="_blanck">99minds</a> can greatly enhance these efforts by streamlining the creation and management of loyalty and referral programs. We hope this guide inspires you to strengthen your strategies for brand loyalty, ensuring your brand remains a top choice for consumers.
+In summary, fostering brand loyalty is essential for any business aiming for longevity and success. Tools like <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a> can greatly enhance these efforts by streamlining the creation and management of loyalty and referral programs. We hope this guide inspires you to strengthen your strategies for brand loyalty, ensuring your brand remains a top choice for consumers.
 
 <h2 id="Frequently-Ask-Questions-(FAQs)">Frequently Ask Questions (FAQs)</h2>
 

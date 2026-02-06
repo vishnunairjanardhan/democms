@@ -84,7 +84,7 @@ A fruitful fusion dependability program isn’t around putting a couple of brand
 <ol role= "list">
 
 <h3><li>Lead Brand or Devotion Stage</li></h3>
-This can be the grapple of the program—usually a major brand, retail chain, or a devotion innovation supplier like <a href="http://www.99minds.io" role="link" target="_blanck">99minds</a> or Payback. They set the rules, oversee the framework, and manage the operations of the complete consolidation.
+This can be the grapple of the program—usually a major brand, retail chain, or a devotion innovation supplier like <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a> or Payback. They set the rules, oversee the framework, and manage the operations of the complete consolidation.
 
 <h3><li>Accomplice Brands</li></h3>
 These are the partaking dealers over different categories—retail, travel, feasting, mold, basic need, excitement, etc. They contribute to the esteem biological system by permitting clients to gain or recover focuses through their stages.

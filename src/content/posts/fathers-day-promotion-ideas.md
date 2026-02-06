@@ -209,7 +209,7 @@ Father’s Day might not rival <a href="https://www.99minds.io/blog/mothers-day-
 
 From grilling and golfing to gaming and grooming, many dads appreciate thoughtful gifts that reflect their interests. With the right Father's Day promotion strategy, you can help shoppers make meaningful choices without overspending.
 
-At <a href="http://99minds.io/" role="link" target="_blanck">99minds</a>, we believe in creating memorable shopping experiences that drive loyalty and increase conversions. 
+At <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a>, we believe in creating memorable shopping experiences that drive loyalty and increase conversions. 
 
 <h2 id="3">Father's Day Promotions Frequently Ask Questions (FAQs)</h2>
 

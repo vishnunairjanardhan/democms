@@ -488,7 +488,7 @@ The program includes access to Geek Squad’s technical support and diagnostic s
 
 In summary, the best eCommerce loyalty programs focus on making customers feel valued and appreciated through clear rewards, tiered benefits, and personalized experiences. These programs foster long-term loyalty by encouraging repeat purchases and creating a strong bond with customers.
 
-By integrating these elements, businesses can boost engagement, enhance the customer journey, and increase revenue. Looking to build or improve your own program? <a href="http://www.99minds.io">99minds</a> can help you create a seamless and effective loyalty experience for your brand.
+By integrating these elements, businesses can boost engagement, enhance the customer journey, and increase revenue. Looking to build or improve your own program? <a href="https://www.99minds.io/">99minds</a> can help you create a seamless and effective loyalty experience for your brand.
 
 <h2 id="FAQ-on-the-Best-Ecommerce-Loyalty-Programs">FAQ on the Best Ecommerce Loyalty Programs:</h2>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is an eCommerce loyalty program?</h3>

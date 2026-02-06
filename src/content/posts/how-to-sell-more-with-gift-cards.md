@@ -78,7 +78,7 @@ Consider the following scenario: an order in your store costs $25 on average, an
 
 Are you looking for a more effective approach to engage with your website’s visitors?
 
-<a href="https://www.99minds.io/giftcard/" target="_blank">99minds gift cards</a> could be the answer if you’re looking a simple approach to enhance profits for your company. With API-powered Promotions, Loyalty, and Gift Card Programs, 99minds can help you generate more revenue. Gift cards have even more applications for e-commerce Businesses. They’re not only necessary to meet customers’ expectations, but they’re also part of a marketing strategy to boost conversion rates. Remember that to persuade clients to purchase those cards, you must first provide them with a memorable experience.
+<a href="https://www.99minds.io/giftcard" target="_blank">99minds gift cards</a> could be the answer if you’re looking a simple approach to enhance profits for your company. With API-powered Promotions, Loyalty, and Gift Card Programs, 99minds can help you generate more revenue. Gift cards have even more applications for e-commerce Businesses. They’re not only necessary to meet customers’ expectations, but they’re also part of a marketing strategy to boost conversion rates. Remember that to persuade clients to purchase those cards, you must first provide them with a memorable experience.
 
 
 

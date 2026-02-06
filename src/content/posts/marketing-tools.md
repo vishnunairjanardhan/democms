@@ -44,7 +44,7 @@ As we approach 2024, businesses must arm themselves with the right tools to stay
 
 <h2 id="What-are-Marketing-Tools?">What are Marketing Tools?</h2>
 
-Marketing tools are platforms, software, or resources designed to help businesses execute, manage, and analyze their marketing activities. These tools streamline various aspects of marketing, such as automating email campaigns, scheduling social media posts, tracking analytics, managing customer relationships, and boosting <a href="http://99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a>.
+Marketing tools are platforms, software, or resources designed to help businesses execute, manage, and analyze their marketing activities. These tools streamline various aspects of marketing, such as automating email campaigns, scheduling social media posts, tracking analytics, managing customer relationships, and boosting <a href="https://www.99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a>.
 
 By using marketing tools, businesses can save time, increase efficiency, and improve the effectiveness of their campaigns. They are essential for creating data-driven strategies, engaging with customers, and achieving marketing goals in a competitive landscape.
 

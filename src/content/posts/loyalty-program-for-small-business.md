@@ -53,14 +53,14 @@ why would someone return to your business when there are countless competitors o
 
 If you’re a small business owner, fostering loyalty isn’t just a nice-to-have; it’s essential for long-term growth. And guess what? Loyalty programs for small businesses can be the game-changer you’ve been looking for.
 
-In this blog, we’ll explore why <a href="http://99minds.io/loyalty" role="link" target="_blanck">loyalty programs</a> matter, how you can implement them on a budget, and creative ways to keep your customers coming back for more. 
+In this blog, we’ll explore why <a href="https://www.99minds.io/loyalty" role="link" target="_blanck">loyalty programs</a> matter, how you can implement them on a budget, and creative ways to keep your customers coming back for more. 
 
 Let’s dive in.
 
 
 <h2 id="Why-Loyalty-Programs-Matter-for-Small-Businesses">Why Loyalty Programs Matter for Small Businesses</h2>
 
-Think about this: acquiring a new customer costs five times more than retaining an existing one. In a world where marketing budgets are tight and competition is fierce, small businesses can’t afford to overlook <a href="http://99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a>.
+Think about this: acquiring a new customer costs five times more than retaining an existing one. In a world where marketing budgets are tight and competition is fierce, small businesses can’t afford to overlook <a href="https://www.99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a>.
 
 A well-designed loyalty program for small business doesn’t just keep customers coming back—it transforms them into brand advocates. These programs reward your customers for their repeat business, which makes them feel appreciated and encourages them to spend more. For small businesses, this is a golden opportunity to foster a sense of community while boosting revenue.
 

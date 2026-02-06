@@ -46,7 +46,7 @@ Everyone enjoys a good product at a sweet price. When asked customers about what
 
 In addition, 50% of mobile users will study and compare costs while looking for digital coupons and gift cards that they may use to save money on Father’s Day.
 
-So, <a href="https://www.99minds.io/giftcard/" target="_blank">discounts and gift cards</a> play a key role in Father’s Day sales. Prepare to develop e-coupons and e-gift cards so they can add to the profit of your online store.
+So, <a href="https://www.99minds.io/giftcard" target="_blank">discounts and gift cards</a> play a key role in Father’s Day sales. Prepare to develop e-coupons and e-gift cards so they can add to the profit of your online store.
 
 <h2>SOCIAL MEDIA CAMPAIGN</h2>
 

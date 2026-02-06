@@ -265,7 +265,7 @@ During the Halloween season, suggest Halloween-themed add-ons at checkout or cro
 <li>
 <h3>Mobile Wallet Passes for Exclusive Offers</h3>
 
-<a href="https://www.99minds.io/wallet" role="link" target="_blanck">Mobile wallet passes</a> deliver Halloween deals directly to customers’ phones. Starbucks often uses them to send seasonal offers and event passes, allowing instant access to discounts and rewards.
+<a href="https://www.99minds.io/apple-google-wallet-pass" role="link" target="_blanck">Mobile wallet passes</a> deliver Halloween deals directly to customers’ phones. Starbucks often uses them to send seasonal offers and event passes, allowing instant access to discounts and rewards.
 
 DTC brands can create digital passes with limited-time discounts, VIP early access, or exclusive bundles. Customers add the pass to their wallet and redeem it at checkout. Wallet passes can include push notifications for expiring deals or upcoming promotions, driving urgency and faster conversions.
 </li>

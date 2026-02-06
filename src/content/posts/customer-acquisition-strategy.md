@@ -125,7 +125,7 @@ In today's digital landscape, your website serves as the center point of your on
 
 Gift cards can be an efficient way to improve your customer acquisition strategy by attracting new consumers, retaining existing ones, and boosting sales. Gift cards are popular with both givers and receivers, providing a chance to show off your company to new customers and <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blanck">encourage repeat business</a>. 
 
-Implementing a strong gift card program can help you increase brand visibility and <a href="https://www.99minds.io/blog/customer-loyalty" role="link" target="_blanck">customer loyalty</a>. Use innovative <a href="http://www.99minds.io/giftcard" role="link" target="_blanck">gift card software</a> to improve operations and maximize the effect of your campaigns. 
+Implementing a strong gift card program can help you increase brand visibility and <a href="https://www.99minds.io/blog/customer-loyalty" role="link" target="_blanck">customer loyalty</a>. Use innovative <a href="https://www.99minds.io//giftcard" role="link" target="_blanck">gift card software</a> to improve operations and maximize the effect of your campaigns. 
 
 <li>
 <h3>Focus On SEO</h3> 

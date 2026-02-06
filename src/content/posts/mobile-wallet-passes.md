@@ -209,7 +209,7 @@ Offering mobile wallet passes positions a business as innovative, tech-savvy, an
 
 <h2 id="3">Types of Mobile Wallet Passes</h2>
 
-<a href="https://www.99minds.io/wallet" role="link" target="_blanck">Mobile wallet passes</a> come in various forms, each designed to serve specific business goals—from increasing loyalty to boosting sales or simplifying event management. Here’s an in-depth look at the most common types:
+<a href="https://www.99minds.io/apple-google-wallet-pass" role="link" target="_blanck">Mobile wallet passes</a> come in various forms, each designed to serve specific business goals—from increasing loyalty to boosting sales or simplifying event management. Here’s an in-depth look at the most common types:
 
 <div class="m-auto w-full lg:px-34">
     <img loading="lazy" role="img" src="/assets/blog/Types-of-Mobile-Wallet-Passes.png" alt="Types of Mobile Wallet Passes">
