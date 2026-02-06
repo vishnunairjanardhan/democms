@@ -1,6 +1,6 @@
 ---
 pubDate: 2025-01-14
-author: PRAVIN KAMBLE
+author: Pravin
 authorImg: "Pravin.png"
 title: "Customer Engagement: Definition, Examples, and Why It’s Important"
 description: "Discover effective strategies to enhance customer engagement, build brand loyalty, and improve customer satisfaction through meaningful interactions and innovative approaches."
