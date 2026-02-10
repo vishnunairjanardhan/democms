@@ -72,7 +72,7 @@ The significant distinction between omnichannel and multichannel is that the for
 On the other hand, an omnichannel approach integrates all channels and provides a consistent shopping experience. A customer can browse products on the website, add them to the cart on the mobile app, and purchase them in-store without any hassle.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

@@ -66,7 +66,7 @@ Referral programs are a strategic marketing tool used by businesses to leverage 
 Referral programs are built on the principle of trust and the power of <a href="https://www.99minds.io/blog/word-of-mouth-marketing" role="link" target="_blanck">word-of-mouth marketing</a>. People tend to trust recommendations from friends and family more than traditional advertising, making referral programs an effective way to <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">build a loyal customer base</a> and drive sales.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

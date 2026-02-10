@@ -38,8 +38,7 @@ Not only is online shopping convenient, but it’s also time-saving. There’s n
 
 <h2>Easy returns and exchanges</h2>
 
-One of the common concerns with online shopping is the possibility of receiving a product that doesn’t meet your expectations. However, most 
-<a href="https://www.99minds.io/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges/" target="_blank">online retailers have made it simple to return or exchange products</a>. The return policies are clearly outlined, and you can do it all from the comfort of your own home. In some cases, the online retailer will even cover the cost of shipping the item back.
+One of the common concerns with online shopping is the possibility of receiving a product that doesn’t meet your expectations. However, most online retailers have made it simple to return or exchange products. The return policies are clearly outlined, and you can do it all from the comfort of your own home. In some cases, the online retailer will even cover the cost of shipping the item back.
 
 <a href="https://calendly.com/99minds/30min" role="link" target="_blanck"> <img loading="lazy" role="img" src="/assets/blog/Blog_CTA1.webp" alt="Book a Demo"></a>
 

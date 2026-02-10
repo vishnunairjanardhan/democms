@@ -222,7 +222,7 @@ At <a href="https://www.99minds.io" role="link" target="_blanck">99minds</a>, we
 Whether you're a nimble startup or a scaling SaaS unicorn, we help you turn users into superfans—without adding complexity to your stack.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

@@ -55,7 +55,7 @@ In this blog, we'll explore ten outstanding examples of tiered loyalty programs 
 A tiered loyalty program is a structured reward system in which customers receive various benefits based on their level of engagement or spending with a brand. Typically, these programs have multiple levels or tiers, and as customers move up, each tier offers increasingly valuable rewards. The primary goal of a tiered loyalty program is to encourage customers to spend more and engage more frequently with the brand to reach higher tiers and unlock better rewards. This <a href="https://www.99minds.io/blog/types-of-loyalty-program" role="link" target="_blanck">type of loyalty program</a> is one of the various approaches that businesses use to <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">build customer loyalty</a> and enhance customer retention.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

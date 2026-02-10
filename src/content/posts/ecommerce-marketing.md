@@ -237,7 +237,7 @@ You can increase conversions, increase traffic, and create an enduring brand wit
 By using customized techniques, such as improving website performance or gift card programs, businesses like <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> increase operations and revenue. Businesses may establish a strong online presence in the rapidly changing ecommerce industry by fusing technical know-how with innovation.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

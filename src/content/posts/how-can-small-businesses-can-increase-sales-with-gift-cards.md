@@ -109,13 +109,9 @@ Here’s how small businesses can make the most of their gift card program.
     <img src="/assets/blog/Advertising-campaigns.jpeg" alt="Advertising campaigns" style="display: block; margin: 0 auto;">
 </div> -->
  
-<li><h3>Participation in Social Networks</h3> Post regularly about your gift card offers on social media platforms. Such as:- Facebook, Instagram, Twitter, etc. It might help drive customer engagement through contests, surveys, and giveaways.Respond promptly to customer inquiries and comments. Learn more about,How to sell more gift cards by using Social Media  <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards"  role="link" target="_blank">Click Here</a>.</li>
+<li><h3>Participation in Social Networks</h3> Post regularly about your gift card offers on social media platforms. Such as:- Facebook, Instagram, Twitter, etc. It might help drive customer engagement through contests, surveys, and giveaways.Respond promptly to customer inquiries and comments. Learn more about,How to sell more gift cards by using Social Media.</li>
 
 <li><h3>Seasonal Promotions</h3> Create themed gift card designs for holidays and special occasions such as:  <a href="https://www.99minds.io/blog/how-to-capitalize-on-the-christmas-rush-using-gift-cards"  role="link" target="_blank">Gift Cards for Christmas</a>. Announce seasonal promotions via email newsletters and social media posts. Offer limited-time discounts or bonuses to encourage gift card purchases.</li>
-
-<!-- <div style="text-align: center;">
-    <img src="/assets/blog/seasonal-promotional-gift-card.jpeg" alt="seasonal promotional gift card" style="display: block; margin: 0 auto;">
-</div> -->
 
 <li><h3>Upselling Opportunities</h3> Train your staff to sell additional products or services to customers who redeem gift cards. Offer special offers or discounts to customers who use gift cards on high-margin items. Display complementary products near gift card redemption areas.</li>
 
@@ -142,12 +138,8 @@ Imagine you own a Shopify store that sells customizable gifts, including gift ca
 
 <li><h3>Influencer Marketing</h3> Collaborate with social media influencers to promote your gift card program. Find influencers in your niche with a large audience and connect with your target customers. Work together to create engaging content that highlights the benefits of your eGift cards. Encourage influencers to share their experiences and offer exclusive discounts to increase engagement and sales. Leveraging the social reach of influencers can help expand your small business's audience and attract new customers.</li>
 
-<li><h3>Co-Marketing</h3> Reach out to complementary local businesses to explore collaboration opportunities. Plan joint promotions or events that offer exclusive discounts to gift card holders. Promote collaborations through social media and email marketing. Getting more about how to increase sales using gift cards  <a href="https://99minds-astro.netlify.app/posts/9-ways-to-increase-gift-card-sales-using-social-media/"  role="link" target="_blank">Click here</a>.</li>
+<li><h3>Co-Marketing</h3> Reach out to complementary local businesses to explore collaboration opportunities. Plan joint promotions or events that offer exclusive discounts to gift card holders. Promote collaborations through social media and email marketing. Getting more about how to increase sales using gift cards.</li>
 </ol>
-
-<!-- <div style="text-align: center;">
-    <img src="/assets/blog/co-marketing.jpeg" alt="co-marketing" style="display: block; margin: 0 auto;">
-</div> -->
 
 <h2 id="how-to-boost-customer-engagement-with-gift-cards?">How to Boost Customer Engagement with Gift Cards?</h2>
 
@@ -177,7 +169,7 @@ Gift cards aren't just about purchases, they're also great for driving customer 
 
 Incorporating a well-planned <a href="https://www.99minds.io/giftcard"  role="link" target="_blank">gift card program</a>reasing customer loyalty. By leveraging the benefits of gift cards and implementing strategic initiatives, small businesses can unlock new doors to success and growth.
 
- <a href="https://www.99minds.io/"  role="link" target="_blank">99 minds</a> offers companies an easy-to-use platform to create personalized loyalty and advertising campaigns. With customizable gift cards, multi-channel delivery options, and comprehensive lifecycle management, businesses can easily manage and grow their gift card programs. The platform supports multiple currencies and locations, streamlining operations and driving customer loyalty. Whether you're looking to attract new customers or retain existing ones, <a href="https://www.99minds.io/"  role="link" target="_blank">99 minds</a> offers the tools to help build better brands and maintain lasting customer relationships.  <a href="https://www.99minds.io/giftcard"  role="link" target="_blank">Book a Demo</a> for more information. 
+ <a href="https://www.99minds.io/"  role="link" target="_blank">99 minds</a> offers companies an easy-to-use platform to create personalized loyalty and advertising campaigns. With customizable gift cards, multi-channel delivery options, and comprehensive lifecycle management, businesses can easily manage and grow their gift card programs. The platform supports multiple currencies and locations, streamlining operations and driving customer loyalty. Whether you're looking to attract new customers or retain existing ones, <a href="https://www.99minds.io/"  role="link" target="_blank">99minds</a> offers the tools to help build better brands and maintain lasting customer relationships.  <a href="https://www.99minds.io/giftcard"  role="link" target="_blank">Book a Demo</a> for more information. 
 
 
 </div>

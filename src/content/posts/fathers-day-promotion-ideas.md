@@ -127,7 +127,7 @@ Partner with dad influencers for unboxings or product reviews, team up with loca
 Cater to last-minute shoppers or those who prefer giving choice by offering Father’s Day-branded gift cards. Add heartfelt or humorous messages like “Let Dad Choose” or “Treat Dad His Way.” Gift cards are easy to promote, simple to redeem, and ideal for boosting sales in the final days leading up to the holiday.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

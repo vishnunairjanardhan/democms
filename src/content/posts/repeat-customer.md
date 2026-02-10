@@ -62,7 +62,7 @@ This blog will explore the importance of repeat customers, their contribution to
 A repeat customer is an individual or entity that returns to purchase a product or service from the same business on multiple occasions. Unlike a one-time buyer, repeat customers show loyalty and preference for a particular brand or company. This loyalty can stem from various factors, including positive past experiences, satisfaction with the product or service, perceived value, and an emotional connection to the brand. Understanding and nurturing repeat customers is vital for businesses as they are often more profitable and can drive long-term success.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

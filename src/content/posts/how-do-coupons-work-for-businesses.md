@@ -38,7 +38,7 @@ Coupons are also a great way to attract some of your older customers. They would
 
 <h3><li>Word-of-mouth recommendations:</li></h3>
 
-Your customers will have no qualms about spreading the word to their friends and family about the coupons you have introduced. When customers spread the word on <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards/" target="_blank">social media</a>, there is even more traction. There are a lot of bargain hunters who find it their obligation to tell others about the deals they’ve discovered. People will keep talking about your brand when there are good offers going on.
+Your customers will have no qualms about spreading the word to their friends and family about the coupons you have introduced. When customers spread the word on social media, there is even more traction. There are a lot of bargain hunters who find it their obligation to tell others about the deals they’ve discovered. People will keep talking about your brand when there are good offers going on.
 
 <h3><li>Ability to upsell and cross-sell:</li></h3>
 

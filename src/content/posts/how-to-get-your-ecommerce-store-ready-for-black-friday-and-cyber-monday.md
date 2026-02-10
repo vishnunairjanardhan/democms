@@ -76,7 +76,7 @@ The structure of the collaboration should be clear. The goals could be to genera
 
 <h3><li>Invest in social commerce:</li></h3>
 
-<a href="https://www.businessinsider.com/social-commerce-brand-trends-marketing-strategies?r=US&IR=T">4.3% of eCommerce sales in the US</a> were attributed to social commerce, according to Business Insider. Most of your customers will spend time researching new products and services on social media. eCommerce sites cannot afford to slack on using social media to drive sales. The majority of <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards/">social media platforms allow social commerce</a>. Social commerce refers to the ability of customers to view the products inside the platform and complete the purchase in the app itself.
+<a href="https://www.businessinsider.com/social-commerce-brand-trends-marketing-strategies?r=US&IR=T">4.3% of eCommerce sales in the US</a> were attributed to social commerce, according to Business Insider. Most of your customers will spend time researching new products and services on social media. eCommerce sites cannot afford to slack on using social media to drive sales. The majority of social media platforms allow social commerce. Social commerce refers to the ability of customers to view the products inside the platform and complete the purchase in the app itself.
 
 <h3><li>Ensure that your website is ready:</li></h3>
 

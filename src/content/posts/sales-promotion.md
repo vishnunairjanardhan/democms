@@ -64,7 +64,7 @@ By providing incentives and limited-time offers, sales promotion not only drive 
 A sales promotion is a limited-time offer or deal designed to prompt immediate buying behavior, increase brand awareness, or encourage trial usage of products. Sales promotion help companies reach short-term sales goals, using tactics like discounts, flash sales, or loyalty programs. These promotions provide incentives to influence the decision-making of existing customers and to draw in new buyers by creating an appealing offer.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

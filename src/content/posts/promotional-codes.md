@@ -14,6 +14,8 @@ keywords: ["promotional code", "promotion code", "what is promotional code", "wh
 
 ---
 
+<img src="/assets/blog/how_to_use_a_promotional_code_to_drive_sales.webp" alt="">
+
 
 <div class="lg:flex lg:gap-6">
   <!-- Table of content section -->
@@ -42,7 +44,6 @@ keywords: ["promotional code", "promotion code", "what is promotional code", "wh
  </div> 
 
  <div class="w-full">
- <img src="/assets/blog/how_to_use_a_promotional_code_to_drive_sales.webp">
 
 Before making an online purchase, most of us instinctively search for a promotional code to lower the total cost or score a freebie. This behavior is universal, and it’s why eCommerce sites should capitalize on the power of promotional codes. Research shows that 92% of shoppers use promo codes at least once a year, influencing over 50% of purchases. In this article, we'll dive into how promotional code works, the various types available, and the benefits they offer to both businesses and customers.
 

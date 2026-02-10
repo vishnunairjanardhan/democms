@@ -13,7 +13,7 @@ keywords: ["99minds"]
 url: "https://www.99minds.io/blog/5-tips-for-promoting-fathers-day-in-your-online-shop"
 
 ---
-<img src="/assets/blog/5-Tips-For-Promoting-Fathers-Day-In-Your-Online-Shop.jpg">
+<img src="/assets/blog/5-Tips-For-Promoting-Fathers-Day-In-Your-Online-Shop.jpg" alt="99minds blog hero image showing ‘5 Tips for Promoting Father’s Day in Your Online Shop’">
 
 <h2>Whether you believe it or not, Americans spent roughly $15 billion on Father’s Day in 2020</h2>
 
@@ -26,7 +26,7 @@ So don’t miss out on this opportunity and start planning your Father’s Day p
 <ol role= "list">
 <h3><li>Redefine your Social Media Game:</h3></li>
 
-Use your <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards/">social media platforms</a> to engage with your audience more during the Father’s Day celebration. One effective technique is to establish a gamified raffle or contest that motivates users to participate and share. You’ll not only <a href="https://www.99minds.io/blog/how-can-small-businesses-can-increase-sales-with-gift-cards/">increase revenues by increasing website traffic</a>, but you’ll also be able to collect new leads and increase consumer interaction with the brand.
+Use your social media platforms to engage with your audience more during the Father’s Day celebration. One effective technique is to establish a gamified raffle or contest that motivates users to participate and share. You’ll not only increase revenues by increasing website traffic, but you’ll also be able to collect new leads and increase consumer interaction with the brand.
 In the context of relationship marketing, the ultimate goal is to put your eCommerce business ahead of the competition. Make your online business their first pick for Father’s Day and any other occasion.
 This goal will be easier to attain if you can rely on the guidance of e-gift card strategists who can assist you with the facts you need to forecast your competitors’ actions and strategies.
 
@@ -46,7 +46,7 @@ Pro Tip – Consider rewarding customers with <a href="https://www.99minds.io/gi
 Free delivery offers will dominate this year’s Father’s Day eCommerce sales. This is because free delivery influences more than 75% of consumers’ purchasing decisions. At least 65% indicate they would suggest the store to a friend or family member if it offered free shipping.
 Given that the lack of free delivery is directly tied to 65 % of cart abandonment rates, it’s an essential aspect of closing the deal for online buyers. Stores that do offer free delivery are appealing to the large majority of customers who believe that purchasing for a Father’s Day present online should be just as easy as buying in-store and that fast, free shipping should be included to clinch the deal. So, this year, skip the shipping fees to boost your sales funnel.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg" alt="Create your own gift card campaign with 99minds."></a>
 
 <h3><li>Exclusive E-Gift Card for Father’s Day:</h3></li>
 

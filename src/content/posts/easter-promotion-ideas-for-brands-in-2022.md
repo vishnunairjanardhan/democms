@@ -79,8 +79,7 @@ Collaborate with other businesses during the Easter season. The best way to work
 <li>
 <b>Promotional Giveaways</b>
 
-Social media giveaways are the simplest and most effective approach to maximize 
-<a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards" target="_blank">social media engagement</a>. Build exciting and interactive social media Easter promotions with unique prizes. This would increase brand awareness and promotion.
+Social media giveaways are the simplest and most effective approach to maximize social media engagement. Build exciting and interactive social media Easter promotions with unique prizes. This would increase brand awareness and promotion.
 </li>
 
 <li>

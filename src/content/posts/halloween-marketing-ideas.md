@@ -41,7 +41,7 @@ According to the National Retail Federation, U.S. shoppers will spend over <a hr
 The challenge lies in standing out in a crowd of similar “spooky” campaigns. Many brands run standard Halloween sales, but the real winners use storytelling, gamification, and community engagement to capture attention and <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">build loyalty</a>.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

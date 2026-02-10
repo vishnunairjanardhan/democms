@@ -38,7 +38,7 @@ When it comes to gifting clothing or accessories, it can be challenging to find 
 
 <h2>Budget-Friendly</h2>
 
-Another advantage of gift cards is that they can be budget-friendly. If you’re on a tight budget or simply want to give a gift that won’t break the bank, a gift card is a great option. With a variety of price points and options available, you can choose a <a href="https://www.99minds.io/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges/" target="_blank">gift card that fits your budget and still provides a special treat</a> for mom.
+Another advantage of gift cards is that they can be budget-friendly. If you’re on a tight budget or simply want to give a gift that won’t break the bank, a gift card is a great option. With a variety of price points and options available, you can choose a gift card that fits your budget and still provides a special treat for mom.
 
 <a href="https://calendly.com/99minds" target="_blank">
 <img src="/assets/blog/CTA-IMAGE1.jpg"></a>
