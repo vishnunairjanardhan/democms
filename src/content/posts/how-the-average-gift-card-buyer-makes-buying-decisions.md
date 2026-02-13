@@ -14,14 +14,14 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/how-the-average-gift-card-buyer-makes-buying-decisions1-1.jpg">
+<img src="/assets/blog/how-the-average-gift-card-buyer-makes-buying-decisions1-1.jpg" alt="Blog hero image highlighting 'How The Average Gift Card Buyer Makes Buying Decisions'">
 
 If you are into retail, now is the time for you to up your gift card game. Businesses need to change their mindset when it comes to gift cards, it is usually considered as a part of a marketing exercise. <a href="https://www.99minds.io/giftcard" target="_blank">Gift cards</a> can be much more than that, it should be part of your customer service function too.
 
 With Covid happening, there will be a lot of changes in the shopping habits of consumers. The number of people lining up in front of stores to buy from their favorite brands might not happen anytime soon. People are happy shopping online and <a href="https://www.99minds.io/blog/why-are-digital-gift-cards-essential-to-your-e-commerce-business/" target="_blank">digital gifting is inevitably the best option for businesses to spread cheer</a>, at least a bit.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="/assets/blog/CTA-IMAGES-easter.jpg"></a>
+<img src="/assets/blog/CTA-IMAGES-easter.jpg" alt="CTA Button"></a>
 
 Let us understand the gift card buying behaviour of customers from Incomm’s Consumer Pulse Gift Cards report:
 
@@ -41,7 +41,7 @@ The study has revealed that when parents offer gift cards to their children, it 
 
 <h2>Conclusion:</h2>
 
-You realize that most of the gift-card buying behaviour revolves around making their friends and family feel valued and loved. That’s the crux of the entire study, if we could think in that perspective. The next step that a retailer needs to do is create a fantastic customer experience roadmap along with the help of a gift card software that makes the buying process easy. <a href="https://www.99minds.io/giftcard" target="_blank">99minds</a> can help you with the gift card while the retailer should spend time on coming up with brilliant offers for the gift card buyer.
+You realize that most of the gift-card buying behaviour revolves around making their friends and family feel valued and loved. That’s the crux of the entire study, if we could think in that perspective. The next step that a retailer needs to do is create a fantastic customer experience roadmap along with the help of a gift card software that makes the buying process easy. <a href="https://www.99minds.io/" target="_blank">99minds</a> can help you with the gift card while the retailer should spend time on coming up with brilliant offers for the gift card buyer.
  
 
  

@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/internationalization-strategies-in-e-commerce"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Internationalization-Strategies-in-e-commerce.jpg">
+<img src="/assets/blog/Internationalization-Strategies-in-e-commerce.jpg" alt="Blog hero image highlighting 'Internationalization Strategies in E-Commerce'">
 
 Internationalization has become a global buzzword in the world of e-commerce. But what exactly does this mean? Business internationalization is the process of increasing your company’s footprint outside its home country by branching out overseas.
 

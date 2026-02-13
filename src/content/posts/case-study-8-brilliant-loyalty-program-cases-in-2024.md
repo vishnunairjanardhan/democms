@@ -13,7 +13,8 @@ url: "https://www.99minds.io/blog/case-study-8-brilliant-loyalty-program-cases-i
 keywords: ["99minds"]
 
 --- 
-<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-11.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-11.png" alt="Blog hero image highlighting '8 Successful Loyalty Programs Cases to Emulate for Your Store'">
+
 Running a successful loyalty program takes more than just a bunch of attractive perks. There is more to it as it involves a lot of effort, time, resources, and technical know-how. A loyalty program helps businesses make sure that their Shopify store is sustainable. Losing existing customers regularly isn’t a sign of a fledgling store. This is exactly why loyalty programs are more than a mere marketing channel. In this article, we look at some of the most effective loyalty programs on Shopify. 
 
 <h2>Must-Haves for Loyalty Program Success Stories:</h2>
@@ -90,7 +91,7 @@ The above perks and more make Nike an excellent example of a successful loyalty 
 
 Tartlettes, that’s what Tarte’s loyal customers are called. They get perks and earn points on each purchase. You get 20% off on your purchase which can be redeemed for 3,000 points. You can earn points by signing up for the Tarte perks program, following them on Instagram and TikTok, taking their best sellers quiz, and so on. 
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Bookademo.jpg" alt="Create your own gift card campaign"></a>
 
 <h3><li>Starbucks:</li></h3>
 

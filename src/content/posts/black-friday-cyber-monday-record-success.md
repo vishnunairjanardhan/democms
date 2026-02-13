@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/black-friday-cyber-monday-record-success"
 keywords: ["bfcm sale"]
 
 --- 
-<img src="/assets/blog/99minds-shatters-records-during-black-friday-cyber-monday.gif"></a>
+<img src="/assets/blog/99minds-shatters-records-during-black-friday-cyber-monday.gif" alt="Blog hero image highlighting 'Record-Breaking Black Friday-Cyber Monday Success'">
 
 We are overjoyed to announce that our great merchants exceeded all expectations, earning record-breaking “$11,012,069,848”  sales over the Black Friday- Cyber Monday (BFCM) weekend! This result reflects a significant "2023" increase compared to last year, demonstrating the strength of Omnichannel Commerce as never before. 
 

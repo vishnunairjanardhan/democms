@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/10-Best-Point-of-Sale-POS-Systems-for-2022.jpg">
+<img src="/assets/blog/10-Best-Point-of-Sale-POS-Systems-for-2022.jpg" alt="Blog hero image highlighting '10 Best Point-of-Sale (POS) Systems for 2022'">
 
 Without a method to manage sales or accept payments, your business will be in a disarray. You need the right set of tools for efficiently running a business. A POS system is pivotal for retailers to run their business smoothly.
 

@@ -22,7 +22,7 @@ That being said, it’s a perfect time to start planning how you’ll motivate y
 How can businesses express gratitude to their 
 <a href="https://www.99minds.io/blog/ways-coupons-can-help-your-business-attract-loyal-customer" target="_blank">loyal customers</a> in light of this? How do they keep them motivated for the coming year while also hunting for new clients and customers in 2021?
 
-<a href="https://www.99minds.io/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges" target="_blank">The solution is simple and clear: give them a Gift Card</a>. Look no further than a 99minds Gift Card if you’re searching for a simple and inexpensive way to increase consumer loyalty and engagement.
+The solution is simple and clear: give them a Gift Card. Look no further than a 99minds Gift Card if you’re searching for a simple and inexpensive way to increase consumer loyalty and engagement.
 
 ## Effectiveness of 99minds Gift CardSand Vouchers 
 

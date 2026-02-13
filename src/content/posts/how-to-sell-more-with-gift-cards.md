@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/How-to-Sell-More-with-Gift-Cards.jpg">
+<img src="/assets/blog/How-to-Sell-More-with-Gift-Cards.jpg" alt="Blog hero image highlighting 'How to Sell More with Gift Cards'">
 
 You’ve chosen your site, hired your team, and set prices for your services and products—now it’s time to open for business. The holiday season is rapidly approaching, and do you understand what it entails? It’s the ideal time of year to get your business ready for a new revenue stream by selling <a href="https://www.99minds.io/giftcard" target="_blank">gift cards both online and in person</a>.
 
@@ -78,7 +78,7 @@ Consider the following scenario: an order in your store costs $25 on average, an
 
 Are you looking for a more effective approach to engage with your website’s visitors?
 
-<a href="https://www.99minds.io/giftcard/" target="_blank">99minds gift cards</a> could be the answer if you’re looking a simple approach to enhance profits for your company. With API-powered Promotions, Loyalty, and Gift Card Programs, 99minds can help you generate more revenue. Gift cards have even more applications for e-commerce Businesses. They’re not only necessary to meet customers’ expectations, but they’re also part of a marketing strategy to boost conversion rates. Remember that to persuade clients to purchase those cards, you must first provide them with a memorable experience.
+<a href="https://www.99minds.io/giftcard" target="_blank">99minds gift cards</a> could be the answer if you’re looking a simple approach to enhance profits for your company. With API-powered Promotions, Loyalty, and Gift Card Programs, 99minds can help you generate more revenue. Gift cards have even more applications for e-commerce Businesses. They’re not only necessary to meet customers’ expectations, but they’re also part of a marketing strategy to boost conversion rates. Remember that to persuade clients to purchase those cards, you must first provide them with a memorable experience.
 
 
 

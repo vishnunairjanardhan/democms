@@ -190,7 +190,7 @@ Each of us is guilty of spending almost two and a half hours on social media, la
 Make it easy for customers to share about your referral program and its benefits. It will increase the chances of being seen by more people.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -426,7 +426,7 @@ If you are looking for referral marketing software that will fulfill all your ca
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
     </div>
    </div>

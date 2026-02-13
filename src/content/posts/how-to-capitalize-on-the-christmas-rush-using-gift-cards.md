@@ -2,9 +2,9 @@
 pubDate: 2023-12-14
 author: Mrudul
 authorImg: "Mrudul.png"
-title: How to Capitalize on the Christmas Rush Using Gift Crads
+title: How to Capitalize on the Christmas Rush Using Gift Cards
 description: "In this article, we look at some of the best strategies to leverage gift cards this holiday season. Read on for more about holiday marketing."
-heading: How to Capitalize on the Christmas Rush Using Gift Crads
+heading: How to Capitalize on the Christmas Rush Using Gift Cards
 image: 
   url: "/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-14.png"
   alt: "Christmas Gift Cards."
@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/how-to-capitalize-on-the-christmas-rush-using-
 keywords: ["99minds"]
 
 --- 
-<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-14.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-14.png" alt="Blog hero image highlighting 'How to Capitalize on the Christmas Rush Using Gift Cards'">
 
 Shopify gift card promotions during the holidays should not be something that wasn’t planned properly. Gift cards for Christmas will be in high demand at this time, and rightly so. Your customers are readying themselves to spend more. Expect the gift card ROI during Christmas to be at an all-time high. Make sure you leverage the right Shopify gift card sales tactics to sell more of them. 
 
@@ -21,7 +21,7 @@ In this article, we look at Christmas eCommerce tips to sell more gift cards dur
 
 <h2>Who Do Customers Buy Gift Cards for?</h2>
 
-According to a <a href="https://blackhawknetwork.com/sites/default/files/2021-01/BHN-ebook-Gift-Card-Facts.pdf" target="_blank">Study by Blackhawk Netword</a>, here are some of the results.
+According to a <a href="https://blackhawknetwork.com/sites/default/files/2021-01/BHN-ebook-Gift-Card-Facts.pdf" target="_blank">Study by Blackhawk Network</a>, here are some of the results.
 <ul>
 <li> Friend (54%)</li>
 <li> Siblings (43%)</li>

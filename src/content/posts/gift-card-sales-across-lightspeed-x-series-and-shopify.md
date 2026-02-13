@@ -51,23 +51,31 @@ With 99minds integrated into Lightspeed Retail (X-Series), selling a physical gi
 <li><strong class=""> Start the Sale:</strong> Navigate to the Sell screen via the Lightspeed left-hand menu.</li>
 
 <li><strong class=""> Find the Product:</strong> Search for “Gift Card” in the product search bar.</li>
-<img src="/assets/blog/SS/Frame1.png" />
+
+<img src="/assets/blog/SS/Frame1.png" alt="https://www.99minds.io/blog/gift-card-sales-across-lightspeed-x-series-and-shopify">
+
 <li><strong class=""> Add the Card:</strong> On the Add New Gift Card screen, select the gift card product and enter the customer’s gift card number.</li>
-<img src="/assets/blog/SS/Frame2.png" />
+
+<img src="/assets/blog/SS/Frame2.png" alt="Add or manage existing gift card screen in Lightspeed POS.">
+
 <li><strong class=""> Verify & Load:</strong> Click Find Gift Card to validate the card, then enter the amount the customer wants to load.
 </li>
-<img src="/assets/blog/SS/Frame3.png" />
-<img src="/assets/blog/SS/Frame4.png" />
+
+<img src="/assets/blog/SS/Frame3.png" alt="Adding a new gift card to a sale in Lightspeed POS.">
+
+<img src="/assets/blog/SS/Frame4.png" alt="Gift card added to a sale in Lightspeed POS.">
+
 <li><strong class=""> Complete the Sale:</strong> Click Add to Sale and finish the transaction as you normally would.</li>
 
-<img src="/assets/blog/SS/Frame6.png" />
-<img src="/assets/blog/SS/Frame7.png" />
+<img src="/assets/blog/SS/Frame6.png" alt="Gift card sale completed in Lightspeed POS.">
+
+<img src="/assets/blog/SS/Frame7.png" alt="Printing a gift card receipt in Lightspeed POS.">
 </ol>
 
 
 The transaction details are instantly recorded in the 99minds platform under the Recent Transactions section, giving merchants real-time visibility and control.
 
-<img src="/assets/blog/SS/Frame8.png" />
+<img src="/assets/blog/SS/Frame8.png" alt="Fulfilled gift card order in the 99minds dashboard.">
 
 <h3>Buying a Gift Card Online via 99minds Widget on Shopify</h3>
 Customers can also buy gift cards digitally through your Shopify store using the 99minds widget:
@@ -131,13 +139,13 @@ Here’s how customers redeem gift cards online:
 <ol>
 <li><strong class=""> Checkout:</strong> At the Order Summary page, customers click Gift Certificate.</li>
 
-<img src="/assets/blog/SS/Frame18.png" />
+<img src="/assets/blog/SS/Frame18.png" alt="Applying a gift card at checkout.">
 
 <li><strong class=""> Apply the Code:</strong> They enter their unique gift card code and click Apply.</li>
-<img src="/assets/blog/SS/Frame19.png" />
+<img src="/assets/blog/SS/Frame19.png" alt="Entering a gift card code at checkout.">
 
 <li><strong class=""> Pay Balance:</strong> If the gift card doesn’t cover the full amount, you can pay the remaining balance using another method</li>
-<img src="/assets/blog/SS/Frame20.png" />
+<img src="/assets/blog/SS/Frame20.png" alt="Order confirmed after gift card redemption.">
 
 </ol>
 
@@ -152,7 +160,7 @@ This fluid omnichannel experience ensures that gift cards work wherever your cus
 </ul>
 
 <h2 id="Conclusion">Conclusion</h2>
-<a href="http://www.99minds.io">99minds</a> makes it incredibly easy for retailers to offer and manage gift cards across both physical and digital storefronts. With its tight integration into <a href="https://www.99minds.io/integrations/lightspeed">Lightspeed Retail (X-Series)</a> and Shopify, merchants get a streamlined POS solution that bridges the gap between in-person and online shopping.
+<a href="https://www.99minds.io/">99minds</a> makes it incredibly easy for retailers to offer and manage gift cards across both physical and digital storefronts. With its tight integration into <a href="https://www.99minds.io/integrations/lightspeed">Lightspeed Retail (X-Series)</a> and Shopify, merchants get a streamlined POS solution that bridges the gap between in-person and online shopping.
 
 Want to give your customers the power of choice? Start using 99minds and turn your gift card program into a revenue driver—online and off.
 
@@ -188,7 +196,7 @@ Absolutely. 99minds allows customization of gift card branding and design to ali
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

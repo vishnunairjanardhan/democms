@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/we-are-live-with-giftcard-platform-on-bigcomme
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/WhatsApp-Image-2020-10-19-at-3.19.18-PM-1.jpeg">
+<img src="/assets/blog/WhatsApp-Image-2020-10-19-at-3.19.18-PM-1.jpeg" alt="We are live with GiftCard Platform on BigCommerce">
 
 We are excited to announce that our 99minds GiftCard Platform is now live on BigCommerce, one of the world’s leading ecommerce platforms. We are sure that it will help you scale your online store many times over and above your expectations. 99minds has partnered with many technology solution providers so that you can grow your business with ease. Being a BigCommerce partner was one such strategic decision based on the goals that we had for the success of our clients and also because of its unmatched reputation.
 

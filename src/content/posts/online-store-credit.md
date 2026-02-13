@@ -240,7 +240,7 @@ Acknowledge customer loyalty by offering store credit on special milestones, suc
 </ol>
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -305,7 +305,7 @@ Whether you're looking to streamline refunds, boost customer engagement, or enha
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
     </div>
    </div>

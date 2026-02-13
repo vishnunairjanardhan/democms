@@ -13,7 +13,8 @@ url: "https://www.99minds.io/blog/how-to-engage-customers-post-holidays-with-gif
 keywords: ["99minds"]
 
 --- 
-<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-16.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-16.png" alt="Blog hero image highlighting 'Top Ten Ways to Engage Customers Post-Holidays With Gift Cards'">
+
 Gift cards were seen as a thoughtless investment once. Recipients have been guilty of forgetting to use them. They used to lie untouched in the drawers of most recipients’ homes. But here’s one more kicker: Customers are happy to spend even after the holidays. You must have an effective post-holiday promotions strategy in place to get the best bang for your buck. Add gift card incentives into the mix to make your campaigns successful. 
 
 The sale of gift cards is a great opportunity for eCommerce stores to multiply their post-holiday sales. Since gift card recipients end up spending more than the value on it, making gift cards a huge part of your post-holiday marketing strategy is a wise move to make. Most gift cards in circulation will see them getting spent in January, and this inadvertently extends the holiday shopping season. To increase sales during this time, you must have an effective strategy in place. 

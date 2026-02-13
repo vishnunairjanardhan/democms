@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/Why-Gift-Cards-Are-the-Perfect-Present-for-Busy-Moms-on-Mothers-Day.jpg">
+<img src="/assets/blog/Why-Gift-Cards-Are-the-Perfect-Present-for-Busy-Moms-on-Mothers-Day.jpg" alt="Blog hero image highlighting 'Why Gift Cards Are the Perfect Present for Busy Moms on Mother’s Day'">
 
 <h2>Mother’s Day is just around the corner, and for those of us who are looking for the perfect present for our moms, gift cards are a great option to consider.</h2>
 
@@ -26,7 +26,7 @@ One of the biggest advantages of giving gift cards to moms on Mother’s Day is 
 <a href="https://www.99minds.io/blog/ecommerce-gift-cards-catalysts-to-increase-holiday-season-sales/" target="_blank">Gift cards allow moms to choose exactly what they want</a>, whether it be a new outfit, a relaxing spa day, or a night out with friends. With a gift card, moms have the freedom to treat themselves to something special, on their own schedule, and without the added pressure of having to fit it into their busy routines. Additionally, gift cards can be used at a variety of retailers and restaurants, making them a versatile present that can be enjoyed in a number of ways.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="/assets/blog/CTA-mothers-day.jpg"></a>
+<img src="/assets/blog/CTA-mothers-day.jpg" alt="CTA Button"></a>
  
 <h2>Allowing Moms to treat themselves</h2>
 
@@ -38,10 +38,9 @@ When it comes to gifting clothing or accessories, it can be challenging to find 
 
 <h2>Budget-Friendly</h2>
 
-Another advantage of gift cards is that they can be budget-friendly. If you’re on a tight budget or simply want to give a gift that won’t break the bank, a gift card is a great option. With a variety of price points and options available, you can choose a <a href="https://www.99minds.io/blog/ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges/" target="_blank">gift card that fits your budget and still provides a special treat</a> for mom.
+Another advantage of gift cards is that they can be budget-friendly. If you’re on a tight budget or simply want to give a gift that won’t break the bank, a gift card is a great option. With a variety of price points and options available, you can choose a gift card that fits your budget and still provides a special treat for mom.
 
-<a href="https://calendly.com/99minds" target="_blank">
-<img src="/assets/blog/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blank"><img src="/assets/blog/CTA-IMAGE1.jpg" alt="Create your own gift card campaign"></a>
 
 <h2>Easy to Purchase and Redeem</h2>
 

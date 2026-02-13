@@ -197,7 +197,7 @@ If you are looking to add gift cards as a part of your marketing strategy, we wo
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

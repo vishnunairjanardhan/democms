@@ -51,7 +51,7 @@ keywords: ["Customer lifetime value", "client lifetime value", "lifetime value o
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/why-you-can't-ignore-customer-lifetime-value-insights-for-growth.webp"></a>
+<img src="/assets/blog/why-you-can't-ignore-customer-lifetime-value-insights-for-growth.webp" alt="Blog hero image highlighting 'Customer Lifetime Value'">
 
 Long-term business success in today's competitive industry depends on having a solid understanding of a customer's financial worth. Customer Lifetime Value (CLV) is one of the most effective indicators that can assist you in determining this value. In other words, CLV calculates the total revenue a customer will bring in for your company throughout their association with you.<br>
 
@@ -442,7 +442,7 @@ Absolutely! Analyzing CLV by different customer segments can provide valuable in
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

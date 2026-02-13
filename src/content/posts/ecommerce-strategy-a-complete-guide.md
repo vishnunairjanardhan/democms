@@ -116,7 +116,7 @@ Customers with gift cards usually spend 32% more than gift card value. Gift card
 Store credits help ecommerce businesses build recurring users and regain their users' trust.
 
 You can also set up a <a href="https://www.99minds.io/store-credit" role="link" target="_blank">store credit</a> program on your store. 
-The store credit functionality at <a href="http://www.99minds.io" role="link" target="_blank">99minds</a> makes credit administration easier for online firms. It's flexible, automated, and works smoothly with existing systems. It’s easy to use and even provides powerful analytics to make educated decisions. Overall, it simplifies processes and enhances the customer experience.</li>
+The store credit functionality at <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> makes credit administration easier for online firms. It's flexible, automated, and works smoothly with existing systems. It’s easy to use and even provides powerful analytics to make educated decisions. Overall, it simplifies processes and enhances the customer experience.</li>
 
 <a role="link" href="https://www.99minds.io/store-credit" target="_blank"><img role="img" loading="lazy" class="m-auto lg:w-3/5 py-6" src="/assets/blog/store-credit-banner.webp" alt="Store credit at 99minds"></a>
 
@@ -276,7 +276,7 @@ There are a few types of eCommerce Strategy approaches: selling on big websites 
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
     </div>
    </div>

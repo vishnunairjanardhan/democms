@@ -30,7 +30,8 @@ keywords: ["99minds"]
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM1.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM1.png" alt="Blog hero image highlighting 'Ways to Incorporate Gift Cards Into Your Customer Retention Strategy'">
+
 Boosting customer loyalty with gift cards is a sure-shot possibility. All you have to do is to have a deep understanding of your customers. Knowing their likes, dislikes, preferences, and purchasing behaviors ensures that you get the most out of a customer retention program. With competitions increasing every single day, breaking through the noise clutter is difficult. You must have a trick or two up your sleeve to retain customers. Why should they stay with your brand? This is the question you must find answer for. One of the best ways to retain customers is through gift card-based customer engagement tactics. 
 
 
@@ -130,7 +131,7 @@ If you want to incorporate a gift card program into your eCommerce store, the 99
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
     </div>
    </div>

@@ -13,9 +13,7 @@ url: "https://www.99minds.io/blog/top-18-best-free-bigcommerce-themes"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Top-18-best-free-bigcommerce-themes1-1.jpg">
-
-
+<img src="/assets/blog/Top-18-best-free-bigcommerce-themes1-1.jpg" alt="Blog hero image highlighting 'Top 18 Best Free Bigcommerce Themes'">
 
 If you are looking for free <a href="https://www.bigcommerce.com/">BigCommerce</a> themes, you are in the right place. These themes will help you get good at your eCommerce game. BigCommerce helps eCommerce stores increase their sales, scale operations, retain customers, and so on. It is a powerful piece of software that can do wonders for your online store. Unleash the full effects of BigCommerce with the help of the themes.
 

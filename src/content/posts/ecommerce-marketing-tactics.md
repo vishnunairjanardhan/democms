@@ -33,7 +33,7 @@ keywords: ["ecommerce marketing"]
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/20-best-ecommerce-marketing-tactics-for-business-in-2025.webp"></a>
+<img src="/assets/blog/20-best-ecommerce-marketing-tactics-for-business-in-2025.webp" alt="Blog hero image highlighting 'Ecommerce Marketing Tactics'">
 
 Global retail ecommerce sales are expected to reach an incredible $8.1 trillion by 2026, making ecommerce marketing more competitive. This tremendous expansion offers firms both amazing prospects and difficult obstacles. It takes more than just a website to stand out in this competitive field; you also need a strategic strategy that speaks directly to your audience's requirements and preferences.
 
@@ -171,7 +171,7 @@ You can increase conversions, increase traffic, and create an enduring brand wit
 By using customized techniques, such as improving website performance or gift card programs, businesses like <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> increase operations and revenue. Businesses may establish a strong online presence in the rapidly changing ecommerce industry by fusing technical know-how with innovation.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -227,7 +227,7 @@ To improve your conversion rate, focus on ecommerce marketing techniques like op
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>
