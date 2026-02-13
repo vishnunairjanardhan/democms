@@ -4,7 +4,7 @@ author: Soniya
 authorImg: "Soniya.webp"
 title: "15 Ways to Maximize Gift Card Sales on Social Media"
 description: "Learn 15 effective ways to boost gift card sales on social media. From engaging posts to influencer marketing, maximize your sales and grow your business."
-heading: Gift Card Sales on Social Media
+heading: 15 Ways to Maximize Gift Card Sales on Social Media
 image:
   url: "/assets/blog/15-Ways-to-Maximize-Gift-Card-Sales-on-Social-Media1.webp"
   alt: "15 Ways to Maximize Gift Card Sales on Social Media."
@@ -40,7 +40,7 @@ keywords: ["gift card social media posts","how to promote gift certificates","ho
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/15-Ways-to-Maximize-Gift-Card-Sales-on-Social-Media1.webp"></a>
+<img src="/assets/blog/15-Ways-to-Maximize-Gift-Card-Sales-on-Social-Media1.webp" alt="Blog hero image highlighting '15 Ways to Maximize Gift Card Sales on Social Media'">
 
 Gift card social media posts have become a popular choice for many consumers in today's digital-first world. Whether purchasing gifts for friends and family at the last minute or wanting to give them the flexibility to select the ideal present for themselves, gift card social media posts play a significant role in helping businesses boost sales, attract new customers, and <a href="https://www.99minds.io/blog/build-customer-loyalty/" role="link" target="_blank">build customer loyalty</a>.<br>
 
@@ -206,7 +206,7 @@ Instagram and Facebook are the most effective platforms for driving Gift Card Sa
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

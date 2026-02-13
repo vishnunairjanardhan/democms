@@ -13,7 +13,8 @@ url: "https://www.99minds.io/blog/how-99minds-fits-into-your-martech-stack"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/How-99minds-fits-Into-Your-Martech-Stack.jpg">
+
+<img src="/assets/blog/How-99minds-fits-Into-Your-Martech-Stack.jpg" alt="Blog hero image highlighting 'How 99minds Fits Into Your Martech Stack'">
 
 The way marketers build and operate online campaigns has evolved thanks to marketing technologies. Many digital marketing activities would be a gamble if they didn’t have data and analytics for study and measurement. There are numerous tools available for current campaigns that provide specialty alternatives or unique features that can make practically any marketing campaign possible and totally trackable.
 

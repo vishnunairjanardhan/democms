@@ -43,7 +43,7 @@ keywords: ["retail loyalty programs","loyalty program for retailers","best retai
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/15-best-retail-loyalty-programs-to-elevate-customer-retention-in-2024.webp"></a>
+<img src="/assets/blog/15-best-retail-loyalty-programs-to-elevate-customer-retention-in-2024.webp" alt="Blog hero image highlighting 'Retail Loyalty Programs'">
 
 In today's extremely competitive retail environment, customer retention is more important than ever. Retail loyalty programs have become an essential tool for businesses aiming to foster long-term customer relationships. <a href="https://www.99minds.io/blog/loyalty-program" role="link" target="_blanck">Loyalty programs</a>, which reward customers for repeat purchases, have emerged as a major tactic for firms seeking to establish long-term customer relationships. However, as the retail business evolves, so will these loyalty schemes. More firms are merging technology, customization, and cross-channel interactions to make customers feel valued beyond discounts.
 
@@ -711,7 +711,7 @@ Yes, loyalty programs can directly boost sales and revenue by incentivizing repe
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

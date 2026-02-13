@@ -49,7 +49,7 @@ keywords: ["gift card"]
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/saas-loyalty-programs-drive-retention-growth-in-2025.webp"></a>
+<img src="/assets/blog/saas-loyalty-programs-drive-retention-growth-in-2025.webp" alt="Blog hero image highlighting 'SaaS Loyalty Programs'">
 
 In the fast-moving SaaS world, acquiring new users is great—but keeping them? That’s where the real magic happens. A solid SaaS loyalty program doesn’t just help you retain customers, it turns them into raving fans, brand advocates, and repeat buyers.
 
@@ -286,7 +286,7 @@ While it varies, many SaaS businesses see improvements in engagement and retenti
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

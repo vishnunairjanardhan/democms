@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/gift-cards-marketing-an-absolute-solution-to-w
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Gift-Cards-Marketing-An-Absolute-Solution-To-Win-New-Customers-This-Valentine2.jpg-.jpg">
+<img src="/assets/blog/Gift-Cards-Marketing-An-Absolute-Solution-To-Win-New-Customers-This-Valentine2.jpg-.jpg" alt="Blog hero image highlighting 'Gift Cards Marketing: An Absolute Solution To Win New Customers This Valentine!'">
 
 February 14 is one of the most beautiful days of the year. It is a day that is outrightly dedicated to love. Is there a better time to gift something to your lover or to someone you love!
 

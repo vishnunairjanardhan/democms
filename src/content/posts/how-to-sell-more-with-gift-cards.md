@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/How-to-Sell-More-with-Gift-Cards.jpg">
+<img src="/assets/blog/How-to-Sell-More-with-Gift-Cards.jpg" alt="Blog hero image highlighting 'How to Sell More with Gift Cards'">
 
 You’ve chosen your site, hired your team, and set prices for your services and products—now it’s time to open for business. The holiday season is rapidly approaching, and do you understand what it entails? It’s the ideal time of year to get your business ready for a new revenue stream by selling <a href="https://www.99minds.io/giftcard" target="_blank">gift cards both online and in person</a>.
 

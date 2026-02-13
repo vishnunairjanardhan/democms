@@ -8,9 +8,9 @@ heading: "15 Customer Engagement Strategies to Boost Loyalty & Sales"
 image:
   url: "/assets/blog/15-customer-engagement-strategies-to-boost-loyalty-sales.webp"
   alt: "15 Customer Engagement Strategies to Boost Loyalty & Sales"
-tags: ["Loyalty Program"]
+tags: ["Customer Engagement"]
 url: "https://www.99minds.io/blog/customer-engagement-strategy"
-keywords: ["gift card"]
+keywords: ["Customer Engagement Strategies"]
 
 --- 
 
@@ -50,7 +50,7 @@ keywords: ["gift card"]
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/15-customer-engagement-strategies-to-boost-loyalty-sales.webp"/></a>
+<img src="/assets/blog/15-customer-engagement-strategies-to-boost-loyalty-sales.webp" alt="Blog hero image highlighting 'Customer Engagement Strategies'">
 
 In today’s fast-moving digital world, grabbing customers’ attention is only half the game. The real challenge—and the secret to long-term business success—is keeping them returning.
 Welcome to the world of client engagement.
@@ -491,7 +491,7 @@ In case you're an e-commerce brand looking to control your engagement endeavors,
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

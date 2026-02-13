@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/The-effectiveness-of-online-shopping-1.jpg">
+<img src="/assets/blog/The-effectiveness-of-online-shopping-1.jpg" alt="Blog hero image highlighting 'The Efficiency and Effectiveness of Online Shopping'">
 
 <h2>Online shopping has gained immense popularity in recent years.</h2>
 
@@ -26,7 +26,7 @@ One of the biggest
 <a href="https://www.99minds.io/blog/holiday-shoppers-take-advantage-of-early-thanksgiving-deals/" target="_blank">advantages of shopping online</a> is the abundance of options available. You can find products that may not be available locally or in brick-and-mortar stores. This gives you a wider range of choices to find the exact product you’re looking for. Moreover, comparison websites make it easy to compare prices from different sellers. This allows you to make an informed purchase decision and get the best possible deal.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="/assets/blog/CTA-mothers-day3.jpg"></a>
+<img src="/assets/blog/CTA-mothers-day3.jpg" alt="CTA Button"></a>
 
 <h2>More convenience</h2>
 

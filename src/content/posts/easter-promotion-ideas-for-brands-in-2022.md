@@ -8,9 +8,9 @@ heading: Easter Promotion Ideas for Brands in 2022
 image:
   url: "/assets/blog/Easter-Promotion-Ideas-for-Brands-in-2022-800x450.jpg"
   alt: "Easter promotion ideas for brands in 2022."
-tags: ["Gift Card"]
+tags: ["Promotion"]
 url: "https://www.99minds.io/blog/easter-promotion-ideas-for-brands-in-2022"
-keywords: ["99minds"]
+keywords: ["Easter Promotion Ideas"]
 
 --- 
 <img src="/assets/blog/Easter-Promotion-Ideas-for-Brands-in-2022.jpg" alt="Easter promotion ideas for brands in 2022.">
@@ -39,7 +39,7 @@ Offering exciting Easter sales, and other incentives can help your company reach
 </li>
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="/assets/blog/CTA-IMAGES-easter.jpg"></a>
+<img src="/assets/blog/CTA-IMAGES-easter.jpg" alt="CTA Button">
 
 <li>
 <b>Promotion through Gamification</b>

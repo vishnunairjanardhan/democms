@@ -10,7 +10,7 @@ image:
   alt: "Employee Referral Programs for eCommerce: Boost Hiring & Loyalty"
 tags: ["Referral Program"]
 url: "https://www.99minds.io/blog/employee-referral-program"
-keywords: ["gift card"]
+keywords: ["employee Referral Program"]
 
 --- 
 
@@ -49,7 +49,7 @@ keywords: ["gift card"]
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/employee-referral-program-for-ecommerce-a-strategic-guide-to-hiring-loyalty.webp"></a>
+<img src="/assets/blog/employee-referral-program-for-ecommerce-a-strategic-guide-to-hiring-loyalty.webp" alt="Blog hero image highlighting 'employee Referral Program'">
 
 In the fast-paced world of eCommerce, building a strong and loyal team can be a game-changer. As customer expectations rise and competition grows, having top-tier employees who align with your brand values becomes critical. One of the most effective — and often underused — hiring strategies is the employee referral program.
 
@@ -636,7 +636,7 @@ Use HR tools like Recruitee, Workable, or simple tracking dashboards. Monitor ti
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

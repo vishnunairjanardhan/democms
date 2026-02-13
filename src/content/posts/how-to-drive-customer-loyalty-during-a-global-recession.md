@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/How-to-drive-customer-loyalty-during-a-Global-Recession-1.jpg">
+<img src="/assets/blog/How-to-drive-customer-loyalty-during-a-Global-Recession-1.jpg" alt="Blog hero image highlighting 'How to drive customer loyalty during a Global Recession?'">
 
 These are tough times. We are sure that there are thousands of blogs highlighting how crucial customer loyalty is. The world is on the brink of a recession. Pockets are going to be tight. Spending will be frugal. People will have their guard up, thanks to the uncertainty associated with the global recession.
 
@@ -38,7 +38,7 @@ When a customer feels that they are being valued, the chances of them choosing a
 Offer free returns to loyal customers during tough times.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="/assets/blog/CTA-mothers-day.jpg"></a>
+<img src="/assets/blog/CTA-mothers-day.jpg" alt="CTA Button"></a>
 
 <h2>Reduce friction</h2>
 

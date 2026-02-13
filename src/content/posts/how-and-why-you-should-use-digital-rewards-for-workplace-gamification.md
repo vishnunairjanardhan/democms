@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/how-and-why-you-should-use-digital-rewards-for
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/how-and-why-you-should-use-digital-rewards-for-workplace-gamification">
-<img src="/assets/blog/How-and-Why-You-Should-Use-Digital-Rewards-for-Workplace-Gamification3.jpg"></a>
+
+<img src="/assets/blog/How-and-Why-You-Should-Use-Digital-Rewards-for-Workplace-Gamification3.jpg" alt="Blog hero image highlighting 'How and Why You Should Use Digital Rewards for Workplace Gamification'">
 
 Who doesn’t love games? What if you could motivate your employees using workplace gamification? With Millennials and Gen Z “hogging” the workforce, you shouldn’t be surprised employers are using games to keep them motivated and engaged. It seems like a natural progression.
 

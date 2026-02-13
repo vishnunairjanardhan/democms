@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/the-art-of-creating-irresistible-gift-card-des
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/The-Art-of-Creating-Irresistible-Gift-Card-Designs-for-Your-Shopify-Store.jpg">
+<img src="/assets/blog/The-Art-of-Creating-Irresistible-Gift-Card-Designs-for-Your-Shopify-Store.jpg" alt="Blog hero image highlighting 'The Art of Creating Irresistible Gift Card Designs for Your Shopify Store'">
 
 
 A gift card can be one more sales channel for you and also act as a souvenir of sorts. It can do more than two things at a time. It is one of the most underused marketing channels. To get the most out of gift cards, you must primarily begin with creating attractive gift card designs.
@@ -34,7 +34,7 @@ Your gift cards can act as a statement of the value that your brand brings to th
 
 Attractive gift card designs can make the right impression on your customers. Use the opportunity to stand out as a brand. Let’s look at some of the strategies that you can use to create charming gift card designs.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Coupon-code.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Coupon-code.jpg" alt="CTA Button"></a>
 
 <ul>
 <ol>

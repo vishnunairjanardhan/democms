@@ -171,9 +171,10 @@ The EggPoints Program is more than just a loyalty program for eCommerce—it’s
 
 <li><h3>FARFETCH "Access" loyalty program</h3>
   FARFETCH, established in 2008, began as an eCommerce platform uniting luxury boutiques globally. Today, it serves customers in over 190 countries, offering products from more than 1,400 leading brands, boutiques, and department stores across 50 countries. To enhance the shopping experience, FARFETCH introduced the Access loyalty program, designed to connect creators, curators, and consumers, providing a unique and personalized journey.
-  <img src="/assets/blog/Farefetch-loyalty.jpg" alt="" class="ml-16 mt-4"/>
 
-  Joining the Access loyalty program is a straightforward process that can be completed in three simple steps:
+<img src="/assets/blog/Farefetch-loyalty.jpg" alt="farefetch loyalty page" class="ml-16 mt-4"/>
+  
+Joining the Access loyalty program is a straightforward process that can be completed in three simple steps:
 <ul>
 <li><strong class="text-gray-300">Sign Up:</strong>
 Create an account by providing basic personal information.</li>
@@ -184,7 +185,8 @@ As a member, you gain access to a wide range of rewards and perks tailored to yo
 </li>
 
 The ecommerce loyalty program operates on a 12-month cycle. During this period, your tier status is reviewed based on your total spending. Customers can move up to higher tiers by meeting the spending thresholds or adjust to a lower tier if their purchases decrease.
-<img src="/assets/blog/farfetch 2.jpeg" alt=""/>
+
+<img src="/assets/blog/farfetch 2.jpeg" alt="farefetch tier loyalty">
 
 <strong class="text-gray-300">Tier Structure and Benefits</strong>
 <li><strong class="text-gray-300">Bronze:</strong>
@@ -516,7 +518,7 @@ Focus on clear rewards, personalization, and tiered benefits. Tools like 99minds
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

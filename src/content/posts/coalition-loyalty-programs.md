@@ -10,7 +10,7 @@ image:
   alt: "Coalition Loyalty Programs: A Strategic Advantage for Modern eCommerce Brands"
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/coalition-loyalty-programs"
-keywords: ["gift card"]
+keywords: ["Coalition Loyalty Programs"]
 
 --- 
 
@@ -49,7 +49,7 @@ keywords: ["gift card"]
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/coalition-loyalty-programs-a-strategic-advantage-for-modern-ecommerce-brands.webp"></a>
+<img src="/assets/blog/coalition-loyalty-programs-a-strategic-advantage-for-modern-ecommerce-brands.webp" alt="Blog hero image highlighting 'Coalition Loyalty Programs'">
 
 In today’s fast-changing retail world, dependability isn’t close to focuses or discounts—it’s around conveying genuine, progressing esteem. That’s precisely what consolidation devotion programs are planned to do.
 Instead of one brand offering rewards on its own, coalition programs bring together multiple non-competing brands to create a shared loyalty ecosystem. Customers can earn points with one brand and redeem them with another—offering more choice, flexibility, and value.
@@ -482,7 +482,7 @@ Yes, but it depends on the agreement. Make sure it's GDPR and CCPA-compliant.</d
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

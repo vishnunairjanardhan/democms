@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/ways-coupons-can-help-your-business-attract-lo
 keywords: ["99minds"]
 
 --- 
-<img src="/assets/blog/Ways-Coupons-Can-Help-Your-Business-Attract-Loyal-Customers1.jpg">
+<img src="/assets/blog/Ways-Coupons-Can-Help-Your-Business-Attract-Loyal-Customers1.jpg" alt="Blog hero image highlighting 'Ways Coupons Can Help Your Business Attract Loyal Customer'">
 
 The holy grail of every marketer across the world is their target market’s attention. There are a thousand ways to advertise your brand. According to several studies, one of the most effective marketing strategies is providing a one-time use of coupons. The holiday season is the perfect time for businesses to offer incentives to customers to choose them.
 

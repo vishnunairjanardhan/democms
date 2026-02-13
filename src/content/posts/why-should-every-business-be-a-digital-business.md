@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/why-should-every-business-be-a-digital-busines
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Why-should-every-business-be-a-digital-business1.jpg">
+<img src="/assets/blog/Why-should-every-business-be-a-digital-business1.jpg" alt="Blog hero image highlighting 'Why should every business be a digital business'">
 
 Being a digital business is no longer an option. It is a necessity for all businesses, no matter how they operate. Without digital tools, it is almost impossible to function smoothly. Digital transformations have even resulted in radical changes that have completely changed the status quo of various industries. Technology is the biggest contributor in shaping businesses for its future.
 

@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-blac
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/How-to-Get-Your-eCommerce-Store-Ready-for-Black-Friday-and-Cyber-Monday2.jpg">
+<img src="/assets/blog/How-to-Get-Your-eCommerce-Store-Ready-for-Black-Friday-and-Cyber-Monday2.jpg" alt="Blog hero image highlighting 'How to Get Your eCommerce Store Ready for Black Friday and Cyber Monday'">
 
 Black Friday and Cyber Monday are two of the best days for eCommerce retailers. Not being prepared for it is a financial disaster. The 2021 US holiday season posed the strongest retail growth bringing in <a href="https://www.insiderintelligence.com/content/us-holiday-2021-review-holiday-2022-preview">more than $1.2 trillion</a>. According to eMarketer, Cyber Monday had the highest sales, clocking more than $10.9 billion, while Black Friday raked in more than $9 billion.
 
