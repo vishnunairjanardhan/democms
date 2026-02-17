@@ -40,7 +40,7 @@ keywords: ["gift card"]
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/lightspeed-r-shopify-gift-cards-linked-by-99minds.webp"></a>
+<img src="/assets/blog/lightspeed-r-shopify-gift-cards-linked-by-99minds.webp" alt="Blog hero image highlighting 'Lightspeed R & Shopify Gift Cards Linked by 99minds'">
 
 In today’s omnichannel retail environment, delivering a seamless and consistent customer experience is essential. <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a> enables merchants to quickly sell and redeem <a href="https://www.99minds.io/giftcard" role="link" target="_blank">gift cards</a> in-store and online through robust integrations with <a href="https://www.99minds.io/integrations/lightspeed" role="link" target="_blank">Lightspeed Retail (R-Series) and Shopify</a>.
 
@@ -56,30 +56,30 @@ With 99minds integrated into Lightspeed Retail (R-Series), selling a physical gi
 <ul role= "list">
 <li><b>Start the Sale:</b> Navigate to the Sell screen via the Lightspeed left-hand menu.</li>
 
-<img src="/assets/blog/start-the-sales.png"/>
+<img src="/assets/blog/start-the-sales.png" alt="Gift card option in Lightspeed R-Series sales screen">
 
 <li><b>Find the Product:</b> Search for “Gift Card” in the product search bar.</li>
 
-<img src="/assets/blog/find-the-product.png" />
+<img src="/assets/blog/find-the-product.png" alt="Adding a custom amount to a gift card in Lightspeed R-Series.">
 
 <li><b>Add the Card:</b> Select the gift card product on the Add New Gift Card screen and enter the customer’s number.</li>
 
-<img src="/assets/blog/add-the-card.png" />
+<img src="/assets/blog/add-the-card.png" alt="Entering gift card details in Lightspeed R-Series.">
 
-<img src="/assets/blog/new-custoumer-number.png" />
+<img src="/assets/blog/new-custoumer-number.png" alt="Completing a gift card sale in Lightspeed R-Series.">
 
 <li><b>Verify & Load:</b> Click Find Gift Card to validate the card, then enter the amount the customer wants to load.</li>
 
-<img src="/assets/blog/varify-&-load.png" />
+<img src="/assets/blog/varify-&-load.png" alt="Gift card purchase added to sale in Lightspeed R-Series.">
 
 <li><b>Complete the Sale:</b> Click Add to Sale and finish the transaction as you normally would.</li>
 
-<img src="/assets/blog/complete-the-sale.png" />
+<img src="/assets/blog/complete-the-sale.png" alt=“Printing gift card purchase receipt in Lightspeed R-Series.”>
 
 </ul>
 The transaction details are instantly recorded in the 99minds platform under the Recent Transactions section, giving merchants real-time visibility and control.
 
-<img src="/assets/blog/complete-the-sales-2.png"/>
+<img src="/assets/blog/complete-the-sales-2.png" alt="Fulfilled Lightspeed R-Series gift card order in 99minds.">
 
 <h3><li>Buying a Gift Card Online via 99minds Widget on Shopify</li></h3>
 Customers can also buy gift cards digitally through your Shopify store using the 99minds widget:
@@ -100,15 +100,15 @@ When a customer wants to redeem a gift card in-store:
 <ul role= "list">
 <li><b>Choose Gift Card as Payment Method:</b> Select Gift Card as the payment type during checkout.</li>
 
-<img src="/assets/blog/Choose-Gift-Card-as-Payment-Method.png" />
+<img src="/assets/blog/Choose-Gift-Card-as-Payment-Method.png" alt="Gift card applied at checkout.">
 
 <li><b>Scan or Enter the Number:</b> Input the gift card number and click Find Gift Card.</li>
 
-<img src="/assets/blog/Scan-or-Enter-the-Number.png" />
+<img src="/assets/blog/Scan-or-Enter-the-Number.png" alt="Entering a gift card code at checkout.">
 
 <li><b>Process Payment:</b> Complete the sale and click Pay with Gift Card. The system will automatically deduct the amount from the card balance.</li>
 
-<img src="/assets/blog/process-payments.png" />
+<img src="/assets/blog/process-payments.png" alt="Order confirmed after gift card redemption.">
 
 </ul>
 
@@ -121,15 +121,15 @@ Here’s how customers redeem gift cards online:
 <ul role= "list">
 <li><b>Checkout:</b> At the Order Summary page, go to discount code or gift cards.</li>
 
-<img src="/assets/blog/SS/Frame18.png" />
+<img src="/assets/blog/SS/Frame18.png" alt="Partially applying a gift card at checkout.">
 
 <li><b>Apply the Code:</b> Enter the unique gift card code and click Apply.</li>
 
-<img src="/assets/blog/SS/Frame19.png" />
+<img src="/assets/blog/SS/Frame19.png" alt="Entering a gift card code at checkout.">
 
 <li><b>Pay Balance:</b> If the gift card doesn’t cover the full amount, customers can use another method to pay the balance.</li>
 
-<img src="/assets/blog/SS/Frame20.png" />
+<img src="/assets/blog/SS/Frame20.png" alt="Order confirmed after gift card redemption.">
 
 This fluid omnichannel experience ensures gift cards work wherever customers shop, providing greater reach, flexibility, and satisfaction.
 </ul>
@@ -207,7 +207,7 @@ Yes! 99minds allows you to customize your gift card’s branding and design to m
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

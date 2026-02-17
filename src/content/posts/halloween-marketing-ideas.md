@@ -41,7 +41,7 @@ According to the National Retail Federation, U.S. shoppers will spend over <a hr
 The challenge lies in standing out in a crowd of similar “spooky” campaigns. Many brands run standard Halloween sales, but the real winners use storytelling, gamification, and community engagement to capture attention and <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">build loyalty</a>.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -265,7 +265,7 @@ During the Halloween season, suggest Halloween-themed add-ons at checkout or cro
 <li>
 <h3>Mobile Wallet Passes for Exclusive Offers</h3>
 
-<a href="https://www.99minds.io/wallet" role="link" target="_blanck">Mobile wallet passes</a> deliver Halloween deals directly to customers’ phones. Starbucks often uses them to send seasonal offers and event passes, allowing instant access to discounts and rewards.
+<a href="https://www.99minds.io/apple-google-wallet-pass" role="link" target="_blanck">Mobile wallet passes</a> deliver Halloween deals directly to customers’ phones. Starbucks often uses them to send seasonal offers and event passes, allowing instant access to discounts and rewards.
 
 DTC brands can create digital passes with limited-time discounts, VIP early access, or exclusive bundles. Customers add the pass to their wallet and redeem it at checkout. Wallet passes can include push notifications for expiring deals or upcoming promotions, driving urgency and faster conversions.
 </li>
@@ -334,7 +334,7 @@ Halloween is rapidly approaching, so if you want to capitalize on the festive sp
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

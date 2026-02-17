@@ -44,7 +44,7 @@ keywords: ["customer journey personalization"]
 </ul>
 </div>
 <div class="w-full">
-<img src="/assets/blog/customer-journey-personalization-enhance-engagement-drive-growth.webp"></a>
+<img src="/assets/blog/customer-journey-personalization-enhance-engagement-drive-growth.webp" alt="Blog hero image highlighting 'Customer Journey Personalization'">
 
 Modern consumers crave meaningful experiences, not generic interactions. They expect brands to recognize their preferences, anticipate their needs, and deliver timely, relevant communication across every touchpoint. When companies fail to personalize, customers feel like just another number in a database. 
 
@@ -365,7 +365,7 @@ Platforms like HubSpot, Twilio Segment, Dynamic Yield, and AI tools can automate
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

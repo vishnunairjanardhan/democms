@@ -72,7 +72,7 @@ The significant distinction between omnichannel and multichannel is that the for
 On the other hand, an omnichannel approach integrates all channels and provides a consistent shopping experience. A customer can browse products on the website, add them to the cart on the mobile app, and purchase them in-store without any hassle.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -351,7 +351,7 @@ Omnichannel eCommerce’s future is not only about providing its customers with 
 
 Adapting to the latest eCommerce trends is not easy. There are a gazillion things to be updated about. Today, eCommerce retailers across the world are trying to implement omnichannel eCommerce. It is well worth the effort and time invested in shifting to an omnichannel experience. Do you have the necessary wherewithal and expertise to offer an omnichannel experience for your customers? If not, you should find ways to add it to your tech stack.
 
-Even though implementing an omnichannel experience for your customers is a must-do these days, it can be challenging to manage it alone. <a href="http://www.99minds.io/" role="link" target="_blank">99minds</a> is here to help you create an omnichannel experience for your customers with the help of its plug-and-play software that can create loyalty programs, <a href="https://www.99minds.io/blog/a-comprehensive-guide-to-digital-gift-cards" role="link" target="_blank"> digital gift cards</a>, discounts, referrals, etc.
+Even though implementing an omnichannel experience for your customers is a must-do these days, it can be challenging to manage it alone. <a href="https://www.99minds.io//" role="link" target="_blank">99minds</a> is here to help you create an omnichannel experience for your customers with the help of its plug-and-play software that can create loyalty programs, <a href="https://www.99minds.io/blog/a-comprehensive-guide-to-digital-gift-cards" role="link" target="_blank"> digital gift cards</a>, discounts, referrals, etc.
 
 <h2 id="Frequently-Asked-Questions-(FAQs)-on-Omnichannel-Commerce">Frequently Asked Questions (FAQs) on Omnichannel Commerce</h2>
 
@@ -377,7 +377,7 @@ Even though implementing an omnichannel experience for your customers is a must-
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
     </div>
    </div>

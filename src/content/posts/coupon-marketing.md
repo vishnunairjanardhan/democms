@@ -55,39 +55,6 @@ One of the oldest tricks in the book is offering special deals to customers to e
 
 Coupon marketing is a strategic approach designed to attract, engage, and retain customers by offering various forms of incentives, such as discounts, vouchers, or <a href="https://www.99minds.io/blog/promotional-codes" role="link" target="_blanck">promo codes</a>. While its primary aim is to boost short-term sales, coupon marketing can also play a pivotal role in enhancing customer engagement, <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">build customer loyalty</a>, and tailoring experiences across different stages of the marketing funnel. By leveraging well-crafted coupon strategies, businesses can deliver targeted value, nurture long-term relationships, and drive sustainable growth.
 
-<!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
-
-<div class="flex flex-wrap items-center gap-2">
-              <div x-data="{ open: false }" class="w-full">
-              <!-- Trigger -->
-              <span x-on:click="open = true" class="w-full">
-                 <div class="w-full ">
-                <span class="w-full "></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
-                </span></div>
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-white rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly">
-                      </iframe>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> 
-
 <h2 class="m-0 mb-4" id="How-does-Coupon-Marketing-Work?">How does Coupon Marketing Work?</h2>
 
 Coupon marketing involves using discounts or special deals to influence customer behavior and meet specific marketing goals. To start, businesses define clear objectives—such as boosting sales during slower periods, attracting new customers, or rewarding loyal ones.
@@ -309,7 +276,7 @@ We hope this guide equips you with the insights and strategies needed to plan, i
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

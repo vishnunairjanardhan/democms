@@ -45,7 +45,7 @@ const LatestBlogGrid = ({ blogs }) => (
           <img
             src={post.data.image.url}
             alt={post.data.heading}
-            className="h-40 w-auto rounded-2xl overflow-hidden object-cover hover:scale-105 transition-transform duration-300"
+            className="h-40 w-auto rounded-md overflow-hidden object-cover hover:scale-105 transition-transform duration-300"
             loading="lazy"
           />
         <div className="p-4">

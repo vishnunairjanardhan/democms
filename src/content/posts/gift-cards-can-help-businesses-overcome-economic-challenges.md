@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/gift-cards-can-help-businesses-overcome-econom
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Gift-Cards-Can-Help-Businesses-Overcome-Economic-Challenges1.png">
+<img src="/assets/blog/Gift-Cards-Can-Help-Businesses-Overcome-Economic-Challenges1.png" alt="Blog hero image highlighting 'Gift Cards Can Help Businesses Overcome Economic Challenges'">
 
 Challenges aren’t new for businesses. An economic downturn is a disaster in the making as it stifles people from doing what they want to do. We’ve recently navigated the vicissitudes of a pandemic that no healthcare organization in the world was prepared for. A recession seems minuscule after Covid, but we should be prepared to handle what is thrown our way.
 

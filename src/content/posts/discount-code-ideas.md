@@ -41,7 +41,7 @@ keywords: ["discount code ideas"]
 </ul>
 </div>
 <div class="w-full">
-<img src="/assets/blog/20-creative-discount-code-ideas-to-boost-sales-customer-loyalty.webp"></a>
+<img src="/assets/blog/20-creative-discount-code-ideas-to-boost-sales-customer-loyalty.webp" alt="Blog hero image highlighting 'Discount Code Ideas'">
 
 If you are an e-commerce brand, providing discount codes is a tactic that can work wonders in terms of sales, acquiring new customers, and retaining existing ones. Whether you want to reward loyal shoppers, motivate first-time buyers, or promote a seasonal celebration, clever discount code ideas are a successful way to extend your footprint. So, you may utilize 20 one-of-a-kind rebate code thoughts to set yourself apart and lock in more clients in this blog. 
 
@@ -334,7 +334,7 @@ Yes! Personalized codes like birthday or loyalty offers feel special and increas
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

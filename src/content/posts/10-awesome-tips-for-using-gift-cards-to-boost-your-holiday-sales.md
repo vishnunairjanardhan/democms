@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/10-awesome-tips-for-using-gift-cards-to-boost-
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/10-Awesome-Tips-for-Using-Gift-Cards-to-Boost-Your-Holiday-Sales.jpg">
+<img src="/assets/blog/10-Awesome-Tips-for-Using-Gift-Cards-to-Boost-Your-Holiday-Sales.jpg" alt="Blog hero image highlighting ‘10 Awesome Tips for Using Gift Cards to Boost Your Holiday Sales’">
 
 This is the season of hope. From the time the world went into a metaphorical shell, all of us have been praying for December to come sooner, the season of Christmas, and the dawn of a new year that all of us are waiting for. If you are a retailer, this is the season when you make bank. Despite the pandemic still looming large over our heads, retailers are getting ready for this holiday season. One way to increase your sales is to use gift cards for your store.
 

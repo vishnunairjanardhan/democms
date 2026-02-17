@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/retail-store.jpg" alt="10 Mother’s Day Ideas to Implement in Your Retail Business">
+<img src="/assets/blog/retail-store.jpg" alt="10 Mother’s Day Ideas to Implement in Your Retail Business" alt="Blog hero image highlighting '10 Mother’s Day Ideas to Implement in Your Retail Business'">
 
 Mother’s day is only a few weeks away. While it doesn’t hold the same weight like Christmas or New Year, it has its own charm and is a great time for retailers. If you have an eCommerce store or a retail shop, it would not be wise to ignore the day.
 

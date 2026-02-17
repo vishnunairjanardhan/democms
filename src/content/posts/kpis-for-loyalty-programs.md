@@ -46,7 +46,7 @@ keywords: ["Christmas marketing ideas", "marketing ideas Christmas", "marketing 
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/10-essential-kpis-for-loyalty-programs-in-2025-to-boost-retention.webp">
+<img src="/assets/blog/10-essential-kpis-for-loyalty-programs-in-2025-to-boost-retention.webp" alt="Blog hero image highlighting 'KPIs for Loyalty Programs'">
 
 By 2025, companies will prioritize and amplify  <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blank">customer loyalty</a> and retention programs. Besides the apparent uniqueness in every market, it is up to companies to keep their customers so that they can become more than one-time customers. Customer loyalty programs are a perfect way to establish solid customer connections, yet how can you discover whether your program is causing the expected results?
 
@@ -545,7 +545,7 @@ High Reward Redemption Rates and Customer Engagement Rates indicate that your re
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

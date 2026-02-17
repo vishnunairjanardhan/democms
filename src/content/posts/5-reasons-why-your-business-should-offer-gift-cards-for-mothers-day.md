@@ -14,7 +14,7 @@ url: "https://www.99minds.io/blog/5-reasons-why-your-business-should-offer-gift-
 
 --- 
 
-<img src="/assets/blog/5-Reasons-Why-Your-Business-Should-Offer-Gift-Cards-for-Mothers-Day1.jpg">
+<img src="/assets/blog/5-Reasons-Why-Your-Business-Should-Offer-Gift-Cards-for-Mothers-Day1.jpg" alt="Blog hero image highlighting ‘5 Reasons Why Your Business Should Offer Gift Cards for Mother’s Day’">
 
 There’s no surer way to show someone you love and appreciate them than with a gift.
 

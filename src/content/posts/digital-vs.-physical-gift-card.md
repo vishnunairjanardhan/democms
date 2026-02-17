@@ -13,7 +13,8 @@ keywords: ["99minds"]
 url: "https://www.99minds.io/blog/digital-vs-physical-gift-card"
 
 --- 
-<img src="/assets/blog/Digital-vs-physical.png">
+<img src="/assets/blog/Digital-vs-physical.png" alt="Blog hero image highlighting 'Digital vs. Physical Gift Cards'">
+
 Retailers love giving gift cards to their customers, and rightly so. From increasing the average order value to improving brand awareness, it does a lot. In this article, we look at e-gift cards vs. physical gift cards, their differences, benefits, and so on. Sustainable gifting choices have become one of the key ingredients in gifting, of late. Such eco-friendly gift card solutions push for the usage of organic materials and those that are ethically sourced.    
 
 The future of gift card technology looks bright since digital gift card adoption is anticipated to reach <a href="https://www.globenewswire.com/news-release/2023/12/19/2798928/0/en/Digital-Gift-Cards-Market-to-Reach-USD-1-352-45-Billion-by-2032-New-E-Gift-Incentive-Policies-by-E-Commerce-Companies-to-Propel-Growth.html">1,352.45 Billion</a> by 2032.  There are two types of gift cards– physical and digital. Both have their own benefits and features. Physical and digital gift cards can be used online and at the store as well. Physical gift cards are usually made out of plastic while digital ones don’t have a form. It is usually sent as an email and the encrypted code is used to make purchases.
@@ -38,7 +39,7 @@ Though certain states have legislation requiring gift cards to expire after a sp
     <li><a href="https://www.carat.fiserv.com/en-us/solutions/gift-branded-currency/?source=merchants-fiserv">75% of consumers</a> between the ages 18 and 44 received gift cards during the 2022 holiday season</li>
 </ul>
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"><img class="w-full h-44" src="/assets/blog/CTA-Coupon-code.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"><img class="w-full h-44" src="/assets/blog/CTA-Coupon-code.jpg" alt="Create your custom coupons with 99minds"></a>
  
 <h2>Physical vs. Digital Gift Cards:</h2>
 
@@ -80,7 +81,7 @@ The problem with a physical gift card is that it can be easily misplaced. The wo
 
 Digital gift cards offer extensive customization and design options which lets buyers personalize to their liking. From using pre-made gift card design templates to adding logos, personalized messages, and images, a lot can be done. Custom designs are not possible for physical gift cards since they are made in bulk. For individuals or businesses looking to buy gift cards, the digital ones offer great flexibility and room for creativity. 
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-IMAGE1.jpg" alt="Create your own gift card campaign"></a>
 
 <h3><li>Sustainability:</h3></li>
 

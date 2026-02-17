@@ -10,10 +10,9 @@ image:
   alt: "boost revenue with automotive loyalty programs"
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/automotive-loyalty-programs"
-keywords: ["gift card"]
+keywords: ["Automotive Loyalty Programs"]
 
 --- 
-
 
 <div class="lg:flex lg:gap-6">
 <!-- Table of content section -->
@@ -56,7 +55,8 @@ keywords: ["gift card"]
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/boost-revenue-with-automotive-loyalty-programs.webp"></a>
+
+<img src="/assets/blog/boost-revenue-with-automotive-loyalty-programs.webp" alt="Blog hero image highlighting 'Boost Revenue with Automotive Loyalty Programs'">
 
 In today’s ultra-competitive automotive industry, <a href="https://www.99minds.io/blog/channel-loyalty-program" role="link" target="_blank">customer loyalty</a> isn’t just a nice-to-have—it’s a game-changer. With buyers facing endless options, brands that deliver more than just a great vehicle are the ones that stand out. That’s where automotive loyalty programs come into play. From reward points and service discounts to exclusive perks for long-term customers, these programs are designed to keep your buyers returning, not just for their next car, but for every oil change and tire rotation. 
 
@@ -413,7 +413,7 @@ Yes. In fact, used car buyers often become highly loyal customers when offered v
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

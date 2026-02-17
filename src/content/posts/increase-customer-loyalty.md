@@ -47,7 +47,7 @@ keywords: ["Loyalty Program"]
 <div class="w-full">
 <img src="/assets/blog/15-proven-strategies-to-increase-customer-loyalty-retention.webp" alt="15 proven strategies to increase customer loyalty retention | Maximize ROI.">
 
-The lifeblood of any successful business is <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">customer loyalty</a>! Acquiring customers is no doubt an important aspect of e-commerce as we know it today, but keeping customers happy is just as critical. Research shows that a 5% increase in <a href="http://www.99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a> rates can increase profits by 75%. So what will keep customers coming back?
+The lifeblood of any successful business is <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blanck">customer loyalty</a>! Acquiring customers is no doubt an important aspect of e-commerce as we know it today, but keeping customers happy is just as critical. Research shows that a 5% increase in <a href="https://www.99minds.io//blog/customer-retention" role="link" target="_blanck">customer retention</a> rates can increase profits by 75%. So what will keep customers coming back?
 In this blog, we’ll explore 15 proven strategies to increase customer loyalty and retention, helping you build strong relationships with your audience and secure long-term business growth.
 
 Understanding client devotion is basic for each commerce. Steadfast clients not as it were produce repeating income but too act as brand envoys, supporting for your items or administrations through word-of-mouth and social media. 
@@ -95,7 +95,7 @@ By building a solid foundation of loyal customers, businesses can create a cycle
 </ol>
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -440,7 +440,7 @@ By prioritizing client fulfillment, effectively locks in along with your gatheri
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

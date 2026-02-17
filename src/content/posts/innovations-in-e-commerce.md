@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/Innovations-in-e-commerce.jpg">
+<img src="/assets/blog/Innovations-in-e-commerce.jpg" alt="Blog hero image highlighting 'Innovations in e-commerce'">
 
 Setting up an online store alone will not give you magical sales numbers. <a href="https://www.99minds.io/blog/how-to-get-your-ecommerce-store-ready-for-black-friday-and-cyber-monday/" target="_blank">eCommerce stores are an essential part of our day-to-day lives</a>. You cannot survive in the market by doing the bare minimum. Offering a seamless and delightful experience to your customers every single time should be your goal. For that, you must leverage the latest innovations to keep your customers invested in your brand.
 
@@ -27,7 +27,7 @@ Let’s look at some of the innovations in eCommerce that will bolster the indus
 In the absence of data from 3rd party cookies, eCommerce stores will depend on first-party data. Such data can be collected from customers with exclusive incentives. For example, promotional offers, early access to new products, in-store and online discounts, and loyalty program, to name a few.
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="/assets/blog/CTA-IMAGES-easter.jpg"></a>
+<img src="/assets/blog/CTA-IMAGES-easter.jpg" alt="CTA Button"></a>
 
 <h2>Sensory shopping</h2>
 
