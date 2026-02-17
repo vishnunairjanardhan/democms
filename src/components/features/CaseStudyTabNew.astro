@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import Verticalgrid from "../assets/Verticalgrid.astro";
 import { buttonConfig, cardData, Fashion, Others } from "../../config/CaseStudy.jsx";
 ---
@@ -19,22 +20,24 @@ import { buttonConfig, cardData, Fashion, Others } from "../../config/CaseStudy.
                   <li key={data.title} class="group bg-white overflow-hidden rounded-lg shadow-xl">
                     <a href={data.href}>
                       <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-lg">
-                        <div class="flex">
+                        <div class="flex aspect-video">
                           {data.img ? (
-                            <img 
-                              class="group-hover:scale-105 duration-300 aspect-[5/2.5] object-cover" 
+                            <Image 
+                              class="group-hover:scale-105 duration-300 object-cover h-[169px]" 
                               loading="lazy" 
+                              decoding="async"
                               src={data.img} 
                               alt={data.alt} 
-                              width="630"
+                              
                             />
                           ) : data.videoId ? (
                             <iframe
-                              class="group-hover:scale-105 duration-300 aspect-3/2 object-cover"
-                              src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=1&mute=1&rel=0`}
+                              class="group-hover:scale-105 duration-300 object-fill"
+                              src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=0&mute=1&rel=0`}
                               title={data.title}
                               width="300"
-                              height="auto"
+                              height="169"
+                              loading="lazy"
                               frameBorder="0"
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                               allowFullScreen
@@ -47,11 +50,16 @@ import { buttonConfig, cardData, Fashion, Others } from "../../config/CaseStudy.
                         <div class="flex">
                           <div class="basis-1/2"><img class="h-7" alt={data.altlogo} src={data.logo}></div>
                         </div>
-                        <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
-                        <h2 class="mt-5 text-sm font-regular leading-6 text-gray-900">{data.title}</h2>
-                        <p class="mt-2 text-sm text-blue-600 line-clamp-1">{data.description}</p>
-                        <a href={data.href} class="text-blue-600 text-sm mt-5 hover:underline">Read More</a>
                       </div>
+                      
+                      <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
+                      <h2 class="mt-5 text-sm font-regular leading-6 text-gray-900">{data.title}</h2>
+                      <p class="mt-2 text-sm text-blue-600 line-clamp-1">{data.description}</p>
+                      
+                      <a href={data.href} class="text-blue-600 text-sm mt-auto pt-5 hover:underline inline-block">
+                        Read Case study
+                      </a>
+                    </div>
                     </a>
                   </li>
                 ))}
