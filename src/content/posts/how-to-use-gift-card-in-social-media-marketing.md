@@ -24,7 +24,7 @@ If you are a retailer and were not sure about how to use gift cards in your soci
 
 ### Inform your audience about them
 
-If there is one thing that most businesses fail when it comes to <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards" target="_blank">gift card marketing</a> is that they do not take the effort of telling their customers that they are available. Which is the best place to share this information? Your social media handles. Of course.
+If there is one thing that most businesses fail when it comes to gift card marketing is that they do not take the effort of telling their customers that they are available. Which is the best place to share this information? Your social media handles. Of course.
 
 There are more people interacting with your brand through social media handles than there are through your website or even email newsletters. So if you fail to post on your social media handles about your gift cards, then there is no one else to blame if the gift card sales numbers are poor.
 

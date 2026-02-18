@@ -51,7 +51,7 @@ keywords: ["referral vs affiliate marketing", "affiliate marketing vs referral m
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/referral-marketing-vs-affiliate-marketing-key-differences-and-benefits.webp"></a>
+<img src="/assets/blog/referral-marketing-vs-affiliate-marketing-key-differences-and-benefits.webp" alt="Blog hero image highlighting 'Referral Marketing vs. Affiliate Marketing'">
 
 In the fast-paced world of digital marketing, businesses are continuously looking for ways to broaden their reach and increase their consumer base. Two of the most popular growth techniques are referral vs affiliate marketing. While both attempt to attract new customers and grow sales, their techniques and efficacy vary greatly. Understanding the differences between referral vs affiliate marketing is critical for any business, particularly e-commerce merchants and business owners looking to grow their online presence.<br>
 
@@ -314,7 +314,7 @@ Businesses with a strong, loyal customer base—such as SaaS companies, subscrip
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

@@ -132,39 +132,6 @@ This may involve moving from traditional on-premise solutions to cloud-based pla
 
 For example, utilizing <a href="https://www.99minds.io/loyalty" role="link" target="_blanck">rewards programs</a>, <a href="https://www.99minds.io/store-credit" target="_blanck">store credit</a>, and <a href="https://www.99minds.io/coupons" role="link" target="_blanck">coupons</a> can facilitate smoother transitions by providing advanced features tailored to enhance customer engagement and retention. By migrating to a dedicated eCommerce platform with integrated CRM and ERP functionalities, businesses can ensure a consistent consumer experience while remaining competitive in the market.</li>
 
-<!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
-
-<div class="flex flex-wrap items-center gap-2">
-              <div x-data="{ open: false }" class="w-full">
-              <!-- Trigger -->
-              <span x-on:click="open = true" class="w-full">
-                 <div class="w-full ">
-                <span class="w-full "></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" src="/assets/blog/CTA-Referral1.webp" alt="Get started CTA image for b2b ecommerce trends"></span>
-                </span></div>
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="/GetStarted" width="100%" height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly">
-                      </iframe>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
 <li><b>Faster order fulfillment</b>: The trend towards faster order fulfillment in B2B eCommerce will be driven by changing customer expectations and technological breakthroughs by 2024. Businesses must streamline their operations to meet the demand for quicker response times as the digital market becomes more competitive.
 
 Automation is a critical process in achieving this goal, as it enables businesses to use artificial intelligence and complex algorithms to streamline order processing, inventory management, and shipping. 
@@ -241,7 +208,7 @@ Finding methods to draw in new clients is vital, but it's just as critical to de
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
     </div>
    </div>

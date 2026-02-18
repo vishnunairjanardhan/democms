@@ -45,7 +45,7 @@ keywords: ["Word of mouth marketing", "Word of mouth advertising examples", "wor
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/word-of-mouth-marketing-meaning-benefits-examples-and-statistics.webp"></a>
+<img src="/assets/blog/word-of-mouth-marketing-meaning-benefits-examples-and-statistics.webp" alt="Blog hero image highlighting 'Word of Mouth Marketing'">
 
 In the current digital world, which moves quickly, word of mouth marketing has become an extremely effective strategy for companies. In contrast to conventional advertising techniques, which involve brands communicating messages to consumers, word of mouth marketing depends on genuine discussions and human referrals. A vital component of efficient marketing plans, this organic advertising saves money and fosters trust with future clients.
 
@@ -234,7 +234,7 @@ Absolutely! Word of mouth marketing is especially beneficial for small businesse
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

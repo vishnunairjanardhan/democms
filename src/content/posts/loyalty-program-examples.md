@@ -51,7 +51,7 @@ Another striking statistic from <a href="https://www.zendesk.com/in/blog/zendesk
 Loyalty programs are powerful tools that encourage repeat purchases and improve customer lifetime value. Beyond transactional rewards, successful loyalty programs create brand advocates by delivering personalized experiences and exclusive offers. Whether through points, tiers, or subscription models, these programs build strong emotional connections with customers.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -263,7 +263,7 @@ This is where <a href="https://www.99minds.io/" role="link" target="_blanck">99m
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

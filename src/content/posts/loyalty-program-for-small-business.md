@@ -53,14 +53,14 @@ why would someone return to your business when there are countless competitors o
 
 If you’re a small business owner, fostering loyalty isn’t just a nice-to-have; it’s essential for long-term growth. And guess what? Loyalty programs for small businesses can be the game-changer you’ve been looking for.
 
-In this blog, we’ll explore why <a href="http://99minds.io/loyalty" role="link" target="_blanck">loyalty programs</a> matter, how you can implement them on a budget, and creative ways to keep your customers coming back for more. 
+In this blog, we’ll explore why <a href="https://www.99minds.io/loyalty" role="link" target="_blanck">loyalty programs</a> matter, how you can implement them on a budget, and creative ways to keep your customers coming back for more. 
 
 Let’s dive in.
 
 
 <h2 id="Why-Loyalty-Programs-Matter-for-Small-Businesses">Why Loyalty Programs Matter for Small Businesses</h2>
 
-Think about this: acquiring a new customer costs five times more than retaining an existing one. In a world where marketing budgets are tight and competition is fierce, small businesses can’t afford to overlook <a href="http://99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a>.
+Think about this: acquiring a new customer costs five times more than retaining an existing one. In a world where marketing budgets are tight and competition is fierce, small businesses can’t afford to overlook <a href="https://www.99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a>.
 
 A well-designed loyalty program for small business doesn’t just keep customers coming back—it transforms them into brand advocates. These programs reward your customers for their repeat business, which makes them feel appreciated and encourages them to spend more. For small businesses, this is a golden opportunity to foster a sense of community while boosting revenue.
 
@@ -122,7 +122,7 @@ This data-driven approach enables you to make smarter decisions about everything
 </ol>
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -404,7 +404,7 @@ By keeping your program simple, meaningful, and customer-focused, you’re well 
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

@@ -7,14 +7,14 @@ description: "Mother’s day is a special occasion, but it is also a source of s
 heading: 6 Mother’s Day Marketing Ideas for eCommerce Businesses
 image:
   url: "/assets/blog/6-Mothers-Day-Marketing-Ideas-for-eCommerce-Businesses-800x450.jpg"
-  alt: "6 mothers day marketing ideas for ecommerce business ."
+  alt: "6 mothers day marketing ideas for ecommerce business"
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/6-mothers-day-marketing-ideas-for-ecommerce-businesses"
 keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/6-Mothers-Day-Marketing-Ideas-for-eCommerce-Businesses.jpg">
+<img src="/assets/blog/6-Mothers-Day-Marketing-Ideas-for-eCommerce-Businesses.jpg" alt="blog hero image highlighting'6 mothers day marketing ideas for ecommerce business’">
 
 Mother’s day is a special occasion, but it is also a source of stress for customers to find the right gift. People are looking for gift ideas to give their mothers or the motherly figure in their lives on this special occasion. Retailers will have a field day if they use the occasion to their benefit.
 

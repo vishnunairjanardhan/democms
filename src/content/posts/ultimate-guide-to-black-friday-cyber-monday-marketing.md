@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/Ultimate-Guide-to-Black-Friday-Cyber-Monday-Marketing.jpg">
+<img src="/assets/blog/Ultimate-Guide-to-Black-Friday-Cyber-Monday-Marketing.jpg" alt="Blog hero image highlighting 'Ultimate Guide to Black Friday & Cyber Monday Marketing'">
 
 It’s that time of year again when Black Friday and Cyber Monday are rapidly approaching. There are plenty of bargains and shoppers out there, but getting more sales requires marketing magic. We’ll look at what marketing strategies work.
 

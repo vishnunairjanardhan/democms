@@ -10,7 +10,7 @@ image:
   alt: "Coalition Loyalty Programs: A Strategic Advantage for Modern eCommerce Brands"
 tags: ["Loyalty Program"]
 url: "https://www.99minds.io/blog/coalition-loyalty-programs"
-keywords: ["gift card"]
+keywords: ["Coalition Loyalty Programs"]
 
 --- 
 
@@ -49,7 +49,7 @@ keywords: ["gift card"]
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/coalition-loyalty-programs-a-strategic-advantage-for-modern-ecommerce-brands.webp"></a>
+<img src="/assets/blog/coalition-loyalty-programs-a-strategic-advantage-for-modern-ecommerce-brands.webp" alt="Blog hero image highlighting 'Coalition Loyalty Programs'">
 
 In today’s fast-changing retail world, dependability isn’t close to focuses or discounts—it’s around conveying genuine, progressing esteem. That’s precisely what consolidation devotion programs are planned to do.
 Instead of one brand offering rewards on its own, coalition programs bring together multiple non-competing brands to create a shared loyalty ecosystem. Customers can earn points with one brand and redeem them with another—offering more choice, flexibility, and value.
@@ -84,7 +84,7 @@ A fruitful fusion dependability program isn’t around putting a couple of brand
 <ol role= "list">
 
 <h3><li>Lead Brand or Devotion Stage</li></h3>
-This can be the grapple of the program—usually a major brand, retail chain, or a devotion innovation supplier like <a href="http://www.99minds.io" role="link" target="_blanck">99minds</a> or Payback. They set the rules, oversee the framework, and manage the operations of the complete consolidation.
+This can be the grapple of the program—usually a major brand, retail chain, or a devotion innovation supplier like <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a> or Payback. They set the rules, oversee the framework, and manage the operations of the complete consolidation.
 
 <h3><li>Accomplice Brands</li></h3>
 These are the partaking dealers over different categories—retail, travel, feasting, mold, basic need, excitement, etc. They contribute to the esteem biological system by permitting clients to gain or recover focuses through their stages.
@@ -448,39 +448,6 @@ Coalition loyalty programs involve data sharing—99minds makes sure that happen
 </ul>
 </ol>
 
-<!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
-
-<div class="flex flex-wrap items-center gap-2">
-              <div x-data="{ open: false }" class="w-full">
-              <!-- Trigger -->
-              <span x-on:click="open = true" class="w-full">
-                 <div class="w-full ">
-                <span class="w-full "></span>
-                <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <span class="relative text-white"><img class="w-full m-0" loading="lazy" role="img" src="/assets/blog/CTA-Referral.webp" alt="Get started CTA button"></span>
-                </span></div>
-              </span>
-              <!-- Modal -->
-              <div x-show="open" x-on:keydown.escape.prevent.stop="open = false" role="dialog" aria-modal="true" x-id="['modal-title']" class="fixed inset-0 z-50 w-screen overflow-y-visible" label="Get Started">
-                <!-- Overlay -->
-                <div x-show="open" x-transition.opacity="" class="fixed inset-0 bg-vulcan-950 bg-opacity-50" style="display: none;"></div>
-                <!-- Panel -->
-                <div x-show="open" x-transition="" x-on:click="open = false" class="relative flex min-h-screen items-center justify-center p-4" style="display: none;">
-                  <div x-on:click.stop="" x-trap.noscroll.inert="open" class="relative w-full max-w-3xl overflow-y-auto bg-gradient-to-b from-indigo-500 via-indigo-500/5 shadow-2xl rounded-3xl p-[0.060rem]">
-                    <div class="bg-vulcan-900 rounded-3xl p-10 text-center"> <iframe src="../GetStarted" width="100%" height="600"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="Calendly">
-                      </iframe>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
 <h2 id="Conclusion">Conclusion</h2>
 
 Coalition loyalty programs are more than just a trend – they’re a smart, strategic move for eCommerce brands looking to thrive in a competitive space. By pooling resources, sharing data, and co-creating value, these programs redefine how modern consumers experience brand loyalty.
@@ -515,7 +482,7 @@ Yes, but it depends on the agreement. Make sure it's GDPR and CCPA-compliant.</d
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

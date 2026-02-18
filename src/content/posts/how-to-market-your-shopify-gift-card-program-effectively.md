@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/how-to-market-your-shopify-gift-card-program-e
 keywords: ["99minds"]
 
 --- 
-<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-12.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-12.png" alt="Blog hero image highlighting '9 Effective Shopify Gift Card Marketing Tactics for Your Store'">
 
 Businesses that are looking for Shopify gift card marketing strategies must get their basics right. From getting their website ready to their marketing stack in order, a lot of things must fall in place to have the perfect ROI out of their gift card campaign. Marketing tactics for gift cards are available aplenty, but you must choose one that makes sense for your business. 
 

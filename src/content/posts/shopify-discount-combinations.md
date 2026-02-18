@@ -41,7 +41,7 @@ keywords: ["Shopify"]
 </ul>
   </div> 
 <div class="w-full">
-<img src="/assets/blog/how-99minds-enhances-shopify-discount-combinations-boost-sales-conversions.webp"></a>
+<img src="/assets/blog/how-99minds-enhances-shopify-discount-combinations-boost-sales-conversions.webp" alt="Blog hero image highlighting '99minds Enhances Shopify Discount Combinations'">
 
 Discounts are crucial to e-commerce, helping businesses attract customers, boost sales, and improve <a href="https://www.99minds.io/blog/customer-retention" role="link" target="_blank">customer retention</a>. In any case, the need for improving the stacking of discounts in Shopify makes it more complicated for the merchants to offer more than one promotion in a single purchase. This is however one of the significant limitations that Shopify has in terms of discount stacking.
 
@@ -307,7 +307,7 @@ Shopify's default rebate framework limits how vendors can offer advancements, co
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

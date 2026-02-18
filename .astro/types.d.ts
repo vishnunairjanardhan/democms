@@ -381,20 +381,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"ai-helps-to-make-pizza-more-delicious.md": {
-	id: "ai-helps-to-make-pizza-more-delicious.md";
-  slug: "ai-helps-to-make-pizza-more-delicious";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"ai-implementation-in-e-commerce.md": {
-	id: "ai-implementation-in-e-commerce.md";
-  slug: "ai-implementation-in-e-commerce";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "ai-in-ecommerce.md": {
 	id: "ai-in-ecommerce.md";
   slug: "ai-in-ecommerce";
@@ -713,13 +699,6 @@ declare module 'astro:content' {
 "ecommerce-gift-cards-crucial-for-growing-retail-businesses.md": {
 	id: "ecommerce-gift-cards-crucial-for-growing-retail-businesses.md";
   slug: "ecommerce-gift-cards-crucial-for-growing-retail-businesses";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.md": {
-	id: "ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges.md";
-  slug: "ecommerce-gift-cards-easy-alternatives-for-refunds-returns-and-exchanges";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

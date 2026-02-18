@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/small-business-ideas-for-valentines-day"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Small-Business-ideas-for-Valentines-Day.jpg">
+<img src="/assets/blog/Small-Business-ideas-for-Valentines-Day.jpg" alt="Blog hero image highlighting 'Small Business Ideas for Valentine’s Day'">
 
 Valentine’s Day generates $18.9 billion in revenue. <a href="https://nrf.com/media-center/press-releases/americans-spend-239-billion-valentines-day-year">According to the National Retail Federation</a>, 9 out of 10 Americans expect to buy something for their significant other, each spending an average of $88.
 

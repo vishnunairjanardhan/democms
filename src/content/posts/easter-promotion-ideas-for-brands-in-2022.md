@@ -8,9 +8,9 @@ heading: Easter Promotion Ideas for Brands in 2022
 image:
   url: "/assets/blog/Easter-Promotion-Ideas-for-Brands-in-2022-800x450.jpg"
   alt: "Easter promotion ideas for brands in 2022."
-tags: ["Gift Card"]
+tags: ["Promotion"]
 url: "https://www.99minds.io/blog/easter-promotion-ideas-for-brands-in-2022"
-keywords: ["99minds"]
+keywords: ["Easter Promotion Ideas"]
 
 --- 
 <img src="/assets/blog/Easter-Promotion-Ideas-for-Brands-in-2022.jpg" alt="Easter promotion ideas for brands in 2022.">
@@ -39,7 +39,7 @@ Offering exciting Easter sales, and other incentives can help your company reach
 </li>
 
 <a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blank">
-<img src="/assets/blog/CTA-IMAGES-easter.jpg"></a>
+<img src="/assets/blog/CTA-IMAGES-easter.jpg" alt="CTA Button">
 
 <li>
 <b>Promotion through Gamification</b>
@@ -79,8 +79,7 @@ Collaborate with other businesses during the Easter season. The best way to work
 <li>
 <b>Promotional Giveaways</b>
 
-Social media giveaways are the simplest and most effective approach to maximize 
-<a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards" target="_blank">social media engagement</a>. Build exciting and interactive social media Easter promotions with unique prizes. This would increase brand awareness and promotion.
+Social media giveaways are the simplest and most effective approach to maximize social media engagement. Build exciting and interactive social media Easter promotions with unique prizes. This would increase brand awareness and promotion.
 </li>
 
 <li>

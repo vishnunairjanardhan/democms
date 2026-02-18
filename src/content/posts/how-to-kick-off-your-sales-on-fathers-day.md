@@ -62,7 +62,7 @@ Consider trousers and shirt sets, or exotic foods in specific packaging for the 
 
 Remember that your core customers will be mothers, wives, and children, so adjust your messages smartly. Apart from it, invite them to share images of or with their fathers, as well as their favourite rite “dad joke.”
 
-Dads can then be <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards" target="_blank">featured on your social media pages</a> and in your email campaigns. These types of messaging go a long way toward making clients feel like they can relate to you, establishing trust, and increasing sales.
+Dads can then be featured on your social media pages and in your email campaigns. These types of messaging go a long way toward making clients feel like they can relate to you, establishing trust, and increasing sales.
 
 <h3>Allow customers to pick their own delivery dates.</h3>
 

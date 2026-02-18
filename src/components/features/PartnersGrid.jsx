@@ -33,7 +33,7 @@ const MarqueeRow = ({ direction = "left", images }) => {
             key={index}
             src={src}
             alt="logo"
-            className="object-contain border bg-[#F3F4F] p-4 rounded-2xl w-24 shadow-lg"
+            className="object-contain border bg-[#F3F4F] p-4 rounded-2xl w-24 h-auto shadow-lg"
           />
         ))}
       </motion.div>

@@ -30,7 +30,7 @@ Ensure that you spread the word about your Halloween specials via social media a
 <li>
 <h3>Halloween parties:</h3>
 
-Do you know that you can easily gain footfall on the Halloween night by organizing a party at your restaurant? Yes, it is as simple as that. People are always looking for ways to embrace the little child in them, and this is the perfect opportunity for restaurants. Start creating flyers and <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards">social media</a> posts about your Halloween party. Get the who’s who of the town and target them to capture a big chunk of their market, if yours is a fine-dining restaurant.
+Do you know that you can easily gain footfall on the Halloween night by organizing a party at your restaurant? Yes, it is as simple as that. People are always looking for ways to embrace the little child in them, and this is the perfect opportunity for restaurants. Start creating flyers and social media posts about your Halloween party. Get the who’s who of the town and target them to capture a big chunk of their market, if yours is a fine-dining restaurant.
 
 Make sure that it is a costume party and is ghoulish in nature. Host games to make it interesting for your patrons. Spice up the night by conducting games and contests. Experiment with dry ice, fill the restaurant with scary elements such as skeletons and caricatures or posters of pop culture horror. Tombstones, scary looking lights, cobwebs, jack-o-lanterns, skulls, hanging bat banners, etc., are great additions.
 

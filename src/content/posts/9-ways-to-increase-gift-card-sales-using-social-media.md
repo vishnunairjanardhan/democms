@@ -13,7 +13,8 @@ url: "https://www.99minds.io/blog/9-ways-to-increase-gift-card-sales-using-socia
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-8.png" alt="">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-8.png" alt="Blog hero image highlighting '9 ways to increase gift card sales using social media'">
+
 Even though there are several ways to promote your gift cards, selling them through social media is incredibly effective. Engaging with customers on social media regularly is a great way to create loyal customers. Also, remember that people don’t necessarily need the holidays for the excuse of purchasing gift cards– Covid-19 has already shown us that. 
 
 In this article, we look at gift card marketing on social platforms and how to get the best out of it.
@@ -97,4 +98,4 @@ Here’s how <a href="https://www.99minds.io/blog/referral-marketing" target="_b
 
 Your business doesn’t have to be active on every social media site. All you must do is to choose two or three platforms where your customers lurk and find ways to make them feel heard, appreciated, and valued. If you do this consistently, they will be thrilled to gift their loved ones your gift cards. For businesses that aren’t sure how to begin gift card marketing on social media, the easiest way is to use a gift card marketing software. They would know the no-nonsense way to get things done.
 
-If you are looking to set up a <a href="https://www.99minds.io/giftcard">gift card program</a>, get in touch with the <a href="https://www.99minds.io/">99minds</a> team. We will be able to help you not only with setting it up for you, but our all-in-one platform helps attract and retain clients. With us, setting up a gift card program is just an upside, you get to do so much more with us. 
+If you are looking to set up a <a href="https://www.99minds.io/giftcard">gift card program</a>, <a href="https://calendly.com/99minds">get in touch</a> with the 99minds team. We will be able to help you not only with setting it up for you, but our all-in-one platform helps attract and retain clients. With us, setting up a gift card program is just an upside, you get to do so much more with us. 
