@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/what-are-the-benefits-of-loyalty-programs"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/benefits-of-loyalty-program1.jpg">
+<img src="/assets/blog/benefits-of-loyalty-program1.jpg" alt="Blog hero image highlighting 'What are the benefits of Loyalty Programs'">
 
 Companies across the world realize that existing customers are super important too. Most businesses are bent on finding new customers that they ignore existing customers, unwittingly though. They need to realize that their existing customers are more likely to buy from them again if they are kept happy. If there is one way to ensure that you never lose focus on your present customers, create <a href="https://www.99minds.io/loyalty">a customer loyalty program</a> that rewards your customers who have trusted you already.
 

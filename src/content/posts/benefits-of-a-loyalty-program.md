@@ -48,7 +48,7 @@ keywords: ["benefits of a loyalty program, loyalty program benefits, loyalty pro
  </div>
 
  <div class="w-full">
- <img src="/assets/blog/10-Benefits-of-a-Loyalty-Program-for-Your-Business.webp">
+ <img src="/assets/blog/10-Benefits-of-a-Loyalty-Program-for-Your-Business.webp" alt="Blog hero image highlighting '10 Benefits of a Loyalty Program for Your Business'">
 
 When you're a few points away from receiving a free cup of coffee, have you ever noticed yourself returning to the same coffee shop? Or may your loyalty to a specific airline stem from the miles you've accrued? 
 
@@ -330,7 +330,7 @@ hey can evolve by personalizing rewards based on customer behavior, integrating 
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
     </div>
    </div>

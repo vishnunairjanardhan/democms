@@ -100,9 +100,8 @@ export default function TestimonialsCarousel({
                 >
                 <img
                     src={active === i ? s.logoActiveSrc : s.logoSrc}
-                    className="h-6 md:h-9 lg:h-7 px-2 w-auto object-contain"
+                    className="h-6 w-auto md:h-9 md:w-auto lg:h-7 lg:w-auto px-2  object-contain"
                     alt={s.logoAlt}
-                    loading="lazy"
                 />
                 </button>
             ))}

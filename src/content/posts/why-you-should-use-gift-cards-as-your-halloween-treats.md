@@ -26,7 +26,7 @@ Consumers are willing to spend more money on gifts, parties, and celebrations, m
 Consumers are using gift cards more this year for a variety of reasons. First, COVID-19 has caused many families to cut back on travel and forego in-person Halloween celebrations. Gift cards are a convenient method to purchase a gift for someone who is unable to see you.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

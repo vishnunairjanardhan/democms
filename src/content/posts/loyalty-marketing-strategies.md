@@ -39,7 +39,7 @@ keywords: ["loyalty marketing", "loyalty program marketing", "what is loyalty ma
  </div> 
 
  <div class="w-full">
- <img src="/assets/blog/5_loyalty_marketing_strategies_for_loyal_and_happy_customers.webp">
+ <img src="/assets/blog/5_loyalty_marketing_strategies_for_loyal_and_happy_customers.webp" alt="Blog hero image highlighting 'Loyalty Marketing Strategies'">
 
 Loyalty marketing revolves around cultivating long-term relationships with existing customers by offering personalized and rewarding experiences. As brands move away from one-time promotions, loyalty marketing strategies help businesses engage customers throughout their journey, focusing on retention. By leveraging personalized rewards and tailored communication, brands can boost customer engagement, reduce churn, and build brand advocates. Research shows acquiring new customers is significantly more costly than retaining current ones.
 
@@ -211,7 +211,7 @@ Loyalty marketing is a strategy that focuses on retaining and rewarding existing
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

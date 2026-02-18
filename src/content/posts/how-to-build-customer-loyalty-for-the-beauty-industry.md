@@ -42,7 +42,7 @@ You can also use this technique to get feedback about your new products. It is a
 If giving samples to each of your customers might not be a viable option, then only send it to customers who have become ‘Exclusive; or ‘VIP’ customers. They could be the ones who religiously complete your surveys, engage with you on your social media platforms, etc. When you offer rewards like this, it will create a sense of excitement in their minds when it comes to your brand.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

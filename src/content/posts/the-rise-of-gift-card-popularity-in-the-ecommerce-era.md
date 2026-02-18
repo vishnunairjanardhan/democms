@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/the-rise-of-gift-card-popularity-in-the-ecomme
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-3.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-3.png" alt="Blog hero image highlighting 'The Rise of gift card popularity in the ecommerce era'">
 
 Covid-19 impact on gift cards had eCommerce retailers making bank. Only the Russia-Ukraine war disrupted the expedited recovery after the pandemic. The global gift card market size is expected to reach $405.17 billion in 2023. This is a telling sign of online gift card popularity. A busy shopper knows the value that gift cards in online shopping offer. It lets the recipient buy what they truly want, and that reduces the stress on the person who is tasked with buying the gift. 
 
@@ -37,7 +37,7 @@ The above gift card usage statistics indicate that online shoppers are more than
 
 There was a time when gift cards were an urban-only phenomenon, but the rise of eCommerce and fast internet has completely changed this. Millennial’s gift card preferences are also well-known. In fact, it is one of those rare marketing tools that people of all ages love. 
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-Bookademo.jpg" alt="Create your own gift card campaign"></a>
 
 Gift cards are not a simple gifting tool anymore, it offers rewards, incentives, and an excellent shopping experience. The latest gift card redemption trends indicate that they are a pivotal part of the eCommerce era– let’s look at some of the reasons behind it. 
 

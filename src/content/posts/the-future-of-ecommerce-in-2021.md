@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/the-future-of-ecommerce-in-2021"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/The-future-of-ecommerce-in-20212.jpg">
+<img src="/assets/blog/The-future-of-ecommerce-in-20212.jpg" alt="Blog hero image highlighting 'The future of Ecommerce in 2021'">
 
 Unprecedented.
 

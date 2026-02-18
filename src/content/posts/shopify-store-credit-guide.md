@@ -64,7 +64,7 @@ Shopify Store credit represents a value that retailers provide to customers as a
 If you are a store owner, imagine your customer buys a pair of sneakers from your online boutique, but they don't fit them when they arrive. Instead of a cash refund, your store can issue them store credit for the amount of the purchase. Next time they shop with you, they can select a new pair or any other product and use their shopify store credits at checkout, only paying any additional cost if the new item is more expensive.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -293,7 +293,7 @@ In conclusion, understanding what is store credit and implementing an effective 
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
     </div>
    </div>

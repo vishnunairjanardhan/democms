@@ -7,14 +7,14 @@ description: "For retailers, Mother’s day is a lucrative day in their business
 heading: How to Get Mother’s Day Gift Cards for Your Business to sell a lot?
 image:
   url: "/assets/blog/How-to-Get-Mothers-Day-Gift-Cards-for-Your-Business-to-sell-a-lot-800x450.jpg"
-  alt: "How to get mothers day gift cards your business to sell a lot."
+  alt: "How to get mothers day gift cards your business to sell a lot"
 tags: ["Gift Card"]
 url: "https://www.99minds.io/blog/how-to-get-mothers-day-gift-cards-for-your-business-to-sell-a-lot"
 keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/How-to-Get-Mothers-Day-Gift-Cards-for-Your-Business-to-sell-a-lot.jpg">
+<img src="/assets/blog/How-to-Get-Mothers-Day-Gift-Cards-for-Your-Business-to-sell-a-lot.jpg" alt="Blog hero image highlighting 'How to get mothers day gift cards your business to sell a lot'">
 
 For retailers, Mother’s day is a lucrative day in their business if rightly used. Americans spend extravagantly on this with the average gift value being around $200. If you want to cash in on this beautiful day, creating gift cards for your business is the cleverest thing you can do.
 

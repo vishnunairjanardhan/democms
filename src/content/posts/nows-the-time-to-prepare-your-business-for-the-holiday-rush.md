@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/nows-the-time-to-prepare-your-business-for-the
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Nows-the-time-to-prepare-your-business-for-the-holiday-rush.jpg">
+<img src="/assets/blog/Nows-the-time-to-prepare-your-business-for-the-holiday-rush.jpg" alt="Blog hero image highlighting 'prepare your business for the holiday rush'">
 
 “The secret of getting ahead is getting started.” – Mark Twain
 

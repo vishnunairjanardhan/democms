@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/why-should-every-business-be-a-digital-busines
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Why-should-every-business-be-a-digital-business1.jpg">
+<img src="/assets/blog/Why-should-every-business-be-a-digital-business1.jpg" alt="Blog hero image highlighting 'Why should every business be a digital business'">
 
 Being a digital business is no longer an option. It is a necessity for all businesses, no matter how they operate. Without digital tools, it is almost impossible to function smoothly. Digital transformations have even resulted in radical changes that have completely changed the status quo of various industries. Technology is the biggest contributor in shaping businesses for its future.
 
@@ -40,7 +40,7 @@ Thanks to big data and analytics, you will be in a position to understand what i
 
 <h3><li>Customers want superior experiences:</li></h3>
 
-Believe it or not, the only way you can <a href="https://www.99minds.io/blog/ai-implementation-in-e-commerce/">offer unique and seamless experience for your customers is with the help of technolog</a>. Otherwise, you will be forced to be seen as an outdated business that didn’t care enough to embrace technology. You will become the Kodak of your industry. No one wants that. There are a myriad of technologies available that understands user dynamics and behaviour to offer the best experience possible. From offering live chats to reduce user confusion to online surveys that give real-time results, digital tools have changed the game for businesses.
+Believe it or not, the only way you can offer unique and seamless experience for your customers is with the help of technolog. Otherwise, you will be forced to be seen as an outdated business that didn’t care enough to embrace technology. You will become the Kodak of your industry. No one wants that. There are a myriad of technologies available that understands user dynamics and behaviour to offer the best experience possible. From offering live chats to reduce user confusion to online surveys that give real-time results, digital tools have changed the game for businesses.
 </ul>
 </ol>
 

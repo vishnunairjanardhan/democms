@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/How-to-Market-your-Loyalty-Program.jpg">
+<img src="/assets/blog/How-to-Market-your-Loyalty-Program.jpg" alt="Blog hero image highlighting 'How to Market your Loyalty Program? '">
 
 <h2>What is the best way to market your loyalty program?</h2>
 

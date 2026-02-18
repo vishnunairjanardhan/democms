@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/personalized-customer-journey"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Whats-a-personalized-customer-journey-and-why-do-you-need-to-offer-it-4.jpg">
+<img src="/assets/blog/Whats-a-personalized-customer-journey-and-why-do-you-need-to-offer-it-4.jpg" alt="Blog hero image highlighting 'Personalized Customer Journey'">
 
 All customer journeys are not the same. Each customer wants meaningful interactions. It is believed that only your local bakery or the knick-knack shop in your neighborhood can offer intimate customer experiences. People have accepted the anonymity and impersonal nature of digital interactions with <a href="https://www.99minds.io/blog/how-to-build-customer-loyalty-for-your-e-commerce-store/">online eCommerce stores</a>.
 
@@ -23,7 +23,7 @@ Things have changed. Customers want personalized digital experiences. Thanks to 
 
 A personalized customer journey leverages automated technology to make your customers’ shopping journey more personal. Your recommendations will be more relevant and appealing to your customers’ specific needs in a personalized customer journey. Providing the right product with the right offer in front of each customer is a win-win for everyone involved.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-mothers-day.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-mothers-day.jpg" alt="CTA Button"></a>
 
 <h2>What does a personalized customer journey mean?</h2>
 

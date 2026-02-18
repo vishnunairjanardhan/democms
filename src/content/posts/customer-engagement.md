@@ -180,7 +180,7 @@ To amplify the campaign, McDonald’s used traffic-driving display banners and e
 
 <h2 id="Conclusion-on-Customer-Engagement">Final words on Gamification Customer Engagement</h2>
 
-In today’s competitive landscape, customer engagement is crucial for building lasting relationships and driving brand loyalty. By creating meaningful, interactive experiences, brands can keep customers coming back for more. <a href="http://www.99minds.io">99minds</a> offers innovative solutions to enhance customer engagement through its <a href="https://www.99minds.io/blog/gamification- loyalty-programs">gamified loyalty programs</a>, helping businesses connect with their audience and foster long-term relationships.
+In today’s competitive landscape, customer engagement is crucial for building lasting relationships and driving brand loyalty. By creating meaningful, interactive experiences, brands can keep customers coming back for more. <a href="https://www.99minds.io/">99minds</a> offers innovative solutions to enhance customer engagement through its <a href="https://www.99minds.io/blog/gamification- loyalty-programs">gamified loyalty programs</a>, helping businesses connect with their audience and foster long-term relationships.
 
 <h2 id="Frequently-Asked-Questions-(FAQs)-on-Customer-Engagement">Frequently Asked Questions (FAQs) on Customer Engagement</h2>
 <div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is customer engagement?</h3>
@@ -205,7 +205,7 @@ Improving customer engagement can be achieved by offering personalized experienc
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

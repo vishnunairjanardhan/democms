@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/national-use-your-gift-card-day"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/National-Gift-Card-Day.jpg">
+<img src="/assets/blog/National-Gift-Card-Day.jpg" alt="Blog hero image highlighting 'National Gift Card Day'">
 
 The third Saturday of January is dedicated to a special enabler of ecommerce throughout the world- the ubiquitous gift cards. 15th January this year is the National Use Your Gift Card Day, and the whole objective of a day dedicated to gift cards is to encourage more of its use since <a href="https://www.klfy.com/passe-partout/national-use-your-giftcard-day-is-saturday-january-16/">$3.5 billion of gift card value goes unused every year.</a>
 

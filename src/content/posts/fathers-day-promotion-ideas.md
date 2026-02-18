@@ -127,7 +127,7 @@ Partner with dad influencers for unboxings or product reviews, team up with loca
 Cater to last-minute shoppers or those who prefer giving choice by offering Father’s Day-branded gift cards. Add heartfelt or humorous messages like “Let Dad Choose” or “Treat Dad His Way.” Gift cards are easy to promote, simple to redeem, and ideal for boosting sales in the final days leading up to the holiday.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -209,7 +209,7 @@ Father’s Day might not rival <a href="https://www.99minds.io/blog/mothers-day-
 
 From grilling and golfing to gaming and grooming, many dads appreciate thoughtful gifts that reflect their interests. With the right Father's Day promotion strategy, you can help shoppers make meaningful choices without overspending.
 
-At <a href="http://99minds.io/" role="link" target="_blanck">99minds</a>, we believe in creating memorable shopping experiences that drive loyalty and increase conversions. 
+At <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a>, we believe in creating memorable shopping experiences that drive loyalty and increase conversions. 
 
 <h2 id="3">Father's Day Promotions Frequently Ask Questions (FAQs)</h2>
 
@@ -232,7 +232,7 @@ At <a href="http://99minds.io/" role="link" target="_blanck">99minds</a>, we bel
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

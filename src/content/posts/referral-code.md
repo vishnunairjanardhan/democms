@@ -79,7 +79,7 @@ Referral Links, on the other hand, are URLs containing a referral code included.
 Both systems have unique advantages. Referral links are user-friendly, especially in online settings, whereas referral codes offer a more customized and flexible option for offline engagement. The choice between the two should be based on your program’s specific goals, target demographic, and sharing context. Many businesses successfully use both strategies to increase awareness and engagement across multiple channels.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -237,7 +237,7 @@ As the digital landscape continues to evolve, referral codes will remain a key d
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

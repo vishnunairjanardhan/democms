@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/How-to-attract-retain-gen-Z-customers.jpg">
+<img src="/assets/blog/How-to-attract-retain-gen-Z-customers.jpg" alt="Blog hero image highlighting 'How to attract and retain Generation Z customers'">
 
 <a href="https://www.insiderintelligence.com/insights/generation-z-facts/" target="_blank"><b>"Generation Z currently accounts"</b></a> for 20% of the population in the United States. This generation, born after 1997, is making an impact on the economy, spending an estimated $143 billion every year.”
 
