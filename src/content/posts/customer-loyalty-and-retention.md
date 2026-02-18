@@ -47,7 +47,7 @@ keywords: ["customer loyalty and retention"]
 </ul>
 </div>
 <div class="w-full">
-<img src="/assets/blog/customer-loyalty-retention-the-ultimate-guide-to-long-term-success.webp"></a>
+<img src="/assets/blog/customer-loyalty-retention-the-ultimate-guide-to-long-term-success.webp" alt="Blog hero image highlighting 'Customer Loyalty & Retention'">
 
 Keeping clients cheerful and coming back is uncommonly imperative for companies that ought to stay and pick up a divide of cash for a long time. Getting new customers is obviously critical too, but making sure the ones you already got keep buying from you over and over is what makes your biz grow steadily, gives you a solid reputation, and brings in more cash on the regular.  
 
@@ -260,7 +260,7 @@ Retainment success can be measured with metrics like CRR (Customer Retention R
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

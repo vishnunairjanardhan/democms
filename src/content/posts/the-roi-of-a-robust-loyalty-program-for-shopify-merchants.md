@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/the-roi-of-a-robust-loyalty-program-for-shopif
 keywords: ["99minds"]
 
 --- 
-<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-13.png">
+<img src="/assets/blog/WHY-EVERY-SHOPIFY-STORE-NEEDS-A-LOYALTY-PROGRAM-13.png" alt="Blog hero image highlighting 'The ROI of a Robust Loyalty Program for Shopify Merchants'">
 
 With more than 200 million subscribers, Prime, Amazon’s loyalty program, is the world’s biggest. It is successful because of the exclusive benefits that it offers. From personalized recommendations to expedited shipping, the perks are aplenty. Prime members spend 4x as much as other Amazon customers. That’s how powerful loyalty programs are. It is the perfect example of a win-win for both parties. 
 
@@ -101,7 +101,7 @@ Let’s look at how you can increase Shopify loyalty program case studies with 9
 <li> Check the full impact of your loyalty program by tracking sales and other data like average spending, most used rewards, spending comparisons of loyalty and non-loyalty customers, and so on.</li>
 </ul>
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Bookademo.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full h-44" src="/assets/blog/CTA-Bookademo.jpg" alt="Create your own gift card campaign"></a>
 
 ## Wrapping Up
 

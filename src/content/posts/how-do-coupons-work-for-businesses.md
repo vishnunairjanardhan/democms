@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/how-do-coupons-work-for-businesses"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/how-do-coupons-work-for-businesses/">
-<img src="/assets/blog/How-do-coupons-work-for-businesses.jpg"></a>
+
+<img src="/assets/blog/How-do-coupons-work-for-businesses.jpg" alt="Blog hero image highlighting 'How do coupons work for businesses?'">
 
 People love coupons. All of us actively search for coupons when we are about to buy something, isn’t it?
 
@@ -29,8 +29,7 @@ In this article, we are going to look at how coupons work for businesses and the
 <h3><li>Brings in new customers:</li></h3>
 It acts as an unofficial recruitment channel to get new customers for your brand. When a prospective customer comes across a coupon on a product that they were thinking about getting, even the ones who were dilly-dallying with their purchasing decision will try their luck with your brand. These are people who would not have otherwise purchased from your brand.
 
-The cost of acquiring a customer becomes less as the coupon doesn’t take away a lot in terms of the discount that you offer. Since businesses can’t keep giving on discounts all the time, coupons are a great way to offer something for customers. 
-<a href="https://www.ebbo.com/" target="_blank">According to Clarus Commerce</a>, 65% of retailers say that they get ROI in the first week itself when they run coupon campaigns.
+The cost of acquiring a customer becomes less as the coupon doesn’t take away a lot in terms of the discount that you offer. Since businesses can’t keep giving on discounts all the time, coupons are a great way to offer something for customers. According to Clarus Commerce, 65% of retailers say that they get ROI in the first week itself when they run coupon campaigns.
 
 <h3><li>Attracts former customers:</li></h3>
 
@@ -38,7 +37,7 @@ Coupons are also a great way to attract some of your older customers. They would
 
 <h3><li>Word-of-mouth recommendations:</li></h3>
 
-Your customers will have no qualms about spreading the word to their friends and family about the coupons you have introduced. When customers spread the word on <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards/" target="_blank">social media</a>, there is even more traction. There are a lot of bargain hunters who find it their obligation to tell others about the deals they’ve discovered. People will keep talking about your brand when there are good offers going on.
+Your customers will have no qualms about spreading the word to their friends and family about the coupons you have introduced. When customers spread the word on social media, there is even more traction. There are a lot of bargain hunters who find it their obligation to tell others about the deals they’ve discovered. People will keep talking about your brand when there are good offers going on.
 
 <h3><li>Ability to upsell and cross-sell:</li></h3>
 
@@ -103,8 +102,7 @@ Can you make the process of shopping into a game where customers can get coupons
 
 If you are finding it difficult to attract newer customers during these uncertain times, then adding coupons to your marketing strategy is a no-brainer. It is also a great way to build awareness, increase sales, engage with old customers, and so on.
 
-The 
-<a href="https://www.99minds.io/coupons" target="_blank">99minds platform</a> allows you to create coupons, gift cards, build loyalty programs, referral programs, and even perform location-based promotions for your customers. It has a plug-and-play interface empowers businesses to come up with powerful and personalized promotional campaigns. Get in touch with us to understand how we can help your brand with coupons.
+The <a href="https://www.99minds.io/" target="_blank">99minds</a> allows you to create coupons, gift cards, build loyalty programs, referral programs, and even perform location-based promotions for your customers. It has a plug-and-play interface empowers businesses to come up with powerful and personalized promotional campaigns. Get in touch with us to understand how we can help your brand with coupons.
 
 
 

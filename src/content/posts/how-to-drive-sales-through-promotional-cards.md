@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/how-to-drive-sales-through-promotional-cards"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/How-to-drive-sales-through-promotional-cards2.jpg">
+<img src="/assets/blog/How-to-drive-sales-through-promotional-cards2.jpg" alt="Blog hero image highlighting 'How to drive sales through promotional cards'">
 
 Suppose your sales numbers are stagnant and there are not many prospects in the pipeline. In that case, you are in an unenviable position. No matter how good your products are, they need to sell. Attracting new customers is a task that you should have your best minds occupied with. Retaining your existing customers is another way for you to ensure that your sales pipeline never gets rusted.
 

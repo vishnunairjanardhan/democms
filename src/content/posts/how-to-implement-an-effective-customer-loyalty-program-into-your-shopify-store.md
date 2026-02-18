@@ -79,7 +79,7 @@ There are several types of customer loyalty programs, based on which the incenti
 
 <li><b>Figure out the right incentives:</b></li>
 
-One of the easiest ways to determine what kind of incentives your customers love, all you need to do is ask them directly. You can send an online survey with a bunch of carefully-prepared questions to get details about perks that they would love to have. Post-purchase surveys, <a href="https://www.99minds.io/blog/using-your-social-media-accounts-to-sell-more-gift-cards">social media</a> polls, in-app surveys, phone calls, and interviews, are also excellent ways to find it.
+One of the easiest ways to determine what kind of incentives your customers love, all you need to do is ask them directly. You can send an online survey with a bunch of carefully-prepared questions to get details about perks that they would love to have. Post-purchase surveys, social media polls, in-app surveys, phone calls, and interviews, are also excellent ways to find it.
 <ul>
 <li>Below are some of the oft-used incentives</li>
 <li>Discount codes</li>

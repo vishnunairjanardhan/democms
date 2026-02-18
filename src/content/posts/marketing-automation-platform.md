@@ -44,7 +44,7 @@ keywords: ["Marketing Automation Platform"]
 </ul>
 </div>
 <div class="w-full">
-<img src="/assets/blog/marketing-automation-platform-streamline-your-campaigns-boost-roi.webp"></a>
+<img src="/assets/blog/marketing-automation-platform-streamline-your-campaigns-boost-roi.webp" alt="Blog hero image highlighting 'Marketing Automation Platform'">
 
 Let’s be honest—manually managing your marketing campaigns in 2025? That’s like using a flip phone in the age of iPhones.
 
@@ -458,7 +458,7 @@ Use built-in analytics to track key metrics like open rate, CTR, conversions, an
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

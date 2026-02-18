@@ -13,8 +13,8 @@ url: "https://www.99minds.io/blog/portrait-of-the-average-gift-card-shopper"
 keywords: ["99minds"]
 
 --- 
-<a href="https://www.99minds.io/blog/portrait-of-the-average-gift-card-shopper/" target="_blank">
-<img src="/assets/blog/Portrait-of-the-average-gift-card-shopper1.jpg"></a>
+
+<img src="/assets/blog/Portrait-of-the-average-gift-card-shopper1.jpg" alt="Blog hero image highlighting 'Portrait Of The Average Gift Card Shopper'">
 
 During the peak of the holiday season, shoppers step out to buy clothes, gifts, and online websites for themselves or presents for their families. Gift cards are one of the most preferred options if they are giving it to their friends because of the convenience it offers.
 

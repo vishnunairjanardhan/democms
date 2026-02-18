@@ -41,7 +41,7 @@ keywords: ["e-commerce evolution"]
 </ul>
 </div>
 <div class="w-full">
-<img src="/assets/blog/e-commerce-trends-2025-the-evolution-of-digital-shopping.webp"></a>
+<img src="/assets/blog/e-commerce-trends-2025-the-evolution-of-digital-shopping.webp" alt="Blog hero image highlighting 'Ecommerce Evolution'">
 
 In just a few decades, e-commerce has switched from basic online transactions to an emergency shopping experience from AI. With a rapid lead by 2025, the industry is currently in another important moment driven by ambitious technology and changing consumer preferences.
 
@@ -324,7 +324,7 @@ AR allows customers to visualize products before making a purchase. For example,
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

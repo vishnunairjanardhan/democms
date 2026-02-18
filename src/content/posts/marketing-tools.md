@@ -44,7 +44,7 @@ As we approach 2024, businesses must arm themselves with the right tools to stay
 
 <h2 id="What-are-Marketing-Tools?">What are Marketing Tools?</h2>
 
-Marketing tools are platforms, software, or resources designed to help businesses execute, manage, and analyze their marketing activities. These tools streamline various aspects of marketing, such as automating email campaigns, scheduling social media posts, tracking analytics, managing customer relationships, and boosting <a href="http://99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a>.
+Marketing tools are platforms, software, or resources designed to help businesses execute, manage, and analyze their marketing activities. These tools streamline various aspects of marketing, such as automating email campaigns, scheduling social media posts, tracking analytics, managing customer relationships, and boosting <a href="https://www.99minds.io/blog/customer-retention" role="link" target="_blanck">customer retention</a>.
 
 By using marketing tools, businesses can save time, increase efficiency, and improve the effectiveness of their campaigns. They are essential for creating data-driven strategies, engaging with customers, and achieving marketing goals in a competitive landscape.
 
@@ -110,7 +110,7 @@ Virtual events have become a powerful way to connect with audiences. Webinar and
 </ol>
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -1339,7 +1339,7 @@ If retaining customers is a top priority, consider exploring <a href="https://ww
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

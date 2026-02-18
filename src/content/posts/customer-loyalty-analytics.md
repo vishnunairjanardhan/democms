@@ -43,7 +43,7 @@ keywords: ["customer loyalty analytics"]
 </div>
 
 <div class="w-full">
-<img src="/assets/blog/customer-loyalty-analytics-boost-your-business-growth.webp">
+<img src="/assets/blog/customer-loyalty-analytics-boost-your-business-growth.webp" alt="Blog hero image highlighting 'Customer Loyalty Analytics'">
 
 <a href="https://www.99minds.io/blog/build-customer-loyalty" role="link" target="_blank">Customer loyalty</a> is the foundation of any successful business. In the current competitive environment, more than attracting new consumers is required; maintaining existing ones and fostering their loyalty is essential to long-term success. Analytics related to consumer loyalty are useful in this situation. Businesses can increase profitability, strengthen retention tactics, and better understand their customers by utilizing data-driven insights. At <a href="https://www.99minds.io/" role="link" target="_blank">99minds</a>, we're committed to giving companies useful information so they can improve their <a href="https://www.99minds.io/loyalty" role="link" target="_blank">loyalty programs</a> and achieve sustained success.<br>
 
@@ -305,7 +305,7 @@ Key metrics include NPS, CLV, retention rate, repeat purchase rate, and churn ra
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

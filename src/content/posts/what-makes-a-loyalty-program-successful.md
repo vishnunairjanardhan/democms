@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/what-makes-a-loyalty-program-successful"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/what-makes-loyalty-program-successful-800x450.jpg">
+<img src="/assets/blog/what-makes-loyalty-program-successful-800x450.jpg" alt="Blog hero image highlighting 'What Makes a Loyalty Program Successful'">
 
 Successful businesses know that their success lies in how their customers are treated. Naive business owners do not go out of their way to make their existing customers happy and fulfilled. They will be investing hundreds of thousands of dollars in getting new customers. There is nothing wrong with wanting a pipeline full of qualified leads, but that shouldn’t come at the cost of your existing customers.
 

@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/gift-card-marketing-trends"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Gift-card-market-trends.jpg">
+<img src="/assets/blog/Gift-card-market-trends.jpg" alt="Blog hero image highlighting 'Gift cards marketing trends'">
 
 A gift card is a prepaid store-value money card issued by the retailer or a bank and can be used instead of cash when purchasing from that particular store. Most gift cards are redeemable only in the specific retailer unless otherwise explicitly stated so. While customers usually buy gift cards for friends and family as a gift, its popularity has surged during the pandemic. The increase in sales of gift cards can be attributed to the fact that they are convenient, easy to buy, and passed on to the recipient.
 

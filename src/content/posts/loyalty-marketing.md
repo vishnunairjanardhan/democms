@@ -54,7 +54,7 @@ Loyalty marketing plays a key role in this approach. According to <a href="https
 
 Loyalty marketing focuses on retaining and nurturing existing customers through targeted incentives and personalized experiences. The goal is to reduce churn and encourage repeat purchases from high-value but often overlooked customers.
 
-<a href="http://99minds.io/blog/loyalty-program" role="link" target="_blanck">Loyalty program</a> marketing goes beyond traditional rewards, such as frequent flier miles, by optimizing the customer journey for every segment. By adopting a customer-centric loyalty marketing strategy, brands can enhance satisfaction, increase <a href="https://www.99minds.io/blog/customer-lifetime-value" role="link" target="_blanck">customer lifetime value (LTV)</a>, and drive consistent <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blanck">repeat customers</a>. 
+<a href="https://www.99minds.io/blog/loyalty-program" role="link" target="_blanck">Loyalty program</a> marketing goes beyond traditional rewards, such as frequent flier miles, by optimizing the customer journey for every segment. By adopting a customer-centric loyalty marketing strategy, brands can enhance satisfaction, increase <a href="https://www.99minds.io/blog/customer-lifetime-value" role="link" target="_blanck">customer lifetime value (LTV)</a>, and drive consistent <a href="https://www.99minds.io/blog/repeat-customer" role="link" target="_blanck">repeat customers</a>. 
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">
@@ -268,7 +268,7 @@ Customer loyalty marketing enhances customer satisfaction and generates higher l
         Sign up for free
       </a>
     </div>
-    <img src="/assets/blog/Dashboard.png"
+    <img src="/assets/blog/Dashboard.png" alt="99minds Dashboard"
          class="w-full h-auto ml-4 mb-0 pb-0">
   </div>
 </div>

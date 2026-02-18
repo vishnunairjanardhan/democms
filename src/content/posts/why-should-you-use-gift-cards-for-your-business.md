@@ -38,7 +38,7 @@ Gift cards make the customer feel safe about their money because the balance is 
 Lugging around a piece of paper, however light it may be, is certainly not someone’s idea of worry-free shopping. Saving a physical gift-card can be cumbersome for the average shopper. It is still better than paper certificates, although both are prone to loss, theft, or duplication. With the kind of technology that is available today, you can easily get your gift card redeemed with the help of a simple QR code at the point of sale in a store. Everything gets over in under a minute. Talk about convenience.
 
 <!-- 
-<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral1.webp"></a> -->
+<a href="https://www.99minds.io/register.html?#" target="_blanck"> <img class="w-full " src="/assets/blog/CTA-Referral.webp"></a> -->
 
 <div class="flex flex-wrap items-center gap-2">
               <div x-data="{ open: false }" class="w-full">

@@ -56,9 +56,9 @@ const WalletPage = ({ onNextButtonClick }) => {
                       {formErrors.brandName}
                     </p>
                   )}
-                  <h1 className="py-4 pb-2 font-medium text-lg">
+                  <h2 className="py-4 pb-2 font-medium text-lg">
                     Customize Your Wallet
-                  </h1>
+                  </h2>
                   <div className="grid grid-cols-1 gap-2 md:grid-cols-1 lg:grid-cols-1">
                     <div className="flex items-center text-black">
                       <button

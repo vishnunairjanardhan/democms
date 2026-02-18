@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/10-Best-Merchant-Services-for-2022-1.jpg">
+<img src="/assets/blog/10-Best-Merchant-Services-for-2022-1.jpg" alt="Blog hero image highlighting '10 Best Merchant Services for 2022'">
 
 Getting the right merchant service provider can be the difference between offering convenient options for customers and missing out on sales. Covid-19 has increased the reliance on contactless payment options, and by late 2020, 50% of Americans started using contactless payment methods.
 

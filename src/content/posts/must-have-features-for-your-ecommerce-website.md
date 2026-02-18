@@ -13,7 +13,7 @@ url: "https://www.99minds.io/blog/must-have-features-for-your-ecommerce-website"
 keywords: ["99minds"]
 
 ---
-<img src="/assets/blog/Must-have-features-for-your-eCommerce-website.jpg">
+<img src="/assets/blog/Must-have-features-for-your-eCommerce-website.jpg" alt="Blog hero image highlighting 'Must-have features for your eCommerce website'">
 
 eCommerce adoption has been continually increasing over the past few years. It reached a crescendo with the global pandemic that affected us all since we were forced to buy online. If you have thought of starting an eCommerce store, you won’t find a better time to do it than now.
 
@@ -30,7 +30,7 @@ The first thing that an eCommerce website should have is an “adjustable” sit
 
 There is nothing as annoying as not being able to find the product on the website, even though it is available. That’s a classic lose-lose situation for everybody involved. Your eCommerce site should be powered by an AI-based search engine that predicts user queries.
 
-<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-Big-99minds.jpg"></a>
+<a href="https://www.bigcommerce.com/apps/99minds-gift-card/" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-Big-99minds.jpg" alt="CTA Button"></a>
 
 <li><b>Sort and Filter option:</b></li>
 
@@ -55,7 +55,7 @@ Most of us have been part of loyalty programs. While not every program was the b
 
 Customers who are invested in your brand will find more reasons to stay with you. A <a href="https://www.99minds.io/">loyalty program</a> reduces customer churn since loyal customers continually keep getting breaks.
 
-<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg"></a>
+<a href="https://calendly.com/99minds" target="_blanck"> <img class="w-full" src="/assets/blog/CTA-IMAGE1.jpg" alt="Create your own gift card campaign"></a>
 
 <li><b>Payment options:</b></li>
 

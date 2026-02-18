@@ -14,7 +14,7 @@ keywords: ["99minds"]
 
 --- 
 
-<img src="/assets/blog/Gift-Card-Services-for-Marchants.jpg">
+<img src="/assets/blog/Gift-Card-Services-for-Marchants.jpg" alt="Blog hero image highlighting 'GIFT CARD SERVICES FOR MERCHANTS'">
 
 Gift card, this little thing… is the most popular present among Americans – it is used by everyone from children to elders, from multinationals to small startups, from coffee shops to hair salons and so on and its popularity is still growing.
 
