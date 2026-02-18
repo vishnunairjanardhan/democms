@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import compression from 'vite-plugin-compression';
-import visualizer from 'rollup-plugin-visualizer';
+import { visualizer } from 'rollup-plugin-visualizer';
 import icon from "astro-icon";
 import partytown from '@astrojs/partytown';
 
@@ -25,8 +25,8 @@ export default defineConfig({
     icon(),
     partytown({
       config: {
-      forward: ["dataLayer.push", "fbq"],
-    },
+        forward: ["dataLayer.push", "fbq"],
+      },
     }),
     sitemap({
       serialize(item) {
@@ -39,7 +39,10 @@ export default defineConfig({
     mdx()
   ],
   vite: {
-    plugins: [compression(), visualizer()],
+    plugins: [
+      compression(),
+      visualizer({ open: true }), // optional: auto-opens report
+    ],
     build: {
       minify: 'terser',
       terserOptions: {
