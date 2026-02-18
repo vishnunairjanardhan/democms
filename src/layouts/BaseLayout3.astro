@@ -5,11 +5,13 @@ import Navigation from "../components/global/Navigation.astro";
 import ContactWidget from "../components/forms/ContactWidget.astro";
 import FooterAdd from "../components/global/FooterAdd.astro";
 import HeroSection from "../components/shadcn-studio/blocks/hero-section-38/hero-section-38.tsx";
+import PostHog from '../components/posthog.astro'
 ---
 
 <html lang="en" class="scroll-smooth selection:bg-indigo-500 selection:text-white">
   <head>
     <BaseHead />
+    <PostHog />
   </head>
   <body class="bg-white">
     <noscript>
