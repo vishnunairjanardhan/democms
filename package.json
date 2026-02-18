@@ -34,6 +34,7 @@
     "@headlessui/react": "^1.7.17",
     "@lottiefiles/dotlottie-react": "^0.10.1",
     "@popperjs/core": "^2.11.5",
+    "@posthog/wizard": "^1.32.1",
     "@radix-ui/react-collapsible": "^1.1.12",
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-navigation-menu": "^1.2.14",
