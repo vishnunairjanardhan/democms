@@ -62,7 +62,7 @@ function Hero({ title, title2, highlight = [], description }) {
             <ButtonsGrid />
           </div>
 
-          <TabbedImages client:visible />
+          <TabbedImages client:load />
         </section>
       </div>
     </section>
