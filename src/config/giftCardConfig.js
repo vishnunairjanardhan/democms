@@ -105,13 +105,13 @@ export const logos = [
     "/../integrations/retailpro.svg",
    
     "/../integrations/connectpos.svg",
-    "/../integrations/spreadly.svg",
+    "/../integrations/spreadly.webp",
     "/../integrations/omnisend-icon.svg",
     "/../integrations/klaviyo-icon.svg",
     "/../integrations/hubspot.svg",
     "/../integrations/SendGrid.svg",
     "/../integrations/mailgun.svg",
-    "/../integrations/mailchimp.svg",
+    "/../integrations/mailchimp.webp",
     "/../integrations/Btree logo.svg",
   "/../integrations/hike-icon 2.svg"
 ];

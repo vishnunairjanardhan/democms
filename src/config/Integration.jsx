@@ -157,7 +157,7 @@ export const Email = [
   alt:"99minds-AWS SES Integration"
 },
 {
-  image: '/integrations/mailchimp.svg',
+  image: '/integrations/mailchimp.webp',
   title: 'Mailchimp',
   desc: "A popular email marketing platform that integrates with 99minds. You can use Mailchimp to design and send bulk emails about gift cards, such as purchase confirmations, delivery notifications, or promotional campaigns. Mailchimp offers a free plan with limitations, while paid plans unlock features like automation and detailed analytics.",
   alt:"99minds-Mailchimp Integration"
