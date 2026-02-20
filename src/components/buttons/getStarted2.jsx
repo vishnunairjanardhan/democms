@@ -14,7 +14,7 @@ export default function ButtonsGrid() {
       {/* Section Title */}
       <p>
         <span className="flex items-center justify-center">
-            <img src="/5-star.svg" alt="5 stars" className="w-24 h-auto mr-2" />
+            <img src="/5-star.svg" alt="5 stars" className="w-24 h-[17px] mr-2" />
             5 Star Reviews
         </span>
       </p>
@@ -30,7 +30,7 @@ export default function ButtonsGrid() {
               <img
                 src={btn.logo}
                 alt={`${btn.label} logo`}
-                className="h-10 w-[140px] px-1 rounded-lg w-auto "
+                className="h-50 w-[140px] px-1 rounded-lg"
               />
           </button>
         ))}
