@@ -64,6 +64,7 @@ const TabbedImages = () => {
               <img
                 src={tabs[activeIndex].img}
                 alt={tabs[activeIndex].alt}
+                fetchpriority="low"
                 loading="lazy"
                 decoding="async"
                 width="1313"
