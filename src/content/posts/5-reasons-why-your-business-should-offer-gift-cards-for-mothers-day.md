@@ -35,6 +35,7 @@ By offering your customers the chance to give unique gifts on this special day, 
 
 Gift cards are a popular option for Mother’s Day shoppers. 
 Many <a href="https://www.99minds.io/blog/ecommerce-gift-cards-crucial-for-growing-retail-businesses/" target="_blank">retailers offer them for convenience</a>, and they provide your customers with the ability to shop in their own timeframe and cater to mom’s needs.
+
 Gift cards are often seen as a go-to solution because they give your customers the flexibility to purchase something with little effort and make sure that their moms get exactly what they want – no guessing required. Plus, it doesn’t matter if Mom already has an item because you can guarantee that she can exchange it for something she’ll love.
 Not only does this create convenience for your customers, but it also helps you move inventory that may not have been selling too well or allows you to compete with huge online stores like 
 <a href="https://www.amazon.com/" target="_blank">Amazon</a>. Giving gift cards allows your customers more personalized options when shopping for Mom, rather than just buying from the same companies that everyone else is buying from.
