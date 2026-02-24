@@ -119,27 +119,6 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
         </div>
       )}
 
-      {/* CTA Button & Modal */}
-      {/* <div className="flex justify-center w-full mt-8">
-        <div className="w-full">
-          <div
-            onClick={() => setIsModalOpen(true)}
-            className="w-full cursor-pointer"
-          >
-            <div className="w-full">
-              <span className="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-100 duration-400">
-                <img
-                  className="w-full m-0"
-                  loading="lazy"
-                  role="img"
-                  src="/assets/blog/CTA-Referral.webp"
-                  alt="Get started CTA button"
-                />
-              </span>
-            </div>
-          </div>
-        </div>
-      </div> */}
 <div class="flex justify-center w-full mt-0 mb-4">
   <div class="w-full">
     <div class="bg-[#AA8FFF40] rounded-2xl p-12 flex flex-col justify-between items-center w-full">
@@ -183,83 +162,6 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
           </div>
         )}
       </div>
-      {/* Pagination */}
-      {/* <div className="flex justify-center w-full mt-8">
-      <nav>
-        <ul className="flex space-x-2">
-          {currentPage > 1 && (
-            <>
-              <li>
-                <button
-                  onClick={() => paginate(1)}
-                  className="px-4 py-2 border rounded bg-white text-vulcan-900 font-semibold"
-                >
-                  First
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => paginate(currentPage - 1)}
-                  className="px-4 py-2 border rounded bg-white text-vulcan-900 font-semibold"
-                >
-                  Previous
-                </button>
-              </li>
-            </>
-          )}
-
-          {(() => {
-            const pageNumbers = [];
-            const maxPages = 6;
-            let startPage = Math.max(1, currentPage - Math.floor(maxPages / 2));
-            let endPage = Math.min(totalPages, startPage + maxPages - 1);
-
-            if (endPage - startPage < maxPages - 1) {
-              startPage = Math.max(1, endPage - maxPages + 1);
-            }
-
-            for (let i = startPage; i <= endPage; i++) {
-              pageNumbers.push(
-                <li key={i}>
-                  <button
-                    onClick={() => paginate(i)}
-                    className={`px-4 py-2 border rounded ${
-                      i === currentPage
-                        ? 'bg-gray-200 text-black font-semibold'
-                        : 'bg-white text-vulcan-900 font-semibold'
-                    }`}
-                  >
-                    {i}
-                  </button>
-                </li>
-              );
-            }
-            return pageNumbers;
-          })()}
-
-          {currentPage < totalPages && (
-            <>
-              <li>
-                <button
-                  onClick={() => paginate(currentPage + 1)}
-                  className="px-4 py-2 border rounded bg-white text-vulcan-900 font-semibold"
-                >
-                  Next
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => paginate(totalPages)}
-                  className="px-4 py-2 border rounded bg-white text-vulcan-900 font-semibold"
-                >
-                  Last
-                </button>
-              </li>
-            </>
-          )}
-        </ul>
-      </nav>
-      </div> */}
     </div>
   );
 };
