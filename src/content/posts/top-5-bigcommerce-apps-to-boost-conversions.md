@@ -3,7 +3,7 @@ pubDate: 2020-09-02
 author: Pravin
 authorImg: "Pravin.png"
 title: Top 5 BigCommerce Apps To Boost Conversions
-description: "If you are looking for free BigCommerce themes, you are in the right place. These themes will help you get good at your eCommerce game."
+description: "Discover the top BigCommerce apps to increase conversions, improve retention, and drive more sales with email, chat, loyalty, and reviews."
 heading: Top 5 BigCommerce Apps To Boost Conversions
 image:
   url: "/assets/blog/Top-5-bigcommerce-apps-to-boost-conversions-1.jpg"
