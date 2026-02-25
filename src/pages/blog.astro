@@ -14,17 +14,19 @@ const sortedPosts = allPosts
     slug: post.slug,
     data: {
       heading: post.data.heading,
-      description: (post.data.description ?? "").slice(0, 140),
-      pubDate: new Date(post.data.pubDate).toLocaleDateString(),
-      image: post.data.image?.url ?? (typeof post.data.image === 'string' ? post.data.image : post.data.image?.src),
+      title: post.data.title,
+      description: post.data.description,
+      pubDate: post.data.pubDate,
+      author: post.data.author,
+      tags: post.data.tags,
+      image: {
+        url: post.data.image?.url ?? post.data.image,
+      },
+      authorImage: post.data.authorImage,
     },
   }));
 
-// Deduplicate tags (keep max 30 to limit payload)
-const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))].slice(0, 30);
-
-// Preload the LCP hero image (first post)
-const lcpImageUrl = sortedPosts[0]?.data?.image?.url;
+const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))];
 ---
 
 <BaseLayout3>
@@ -78,9 +80,10 @@ const lcpImageUrl = sortedPosts[0]?.data?.image?.url;
         </h1>
       </div>
 
-      {/* Use client:load so the blog grid hydrates immediately — it's the primary page content */}
-      <BlogWithSearch client:load sortedPosts={sortedPosts} tags={tags} />
-      <CaseStudyTabNew client:visible/>
+      {/* React island (client-only) */}
+      <BlogWithSearch client:only="react" sortedPosts={sortedPosts} tags={tags} />
+
+      <CaseStudyTabNew />
     </div>
   </section>
 
