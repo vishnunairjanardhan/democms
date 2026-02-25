@@ -5,9 +5,8 @@ import { getCollection } from "astro:content";
 import { AstroSeo } from "@astrolib/seo";
 
 export async function getStaticPaths() {
-  const slugify = (text = "") =>
+  const slugify = (text) =>
     text
-      .toString()
       .toLowerCase()
       .trim()
       .replace(/\s+/g, "-")
@@ -16,14 +15,14 @@ export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
 
   const uniqueTags = [
-    ...new Set(allPosts.flatMap((post) => post.data.tags ?? [])),
+    ...new Set(allPosts.map((post) => post.data.tags).flat()),
   ];
 
   return uniqueTags.map((tag) => {
     const slug = slugify(tag);
 
     const filteredPosts = allPosts
-      .filter((post) => post.data.tags?.includes(tag))
+      .filter((post) => post.data.tags.includes(tag))
       .map((post) => ({
         slug: post.slug,
         data: {
@@ -39,30 +38,29 @@ export async function getStaticPaths() {
       }));
 
     return {
-      params: { tag: slug },          // /tags/membership-program
-      props: { posts: filteredPosts, displayTag: tag },
+      params: { tag: slug },
+      props: { posts: filteredPosts, tag },
     };
   });
 }
 
-const { posts, displayTag } = Astro.props;
-const { tag } = Astro.params; // already slugified from URL
+const { posts, tag } = Astro.props;
 ---
 
-<BaseLayout3 pageTitle={displayTag}>
+<BaseLayout3 pageTitle={tag}>
   <AstroSeo
-    title={`99minds - Blogs about ${displayTag}`}
-    description={`Read blogs about ${displayTag} on 99minds`}
+    title={`99minds - Blogs about ${tag}`}
+    description={`Read blogs about ${tag} on 99minds`}
     canonical={`https://www.99minds.io/tags/${tag}`}
     openGraph={{
       url: `https://www.99minds.io/tags/${tag}`,
-      title: `Blogs about ${displayTag} | 99minds`,
-      description: `Discover insights and updates about ${displayTag} on 99minds`,
+      title: `Blogs about ${tag} | 99minds`,
+      description: `Discover insights and updates about ${tag} on 99minds`,
       images: [
         {
           url: "/assets/99minds-logo1.svg",
           alt: "99minds Blog",
-          type: "image/svg+xml",
+          type: "image/svg",
         },
       ],
       site_name: "99minds",
@@ -73,7 +71,7 @@ const { tag } = Astro.params; // already slugified from URL
         {
           url: "/assets/99minds-logo1.svg",
           alt: "99minds Blog",
-          type: "image/svg+xml",
+          type: "image/svg",
         },
       ],
       site: "@99minds_io",
@@ -82,10 +80,10 @@ const { tag } = Astro.params; // already slugified from URL
   />
 
   <section>
-    <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-32 relative">
-      <h1 class="mt-8 text-3xl text-center font-normal tracking-tighter text-black">
-        Blogs about {displayTag}
-      </h1>
+    <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-32 lg:py-18 relative">
+      <p class="mt-8 text-3xl text-center font-normal tracking-tighter text-black">
+        Blogs about {tag}
+      </p>
 
       <div class="py-24">
         <ol class="grid grid-cols-1 gap-8 lg:grid-cols-3 sm:grid-cols-1" role="list">

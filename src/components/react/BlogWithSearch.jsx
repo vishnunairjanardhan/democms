@@ -1,37 +1,59 @@
-import React, { useState, useMemo, useEffect, useCallback } from "react";
+import React, { useState } from "react";
 import BlogEntry from "./BlogEntry";
 import BlogLayout from "./BlogLayout";
 import LatestBlog from "./LatestBlog";
-import { useRef } from "react";
 
+const slugify = (text) =>
+  text
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, "-")
+    .replace(/[^\w-]+/g, "");
 
+const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredPosts, setFilteredPosts] = useState(sortedPosts);
+  const [currentPage, setCurrentPage] = useState(1);
 
-const slugify = (text = "") =>
-  text.toLowerCase().trim().replace(/\s+/g, "-").replace(/[^\w-]+/g, "");
+  const postsPerPage = 11;
 
-const postsPerPage = 11;
+  const handleSearchChange = (event) => {
+    const searchValue = event.target.value.toLowerCase();
+    setSearchTerm(searchValue);
 
-/* ---- Moved OUTSIDE the parent to avoid React reconciler issues ---- */
+    const filtered = sortedPosts.filter(
+      (post) =>
+        post?.data?.title?.toLowerCase().includes(searchValue) ||
+        post?.data?.description?.toLowerCase().includes(searchValue) ||
+        post?.data?.heading?.toLowerCase().includes(searchValue)
+    );
 
-const BlogGrid = ({ blogs }) => {
-  if (!blogs || !blogs.length) return null;
+    setFilteredPosts(filtered);
+    setCurrentPage(1);
+  };
 
-  return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6">
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
+
+  const BlogGrid = ({ blogs }) => (
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-0 mt-6">
       <div>
-        <BlogEntry
-          url={`/blog/${blogs[0].slug}`}
-          title={blogs[0].data.heading}
-          description={blogs[0].data.description}
-          alt={blogs[0].data.heading}
-          pubDate={blogs[0].data.pubDate}
-          author={blogs[0].data.author}
-          image={blogs[0].data.image}
-          authorImage={blogs[0].data.authorImage}
-        />
+        {blogs.length > 0 && (
+          <BlogEntry
+            url={`/blog/${blogs[0].slug}`}
+            title={blogs[0].data.heading}
+            description={blogs[0].data.description}
+            alt={blogs[0].data.heading}
+            pubDate={new Date(blogs[0].data.pubDate).toLocaleDateString()}
+            author={blogs[0].data.author}
+            image={blogs[0].data.image.url}
+            authorImage={blogs[0].data.authorImage}
+          />
+        )}
       </div>
 
-      <div className="grid grid-cols-1 gap-0">
+      <div className="col-span-1 grid grid-cols-1 gap-0">
         {blogs.slice(1, 4).map((post) => (
           <BlogLayout
             key={post.slug}
@@ -39,20 +61,16 @@ const BlogGrid = ({ blogs }) => {
             title={post.data.heading}
             description={post.data.description}
             alt={post.data.heading}
-            pubDate={post.data.pubDate}
-            image={post.data.image}
+            pubDate={new Date(post.data.pubDate).toLocaleDateString()}
+            image={post.data.image.url}
           />
         ))}
       </div>
     </div>
   );
-};
 
-const LatestBlogGrid = ({ blogs }) => {
-  if (!blogs || !blogs.length) return null;
-
-  return (
-    <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 mt-2">
+  const LatestBlogGrid = ({ blogs }) => (
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 sm:grid-cols-1 mt-2">
       {blogs.slice(5, 13).map((post) => (
         <LatestBlog
           key={post.slug}
@@ -60,157 +78,78 @@ const LatestBlogGrid = ({ blogs }) => {
           title={post.data.heading}
           description={post.data.description}
           alt={post.data.heading}
-          pubDate={post.data.pubDate}
-          image={post.data.image}
+          pubDate={new Date(post.data.pubDate).toLocaleDateString()}
+          image={post.data.image.url}
         />
       ))}
     </div>
   );
-};
-
-/* ---------------------------------------------------------- */
-
-const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [debouncedSearchTerm, setDebouncedSearchTerm] = useState("");
-  const [currentPage, setCurrentPage] = useState(1);
-
-  /* ---------------- SEARCH HANDLER ---------------- */
-
-  const handleSearchChange = useCallback((event) => {
-    setSearchTerm(event.target.value);
-  }, []);
-
-  /* ---------------- DEBOUNCE SEARCH ---------------- */
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setDebouncedSearchTerm(searchTerm.toLowerCase());
-      setCurrentPage(1);
-    }, 300);
-
-    return () => clearTimeout(timer);
-  }, [searchTerm]);
-
-  /* ---------------- FILTER POSTS ---------------- */
-
-  const filteredPosts = useMemo(() => {
-    if (!debouncedSearchTerm) return sortedPosts;
-
-    return sortedPosts.filter(
-      (post) =>
-        post?.data?.title?.toLowerCase().includes(debouncedSearchTerm) ||
-        post?.data?.description?.toLowerCase().includes(debouncedSearchTerm) ||
-        post?.data?.heading?.toLowerCase().includes(debouncedSearchTerm)
-    );
-  }, [debouncedSearchTerm, sortedPosts]);
-
-  /* ---------------- PAGINATION ---------------- */
-
-  const currentPosts = useMemo(() => {
-    const start = (currentPage - 1) * postsPerPage;
-    const end = currentPage * postsPerPage;
-    return filteredPosts.slice(start, end);
-  }, [filteredPosts, currentPage]);
-
-  const sliderRef = useRef(null);
-
-const scrollLeft = () => {
-  sliderRef.current?.scrollBy({ left: -200, behavior: "smooth" });
-};
-
-const scrollRight = () => {
-  sliderRef.current?.scrollBy({ left: 200, behavior: "smooth" });
-};
 
   return (
     <div className="flex flex-wrap">
-
+      {/* Search Bar */}
       <div className="flex justify-center w-full">
-        <form className="mt-10 sm:flex sm:max-w-md lg:w-1/2 w-72">
+        <form className="mt-10 sm:flex sm:max-w-md lg:w-1/2">
           <input
             type="text"
             id="search"
-            name="search"
+            className="block w-full h-10 px-4 py-2 text-sm text-indigo-300 bg-transparent border rounded-lg border-black/10 focus:border-indigo-300 focus:outline-none"
             placeholder="Search Blog"
             value={searchTerm}
             onChange={handleSearchChange}
-            className="block w-full h-10 px-4 py-2 text-sm border rounded-lg border-black/10 focus:border-indigo-300 focus:outline-none"
           />
         </form>
       </div>
 
       {/* Tags */}
-      <div className="relative lg:mt-12 mt-6 w-full flex items-center lg:px-8 px-10">
-      
-      {/* Left Arrow */}
-      <button
-        onClick={scrollLeft}
-        className="absolute lg:-left-3 -left-0 z-10 bg-white border shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6]"
-      >
-        <span className="text-md font-semibold">‹</span>
-      </button>
-
-      {/* Slider */}
-     <div
-          ref={sliderRef}
-          className="w-full overflow-x-auto scrollbar-hide scroll-smooth px-0"
-           
-        >
-          <ul className="flex flex-nowrap lg:gap-3 gap-2">
-            {tags.map((tag) => (
-              <li key={tag} className="flex-shrink-0">
-                <a
-                  href={`/tags/${slugify(tag)}`}
-                  className="flex items-center justify-center h-8 text-[#667085] text-sm px-3 py-2 font-semibold border hover:bg-[#F9F5FF] hover:text-[#6941C6] rounded-lg whitespace-nowrap"
-                >
-                  {tag}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-      {/* Right Arrow */}
-      <button
-        onClick={scrollRight}
-        className="absolute lg:-right-3 -right-0 z-10 bg-white border border-gray-300 shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6] transition">
-        <span className="text-md font-semibold">›</span>
-      </button>
-    </div>
+      <div className="mt-12 w-full">
+        <ul className="flex flex-wrap gap-2 mx-auto justify-center" role="list">
+          {tags.map((tag) => (
+            <li key={tag}>
+              <a
+                href={`/tags/${slugify(tag)}`}
+                className="flex items-center justify-center h-8 text-[#667085] text-sm px-4 py-2 font-semibold hover:bg-[#F9F5FF] hover:text-[#6941C6] rounded-lg"
+              >
+                {tag}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
 
       {/* Blog Grid */}
-      {currentPosts.length ? (
+      {currentPosts.length > 0 ? (
         <BlogGrid blogs={currentPosts} />
       ) : (
         <div className="py-24 flex justify-center w-full">
-          <p className="text-4xl font-semibold">No results</p>
+          <p className="text-4xl font-semibold text-white sm:text-5xl">
+            No results
+          </p>
         </div>
       )}
 
       {/* CTA */}
-      <div className="flex justify-center w-full mb-4">
+      <div className="flex justify-center w-full mt-0 mb-4">
         <div className="w-full">
-          <div className="bg-[#AA8FFF40] rounded-2xl p-12 flex flex-col items-center text-center">
-            <h2 className="text-2xl font-semibold text-gray-900">
-              Powerful Integrations for Powerful Businesses
-            </h2>
-
-            <p className="text-gray-600 mt-2">
-              Integrations for e-commerce and retail eco-system
-            </p>
-
-            <div className="flex space-x-4 mt-6">
+          <div className="bg-[#AA8FFF40] rounded-2xl p-12 flex flex-col justify-between items-center w-full">
+            <div className="text-center">
+              <h2 className="text-2xl font-semibold text-gray-900">
+                Powerful Integrations for Powerful Businesses
+              </h2>
+              <p className="text-gray-600 mt-2">
+                Integrations for e-commerce and retail eco-system
+              </p>
+            </div>
+            <div className="flex space-x-4 mt-6 lg:mt-2">
               <a
                 href="/integrations"
-                className="px-4 py-2 font-semibold border border-gray-300 rounded-lg bg-white hover:bg-gray-100"
+                className="px-4 py-2 font-semibold border border-gray-300 rounded-lg text-gray-800 bg-white hover:bg-gray-100 no-underline"
               >
-                View all integrations
+                Learn more
               </a>
-
               <a
                 href="/Get-Started"
-                className="px-4 py-2 font-semibold bg-[#7F56D9] text-white rounded-lg hover:bg-purple-700"
+                className="px-4 py-2 no-underline font-semibold bg-[#7F56D9] text-white rounded-lg hover:bg-purple-700"
               >
                 Get started
               </a>
@@ -220,19 +159,24 @@ const scrollRight = () => {
       </div>
 
       {/* Latest */}
-      <div className="py-4 border-t-2 mt-8 w-full">
-        <div className="flex pb-6 justify-between items-center">
+      <div className="py-4 border-t-2 border-vulcan-800 mt-8 w-full">
+        <div className="flex pb-6 mt-2 justify-between items-center">
           <p className="font-semibold">Latest</p>
-          <a href="/blog/all" className="font-medium" aria-label="View all blog posts">
+          <a className="font-medium cursor-pointer" href="/blog/all">
             View All
           </a>
         </div>
 
-        {currentPosts.length ? (
+        {currentPosts.length > 0 ? (
           <LatestBlogGrid blogs={currentPosts} />
-        ) : null}
+        ) : (
+          <div className="py-24 flex justify-center w-full">
+            <p className="text-4xl font-semibold text-white sm:text-5xl">
+              No results
+            </p>
+          </div>
+        )}
       </div>
-
     </div>
   );
 };

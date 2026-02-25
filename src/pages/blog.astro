@@ -14,39 +14,30 @@ const sortedPosts = allPosts
     slug: post.slug,
     data: {
       heading: post.data.heading,
-      description: (post.data.description ?? "").slice(0, 140),
-      pubDate: new Date(post.data.pubDate).toLocaleDateString(),
-      image: post.data.image?.url ?? (typeof post.data.image === 'string' ? post.data.image : post.data.image?.src),
+      title: post.data.title,
+      description: post.data.description,
+      pubDate: post.data.pubDate,
+      author: post.data.author,
+      tags: post.data.tags,
+      image: {
+        url: post.data.image?.url ?? post.data.image,
+      },
+      authorImage: post.data.authorImage,
     },
   }));
 
-// Deduplicate tags (keep max 30 to limit payload)
-const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))].slice(0, 30);
-
-// Preload the LCP hero image (first post)
-const lcpImageUrl = sortedPosts[0]?.data?.image?.url;
+const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))];
 ---
 
 <BaseLayout3>
-  <!-- Preload LCP hero image so browser fetches it before React hydrates -->
-  {lcpImageUrl && (
-    <link
-      rel="preload"
-      as="image"
-      href={lcpImageUrl}
-      fetchpriority="high"
-      slot="head"
-    />
-  )}
-
   <AstroSeo
     title="99minds - Blog"
-    description="Learn everything about loyalty programs, gift cards, store credit, membership, mobile wallet, coupons, referrals, and omnichannel retention strategies on the 99minds Blog."
+    description="Discover diverse perspectives and valuable insights at 99minds Blog"
     canonical="https://www.99minds.io/blog"
     openGraph={{
       url: "https://www.99minds.io/blog",
       title: "Get Inspired: 99minds Blog Hub",
-      description: "Learn everything about loyalty programs, gift cards, store credit, membership, mobile wallet, coupons, referrals, and omnichannel retention strategies on the 99minds Blog.",
+      description: "Discover diverse perspectives and valuable insights at 99minds Blog",
       images: [
         {
           url: "/assets/99minds-logo1.svg",
@@ -73,14 +64,15 @@ const lcpImageUrl = sortedPosts[0]?.data?.image?.url;
   <section>
     <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-24 lg:py-[72px] relative">
       <div class="flex justify-center">
-        <h1 class="lg:mt-16 mt-4 text-4xl text-center font-normal tracking-tighter sm:text-5xl">
+        <h1 class="mt-14 text-4xl text-center font-normal tracking-tighter sm:text-5xl">
           Get all of our latest updates.
         </h1>
       </div>
 
-      {/* Use client:load so the blog grid hydrates immediately — it's the primary page content */}
-      <BlogWithSearch client:load sortedPosts={sortedPosts} tags={tags} />
-      <CaseStudyTabNew client:visible/>
+      {/* React island (client-only) */}
+      <BlogWithSearch client:only="react" sortedPosts={sortedPosts} tags={tags} />
+
+      <CaseStudyTabNew />
     </div>
   </section>
 
