@@ -3,7 +3,7 @@ export const CLIENT_LOGOS = [
   { src: "/../assets/logos-cloud/cariloha-b.svg", alt: "Cariloha", sizes: { sm: 100, lg: 134.77, base: 80 } },
   { src: "/../assets/logos-cloud/Clubmonaco-b.svg", alt: "Club Monaco", sizes: { sm: 180, lg: 222.78, base: 120 } },
   { src: "/../assets/logos-cloud/Birdsnest.svg", alt: "Birdsnest", sizes: { sm: 100, lg: 123.93, base: 80 } },
-  { src: "/../assets/logos-cloud/FlynnOhara.svg", alt: "Flynn Ohara", sizes: { sm: 100, lg: 130.91, base: 80 } },
+  { src: "/../assets/logos-cloud/FlynnOhara.webp", alt: "Flynn Ohara", sizes: { sm: 100, lg: 130.91, base: 80 } },
   { src: "/../assets/logos-cloud/cornerbakery-b.svg", alt: "Corner Bakery", sizes: { sm: 36, lg: 41.33, base: 28 } },
   { src: "/../assets/logos-cloud/Tootsies.svg", alt: "Tootsies", sizes: { sm: 80, lg: 104.28, base: 60 } },
   { src: "/../assets/logos-cloud/jaxengray.svg", alt: "Jaxen Gray", sizes: { sm: 48, lg: 56, base: 36 } },
