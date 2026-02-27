@@ -6,7 +6,7 @@ import FeatureSix from "../components/features/FeatureSix.astro";
 import FeatureTen from "../components/features/FeatureTen.astro";
 import Pricing99minds from "../components/pricing/Pricing99minds.astro";
 import Faq99minds1 from "../components/Infopages/Faq99minds1.astro";
-import ClientLogoScroller from "../components/testimonials/ClientLogoScroller.astro";
+import LogosCarousel from "../components/testimonials/ClientLogoScroller.jsx";
 import IntegrationsHome from "../components/integrations/IntegrationsHome.astro";
 import FeatureWalletEight from "../components/features/FeatureWalletEight.astro";
 import Inspirations from "../components/features/Inspirations.astro";
@@ -39,7 +39,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
 />
 <BaseLayout3>
   <Hero client:load {...heroConfig}/>
-  <ClientLogoScroller />
+  <LogosCarousel client:load />
   <FeatureSix/>
   <FeatureFive_NewHome  />
   <FeatureTen  />

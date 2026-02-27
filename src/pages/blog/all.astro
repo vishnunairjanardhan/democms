@@ -1,10 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 import { AstroSeo } from "@astrolib/seo";
-import CtaThree99minds from "../components/ctas/CtaThree99minds.astro";
-import BaseLayout3 from "../layouts/BaseLayout3.astro";
-import BlogWithSearch from "../components/react/BlogWithSearch.jsx";
-import CaseStudyTabNew from "../components/features/CaseStudyTabNew.astro";
+import CtaThree99minds from "../../components/ctas/CtaThree99minds.astro";
+import BaseLayout3 from "../../layouts/BaseLayout3.astro";
+import BlogWithSearch from "../../components/react/AllBlogs.jsx";
 
 const allPosts = await getCollection("posts");
 
@@ -33,9 +32,9 @@ const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))];
   <AstroSeo
     title="99minds - Blog"
     description="Discover diverse perspectives and valuable insights at 99minds Blog"
-    canonical="https://www.99minds.io/blog"
+    canonical="https://www.99minds.io/blog/all"
     openGraph={{
-      url: "https://www.99minds.io/blog",
+      url: "https://www.99minds.io/blog/all",
       title: "Get Inspired: 99minds Blog Hub",
       description: "Discover diverse perspectives and valuable insights at 99minds Blog",
       images: [
@@ -48,7 +47,7 @@ const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))];
       site_name: "99minds",
     }}
     twitter={{
-      url: "https://www.99minds.io/blog",
+      url: "https://www.99minds.io/blog/all",
       images: [
         {
           url: "/assets/99minds-logo1.svg",
@@ -62,17 +61,15 @@ const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))];
   />
 
   <section>
-    <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-24 lg:py-[72px] relative">
+    <div class="max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-[72px] relative">
       <div class="flex justify-center">
-        <h1 class="mt-14 text-4xl text-center font-normal tracking-tighter sm:text-5xl">
+        <h1 class="mt-16 text-4xl font-normal tracking-tighter sm:text-5xl">
           Get all of our latest updates.
         </h1>
       </div>
 
-      {/* React island (client-only) */}
+      {/* React island with lean props */}
       <BlogWithSearch client:only="react" sortedPosts={sortedPosts} tags={tags} />
-
-      <CaseStudyTabNew />
     </div>
   </section>
 
