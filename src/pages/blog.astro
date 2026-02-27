@@ -70,8 +70,7 @@ const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))];
       </div>
 
       {/* React island (client-only) */}
-      <BlogWithSearch client:only="react" sortedPosts={sortedPosts} tags={tags} />
-
+      <BlogWithSearch client:load sortedPosts={sortedPosts} tags={tags} />
       <CaseStudyTabNew />
     </div>
   </section>
