@@ -103,7 +103,7 @@ How to make loyalty programs work:
 
 Here is example for Calico’s Loyalty Program
 
-<img loading="lazy" role="img" src="/assets/case-study/Calico2.png" alt="Calico’s Loyalty Program case study">
+<img loading="lazy" role="img" src="/assets/case-study/Calico2.webp" alt="Calico’s Loyalty Program case study">
 
 Calico, a leading fashion and lifestyle retailer, revamped its loyalty program with 99minds to strengthen repeat purchases and <a href="https://www.99minds.io/blog/customer-engagement" role="link" target="_blanck">customer engagement</a>.
 
@@ -143,7 +143,7 @@ While discounts can drive short-term sales, they often reduce margins and can hu
 
 For Example: Natori’s Store Credit Strategy
 
-<img loading="lazy" role="img" src="/assets/case-study/natori1.png" alt="Natori Loyalty Program case study">
+<img loading="lazy" role="img" src="/assets/case-study/natori1.webp" alt="Natori Loyalty Program case study">
 
 Luxury fashion brand <a href="https://www.99minds.io/case-study/natori" role="link" target="_blanck">Natori</a> worked with 99minds to integrate a store-credit/gift-card refund option when customers returned items. Rather than issuing a cash refund, customers could choose a Natori gift card/store credit which they could redeem only in Natori’s ecosystem. As a result:
 
