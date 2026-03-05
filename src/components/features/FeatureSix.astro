@@ -1,4 +1,8 @@
 ---
+import { Image } from "astro:assets";
+import myImage from "../../assets/homepage/GC-exp.webp";
+import myImage1 from "../../assets/homepage/LP1.webp";
+import myImage1 from "../../assets/homepage/SC1.webp";
 import Verticalgrid from "../assets/Verticalgrid.astro";
 ---
 
@@ -7,15 +11,25 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
   <div class="relative max-w-7xl px-8 md:px-12 lg:px-16 mx-auto py-12 lg:py-24  md:space-y-24 space-y-5">
     <div class="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
       <div class="h-full">
-        <img
+        <!--<img
           role='img'
           loading="lazy"
           alt="gift card image"
           class="rounded-2xl shadow-vulcan-950/50" width="731" height="733"
           src="/assets/homepage/GC-exp.webp"
-        />
+        />-->
+        <Image
+            src={myImage}
+            alt="Gift card experience"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={80}
+            loading="lazy"
+            class="rounded-2xl shadow-vulcan-950/50"
+          />
       </div>
-      <div class=" ">
+      <div class="">
         <p
           class="text-base font-medium text-[#6820EE] uppercase bg-clip-text">
           Gift Card Management
@@ -55,6 +69,18 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
     </div>
     <div
       class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+      <div class="h-full sm:order-last">
+        <Image
+            src={myImage1}
+            alt="Gift card experience"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={80}
+            loading="lazy"
+            class="rounded-2xl shadow-vulcan-950/50"
+          />
+      </div>
       <div class="">
         <p
           class="text-base font-medium text-[#6820EE] uppercase bg-clip-text">
@@ -92,17 +118,21 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
               </div>
             </div>
       </div>
-      <div class="h-full">
-        <img
-          role='img'
-          loading="lazy"
-          alt="Loyalty Points image"
-          class="rounded-2xl shadow-vulcan-950/50 " width="760" height="700"
-          src="/assets/homepage/LP1.webp"
-        />
-      </div>
+      
     </div>
     <div class="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2 lg:gap-24 items-center">
+    <div class="h-full">
+        <Image
+            src={myImage1}
+            alt="Gift card experience"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={80}
+            loading="lazy"
+            class="rounded-2xl shadow-vulcan-950/50"
+          />
+      </div>
       <div class="sm:order-last">
         <p 
           role='term'
@@ -140,18 +170,8 @@ import Verticalgrid from "../assets/Verticalgrid.astro";
               </span>
               </div>
             </div>
-   
-           
       </div>
-      <div class="h-full">
-        <img
-          role='img'
-          loading="lazy"
-          alt="Store Credits image"
-          class="rounded-2xl shadow-vulcan-950/50 " width="761" height="700"
-          src="/assets/homepage/SC1.webp"
-        />
-      </div>
+      
     </div>
   </div>
 </section>
