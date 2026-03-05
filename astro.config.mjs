@@ -44,7 +44,6 @@ export default defineConfig({
       visualizer({ open: true }), // optional: auto-opens report
     ],
     build: {
-      inlineStylesheets: 'auto',
       minify: 'terser',
       terserOptions: {
         compress: {
