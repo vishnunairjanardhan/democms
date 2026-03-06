@@ -128,7 +128,7 @@ const CouponGenerator = () => {
     },
     {
       id: 5,
-      src: "/images/coupon-generator/woocommerce-logo-1395ccff7884105ee1bc16f777a9964e.png",
+      src: "/images/coupon-generator/woocommerce_logo.webp",
       url: "https://giftcard.99minds.io/access/login",
     },
   ];
