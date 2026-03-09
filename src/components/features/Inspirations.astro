@@ -1,5 +1,11 @@
 ---
 import TESTIMONIAL from "../../config/Testimonial.json";
+import { Image } from "astro:assets";
+import myImage from "../../assets/loyalty-showcase/Lovable-ss.webp";
+import myImage1 from "../../assets/loyalty-showcase/Sukoshi-ss.webp";
+import myImage2 from "../../assets/loyalty-showcase/Les-jumelles-ss.webp";
+import myImage3 from "../../assets/loyalty-showcase/Gwynn-ss.webp";
+
 ---
 
 <section class="relative">
@@ -59,7 +65,15 @@ import TESTIMONIAL from "../../config/Testimonial.json";
                         <li class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full ">
                           <div>
                             <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center  mx-auto justify-center">
-                              <img class="object-cover loading="lazy" object-center w-[32rem] h-[18rem] rounded-lg shadow-xl" src="/assets/loyalty-showcase/Lovable-ss.webp" alt="Lovable Loyalty Program">
+                            <Image
+                              src={myImage}
+                              widths={[400, 800, 1200]}
+                              sizes="(max-width: 1024px) 90vw, 836px"
+                              format="webp"
+                              quality={80}
+                              loading="lazy" alt="Lovable Loyalty Program"
+                              class="object-cover object-center w-[32rem] h-[18rem] rounded-lg shadow-lg"
+                              >
                             </div>
                           </div>
                         </li>
@@ -72,7 +86,15 @@ import TESTIMONIAL from "../../config/Testimonial.json";
                           <li class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full">
                             <div>
                               <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center  mx-auto justify-center"> 
-                                <img class="object-cover loading="lazy" object-center w-[32rem] h-[18rem] rounded-lg shadow-xl"  src="/assets/loyalty-showcase/Sukoshi-ss.webp" alt="Sukoshi Loyalty Program">
+                              <Image
+                                src={myImage1}
+                                widths={[400, 800, 1200]}
+                                sizes="(max-width: 1024px) 90vw, 836px"
+                                format="webp"
+                                quality={80}
+                                loading="lazy"
+                                class="object-cover object-center w-[32rem] h-[18rem] rounded-lg shadow-lg"
+                                alt="Sukoshi Loyalty Program">
                               </div>
                             </div>
                           </li>
@@ -85,7 +107,15 @@ import TESTIMONIAL from "../../config/Testimonial.json";
                           <li class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full ">
                             <div>
                               <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center mx-auto justify-center">
-                                <img class="object-cover loading="lazy" object-center w-[32rem] h-[18rem] rounded-lg shadow-xl" src="/assets/loyalty-showcase/Les-jumelles-ss.webp" alt="Les-jumelles Loyalty Program">
+                                <Image
+                                src={myImage2}
+                                widths={[400, 800, 1200]}
+                                sizes="(max-width: 1024px) 90vw, 836px"
+                                format="webp"
+                                quality={80}
+                                loading="lazy"
+                                class="object-cover object-center w-[32rem] h-[18rem] rounded-lg shadow-lg"
+                                alt="Les-jumelles Loyalty Program">
                               </div>
                             </div>
                           </li>
@@ -98,14 +128,22 @@ import TESTIMONIAL from "../../config/Testimonial.json";
                           <li class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full ">
                             <div>
                               <div class="mt-0 lg:mt-0 lg:flex lg:w-[32rem] lg:items-center mx-auto justify-center">
-                                <img class="object-cover loading="lazy" object-center w-[32rem] h-[18rem] rounded-lg shadow-xl" src="/assets/loyalty-showcase/Gwynn-ss.webp" alt="Gwynns Loyalty Program">
+                                <Image
+                                src={myImage3}
+                                widths={[400, 800, 1200]}
+                                sizes="(max-width: 1024px) 90vw, 836px"
+                                format="webp"
+                                quality={80}
+                                loading="lazy"
+                                class="object-cover object-center w-[32rem] h-[18rem] rounded-lg shadow-lg"
+                                alt="Gwynns Loyalty Program">
                               </div>
                             </div>
                           </li>
                         </ul>
                       </figure>
                   </li>
-                  <li class="w-full flex flex-col shrink-0 snap-start" role="option">
+                  <!--<li class="w-full flex flex-col shrink-0 snap-start" role="option">
                       <figure>
                         <ul class="h-full">
                           <li class="lg:mt-0 mb-4 shadow-3xl rounded-3xl p-[0.060rem] snap-start w-full ">
@@ -130,7 +168,7 @@ import TESTIMONIAL from "../../config/Testimonial.json";
                           </li>
                         </ul>
                       </figure>
-                  </li>
+                  </li>-->
 
                   <!-- Duplicated Slides for Infinite Scroll Effect
                  <li class="w-full flex flex-col shrink-0 snap-start" role="option">
