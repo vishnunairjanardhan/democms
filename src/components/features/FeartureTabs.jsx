@@ -60,6 +60,7 @@ const TabbedImages = () => {
 
           {/* Image */}
           <div className="sm:order-last relative w-full max-w-[1313px] lg:h-[523px] md:h-[270px] h-[150px] mx-auto aspect-[16/9] overflow-hidden lg:rounded-2xl rounded-md md:mt-6">
+          <div className="sm:order-last relative w-full max-w-[1313px] lg:h-[523px] md:h-[270px] h-[150px] mx-auto aspect-[16/9] overflow-hidden lg:rounded-2xl rounded-md md:mt-6">
             {isMobile ? (
               <img
                 src={tabs[activeIndex].img}
@@ -68,6 +69,8 @@ const TabbedImages = () => {
                 loading="lazy"
                 decoding="async"
                 width="1313"
+                height="525"
+                className="absolute inset-0 w-full h-[150px] lg:h-auto object-cover"
                 height="525"
                 className="absolute inset-0 w-full h-[150px] lg:h-auto object-cover"
               />
