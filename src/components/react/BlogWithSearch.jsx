@@ -4,13 +4,68 @@ import BlogLayout from "./BlogLayout";
 import LatestBlog from "./LatestBlog";
 
 const slugify = (text = "") =>
-  text
-    .toLowerCase()
-    .trim()
-    .replace(/\s+/g, "-")
-    .replace(/[^\w-]+/g, "");
+  text.toLowerCase().trim().replace(/\s+/g, "-").replace(/[^\w-]+/g, "");
 
 const postsPerPage = 11;
+
+/* ---- Moved OUTSIDE the parent to avoid React reconciler issues ---- */
+
+const BlogGrid = ({ blogs }) => {
+  if (!blogs || !blogs.length) return null;
+
+  return (
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6">
+      <div>
+        <BlogEntry
+          url={`/blog/${blogs[0].slug}`}
+          title={blogs[0].data.heading}
+          description={blogs[0].data.description}
+          alt={blogs[0].data.heading}
+          pubDate={new Date(blogs[0].data.pubDate).toLocaleDateString()}
+          author={blogs[0].data.author}
+          image={blogs[0].data.image?.url}
+          authorImage={blogs[0].data.authorImage}
+        />
+      </div>
+
+      <div className="grid grid-cols-1 gap-0">
+        {blogs.slice(1, 4).map((post) => (
+          <BlogLayout
+            key={post.slug}
+            url={`/blog/${post.slug}`}
+            title={post.data.heading}
+            description={post.data.description}
+            alt={post.data.heading}
+            pubDate={new Date(post.data.pubDate).toLocaleDateString()}
+            image={post.data.image?.url}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+const LatestBlogGrid = ({ blogs }) => {
+  if (!blogs || !blogs.length) return null;
+
+  return (
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 mt-2">
+      {blogs.slice(5, 13).map((post) => (
+        <LatestBlog
+          key={post.slug}
+          url={`/blog/${post.slug}`}
+          title={post.data.heading}
+          description={post.data.description}
+          alt={post.data.heading}
+          pubDate={new Date(post.data.pubDate).toLocaleDateString()}
+          image={post.data.image?.url}
+        />
+      ))}
+    </div>
+  );
+};
+
+/* ---------------------------------------------------------- */
 
 const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -39,10 +94,11 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
   const filteredPosts = useMemo(() => {
     if (!debouncedSearchTerm) return sortedPosts;
 
-    return sortedPosts.filter((post) =>
-      post?.data?.title?.toLowerCase().includes(debouncedSearchTerm) ||
-      post?.data?.description?.toLowerCase().includes(debouncedSearchTerm) ||
-      post?.data?.heading?.toLowerCase().includes(debouncedSearchTerm)
+    return sortedPosts.filter(
+      (post) =>
+        post?.data?.title?.toLowerCase().includes(debouncedSearchTerm) ||
+        post?.data?.description?.toLowerCase().includes(debouncedSearchTerm) ||
+        post?.data?.heading?.toLowerCase().includes(debouncedSearchTerm)
     );
   }, [debouncedSearchTerm, sortedPosts]);
 
@@ -53,61 +109,6 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
     const end = currentPage * postsPerPage;
     return filteredPosts.slice(start, end);
   }, [filteredPosts, currentPage]);
-
-  /* ---------------- BLOG GRID ---------------- */
-
-  const BlogGrid = ({ blogs }) => {
-    if (!blogs.length) return null;
-
-    return (
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6">
-        <div>
-          <BlogEntry
-            url={`/blog/${blogs[0].slug}`}
-            title={blogs[0].data.heading}
-            description={blogs[0].data.description}
-            alt={blogs[0].data.heading}
-            pubDate={new Date(blogs[0].data.pubDate).toLocaleDateString()}
-            author={blogs[0].data.author}
-            image={blogs[0].data.image.url}
-            authorImage={blogs[0].data.authorImage}
-          />
-        </div>
-
-        <div className="grid grid-cols-1 gap-0">
-          {blogs.slice(1, 4).map((post) => (
-            <BlogLayout
-              key={post.slug}
-              url={`/blog/${post.slug}`}
-              title={post.data.heading}
-              description={post.data.description}
-              alt={post.data.heading}
-              pubDate={new Date(post.data.pubDate).toLocaleDateString()}
-              image={post.data.image.url}
-            />
-          ))}
-        </div>
-      </div>
-    );
-  };
-
-  /* ---------------- LATEST GRID ---------------- */
-
-  const LatestBlogGrid = ({ blogs }) => (
-    <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 mt-2">
-      {blogs.slice(5, 13).map((post) => (
-        <LatestBlog
-          key={post.slug}
-          url={`/blog/${post.slug}`}
-          title={post.data.heading}
-          description={post.data.description}
-          alt={post.data.heading}
-          pubDate={new Date(post.data.pubDate).toLocaleDateString()}
-          image={post.data.image.url}
-        />
-      ))}
-    </div>
-  );
 
   return (
     <div className="flex flex-wrap">
