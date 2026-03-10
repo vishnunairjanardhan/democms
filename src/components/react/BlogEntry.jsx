@@ -9,7 +9,6 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
         <div className="flex">
           <img
             className="group-hover:scale-105 duration-300 object-cover"
-            loading="lazy"
             src={image}
             alt={title}
           />
