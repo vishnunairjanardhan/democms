@@ -4,13 +4,16 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
   return <div
     className="group flex md:flex-col">
     <a href={url} title={title}>
-      <div
-        className="flex items-end justify-center overflow-hidden rounded-lg">
-        <div className="flex">
+        <div
+        className="flex items-end justify-center overflow-hidden rounded-lg aspect-video w-full h-auto">
+        <div className="flex w-full h-full">
           <img
-            className="group-hover:scale-105 duration-300 object-cover"
+            className="group-hover:scale-105 duration-300 object-cover w-full h-full"
             src={image}
             alt={title}
+            fetchpriority="high"
+            loading="eager"
+            decoding="sync"
           />
         </div>
       </div>
