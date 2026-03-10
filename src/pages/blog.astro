@@ -14,22 +14,34 @@ const sortedPosts = allPosts
     slug: post.slug,
     data: {
       heading: post.data.heading,
-      title: post.data.title,
-      description: post.data.description,
+      // Trim description to 160 chars to reduce serialized payload
+      description: (post.data.description ?? "").slice(0, 160),
       pubDate: post.data.pubDate,
-      author: post.data.author,
-      tags: post.data.tags,
       image: {
         url: post.data.image?.url ?? post.data.image,
       },
-      authorImage: post.data.authorImage,
     },
   }));
 
-const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))];
+// Deduplicate tags (keep max 30 to limit payload)
+const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))].slice(0, 30);
+
+// Preload the LCP hero image (first post)
+const lcpImageUrl = sortedPosts[0]?.data?.image?.url;
 ---
 
 <BaseLayout3>
+  <!-- Preload LCP hero image so browser fetches it before React hydrates -->
+  {lcpImageUrl && (
+    <link
+      rel="preload"
+      as="image"
+      href={lcpImageUrl}
+      fetchpriority="high"
+      slot="head"
+    />
+  )}
+
   <AstroSeo
     title="99minds - Blog"
     description="Discover diverse perspectives and valuable insights at 99minds Blog"
@@ -69,8 +81,8 @@ const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))];
         </h1>
       </div>
 
-      {/* React island (client-only) */}
-      <BlogWithSearch client:idle sortedPosts={sortedPosts} tags={tags} />
+      {/* Use client:load so the blog grid hydrates immediately — it's the primary page content */}
+      <BlogWithSearch client:load sortedPosts={sortedPosts} tags={tags} />
       <CaseStudyTabNew />
     </div>
   </section>
