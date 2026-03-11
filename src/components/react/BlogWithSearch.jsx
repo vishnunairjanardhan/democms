@@ -21,9 +21,9 @@ const BlogGrid = ({ blogs }) => {
           title={blogs[0].data.heading}
           description={blogs[0].data.description}
           alt={blogs[0].data.heading}
-          pubDate={new Date(blogs[0].data.pubDate).toLocaleDateString()}
+          pubDate={blogs[0].data.pubDate}
           author={blogs[0].data.author}
-          image={blogs[0].data.image?.url}
+          image={blogs[0].data.image}
           authorImage={blogs[0].data.authorImage}
         />
       </div>
@@ -36,8 +36,8 @@ const BlogGrid = ({ blogs }) => {
             title={post.data.heading}
             description={post.data.description}
             alt={post.data.heading}
-            pubDate={new Date(post.data.pubDate).toLocaleDateString()}
-            image={post.data.image?.url}
+            pubDate={post.data.pubDate}
+            image={post.data.image}
           />
         ))}
       </div>
@@ -57,8 +57,8 @@ const LatestBlogGrid = ({ blogs }) => {
           title={post.data.heading}
           description={post.data.description}
           alt={post.data.heading}
-          pubDate={new Date(post.data.pubDate).toLocaleDateString()}
-          image={post.data.image?.url}
+          pubDate={post.data.pubDate}
+          image={post.data.image}
         />
       ))}
     </div>

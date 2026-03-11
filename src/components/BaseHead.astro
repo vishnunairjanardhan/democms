@@ -3,15 +3,10 @@ import "../styles/global.css";
 const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 ---
 
-<!-- Critical preconnects (max 8) -->
+<!-- Critical preconnects (max 3) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://www.googletagmanager.com">
-<link rel="preconnect" href="https://connect.facebook.net" crossorigin>
-<link rel="preconnect" href="https://app.termly.io">
-<link rel="preconnect" href="https://us-assets.i.posthog.com">
-<link rel="preconnect" href="https://widget.intercom.io">
-<link rel="preconnect" href="https://js.intercomcdn.com">
 
 <!-- Google Tag Manager (Partytown) -->
 <script type="text/partytown">
@@ -52,16 +47,6 @@ window.addEventListener("load", () => {
 <!-- Sitemap -->
 <link rel="sitemap" href="/sitemap-index.xml">
 
-<!-- AOS CSS (non-blocking) -->
-<link
-  rel="preload"
-  href="https://unpkg.com/aos@2.3.4/dist/aos.css"
-  as="style"
-  onload="this.onload=null;this.rel='stylesheet'"
->
-<noscript>
-<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
-</noscript>
 
 <!-- Google Fonts (non-blocking) -->
 <link

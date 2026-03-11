@@ -14,12 +14,9 @@ const sortedPosts = allPosts
     slug: post.slug,
     data: {
       heading: post.data.heading,
-      // Trim description to 160 chars to reduce serialized payload
-      description: (post.data.description ?? "").slice(0, 160),
-      pubDate: post.data.pubDate,
-      image: {
-        url: post.data.image?.url ?? post.data.image,
-      },
+      description: (post.data.description ?? "").slice(0, 140),
+      pubDate: new Date(post.data.pubDate).toLocaleDateString(),
+      image: post.data.image?.url ?? (typeof post.data.image === 'string' ? post.data.image : post.data.image?.src),
     },
   }));
 
