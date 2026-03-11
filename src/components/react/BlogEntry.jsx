@@ -5,13 +5,17 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
     className="group flex md:flex-col">
     <a href={url} title={title}>
       <div
-        className="flex items-end justify-center overflow-hidden rounded-lg">
-        <div className="flex">
+        className="flex items-end justify-center overflow-hidden rounded-lg aspect-video w-full h-auto">
+        <div className="flex w-full h-full">
           <img
-            className="group-hover:scale-105 duration-300 object-cover"
-            loading="lazy"
+            className="group-hover:scale-105 duration-300 object-cover w-full h-full"
             src={image}
             alt={title}
+            width="1200"
+            height="675"
+            fetchpriority="high"
+            loading="eager"
+            decoding="sync"
           />
         </div>
       </div>
@@ -27,7 +31,7 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
         </p>
         <div>
           {author && <p className='text-base font-semibold'>Author: {author}</p>}
-          </div>
+        </div>
       </div>
     </a>
   </div>

@@ -44,12 +44,12 @@ const TabbedImages = () => {
       <div className="relative max-w-7xl px-8 md:px-0 mx-auto py-5">
         <div className="flex flex-col-reverse md:flex-col items-center">
           {/* Desktop Tabs */}
-          <div className="hidden lg:flex items-center justify-center w-full gap-4 py-8">
+          <div className="lg:flex items-center justify-center w-full gap-4 lg:py-8 py-4">
             {tabs.map((tab, index) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveIndex(index)}
-                className={`px-2 py-2 w-[250px] rounded-full border text-sm font-medium transition whitespace-nowrap ${
+                className={`px-4 py-2 lg:w-[250px] m-[5px] lg:m-0 rounded-full border text-sm font-medium transition whitespace-nowrap ${
                   activeIndex === index ? "bg-[#E6DEFF] border-[#6F4DFF] text-black" : "border-gray-300"
                 }`}
               >
@@ -59,7 +59,7 @@ const TabbedImages = () => {
           </div>
 
           {/* Image */}
-          <div className="relative w-full max-w-[1313px] lg:h-[513px] md:h-[270px] h-[150px] mx-auto aspect-[16/9] overflow-hidden lg:rounded-2xl rounded-md md:mt-6">
+          <div className="sm:order-last relative w-full max-w-[1313px] lg:h-[523px] md:h-[270px] h-[150px] mx-auto aspect-[16/9] overflow-hidden lg:rounded-2xl rounded-md md:mt-6">
             {isMobile ? (
               <img
                 src={tabs[activeIndex].img}
@@ -68,8 +68,8 @@ const TabbedImages = () => {
                 loading="lazy"
                 decoding="async"
                 width="1313"
-                height="513"
-                className="absolute inset-0 w-full h-auto object-cover"
+                height="525"
+                className="absolute inset-0 w-full h-[150px] lg:h-auto object-cover"
               />
             ) : (
               <AnimatePresence mode="sync">
