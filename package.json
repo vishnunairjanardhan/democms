@@ -17,6 +17,7 @@
     "@types/alpinejs": "^3.7.2",
     "@vitejs/plugin-react": "^4.3.1",
     "astro": "^5.17.2",
+    "sharp": "^0.34.5",
     "vite": "^5.3.4"
   },
   "dependencies": {

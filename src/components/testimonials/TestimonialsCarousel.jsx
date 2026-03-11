@@ -71,7 +71,7 @@ export default function TestimonialsCarousel({
             style={bgStyle}
           >
             <div class="relative max-w-screen md:px-0 lg:px-0 mx-auto py-6">
-              <div class="max-w-4xl mx-auto text-center mb-2">
+              <div class="max-w-4xl mx-auto text-center mb-2 px-6">
                 <h2 class="font-medium mb-2">Customer Success Stories</h2>
                 <p >Don’t just take our word for it. Hear it from our successful customers.
                   <span class="text-[#6820EE] transition-colors duration-300 font-medium"> <a href="/case-study" target="_blanck" class="group inline-flex items-center"> All Customer Stories <svg class="ml-1 h-6 w-6 text-[#6820EE] transition-all duration-300 transform group-hover:translate-x-1" width="10" height="10" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z"></path> <line x1="5" y1="12" x2="19" y2="12"></line> <line x1="13" y1="18" x2="19" y2="12"></line> <line x1="13" y1="6" x2="19" y2="12"></line> </svg> </a></span>
