@@ -1,3 +1,9 @@
+<style>
+[x-cloak] {
+  display: none !important;
+}
+</style>
+
 <section
   role="navigation"
   aria-label="Main Navigation"
@@ -6,225 +12,184 @@
   x-init="
     window.addEventListener('scroll', () => {
       const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-
-      // Show alert when at the top
       showAlert = currentScroll === 0;
-
-      // Update prevScroll to current position
       prevScroll = currentScroll;
     });
   "
 >
-   <div class="relative w-full mx-auto max-w-7xl">
-    
-<!--<div
-  x-show="showAlert"
-  class="flex flex-col items-center justify-center w-full px-0 py-1 bg-[url('/assets/c-bg.jpg')] rounded-b-xl md:flex-row md:gap-6  overflow-hidden whitespace-nowrap"
-  style="transition: opacity 0.3s ease-in-out;"
+<div class="relative w-full mx-auto max-w-7xl">
+
+<div
+x-data="{ mobileOpen:false }"
+class="relative flex flex-col w-full px-8 py-5 mx-auto md:flex-row md:items-center md:justify-between md:px-12 lg:px-16"
 >
-  <div class="flex items-center gap-2 md:gap-3 w-full">
-    
-    <div class="marquee w-full">
-      
-      <div class="marquee-content">
-          <h3 class="text-[#c30010] font-semibold italic font-[cursive]">Happy Holidays</h3>
-        <img class="h-10" src="/assets/Santa Claus riding.gif" />
-      </div>
-    </div>
-  </div>
+
+<div class="flex flex-row items-center justify-between text-white lg:justify-start">
+
+<a href="/" class="lg:pr-8">
+<div class="inline-flex items-center gap-3">
+<img
+width="125"
+height="28"
+alt="99minds logo"
+src="/assets/99minds-logo1.svg"
+/>
+</div>
+</a>
+
+<button
+aria-label="navigation"
+@click="mobileOpen = !mobileOpen"
+:aria-expanded="mobileOpen"
+class="inline-flex items-center justify-center p-2 text-white hover:text-indigo-400 md:hidden"
+>
+<svg class="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+<path
+:class="{'hidden': mobileOpen}"
+stroke-linecap="round"
+stroke-linejoin="round"
+stroke-width="2"
+d="M4 6h16M4 12h16M4 18h16"
+/>
+<path
+:class="{'hidden': !mobileOpen}"
+stroke-linecap="round"
+stroke-linejoin="round"
+stroke-width="2"
+d="M6 18L18 6M6 6l12 12"
+/>
+</svg>
+</button>
+
+<nav
+:class="{'flex': mobileOpen, 'hidden': !mobileOpen}"
+class="flex-col hidden flex-grow md:flex md:flex-row md:justify-end md:pb-0"
+>
+
+<!-- PRODUCTS DROPDOWN -->
+
+<div x-data="{ productsOpen:false }" @click.away="productsOpen=false" class="relative">
+
+<button
+@click="productsOpen = !productsOpen"
+class="inline-flex items-center gap-2 px-2 py-2 text-sm text-white hover:text-white/50 lg:px-3"
+>
+<span>Products</span>
+
+<svg
+:class="{'rotate-180': productsOpen}"
+class="inline h-4 transition-transform duration-200"
+viewBox="0 0 24 24"
+stroke="currentColor"
+fill="none"
+stroke-width="2"
+>
+<path d="M6 9l6 6l6 -6"/>
+</svg>
+
+</button>
+
+<div
+x-cloak
+x-show="productsOpen"
+x-transition
+class="hidden absolute left-0 z-50 mt-2 w-52 rounded-xl bg-gradient-to-b from-indigo-500 p-[1px]"
+:class="{ 'hidden': !productsOpen }"
+>
+
+<div class="py-1 bg-vulcan-900 rounded-xl">
+
+<a href="/giftcard" class="block px-4 py-2 text-sm text-white hover:text-indigo-400">Gift Card</a>
+<a href="/store-credit" class="block px-4 py-2 text-sm text-white hover:text-indigo-400">Store Credit</a>
+<a href="/loyalty" class="block px-4 py-2 text-sm text-white hover:text-indigo-400">Loyalty Program</a>
+<a href="/coupons" class="block px-4 py-2 text-sm text-white hover:text-indigo-400">Coupons</a>
+<a href="/referral" class="block px-4 py-2 text-sm text-white hover:text-indigo-400">Referrals</a>
+<a href="/automated-workflow" class="block px-4 py-2 text-sm text-white hover:text-indigo-400">Automated Workflows</a>
+
+</div>
+</div>
 </div>
 
-<style>
-  
-  .marquee {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
+<a class="px-2 py-2 text-sm text-white hover:text-white/50 lg:px-3" href="/integrations">
+Integrations
+</a>
 
- 
-  .marquee-content {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    animation: scroll-reverse 20s linear infinite; 
-  }
+<a class="px-2 py-2 text-sm text-white hover:text-white/50 lg:px-3" href="/case-study">
+Case Study
+</a>
 
-  
-  @keyframes scroll-reverse {
-    from {
-      transform: translateX(-15%);
-    }
-    to {
-      transform: translateX(100%);
-    }
-  }
+<!-- RESOURCES DROPDOWN -->
 
- 
-  @media (max-width: 768px) {
-    .marquee-content {
-      animation: scroll-reverse 8s linear infinite; 
-    }
-  }
-</style> -->
+<div x-data="{ resourcesOpen:false }" @click.away="resourcesOpen=false" class="relative">
 
+<button
+@click="resourcesOpen = !resourcesOpen"
+class="inline-flex items-center gap-2 px-2 py-2 text-sm text-white hover:text-white/50 lg:px-3"
+>
 
-    <!-- Announcement End -->
+<span>Resources</span>
 
-    <div x-data="{ open: false }" class="relative relative w-full mx-auto max-w-7xlflex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-16">
-      <div class="flex flex-row items-center justify-between text-white lg:justify-start">
-        <a role="link" href="/" class="lg:pr-8">
-          <div class="inline-flex items-center gap-3">
-            <img
-              class="" width="125" height="28"
-              alt="99minds logo"
-              src="/assets/99minds-logo1.svg"
-            />
-          </div>
-        </a>
-        <button
-          role="button"
-          aria-label="navigation"
-          @click="open = !open"
-          :aria-expanded="open"
-          aria-controls="primary-navigation"
-          class="inline-flex items-center justify-center p-2 text-white hover:text-indigo-400 focus:outline-none focus:text-white md:hidden">
-          <svg
-            class="w-6 h-6"
-            stroke="currentColor"
-            fill="none"
-            viewBox="0 0 24 24">
-            <path
-              :class="{'hidden': open, 'inline-flex': !open }"
-              class="inline-flex"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"></path>
-            <path
-              :class="{'hidden': !open, 'inline-flex': open }"
-              class="hidden"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 18L18 6M6 6l12 12"></path>
-          </svg>
-        </button>
-      <nav id="primary-navigation" :class="{'flex': open, 'hidden': !open}" class="flex-col items-start flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
-        <div @click.away="open = false" class="relative" x-data="{ open: false }">
-          <button @click="open = !open" class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
-          role="button" :aria-expanded="open" aria-controls="products-dropdown">
-            <span>Products</span>
-            <svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200
-              transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-              stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M6 9l6 6l6 -6"></path>
-            </svg>
-          </button>
-          <div id="products-dropdown" x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute left-0 z-50 mt-2 w-full origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]" style="width:13rem;">
-            <div class="py-1 bg-vulcan-900 rounded-xl">
-              <ul id="products"
-                tabindex="-1"
-                role="listbox"
-               label="dropdown">
-                <li>
-                  <a href="/giftcard" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                  role="link" id="menu-item-1" aria-label="Gift Card"> Gift Card </a>
-                </li>
-                <li>
-                  <a href="/store-credit" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                  role="link" aria-label="Store Credit">Store Credit</a>
-                </li>
-                <li>
-                  <a href="/loyalty" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                  role="link" aria-label="Loyalty Program">Loyalty Program</a>
-                </li>
-                <li>
-                  <a href="/coupons" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                  role="link" aria-label="Coupons">Coupons</a>
-                </li>
-                <li>
-                  <a href="/referral" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                  role="link" aria-label="Referrals">Referrals</a>
-                </li>
-                <li>
-                  <a href="/automated-workflow" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                  role="link" aria-label="Automated Workflows">Automated Workflows</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <a
-          class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
-          href="/integrations">
-          Integrations
-        </a>
-        <a
-          class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
-          href="/case-study">
-          Case Study
-        </a>
-        <div @click.away="open = false" class="relative" x-data="{ open: false }">
-          <button @click="open = !open" role="button" class="inline-flex items-center gap-2 justify-between px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50" :aria-expanded="open" aria-controls="resources-dropdown">
-            <span>Resources</span>
-            <svg :class="{'rotate-180': open, 'rotate-0': !open}" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down inline h-4 transition-transform duration-200 transform" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M6 9l6 6l6 -6"></path>
-            </svg>
-          </button>
-          <div id="resources-dropdown" x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute left-0 z-50 mt-2 w-full origin-top-right rounded-xl bg-gradient-to-b from-indigo-500 via-indigo-500/ ring-1 ring-inset ring-white/5 focus:outline-none p-[0.060rem]" style="width:13rem;">
-            <div class="py-1 bg-vulcan-900 rounded-xl" role="none">
-              <ul id="resources"
-                tabindex="-1"
-                role="listbox"
-                label="dropdown">
-                <li>
-                  <a href="/blog" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                  role="link" tabindex="-1" id="menu-item-1">Blog</a>
-                </li>
-                <li>
-                  <a href="https://support.99minds.io/en" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                  role="link" tabindex="-1">Documentation</a>
-                </li>
-                <li>
-                  <a href="https://docs.99minds.io/" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                  role="link" tabindex="-1">API Documentation</a>
-                </li>
-                <li>
-                  <a href="/giftcard-code-generator" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                  role="link" tabindex="-1">Gift Card Generator</a>
-                </li>
-                <li>
-                  <a href="/coupon-code-generator" class="text-white block px-4 py-2 text-sm hover:text-indigo-400"
-                  role="link" tabindex="-1">Coupon Code Generator</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <a
-          role="link"
-          class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
-          href="/pricing">
-          Pricing
-        </a>
-        <a
-          role="link" target="_blank"
-          class="px-2 py-2 text-sm font-normal text-white lg:px-3 md:px-3 hover:text-white/50"
-          href="https://giftcard.99minds.io/access/register">
-          Sign Up
-        </a>
-        <!-- Trigger -->
-        <button type="button" role="button" label="book a demo" class="mx-3 raise relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md" onClick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });">
-          <span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
-          <span class="relative px-4 py-2 transition-all ease-out bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 duration-400 font-medium">
-            <span class="relative text-white">Book a Demo</span>
-          </span>
-        </button>
-      </nav>
-    </div>
-  </div>
+<svg
+:class="{'rotate-180': resourcesOpen}"
+class="inline h-4 transition-transform duration-200"
+viewBox="0 0 24 24"
+stroke="currentColor"
+fill="none"
+stroke-width="2"
+>
+<path d="M6 9l6 6l6 -6"/>
+</svg>
+
+</button>
+
+<div
+x-cloak
+x-show="resourcesOpen"
+x-transition
+class="hidden absolute left-0 z-50 mt-2 w-52 rounded-xl bg-gradient-to-b from-indigo-500 p-[1px]"
+:class="{ 'hidden': !resourcesOpen }"
+>
+
+<div class="py-1 bg-vulcan-900 rounded-xl">
+
+<a href="/blog" class="block px-4 py-2 text-sm text-white hover:text-indigo-400">Blog</a>
+<a href="https://support.99minds.io/en" class="block px-4 py-2 text-sm text-white hover:text-indigo-400">Documentation</a>
+<a href="https://docs.99minds.io/" class="block px-4 py-2 text-sm text-white hover:text-indigo-400">API Documentation</a>
+<a href="/giftcard-code-generator" class="block px-4 py-2 text-sm text-white hover:text-indigo-400">Gift Card Generator</a>
+<a href="/coupon-code-generator" class="block px-4 py-2 text-sm text-white hover:text-indigo-400">Coupon Code Generator</a>
+
+</div>
+</div>
+</div>
+
+<a class="px-2 py-2 text-sm text-white hover:text-white/50 lg:px-3" href="/pricing">
+Pricing
+</a>
+
+<a
+target="_blank"
+class="px-2 py-2 text-sm text-white hover:text-white/50 lg:px-3"
+href="https://giftcard.99minds.io/access/register"
+>
+Sign Up
+</a>
+
+<button
+type="button"
+class="mx-3 relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
+onclick="Calendly?.initPopupWidget({ url: 'https://calendly.com/99minds/30min' });"
+>
+
+<span class="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] absolute"></span>
+
+<span class="relative px-4 py-2 bg-gray-900 bg-opacity-0 rounded-md group-hover:bg-opacity-10 text-white">
+Book a Demo
+</span>
+
+</button>
+
+</nav>
+</div>
+</div>
+</div>
 </section>
