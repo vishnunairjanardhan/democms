@@ -32,7 +32,7 @@ function Hero({ title, title2, highlight = [], description }) {
     <section>
       <div className="relative max-w-7xl px-0 md:px-12 lg:px-16 mx-auto py-4 lg:py-6">
         <section className="text-center pt-20 lg:pt-28">
-          <h1 className="py-4 mt-4 mx-auto justify-center text-center flex flex-col md:flex-row text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug md:max-w-3xl">
+          <h1 className="py-4 lg:mt-4 mx-auto justify-center text-center flex flex-col md:flex-row text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug md:max-w-3xl">
             {title}
             <span className="text-[#EF5A3C] ml-2">
               {title2}

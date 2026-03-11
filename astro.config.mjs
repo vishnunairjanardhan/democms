@@ -26,6 +26,7 @@ export default defineConfig({
     partytown({
       config: {
         forward: ["dataLayer.push", "fbq"],
+        proxyUrl: '/proxy',
       },
     }),
     sitemap({
@@ -44,7 +45,7 @@ export default defineConfig({
       visualizer({ open: true }), // optional: auto-opens report
     ],
     build: {
-      inlineStylesheets: 'auto',
+      inlineStylesheets: 'always',
       minify: 'terser',
       terserOptions: {
         compress: {

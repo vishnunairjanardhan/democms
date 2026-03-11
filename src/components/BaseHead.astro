@@ -3,42 +3,39 @@ import "../styles/global.css";
 const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 ---
 
-<!-- Preconnects for faster 3rd-party handshakes -->
-<link rel="preconnect" href="https://www.googletagmanager.com">
-<link rel="preconnect" href="https://assets.calendly.com" crossorigin>
-<link rel="preconnect" href="https://connect.facebook.net" crossorigin>
-<link rel="preconnect" href="https://unpkg.com" crossorigin>
+<!-- Critical preconnects (max 3) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com">
 
-<!-- Google Tag Manager (off main thread via Partytown) -->
+<!-- Google Tag Manager (Partytown) -->
 <script type="text/partytown">
-  (function(w,d,s,l,i){
-    w[l]=w[l]||[];
-    w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-    var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
-    j.async=true;
-    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-    f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-WWJJGX6');
+(function(w,d,s,l,i){
+  w[l]=w[l]||[];
+  w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+  var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
+  j.async=true;
+  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+  f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WWJJGX6');
 </script>
 
-<!-- Consent Script (lazy after load) -->
+<!-- Consent Script (lazy) -->
 <script>
-  window.addEventListener("load", () => {
-    const s = document.createElement("script");
-    s.src = "https://app.termly.io/resource-blocker/d9663863-bfd6-4088-bd75-e9f13af491e1?autoBlock=on";
-    s.async = true;
-    document.body.appendChild(s);
-  });
+window.addEventListener("load", () => {
+  const s = document.createElement("script");
+  s.src = "https://app.termly.io/resource-blocker/d9663863-bfd6-4088-bd75-e9f13af491e1?autoBlock=on";
+  s.async = true;
+  document.body.appendChild(s);
+});
 </script>
 
-<!-- Meta Tags -->
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<!-- Meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<!-- Favicon and Icons -->
+<!-- Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
@@ -48,105 +45,63 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 <meta name="theme-color" content="#ffffff">
 
 <!-- Sitemap -->
-<link rel="sitemap" href="/sitemap-index.xml" />
+<link rel="sitemap" href="/sitemap-index.xml">
 
-<!-- AOS CSS (non-blocking) -->
-<link
-  rel="preload"
-  href="https://unpkg.com/aos@2.3.4/dist/aos.css"
-  as="style"
-  onload="this.onload=null;this.rel='stylesheet'"
-/>
-<noscript>
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
-</noscript>
 
-<!-- Fonts (non-blocking) -->
+<!-- Google Fonts (non-blocking) -->
 <link
   rel="preload"
   as="style"
   href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap"
   onload="this.onload=null;this.rel='stylesheet'"
-/>
+>
 <noscript>
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap"
-  />
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap">
 </noscript>
 
-<!-- Alpine.js (deferred) -->
+<!-- Alpine (deferred) -->
 <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
 <script defer src="https://unpkg.com/@alpinejs/focus@3.10.3/dist/cdn.min.js"></script>
 <script defer src="https://unpkg.com/@alpinejs/ui@3.10.3-beta.3/dist/cdn.min.js"></script>
 
-<!-- Calendly (non-blocking CSS + off main thread JS) -->
+<!-- Calendly (lazy CSS + Partytown JS) -->
 <link
-  rel="preload"
-  as="style"
-  href="https://assets.calendly.com/assets/external/widget.css"
-  onload="this.onload=null;this.rel='stylesheet'"
-/>
+rel="preload"
+as="style"
+href="https://assets.calendly.com/assets/external/widget.css"
+onload="this.onload=null;this.rel='stylesheet'"
+>
 <noscript>
-  <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
+<link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
 </noscript>
 
-<script
-  type="text/partytown"
-  src="https://assets.calendly.com/assets/external/widget.js"
-></script>
+<script type="text/partytown"
+src="https://assets.calendly.com/assets/external/widget.js"></script>
 
-<!-- Facebook Pixel (already using Partytown – good) -->
+<!-- Facebook Pixel -->
 <script type="text/partytown">
-  !function(f,b,e,v,n,t,s) {
-    if(f.fbq) return;
-    n=f.fbq=function() { n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments) };
-    if(!f._fbq) f._fbq=n;
-    n.push=n;
-    n.loaded=!0;
-    n.version='2.0';
-    n.queue=[];
-    t=b.createElement(e);
-    t.async=!0;
-    t.src=v;
-    s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)
-  }(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '224706030671856');
-  fbq('track', 'PageView');
+!function(f,b,e,v,n,t,s){
+if(f.fbq)return;
+n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];
+t=b.createElement(e);t.async=!0;t.src=v;
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)
+}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init','224706030671856');
+fbq('track','PageView');
 </script>
 
 <!-- JSON-LD -->
 <script type="application/ld+json">
-  [{
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "99minds.io",
-    "description": "99minds is an omnichannel gift card and loyalty management platform for DTC and eCommerce brands.",
-    "url": "https://www.99minds.io",
-    "logo": "https://www.99minds.io/logos/99minds-logo-b.svg",
-    "foundingDate": "2019-01-01",
-    "founder": [
-      { "@type": "Person", "name": "Pravin", "sameAs": "https://www.linkedin.com/in/pravinkamble/" },
-      { "@type": "Person", "name": "Mrudul Tarwatkar", "sameAs": "https://www.linkedin.com/in/mrudult/" }
-    ],
-    "address": [{
-      "@type": "PostalAddress",
-      "addressLocality": "New York",
-      "postalCode": "10022",
-      "streetAddress": "750 Lexington Ave, NY 10022, United States",
-      "addressCountry": "US"
-    }],
-    "sameAs": [
-      "https://www.linkedin.com/company/loyalty-promotions-and-giftcard/",
-      "https://www.youtube.com/@99mindsio",
-      "https://x.com/99minds_io",
-      "https://www.facebook.com/99minds.io/",
-      "https://www.99minds.io/"
-    ]
-  }]
+{
+"@context":"https://schema.org",
+"@type":"Organization",
+"name":"99minds.io",
+"url":"https://www.99minds.io",
+"logo":"https://www.99minds.io/logos/99minds-logo-b.svg"
+}
 </script>
-
-<noscript>
-  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=224706030671856&ev=PageView&noscript=1"/>
-</noscript>
