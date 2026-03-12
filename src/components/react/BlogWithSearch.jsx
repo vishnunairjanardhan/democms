@@ -114,7 +114,11 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
     <div className="flex flex-wrap">
 
       <div className="flex justify-center w-full">
-        <form className="mt-10 sm:flex sm:max-w-md lg:w-1/2 w-72">
+        <form
+          className="mt-10 sm:flex sm:max-w-md lg:w-1/2"
+          onSubmit={(e) => e.preventDefault()}
+        >
+          <label htmlFor="search" className="sr-only">Search Blog Posts</label>
           <input
             type="text"
             id="search"
@@ -128,8 +132,8 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
       </div>
 
       {/* Tags */}
-      <div className="lg:mt-12 mt-6 w-full overflow-x-auto scrollbar-hide">
-        <ul className="flex flex-nowrap lg:gap-3 gap-2 justify-start px-0">
+      <nav className="mt-12 w-full" aria-label="Blog tags">
+        <ul className="flex flex-wrap gap-2 justify-center">
           {tags.map((tag) => (
             <li key={tag} className="flex-shrink-0">
               <a
