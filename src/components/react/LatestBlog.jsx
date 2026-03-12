@@ -10,6 +10,8 @@ const LatestBlog = ({ title, url, description, pubDate, author, image, authorIma
             className="group-hover:scale-105 duration-300 object-cover w-full h-full rounded-md"
             loading="lazy"
             decoding="async"
+            width="400"
+            height="225"
             src={typeof image === 'string' && image.includes('/assets/blog/') && !image.includes('_thumb.') ? image.replace(/\.[a-zA-Z0-9]+$/, '_thumb.webp') : image?.src || image}
             alt={title}
           />
