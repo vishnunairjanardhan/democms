@@ -128,7 +128,11 @@ const scrollRight = () => {
 
       {/* Search */}
       <div className="flex justify-center w-full">
-        <form className="mt-10 sm:flex sm:max-w-md lg:w-1/2 w-72">
+        <form
+          className="mt-10 sm:flex sm:max-w-md lg:w-1/2"
+          onSubmit={(e) => e.preventDefault()}
+        >
+          <label htmlFor="search" className="sr-only">Search Blog Posts</label>
           <input
             type="text"
             id="search"
