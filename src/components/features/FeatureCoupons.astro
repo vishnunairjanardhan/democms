@@ -1,4 +1,9 @@
-
+---
+import { Image } from "astro:assets";
+import myImage from "../../assets/coupons/advanced-coupon2.webp";
+import myImage1 from "../../assets/coupons/custom-coupon2.webp";
+import myImage2 from "../../assets/coupons/reward-customer2.webp";
+---
 <section class="relative bg-[#FEFCF5]">
   <div class="mx-auto lg:text-center px-8 lg:pt-[72px]">
         <h2 class="font-medium">
@@ -63,11 +68,14 @@
       </div>
       
       <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          loading="lazy"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/coupons/advanced-coupon2.webp"
+       <Image
+            src={myImage}
+            alt="Advanced Coupon"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={100}
+            loading="lazy"
         />
       </div>
     </div>
@@ -144,11 +152,15 @@
             </div>
       </div>
       <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          loading="lazy"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/coupons/custom-coupon2.webp"
+        <Image
+            src={myImage1}
+            alt="Custom Coupon"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={100}
+            loading="lazy"
+            class="rounded-2xl shadow-vulcan-950/50 w-full"
         />
       </div>
     </div>
@@ -184,11 +196,15 @@
             </div>   
       </div>
       <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          loading="lazy"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/coupons/reward-customer2.webp"
+         <Image
+            src={myImage2}
+            alt="Custom Coupon"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={100}
+            loading="lazy"
+            class="rounded-2xl shadow-vulcan-950/50 w-full"
         />
       </div>
     </div>
