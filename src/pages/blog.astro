@@ -80,7 +80,7 @@ const lcpImageUrl = sortedPosts[0]?.data?.image?.url;
 
       {/* Use client:load so the blog grid hydrates immediately — it's the primary page content */}
       <BlogWithSearch client:load sortedPosts={sortedPosts} tags={tags} />
-      <CaseStudyTabNew />
+      <CaseStudyTabNew client:visible/>
     </div>
   </section>
 

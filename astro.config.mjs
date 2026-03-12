@@ -19,6 +19,7 @@ export default defineConfig({
     drafts: true,
   },
   site: 'https://www.99minds.io',
+  prefetch: true,
   integrations: [
     tailwind(),
     react(),

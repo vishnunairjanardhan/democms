@@ -113,12 +113,16 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
   return (
     <div className="flex flex-wrap">
 
-      {/* Search */}
       <div className="flex justify-center w-full">
-        <form className="mt-10 sm:flex sm:max-w-md lg:w-1/2">
+        <form
+          className="mt-10 sm:flex sm:max-w-md lg:w-1/2"
+          onSubmit={(e) => e.preventDefault()}
+        >
+          <label htmlFor="search" className="sr-only">Search Blog Posts</label>
           <input
             type="text"
             id="search"
+            name="search"
             placeholder="Search Blog"
             value={searchTerm}
             onChange={handleSearchChange}
@@ -128,7 +132,7 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
       </div>
 
       {/* Tags */}
-      <div className="mt-12 w-full">
+      <nav className="mt-12 w-full" aria-label="Blog tags">
         <ul className="flex flex-wrap gap-2 justify-center">
           {tags.map((tag) => (
             <li key={tag}>
@@ -141,7 +145,7 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
             </li>
           ))}
         </ul>
-      </div>
+      </nav>
 
       {/* Blog Grid */}
       {currentPosts.length ? (
@@ -187,7 +191,7 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
       <div className="py-4 border-t-2 mt-8 w-full">
         <div className="flex pb-6 justify-between items-center">
           <p className="font-semibold">Latest</p>
-          <a href="/blog/all" className="font-medium">
+          <a href="/blog/all" className="font-medium" aria-label="View all blog posts">
             View All
           </a>
         </div>
