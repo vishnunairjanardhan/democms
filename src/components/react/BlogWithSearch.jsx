@@ -132,6 +132,7 @@ const scrollRight = () => {
           <input
             type="text"
             id="search"
+            name="search"
             placeholder="Search Blog"
             value={searchTerm}
             onChange={handleSearchChange}
