@@ -2,6 +2,9 @@ import React, { useState, useMemo, useEffect, useCallback } from "react";
 import BlogEntry from "./BlogEntry";
 import BlogLayout from "./BlogLayout";
 import LatestBlog from "./LatestBlog";
+import { useRef } from "react";
+
+
 
 const slugify = (text = "") =>
   text.toLowerCase().trim().replace(/\s+/g, "-").replace(/[^\w-]+/g, "");
@@ -110,6 +113,16 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
     return filteredPosts.slice(start, end);
   }, [filteredPosts, currentPage]);
 
+  const sliderRef = useRef(null);
+
+const scrollLeft = () => {
+  sliderRef.current?.scrollBy({ left: -200, behavior: "smooth" });
+};
+
+const scrollRight = () => {
+  sliderRef.current?.scrollBy({ left: 200, behavior: "smooth" });
+};
+
   return (
     <div className="flex flex-wrap">
 
@@ -128,8 +141,22 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
       </div>
 
       {/* Tags */}
-      <div className="lg:mt-12 mt-6 w-full overflow-x-auto scrollbar-hide">
-        <ul className="flex flex-nowrap lg:gap-3 gap-2 justify-start px-0">
+      <div className="relative lg:mt-12 mt-6 w-full flex items-center pr-8">
+      
+      {/* Left Arrow */}
+      <button
+        onClick={scrollLeft}
+        className="absolute left-0 z-10 bg-white border shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6]"
+      >
+        <span className="text-md font-semibold">‹</span>
+      </button>
+
+      {/* Slider */}
+      <div
+        ref={sliderRef}
+        className="w-full overflow-x-auto scrollbar-hide"
+      >
+        <ul className="flex flex-nowrap lg:gap-3 gap-2 px-8 ml-2">
           {tags.map((tag) => (
             <li key={tag} className="flex-shrink-0">
               <a
@@ -142,6 +169,14 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
           ))}
         </ul>
       </div>
+
+      {/* Right Arrow */}
+      <button
+        onClick={scrollRight}
+        className="absolute right-0 z-10 bg-white border border-gray-300 shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6] transition">
+        <span className="text-md font-semibold">›</span>
+      </button>
+    </div>
 
       {/* Blog Grid */}
       {currentPosts.length ? (
