@@ -2,6 +2,9 @@ import React, { useState, useMemo, useEffect, useCallback } from "react";
 import BlogEntry from "./BlogEntry";
 import BlogLayout from "./BlogLayout";
 import LatestBlog from "./LatestBlog";
+import { useRef } from "react";
+
+
 
 const slugify = (text = "") =>
   text.toLowerCase().trim().replace(/\s+/g, "-").replace(/[^\w-]+/g, "");
@@ -21,9 +24,9 @@ const BlogGrid = ({ blogs }) => {
           title={blogs[0].data.heading}
           description={blogs[0].data.description}
           alt={blogs[0].data.heading}
-          pubDate={new Date(blogs[0].data.pubDate).toLocaleDateString()}
+          pubDate={blogs[0].data.pubDate}
           author={blogs[0].data.author}
-          image={blogs[0].data.image?.url}
+          image={blogs[0].data.image}
           authorImage={blogs[0].data.authorImage}
         />
       </div>
@@ -36,8 +39,8 @@ const BlogGrid = ({ blogs }) => {
             title={post.data.heading}
             description={post.data.description}
             alt={post.data.heading}
-            pubDate={new Date(post.data.pubDate).toLocaleDateString()}
-            image={post.data.image?.url}
+            pubDate={post.data.pubDate}
+            image={post.data.image}
           />
         ))}
       </div>
@@ -57,8 +60,8 @@ const LatestBlogGrid = ({ blogs }) => {
           title={post.data.heading}
           description={post.data.description}
           alt={post.data.heading}
-          pubDate={new Date(post.data.pubDate).toLocaleDateString()}
-          image={post.data.image?.url}
+          pubDate={post.data.pubDate}
+          image={post.data.image}
         />
       ))}
     </div>
@@ -110,12 +113,22 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
     return filteredPosts.slice(start, end);
   }, [filteredPosts, currentPage]);
 
+  const sliderRef = useRef(null);
+
+const scrollLeft = () => {
+  sliderRef.current?.scrollBy({ left: -200, behavior: "smooth" });
+};
+
+const scrollRight = () => {
+  sliderRef.current?.scrollBy({ left: 200, behavior: "smooth" });
+};
+
   return (
     <div className="flex flex-wrap">
 
       {/* Search */}
       <div className="flex justify-center w-full">
-        <form className="mt-10 sm:flex sm:max-w-md lg:w-1/2">
+        <form className="mt-10 sm:flex sm:max-w-md lg:w-1/2 w-72">
           <input
             type="text"
             id="search"
@@ -128,13 +141,27 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
       </div>
 
       {/* Tags */}
-      <div className="mt-12 w-full">
-        <ul className="flex flex-wrap gap-2 justify-center">
+      <div className="relative lg:mt-12 mt-6 w-full flex items-center pr-8">
+      
+      {/* Left Arrow */}
+      <button
+        onClick={scrollLeft}
+        className="absolute left-0 z-10 bg-white border shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6]"
+      >
+        <span className="text-md font-semibold">‹</span>
+      </button>
+
+      {/* Slider */}
+      <div
+        ref={sliderRef}
+        className="w-full overflow-x-auto scrollbar-hide"
+      >
+        <ul className="flex flex-nowrap lg:gap-3 gap-2 px-8 ml-2">
           {tags.map((tag) => (
-            <li key={tag}>
+            <li key={tag} className="flex-shrink-0">
               <a
                 href={`/tags/${slugify(tag)}`}
-                className="flex items-center justify-center h-8 text-[#667085] text-sm px-4 py-2 font-semibold hover:bg-[#F9F5FF] hover:text-[#6941C6] rounded-lg"
+                className="flex items-center justify-center h-8 text-[#667085] text-sm px-3 py-2 font-semibold border hover:bg-[#F9F5FF] hover:text-[#6941C6] rounded-lg whitespace-nowrap"
               >
                 {tag}
               </a>
@@ -142,6 +169,22 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
           ))}
         </ul>
       </div>
+
+      {/* Right Arrow */}
+      <button
+        onClick={scrollRight}
+        className="absolute right-0 z-10 bg-white border border-gray-300 shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6] transition">
+        <span className="text-md font-semibold">›</span>
+      </button>
+    </div>
+
+      {/* Right Arrow */}
+      <button
+        onClick={scrollRight}
+        className="absolute right-0 z-10 bg-white border border-gray-300 shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6] transition">
+        <span className="text-md font-semibold">›</span>
+      </button>
+    </div>
 
       {/* Blog Grid */}
       {currentPosts.length ? (
