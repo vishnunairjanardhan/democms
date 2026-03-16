@@ -8,10 +8,10 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://www.googletagmanager.com">
 
-<!-- Google Tag Manager (Partytown) -->
-<script type="text/partytown">
+<!-- Google Tag Manager -->
+<script is:inline>
+window.dataLayer = window.dataLayer || [];
 (function(w,d,s,l,i){
-  w[l]=w[l]||[];
   w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
   var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
   j.async=true;
@@ -20,13 +20,15 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 })(window,document,'script','dataLayer','GTM-WWJJGX6');
 </script>
 
-<!-- Consent Script (lazy) -->
+<!-- Consent Script (delayed) -->
 <script>
 window.addEventListener("load", () => {
-  const s = document.createElement("script");
-  s.src = "https://app.termly.io/resource-blocker/d9663863-bfd6-4088-bd75-e9f13af491e1?autoBlock=on";
-  s.async = true;
-  document.body.appendChild(s);
+  setTimeout(() => {
+    const s = document.createElement("script");
+    s.src = "https://app.termly.io/resource-blocker/d9663863-bfd6-4088-bd75-e9f13af491e1?autoBlock=on";
+    s.async = true;
+    document.body.appendChild(s);
+  }, 60000); // 60 second delay
 });
 </script>
 
