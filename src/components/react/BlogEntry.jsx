@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const BlogEntry = ({ title, url, description, pubDate, author, image, authorImage }) => {
   return <div
     className="group flex md:flex-col">
-    <a href={url} title={title}>
+    <a href={url} title={title} aria-label={`Read more about ${title}`}>
       <div
         className="flex items-end justify-center overflow-hidden rounded-lg aspect-video w-full h-auto">
         <div className="flex w-full h-full">

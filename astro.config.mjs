@@ -19,6 +19,7 @@ export default defineConfig({
     drafts: true,
   },
   site: 'https://www.99minds.io',
+  prefetch: true,
   integrations: [
     tailwind(),
     react(),
@@ -26,7 +27,6 @@ export default defineConfig({
     partytown({
       config: {
         forward: ["dataLayer.push", "fbq"],
-        proxyUrl: '/proxy',
       },
     }),
     sitemap({
