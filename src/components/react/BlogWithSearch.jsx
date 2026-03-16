@@ -152,25 +152,23 @@ const scrollRight = () => {
       </button>
 
       {/* Slider */}
-      <div
-        ref={sliderRef}
-        className="w-full overflow-x-auto scrollbar-hide"
-      >
-        <ul className="flex flex-nowrap lg:gap-3 gap-2 px-8 ml-2">
-          {tags.map((tag) => (
-            <li key={tag} className="flex-shrink-0">
-            <li key={tag} className="flex-shrink-0">
-              <a
-                href={`/tags/${slugify(tag)}`}
-                className="flex items-center justify-center h-8 text-[#667085] text-sm px-3 py-2 font-semibold border hover:bg-[#F9F5FF] hover:text-[#6941C6] rounded-lg whitespace-nowrap"
-                className="flex items-center justify-center h-8 text-[#667085] text-sm px-3 py-2 font-semibold border hover:bg-[#F9F5FF] hover:text-[#6941C6] rounded-lg whitespace-nowrap"
-              >
-                {tag}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
+     <div
+          ref={sliderRef}
+          className="w-full overflow-x-auto scrollbar-hide"
+        >
+          <ul className="flex flex-nowrap lg:gap-3 gap-2 px-8 ml-2">
+            {tags.map((tag) => (
+              <li key={tag} className="flex-shrink-0">
+                <a
+                  href={`/tags/${slugify(tag)}`}
+                  className="flex items-center justify-center h-8 text-[#667085] text-sm px-3 py-2 font-semibold border hover:bg-[#F9F5FF] hover:text-[#6941C6] rounded-lg whitespace-nowrap"
+                >
+                  {tag}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
 
       {/* Right Arrow */}
       <button
