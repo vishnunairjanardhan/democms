@@ -34,6 +34,9 @@ export const cardData = [
   { date: 'October 2024', title: "How Cariloha's Gift Card Promotion Boosts Customer Acquisition by 30%", description: "", href: '/case-study/cariloha', img: "/assets/case-study/cariloha.webp", alt: "Cariloha Case Study", logo: "/assets/logo-cloud/cariloha-b.svg" },
 
 ];
+  
+
+];
 
 
 export const Fashion = [
