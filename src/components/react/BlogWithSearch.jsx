@@ -127,11 +127,7 @@ const scrollRight = () => {
     <div className="flex flex-wrap">
 
       <div className="flex justify-center w-full">
-        <form
-          className="mt-10 sm:flex sm:max-w-md lg:w-1/2"
-          onSubmit={(e) => e.preventDefault()}
-        >
-          <label htmlFor="search" className="sr-only">Search Blog Posts</label>
+        <form className="mt-10 sm:flex sm:max-w-md lg:w-1/2 w-72">
           <input
             type="text"
             id="search"
@@ -145,12 +141,12 @@ const scrollRight = () => {
       </div>
 
       {/* Tags */}
-      <div className="relative lg:mt-12 mt-6 w-full flex items-center lg:px-10 px-10">
+      <div className="relative lg:mt-12 mt-6 w-full flex items-center lg:px-8 px-10">
       
       {/* Left Arrow */}
       <button
         onClick={scrollLeft}
-        className="absolute lg:-left-0 -left-0 z-10 bg-white border shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6]"
+        className="absolute lg:-left-3 -left-0 z-10 bg-white border shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6]"
       >
         <span className="text-md font-semibold">‹</span>
       </button>
@@ -178,7 +174,7 @@ const scrollRight = () => {
       {/* Right Arrow */}
       <button
         onClick={scrollRight}
-        className="absolute lg:-right-0 -right-0 z-10 bg-white border border-gray-300 shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6] transition">
+        className="absolute lg:-right-3 -right-0 z-10 bg-white border border-gray-300 shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6] transition">
         <span className="text-md font-semibold">›</span>
       </button>
     </div>
@@ -209,7 +205,7 @@ const scrollRight = () => {
                 href="/integrations"
                 className="px-4 py-2 font-semibold border border-gray-300 rounded-lg bg-white hover:bg-gray-100"
               >
-                View all integrations
+                Learn more
               </a>
 
               <a
