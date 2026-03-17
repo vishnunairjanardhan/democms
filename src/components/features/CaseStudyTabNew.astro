@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import Verticalgrid from "../assets/Verticalgrid.astro";
 import { buttonConfig, cardData, Fashion, Others } from "../../config/CaseStudy.jsx";
 ---
@@ -22,14 +21,13 @@ import { buttonConfig, cardData, Fashion, Others } from "../../config/CaseStudy.
                       <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-lg">
                         <div class="flex aspect-video">
                           {data.img ? (
-                            <Image 
+                            <img 
                               class="group-hover:scale-105 duration-300 object-fill h-[200px]" 
                               loading="lazy" 
                               decoding="async"
                               src={data.img} 
                               alt={data.alt} 
-                              width={600}
-                              height={300}
+                              
                             />
                           ) : data.videoId ? (
                             <iframe
@@ -37,7 +35,7 @@ import { buttonConfig, cardData, Fashion, Others } from "../../config/CaseStudy.
                               src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=0&mute=1&rel=0`}
                               title={data.title}
                               width="300"
-                              height="169"
+                              height="200"
                               loading="lazy"
                               frameBorder="0"
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -49,7 +47,7 @@ import { buttonConfig, cardData, Fashion, Others } from "../../config/CaseStudy.
                       </div>
                       <div class="p-6">
                         <div class="flex">
-                          <div class="basis-1/2"><img class="h-7" alt={data.altlogo} src={data.logo}></div>
+                          <div class="basis-1/2"><img class="h-7" alt={data.altlogo} src={data.logo} width="100" height="28" decoding="async" loading="lazy"></div>
                         </div>
                         <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
                         <h2 class="mt-5 text-sm font-regular leading-6 text-gray-900">{data.title}</h2>

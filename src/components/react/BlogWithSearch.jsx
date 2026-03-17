@@ -115,13 +115,13 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
 
   const sliderRef = useRef(null);
 
-  const scrollLeft = () => {
-    sliderRef.current?.scrollBy({ left: -200, behavior: "smooth" });
-  };
+const scrollLeft = () => {
+  sliderRef.current?.scrollBy({ left: -200, behavior: "smooth" });
+};
 
-  const scrollRight = () => {
-    sliderRef.current?.scrollBy({ left: 200, behavior: "smooth" });
-  };
+const scrollRight = () => {
+  sliderRef.current?.scrollBy({ left: 200, behavior: "smooth" });
+};
 
   return (
     <div className="flex flex-wrap">
@@ -146,20 +146,20 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
 
       {/* Tags */}
       <div className="relative lg:mt-12 mt-6 w-full flex items-center lg:px-8 px-10">
+      
+      {/* Left Arrow */}
+      <button
+        onClick={scrollLeft}
+        className="absolute lg:-left-3 -left-0 z-10 bg-white border shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6]"
+      >
+        <span className="text-md font-semibold">‹</span>
+      </button>
 
-        {/* Left Arrow */}
-        <button
-          onClick={scrollLeft}
-          className="absolute lg:-left-3 -left-0 z-10 bg-white border shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6]"
-        >
-          <span className="text-md font-semibold">‹</span>
-        </button>
-
-        {/* Slider */}
-        <div
+      {/* Slider */}
+     <div
           ref={sliderRef}
           className="w-full overflow-x-auto scrollbar-hide scroll-smooth px-0"
-
+           
         >
           <ul className="flex flex-nowrap lg:gap-3 gap-2">
             {tags.map((tag) => (
@@ -175,13 +175,13 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
           </ul>
         </div>
 
-        {/* Right Arrow */}
-        <button
-          onClick={scrollRight}
-          className="absolute lg:-right-3 -right-0 z-10 bg-white border border-gray-300 shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6] transition">
-          <span className="text-md font-semibold">›</span>
-        </button>
-      </div>
+      {/* Right Arrow */}
+      <button
+        onClick={scrollRight}
+        className="absolute lg:-right-3 -right-0 z-10 bg-white border border-gray-300 shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6] transition">
+        <span className="text-md font-semibold">›</span>
+      </button>
+    </div>
 
       {/* Blog Grid */}
       {currentPosts.length ? (
@@ -209,7 +209,7 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
                 href="/integrations"
                 className="px-4 py-2 font-semibold border border-gray-300 rounded-lg bg-white hover:bg-gray-100"
               >
-                View all integrations
+                Learn more
               </a>
 
               <a
