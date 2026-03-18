@@ -28,9 +28,6 @@ keywords: ["Shopify loyalty apps"]
  <li class="hover:bg-gray-100 lg:mt-4">  
     <a role="link" href="#3" ref="noreferrer">Conclusion</a>
   </li>  
-  <li class="hover:bg-gray-100 lg:mt-4"> 
-    <a role="link" href="#4" ref="noreferrer">Frequently Asked Questions (FAQs) on Shopify Loyalty Apps</a>
-  </li>  
 </ul>
 </div>
 
