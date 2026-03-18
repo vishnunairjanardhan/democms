@@ -261,12 +261,12 @@ Designed for modern DTC brands operating on Shopify, it helps brands move beyond
 
 Yuko stands out for its affordable pricing, making it a cost-effective choice for growing Shopify stores, along with responsive customer support that offers fast and helpful assistance to merchants. It’s also easy to set up, thanks to its simple configuration and user-friendly interface. However, as a newer platform, it currently has fewer reviews compared to more established tools, and some advanced features are still evolving.
 
-Pricing plans:
+**Pricing plans**:
 
-- Free: $0/month
-- Basic: $12/month
-- Advanced: $30/month
-- Growth: $199/month
+- **Free**: $0/month
+- **Basic**: $12/month
+- **Advanced**: $30/month
+- **Growth**: $199/month
 
 ### 3. Smile.io
 
