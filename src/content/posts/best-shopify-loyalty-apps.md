@@ -28,9 +28,6 @@ keywords: ["Shopify loyalty apps"]
  <li class="hover:bg-gray-100 lg:mt-4">  
     <a role="link" href="#3" ref="noreferrer">Conclusion</a>
   </li>  
-  <li class="hover:bg-gray-100 lg:mt-4"> 
-    <a role="link" href="#4" ref="noreferrer">Frequently Asked Questions (FAQs) on Shopify Loyalty Apps</a>
-  </li>  
 </ul>
 </div>
 
@@ -67,6 +64,16 @@ That’s where Shopify loyalty apps come in. From points and referrals to omnich
       </td>
       <td>Free to Install</td>
     </tr>
+    <tr>
+      <td><strong>Yuko</strong></td>
+      <td>
+        Points & rewards, referrals, VIP tiers, customizable loyalty programs, seamless Shopify integration
+      </td>
+      <td>
+        Shopify brands looking for a simple, affordable, and customizable loyalty solution
+      </td>
+      <td>Free Plan</td>
+    </tr>    
     <tr>
       <td><strong>Smile.io</strong></td>
       <td>
@@ -159,16 +166,6 @@ That’s where Shopify loyalty apps come in. From points and referrals to omnich
   <td>Paid Plan</td>
 </tr>
 <tr>
-  <td><strong>Kangaroo</strong></td>
-  <td>
-    Omnichannel rewards, automated campaigns, segmentation, analytics
-  </td>
-  <td>
-    Scaling brands expanding from ecommerce to physical stores
-  </td>
-  <td>Paid Plan</td>
-</tr>
-<tr>
   <td><strong>Glow</strong></td>
   <td>
     Points-based loyalty, referral programs, simple dashboards, easy setup
@@ -243,7 +240,35 @@ Designed for modern DTC brands operating on Shopify, it helps brands move beyond
   </div>
 </div>
 
-### 2. Smile.io
+### 2. Yuko Loyalty & Rewards
+
+<div class="m-auto w-full lg:px-33">
+    <img loading="lazy" role="img" src="/assets/blog/yuko-loyalty-appstore.webp" alt="Yuko Loyalty & Rewards">
+</div>
+
+<a href="https://apps.shopify.com/yuko?utm_source=partnership&utm_medium=99minds&utm_campaign=listicle-listing" role="link" target="_blanck">Yuko Loyalty and Rewards</a> is a retention-focused Shopify loyalty and rewards app designed to increase repeat purchases and customer lifetime value. Merchants can reward customers with points for purchases, signups, and reviews, redeemable for discounts, store credits, or free products. It combines loyalty points, VIP tiers, and product reviews in one platform, with customizable widgets to showcase loyalty programs across the storefront.
+
+**Key features**
+
+- **Points-Based Loyalty Programs**: Reward customers with points for purchases, signups, and reviews to encourage repeat buying and engagement.
+- **Flexible Rewards & Incentives**: Allow shoppers to redeem points for discounts, store credits, or free products.
+- **VIP Tiers for Loyal Customers**: Create tiered reward levels that motivate customers to spend more and stay loyal to your brand.
+- **Product & Photo Reviews**: Collect customer reviews and visual feedback to build trust and influence buying decisions.
+- **Google Rich Snippets/SEO Support**: Reviews can help your product pages show review stars in search results (improving click-through).
+- **Easy Setup & Helpful Support**: Quick installation with simple configuration and responsive merchant support.
+
+**Pros and Cons**:
+
+Yuko stands out for its affordable pricing, making it a cost-effective choice for growing Shopify stores, along with responsive customer support that offers fast and helpful assistance to merchants. It’s also easy to set up, thanks to its simple configuration and user-friendly interface. However, as a newer platform, it currently has fewer reviews compared to more established tools, and some advanced features are still evolving.
+
+**Pricing plans**:
+
+- **Free**: $0/month
+- **Basic**: $12/month
+- **Advanced**: $30/month
+- **Growth**: $199/month
+
+### 3. Smile.io
 
 <div class="m-auto w-full lg:px-33">
     <img loading="lazy" role="img" src="/assets/blog/smile-shopify-loyalty-app.webp" alt="Smile loyalty app on shopify">
@@ -274,7 +299,7 @@ Smile.io stands out for its ease of use, fast setup, and reliable points, referr
 - **Growth plan:** $199/month
 - **Plus Plan:** $999/month
 
-### 3. Rise.ai: Gift Cards & Loyalty
+### 4. Rise.ai: Gift Cards & Loyalty
 
 <div class="m-auto w-full lg:px-33">
     <img loading="lazy" role="img" src="/assets/blog/rise-shopify-loyalty-app.webp" alt="Rise loyalty app on shopify">
@@ -304,7 +329,7 @@ Rise.ai excels at turning refunds, cashback, and gift cards into retained revenu
 - **Small‑Business plan:** US $59.99/month
 - **Pro plan:** US $199.99/month
 
-### 4. Yotpo: Loyalty & Rewards
+### 5. Yotpo: Loyalty & Rewards
 
 <div class="m-auto w-full lg:px-33">
     <img loading="lazy" role="img" src="/assets/blog/yotpo-shopify-loyalty-app.webp" alt="Yotpo loyalty app on shopify">
@@ -336,7 +361,7 @@ Yotpo’s strength lies in its powerful customization, analytics, and tight inte
 - **Pro Plan:** $199/month
 - **Premium Plan:** $799/month
 
-### 5. Joy Rewards & Loyalty Program
+### 6. Joy Rewards & Loyalty Program
 
 <div class="m-auto w-full lg:px-33">
     <img loading="lazy" role="img" src="/assets/blog/joy-rewards-shopify-loyalty-apps.webp" alt="Joy loyalty app on shopify">
@@ -368,7 +393,7 @@ Joy Rewards offers strong customization, flexible points rules, and solid POS su
 - **Advanced Plan:** $99/month
 - **Ultimate Plan:** $499/month 
 
-### 6. Gameball: Loyalty, Points, VIP
+### 7. Gameball: Loyalty, Points, VIP
 
 <div class="m-auto w-full lg:px-33">
     <img loading="lazy" role="img" src="/assets/blog/gameball-shopify-loyalty-app.webp" alt="Gameball loyalty app on shopify">
@@ -398,7 +423,7 @@ Gameball’s biggest advantage is its gamification engine, using challenges, bad
 - **Starter Plan:** $34/month
 - **Pro Plan:** $159/month
 
-### 7. LoyaltyLion Rewards & Referral
+### 8. LoyaltyLion Rewards & Referral
 
 <div class="m-auto w-full lg:px-33">
     <img loading="lazy" role="img" src="/assets/blog/loyaltylion-shopify-app.webp" alt="Loyalty Lion loyalty app on shopify">
@@ -427,7 +452,7 @@ LoyaltyLion excels in advanced rule-based rewards, deep analytics, and precise c
 - Free to Install
 - **Classic Plan:** $199/month
 
-### 8. Rivo Loyalty Rewards Referrals
+### 9. Rivo Loyalty Rewards Referrals
 
 <div class="m-auto w-full lg:px-33">
     <img loading="lazy" role="img" src="/assets/blog/rivo-shopify-loyalty-app.webp" alt="Rivo loyalty app on shopify">
@@ -457,7 +482,7 @@ Rivo stands out for its modern UI, frequent product updates, and strong focus on
 - **Scale Plan:** $49/month
 - **Plus Plan:** $499/month
 
-### 9. BON Loyalty Rewards Referrals
+### 10. BON Loyalty Rewards Referrals
 
 <div class="m-auto w-full lg:px-33">
     <img loading="lazy" role="img" src="/assets/blog/bon-shopify-loyalty-app.webp" alt="Bon loyalty app on shopify">
@@ -488,7 +513,7 @@ BON Loyalty’s key strength is its fast setup, omnichannel POS support, and fle
 - **Growth Plan:** $99/month
 - **Professional Plan:** $349/month
 
-### 10. TapMango  
+### 11. TapMango  
 
 <div class="m-auto w-full lg:px-33">
     <img loading="lazy" role="img" src="/assets/blog/tapmango-shopify-loyalty-app.webp" alt="Tapmango loyalty app on shopify">
@@ -511,32 +536,6 @@ TapMango is highly effective for physical-store-first brands, offering strong PO
 **Pricing Plans:**
 
 - Free to Install
-
-### 11. Kangaroo: Loyalty and Rewards
-
-<div class="m-auto w-full lg:px-33">
-    <img loading="lazy" role="img" src="/assets/blog/kangaroo-shopify-loyalty-app.webp" alt="Kangaroo loyalty app on shopify">
-</div>
- 
-Kangaroo is an omnichannel loyalty platform built for DTC and retail brands that want to increase sales, drive repeat visits, and own customer relationships. It enables brands to run personalized, data-driven loyalty programs across online stores and physical locations using rewards, referrals, and targeted engagement.
-
-**Key Features**
-
-- **Fully Branded Loyalty Experience:** Customize loyalty programs with your brand’s colors, logo, visuals, and messaging for a consistent experience.
-
-- **Points, Offers & Redemptions:** Encourage repeat purchases with points per dollar spent, targeted offers, and flexible reward redemption.
-
-- **Targeted Customer Engagement:** Reach customers with personalized offers through SMS, email, and push notifications.
-
-- **Referral Engine:** Turn loyal customers into brand advocates by rewarding referrals that drive new traffic and sales.
-
-**Pros and Cons:
-
-Kangaroo shines in multi-location and omnichannel retail environments, offering centralized loyalty management, segmentation, and branded rewards. It’s ideal for complex retail setups. The drawback is higher complexity and pricing, which may feel excessive for small brands or single-location Shopify merchants.
-
-**Pricing Plans:**
-
-- Ultimate Plan: $199/month
 
 ### 12. Glow: Loyalty Points & Rewards
 
@@ -574,15 +573,6 @@ Glow’s advantage is its simplicity and beginner-friendly setup, making it easy
 We hope this list helped you see how the right Shopify loyalty app can directly impact repeat purchases, customer lifetime value, and long-term retention for DTC brands. Loyalty programs are no longer just about points. They are a proven way to reduce churn, strengthen brand relationships, and grow sustainably in a competitive market.
 
 With a solution like <a href="https://www.99minds.io/" role="link" target="_blanck">99minds</a>, you can launch a complete loyalty engine that works across both your online store and physical locations. From tiered rewards and memberships to store credits, referrals, and a unified digital wallet, it gives you everything you need to turn one-time buyers into loyal, repeat customers.
-
-<h2 id="Frequently-Asked-Questions-(FAQs)-on-Shopify-Loyalty-Apps">Frequently Asked Questions (FAQs) on Shopify Loyalty Apps</h2>
-
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>What is a Shopify loyalty app?</h3>A Shopify loyalty app is a tool integrated into your Shopify store to create, manage, and optimize loyalty programs, helping increase customer retention and repeat purchases.</div>
-
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>How do loyalty programs benefit my Shopify store?</h3>They improve customer retention, boost average order value, and encourage repeat purchases, ultimately increasing your store’s revenue.</div>
-
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>Can I customize the loyalty program for my brand?</h3>Yes, most Shopify loyalty apps allow extensive customization of rewards, points, branding, and more to align with your store’s identity.</div>
-
 
 </div>
   <!-- CTA section  -->
