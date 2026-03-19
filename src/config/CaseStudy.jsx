@@ -1,3 +1,14 @@
+import img1 from "../assets/case-study/natori4-case-study.webp";
+import img2 from "../assets/case-study/Calico.webp";
+import img3 from "../assets/case-study/gwynn1.webp";
+import img4 from "../assets/case-study/solstice-featured.webp";
+import img5 from "../assets/case-study/birdsnest1.webp";
+import img6 from "../assets/case-study/jaxengrey.webp";
+import img7 from "../assets/case-study/mud-Aus-featured.webp";
+import img8 from "../assets/case-study/cariloha.webp";
+import img9 from "../assets/case-study/bestop-featured.webp";
+
+
 export const buttonConfig = [
     { label: 'All', icon: 'icon-tabler-components', id: 'tabs-5-1' },
     { label: 'Fashion', icon: 'icon-tabler-components', id: 'tabs-5-2' },
@@ -10,35 +21,35 @@ export const buttonConfig = [
 
 export const cardData = [
     { date: 'October 2024', title: 'How Tassel gains 15% Conversion Rate & 40% Customer retention with Omnichannel loyalty & Cashback', description: "", href: '/case-study/tasselsshoes', videoId: 'anWLVGcytUw', img: null, alt: "Tassel Shoes Case Study", altlogo: "Tassel Shoes", logo: "/assets/logo-cloud/tassels-b.webp" },
-    { date: 'October 2024', title: "How Natori increased 25% Customer Retention & LTV with Bonus Store Credit refund on Returns", description: '', href: "/case-study/natori", img: "/assets/case-study/natori4-case-study.webp", alt: "Natori Case Study",altlogo: "Natori", logo: "/assets/logo-cloud/Natori-b.svg" },
+    { date: 'October 2024', title: "How Natori increased 25% Customer Retention & LTV with Bonus Store Credit refund on Returns", description: '', href: "/case-study/natori", img: img1, alt: "Natori Case Study",altlogo: "Natori", logo: "/assets/logo-cloud/Natori-b.svg" },
     { date: 'October 2024', title: 'Bfearless At-Home Loyalty Program', description: "", href: "/case-study/bfearless", videoId: 'nkrTLqf3_VA', img: null, alt: "Bfearless Case Study", altlogo:"Bfearless", logo: "/assets/logo-cloud/bfearless-b.webp" },
-    { date: 'April 2024', title: 'FlynnOhara Outfit 1,500 Schools and 500,000 Students with Quality Uniforms!', description: "", href: "/case-study/flynnohara", videoId: '3EAM2GJJ7-s', alt: "Flynnohara Case Study", logo: "/assets/logo-cloud/flynnohara-b.webp" },
-    { date: 'October 2024', title: 'How Heather Storm Gift Card Promotion on Social Media Helps Bestop to $2.5M in Sales in 60 Days', description: "", href: '/case-study/bestop', img: "/assets/case-study/bestop-featured.webp", alt: "Bestop Case Study", logo: "/assets/logo-cloud/bestop-b.webp" },
-    { date: 'October 2024', title: "How Calico boosts 35% in repeat purchases with the Omnichannel Loyalty & Referral program", description: "", href: '/case-study/calico', img: "/assets/case-study/Calico.webp", alt: "Calico Case Study", logo: "/assets/logo-cloud/calico-b.webp" },
-    { date: 'October 2024', title: "How Gwynn achieved a 30% increase in AOV & 6x ROI on their Omnichannel Loyalty & Rewards", description: "", href: '/case-study/gwynn', img: "/assets/case-study/gwynn1.webp", alt: "Gwynn Case Study", logo: "/assets/logo-cloud/Gwynns-b.svg" },
-    { date: 'October 2024', title: 'How Solistice Achieved 30% Conversion Lift with Omnichannel Gift Cards Promotion', description: '', href: '/case-study/solsticesunglasses', img: "/assets/case-study/solstice-featured.webp", alt: "Solstice Sunglasses Case Study", logo: "/assets/logo-cloud/solsticesunglasses-b.webp"},
-    { date: 'October 2024', title: 'How Birdsnest enhanced Consumer experience with Online & In-store Gift Cards offering', description: '', href: '/case-study/birdsnest', img: "/assets/case-study/birdsnest1.webp", alt: "Birdsnest Case Study", logo: "/assets/logo-cloud/birdsnest-logo.webp" },
-    { date: 'October 2024', title: 'How MudAustralia Boosted 30% Sales with a Multicurrency Gift Card & Saved 400hrs of Manual Works', description: "", href: '/case-study/mudaustralia', img: "/assets/case-study/mud-Aus-featured.webp", alt: "MudAustralia Case Study", logo: "/assets/logo-cloud/mudaustralia-b.webp" },
-    { date: 'October 2024', title: "How Jaxen Grey's Social Media Gift Card Promotions Drive Engagement and Sales by 20%", description: "", href: '/case-study/jaxengrey', img: "/assets/case-study/jaxengrey.webp", alt: "Jaxengrey Case Study", logo: "/assets/logo-cloud/jaxengray.webp" },
-    { date: 'October 2024', title: "How Cariloha's Gift Card Promotion Boosts Customer Acquisition by 30%", description: "", href: '/case-study/cariloha', img: "/assets/case-study/cariloha.webp", alt: "Cariloha Case Study", logo: "/assets/logo-cloud/cariloha-b.svg" },
+    { date: 'April 2024', title: 'FlynnOhara Outfit 1,500 Schools and 500,000 Students with Quality Uniforms!', description: "", href: "/case-study/flynnohara", videoId: '3EAM2GJJ7-s', alt: "Flynnohara Case Study", altlogo: "Flynnohara", logo: "/assets/logo-cloud/flynnohara-b.webp" },
+    { date: 'October 2024', title: 'How Heather Storm Gift Card Promotion on Social Media Helps Bestop to $2.5M in Sales in 60 Days', description: "", href: '/case-study/bestop', img: img9, alt: "Bestop Case Study",altlogo: "Bestop", logo: "/assets/logo-cloud/bestop-b.webp" },
+    { date: 'October 2024', title: "How Calico boosts 35% in repeat purchases with the Omnichannel Loyalty & Referral program", description: "", href: '/case-study/calico', img: img2, alt: "Calico Case Study", altlogo: "Calico", logo: "/assets/logo-cloud/calico-b.webp" },
+    { date: 'October 2024', title: "How Gwynn achieved a 30% increase in AOV & 6x ROI on their Omnichannel Loyalty & Rewards", description: "", href: '/case-study/gwynn', img: img3, alt: "Gwynn Case Study", altlogo: "Gwynn",logo: "/assets/logo-cloud/Gwynns-b.svg" },
+    { date: 'October 2024', title: 'How Solistice Achieved 30% Conversion Lift with Omnichannel Gift Cards Promotion', description: '', href: '/case-study/solsticesunglasses', img: img4, alt: "Solstice Sunglasses Case Study", altlogo: "Solstice Sunglasses", logo: "/assets/logo-cloud/solsticesunglasses-b.webp"},
+    { date: 'October 2024', title: 'How Birdsnest enhanced Consumer experience with Online & In-store Gift Cards offering', description: '', href: '/case-study/birdsnest', img: img5, alt: "Birdsnest Case Study", altlogo: "Birdsnest", logo: "/assets/logo-cloud/birdsnest-logo.webp" },
+    { date: 'October 2024', title: 'How MudAustralia Boosted 30% Sales with a Multicurrency Gift Card & Saved 400hrs of Manual Works', description: "", href: '/case-study/mudaustralia', img: img7, alt: "MudAustralia Case Study", altlogo: "MudAustralia", logo: "/assets/logo-cloud/mudaustralia-b.webp" },
+    { date: 'October 2024', title: "How Jaxen Grey's Social Media Gift Card Promotions Drive Engagement and Sales by 20%", description: "", href: '/case-study/jaxengrey', img:img6, alt: "Jaxengrey Case Study", altlogo: "Jaxengrey", logo: "/assets/logo-cloud/jaxengray.webp" },
+    { date: 'October 2024', title: "How Cariloha's Gift Card Promotion Boosts Customer Acquisition by 30%", description: "", href: '/case-study/cariloha', img: img8, alt: "Cariloha Case Study", altlogo: "Cariloha", logo: "/assets/logo-cloud/cariloha-b.svg" },
     
   ];
   
 
 export const Fashion =[
-  { date: 'October 2024', title: "How Natori increased 25% Customer Retention & LTV with Bonus Store Credit refund on Returns", description: '', href: "/case-study/natori", img: "/assets/case-study/natori4-case-study.webp", alt: "Natori Case Study", logo: "/assets/logo-cloud/Natori-b.svg" },
-  { date: 'October 2024', title: 'How Tassel gains 15% Conversion Rate & 40% Customer retention with Omnichannel loyalty & Cashback', description: "", href: '/case-study/tasselsshoes', videoId: 'anWLVGcytUw', img: null, alt: "Tassel Shoes Case Study", logo: "/assets/logo-cloud/tassels-b.webp" },
-  { date: 'October 2024', title: 'Bfearless At-Home Loyalty Program', description: "", href: "/case-study/bfearless", videoId: 'nkrTLqf3_VA', img: null, alt: "Bfearless Case Study", logo: "/assets/logo-cloud/bfearless-b.webp" },
-  { date: 'April 2024', title: 'FlynnOhara Outfit 1,500 Schools and 500,000 Students with Quality Uniforms!', description: "", href: "/case-study/flynnohara", videoId: '3EAM2GJJ7-s', alt: "Flynnohara Case Study", logo: "/assets/logo-cloud/flynnohara-b.webp" },
-  { date: 'October 2024', title: "How Calico boosts 35% in repeat purchases with the Omnichannel Loyalty & Referral program", description: "", href: '/case-study/calico', img: "/assets/case-study/Calico.webp", alt: "Calico Case Study", logo: "/assets/logo-cloud/calico-b.webp" },
-  { date: 'October 2024', title: "How Gwynn achieved a 30% increase in AOV & 6x ROI on their Omnichannel Loyalty & Rewards", description: "", href: '/case-study/gwynn', img: "/assets/case-study/gwynn1.webp", alt: "Gwynn Case Study", logo: "/assets/logo-cloud/Gwynns-b.svg" },
-  { date: 'October 2024', title: 'How Solistice Achieved 30% Conversion Lift with Omnichannel Gift Cards Promotion', description: '', href: '/case-study/solsticesunglasses', img: "/assets/case-study/solstice-featured.webp", alt: "Solstice Sunglasses Case Study", logo: "/assets/logo-cloud/solsticesunglasses-b.webp"},
-  { date: 'October 2024', title: 'How Birdsnest enhanced Consumer experience with Online & In-store Gift Cards offering', description: '', href: '/case-study/birdsnest', img: "/assets/case-study/birdsnest1.webp", alt: "Birdsnest Case Study", logo: "/assets/logo-cloud/birdsnest-logo.webp" },
-  { date: 'October 2024', title: "How Jaxen Grey's Social Media Gift Card Promotions Drive Engagement and Sales by 20%", description: "", href: '/case-study/jaxengrey', img: "/assets/case-study/jaxengrey.webp", alt: "Jaxengrey Case Study", logo: "/assets/logo-cloud/jaxengray.webp" },
+  { date: 'October 2024', title: "How Natori increased 25% Customer Retention & LTV with Bonus Store Credit refund on Returns", description: '', href: "/case-study/natori", img: img1, alt: "Natori Case Study",  altlogo: "Natori", logo: "/assets/logo-cloud/Natori-b.svg" },
+  { date: 'October 2024', title: 'How Tassel gains 15% Conversion Rate & 40% Customer retention with Omnichannel loyalty & Cashback', description: "", href: '/case-study/tasselsshoes', videoId: 'anWLVGcytUw', img: null, alt: "Tassel Shoes Case Study",altlogo: "Tassel Shoes", logo: "/assets/logo-cloud/tassels-b.webp" },
+  { date: 'October 2024', title: 'Bfearless At-Home Loyalty Program', description: "", href: "/case-study/bfearless", videoId: 'nkrTLqf3_VA', img: null, alt: "Bfearless Case Study", altlogo: "Bfearless", logo: "/assets/logo-cloud/bfearless-b.webp" },
+  { date: 'April 2024', title: 'FlynnOhara Outfit 1,500 Schools and 500,000 Students with Quality Uniforms!', description: "", href: "/case-study/flynnohara", videoId: '3EAM2GJJ7-s', alt: "Flynnohara Case Study",altlogo: "Flynnohara", logo: "/assets/logo-cloud/flynnohara-b.webp" },
+  { date: 'October 2024', title: "How Calico boosts 35% in repeat purchases with the Omnichannel Loyalty & Referral program", description: "", href: '/case-study/calico', img: img2, alt: "Calico Case Study", altlogo: "Calico", logo: "/assets/logo-cloud/calico-b.webp" },
+  { date: 'October 2024', title: "How Gwynn achieved a 30% increase in AOV & 6x ROI on their Omnichannel Loyalty & Rewards", description: "", href: '/case-study/gwynn', img: img3, alt: "Gwynn Case Study", altlogo: "Gwynn ", logo: "/assets/logo-cloud/Gwynns-b.svg" },
+  { date: 'October 2024', title: 'How Solistice Achieved 30% Conversion Lift with Omnichannel Gift Cards Promotion', description: '', href: '/case-study/solsticesunglasses', img: img4, alt: "Solstice Sunglasses Case Study", altlogo: "Solstice Sunglasses", logo: "/assets/logo-cloud/solsticesunglasses-b.webp"},
+  { date: 'October 2024', title: 'How Birdsnest enhanced Consumer experience with Online & In-store Gift Cards offering', description: '', href: '/case-study/birdsnest', img: img5, alt: "Birdsnest Case Study", altlogo: "Birdsnest", logo: "/assets/logo-cloud/birdsnest-logo.webp" },
+  { date: 'October 2024', title: "How Jaxen Grey's Social Media Gift Card Promotions Drive Engagement and Sales by 20%", description: "", href: '/case-study/jaxengrey', img: img6, alt: "Jaxengrey Case Study", altlogo: "Jaxengrey", logo: "/assets/logo-cloud/jaxengray.webp" },
 ]
 
 export const Others =[
-  { date: 'October 2024', title: 'How Heather Storm Gift Card Promotion on Social Media Helps Bestop to $2.5M in Sales in 60 Days', description: "", href: '/case-study/bestop', img: "/assets/case-study/bestop-featured.webp", alt: "Bestop Case Study", logo: "/assets/logo-cloud/bestop-b.webp" },
-  { date: 'October 2024', title: 'How MudAustralia Boosted 30% Sales with a Multicurrency Gift Card & Saved 400hrs of Manual Works', description: "", href: '/case-study/mudaustralia', img: "/assets/case-study/mud-Aus-featured.webp", alt: "MudAustralia Case Study", logo: "/assets/logo-cloud/mudaustralia-b.webp" },
-  { date: 'October 2024', title: "How Cariloha's Gift Card Promotion Boosts Customer Acquisition by 30%", description: "", href: '/case-study/cariloha', img: "/assets/case-study/cariloha.webp", alt: "Cariloha Case Study", logo: "/assets/logo-cloud/cariloha-b.svg" },
+  { date: 'October 2024', title: 'How Heather Storm Gift Card Promotion on Social Media Helps Bestop to $2.5M in Sales in 60 Days', description: "", href: '/case-study/bestop', img: img9, alt: "Bestop Case Study", altlogo: "Bestop", logo: "/assets/logo-cloud/bestop-b.webp" },
+  { date: 'October 2024', title: 'How MudAustralia Boosted 30% Sales with a Multicurrency Gift Card & Saved 400hrs of Manual Works', description: "", href: '/case-study/mudaustralia', img: img7, alt: "MudAustralia Case Study", altlogo: "MudAustralia", logo: "/assets/logo-cloud/mudaustralia-b.webp" },
+  { date: 'October 2024', title: "How Cariloha's Gift Card Promotion Boosts Customer Acquisition by 30%", description: "", href: '/case-study/cariloha', img:img8, alt: "Cariloha Case Study", altlogo: "Cariloha", logo: "/assets/logo-cloud/cariloha-b.svg" },
 ]
