@@ -1,4 +1,5 @@
 ---
+ import { Image } from "astro:assets";
  import Verticalgrid from "../assets/Verticalgrid.astro"; 
  import { buttonConfig, cardData, Fashion, Others } from '../../config/CaseStudy.jsx';
 --- 
@@ -69,12 +70,13 @@
                       <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-xl">
                         <div class="flex">
                           {data.img ? (
-                            <img 
-                              class="group-hover:scale-105 duration-300 aspect-[2/1] object-cover" 
-                              loading="lazy" 
-                              src={data.img} 
-                              alt={data.alt} 
-                              width="630"
+                            <Image
+                              src={data.img}
+                              alt={data.alt}
+                              widths={[400, 800, 1200]}
+                              sizes="(max-width: 768px) 100vw, 400px"
+                              loading="lazy"
+                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover"
                             />
                           ) : data.videoId ? (
                             <iframe
@@ -102,8 +104,8 @@
                         </div>
                         <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
                         <h2 class="mt-5 text-base font-normal leading-6 text-gray-900">{data.title}</h2>
-                        <p class="mt-2 text-base   line-clamp-1">{data.description}</p>
-                        <a href={data.href} class="text-base leading-6 text-[#6820EE] font-medium block">Read more <span aria-hidden="true">→</span></a>
+                        <p class="mt-2 text-base line-clamp-1">{data.description}</p>
+                        <a href={data.href} class="text-base leading-6 text-[#6820EE] font-medium block">Read Case Study<span aria-hidden="true">→</span></a>
                       </div>
                     </a>
                   </li>
@@ -120,15 +122,16 @@
                 {Fashion.map((data) => (
                 <li key={data.title} class="group border bg-white border-white/5 overflow-hidden rounded-xl  shadow-xl">
                     <a href={data.href}>
-                      <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-xl">
+                     <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-xl">
                         <div class="flex">
                           {data.img ? (
-                            <img 
-                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" 
-                              loading="lazy" 
-                              src={data.img} 
-                              alt={data.alt} 
-                              width="630"
+                            <Image
+                              src={data.img}
+                              alt={data.alt}
+                              widths={[400, 800, 1200]}
+                              sizes="(max-width: 768px) 100vw, 400px"
+                              loading="lazy"
+                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover"
                             />
                           ) : data.videoId ? (
                             <iframe
@@ -140,7 +143,6 @@
                               frameBorder="0"
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                               allowFullScreen
-                              id="youtube-video"
                             ></iframe>
                           ) : null}
                         </div>
@@ -152,7 +154,7 @@
                         <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
                         <h2 class="mt-5 text-base font-normal leading-6 text-gray-900">{data.title}</h2>
                         <p class="mt-2 text-base   line-clamp-1">{data.description}</p>
-                         <a href={data.href} class="text-base leading-6 text-[#6820EE] font-medium block">Read more <span aria-hidden="true">→</span></a>
+                         <a href={data.href} class="text-base leading-6 text-[#6820EE] font-medium block">Read Case Study <span aria-hidden="true">→</span></a>
                       </div>
                   </a>
                 </li>
@@ -172,12 +174,13 @@
                       <div class="flex items-end shadow-lg justify-center overflow-hidden rounded-t-xl">
                         <div class="flex">
                           {data.img ? (
-                            <img 
-                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover" 
-                              loading="lazy" 
-                              src={data.img} 
-                              alt={data.alt} 
-                              width="630"
+                            <Image
+                              src={data.img}
+                              alt={data.alt}
+                              widths={[400, 800, 1200]}
+                              sizes="(max-width: 768px) 100vw, 400px"
+                              loading="lazy"
+                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover"
                             />
                           ) : data.videoId ? (
                             <iframe
@@ -206,7 +209,7 @@
                         <h2 class="text-xl mt-2 font-normal text-gray-700">{data.heading}</h2> 
                         <h2 class="mt-5 text-base font-normal leading-6 text-gray-900">{data.title}</h2>
                         <p class="mt-2 text-base   line-clamp-1">{data.description}</p>
-                         <a href={data.href} class="text-base leading-6 text-[#6820EE] font-medium block">Read more <span aria-hidden="true">→</span></a>
+                         <a href={data.href} class="text-base leading-6 text-[#6820EE] font-medium block">Read Case Study <span aria-hidden="true">→</span></a>
                       </div>
                   </a>
                 </li>
