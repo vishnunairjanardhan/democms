@@ -5,6 +5,8 @@
 --- 
 <section class="">
   <div class="relative mx-auto max-w-7xl md:px-12 lg:px-0 lg:py-0">
+
+
     <div x-data="{
           tabSelected: 1,
           tabId: $id('tabs'),
@@ -71,8 +73,6 @@
                             <Image
                               src={data.img}
                               alt={data.alt}
-                              width={600}
-                              height={300}
                               widths={[400, 800, 1200]}
                               sizes="(max-width: 768px) 100vw, 400px"
                               loading="lazy"
@@ -80,20 +80,20 @@
                             />
                           ) : data.videoId ? (
                             <iframe
-                              class="group-hover:scale-105 duration-300 w-[412px] object-cover"
-                              src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=0&mute=1&rel=0`}
+                              class="group-hover:scale-105 duration-300 h-[202px] object-cover"
+                              src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=1&mute=1&rel=0`}
                               title={data.title}
-                              width="430"
-                              height="208"
+                              width="630"
+                              height="315"
                               frameBorder="0"
-                              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                               allowFullScreen
                               id="youtube-video"
                             ></iframe>
                           ) : null}
                         </div>
                       </div>
-                        <div class="p-8 flex flex-col h-[54%]">
+                        <div class="p-8">
                          <div class="flex">
                              <div class="basis-1/2"><img class="h-9" alt={data.altlogo} src={data.logo}></div>
                               <!--<div class="basis-1/2"> 
@@ -105,7 +105,7 @@
                         <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
                         <h2 class="mt-5 text-base font-normal leading-6 text-gray-900">{data.title}</h2>
                         <p class="mt-2 text-base line-clamp-1">{data.description}</p>
-                        <a href={data.href} class="text-base mt-auto leading-6 text-[#6820EE] block">Read Case Study<span aria-hidden="true">→</span></a>
+                        <a href={data.href} class="text-base leading-6 text-[#6820EE] font-medium block">Read Case Study<span aria-hidden="true">→</span></a>
                       </div>
                     </a>
                   </li>
@@ -128,8 +128,6 @@
                             <Image
                               src={data.img}
                               alt={data.alt}
-                              width={600}
-                              height={300}
                               widths={[400, 800, 1200]}
                               sizes="(max-width: 768px) 100vw, 400px"
                               loading="lazy"
@@ -137,27 +135,26 @@
                             />
                           ) : data.videoId ? (
                             <iframe
-                              class="group-hover:scale-105 duration-300 w-[412px] object-cover"
-                              src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=0&mute=1&rel=0`}
+                              class="group-hover:scale-110 duration-300 h-[202px] object-cover"
+                              src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=1&mute=1&rel=0`}
                               title={data.title}
-                              width="430"
-                              height="208"
+                              width="630"
+                              height="315"
                               frameBorder="0"
-                              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                               allowFullScreen
-                              id="youtube-video"
                             ></iframe>
                           ) : null}
                         </div>
                       </div>
-                      <div class="p-8 flex flex-col h-[54%]">
+                      <div class="p-8">
                         <div class="flex">
                           <div class="basis-1/2"><img class="h-9" alt={data.altlogo} src={data.logo}></div>
                         </div>
                         <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
                         <h2 class="mt-5 text-base font-normal leading-6 text-gray-900">{data.title}</h2>
                         <p class="mt-2 text-base   line-clamp-1">{data.description}</p>
-                         <a href={data.href} class="text-base mt-auto leading-6 text-[#6820EE] font-medium block">Read Case Study <span aria-hidden="true">→</span></a>
+                         <a href={data.href} class="text-base leading-6 text-[#6820EE] font-medium block">Read Case Study <span aria-hidden="true">→</span></a>
                       </div>
                   </a>
                 </li>
@@ -180,8 +177,6 @@
                             <Image
                               src={data.img}
                               alt={data.alt}
-                              width={600}
-                              height={300}
                               widths={[400, 800, 1200]}
                               sizes="(max-width: 768px) 100vw, 400px"
                               loading="lazy"
@@ -189,20 +184,20 @@
                             />
                           ) : data.videoId ? (
                             <iframe
-                              class="group-hover:scale-105 duration-300 w-[412px] object-cover"
-                              src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=0&mute=1&rel=0`}
+                              class="group-hover:scale-110 duration-300 aspect-[2/1] object-cover"
+                              src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=1&mute=1&rel=0`}
                               title={data.title}
-                              width="430"
-                              height="208"
+                              width="630"
+                              height="315"
                               frameBorder="0"
-                              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                               allowFullScreen
                               id="youtube-video"
                             ></iframe>
                           ) : null}
                         </div>
                       </div>
-                      <div class="p-8 flex flex-col h-[54%]">
+                      <div class="p-8">
                          <div class="flex">
                              <div class="basis-1/2"><img class="h-9" alt={data.altlogo} src={data.logo}></div>
                               <!--<div class="basis-1/2"> 
@@ -213,8 +208,8 @@
                         </div>
                         <h2 class="text-xl mt-2 font-normal text-gray-700">{data.heading}</h2> 
                         <h2 class="mt-5 text-base font-normal leading-6 text-gray-900">{data.title}</h2>
-                        <p class="mt-2 text-base  line-clamp-1">{data.description}</p>
-                         <a href={data.href} class="text-base leading-6 mt-auto text-[#6820EE] font-medium block">Read Case Study <span aria-hidden="true">→</span></a>
+                        <p class="mt-2 text-base   line-clamp-1">{data.description}</p>
+                         <a href={data.href} class="text-base leading-6 text-[#6820EE] font-medium block">Read Case Study <span aria-hidden="true">→</span></a>
                       </div>
                   </a>
                 </li>
