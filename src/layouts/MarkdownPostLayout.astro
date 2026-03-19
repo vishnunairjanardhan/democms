@@ -101,10 +101,8 @@ const articleSchemaString = JSON.stringify(articleSchema, null, 2);
   <script type="application/ld+json" set:html={blogPostSchemaString}></script>
   <script type="application/ld+json" set:html={breadcrumbSchemaString}></script>
   <script type="application/ld+json" set:html={articleSchemaString}></script>
-</head>
 
-<BaseLayout3>
-  <!-- ✅ Astro SEO Component -->
+   <!-- ✅ Astro SEO Component -->
   <AstroSeo
     title={frontmatter.title || ""}
     description={frontmatter.description || ""}
@@ -142,6 +140,10 @@ const articleSchemaString = JSON.stringify(articleSchema, null, 2);
     }}
   />
 
+</head>
+
+<BaseLayout3>
+ 
   <!-- ✅ Blog Header Section -->
   <section class="relative overflow-x-hidden bg-[#E0DCFC] px-6">
     <div class="max-w-7xl md:px-12 lg:px-16 mx-auto pt-32 pb-24 lg:pt-48 relative">
