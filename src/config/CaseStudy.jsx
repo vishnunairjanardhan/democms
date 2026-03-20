@@ -22,6 +22,7 @@ export const buttonConfig = [
 export const cardData = [
   { date: 'October 2024', title: 'How Tassel gains 15% Conversion Rate & 40% Customer retention with Omnichannel loyalty & Cashback', description: "", href: '/case-study/tasselsshoes', videoId: 'anWLVGcytUw', img: null, alt: "Tassel Shoes Case Study", altlogo: "Tassel Shoes", logo: "/assets/logo-cloud/tassels-b.webp" },
   { date: 'October 2024', title: "How Natori increased 25% Customer Retention & LTV with Bonus Store Credit refund on Returns", description: '', href: "/case-study/natori", img: img1, alt: "Natori Case Study", altlogo: "Natori", logo: "/assets/logo-cloud/Natori-b.svg" },
+  { date: 'October 2024', title: "How Natori increased 25% Customer Retention & LTV with Bonus Store Credit refund on Returns", description: '', href: "/case-study/natori", img: img1, alt: "Natori Case Study", altlogo: "Natori", logo: "/assets/logo-cloud/Natori-b.svg" },
   { date: 'October 2024', title: 'Bfearless At-Home Loyalty Program', description: "", href: "/case-study/bfearless", videoId: 'nkrTLqf3_VA', img: null, alt: "Bfearless Case Study", altlogo: "Bfearless", logo: "/assets/logo-cloud/bfearless-b.webp" },
   { date: 'April 2024', title: 'FlynnOhara Outfit 1,500 Schools and 500,000 Students with Quality Uniforms!', description: "", href: "/case-study/flynnohara", videoId: '3EAM2GJJ7-s', alt: "Flynnohara Case Study", altlogo: "Flynnohara", logo: "/assets/logo-cloud/flynnohara-b.webp" },
   { date: 'October 2024', title: 'How Heather Storm Gift Card Promotion on Social Media Helps Bestop to $2.5M in Sales in 60 Days', description: "", href: '/case-study/bestop', img: img9, alt: "Bestop Case Study", altlogo: "Bestop", logo: "/assets/logo-cloud/bestop-b.webp" },
@@ -32,9 +33,6 @@ export const cardData = [
   { date: 'October 2024', title: 'How MudAustralia Boosted 30% Sales with a Multicurrency Gift Card & Saved 400hrs of Manual Works', description: "", href: '/case-study/mudaustralia', img: img7, alt: "MudAustralia Case Study", altlogo: "MudAustralia", logo: "/assets/logo-cloud/mudaustralia-b.webp" },
   { date: 'October 2024', title: "How Jaxen Grey's Social Media Gift Card Promotions Drive Engagement and Sales by 20%", description: "", href: '/case-study/jaxengrey', img: img6, alt: "Jaxengrey Case Study", altlogo: "Jaxengrey", logo: "/assets/logo-cloud/jaxengray.webp" },
   { date: 'October 2024', title: "How Cariloha's Gift Card Promotion Boosts Customer Acquisition by 30%", description: "", href: '/case-study/cariloha', img: img8, alt: "Cariloha Case Study", altlogo: "Cariloha", logo: "/assets/logo-cloud/cariloha-b.svg" },
-
-];
-  
 
 ];
 
