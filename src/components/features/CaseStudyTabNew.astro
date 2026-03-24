@@ -23,7 +23,7 @@ import { buttonConfig, cardData, Fashion, Others } from "../../config/CaseStudy.
                         <div class="flex aspect-video">
                           {data.img ? (
                             <Image 
-                              class="group-hover:scale-105 duration-300 object-fill h-[200px]" 
+                              class="group-hover:scale-105 duration-300 object-cover h-[169px]" 
                               loading="lazy" 
                               decoding="async"
                               src={data.img} 
@@ -32,11 +32,11 @@ import { buttonConfig, cardData, Fashion, Others } from "../../config/CaseStudy.
                             />
                           ) : data.videoId ? (
                             <iframe
-                              class="group-hover:scale-105 duration-300 object-cover"
+                              class="group-hover:scale-105 duration-300 object-fill"
                               src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=0&mute=1&rel=0`}
                               title={data.title}
                               width="300"
-                              height="200"
+                              height="169"
                               loading="lazy"
                               frameBorder="0"
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -47,20 +47,20 @@ import { buttonConfig, cardData, Fashion, Others } from "../../config/CaseStudy.
                         </div>
                       </div>
                       <div class="p-6 flex flex-col h-[54%]">
-                        <div class="flex">
-                          <div class="basis-1/2">
-                            <img class="h-7" alt={data.altlogo} src={data.logo} width="100" height="28" decoding="async" loading="lazy" />
-                          </div>
+                      <div class="flex">
+                        <div class="basis-1/2">
+                          <img class="h-7" alt={data.altlogo} src={data.logo} width="100" height="28" decoding="async" loading="lazy" />
                         </div>
-                        
-                        <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
-                        <h2 class="mt-5 text-sm font-regular leading-6 text-gray-900">{data.title}</h2>
-                        <p class="mt-2 text-sm text-blue-600 line-clamp-1">{data.description}</p>
-                        
-                        <a href={data.href} class="text-blue-600 text-sm mt-auto pt-5 hover:underline inline-block">
-                          Read Case study
-                        </a>
                       </div>
+                      
+                      <h2 class="text-xl font-semibold text-gray-700">{data.heading}</h2> 
+                      <h2 class="mt-5 text-sm font-regular leading-6 text-gray-900">{data.title}</h2>
+                      <p class="mt-2 text-sm text-blue-600 line-clamp-1">{data.description}</p>
+                      
+                      <a href={data.href} class="text-blue-600 text-sm mt-auto pt-5 hover:underline inline-block">
+                        Read Case study
+                      </a>
+                    </div>
                     </a>
                   </li>
                 ))}
