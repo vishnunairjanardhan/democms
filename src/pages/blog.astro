@@ -27,6 +27,8 @@ const sortedPosts = allPosts
   }));
 
 const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))];
+
+const lcpImageUrl = sortedPosts[0]?.data?.image?.url;
 ---
 
 <BaseLayout3>
