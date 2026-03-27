@@ -12,7 +12,7 @@ const Blogs = ({ title, url, description, pubDate, author, image, authorImage })
             loading="lazy"
             src={image}
             alt={title}
-            // width="640"
+          // width="640"
           />
         </div>
       </div>
@@ -29,7 +29,7 @@ const Blogs = ({ title, url, description, pubDate, author, image, authorImage })
         <div>
           {/* <img src={authorImage} /> */}
           {author && <p className='text-base font-semibold '>Author: {author}</p>}
-          </div>
+        </div>
       </div>
     </a>
   </div>

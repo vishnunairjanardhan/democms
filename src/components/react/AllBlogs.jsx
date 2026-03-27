@@ -150,9 +150,8 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
               <li key={pageNumber}>
                 <button
                   onClick={() => paginate(pageNumber)}
-                  className={`px-4 py-2 border rounded font-semibold ${
-                    pageNumber === currentPage ? "bg-gray-200 text-black" : "bg-white"
-                  }`}
+                  className={`px-4 py-2 border rounded font-semibold ${pageNumber === currentPage ? "bg-gray-200 text-black" : "bg-white"
+                    }`}
                 >
                   {pageNumber}
                 </button>

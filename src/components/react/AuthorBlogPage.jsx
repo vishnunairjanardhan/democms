@@ -38,37 +38,37 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
 
   const paginate = (pageNum) => setCurrentPage(pageNum);
 
-const LatestBlogGrid = ({ blogs }) => (
-  <div className="grid grid-cols-1 gap-8 mt-2">
-    {blogs.slice(0, 6).map((post) => (
-      <div key={post.slug} className="rounded-lg overflow-hidden shadow-sm bg-white flex">
+  const LatestBlogGrid = ({ blogs }) => (
+    <div className="grid grid-cols-1 gap-8 mt-2">
+      {blogs.slice(0, 6).map((post) => (
+        <div key={post.slug} className="rounded-lg overflow-hidden shadow-sm bg-white flex">
           <img
             src={post.data.image.url}
             alt={post.data.heading}
             className="h-40 w-auto rounded-md overflow-hidden object-cover hover:scale-105 transition-transform duration-300"
             loading="lazy"
           />
-        <div className="p-4">
-          <h3 className="text-lg font-semibold text-vulcan-900 line-clamp-2">
-            {post.data.heading}
-          </h3>
-          <p className="text-sm text-gray-600 line-clamp-3 mt-2">
-            {post.data.description}
-          </p>
-          <p className="text-xs text-gray-400 mt-2">
-            {new Date(post.data.pubDate).toLocaleDateString()}
-          </p>
-          <a
-            href={`/blog/${post.slug}`}
-            className="text-indigo-600 text-sm font-semibold mt-3 inline-block hover:underline"
-          >
-            Read More →
-          </a>
+          <div className="p-4">
+            <h3 className="text-lg font-semibold text-vulcan-900 line-clamp-2">
+              {post.data.heading}
+            </h3>
+            <p className="text-sm text-gray-600 line-clamp-3 mt-2">
+              {post.data.description}
+            </p>
+            <p className="text-xs text-gray-400 mt-2">
+              {new Date(post.data.pubDate).toLocaleDateString()}
+            </p>
+            <a
+              href={`/blog/${post.slug}`}
+              className="text-indigo-600 text-sm font-semibold mt-3 inline-block hover:underline"
+            >
+              Read More →
+            </a>
+          </div>
         </div>
-      </div>
-    ))}
-  </div>
-);
+      ))}
+    </div>
+  );
 
 
   return (
@@ -153,11 +153,10 @@ const LatestBlogGrid = ({ blogs }) => (
                 <li key={num}>
                   <button
                     onClick={() => paginate(num)}
-                    className={`px-4 py-2 border rounded font-semibold ${
-                      num === currentPage
+                    className={`px-4 py-2 border rounded font-semibold ${num === currentPage
                         ? "bg-gray-200 text-black"
                         : "bg-white text-vulcan-900"
-                    }`}
+                      }`}
                   >
                     {num}
                   </button>

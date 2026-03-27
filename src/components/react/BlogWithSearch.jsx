@@ -1,7 +1,10 @@
-import React, { useState, useMemo, useEffect, useCallback, useRef } from "react";
+import React, { useState, useMemo, useEffect, useCallback } from "react";
 import BlogEntry from "./BlogEntry";
 import BlogLayout from "./BlogLayout";
 import LatestBlog from "./LatestBlog";
+import { useRef } from "react";
+
+
 
 const slugify = (text = "") =>
   text.toLowerCase().trim().replace(/\s+/g, "-").replace(/[^\w-]+/g, "");
@@ -71,7 +74,6 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const sliderRef = useRef(null);
 
   /* ---------------- SEARCH HANDLER ---------------- */
 
@@ -95,10 +97,11 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
   const filteredPosts = useMemo(() => {
     if (!debouncedSearchTerm) return sortedPosts;
 
-    return sortedPosts.filter((post) =>
-      post?.data?.title?.toLowerCase().includes(debouncedSearchTerm) ||
-      post?.data?.description?.toLowerCase().includes(debouncedSearchTerm) ||
-      post?.data?.heading?.toLowerCase().includes(debouncedSearchTerm)
+    return sortedPosts.filter(
+      (post) =>
+        post?.data?.title?.toLowerCase().includes(debouncedSearchTerm) ||
+        post?.data?.description?.toLowerCase().includes(debouncedSearchTerm) ||
+        post?.data?.heading?.toLowerCase().includes(debouncedSearchTerm)
     );
   }, [debouncedSearchTerm, sortedPosts]);
 
@@ -110,6 +113,8 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
     return filteredPosts.slice(start, end);
   }, [filteredPosts, currentPage]);
 
+  const sliderRef = useRef(null);
+
   const scrollLeft = () => {
     sliderRef.current?.scrollBy({ left: -200, behavior: "smooth" });
   };
@@ -120,15 +125,9 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
 
   return (
     <div className="flex flex-wrap">
-      {/* Search */}
+
       <div className="flex justify-center w-full">
-        <form
-          className="mt-10 sm:flex sm:max-w-md lg:w-1/2"
-          onSubmit={(e) => e.preventDefault()}
-        >
-          <label htmlFor="search" className="sr-only">
-            Search Blog Posts
-          </label>
+        <form className="mt-10 sm:flex sm:max-w-md lg:w-1/2 w-72">
           <input
             type="text"
             id="search"
@@ -142,13 +141,12 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
       </div>
 
       {/* Tags */}
-      <div className="relative lg:mt-12 mt-6 w-full flex items-center pr-8">
+      <div className="relative lg:mt-12 mt-6 w-full flex items-center lg:px-8 px-10">
+
         {/* Left Arrow */}
         <button
-          type="button"
           onClick={scrollLeft}
-          className="absolute left-0 z-10 bg-white border shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6]"
-          aria-label="Scroll tags left"
+          className="absolute lg:-left-3 -left-0 z-10 bg-white border shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6]"
         >
           <span className="text-md font-semibold">‹</span>
         </button>
@@ -156,9 +154,10 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
         {/* Slider */}
         <div
           ref={sliderRef}
-          className="w-full overflow-x-auto scrollbar-hide"
+          className="w-full overflow-x-auto scrollbar-hide scroll-smooth px-0"
+
         >
-          <ul className="flex flex-nowrap lg:gap-3 gap-2 px-8 ml-2">
+          <ul className="flex flex-nowrap lg:gap-3 gap-2">
             {tags.map((tag) => (
               <li key={tag} className="flex-shrink-0">
                 <a
@@ -174,11 +173,8 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
 
         {/* Right Arrow */}
         <button
-          type="button"
           onClick={scrollRight}
-          className="absolute right-0 z-10 bg-white border border-gray-300 shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6] transition"
-          aria-label="Scroll tags right"
-        >
+          className="absolute lg:-right-3 -right-0 z-10 bg-white border border-gray-300 shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6] transition">
           <span className="text-md font-semibold">›</span>
         </button>
       </div>
@@ -227,13 +223,16 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
       <div className="py-4 border-t-2 mt-8 w-full">
         <div className="flex pb-6 justify-between items-center">
           <p className="font-semibold">Latest</p>
-          <a href="/blog/all" className="font-medium">
+          <a href="/blog/all" className="font-medium" aria-label="View all blog posts">
             View All
           </a>
         </div>
 
-        {currentPosts.length ? <LatestBlogGrid blogs={currentPosts} /> : null}
+        {currentPosts.length ? (
+          <LatestBlogGrid blogs={currentPosts} />
+        ) : null}
       </div>
+
     </div>
   );
 };
