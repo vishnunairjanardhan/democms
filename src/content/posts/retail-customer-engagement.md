@@ -1,5 +1,5 @@
 ---
-pubDate: 2026-04-27
+pubDate: 2026-03-27
 author: Piyush
 authorImg: "Piyush.webp"
 title: "12 Ways to Personalize Retail Customer Engagement in 2026"
