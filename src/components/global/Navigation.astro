@@ -15,7 +15,7 @@ const sortedPosts = allPosts.sort((a, b) => {
                 <div class="flex flex-row items-center justify-between text-white lg:justify-start">
                     <a role="link" href="/" class="lg:pr-8">
                         <div class="inline-flex items-center gap-3"> 
-                            <img class="" width="125" height="28" style="aspect-ratio: 125 / 28; height: auto;" alt="99minds logo" src="/logos/99minds-logo-b.svg" /> 
+                            <img class="" width="125" height="28" style="aspect-ratio: 125 / 28; height: auto;" alt="99minds logo" src="/logos/99minds-logo-b.svg" decoding="async" /> 
                         </div>
                     </a>
                     <button role="button" aria-label="navigation" @click="open = !open" :aria-expanded="open"
@@ -62,7 +62,6 @@ const sortedPosts = allPosts.sort((a, b) => {
                             </svg>
                         </button>
                         <div id="products-dropdown" 
-                            style="display: none;"
                             style="display: none;"
                             x-show="open" 
                             x-transition:enter="transition ease-out duration-100"
@@ -286,7 +285,6 @@ const sortedPosts = allPosts.sort((a, b) => {
                                 <path d="M6 9l6 6l6 -6"> </path>
                             </svg>
                         </button>
-                        <div id="resources-dropdown" style="display: none;" x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="pr-[26rem] transform z-50 ring-1 ring-inset ring-white/5 focus:outline-none">
                         <div id="resources-dropdown" style="display: none;" x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="pr-[26rem] transform z-50 ring-1 ring-inset ring-white/5 focus:outline-none">
                             <div class="bg-white border-t w-screen flex justify-center lg:mt-0">
                                 <!-- Mobile Back Button -->
