@@ -24,7 +24,8 @@ const sortedPosts = allPosts
 const tags = [...new Set(allPosts.flatMap((post) => post.data.tags ?? []))].slice(0, 30);
 
 // Preload the LCP hero image (first post)
-const lcpImageUrl = sortedPosts[0]?.data?.image?.url;
+const firstPostImage = sortedPosts[0]?.data?.image;
+const lcpImageUrl = typeof firstPostImage === 'string' ? firstPostImage : firstPostImage?.url;
 ---
 
 <BaseLayout3>
