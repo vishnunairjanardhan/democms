@@ -1,5 +1,6 @@
 ---
 pubDate: 2026-01-22
+updatedDate: 2026-02-01
 author: Piyush
 authorImg: "Piyush.webp"
 title: "Top 10 Omnichannel Customer Loyalty Programs [2026]"
