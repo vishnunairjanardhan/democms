@@ -145,12 +145,12 @@ const scrollRight = () => {
       </div>
 
       {/* Tags */}
-      <div className="relative lg:mt-12 mt-6 w-full flex items-center lg:px-8 px-10">
+      <div className="relative lg:mt-12 mt-6 w-full flex items-center lg:px-10 px-10">
       
       {/* Left Arrow */}
       <button
         onClick={scrollLeft}
-        className="absolute lg:-left-3 -left-0 z-10 bg-white border shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6]"
+        className="absolute lg:-left-0 -left-0 z-10 bg-white border shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6]"
       >
         <span className="text-md font-semibold">‹</span>
       </button>
@@ -178,7 +178,7 @@ const scrollRight = () => {
       {/* Right Arrow */}
       <button
         onClick={scrollRight}
-        className="absolute lg:-right-3 -right-0 z-10 bg-white border border-gray-300 shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6] transition">
+        className="absolute lg:-right-0 -right-0 z-10 bg-white border border-gray-300 shadow-sm rounded-lg px-3 py-1 text-[#667085] hover:bg-[#F9F5FF] hover:border-[#6941C6] hover:text-[#6941C6] transition">
         <span className="text-md font-semibold">›</span>
       </button>
     </div>
