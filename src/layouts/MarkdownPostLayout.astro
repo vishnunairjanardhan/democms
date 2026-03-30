@@ -104,41 +104,31 @@ const articleSchemaString = JSON.stringify(articleSchema, null, 2);
 
    <!-- ✅ Astro SEO Component -->
   <AstroSeo
-    title={frontmatter.title || ""}
-    description={frontmatter.description || ""}
-    canonical={frontmatter?.url || ""}
-    openGraph={{
-      url: frontmatter?.url || "",
-      title: frontmatter.openGraphTitle || frontmatter.title || "",
-      description:
-        frontmatter.openGraphDescription || frontmatter.description || "",
-      images: [
-        {
-          url: frontmatter.image
-            ? "https://www.99minds.io" + frontmatter.image.url
-            : "",
-          width: 1200,
-          height: 630,
-          alt: frontmatter.image ? frontmatter.image.alt : "",
-          type: "image/webp",
-        },
-      ],
-      site_name: "99minds",
-    }}
-    twitter={{
-      site: "@99minds_io",
-      cardType: "summary_large_image",
-    }}
-    linkedin={{
-      title: frontmatter.openGraphTitle || frontmatter.title || "",
-      description:
-        frontmatter.openGraphDescription || frontmatter.description || "",
-      image: frontmatter.image
-        ? "https://www.99minds.io" + frontmatter.image.url
-        : "",
-      url: frontmatter?.url || "",
-    }}
-  />
+  title={frontmatter.title || ""}
+  description={frontmatter.description || ""}
+  canonical={frontmatter?.url || ""}
+  openGraph={{
+    url: frontmatter?.url || "",
+    title: frontmatter.openGraphTitle || frontmatter.title || "",
+    description:
+      frontmatter.openGraphDescription || frontmatter.description || "",
+    images: frontmatter.image?.url
+      ? [
+          {
+            url: `https://www.99minds.io${frontmatter.image.url}`,
+            width: 1200,
+            height: 630,
+            alt: frontmatter.image.alt || "Blog Image",
+          },
+        ]
+      : [],   // ✅ EMPTY ARRAY instead of ""
+    site_name: "99minds",
+  }}
+  twitter={{
+    site: "@99minds_io",
+    cardType: "summary_large_image",
+  }}
+/>
 
 </head>
 
