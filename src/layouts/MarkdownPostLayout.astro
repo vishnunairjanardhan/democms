@@ -96,39 +96,46 @@ const articleSchemaString = JSON.stringify(articleSchema, null, 2);
 ---
 
 <head>
-  <!-- ✅ Proper JSON-LD injection -->
+  <!-- JSON-LD -->
   <meta name="keywords" content={frontmatter.keywords} />
   <script type="application/ld+json" set:html={blogPostSchemaString}></script>
   <script type="application/ld+json" set:html={breadcrumbSchemaString}></script>
   <script type="application/ld+json" set:html={articleSchemaString}></script>
 
-   <!-- ✅ Astro SEO Component -->
+  <!-- Astro SEO -->
   <AstroSeo
-  title={frontmatter.title || ""}
-  description={frontmatter.description || ""}
-  canonical={frontmatter?.url || ""}
-  openGraph={{
-    url: frontmatter?.url || "",
-    title: frontmatter.openGraphTitle || frontmatter.title || "",
-    description:
-      frontmatter.openGraphDescription || frontmatter.description || "",
-    images: frontmatter.image?.url
-      ? [
-          {
-            url: `https://www.99minds.io${frontmatter.image.url}`,
-            width: 1200,
-            height: 630,
-            alt: frontmatter.image.alt || "Blog Image",
-          },
-        ]
-      : [],   // ✅ EMPTY ARRAY instead of ""
-    site_name: "99minds",
-  }}
-  twitter={{
-    site: "@99minds_io",
-    cardType: "summary_large_image",
-  }}
-/>
+    title={frontmatter.title || ""}
+    description={frontmatter.description || ""}
+    canonical={frontmatter?.url || ""}
+    openGraph={{
+      url: frontmatter?.url || "",
+      title: frontmatter.openGraphTitle || frontmatter.title || "",
+      description:
+        frontmatter.openGraphDescription || frontmatter.description || "",
+      images: frontmatter.image?.url
+        ? [
+            {
+              url: `https://www.99minds.io${frontmatter.image.url}`,
+              width: 1200,
+              height: 630,
+              alt: frontmatter.image.alt || "Blog Image",
+            },
+          ]
+        : [],
+      site_name: "99minds",
+    }}
+    twitter={{
+      site: "@99minds_io",
+      cardType: "summary_large_image",
+    }}
+  />
+
+  {frontmatter.image?.url && (
+    <meta
+      property="og:image"
+      content={`https://www.99minds.io${frontmatter.image.url}`}
+    />
+  )}
 
 </head>
 
