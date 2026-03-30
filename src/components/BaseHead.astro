@@ -8,19 +8,27 @@ const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://www.googletagmanager.com">
 
-<!-- Google Tag Manager -->
-<script is:inline>
-window.dataLayer = window.dataLayer || [];
-(function(w,d,s,l,i){
-  w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-  var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
-  j.async=true;
-  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-  f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WWJJGX6');
+<!-- Preconnects for faster 3rd-party handshakes -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="preconnect" href="https://assets.calendly.com" crossorigin>
+<link rel="preconnect" href="https://connect.facebook.net" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Google Tag Manager (off main thread via Partytown) -->
+<script type="text/partytown">
+  (function(w,d,s,l,i){
+    w[l]=w[l]||[];
+    w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+    var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
+    j.async=true;
+    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+    f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WWJJGX6');
 </script>
 
-<!-- Consent Script (delayed) -->
+<!-- Consent Script (lazy after load) -->
 <script>
 window.addEventListener("load", () => {
   setTimeout(() => {
@@ -32,10 +40,10 @@ window.addEventListener("load", () => {
 });
 </script>
 
-<!-- Meta -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!-- Meta Tags -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 <!-- Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
@@ -47,41 +55,53 @@ window.addEventListener("load", () => {
 <meta name="theme-color" content="#ffffff">
 
 <!-- Sitemap -->
-<link rel="sitemap" href="/sitemap-index.xml">
+<link rel="sitemap" href="/sitemap-index.xml" />
 
+<!-- AOS CSS (non-blocking) -->
+<link
+  rel="preload"
+  href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+/>
+<noscript>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</noscript>
 
-<!-- Google Fonts (non-blocking) -->
+<!-- Fonts (non-blocking) -->
 <link
   rel="preload"
   as="style"
   href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap"
   onload="this.onload=null;this.rel='stylesheet'"
->
+/>
 <noscript>
 <link rel="stylesheet"
 href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap">
 </noscript>
 
-<!-- Alpine (deferred) -->
+<!-- Alpine.js (deferred) -->
 <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
 <script defer src="https://unpkg.com/@alpinejs/focus@3.10.3/dist/cdn.min.js"></script>
 <script defer src="https://unpkg.com/@alpinejs/ui@3.10.3-beta.3/dist/cdn.min.js"></script>
 
-<!-- Calendly (lazy CSS + Partytown JS) -->
+<!-- Calendly (non-blocking CSS + off main thread JS) -->
 <link
-rel="preload"
-as="style"
-href="https://assets.calendly.com/assets/external/widget.css"
-onload="this.onload=null;this.rel='stylesheet'"
->
+  rel="preload"
+  as="style"
+  href="https://assets.calendly.com/assets/external/widget.css"
+  onload="this.onload=null;this.rel='stylesheet'"
+/>
 <noscript>
-<link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
+  <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
 </noscript>
 
-<script type="text/partytown"
-src="https://assets.calendly.com/assets/external/widget.js"></script>
+<script
+  type="text/partytown"
+  src="https://assets.calendly.com/assets/external/widget.js"
+></script>
 
-<!-- Facebook Pixel -->
+<!-- Facebook Pixel (already using Partytown – good) -->
 <script type="text/partytown">
 !function(f,b,e,v,n,t,s){
 if(f.fbq)return;
@@ -98,12 +118,38 @@ fbq('track','PageView');
 </script>
 
 <!-- JSON-LD -->
+
+<!-- JSON-LD -->
 <script type="application/ld+json">
-{
-"@context":"https://schema.org",
-"@type":"Organization",
-"name":"99minds.io",
-"url":"https://www.99minds.io",
-"logo":"https://www.99minds.io/logos/99minds-logo-b.svg"
-}
+  [{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "99minds.io",
+    "description": "99minds is an omnichannel gift card and loyalty management platform for DTC and eCommerce brands.",
+    "url": "https://www.99minds.io",
+    "logo": "https://www.99minds.io/logos/99minds-logo-b.svg",
+    "foundingDate": "2019-01-01",
+    "founder": [
+      { "@type": "Person", "name": "Pravin", "sameAs": "https://www.linkedin.com/in/pravinkamble/" },
+      { "@type": "Person", "name": "Mrudul Tarwatkar", "sameAs": "https://www.linkedin.com/in/mrudult/" }
+    ],
+    "address": [{
+      "@type": "PostalAddress",
+      "addressLocality": "New York",
+      "postalCode": "10022",
+      "streetAddress": "750 Lexington Ave, NY 10022, United States",
+      "addressCountry": "US"
+    }],
+    "sameAs": [
+      "https://www.linkedin.com/company/loyalty-promotions-and-giftcard/",
+      "https://www.youtube.com/@99mindsio",
+      "https://x.com/99minds_io",
+      "https://www.facebook.com/99minds.io/",
+      "https://www.99minds.io/"
+    ]
+  }]
 </script>
+
+<noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=224706030671856&ev=PageView&noscript=1"/>
+</noscript>
