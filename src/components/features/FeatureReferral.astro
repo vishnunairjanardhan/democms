@@ -1,11 +1,16 @@
-
+---
+import { Image } from "astro:assets";
+import myImage from "../../assets/referral/referral_widget.webp";
+import myImage1 from "../../assets/referral/social_sharing.webp";
+import myImage2 from "../../assets/referral/reward_referral.webp";
+import myImage3 from "../../assets/referral/social_sharing.webp";
+---
 <section class="relative bg-[#FEFCF5]">
   <div class="mx-auto lg:text-center px-8 lg:pt-[72px]">
-        <h2 class="font-medium">
-          Key Features
-        </h2>
-        
-        </div>
+    <h2 class="font-medium">
+      Key Features
+    </h2>
+  </div>
   <div class="relative px-8 py-12 mx-auto max-w-7xl md:px-12 lg:px-16 lg:py-[72px]  md:space-y-24 space-y-5">
    <div class="grid grid-cols-1 gap-12 xl:grid-cols-2 lg:gap-24  items-center mt-6">
       <div class=" ">
@@ -15,15 +20,17 @@
         <p class="mt-4">Customize your referral widget and referral page to perfectly </br> match your brand for a seamless customer experience.</p>
         <div class="gap-3 mt-10">
           </div>
-          
       </div>
       
       <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          loading="lazy"
-          class="rounded-2xl w-full"
-          src="/assets/referral/referral-widget1.webp"
+        <Image
+            src={myImage}
+            alt="Referral Widget"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={100}
+            loading="lazy"
         />
       </div>
     </div>
@@ -40,11 +47,14 @@
             </div>
       </div>
       <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          loading="lazy"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/referral/social-sharing1.webp"
+        <Image
+            src={myImage1}
+            alt="Sharing & Referral Links"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={100}
+            loading="lazy"
         />
       </div>
     </div>
@@ -57,11 +67,14 @@
         <p class="mt-4">Offer flexible rewards like loyalty points, store credit, discounts, or gift cards to motivate both referrers and referred customers.</p>
       </div>
       <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          loading="lazy"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/referral/reward-referral1.webp"
+       <Image
+            src={myImage2}
+            alt="Reward Your Customers"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={100}
+            loading="lazy"
         />
       </div>
     </div>
@@ -77,11 +90,14 @@
             </div>
       </div>
       <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          loading="lazy"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/referral/promote-referral1.webp"
+        <Image
+            src={myImage3}
+            alt="Referral Program"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={100}
+            loading="lazy"
         />
       </div>
     </div>
