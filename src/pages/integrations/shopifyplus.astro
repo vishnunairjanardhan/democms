@@ -20,6 +20,7 @@ import { AstroSeo } from "@astrolib/seo";
 
 ---
 
+<Fragment slot="head">
 <AstroSeo
   title="99minds and Shopify Plus integration | 99minds",
   description="Integrate 99minds with Shopify Plus to launch omnichannel gift cards, store credits, and loyalty programs that boost retention and drive revenue.",
@@ -50,9 +51,8 @@ import { AstroSeo } from "@astrolib/seo";
     cardType: "summary_large_image",
   }}
 />
-<head>
-  <meta name="robots" content="noindex, nofollow">
-</head>
+<meta name="robots" content="noindex, nofollow">
+</Fragment>
 <BaseLayout3>
   <IntegrationSection config={shopifyplusConfig} client:load  />
   <ClientLogoScroller />

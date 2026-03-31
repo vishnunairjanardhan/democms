@@ -7,6 +7,7 @@ import HeroWall from "../components/heros/HeroWall.astro";
 ---
 
 <BaseLayout3>
+<Fragment slot="head">
 <AstroSeo
   title="Best Gift Card Software - Easily Create Gift Card Programs"
   description="99minds is a powerful, customizable gifting solution to help ecommerce, SMBs, & retailer merchants deliver a seamless omnichannel gift card experience. Try now; sign up for free!"
@@ -39,6 +40,7 @@ import HeroWall from "../components/heros/HeroWall.astro";
     cardType: "summary_large_image",
   }}
 />
+</Fragment>
 <HeroWall/>
 <GiftCardWall client:load />
 </BaseLayout3>

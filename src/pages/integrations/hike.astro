@@ -24,6 +24,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
 -->
 
 <BaseLayout3>
+<Fragment slot="head">
 <AstroSeo
   title="99minds and Hike integration | 99minds"
   description="Add the leading omnichannel gift card and loyalty program app to your Hike POS. Boost customer retention and increase revenue."
@@ -47,6 +48,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
+</Fragment>
   <!-- ✅ Hero gets only its props -->
   <HeroIntegration {...hero} client:load />
   <!--<LogoCloudOne />-->
