@@ -26,6 +26,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
 -->
 
 <BaseLayout3>
+<Fragment slot="head">
 <AstroSeo
   title="99minds and Appbrew integration | 99minds",
   description="Integrate 99minds with Appbrew to power mobile-first loyalty programs and gift cards that boost retention and increase repeat revenue.",
@@ -56,6 +57,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
+</Fragment>
   <IntegrationSection config={appbrewConfig} client:load  />
   <ClientLogoScroller />
   <FeatureAppbrew2 />

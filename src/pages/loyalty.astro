@@ -20,6 +20,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
 -->
 
 <BaseLayout3>
+<Fragment slot="head">
 <AstroSeo
   title="Omnichannel Loyalty Program software | 99minds"
   description="Build everlasting customer loyalty and lifetime value with our powerful and easy to use loyalty program software built for growing businesses."
@@ -30,7 +31,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     description: "Build everlasting customer loyalty and lifetime value with our powerful and easy to use loyalty program software built for growing businesses.",
     images: [
       {
-        url: "https://www.99minds.io/assets/loyalty/Loyalty-banner-2.png ",
+        url: "https://www.99minds.io/assets/loyalty/Loyalty-banner1.webp",
         alt: "99minds Loyalty Program",
         type: "image/png",
       }
@@ -41,7 +42,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     url: "https://www.99minds.io/loyalty",
     images: [
       {
-        url: "https://www.99minds.io/assets/assets/loyalty/Loyalty-banner-2.png",
+        url: "https://www.99minds.io/assets/loyalty/Loyalty-banner1.webp",
         alt: "99minds Loyalty Program",
         type: "image/png",
       }
@@ -50,6 +51,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
+</Fragment>
   <HeroSection {...loyaltyConfig} client:load />
   <ClientLogoScroller />
   <FeatureLoyalty1 />
