@@ -5,6 +5,7 @@ import { AstroSeo } from "@astrolib/seo";
 ---
 
 <BaseLayout3>
+<Fragment slot="head">
 <AstroSeo
   title="Free Gift Card Code Generator | 99minds"
   description="Generate and export personalized gift card codes to use in your marketing promotions and campaigns. If you need an end-to-end promotion management tool, try 99minds."
@@ -35,5 +36,6 @@ import { AstroSeo } from "@astrolib/seo";
     cardType: "summary_large_image",
   }}
 />
+</Fragment>
   <CouponGenerator client:load>
 </BaseLayout3>

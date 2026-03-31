@@ -8,10 +8,11 @@ import HeroSection from "../components/shadcn-studio/blocks/hero-section-38/hero
 import PostHog from '../components/posthog.astro'
 ---
 
-<html lang="en" class="scroll-smooth selection:bg-indigo-500 selection:text-white">
+<html lang="en" class="scroll-smooth selection:bg-indigo-500 selection:text-white" prefix="og: http://ogp.me/ns#">
   <head>
     <BaseHead />
     <PostHog />
+    <slot name="head" />
   </head>
   <body class="bg-white">
     <noscript>
