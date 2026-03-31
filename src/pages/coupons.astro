@@ -16,6 +16,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
 -->
 
 <BaseLayout3>
+<Fragment slot="head">
 <AstroSeo
   title="Bulk, Dynamic & Personalized Coupons Generation For Your Store | 99minds"
   description="99minds coupon marketing software lets you efficiently create millions of randomly generated personalised coupons to acquire and engage the right customers."
@@ -26,7 +27,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     description: "99minds coupon marketing software lets you efficiently create millions of randomly generated personalised coupons to acquire and engage the right customers.",
     images: [
       {
-        url: "/assets/coupons/coupon-banner2.webp",
+        url: "https://www.99minds.io/assets/coupons/coupon-banner2.webp",
         alt: "Coupons",
         type: "image/png",
       }
@@ -37,7 +38,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     url: "https://www.99minds.io/coupons",
     images: [
       {
-        url: "/assets/coupons/coupon-banner2.webp",
+        url: "https://www.99minds.io/assets/coupons/coupon-banner2.webp",
         alt: "Coupons",
         type: "image/png",
       }
@@ -46,6 +47,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     cardType: "summary_large_image",
   }}
 />
+</Fragment>
   <HeroSection {...couponConfig} client:load />
   <ClientLogoScroller />
   <FeatureCoupons />

@@ -9,13 +9,15 @@ import { Seo } from "../../config/Seo";
 <!---
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
-<AstroSeo
-  title="Customers"
-  description="Your site description goes here"
-  canonical="https://www.99minds.io/customers/customers"
-  {...Seo}
-/>
 <BaseLayout>
+  <Fragment slot="head">
+    <AstroSeo
+      title="Customers"
+      description="Your site description goes here"
+      canonical="https://www.99minds.io/customers/customers"
+      {...Seo}
+    />
+  </Fragment>
   <CustomerHome />
   <CtaSeven />
 </BaseLayout>
