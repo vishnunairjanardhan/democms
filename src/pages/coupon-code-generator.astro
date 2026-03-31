@@ -5,6 +5,7 @@ import { AstroSeo } from "@astrolib/seo";
 ---
 
 <BaseLayout3>
+<Fragment slot="head">
 <AstroSeo
   title="Free Coupon Code Generator | 99minds"
   description="Generate unique and effective coupon codes for free! Enhance your business with quick and easy discount solutions that attract and retain customers."
@@ -15,7 +16,7 @@ import { AstroSeo } from "@astrolib/seo";
     description: "Generate unique and effective coupon codes for free! Enhance your business with quick and easy discount solutions that attract and retain customers.",
     images: [
       {
-        url: "/assets/99minds-logo1.svg",
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
         alt: "Social open graph",
         type: "image/svg",
       }
@@ -26,7 +27,7 @@ import { AstroSeo } from "@astrolib/seo";
     url: "https://www.99minds.io/coupons-code-generator",
     images: [
       {
-        url: "/assets/99minds-logo1.svg",
+        url: "https://www.99minds.io/assets/99minds-logo1.svg",
         alt: "Social open graph",
         type: "image/png",
       }
@@ -35,5 +36,6 @@ import { AstroSeo } from "@astrolib/seo";
     cardType: "summary_large_image",
   }}
 />
+</Fragment>
   <CouponGenerator client:load>
 </BaseLayout3>

@@ -6,12 +6,14 @@ import { Seo } from "../config/Seo";
 ---
 
 <BaseLayout3>
+  <Fragment slot="head">
   <AstroSeo
     title="99minds GDPR Compliance | Ensuring Data Privacy & Security"
     description="Learn how 99minds ensures GDPR compliance with robust policies, secure data processing, and user data rights."
     canonical="https://www.99minds.io/99minds-gdpr-compliance"
     {...Seo}
   />
+  </Fragment>
 
   <!-- Loads after page becomes idle -->
   <GDPR />

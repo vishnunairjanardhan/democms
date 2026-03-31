@@ -15,6 +15,7 @@ import { AstroSeo } from "@astrolib/seo";
 
 
 <BaseLayout3>
+<Fragment slot="head">
 <AstroSeo
   title="99minds | Multi-Currency Gift Card Solution for Shopify"
   description="Explore the world’s first multi-currency gift card solution for Shopify. Sell and Redeem globally, reduce checkout friction, and unlock new revenue with 99minds."
@@ -25,7 +26,7 @@ import { AstroSeo } from "@astrolib/seo";
     description: "Explore the world’s first multi-currency gift card solution for Shopify. Sell and Redeem globally, reduce checkout friction, and unlock new revenue with 99minds.",
     images: [
       {
-        url: "https://www.99minds.io//assets/multicurrency/multi_currency.webp",
+        url: "https://www.99minds.io/assets/multicurrency/multi_currency.webp",
         alt: "Multicurrency Gift Card",
         type: "image/webp",
       }
@@ -47,6 +48,7 @@ import { AstroSeo } from "@astrolib/seo";
     cardType: "summary_large_image",
   }}
 />
+</Fragment>
   <HeroMulticurrency />
   <ClientLogoScroller />
   <FeatureMulticurrency />
