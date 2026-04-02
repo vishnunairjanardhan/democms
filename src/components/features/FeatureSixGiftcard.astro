@@ -1,3 +1,10 @@
+---
+import { Image } from "astro:assets";
+import myImage from "../../assets/loyalty/customloyalty_1.webp";
+import myImage1 from "../../assets/giftcard/pos.webp";
+import myImage2 from "../../assets/giftcard/analyse.webp";
+import myImage3 from "../../assets/giftcard/schedule_delivery.webp";
+---
 <section class="relative bg-[#FEFCF5]">
   
         <div class="mx-auto lg:text-center px-8 lg:pt-[72px]">
@@ -18,10 +25,14 @@
       </div>
       
       <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          class="rounded-2xl <!---shadow-2xl---> shadow-vulcan-950/50 w-full"
-          src="/assets/giftcard/customizable_gc.webp"
+        <Image
+            src={myImage}
+            alt="Gift Card Templates"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={100}
+            loading="lazy"
         />
       </div>
     </div>
@@ -35,10 +46,14 @@
         </p>
       </div>
       <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/giftcard/pos.webp"
+        <Image
+            src={myImage1}
+            alt="POS"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={100}
+            loading="lazy"
         />
       </div>
     </div>
@@ -51,10 +66,14 @@
          <p class="mt-4 text-[#4b4b4b]">Keep an eye on customer data and gift card usage. Track and analyse the entire gift card life cycle, from issuance to order-level redemption. Use this data to break down user behaviour and set up engaging campaigns.</p> 
       </div>
       <div class="h-full">
-        <img
-          alt="Lexington thumbnail"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/giftcard/analyse.webp"
+        <Image
+            src={myImage2}
+            alt="Analyse Gift Card Data"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={100}
+            loading="lazy"
         />
       </div>
     </div>
@@ -78,10 +97,14 @@
         </ul>
       </div>
       <div class="h-full">
-        <img
-          alt="Schedule Delivery"
-          class="rounded-2xl shadow-vulcan-950/50 w-full"
-          src="/assets/giftcard/schedule_delivery.webp"
+        <Image
+            src={myImage3}
+            alt="Schedule Delivery"
+            widths={[400, 800, 1200]}
+            sizes="(max-width: 1024px) 90vw, 836px"
+            format="webp"
+            quality={100}
+            loading="lazy"
         />
       </div>
     </div>
