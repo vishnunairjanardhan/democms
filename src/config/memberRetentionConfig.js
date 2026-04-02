@@ -1,4 +1,10 @@
 // src/config/membershipFeaturesConfig.js
+import img1 from "../assets/membership/membership.webp";
+import img2 from "../assets/membership/automate.webp";
+import img3 from "../assets/membership/one_system.webp";
+import img4 from "../assets/membership/wallet_pass.webp";
+import img5 from "../assets/membership/MP-work.webp";
+
 
 export const membershipFeaturesConfig = {
   sectionTitle: "Everything You Need to Build a Thriving Membership Program",
@@ -10,7 +16,7 @@ export const membershipFeaturesConfig = {
       title: "Flexible Membership Management",
       description:
         "Create and manage memberships effortlessly. Add or edit plans directly from the Membership tab. Define pricing, duration, and perks with complete control.",
-      img: "/assets/membership/membership.webp",
+      img: img1,
       alt: "Flexible Membership Management",
       orientation: "right",
     },
@@ -24,7 +30,7 @@ export const membershipFeaturesConfig = {
         "Notify members before expiry or renewal.",
         "Send perks or store credits automatically.",
       ],
-      img: "/assets/membership/automate.webp",
+      img: img2,
       alt: "Automate Loyalty, Rewards & Renewals",
       orientation: "left",
     },
@@ -33,7 +39,7 @@ export const membershipFeaturesConfig = {
       title: "Combine Store Credit, Loyalty & Memberships in One System",
       description:
         "Give members more value in fewer clicks. Offer instant store credit, cashback, and tier-based perks under one unified platform, fully synced with your eCommerce and POS systems.",
-      img: "/assets/membership/one_system.webp",
+      img: img3,
       alt: "Combine Store Credit, Loyalty & Memberships in One System",
       orientation: "right",
     },
@@ -47,7 +53,7 @@ export const membershipFeaturesConfig = {
         "Send personalized notifications to customer's phones.",
         "Keep your brand top-of-mind and in their pocket."
       ],
-      img: "/assets/membership/wallet_pass.webp",
+      img: img4,
       alt: "MemberPass with Google & Apple Wallet Integration",
       orientation: "left",
     },
