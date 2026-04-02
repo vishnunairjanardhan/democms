@@ -5,9 +5,10 @@ import ContactWidget from "../components/forms/ContactWidget.astro";
 import FooterAdd from "../components/global/FooterAdd.astro";
 ---
 
-<html lang="en" class="scroll-smooth selection:bg-indigo-500 selection:text-white">
+<html lang="en" class="scroll-smooth selection:bg-indigo-500 selection:text-white" prefix="og: http://ogp.me/ns#">
   <head>
     <BaseHead />
+    <slot name="head" />
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
