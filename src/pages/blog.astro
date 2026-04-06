@@ -79,9 +79,9 @@ const lcpImageUrl = typeof firstPostImage === 'string' ? firstPostImage : firstP
         </h1>
       </div>
 
-      {/* Use client:load so the blog grid hydrates immediately — it's the primary page content */}
-      <BlogWithSearch client:load sortedPosts={sortedPosts} tags={tags} />
-      <CaseStudyTabNew client:visible/>
+      {/* Prefer render during visibility for faster FCP/LCP on mobile */}
+      <BlogWithSearch client:visible sortedPosts={sortedPosts} tags={tags} />
+      <CaseStudyTabNew />
     </div>
   </section>
 
