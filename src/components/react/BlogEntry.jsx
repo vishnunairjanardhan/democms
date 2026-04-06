@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const BlogEntry = ({ title, url, description, pubDate, author, image, authorImage }) => {
+const BlogEntry = ({ title, url, description, pubDate, author, image, authorImage, isPriority = false }) => {
   return <div
     className="group flex md:flex-col">
     <a href={url} title={title} aria-label={`Read more about ${title}`}>
@@ -13,9 +13,9 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
             alt={title}
             width="1200"
             height="675"
-            fetchpriority="high"
-            loading="eager"
-            decoding="sync"
+            loading={isPriority ? "eager" : "lazy"}
+            fetchpriority={isPriority ? "high" : "auto"}
+            decoding="async"
           />
         </div>
       </div>

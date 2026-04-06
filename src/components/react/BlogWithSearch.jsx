@@ -28,6 +28,7 @@ const BlogGrid = ({ blogs }) => {
           author={blogs[0].data.author}
           image={blogs[0].data.image}
           authorImage={blogs[0].data.authorImage}
+          isPriority={true}
         />
       </div>
 
