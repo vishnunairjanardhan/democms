@@ -1,5 +1,5 @@
 import React from "react";
-
+ import { Image } from "astro:assets";
 export default function FeatureSection({ sectionTitle, features }) {
   return (
     <section className="relative bg-[#FEFCF5]">
@@ -66,9 +66,10 @@ export default function FeatureSection({ sectionTitle, features }) {
               <div className="h-full">
                 <img
                   alt={feature.alt}
-                  src={feature.img}
-                  className="rounded-2xl shadow-vulcan-950/50 w-[550px]"
+                  src={feature.img?.src || feature.img}
+                  className="rounded-2xl shadow-vulcan-950/50 w-full w-[550px] h-auto object-cover"
                   loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>

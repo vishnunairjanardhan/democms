@@ -1,42 +1,48 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import img1 from "../../assets/giftcard/bulk-giftcard1.webp";
+import img2 from "../../assets/giftcard/import-migration1.webp";
+import img3 from "../../assets/giftcard/multi-currency1.webp";
+import img4 from "../../assets/giftcard/multi-store1.webp";
+import img5 from "../../assets/giftcard/refund-giftcard1.webp";
+import img6 from "../../assets/giftcard/schedule_delivery.webp";
 
 const featuresData = [
   {
     title: "Create Gift Cards In Bulk",
     description:
       "Need thousands of gift cards? Create 1000 gift cards at once with 99minds.",
-    image: "/assets/giftcard/bulk-giftcard1.webp",
+    image: img1,
   },
   {
     title: "Seamless Migration and Import",
     description:
       "We help you migrate from any existing gift card software to <br /> 99minds and even import existing gift card balances.",
-    image: "/assets/giftcard/import-migration1.webp",
+    image: img2,
   },
   {
     title: "Multiple Currency Support",
     description:
       "Get support for 100+ currencies, including USD, CAD, EUR, GBP, KRW, JPY, CNY and more.",
-    image: "/assets/giftcard/multi-currency1.webp",
+    image: img3,
   },
   {
     title: "Multi-store",
     description:
       "Gift card can be used at multiple stores and provide valuable customer spending insights through analytics.",
-    image: "/assets/giftcard/multi-store1.webp",
+    image: img4,
   },
   {
     title: "Manage Returns with Gift Cards",
     description:
       "Issue gift cards on merchandise returns or update the balance in an existing gift card.",
-    image: "/assets/giftcard/refund-giftcard1.webp",
+    image: img5,
   },
   {
     title: "Gift Cards Delivery For Special Occasions",
     description:
       "Schedule gift card delivery on special occasions like birthdays, anniversaries, Christmas, Hanukkah or any other.",
-    image: "/assets/giftcard/schedule_delivery.webp",
+    image: img6,
   },
 ];
 
@@ -124,27 +130,16 @@ export default function GiftCardFeatures() {
           </div>
 
           {/* Right: Image */}
-          <div className="flex-1 w-full md:w-1/2 relative overflow-hidden">
+          <div className="flex-1 w-full md:w-1/2 relative overflow-hidden mx-auto justify-center place-items-center">
             <AnimatePresence mode="wait">
               <motion.img
-                key={`img-${activeIndex}`}
-                src={
-                  activeIndex >= 0
-                    ? featuresData[activeIndex].image
-                    : featuresData[0].image
-                }
-                alt={
-                  activeIndex >= 0
-                    ? featuresData[activeIndex].title
-                    : featuresData[0].title
-                }
-                className="rounded-2xl w-auto lg:h-[450px] object-cover"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.4 }}
-                loading="lazy"
-              />
+                  key={`img-${activeIndex}`}
+                  src={featuresData[activeIndex]?.image?.src || featuresData[activeIndex]?.image}
+                  alt={featuresData[activeIndex]?.title}
+                  className="rounded-2xl w-auto h-[250px] md:h-[350px] lg:h-[450px] object-cover"
+                  loading="lazy"
+                  decoding="async"
+                />
             </AnimatePresence>
           </div>
         </div>
