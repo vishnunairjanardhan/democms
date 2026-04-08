@@ -8,6 +8,21 @@ let adminHtml = '';
 
 try {
   adminHtml = readFileSync(adminHtmlPath, 'utf-8');
+  
+  // Inject Tina configuration before the closing body tag
+  // This ensures the admin app has access to the API endpoint and token
+  const tinaConfig = `
+  <script>
+    window.__TINA__ = {
+      clientId: '${process.env.NEXT_PUBLIC_TINA_CLIENT_ID || ''}',
+      token: '${process.env.TINA_TOKEN || ''}',
+      branch: '${process.env.GITHUB_BRANCH || 'main'}',
+    };
+  </script>
+  `;
+  
+  // Insert the config before closing body tag
+  adminHtml = adminHtml.replace('</body>', tinaConfig + '</body>');
 } catch (error) {
   console.error('Failed to read Tina admin HTML:', error);
   adminHtml = '';
