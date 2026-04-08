@@ -9,13 +9,18 @@ import CaseStudyTabNew from "../components/features/CaseStudyTabNew.astro";
 const allPosts = await getCollection("posts");
 
 const sortedPosts = allPosts
-  .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
+  .sort((a, b) => {
+    const aDate = a.data.lastUpdated || a.data.pubDate;
+    const bDate = b.data.lastUpdated || b.data.pubDate;
+    return new Date(bDate) - new Date(aDate);
+  })
   .map((post) => ({
     slug: post.slug,
     data: {
       heading: post.data.heading,
       description: (post.data.description ?? "").slice(0, 140),
       pubDate: new Date(post.data.pubDate).toLocaleDateString(),
+      lastUpdated: post.data.lastUpdated ? new Date(post.data.lastUpdated).toLocaleDateString() : null,
       image: post.data.image?.url ?? (typeof post.data.image === 'string' ? post.data.image : post.data.image?.src),
     },
   }));

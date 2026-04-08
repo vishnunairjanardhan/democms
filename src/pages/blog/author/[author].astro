@@ -15,7 +15,11 @@ export async function getStaticPaths() {
   return uniqueAuthors.map((author) => {
     const filteredPosts = allPosts
       .filter((post) => post.data.author === author)
-      .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate));
+      .sort((a, b) => {
+        const aDate = a.data.lastUpdated || a.data.pubDate;
+        const bDate = b.data.lastUpdated || b.data.pubDate;
+        return new Date(bDate) - new Date(aDate);
+      });
 
     const tags = [...new Set(filteredPosts.map((post) => post.data.tags).flat())];
 

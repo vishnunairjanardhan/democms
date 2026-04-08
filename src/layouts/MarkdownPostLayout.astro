@@ -30,7 +30,7 @@ const blogPostSchema = clean({
     },
   },
   datePublished: new Date(frontmatter.pubDate).toISOString(),
-  dateModified: new Date(frontmatter.pubDate).toISOString(),
+  dateModified: new Date(frontmatter.lastUpdated || frontmatter.pubDate).toISOString(),
 });
 
 const blogPostSchemaString = JSON.stringify(blogPostSchema, null, 2);
@@ -89,7 +89,7 @@ const articleSchema = clean({
     },
   },
   datePublished: new Date(frontmatter.pubDate).toISOString(),
-  dateModified: new Date(frontmatter.pubDate).toISOString(),
+  dateModified: new Date(frontmatter.lastUpdated || frontmatter.lastUpdated || frontmatter.lastUpdated || frontmatter.pubDate).toISOString(),
 });
 
 const articleSchemaString = JSON.stringify(articleSchema, null, 2);
@@ -208,6 +208,18 @@ const articleSchemaString = JSON.stringify(articleSchema, null, 2);
                     day: "numeric",
                   })}
                 </time>
+                {frontmatter.lastUpdated && (
+                  <time
+                    class="flex text-vulcan-700 text-sm mt-1"
+                    datetime={new Date(frontmatter.lastUpdated).toISOString()}
+                  >
+                    Last Updated: {new Date(frontmatter.lastUpdated).toLocaleDateString(undefined, {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </time>
+                )}
               </div>
             </a>
 

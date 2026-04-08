@@ -23,6 +23,11 @@ export async function getStaticPaths() {
 
     const filteredPosts = allPosts
       .filter((post) => post.data.tags.includes(tag))
+      .sort((a, b) => {
+        const aDate = a.data.lastUpdated || a.data.pubDate;
+        const bDate = b.data.lastUpdated || b.data.pubDate;
+        return new Date(bDate) - new Date(aDate);
+      })
       .map((post) => ({
         slug: post.slug,
         data: {
