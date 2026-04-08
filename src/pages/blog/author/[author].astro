@@ -5,11 +5,11 @@ import BaseLayout3 from "../../../layouts/BaseLayout3.astro";
 import BlogWithSearch from "../../../components/react/AuthorBlogPage.jsx";
 import CtaThree99minds from "../../../components/ctas/CtaThree99minds.astro";
 import CaseStudyTabNew from "../../../components/features/CaseStudyTabNew.astro";
-import { authors } from "../../../config/authorConfig.js"; // ✅ import author config
 
 // Generate static paths
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
+  const allAuthors = await getCollection("authors");
   const uniqueAuthors = [...new Set(allPosts.map((post) => post.data.author).filter(Boolean))];
 
   return uniqueAuthors.map((author) => {
@@ -22,21 +22,21 @@ export async function getStaticPaths() {
       });
 
     const tags = [...new Set(filteredPosts.map((post) => post.data.tags).flat())];
+    const authorData = allAuthors.find((a) => a.id === author || a.data.name === author)?.data || {};
 
-    return { params: { author }, props: { posts: filteredPosts, tags } };
+    return { params: { author }, props: { posts: filteredPosts, tags, authorData } };
   });
 }
 
 const { author } = Astro.params;
-const { posts, tags } = Astro.props;
+const { posts, tags, authorData } = Astro.props;
 
-// Fetch author details from config
-const authorDetails = authors[author] || {};
-const authorImg = authorDetails.img ? `/assets/testimonial/${authorDetails.img}` : "/assets/default-author.png";
-const authorBio = authorDetails.bio || "";
-const authorDesignation = authorDetails.designation || "";
-const linkedinUrl = authorDetails.social?.linkedin;
-const twitterUrl = authorDetails.social?.twitter;
+// Author details from CMS-managed JSON
+const authorImg = authorData.img || "/assets/default-author.png";
+const authorBio = authorData.bio || "";
+const authorDesignation = authorData.designation || "";
+const linkedinUrl = authorData.linkedin;
+const twitterUrl = authorData.twitter;
 
 const pageTitle = `${author} - Author at 99minds Blog`;
 const pageDescription = `Explore all articles written by ${author} — discover insights, strategies, and ideas from the 99minds blog.`;

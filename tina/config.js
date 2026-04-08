@@ -1,4 +1,6 @@
 import { defineConfig } from "tinacms";
+import { authors } from "../src/config/authorConfig.js";
+import { AuthorImgField } from "./AuthorImgField.jsx";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -6,6 +8,12 @@ const branch =
   process.env.VERCEL_GIT_COMMIT_REF ||
   process.env.HEAD ||
   "main";
+
+// Build author dropdown options from authorConfig
+const authorOptions = Object.keys(authors).map((name) => ({
+  value: name,
+  label: name,
+}));
 
 export default defineConfig({
   branch,
@@ -19,21 +27,64 @@ export default defineConfig({
     outputFolder: "admin",
     publicFolder: "public",
   },
-  // Uncomment to allow cross-origin requests from non-localhost origins
-  // during local development (e.g. GitHub Codespaces, Gitpod, Docker).
-  // Use 'private' to allow all private-network IPs (WSL2, Docker, etc.)
-  // server: {
-  //   allowedOrigins: ['https://your-codespace.github.dev'],
-  // },
   media: {
     tina: {
       mediaRoot: "",
       publicFolder: "public",
     },
   },
-  // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/r/content-modelling-collections/
   schema: {
     collections: [
+      {
+        name: "authors",
+        label: "Authors",
+        path: "src/content/authors",
+        format: "json",
+        ui: {
+          filename: {
+            readonly: true,
+            slugify: (values) => values?.name || "author",
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            name: "name",
+            label: "Name",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "image",
+            name: "img",
+            label: "Profile Photo",
+            required: true,
+          },
+          {
+            type: "string",
+            name: "designation",
+            label: "Designation",
+          },
+          {
+            type: "string",
+            name: "bio",
+            label: "Bio",
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "string",
+            name: "linkedin",
+            label: "LinkedIn URL",
+          },
+          {
+            type: "string",
+            name: "twitter",
+            label: "Twitter / X URL",
+          },
+        ],
+      },
       {
         name: "posts",
         label: "Blog Posts",
@@ -78,12 +129,16 @@ export default defineConfig({
             name: "author",
             label: "Author",
             required: true,
+            options: authorOptions,
           },
           {
             type: "string",
             name: "authorImg",
             label: "Author Image",
             required: true,
+            ui: {
+              component: AuthorImgField,
+            },
           },
           {
             type: "object",
