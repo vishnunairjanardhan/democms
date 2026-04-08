@@ -56,7 +56,11 @@ const BlogWithSearch = ({ sortedPosts, tags }) => {
               {post.data.description}
             </p>
             <p className="text-xs text-gray-400 mt-2">
-              {new Date(post.data.pubDate).toLocaleDateString()}
+              {post.data.lastUpdated ? (
+                <>Updated: {new Date(post.data.lastUpdated).toLocaleDateString()}</>
+              ) : (
+                <>{new Date(post.data.pubDate).toLocaleDateString()}</>
+              )}
             </p>
             <a
               href={`/blog/${post.slug}`}

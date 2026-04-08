@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Blogs = ({ title, url, description, pubDate, author, image, authorImage }) => {
+const Blogs = ({ title, url, description, pubDate, lastUpdated, author, image, authorImage }) => {
   return <div
     className="group flex md:flex-col">
     <a href={url} title={title}>
@@ -18,7 +18,11 @@ const Blogs = ({ title, url, description, pubDate, author, image, authorImage })
       </div>
       <div className="py-8">
         <p>
-          <time className="text-xs text-vulcan-800" datetime={pubDate}>{pubDate}</time>
+          {lastUpdated ? (
+            <time className="text-xs text-vulcan-800" datetime={lastUpdated}>Updated: {lastUpdated}</time>
+          ) : (
+            <time className="text-xs text-vulcan-800" datetime={pubDate}>{pubDate}</time>
+          )}
         </p>
         <h3 className="mt-5 text-lg font-medium leading-6 ">
           {title}

@@ -113,6 +113,11 @@ const BlogWithSearch = ({ sortedPosts = [], tags = [] }) => {
                   month: "long",
                   day: "numeric",
                 })}
+                lastUpdated={post.data.lastUpdated ? new Date(post.data.lastUpdated).toLocaleDateString(undefined, {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                }) : null}
                 author={post.data.author}
                 image={post.data.image.url}
               />

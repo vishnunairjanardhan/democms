@@ -11,6 +11,7 @@ const LatestBlogGrid = ({ blogs }) => {
           description={post.data.description}
           alt={post.data.heading}
           pubDate={new Date(post.data.pubDate).toLocaleDateString()}
+          lastUpdated={post.data.lastUpdated ? new Date(post.data.lastUpdated).toLocaleDateString() : null}
           image={post.data.image?.url || "/default-image.jpg"}
         />
       ))}

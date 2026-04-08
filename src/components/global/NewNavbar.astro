@@ -5,7 +5,9 @@ import Blogs from '../react/BlogHighlight.jsx';
 
 const allPosts = await getCollection("posts");
 const sortedPosts = allPosts.sort((a, b) => {
-  return new Date(b.data.pubDate) - new Date(a.data.pubDate);
+  const aDate = a.data.lastUpdated || a.data.pubDate;
+  const bDate = b.data.lastUpdated || b.data.pubDate;
+  return new Date(bDate) - new Date(aDate);
 });
 
 ---
