@@ -1,0 +1,37 @@
+---
+import { readFileSync } from 'fs';
+import path from 'path';
+
+// Read the generated Tina admin HTML file
+const adminHtmlPath = path.join(process.cwd(), 'public/admin/index.html');
+let adminHtml = '';
+
+try {
+  adminHtml = readFileSync(adminHtmlPath, 'utf-8');
+} catch (error) {
+  console.error('Failed to read Tina admin HTML:', error);
+  adminHtml = '';
+}
+
+if (adminHtml) {
+  return new Response(adminHtml, {
+    status: 200,
+    headers: {
+      'Content-Type': 'text/html; charset=utf-8',
+    },
+  });
+}
+---
+
+<html lang="en">
+  <head>
+    <title>Tina CMS Admin</title>
+  </head>
+  <body>
+    <div style="padding: 40px; text-align: center; font-family: sans-serif;">
+      <h1>Tina CMS Admin Not Found</h1>
+      <p>The Tina admin assets have not been built yet.</p>
+      <p>Run <code>npm run tina:build</code> to generate the admin interface.</p>
+    </div>
+  </body>
+</html>
