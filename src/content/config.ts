@@ -5,6 +5,7 @@ const postsCollection = defineCollection({
       title: z.string(),
       heading: z.string(),
       pubDate: z.date(),
+      lastUpdated: z.date().optional(),
       description: z.string(),
       author: z.string(),
       authorImg: z.string(),
@@ -17,6 +18,20 @@ const postsCollection = defineCollection({
       url: z.string()
     })
  });
+
+const authorsCollection = defineCollection({
+  type: "data",
+  schema: z.object({
+    name: z.string(),
+    img: z.string(),
+    bio: z.string().optional(),
+    designation: z.string().optional(),
+    twitter: z.string().optional(),
+    linkedin: z.string().optional(),
+  }),
+});
+
 export const collections = {
   posts: postsCollection,
+  authors: authorsCollection,
 };

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const BlogEntry = ({ title, url, description, pubDate, author, image, authorImage, isPriority = false }) => {
+const BlogEntry = ({ title, url, description, pubDate, lastUpdated, author, image, authorImage, isPriority = false }) => {
   return <div
     className="group flex md:flex-col">
     <a href={url} title={title} aria-label={`Read more about ${title}`}>
@@ -21,7 +21,11 @@ const BlogEntry = ({ title, url, description, pubDate, author, image, authorImag
       </div>
       <div className="py-8">
         <p>
-          <time className="text-xs text-vulcan-800" datetime={pubDate}>{pubDate}</time>
+          {lastUpdated ? (
+            <time className="text-xs text-vulcan-800" datetime={lastUpdated}>Updated: {lastUpdated}</time>
+          ) : (
+            <time className="text-xs text-vulcan-800" datetime={pubDate}>{pubDate}</time>
+          )}
         </p>
         <h2 className="mt-5 text-3xl font-medium leading-10 ">
           {title}

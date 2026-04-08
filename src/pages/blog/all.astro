@@ -8,7 +8,11 @@ import BlogWithSearch from "../../components/react/AllBlogs.jsx";
 const allPosts = await getCollection("posts");
 
 const sortedPosts = allPosts
-  .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
+  .sort((a, b) => {
+    const aDate = a.data.lastUpdated || a.data.pubDate;
+    const bDate = b.data.lastUpdated || b.data.pubDate;
+    return new Date(bDate) - new Date(aDate);
+  })
   .map((post) => ({
     slug: post.slug,
     data: {
@@ -16,6 +20,7 @@ const sortedPosts = allPosts
       title: post.data.title,
       description: post.data.description,
       pubDate: post.data.pubDate,
+      lastUpdated: post.data.lastUpdated,
       author: post.data.author,
       tags: post.data.tags,
       image: {
