@@ -2,7 +2,7 @@
 keywords:
   - Shopify Store Credit apps
 title: 8 Best Shopify Store Credit apps in 2026
-heading: 8 Best Store Credit apps for Shopify in 2026
+heading: 8 Best Store Credit apps for Shopify in 2028
 pubDate: 2025-12-05T00:00:00.000Z
 lastUpdated: 2026-04-08T07:01:59.490Z
 description: 'Discover the 8 best store credit apps for Shopify in 2026. Boost retention, increase repeat purchases, and offer flexible credits across online & offline stores.'
