@@ -6,8 +6,11 @@ import { AuthorImgField } from "./AuthorImgField.jsx";
 const branch =
   process.env.GITHUB_BRANCH ||
   process.env.VERCEL_GIT_COMMIT_REF ||
-  process.env.HEAD ||
-  "main";
+  process.env.HEAD;
+
+if (!branch) {
+  throw new Error("No branch configured. Set GITHUB_BRANCH, VERCEL_GIT_COMMIT_REF, or HEAD environment variable.");
+}
 
 // Build author dropdown options from authorConfig
 const authorOptions = Object.keys(authors).map((name) => ({
