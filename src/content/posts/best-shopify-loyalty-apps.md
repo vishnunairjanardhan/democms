@@ -1,8 +1,8 @@
 ---
 keywords:
   - Shopify loyalty apps
-title: 12 Best Shopify Loyalty Apps for 2027
-heading: 12 Best Shopify Loyalty Apps for 2026
+title: 12 Best Shopify Loyalty Apps for 2026
+heading: 12 Best Shopify Loyalty Apps for 2027
 pubDate: 2025-12-19T00:00:00.000Z
 description: 'Looking to boost customer retention in 2026? Check out the 12 best Shopify loyalty apps for seamless rewards, gamification, and engagement strategies.'
 author: Piyush
