@@ -13,6 +13,7 @@ image:
   alt: featured image for blog Shopify Store Credit apps
 tags:
   - Store Credit
+  - Shopify
 url: 'https://www.99minds.io/blog/best-shopify-store-credit-apps'
 ---
 
