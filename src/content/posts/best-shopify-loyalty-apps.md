@@ -33,66 +33,6 @@ url: 'https://www.99minds.io/blog/best-shopify-loyalty-apps'
 </ul>
 </div>
 
-`<Fragment slot="head">`
-
-`<script type="application/ld+json">`
-
-`{`
-
-`  "@context": "https://schema.org",`
-
-`  "@type": "FAQPage",`
-
-`  "mainEntity": [{`
-
-`    "@type": "Question",`
-
-`    "name": "What is a loyalty program?",`
-
-`    "acceptedAnswer": {`
-
-`      "@type": "Answer",`
-
-`      "text": "By definition, a customer loyalty program is a marketing approach that recognizes and rewards customers who purchase or engage with a brand on a recurring basis. A company may dole out points or perks, and graduate customers to higher levels of loyalty the more they buy."`
-
-`    }`
-
-`  },{`
-
-`    "@type": "Question",`
-
-`    "name": "What are the types of loyalty programs?",`
-
-`    "acceptedAnswer": {`
-
-`      "@type": "Answer",`
-
-`      "text": "This can be stressful and overwhelming with so many options to choose from:`
-
-`- Points-based loyalty programs.`
-
-`- Tiered loyalty programs.`
-
-`- Subscription-based loyalty programs.`
-
-`- Cashback and rebate loyalty programs.`
-
-`- Referral-based loyalty programs.`
-
-`- Coalition loyalty programs.`
-
-`- Hybrid loyalty programs."`
-
-`    }`
-
-`  }]`
-
-`}`
-
-`</script>`
-
-`</Fragment>`
-
 If you want more <a href="https://www.99minds.io/blog/repeat-purchases" role="link" target=_blanck>repeat purchases</a>, higher customer lifetime value, and a dependable way to retain shoppers without relying heavily on paid ads, a strong <a href="https://www.99minds.io/blog/loyalty-program" role="link" target="_blanck">loyalty program</a> is one of the smartest moves a Shopify brand can make.
 
 As competition grows across ecommerce and physical retail, focusing only on customer acquisition is no longer sustainable. Brands that win long term are the ones that invest in retention and build meaningful relationships with their customers. For Shopify merchants selling through both online stores and brick-and-mortar locations, loyalty has become a core growth strategy rather than a nice-to-have.
