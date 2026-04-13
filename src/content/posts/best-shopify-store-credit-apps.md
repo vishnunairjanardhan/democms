@@ -47,7 +47,7 @@ To help you make the right choice, here are the eight best shopify store credit 
 
 <h2 id="1">8 Best Shopify Store Credit Apps for DTC Brands</h2>
 
-### 1. 99minds Gift Card & Loyalty
+1\. 99minds Gift Card & Loyalty
 
 <div class="m-auto w-full lg:px-33">
     <img loading="lazy" role="img" src="/assets/blog/99minds-store-credit-app.webp" alt="99minds shopify store credit app">
