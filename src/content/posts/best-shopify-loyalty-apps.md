@@ -16,29 +16,6 @@ tags:
 url: 'https://www.99minds.io/blog/best-shopify-loyalty-apps'
 ---
 
-<Fragment slot="head">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What is the best Shopify gift card app in 2026?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "The best Shopify gift card app depends on your needs. For an all-in-one platform that combines gift cards, loyalty, store credit, and referrals, 99minds is the top choice. For pure store credit automation, Rise.ai is excellent. For a completely free cashback solution, Kash is hard to beat. For bulk operations, Gift Card Factory leads the pack."
-    }
-  },{
-    "@type": "Question",
-    "name": "What is the best Shopify gift card app with a loyalty program in 2026?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "99minds stands as the best Shopify gift card app with a built-in loyalty program. It combines digital and physical gift cards with points-based loyalty, VIP tiers, referrals, and store credit—all connected through Shopify POS and digital wallet support. Rise.ai is a strong second if you prefer a loyalty program built around store credit rather than points."
-    }
-  }]
-}
-</script>
-</Fragment>
 <div class="lg:flex lg:gap-6">
   <!-- Table of content section -->
   <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
